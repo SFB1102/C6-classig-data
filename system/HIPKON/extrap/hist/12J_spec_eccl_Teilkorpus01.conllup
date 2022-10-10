@@ -1,0 +1,165 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC Antec CAT CLEAN EDITION FOKUS GF IS Kommentar MovElem PHRASE POS SATZKLAMMER SATZSTATUS Sprache TOPF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# PTBstring = (VROOT(S(AVP(ADV do))(VP(VMFIN w%olte))(NP(PPER er))(VP(PP(APPR in)(ADJA aller)(NN erſte))(VVINF enbietin)(NP(PPOSAT ſine)(NN kvnft)(PUNKT .)))))
+# TopFString = (S(VF(ADV do))(LK(VMFIN w%olte))(MF(PPER er)(APPR in)(ADJA aller)(NN erſte))(VC(VVINF enbietin))(NF(PPOSAT ſine)(NN kvnft))(PUNKT .))
+# text = do w%olte er in aller erſte enbietin ſine kvnft.
+1	do	_	_	ADV	_	_	_	_	_	_	ADVP	do	06,09	_	ADVB	_	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	_	B-VF	04r,01	_	_
+2	w%olte	_	_	VMFIN	_	_	_	_	_	_	VP	w%olte	06,09	_	VFIN	_	_	_	O	VMFIN	LI	MAINDECL	_	B-LK	04r,01	_	_
+3	er	_	_	PPER	_	_	_	_	_	_	NP	er	06,09	_	SUBJ	_	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	_	B-MF	04r,01	_	_
+4	in	_	_	APPR	_	_	_	_	_	_	PP	in	06,09	NF	PP-ADV	_	_	B-PP-insitu	B-PP	APPR	_	MAINDECL	_	I-MF	04r,01	_	_
+5	aller	_	_	ADJA	_	_	_	_	_	_	PP	aller	06,09	NF	PP-ADV	_	_	I-PP	I-PP	ADJ	_	MAINDECL	_	I-MF	04r,01	_	_
+6	erſte	_	_	NN	_	_	_	_	_	_	PP	erſte	06,09	NF	PP-ADV	_	_	I-PP	I-PP	ADJOS	_	MAINDECL	_	I-MF	04r,01	_	_
+7	enbietin	_	_	VVINF	_	_	_	_	_	_	VP	enbietin	06,09	NF	INF	_	_	_	O	VVINF	RE	MAINDECL	_	B-RK	04r,01	_	_
+8	ſine	_	_	PPOSAT	_	_	_	_	_	_	NP	ſine	06,09	NF	DO	ACC-INF_	_	B-NP-extrap	B-NP	DPOS	_	MAINDECL	_	B-NF	04r,01	UNLINK	_
+9	kvnft	_	_	NN	_	_	_	_	_	_	NP	kvnft	06,09	NF	DO	_ACC-ABSTR-UNUSED	_	I-NP	I-NP	NA	_	MAINDECL	_	I-NF	04r,01	UNLINK	_
+10	.	_	_	$.	_	_	_	_	_	_	_	.	06,09	_	_	_	_	_	I-NP	$_	_	MAINDECL	_	O	04r,01	_	_
+
+# sent_id = 2
+# PTBstring = (VROOT(S(NP(CARD zwêne)(NN v%ôzze))(VP(VMFIN ſol))(VP(VAINF haben))(NP(ART ein)(PIAT ieglich)(NN menni%sch)(PUNKT .))))
+# TopFString = (S(VF(CARD zwêne)(NN v%ôzze))(LK(VMFIN ſol))(VC(VAINF haben))(NF(ART ein)(PIAT ieglich)(NN menni%sch))(PUNKT .))
+# text = zwêne v%ôzze ſol haben ein ieglich menni%sch.
+1	zwêne	_	_	CARD	_	_	_	_	_	_	NP	zwêne	07,10; -chente	_	DO	_	_	B-NP-insitu	B-NP	CARD	_	MAINDECL	_	B-VF	04v,20	_	_
+2	v%ôzze	_	_	NN	_	_	_	_	_	_	NP	v%ôzze	07,11	_	DO	_	_	I-NP	I-NP	NA	_	MAINDECL	_	I-VF	04v,20	_	_
+3	ſol	_	_	VMFIN	_	_	_	_	_	_	VP	ſol	07,11	_	VFIN	_	_	_	O	VMFIN	LI	MAINDECL	_	B-LK	04v,20	_	_
+4	haben	_	_	VAINF	_	_	_	_	_	_	VP	haben	07,11	_	INF	_	_	_	O	VAINF	RE	MAINDECL	_	B-RK	04v,20	_	_
+5	ein	_	_	ART	_	_	_	_	_	_	NP	ein	07,11	BGR	SUBJ	ACC-GEN-UNUSED	_	B-NP-extrap	B-NP	DIA	_	MAINDECL	_	B-NF	04v,20	UNLINK	_
+6	ieglich	_	_	PIAT	_	_	_	_	_	_	NP	ieglich	07,11	BGR	SUBJ	ACC-GEN-UNUSED	_	I-NP	I-NP	DI	_	MAINDECL	_	I-NF	04v,20	UNLINK	_
+7	menni%sch	_	_	NN	_	_	_	_	_	_	NP	menni%sch	07,11	BGR	SUBJ	ACC-GEN-UNUSED	menni%sch: s zwischen i und c übergeschrieben und mit einem Häkchen gekennzeichnet	I-NP	I-NP	NA	_	MAINDECL	_	I-NF	04v,20	UNLINK	_
+8	.	_	_	$.	_	_	_	_	_	_	_	.	07,11	_	_	_	_	_	I-NP	$_	_	MAINDECL	_	O	04v,20	_	_
+
+# sent_id = 3
+# PTBstring = (VROOT(S(NP(PPER Si))(VP(VAFIN ſint))(NP(PIS alle))(VP(VVPP gneiget)(PUNKT .)(PP(APPR an)(ART daz)(NN vbil)(PUNKT .)))))
+# TopFString = (S(VF(PPER Si))(LK(VAFIN ſint))(MF(PIS alle))(VC(VVPP gneiget))(PUNKT .)(NF(APPR an)(ART daz)(NN vbil))(PUNKT .))
+# text = Si ſint alle gneiget. an daz vbil.
+1	Si	_	_	PPER	_	_	_	_	_	_	NP	Si	08,03	_	SUBJ	_	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	Übersetzung	B-VF	05r,20	_	_
+2	ſint	_	_	VAFIN	_	_	_	_	_	_	VP	ſint	08,03	_	VFIN	_	_	_	O	VAFIN	LI	MAINDECL	Übersetzung	B-LK	05r,20	_	_
+3	alle	_	_	PIS	_	_	_	_	_	_	NP	alle	08,03	_	SUBJ	_	_	B-NP-insitu	B-NP	DIS	_	MAINDECL	Übersetzung	B-MF	05r,20	_	_
+4	gneiget	_	_	VVPP	_	_	_	_	_	_	VP	gneiget	08,03	NF	INF	_	_	_	O	VVPP	RE	MAINDECL	Übersetzung	B-RK	05r,21	_	_
+5	.	_	_	$.	_	_	_	_	_	_	_	.	08,03	NF	_	_	_	_	O	$_	_	MAINDECL	Übersetzung	O	05r,21	_	_
+6	an	_	_	APPR	_	_	_	_	_	_	PP	an	08,03	NF	PP-OBJ	_	_	B-PP-extrap	B-PP	APPR	_	MAINDECL	Übersetzung	B-NF	05r,21	UNLINK	_
+7	daz	_	_	ART	_	_	_	_	_	_	PP	daz	08,03	NF	PP-OBJ	ACC-ABSTR-UNUSED	_	I-PP	I-PP	DDA	_	MAINDECL	Übersetzung	I-NF	05r,21	UNLINK	_
+8	vbil	_	_	NN	_	_	_	_	_	_	PP	vbil	08,03	NF	PP-OBJ	ACC-ABSTR-UNUSED	_	I-PP	I-PP	NA	_	MAINDECL	Übersetzung	I-NF	05r,21	UNLINK	_
+9	.	_	_	$.	_	_	_	_	_	_	_	.	08,03	_	_	_	_	_	I-PP	$_	_	MAINDECL	Übersetzung	O	05r,21	_	_
+
+# sent_id = 4
+# PTBstring = (VROOT(S(AVP(ADV Nv))(VP(VAFIN habet))(NP(PPER ir))(VP(VVPP vernômen)(NP(ART div)(CARD zwei)(NN dinch)(PUNKT .))(S(NP(PRELS dei))(NP(PPER in))(NP(ART der)(NN wiſſage))(VP(VVFIN gehiez))(PUNKT .)))))
+# TopFString = (S(VF(ADV Nv))(LK(VAFIN habet))(MF(PPER ir))(VC(VVPP vernômen))(NF(ART div)(CARD zwei)(NN dinch))(PUNKT .)(C(PRELS dei))(MF(PPER in)(ART der)(NN wiſſage))(VC(VVFIN gehiez))(PUNKT .))
+# text = Nv habet ir vernômen div zwei dinch. dei in der wiſſage gehiez.
+1	Nv	_	_	ADV	_	_	_	_	_	_	ADVP	Nv	08,12	_	ADVB	_	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	_	B-VF	05v,08; -dechlichen	_	_
+2	habet	_	_	VAFIN	_	_	_	_	_	_	VP	habet	08,12	_	VFIN	_	_	_	O	VAFIN	LI	MAINDECL	_	B-LK	05v,08; -dechlichen	_	_
+3	ir	_	_	PPER	_	_	_	_	_	_	NP	ir	08,12	_	SUBJ	_	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	_	B-MF	05v,08; -dechlichen	_	_
+4	vernômen	_	_	VVPP	_	_	_	_	_	_	VP	vernômen	08,12	_	INF	_	_	_	O	VVPP	RE	MAINDECL	_	B-RK	05v,08; -dechlichen	_	_
+5	div	_	_	ART	_	_	_	_	_	B-Antec-1	NP	div	08,12	NF	DO	ACC-INF	_	B-NP-extrap	B-NP	DDA	_	MAINDECL	_	B-NF	05v,08; -dechlichen	UNLINK	KOREF1-REL
+6	zwei	_	_	CARD	_	_	_	_	_	I-Antec	NP	zwei	08,12	NF	DO	ACC-INF	_	I-NP	I-NP	CARD	_	MAINDECL	_	I-NF	05v,09	UNLINK	KOREF1-REL
+7	dinch	_	_	NN	_	_	_	_	_	I-Antec-Head	NP	dinch	08,13	NF	DO	ACC-INF	_	I-NP	I-NP	NA	_	MAINDECL	_	I-NF	05v,09	UNLINK	KOREF1-REL
+8	.	_	_	$.	_	_	_	_	_	_	_	.	08,13	NF	_	_	_	_	I-NP	$_	_	MAINDECL	_	O	05v,09	UNLINK	_
+9	dei	_	_	PRELS	_	_	_	_	_	_	CP	dei	08,13	NF	ATTR	_	_	B-RELC-insitu-1|B-NP-insitu	B-NP	DDSREL	_	MAINDECL	_	B-LK	05v,09	UNLINK	KOREF2-REL
+10	in	_	_	PPER	_	_	_	_	_	_	CP	in	08,13	NF	ATTR	_	_	I-RELC|B-NP-insitu	B-NP	PPER	_	MAINDECL	_	B-MF	05v,09	UNLINK	_
+11	der	_	_	ART	_	_	_	_	_	_	CP	der	08,13	NF	ATTR	_	_	I-RELC|B-NP-insitu	B-NP	DDA	_	MAINDECL	_	I-MF	05v,09	UNLINK	_
+12	wiſſage	_	_	NN	_	_	_	_	_	_	CP	wiſſage	08,13	NF	ATTR	_	_	I-RELC|I-NP	I-NP	NA	_	MAINDECL	_	I-MF	05v,09	UNLINK	_
+13	gehiez	_	_	VVFIN	_	_	_	_	_	_	CP	gehiez	08,13	NF	ATTR	_	_	I-RELC	O	VVFIN	_	MAINDECL	_	B-RK	05v,09	UNLINK	_
+14	.	_	_	$.	_	_	_	_	_	_	_	.	08,13	_	_	_	_	_	O	$_	_	MAINDECL	_	O	05v,09	_	_
+
+# sent_id = 5
+# PTBstring = (VROOT(S(NP(PPER ich))(VP(VAFIN han))(VP(PPER iv)(VVPP gelêret)(NP(ART den)(ADJA rehtin)(NN wech)(PUNKT .)))))
+# TopFString = (S(VF(PPER ich))(LK(VAFIN han))(MF(PPER iv))(VC(VVPP gelêret))(NF(ART den)(ADJA rehtin)(NN wech))(PUNKT .))
+# text = ich han iv gelêret den rehtin wech.
+1	ich	_	_	PPER	_	_	_	_	_	_	NP	ich	08,22	_	SUBJ	_	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	Übersetzung	B-VF	05v,22	_	_
+2	han	_	_	VAFIN	_	_	_	_	_	_	VP	han	08,23	_	VFIN	_	_	_	O	VAFIN	LI	MAINDECL	Übersetzung	B-LK	05v,22	_	_
+3	iv	_	_	PPER	_	_	_	_	_	_	NP	iv	08,23	_	IO-DAT	_	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	Übersetzung	B-MF	05v,22	_	_
+4	gelêret	_	_	VVPP	_	_	_	_	_	_	VP	gelêret	08,23	_	INF	_	_	_	O	VVPP	RE	MAINDECL	Übersetzung	B-RK	05v,22	_	_
+5	den	_	_	ART	_	_	_	_	_	_	NP	den	08,23	NF	DO	GIV-INACTIVE	_	B-NP-extrap	B-NP	DDA	_	MAINDECL	Übersetzung	B-NF	05v,22	UNLINK	KOREF1
+6	rehtin	_	_	ADJA	_	_	_	_	_	_	NP	rehtin	08,23	NF	DO	GIV-INACTIVE	_	I-NP	I-NP	ADJ	_	MAINDECL	Übersetzung	I-NF	05v,22	UNLINK	KOREF1
+7	wech	_	_	NN	_	_	_	_	_	_	NP	wech	08,23	NF	DO	GIV-INACTIVE	_	I-NP	I-NP	NA	_	MAINDECL	Übersetzung	I-NF	05v,22	UNLINK	KOREF1
+8	.	_	_	$.	_	_	_	_	_	_	_	.	08,23	_	_	_	_	_	I-NP	$_	_	MAINDECL	Übersetzung	O	05v,22	_	_
+
+# sent_id = 6
+# PTBstring = (VROOT(S(PP(APPR An)(ART dem)(ADJA ſelbem)(NN ſtîge)(PUNKT .))(VP(VMFIN ſchvln))(NP(PPER wir))(VP(VVINF ſpringen)(PUNKT .)(NP(KOKOM alſo)(ART ein)(NN hîrz)))(PUNKT .)))
+# TopFString = (S(VF(APPR An)(ART dem)(ADJA ſelbem)(NN ſtîge))(PUNKT .)(LK(VMFIN ſchvln))(MF(PPER wir))(VC(VVINF ſpringen))(PUNKT .)(NF(KOKOM alſo)(ART ein)(NN hîrz))(PUNKT .))
+# text = An dem ſelbem ſtîge. ſchvln wir ſpringen. alſo ein hîrz.
+1	An	_	_	APPR	_	_	_	_	_	_	PP	An	09,08	_	PP-ADV	_	_	B-PP-insitu	B-PP	APPR	_	MAINDECL	_	B-VF	06r,21	_	_
+2	dem	_	_	ART	_	_	_	_	_	_	PP	dem	09,08	_	PP-ADV	_	_	I-PP	I-PP	DDA	_	MAINDECL	_	I-VF	06r,21	_	_
+3	ſelbem	_	_	ADJA	_	_	_	_	_	_	PP	ſelbem	09,08	_	PP-ADV	_	_	I-PP	I-PP	ADJ	_	MAINDECL	_	I-VF	06r,21	_	_
+4	ſtîge	_	_	NN	_	_	_	_	_	_	PP	ſtîge	09,08	_	PP-ADV	_	_	I-PP	I-PP	NA	_	MAINDECL	_	I-VF	06r,21	_	_
+5	.	_	_	$.	_	_	_	_	_	_	_	.	09,08	_	_	_	_	_	I-PP	$_	_	MAINDECL	_	O	06r,22; -ge	_	_
+6	ſchvln	_	_	VMFIN	_	_	_	_	_	_	VP	ſchvln	09,08	_	VFIN	_	_	_	O	VMFIN	LI	MAINDECL	_	B-LK	06r,22; -ge	_	_
+7	wir	_	_	PPER	_	_	_	_	_	_	NP	wir	09,08	_	SUBJ	_	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	_	B-MF	06r,22; -ge	_	_
+8	ſpringen	_	_	VVINF	_	_	_	_	_	_	VP	ſpringen	09,08	NF	INF	_	_	_	O	VVINF	RE	MAINDECL	_	B-RK	06r,22; -ge	_	_
+9	.	_	_	$.	_	_	_	_	_	_	_	.	09,09	NF	_	_	_	_	O	$_	_	MAINDECL	_	O	06r,22; -ge	_	_
+10	alſo	_	_	KOKOM	_	_	_	_	_	_	ADVP	alſo	09,09	NF	VGL	ACC-GEN-UNUSED	_	B-NP-extrap	B-NP	ADV	_	MAINDECL	_	B-NF	06r,22; -ge	UNLINK	_
+11	ein	_	_	ART	_	_	_	_	_	_	NP	ein	09,09	NF	VGL	ACC-GEN-UNUSED	_	I-NP	I-NP	DIA	_	MAINDECL	_	I-NF	06r,22; -ge	UNLINK	KOREF1
+12	hîrz	_	_	NN	_	_	_	_	_	_	NP	hîrz	09,09	NF	VGL	ACC-GEN-UNUSED	_	I-NP	I-NP	NA	_	MAINDECL	_	I-NF	06r,22; -ge	UNLINK	KOREF1
+13	.	_	_	$.	_	_	_	_	_	_	_	.	09,09	_	_	_	_	_	O	$_	_	MAINDECL	_	O	06r,22; -ge	_	_
+
+# sent_id = 7
+# PTBstring = (VROOT(S(AVP(ADV Alſo))(VP(VMFIN ſchuln))(NP(PPER wir))(VP(VVINF miden)(NP(ART die)(ADJA tiefin)(NN ſunte)(PUNKT .)))))
+# TopFString = (S(VF(ADV Alſo))(LK(VMFIN ſchuln))(MF(PPER wir))(VC(VVINF miden))(NF(ART die)(ADJA tiefin)(NN ſunte))(PUNKT .))
+# text = Alſo ſchuln wir miden die tiefin ſunte.
+1	Alſo	_	_	ADV	_	_	_	_	_	_	ADVP	Alſo	09,17	_	ADVB	_	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	_	B-VF	06v,10	_	_
+2	ſchuln	_	_	VMFIN	_	_	_	_	_	_	VP	ſchuln	09,17	_	VFIN	_	_	_	O	VMFIN	LI	MAINDECL	_	B-LK	06v,10	_	_
+3	wir	_	_	PPER	_	_	_	_	_	_	NP	wir	09,17	_	SUBJ	_	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	_	B-MF	06v,10	_	_
+4	miden	_	_	VVINF	_	_	_	_	_	_	VP	miden	09,17	NF	INF	_	_	_	O	VVINF	RE	MAINDECL	_	B-RK	06v,10	_	_
+5	die	_	_	ART	_	_	_	_	_	_	NP	die	09,17	NF	DO	ACC-ABSTR-UNUSED	_	B-NP-extrap	B-NP	DDA	_	MAINDECL	_	B-NF	06v,10	UNLINK	_
+6	tiefin	_	_	ADJA	_	_	_	_	_	_	NP	tiefin	09,17	NF	DO	ACC-ABSTR-UNUSED	_	I-NP	I-NP	ADJ	_	MAINDECL	_	I-NF	06v,11	UNLINK	_
+7	ſunte	_	_	NN	_	_	_	_	_	_	NP	ſunte	09,17	NF	DO	ACC-ABSTR-UNUSED	_	I-NP	I-NP	NA	_	MAINDECL	_	I-NF	06v,11	UNLINK	_
+8	.	_	_	$.	_	_	_	_	_	_	_	.	09,17	_	_	_	_	_	I-NP	$_	_	MAINDECL	_	O	06v,11	_	_
+
+# sent_id = 8
+# PTBstring = (VROOT(S(KON unde)(VP(VMFIN ſchuln))(VP(VVINF îlen)(PP(APPR zvͦ)(ART dem)(ADJA hohem)(NN himilriche)(PUNKT .)))))
+# TopFString = (S(KOORD(KON unde))(LK(VMFIN ſchuln))(VC(VVINF îlen))(NF(APPR zvͦ)(ART dem)(ADJA hohem)(NN himilriche))(PUNKT .))
+# text = unde ſchuln îlen zvͦ dem hohem himilriche.
+1	unde	_	_	KON	_	_	_	_	_	_	_	unde	09,17	_	_	_	_	_	O	KON	_	MAINDECL-ELLI	_	B-KOORD	06v,11	_	_
+2	ſchuln	_	_	VMFIN	_	_	_	_	_	_	VP	ſchuln	09,17	_	VFIN	_	_	_	O	VMFIN	LI	MAINDECL-ELLI	_	B-LK	06v,11	_	_
+3	îlen	_	_	VVINF	_	_	_	_	_	_	VP	îlen	09,18	NF	INF	_	_	_	O	VVINF	RE	MAINDECL-ELLI	_	B-RK	06v,11	_	_
+4	zvͦ	_	_	APPR	_	_	_	_	_	_	PP	zvͦ	09,18	NF	PP-DIR	_	_	B-PP-extrap	B-PP	APPR	_	MAINDECL-ELLI	_	B-NF	06v,11	UNLINK	_
+5	dem	_	_	ART	_	_	_	_	_	_	PP	dem	09,18	NF	PP-DIR	NEW	_	I-PP	I-PP	DDA	_	MAINDECL-ELLI	_	I-NF	06v,11	UNLINK	_
+6	hohem	_	_	ADJA	_	_	_	_	_	_	PP	hohem	09,18	NF	PP-DIR	NEW	_	I-PP	I-PP	ADJ	_	MAINDECL-ELLI	_	I-NF	06v,11	UNLINK	_
+7	himilriche	_	_	NN	_	_	_	_	_	_	PP	himilriche	09,18	NF	PP-DIR	NEW	_	I-PP	I-PP	NA	_	MAINDECL-ELLI	_	I-NF	06v,11	UNLINK	_
+8	.	_	_	$.	_	_	_	_	_	_	_	.	09,18	_	_	_	_	_	I-PP	$_	_	MAINDECL-ELLI	_	O	06v,12; -milriche	_	_
+
+# sent_id = 9
+# PTBstring = (VROOT(S(VP(VMFIN ſchuln))(VP(ADV danne)(VVINF loͮfen)(PP(APPR zvͦ)(ART dem)(ADJA lebintigim)(NN brunnen)(PUNKT .))(NP(ART dem)(ADJA heiligim)(NN criſt)(PUNKT .)))))
+# TopFString = (S(LK(VMFIN ſchuln))(MF(ADV danne))(VC(VVINF loͮfen))(NF(APPR zvͦ)(ART dem)(ADJA lebintigim)(NN brunnen)(PUNKT .)(ART dem)(ADJA heiligim)(NN criſt))(PUNKT .))
+# text = ſchuln danne loͮfen zvͦ dem lebintigim brunnen. dem heiligim criſt.
+1	ſchuln	_	_	VMFIN	_	_	_	_	_	_	VP	ſchuln	09,23	_	VFIN	_	_	_	O	VMFIN	LI	MAINDECL-ELLI	_	B-LK	06v,18	_	_
+2	danne	_	_	ADV	_	_	_	_	_	_	ADVP	danne	09,23	_	ADVB	_	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL-ELLI	_	B-MF	06v,18	_	_
+3	loͮfen	_	_	VVINF	_	_	_	_	_	_	VP	loͮfen	09,23	NF_	INF	_	_	_	O	VVINF	RE	MAINDECL-ELLI	_	B-RK	06v,18	_	_
+4	zvͦ	_	_	APPR	_	_	_	_	_	_	PP	zvͦ	09,23	NF_	PP-DIR	_	_	B-PP-extrap	B-PP	APPR	_	MAINDECL-ELLI	_	B-NF	06v,18	UNLINK	_
+5	dem	_	_	ART	_	_	_	_	_	_	PP	dem	09,23	NF_	PP-DIR	GIV-INACTIVE_	_	I-PP	I-PP	DDA	_	MAINDECL-ELLI	_	I-NF	06v,18	UNLINK	_
+6	lebintigim	_	_	ADJA	_	_	_	_	_	_	PP	lebintigim	09,23	NF_	PP-DIR	GIV-INACTIVE_	_	I-PP	I-PP	ADJ	_	MAINDECL-ELLI	_	I-NF	06v,19	UNLINK	_
+7	brunnen	_	_	NN	_	_	_	_	_	_	PP	brunnen	09,23	NF_	PP-DIR	GIV-INACTIVE_	_	I-PP	I-PP	NA	_	MAINDECL-ELLI	_	I-NF	06v,19	UNLINK	_
+8	.	_	_	$.	_	_	_	_	_	_	_	.	09,23	_	_	_	_	_	I-PP	$_	_	MAINDECL-ELLI	_	I-NF	06v,19	UNLINK	_
+9	dem	_	_	ART	_	_	_	_	_	_	PP	dem	09,23	NF_	APPOS	_GIV-INACTIVE	_	B-NP-extrap	B-NP	DDA	_	MAINDECL-ELLI	_	I-NF	06v,19	UNLINK	_
+10	heiligim	_	_	ADJA	_	_	_	_	_	_	PP	heiligim	09,23	NF_	APPOS	_GIV-INACTIVE	_	I-NP	I-NP	ADJ	_	MAINDECL-ELLI	_	I-NF	06v,19	UNLINK	_
+11	criſt	_	_	NN	_	_	_	_	_	_	PP	criſt	09,23	NF_	APPOS	_GIV-INACTIVE	_	I-NP	I-NP	NA	_	MAINDECL-ELLI	_	I-NF	06v,19	UNLINK	_
+12	.	_	_	$.	_	_	_	_	_	_	_	.	09,23	_	_	_	_	_	I-NP	$_	_	MAINDECL-ELLI	_	O	06v,19	_	_
+
+# sent_id = 10
+# PTBstring = (VROOT(S(AVP(ADV nv))(VP(VAFIN iſt))(VP(VVPP erv%ollet))(NP(ART div)(NN *fpͬphetîa)(PUNKT .))(S:RC(NP(PRELS daz))(NP(ART die)(ADJA heiligin)(NN wiſſage)(PUNKT .))(VP(VVFIN wiſſagtin))(PUNKT .))))
+# TopFString = (S(VF(ADV nv))(LK(VAFIN iſt))(VC(VVPP erv%ollet))(NF(ART div)(NN *fpͬphetîa)(PUNKT .)(C(PRELS daz))(MF(ART die)(ADJA heiligin)(NN wiſſage))(PUNKT .)(VC(VVFIN wiſſagtin)))(PUNKT .))
+# text = nv iſt erv%ollet div *fpͬphetîa. daz die heiligin wiſſage. wiſſagtin.
+1	nv	_	_	ADV	_	_	_	_	_	_	ADVP	nv	10,03	_	ADVB	_	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	_	B-VF	07r,13	_	_
+2	iſt	_	_	VAFIN	_	_	_	_	_	_	VP	iſt	10,03	_	VFIN	_	_	_	O	VAFIN	LI	MAINDECL	_	B-LK	07r,13	_	_
+3	erv%ollet	_	_	VVPP	_	_	_	_	_	_	VP	erv%ollet	10,03	_	INF	_	_	_	O	VVPP	RE	MAINDECL	_	B-RK	07r,13	_	_
+4	div	_	_	ART	_	_	_	_	_	B-Antec-1	NP	div	10,03	BGR	SUBJ	ACC-ABSTR-UNUSED	_	B-NP-extrap	B-NP	DDA	_	MAINDECL	_	B-NF	07r,13	UNLINK	KOREF1-REL
+5	*fpͬphetîa	_	_	NN	_	_	_	_	_	I-Antec-Head	NP	*fpͬphetîa	10,03	BGR	SUBJ	ACC-ABSTR-UNUSED	_	I-NP	I-NP	NA	_	MAINDECL	_	I-NF	07r,13	UNLINK	KOREF1-REL
+6	.	_	_	$.	_	_	_	_	_	_	_	.	10,03	BGR	_	_	_	_	I-NP	$_	_	MAINDECL	_	I-NF	07r,13	UNLINK	_
+7	daz	_	_	PRELS	_	_	_	_	_	_	CP	daz	10,03	BGR	ATTR	_	_	B-RELC-insitu-1|B-NP-insitu	B-NP	DDSREL	_	MAINDECL	_	I-NF|B-LK	07r,13	UNLINK	KOREF2-REL
+8	die	_	_	ART	_	_	_	_	_	_	CP	die	10,03	BGR	ATTR	_	_	I-RELC|B-NP-insitu	B-NP	DDA	_	MAINDECL	_	I-NF|B-MF	07r,13	UNLINK	_
+9	heiligin	_	_	ADJA	_	_	_	_	_	_	CP	heiligin	10,03	BGR	ATTR	_	_	I-RELC|I-NP	I-NP	ADJ	_	MAINDECL	_	I-NF|I-MF	07r,13	UNLINK	_
+10	wiſſage	_	_	NN	_	_	_	_	_	_	CP	wiſſage	10,03	BGR	ATTR	_	_	I-RELC|I-NP	I-NP	NA	_	MAINDECL	_	I-NF|I-MF	07r,13	UNLINK	_
+11	.	_	_	$.	_	_	_	_	_	_	CP	.	10,03	BGR	ATTR	_	_	I-RELC	I-NP	$_	_	MAINDECL	_	I-NF	07r,14; -ge	UNLINK	_
+12	wiſſagtin	_	_	VVFIN	_	_	_	_	_	_	CP	wiſſagtin	10,03	BGR	ATTR	_	_	I-RELC	O	VVFIN	_	MAINDECL	_	I-NF|B-RK	07r,14; -ge	UNLINK	_
+13	.	_	_	$.	_	_	_	_	_	_	_	.	10,03	_	_	_	_	_	O	$_	_	MAINDECL	_	O	07r,14; -ge	UNLINK	_
+
+# sent_id = 11
+# PTBstring = (VROOT(S(AVP(ADV nv))(VP(VAFIN iſt))(VP(VVPP chômin))(NP(PPOSAT unſer)(PIAT aller)(NN arzat)(PUNKT .))))
+# TopFString = (S(VF(ADV nv))(LK(VAFIN iſt))(VC(VVPP chômin))(NF(PPOSAT unſer)(PIAT aller)(NN arzat))(PUNKT .))
+# text = nv iſt chômin unſer aller arzat.
+1	nv	_	_	ADV	_	_	_	_	_	_	ADVP	nv	10,04	_	ADVB	_	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	_	B-VF	07r,14; -ge	_	_
+2	iſt	_	_	VAFIN	_	_	_	_	_	_	VP	iſt	10,04	_	VFIN	_	_	_	O	VAFIN	LI	MAINDECL	_	B-LK	07r,14; -ge	_	_
+3	chômin	_	_	VVPP	_	_	_	_	_	_	VP	chômin	10,04	_	INF	_	_	_	O	VVPP	RE	MAINDECL	_	B-RK	07r,14; -ge	_	_
+4	unſer	_	_	PPOSAT	_	_	_	_	_	_	NP	unſer	10,04	BGR	SUBJ	ACC-SIT_	_	B-NP-extrap	B-NP	DPOS	_	MAINDECL	_	B-NF	07r,14; -ge	UNLINK	KOREF1
+5	aller	_	_	PIAT	_	_	_	_	_	_	NP	aller	10,04	BGR	SUBJ	_GIV-INACTIVE	_	I-NP	I-NP	DI	_	MAINDECL	_	I-NF	07r,14; -ge	UNLINK	KOREF1
+6	arzat	_	_	NN	_	_	_	_	_	_	NP	arzat	10,04	BGR	SUBJ	_GIV-INACTIVE	_	I-NP	I-NP	NA	_	MAINDECL	_	I-NF	07r,14; -ge	UNLINK	KOREF1
+7	.	_	_	$.	_	_	_	_	_	_	_	.	10,04	_	_	_	_	_	I-NP	$_	_	MAINDECL	_	O	07r,14; -ge	_	_

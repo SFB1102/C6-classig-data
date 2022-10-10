@@ -1,0 +1,474 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CHUNK CharOffset DTA:ID DTA:NORM POS
+# sent_id = 1
+# sent_id(TSV) = 1
+# text = Nō : 16 .
+1	Nō	no	_	NN	_	_	_	_	_	B-NC	0-2	w9eb	No	*
+2	:	:	_	$(	_	_	_	_	_	O	3-4	w9ec	:	*
+3	16	16	_	CARD	_	_	_	_	_	B-NC	5-7	w9ed	16	*
+4	.	.	_	$.	_	_	_	_	_	O	8-9	w9ee	.	*
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# text = Auß Erffurt / vom 20. Martij , Anno 1626 .
+1	Auß	aus	_	APPR	_	_	_	_	_	B-PC	11-14	w9ef	Aus	*
+2	Erffurt	Erfurt	_	NE	_	_	_	_	_	I-PC	15-22	w9f0	Erfurt	*
+3	/	/	_	$(	_	_	_	_	_	O	23-24	w9f1	/	*
+4	vom	vom	_	APPRART	_	_	_	_	_	B-PC	25-28	w9f2	vom	*
+5	20.	20.	_	ADJA	_	_	_	_	_	I-PC	29-32	w9f3	20.	*
+6	Martij	März	_	NN	_	_	_	_	_	I-PC	33-39	w9f4	März	*
+7	,	,	_	$,	_	_	_	_	_	O	40-41	w9f5	,	*
+8	Anno	Anno	_	NN	_	_	_	_	_	B-NC	42-46	w9f6	Anno	*
+9	1626	1626	_	CARD	_	_	_	_	_	B-NC	47-51	w9f7	1626	*
+10	.	.	_	$.	_	_	_	_	_	O	52-53	w9f8	.	*
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# text = DJeser orthen wirbt man noch starck /
+1	DJeser	diese	_	PDAT	_	_	_	_	_	B-NC	55-61	w1,w1_1	Dieser	*
+2	orthen	Ort	_	NN	_	_	_	_	_	I-NC	62-68	w2	Orten	*
+3	wirbt	werben	_	VVFIN	_	_	_	_	_	O	69-74	w3	wirbt	*
+4	man	man	_	PIS	_	_	_	_	_	B-NC	75-78	w4	man	*
+5	noch	noch	_	ADV	_	_	_	_	_	B-ADVC	79-83	w5	noch	*
+6	starck	stark	_	ADJD	_	_	_	_	_	B-AC	84-90	w6	stark	*
+7	/	/	_	$(	_	_	_	_	_	O	91-92	w7	/	*
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# text = der Hertzog von Hollstein hat seinen Musterplatz zu Schmalkalden /
+1	der	d	_	ART	_	_	_	_	_	B-NC	94-97	w8	der	*
+2	Hertzog	Herzog	_	NN	_	_	_	_	_	I-NC	98-105	w9	Herzog	*
+3	von	von	_	APPR	_	_	_	_	_	B-PC	106-109	wa	von	*
+4	Hollstein	Hollstein	_	NE	_	_	_	_	_	I-PC	110-119	wb	Hollstein	*
+5	hat	haben	_	VAFIN	_	_	_	_	_	O	120-123	wc	hat	*
+6	seinen	seine	_	PPOSAT	_	_	_	_	_	B-NC	124-130	wd	seinen	*
+7	Musterplatz	Musterplatz	_	NN	_	_	_	_	_	I-NC	131-142	we	Musterplatz	*
+8	zu	zu	_	APPR	_	_	_	_	_	B-PC	143-145	wf	zu	*
+9	Schmalkalden	Schmalkalden	_	NE	_	_	_	_	_	I-PC	146-158	w10	Schmalkalden	*
+10	/	/	_	$(	_	_	_	_	_	O	159-160	w11	/	*
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# text = Hertzog Frantz Allbrecht von Sassen / so biß dato sich mit 2500 . Mann in Hessen befunden / ist im anzuge / sich dieser orthen einzuquartiren .
+1	Hertzog	Herzog	_	NN	_	_	_	_	_	B-NC	162-169	w12	Herzog	*
+2	Frantz	Frantz	_	NE	_	_	_	_	_	B-NC	170-176	w13	Frantz	*
+3	Allbrecht	Albrecht	_	NE	_	_	_	_	_	I-NC	177-186	w14	Albrecht	*
+4	von	von	_	APPR	_	_	_	_	_	B-PC	187-190	w15	von	*
+5	Sassen	Sassen	_	NE	_	_	_	_	_	I-PC	191-197	w16	Sassen	*
+6	/	/	_	$(	_	_	_	_	_	O	198-199	w17	/	*
+7	so	so	_	ADV	_	_	_	_	_	B-ADVC	200-202	w18	so	*
+8	biß	bis	_	APPR	_	_	_	_	_	B-PC	203-206	w19	bis	*
+9	dato	dato	_	ADV	_	_	_	_	_	I-PC	207-211	w1a	dato	*
+10	sich	sich	_	PRF	_	_	_	_	_	I-PC	212-216	w1b	sich	*
+11	mit	mit	_	APPR	_	_	_	_	_	B-PC	217-220	w1c	mit	*
+12	2500	2500	_	CARD	_	_	_	_	_	I-PC	221-225	w1d	2500	*
+13	.	.	_	$.	_	_	_	_	_	I-PC	226-227	w1e	.	*
+14	Mann	Mann	_	NN	_	_	_	_	_	I-PC	228-232	w1f	Mann	*
+15	in	in	_	APPR	_	_	_	_	_	B-PC	233-235	w20	in	*
+16	Hessen	Hessen	_	NE	_	_	_	_	_	I-PC	236-242	w21	Hessen	*
+17	befunden	befinden	_	VVPP	_	_	_	_	_	O	243-251	w22	befunden	*
+18	/	/	_	$(	_	_	_	_	_	O	252-253	w23	/	*
+19	ist	sein	_	VAFIN	_	_	_	_	_	O	254-257	w24	ist	*
+20	im	im	_	APPRART	_	_	_	_	_	B-PC	258-260	w25	im	*
+21	anzuge	Anzug	_	NN	_	_	_	_	_	I-PC	261-267	w26	Anzuge	*
+22	/	/	_	$(	_	_	_	_	_	O	268-269	w27	/	*
+23	sich	sich	_	PRF	_	_	_	_	_	B-NC	270-274	w28	sich	*
+24	dieser	diese	_	PDAT	_	_	_	_	_	B-NC	275-281	w29	dieser	*
+25	orthen	Ort	_	NN	_	_	_	_	_	I-NC	282-288	w2a	Orten	*
+26	einzuquartiren	einquartieren	_	VVIZU	_	_	_	_	_	O	289-303	w2b	einzuquartieren	*
+27	.	.	_	$.	_	_	_	_	_	O	304-305	w2c	.	*
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# text = Es continuirt , das theils Dänisch Volck Oßnabrück erö-<lb/>bert / vnd 7. Geistliche Prælaten gefangen .
+1	Es	es	_	PPER	_	_	_	_	_	B-NC	307-309	w2d	Es	*
+2	continuirt	kontinuieren	_	VVFIN	_	_	_	_	_	O	310-320	w2e	kontinuiert	*
+3	,	,	_	$,	_	_	_	_	_	O	321-322	w2f	,	*
+4	das	die	_	KOUS	_	_	_	_	_	O	323-326	w30	das	*
+5	theils	teils	_	ADV	_	_	_	_	_	B-ADVC	327-333	w31	teils	*
+6	Dänisch	Dänisch	_	ADJA	_	_	_	_	_	B-NC	334-341	w32	Dänisch	*
+7	Volck	Volk	_	NN	_	_	_	_	_	I-NC	342-347	w33	Volk	*
+8	Oßnabrück	Osnabrück	_	NE	_	_	_	_	_	I-NC	348-357	w34	Osnabrück	*
+9	erö-<lb/>bert	erobern	_	VVPP	_	_	_	_	_	O	358-371	w35	erobert	*
+10	/	/	_	$(	_	_	_	_	_	O	372-373	w36	/	*
+11	vnd	und	_	KON	_	_	_	_	_	O	374-377	w37	und	*
+12	7.	7.	_	CARD	_	_	_	_	_	B-NC	378-380	w38	7.	*
+13	Geistliche	Geistliche	_	ADJA	_	_	_	_	_	I-NC	381-391	w39	Geistliche	*
+14	Prælaten	Prälat	_	NN	_	_	_	_	_	I-NC	392-400	w3a	Prälaten	*
+15	gefangen	gefangen	_	VVPP	_	_	_	_	_	O	401-409	w3b	gefangen	*
+16	.	.	_	$.	_	_	_	_	_	O	410-411	w3c	.	*
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# text = So continuirt auch / das 14. Regiment Frantzosen bey Metz vnd dero orthen nach der Pfaltz passiren werden .
+1	So	so	_	ADV	_	_	_	_	_	B-ADVC	413-415	w3d	So	*
+2	continuirt	kontinuieren	_	VVFIN	_	_	_	_	_	O	416-426	w3e	kontinuiert	*
+3	auch	auch	_	ADV	_	_	_	_	_	B-ADVC	427-431	w3f	auch	*
+4	/	/	_	$(	_	_	_	_	_	O	432-433	w40	/	*
+5	das	d	_	KOUS	_	_	_	_	_	O	434-437	w41	das	*
+6	14.	14.	_	ADJA	_	_	_	_	_	B-NC	438-441	w42	14.	*
+7	Regiment	Regiment	_	NN	_	_	_	_	_	I-NC	442-450	w43	Regiment	*
+8	Frantzosen	Franzose	_	NN	_	_	_	_	_	B-NC	451-461	w44	Franzosen	*
+9	bey	bei	_	APPR	_	_	_	_	_	B-PC	462-465	w45	bei	*
+10	Metz	Metz	_	NE	_	_	_	_	_	I-PC	466-470	w46	Metz	*
+11	vnd	und	_	KON	_	_	_	_	_	O	471-474	w47	und	*
+12	dero	die	_	PDAT	_	_	_	_	_	B-NC	475-479	w48	deren	*
+13	orthen	Ort	_	NN	_	_	_	_	_	I-NC	480-486	w49	Orten	*
+14	nach	nach	_	APPR	_	_	_	_	_	B-PC	487-491	w4a	nach	*
+15	der	d	_	ART	_	_	_	_	_	I-PC	492-495	w4b	der	*
+16	Pfaltz	Pfalz	_	NE	_	_	_	_	_	I-PC	496-502	w4c	Pfalz	*
+17	passiren	passieren	_	VVINF	_	_	_	_	_	O	503-511	w4d	passieren	*
+18	werden	werden	_	VAFIN	_	_	_	_	_	O	512-518	w4e	werden	*
+19	.	.	_	$.	_	_	_	_	_	O	519-520	w4f	.	*
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# text = Auß Antorff / vom 21. Martij .
+1	Auß	aus	_	APPR	_	_	_	_	_	B-PC	522-525	w9f9	Aus	*
+2	Antorff	Antorff	_	NE	_	_	_	_	_	I-PC	526-533	w9fa	Antorff	*
+3	/	/	_	$(	_	_	_	_	_	O	534-535	w9fb	/	*
+4	vom	vom	_	APPRART	_	_	_	_	_	B-PC	536-539	w9fc	vom	*
+5	21.	21.	_	ADJA	_	_	_	_	_	I-PC	540-543	w9fd	21.	*
+6	Martij	März	_	NN	_	_	_	_	_	I-PC	544-550	w9fe	März	*
+7	.	.	_	$.	_	_	_	_	_	O	551-552	w9ff	.	*
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# text = Man hat Aviso , das die Roscheller die Friedens Puncten vn-<lb/>terschrieben / vnd sol der Hertzog von Angelosme vom König in Franckreich befehl bekommen / mit dem Volck / so im Stifft Metz ligt / vnd etlichen Regimenten Schweitzern / ehist nach der Pfaltz zu-<lb/>rücken .
+1	Man	man	_	PIS	_	_	_	_	_	B-NC	554-557	w50	Man	*
+2	hat	haben	_	VAFIN	_	_	_	_	_	O	558-561	w51	hat	*
+3	Aviso	Aviso	_	NN	_	_	_	_	_	B-NC	562-567	w52	Aviso	*
+4	,	,	_	$,	_	_	_	_	_	O	568-569	w53	,	*
+5	das	die	_	KOUS	_	_	_	_	_	O	570-573	w54	das	*
+6	die	d	_	ART	_	_	_	_	_	B-NC	574-577	w55	die	*
+7	Roscheller	Roscheller	_	NN	_	_	_	_	_	I-NC	578-588	w56	Roscheller	*
+8	die	d	_	ART	_	_	_	_	_	B-NC	589-592	w57	die	*
+9	Friedens	Frieden	_	NN	_	_	_	_	_	I-NC	593-601	w58	Friedens	*
+10	Puncten	Punkt	_	NN	_	_	_	_	_	B-NC	602-609	w59	Punkten	*
+11	vn-<lb/>terschrieben	unterschreiben	_	VVPP	_	_	_	_	_	O	610-630	w5a	unterschrieben	*
+12	/	/	_	$(	_	_	_	_	_	O	631-632	w5b	/	*
+13	vnd	und	_	KON	_	_	_	_	_	O	633-636	w5c	und	*
+14	sol	sollen	_	VMFIN	_	_	_	_	_	O	637-640	w5d	soll	*
+15	der	d	_	ART	_	_	_	_	_	B-NC	641-644	w5e	der	*
+16	Hertzog	Herzog	_	NN	_	_	_	_	_	I-NC	645-652	w5f	Herzog	*
+17	von	von	_	APPR	_	_	_	_	_	B-PC	653-656	w60	von	*
+18	Angelosme	Angelosme	_	NE	_	_	_	_	_	I-PC	657-666	w61	Angelosme	*
+19	vom	vom	_	APPRART	_	_	_	_	_	B-PC	667-670	w62	vom	*
+20	König	König	_	NN	_	_	_	_	_	I-PC	671-676	w63	König	*
+21	in	in	_	APPR	_	_	_	_	_	B-sPC	677-679	w64	in	*
+22	Franckreich	Frankreich	_	NE	_	_	_	_	_	B-NC	680-691	w65	Frankreich	*
+23	befehl	Befehl	_	NN	_	_	_	_	_	B-PC	692-698	w66	Befehl	*
+24	bekommen	bekommen	_	VVINF	_	_	_	_	_	O	699-707	w67	bekommen	*
+25	/	/	_	$(	_	_	_	_	_	O	708-709	w68	/	*
+26	mit	mit	_	APPR	_	_	_	_	_	B-PC	710-713	w69	mit	*
+27	dem	d	_	ART	_	_	_	_	_	I-PC	714-717	w6a	dem	*
+28	Volck	Volk	_	NN	_	_	_	_	_	I-PC	718-723	w6b	Volk	*
+29	/	/	_	$(	_	_	_	_	_	O	724-725	w6c	/	*
+30	so	so	_	ADV	_	_	_	_	_	B-ADVC	726-728	w6d	so	*
+31	im	im	_	APPRART	_	_	_	_	_	B-PC	729-731	w6e	im	*
+32	Stifft	Stift	_	NN	_	_	_	_	_	I-PC	732-738	w6f	Stift	*
+33	Metz	Metz	_	NE	_	_	_	_	_	I-PC	739-743	w70	Metz	*
+34	ligt	liegen	_	VVFIN	_	_	_	_	_	O	744-748	w71	liegt	*
+35	/	/	_	$(	_	_	_	_	_	O	749-750	w72	/	*
+36	vnd	und	_	KON	_	_	_	_	_	O	751-754	w73	und	*
+37	etlichen	etlich	_	ADJA	_	_	_	_	_	B-NC	755-763	w74	etlichen	*
+38	Regimenten	Regiment	_	NN	_	_	_	_	_	I-NC	764-774	w75	Regimenten	*
+39	Schweitzern	Schweizer	_	NN	_	_	_	_	_	B-NC	775-786	w76	Schweizern	*
+40	/	/	_	$(	_	_	_	_	_	O	787-788	w77	/	*
+41	ehist	ehest	_	ADV	_	_	_	_	_	B-PC	789-794	w78	ehest	*
+42	nach	nach	_	APPR	_	_	_	_	_	I-PC	795-799	w79	nach	*
+43	der	d	_	ART	_	_	_	_	_	I-PC	800-803	w7a	der	*
+44	Pfaltz	Pfalz	_	NE	_	_	_	_	_	I-PC	804-810	w7b	Pfalz	*
+45	zu-<lb/>rücken	zurücken	_	VVINF	_	_	_	_	_	O	811-825	w7c	zurücken	*
+46	.	.	_	$.	_	_	_	_	_	O	826-827	w7d	.	*
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# text = Es ist viel Geldt in diesen Landen auß Spania angelanget / noch 50. Schiff zu zurüsten / vnd die See Armada zuverstercken .
+1	Es	es	_	PPER	_	_	_	_	_	B-NC	829-831	w7e	Es	*
+2	ist	sein	_	VAFIN	_	_	_	_	_	O	832-835	w7f	ist	*
+3	viel	viel	_	PIAT	_	_	_	_	_	B-NC	836-840	w80	viel	*
+4	Geldt	Geld	_	NN	_	_	_	_	_	I-NC	841-846	w81	Geld	*
+5	in	in	_	APPR	_	_	_	_	_	B-PC	847-849	w82	in	*
+6	diesen	diese	_	PDAT	_	_	_	_	_	I-PC	850-856	w83	diesen	*
+7	Landen	Land	_	NN	_	_	_	_	_	I-PC	857-863	w84	Landen	*
+8	auß	aus	_	APPR	_	_	_	_	_	B-PC	864-867	w85	aus	*
+9	Spania	Spanien	_	NE	_	_	_	_	_	I-PC	868-874	w86	Spanien	*
+10	angelanget	angelangen	_	VVPP	_	_	_	_	_	O	875-885	w87	angelanget	*
+11	/	/	_	$(	_	_	_	_	_	O	886-887	w88	/	*
+12	noch	noch	_	ADV	_	_	_	_	_	B-ADVC	888-892	w89	noch	*
+13	50.	50.	_	CARD	_	_	_	_	_	B-NC	893-896	w8a	50.	*
+14	Schiff	Schiff	_	NN	_	_	_	_	_	I-NC	897-903	w8b	Schiff	*
+15	zu	zu	_	PTKZU	_	_	_	_	_	O	904-906	w8c	zu	*
+16	zurüsten	zurüsten	_	VVINF	_	_	_	_	_	O	907-915	w8d	zurüsten	*
+17	/	/	_	$(	_	_	_	_	_	O	916-917	w8e	/	*
+18	vnd	und	_	KON	_	_	_	_	_	O	918-921	w8f	und	*
+19	die	d	_	ART	_	_	_	_	_	B-NC	922-925	w90	die	*
+20	See	See	_	NN	_	_	_	_	_	I-NC	926-929	w91	See	*
+21	Armada	Armada	_	NE	_	_	_	_	_	I-NC	930-936	w92	Armada	*
+22	zuverstercken	zuverstecken	_	VVINF	_	_	_	_	_	O	937-950	w93	zuverstecken	*
+23	.	.	_	$.	_	_	_	_	_	O	951-952	w94	.	*
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# text = Auß Nürnberg / vom 24. Martij .
+1	Auß	aus	_	APPR	_	_	_	_	_	B-PC	954-957	wa00	Aus	*
+2	Nürnberg	Nürnberg	_	NE	_	_	_	_	_	I-PC	958-966	wa01	Nürnberg	*
+3	/	/	_	$(	_	_	_	_	_	O	967-968	wa02	/	*
+4	vom	vom	_	APPRART	_	_	_	_	_	B-PC	969-972	wa03	vom	*
+5	24.	24.	_	ADJA	_	_	_	_	_	I-PC	973-976	wa04	24.	*
+6	Martij	März	_	NN	_	_	_	_	_	I-PC	977-983	wa05	März	*
+7	.	.	_	$.	_	_	_	_	_	O	984-985	wa06	.	*
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# text = Obwol allhie für Chur Mäyntz schon gantz einfuriert / so be-<lb/>sorgt man doch es möchte solcher Tag nicht fort gehen .
+1	Obwol	obwohl	_	KOUS	_	_	_	_	_	O	987-992	w95	Obwohl	*
+2	allhie	allhier	_	ADV	_	_	_	_	_	B-ADVC	993-999	w96	allhier	*
+3	für	für	_	APPR	_	_	_	_	_	B-PC	1000-1003	w97	für	*
+4	Chur	Kür	_	NN	_	_	_	_	_	I-PC	1004-1008	w98	Kür	*
+5	Mäyntz	Mainz	_	NE	_	_	_	_	_	I-PC	1009-1015	w99	Mainz	*
+6	schon	schon	_	ADV	_	_	_	_	_	B-ADVC	1016-1021	w9a	schon	*
+7	gantz	ganz	_	ADV	_	_	_	_	_	B-ADVC	1022-1027	w9b	ganz	*
+8	einfuriert	Einfuriert	_	VVPP	_	_	_	_	_	O	1028-1038	w9c	einfuriert	*
+9	/	/	_	$(	_	_	_	_	_	O	1039-1040	w9d	/	*
+10	so	so	_	ADV	_	_	_	_	_	B-ADVC	1041-1043	w9e	so	*
+11	be-<lb/>sorgt	besorgt	_	VVFIN	_	_	_	_	_	O	1044-1057	w9f	besorgt	*
+12	man	man	_	PIS	_	_	_	_	_	B-NC	1058-1061	wa0	man	*
+13	doch	doch	_	KON	_	_	_	_	_	O	1062-1066	wa1	doch	*
+14	es	es	_	PPER	_	_	_	_	_	B-NC	1067-1069	wa2	es	*
+15	möchte	mögen	_	VMFIN	_	_	_	_	_	O	1070-1076	wa3	möchte	*
+16	solcher	solch	_	PIAT	_	_	_	_	_	B-NC	1077-1084	wa4	solcher	*
+17	Tag	Tag	_	NN	_	_	_	_	_	I-NC	1085-1088	wa5	Tag	*
+18	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVC	1089-1094	wa6	nicht	*
+19	fort	fort	_	PTKVZ	_	_	_	_	_	O	1095-1099	wa7	fort	*
+20	gehen	gehen	_	VVINF	_	_	_	_	_	O	1100-1105	wa8	gehen	*
+21	.	.	_	$.	_	_	_	_	_	O	1106-1107	wa9	.	*
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# text = Die Bi-<lb/>schöffe lassen starck werben / es hat ein seltzam ansehen .
+1	Die	d	_	ART	_	_	_	_	_	B-NC	1109-1112	waa	Die	*
+2	Bi-<lb/>schöffe	Bischöffe	_	NN	_	_	_	_	_	I-NC	1113-1128	wab	Bischöffe	*
+3	lassen	lassen	_	VVFIN	_	_	_	_	_	O	1129-1135	wac	lassen	*
+4	starck	stark	_	ADJD	_	_	_	_	_	B-AC	1136-1142	wad	stark	*
+5	werben	werben	_	VVINF	_	_	_	_	_	O	1143-1149	wae	werben	*
+6	/	/	_	$(	_	_	_	_	_	O	1150-1151	waf	/	*
+7	es	es	_	PPER	_	_	_	_	_	B-NC	1152-1154	wb0	es	*
+8	hat	haben	_	VAFIN	_	_	_	_	_	O	1155-1158	wb1	hat	*
+9	ein	eine	_	ART	_	_	_	_	_	B-NC	1159-1162	wb2	ein	*
+10	seltzam	seltsam	_	ADJA	_	_	_	_	_	I-NC	1163-1170	wb3	seltsam	*
+11	ansehen	ansehen	_	NN	_	_	_	_	_	I-NC	1171-1178	wb4	ansehen	*
+12	.	.	_	$.	_	_	_	_	_	O	1179-1180	wb5	.	*
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# text = Auß Wulffenbüttel / vom 26. Martij .
+1	Auß	aus	_	APPR	_	_	_	_	_	B-PC	1182-1185	wa07	Aus	*
+2	Wulffenbüttel	Wulffenbüttel	_	NE	_	_	_	_	_	I-PC	1186-1199	wa08	Wulffenbüttel	*
+3	/	/	_	$(	_	_	_	_	_	O	1200-1201	wa09	/	*
+4	vom	vom	_	APPRART	_	_	_	_	_	B-PC	1202-1205	wa0a	vom	*
+5	26.	26.	_	ADJA	_	_	_	_	_	I-PC	1206-1209	wa0b	26.	*
+6	Martij	März	_	NN	_	_	_	_	_	I-PC	1210-1216	wa0c	März	*
+7	.	.	_	$.	_	_	_	_	_	O	1217-1218	wa0d	.	*
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# text = Der König in Dennemarck lest allhier grosse Kriegsbereit-<lb/>schafften von Geschütz vnd andern in eyl verfertigen / seind auch diese Tage 6000 . Mann auß Holland ankommen / sol jtzo 36. tausent zu Fuß / vnnd 6. tausent Pferd ohne die Manßfeldische Armada starck sein / vnd erwartet noch 20. tausent Mann .
+1	Der	d	_	ART	_	_	_	_	_	B-NC	1220-1223	wb6	Der	*
+2	König	König	_	NN	_	_	_	_	_	I-NC	1224-1229	wb7	König	*
+3	in	in	_	APPR	_	_	_	_	_	B-PC	1230-1232	wb8	in	*
+4	Dennemarck	Dänemark	_	NE	_	_	_	_	_	I-PC	1233-1243	wb9	Dänemark	*
+5	lest	lesen	_	VVFIN	_	_	_	_	_	O	1244-1248	wba	lest	*
+6	allhier	allhier	_	ADV	_	_	_	_	_	B-ADVC	1249-1256	wbb	allhier	*
+7	grosse	groß	_	ADJA	_	_	_	_	_	B-NC	1257-1263	wbc	große	*
+8	Kriegsbereit-<lb/>schafften	Kriegsbereitschaft	_	NN	_	_	_	_	_	I-NC	1264-1291	wbd	Kriegsbereitschaften	*
+9	von	von	_	APPR	_	_	_	_	_	B-PC	1292-1295	wbe	von	*
+10	Geschütz	Geschütz	_	NN	_	_	_	_	_	I-PC	1296-1304	wbf	Geschütz	*
+11	vnd	und	_	KON	_	_	_	_	_	O	1305-1308	wc0	und	*
+12	andern	andere	_	PIS	_	_	_	_	_	B-NC	1309-1315	wc1	anderen	*
+13	in	in	_	APPR	_	_	_	_	_	B-PC	1316-1318	wc2	in	*
+14	eyl	Eile	_	NN	_	_	_	_	_	I-PC	1319-1322	wc3	Eile	*
+15	verfertigen	verfertigen	_	VVINF	_	_	_	_	_	O	1323-1334	wc4	verfertigen	*
+16	/	/	_	$(	_	_	_	_	_	O	1335-1336	wc5	/	*
+17	seind	sein	_	VAFIN	_	_	_	_	_	O	1337-1342	wc6	sind	*
+18	auch	auch	_	ADV	_	_	_	_	_	B-NC	1343-1347	wc7	auch	*
+19	diese	diese	_	PDAT	_	_	_	_	_	I-NC	1348-1353	wc8	diese	*
+20	Tage	Tag	_	NN	_	_	_	_	_	I-NC	1354-1358	wc9	Tage	*
+21	6000	6000	_	CARD	_	_	_	_	_	B-NC	1359-1363	wca	6000	*
+22	.	.	_	$.	_	_	_	_	_	O	1364-1365	wcb	.	*
+23	Mann	Mann	_	NN	_	_	_	_	_	B-NC	1366-1370	wcc	Mann	*
+24	auß	aus	_	APPR	_	_	_	_	_	B-PC	1371-1374	wcd	aus	*
+25	Holland	Holland	_	NE	_	_	_	_	_	I-PC	1375-1382	wce	Holland	*
+26	ankommen	ankommen	_	VVPP	_	_	_	_	_	O	1383-1391	wcf	ankommen	*
+27	/	/	_	$(	_	_	_	_	_	O	1392-1393	wd0	/	*
+28	sol	sollen	_	VMFIN	_	_	_	_	_	O	1394-1397	wd1	soll	*
+29	jtzo	jetzt	_	ADV	_	_	_	_	_	B-ADVC	1398-1402	wd2	jetzt	*
+30	36.	36.	_	CARD	_	_	_	_	_	B-NC	1403-1406	wd3	36.	*
+31	tausent	tausend	_	CARD	_	_	_	_	_	I-NC	1407-1414	wd4	tausend	*
+32	zu	zu	_	APPR	_	_	_	_	_	B-PC	1415-1417	wd5	zu	*
+33	Fuß	Fuß	_	NN	_	_	_	_	_	I-PC	1418-1421	wd6	Fuß	*
+34	/	/	_	$(	_	_	_	_	_	O	1422-1423	wd7	/	*
+35	vnnd	und	_	KON	_	_	_	_	_	O	1424-1428	wd8	und	*
+36	6.	6.	_	CARD	_	_	_	_	_	B-NC	1429-1431	wd9	6.	*
+37	tausent	tausend	_	CARD	_	_	_	_	_	I-NC	1432-1439	wda	tausend	*
+38	Pferd	Pferd	_	NN	_	_	_	_	_	I-NC	1440-1445	wdb	Pferd	*
+39	ohne	ohne	_	APPR	_	_	_	_	_	B-PC	1446-1450	wdc	ohne	*
+40	die	d	_	ART	_	_	_	_	_	I-PC	1451-1454	wdd	die	*
+41	Manßfeldische	manßfeldische	_	ADJA	_	_	_	_	_	I-PC	1455-1468	wde	Manßfeldische	*
+42	Armada	Armada	_	NE	_	_	_	_	_	I-PC	1469-1475	wdf	Armada	*
+43	starck	stark	_	ADJD	_	_	_	_	_	B-AC	1476-1482	we0	stark	*
+44	sein	sein	_	VAINF	_	_	_	_	_	O	1483-1487	we1	sein	*
+45	/	/	_	$(	_	_	_	_	_	O	1488-1489	we2	/	*
+46	vnd	und	_	KON	_	_	_	_	_	O	1490-1493	we3	und	*
+47	erwartet	erwarten	_	VVFIN	_	_	_	_	_	O	1494-1502	we4	erwartet	*
+48	noch	noch	_	ADV	_	_	_	_	_	B-ADVC	1503-1507	we5	noch	*
+49	20.	20.	_	CARD	_	_	_	_	_	B-NC	1508-1511	we6	20.	*
+50	tausent	tausend	_	CARD	_	_	_	_	_	I-NC	1512-1519	we7	tausend	*
+51	Mann	Mann	_	NN	_	_	_	_	_	I-NC	1520-1524	we8	Mann	*
+52	.	.	_	$.	_	_	_	_	_	O	1525-1526	we9	.	*
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# text = Der Tilly hat Sankt Andreasbergk sambt andern örtern in Grubenhager lande abbren-<lb/>nen lassen / vnd werden so wol die Lüneburgischen als Braunschwei-<lb/>gische Lande in die Asche gelegt .
+1	Der	d	_	ART	_	_	_	_	_	B-NC	1528-1531	wea	Der	*
+2	Tilly	Tilly	_	NE	_	_	_	_	_	I-NC	1532-1537	web	Tilly	*
+3	hat	haben	_	VAFIN	_	_	_	_	_	O	1538-1541	wec	hat	*
+4	Sankt	sinken	_	NE	_	_	_	_	_	B-NC	1542-1547	wed	Sankt	*
+5	Andreasbergk	Andreasbergk	_	NE	_	_	_	_	_	I-NC	1548-1560	wee	Andreasbergk	*
+6	sambt	samt	_	APPR	_	_	_	_	_	B-PC	1561-1566	wef	samt	*
+7	andern	andere	_	PIAT	_	_	_	_	_	I-PC	1567-1573	wf0	anderen	*
+8	örtern	örtern	_	NN	_	_	_	_	_	I-PC	1574-1580	wf1	örtern	*
+9	in	in	_	APPR	_	_	_	_	_	B-PC	1581-1583	wf2	in	*
+10	Grubenhager	grubenhager	_	ADJA	_	_	_	_	_	I-PC	1584-1595	wf3	Grubenhager	*
+11	lande	Land	_	NN	_	_	_	_	_	I-PC	1596-1601	wf4	Lande	*
+12	abbren-<lb/>nen	abbrennen	_	VVINF	_	_	_	_	_	O	1602-1617	wf5	abbrennen	*
+13	lassen	lassen	_	VVINF	_	_	_	_	_	O	1618-1624	wf6	lassen	*
+14	/	/	_	$(	_	_	_	_	_	O	1625-1626	wf7	/	*
+15	vnd	und	_	KON	_	_	_	_	_	O	1627-1630	wf8	und	*
+16	werden	werden	_	VAFIN	_	_	_	_	_	O	1631-1637	wf9	werden	*
+17	so	so	_	ADV	_	_	_	_	_	B-ADVC	1638-1640	wfa	so	*
+18	wol	wohl	_	ADV	_	_	_	_	_	B-ADVC	1641-1644	wfb	wohl	*
+19	die	d	_	ART	_	_	_	_	_	B-NC	1645-1648	wfc	die	*
+20	Lüneburgischen	Lüneburgischen	_	ADJA	_	_	_	_	_	I-NC	1649-1663	wfd	Lüneburgischen	*
+21	als	als	_	KOKOM	_	_	_	_	_	I-NC	1664-1667	wfe	als	*
+22	Braunschwei-<lb/>gische	braunschweigisch	_	ADJA	_	_	_	_	_	I-NC	1668-1691	wff	Braunschweigische	*
+23	Lande	Land	_	NN	_	_	_	_	_	I-NC	1692-1697	w100	Lande	*
+24	in	in	_	APPR	_	_	_	_	_	B-PC	1698-1700	w101	in	*
+25	die	d	_	ART	_	_	_	_	_	I-PC	1701-1704	w102	die	*
+26	Asche	Asche	_	NN	_	_	_	_	_	I-PC	1705-1710	w103	Asche	*
+27	gelegt	legen	_	VVPP	_	_	_	_	_	O	1711-1717	w104	gelegt	*
+28	.	.	_	$.	_	_	_	_	_	O	1718-1719	w105	.	*
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# text = Auß Westphalen / vom 26. Martij .
+1	Auß	aus	_	APPR	_	_	_	_	_	B-PC	1721-1724	wa0e	Aus	*
+2	Westphalen	Westfalen	_	NE	_	_	_	_	_	I-PC	1725-1735	wa0f	Westfalen	*
+3	/	/	_	$(	_	_	_	_	_	O	1736-1737	wa10	/	*
+4	vom	vom	_	APPRART	_	_	_	_	_	B-PC	1738-1741	wa11	vom	*
+5	26.	26.	_	ADJA	_	_	_	_	_	I-PC	1742-1745	wa12	26.	*
+6	Martij	März	_	NN	_	_	_	_	_	I-PC	1746-1752	wa13	März	*
+7	.	.	_	$.	_	_	_	_	_	O	1753-1754	wa14	.	*
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# text = Der König in Dennemarck hat durch seinen Feld Marschalck Hertzogen von Weymar / sich deß Stiffts Oßnabrück bemächtiget / Vnd ist dessen Eltester Printz zum Coadjutorn selbiges Stiffts er-<lb/>nennet / doch dofern selbiger Bischoff Herr Graf von Wartenberg / sich nicht zu rechter zeit einstellen wird / sol er gar zum Bischoff vnd Administrator installiret werden .
+1	Der	d	_	ART	_	_	_	_	_	B-NC	1756-1759	w106	Der	*
+2	König	König	_	NN	_	_	_	_	_	I-NC	1760-1765	w107	König	*
+3	in	in	_	APPR	_	_	_	_	_	B-PC	1766-1768	w108	in	*
+4	Dennemarck	Dänemark	_	NE	_	_	_	_	_	I-PC	1769-1779	w109	Dänemark	*
+5	hat	haben	_	VAFIN	_	_	_	_	_	O	1780-1783	w10a	hat	*
+6	durch	durch	_	APPR	_	_	_	_	_	B-PC	1784-1789	w10b	durch	*
+7	seinen	seine	_	PPOSAT	_	_	_	_	_	I-PC	1790-1796	w10c	seinen	*
+8	Feld	Feld	_	NN	_	_	_	_	_	I-PC	1797-1801	w10d	Feld	*
+9	Marschalck	Marschall	_	NN	_	_	_	_	_	B-NC	1802-1812	w10e	Marschall	*
+10	Hertzogen	Herzog	_	NN	_	_	_	_	_	B-NC	1813-1822	w10f	Herzogs	*
+11	von	von	_	APPR	_	_	_	_	_	B-PC	1823-1826	w110	von	*
+12	Weymar	Weimar	_	NE	_	_	_	_	_	I-PC	1827-1833	w111	Weimar	*
+13	/	/	_	$(	_	_	_	_	_	O	1834-1835	w112	/	*
+14	sich	sich	_	PRF	_	_	_	_	_	B-NC	1836-1840	w113	sich	*
+15	deß	d	_	ART	_	_	_	_	_	B-NC	1841-1844	w114	des	*
+16	Stiffts	Stift	_	NN	_	_	_	_	_	I-NC	1845-1852	w115	Stifts	*
+17	Oßnabrück	Osnabrück	_	NE	_	_	_	_	_	I-NC	1853-1862	w116	Osnabrück	*
+18	bemächtiget	bemächtigen	_	VVPP	_	_	_	_	_	O	1863-1874	w117	bemächtigt	*
+19	/	/	_	$(	_	_	_	_	_	O	1875-1876	w118	/	*
+20	Vnd	und	_	KON	_	_	_	_	_	O	1877-1880	w119	Und	*
+21	ist	sein	_	VAFIN	_	_	_	_	_	O	1881-1884	w11a	ist	*
+22	dessen	die	_	PDAT	_	_	_	_	_	B-NC	1885-1891	w11b	dessen	*
+23	Eltester	alt	_	ADJA	_	_	_	_	_	I-NC	1892-1900	w11c	Ältester	*
+24	Printz	Prinz	_	NN	_	_	_	_	_	I-NC	1901-1907	w11d	Prinz	*
+25	zum	zum	_	APPRART	_	_	_	_	_	B-PC	1908-1911	w11e	zum	*
+26	Coadjutorn	Koadjutor	_	NN	_	_	_	_	_	I-PC	1912-1922	w11f	Koadjutoren	*
+27	selbiges	selbig	_	ADJA	_	_	_	_	_	B-NC	1923-1931	w120	selbiges	*
+28	Stiffts	Stift	_	NN	_	_	_	_	_	I-NC	1932-1939	w121	Stifts	*
+29	er-<lb/>nennet	ernennen	_	VVPP	_	_	_	_	_	O	1940-1954	w122	ernennet	*
+30	/	/	_	$(	_	_	_	_	_	O	1955-1956	w123	/	*
+31	doch	doch	_	KON	_	_	_	_	_	O	1957-1961	w124	doch	*
+32	dofern	Dofern	_	ADV	_	_	_	_	_	B-ADVC	1962-1968	w125	dofern	*
+33	selbiger	selbig	_	ADJA	_	_	_	_	_	B-NC	1969-1977	w126	selbiger	*
+34	Bischoff	Bischof	_	NN	_	_	_	_	_	I-NC	1978-1986	w127	Bischof	*
+35	Herr	Herr	_	NN	_	_	_	_	_	B-NC	1987-1991	w128	Herr	*
+36	Graf	Graf	_	NN	_	_	_	_	_	I-NC	1992-1996	w129	Graf	*
+37	von	von	_	APPR	_	_	_	_	_	B-PC	1997-2000	w12a	von	*
+38	Wartenberg	Wartenberg	_	NE	_	_	_	_	_	I-PC	2001-2011	w12b	Wartenberg	*
+39	/	/	_	$(	_	_	_	_	_	O	2012-2013	w12c	/	*
+40	sich	sich	_	PRF	_	_	_	_	_	B-NC	2014-2018	w12d	sich	*
+41	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVC	2019-2024	w12e	nicht	*
+42	zu	zu	_	APPR	_	_	_	_	_	B-PC	2025-2027	w12f	zu	*
+43	rechter	recht	_	ADJA	_	_	_	_	_	I-PC	2028-2035	w130	rechter	*
+44	zeit	Zeit	_	NN	_	_	_	_	_	I-PC	2036-2040	w131	Zeit	*
+45	einstellen	einstellen	_	VVINF	_	_	_	_	_	O	2041-2051	w132	einstellen	*
+46	wird	werden	_	VAFIN	_	_	_	_	_	O	2052-2056	w133	wird	*
+47	/	/	_	$(	_	_	_	_	_	O	2057-2058	w134	/	*
+48	sol	sollen	_	VMFIN	_	_	_	_	_	O	2059-2062	w135	soll	*
+49	er	er	_	PPER	_	_	_	_	_	B-NC	2063-2065	w136	er	*
+50	gar	gar	_	ADV	_	_	_	_	_	B-ADVC	2066-2069	w137	gar	*
+51	zum	zum	_	APPRART	_	_	_	_	_	B-PC	2070-2073	w138	zum	*
+52	Bischoff	Bischof	_	NN	_	_	_	_	_	I-PC	2074-2082	w139	Bischof	*
+53	vnd	und	_	KON	_	_	_	_	_	O	2083-2086	w13a	und	*
+54	Administrator	Administrator	_	NN	_	_	_	_	_	B-NC	2087-2100	w13b	Administrator	*
+55	installiret	installieren	_	VVPP	_	_	_	_	_	O	2101-2112	w13c	installieret	*
+56	werden	werden	_	VAINF	_	_	_	_	_	O	2113-2119	w13d	werden	*
+57	.	.	_	$.	_	_	_	_	_	O	2120-2121	w13e	.	*
+
+# sent_id = 19
+# sent_id(TSV) = 19
+# text = Die Stadt Wiedenburg ist den 16. diß früe / vom Hertzog von Weymar vberrascht / darüber die Nonnen Klöster der Geist-<lb/>lichen / vnd etliche Bürgershäuser geplündert .
+1	Die	d	_	ART	_	_	_	_	_	B-NC	2123-2126	w13f	Die	*
+2	Stadt	Stadt	_	NN	_	_	_	_	_	I-NC	2127-2132	w140	Stadt	*
+3	Wiedenburg	Wiedenburg	_	NE	_	_	_	_	_	I-NC	2133-2143	w141	Wiedenburg	*
+4	ist	sein	_	VAFIN	_	_	_	_	_	O	2144-2147	w142	ist	*
+5	den	d	_	ART	_	_	_	_	_	B-NC	2148-2151	w143	den	*
+6	16.	16.	_	NN	_	_	_	_	_	I-NC	2152-2155	w144	16.	*
+7	diß	diese	_	PDAT	_	_	_	_	_	B-NC	2156-2159	w145	dies	*
+8	früe	früh	_	NN	_	_	_	_	_	I-NC	2160-2164	w146	frühe	*
+9	/	/	_	$(	_	_	_	_	_	O	2165-2166	w147	/	*
+10	vom	vom	_	APPRART	_	_	_	_	_	B-PC	2167-2170	w148	vom	*
+11	Hertzog	Herzog	_	NN	_	_	_	_	_	I-PC	2171-2178	w149	Herzog	*
+12	von	von	_	APPR	_	_	_	_	_	B-PC	2179-2182	w14a	von	*
+13	Weymar	Weimar	_	NE	_	_	_	_	_	I-PC	2183-2189	w14b	Weimar	*
+14	vberrascht	überraschen	_	VVPP	_	_	_	_	_	O	2190-2200	w14c	überrascht	*
+15	/	/	_	$(	_	_	_	_	_	O	2201-2202	w14d	/	*
+16	darüber	darüber	_	PAV	_	_	_	_	_	B-PC	2203-2210	w14e	darüber	*
+17	die	d	_	ART	_	_	_	_	_	B-NC	2211-2214	w14f	die	*
+18	Nonnen	Nonnen	_	NN	_	_	_	_	_	I-NC	2215-2221	w150	Nonnen	*
+19	Klöster	Kloster	_	NN	_	_	_	_	_	B-NC	2222-2229	w151	Klöster	*
+20	der	d	_	ART	_	_	_	_	_	B-NC	2230-2233	w152	der	*
+21	Geist-<lb/>lichen	Geistliche	_	NN	_	_	_	_	_	I-NC	2234-2251	w153	Geistlichen	*
+22	/	/	_	$(	_	_	_	_	_	O	2252-2253	w154	/	*
+23	vnd	und	_	KON	_	_	_	_	_	O	2254-2257	w155	und	*
+24	etliche	etliche	_	PIAT	_	_	_	_	_	B-NC	2258-2265	w156	etliche	*
+25	Bürgershäuser	Bürgershaus	_	NN	_	_	_	_	_	I-NC	2266-2279	w157	Bürgershäuser	*
+26	geplündert	plündern	_	VVPP	_	_	_	_	_	O	2280-2290	w158	geplündert	*
+27	.	.	_	$.	_	_	_	_	_	O	2291-2292	w159	.	*
+
+# sent_id = 20
+# sent_id(TSV) = 20
+# text = Die Staaden wen-<lb/>den sich nachter Lipstadt .
+1	Die	d	_	ART	_	_	_	_	_	B-NC	2294-2297	w15a	Die	*
+2	Staaden	Staat	_	NN	_	_	_	_	_	I-NC	2298-2305	w15b	Staaten	*
+3	wen-<lb/>den	wenden	_	VVFIN	_	_	_	_	_	O	2306-2318	w15c	wenden	*
+4	sich	sich	_	PRF	_	_	_	_	_	B-NC	2319-2323	w15d	sich	*
+5	nachter	Nager	_	APPR	_	_	_	_	_	B-PC	2324-2331	w15e	Nager	*
+6	Lipstadt	Lipstadt	_	NE	_	_	_	_	_	I-PC	2332-2340	w15f	Lipstadt	*
+7	.	.	_	$.	_	_	_	_	_	O	2341-2342	w160	.	*

@@ -1,0 +1,867 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CharOffset DTA:ID DTA:NORM POS TOPF
+# sent_id = 1
+# sent_id(TSV) = 1
+# TopFString = (VROOT(NN Morgenblatt)(CARD 8)(NN h)(APPR in)(NE Wien))
+# text = Morgenblatt 8 h in Wien .
+1	Morgenblatt	Morgenblatt	_	NN	_	_	_	_	_	0-11	w1	Morgenblatt	*	O
+2	8	8	_	CARD	_	_	_	_	_	12-13	w2	8	*	O
+3	h	h.	_	NN	_	_	_	_	_	14-15	w3	h.	*	O
+4	in	in	_	APPR	_	_	_	_	_	16-18	w4	in	*	O
+5	Wien	Wien	_	NE	_	_	_	_	_	19-23	w5	Wien	*	O
+6	.	.	_	$.	_	_	_	_	_	24-25	w6	.	*	O
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# TopFString = (VROOT(NN Redaktion)(CARD VIII.)(NN Strozzigaſſe)(CARD 41.)(NN Telephon)(PUNKT :)(CARD 18082))
+# text = Redaktion : VIII. Strozzigaſſe 41. Telephon : 18082 .
+1	Redaktion	Redaktion	_	NN	_	_	_	_	_	27-36	w7	Redaktion	*	O
+2	:	:	_	$.	_	_	_	_	_	37-38	w8	:	*	O
+3	VIII.	Viii.	_	CARD	_	_	_	_	_	39-44	w9	VIII.	*	O
+4	Strozzigaſſe	Strozzigasse	_	NN	_	_	_	_	_	45-57	wa	Strozzigasse	*	O
+5	41.	41.	_	CARD	_	_	_	_	_	58-61	wb	41.	*	O
+6	Telephon	Telefon	_	NN	_	_	_	_	_	62-70	wc	Telefon	*	O
+7	:	:	_	$.	_	_	_	_	_	71-72	wd	:	*	O
+8	18082	18082	_	CARD	_	_	_	_	_	73-78	we	18082	*	O
+9	.	.	_	$.	_	_	_	_	_	79-80	wf	.	*	O
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# TopFString = (VROOT(NN Verwaltung)(CARD VIII.)(NN Strozzig)(CARD 42.)(NN Telephon)(CARD 13870))
+# text = Verwaltung : VIII. Strozzig . 42. Telephon : 13870 .
+1	Verwaltung	Verwaltung	_	NN	_	_	_	_	_	82-92	w10	Verwaltung	*	O
+2	:	:	_	$.	_	_	_	_	_	93-94	w11	:	*	O
+3	VIII.	Viii.	_	CARD	_	_	_	_	_	95-100	w12	VIII.	*	O
+4	Strozzig	Strozzig	_	NN	_	_	_	_	_	101-109	w13	Strozzig	*	O
+5	.	.	_	$.	_	_	_	_	_	110-111	w14	.	*	O
+6	42.	42.	_	CARD	_	_	_	_	_	112-115	w15	42.	*	O
+7	Telephon	Telefon	_	NN	_	_	_	_	_	116-124	w16	Telefon	*	O
+8	:	:	_	$.	_	_	_	_	_	125-126	w17	:	*	O
+9	13870	13870	_	CARD	_	_	_	_	_	127-132	w18	13870	*	O
+10	.	.	_	$.	_	_	_	_	_	133-134	w19	.	*	O
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# TopFString = (VROOT(NN Druckerei)(CARD VIII.)(NN Strozzigaſſe)(CARD 41.)(NN Telephon)(PUNKT :)(CARD 22641))
+# text = Druckerei : VIII. Strozzigaſſe 41. Telephon : 22641 .
+1	Druckerei	Druckerei	_	NN	_	_	_	_	_	136-145	w1a	Druckerei	*	O
+2	:	:	_	$.	_	_	_	_	_	146-147	w1b	:	*	O
+3	VIII.	Viii.	_	CARD	_	_	_	_	_	148-153	w1c	VIII.	*	O
+4	Strozzigaſſe	Strozzigasse	_	NN	_	_	_	_	_	154-166	w1d	Strozzigasse	*	O
+5	41.	41.	_	CARD	_	_	_	_	_	167-170	w1e	41.	*	O
+6	Telephon	Telefon	_	NN	_	_	_	_	_	171-179	w1f	Telefon	*	O
+7	:	:	_	$.	_	_	_	_	_	180-181	w20	:	*	O
+8	22641	22641	_	CARD	_	_	_	_	_	182-187	w21	22641	*	O
+9	.	.	_	$.	_	_	_	_	_	188-189	w22	.	*	O
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# TopFString = (VROOT(ADJA Kleiner)(NN Anzeiger)(CARD I.)(NN Schulerſtr)(PUNKT .)(CARD 21.)(NN Telephon)(PUNKT :)(CARD 2926))
+# text = Kleiner Anzeiger I. Schulerſtr . 21. Telephon : 2926 .
+1	Kleiner	klein	_	ADJA	_	_	_	_	_	191-198	w23	Kleiner	*	O
+2	Anzeiger	Anzeiger	_	NN	_	_	_	_	_	199-207	w24	Anzeiger	*	O
+3	I.	I.	_	CARD	_	_	_	_	_	208-210	w25	I.	*	O
+4	Schulerſtr	Schulerstr	_	NN	_	_	_	_	_	211-221	w26	Schulerstr	*	O
+5	.	.	_	$.	_	_	_	_	_	222-223	w27	.	*	O
+6	21.	21.	_	CARD	_	_	_	_	_	224-227	w28	21.	*	O
+7	Telephon	Telefon	_	NN	_	_	_	_	_	228-236	w29	Telefon	*	O
+8	:	:	_	$.	_	_	_	_	_	237-238	w2a	:	*	O
+9	2926	2926	_	CARD	_	_	_	_	_	239-243	w2b	2926	*	O
+10	.	.	_	$.	_	_	_	_	_	244-245	w2c	.	*	O
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# TopFString = (VROOT(VF(NN Inſerute))(LK(VAFIN werden))(MF(APPR in)(ART der)(NN Verwaltung)(ART der)(KLAMMER „)(NN Reichspoſt)(KLAMMER “)(CARD VIII.)(NN Strozzigaſſe)(CARD 42)(KOMMA ,)(CARD I.)(NN Schulerſtraße)(CARD 21)(KOMMA ,)(KON ſowie)(APPR in)(PIAT allen)(NN Annoncenbureaus)(ART des)(TRUNC In-)(KON und)(NN Auslandes))(VC(VVPP angenommen)))
+# text = Inſerute werden in der Verwaltung der „ Reichspoſt “ VIII. Strozzigaſſe 42 , I. Schulerſtraße 21 , ſowie in allen Annoncenbureaus des In- und Auslandes angenommen .
+1	Inſerute	Inserat	_	NN	_	_	_	_	_	247-255	w2d	Inserate	*	B-VF
+2	werden	werden	_	VAFIN	_	_	_	_	_	256-262	w2e	werden	*	B-LK
+3	in	in	_	APPR	_	_	_	_	_	263-265	w2f	in	*	B-MF
+4	der	d	_	ART	_	_	_	_	_	266-269	w30	der	*	I-MF
+5	Verwaltung	Verwaltung	_	NN	_	_	_	_	_	270-280	w31	Verwaltung	*	I-MF
+6	der	d	_	ART	_	_	_	_	_	281-284	w32	der	*	I-MF
+7	„	"	_	$(	_	_	_	_	_	285-286	w33	"	*	I-MF
+8	Reichspoſt	Reichspost	_	NN	_	_	_	_	_	287-297	w34	Reichspost	*	I-MF
+9	“	"	_	$(	_	_	_	_	_	298-299	w35	"	*	I-MF
+10	VIII.	Viii.	_	CARD	_	_	_	_	_	300-305	w36	VIII.	*	I-MF
+11	Strozzigaſſe	Strozzigasse	_	NN	_	_	_	_	_	306-318	w37	Strozzigasse	*	I-MF
+12	42	42	_	CARD	_	_	_	_	_	319-321	w38	42	*	I-MF
+13	,	,	_	$,	_	_	_	_	_	322-323	w39	,	*	I-MF
+14	I.	i.	_	CARD	_	_	_	_	_	324-326	w3a	I.	*	I-MF
+15	Schulerſtraße	Schulerstraße	_	NN	_	_	_	_	_	327-340	w3b	Schulerstraße	*	I-MF
+16	21	21	_	CARD	_	_	_	_	_	341-343	w3c	21	*	I-MF
+17	,	,	_	$,	_	_	_	_	_	344-345	w3d	,	*	I-MF
+18	ſowie	sowie	_	KON	_	_	_	_	_	346-351	w3e	sowie	*	I-MF
+19	in	in	_	APPR	_	_	_	_	_	352-354	w3f	in	*	I-MF
+20	allen	alle	_	PIAT	_	_	_	_	_	355-360	w40	allen	*	I-MF
+21	Annoncenbureaus	Annoncenbureaus	_	NN	_	_	_	_	_	361-376	w41	Annoncenbureaus	*	I-MF
+22	des	d	_	ART	_	_	_	_	_	377-380	w42	des	*	I-MF
+23	In-	in-	_	TRUNC	_	_	_	_	_	381-384	w43	In-	*	I-MF
+24	und	und	_	KON	_	_	_	_	_	385-388	w44	und	*	I-MF
+25	Auslandes	Ausland	_	NN	_	_	_	_	_	389-398	w45	Auslandes	*	I-MF
+26	angenommen	annehmen	_	VVPP	_	_	_	_	_	399-409	w46	angenommen	*	B-RK
+27	.	.	_	$.	_	_	_	_	_	410-411	w47	.	*	O
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# TopFString = (VROOT(ADJA Unabhängiges)(NN Tagblatt)(APPR für)(ART das)(ADJA chriſtliche)(NN Volk)(NE Oeſterreich-Ungarns))
+# text = Unabhängiges Tagblatt für das chriſtliche Volk Oeſterreich-Ungarns .
+1	Unabhängiges	unabhängig	_	ADJA	_	_	_	_	_	413-425	w4c	Unabhängiges	*	O
+2	Tagblatt	Tagblatt	_	NN	_	_	_	_	_	426-434	w4d	Tagblatt	*	O
+3	für	für	_	APPR	_	_	_	_	_	435-438	w4e	für	*	O
+4	das	d	_	ART	_	_	_	_	_	439-442	w4f	das	*	O
+5	chriſtliche	christlich	_	ADJA	_	_	_	_	_	443-454	w50	christliche	*	O
+6	Volk	Volk	_	NN	_	_	_	_	_	455-459	w51	Volk	*	O
+7	Oeſterreich-Ungarns	Oesterreich-Ungarns	_	NE	_	_	_	_	_	460-479	w52	Oesterreich-Ungarns	*	O
+8	.	.	_	$.	_	_	_	_	_	480-481	w53	.	*	O
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# TopFString = (VROOT(NN Bezugspreiſe)(MF(APPR bei)(ADJD täglich)(ADJA zweimaliger)(NN Zu-<lb/>ſtellung)(APPR für)(NE Wien)(KLAMMER :)(ADJD monatlich))(CARD K)(CARD 3.70)(ADJD vierteljährig)(CARD 11.—)(ADJD halbjährig)(CARD 22.—)(APPR für)(NE Oeſterreich-Ungarn)(ADJD monatlich)(CARD K)(CARD 3.85)(ADJD vierteljährig))
+# text = Bezugspreiſe : bei täglich zweimaliger Zu-<lb/>ſtellung für Wien : monatlich ... .... K 3.70 vierteljährig ... ... „ 11.— halbjährig ... .... „ 22.— für Oeſterreich-Ungarn : monatlich .... ... K 3.85 vierteljährig ..... .
+1	Bezugspreiſe	Bezugspreis	_	NN	_	_	_	_	_	483-495	w54	Bezugspreise	*	O
+2	:	:	_	$.	_	_	_	_	_	496-497	w55	:	*	O
+3	bei	bei	_	APPR	_	_	_	_	_	498-501	w56	bei	*	B-MF
+4	täglich	täglich	_	ADJD	_	_	_	_	_	502-509	w57	täglich	*	I-MF
+5	zweimaliger	zweimalig	_	ADJA	_	_	_	_	_	510-521	w58	zweimaliger	*	I-MF
+6	Zu-<lb/>ſtellung	Zustellung	_	NN	_	_	_	_	_	522-538	w59	Zustellung	*	I-MF
+7	für	für	_	APPR	_	_	_	_	_	539-542	w5a	für	*	I-MF
+8	Wien	Wien	_	NE	_	_	_	_	_	543-547	w5b	Wien	*	I-MF
+9	:	:	_	$(	_	_	_	_	_	548-549	w5c	:	*	I-MF
+10	monatlich	monatlich	_	ADJD	_	_	_	_	_	550-559	w5d	monatlich	*	I-MF
+11	...	...	_	$(	_	_	_	_	_	560-563	w5e	...	*	O
+12	....	....	_	$.	_	_	_	_	_	564-568	w5f	....	*	O
+13	K	K	_	CARD	_	_	_	_	_	569-570	w60	K	*	O
+14	3.70	3.70	_	CARD	_	_	_	_	_	571-575	w61	3.70	*	O
+15	vierteljährig	vierteljahrig	_	ADJD	_	_	_	_	_	576-589	w62	vierteljährig	*	O
+16	...	...	_	$(	_	_	_	_	_	590-593	w63	...	*	O
+17	...	...	_	$(	_	_	_	_	_	594-597	w64	...	*	O
+18	„	"	_	$(	_	_	_	_	_	598-599	w65	"	*	O
+19	11.—	11.--	_	CARD	_	_	_	_	_	600-604	w66	11.--	*	O
+20	halbjährig	halbjährlich	_	ADJD	_	_	_	_	_	605-615	w67	halbjährlich	*	O
+21	...	...	_	$(	_	_	_	_	_	616-619	w68	...	*	O
+22	....	....	_	$.	_	_	_	_	_	620-624	w69	....	*	O
+23	„	"	_	$(	_	_	_	_	_	625-626	w6a	"	*	O
+24	22.—	22.--	_	CARD	_	_	_	_	_	627-631	w6b	22.--	*	O
+25	für	für	_	APPR	_	_	_	_	_	632-635	w6c	für	*	O
+26	Oeſterreich-Ungarn	Österreich-Ungarn	_	NE	_	_	_	_	_	636-654	w6d	Österreich-Ungarn	*	O
+27	:	:	_	$.	_	_	_	_	_	655-656	w6e	:	*	O
+28	monatlich	monatlich	_	ADJD	_	_	_	_	_	657-666	w6f	monatlich	*	O
+29	....	....	_	$.	_	_	_	_	_	667-671	w70	....	*	O
+30	...	...	_	$(	_	_	_	_	_	672-675	w71	...	*	O
+31	K	K	_	CARD	_	_	_	_	_	676-677	w72	K	*	O
+32	3.85	3.85	_	CARD	_	_	_	_	_	678-682	w73	3.85	*	O
+33	vierteljährig	vierteljahrig	_	ADJD	_	_	_	_	_	683-696	w74	vierteljährig	*	O
+34	.....	.....	_	$(	_	_	_	_	_	697-702	w75	.....	*	O
+35	.	.	_	$.	_	_	_	_	_	703-704	w76	.	*	O
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# TopFString = (VROOT(CARD 11.50)(ADJD halbjährig))
+# text = „ 11.50 halbjährig ... ... .
+1	„	"	_	$(	_	_	_	_	_	706-707	w77	"	*	O
+2	11.50	11.50	_	CARD	_	_	_	_	_	708-713	w78	11.50	*	O
+3	halbjährig	halbjährlich	_	ADJD	_	_	_	_	_	714-724	w79	halbjährlich	*	O
+4	...	...	_	$(	_	_	_	_	_	725-728	w7a	...	*	O
+5	...	...	_	$(	_	_	_	_	_	729-732	w7b	...	*	O
+6	.	.	_	$.	_	_	_	_	_	733-734	w7c	.	*	O
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# TopFString = (VROOT(CARD 23.—)(APPR Bei)(ADJD täglich)(ADJA einmaliger)(NN Zu-<lb/>ſtellung)(KLAMMER LBR)(ART das)(NN Morgenblatt)(ADV zu-<lb/>gleich)(APPR mit)(ART der)(NN Nachmittagsaus-<lb/>gabe)(ART des)(ADJA vorherigen)(NN Tages)(KLAMMER RBR)(APPR für)(ADV auswärts)(ADJD monatlich)(CARD K)(CARD 3.50)(ADJD vierteljährig))
+# text = „ 23.— Bei täglich einmaliger Zu-<lb/>ſtellung ( das Morgenblatt zu-<lb/>gleich mit der Nachmittagsaus-<lb/>gabe des vorherigen Tages ) für auswärts : monatlich ... .... K 3.50 vierteljährig ..... .
+1	„	"	_	$(	_	_	_	_	_	736-737	w7d	"	*	O
+2	23.—	23.--	_	CARD	_	_	_	_	_	738-742	w7e	23.--	*	O
+3	Bei	bei	_	APPR	_	_	_	_	_	743-746	w7f	Bei	*	O
+4	täglich	täglich	_	ADJD	_	_	_	_	_	747-754	w80	täglich	*	O
+5	einmaliger	einmalig	_	ADJA	_	_	_	_	_	755-765	w81	einmaliger	*	O
+6	Zu-<lb/>ſtellung	Zustellung	_	NN	_	_	_	_	_	766-782	w82	Zustellung	*	O
+7	(	(	_	$(	_	_	_	_	_	783-784	w83	(	*	O
+8	das	d	_	ART	_	_	_	_	_	785-788	w84	das	*	O
+9	Morgenblatt	Morgenblatt	_	NN	_	_	_	_	_	789-800	w85	Morgenblatt	*	O
+10	zu-<lb/>gleich	zugleich	_	ADV	_	_	_	_	_	801-815	w86	zugleich	*	O
+11	mit	mit	_	APPR	_	_	_	_	_	816-819	w87	mit	*	O
+12	der	d	_	ART	_	_	_	_	_	820-823	w88	der	*	O
+13	Nachmittagsaus-<lb/>gabe	Nachmittagsausgabe	_	NN	_	_	_	_	_	824-848	w89	Nachmittagsausgabe	*	O
+14	des	d	_	ART	_	_	_	_	_	849-852	w8a	des	*	O
+15	vorherigen	vorherig	_	ADJA	_	_	_	_	_	853-863	w8b	vorherigen	*	O
+16	Tages	Tag	_	NN	_	_	_	_	_	864-869	w8c	Tages	*	O
+17	)	)	_	$(	_	_	_	_	_	870-871	w8d	)	*	O
+18	für	für	_	APPR	_	_	_	_	_	872-875	w8e	für	*	O
+19	auswärts	auswärts	_	ADV	_	_	_	_	_	876-884	w8f	auswärts	*	O
+20	:	:	_	$(	_	_	_	_	_	885-886	w90	:	*	O
+21	monatlich	monatlich	_	ADJD	_	_	_	_	_	887-896	w91	monatlich	*	O
+22	...	...	_	$(	_	_	_	_	_	897-900	w92	...	*	O
+23	....	....	_	$.	_	_	_	_	_	901-905	w93	....	*	O
+24	K	K	_	CARD	_	_	_	_	_	906-907	w94	K	*	O
+25	3.50	3.50	_	CARD	_	_	_	_	_	908-912	w95,w95_1	3.50	*	O
+26	vierteljährig	vierteljahrig	_	ADJD	_	_	_	_	_	913-926	w96	vierteljährig	*	O
+27	.....	.....	_	$(	_	_	_	_	_	927-932	w97	.....	*	O
+28	.	.	_	$.	_	_	_	_	_	933-934	w98	.	*	O
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# TopFString = (VROOT(CARD 10.50)(ADJD halbjährig))
+# text = „ 10.50 halbjährig ... ... .
+1	„	"	_	$(	_	_	_	_	_	936-937	w99	"	*	O
+2	10.50	10.50	_	CARD	_	_	_	_	_	938-943	w9a,w9a_1	10.50	*	O
+3	halbjährig	halbjährlich	_	ADJD	_	_	_	_	_	944-954	w9b	halbjährlich	*	O
+4	...	...	_	$(	_	_	_	_	_	955-958	w9c	...	*	O
+5	...	...	_	$(	_	_	_	_	_	959-962	w9d	...	*	O
+6	.	.	_	$.	_	_	_	_	_	963-964	w9e	.	*	O
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# TopFString = (VROOT(CARD 21.—)(APPR Für)(NE Deutſchland)(ADJD vierteljährig)(NN Kreuzbandſendung)(CARD K)(CARD 16))
+# text = „ 21.— Für Deutſchland : vierteljährig Kreuzbandſendung K 16 .— .
+1	„	"	_	$(	_	_	_	_	_	966-967	w9f	"	*	O
+2	21.—	21.--	_	CARD	_	_	_	_	_	968-972	wa0	21.--	*	O
+3	Für	für	_	APPR	_	_	_	_	_	973-976	wa1	Für	*	O
+4	Deutſchland	Deutschland	_	NE	_	_	_	_	_	977-988	wa2	Deutschland	*	O
+5	:	:	_	$.	_	_	_	_	_	989-990	wa3	:	*	O
+6	vierteljährig	vierteljahrig	_	ADJD	_	_	_	_	_	991-1004	wa4	vierteljährig	*	O
+7	Kreuzbandſendung	Kreuzbandsendung	_	NN	_	_	_	_	_	1005-1021	wa5	Kreuzbandsendung	*	O
+8	K	K	_	CARD	_	_	_	_	_	1022-1023	wa6	K	*	O
+9	16	16	_	CARD	_	_	_	_	_	1024-1026	wa7	16	*	O
+10	.—	.--	_	$(	_	_	_	_	_	1027-1029	wa8	.--	*	O
+11	.	.	_	$.	_	_	_	_	_	1030-1031	wa9	.	*	O
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# TopFString = (VROOT(NN Länder)(ART des)(NN Weltpoſtvereines)(ADJD vierteljährig)(NN Kreuzbandſendung)(CARD K)(CARD 22))
+# text = Länder des Weltpoſtvereines : vierteljährig Kreuzbandſendung K 22 .— .
+1	Länder	Land	_	NN	_	_	_	_	_	1033-1039	waa	Länder	*	O
+2	des	d	_	ART	_	_	_	_	_	1040-1043	wab	des	*	O
+3	Weltpoſtvereines	Weltpostverein	_	NN	_	_	_	_	_	1044-1060	wac	Weltpostvereines	*	O
+4	:	:	_	$.	_	_	_	_	_	1061-1062	wad	:	*	O
+5	vierteljährig	vierteljahrig	_	ADJD	_	_	_	_	_	1063-1076	wae	vierteljährig	*	O
+6	Kreuzbandſendung	Kreuzbandsendung	_	NN	_	_	_	_	_	1077-1093	waf	Kreuzbandsendung	*	O
+7	K	K	_	CARD	_	_	_	_	_	1094-1095	wb0	K	*	O
+8	22	22	_	CARD	_	_	_	_	_	1096-1098	wb1	22	*	O
+9	.—	.--	_	$(	_	_	_	_	_	1099-1101	wb2	.--	*	O
+10	.	.	_	$.	_	_	_	_	_	1102-1103	wb3	.	*	O
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# TopFString = (VROOT(NN Nr.)(CARD 595)(NE Wien)(KOMMA ,)(NN Montag)(ART den)(ADJA 23.)(NN Dezember)(CARD 1912))
+# text = Nr. 595 Wien , Montag den 23. Dezember 1912 .
+1	Nr.	Nr.	_	NN	_	_	_	_	_	1105-1108	wb4	Nr.	*	O
+2	595	595	_	CARD	_	_	_	_	_	1109-1112	wb5	595	*	O
+3	Wien	Wien	_	NE	_	_	_	_	_	1113-1117	wb6	Wien	*	O
+4	,	,	_	$,	_	_	_	_	_	1118-1119	wb7	,	*	O
+5	Montag	Montag	_	NN	_	_	_	_	_	1120-1126	wb8	Montag	*	O
+6	den	d	_	ART	_	_	_	_	_	1127-1130	wb9	den	*	O
+7	23.	23.	_	ADJA	_	_	_	_	_	1131-1134	wba	23.	*	O
+8	Dezember	Dezember	_	NN	_	_	_	_	_	1135-1143	wbb	Dezember	*	O
+9	1912	1912	_	CARD	_	_	_	_	_	1144-1148	wbc	1912	*	O
+10	.	.	_	$.	_	_	_	_	_	1149-1150	wbd	.	*	O
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# TopFString = (VROOT(ADJA XIX.)(NN Jahrgang))
+# text = XIX. Jahrgang .
+1	XIX.	Xix.	_	ADJA	_	_	_	_	_	1152-1156	wbe	XIX.	*	O
+2	Jahrgang	Jahrgang	_	NN	_	_	_	_	_	1157-1165	wbf	Jahrgang	*	O
+3	.	.	_	$.	_	_	_	_	_	1166-1167	wc0	.	*	O
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# TopFString = (VROOT(ART Die)(NN Bürgermeiſterwahl))
+# text = Die Bürgermeiſterwahl .
+1	Die	d	_	ART	_	_	_	_	_	1169-1172	w30ea	Die	*	O
+2	Bürgermeiſterwahl	Bürgermeisterwahl	_	NN	_	_	_	_	_	1173-1190	w30eb	Bürgermeisterwahl	*	O
+3	.	.	_	$.	_	_	_	_	_	1191-1192	w30ec	.	*	O
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# TopFString = (VROOT(MF(NN Dr.)(NE Weiskirchner)(APPR mit)(CARD 129)(NN Stimmen))(VC(VVPP gewählt)))
+# text = Dr. Weiskirchner mit 129 Stimmen gewählt .
+1	Dr.	Dr.	_	NN	_	_	_	_	_	1194-1197	w30ed	Dr.	*	B-MF
+2	Weiskirchner	Weiskirchner	_	NE	_	_	_	_	_	1198-1210	w30ee	Weiskirchner	*	I-MF
+3	mit	mit	_	APPR	_	_	_	_	_	1211-1214	w30ef	mit	*	I-MF
+4	129	129	_	CARD	_	_	_	_	_	1215-1218	w30f0	129	*	I-MF
+5	Stimmen	Stimme	_	NN	_	_	_	_	_	1219-1226	w30f1	Stimmen	*	I-MF
+6	gewählt	wählen	_	VVPP	_	_	_	_	_	1227-1234	w30f2	gewählt	*	B-RK
+7	.	.	_	$.	_	_	_	_	_	1235-1236	w30f3	.	*	O
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# TopFString = (VROOT(VF(ART Die)(NN Stadt)(NE Wien))(LK(VAFIN hat))(MF(ADV heute)(ADV vormittag)(APPR nach)(PTKNEG nicht)(ADV einmal)(ART einer)(NN Woche)(APPR während)(ART dem)(NN Interregnum)(ART ein)(ADJA neues)(NN Oberhaupt))(VC(VVPP erhalten)))
+# text = Die Stadt Wien hat heute vormittag nach nicht einmal einer Woche während dem Interregnum ein neues Oberhaupt erhalten .
+1	Die	d	_	ART	_	_	_	_	_	1238-1241	wc1	Die	*	B-VF
+2	Stadt	Stadt	_	NN	_	_	_	_	_	1242-1247	wc2	Stadt	*	I-VF
+3	Wien	Wien	_	NE	_	_	_	_	_	1248-1252	wc3	Wien	*	I-VF
+4	hat	haben	_	VAFIN	_	_	_	_	_	1253-1256	wc4	hat	*	B-LK
+5	heute	heute	_	ADV	_	_	_	_	_	1257-1262	wc5	heute	*	B-MF
+6	vormittag	vormittag	_	ADV	_	_	_	_	_	1263-1272	wc6	vormittag	*	I-MF
+7	nach	nach	_	APPR	_	_	_	_	_	1273-1277	wc7	nach	*	I-MF
+8	nicht	nicht	_	PTKNEG	_	_	_	_	_	1278-1283	wc8	nicht	*	I-MF
+9	einmal	einmal	_	ADV	_	_	_	_	_	1284-1290	wc9	einmal	*	I-MF
+10	einer	eine	_	ART	_	_	_	_	_	1291-1296	wca	einer	*	I-MF
+11	Woche	Woche	_	NN	_	_	_	_	_	1297-1302	wcb	Woche	*	I-MF
+12	während	während	_	APPR	_	_	_	_	_	1303-1310	wcc	während	*	I-MF
+13	dem	d	_	ART	_	_	_	_	_	1311-1314	wcd	dem	*	I-MF
+14	Interregnum	Interregnum	_	NN	_	_	_	_	_	1315-1326	wce	Interregnum	*	I-MF
+15	ein	eine	_	ART	_	_	_	_	_	1327-1330	wcf	ein	*	I-MF
+16	neues	neu	_	ADJA	_	_	_	_	_	1331-1336	wd0	neues	*	I-MF
+17	Oberhaupt	Oberhaupt	_	NN	_	_	_	_	_	1337-1346	wd1	Oberhaupt	*	I-MF
+18	erhalten	erhalten	_	VVPP	_	_	_	_	_	1347-1355	wd2	erhalten	*	B-RK
+19	.	.	_	$.	_	_	_	_	_	1356-1357	wd3	.	*	O
+
+# sent_id = 19
+# sent_id(TSV) = 19
+# TopFString = (VROOT(VF(NN Dr.)(NE Richard)(NE Weiskirchner)(KOMMA ,)(MF(APPR von)(NN Dr.)(NE Lueger)(APPR zu)(PPOSAT ſeinem)(NN Nachfolger)(KON und)(APPR für)(ART die)(NN Voll-<lb/>endung)(ART der)(APPR von)(NN Lueger)(ADJA begonnenen)(NN Werke))(VC(VVPP beſtimmt)))(KOMMA ,)(LK(VAFIN wurde))(MF(APPR von)(ART der)(ADJA geſamten)(NN Majorität)(ADJD einſtimmig)(APPRART zum)(NN Bürgermeiſter))(VC(VVPP gewählt)))
+# text = Dr. Richard Weiskirchner , von Dr. Lueger zu ſeinem Nachfolger und für die Voll-<lb/>endung der von Lueger begonnenen Werke beſtimmt , wurde von der geſamten Majorität einſtimmig zum Bürgermeiſter gewählt .
+1	Dr.	Dr.	_	NN	_	_	_	_	_	1359-1362	wd4	Dr.	*	B-VF
+2	Richard	Richard	_	NE	_	_	_	_	_	1363-1370	wd5	Richard	*	I-VF
+3	Weiskirchner	Weiskirchner	_	NE	_	_	_	_	_	1371-1383	wd6	Weiskirchner	*	I-VF
+4	,	,	_	$,	_	_	_	_	_	1384-1385	wd7	,	*	I-VF
+5	von	von	_	APPR	_	_	_	_	_	1386-1389	wd8	von	*	I-VF|B-MF
+6	Dr.	Dr.	_	NN	_	_	_	_	_	1390-1393	wd9	Dr.	*	I-VF|I-MF
+7	Lueger	Lüger	_	NE	_	_	_	_	_	1394-1400	wda	Lüger	*	I-VF|I-MF
+8	zu	zu	_	APPR	_	_	_	_	_	1401-1403	wdb	zu	*	I-VF|I-MF
+9	ſeinem	seine	_	PPOSAT	_	_	_	_	_	1404-1410	wdc	seinem	*	I-VF|I-MF
+10	Nachfolger	Nachfolger	_	NN	_	_	_	_	_	1411-1421	wdd	Nachfolger	*	I-VF|I-MF
+11	und	und	_	KON	_	_	_	_	_	1422-1425	wde	und	*	I-VF|I-MF
+12	für	für	_	APPR	_	_	_	_	_	1426-1429	wdf	für	*	I-VF|I-MF
+13	die	d	_	ART	_	_	_	_	_	1430-1433	we0	die	*	I-VF|I-MF
+14	Voll-<lb/>endung	Vollendung	_	NN	_	_	_	_	_	1434-1450	we1	Vollendung	*	I-VF|I-MF
+15	der	d	_	ART	_	_	_	_	_	1451-1454	we2	der	*	I-VF|I-MF
+16	von	von	_	APPR	_	_	_	_	_	1455-1458	we3	von	*	I-VF|I-MF
+17	Lueger	Lüger	_	NN	_	_	_	_	_	1459-1465	we4	Lüger	*	I-VF|I-MF
+18	begonnenen	beginnen	_	ADJA	_	_	_	_	_	1466-1476	we5	begonnenen	*	I-VF|I-MF
+19	Werke	Werk	_	NN	_	_	_	_	_	1477-1482	we6	Werke	*	I-VF|I-MF
+20	beſtimmt	bestimmen	_	VVPP	_	_	_	_	_	1483-1491	we7	bestimmt	*	I-VF|B-RK
+21	,	,	_	$,	_	_	_	_	_	1492-1493	we8	,	*	O
+22	wurde	werden	_	VAFIN	_	_	_	_	_	1494-1499	we9	wurde	*	B-LK
+23	von	von	_	APPR	_	_	_	_	_	1500-1503	wea	von	*	B-MF
+24	der	d	_	ART	_	_	_	_	_	1504-1507	web	der	*	I-MF
+25	geſamten	gesamt	_	ADJA	_	_	_	_	_	1508-1516	wec	gesamten	*	I-MF
+26	Majorität	Majorität	_	NN	_	_	_	_	_	1517-1526	wed	Majorität	*	I-MF
+27	einſtimmig	einstimmig	_	ADJD	_	_	_	_	_	1527-1537	wee	einstimmig	*	I-MF
+28	zum	zum	_	APPRART	_	_	_	_	_	1538-1541	wef	zum	*	I-MF
+29	Bürgermeiſter	Bürgermeister	_	NN	_	_	_	_	_	1542-1555	wf0	Bürgermeister	*	I-MF
+30	gewählt	wählen	_	VVPP	_	_	_	_	_	1556-1563	wf1	gewählt	*	B-RK
+31	.	.	_	$.	_	_	_	_	_	1564-1565	wf2	.	*	O
+
+# sent_id = 20
+# sent_id(TSV) = 20
+# TopFString = (VROOT(VF(FKONJ(MF(ART Den)(NN Vorſchriften)(ART des)(NN Statuts))(VC(VVPP gehorchend))))(LK(VAFIN waren))(MF(PIAT alle)(NN Gemeinderäte)(APPRART zur)(NN Wahl))(VC(VVPP gekommen))(KOMMA ,)(NF(C(PRELS die))(MF(PTKNEG nicht)(NN Krank-<lb/>heit)(KON oder)(ADV vorher)(ADJA bewilligter)(NN Urlaub))(VC(VVPP entſchuldigt)(VAFIN hatten))))
+# text = Den Vorſchriften des Statuts gehorchend waren alle Gemeinderäte zur Wahl gekommen , die nicht Krank-<lb/>heit oder vorher bewilligter Urlaub entſchuldigt hatten .
+1	Den	d	_	ART	_	_	_	_	_	1567-1570	wf3	Den	*	B-VF|B-MF
+2	Vorſchriften	Vorschrift	_	NN	_	_	_	_	_	1571-1583	wf4	Vorschriften	*	I-VF|I-MF
+3	des	d	_	ART	_	_	_	_	_	1584-1587	wf5	des	*	I-VF|I-MF
+4	Statuts	Statut	_	NN	_	_	_	_	_	1588-1595	wf6	Statuts	*	I-VF|I-MF
+5	gehorchend	gehorchen	_	VVPP	_	_	_	_	_	1596-1606	wf7	gehorchend	*	I-VF|B-RK
+6	waren	sein	_	VAFIN	_	_	_	_	_	1607-1612	wf8	waren	*	B-LK
+7	alle	alle	_	PIAT	_	_	_	_	_	1613-1617	wf9	alle	*	B-MF
+8	Gemeinderäte	Gemeinderat	_	NN	_	_	_	_	_	1618-1630	wfa	Gemeinderäte	*	I-MF
+9	zur	zur	_	APPRART	_	_	_	_	_	1631-1634	wfb	zur	*	I-MF
+10	Wahl	Wahl	_	NN	_	_	_	_	_	1635-1639	wfc	Wahl	*	I-MF
+11	gekommen	kommen	_	VVPP	_	_	_	_	_	1640-1648	wfd	gekommen	*	B-RK
+12	,	,	_	$,	_	_	_	_	_	1649-1650	wfe	,	*	O
+13	die	die	_	PRELS	_	_	_	_	_	1651-1654	wff	die	*	B-NF|B-LK
+14	nicht	nicht	_	PTKNEG	_	_	_	_	_	1655-1660	w100	nicht	*	I-NF|B-MF
+15	Krank-<lb/>heit	Krankheit	_	NN	_	_	_	_	_	1661-1676	w101	Krankheit	*	I-NF|I-MF
+16	oder	oder	_	KON	_	_	_	_	_	1677-1681	w102	oder	*	I-NF|I-MF
+17	vorher	vorher	_	ADV	_	_	_	_	_	1682-1688	w103	vorher	*	I-NF|I-MF
+18	bewilligter	bewilligt	_	ADJA	_	_	_	_	_	1689-1700	w104	bewilligter	*	I-NF|I-MF
+19	Urlaub	Urlaub	_	NN	_	_	_	_	_	1701-1707	w105	Urlaub	*	I-NF|I-MF
+20	entſchuldigt	entschuldigen	_	VVPP	_	_	_	_	_	1708-1720	w106	entschuldigt	*	I-NF|B-RK
+21	hatten	haben	_	VAFIN	_	_	_	_	_	1721-1727	w107	hatten	*	I-NF|I-RK
+22	.	.	_	$.	_	_	_	_	_	1728-1729	w108	.	*	O
+
+# sent_id = 21
+# sent_id(TSV) = 21
+# TopFString = (VROOT(VF(ART Das)(NN Statut))(FKOORD(FKONJ(LK(VVFIN verlangt))(MF(ADV bekanntlich)(ADV auch))(KOMMA ,)(NF(C(KOUS daß))(MF(ART die)(NN Ge-<lb/>meinderäte)(APPR während)(ART der)(NN Dauer)(ART der)(NN Wahl)(APPRART im)(NN Saale))(VC(VVFIN verbleiben))))(KON und)(FKONJ(LK(VVFIN ſieht))(MF(ART den)(NN Mandatsverluſt)(KOKOM als)(NN Strafe)(APPR für)(ART die)(NN Verletzung)(PDAT dieſer)(NN Beſtimmungen))(VC(PTKVZ vor)))))
+# text = Das Statut verlangt bekanntlich auch , daß die Ge-<lb/>meinderäte während der Dauer der Wahl im Saale verbleiben und ſieht den Mandatsverluſt als Strafe für die Verletzung dieſer Beſtimmungen vor .
+1	Das	d	_	ART	_	_	_	_	_	1731-1734	w109	Das	*	B-VF
+2	Statut	Statut	_	NN	_	_	_	_	_	1735-1741	w10a	Statut	*	I-VF
+3	verlangt	verlangen	_	VVFIN	_	_	_	_	_	1742-1750	w10b	verlangt	*	B-LK
+4	bekanntlich	bekanntlich	_	ADV	_	_	_	_	_	1751-1762	w10c	bekanntlich	*	B-MF
+5	auch	auch	_	ADV	_	_	_	_	_	1763-1767	w10d	auch	*	I-MF
+6	,	,	_	$,	_	_	_	_	_	1768-1769	w10e	,	*	O
+7	daß	daß	_	KOUS	_	_	_	_	_	1770-1773	w10f	daß	*	B-NF|B-LK
+8	die	d	_	ART	_	_	_	_	_	1774-1777	w110	die	*	I-NF|B-MF
+9	Ge-<lb/>meinderäte	Gemeinderat	_	NN	_	_	_	_	_	1778-1796	w111	Gemeinderäte	*	I-NF|I-MF
+10	während	während	_	APPR	_	_	_	_	_	1797-1804	w112	während	*	I-NF|I-MF
+11	der	d	_	ART	_	_	_	_	_	1805-1808	w113	der	*	I-NF|I-MF
+12	Dauer	Dauer	_	NN	_	_	_	_	_	1809-1814	w114	Dauer	*	I-NF|I-MF
+13	der	d	_	ART	_	_	_	_	_	1815-1818	w115	der	*	I-NF|I-MF
+14	Wahl	Wahl	_	NN	_	_	_	_	_	1819-1823	w116	Wahl	*	I-NF|I-MF
+15	im	im	_	APPRART	_	_	_	_	_	1824-1826	w117	im	*	I-NF|I-MF
+16	Saale	Saal	_	NN	_	_	_	_	_	1827-1832	w118	Saale	*	I-NF|I-MF
+17	verbleiben	verbleiben	_	VVFIN	_	_	_	_	_	1833-1843	w119	verbleiben	*	I-NF|B-RK
+18	und	und	_	KON	_	_	_	_	_	1844-1847	w11a	und	*	B-KOORD
+19	ſieht	sehen	_	VVFIN	_	_	_	_	_	1848-1853	w11b	sieht	*	B-LK
+20	den	d	_	ART	_	_	_	_	_	1854-1857	w11c	den	*	B-MF
+21	Mandatsverluſt	Mandatsverlust	_	NN	_	_	_	_	_	1858-1872	w11d	Mandatsverlust	*	I-MF
+22	als	als	_	KOKOM	_	_	_	_	_	1873-1876	w11e	als	*	I-MF
+23	Strafe	Strafe	_	NN	_	_	_	_	_	1877-1883	w11f	Strafe	*	I-MF
+24	für	für	_	APPR	_	_	_	_	_	1884-1887	w120	für	*	I-MF
+25	die	d	_	ART	_	_	_	_	_	1888-1891	w121	die	*	I-MF
+26	Verletzung	Verletzung	_	NN	_	_	_	_	_	1892-1902	w122	Verletzung	*	I-MF
+27	dieſer	diese	_	PDAT	_	_	_	_	_	1903-1909	w123	dieser	*	I-MF
+28	Beſtimmungen	Bestimmung	_	NN	_	_	_	_	_	1910-1922	w124	Bestimmungen	*	I-MF
+29	vor	vor	_	PTKVZ	_	_	_	_	_	1923-1926	w125	vor	*	B-RK
+30	.	.	_	$.	_	_	_	_	_	1927-1928	w126	.	*	O
+
+# sent_id = 22
+# sent_id(TSV) = 22
+# TopFString = (VROOT(VF(PPER Es))(LK(VAFIN waren))(MF(ADV denn)(ADV auch)(ADV faſt)(PIAT alle)(NN Gemeinderäte)(APPRART zur)(NN Wahl))(VC(VVPP erſchienen))(KOMMA ,)(VF(ART die)(NN Chriſtlichſozialen)(APPRART im)(NN Feſtkleid)(KON und)(APPR mit)(ART der)(ADJA weißen)(NN Nelke))(MF(ADJD geſchmückt)))
+# text = Es waren denn auch faſt alle Gemeinderäte zur Wahl erſchienen , die Chriſtlichſozialen im Feſtkleid und mit der weißen Nelke geſchmückt .
+1	Es	es	_	PPER	_	_	_	_	_	1930-1932	w127	Es	*	B-VF
+2	waren	sein	_	VAFIN	_	_	_	_	_	1933-1938	w128	waren	*	B-LK
+3	denn	denn	_	ADV	_	_	_	_	_	1939-1943	w129	denn	*	B-MF
+4	auch	auch	_	ADV	_	_	_	_	_	1944-1948	w12a	auch	*	I-MF
+5	faſt	fast	_	ADV	_	_	_	_	_	1949-1953	w12b	fast	*	I-MF
+6	alle	alle	_	PIAT	_	_	_	_	_	1954-1958	w12c	alle	*	I-MF
+7	Gemeinderäte	Gemeinderat	_	NN	_	_	_	_	_	1959-1971	w12d	Gemeinderäte	*	I-MF
+8	zur	zur	_	APPRART	_	_	_	_	_	1972-1975	w12e	zur	*	I-MF
+9	Wahl	Wahl	_	NN	_	_	_	_	_	1976-1980	w12f	Wahl	*	I-MF
+10	erſchienen	erscheinen	_	VVPP	_	_	_	_	_	1981-1991	w130	erschienen	*	B-RK
+11	,	,	_	$,	_	_	_	_	_	1992-1993	w131	,	*	O
+12	die	d	_	ART	_	_	_	_	_	1994-1997	w132	die	*	B-VF
+13	Chriſtlichſozialen	Christlichsoziale	_	NN	_	_	_	_	_	1998-2016	w133	Christlichsozialen	*	I-VF
+14	im	im	_	APPRART	_	_	_	_	_	2017-2019	w134	im	*	I-VF
+15	Feſtkleid	Festkleid	_	NN	_	_	_	_	_	2020-2029	w135	Festkleid	*	I-VF
+16	und	und	_	KON	_	_	_	_	_	2030-2033	w136	und	*	I-VF
+17	mit	mit	_	APPR	_	_	_	_	_	2034-2037	w137	mit	*	I-VF
+18	der	d	_	ART	_	_	_	_	_	2038-2041	w138	der	*	I-VF
+19	weißen	weiß	_	ADJA	_	_	_	_	_	2042-2048	w139	weißen	*	I-VF
+20	Nelke	Nelke	_	NN	_	_	_	_	_	2049-2054	w13a	Nelke	*	I-VF
+21	geſchmückt	schmücken	_	ADJD	_	_	_	_	_	2055-2065	w13b	geschmückt	*	B-MF
+22	.	.	_	$.	_	_	_	_	_	2066-2067	w13c	.	*	O
+
+# sent_id = 23
+# sent_id(TSV) = 23
+# TopFString = (VROOT(VF(ART Die)(NN Galerien))(LK(VAFIN waren))(MF(APPR bis)(APPR auf)(ART das)(ADJA letzte)(NN Plätzchen))(VC(VVPP gefüllt)))
+# text = Die Galerien waren bis auf das letzte Plätzchen gefüllt .
+1	Die	d	_	ART	_	_	_	_	_	2069-2072	w13d	Die	*	B-VF
+2	Galerien	Galerie	_	NN	_	_	_	_	_	2073-2081	w13e	Galerien	*	I-VF
+3	waren	sein	_	VAFIN	_	_	_	_	_	2082-2087	w13f	waren	*	B-LK
+4	bis	bis	_	APPR	_	_	_	_	_	2088-2091	w140	bis	*	B-MF
+5	auf	auf	_	APPR	_	_	_	_	_	2092-2095	w141	auf	*	I-MF
+6	das	d	_	ART	_	_	_	_	_	2096-2099	w142	das	*	I-MF
+7	letzte	letzte	_	ADJA	_	_	_	_	_	2100-2106	w143	letzte	*	I-MF
+8	Plätzchen	Plätzchen	_	NN	_	_	_	_	_	2107-2116	w144	Plätzchen	*	I-MF
+9	gefüllt	füllen	_	VVPP	_	_	_	_	_	2117-2124	w145	gefüllt	*	B-RK
+10	.	.	_	$.	_	_	_	_	_	2125-2126	w146	.	*	O
+
+# sent_id = 24
+# sent_id(TSV) = 24
+# TopFString = (VROOT(VF(APPRART Im)(NN Saale))(LK(VAFIN waren))(MF(ADV auch)(ART die)(NN Bezirksvorſteher)(KON und)(ART die)(NN Direktoren)(ART der)(ADJA ſtädtiſchen)(NN Unternehmungen)(KON und)(ART die)(NN Beamten)(ART des)(NN Präſidialbureaus))(VC(VVPP anweſend)))
+# text = Im Saale waren auch die Bezirksvorſteher und die Direktoren der ſtädtiſchen Unternehmungen und die Beamten des Präſidialbureaus anweſend .
+1	Im	im	_	APPRART	_	_	_	_	_	2128-2130	w147	Im	*	B-VF
+2	Saale	Saal	_	NN	_	_	_	_	_	2131-2136	w148	Saale	*	I-VF
+3	waren	sein	_	VAFIN	_	_	_	_	_	2137-2142	w149	waren	*	B-LK
+4	auch	auch	_	ADV	_	_	_	_	_	2143-2147	w14a	auch	*	B-MF
+5	die	d	_	ART	_	_	_	_	_	2148-2151	w14b	die	*	I-MF
+6	Bezirksvorſteher	Bezirksvorsteher	_	NN	_	_	_	_	_	2152-2168	w14c	Bezirksvorsteher	*	I-MF
+7	und	und	_	KON	_	_	_	_	_	2169-2172	w14d	und	*	I-MF
+8	die	d	_	ART	_	_	_	_	_	2173-2176	w14e	die	*	I-MF
+9	Direktoren	Direktor	_	NN	_	_	_	_	_	2177-2187	w14f	Direktoren	*	I-MF
+10	der	d	_	ART	_	_	_	_	_	2188-2191	w150	der	*	I-MF
+11	ſtädtiſchen	städtisch	_	ADJA	_	_	_	_	_	2192-2203	w151	städtischen	*	I-MF
+12	Unternehmungen	Unternehmung	_	NN	_	_	_	_	_	2204-2218	w152	Unternehmungen	*	I-MF
+13	und	und	_	KON	_	_	_	_	_	2219-2222	w153	und	*	I-MF
+14	die	d	_	ART	_	_	_	_	_	2223-2226	w154	die	*	I-MF
+15	Beamten	Beamte	_	NN	_	_	_	_	_	2227-2234	w155	Beamten	*	I-MF
+16	des	d	_	ART	_	_	_	_	_	2235-2238	w156	des	*	I-MF
+17	Präſidialbureaus	Präsidialbureaus	_	NN	_	_	_	_	_	2239-2255	w157	Präsidialbureaus	*	I-MF
+18	anweſend	anwesend	_	VVPP	_	_	_	_	_	2256-2264	w158	anwesend	*	B-RK
+19	.	.	_	$.	_	_	_	_	_	2265-2266	w159	.	*	O
+
+# sent_id = 25
+# sent_id(TSV) = 25
+# TopFString = (VROOT(VF(APPR Um)(CARD ¼11)(NN Uhr))(LK(VVFIN eröffnete))(MF(ART der)(ADJA erſte)(NN Vizebürgermeiſter)(NN Dr.)(NE Porzer)(ART die)(ADJA denkwürdige)(NN Sitzung)))
+# text = Um ¼11 Uhr eröffnete der erſte Vizebürgermeiſter Dr. Porzer die denkwürdige Sitzung .
+1	Um	um	_	APPR	_	_	_	_	_	2268-2270	w15a	Um	*	B-VF
+2	¼11	1/411	_	CARD	_	_	_	_	_	2271-2274	w15b	1/411	*	I-VF
+3	Uhr	Uhr	_	NN	_	_	_	_	_	2275-2278	w15c	Uhr	*	I-VF
+4	eröffnete	eröffnen	_	VVFIN	_	_	_	_	_	2279-2288	w15d	eröffnete	*	B-LK
+5	der	d	_	ART	_	_	_	_	_	2289-2292	w15e	der	*	B-MF
+6	erſte	erst	_	ADJA	_	_	_	_	_	2293-2298	w15f	erste	*	I-MF
+7	Vizebürgermeiſter	Vizebürgermeister	_	NN	_	_	_	_	_	2299-2316	w160	Vizebürgermeister	*	I-MF
+8	Dr.	Dr.	_	NN	_	_	_	_	_	2317-2320	w161	Dr.	*	I-MF
+9	Porzer	Porzer	_	NE	_	_	_	_	_	2321-2327	w162	Porzer	*	I-MF
+10	die	d	_	ART	_	_	_	_	_	2328-2331	w163	die	*	I-MF
+11	denkwürdige	denkwürdig	_	ADJA	_	_	_	_	_	2332-2343	w164	denkwürdige	*	I-MF
+12	Sitzung	Sitzung	_	NN	_	_	_	_	_	2344-2351	w165	Sitzung	*	I-MF
+13	.	.	_	$.	_	_	_	_	_	2352-2353	w166	.	*	O
+
+# sent_id = 26
+# sent_id(TSV) = 26
+# TopFString = (VROOT(VF(ART Der)(NN Wahlakt)(KOMMA ,)(ART eine)(ADJA ſchriftliche)(NN Abſtimmung)(KOMMA ,)(C(APPR an)(PRELS der))(MF(PRF ſich)(ADV auch)(ART die)(NN Oppoſition))(VC(VVFIN beteiligte)))(KOMMA ,)(LK(VVFIN verlief))(MF(APPR in)(ADJA vollſter)(NN Ruhe)))
+# text = Der Wahlakt , eine ſchriftliche Abſtimmung , an der ſich auch die Oppoſition beteiligte , verlief in vollſter Ruhe .
+1	Der	d	_	ART	_	_	_	_	_	2355-2358	w167	Der	*	B-VF
+2	Wahlakt	Wahlakt	_	NN	_	_	_	_	_	2359-2366	w168	Wahlakt	*	I-VF
+3	,	,	_	$,	_	_	_	_	_	2367-2368	w169	,	*	I-VF
+4	eine	eine	_	ART	_	_	_	_	_	2369-2373	w16a	eine	*	I-VF
+5	ſchriftliche	schriftlich	_	ADJA	_	_	_	_	_	2374-2386	w16b	schriftliche	*	I-VF
+6	Abſtimmung	Abstimmung	_	NN	_	_	_	_	_	2387-2397	w16c	Abstimmung	*	I-VF
+7	,	,	_	$,	_	_	_	_	_	2398-2399	w16d	,	*	I-VF
+8	an	an	_	APPR	_	_	_	_	_	2400-2402	w16e	an	*	I-VF|B-LK
+9	der	die	_	PRELS	_	_	_	_	_	2403-2406	w16f	der	*	I-VF|I-LK
+10	ſich	sich	_	PRF	_	_	_	_	_	2407-2411	w170	sich	*	I-VF|B-MF
+11	auch	auch	_	ADV	_	_	_	_	_	2412-2416	w171	auch	*	I-VF|I-MF
+12	die	d	_	ART	_	_	_	_	_	2417-2420	w172	die	*	I-VF|I-MF
+13	Oppoſition	Opposition	_	NN	_	_	_	_	_	2421-2431	w173	Opposition	*	I-VF|I-MF
+14	beteiligte	beteiligen	_	VVFIN	_	_	_	_	_	2432-2442	w174	beteiligte	*	I-VF|B-RK
+15	,	,	_	$,	_	_	_	_	_	2443-2444	w175	,	*	O
+16	verlief	verlaufen	_	VVFIN	_	_	_	_	_	2445-2452	w176	verlief	*	B-LK
+17	in	in	_	APPR	_	_	_	_	_	2453-2455	w177	in	*	B-MF
+18	vollſter	voll	_	ADJA	_	_	_	_	_	2456-2464	w178	vollster	*	I-MF
+19	Ruhe	Ruhe	_	NN	_	_	_	_	_	2465-2469	w179	Ruhe	*	I-MF
+20	.	.	_	$.	_	_	_	_	_	2470-2471	w17a	.	*	O
+
+# sent_id = 27
+# sent_id(TSV) = 27
+# TopFString = (VROOT(VF(ART Die)(NN Sozialdemokraten)(KON und)(NN Liberalen))(LK(VVFIN beteiligten))(MF(PRF ſich)(APPR an)(ART der)(NN Wahl))(KOMMA ,)(VF(ART die)(NN erſteren))(LK(VVFIN gaben))(MF(PPOSAT ihrem)(NN Klubobmann)(NE Reumann)(ART die)(NN Stimme))(KOMMA ,)(VF(ART die)(NN Liberalen))(MF(ADV bemerkens-<lb/>werterweiſe)(PPOSAT ihrem)(ADJA früheren)(NN Klubobmann)(NN Dr.)(NE Ritter)(APPR v.)(NE Dorn)))
+# text = Die Sozialdemokraten und Liberalen beteiligten ſich an der Wahl , die erſteren gaben ihrem Klubobmann Reumann die Stimme , die Liberalen bemerkens-<lb/>werterweiſe ihrem früheren Klubobmann Dr. Ritter v. Dorn .
+1	Die	d	_	ART	_	_	_	_	_	2473-2476	w17b	Die	*	B-VF
+2	Sozialdemokraten	Sozialdemokrat	_	NN	_	_	_	_	_	2477-2493	w17c	Sozialdemokraten	*	I-VF
+3	und	und	_	KON	_	_	_	_	_	2494-2497	w17d	und	*	I-VF
+4	Liberalen	Liberale	_	NN	_	_	_	_	_	2498-2507	w17e	Liberalen	*	I-VF
+5	beteiligten	beteiligen	_	VVFIN	_	_	_	_	_	2508-2519	w17f	beteiligten	*	B-LK
+6	ſich	sich	_	PRF	_	_	_	_	_	2520-2524	w180	sich	*	B-MF
+7	an	an	_	APPR	_	_	_	_	_	2525-2527	w181	an	*	I-MF
+8	der	d	_	ART	_	_	_	_	_	2528-2531	w182	der	*	I-MF
+9	Wahl	Wahl	_	NN	_	_	_	_	_	2532-2536	w183	Wahl	*	I-MF
+10	,	,	_	$,	_	_	_	_	_	2537-2538	w184	,	*	O
+11	die	d	_	ART	_	_	_	_	_	2539-2542	w185	die	*	B-VF
+12	erſteren	erstere	_	NN	_	_	_	_	_	2543-2551	w186	ersteren	*	I-VF
+13	gaben	geben	_	VVFIN	_	_	_	_	_	2552-2557	w187	gaben	*	B-LK
+14	ihrem	ihr	_	PPOSAT	_	_	_	_	_	2558-2563	w188	ihrem	*	B-MF
+15	Klubobmann	Klubobmann	_	NN	_	_	_	_	_	2564-2574	w189	Klubobmann	*	I-MF
+16	Reumann	Reumann	_	NE	_	_	_	_	_	2575-2582	w18a	Reumann	*	I-MF
+17	die	d	_	ART	_	_	_	_	_	2583-2586	w18b	die	*	I-MF
+18	Stimme	Stimme	_	NN	_	_	_	_	_	2587-2593	w18c	Stimme	*	I-MF
+19	,	,	_	$,	_	_	_	_	_	2594-2595	w18d	,	*	O
+20	die	d	_	ART	_	_	_	_	_	2596-2599	w18e	die	*	B-VF
+21	Liberalen	Liberale	_	NN	_	_	_	_	_	2600-2609	w18f	Liberalen	*	I-VF
+22	bemerkens-<lb/>werterweiſe	bemerkenswerterweise	_	ADV	_	_	_	_	_	2610-2636	w190	bemerkenswerterweise	*	B-MF
+23	ihrem	ihr	_	PPOSAT	_	_	_	_	_	2637-2642	w191	ihrem	*	I-MF
+24	früheren	früh	_	ADJA	_	_	_	_	_	2643-2651	w192	früheren	*	I-MF
+25	Klubobmann	Klubobmann	_	NN	_	_	_	_	_	2652-2662	w193	Klubobmann	*	I-MF
+26	Dr.	Dr.	_	NN	_	_	_	_	_	2663-2666	w194	Dr.	*	I-MF
+27	Ritter	Ritter	_	NE	_	_	_	_	_	2667-2673	w195	Ritter	*	I-MF
+28	v.	v.	_	APPR	_	_	_	_	_	2674-2676	w196	v.	*	I-MF
+29	Dorn	Dorn	_	NE	_	_	_	_	_	2677-2681	w197	Dorn	*	I-MF
+30	.	.	_	$.	_	_	_	_	_	2682-2683	w198	.	*	O
+
+# sent_id = 28
+# sent_id(TSV) = 28
+# TopFString = (VROOT(VF(C(KOUS Als))(FKOORD(FKONJ(MF(NN Dr.)(NE Weiskirchner)(KOMMA ,)(C(PRELS der))(MF(APPR auf)(PPOSAT ſeinem)(NN Platz)(APPR in)(ART der)(ADJA erſten)(NN Reihe))(VC(VVFIN ſaß))(KOMMA ,)(ART die)(ADJA 80.)(NN Stimme))(VC(VVPP erhalten)))(KON und)(FKONJ(MF(PAV damit)(ART die)(ADJA qualifizierte)(NN Mehrheit))(VC(VVPP erreicht)(VAFIN hatte)))))(KOMMA ,)(LK(VVFIN ertönte))(MF(ADJD lebhafter)(NN Beifall)(APPRART im)(NN Saale))(KOMMA ,)(NF(C(PRELS der))(FKOORD(FKONJ(MF(PRF ſich)(APPR bei)(ART der)(NN Abgabe)(ART der)(ADJA 100.)(NN Stimme)(APPR für)(NN Dr.)(NE Weis-<lb/>kirchner))(VC(VVFIN erneuerte)))(KON und)(FKONJ(MF(PRF ſich)(ADV dann)(APPR zu)(ADJA ſtürmiſchen)(NN Ovationen)(APPR für)(ART den)(ADJA neuen)(NN Bürgermeiſter))(VC(VVFIN verſtärkte))(NF(C(KOUS als))(MF(ART das)(NN Wahlergebnis))(VC(VVPP verkündet)(VAFIN wurde)))))))
+# text = Als Dr. Weiskirchner , der auf ſeinem Platz in der erſten Reihe ſaß , die 80. Stimme erhalten und damit die qualifizierte Mehrheit erreicht hatte , ertönte lebhafter Beifall im Saale , der ſich bei der Abgabe der 100. Stimme für Dr. Weis-<lb/>kirchner erneuerte und ſich dann zu ſtürmiſchen Ovationen für den neuen Bürgermeiſter verſtärkte als das Wahlergebnis verkündet wurde .
+1	Als	als	_	KOUS	_	_	_	_	_	2685-2688	w199	Als	*	B-VF|B-LK
+2	Dr.	Dr.	_	NN	_	_	_	_	_	2689-2692	w19a	Dr.	*	I-VF|B-MF
+3	Weiskirchner	Weiskirchner	_	NE	_	_	_	_	_	2693-2705	w19b	Weiskirchner	*	I-VF|I-MF
+4	,	,	_	$,	_	_	_	_	_	2706-2707	w19c	,	*	I-VF|I-MF
+5	der	die	_	PRELS	_	_	_	_	_	2708-2711	w19d	der	*	I-VF|I-MF|B-LK
+6	auf	auf	_	APPR	_	_	_	_	_	2712-2715	w19e	auf	*	I-VF|I-MF|B-MF
+7	ſeinem	seine	_	PPOSAT	_	_	_	_	_	2716-2722	w19f	seinem	*	I-VF|I-MF|I-MF
+8	Platz	Platz	_	NN	_	_	_	_	_	2723-2728	w1a0	Platz	*	I-VF|I-MF|I-MF
+9	in	in	_	APPR	_	_	_	_	_	2729-2731	w1a1	in	*	I-VF|I-MF|I-MF
+10	der	d	_	ART	_	_	_	_	_	2732-2735	w1a2	der	*	I-VF|I-MF|I-MF
+11	erſten	erst	_	ADJA	_	_	_	_	_	2736-2742	w1a3	ersten	*	I-VF|I-MF|I-MF
+12	Reihe	Reihe	_	NN	_	_	_	_	_	2743-2748	w1a4	Reihe	*	I-VF|I-MF|I-MF
+13	ſaß	sitzen	_	VVFIN	_	_	_	_	_	2749-2752	w1a5	saß	*	I-VF|I-MF|B-RK
+14	,	,	_	$,	_	_	_	_	_	2753-2754	w1a6	,	*	I-VF|I-MF
+15	die	d	_	ART	_	_	_	_	_	2755-2758	w1a7	die	*	I-VF|I-MF
+16	80.	80.	_	ADJA	_	_	_	_	_	2759-2762	w1a8	80.	*	I-VF|I-MF
+17	Stimme	Stimme	_	NN	_	_	_	_	_	2763-2769	w1a9	Stimme	*	I-VF|I-MF
+18	erhalten	erhalten	_	VVPP	_	_	_	_	_	2770-2778	w1aa	erhalten	*	I-VF|B-RK
+19	und	und	_	KON	_	_	_	_	_	2779-2782	w1ab	und	*	I-VF|B-KOORD
+20	damit	damit	_	PAV	_	_	_	_	_	2783-2788	w1ac	damit	*	I-VF|B-MF
+21	die	d	_	ART	_	_	_	_	_	2789-2792	w1ad	die	*	I-VF|I-MF
+22	qualifizierte	qualifiziert	_	ADJA	_	_	_	_	_	2793-2806	w1ae	qualifizierte	*	I-VF|I-MF
+23	Mehrheit	Mehrheit	_	NN	_	_	_	_	_	2807-2815	w1af	Mehrheit	*	I-VF|I-MF
+24	erreicht	erreichen	_	VVPP	_	_	_	_	_	2816-2824	w1b0	erreicht	*	I-VF|B-RK
+25	hatte	haben	_	VAFIN	_	_	_	_	_	2825-2830	w1b1	hatte	*	I-VF|I-RK
+26	,	,	_	$,	_	_	_	_	_	2831-2832	w1b2	,	*	O
+27	ertönte	ertönen	_	VVFIN	_	_	_	_	_	2833-2840	w1b3	ertönte	*	B-LK
+28	lebhafter	lebhaft	_	ADJD	_	_	_	_	_	2841-2850	w1b4	lebhafter	*	B-MF
+29	Beifall	Beifall	_	NN	_	_	_	_	_	2851-2858	w1b5	Beifall	*	I-MF
+30	im	im	_	APPRART	_	_	_	_	_	2859-2861	w1b6	im	*	I-MF
+31	Saale	Saal	_	NN	_	_	_	_	_	2862-2867	w1b7	Saale	*	I-MF
+32	,	,	_	$,	_	_	_	_	_	2868-2869	w1b8	,	*	O
+33	der	die	_	PRELS	_	_	_	_	_	2870-2873	w1b9	der	*	B-NF|B-LK
+34	ſich	sich	_	PRF	_	_	_	_	_	2874-2878	w1ba	sich	*	I-NF|B-MF
+35	bei	bei	_	APPR	_	_	_	_	_	2879-2882	w1bb	bei	*	I-NF|I-MF
+36	der	d	_	ART	_	_	_	_	_	2883-2886	w1bc	der	*	I-NF|I-MF
+37	Abgabe	Abgabe	_	NN	_	_	_	_	_	2887-2893	w1bd	Abgabe	*	I-NF|I-MF
+38	der	d	_	ART	_	_	_	_	_	2894-2897	w1be	der	*	I-NF|I-MF
+39	100.	100.	_	ADJA	_	_	_	_	_	2898-2902	w1bf	100.	*	I-NF|I-MF
+40	Stimme	Stimme	_	NN	_	_	_	_	_	2903-2909	w1c0	Stimme	*	I-NF|I-MF
+41	für	für	_	APPR	_	_	_	_	_	2910-2913	w1c1	für	*	I-NF|I-MF
+42	Dr.	Dr.	_	NN	_	_	_	_	_	2914-2917	w1c2	Dr.	*	I-NF|I-MF
+43	Weis-<lb/>kirchner	Weiskirchner	_	NE	_	_	_	_	_	2918-2936	w1c3	Weiskirchner	*	I-NF|I-MF
+44	erneuerte	erneuern	_	VVFIN	_	_	_	_	_	2937-2946	w1c4	erneuerte	*	I-NF|B-RK
+45	und	und	_	KON	_	_	_	_	_	2947-2950	w1c5	und	*	I-NF|B-KOORD
+46	ſich	sich	_	PRF	_	_	_	_	_	2951-2955	w1c6	sich	*	I-NF|B-MF
+47	dann	dann	_	ADV	_	_	_	_	_	2956-2960	w1c7	dann	*	I-NF|I-MF
+48	zu	zu	_	APPR	_	_	_	_	_	2961-2963	w1c8	zu	*	I-NF|I-MF
+49	ſtürmiſchen	stürmisch	_	ADJA	_	_	_	_	_	2964-2975	w1c9	stürmischen	*	I-NF|I-MF
+50	Ovationen	Ovation	_	NN	_	_	_	_	_	2976-2985	w1ca	Ovationen	*	I-NF|I-MF
+51	für	für	_	APPR	_	_	_	_	_	2986-2989	w1cb	für	*	I-NF|I-MF
+52	den	d	_	ART	_	_	_	_	_	2990-2993	w1cc	den	*	I-NF|I-MF
+53	neuen	neu	_	ADJA	_	_	_	_	_	2994-2999	w1cd	neuen	*	I-NF|I-MF
+54	Bürgermeiſter	Bürgermeister	_	NN	_	_	_	_	_	3000-3013	w1ce	Bürgermeister	*	I-NF|I-MF
+55	verſtärkte	verstärkt	_	VVFIN	_	_	_	_	_	3014-3024	w1cf	verstärkte	*	I-NF|B-RK
+56	als	als	_	KOUS	_	_	_	_	_	3025-3028	w1d0	als	*	I-NF|B-NF|B-LK
+57	das	d	_	ART	_	_	_	_	_	3029-3032	w1d1	das	*	I-NF|I-NF|B-MF
+58	Wahlergebnis	Wahlergebnis	_	NN	_	_	_	_	_	3033-3045	w1d2	Wahlergebnis	*	I-NF|I-NF|I-MF
+59	verkündet	verkünden	_	VVPP	_	_	_	_	_	3046-3055	w1d3	verkündet	*	I-NF|I-NF|B-RK
+60	wurde	werden	_	VAFIN	_	_	_	_	_	3056-3061	w1d4	wurde	*	I-NF|I-NF|I-RK
+61	.	.	_	$.	_	_	_	_	_	3062-3063	w1d5	.	*	O
+
+# sent_id = 29
+# sent_id(TSV) = 29
+# TopFString = (VROOT(VF(ART Die)(NN Oppoſition))(LK(VVFIN verkieß))(MF(ART den)(NN Saal))(KON und)(VF(ART der)(ADJA neugewählte)(NN Bürgermeiſter))(LK(VVFIN hielt))(MF(ADV dann)(PPOSAT ſeine)(NN Antrittsrede))(KOMMA ,)(NF(C(PRELS die))(MF(ART den)(ADJA ſtärkſten)(NN Eindruck))(VC(VAFIN hatte))))
+# text = Die Oppoſition verkieß den Saal und der neugewählte Bürgermeiſter hielt dann ſeine Antrittsrede , die den ſtärkſten Eindruck hatte .
+1	Die	d	_	ART	_	_	_	_	_	3065-3068	w1d6	Die	*	B-VF
+2	Oppoſition	Opposition	_	NN	_	_	_	_	_	3069-3079	w1d7	Opposition	*	I-VF
+3	verkieß	kiesen	_	VVFIN	_	_	_	_	_	3080-3087	w1d8	kies	*	B-LK
+4	den	d	_	ART	_	_	_	_	_	3088-3091	w1d9	den	*	B-MF
+5	Saal	Saal	_	NN	_	_	_	_	_	3092-3096	w1da	Saal	*	I-MF
+6	und	und	_	KON	_	_	_	_	_	3097-3100	w1db	und	*	O
+7	der	d	_	ART	_	_	_	_	_	3101-3104	w1dc	der	*	B-VF
+8	neugewählte	neugewählt	_	ADJA	_	_	_	_	_	3105-3116	w1dd	neugewählte	*	I-VF
+9	Bürgermeiſter	Bürgermeister	_	NN	_	_	_	_	_	3117-3130	w1de	Bürgermeister	*	I-VF
+10	hielt	halten	_	VVFIN	_	_	_	_	_	3131-3136	w1df	hielt	*	B-LK
+11	dann	dann	_	ADV	_	_	_	_	_	3137-3141	w1e0	dann	*	B-MF
+12	ſeine	seine	_	PPOSAT	_	_	_	_	_	3142-3147	w1e1	seine	*	I-MF
+13	Antrittsrede	Antrittsrede	_	NN	_	_	_	_	_	3148-3160	w1e2	Antrittsrede	*	I-MF
+14	,	,	_	$,	_	_	_	_	_	3161-3162	w1e3	,	*	O
+15	die	die	_	PRELS	_	_	_	_	_	3163-3166	w1e4	die	*	B-NF|B-LK
+16	den	d	_	ART	_	_	_	_	_	3167-3170	w1e5	den	*	I-NF|B-MF
+17	ſtärkſten	stark	_	ADJA	_	_	_	_	_	3171-3180	w1e6	stärksten	*	I-NF|I-MF
+18	Eindruck	Eindruck	_	NN	_	_	_	_	_	3181-3189	w1e7	Eindruck	*	I-NF|I-MF
+19	hatte	haben	_	VAFIN	_	_	_	_	_	3190-3195	w1e8	hatte	*	I-NF|B-RK
+20	.	.	_	$.	_	_	_	_	_	3196-3197	w1e9	.	*	O
+
+# sent_id = 30
+# sent_id(TSV) = 30
+# TopFString = (VROOT(VF(NN Bürgermeiſter)(NN Dr.)(NE Weiskirchner))(LK(VVFIN ſchloß))(MF(PPOSAT ſeine)(NN Rede)(APPR mit)(ART einem)(ADJA pietätvollen)(KON und)(ADJA dankbaren)(NN Gedenken)(APPR an)(NN Dr.)(NE Lueger))(LK(VMFIN Möge))(MF(APPR aus)(ADJA weiten)(NN Himmelsfernen)(NE Luegers)(NN Geiſt)(ADJD ſegnend)(APPR auf)(PRF mich))(VC(VVINF herniederſchauen)))
+# text = Bürgermeiſter Dr. Weiskirchner ſchloß ſeine Rede mit einem pietätvollen und dankbaren Gedenken an Dr. Lueger : „ Möge aus weiten Himmelsfernen Luegers Geiſt ſegnend auf mich herniederſchauen ! “
+1	Bürgermeiſter	Bürgermeister	_	NN	_	_	_	_	_	3199-3212	w1ea	Bürgermeister	*	B-VF
+2	Dr.	Dr.	_	NN	_	_	_	_	_	3213-3216	w1eb	Dr.	*	I-VF
+3	Weiskirchner	Weiskirchner	_	NE	_	_	_	_	_	3217-3229	w1ec	Weiskirchner	*	I-VF
+4	ſchloß	schließen	_	VVFIN	_	_	_	_	_	3230-3236	w1ed	schloß	*	B-LK
+5	ſeine	seine	_	PPOSAT	_	_	_	_	_	3237-3242	w1ee	seine	*	B-MF
+6	Rede	Rede	_	NN	_	_	_	_	_	3243-3247	w1ef	Rede	*	I-MF
+7	mit	mit	_	APPR	_	_	_	_	_	3248-3251	w1f0	mit	*	I-MF
+8	einem	eine	_	ART	_	_	_	_	_	3252-3257	w1f1	einem	*	I-MF
+9	pietätvollen	pietätvoll	_	ADJA	_	_	_	_	_	3258-3270	w1f2	pietätvollen	*	I-MF
+10	und	und	_	KON	_	_	_	_	_	3271-3274	w1f3	und	*	I-MF
+11	dankbaren	dankbar	_	ADJA	_	_	_	_	_	3275-3284	w1f4	dankbaren	*	I-MF
+12	Gedenken	Gedenken	_	NN	_	_	_	_	_	3285-3293	w1f5	Gedenken	*	I-MF
+13	an	an	_	APPR	_	_	_	_	_	3294-3296	w1f6	an	*	I-MF
+14	Dr.	Dr.	_	NN	_	_	_	_	_	3297-3300	w1f7	Dr.	*	I-MF
+15	Lueger	Lüger	_	NE	_	_	_	_	_	3301-3307	w1f8	Lüger	*	I-MF
+16	:	:	_	$.	_	_	_	_	_	3308-3309	w1f9	:	*	O
+17	„	"	_	$(	_	_	_	_	_	3310-3311	w1fa	"	*	O
+18	Möge	mögen	_	VMFIN	_	_	_	_	_	3312-3316	w1fb	Möge	*	B-LK
+19	aus	aus	_	APPR	_	_	_	_	_	3317-3320	w1fc	aus	*	B-MF
+20	weiten	weit	_	ADJA	_	_	_	_	_	3321-3327	w1fd	weiten	*	I-MF
+21	Himmelsfernen	himmelsfern	_	NN	_	_	_	_	_	3328-3341	w1fe	Himmelsfernen	*	I-MF
+22	Luegers	Lüger	_	NE	_	_	_	_	_	3342-3349	w1ff	Lügers	*	I-MF
+23	Geiſt	Geist	_	NN	_	_	_	_	_	3350-3355	w200	Geist	*	I-MF
+24	ſegnend	segnen	_	ADJD	_	_	_	_	_	3356-3363	w201	segnend	*	I-MF
+25	auf	auf	_	APPR	_	_	_	_	_	3364-3367	w202	auf	*	I-MF
+26	mich	mich	_	PRF	_	_	_	_	_	3368-3372	w203	mich	*	I-MF
+27	herniederſchauen	herniederschauen	_	VVINF	_	_	_	_	_	3373-3389	w204	herniederschauen	*	B-RK
+28	!	!	_	$.	_	_	_	_	_	3390-3391	w205	!	*	O
+29	“	"	_	$(	_	_	_	_	_	3392-3393	w206	"	*	O
+
+# sent_id = 31
+# sent_id(TSV) = 31
+# TopFString = (VROOT(VF(PPER Es))(LK(VAFIN war))(MF(ART ein)(ADJA ergreifender)(NN Moment))(KOMMA ,)(NF(C(KOUS als))(FKOORD(FKONJ(MF(APPR nach)(PDAT dieſem)(NN Worte)(ADV ſofort)(PIAT alle)(NN Gemeinderäte)(APPR zu)(NN Dr.)(NE Weis-<lb/>kirchner))(VC(VVFIN eilten)))(KON und)(FKONJ(MF(KOKOM wie)(APPRART zum)(NN Treueſchwur)(PPER ihm)(ART die)(NN Hände))(VC(VVFIN reichten))))))
+# text = Es war ein ergreifender Moment , als nach dieſem Worte ſofort alle Gemeinderäte zu Dr. Weis-<lb/>kirchner eilten und wie zum Treueſchwur ihm die Hände reichten .
+1	Es	es	_	PPER	_	_	_	_	_	3395-3397	w207	Es	*	B-VF
+2	war	sein	_	VAFIN	_	_	_	_	_	3398-3401	w208	war	*	B-LK
+3	ein	eine	_	ART	_	_	_	_	_	3402-3405	w209	ein	*	B-MF
+4	ergreifender	ergreifend	_	ADJA	_	_	_	_	_	3406-3418	w20a	ergreifender	*	I-MF
+5	Moment	Moment	_	NN	_	_	_	_	_	3419-3425	w20b	Moment	*	I-MF
+6	,	,	_	$,	_	_	_	_	_	3426-3427	w20c	,	*	O
+7	als	als	_	KOUS	_	_	_	_	_	3428-3431	w20d	als	*	B-NF|B-LK
+8	nach	nach	_	APPR	_	_	_	_	_	3432-3436	w20e	nach	*	I-NF|B-MF
+9	dieſem	diese	_	PDAT	_	_	_	_	_	3437-3443	w20f	diesem	*	I-NF|I-MF
+10	Worte	Wort	_	NN	_	_	_	_	_	3444-3449	w210	Worte	*	I-NF|I-MF
+11	ſofort	sofort	_	ADV	_	_	_	_	_	3450-3456	w211	sofort	*	I-NF|I-MF
+12	alle	alle	_	PIAT	_	_	_	_	_	3457-3461	w212	alle	*	I-NF|I-MF
+13	Gemeinderäte	Gemeinderat	_	NN	_	_	_	_	_	3462-3474	w213	Gemeinderäte	*	I-NF|I-MF
+14	zu	zu	_	APPR	_	_	_	_	_	3475-3477	w214	zu	*	I-NF|I-MF
+15	Dr.	Dr.	_	NN	_	_	_	_	_	3478-3481	w215	Dr.	*	I-NF|I-MF
+16	Weis-<lb/>kirchner	Weiskirchner	_	NE	_	_	_	_	_	3482-3500	w216	Weiskirchner	*	I-NF|I-MF
+17	eilten	eilen	_	VVFIN	_	_	_	_	_	3501-3507	w217	eilten	*	I-NF|B-RK
+18	und	und	_	KON	_	_	_	_	_	3508-3511	w218	und	*	I-NF|B-KOORD
+19	wie	wie	_	KOKOM	_	_	_	_	_	3512-3515	w219	wie	*	I-NF|B-MF
+20	zum	zum	_	APPRART	_	_	_	_	_	3516-3519	w21a	zum	*	I-NF|I-MF
+21	Treueſchwur	Treueschwur	_	NN	_	_	_	_	_	3520-3531	w21b	Treueschwur	*	I-NF|I-MF
+22	ihm	er	_	PPER	_	_	_	_	_	3532-3535	w21c	ihm	*	I-NF|I-MF
+23	die	d	_	ART	_	_	_	_	_	3536-3539	w21d	die	*	I-NF|I-MF
+24	Hände	Hand	_	NN	_	_	_	_	_	3540-3545	w21e	Hände	*	I-NF|I-MF
+25	reichten	reichen	_	VVFIN	_	_	_	_	_	3546-3554	w21f	reichten	*	I-NF|B-RK
+26	.	.	_	$.	_	_	_	_	_	3555-3556	w220	.	*	O
+
+# sent_id = 32
+# sent_id(TSV) = 32
+# TopFString = (VROOT(VF(NE Luegers)(NN Geiſt))(LK(VVFIN ſchwebte))(MF(APPRART im)(NN Saale)(KOMMA ,)(ART der)(NN Geiſt)(ART der)(NN Stärke)(KON und)(NN Einigkeit)(KOMMA ,)(C(PRELS der))(MF(NN Luegers)(NN Nachfolger)(KON und)(NN Freunde))(VC(VVPP vereint))(APPR zu)(ADJA unermüdlicher)(NN Arbeit)))
+# text = Luegers Geiſt ſchwebte im Saale , der Geiſt der Stärke und Einigkeit , der Luegers Nachfolger und Freunde vereint zu unermüdlicher Arbeit .
+1	Luegers	Lüger	_	NE	_	_	_	_	_	3558-3565	w221	Lügers	*	B-VF
+2	Geiſt	Geist	_	NN	_	_	_	_	_	3566-3571	w222	Geist	*	I-VF
+3	ſchwebte	schweben	_	VVFIN	_	_	_	_	_	3572-3580	w223	schwebte	*	B-LK
+4	im	im	_	APPRART	_	_	_	_	_	3581-3583	w224	im	*	B-MF
+5	Saale	Saal	_	NN	_	_	_	_	_	3584-3589	w225	Saale	*	I-MF
+6	,	,	_	$,	_	_	_	_	_	3590-3591	w226	,	*	I-MF
+7	der	d	_	ART	_	_	_	_	_	3592-3595	w227	der	*	I-MF
+8	Geiſt	Geist	_	NN	_	_	_	_	_	3596-3601	w228	Geist	*	I-MF
+9	der	d	_	ART	_	_	_	_	_	3602-3605	w229	der	*	I-MF
+10	Stärke	Stärke	_	NN	_	_	_	_	_	3606-3612	w22a	Stärke	*	I-MF
+11	und	und	_	KON	_	_	_	_	_	3613-3616	w22b	und	*	I-MF
+12	Einigkeit	Einigkeit	_	NN	_	_	_	_	_	3617-3626	w22c	Einigkeit	*	I-MF
+13	,	,	_	$,	_	_	_	_	_	3627-3628	w22d	,	*	I-MF
+14	der	d	_	PRELS	_	_	_	_	_	3629-3632	w22e	der	*	I-MF|B-LK
+15	Luegers	Lüger	_	NN	_	_	_	_	_	3633-3640	w22f	Lügers	*	I-MF|B-MF
+16	Nachfolger	Nachfolger	_	NN	_	_	_	_	_	3641-3651	w230	Nachfolger	*	I-MF|I-MF
+17	und	und	_	KON	_	_	_	_	_	3652-3655	w231	und	*	I-MF|I-MF
+18	Freunde	Freund	_	NN	_	_	_	_	_	3656-3663	w232	Freunde	*	I-MF|I-MF
+19	vereint	vereinen	_	VVPP	_	_	_	_	_	3664-3671	w233	vereint	*	I-MF|B-RK
+20	zu	zu	_	APPR	_	_	_	_	_	3672-3674	w234	zu	*	I-MF
+21	unermüdlicher	unermüdlich	_	ADJA	_	_	_	_	_	3675-3688	w235	unermüdlicher	*	I-MF
+22	Arbeit	Arbeit	_	NN	_	_	_	_	_	3689-3695	w236	Arbeit	*	I-MF
+23	.	.	_	$.	_	_	_	_	_	3696-3697	w237	.	*	O
+
+# sent_id = 33
+# sent_id(TSV) = 33
+# TopFString = (VROOT(VF(APPR An)(ART der)(NN Spitze))(LK(VVFIN ſteht))(MF(ART der)(ADJA beſte)(NN Kenner)(ART der)(NN Verwaltung)(ART der)(NN Stadt)(NE Wien))(KOMMA ,)(NF(C(PRELS den))(MF(ART eine)(ADJA langjährige)(NN Tätigkeit)(APPR in)(PIAT allen)(NN Zweigen)(ART der)(NN Kommunalverwaltung)(KON und)(PPOSAT ſein)(KLAMMER „)(NN Be-<lb/>fähigungsnachweis)(KLAMMER “)(APPRART im)(NN Parlament)(KOMMA ,)(C(APPR auf)(PRELS den))(MF(PPER er)(ADV heute)(ADV ſelbſt)(APPR in)(PPOSAT ſeiner)(NN Rede))(VC(VVFIN anſpielte))(KOMMA ,)(KOKOM als)(ART den)(NN Berufenſten))(VC(VVINF er-<lb/>ſcheinen)(VVFIN laſſen))(KOMMA ,)(NF(MF(NE Luegers)(NN Lebenswerk))(VC(VVIZU weiterzubauen))(NF(APPR zu)(NN Ehren)(ART der)(NN Stadt)(NE Wien)(KON und)(APPRART zum)(NN Nutzen)(ART des)(ADJA Wiener)(ADJA chriſtlichen)(NN Volkes)))))
+# text = An der Spitze ſteht der beſte Kenner der Verwaltung der Stadt Wien , den eine langjährige Tätigkeit in allen Zweigen der Kommunalverwaltung und ſein „ Be-<lb/>fähigungsnachweis “ im Parlament , auf den er heute ſelbſt in ſeiner Rede anſpielte , als den Berufenſten er-<lb/>ſcheinen laſſen , Luegers Lebenswerk weiterzubauen zu Ehren der Stadt Wien und zum Nutzen des Wiener chriſtlichen Volkes .
+1	An	an	_	APPR	_	_	_	_	_	3699-3701	w238	An	*	B-VF
+2	der	d	_	ART	_	_	_	_	_	3702-3705	w239	der	*	I-VF
+3	Spitze	Spitze	_	NN	_	_	_	_	_	3706-3712	w23a	Spitze	*	I-VF
+4	ſteht	stehen	_	VVFIN	_	_	_	_	_	3713-3718	w23b	steht	*	B-LK
+5	der	d	_	ART	_	_	_	_	_	3719-3722	w23c	der	*	B-MF
+6	beſte	gut	_	ADJA	_	_	_	_	_	3723-3728	w23d	beste	*	I-MF
+7	Kenner	Kenner	_	NN	_	_	_	_	_	3729-3735	w23e	Kenner	*	I-MF
+8	der	d	_	ART	_	_	_	_	_	3736-3739	w23f	der	*	I-MF
+9	Verwaltung	Verwaltung	_	NN	_	_	_	_	_	3740-3750	w240	Verwaltung	*	I-MF
+10	der	d	_	ART	_	_	_	_	_	3751-3754	w241	der	*	I-MF
+11	Stadt	Stadt	_	NN	_	_	_	_	_	3755-3760	w242	Stadt	*	I-MF
+12	Wien	Wien	_	NE	_	_	_	_	_	3761-3765	w243	Wien	*	I-MF
+13	,	,	_	$,	_	_	_	_	_	3766-3767	w244	,	*	O
+14	den	die	_	PRELS	_	_	_	_	_	3768-3771	w245	den	*	B-NF|B-LK
+15	eine	eine	_	ART	_	_	_	_	_	3772-3776	w246	eine	*	I-NF|B-MF
+16	langjährige	langjährig	_	ADJA	_	_	_	_	_	3777-3788	w247	langjährige	*	I-NF|I-MF
+17	Tätigkeit	Tätigkeit	_	NN	_	_	_	_	_	3789-3798	w248	Tätigkeit	*	I-NF|I-MF
+18	in	in	_	APPR	_	_	_	_	_	3799-3801	w249	in	*	I-NF|I-MF
+19	allen	alle	_	PIAT	_	_	_	_	_	3802-3807	w24a	allen	*	I-NF|I-MF
+20	Zweigen	Zweig	_	NN	_	_	_	_	_	3808-3815	w24b	Zweigen	*	I-NF|I-MF
+21	der	d	_	ART	_	_	_	_	_	3816-3819	w24c	der	*	I-NF|I-MF
+22	Kommunalverwaltung	Kommunalverwaltung	_	NN	_	_	_	_	_	3820-3838	w24d	Kommunalverwaltung	*	I-NF|I-MF
+23	und	und	_	KON	_	_	_	_	_	3839-3842	w24e	und	*	I-NF|I-MF
+24	ſein	sein	_	PPOSAT	_	_	_	_	_	3843-3847	w24f	sein	*	I-NF|I-MF
+25	„	"	_	$(	_	_	_	_	_	3848-3849	w250	"	*	I-NF|I-MF
+26	Be-<lb/>fähigungsnachweis	Befähigungsnachweis	_	NN	_	_	_	_	_	3850-3875	w251	Befähigungsnachweis	*	I-NF|I-MF
+27	“	"	_	$(	_	_	_	_	_	3876-3877	w252	"	*	I-NF|I-MF
+28	im	im	_	APPRART	_	_	_	_	_	3878-3880	w253	im	*	I-NF|I-MF
+29	Parlament	Parlament	_	NN	_	_	_	_	_	3881-3890	w254	Parlament	*	I-NF|I-MF
+30	,	,	_	$,	_	_	_	_	_	3891-3892	w255	,	*	I-NF|I-MF
+31	auf	auf	_	APPR	_	_	_	_	_	3893-3896	w256	auf	*	I-NF|I-MF|B-LK
+32	den	die	_	PRELS	_	_	_	_	_	3897-3900	w257	den	*	I-NF|I-MF|I-LK
+33	er	er	_	PPER	_	_	_	_	_	3901-3903	w258	er	*	I-NF|I-MF|B-MF
+34	heute	heute	_	ADV	_	_	_	_	_	3904-3909	w259	heute	*	I-NF|I-MF|I-MF
+35	ſelbſt	selbst	_	ADV	_	_	_	_	_	3910-3916	w25a	selbst	*	I-NF|I-MF|I-MF
+36	in	in	_	APPR	_	_	_	_	_	3917-3919	w25b	in	*	I-NF|I-MF|I-MF
+37	ſeiner	seine	_	PPOSAT	_	_	_	_	_	3920-3926	w25c	seiner	*	I-NF|I-MF|I-MF
+38	Rede	Rede	_	NN	_	_	_	_	_	3927-3931	w25d	Rede	*	I-NF|I-MF|I-MF
+39	anſpielte	anspielen	_	VVFIN	_	_	_	_	_	3932-3941	w25e	anspielte	*	I-NF|I-MF|B-RK
+40	,	,	_	$,	_	_	_	_	_	3942-3943	w25f	,	*	I-NF|I-MF
+41	als	als	_	KOKOM	_	_	_	_	_	3944-3947	w260	als	*	I-NF|I-MF
+42	den	d	_	ART	_	_	_	_	_	3948-3951	w261	den	*	I-NF|I-MF
+43	Berufenſten	berufen	_	NN	_	_	_	_	_	3952-3963	w262	Berufensten	*	I-NF|I-MF
+44	er-<lb/>ſcheinen	erscheinen	_	VVINF	_	_	_	_	_	3964-3980	w263	erscheinen	*	I-NF|B-RK
+45	laſſen	lassen	_	VVFIN	_	_	_	_	_	3981-3987	w264	lassen	*	I-NF|I-RK
+46	,	,	_	$,	_	_	_	_	_	3988-3989	w265	,	*	I-NF
+47	Luegers	Lüger	_	NE	_	_	_	_	_	3990-3997	w266	Lügers	*	I-NF|B-NF|B-MF
+48	Lebenswerk	Lebenswerk	_	NN	_	_	_	_	_	3998-4008	w267	Lebenswerk	*	I-NF|I-NF|I-MF
+49	weiterzubauen	weiterbauen	_	VVIZU	_	_	_	_	_	4009-4022	w268	weiterzubauen	*	I-NF|I-NF|B-RK
+50	zu	zu	_	APPR	_	_	_	_	_	4023-4025	w269	zu	*	I-NF|I-NF|B-NF
+51	Ehren	Ehre	_	NN	_	_	_	_	_	4026-4031	w26a	Ehren	*	I-NF|I-NF|I-NF
+52	der	d	_	ART	_	_	_	_	_	4032-4035	w26b	der	*	I-NF|I-NF|I-NF
+53	Stadt	Stadt	_	NN	_	_	_	_	_	4036-4041	w26c	Stadt	*	I-NF|I-NF|I-NF
+54	Wien	Wien	_	NE	_	_	_	_	_	4042-4046	w26d	Wien	*	I-NF|I-NF|I-NF
+55	und	und	_	KON	_	_	_	_	_	4047-4050	w26e	und	*	I-NF|I-NF|I-NF
+56	zum	zum	_	APPRART	_	_	_	_	_	4051-4054	w26f	zum	*	I-NF|I-NF|I-NF
+57	Nutzen	Nutzen	_	NN	_	_	_	_	_	4055-4061	w270	Nutzen	*	I-NF|I-NF|I-NF
+58	des	d	_	ART	_	_	_	_	_	4062-4065	w271	des	*	I-NF|I-NF|I-NF
+59	Wiener	Wiener	_	ADJA	_	_	_	_	_	4066-4072	w272	Wiener	*	I-NF|I-NF|I-NF
+60	chriſtlichen	christlich	_	ADJA	_	_	_	_	_	4073-4085	w273	christlichen	*	I-NF|I-NF|I-NF
+61	Volkes	Volk	_	NN	_	_	_	_	_	4086-4092	w274	Volkes	*	I-NF|I-NF|I-NF
+62	.	.	_	$.	_	_	_	_	_	4093-4094	w275	.	*	O
+
+# sent_id = 34
+# sent_id(TSV) = 34
+# TopFString = (VROOT(ART Der)(NN Sitzungsbericht))
+# text = Der Sitzungsbericht .
+1	Der	d	_	ART	_	_	_	_	_	4096-4099	w30f4	Der	*	O
+2	Sitzungsbericht	Sitzungsbericht	_	NN	_	_	_	_	_	4100-4115	w30f5	Sitzungsbericht	*	O
+3	.	.	_	$.	_	_	_	_	_	4116-4117	w30f6	.	*	O
+
+# sent_id = 35
+# sent_id(TSV) = 35
+# TopFString = (VROOT(VF(ADJD Kurz)(APPR nach)(CARD 10)(NN Uhr))(FKOORD(FKONJ(LK(VVFIN erklärte))(MF(ART der)(ADJA Vorſitzende)(NN Vizebürgermeiſter)(NN Dr.)(NE Porzer)(ART die)(NN Sitzung))(VC(VVPP eröffnet)))(KOMMA ,)(FKONJ(LK(VVFIN konſtatierte))(MF(ART die)(NN Anweſenheit)(APPR von)(ADV mehr)(KOKOM als)(CARD 100)(NN Mitgliedern)(ART des)(NN Gemeinderates)))(KON und)(FKONJ(LK(VVFIN gab))(VC(PTKVZ bekannt))(KOMMA ,)(NF(C(KOUS daß))(MF(NN Gemeinderat)(NE Rauer)(KOMMA ,)(C(PRELS welcher))(MF(ADV ſchon)(APPR ſeit)(NN Monaten)(APPR an)(ART einer)(ADJA ſchweren)(NN Krankheit))(VC(VVFIN leidet))(KOMMA ,)(PAV infolgedeſſen)(PRF ſich)(ADJD verpflichtet))(VC(VVPP gefühlt)(VAFIN habe))(KOMMA ,)(NF(MF(PPOSAT ſein)(NN Mandat)(KOKOM als)(NN Gemeinderat))(VC(VVIZU zurückzulegen)))))))
+# text = Kurz nach 10 Uhr erklärte der Vorſitzende Vizebürgermeiſter Dr. Porzer die Sitzung eröffnet , konſtatierte die Anweſenheit von mehr als 100 Mitgliedern des Gemeinderates und gab bekannt , daß Gemeinderat Rauer , welcher ſchon ſeit Monaten an einer ſchweren Krankheit leidet , infolgedeſſen ſich verpflichtet gefühlt habe , ſein Mandat als Gemeinderat zurückzulegen .
+1	Kurz	kurz	_	ADJD	_	_	_	_	_	4119-4123	w276	Kurz	*	B-VF
+2	nach	nach	_	APPR	_	_	_	_	_	4124-4128	w277	nach	*	I-VF
+3	10	10	_	CARD	_	_	_	_	_	4129-4131	w278	10	*	I-VF
+4	Uhr	Uhr	_	NN	_	_	_	_	_	4132-4135	w279	Uhr	*	I-VF
+5	erklärte	erklären	_	VVFIN	_	_	_	_	_	4136-4144	w27a	erklärte	*	B-LK
+6	der	d	_	ART	_	_	_	_	_	4145-4148	w27b	der	*	B-MF
+7	Vorſitzende	vorsitzend	_	ADJA	_	_	_	_	_	4149-4160	w27c	Vorsitzende	*	I-MF
+8	Vizebürgermeiſter	Vizebürgermeister	_	NN	_	_	_	_	_	4161-4178	w27d	Vizebürgermeister	*	I-MF
+9	Dr.	Dr.	_	NN	_	_	_	_	_	4179-4182	w27e	Dr.	*	I-MF
+10	Porzer	Porzer	_	NE	_	_	_	_	_	4183-4189	w27f	Porzer	*	I-MF
+11	die	d	_	ART	_	_	_	_	_	4190-4193	w280	die	*	I-MF
+12	Sitzung	Sitzung	_	NN	_	_	_	_	_	4194-4201	w281	Sitzung	*	I-MF
+13	eröffnet	eröffnen	_	VVPP	_	_	_	_	_	4202-4210	w282	eröffnet	*	B-RK
+14	,	,	_	$,	_	_	_	_	_	4211-4212	w283	,	*	O
+15	konſtatierte	konstatieren	_	VVFIN	_	_	_	_	_	4213-4225	w284	konstatierte	*	B-LK
+16	die	d	_	ART	_	_	_	_	_	4226-4229	w285	die	*	B-MF
+17	Anweſenheit	Anwesenheit	_	NN	_	_	_	_	_	4230-4241	w286	Anwesenheit	*	I-MF
+18	von	von	_	APPR	_	_	_	_	_	4242-4245	w287	von	*	I-MF
+19	mehr	mehr	_	ADV	_	_	_	_	_	4246-4250	w288	mehr	*	I-MF
+20	als	als	_	KOKOM	_	_	_	_	_	4251-4254	w289	als	*	I-MF
+21	100	100	_	CARD	_	_	_	_	_	4255-4258	w28a	100	*	I-MF
+22	Mitgliedern	Mitglied	_	NN	_	_	_	_	_	4259-4270	w28b	Mitgliedern	*	I-MF
+23	des	d	_	ART	_	_	_	_	_	4271-4274	w28c	des	*	I-MF
+24	Gemeinderates	Gemeinderat	_	NN	_	_	_	_	_	4275-4288	w28d	Gemeinderates	*	I-MF
+25	und	und	_	KON	_	_	_	_	_	4289-4292	w28e	und	*	B-KOORD
+26	gab	geben	_	VVFIN	_	_	_	_	_	4293-4296	w28f	gab	*	B-LK
+27	bekannt	bekannt	_	PTKVZ	_	_	_	_	_	4297-4304	w290	bekannt	*	B-RK
+28	,	,	_	$,	_	_	_	_	_	4305-4306	w291	,	*	O
+29	daß	daß	_	KOUS	_	_	_	_	_	4307-4310	w292	daß	*	B-NF|B-LK
+30	Gemeinderat	Gemeinderat	_	NN	_	_	_	_	_	4311-4322	w293	Gemeinderat	*	I-NF|B-MF
+31	Rauer	Rauer	_	NE	_	_	_	_	_	4323-4328	w294	Rauer	*	I-NF|I-MF
+32	,	,	_	$,	_	_	_	_	_	4329-4330	w295	,	*	I-NF|I-MF
+33	welcher	welche	_	PRELS	_	_	_	_	_	4331-4338	w296	welcher	*	I-NF|I-MF|B-LK
+34	ſchon	schon	_	ADV	_	_	_	_	_	4339-4344	w297	schon	*	I-NF|I-MF|B-MF
+35	ſeit	seit	_	APPR	_	_	_	_	_	4345-4349	w298	seit	*	I-NF|I-MF|I-MF
+36	Monaten	Monat	_	NN	_	_	_	_	_	4350-4357	w299	Monaten	*	I-NF|I-MF|I-MF
+37	an	an	_	APPR	_	_	_	_	_	4358-4360	w29a	an	*	I-NF|I-MF|I-MF
+38	einer	eine	_	ART	_	_	_	_	_	4361-4366	w29b	einer	*	I-NF|I-MF|I-MF
+39	ſchweren	schwer	_	ADJA	_	_	_	_	_	4367-4375	w29c	schweren	*	I-NF|I-MF|I-MF
+40	Krankheit	Krankheit	_	NN	_	_	_	_	_	4376-4385	w29d	Krankheit	*	I-NF|I-MF|I-MF
+41	leidet	leiden	_	VVFIN	_	_	_	_	_	4386-4392	w29e	leidet	*	I-NF|I-MF|B-RK
+42	,	,	_	$,	_	_	_	_	_	4393-4394	w29f	,	*	I-NF|I-MF
+43	infolgedeſſen	infolgedessen	_	PAV	_	_	_	_	_	4395-4408	w2a0	infolgedessen	*	I-NF|I-MF
+44	ſich	sich	_	PRF	_	_	_	_	_	4409-4413	w2a1	sich	*	I-NF|I-MF
+45	verpflichtet	verpflichten	_	ADJD	_	_	_	_	_	4414-4426	w2a2	verpflichtet	*	I-NF|I-MF
+46	gefühlt	fühlen	_	VVPP	_	_	_	_	_	4427-4434	w2a3	gefühlt	*	I-NF|B-RK
+47	habe	haben	_	VAFIN	_	_	_	_	_	4435-4439	w2a4	habe	*	I-NF|I-RK
+48	,	,	_	$,	_	_	_	_	_	4440-4441	w2a5	,	*	I-NF
+49	ſein	sein	_	PPOSAT	_	_	_	_	_	4442-4446	w2a6	sein	*	I-NF|B-NF|B-MF
+50	Mandat	Mandat	_	NN	_	_	_	_	_	4447-4453	w2a7	Mandat	*	I-NF|I-NF|I-MF
+51	als	als	_	KOKOM	_	_	_	_	_	4454-4457	w2a8	als	*	I-NF|I-NF|I-MF
+52	Gemeinderat	Gemeinderat	_	NN	_	_	_	_	_	4458-4469	w2a9	Gemeinderat	*	I-NF|I-NF|I-MF
+53	zurückzulegen	zurücklegen	_	VVIZU	_	_	_	_	_	4470-4483	w2aa	zurückzulegen	*	I-NF|I-NF|B-RK
+54	.	.	_	$.	_	_	_	_	_	4484-4485	w2ab	.	*	O

@@ -1,0 +1,119 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC Antec CAT CLEAN FOKUS GF IS MovElem PHRASE POS SATZKLAMMER SATZSTATUS Sprache TOPF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# PTBstring = (VROOT(SIMPX(VF(PX(APPR Nach)(NX:HD(PDAT diſen)(NN Brauch)(NX(NN Propoſitio)))))(LK(VXFIN(VAFIN Werden)))(MF(NX(PDAT denen)(NN Kirch=Tag=Gaͤſten))(NX(NN Heuſchrecken)))(VC(VXINF(VVPP aufgeſetzt)))(NF(PX(APPR zu)(NX:HD(ADJX(ADJA heylſamen))(NN Schroͤcken)))))(PUNKT ;))
+# TopFString = (S(VF(APPR Nach)(PDAT diſen)(NN Brauch)(NN Propoſitio))(LK(VAFIN Werden))(MF(PDAT denen)(NN Kirch=Tag=Gaͤſten)(NN Heuſchrecken))(VC(VVPP aufgeſetzt))(NF(APPR zu)(ADJA heylſamen)(NN Schroͤcken))(PUNKT ;))
+# text = Nach diſen Brauch Propoſitio Werden denen Kirch=Tag=Gaͤſten Heuſchrecken aufgeſetzt zu heylſamen Schroͤcken;
+1	Nach	_	_	APPR	_	_	_	_	_	_	PP	Nach	_	PP-SIT	_	B-PP-insitu	B-PP	APPR	_	MAINDECL	_	B-VF	02,05	_	_
+2	diſen	_	_	PDAT	_	_	_	_	_	_	PP	diſen	_	PP-SIT	_	I-PP	I-PP	DDS	_	MAINDECL	_	I-VF	02,05	_	_
+3	Brauch	_	_	NN	_	_	_	_	_	_	PP	Brauch	_	PP-SIT	_	I-PP	I-PP	NA	_	MAINDECL	_	I-VF	02,05	_	_
+4	Propoſitio	_	_	NN	_	_	_	_	_	_	PP	Propoſitio	_	PP-SIT	_	I-PP	I-PP	FM	_	MAINDECL	Latein	I-VF	02,06	_	_
+5	Werden	_	_	VAFIN	_	_	_	_	_	_	VP	Werden	_	VFIN	_	_	O	VAFIN	LI	MAINDECL	_	B-LK	02,07	_	_
+6	denen	_	_	PDAT	_	_	_	_	_	_	NP	denen	_	IO-DAT	_	B-NP-insitu	B-NP	DDS	_	MAINDECL	_	B-MF	02,07	_	_
+7	Kirch=Tag=Gaͤſten	_	_	NN	_	_	_	_	_	_	NP	Kirch=Tag=Gaͤſten	_	IO-DAT	_	I-NP	I-NP	NA	_	MAINDECL	_	I-MF	02,07	_	_
+8	Heuſchrecken	_	_	NN	_	_	_	_	_	_	NP	Heuſchrecken	_	DO	_	B-NP-insitu	B-NP	NA	_	MAINDECL	_	I-MF	02,07	_	_
+9	aufgeſetzt	_	_	VVPP	_	_	_	_	_	_	VP	aufgeſetzt	_	INF	_	_	O	VVPP	RE	MAINDECL	_	B-RK	02,07	_	_
+10	zu	_	_	APPR	_	_	_	_	_	_		zu	_	PP-ADV	_	B-PP-extrap	B-PP	APPR	_	MAINDECL	_	B-NF	02,08	UNLINK	_
+11	heylſamen	_	_	ADJA	_	_	_	_	_	_		heylſamen	_	PP-ADV	_	I-PP	I-PP	ADJ	_	MAINDECL	_	I-NF	02,08	UNLINK	_
+12	Schroͤcken	_	_	NN	_	_	_	_	_	_		Schroͤcken	_	PP-ADV	ACC-ABSTR-USED-X	I-PP	I-PP	NA	_	MAINDECL	_	I-NF	02,08	UNLINK	_
+13	;	_	_	$.	_	_	_	_	_	_	_	;	_	_	_	_	O	$_	_	MAINDECL	_	O	02,08	_	_
+
+# sent_id = 2
+# PTBstring = (VROOT(SIMPX(VF(NX(PPER Ich)))(LK(VXFIN(VVFIN wuͤrd)))(MF(NX(PRF euch))(ADJX(ADJD aufſetzen))(NX(NE ſolch)(NE Thier))))(PUNKT ,))
+# TopFString = (S(VF(PPER Ich))(LK(VAFIN wuͤrd))(MF(PPER euch))(VC(VVINF aufſetzen))(NF(PDS ſolch)(NN Thier))(KOMMA ,))
+# text = Ich wuͤrd euch aufſetzen ſolch Thier,
+1	Ich	_	_	PPER	_	_	_	_	_	_	NP	Ich	_	SUBJ	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	_	B-VF	04,11	_	_
+2	wuͤrd	_	_	VAFIN	_	_	_	_	_	_	VP	wuͤrd	_	VFIN	_	_	O	VAFIN	LI	MAINDECL	_	B-LK	04,11	_	_
+3	euch	_	_	PPER	_	_	_	_	_	_	NP	euch	_	IO-DAT	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	_	B-MF	04,11	_	_
+4	aufſetzen	_	_	VVINF	_	_	_	_	_	_	VP	aufſetzen	_	INF	_	B-AP-insitu	B-AP	VVINF	RE	MAINDECL	_	B-RK	04,11	_	_
+5	ſolch	_	_	PDS	_	_	_	_	_	_	NP	ſolch	NF	DO	_	B-NP-extrap	B-NP	DDS	_	MAINDECL	_	B-NF	04,11	UNLINK	_
+6	Thier	_	_	NN	_	_	_	_	_	_	NP	Thier	NF	DO	NEW	I-NP	I-NP	NA	_	MAINDECL	_	I-NF	04,11	UNLINK	KOREF1
+7	,	_	_	$,	_	_	_	_	_	_	_	,	_	_	_	_	O	$_	_	MAINDECL	_	O	04,11	_	_
+
+# sent_id = 3
+# PTBstring = (VROOT(SIMPX(VF(NX(ART die)(NN Predigen)(PX(APPR bey)(NX:HD(PDS diſer)(NX(NN Zeit))))))(LK(VXFIN(VAFIN werden)))(MF(ADVX(ADV nur)))(VC(VXINF(VVPP gehalten)))(NF(PX(APPR fuͤr)(NX:HD(ADJX(ADJA gemeine))(NN Leuth)))))(PUNKT .))
+# TopFString = (S(VF(ART die)(NN Predigen)(APPR bey)(PDS diſer)(NN Zeit))(LK(VAFIN werden))(MF(ADV nur))(VC(VVPP gehalten))(NF(APPR fuͤr)(ADJA gemeine)(NN Leuth))(PUNKT .))
+# text = die Predigen bey diſer Zeit werden nur gehalten fuͤr gemeine Leuth.
+1	die	_	_	ART	_	_	_	_	_	_	NP	die	_	SUBJ	_	B-NP-insitu	B-NP	DDA	_	MAINDECL	_	B-VF	06,24	_	_
+2	Predigen	_	_	NN	_	_	_	_	_	_	NP	Predigen	_	SUBJ	_	I-NP	I-NP	NA	_	MAINDECL	_	I-VF	06,24	_	_
+3	bey	_	_	APPR	_	_	_	_	_	_	PP	bey	_	APPOS	_	I-NP	I-NP	APPR	_	MAINDECL	_	I-VF	06,24	_	_
+4	diſer	_	_	PDS	_	_	_	_	_	_	PP	diſer	_	APPOS	_	I-NP	I-NP	DDS	_	MAINDECL	_	I-VF	06,24	_	_
+5	Zeit	_	_	NN	_	_	_	_	_	_	PP	Zeit	_	APPOS	_	I-NP	I-NP	NA	_	MAINDECL	_	I-VF	06,24	_	_
+6	werden	_	_	VAFIN	_	_	_	_	_	_	VP	werden	_	VFIN	_	_	O	VAFIN	LI	MAINDECL	_	B-LK	06,24	_	_
+7	nur	_	_	ADV	_	_	_	_	_	_	ADVP	nur	_	ADVB	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	_	B-MF	06,24	_	_
+8	gehalten	_	_	VVPP	_	_	_	_	_	_	VP	gehalten	_	INF	_	_	O	VVPP	RE	MAINDECL	_	B-RK	06,24	_	_
+9	fuͤr	_	_	APPR	_	_	_	_	_	_	PP	fuͤr	NF	PP-OBJ	_	B-PP-extrap	B-PP	APPR	_	MAINDECL	_	B-NF	06,24	UNLINK	_
+10	gemeine	_	_	ADJA	_	_	_	_	_	_	PP	gemeine	NF	PP-OBJ	GIV-ACTIVE	I-PP	I-PP	ADJ	_	MAINDECL	_	I-NF	06,24	UNLINK	_
+11	Leuth	_	_	NN	_	_	_	_	_	_	PP	Leuth	NF	PP-OBJ	GIV-ACTIVE	I-PP	I-PP	NA	_	MAINDECL	_	I-NF	06,24	UNLINK	_
+12	.	_	_	$.	_	_	_	_	_	_	_	.	_	_	_	_	O	$_	_	MAINDECL	_	O	06,24	_	_
+
+# sent_id = 4
+# PTBstring = (VROOT(SIMPX(VF(PX(APPR Durch)(NX:HD(ADJX(ADJA diſe))(NN Heuſchrecken))))(LK(VXFIN(VAFIN werden)))(MF(ADVX(ADVX(ADV gar))(ADV wohl))(ADJX(ADJD verſtanden))(NX(ART die)(NN Schmeichler)(KOMMA ,)(R(C(NX(PRELAT deren)(NN Reden)))(MF(NX(PIS alle))(PX(APPR auf)(ADJX:HD(ADJD quaſi))))(VC(VXFIN(VVFIN gegruͤndet))))))(VC(VXINF(VAINF seyn))))(PUNKT ,))
+# TopFString = (S(VF(APPR Durch)(PDS diſe)(NN Heuſchrecken))(LK(VAFIN werden))(MF(ADV gar)(ADV wohl))(VC(VVPP verſtanden))(NF(ART die)(NN Schmeichler)(KOMMA ,)(C(PRELAT deren)(NN Reden))(MF(PIS alle)(APPR auf)(FM quaſi))(VC(VVPP gegruͤndet)(VAFIN seyn)))(KOMMA ,))
+# text = Durch diſe Heuſchrecken werden gar wohl verſtanden die Schmeichler, deren Reden alle auf quaſi gegruͤndet seyn,
+1	Durch	_	_	APPR	_	_	_	_	_	_	PP	Durch	_	PP-ADV	_	B-PP-insitu	B-PP	APPR	_	MAINDECL	_	B-VF	08,32	_	_
+2	diſe	_	_	PDS	_	_	_	_	_	_	PP	diſe	_	PP-ADV	_	I-PP	I-PP	DDS	_	MAINDECL	_	I-VF	08,33	_	_
+3	Heuſchrecken	_	_	NN	_	_	_	_	_	_	PP	Heuſchrecken	_	PP-ADV	_	I-PP	I-PP	NA	_	MAINDECL	_	I-VF	08,33	_	_
+4	werden	_	_	VAFIN	_	_	_	_	_	_	VP	werden	_	VFIN	_	_	O	VAFIN	LI	MAINDECL	_	B-LK	08,33	_	_
+5	gar	_	_	ADV	_	_	_	_	_	_	_	gar	_	_	_	B-ADVP-insitu	B-ADVP	PTKA	_	MAINDECL	_	B-MF	08,33	_	_
+6	wohl	_	_	ADV	_	_	_	_	_	_	ADVP	wohl	_	ADVB	_	I-ADVP	I-ADVP	ADV	_	MAINDECL	_	I-MF	08,33	_	_
+7	verſtanden	_	_	VVPP	_	_	_	_	_	_	VP	verſtanden	_	INF	_	B-AP-insitu	B-AP	VVPP	RE	MAINDECL	_	B-RK	08,33	_	_
+8	die	_	_	ART	_	_	_	_	_	B-Antec-1	NP	die	_	SUBJ	_	B-NP-extrap	B-NP	DDA	_	MAINDECL	_	B-NF	08,33	UNLINK	_
+9	Schmeichler	_	_	NN	_	_	_	_	_	I-Antec-Head	NP	Schmeichler	_	SUBJ	NEW	I-NP	I-NP	NA	_	MAINDECL	_	I-NF	08,33	UNLINK	KOREF1
+10	,	_	_	$,	_	_	_	_	_	_	_	,	_	_	_	I-NP	I-NP	$_	_	MAINDECL	_	I-NF	08,33	_	_
+11	deren	_	_	PRELAT	_	_	_	_	_	_	CP	deren	_	ATTR	_	I-NP|B-RELC-insitu-1|B-NP-insitu	I-NP	DDREL	_	MAINDECL	_	I-NF|B-LK	08,33	_	KOREF2
+12	Reden	_	_	NN	_	_	_	_	_	_	CP	Reden	_	ATTR	_	I-NP|I-RELC|I-NP	I-NP	NA	_	MAINDECL	_	I-NF|I-LK	08,34	_	_
+13	alle	_	_	PIS	_	_	_	_	_	_	CP	alle	_	ATTR	_	I-NP|I-RELC|B-NP-insitu	I-NP	DIS	_	MAINDECL	_	I-NF|B-MF	08,34	_	_
+14	auf	_	_	APPR	_	_	_	_	_	_	CP	auf	_	ATTR	_	I-NP|I-RELC|B-PP-insitu	I-NP	APPR	_	MAINDECL	_	I-NF|I-MF	08,34	_	_
+15	quaſi	_	_	FM	_	_	_	_	_	_	CP	quaſi	_	ATTR	_	I-NP|I-RELC|I-PP	I-NP	FM	_	MAINDECL	Latein	I-NF|I-MF	08,34	_	_
+16	gegruͤndet	_	_	VVPP	_	_	_	_	_	_	CP	gegruͤndet	_	ATTR	_	I-NP|I-RELC	I-NP	VVPP	_	MAINDECL	_	I-NF|B-RK	08,34	_	_
+17	seyn	_	_	VAFIN	_	_	_	_	_	_	CP	seyn	_	ATTR	_	_	O	VAFIN	_	MAINDECL	_	I-NF|I-RK	08,34	_	_
+18	,	_	_	$,	_	_	_	_	_	_	_	,	_	_	_	_	O	$_	_	MAINDECL	_	O	08,34	_	_
+
+# sent_id = 5
+# PTBstring = (VROOT(SIMPX(KOORD(KON aber))(VF(ADVX(ADV endlich)))(LK(VXFIN(VAFIN wird)))(MF(NX(PPER er)))(VC(VXINF(VVINF beiſ=ſen)))(NF(NX(KOKOM wie)(ART ein)(NN Schlang))))(PUNKT .))
+# TopFString = (S(KOORD(KON aber))(VF(ADV endlich))(LK(VAFIN wird))(MF(PPER er))(VC(VVINF beiſ=ſen))(NF(KOKOM wie)(ART ein)(NN Schlang))(PUNKT .))
+# text = aber endlich wird er beiſ=ſen wie ein Schlang.
+1	aber	_	_	KON	_	_	_	_	_	_	_	aber	_	_	_	_	O	KON	_	MAINDECL	_	B-KOORD	10,01beiſ=	_	_
+2	endlich	_	_	ADV	_	_	_	_	_	_	ADVP	endlich	_	ADVB	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	_	B-VF	10,01beiſ=	_	_
+3	wird	_	_	VAFIN	_	_	_	_	_	_	VP	wird	_	VFIN	_	_	O	VAFIN	LI	MAINDECL	_	B-LK	10,01beiſ=	_	_
+4	er	_	_	PPER	_	_	_	_	_	_	NP	er	_	SUBJ	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	_	B-MF	10,01beiſ=	_	_
+5	beiſ=ſen	_	_	VVINF	_	_	_	_	_	_	VP	beiſſen	NF	INF	_	_	O	VVINF	RE	MAINDECL	_	B-RK	10,01beiſ=	_	_
+6	wie	_	_	KOKOM	_	_	_	_	_	_	_	wie	NF	VGL	_	B-NP-extrap	B-NP	KON	_	MAINDECL	_	B-NF	10,02=ſen	UNLINK	_
+7	ein	_	_	ART	_	_	_	_	_	_	NP	ein	NF	VGL	_	I-NP	I-NP	DIA	_	MAINDECL	_	I-NF	10,02=ſen	UNLINK	_
+8	Schlang	_	_	NN	_	_	_	_	_	_	NP	Schlang	NF	VGL	NEW	I-NP	I-NP	NA	_	MAINDECL	_	I-NF	10,02=ſen	UNLINK	_
+9	.	_	_	$.	_	_	_	_	_	_	_	.	_	_	_	_	O	$_	_	MAINDECL	_	O	10,02=ſen	_	_
+
+# sent_id = 6
+# PTBstring = (VROOT(SIMPX(VF(NX(ART Die)(NX:KONJ(NN Wittwen))(KON und)(NX:KONJ(NN Waiſen))(KOMMA ,)(R(C(NX(PRELS die)))(MF(NX(PPER ihr))(ADJX(ADJD jetzund)))(VC(VXFIN(VVFIN untertruͤcket))))))(KOMMA ,)(LK(VXFIN(VAFIN werden)))(MF(ADJX(ADJD einſtens)))(VC(VXINF(VVINF appellieren)))(NF(PX(APPR zu)(NX:HD(ART einen)(ADJX(ADJA hoͤcheren))(NN Richter)))))(PUNKT ,))
+# TopFString = (S(VF(ART Die)(NN Wittwen)(KON und)(NN Waiſen)(KOMMA ,)(C(PRELS die))(MF(PPER ihr)(ADV jetzund))(VC(VVFIN untertruͤcket)))(KOMMA ,)(LK(VAFIN werden))(MF(ADV einſtens))(VC(VVINF appellieren))(NF(APPR zu)(ART einen)(ADJA hoͤcheren)(NN Richter))(KOMMA ,))
+# text = Die Wittwen und Waiſen, die ihr jetzund untertruͤcket, werden einſtens appellieren zu einen hoͤcheren Richter,
+1	Die	_	_	ART	_	_	_	_	_	B-Antec-1	NP	Die	_	SUBJ	_	B-NP-insitu	B-NP	DDA	_	MAINDECL	_	B-VF	10,04	_	_
+2	Wittwen	_	_	NN	_	_	_	_	_	I-Antec	NP	Wittwen	_	SUBJ	_	I-NP	I-NP	NA	_	MAINDECL	_	I-VF	10,04	_	_
+3	und	_	_	KON	_	_	_	_	_	I-Antec	NP	und	_	SUBJ	_	I-NP	I-NP	KON	_	MAINDECL	_	I-VF	10,04	_	_
+4	Waiſen	_	_	NN	_	_	_	_	_	I-Antec	NP	Waiſen	_	SUBJ	_	I-NP	I-NP	NA	_	MAINDECL	_	I-VF	10,05	_	_
+5	,	_	_	$,	_	_	_	_	_	_	_	,	_	_	_	I-NP	I-NP	$_	_	MAINDECL	_	I-VF	10,05	_	_
+6	die	_	_	PRELS	_	_	_	_	_	_	CP	die	_	ATTR	_	I-NP|B-RELC-insitu-1|B-NP-insitu	I-NP	DDSREL	_	MAINDECL	_	I-VF|B-LK	10,05	_	_
+7	ihr	_	_	PPER	_	_	_	_	_	_	CP	ihr	_	ATTR	_	I-NP|I-RELC|B-NP-insitu	I-NP	PPER	_	MAINDECL	_	I-VF|B-MF	10,05	_	_
+8	jetzund	_	_	ADV	_	_	_	_	_	_	CP	jetzund	_	ATTR	_	I-NP|I-RELC	I-NP	ADV	_	MAINDECL	_	I-VF|I-MF	10,05	_	_
+9	untertruͤcket	_	_	VVFIN	_	_	_	_	_	_	CP	untertruͤcket	_	ATTR	_	I-NP|I-RELC	I-NP	VVFIN	_	MAINDECL	_	I-VF|B-RK	10,05	_	_
+10	,	_	_	$,	_	_	_	_	_	_	_	,	_	_	_	_	O	$_	_	MAINDECL	_	O	10,05	_	_
+11	werden	_	_	VAFIN	_	_	_	_	_	_	VP	werden	_	VFIN	_	_	O	VAFIN	LI	MAINDECL	_	B-LK	10,05	_	_
+12	einſtens	_	_	ADV	_	_	_	_	_	_	ADVP	einſtens	_	ADVB	_	B-AP-insitu	B-AP	ADV	_	MAINDECL	_	B-MF	10,05	_	_
+13	appellieren	_	_	VVINF	_	_	_	_	_	_	VP	appellieren	NF	INF	_	_	O	VVINF	RE	MAINDECL	_	B-RK	10,05	_	_
+14	zu	_	_	APPR	_	_	_	_	_	_	PP	zu	NF	PP-OBJ	_	B-PP-extrap	B-PP	APPR	_	MAINDECL	_	B-NF	10,05	UNLINK	_
+15	einen	_	_	ART	_	_	_	_	_	_	PP	einen	NF	PP-OBJ	_	I-PP	I-PP	DIA	_	MAINDECL	_	I-NF	10,06	UNLINK	_
+16	hoͤcheren	_	_	ADJA	_	_	_	_	_	_	PP	hoͤcheren	NF	PP-OBJ	GIV-INACTIVE	I-PP	I-PP	ADJ	_	MAINDECL	_	I-NF	10,06	UNLINK	_
+17	Richter	_	_	NN	_	_	_	_	_	_	PP	Richter	NF	PP-OBJ	GIV-INACTIVE	I-PP	I-PP	NA	_	MAINDECL	_	I-NF	10,06	UNLINK	KOREF1
+18	,	_	_	$,	_	_	_	_	_	_	_	,	_	_	_	_	O	$_	_	MAINDECL	_	O	10,06	_	_
+
+# sent_id = 7
+# PTBstring = (VROOT(SIMPX(KOORD(KON und))(VF(ADVX(ADV diſer)))(LK(VXFIN(VAFIN wird)))(MF(NX(NN ſprechen))(ADJX(ADJD male)))(VC(VXINF(VVPP judicatum))))(PUNKT ,))
+# TopFString = (S(KOORD(KON und))(VF(PDS diſer))(LK(VAFIN wird))(VC(VVINF ſprechen))(NF(FM male)(FM judicatum))(KOMMA ,))
+# text = und diſer wird ſprechen male judicatum,
+1	und	_	_	KON	_	_	_	_	_	_	_	und	_	_	_	_	O	KON	_	MAINDECL	_	B-KOORD	10,06	_	_
+2	diſer	_	_	PDS	_	_	_	_	_	_	NP	diſer	_	SUBJ	_	B-ADVP-insitu	B-ADVP	DDS	_	MAINDECL	_	B-VF	10,06	_	KOREF2
+3	wird	_	_	VAFIN	_	_	_	_	_	_	VP	wird	_	VFIN	_	_	O	VAFIN	RE	MAINDECL	_	B-LK	10,06	_	_
+4	ſprechen	_	_	VVINF	_	_	_	_	_	_	VP	ſprechen	_	INF	_	B-NP-insitu	B-NP	VVINF	LI	MAINDECL	_	B-RK	10,06	_	_
+5	male	_	_	FM	_	_	_	_	_	_	NP	male	NF	DO	NA	B-AP-extrap	B-AP	FM	_	MAINDECL	Latein	B-NF	10,06	UNLINK	_
+6	judicatum	_	_	FM	_	_	_	_	_	_	NP	judicatum	NF	DO	NA	_	O	FM	_	MAINDECL	Latein	I-NF	10,06	UNLINK	_
+7	,	_	_	$,	_	_	_	_	_	_	_	,	_	_	_	_	O	$_	_	MAINDECL	_	O	10,06	_	_

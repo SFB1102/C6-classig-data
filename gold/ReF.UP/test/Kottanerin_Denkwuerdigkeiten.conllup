@@ -1,0 +1,2082 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CHUNK PHRASE POS TigerID
+# sent_id = 1
+# sent_id(Tiger) = s29
+# PTBstring = (CS:--(S:CJ(ADV:MO da)(VMFIN:HD wolte)(NP:SB(PPOSAT:NK sein)(NN:NK gnad))(VP:OC(ADV:MO auch)(ADV:MO noch)(NP:OA(PPOSAT:NK sein)(ADJA:NK junge)(NN:NK tochter)(NP:APP(NN:NK jungkchfraw)(NE:APP Elizabeth)))(VVINF:HD sehen)))(KON:CD vnd)(S:CJ(VVFIN:HD zog)(AVP:MO(PAV:HD dahin)(PP:MO(APPR:AC gen)(NE:NK Gran)))))
+# PTBstring_simple = (VROOT(CS(S(AVP(ADV da))(VP(VMFIN wolte))(NP(PPOSAT sein)(NN gnad))(VP(ADV auch)(ADV noch)(NP(PPOSAT sein)(ADJA junge)(NN tochter)(NP(NN jungkchfraw)(NE Elizabeth)))(VVINF sehen)))(KON vnd)(S(VP(VVFIN zog))(AVP(PAV dahin)(PP(APPR gen)(NE Gran))))))
+# text = da wolte sein gnad auch noch sein junge tochter (,) jungkchfraw Elizabeth sehen vnd zog dahin gen Gran (.)
+1	da	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s29_1
+2	wolte	_	_	VMFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VMFIN	s29_2
+3	sein	_	_	PPOSAT	Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	DPOS	s29_3
+4	gnad	_	_	NN	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s29_4
+5	auch	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s29_5
+6	noch	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s29_6
+7	sein	_	_	PPOSAT	Fem.Akk.Sg	_	_	_	_	B-NC	B-NP	DPOS	s29_7
+8	junge	_	_	ADJA	Pos.Fem.Akk.Sg	_	_	_	_	I-NC	I-NP	ADJA	s29_8
+9	tochter	_	_	NN	Fem.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s29_9
+10	(,)	_	_	$,	_	_	_	_	_	O	I-NP	$MK	s29_10
+11	jungkchfraw	_	_	NN	Fem.Akk.Sg	_	_	_	_	B-NC	I-NP	NA	s29_11
+12	Elizabeth	_	_	NE	Fem.Akk.Sg	_	_	_	_	B-NC	I-NP	NE	s29_12
+13	sehen	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s29_13
+14	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s29_14
+15	zog	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s29_15
+16	dahin	_	_	PAV	_	_	_	_	_	B-ADVC	B-ADVP	PAVDAP	s29_16
+17	gen	_	_	APPR	_	_	_	_	_	B-PC	I-ADVP	APPR	s29_17
+18	Gran	_	_	NE	Neut.Akk.Sg	_	_	_	_	I-PC	I-ADVP	NE	s29_18
+19	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s29_19
+
+# sent_id = 2
+# sent_id(Tiger) = s31
+# PTBstring = (S:--(ADV:MO Da)(VVFIN:HD starb)(NP:SB(ART:NK der)(ADJA:NK Edel)(CNP:NK(NN:CJ kung)(KON:CD vnd)(NN:CJ furst))(NE:APP albrecht))(PP:MO(APPR:AC an)(CNP:GL(NE:CJ Simans)(KON:CD vnd)(NE:CJ judas))(NN:NK abent)(NP:APP(NP:GL(ART:NK der)(ADJA:NK heiligen)(NN:NK zwelfpoten))(NN:NK tag))))
+# PTBstring_simple = (VROOT(S(AVP(ADV Da))(VP(VVFIN starb))(NP(ART der)(ADJA Edel)(CNP(NN kung)(KON vnd)(NN furst))(NE albrecht))(PP(APPR an)(CNP(NE Simans)(KON vnd)(NE judas))(NN abent)(NP(NP(ART der)(ADJA heiligen)(NN zwelfpoten))(NN tag)))))
+# text = Da starb der Edel kung vnd furst albrecht an Simans vnd judas abent der heiligen zwelfpoten tag (.)
+1	Da	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s31_1
+2	starb	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s31_2
+3	der	_	_	ART	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTB	s31_3
+4	Edel	_	_	ADJA	Pos.Mask.Nom.Sg	_	_	_	_	I-NC	I-NP	ADJA	s31_4
+5	kung	_	_	NN	Mask.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s31_5
+6	vnd	_	_	KON	_	_	_	_	_	O	I-NP	KON	s31_6
+7	furst	_	_	NN	Mask.Nom.Sg	_	_	_	_	B-NC	I-NP	NA	s31_7
+8	albrecht	_	_	NE	Mask.Nom.Sg	_	_	_	_	B-NC	I-NP	NE	s31_8
+9	an	_	_	APPR	_	_	_	_	_	B-sPC	B-PP	APPR	s31_9
+10	Simans	_	_	NE	Mask.Gen.Sg	_	_	_	_	B-NC	I-PP	NE	s31_10
+11	vnd	_	_	KON	_	_	_	_	_	O	I-PP	KON	s31_11
+12	judas	_	_	NE	Mask.Gen.Sg	_	_	_	_	B-NC	I-PP	NE	s31_12
+13	abent	_	_	NN	Mask.Dat.Sg	_	_	_	_	B-PC	I-PP	NA	s31_13
+14	der	_	_	ART	*.Gen.Pl	_	_	_	_	B-NC	I-PP	DARTB	s31_14
+15	heiligen	_	_	ADJA	Pos.*.Gen.Pl	_	_	_	_	I-NC	I-PP	ADJA	s31_15
+16	zwelfpoten	_	_	NN	*.Gen.Pl	_	_	_	_	I-NC	I-PP	NA	s31_16
+17	tag	_	_	NN	Mask.Dat.Sg	_	_	_	_	B-NC	I-PP	NA	s31_17
+18	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s31_18
+
+# sent_id = 3
+# sent_id(Tiger) = s48
+# PTBstring = (CS:--(S:CJ(KON:JU aber)(NN:SB got)(VAFIN:HD was)(NN:PD huetter))(S:CJ(PDS:SB der)(VAFIN:HD het)(VP:OC(PPER:OA sy)(PP:MO(APPR:AC zu)(ADJA:NK rechter)(NN:NK zeit))(PTKVZ:SVP auf)(VVPP:HD gewecht)))(KON:CD vnd)(S:CJ(PPER:SB ich)(VVFIN:HD lag)(ADV:MO hinvor)(PP:MO(APPR:AC bei)(ART:NK der)(ADJA:NK jüngen)(NN:NK kungjnn))))
+# PTBstring_simple = (VROOT(CS(S(KON aber)(NP(NN got))(VP(VAFIN was))(NP(NN huetter)))(S(NP(PDS der))(VP(VAFIN het))(VP(PPER sy)(PP(APPR zu)(ADJA rechter)(NN zeit))(PTKVZ auf)(VVPP gewecht)))(KON vnd)(S(NP(PPER ich))(VP(VVFIN lag))(AVP(ADV hinvor))(PP(APPR bei)(ART der)(ADJA jüngen)(NN kungjnn)))))
+# text = aber got was huetter (,) der het sy zu rechter zeit auf gewecht vnd ich lag hinvor bei der jüngen kungjnn (.)
+1	aber	_	_	KON	_	_	_	_	_	O	O	KON	s48_1
+2	got	_	_	NN	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	NA	s48_2
+3	was	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s48_3
+4	huetter	_	_	NN	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	NA	s48_4
+5	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s48_5
+6	der	_	_	PDS	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	PDEM	s48_6
+7	het	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s48_7
+8	sy	_	_	PPER	+3.Sg.Fem.Akk	_	_	_	_	B-NC	B-NP	PPER	s48_8
+9	zu	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s48_9
+10	rechter	_	_	ADJA	Pos.Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	ADJA	s48_10
+11	zeit	_	_	NN	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s48_11
+12	auf	_	_	PTKVZ	_	_	_	_	_	O	O	PTKVZ	s48_12
+13	gewecht	_	_	VVPP	_	_	_	_	_	O	O	VVPP	s48_13
+14	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s48_14
+15	ich	_	_	PPER	+1.Sg.Fem.Nom	_	_	_	_	B-NC	B-NP	PPER	s48_15
+16	lag	_	_	VVFIN	+1.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s48_16
+17	hinvor	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s48_17
+18	bei	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s48_18
+19	der	_	_	ART	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTB	s48_19
+20	jüngen	_	_	ADJA	Pos.Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	ADJA	s48_20
+21	kungjnn	_	_	NN	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s48_21
+22	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s48_22
+
+# sent_id = 4
+# sent_id(Tiger) = s67
+# PTBstring = (CS:--(KOMMA:-- /)(S:CJ(PDS:OG des)(VAFIN:HD wuerden)(NP:SB(ART:NK die)(ADJA:NK vngrischen)(NN:NK herren))(PTKVZ:SVP jnne)(KLAMMER:-- /))(KON:CD vnd)(S:CJ(VVFIN:HD komen)(AVP:MO(ADV:MO pald)(ADV:HD hernach))(PP:MO(APPR:AC zu)(PPOSAT:NK irn)(NN:NK gnaden)(KLAMMER:-- /)))(KON:CD vnd)(S:CJ(VVFIN:HD drungen)(PPER:OA si)(ADV:MO aber)(PTKVZ:SVP an)(PP:MO(APPR:AC von)(PDS:NK des)(PP:MNR(APPR:AC von)(NE:NK polan))(APZR:AC wegen)(PUNKT:-- /))))
+# PTBstring_simple = (VROOT(CS(KOMMA /)(S(NP(PDS des))(VP(VAFIN wuerden))(NP(ART die)(ADJA vngrischen)(NN herren))(SVP(PTKVZ jnne))(KLAMMER /))(KON vnd)(S(VP(VVFIN komen))(AVP(ADV pald)(ADV hernach))(PP(APPR zu)(PPOSAT irn)(NN gnaden)(KLAMMER /)))(KON vnd)(S(VP(VVFIN drungen))(NP(PPER si))(AVP(ADV aber))(SVP(PTKVZ an))(PP(APPR von)(PDS des)(PP(APPR von)(NE polan))(APZR wegen)(PUNKT /)))))
+# text = da kam graf Vlrich von Zily zu ir / (,) des wuerden die vngrischen herren jnne / vnd komen pald hernach zu irn gnaden / vnd drungen si aber an von des von polan wegen / (.)
+1	da	_	_	ADV	_	_	_	_	_	O	O	AVD	s67_1
+2	kam	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s67_2
+3	graf	_	_	NN	Mask.Nom.Sg	_	_	_	_	O	O	NA	s67_3
+4	Vlrich	_	_	NE	Mask.Nom.Sg	_	_	_	_	O	O	NE	s67_4
+5	von	_	_	APPR	_	_	_	_	_	O	O	APPR	s67_5
+6	Zily	_	_	NE	Neut.Nom.Sg	_	_	_	_	O	O	NE	s67_6
+7	zu	_	_	APPR	_	_	_	_	_	O	O	APPR	s67_7
+8	ir	_	_	PPER	+3.Sg.Fem.Dat	_	_	_	_	O	O	PPER	s67_8
+9	/	_	_	$,	_	_	_	_	_	O	O	$(	s67_9
+10	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s67_10
+11	des	_	_	PDS	Neut.Gen.Sg	_	_	_	_	B-NC	B-NP	PDEM	s67_11
+12	wuerden	_	_	VAFIN	+3.Pl.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s67_12
+13	die	_	_	ART	*.Nom.Pl	_	_	_	_	B-NC	B-NP	DARTB	s67_13
+14	vngrischen	_	_	ADJA	Pos.*.Nom.Pl	_	_	_	_	I-NC	I-NP	ADJA	s67_14
+15	herren	_	_	NN	*.Nom.Pl	_	_	_	_	I-NC	I-NP	NA	s67_15
+16	jnne	_	_	PTKVZ	_	_	_	_	_	O	O	PTKVZ	s67_16
+17	/	_	_	$(	_	_	_	_	_	O	O	$(	s67_17
+18	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s67_18
+19	komen	_	_	VVFIN	+3.Pl.Präs.Ind.St	_	_	_	_	O	O	VVFIN	s67_19
+20	pald	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s67_20
+21	hernach	_	_	ADV	_	_	_	_	_	I-ADVC	I-ADVP	AVD	s67_21
+22	zu	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s67_22
+23	irn	_	_	PPOSAT	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	DPOS	s67_23
+24	gnaden	_	_	NN	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s67_24
+25	/	_	_	$(	_	_	_	_	_	O	I-PP	$(	s67_25
+26	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s67_26
+27	drungen	_	_	VVFIN	+3.Pl.Präs.Ind.St	_	_	_	_	O	O	VVFIN	s67_27
+28	si	_	_	PPER	+3.Sg.Fem.Akk	_	_	_	_	B-NC	B-NP	PPER	s67_28
+29	aber	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s67_29
+30	an	_	_	PTKVZ	_	_	_	_	_	O	O	PTKVZ	s67_30
+31	von	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s67_31
+32	des	_	_	PDS	Mask.Gen.Sg	_	_	_	_	I-PC	I-PP	PDEM	s67_32
+33	von	_	_	APPR	_	_	_	_	_	B-PC	I-PP	APPR	s67_33
+34	polan	_	_	NE	Neut.Nom.Sg	_	_	_	_	I-PC	I-PP	NE	s67_34
+35	wegen	_	_	APZR	_	_	_	_	_	B-PC	I-PP	APZR	s67_35
+36	/	_	_	$.	_	_	_	_	_	O	I-PP	$(	s67_36
+37	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s67_37
+
+# sent_id = 5
+# sent_id(Tiger) = s80
+# PTBstring = (CS:--(S:CJ(ADV:MO Do)(VVFIN:HD nam)(NP:SB(ART:NK die)(ADJA:NK edl)(NN:NK kungjnn))(NP:CJ(PPOSAT:NK ir)(ADJA:NK jungste)(NN:NK tochter)(NP:APP(NN:NK fraun)(NE:APP Elizabeten)))(PTKVZ:SVP ab)(NP:DA(ART:NK dem)(NN:NK haws))(PP:MO(APPR:AC zu)(PRF:NK ir)(PP:MNR(APPR:AC in)(ART:NK den)(NN:NK hof)))(CNP:OA(KON:CD vnd)(PPER:CJ mich))(PP:MO(APPR:AC mit)(PPER:NK ir))(CNP:OA(KON:CD vnd)(NP:CJ(CARD:NK zwo)(NN:NK junkchfraun))))(KON:CD vnd)(S:CJ(VVFIN:HD lies)(NP:OA(ART:NK die)(PIS:NK andern))(AVP:MO(ADV:MO da)(ADV:HD oben)(KOMMA:-- .))(CNP:APP(NP:CJ(ART:NK ain)(NN:NK herczoginn)(PP:MNR(APPR:AC aus)(ART:NK der)(NE:NK slesy)))(KON:CD vnd)(NP:CJ(PIAT:NK ander)(ADJA:NK edl)(NN:NK junkchfraun)))))
+# PTBstring_simple = (VROOT(CS(S(AVP(ADV Do))(VP(VVFIN nam))(NP(ART die)(ADJA edl)(NN kungjnn))(NP(PPOSAT ir)(ADJA jungste)(NN tochter)(NP(NN fraun)(NE Elizabeten)))(SVP(PTKVZ ab))(NP(ART dem)(NN haws))(PP(APPR zu)(PRF ir)(PP(APPR in)(ART den)(NN hof)))(CNP(KON vnd)(PPER mich))(PP(APPR mit)(PPER ir))(CNP(KON vnd)(NP(CARD zwo)(NN junkchfraun))))(KON vnd)(S(VP(VVFIN lies))(NP(ART die)(PIS andern))(AVP(ADV da)(ADV oben)(KOMMA .))(CNP(NP(ART ain)(NN herczoginn)(PP(APPR aus)(ART der)(NE slesy)))(KON vnd)(NP(PIAT ander)(ADJA edl)(NN junkchfraun))))))
+# text = Do nam die edl kungjnn ir jungste tochter (,) fraun Elizabeten ab dem haws zu ir in den hof vnd mich mit ir vnd zwo junkchfraun vnd lies die andern da oben . (,) ain herczoginn aus der slesy vnd ander edl junkchfraun (.)
+1	Do	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s80_1
+2	nam	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s80_2
+3	die	_	_	ART	Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTB	s80_3
+4	edl	_	_	ADJA	Pos.Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	ADJA	s80_4
+5	kungjnn	_	_	NN	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s80_5
+6	ir	_	_	PPOSAT	Fem.Akk.Sg	_	_	_	_	B-NC	B-NP	DPOS	s80_6
+7	jungste	_	_	ADJA	Sup.Fem.Akk.Sg	_	_	_	_	I-NC	I-NP	ADJA	s80_7
+8	tochter	_	_	NN	Fem.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s80_8
+9	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s80_9
+10	fraun	_	_	NN	Fem.Akk.Sg	_	_	_	_	B-NC	B-NP	NA	s80_10
+11	Elizabeten	_	_	NE	Fem.Akk.Sg	_	_	_	_	B-NC	I-NP	NE	s80_11
+12	ab	_	_	PTKVZ	_	_	_	_	_	O	O	PTKVZ	s80_12
+13	dem	_	_	ART	Neut.Dat.Sg	_	_	_	_	B-NC	B-NP	DARTB	s80_13
+14	haws	_	_	NN	Neut.Dat.Sg	_	_	_	_	I-NC	I-NP	NA	s80_14
+15	zu	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s80_15
+16	ir	_	_	PRF	+3.Sg.Fem.Dat	_	_	_	_	I-PC	I-PP	PRF	s80_16
+17	in	_	_	APPR	_	_	_	_	_	B-PC	I-PP	APPR	s80_17
+18	den	_	_	ART	Mask.Akk.Sg	_	_	_	_	I-PC	I-PP	DARTB	s80_18
+19	hof	_	_	NN	Mask.Akk.Sg	_	_	_	_	I-PC	I-PP	NA	s80_19
+20	vnd	_	_	KON	_	_	_	_	_	O	B-NP	KON	s80_20
+21	mich	_	_	PPER	+1.Sg.Fem.Akk	_	_	_	_	B-NC	I-NP	PPER	s80_21
+22	mit	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s80_22
+23	ir	_	_	PPER	+3.Sg.Fem.Dat	_	_	_	_	I-PC	I-PP	PPER	s80_23
+24	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s80_24
+25	zwo	_	_	CARD	_	_	_	_	_	B-NC	B-NP	CARD	s80_25
+26	junkchfraun	_	_	NN	*.Akk.Pl	_	_	_	_	I-NC	I-NP	NA	s80_26
+27	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s80_27
+28	lies	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s80_28
+29	die	_	_	ART	*.Akk.Pl	_	_	_	_	B-NC	B-NP	DARTB	s80_29
+30	andern	_	_	PIS	*.Akk.Pl	_	_	_	_	I-NC	I-NP	PINDEF	s80_30
+31	da	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s80_31
+32	oben	_	_	ADV	_	_	_	_	_	I-ADVC	I-ADVP	AVD	s80_32
+33	.	_	_	$,	_	_	_	_	_	O	I-ADVP	$.	s80_33
+34	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s80_34
+35	ain	_	_	ART	Fem.Akk.Sg	_	_	_	_	B-NC	B-NP	DARTB	s80_35
+36	herczoginn	_	_	NN	Fem.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s80_36
+37	aus	_	_	APPR	_	_	_	_	_	B-PC	I-NP	APPR	s80_37
+38	der	_	_	ART	Fem.Dat.Sg	_	_	_	_	I-PC	I-NP	DARTB	s80_38
+39	slesy	_	_	NE	Fem.Dat.Sg	_	_	_	_	I-PC	I-NP	NE	s80_39
+40	vnd	_	_	KON	_	_	_	_	_	O	I-NP	KON	s80_40
+41	ander	_	_	PIAT	*.Akk.Pl	_	_	_	_	B-NC	I-NP	DINDEF	s80_41
+42	edl	_	_	ADJA	Pos.*.Akk.Pl	_	_	_	_	I-NC	I-NP	ADJA	s80_42
+43	junkchfraun	_	_	NN	*.Akk.Pl	_	_	_	_	I-NC	I-NP	NA	s80_43
+44	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s80_44
+
+# sent_id = 6
+# sent_id(Tiger) = s81
+# PTBstring = (S:--(PDS:PH des)(VVFIN:HD nam)(NP:OA(PIAT:NK yeden)(NN:NK man))(NN:SB wunder)(S:RE(PWAV:MO warumb)(NP:SB(PPOSAT:NK ir)(NN:NK gnad))(CNP:OA(NP:CJ(ART:NK die)(NN:NK junkchfrawn))(KON:CD vnd)(NP:CJ(ART:NK das)(PIS:NK ander)(PPOSAT:NK ir)(NN:NK hofgesind)(S:RC(PRELS:SB das)(NP:DA(PPOSAT:NK meiner)(ADJA:NK jungen)(NN:NK frawn))(PP:PD(APPR:AC zue)(NN:NK geschaft))(VAFIN:HD was))))(AVP:MO(ADV:MO da)(ADV:HD oben))(VVFIN:HD lies)))
+# PTBstring_simple = (VROOT(S(NP(PDS des))(VP(VVFIN nam))(NP(PIAT yeden)(NN man))(NP(NN wunder))(S(PWAV warumb)(NP(PPOSAT ir)(NN gnad))(CNP(NP(ART die)(NN junkchfrawn))(KON vnd)(NP(ART das)(PIS ander)(PPOSAT ir)(NN hofgesind)(S:RC(NP(PRELS das))(NP(PPOSAT meiner)(ADJA jungen)(NN frawn))(PP(APPR zue)(NN geschaft))(VP(VAFIN was)))))(AVP(ADV da)(ADV oben))(VP(VVFIN lies)))))
+# text = des nam yeden man wunder (,) warumb ir gnad die junkchfrawn vnd das ander ir hofgesind (,) das meiner jungen frawn zue geschaft was (,) da oben lies (.)
+1	des	_	_	PDS	Neut.Gen.Sg	_	_	_	_	B-NC	B-NP	PDEM	s81_1
+2	nam	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s81_2
+3	yeden	_	_	PIAT	Mask.Akk.Sg	_	_	_	_	B-NC	B-NP	DINDEF	s81_3
+4	man	_	_	NN	Mask.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s81_4
+5	wunder	_	_	NN	_	_	_	_	_	B-NC	B-NP	NA	s81_5
+6	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s81_6
+7	warumb	_	_	PWAV	_	_	_	_	_	B-NC	O	PWAV	s81_7
+8	ir	_	_	PPOSAT	Fem.Nom.Sg	_	_	_	_	I-NC	B-NP	DPOS	s81_8
+9	gnad	_	_	NN	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s81_9
+10	die	_	_	ART	*.Akk.Pl	_	_	_	_	B-NC	B-NP	DARTB	s81_10
+11	junkchfrawn	_	_	NN	*.Akk.Pl	_	_	_	_	I-NC	I-NP	NA	s81_11
+12	vnd	_	_	KON	_	_	_	_	_	O	I-NP	KON	s81_12
+13	das	_	_	ART	Neut.Akk.Sg	_	_	_	_	B-NC	I-NP	DARTB	s81_13
+14	ander	_	_	PIS	Neut.Akk.Sg	_	_	_	_	I-NC	I-NP	PINDEF	s81_14
+15	ir	_	_	PPOSAT	Neut.Akk.Sg	_	_	_	_	I-NC	I-NP	DPOS	s81_15
+16	hofgesind	_	_	NN	Neut.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s81_16
+17	(,)	_	_	$,	_	_	_	_	_	O	I-NP	$MK	s81_17
+18	das	_	_	PRELS	Neut.Nom.Sg	_	_	_	_	B-NC	I-NP	PRELS	s81_18
+19	meiner	_	_	PPOSAT	Fem.Dat.Sg	_	_	_	_	B-NC	I-NP	DPOS	s81_19
+20	jungen	_	_	ADJA	Pos.Fem.Dat.Sg	_	_	_	_	I-NC	I-NP	ADJA	s81_20
+21	frawn	_	_	NN	Fem.Dat.Sg	_	_	_	_	I-NC	I-NP	NA	s81_21
+22	zue	_	_	APPR	_	_	_	_	_	B-PC	I-NP	APPR	s81_22
+23	geschaft	_	_	NN	Neut.Dat.Sg	_	_	_	_	I-PC	I-NP	NA	s81_23
+24	was	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	I-NP	VAFIN	s81_24
+25	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s81_25
+26	da	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s81_26
+27	oben	_	_	ADV	_	_	_	_	_	I-ADVC	I-ADVP	AVD	s81_27
+28	lies	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s81_28
+29	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s81_29
+
+# sent_id = 7
+# sent_id(Tiger) = s85
+# PTBstring = (CS:--(S:CJ(KON:JU Vnd)(PDS:OA das)(VVFIN:HD tet)(PPER:SB ich))(KON:CD vnd)(S:CJ(VVFIN:HD kam)(PP:MO(APPR:AC auf)(ART:NK das)(NN:NK haws)(KLAMMER:-- /)))(KON:CD vnd)(S:CJ(PP:MO(APPR:AC in)(PPOSAT:NK meinem)(NN:NK gewant)(KLAMMER:-- /))(VVFIN:HD pracht)(PPER:SB ich)(PAV:MO darvon)(PP:MO(APPR:AC in)(ADJA:NK grosser)(NN:NK gehaim))(CNP:OA(NP:CJ(NP:GL(PPOSAT:NK meiner)(ADJA:NK gnedigen)(NN:NK frawn))(NN:NK kran))(KON:CD vnd)(NP:CJ(PIAT:NK all)(PPOSAT:NK jr)(NN:NK klainat)))(PP:MO(APPR:AC auf)(ART:NK ainem)(NN:NK sliten))))
+# PTBstring_simple = (VROOT(CS(S(KON Vnd)(NP(PDS das))(VP(VVFIN tet))(NP(PPER ich)))(KON vnd)(S(VP(VVFIN kam))(PP(APPR auf)(ART das)(NN haws)(KLAMMER /)))(KON vnd)(S(PP(APPR in)(PPOSAT meinem)(NN gewant)(KLAMMER /))(VP(VVFIN pracht))(NP(PPER ich))(PP(PAV darvon))(PP(APPR in)(ADJA grosser)(NN gehaim))(CNP(NP(NP(PPOSAT meiner)(ADJA gnedigen)(NN frawn))(NN kran))(KON vnd)(NP(PIAT all)(PPOSAT jr)(NN klainat)))(PP(APPR auf)(ART ainem)(NN sliten)))))
+# text = Vnd das tet ich vnd kam auf das haws / vnd in meinem gewant / pracht ich darvon in grosser gehaim meiner gnedigen frawn kran vnd all jr klainat auf ainem sliten (.)
+1	Vnd	_	_	KON	_	_	_	_	_	O	O	KON	s85_1
+2	das	_	_	PDS	Neut.Akk.Sg	_	_	_	_	B-NC	B-NP	PDEM	s85_2
+3	tet	_	_	VVFIN	+1.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VVFIN	s85_3
+4	ich	_	_	PPER	+1.Sg.Fem.Nom	_	_	_	_	B-NC	B-NP	PPER	s85_4
+5	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s85_5
+6	kam	_	_	VVFIN	+1.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s85_6
+7	auf	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s85_7
+8	das	_	_	ART	Neut.Akk.Sg	_	_	_	_	I-PC	I-PP	DARTB	s85_8
+9	haws	_	_	NN	Neut.Akk.Sg	_	_	_	_	I-PC	I-PP	NA	s85_9
+10	/	_	_	$(	_	_	_	_	_	O	I-PP	$(	s85_10
+11	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s85_11
+12	in	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s85_12
+13	meinem	_	_	PPOSAT	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	DPOS	s85_13
+14	gewant	_	_	NN	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s85_14
+15	/	_	_	$(	_	_	_	_	_	O	I-PP	$(	s85_15
+16	pracht	_	_	VVFIN	+1.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VVFIN	s85_16
+17	ich	_	_	PPER	+1.Sg.Fem.Nom	_	_	_	_	B-NC	B-NP	PPER	s85_17
+18	darvon	_	_	PAV	_	_	_	_	_	B-PC	B-PP	PAVDAP	s85_18
+19	in	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s85_19
+20	grosser	_	_	ADJA	Pos.Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	ADJA	s85_20
+21	gehaim	_	_	NN	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s85_21
+22	meiner	_	_	PPOSAT	Fem.Gen.Sg	_	_	_	_	B-NC	B-NP	DPOS	s85_22
+23	gnedigen	_	_	ADJA	Pos.Fem.Dat.Sg	_	_	_	_	I-NC	I-NP	ADJA	s85_23
+24	frawn	_	_	NN	Fem.Gen.Sg	_	_	_	_	I-NC	I-NP	NA	s85_24
+25	kran	_	_	NN	Fem.Akk.Sg	_	_	_	_	B-NC	I-NP	NA	s85_25
+26	vnd	_	_	KON	_	_	_	_	_	O	I-NP	KON	s85_26
+27	all	_	_	PIAT	*.Akk.Pl	_	_	_	_	B-NC	I-NP	DINDEF	s85_27
+28	jr	_	_	PPOSAT	*.Akk.Pl	_	_	_	_	I-NC	I-NP	DPOS	s85_28
+29	klainat	_	_	NN	*.Akk.Pl	_	_	_	_	I-NC	I-NP	NA	s85_29
+30	auf	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s85_30
+31	ainem	_	_	ART	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTB	s85_31
+32	sliten	_	_	NN	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s85_32
+33	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s85_33
+
+# sent_id = 8
+# sent_id(Tiger) = s86
+# PTBstring = (CS:--(S:CJ(KON:JU vnd)(AVP:MO(S:RE(KOUS:CP als)(PPER:SB ich)(PP:MO(APPR:AC in)(ART:NK den)(NN:NK hof))(VVFIN:HD füer))(ADV:PH da))(VVFIN:HD riten)(NP:SB(ART:NK die)(ADJA:NK vngrischen)(NN:NK herren))(PP:MO(APPR:AC gegen)(PPER:NK mir)(KLAMMER:-- /)))(KON:CD vnd)(S:CJ(VVFIN:HD fragt)(PPER:OA mich)(NP:SB(NN:NK her)(NE:APP laslawan))(S:OC(PN:VO(NE:PNC helena)(NE:PNC quottannerin))(PWS:OA was)(VVFIN:HD fuert)(PPER:SB ir)(ADV:MO her)(PUNKT:-- /))))
+# PTBstring_simple = (VROOT(CS(S(KON vnd)(AVP(S(KOUS als)(NP(PPER ich))(PP(APPR in)(ART den)(NN hof))(VP(VVFIN füer)))(ADV da))(VP(VVFIN riten))(NP(ART die)(ADJA vngrischen)(NN herren))(PP(APPR gegen)(PPER mir)(KLAMMER /)))(KON vnd)(S(VP(VVFIN fragt))(NP(PPER mich))(NP(NN her)(NE laslawan))(S:OC(PN(NE helena)(NE quottannerin))(NP(PWS was))(VP(VVFIN fuert))(NP(PPER ir))(AVP(ADV her))(PUNKT /)))))
+# text = vnd als ich in den hof füer (,) da riten die vngrischen herren gegen mir / vnd fragt mich her laslawan (:) (") helena quottannerin (,) was fuert ir her / (?) (")
+1	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s86_1
+2	als	_	_	KOUS	_	_	_	_	_	O	B-ADVP	KOUS	s86_2
+3	ich	_	_	PPER	+1.Sg.Fem.Nom	_	_	_	_	B-NC	I-ADVP	PPER	s86_3
+4	in	_	_	APPR	_	_	_	_	_	B-PC	I-ADVP	APPR	s86_4
+5	den	_	_	ART	Mask.Akk.Sg	_	_	_	_	I-PC	I-ADVP	DARTB	s86_5
+6	hof	_	_	NN	Mask.Akk.Sg	_	_	_	_	I-PC	I-ADVP	NA	s86_6
+7	füer	_	_	VVFIN	+1.Sg.Prät.Ind.St	_	_	_	_	O	I-ADVP	VVFIN	s86_7
+8	(,)	_	_	$,	_	_	_	_	_	O	I-ADVP	$MK	s86_8
+9	da	_	_	ADV	_	_	_	_	_	B-ADVC	I-ADVP	AVD	s86_9
+10	riten	_	_	VVFIN	+3.Pl.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s86_10
+11	die	_	_	ART	*.Nom.Pl	_	_	_	_	B-NC	B-NP	DARTB	s86_11
+12	vngrischen	_	_	ADJA	Pos.*.Nom.Pl	_	_	_	_	I-NC	I-NP	ADJA	s86_12
+13	herren	_	_	NN	*.Nom.Pl	_	_	_	_	I-NC	I-NP	NA	s86_13
+14	gegen	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s86_14
+15	mir	_	_	PPER	+1.Sg.Fem.Akk	_	_	_	_	I-PC	I-PP	PPER	s86_15
+16	/	_	_	$(	_	_	_	_	_	O	I-PP	$(	s86_16
+17	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s86_17
+18	fragt	_	_	VVFIN	+3.Sg.Prät.Ind.Sw	_	_	_	_	O	O	VVFIN	s86_18
+19	mich	_	_	PPER	+1.Sg.Fem.Akk	_	_	_	_	B-NC	B-NP	PPER	s86_19
+20	her	_	_	NN	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	NA	s86_20
+21	laslawan	_	_	NE	Mask.Nom.Sg	_	_	_	_	B-NC	I-NP	NE	s86_21
+22	(:)	_	_	$(	_	_	_	_	_	O	O	$MSBI	s86_22
+23	(")	_	_	$(	_	_	_	_	_	O	O	$QL	s86_23
+24	helena	_	_	NE	Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	NE	s86_24
+25	quottannerin	_	_	NE	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	NE	s86_25
+26	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s86_26
+27	was	_	_	PWS	Neut.Akk.Sg	_	_	_	_	B-NC	B-NP	PW	s86_27
+28	fuert	_	_	VVFIN	+3.Sg.Präs.Ind.Sw	_	_	_	_	O	O	VVFIN	s86_28
+29	ir	_	_	PPER	+2.Pl.Fem.Nom	_	_	_	_	B-NC	B-NP	PPER	s86_29
+30	her	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s86_30
+31	/	_	_	$.	_	_	_	_	_	O	O	$(	s86_31
+32	(?)	_	_	$(	_	_	_	_	_	O	O	$MSBI	s86_32
+33	(")	_	_	$(	_	_	_	_	_	O	O	$QR	s86_33
+
+# sent_id = 9
+# sent_id(Tiger) = s90
+# PTBstring = (S:--(AVP:MO(CS:RE(S:CJ(KOUS:CP da)(ADV:MO nü)(NP:SB(ART:NK die)(ADJA:NK edl)(NN:NK kungjnn))(VP:OC(NP:DA(ART:NK den)(ADJA:NK vngrischen)(NN:NK herren))(NP:OA(ART:NK ain)(NN:NK antbuert))(VVPP:HD geben))(VAFIN:HD het)(PP:MO(APPR:AC von)(ART:NK des)(NN:NK kungs)(PP:MNR(APPR:AC von)(NE:NK polan))(APZR:AC wegen))(S:MO(KOKOM:CM als)(PPER:SB ir)(VP:OC(ADV:MO vor)(VVPP:HD gehort))(VAFIN:HD habt)))(KON:CD vnd)(S:CJ(ADV:MO auch)(CNP:SB(NP:CJ(ART:NK die)(NN:NK brief))(KON:CD vnd)(NP:CJ(ART:NK die)(ADJA:NK vngrischen)(NN:NK herren)(S:RC(PRELS:SB die)(VP:OC(PP:MO(APPR:AC in)(NN:NK potschaft))(VVINF:HD reiten))(VMFIN:HD solten)(PP:MO(APPR:AC zu)(PDS:NK dem)(PP:MNR(APPR:AC von)(NE:NK polan))))))(VP:OC(VVPP:HD gefertigt)(VAPP:HD worden)(KOMMA:-- /))(CNP:APP(NP:CJ(ART:NK der)(NN:NK Bischoue)(PP:MNR(APPR:AC von)(NE:NK Erlach)(PUNKT:-- .)))(KON:CD vnd)(NE:CJ Matcowan)(KON:CD vnd)(NE:CJ Weidefembreich)(KON:CD vnd)(NP:CJ(PIAT:NK ander)(NN:NK herren)))))(ADV:PH da))(VVFIN:HD schieden)(NP:SB(ART:NK die)(ADJA:NK vngrischen)(NN:NK herren))(PP:MO(APPR:AC von)(ART:NK der)(NE:NK plintenpurg))(ADV:MO wider)(PP:MO(APPR:AC gen)(NE:NK ofen)(PUNKT:-- /)))
+# PTBstring_simple = (VROOT(S(AVP(CS(S(KOUS da)(AVP(ADV nü))(NP(ART die)(ADJA edl)(NN kungjnn))(VP(NP(ART den)(ADJA vngrischen)(NN herren))(NP(ART ain)(NN antbuert))(VVPP geben))(VP(VAFIN het))(PP(APPR von)(ART des)(NN kungs)(PP(APPR von)(NE polan))(APZR wegen))(S(KOKOM als)(NP(PPER ir))(VP(ADV vor)(VVPP gehort))(VP(VAFIN habt))))(KON vnd)(S(AVP(ADV auch))(CNP(NP(ART die)(NN brief))(KON vnd)(NP(ART die)(ADJA vngrischen)(NN herren)(S:RC(NP(PRELS die))(VP(PP(APPR in)(NN potschaft))(VVINF reiten))(VP(VMFIN solten))(PP(APPR zu)(PDS dem)(PP(APPR von)(NE polan))))))(VP(VVPP gefertigt)(VAPP worden)(KOMMA /))(CNP(NP(ART der)(NN Bischoue)(PP(APPR von)(NE Erlach)(PUNKT .)))(KON vnd)(NE Matcowan)(KON vnd)(NE Weidefembreich)(KON vnd)(NP(PIAT ander)(NN herren)))))(ADV da))(VP(VVFIN schieden))(NP(ART die)(ADJA vngrischen)(NN herren))(PP(APPR von)(ART der)(NE plintenpurg))(AVP(ADV wider))(PP(APPR gen)(NE ofen)(PUNKT /))))
+# text = da nü die edl kungjnn den vngrischen herren ain antbuert geben het von des kungs von polan wegen (,) als ir vor gehort habt vnd auch die brief vnd die vngrischen herren (,) die in potschaft reiten solten zu dem von polan (,) gefertigt worden / (,) der Bischoue von Erlach . vnd Matcowan vnd Weidefembreich vnd ander herren (,) da schieden die vngrischen herren von der plintenpurg wider gen ofen / (.)
+1	da	_	_	KOUS	_	_	_	_	_	O	B-ADVP	KOUS	s90_1
+2	nü	_	_	ADV	_	_	_	_	_	B-ADVC	I-ADVP	AVD	s90_2
+3	die	_	_	ART	Fem.Nom.Sg	_	_	_	_	B-NC	I-ADVP	DARTB	s90_3
+4	edl	_	_	ADJA	Pos.Fem.Nom.Sg	_	_	_	_	I-NC	I-ADVP	ADJA	s90_4
+5	kungjnn	_	_	NN	Fem.Nom.Sg	_	_	_	_	I-NC	I-ADVP	NA	s90_5
+6	den	_	_	ART	*.Dat.Pl	_	_	_	_	B-NC	I-ADVP	DARTB	s90_6
+7	vngrischen	_	_	ADJA	Pos.*.Dat.Pl	_	_	_	_	I-NC	I-ADVP	ADJA	s90_7
+8	herren	_	_	NN	*.Dat.Pl	_	_	_	_	I-NC	I-ADVP	NA	s90_8
+9	ain	_	_	ART	Fem.Akk.Sg	_	_	_	_	B-NC	I-ADVP	DARTB	s90_9
+10	antbuert	_	_	NN	Fem.Akk.Sg	_	_	_	_	I-NC	I-ADVP	NA	s90_10
+11	geben	_	_	VVPP	_	_	_	_	_	O	I-ADVP	VVPP	s90_11
+12	het	_	_	VAFIN	+3.Sg.Präs.Ind.Unr	_	_	_	_	O	I-ADVP	VAFIN	s90_12
+13	von	_	_	APPR	_	_	_	_	_	B-PC	I-ADVP	APPR	s90_13
+14	des	_	_	ART	Mask.Gen.Sg	_	_	_	_	I-PC	I-ADVP	DARTB	s90_14
+15	kungs	_	_	NN	Mask.Gen.Sg	_	_	_	_	I-PC	I-ADVP	NA	s90_15
+16	von	_	_	APPR	_	_	_	_	_	B-PC	I-ADVP	APPR	s90_16
+17	polan	_	_	NE	Neut.Dat.Sg	_	_	_	_	I-PC	I-ADVP	NE	s90_17
+18	wegen	_	_	APZR	_	_	_	_	_	I-PC	I-ADVP	APZR	s90_18
+19	(,)	_	_	$,	_	_	_	_	_	O	I-ADVP	$MK	s90_19
+20	als	_	_	KOKOM	_	_	_	_	_	O	I-ADVP	KOKOM	s90_20
+21	ir	_	_	PPER	+2.Pl.Neut.Nom	_	_	_	_	B-NC	I-ADVP	PPER	s90_21
+22	vor	_	_	ADV	_	_	_	_	_	B-ADVC	I-ADVP	AVD	s90_22
+23	gehort	_	_	VVPP	_	_	_	_	_	O	I-ADVP	VVPP	s90_23
+24	habt	_	_	VAFIN	+2.Pl.Prät.Ind.Unr	_	_	_	_	O	I-ADVP	VAFIN	s90_24
+25	vnd	_	_	KON	_	_	_	_	_	O	I-ADVP	KON	s90_25
+26	auch	_	_	ADV	_	_	_	_	_	B-ADVC	I-ADVP	AVD	s90_26
+27	die	_	_	ART	*.Nom.Pl	_	_	_	_	B-NC	I-ADVP	DARTB	s90_27
+28	brief	_	_	NN	*.Nom.Pl	_	_	_	_	I-NC	I-ADVP	NA	s90_28
+29	vnd	_	_	KON	_	_	_	_	_	O	I-ADVP	KON	s90_29
+30	die	_	_	ART	*.Nom.Pl	_	_	_	_	B-NC	I-ADVP	DARTB	s90_30
+31	vngrischen	_	_	ADJA	Pos.*.Nom.Pl	_	_	_	_	I-NC	I-ADVP	ADJA	s90_31
+32	herren	_	_	NN	*.Nom.Pl	_	_	_	_	I-NC	I-ADVP	NA	s90_32
+33	(,)	_	_	$,	_	_	_	_	_	O	I-ADVP	$MK	s90_33
+34	die	_	_	PRELS	*.Nom.Pl	_	_	_	_	B-NC	I-ADVP	PRELS	s90_34
+35	in	_	_	APPR	_	_	_	_	_	B-PC	I-ADVP	APPR	s90_35
+36	potschaft	_	_	NN	Fem.Akk.Sg	_	_	_	_	I-PC	I-ADVP	NA	s90_36
+37	reiten	_	_	VVINF	Unflekt	_	_	_	_	O	I-ADVP	VVINF	s90_37
+38	solten	_	_	VMFIN	+3.Pl.Prät.Ind.Unr	_	_	_	_	O	I-ADVP	VMFIN	s90_38
+39	zu	_	_	APPR	_	_	_	_	_	B-PC	I-ADVP	APPR	s90_39
+40	dem	_	_	PDS	Mask.Dat.Sg	_	_	_	_	I-PC	I-ADVP	PDEM	s90_40
+41	von	_	_	APPR	_	_	_	_	_	B-PC	I-ADVP	APPR	s90_41
+42	polan	_	_	NE	Neut.Dat.Sg	_	_	_	_	I-PC	I-ADVP	NE	s90_42
+43	(,)	_	_	$,	_	_	_	_	_	O	I-ADVP	$MK	s90_43
+44	gefertigt	_	_	VVPP	_	_	_	_	_	O	I-ADVP	VVPP	s90_44
+45	worden	_	_	VAPP	_	_	_	_	_	O	I-ADVP	VAPP	s90_45
+46	/	_	_	$,	_	_	_	_	_	O	I-ADVP	$(	s90_46
+47	(,)	_	_	$,	_	_	_	_	_	O	I-ADVP	$MK	s90_47
+48	der	_	_	ART	Mask.Nom.Sg	_	_	_	_	B-NC	I-ADVP	DARTB	s90_48
+49	Bischoue	_	_	NN	Mask.Nom.Sg	_	_	_	_	I-NC	I-ADVP	NA	s90_49
+50	von	_	_	APPR	_	_	_	_	_	B-PC	I-ADVP	APPR	s90_50
+51	Erlach	_	_	NE	Mask.Dat.Sg	_	_	_	_	I-PC	I-ADVP	NE	s90_51
+52	.	_	_	$.	_	_	_	_	_	O	I-ADVP	$.	s90_52
+53	vnd	_	_	KON	_	_	_	_	_	O	I-ADVP	KON	s90_53
+54	Matcowan	_	_	NE	Mask.Nom.Sg	_	_	_	_	B-NC	I-ADVP	NE	s90_54
+55	vnd	_	_	KON	_	_	_	_	_	I-NC	I-ADVP	KON	s90_55
+56	Weidefembreich	_	_	NE	Mask.Nom.Sg	_	_	_	_	I-NC	I-ADVP	NE	s90_56
+57	vnd	_	_	KON	_	_	_	_	_	O	I-ADVP	KON	s90_57
+58	ander	_	_	PIAT	*.Nom.Pl	_	_	_	_	B-NC	I-ADVP	DINDEF	s90_58
+59	herren	_	_	NN	*.Nom.Pl	_	_	_	_	I-NC	I-ADVP	NA	s90_59
+60	(,)	_	_	$,	_	_	_	_	_	O	I-ADVP	$MK	s90_60
+61	da	_	_	ADV	_	_	_	_	_	B-ADVC	I-ADVP	AVD	s90_61
+62	schieden	_	_	VVFIN	+3.Pl.Prät.Ind.Unr	_	_	_	_	O	O	VVFIN	s90_62
+63	die	_	_	ART	*.Nom.Pl	_	_	_	_	B-NC	B-NP	DARTB	s90_63
+64	vngrischen	_	_	ADJA	Pos.*.Nom.Pl	_	_	_	_	I-NC	I-NP	ADJA	s90_64
+65	herren	_	_	NN	*.Nom.Pl	_	_	_	_	I-NC	I-NP	NA	s90_65
+66	von	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s90_66
+67	der	_	_	ART	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTB	s90_67
+68	plintenpurg	_	_	NE	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	NE	s90_68
+69	wider	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s90_69
+70	gen	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s90_70
+71	ofen	_	_	NE	Neut.Akk.Sg	_	_	_	_	I-PC	I-PP	NE	s90_71
+72	/	_	_	$.	_	_	_	_	_	O	I-PP	$(	s90_72
+73	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s90_73
+
+# sent_id = 10
+# sent_id(Tiger) = s93
+# PTBstring = (S:--(ADV:MO do)(VVFIN:HD kam)(NP:SB(PPOSAT:NK mein)(ADJA:NK gnedige)(NN:NK fraw))(PP:MO(APPR:AC an)(PPER:NK mich))(S:MO(KOUS:CP daz)(PPER:SB ich)(VP:OC(PDS:OA das)(VVINF:HD tüen))(VMFIN:HD solt)(S:MO(KOUS:CP wann)(NP:OA(ART:NK die)(NN:NK gelegenhait))(PIS:NK nymant)(AVP:MO(ADV:HD also)(ADV:HD wol))(VVFIN:HD wesset)(NP:CC(KOKOM:CM als)(PPER:NK ich))(S:RC(PRELS:DA dem)(PPER:SB si)(VP:OC(PP:MO(ADV:UC dar)(ADV:UC zu))(VVINF:HD vertrawn))(VMFIN:HD mocht)(KLAMMER:-- /)))))
+# PTBstring_simple = (VROOT(S(AVP(ADV do))(VP(VVFIN kam))(NP(PPOSAT mein)(ADJA gnedige)(NN fraw))(PP(APPR an)(PPER mich))(S(KOUS daz)(NP(PPER ich))(VP(PDS das)(VVINF tüen))(VP(VMFIN solt))(S(KOUS wann)(NP(ART die)(NN gelegenhait))(NP(PIS nymant))(AVP(ADV also)(ADV wol))(VP(VVFIN wesset))(NP(KOKOM als)(PPER ich))(S:RC(NP(PRELS dem))(NP(PPER si))(VP(PP(ADV dar)(ADV zu))(VVINF vertrawn))(VP(VMFIN mocht))(KLAMMER /))))))
+# text = do kam mein gnedige fraw an mich (,) daz ich das tüen solt (,) wann die gelegenhait nymant also wol wesset als ich (,) dem si dar zu vertrawn mocht /
+1	do	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s93_1
+2	kam	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s93_2
+3	mein	_	_	PPOSAT	Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	DPOS	s93_3
+4	gnedige	_	_	ADJA	Pos.Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	ADJA	s93_4
+5	fraw	_	_	NN	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s93_5
+6	an	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s93_6
+7	mich	_	_	PPER	+1.Sg.Fem.Akk	_	_	_	_	I-PC	I-PP	PPER	s93_7
+8	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s93_8
+9	daz	_	_	KOUS	_	_	_	_	_	O	O	KOUS	s93_9
+10	ich	_	_	PPER	+1.Sg.Fem.Nom	_	_	_	_	B-NC	B-NP	PPER	s93_10
+11	das	_	_	PDS	Neut.Akk.Sg	_	_	_	_	B-NC	B-NP	PDEM	s93_11
+12	tüen	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s93_12
+13	solt	_	_	VMFIN	+1.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VMFIN	s93_13
+14	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s93_14
+15	wann	_	_	KOUS	_	_	_	_	_	O	O	KOUS	s93_15
+16	die	_	_	ART	Fem.Akk.Sg	_	_	_	_	B-NC	B-NP	DARTB	s93_16
+17	gelegenhait	_	_	NN	Fem.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s93_17
+18	nymant	_	_	PIS	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	PINDEF	s93_18
+19	also	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s93_19
+20	wol	_	_	ADV	_	_	_	_	_	B-ADVC	I-ADVP	AVD	s93_20
+21	wesset	_	_	VVFIN	+3.Sg.Präs.Ind.St	_	_	_	_	O	O	VVFIN	s93_21
+22	als	_	_	KOKOM	_	_	_	_	_	B-NC	B-NP	KOKOM	s93_22
+23	ich	_	_	PPER	+1.Sg.Fem.Nom	_	_	_	_	I-NC	I-NP	PPER	s93_23
+24	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s93_24
+25	dem	_	_	PRELS	Mask.Dat.Sg	_	_	_	_	B-NC	B-NP	PRELS	s93_25
+26	si	_	_	PPER	+3.Sg.Fem.Nom	_	_	_	_	B-NC	B-NP	PPER	s93_26
+27	dar	_	_	ADV	_	_	_	_	_	B-PC	B-PP	PAVD	s93_27
+28	zu	_	_	ADV	_	_	_	_	_	I-PC	I-PP	PAVAP	s93_28
+29	vertrawn	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s93_29
+30	mocht	_	_	VMFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VMFIN	s93_30
+31	/	_	_	$(	_	_	_	_	_	O	O	$(	s93_31
+
+# sent_id = 11
+# sent_id(Tiger) = s111
+# PTBstring = (CS:--(S:CJ(KON:JU vnd)(VVFIN:HD legat)(NP:OA(ART:NK ein)(ADJA:NK leinein)(NN:NK tüehl))(PP:MO(APPR:AC vmb)(ART:NK das)(NN:NK slos)(S:RC(PRELS:OA das)(PPER:SB wir)(PP:MO(APPR:AC bei)(ART:NK dem)(NN:NK angl))(VAFIN:HD heten)(VP:OC(PTKVZ:SVP an)(VVPP:HD geslagen)))))(KON:CD vnd)(S:CJ(NP:OA(ART:NK ain)(NN:NK petschad))(PAV:MO darauf)(PUNKT:-- /)))
+# PTBstring_simple = (VROOT(CS(S(KON vnd)(VP(VVFIN legat))(NP(ART ein)(ADJA leinein)(NN tüehl))(PP(APPR vmb)(ART das)(NN slos)(S:RC(NP(PRELS das))(NP(PPER wir))(PP(APPR bei)(ART dem)(NN angl))(VP(VAFIN heten))(VP(PTKVZ an)(VVPP geslagen)))))(KON vnd)(S(NP(ART ain)(NN petschad))(PP(PAV darauf))(PUNKT /))))
+# text = vnd legat ein leinein tüehl vmb das slos (,) das wir bei dem angl heten an geslagen vnd ain petschad darauf / (.)
+1	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s111_1
+2	legat	_	_	VVFIN	+3.Sg.Prät.Ind.Sw	_	_	_	_	O	O	VVFIN	s111_2
+3	ein	_	_	ART	Neut.Akk.Sg	_	_	_	_	B-NC	B-NP	DARTU	s111_3
+4	leinein	_	_	ADJA	Pos.Neut.Akk.Sg	_	_	_	_	I-NC	I-NP	ADJA	s111_4
+5	tüehl	_	_	NN	Neut.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s111_5
+6	vmb	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s111_6
+7	das	_	_	ART	Neut.Akk.Sg	_	_	_	_	I-PC	I-PP	DARTB	s111_7
+8	slos	_	_	NN	Neut.Akk.Sg	_	_	_	_	I-PC	I-PP	NA	s111_8
+9	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s111_9
+10	das	_	_	PRELS	Neut.Akk.Sg	_	_	_	_	B-NC	B-NP	PRELS	s111_10
+11	wir	_	_	PPER	+1.Pl.Mask.Nom	_	_	_	_	B-NC	B-NP	PPER	s111_11
+12	bei	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s111_12
+13	dem	_	_	ART	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTB	s111_13
+14	angl	_	_	NN	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s111_14
+15	heten	_	_	VAFIN	+1.Pl.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s111_15
+16	an	_	_	PTKVZ	_	_	_	_	_	O	O	PTKVZ	s111_16
+17	geslagen	_	_	VVPP	_	_	_	_	_	O	O	VVPP	s111_17
+18	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s111_18
+19	ain	_	_	ART	Neut.Akk.Sg	_	_	_	_	B-NC	B-NP	DARTU	s111_19
+20	petschad	_	_	NN	Neut.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s111_20
+21	darauf	_	_	PAV	_	_	_	_	_	B-PC	B-PP	PAVDAP	s111_21
+22	/	_	_	$.	_	_	_	_	_	O	O	$(	s111_22
+23	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s111_23
+
+# sent_id = 12
+# sent_id(Tiger) = s112
+# PTBstring = (CS:--(S:CJ(S:MO(KOUS:CP do)(PPER:SB wir)(ADV:MO nu)(VVFIN:HD kom)(PP:MO(APPR:AC auf)(ART:NK die)(NE:NK plintenpurg)))(NP:SB(ART:NK die)(NN:NK junkchfrawn))(VAFIN:HD warn)(AP:PD(ADJD:HD froleich)(S:OC(KOUS:CP daz)(PPER:SB sy)(PP:MO(APPR:AC zu)(NP:GL(PPOSAT:NK meiner)(NN:NK frawn))(NN:NK gnaden))(VMFIN:HD solten)(VVINF:HD faren))))(KON:CD vnd)(S:CJ(VVFIN:HD richtaten)(PRF:OA sich)(PTKVZ:SVP zue))(KON:CD vnd)(S:CJ(VVFIN:HD liessen)(VP:OC(NP:OA(ART:NK ain)(NN:NK truhen))(VVINF:HD machen)(PP:MO(APPR:AC zu)(PPOSAT:NK irm)(NN:NK gwant)))))
+# PTBstring_simple = (VROOT(CS(S(S(KOUS do)(NP(PPER wir))(AVP(ADV nu))(VP(VVFIN kom))(PP(APPR auf)(ART die)(NE plintenpurg)))(NP(ART die)(NN junkchfrawn))(VP(VAFIN warn))(AP(ADJD froleich)(S:OC(KOUS daz)(NP(PPER sy))(PP(APPR zu)(NP(PPOSAT meiner)(NN frawn))(NN gnaden))(VP(VMFIN solten))(VP(VVINF faren)))))(KON vnd)(S(VP(VVFIN richtaten))(NP(PRF sich))(SVP(PTKVZ zue)))(KON vnd)(S(VP(VVFIN liessen))(VP(NP(ART ain)(NN truhen))(VVINF machen)(PP(APPR zu)(PPOSAT irm)(NN gwant))))))
+# text = do wir nu kom auf die plintenpurg (,) die junkchfrawn warn froleich (,) daz sy zu meiner frawn gnaden solten faren vnd richtaten sich zue vnd liessen ain truhen machen zu irm gwant (.)
+1	do	_	_	KOUS	_	_	_	_	_	O	O	KOUS	s112_1
+2	wir	_	_	PPER	+1.Pl.Mask.Nom	_	_	_	_	B-NC	B-NP	PPER	s112_2
+3	nu	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s112_3
+4	kom	_	_	VVFIN	+1.Pl.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s112_4
+5	auf	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s112_5
+6	die	_	_	ART	Fem.Akk.Sg	_	_	_	_	I-PC	I-PP	DARTB	s112_6
+7	plintenpurg	_	_	NE	Fem.Akk.Sg	_	_	_	_	I-PC	I-PP	NE	s112_7
+8	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s112_8
+9	die	_	_	ART	*.Nom.Pl	_	_	_	_	B-NC	B-NP	DARTB	s112_9
+10	junkchfrawn	_	_	NN	*.Nom.Pl	_	_	_	_	I-NC	I-NP	NA	s112_10
+11	warn	_	_	VAFIN	+3.Pl.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s112_11
+12	froleich	_	_	ADJD	Pos.*.Nom.Pl	_	_	_	_	B-AC	B-AP	ADJD	s112_12
+13	(,)	_	_	$,	_	_	_	_	_	O	I-AP	$MK	s112_13
+14	daz	_	_	KOUS	_	_	_	_	_	O	I-AP	KOUS	s112_14
+15	sy	_	_	PPER	+3.Pl.Fem.Nom	_	_	_	_	B-NC	I-AP	PPER	s112_15
+16	zu	_	_	APPR	_	_	_	_	_	B-sPC	I-AP	APPR	s112_16
+17	meiner	_	_	PPOSAT	Fem.Gen.Sg	_	_	_	_	B-NC	I-AP	DPOS	s112_17
+18	frawn	_	_	NN	Fem.Gen.Sg	_	_	_	_	I-NC	I-AP	NA	s112_18
+19	gnaden	_	_	NN	Fem.Dat.Sg	_	_	_	_	B-PC	I-AP	NA	s112_19
+20	solten	_	_	VMFIN	+3.Pl.Prät.Ind.Unr	_	_	_	_	O	I-AP	VMFIN	s112_20
+21	faren	_	_	VVINF	Unflekt	_	_	_	_	O	I-AP	VVINF	s112_21
+22	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s112_22
+23	richtaten	_	_	VVFIN	+3.Pl.Prät.Ind.Sw	_	_	_	_	O	O	VVFIN	s112_23
+24	sich	_	_	PRF	+3.Pl.Akk	_	_	_	_	B-NC	B-NP	PRF	s112_24
+25	zue	_	_	PTKVZ	_	_	_	_	_	O	O	PTKVZ	s112_25
+26	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s112_26
+27	liessen	_	_	VVFIN	+3.Pl.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s112_27
+28	ain	_	_	ART	Fem.Akk.Sg	_	_	_	_	B-NC	B-NP	DARTU	s112_28
+29	truhen	_	_	NN	Fem.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s112_29
+30	machen	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s112_30
+31	zu	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s112_31
+32	irm	_	_	PPOSAT	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	DPOS	s112_32
+33	gwant	_	_	NN	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s112_33
+34	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s112_34
+
+# sent_id = 13
+# sent_id(Tiger) = s115
+# PTBstring = (S:--(ADV:MO Nu)(VVFIN:HD lag)(NP:SB(NP:NK(ART:NK ain)(PIAT:NK wenig))(NN:NK holcz))(PP:MO(APPR:AC vor)(ART:NK dem)(NN:NK ofen))(S:RC(PP:MO(ADV:UC da)(ADV:UC mit))(PIS:SB man)(PPER:OA jn)(VMFIN:HD solt)(VP:OC(VVINF:HD haiczen)(PUNKT:-- .))))
+# PTBstring_simple = (VROOT(S(AVP(ADV Nu))(VP(VVFIN lag))(NP(NP(ART ain)(PIAT wenig))(NN holcz))(PP(APPR vor)(ART dem)(NN ofen))(S:RC(PP(ADV da)(ADV mit))(NP(PIS man))(NP(PPER jn))(VP(VMFIN solt))(VP(VVINF haiczen)(PUNKT .)))))
+# text = Nu lag ain wenig holcz vor dem ofen (,) da mit man jn solt haiczen . (.)
+1	Nu	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s115_1
+2	lag	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s115_2
+3	ain	_	_	ART	Neut.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTU	s115_3
+4	wenig	_	_	PIAT	Neut.Nom.Sg	_	_	_	_	I-NC	I-NP	DINDEF	s115_4
+5	holcz	_	_	NN	Neut.Nom.Sg	_	_	_	_	B-NC	I-NP	NA	s115_5
+6	vor	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s115_6
+7	dem	_	_	ART	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTB	s115_7
+8	ofen	_	_	NN	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s115_8
+9	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s115_9
+10	da	_	_	ADV	_	_	_	_	_	B-PC	B-PP	PAVREL	s115_10
+11	mit	_	_	ADV	_	_	_	_	_	I-PC	I-PP	PAVAP	s115_11
+12	man	_	_	PIS	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	PINDEF	s115_12
+13	jn	_	_	PPER	+3.Sg.Mask.Akk	_	_	_	_	B-NC	B-NP	PPER	s115_13
+14	solt	_	_	VMFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VMFIN	s115_14
+15	haiczen	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s115_15
+16	.	_	_	$.	_	_	_	_	_	O	O	$.	s115_16
+17	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s115_17
+
+# sent_id = 14
+# sent_id(Tiger) = s134
+# PTBstring = (CS:--(S:CJ(ADV:MO da)(VVFIN:HD erkam)(PPER:SB ich)(AP:MO(ADV:MO gar)(ADJD:HD hart)))(KON:CD vnd)(S:CJ(VVFIN:HD hueb)(PRF:OA mich)(PTKVZ:SVP auf))(KON:CD vnd)(S:CJ(VMFIN:HD wolt)(VP:OC(VP:OC(PDS:OA die)(VVPP:HD gewarmbt))(VAINF:HD haben)(S:OC(KOUS:CP daz)(PPER:SB sy)(PP:OP(APPR:AC von)(ART:NK der)(NN:NK arbait))(VVFIN:HD liessen)(PUNKT:-- /)))))
+# PTBstring_simple = (VROOT(CS(S(AVP(ADV da))(VP(VVFIN erkam))(NP(PPER ich))(AP(ADV gar)(ADJD hart)))(KON vnd)(S(VP(VVFIN hueb))(NP(PRF mich))(SVP(PTKVZ auf)))(KON vnd)(S(VP(VMFIN wolt))(VP(VP(PDS die)(VVPP gewarmbt))(VAINF haben)(S:OC(KOUS daz)(NP(PPER sy))(PP(APPR von)(ART der)(NN arbait))(VP(VVFIN liessen))(PUNKT /))))))
+# text = da erkam ich gar hart vnd hueb mich auf vnd wolt die gewarmbt haben (,) daz sy von der arbait liessen / (.)
+1	da	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s134_1
+2	erkam	_	_	VVFIN	+1.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s134_2
+3	ich	_	_	PPER	+1.Sg.Fem.Nom	_	_	_	_	B-NC	B-NP	PPER	s134_3
+4	gar	_	_	ADV	_	_	_	_	_	B-AC	B-AP	AVD	s134_4
+5	hart	_	_	ADJD	_	_	_	_	_	I-AC	I-AP	ADJV	s134_5
+6	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s134_6
+7	hueb	_	_	VVFIN	+1.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s134_7
+8	mich	_	_	PRF	+1.Sg.Akk	_	_	_	_	B-NC	B-NP	PRF	s134_8
+9	auf	_	_	PTKVZ	_	_	_	_	_	O	O	PTKVZ	s134_9
+10	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s134_10
+11	wolt	_	_	VMFIN	+1.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VMFIN	s134_11
+12	die	_	_	PDS	*.Akk.Pl	_	_	_	_	B-NC	B-NP	PDEM	s134_12
+13	gewarmbt	_	_	VVPP	_	_	_	_	_	O	O	VVPP	s134_13
+14	haben	_	_	VAINF	Unflekt	_	_	_	_	O	O	VAINF	s134_14
+15	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s134_15
+16	daz	_	_	KOUS	_	_	_	_	_	O	O	KOUS	s134_16
+17	sy	_	_	PPER	+3.Pl.Mask.Nom	_	_	_	_	B-NC	B-NP	PPER	s134_17
+18	von	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s134_18
+19	der	_	_	ART	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTB	s134_19
+20	arbait	_	_	NN	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s134_20
+21	liessen	_	_	VVFIN	+3.Pl.Prät.Konj.St	_	_	_	_	O	O	VVFIN	s134_21
+22	/	_	_	$.	_	_	_	_	_	O	O	$(	s134_22
+23	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s134_23
+
+# sent_id = 15
+# sent_id(Tiger) = s135
+# PTBstring = (CS:--(S:CJ(ADV:MO do)(VVFIN:HD kam)(PPER:DA mir)(PP:MO(APPR:AC in)(ART:NK den)(NN:NK sin)(KOMMA:-- /))(S:SBC(PPER:SB ich)(VMFIN:HD solt)(VP:OC(PP:MO(APPR:AC an)(ART:NK dy)(NN:NK tüer))(VVINF:HD gen))))(KON:CD vnd)(S:CJ(PDS:OA das)(VVFIN:HD tet)(PPER:SB ich)(PUNKT:-- /)))
+# PTBstring_simple = (VROOT(CS(S(AVP(ADV do))(VP(VVFIN kam))(NP(PPER mir))(PP(APPR in)(ART den)(NN sin)(KOMMA /))(S(NP(PPER ich))(VP(VMFIN solt))(VP(PP(APPR an)(ART dy)(NN tüer))(VVINF gen))))(KON vnd)(S(NP(PDS das))(VP(VVFIN tet))(NP(PPER ich))(PUNKT /))))
+# text = do kam mir in den sin / (,) ich solt an dy tüer gen vnd das tet ich / (.)
+1	do	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s135_1
+2	kam	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s135_2
+3	mir	_	_	PPER	+1.Sg.Fem.Dat	_	_	_	_	B-NC	B-NP	PPER	s135_3
+4	in	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s135_4
+5	den	_	_	ART	Mask.Akk.Sg	_	_	_	_	I-PC	I-PP	DARTB	s135_5
+6	sin	_	_	NN	Mask.Akk.Sg	_	_	_	_	I-PC	I-PP	NA	s135_6
+7	/	_	_	$,	_	_	_	_	_	O	I-PP	$(	s135_7
+8	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s135_8
+9	ich	_	_	PPER	+1.Sg.Fem.Nom	_	_	_	_	B-NC	B-NP	PPER	s135_9
+10	solt	_	_	VMFIN	+1.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VMFIN	s135_10
+11	an	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s135_11
+12	dy	_	_	ART	Fem.Akk.Sg	_	_	_	_	I-PC	I-PP	DARTB	s135_12
+13	tüer	_	_	NN	Fem.Akk.Sg	_	_	_	_	I-PC	I-PP	NA	s135_13
+14	gen	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s135_14
+15	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s135_15
+16	das	_	_	PDS	Neut.Akk.Sg	_	_	_	_	B-NC	B-NP	PDEM	s135_16
+17	tet	_	_	VVFIN	+1.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s135_17
+18	ich	_	_	PPER	+1.Sg.Fem.Nom	_	_	_	_	B-NC	B-NP	PPER	s135_18
+19	/	_	_	$.	_	_	_	_	_	O	O	$(	s135_19
+20	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s135_20
+
+# sent_id = 16
+# sent_id(Tiger) = s138
+# PTBstring = (CS:--(S:CJ(KON:JU Vend)(AVP:MO(S:RE(KOUS:CP da)(PPER:SB ich)(ADV:MO nach)(PP:MO(APPR:AC an)(PPOSAT:NK meinen)(NN:NK gepet))(VAFIN:HD was))(ADV:PH da))(VVFIN:HD deücht)(PPER:OA mich)(ADV:MO aber)(NP:PD(KOKOM:CM wie)(ART:NK ain)(ADJA:NK grosz)(NN:NK geprecht)(KLAMMER:-- /)))(KON:CD vnd)(S:CJ(NP:SB(ART:NK ain)(NN:NK gerumppl)(PP:MNR(APPR:AC mit)(NN:NK harnasch)))(PP:MO(APPR:AC an)(ART:NK der)(NN:NK tür))(VAFIN:HD wer)(KOMMA:-- /)(S:RC(ADV:MO da)(NP:SB(ART:NK der)(ADJA:NK recht)(NN:NK eingankch))(VAFIN:HD was)(PP:MNR(APPR:AC in)(ART:NK das)(NN:NK frawnzymer)))))
+# PTBstring_simple = (VROOT(CS(S(KON Vend)(AVP(S(KOUS da)(NP(PPER ich))(AVP(ADV nach))(PP(APPR an)(PPOSAT meinen)(NN gepet))(VP(VAFIN was)))(ADV da))(VP(VVFIN deücht))(NP(PPER mich))(AVP(ADV aber))(NP(KOKOM wie)(ART ain)(ADJA grosz)(NN geprecht)(KLAMMER /)))(KON vnd)(S(NP(ART ain)(NN gerumppl)(PP(APPR mit)(NN harnasch)))(PP(APPR an)(ART der)(NN tür))(VP(VAFIN wer))(KOMMA /)(S:RC(AVP(ADV da))(NP(ART der)(ADJA recht)(NN eingankch))(VP(VAFIN was))(PP(APPR in)(ART das)(NN frawnzymer))))))
+# text = Vend da ich nach an meinen gepet was (,) da deücht mich aber wie ain grosz geprecht / vnd ain gerumppl mit harnasch an der tür wer / (,) da der recht eingankch was in das frawnzymer (.)
+1	Vend	_	_	KON	_	_	_	_	_	O	O	KON	s138_1
+2	da	_	_	KOUS	_	_	_	_	_	O	B-ADVP	KOUS	s138_2
+3	ich	_	_	PPER	+1.Sg.Fem.Nom	_	_	_	_	B-NC	I-ADVP	PPER	s138_3
+4	nach	_	_	ADV	_	_	_	_	_	B-ADVC	I-ADVP	AVD	s138_4
+5	an	_	_	APPR	_	_	_	_	_	B-PC	I-ADVP	APPR	s138_5
+6	meinen	_	_	PPOSAT	Neut.Dat.Sg	_	_	_	_	I-PC	I-ADVP	DPOS	s138_6
+7	gepet	_	_	NN	Neut.Dat.Sg	_	_	_	_	I-PC	I-ADVP	NA	s138_7
+8	was	_	_	VAFIN	+1.Sg.Prät.Ind.Unr	_	_	_	_	O	I-ADVP	VAFIN	s138_8
+9	(,)	_	_	$,	_	_	_	_	_	O	I-ADVP	$MK	s138_9
+10	da	_	_	ADV	_	_	_	_	_	B-ADVC	I-ADVP	AVD	s138_10
+11	deücht	_	_	VVFIN	+3.Sg.Prät.Ind.Sw	_	_	_	_	O	O	VVFIN	s138_11
+12	mich	_	_	PPER	+1.Sg.Fem.Akk	_	_	_	_	B-NC	B-NP	PPER	s138_12
+13	aber	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s138_13
+14	wie	_	_	KOKOM	_	_	_	_	_	B-NC	B-NP	KOKOM	s138_14
+15	ain	_	_	ART	Neut.Nom.Sg	_	_	_	_	I-NC	I-NP	DARTU	s138_15
+16	grosz	_	_	ADJA	Pos.Neut.Nom.Sg	_	_	_	_	I-NC	I-NP	ADJA	s138_16
+17	geprecht	_	_	NN	Neut.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s138_17
+18	/	_	_	$(	_	_	_	_	_	O	I-NP	$(	s138_18
+19	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s138_19
+20	ain	_	_	ART	Neut.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTU	s138_20
+21	gerumppl	_	_	NN	Neut.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s138_21
+22	mit	_	_	APPR	_	_	_	_	_	B-PC	I-NP	APPR	s138_22
+23	harnasch	_	_	NN	Mask.Dat.Sg	_	_	_	_	I-PC	I-NP	NA	s138_23
+24	an	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s138_24
+25	der	_	_	ART	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTB	s138_25
+26	tür	_	_	NN	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s138_26
+27	wer	_	_	VAFIN	+3.Sg.Prät.Konj.Unr	_	_	_	_	O	O	VAFIN	s138_27
+28	/	_	_	$,	_	_	_	_	_	O	O	$(	s138_28
+29	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s138_29
+30	da	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVREL	s138_30
+31	der	_	_	ART	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTB	s138_31
+32	recht	_	_	ADJA	Pos.Mask.Nom.Sg	_	_	_	_	I-NC	I-NP	ADJA	s138_32
+33	eingankch	_	_	NN	Mask.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s138_33
+34	was	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s138_34
+35	in	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s138_35
+36	das	_	_	ART	Neut.Akk.Sg	_	_	_	_	I-PC	I-PP	DARTB	s138_36
+37	frawnzymer	_	_	NN	Neut.Akk.Sg	_	_	_	_	I-PC	I-PP	NA	s138_37
+38	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s138_38
+
+# sent_id = 17
+# sent_id(Tiger) = s159
+# PTBstring = (CS:--(S:CJ(KON:JU vnd)(VVFIN:HD dankt)(NP:DA(NN:NK got)(NP:APP(ART:NK dem)(ADJA:NK almöchtigen)))(NP:OG(PPOSAT:NK seinen)(NN:NK gnad)(KOMMA:-- /)))(KON:CD Aber)(S:CJ(PPER:SB ich)(VVFIN:HD sach)(ADV:MO dennoch)(ADV:MO offt)(PTKVZ:SVP vmb)(S:OC(KOUS:CP ob)(PPER:DA vns)(PIS:SB ymant)(PTKVZ:SVP nach)(VVFIN:HD kem)(KOMMA:-- /)))(S:CJ(NP:SB(NP:RE(PPOSAT:NK mein)(NN:NK sargt))(PDS:PH die))(PTKNEG:NG nicht)(ADV:MO gar)(NP:OA(ART:NK ain)(NN:NK ende)(KLAMMER:-- /)))(KON:CD vnd)(S:CJ(VAFIN:HD het)(NP:OA(PIAT:NK vil)(NN:NK gedankchen)(KLAMMER:-- /)))(KON:CD vnd)(S:CJ(VAFIN:HD ward)(VP:OC(PPER:OA mich)(PTKVZ:SVP wünder)(VVINF:HD nemen))(CS:SBC(S:CJ(PWS:OA was)(NN:SB got)(VVPP:HD getan)(VAFIN:HD het))(KON:CD oder)(S:CJ(VP:OC(ADV:MO noch)(VVINF:HD tüen))(VMFIN:HD wolt)(PUNKT:-- /)))))
+# PTBstring_simple = (VROOT(CS(S(KON vnd)(VP(VVFIN dankt))(NP(NN got)(NP(ART dem)(ADJA almöchtigen)))(NP(PPOSAT seinen)(NN gnad)(KOMMA /)))(KON Aber)(S(NP(PPER ich))(VP(VVFIN sach))(AVP(ADV dennoch))(AVP(ADV offt))(SVP(PTKVZ vmb))(S:OC(KOUS ob)(NP(PPER vns))(NP(PIS ymant))(SVP(PTKVZ nach))(VP(VVFIN kem))(KOMMA /)))(S(NP(NP(PPOSAT mein)(NN sargt))(PDS die))(AVP(PTKNEG nicht))(AVP(ADV gar))(NP(ART ain)(NN ende)(KLAMMER /)))(KON vnd)(S(VP(VAFIN het))(NP(PIAT vil)(NN gedankchen)(KLAMMER /)))(KON vnd)(S(VP(VAFIN ward))(VP(PPER mich)(PTKVZ wünder)(VVINF nemen))(CS(S(NP(PWS was))(NP(NN got))(VP(VVPP getan))(VP(VAFIN het)))(KON oder)(S(VP(ADV noch)(VVINF tüen))(VP(VMFIN wolt))(PUNKT /))))))
+# text = vnd dankt got dem almöchtigen seinen gnad / (,) Aber ich sach dennoch offt vmb (,) ob vns ymant nach kem / (,) mein sargt die nicht gar ain ende / vnd het vil gedankchen / vnd ward mich wünder nemen (,) was got getan het (,) oder noch tüen wolt / (.)
+1	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s159_1
+2	dankt	_	_	VVFIN	+1.Sg.Prät.Ind.Sw	_	_	_	_	O	O	VVFIN	s159_2
+3	got	_	_	NN	Mask.Dat.Sg	_	_	_	_	B-NC	B-NP	NA	s159_3
+4	dem	_	_	ART	Mask.Dat.Sg	_	_	_	_	B-NC	I-NP	DARTB	s159_4
+5	almöchtigen	_	_	ADJA	Pos.Mask.Dat.Sg	_	_	_	_	I-NC	I-NP	ADJS	s159_5
+6	seinen	_	_	PPOSAT	Fem.Gen.Sg	_	_	_	_	B-NC	B-NP	DPOS	s159_6
+7	gnad	_	_	NN	Fem.Gen.Sg	_	_	_	_	I-NC	I-NP	NA	s159_7
+8	/	_	_	$,	_	_	_	_	_	O	I-NP	$(	s159_8
+9	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s159_9
+10	Aber	_	_	KON	_	_	_	_	_	O	O	KON	s159_10
+11	ich	_	_	PPER	+1.Sg.Fem.Nom	_	_	_	_	B-NC	B-NP	PPER	s159_11
+12	sach	_	_	VVFIN	+1.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s159_12
+13	dennoch	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s159_13
+14	offt	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s159_14
+15	vmb	_	_	PTKVZ	_	_	_	_	_	O	O	PTKVZ	s159_15
+16	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s159_16
+17	ob	_	_	KOUS	_	_	_	_	_	O	O	KOUS	s159_17
+18	vns	_	_	PPER	+1.Pl.Mask.Dat	_	_	_	_	B-NC	B-NP	PPER	s159_18
+19	ymant	_	_	PIS	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	PINDEF	s159_19
+20	nach	_	_	PTKVZ	_	_	_	_	_	O	O	PTKVZ	s159_20
+21	kem	_	_	VVFIN	+3.Sg.Prät.Konj.St	_	_	_	_	O	O	VVFIN	s159_21
+22	/	_	_	$,	_	_	_	_	_	O	O	$(	s159_22
+23	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s159_23
+24	mein	_	_	PPOSAT	Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	DPOS	s159_24
+25	sargt	_	_	NN	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s159_25
+26	die	_	_	PDS	Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	PDEM	s159_26
+27	nicht	_	_	PTKNEG	_	_	_	_	_	B-ADVC	B-ADVP	PTKNEG	s159_27
+28	gar	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s159_28
+29	ain	_	_	ART	Neut.Akk.Sg	_	_	_	_	B-NC	B-NP	DARTU	s159_29
+30	ende	_	_	NN	Neut.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s159_30
+31	/	_	_	$(	_	_	_	_	_	O	I-NP	$(	s159_31
+32	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s159_32
+33	het	_	_	VAFIN	+1.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s159_33
+34	vil	_	_	PIAT	*.Akk.Pl	_	_	_	_	B-NC	B-NP	DINDEF	s159_34
+35	gedankchen	_	_	NN	*.Akk.Pl	_	_	_	_	I-NC	I-NP	NA	s159_35
+36	/	_	_	$(	_	_	_	_	_	O	I-NP	$(	s159_36
+37	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s159_37
+38	ward	_	_	VAFIN	+1.Sg.Prät.Konj.St	_	_	_	_	O	O	VAFIN	s159_38
+39	mich	_	_	PPER	+1.Sg.Fem.Akk	_	_	_	_	B-NC	B-NP	PPER	s159_39
+40	wünder	_	_	PTKVZ	_	_	_	_	_	O	O	PTKVZ	s159_40
+41	nemen	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s159_41
+42	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s159_42
+43	was	_	_	PWS	Neut.Akk.Sg	_	_	_	_	B-NC	B-NP	PW	s159_43
+44	got	_	_	NN	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	NA	s159_44
+45	getan	_	_	VVPP	_	_	_	_	_	O	O	VVPP	s159_45
+46	het	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s159_46
+47	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s159_47
+48	oder	_	_	KON	_	_	_	_	_	O	O	KON	s159_48
+49	noch	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s159_49
+50	tüen	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s159_50
+51	wolt	_	_	VMFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VMFIN	s159_51
+52	/	_	_	$.	_	_	_	_	_	O	O	$(	s159_52
+53	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s159_53
+
+# sent_id = 18
+# sent_id(Tiger) = s162
+# PTBstring = (CS:--(S:CJ(ADV:MO do)(VVFIN:HD erkam)(PPER:SB ich)(ADJD:MO hart))(KON:CD vnd)(S:CJ(VVFIN:HD stuend)(ADV:MO pald)(PTKVZ:SVP auf)(PUNKT:-- .))(KON:CD vnd)(S:CJ(VVFIN:HD nam)(NP:OA(ART:NK ain)(NN:NK junkchfraun)(AP:NK(VVPP:HD genan\&1)(NP:PD(ART:NK die)(NE:NK dachpekchinn))))(PP:MO(APPR:AC mit)(PRF:NK mir)(KLAMMER:-- /)))(KON:CD vnd)(S:CJ(VVFIN:HD giengen)(PP:MO(APPR:AC zu)(ART:NK dem)(NN:NK gwelb)(PUNKT:-- /))))
+# PTBstring_simple = (VROOT(CS(S(AVP(ADV do))(VP(VVFIN erkam))(NP(PPER ich))(AP(ADJD hart)))(KON vnd)(S(VP(VVFIN stuend))(AVP(ADV pald))(SVP(PTKVZ auf))(PUNKT .))(KON vnd)(S(VP(VVFIN nam))(NP(ART ain)(NN junkchfraun)(AP(VVPP genan\&1)(NP(ART die)(NE dachpekchinn))))(PP(APPR mit)(PRF mir)(KLAMMER /)))(KON vnd)(S(VP(VVFIN giengen))(PP(APPR zu)(ART dem)(NN gwelb)(PUNKT /)))))
+# text = do erkam ich hart vnd stuend pald auf . vnd nam ain junkchfraun (,) genan\&1 die dachpekchinn (,) mit mir / vnd giengen zu dem gwelb / (.)
+1	do	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s162_1
+2	erkam	_	_	VVFIN	+1.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s162_2
+3	ich	_	_	PPER	+1.Sg.Fem.Nom	_	_	_	_	B-NC	B-NP	PPER	s162_3
+4	hart	_	_	ADJD	_	_	_	_	_	B-AC	B-AP	ADJV	s162_4
+5	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s162_5
+6	stuend	_	_	VVFIN	+1.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s162_6
+7	pald	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s162_7
+8	auf	_	_	PTKVZ	_	_	_	_	_	O	O	PTKVZ	s162_8
+9	.	_	_	$.	_	_	_	_	_	O	O	$.	s162_9
+10	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s162_10
+11	nam	_	_	VVFIN	+1.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s162_11
+12	ain	_	_	ART	Fem.Akk.Sg	_	_	_	_	B-NC	B-NP	DARTU	s162_12
+13	junkchfraun	_	_	NN	Fem.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s162_13
+14	(,)	_	_	$,	_	_	_	_	_	O	I-NP	$MK	s162_14
+15	genan\&1	_	_	VVPP	Pos.Fem.Nom.Sg	_	_	_	_	O	I-NP	VVPPN	s162_15
+16	die	_	_	ART	Fem.Nom.Sg	_	_	_	_	B-NC	I-NP	DARTB	s162_16
+17	dachpekchinn	_	_	NE	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	NE	s162_17
+18	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s162_18
+19	mit	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s162_19
+20	mir	_	_	PRF	+1.Sg.Fem.Dat	_	_	_	_	I-PC	I-PP	PRF	s162_20
+21	/	_	_	$(	_	_	_	_	_	O	I-PP	$(	s162_21
+22	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s162_22
+23	giengen	_	_	VVFIN	+1.Pl.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s162_23
+24	zu	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s162_24
+25	dem	_	_	ART	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTB	s162_25
+26	gwelb	_	_	NN	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s162_26
+27	/	_	_	$.	_	_	_	_	_	O	I-PP	$(	s162_27
+28	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s162_28
+
+# sent_id = 19
+# sent_id(Tiger) = s165
+# PTBstring = (S:--(PP:MO(ADV:UC da)(ADV:UC mit))(VVFIN:HD gieng)(PPER:SB wir)(ADV:MO wider)(PP:MO(APPR:AC an)(PPOSAT:NK vnser)(NN:NK rüe)))
+# PTBstring_simple = (VROOT(S(PP(ADV da)(ADV mit))(VP(VVFIN gieng))(NP(PPER wir))(AVP(ADV wider))(PP(APPR an)(PPOSAT vnser)(NN rüe))))
+# text = da mit gieng wir wider an vnser rüe (.)
+1	da	_	_	ADV	_	_	_	_	_	B-PC	B-PP	PAVD	s165_1
+2	mit	_	_	ADV	_	_	_	_	_	I-PC	I-PP	PAVAP	s165_2
+3	gieng	_	_	VVFIN	+1.Pl.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s165_3
+4	wir	_	_	PPER	+1.Pl.Mask.Nom	_	_	_	_	B-NC	B-NP	PPER	s165_4
+5	wider	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s165_5
+6	an	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s165_6
+7	vnser	_	_	PPOSAT	Fem.Akk.Sg	_	_	_	_	I-PC	I-PP	DPOS	s165_7
+8	rüe	_	_	NN	Fem.Akk.Sg	_	_	_	_	I-PC	I-PP	NA	s165_8
+9	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s165_9
+
+# sent_id = 20
+# sent_id(Tiger) = s172
+# PTBstring = (CS:--(S:CJ(KON:JU Aber)(NN:SB got)(VAFIN:HD was)(NP:PD(PPOSAT:NK vnser)(NN:NK helfer))(S:MO(KOUS:CP daz)(NP:SB(PIAT:NK kain)(NN:NK mensch))(PP:MO(APPR:AC vnder)(ART:NK das)(NN:NK eys))(PTKNEG:NG nicht)(VVFIN:HD kam)(KOMMA:-- /)))(KON:CD Aber)(S:CJ(NP:SB(NP:RE(PIAT:NK ander)(NN:NK ding)(KOMMA:-- .)(S:RC(PRELS:SB das)(PP:MO(APPR:AC auf)(ART:NK dem)(NN:NK wagen))(VAFIN:HD was)))(PDS:PH das))(VVFIN:HD viel)(PIAT:NK ettleichs)(PP:MO(APPR:AC in)(ART:NK das)(NN:NK wasser))(PP:MO(APPR:AC vnder)(ART:NK das)(NN:NK eys))))
+# PTBstring_simple = (VROOT(CS(S(KON Aber)(NP(NN got))(VP(VAFIN was))(NP(PPOSAT vnser)(NN helfer))(S(KOUS daz)(NP(PIAT kain)(NN mensch))(PP(APPR vnder)(ART das)(NN eys))(AVP(PTKNEG nicht))(VP(VVFIN kam))(KOMMA /)))(KON Aber)(S(NP(NP(PIAT ander)(NN ding)(KOMMA .)(S:RC(NP(PRELS das))(PP(APPR auf)(ART dem)(NN wagen))(VP(VAFIN was))))(PDS das))(VP(VVFIN viel))(PIAT ettleichs)(PP(APPR in)(ART das)(NN wasser))(PP(APPR vnder)(ART das)(NN eys)))))
+# text = Aber got was vnser helfer (,) daz kain mensch vnder das eys nicht kam / (,) Aber ander ding . (,) das auf dem wagen was (,) das viel ettleichs in das wasser vnder das eys (.)
+1	Aber	_	_	KON	_	_	_	_	_	O	O	KON	s172_1
+2	got	_	_	NN	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	NA	s172_2
+3	was	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s172_3
+4	vnser	_	_	PPOSAT	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	DPOS	s172_4
+5	helfer	_	_	NN	Mask.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s172_5
+6	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s172_6
+7	daz	_	_	KOUS	_	_	_	_	_	O	O	KOUS	s172_7
+8	kain	_	_	PIAT	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	DINDEF	s172_8
+9	mensch	_	_	NN	Mask.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s172_9
+10	vnder	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s172_10
+11	das	_	_	ART	Neut.Akk.Sg	_	_	_	_	I-PC	I-PP	DARTB	s172_11
+12	eys	_	_	NN	Neut.Akk.Sg	_	_	_	_	I-PC	I-PP	NA	s172_12
+13	nicht	_	_	PTKNEG	_	_	_	_	_	B-ADVC	B-ADVP	PTKNEG	s172_13
+14	kam	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s172_14
+15	/	_	_	$,	_	_	_	_	_	O	O	$(	s172_15
+16	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s172_16
+17	Aber	_	_	KON	_	_	_	_	_	O	O	KON	s172_17
+18	ander	_	_	PIAT	Neut.Nom.Sg	_	_	_	_	B-NC	B-NP	DINDEF	s172_18
+19	ding	_	_	NN	Neut.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s172_19
+20	.	_	_	$,	_	_	_	_	_	O	I-NP	$.	s172_20
+21	(,)	_	_	$,	_	_	_	_	_	O	I-NP	$MK	s172_21
+22	das	_	_	PRELS	Neut.Nom.Sg	_	_	_	_	B-NC	I-NP	PRELS	s172_22
+23	auf	_	_	APPR	_	_	_	_	_	B-PC	I-NP	APPR	s172_23
+24	dem	_	_	ART	Mask.Dat.Sg	_	_	_	_	I-PC	I-NP	DARTB	s172_24
+25	wagen	_	_	NN	Mask.Dat.Sg	_	_	_	_	I-PC	I-NP	NA	s172_25
+26	was	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	I-NP	VAFIN	s172_26
+27	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s172_27
+28	das	_	_	PDS	Neut.Nom.Sg	_	_	_	_	B-NC	B-NP	PDEM	s172_28
+29	viel	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s172_29
+30	ettleichs	_	_	PIAT	_	_	_	_	_	B-NC	O	DINDEF	s172_30
+31	in	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s172_31
+32	das	_	_	ART	Neut.Akk.Sg	_	_	_	_	I-PC	I-PP	DARTB	s172_32
+33	wasser	_	_	NN	Neut.Akk.Sg	_	_	_	_	I-PC	I-PP	NA	s172_33
+34	vnder	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s172_34
+35	das	_	_	ART	Neut.Akk.Sg	_	_	_	_	I-PC	I-PP	DARTB	s172_35
+36	eys	_	_	NN	Neut.Akk.Sg	_	_	_	_	I-PC	I-PP	NA	s172_36
+37	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s172_37
+
+# sent_id = 21
+# sent_id(Tiger) = s178
+# PTBstring = (CS:--(CS:CJ(S:CJ(NP:SB(ART:NK die)(PIS:NK ain))(VVFIN:HD hies)(NP:PD(ART:NK die)(NE:NK Subenlinderjnn)))(S:CJ(NP:SB(ART:NK die)(PIS:NK ander))(VVFIN:HD hies)(NP:PD(ART:NK dy)(NE:NK Zawzehin))))(KON:CD vnd)(S:CJ(VAFIN:HD heten)(VP:OC(NP:OA(CARD:NK zwo)(NN:NK amen))(PP:MO(APPR:AC mit)(PRF:NK in))(VVPP:HD bracht)(KOMMA:-- /)))(CS:CJ(S:CJ(NP:SB(ART:NK die)(PIS:NK ain))(VAFIN:HD was)(NN:PD hefam)(KOMMA:-- /))(S:CJ(NP:SB(ART:NK das)(PIS:NK ander))(VAFIN:HD was)(NP:PD(ART:NK die)(NN:NK am)(S:RC(PRELS:SB die)(VP:OC(NP:OA(ART:NK das)(NN:NK kind))(VVINF:HD nern))(VMFIN:HD solt)(PP:MO(APPR:AC mit)(ART:NK den)(NN:NK prusten)(KLAMMER:-- /))))))(KON:CD vnd)(S:CJ(NP:SB(PDAT:NK diselb)(NN:NK am))(VAFIN:HD het)(VP:OC(NP:OA(PPOSAT:NK ir)(NN:NK kind))(ADV:MO auch)(PTKVZ:SVP mit)(VVPP:HD bracht)(KOMMA:-- /)(S:RC(PRELS:SB das)(VAFIN:HD was)(ADV:MO auch)(NP:PD(ART:NK ain)(NN:NK sun)(PUNKT:-- /))))))
+# PTBstring_simple = (VROOT(CS(CS(S(NP(ART die)(PIS ain))(VP(VVFIN hies))(NP(ART die)(NE Subenlinderjnn)))(S(NP(ART die)(PIS ander))(VP(VVFIN hies))(NP(ART dy)(NE Zawzehin))))(KON vnd)(S(VP(VAFIN heten))(VP(NP(CARD zwo)(NN amen))(PP(APPR mit)(PRF in))(VVPP bracht)(KOMMA /)))(CS(S(NP(ART die)(PIS ain))(VP(VAFIN was))(NP(NN hefam))(KOMMA /))(S(NP(ART das)(PIS ander))(VP(VAFIN was))(NP(ART die)(NN am)(S:RC(NP(PRELS die))(VP(NP(ART das)(NN kind))(VVINF nern))(VP(VMFIN solt))(PP(APPR mit)(ART den)(NN prusten)(KLAMMER /))))))(KON vnd)(S(NP(PDAT diselb)(NN am))(VP(VAFIN het))(VP(NP(PPOSAT ir)(NN kind))(ADV auch)(PTKVZ mit)(VVPP bracht)(KOMMA /)(S:RC(NP(PRELS das))(VP(VAFIN was))(AVP(ADV auch))(NP(ART ain)(NN sun)(PUNKT /)))))))
+# text = die ain hies die Subenlinderjnn (,) die ander hies dy Zawzehin vnd heten zwo amen mit in bracht / (,) die ain was hefam / (,) das ander was die am (,) die das kind nern solt mit den prusten / vnd diselb am het ir kind auch mit bracht / (,) das was auch ain sun / (.)
+1	die	_	_	ART	Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTB	s178_1
+2	ain	_	_	PIS	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	PINDEF	s178_2
+3	hies	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s178_3
+4	die	_	_	ART	Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTB	s178_4
+5	Subenlinderjnn	_	_	NE	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	NE	s178_5
+6	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s178_6
+7	die	_	_	ART	Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTB	s178_7
+8	ander	_	_	PIS	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	PINDEF	s178_8
+9	hies	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s178_9
+10	dy	_	_	ART	Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTB	s178_10
+11	Zawzehin	_	_	NE	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	NE	s178_11
+12	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s178_12
+13	heten	_	_	VAFIN	+3.Pl.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s178_13
+14	zwo	_	_	CARD	_	_	_	_	_	B-NC	B-NP	CARD	s178_14
+15	amen	_	_	NN	*.Akk.Pl	_	_	_	_	I-NC	I-NP	NA	s178_15
+16	mit	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s178_16
+17	in	_	_	PRF	+3.Pl.Fem.Dat	_	_	_	_	I-PC	I-PP	PRF	s178_17
+18	bracht	_	_	VVPP	_	_	_	_	_	O	O	VVPP	s178_18
+19	/	_	_	$,	_	_	_	_	_	O	O	$(	s178_19
+20	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s178_20
+21	die	_	_	ART	Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTB	s178_21
+22	ain	_	_	PIS	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	PINDEF	s178_22
+23	was	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s178_23
+24	hefam	_	_	NN	Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	NA	s178_24
+25	/	_	_	$,	_	_	_	_	_	O	O	$(	s178_25
+26	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s178_26
+27	das	_	_	ART	Neut.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTB	s178_27
+28	ander	_	_	PIS	Neut.Nom.Sg	_	_	_	_	I-NC	I-NP	PINDEF	s178_28
+29	was	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s178_29
+30	die	_	_	ART	Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTB	s178_30
+31	am	_	_	NN	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s178_31
+32	(,)	_	_	$,	_	_	_	_	_	O	I-NP	$MK	s178_32
+33	die	_	_	PRELS	Fem.Nom.Sg	_	_	_	_	B-NC	I-NP	PRELS	s178_33
+34	das	_	_	ART	Neut.Akk.Sg	_	_	_	_	B-NC	I-NP	DARTB	s178_34
+35	kind	_	_	NN	Neut.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s178_35
+36	nern	_	_	VVINF	Unflekt	_	_	_	_	O	I-NP	VVINF	s178_36
+37	solt	_	_	VMFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	I-NP	VMFIN	s178_37
+38	mit	_	_	APPR	_	_	_	_	_	B-PC	I-NP	APPR	s178_38
+39	den	_	_	ART	*.Dat.Pl	_	_	_	_	I-PC	I-NP	DARTB	s178_39
+40	prusten	_	_	NN	*.Dat.Pl	_	_	_	_	I-PC	I-NP	NA	s178_40
+41	/	_	_	$(	_	_	_	_	_	O	I-NP	$(	s178_41
+42	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s178_42
+43	diselb	_	_	PDAT	Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	DDEM	s178_43
+44	am	_	_	NN	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s178_44
+45	het	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s178_45
+46	ir	_	_	PPOSAT	Neut.Akk.Sg	_	_	_	_	B-NC	B-NP	DPOS	s178_46
+47	kind	_	_	NN	Neut.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s178_47
+48	auch	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s178_48
+49	mit	_	_	PTKVZ	_	_	_	_	_	O	O	PTKVZ	s178_49
+50	bracht	_	_	VVPP	_	_	_	_	_	O	O	VVPP	s178_50
+51	/	_	_	$,	_	_	_	_	_	O	O	$(	s178_51
+52	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s178_52
+53	das	_	_	PRELS	Neut.Nom.Sg	_	_	_	_	B-NC	B-NP	PRELS	s178_53
+54	was	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s178_54
+55	auch	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s178_55
+56	ain	_	_	ART	Neut.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTU	s178_56
+57	sun	_	_	NN	Neut.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s178_57
+58	/	_	_	$.	_	_	_	_	_	O	I-NP	$(	s178_58
+59	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s178_59
+
+# sent_id = 22
+# sent_id(Tiger) = s184
+# PTBstring = (S:--(ADV:MO do)(VVFIN:HD sach)(NP:OA(PIAT:NK ettliche)(NN:NK warczaihen)(AS:RC(PP:MO(ADV:UC dar)(ADV:UC an))(PPER:SB ich)(VP:OC(ADV:MO wol)(VVPP:HD erkant)(S:OC(KOUS:CP daz)(PPER:SB es)(PP:MO(APPR:AC von)(ART:NK dem)(NP:NK(TRUNC:NK kind)(NN:NK gepern)))(PTKNEG:NG nicht)(ADV:PD verr)(VAFIN:HD was)(PUNKT:-- /))))))
+# PTBstring_simple = (VROOT(S(AVP(ADV do))(VP(VVFIN sach))(NP(PIAT ettliche)(NN warczaihen)(AS(PP(ADV dar)(ADV an))(PPER ich)(VP(ADV wol)(VVPP erkant)(S:OC(KOUS daz)(NP(PPER es))(PP(APPR von)(ART dem)(NP(TRUNC kind)(NN gepern)))(AVP(PTKNEG nicht))(AVP(ADV verr))(VP(VAFIN was))(PUNKT /)))))))
+# text = do sach ettliche warczaihen (,) dar an ich wol erkant (,) daz es von dem kind gepern nicht verr was / (.)
+1	do	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s184_1
+2	sach	_	_	VVFIN	+1.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s184_2
+3	ettliche	_	_	PIAT	*.Akk.Pl	_	_	_	_	B-NC	B-NP	DINDEF	s184_3
+4	warczaihen	_	_	NN	*.Akk.Pl	_	_	_	_	I-NC	I-NP	NA	s184_4
+5	(,)	_	_	$,	_	_	_	_	_	O	I-NP	$MK	s184_5
+6	dar	_	_	ADV	_	_	_	_	_	B-PC	I-NP	PAVREL	s184_6
+7	an	_	_	ADV	_	_	_	_	_	I-PC	I-NP	PAVAP	s184_7
+8	ich	_	_	PPER	+1.Sg.Fem.Nom	_	_	_	_	B-NC	I-NP	PPER	s184_8
+9	wol	_	_	ADV	_	_	_	_	_	B-ADVC	I-NP	AVD	s184_9
+10	erkant	_	_	VVPP	_	_	_	_	_	O	I-NP	VVPP	s184_10
+11	(,)	_	_	$,	_	_	_	_	_	O	I-NP	$MK	s184_11
+12	daz	_	_	KOUS	_	_	_	_	_	O	I-NP	KOUS	s184_12
+13	es	_	_	PPER	+3.Sg.Neut.Nom	_	_	_	_	B-NC	I-NP	PPER	s184_13
+14	von	_	_	APPR	_	_	_	_	_	B-PC	I-NP	APPR	s184_14
+15	dem	_	_	ART	Neut.Dat.Sg	_	_	_	_	I-PC	I-NP	DARTB	s184_15
+16	kind	_	_	TRUNC	_	_	_	_	_	B-NC	I-NP	TRUNC	s184_16
+17	gepern	_	_	NN	Neut.Dat.Sg	_	_	_	_	I-NC	I-NP	VVINFS	s184_17
+18	nicht	_	_	PTKNEG	_	_	_	_	_	B-ADVC	I-NP	PTKNEG	s184_18
+19	verr	_	_	ADV	_	_	_	_	_	B-ADVC	I-NP	AVD	s184_19
+20	was	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	I-NP	VAFIN	s184_20
+21	/	_	_	$.	_	_	_	_	_	O	I-NP	$(	s184_21
+22	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s184_22
+
+# sent_id = 23
+# sent_id(Tiger) = s190
+# PTBstring = (CS:--(S:CJ(NP:SB(NP:RE(ART:NK die)(NN:NK fraw))(PDS:PH die))(VVFIN:HD antburt)(PPER:DA mir)(PP:MO(APPR:AC aus)(ADJA:NK swerm)(NN:NK slaf)))(KON:CD vnd)(DL:CJ(S:DH(VVFIN:HD sprach)(KOMMA:-- /))(CS:RS(S:CJ(NP:VO(ADJA:NK heiliges)(NN:NK krewcz))(VMIMP:HD well)(S:OC(PPER:SB wir)(ADV:MO heint)(NP:OA(ART:NK ain)(NN:NK kynd))(VVFIN:HD gewynnen)))(S:CJ(VMIMP:HD wel)(S:OC(PPER:SB wir)(NP:CC(KOKOM:CM wem)(PPER:NK ich))(ADV:MO morgen)(PP:MO(APPR:AC gen)(NE:NK prespurgk))(VVFIN:HD farn)))))(KON:CD vnd)(S:CJ(VMFIN:HD wolt)(VP:OC(PTKNEG:NG nicht)(PTKVZ:SVP auf)(VVINF:HD sten))))
+# PTBstring_simple = (VROOT(CS(S(NP(NP(ART die)(NN fraw))(PDS die))(VP(VVFIN antburt))(NP(PPER mir))(PP(APPR aus)(ADJA swerm)(NN slaf)))(KON vnd)(DL(S(VP(VVFIN sprach))(KOMMA /))(CS(S(NP(ADJA heiliges)(NN krewcz))(VP(VMIMP well))(S:OC(NP(PPER wir))(AVP(ADV heint))(NP(ART ain)(NN kynd))(VP(VVFIN gewynnen))))(S(VP(VMIMP wel))(S:OC(NP(PPER wir))(NP(KOKOM wem)(PPER ich))(AVP(ADV morgen))(PP(APPR gen)(NE prespurgk))(VP(VVFIN farn))))))(KON vnd)(S(VP(VMFIN wolt))(VP(PTKNEG nicht)(PTKVZ auf)(VVINF sten)))))
+# text = die fraw (,) die antburt mir aus swerm slaf vnd sprach / (:) (") heiliges krewcz (,) well wir heint ain kynd gewynnen (,) wel wir wem ich morgen gen prespurgk farn (") (,) vnd wolt nicht auf sten (.)
+1	die	_	_	ART	Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTB	s190_1
+2	fraw	_	_	NN	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s190_2
+3	(,)	_	_	$,	_	_	_	_	_	O	I-NP	$MK	s190_3
+4	die	_	_	PDS	Fem.Nom.Sg	_	_	_	_	B-NC	I-NP	PDEM	s190_4
+5	antburt	_	_	VVFIN	+3.Sg.Prät.Ind.Sw	_	_	_	_	O	O	VVFIN	s190_5
+6	mir	_	_	PPER	+1.Sg.Fem.Dat	_	_	_	_	B-NC	B-NP	PPER	s190_6
+7	aus	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s190_7
+8	swerm	_	_	ADJA	Pos.Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	ADJA	s190_8
+9	slaf	_	_	NN	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s190_9
+10	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s190_10
+11	sprach	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s190_11
+12	/	_	_	$,	_	_	_	_	_	O	O	$(	s190_12
+13	(:)	_	_	$(	_	_	_	_	_	O	O	$MK	s190_13
+14	(")	_	_	$(	_	_	_	_	_	O	O	$QL	s190_14
+15	heiliges	_	_	ADJA	Pos.Neut.Nom.Sg	_	_	_	_	B-NC	B-NP	ADJA	s190_15
+16	krewcz	_	_	NN	Neut.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s190_16
+17	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s190_17
+18	well	_	_	VMIMP	Sg	_	_	_	_	O	O	VMIMP	s190_18
+19	wir	_	_	PPER	+1.Pl.Mask.Nom	_	_	_	_	B-NC	B-NP	PPER	s190_19
+20	heint	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s190_20
+21	ain	_	_	ART	Neut.Akk.Sg	_	_	_	_	B-NC	B-NP	DARTU	s190_21
+22	kynd	_	_	NN	Neut.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s190_22
+23	gewynnen	_	_	VVFIN	+1.Pl.Präs.Ind.St	_	_	_	_	O	O	VVFIN	s190_23
+24	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s190_24
+25	wel	_	_	VMIMP	Sg	_	_	_	_	O	O	VMIMP	s190_25
+26	wir	_	_	PPER	+1.Pl.Mask.Nom	_	_	_	_	B-NC	B-NP	PPER	s190_26
+27	wem	_	_	KOKOM	_	_	_	_	_	B-NC	B-NP	KOKOM	s190_27
+28	ich	_	_	PPER	+1.Sg.Fem.Nom	_	_	_	_	I-NC	I-NP	PPER	s190_28
+29	morgen	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s190_29
+30	gen	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s190_30
+31	prespurgk	_	_	NE	Neut.Akk.Sg	_	_	_	_	I-PC	I-PP	NE	s190_31
+32	farn	_	_	VVFIN	+1.Pl.Präs.Ind.St	_	_	_	_	O	O	VVFIN	s190_32
+33	(")	_	_	$,	_	_	_	_	_	O	O	$QR	s190_33
+34	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s190_34
+35	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s190_35
+36	wolt	_	_	VMFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VMFIN	s190_36
+37	nicht	_	_	PTKNEG	_	_	_	_	_	B-ADVC	B-ADVP	PTKNEG	s190_37
+38	auf	_	_	PTKVZ	_	_	_	_	_	O	O	PTKVZ	s190_38
+39	sten	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s190_39
+40	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s190_40
+
+# sent_id = 24
+# sent_id(Tiger) = s208
+# PTBstring = (CS:--(S:CJ(PDS:SB der)(VVFIN:HD kam))(KON:CD vnd)(S:CJ(NP:SB(NP:RE(ART:NK der)(NN:NK pharrer)(PP:MNR(APPR:AC von)(NE:NK Ofen))(AP:NK(VVPP:HD genan\&1)(NP:PD(NN:NK maister)(NE:APP Francz)(KOMMA:-- /))))(PDS:PH der))(VAFIN:HD was)(ADV:MO auch)(ADV:MO da)))
+# PTBstring_simple = (VROOT(CS(S(NP(PDS der))(VP(VVFIN kam)))(KON vnd)(S(NP(NP(ART der)(NN pharrer)(PP(APPR von)(NE Ofen))(AP(VVPP genan\&1)(NP(NN maister)(NE Francz)(KOMMA /))))(PDS der))(VP(VAFIN was))(AVP(ADV auch))(AVP(ADV da)))))
+# text = der kam vnd der pharrer von Ofen (,) genan\&1 maister Francz / (,) der was auch da (.)
+1	der	_	_	PDS	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	PDEM	s208_1
+2	kam	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s208_2
+3	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s208_3
+4	der	_	_	ART	Mask.Nom.Sg	_	_	_	_	B-NC	O	DARTB	s208_4
+5	pharrer	_	_	NN	Mask.Nom.Sg	_	_	_	_	I-NC	O	NA	s208_5
+6	von	_	_	APPR	_	_	_	_	_	B-PC	O	APPR	s208_6
+7	Ofen	_	_	NE	Neut.Dat.Sg	_	_	_	_	I-PC	O	NE	s208_7
+8	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s208_8
+9	genan\&1	_	_	VVPP	Pos.Mask.Nom.Sg	_	_	_	_	O	O	VVPPN	s208_9
+10	maister	_	_	NN	Mask.Nom.Sg	_	_	_	_	B-NC	O	NA	s208_10
+11	Francz	_	_	NE	Mask.Nom.Sg	_	_	_	_	B-NC	O	NE	s208_11
+12	/	_	_	$,	_	_	_	_	_	O	O	$(	s208_12
+13	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s208_13
+14	der	_	_	PDS	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	PDEM	s208_14
+15	was	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s208_15
+16	auch	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s208_16
+17	da	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s208_17
+18	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s208_18
+
+# sent_id = 25
+# sent_id(Tiger) = s216
+# PTBstring = (CS:--(S:CJ(AVP:MO(S:RE(KOUS:CP da)(ADV:MO nü)(NP:SB(PDS:NK das)(PIAT:NK alles))(VAFIN:HD was)(VVPP:HD geschehen))(ADV:PH do))(VVFIN:HD sant)(PIS:SB man)(NN:OA poten)(PTKVZ:SVP aws)(PP:MO(APPR:AC in)(PIAT:NK manige)(NN:NK lant)))(KON:CD vnd)(S:CJ(VVFIN:HD tet)(VP:OC(PDS:PH das)(VZ:HD(PTKZU:PM zu)(VVINF:HD wissen)(KOMMA:-- /))(S:RE(KOUS:CP daz)(NP:SB(NN:NK got)(NP:APP(ART:NK der)(ADJA:NK almöchtig)))(VP:OC(CNP:DA(NN:CJ lanten)(KON:CD vnd)(NN:CJ lewten))(NP:OA(ART:NK ainen)(CNP:NK(NN:CJ kung)(KON:CD vnd)(NN:CJ erbherren)))(VVPP:HD gegeben))(VAFIN:HD het)(KOMMA:-- /))))(S:CJ(PDS:OG der)(VAFIN:HD was)(NP:SB(ART:NK der)(ADJA:NK maist)(NN:NK tail)(PP:MNR(APPR:AC in)(ART:NK den)(NN:NK landen)))(AP:PD(ADJD:HD fro)(PUNKT:-- /))))
+# PTBstring_simple = (VROOT(CS(S(AVP(S(KOUS da)(AVP(ADV nü))(NP(PDS das)(PIAT alles))(VP(VAFIN was))(VP(VVPP geschehen)))(ADV do))(VP(VVFIN sant))(NP(PIS man))(NP(NN poten))(SVP(PTKVZ aws))(PP(APPR in)(PIAT manige)(NN lant)))(KON vnd)(S(VP(VVFIN tet))(VP(PDS das)(VZ(PTKZU zu)(VVINF wissen)(KOMMA /))(S(KOUS daz)(NP(NN got)(NP(ART der)(ADJA almöchtig)))(VP(CNP(NN lanten)(KON vnd)(NN lewten))(NP(ART ainen)(CNP(NN kung)(KON vnd)(NN erbherren)))(VVPP gegeben))(VP(VAFIN het))(KOMMA /))))(S(NP(PDS der))(VP(VAFIN was))(NP(ART der)(ADJA maist)(NN tail)(PP(APPR in)(ART den)(NN landen)))(AP(ADJD fro)(PUNKT /)))))
+# text = da nü das alles was geschehen (,) do sant man poten aws in manige lant vnd tet das zu wissen / (,) daz got der almöchtig lanten vnd lewten ainen kung vnd erbherren gegeben het / (,) der was der maist tail in den landen fro / (.)
+1	da	_	_	KOUS	_	_	_	_	_	O	B-ADVP	KOUS	s216_1
+2	nü	_	_	ADV	_	_	_	_	_	B-ADVC	I-ADVP	AVD	s216_2
+3	das	_	_	PDS	Neut.Nom.Sg	_	_	_	_	B-NC	I-ADVP	PDEM	s216_3
+4	alles	_	_	PIAT	Neut.Nom.Sg	_	_	_	_	I-NC	I-ADVP	DINDEF	s216_4
+5	was	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	I-ADVP	VAFIN	s216_5
+6	geschehen	_	_	VVPP	_	_	_	_	_	O	I-ADVP	VVPP	s216_6
+7	(,)	_	_	$,	_	_	_	_	_	O	I-ADVP	$MK	s216_7
+8	do	_	_	ADV	_	_	_	_	_	B-ADVC	I-ADVP	AVD	s216_8
+9	sant	_	_	VVFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VVFIN	s216_9
+10	man	_	_	PIS	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	PINDEF	s216_10
+11	poten	_	_	NN	*.Akk.Pl	_	_	_	_	B-NC	B-NP	NA	s216_11
+12	aws	_	_	PTKVZ	_	_	_	_	_	O	O	PTKVZ	s216_12
+13	in	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s216_13
+14	manige	_	_	PIAT	Pos.Neut.Akk.Sg	_	_	_	_	I-PC	I-PP	DINDEF	s216_14
+15	lant	_	_	NN	Neut.Akk.Sg	_	_	_	_	I-PC	I-PP	NA	s216_15
+16	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s216_16
+17	tet	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s216_17
+18	das	_	_	PDS	Neut.Akk.Sg	_	_	_	_	B-NC	B-NP	PDEM	s216_18
+19	zu	_	_	PTKZU	_	_	_	_	_	O	O	PTKZU	s216_19
+20	wissen	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s216_20
+21	/	_	_	$,	_	_	_	_	_	O	O	$(	s216_21
+22	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s216_22
+23	daz	_	_	KOUS	_	_	_	_	_	O	O	KOUS	s216_23
+24	got	_	_	NN	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	NA	s216_24
+25	der	_	_	ART	Mask.Nom.Sg	_	_	_	_	B-NC	I-NP	DARTB	s216_25
+26	almöchtig	_	_	ADJA	Pos.Mask.Nom.Sg	_	_	_	_	I-NC	I-NP	ADJS	s216_26
+27	lanten	_	_	NN	*.Dat.Pl	_	_	_	_	I-NC	B-NP	NA	s216_27
+28	vnd	_	_	KON	_	_	_	_	_	O	I-NP	KON	s216_28
+29	lewten	_	_	NN	*.Dat.Pl	_	_	_	_	B-NC	I-NP	NA	s216_29
+30	ainen	_	_	ART	Mask.Akk.Sg	_	_	_	_	B-NC	B-NP	DARTU	s216_30
+31	kung	_	_	NN	Mask.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s216_31
+32	vnd	_	_	KON	_	_	_	_	_	O	I-NP	KON	s216_32
+33	erbherren	_	_	NN	Mask.Akk.Sg	_	_	_	_	B-NC	I-NP	NA	s216_33
+34	gegeben	_	_	VVPP	_	_	_	_	_	O	O	VVPP	s216_34
+35	het	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s216_35
+36	/	_	_	$,	_	_	_	_	_	O	O	$(	s216_36
+37	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s216_37
+38	der	_	_	PDS	Fem.Gen.Sg	_	_	_	_	B-NC	B-NP	PDEM	s216_38
+39	was	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s216_39
+40	der	_	_	ART	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTB	s216_40
+41	maist	_	_	ADJA	Sup.Mask.Nom.Sg	_	_	_	_	I-NC	I-NP	ADJA	s216_41
+42	tail	_	_	NN	Mask.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s216_42
+43	in	_	_	APPR	_	_	_	_	_	B-PC	I-NP	APPR	s216_43
+44	den	_	_	ART	*.Dat.Pl	_	_	_	_	I-PC	I-NP	DARTB	s216_44
+45	landen	_	_	NN	*.Dat.Pl	_	_	_	_	I-PC	I-NP	NA	s216_45
+46	fro	_	_	ADJD	Pos.Mask.Nom.Sg	_	_	_	_	B-AC	B-AP	ADJD	s216_46
+47	/	_	_	$.	_	_	_	_	_	O	I-AP	$(	s216_47
+48	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s216_48
+
+# sent_id = 26
+# sent_id(Tiger) = s227
+# PTBstring = (CS:--(S:CJ(ADV:MO da)(VVFIN:HD zach)(NP:SB(ART:NK der)(ADJA:NK grasz)(NN:NK graf))(PP:MO(APPR:AC mit)(NN:NK frawn)(ADV:MO mitsambt))(ADV:MO wider)(PP:MO(APPR:AC gen)(NE:NK ofen)))(KON:CD vnd)(CS:CJ(S:CJ(NP:SB(ART:NK die)(ADJA:NK edel)(NN:NK kungjnn))(VAFIN:HD was)(AP:PD(AP:HD(TRUNC:UC vmb)(ADJD:UC geben))(PP:MO(APPR:AC mit)(PIAT:NK vil)(NN:NK sorgen))))(KON:CD Wann)(S:CJ(PPER:PH es)(VVFIN:HD kom)(NP:SB(PIAT:NK vil)(NN:NK warnung)(S:OC(PWAV:MO wie)(PIS:SB man)(NP:DA(ART:NK dem)(ADJA:NK jungen)(NN:NK kung))(PTKVZ:SVP nach)(VVFIN:HD stelliet)(PP:MO(APPR:AC auf)(PPOSAT:NK sein)(NN:NK leben)(KLAMMER:-- /))))))(KON:CD vnd)(S:CJ(VVFIN:HD getorsten)(VP:OC(PIS:DA nymant)(VVINF:MO vertrawn)))(KON:CD vnd)(S:CJ(PPER:SB ich)(VMFIN:HD müest)(VP:OC(CAVP:MO(ADV:JU swerlich)(KON:CD vnd)(ADV:CJ herttiklich))(VVINF:HD dienn)(CNP:DA(NP:CJ(PPOSAT:NK meiner)(ADJA:NK gnedigen)(NN:NK frawn))(KON:CD vnd)(NP:CJ(ADV:MO auch)(PPOSAT:NK irn)(NN:NK kindern))(KON:CD vnd)(PIS:CJ all))))(S:CJ(S:MO(CCP:CP(KOUS:CJ die)(KOUS:CJ weil))(NP:SB(PPOSAT:NK ir)(NN:NK gnad))(PP:MO(APPR:AC in)(ART:NK den)(NN:NK kindelpetten))(VVFIN:HD lag))(VVFIN:HD kam)(PPER:SB ich)(ADV:MO ny)(PP:MO(APPR:AC aus)(PPOSAT:NK meinen)(NN:NK gebant))(CNP:MO(KON:CD weder)(NN:CJ tag)(KON:CD noch)(NN:CJ nacht))))
+# PTBstring_simple = (VROOT(CS(S(AVP(ADV da))(VP(VVFIN zach))(NP(ART der)(ADJA grasz)(NN graf))(PP(APPR mit)(NN frawn)(ADV mitsambt))(AVP(ADV wider))(PP(APPR gen)(NE ofen)))(KON vnd)(CS(S(NP(ART die)(ADJA edel)(NN kungjnn))(VP(VAFIN was))(AP(AP(TRUNC vmb)(ADJD geben))(PP(APPR mit)(PIAT vil)(NN sorgen))))(KON Wann)(S(NP(PPER es))(VP(VVFIN kom))(NP(PIAT vil)(NN warnung)(S:OC(PWAV wie)(NP(PIS man))(NP(ART dem)(ADJA jungen)(NN kung))(SVP(PTKVZ nach))(VP(VVFIN stelliet))(PP(APPR auf)(PPOSAT sein)(NN leben)(KLAMMER /))))))(KON vnd)(S(VP(VVFIN getorsten))(VP(PIS nymant)(VVINF vertrawn)))(KON vnd)(S(NP(PPER ich))(VP(VMFIN müest))(VP(CAVP(ADV swerlich)(KON vnd)(ADV herttiklich))(VVINF dienn)(CNP(NP(PPOSAT meiner)(ADJA gnedigen)(NN frawn))(KON vnd)(NP(ADV auch)(PPOSAT irn)(NN kindern))(KON vnd)(PIS all))))(S(S(CCP(KOUS die)(KOUS weil))(NP(PPOSAT ir)(NN gnad))(PP(APPR in)(ART den)(NN kindelpetten))(VP(VVFIN lag)))(VP(VVFIN kam))(NP(PPER ich))(AVP(ADV ny))(PP(APPR aus)(PPOSAT meinen)(NN gebant))(CNP(KON weder)(NN tag)(KON noch)(NN nacht)))))
+# text = da zach der grasz graf mit frawn mitsambt wider gen ofen vnd die edel kungjnn was vmb geben mit vil sorgen (,) Wann es kom vil warnung (,) wie man dem jungen kung nach stelliet auf sein leben / vnd getorsten nymant vertrawn vnd ich müest swerlich vnd herttiklich dienn meiner gnedigen frawn vnd auch irn kindern vnd all die weil ir gnad in den kindelpetten lag (,) kam ich ny aus meinen gebant (,) weder tag noch nacht (.)
+1	da	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s227_1
+2	zach	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s227_2
+3	der	_	_	ART	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTB	s227_3
+4	grasz	_	_	ADJA	Pos.Mask.Nom.Sg	_	_	_	_	I-NC	I-NP	ADJA	s227_4
+5	graf	_	_	NN	Mask.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s227_5
+6	mit	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s227_6
+7	frawn	_	_	NN	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s227_7
+8	mitsambt	_	_	ADV	_	_	_	_	_	I-PC	I-PP	AVD	s227_8
+9	wider	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s227_9
+10	gen	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s227_10
+11	ofen	_	_	NE	Neut.Akk.Sg	_	_	_	_	I-PC	I-PP	NE	s227_11
+12	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s227_12
+13	die	_	_	ART	Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTB	s227_13
+14	edel	_	_	ADJA	Pos.Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	ADJA	s227_14
+15	kungjnn	_	_	NN	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s227_15
+16	was	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s227_16
+17	vmb	_	_	TRUNC	_	_	_	_	_	B-AC	B-AP	TRUNC	s227_17
+18	geben	_	_	ADJD	Pos.Fem.Nom.Sg	_	_	_	_	I-AC	I-AP	VVPPD	s227_18
+19	mit	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s227_19
+20	vil	_	_	PIAT	*.Dat.Pl	_	_	_	_	I-PC	I-PP	DINDEF	s227_20
+21	sorgen	_	_	NN	*.Dat.Pl	_	_	_	_	I-PC	I-PP	NA	s227_21
+22	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s227_22
+23	Wann	_	_	KON	_	_	_	_	_	O	O	KON	s227_23
+24	es	_	_	PPER	+3.Sg.Neut.Nom	_	_	_	_	B-NC	B-NP	PPER	s227_24
+25	kom	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s227_25
+26	vil	_	_	PIAT	Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	DINDEF	s227_26
+27	warnung	_	_	NN	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s227_27
+28	(,)	_	_	$,	_	_	_	_	_	O	I-NP	$MK	s227_28
+29	wie	_	_	PWAV	_	_	_	_	_	O	I-NP	AVW	s227_29
+30	man	_	_	PIS	Mask.Nom.Sg	_	_	_	_	B-NC	I-NP	PINDEF	s227_30
+31	dem	_	_	ART	Mask.Dat.Sg	_	_	_	_	B-NC	I-NP	DARTB	s227_31
+32	jungen	_	_	ADJA	Pos.Mask.Dat.Sg	_	_	_	_	I-NC	I-NP	ADJA	s227_32
+33	kung	_	_	NN	Mask.Dat.Sg	_	_	_	_	I-NC	I-NP	NA	s227_33
+34	nach	_	_	PTKVZ	_	_	_	_	_	O	I-NP	PTKVZ	s227_34
+35	stelliet	_	_	VVFIN	+3.Sg.Präs.Ind.Sw	_	_	_	_	O	I-NP	VVFIN	s227_35
+36	auf	_	_	APPR	_	_	_	_	_	B-PC	I-NP	APPR	s227_36
+37	sein	_	_	PPOSAT	Neut.Akk.Sg	_	_	_	_	I-PC	I-NP	DPOS	s227_37
+38	leben	_	_	NN	Neut.Akk.Sg	_	_	_	_	I-PC	I-NP	NA	s227_38
+39	/	_	_	$(	_	_	_	_	_	O	I-NP	$(	s227_39
+40	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s227_40
+41	getorsten	_	_	VVFIN	_	_	_	_	_	O	O	VVFIN	s227_41
+42	nymant	_	_	PIS	Mask.Dat.Sg	_	_	_	_	B-NC	B-NP	PINDEF	s227_42
+43	vertrawn	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s227_43
+44	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s227_44
+45	ich	_	_	PPER	+1.Sg.Fem.Nom	_	_	_	_	B-NC	B-NP	PPER	s227_45
+46	müest	_	_	VMFIN	+1.Sg.Prät.Konj.Unr	_	_	_	_	O	O	VMFIN	s227_46
+47	swerlich	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s227_47
+48	vnd	_	_	KON	_	_	_	_	_	I-ADVC	I-ADVP	KON	s227_48
+49	herttiklich	_	_	ADV	_	_	_	_	_	I-ADVC	I-ADVP	AVD	s227_49
+50	dienn	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s227_50
+51	meiner	_	_	PPOSAT	Fem.Dat.Sg	_	_	_	_	B-NC	B-NP	DPOS	s227_51
+52	gnedigen	_	_	ADJA	Pos.Fem.Dat.Sg	_	_	_	_	I-NC	I-NP	ADJA	s227_52
+53	frawn	_	_	NN	Fem.Dat.Sg	_	_	_	_	I-NC	I-NP	NA	s227_53
+54	vnd	_	_	KON	_	_	_	_	_	O	I-NP	KON	s227_54
+55	auch	_	_	ADV	_	_	_	_	_	B-NC	I-NP	AVD	s227_55
+56	irn	_	_	PPOSAT	*.Dat.Pl	_	_	_	_	I-NC	I-NP	DPOS	s227_56
+57	kindern	_	_	NN	*.Dat.Pl	_	_	_	_	I-NC	I-NP	NA	s227_57
+58	vnd	_	_	KON	_	_	_	_	_	O	I-NP	KON	s227_58
+59	all	_	_	PIS	*.Dat.Pl	_	_	_	_	B-NC	I-NP	PINDEF	s227_59
+60	die	_	_	KOUS	_	_	_	_	_	O	O	KOUS	s227_60
+61	weil	_	_	KOUS	_	_	_	_	_	O	O	KOUS	s227_61
+62	ir	_	_	PPOSAT	Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	DPOS	s227_62
+63	gnad	_	_	NN	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s227_63
+64	in	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s227_64
+65	den	_	_	ART	*.Dat.Pl	_	_	_	_	I-PC	I-PP	DARTB	s227_65
+66	kindelpetten	_	_	NN	*.Dat.Pl	_	_	_	_	I-PC	I-PP	NA	s227_66
+67	lag	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s227_67
+68	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s227_68
+69	kam	_	_	VVFIN	+1.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s227_69
+70	ich	_	_	PPER	+1.Sg.Fem.Nom	_	_	_	_	B-NC	B-NP	PPER	s227_70
+71	ny	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVNEG	s227_71
+72	aus	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s227_72
+73	meinen	_	_	PPOSAT	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	DPOS	s227_73
+74	gebant	_	_	NN	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s227_74
+75	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s227_75
+76	weder	_	_	KON	_	_	_	_	_	O	B-NP	KON	s227_76
+77	tag	_	_	NN	Mask.Akk.Sg	_	_	_	_	B-NC	I-NP	NA	s227_77
+78	noch	_	_	KON	_	_	_	_	_	O	I-NP	KON	s227_78
+79	nacht	_	_	NN	Fem.Akk.Sg	_	_	_	_	B-NC	I-NP	NA	s227_79
+80	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s227_80
+
+# sent_id = 27
+# sent_id(Tiger) = s248
+# PTBstring = (CS:--(S:CJ(KON:JU vnd)(VVFIN:HD rait)(PIS:SB ainer)(PP:MO(APPR:AC von)(NE:NK Ofen))(PP:MO(APPR:AC mit)(CARD:NK vier)(NN:NK pherden)))(S:CJ(PDS:SB das)(VAFIN:HD was)(PN:PD(NE:PNC vrsami)(NE:PNC jenusch)))(S:CJ(PDS:SB der)(VVFIN:HD kam)(ADV:MO auch)(PP:MO(APPR:AC in)(ART:NK das)(NN:NK haws))(PP:MO(APPR:AC zu)(ART:NK den)(NN:NK herren))))
+# PTBstring_simple = (VROOT(CS(S(KON vnd)(VP(VVFIN rait))(NP(PIS ainer))(PP(APPR von)(NE Ofen))(PP(APPR mit)(CARD vier)(NN pherden)))(S(NP(PDS das))(VP(VAFIN was))(PN(NE vrsami)(NE jenusch)))(S(NP(PDS der))(VP(VVFIN kam))(AVP(ADV auch))(PP(APPR in)(ART das)(NN haws))(PP(APPR zu)(ART den)(NN herren)))))
+# text = vnd rait ainer von Ofen mit vier pherden (,) das was vrsami jenusch (,) der kam auch in das haws zu den herren (.)
+1	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s248_1
+2	rait	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s248_2
+3	ainer	_	_	PIS	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	PINDEF	s248_3
+4	von	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s248_4
+5	Ofen	_	_	NE	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	NE	s248_5
+6	mit	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s248_6
+7	vier	_	_	CARD	_	_	_	_	_	I-PC	I-PP	CARD	s248_7
+8	pherden	_	_	NN	*.Dat.Pl	_	_	_	_	I-PC	I-PP	NA	s248_8
+9	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s248_9
+10	das	_	_	PDS	Neut.Nom.Sg	_	_	_	_	B-NC	B-NP	PDEM	s248_10
+11	was	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s248_11
+12	vrsami	_	_	NE	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	NE	s248_12
+13	jenusch	_	_	NE	Mask.Nom.Sg	_	_	_	_	I-NC	I-NP	NE	s248_13
+14	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s248_14
+15	der	_	_	PDS	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	PDEM	s248_15
+16	kam	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s248_16
+17	auch	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s248_17
+18	in	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s248_18
+19	das	_	_	ART	Neut.Akk.Sg	_	_	_	_	I-PC	I-PP	DARTB	s248_19
+20	haws	_	_	NN	Neut.Akk.Sg	_	_	_	_	I-PC	I-PP	NA	s248_20
+21	zu	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s248_21
+22	den	_	_	ART	*.Dat.Pl	_	_	_	_	I-PC	I-PP	DARTB	s248_22
+23	herren	_	_	NN	*.Dat.Pl	_	_	_	_	I-PC	I-PP	NA	s248_23
+24	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s248_24
+
+# sent_id = 28
+# sent_id(Tiger) = s263
+# PTBstring = (S:--(ADV:MO Nü)(VVIMP:HD merkcht)(S:OC(AP:PD(PWAV:MO wie)(ADJD:HD vnmüessig))(VAFIN:HD was)(NP:SB(ART:NK der)(NN:NK tewfl))(CPP:MO(PP:CJ(APPR:AC in)(ART:NK dem)(ADJA:NK ersten)(NN:NK anfankch))(KON:CD vnd)(PP:CJ(APPR:AC gegen)(ART:NK dem)(NN:NK ennd)(PUNKT:-- /)))))
+# PTBstring_simple = (VROOT(S(AVP(ADV Nü))(VP(VVIMP merkcht))(S:OC(AP(PWAV wie)(ADJD vnmüessig))(VP(VAFIN was))(NP(ART der)(NN tewfl))(CPP(PP(APPR in)(ART dem)(ADJA ersten)(NN anfankch))(KON vnd)(PP(APPR gegen)(ART dem)(NN ennd)(PUNKT /))))))
+# text = Nü merkcht (,) wie vnmüessig was der tewfl in dem ersten anfankch vnd gegen dem ennd / (.)
+1	Nü	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s263_1
+2	merkcht	_	_	VVIMP	Pl	_	_	_	_	O	O	VVIMP	s263_2
+3	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s263_3
+4	wie	_	_	PWAV	_	_	_	_	_	B-AC	O	AVW	s263_4
+5	vnmüessig	_	_	ADJD	Pos.Mask.Nom.Sg	_	_	_	_	I-AC	B-AP	ADJD	s263_5
+6	was	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s263_6
+7	der	_	_	ART	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTB	s263_7
+8	tewfl	_	_	NN	Mask.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s263_8
+9	in	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s263_9
+10	dem	_	_	ART	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTB	s263_10
+11	ersten	_	_	ADJA	Pos.Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	ADJA	s263_11
+12	anfankch	_	_	NN	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s263_12
+13	vnd	_	_	KON	_	_	_	_	_	O	I-PP	KON	s263_13
+14	gegen	_	_	APPR	_	_	_	_	_	B-PC	I-PP	APPR	s263_14
+15	dem	_	_	ART	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTB	s263_15
+16	ennd	_	_	NN	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s263_16
+17	/	_	_	$.	_	_	_	_	_	O	I-PP	$(	s263_17
+18	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s263_18
+
+# sent_id = 29
+# sent_id(Tiger) = s265
+# PTBstring = (CS:--(S:CJ(AVP:MO(PP:RE(AP:MO(PTKNEG:NG Nicht)(ADJD:HD lang))(PAV:AC darnach))(ADV:PH do))(VVFIN:HD kom)(NP:SB(ART:NK ain)(ADJA:NK gewisse)(NN:NK potschaft))(CS:MO(S:CJ(NP:SB(NP:RE(ART:NK der)(NN:NK kung)(PP:MNR(APPR:AC von)(NN:NK polan)))(PDS:PH der))(VVFIN:HD zug)(PAV:MO daher))(KON:CD vnd)(S:CJ(VAFIN:HD hiet)(VP:OC(VMINF:HD willen)(PP:MO(APPR:AC gen)(NE:NK ofen)))(S:MO(KOKOM:CM als)(PPER:SB es)(ADV:MO dann)(VVFIN:HD geschach)(KLAMMER:-- /)))))(KON:CD vnd)(S:CJ(VMFIN:HD müsten)(VP:OC(PRF:OA vns)(CAP:MO(ADJD:CJ haimlich)(KON:CD vnd)(ADJD:CJ eylund))(PTKVZ:SVP zu)(VVINF:HD richten)(PP:OP(APPR:AC zu)(ART:NK der)(NN:NK krönung)(KOMMA:-- /))))(S:CJ(ADV:MO da)(VVFIN:HD sandt)(NP:SB(NP:GL(PPOSAT:NK meiner)(NN:NK fraun))(NN:NK gnad))(PP:MO(APPR:AC gen)(NE:NK ofen))(VP:MO(KOUS:CP vmb)(NP:OA(ART:NK ain)(ADJA:NK guldein)(NN:NK tuech))(NP:DA(ART:NK dem)(NN:NK kung)(NE:APP lassla))(PP:MO(APPR:AC zu)(ART:NK dem)(NN:NK gebant)(KOMMA:-- /)(S:RC(PRELS:SB das)(PP:OP(APPR:AC zu)(ART:NK der)(NN:NK krönung))(VVFIN:HD gehorat)))))(S:CJ(ADV:MO da)(VAFIN:HD was)(NP:SB(ART:NK die)(NN:NK potschaft))(AP:PD(PTKA:PM zu)(ADJD:HD lang)))(KON:CD vnd)(CS:CJ(S:CJ(VAFIN:HD heten)(NP:OA(NN:NK sorg)(S:OC(PPER:SB es)(VAFIN:HD wurd)(VP:OC(PRF:OA sich)(AP:MO(PTKA:PM zu)(ADJD:HD lang))(VVINF:HD vercziehen)(KOMMA:-- /)))))(KON:CD wann)(S:CJ(NP:SB(ART:NK die)(NN:NK krönung))(VMFIN:HD muest)(VP:OC(PP:MO(APPR:AC an)(ART:NK ainen)(ADJA:NK hochczeitleichem)(NN:NK tag))(VVINF:HD geschehen)(PUNKT:-- /)))))
+# PTBstring_simple = (VROOT(CS(S(AVP(PP(AP(PTKNEG Nicht)(ADJD lang))(PAV darnach))(ADV do))(VP(VVFIN kom))(NP(ART ain)(ADJA gewisse)(NN potschaft))(CS(S(NP(NP(ART der)(NN kung)(PP(APPR von)(NN polan)))(PDS der))(VP(VVFIN zug))(PP(PAV daher)))(KON vnd)(S(VP(VAFIN hiet))(VP(VMINF willen)(PP(APPR gen)(NE ofen)))(S(KOKOM als)(NP(PPER es))(AVP(ADV dann))(VP(VVFIN geschach))(KLAMMER /)))))(KON vnd)(S(VP(VMFIN müsten))(VP(PRF vns)(CAP(ADJD haimlich)(KON vnd)(ADJD eylund))(PTKVZ zu)(VVINF richten)(PP(APPR zu)(ART der)(NN krönung)(KOMMA /))))(S(AVP(ADV da))(VP(VVFIN sandt))(NP(NP(PPOSAT meiner)(NN fraun))(NN gnad))(PP(APPR gen)(NE ofen))(VP(KOUS vmb)(NP(ART ain)(ADJA guldein)(NN tuech))(NP(ART dem)(NN kung)(NE lassla))(PP(APPR zu)(ART dem)(NN gebant)(KOMMA /)(S:RC(NP(PRELS das))(PP(APPR zu)(ART der)(NN krönung))(VP(VVFIN gehorat))))))(S(AVP(ADV da))(VP(VAFIN was))(NP(ART die)(NN potschaft))(AP(PTKA zu)(ADJD lang)))(KON vnd)(CS(S(VP(VAFIN heten))(NP(NN sorg)(S:OC(NP(PPER es))(VP(VAFIN wurd))(VP(PRF sich)(AP(PTKA zu)(ADJD lang))(VVINF vercziehen)(KOMMA /)))))(KON wann)(S(NP(ART die)(NN krönung))(VP(VMFIN muest))(VP(PP(APPR an)(ART ainen)(ADJA hochczeitleichem)(NN tag))(VVINF geschehen)(PUNKT /))))))
+# text = Nicht lang darnach do kom ain gewisse potschaft (,) der kung von polan (,) der zug daher vnd hiet willen gen ofen (,) als es dann geschach / vnd müsten vns haimlich vnd eylund zu richten zu der krönung / (,) da sandt meiner fraun gnad gen ofen vmb ain guldein tuech dem kung lassla zu dem gebant / (,) das zu der krönung gehorat (,) da was die potschaft zu lang vnd heten sorg (,) es wurd sich zu lang vercziehen / (,) wann die krönung muest an ainen hochczeitleichem tag geschehen / (.)
+1	Nicht	_	_	PTKNEG	_	_	_	_	_	B-PC	B-ADVP	PTKNEG	s265_1
+2	lang	_	_	ADJD	_	_	_	_	_	I-PC	I-ADVP	ADJV	s265_2
+3	darnach	_	_	PAV	_	_	_	_	_	I-PC	I-ADVP	PAVDAP	s265_3
+4	do	_	_	ADV	_	_	_	_	_	B-ADVC	I-ADVP	AVD	s265_4
+5	kom	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s265_5
+6	ain	_	_	ART	Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTU	s265_6
+7	gewisse	_	_	ADJA	Pos.Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	ADJA	s265_7
+8	potschaft	_	_	NN	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s265_8
+9	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s265_9
+10	der	_	_	ART	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTB	s265_10
+11	kung	_	_	NN	Mask.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s265_11
+12	von	_	_	APPR	_	_	_	_	_	B-PC	I-NP	APPR	s265_12
+13	polan	_	_	NN	Neut.Dat.Sg	_	_	_	_	I-PC	I-NP	NA	s265_13
+14	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s265_14
+15	der	_	_	PDS	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	PDEM	s265_15
+16	zug	_	_	VVFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VVFIN	s265_16
+17	daher	_	_	PAV	_	_	_	_	_	B-PC	B-PP	PAVDAP	s265_17
+18	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s265_18
+19	hiet	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s265_19
+20	willen	_	_	VMINF	Unflekt	_	_	_	_	O	O	VMINF	s265_20
+21	gen	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s265_21
+22	ofen	_	_	NE	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	NE	s265_22
+23	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s265_23
+24	als	_	_	KOKOM	_	_	_	_	_	O	O	KOKOM	s265_24
+25	es	_	_	PPER	+3.Sg.Neut.Nom	_	_	_	_	B-NC	B-NP	PPER	s265_25
+26	dann	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s265_26
+27	geschach	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s265_27
+28	/	_	_	$(	_	_	_	_	_	O	O	$(	s265_28
+29	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s265_29
+30	müsten	_	_	VMFIN	+1.Pl.Prät.Ind.Unr	_	_	_	_	O	O	VMFIN	s265_30
+31	vns	_	_	PRF	+1.Pl.Akk	_	_	_	_	B-NC	B-NP	PRF	s265_31
+32	haimlich	_	_	ADJD	_	_	_	_	_	B-AC	B-AP	ADJV	s265_32
+33	vnd	_	_	KON	_	_	_	_	_	O	I-AP	KON	s265_33
+34	eylund	_	_	ADJD	Pos.*.Nom.Pl	_	_	_	_	B-AC	I-AP	VVPSD	s265_34
+35	zu	_	_	PTKVZ	_	_	_	_	_	O	O	PTKVZ	s265_35
+36	richten	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s265_36
+37	zu	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s265_37
+38	der	_	_	ART	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTB	s265_38
+39	krönung	_	_	NN	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s265_39
+40	/	_	_	$,	_	_	_	_	_	O	I-PP	$(	s265_40
+41	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s265_41
+42	da	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s265_42
+43	sandt	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s265_43
+44	meiner	_	_	PPOSAT	Fem.Gen.Sg	_	_	_	_	B-NC	B-NP	DPOS	s265_44
+45	fraun	_	_	NN	Fem.Gen.Sg	_	_	_	_	I-NC	I-NP	NA	s265_45
+46	gnad	_	_	NN	Fem.Nom.Sg	_	_	_	_	B-NC	I-NP	NA	s265_46
+47	gen	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s265_47
+48	ofen	_	_	NE	Neut.Akk.Sg	_	_	_	_	I-PC	I-PP	NE	s265_48
+49	vmb	_	_	KOUS	_	_	_	_	_	O	O	KOUS	s265_49
+50	ain	_	_	ART	Neut.Akk.Sg	_	_	_	_	B-NC	B-NP	DARTU	s265_50
+51	guldein	_	_	ADJA	Pos.Neut.Akk.Sg	_	_	_	_	I-NC	I-NP	ADJA	s265_51
+52	tuech	_	_	NN	Neut.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s265_52
+53	dem	_	_	ART	Mask.Dat.Sg	_	_	_	_	B-NC	B-NP	DARTB	s265_53
+54	kung	_	_	NN	Mask.Dat.Sg	_	_	_	_	I-NC	I-NP	NA	s265_54
+55	lassla	_	_	NE	Mask.Dat.Sg	_	_	_	_	B-NC	I-NP	NE	s265_55
+56	zu	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s265_56
+57	dem	_	_	ART	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTB	s265_57
+58	gebant	_	_	NN	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s265_58
+59	/	_	_	$,	_	_	_	_	_	O	I-PP	$(	s265_59
+60	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s265_60
+61	das	_	_	PRELS	Neut.Nom.Sg	_	_	_	_	B-NC	B-NP	PRELS	s265_61
+62	zu	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s265_62
+63	der	_	_	ART	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTB	s265_63
+64	krönung	_	_	NN	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s265_64
+65	gehorat	_	_	VVFIN	+3.Sg.Prät.Ind.Sw	_	_	_	_	O	O	VVFIN	s265_65
+66	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s265_66
+67	da	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s265_67
+68	was	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s265_68
+69	die	_	_	ART	Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTB	s265_69
+70	potschaft	_	_	NN	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s265_70
+71	zu	_	_	PTKA	_	_	_	_	_	B-AC	B-AP	PTKA	s265_71
+72	lang	_	_	ADJD	Pos.Fem.Nom.Sg	_	_	_	_	I-AC	I-AP	ADJD	s265_72
+73	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s265_73
+74	heten	_	_	VAFIN	+1.Pl.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s265_74
+75	sorg	_	_	NN	Fem.Akk.Sg	_	_	_	_	B-NC	B-NP	NA	s265_75
+76	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s265_76
+77	es	_	_	PPER	+3.Sg.Neut.Nom	_	_	_	_	B-NC	B-NP	PPER	s265_77
+78	wurd	_	_	VAFIN	+3.Sg.Prät.Konj.Unr	_	_	_	_	O	O	VAFIN	s265_78
+79	sich	_	_	PRF	+3.Sg.Akk	_	_	_	_	B-NC	B-NP	PRF	s265_79
+80	zu	_	_	PTKA	_	_	_	_	_	B-AC	B-AP	PTKA	s265_80
+81	lang	_	_	ADJD	_	_	_	_	_	I-AC	I-AP	ADJV	s265_81
+82	vercziehen	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s265_82
+83	/	_	_	$,	_	_	_	_	_	O	O	$(	s265_83
+84	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s265_84
+85	wann	_	_	KON	_	_	_	_	_	O	O	KON	s265_85
+86	die	_	_	ART	Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTB	s265_86
+87	krönung	_	_	NN	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s265_87
+88	muest	_	_	VMFIN	+3.Sg.Prät.Konj.Unr	_	_	_	_	O	O	VMFIN	s265_88
+89	an	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s265_89
+90	ainen	_	_	ART	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTU	s265_90
+91	hochczeitleichem	_	_	ADJA	Pos.Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	ADJA	s265_91
+92	tag	_	_	NN	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s265_92
+93	geschehen	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s265_93
+94	/	_	_	$.	_	_	_	_	_	O	O	$(	s265_94
+95	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s265_95
+
+# sent_id = 30
+# sent_id(Tiger) = s272
+# PTBstring = (S:--(AVP:MO(S:RE(KOUS:CP do)(PDS:PH das)(NP:SB(PPOSAT:NK ir)(NN:NK gnad))(VVFIN:HD vernam)(KOMMA:-- /)(S:RE(KOUS:CP daz)(NP:SB(NN:NK her)(NE:APP lasslaban))(PTKNEG:NG nicht)(VVFIN:HD kem)(KOMMA:-- /)))(ADV:PH do))(VVFIN:HD sandt)(NP:SB(PPOSAT:NK ir)(NN:NK gnad))(NP:OA(ART:NK dy)(CARD:NK zwen)(CNP:APP(NP:CJ(NN:NK her)(NE:APP Matkowan)(KLAMMER:-- /))(KON:CD vnd)(NP:CJ(NN:NK her)(NE:APP Waidavembreich))))(AVP:MO(ADV:HD herauf)(PP:MO(APPR:AC gen)(NE:NK Odenburgk))))
+# PTBstring_simple = (VROOT(S(AVP(S(KOUS do)(NP(PDS das))(NP(PPOSAT ir)(NN gnad))(VP(VVFIN vernam))(KOMMA /)(S(KOUS daz)(NP(NN her)(NE lasslaban))(AVP(PTKNEG nicht))(VP(VVFIN kem))(KOMMA /)))(ADV do))(VP(VVFIN sandt))(NP(PPOSAT ir)(NN gnad))(NP(ART dy)(CARD zwen)(CNP(NP(NN her)(NE Matkowan)(KLAMMER /))(KON vnd)(NP(NN her)(NE Waidavembreich))))(AVP(ADV herauf)(PP(APPR gen)(NE Odenburgk)))))
+# text = do das ir gnad vernam / (,) daz her lasslaban nicht kem / (,) do sandt ir gnad dy zwen (,) her Matkowan / vnd her Waidavembreich herauf gen Odenburgk (.)
+1	do	_	_	KOUS	_	_	_	_	_	O	B-ADVP	KOUS	s272_1
+2	das	_	_	PDS	Neut.Akk.Sg	_	_	_	_	B-NC	I-ADVP	PDEM	s272_2
+3	ir	_	_	PPOSAT	Fem.Nom.Sg	_	_	_	_	B-NC	I-ADVP	DPOS	s272_3
+4	gnad	_	_	NN	Fem.Nom.Sg	_	_	_	_	I-NC	I-ADVP	NA	s272_4
+5	vernam	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	I-ADVP	VVFIN	s272_5
+6	/	_	_	$,	_	_	_	_	_	O	I-ADVP	$(	s272_6
+7	(,)	_	_	$,	_	_	_	_	_	O	I-ADVP	$MK	s272_7
+8	daz	_	_	KOUS	_	_	_	_	_	O	I-ADVP	KOUS	s272_8
+9	her	_	_	NN	Mask.Nom.Sg	_	_	_	_	B-NC	I-ADVP	NA	s272_9
+10	lasslaban	_	_	NE	Mask.Nom.Sg	_	_	_	_	B-NC	I-ADVP	NE	s272_10
+11	nicht	_	_	PTKNEG	_	_	_	_	_	B-ADVC	I-ADVP	PTKNEG	s272_11
+12	kem	_	_	VVFIN	+3.Sg.Präs.Konj.St	_	_	_	_	O	I-ADVP	VVFIN	s272_12
+13	/	_	_	$,	_	_	_	_	_	O	I-ADVP	$(	s272_13
+14	(,)	_	_	$,	_	_	_	_	_	O	I-ADVP	$MK	s272_14
+15	do	_	_	ADV	_	_	_	_	_	B-ADVC	I-ADVP	AVD	s272_15
+16	sandt	_	_	VVFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VVFIN	s272_16
+17	ir	_	_	PPOSAT	Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	DPOS	s272_17
+18	gnad	_	_	NN	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s272_18
+19	dy	_	_	ART	*.Akk.Pl	_	_	_	_	B-NC	B-NP	DARTB	s272_19
+20	zwen	_	_	CARD	_	_	_	_	_	I-NC	I-NP	CARD	s272_20
+21	(,)	_	_	$,	_	_	_	_	_	O	I-NP	$MK	s272_21
+22	her	_	_	NN	Mask.Akk.Sg	_	_	_	_	B-NC	I-NP	NA	s272_22
+23	Matkowan	_	_	NE	Mask.Akk.Sg	_	_	_	_	B-NC	I-NP	NE	s272_23
+24	/	_	_	$(	_	_	_	_	_	O	I-NP	$(	s272_24
+25	vnd	_	_	KON	_	_	_	_	_	O	I-NP	KON	s272_25
+26	her	_	_	NN	Mask.Akk.Sg	_	_	_	_	B-NC	I-NP	NA	s272_26
+27	Waidavembreich	_	_	NE	Mask.Akk.Sg	_	_	_	_	B-NC	I-NP	NE	s272_27
+28	herauf	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s272_28
+29	gen	_	_	APPR	_	_	_	_	_	B-PC	I-ADVP	APPR	s272_29
+30	Odenburgk	_	_	NE	Neut.Akk.Sg	_	_	_	_	I-PC	I-ADVP	NE	s272_30
+31	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s272_31
+
+# sent_id = 31
+# sent_id(Tiger) = s288
+# PTBstring = (CS:--(S:CJ(PPER:PH Es)(VAFIN:HD was)(ADV:MO aber)(NP:SB(ART:NK ain)(NN:NK vnderschaid)(KLAMMER:-- /)))(KON:CD vnd)(S:CJ(PPER:SB er)(VMFIN:HD wolt)(VP:OC(ADV:MO auch)(PP:MO(APPR:AC mit)(PPOSAT:NK irn)(NN:NK gnad))(PTKNEG:NG nicht)(VVINF:HD ziehen)(PP:MO(APPR:AC gen)(NE:NK weissenburgk))))(KON:CD vnd)(S:CJ(VVFIN:HD kerat)(ADV:MO vnderwegen)(ADV:MO wider))(KON:CD vnd)(S:CJ(VVFIN:HD zach)(PAV:MO dahin)(PP:MO(APPR:AC gen)(NE:NK ofen)))(KON:CD vnd)(S:CJ(VVFIN:HD warttat)(S:MO(KOUS:CP wann)(NP:SB(ART:NK der)(NN:NK kung)(PP:MNR(APPR:AC von)(NE:NK polan)))(VVFIN:HD kem))))
+# PTBstring_simple = (VROOT(CS(S(NP(PPER Es))(VP(VAFIN was))(AVP(ADV aber))(NP(ART ain)(NN vnderschaid)(KLAMMER /)))(KON vnd)(S(NP(PPER er))(VP(VMFIN wolt))(VP(ADV auch)(PP(APPR mit)(PPOSAT irn)(NN gnad))(PTKNEG nicht)(VVINF ziehen)(PP(APPR gen)(NE weissenburgk))))(KON vnd)(S(VP(VVFIN kerat))(AVP(ADV vnderwegen))(AVP(ADV wider)))(KON vnd)(S(VP(VVFIN zach))(PP(PAV dahin))(PP(APPR gen)(NE ofen)))(KON vnd)(S(VP(VVFIN warttat))(S(KOUS wann)(NP(ART der)(NN kung)(PP(APPR von)(NE polan)))(VP(VVFIN kem))))))
+# text = Es was aber ain vnderschaid / vnd er wolt auch mit irn gnad nicht ziehen gen weissenburgk vnd kerat vnderwegen wider vnd zach dahin gen ofen vnd warttat (,) wann der kung von polan kem (.)
+1	Es	_	_	PPER	+3.Sg.Neut.Nom	_	_	_	_	B-NC	B-NP	PPER	s288_1
+2	was	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s288_2
+3	aber	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s288_3
+4	ain	_	_	ART	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTU	s288_4
+5	vnderschaid	_	_	NN	Mask.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s288_5
+6	/	_	_	$(	_	_	_	_	_	O	I-NP	$(	s288_6
+7	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s288_7
+8	er	_	_	PPER	+3.Sg.Mask.Nom	_	_	_	_	B-NC	B-NP	PPER	s288_8
+9	wolt	_	_	VMFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VMFIN	s288_9
+10	auch	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s288_10
+11	mit	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s288_11
+12	irn	_	_	PPOSAT	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	DPOS	s288_12
+13	gnad	_	_	NN	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s288_13
+14	nicht	_	_	PTKNEG	_	_	_	_	_	B-ADVC	B-ADVP	PTKNEG	s288_14
+15	ziehen	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s288_15
+16	gen	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s288_16
+17	weissenburgk	_	_	NE	Neut.Akk.Sg	_	_	_	_	I-PC	I-PP	NE	s288_17
+18	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s288_18
+19	kerat	_	_	VVFIN	+3.Sg.Prät.Ind.Sw	_	_	_	_	O	O	VVFIN	s288_19
+20	vnderwegen	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s288_20
+21	wider	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s288_21
+22	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s288_22
+23	zach	_	_	VVFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VVFIN	s288_23
+24	dahin	_	_	PAV	_	_	_	_	_	B-PC	B-PP	PAVDAP	s288_24
+25	gen	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s288_25
+26	ofen	_	_	NE	Neut.Akk.Sg	_	_	_	_	I-PC	I-PP	NE	s288_26
+27	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s288_27
+28	warttat	_	_	VVFIN	+3.Sg.Prät.Ind.Sw	_	_	_	_	O	O	VVFIN	s288_28
+29	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s288_29
+30	wann	_	_	KOUS	_	_	_	_	_	O	O	KOUS	s288_30
+31	der	_	_	ART	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTB	s288_31
+32	kung	_	_	NN	Mask.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s288_32
+33	von	_	_	APPR	_	_	_	_	_	B-PC	I-NP	APPR	s288_33
+34	polan	_	_	NE	Neut.Dat.Sg	_	_	_	_	I-PC	I-NP	NE	s288_34
+35	kem	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s288_35
+36	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s288_36
+
+# sent_id = 32
+# sent_id(Tiger) = s295
+# PTBstring = (S:--(KON:JU vnd)(PDS:SB das)(VAFIN:HD was)(PP:MO(APPR:AC an)(ART:NK dem)(NN:NK phingstabent)))
+# PTBstring_simple = (VROOT(S(KON vnd)(NP(PDS das))(VP(VAFIN was))(PP(APPR an)(ART dem)(NN phingstabent))))
+# text = vnd das was an dem phingstabent (.)
+1	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s295_1
+2	das	_	_	PDS	Neut.Nom.Sg	_	_	_	_	B-NC	B-NP	PDEM	s295_2
+3	was	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s295_3
+4	an	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s295_4
+5	dem	_	_	ART	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTB	s295_5
+6	phingstabent	_	_	NN	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s295_6
+7	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s295_7
+
+# sent_id = 33
+# sent_id(Tiger) = s296
+# PTBstring = (CS:--(S:CJ(ADV:MO da)(VVFIN:HD sandt)(NP:SB(NP:GL(PPOSAT:NK meiner)(NN:NK frawn))(NN:NK gnad))(PP:MO(APPR:AC zu)(ART:NK den)(ADJA:NK eltisten)(NN:NK burgeren)(S:RC(PRELS:SB die)(ADV:MO dann)(PAV:OP darzü)(VVFIN:HD gehorten))))(KON:CD vnd)(S:CJ(VVFIN:HD liess)(PPER:OA sy)(VP:OC(NP:OA(ART:NK die)(ADJA:NK heiligen)(NN:NK kron))(VVINF:HD sehen)(KLAMMER:-- /)))(KON:CD vnd)(S:CJ(VVFIN:HD hies)(VP:OC(PPER:OA es)(PTKVZ:SVP zu)(VVINF:HD richten)(CS:MO(S:CJ(KOKOM:CM als)(PPER:SB es)(PAV:MO darzu)(VVFIN:HD gehort))(KON:CD vnd)(S:CJ(VP:OC(PP:MO(APPR:AC von)(NN:NK alter))(ADV:MO her)(VVPP:HD komen))(VAFIN:HD ist)(PUNKT:-- /))))))
+# PTBstring_simple = (VROOT(CS(S(AVP(ADV da))(VP(VVFIN sandt))(NP(NP(PPOSAT meiner)(NN frawn))(NN gnad))(PP(APPR zu)(ART den)(ADJA eltisten)(NN burgeren)(S:RC(NP(PRELS die))(AVP(ADV dann))(PP(PAV darzü))(VP(VVFIN gehorten)))))(KON vnd)(S(VP(VVFIN liess))(NP(PPER sy))(VP(NP(ART die)(ADJA heiligen)(NN kron))(VVINF sehen)(KLAMMER /)))(KON vnd)(S(VP(VVFIN hies))(VP(PPER es)(PTKVZ zu)(VVINF richten)(CS(S(KOKOM als)(NP(PPER es))(PP(PAV darzu))(VP(VVFIN gehort)))(KON vnd)(S(VP(PP(APPR von)(NN alter))(ADV her)(VVPP komen))(VP(VAFIN ist))(PUNKT /)))))))
+# text = da sandt meiner frawn gnad zu den eltisten burgeren (,) die dann darzü gehorten vnd liess sy die heiligen kron sehen / vnd hies es zu richten (,) als es darzu gehort vnd von alter her komen ist / (.)
+1	da	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s296_1
+2	sandt	_	_	VVFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VVFIN	s296_2
+3	meiner	_	_	PPOSAT	Fem.Gen.Sg	_	_	_	_	B-NC	B-NP	DPOS	s296_3
+4	frawn	_	_	NN	Fem.Gen.Sg	_	_	_	_	I-NC	I-NP	NA	s296_4
+5	gnad	_	_	NN	Fem.Nom.Sg	_	_	_	_	B-NC	I-NP	NA	s296_5
+6	zu	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s296_6
+7	den	_	_	ART	*.Dat.Pl	_	_	_	_	I-PC	I-PP	DARTB	s296_7
+8	eltisten	_	_	ADJA	Sup.*.Dat.Pl	_	_	_	_	I-PC	I-PP	ADJA	s296_8
+9	burgeren	_	_	NN	*.Dat.Pl	_	_	_	_	I-PC	I-PP	NA	s296_9
+10	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s296_10
+11	die	_	_	PRELS	*.Nom.Pl	_	_	_	_	B-NC	B-NP	PRELS	s296_11
+12	dann	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s296_12
+13	darzü	_	_	PAV	_	_	_	_	_	B-PC	B-PP	PAVDAP	s296_13
+14	gehorten	_	_	VVFIN	+3.Pl.Prät.Ind.Sw	_	_	_	_	O	O	VVFIN	s296_14
+15	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s296_15
+16	liess	_	_	VVFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VVFIN	s296_16
+17	sy	_	_	PPER	+3.Pl.Neut.Akk	_	_	_	_	B-NC	B-NP	PPER	s296_17
+18	die	_	_	ART	Fem.Akk.Sg	_	_	_	_	B-NC	B-NP	DARTB	s296_18
+19	heiligen	_	_	ADJA	Pos.Fem.Akk.Sg	_	_	_	_	I-NC	I-NP	ADJA	s296_19
+20	kron	_	_	NN	Fem.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s296_20
+21	sehen	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s296_21
+22	/	_	_	$(	_	_	_	_	_	O	O	$(	s296_22
+23	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s296_23
+24	hies	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s296_24
+25	es	_	_	PPER	+3.Sg.Neut.Akk	_	_	_	_	B-NC	B-NP	PPER	s296_25
+26	zu	_	_	PTKVZ	_	_	_	_	_	O	O	PTKVZ	s296_26
+27	richten	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s296_27
+28	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s296_28
+29	als	_	_	KOKOM	_	_	_	_	_	O	O	KOKOM	s296_29
+30	es	_	_	PPER	+3.Sg.Neut.Nom	_	_	_	_	B-NC	B-NP	PPER	s296_30
+31	darzu	_	_	PAV	_	_	_	_	_	B-PC	B-PP	PAVDAP	s296_31
+32	gehort	_	_	VVFIN	+3.Sg.Präs.Ind.Sw	_	_	_	_	O	O	VVFIN	s296_32
+33	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s296_33
+34	von	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s296_34
+35	alter	_	_	NN	_	_	_	_	_	I-PC	I-PP	NA	s296_35
+36	her	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s296_36
+37	komen	_	_	VVPP	_	_	_	_	_	O	O	VVPP	s296_37
+38	ist	_	_	VAFIN	+3.Sg.Präs.Ind.Unr	_	_	_	_	O	O	VAFIN	s296_38
+39	/	_	_	$.	_	_	_	_	_	O	O	$(	s296_39
+40	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s296_40
+
+# sent_id = 34
+# sent_id(Tiger) = s297
+# PTBstring = (S:--(KON:JU Vnd)(VAFIN:HD warn)(NP:SB(PIAT:NK ettlich)(NN:NK burger))(ADV:MO da)(CS:RC(S:CJ(PRELS:SB die)(PDS:PH des)(VVFIN:HD gedachten)(S:RE(KOUS:CP daz)(PIS:SB man)(VP:OC(NP:OA(NN:NK kaiser)(NE:APP sigmund))(ADV:MO auch)(VVPP:HD gekronet))(VAFIN:HD het)))(KON:CD vnd)(S:CJ(VP:OC(PAV:MO dabei)(VAPP:HD gewesen))(VAFIN:HD waren)(PUNKT:-- /))))
+# PTBstring_simple = (VROOT(S(KON Vnd)(VP(VAFIN warn))(NP(PIAT ettlich)(NN burger))(AVP(ADV da))(CS(S(NP(PRELS die))(NP(PDS des))(VP(VVFIN gedachten))(S(KOUS daz)(NP(PIS man))(VP(NP(NN kaiser)(NE sigmund))(ADV auch)(VVPP gekronet))(VP(VAFIN het))))(KON vnd)(S(VP(PAV dabei)(VAPP gewesen))(VP(VAFIN waren))(PUNKT /)))))
+# text = Vnd warn ettlich burger da (,) die des gedachten (,) daz man kaiser sigmund auch gekronet het vnd dabei gewesen waren / (.)
+1	Vnd	_	_	KON	_	_	_	_	_	O	O	KON	s297_1
+2	warn	_	_	VAFIN	+3.Pl.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s297_2
+3	ettlich	_	_	PIAT	*.Nom.Pl	_	_	_	_	B-NC	B-NP	DINDEF	s297_3
+4	burger	_	_	NN	*.Nom.Pl	_	_	_	_	I-NC	I-NP	NA	s297_4
+5	da	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s297_5
+6	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s297_6
+7	die	_	_	PRELS	*.Nom.Pl	_	_	_	_	B-NC	B-NP	PRELS	s297_7
+8	des	_	_	PDS	Neut.Gen.Sg	_	_	_	_	B-NC	B-NP	PDEM	s297_8
+9	gedachten	_	_	VVFIN	+3.Pl.Prät.Ind.Unr	_	_	_	_	O	O	VVFIN	s297_9
+10	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s297_10
+11	daz	_	_	KOUS	_	_	_	_	_	O	O	KOUS	s297_11
+12	man	_	_	PIS	Neut.Nom.Sg	_	_	_	_	B-NC	B-NP	PINDEF	s297_12
+13	kaiser	_	_	NN	Mask.Akk.Sg	_	_	_	_	B-NC	B-NP	NA	s297_13
+14	sigmund	_	_	NE	Mask.Akk.Sg	_	_	_	_	B-NC	I-NP	NE	s297_14
+15	auch	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s297_15
+16	gekronet	_	_	VVPP	_	_	_	_	_	O	O	VVPP	s297_16
+17	het	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s297_17
+18	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s297_18
+19	dabei	_	_	PAV	_	_	_	_	_	B-PC	B-PP	PAVDAP	s297_19
+20	gewesen	_	_	VAPP	_	_	_	_	_	O	O	VAPP	s297_20
+21	waren	_	_	VAFIN	+3.Pl.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s297_21
+22	/	_	_	$.	_	_	_	_	_	O	O	$(	s297_22
+23	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s297_23
+
+# sent_id = 35
+# sent_id(Tiger) = s299
+# PTBstring = (S:--(ADV:MO da)(VVFIN:HD trueg)(PIS:SB man)(PPER:OA in)(PP:MO(APPR:AC jn)(ART:NK die)(NN:NK kirchen)(S:RC(ADV:MO da)(PIS:SB man)(ADV:MO dan)(NP:OA(ART:NK ain)(PIAT:NK yeden)(NN:NK kung))(VVFIN:HD krönt))))
+# PTBstring_simple = (VROOT(S(AVP(ADV da))(VP(VVFIN trueg))(NP(PIS man))(NP(PPER in))(PP(APPR jn)(ART die)(NN kirchen)(S:RC(AVP(ADV da))(NP(PIS man))(AVP(ADV dan))(NP(ART ain)(PIAT yeden)(NN kung))(VP(VVFIN krönt))))))
+# text = da trueg man in jn die kirchen (,) da man dan ain yeden kung krönt (.)
+1	da	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s299_1
+2	trueg	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s299_2
+3	man	_	_	PIS	Neut.Nom.Sg	_	_	_	_	B-NC	B-NP	PINDEF	s299_3
+4	in	_	_	PPER	+3.Sg.Mask.Akk	_	_	_	_	B-NC	B-NP	PPER	s299_4
+5	jn	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s299_5
+6	die	_	_	ART	Fem.Akk.Sg	_	_	_	_	I-PC	I-PP	DARTB	s299_6
+7	kirchen	_	_	NN	Fem.Akk.Sg	_	_	_	_	I-PC	I-PP	NA	s299_7
+8	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s299_8
+9	da	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVREL	s299_9
+10	man	_	_	PIS	Neut.Nom.Sg	_	_	_	_	B-NC	B-NP	PINDEF	s299_10
+11	dan	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s299_11
+12	ain	_	_	ART	Mask.Akk.Sg	_	_	_	_	B-NC	B-NP	DARTB	s299_12
+13	yeden	_	_	PIAT	Mask.Akk.Sg	_	_	_	_	I-NC	I-NP	DINDEF	s299_13
+14	kung	_	_	NN	Mask.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s299_14
+15	krönt	_	_	VVFIN	+3.Sg.Präs.Ind.Sw	_	_	_	_	O	O	VVFIN	s299_15
+16	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s299_16
+
+# sent_id = 36
+# sent_id(Tiger) = s300
+# PTBstring = (S:--(KON:JU vnd)(VAFIN:HD warn)(NP:SB(PIS:NK vil)(NP:GR(ADJA:NK gueter)(NN:NK lewt)))(ADV:MO da)(CAP:NK(ADJD:CJ geistleich)(KON:CD vnd)(ADJD:CJ weltlich))(S:MO(KOKOM:CM als)(PPER:SB ir)(VP:OC(ADV:MO vor)(VVPP:HD gehort))(VAFIN:HD habt)))
+# PTBstring_simple = (VROOT(S(KON vnd)(VP(VAFIN warn))(NP(PIS vil)(NP(ADJA gueter)(NN lewt)))(AVP(ADV da))(CAP(ADJD geistleich)(KON vnd)(ADJD weltlich))(S(KOKOM als)(NP(PPER ir))(VP(ADV vor)(VVPP gehort))(VP(VAFIN habt)))))
+# text = vnd warn vil gueter lewt da (,) geistleich vnd weltlich (,) als ir vor gehort habt (.)
+1	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s300_1
+2	warn	_	_	VAFIN	+3.Pl.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s300_2
+3	vil	_	_	PIS	*.Nom.Pl	_	_	_	_	B-NC	B-NP	PINDEF	s300_3
+4	gueter	_	_	ADJA	Pos.*.Gen.Pl	_	_	_	_	B-NC	I-NP	ADJA	s300_4
+5	lewt	_	_	NN	*.Gen.Pl	_	_	_	_	I-NC	I-NP	NA	s300_5
+6	da	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s300_6
+7	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s300_7
+8	geistleich	_	_	ADJD	Pos.*.Nom.Pl	_	_	_	_	B-AC	B-AP	ADJN	s300_8
+9	vnd	_	_	KON	_	_	_	_	_	O	I-AP	KON	s300_9
+10	weltlich	_	_	ADJD	Pos.*.Nom.Pl	_	_	_	_	B-AC	I-AP	ADJN	s300_10
+11	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s300_11
+12	als	_	_	KOKOM	_	_	_	_	_	O	O	KOKOM	s300_12
+13	ir	_	_	PPER	+2.Pl.Mask.Nom	_	_	_	_	B-NC	B-NP	PPER	s300_13
+14	vor	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s300_14
+15	gehort	_	_	VVPP	_	_	_	_	_	O	O	VVPP	s300_15
+16	habt	_	_	VAFIN	+2.Pl.Präs.Ind.Unr	_	_	_	_	O	O	VAFIN	s300_16
+17	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s300_17
+
+# sent_id = 37
+# sent_id(Tiger) = s308
+# PTBstring = (CS:--(S:CJ(ADV:MO Nü)(VAFIN:HD het)(NP:SB(ART:NK der)(ADJA:NK edel)(NN:NK graf)(PP:MNR(APPR:AC von)(NE:NK Zily)))(NP:OA(ART:NK ain)(NN:NK swert)(KOMMA:-- /)(S:RCVS(PDS:SB das)(VAFIN:HD was)(CAP:PD(AP:CJ(ADJD:HD beslagen)(PP:MO(APPR:AC mit)(NN:NK silber)(PUNKT:-- .)))(KON:CD vnd)(ADJD:CJ verguldet)(KOMMA:-- /)))(S:RCVS(PAV:MO darauf)(VAFIN:HD was)(NP:SB(ART:NK ain)(NN:NK Reim))(ADJD:HD gemacht)(S:RCVS(PDS:SB der)(VVFIN:HD hies)(NE:PD vnuercziegen)))))(KOMMA:-- /)(KON:CD vnd)(S:CJ(NP:OA(PDAT:NK dasselb)(NN:NK swert))(VVFIN:HD schankcht)(PPER:SB er)(NP:DA(ART:NK dem)(ADJA:NK jungen)(NN:NK küng)(KOMMA:-- /))(S:MO(KOUS:CP daz)(PIS:SB man)(NP:OA(PPOSAT:NK sein)(NN:NK gnad))(PP:MO(ADV:UC da)(ADV:UC mit))(VMFIN:HD solt)(VP:OC(NN:PD Ritter)(VVINF:HD slahen)(PUNKT:-- /)))))
+# PTBstring_simple = (VROOT(CS(S(AVP(ADV Nü))(VP(VAFIN het))(NP(ART der)(ADJA edel)(NN graf)(PP(APPR von)(NE Zily)))(NP(ART ain)(NN swert)(KOMMA /)(S(NP(PDS das))(VP(VAFIN was))(CAP(AP(ADJD beslagen)(PP(APPR mit)(NN silber)(PUNKT .)))(KON vnd)(ADJD verguldet)(KOMMA /)))(S(PP(PAV darauf))(VP(VAFIN was))(NP(ART ain)(NN Reim))(AP(ADJD gemacht))(S(NP(PDS der))(VP(VVFIN hies))(NP(NE vnuercziegen))))))(KOMMA /)(KON vnd)(S(NP(PDAT dasselb)(NN swert))(VP(VVFIN schankcht))(NP(PPER er))(NP(ART dem)(ADJA jungen)(NN küng)(KOMMA /))(S(KOUS daz)(NP(PIS man))(NP(PPOSAT sein)(NN gnad))(PP(ADV da)(ADV mit))(VP(VMFIN solt))(VP(NN Ritter)(VVINF slahen)(PUNKT /))))))
+# text = Nü het der edel graf von Zily ain swert / (,) das was beslagen mit silber . vnd verguldet / (,) darauf was ain Reim gemacht (,) der hies (") vnuercziegen (") / (,) vnd dasselb swert schankcht er dem jungen küng / (,) daz man sein gnad da mit solt Ritter slahen / (.)
+1	Nü	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s308_1
+2	het	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s308_2
+3	der	_	_	ART	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTB	s308_3
+4	edel	_	_	ADJA	Pos.Mask.Nom.Sg	_	_	_	_	I-NC	I-NP	ADJA	s308_4
+5	graf	_	_	NN	Mask.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s308_5
+6	von	_	_	APPR	_	_	_	_	_	B-PC	I-NP	APPR	s308_6
+7	Zily	_	_	NE	Neut.Dat.Sg	_	_	_	_	I-PC	I-NP	NE	s308_7
+8	ain	_	_	ART	Neut.Akk.Sg	_	_	_	_	B-NC	B-NP	DARTU	s308_8
+9	swert	_	_	NN	Neut.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s308_9
+10	/	_	_	$,	_	_	_	_	_	O	O	$(	s308_10
+11	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s308_11
+12	das	_	_	PDS	Neut.Nom.Sg	_	_	_	_	B-NC	B-NP	PDEM	s308_12
+13	was	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s308_13
+14	beslagen	_	_	ADJD	Pos.Neut.Nom.Sg	_	_	_	_	B-AC	B-AP	VVPPD	s308_14
+15	mit	_	_	APPR	_	_	_	_	_	B-PC	I-AP	APPR	s308_15
+16	silber	_	_	NN	Neut.Dat.Sg	_	_	_	_	I-PC	I-AP	NA	s308_16
+17	.	_	_	$.	_	_	_	_	_	O	I-AP	$.	s308_17
+18	vnd	_	_	KON	_	_	_	_	_	O	I-AP	KON	s308_18
+19	verguldet	_	_	ADJD	Pos.Neut.Nom.Sg	_	_	_	_	B-AC	I-AP	VVPPD	s308_19
+20	/	_	_	$,	_	_	_	_	_	O	I-AP	$(	s308_20
+21	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s308_21
+22	darauf	_	_	PAV	_	_	_	_	_	B-PC	B-PP	PAVDAP	s308_22
+23	was	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s308_23
+24	ain	_	_	ART	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTU	s308_24
+25	Reim	_	_	NN	Mask.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s308_25
+26	gemacht	_	_	ADJD	Pos.Mask.Nom.Sg	_	_	_	_	B-AC	B-AP	VVPPD	s308_26
+27	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s308_27
+28	der	_	_	PDS	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	PDEM	s308_28
+29	hies	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s308_29
+30	(")	_	_	$(	_	_	_	_	_	O	O	$QL	s308_30
+31	vnuercziegen	_	_	NE	Neut.Nom.Sg	_	_	_	_	B-NC	B-NP	NE	s308_31
+32	(")	_	_	$(	_	_	_	_	_	O	O	$QR	s308_32
+33	/	_	_	$,	_	_	_	_	_	O	O	$(	s308_33
+34	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s308_34
+35	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s308_35
+36	dasselb	_	_	PDAT	Neut.Akk.Sg	_	_	_	_	B-NC	B-NP	DDEM	s308_36
+37	swert	_	_	NN	Neut.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s308_37
+38	schankcht	_	_	VVFIN	+3.Sg.Präs.Ind.Sw	_	_	_	_	O	O	VVFIN	s308_38
+39	er	_	_	PPER	+3.Sg.Mask.Nom	_	_	_	_	B-NC	B-NP	PPER	s308_39
+40	dem	_	_	ART	Mask.Dat.Sg	_	_	_	_	B-NC	B-NP	DARTB	s308_40
+41	jungen	_	_	ADJA	Pos.Mask.Dat.Sg	_	_	_	_	I-NC	I-NP	ADJA	s308_41
+42	küng	_	_	NN	Mask.Dat.Sg	_	_	_	_	I-NC	I-NP	NA	s308_42
+43	/	_	_	$,	_	_	_	_	_	O	I-NP	$(	s308_43
+44	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s308_44
+45	daz	_	_	KOUS	_	_	_	_	_	O	O	KOUS	s308_45
+46	man	_	_	PIS	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	PINDEF	s308_46
+47	sein	_	_	PPOSAT	Fem.Akk.Sg	_	_	_	_	B-NC	B-NP	DPOS	s308_47
+48	gnad	_	_	NN	Fem.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s308_48
+49	da	_	_	ADV	_	_	_	_	_	B-PC	B-PP	PAVD	s308_49
+50	mit	_	_	ADV	_	_	_	_	_	I-PC	I-PP	PAVAP	s308_50
+51	solt	_	_	VMFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VMFIN	s308_51
+52	Ritter	_	_	NN	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	NA	s308_52
+53	slahen	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s308_53
+54	/	_	_	$.	_	_	_	_	_	O	O	$(	s308_54
+55	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s308_55
+
+# sent_id = 38
+# sent_id(Tiger) = s316
+# PTBstring = (CS:--(S:CJ(NP:SB(NP:RE(NN:NK kung)(NE:APP lassla)(CNP:APP(NP:CJ(NP:GL(NN:NK kung)(NE:APP albrechts))(NN:NK sun)(KLAMMER:-- /))(KON:CD vnd)(NP:CJ(NP:GL(NN:NK kaiser)(NE:APP sigmunds))(NN:NK Enykel))))(PDS:PH der))(VAFIN:HD ist)(VP:OC(VP:OC(PP:MO(APPR:AC an)(ART:NK dem)(ADJA:NK heiligen)(NN:NK Phingstag))(PP:MO(APPR:AC mit)(ART:NK der)(ADJA:NK heiligen)(NN:NK kron)(KLAMMER:-- /))(PP:SBP(APPR:AC von)(ART:NK dem)(NN:NK ErczBischoue)(PP:MNR(APPR:AC von)(NE:NK Gran)))(PP:MO(APPR:AC zu)(NE:NK Weissenburg))(VVPP:HD gekront))(VAPP:HD worden)))(KON:CD Wann)(CS:CJ(S:CJ(PPER:SB sy)(VAFIN:HD habent)(NP:OA(CARD:NK drew)(NN:NK gesecz))(PP:MO(APPR:AC in)(ART:NK dem)(NN:NK kungreich)(PP:MNR(APPR:AC zu)(NE:NK Vngeren)(PUNKT:-- .))))(KON:CD vnd)(S:CJ(AVP:MO(S:RE(ADV:MO wo)(NP:SB(PDS:GL der)(CARD:NK ains))(PTKVZ:SVP ab)(VVFIN:HD geet)(KOMMA:-- /))(ADV:PH da))(VVFIN:HD mainen)(PPER:SB sie)(S:OC(KOUS:CP daz)(PDS:SB der)(PTKNEG:NG nicht)(ADJD:MO rechtleich)(NN:PD kung)(VAFIN:HD sey)))))
+# PTBstring_simple = (VROOT(CS(S(NP(NP(NN kung)(NE lassla)(CNP(NP(NP(NN kung)(NE albrechts))(NN sun)(KLAMMER /))(KON vnd)(NP(NP(NN kaiser)(NE sigmunds))(NN Enykel))))(PDS der))(VP(VAFIN ist))(VP(VP(PP(APPR an)(ART dem)(ADJA heiligen)(NN Phingstag))(PP(APPR mit)(ART der)(ADJA heiligen)(NN kron)(KLAMMER /))(PP(APPR von)(ART dem)(NN ErczBischoue)(PP(APPR von)(NE Gran)))(PP(APPR zu)(NE Weissenburg))(VVPP gekront))(VAPP worden)))(KON Wann)(CS(S(NP(PPER sy))(VP(VAFIN habent))(NP(CARD drew)(NN gesecz))(PP(APPR in)(ART dem)(NN kungreich)(PP(APPR zu)(NE Vngeren)(PUNKT .))))(KON vnd)(S(AVP(S(AVP(ADV wo))(NP(PDS der)(CARD ains))(SVP(PTKVZ ab))(VP(VVFIN geet))(KOMMA /))(ADV da))(VP(VVFIN mainen))(NP(PPER sie))(S:OC(KOUS daz)(NP(PDS der))(AVP(PTKNEG nicht))(AP(ADJD rechtleich))(NP(NN kung))(VP(VAFIN sey)))))))
+# text = kung lassla (,) kung albrechts sun / vnd kaiser sigmunds Enykel (,) der ist an dem heiligen Phingstag mit der heiligen kron / von dem ErczBischoue von Gran zu Weissenburg gekront worden Wann sy habent drew gesecz in dem kungreich zu Vngeren . vnd wo der ains ab geet / (,) da mainen sie (,) daz der nicht rechtleich kung sey (.)
+1	kung	_	_	NN	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	NA	s316_1
+2	lassla	_	_	NE	Mask.Nom.Sg	_	_	_	_	B-NC	I-NP	NE	s316_2
+3	(,)	_	_	$,	_	_	_	_	_	O	I-NP	$MK	s316_3
+4	kung	_	_	NN	Mask.Gen.Sg	_	_	_	_	B-NC	I-NP	NA	s316_4
+5	albrechts	_	_	NE	Mask.Gen.Sg	_	_	_	_	B-NC	I-NP	NE	s316_5
+6	sun	_	_	NN	Mask.Nom.Sg	_	_	_	_	B-NC	I-NP	NA	s316_6
+7	/	_	_	$(	_	_	_	_	_	O	I-NP	$(	s316_7
+8	vnd	_	_	KON	_	_	_	_	_	O	I-NP	KON	s316_8
+9	kaiser	_	_	NN	Mask.Gen.Sg	_	_	_	_	B-NC	I-NP	NA	s316_9
+10	sigmunds	_	_	NE	Mask.Gen.Sg	_	_	_	_	B-NC	I-NP	NE	s316_10
+11	Enykel	_	_	NN	Mask.Nom.Sg	_	_	_	_	B-NC	I-NP	NA	s316_11
+12	(,)	_	_	$,	_	_	_	_	_	O	I-NP	$MK	s316_12
+13	der	_	_	PDS	Mask.Nom.Sg	_	_	_	_	B-NC	I-NP	PDEM	s316_13
+14	ist	_	_	VAFIN	+3.Sg.Präs.Ind.Unr	_	_	_	_	O	O	VAFIN	s316_14
+15	an	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s316_15
+16	dem	_	_	ART	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTB	s316_16
+17	heiligen	_	_	ADJA	Pos.Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	ADJA	s316_17
+18	Phingstag	_	_	NN	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s316_18
+19	mit	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s316_19
+20	der	_	_	ART	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTB	s316_20
+21	heiligen	_	_	ADJA	Pos.Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	ADJA	s316_21
+22	kron	_	_	NN	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s316_22
+23	/	_	_	$(	_	_	_	_	_	O	I-PP	$(	s316_23
+24	von	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s316_24
+25	dem	_	_	ART	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTB	s316_25
+26	ErczBischoue	_	_	NN	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s316_26
+27	von	_	_	APPR	_	_	_	_	_	B-PC	I-PP	APPR	s316_27
+28	Gran	_	_	NE	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	NE	s316_28
+29	zu	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s316_29
+30	Weissenburg	_	_	NE	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	NE	s316_30
+31	gekront	_	_	VVPP	_	_	_	_	_	O	O	VVPP	s316_31
+32	worden	_	_	VAPP	_	_	_	_	_	O	O	VAPP	s316_32
+33	Wann	_	_	KON	_	_	_	_	_	O	O	KON	s316_33
+34	sy	_	_	PPER	+3.Pl.*.Nom	_	_	_	_	B-NC	B-NP	PPER	s316_34
+35	habent	_	_	VAFIN	+3.Pl.Präs.Ind.Unr	_	_	_	_	O	O	VAFIN	s316_35
+36	drew	_	_	CARD	_	_	_	_	_	B-NC	B-NP	CARD	s316_36
+37	gesecz	_	_	NN	*.Akk.Pl	_	_	_	_	I-NC	I-NP	NA	s316_37
+38	in	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s316_38
+39	dem	_	_	ART	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTB	s316_39
+40	kungreich	_	_	NN	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s316_40
+41	zu	_	_	APPR	_	_	_	_	_	B-PC	I-PP	APPR	s316_41
+42	Vngeren	_	_	NE	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	NE	s316_42
+43	.	_	_	$.	_	_	_	_	_	O	I-PP	$.	s316_43
+44	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s316_44
+45	wo	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVREL	s316_45
+46	der	_	_	PDS	*.Gen.Pl	_	_	_	_	B-NC	B-NP	PDEM	s316_46
+47	ains	_	_	CARD	Neut.Nom.Sg	_	_	_	_	B-NC	I-NP	CARD	s316_47
+48	ab	_	_	PTKVZ	_	_	_	_	_	O	O	PTKVZ	s316_48
+49	geet	_	_	VVFIN	+3.Sg.Präs.Ind.Unr	_	_	_	_	O	O	VVFIN	s316_49
+50	/	_	_	$,	_	_	_	_	_	O	O	$(	s316_50
+51	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s316_51
+52	da	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s316_52
+53	mainen	_	_	VVFIN	+3.Pl.Präs.Ind.Sw	_	_	_	_	O	O	VVFIN	s316_53
+54	sie	_	_	PPER	+3.Pl.Mask.Nom	_	_	_	_	B-NC	B-NP	PPER	s316_54
+55	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s316_55
+56	daz	_	_	KOUS	_	_	_	_	_	O	O	KOUS	s316_56
+57	der	_	_	PDS	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	PDEM	s316_57
+58	nicht	_	_	PTKNEG	_	_	_	_	_	B-ADVC	B-ADVP	PTKNEG	s316_58
+59	rechtleich	_	_	ADJD	_	_	_	_	_	B-AC	B-AP	ADJV	s316_59
+60	kung	_	_	NN	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	NA	s316_60
+61	sey	_	_	VAFIN	+3.Sg.Präs.Konj.Unr	_	_	_	_	O	O	VAFIN	s316_61
+62	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s316_62
+
+# sent_id = 39
+# sent_id(Tiger) = s351
+# PTBstring = (CS:--(S:CJ(ADV:MO da)(VVFIN:HD machat)(NP:SB(NN:NK graf)(NE:APP Vlrich)(PP:MNR(APPR:AC von)(NE:NK Zily)))(PTKVZ:SVP auf)(PP:MO(APPR:AC mit)(PIAT:NK andern)(NN:NK hofgesind)))(KON:CD vnd)(S:CJ(VVFIN:HD zach)(PAV:MO dahin)))
+# PTBstring_simple = (VROOT(CS(S(AVP(ADV da))(VP(VVFIN machat))(NP(NN graf)(NE Vlrich)(PP(APPR von)(NE Zily)))(SVP(PTKVZ auf))(PP(APPR mit)(PIAT andern)(NN hofgesind)))(KON vnd)(S(VP(VVFIN zach))(PP(PAV dahin)))))
+# text = da machat graf Vlrich von Zily auf mit andern hofgesind vnd zach dahin (.)
+1	da	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s351_1
+2	machat	_	_	VVFIN	+3.Sg.Prät.Ind.Sw	_	_	_	_	O	O	VVFIN	s351_2
+3	graf	_	_	NN	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	NA	s351_3
+4	Vlrich	_	_	NE	Mask.Nom.Sg	_	_	_	_	B-NC	I-NP	NE	s351_4
+5	von	_	_	APPR	_	_	_	_	_	B-PC	I-NP	APPR	s351_5
+6	Zily	_	_	NE	Neut.Dat.Sg	_	_	_	_	I-PC	I-NP	NE	s351_6
+7	auf	_	_	PTKVZ	_	_	_	_	_	O	O	PTKVZ	s351_7
+8	mit	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s351_8
+9	andern	_	_	PIAT	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	DINDEF	s351_9
+10	hofgesind	_	_	NN	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s351_10
+11	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s351_11
+12	zach	_	_	VVFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VVFIN	s351_12
+13	dahin	_	_	PAV	_	_	_	_	_	B-PC	B-PP	PAVDAP	s351_13
+14	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s351_14
+
+# sent_id = 40
+# sent_id(Tiger) = s356
+# PTBstring = (S:--(KON:JU aber)(AVP:MO(S:RE(VAFIN:HD wern)(PDS:SB die)(VP:OC(PP:MO(APPR:AC fur)(PRF:NK sich))(VVPP:HD geczogen)))(ADV:PH so))(VAFIN:HD hieten)(PPER:SB sy)(VP:OC(NP:OA(PDS:NK den)(PP:MNR(APPR:AC von)(NE:NK Polan)))(ADJD:PD vngeworent)(VVPP:HD funden)(PUNKT:-- /)))
+# PTBstring_simple = (VROOT(S(KON aber)(AVP(S(VP(VAFIN wern))(NP(PDS die))(VP(PP(APPR fur)(PRF sich))(VVPP geczogen)))(ADV so))(VP(VAFIN hieten))(NP(PPER sy))(VP(NP(PDS den)(PP(APPR von)(NE Polan)))(ADJD vngeworent)(VVPP funden)(PUNKT /))))
+# text = aber wern die fur sich geczogen (,) so hieten sy den von Polan vngeworent funden / (.)
+1	aber	_	_	KON	_	_	_	_	_	O	O	KON	s356_1
+2	wern	_	_	VAFIN	+3.Pl.Prät.Konj.Unr	_	_	_	_	O	B-ADVP	VAFIN	s356_2
+3	die	_	_	PDS	*.Nom.Pl	_	_	_	_	B-NC	I-ADVP	PDEM	s356_3
+4	fur	_	_	APPR	_	_	_	_	_	B-PC	I-ADVP	APPR	s356_4
+5	sich	_	_	PRF	+3.Pl.Akk	_	_	_	_	I-PC	I-ADVP	PRF	s356_5
+6	geczogen	_	_	VVPP	_	_	_	_	_	O	I-ADVP	VVPP	s356_6
+7	(,)	_	_	$,	_	_	_	_	_	O	I-ADVP	$MK	s356_7
+8	so	_	_	ADV	_	_	_	_	_	B-ADVC	I-ADVP	AVD	s356_8
+9	hieten	_	_	VAFIN	+3.Pl.Prät.Konj.Unr	_	_	_	_	O	O	VAFIN	s356_9
+10	sy	_	_	PPER	+3.Pl.Mask.Nom	_	_	_	_	B-NC	B-NP	PPER	s356_10
+11	den	_	_	PDS	Mask.Akk.Sg	_	_	_	_	B-NC	B-NP	PDEM	s356_11
+12	von	_	_	APPR	_	_	_	_	_	B-PC	I-NP	APPR	s356_12
+13	Polan	_	_	NE	Neut.Dat.Sg	_	_	_	_	I-PC	I-NP	NE	s356_13
+14	vngeworent	_	_	ADJD	Pos.Fem.Nom.Sg	_	_	_	_	B-AC	B-AP	ADJD	s356_14
+15	funden	_	_	VVPP	_	_	_	_	_	O	O	VVPP	s356_15
+16	/	_	_	$.	_	_	_	_	_	O	O	$(	s356_16
+17	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s356_17
+
+# sent_id = 41
+# sent_id(Tiger) = s362
+# PTBstring = (S:--(ADV:MO Nü)(VAFIN:HD warn)(NP:SB(CARD:NK zwen)(ADJA:NK alt)(NN:NK Bischoue))(ADV:MO dieczeit)(PP:MO(APPR:AC bey)(NP:GL(PPOSAT:NK meiner)(NN:NK frauwn))(NN:NK gnad)(PUNKT:-- /)))
+# PTBstring_simple = (VROOT(S(AVP(ADV Nü))(VP(VAFIN warn))(NP(CARD zwen)(ADJA alt)(NN Bischoue))(AVP(ADV dieczeit))(PP(APPR bey)(NP(PPOSAT meiner)(NN frauwn))(NN gnad)(PUNKT /))))
+# text = Nü warn zwen alt Bischoue dieczeit bey meiner frauwn gnad / (.)
+1	Nü	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s362_1
+2	warn	_	_	VAFIN	+3.Pl.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s362_2
+3	zwen	_	_	CARD	_	_	_	_	_	B-NC	B-NP	CARD	s362_3
+4	alt	_	_	ADJA	Pos.*.Nom.Pl	_	_	_	_	I-NC	I-NP	ADJA	s362_4
+5	Bischoue	_	_	NN	*.Nom.Pl	_	_	_	_	I-NC	I-NP	NA	s362_5
+6	dieczeit	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s362_6
+7	bey	_	_	APPR	_	_	_	_	_	B-sPC	B-PP	APPR	s362_7
+8	meiner	_	_	PPOSAT	Fem.Gen.Sg	_	_	_	_	B-NC	I-PP	DPOS	s362_8
+9	frauwn	_	_	NN	Fem.Gen.Sg	_	_	_	_	I-NC	I-PP	NA	s362_9
+10	gnad	_	_	NN	Fem.Dat.Sg	_	_	_	_	B-PC	I-PP	NA	s362_10
+11	/	_	_	$.	_	_	_	_	_	O	I-PP	$(	s362_11
+12	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s362_12
+
+# sent_id = 42
+# sent_id(Tiger) = s377
+# PTBstring = (CS:--(S:CJ(ADV:MO Nu)(VAFIN:HD was)(PPER:SB wir)(PP:MO(APPR:AC in)(ART:NK dem)(NN:NK Brobsthof))(PP:MO(APPR:AC zu)(NN:NK herberg)(KOMMA:-- /)))(S:CJ(ADV:UC da)(VAFIN:HD was)(NP:SB(ART:NK ain)(ADJA:NK klainer)(NN:UC garten))(PP:MO(ADV:HD jnn)(KOMMA:-- /)))(S:CJ(ADV:MO da)(VVFIN:HD sprach)(PPER:SB ich)(CS:OC(S:CJ(NP:VO(ADJA:NK gnedig)(NN:NK fraw))(VVIMP:HD lasst)(PPER:OA vns)(VP:OC(PPER:OA sy)(PTKVZ:SVP in)(VVINF:HD graben)(PP:MO(APPR:AC in)(ART:NK den)(NN:NK garten)(KLAMMER:-- /))))(KON:CD vnd)(S:CJ(S:MO(KOUS:CJ ob)(NP:SB(ART:NK die)(NN:NK stat))(KOUS:CJ schon)(VVPP:OC verloren)(VAFIN:HD wirt)(KOMMA:-- /))(PPER:SB wir)(VMFIN:HD wellen)(VP:OC(ADV:MO dennoch)(ADV:MO wol)(NP:OA(ART:NK ain)(NN:NK syn))(VVINF:HD vinden)(S:MO(KOUS:CP daz)(PPER:SB wir)(PP:MO(APPR:AC in)(ART:NK den)(NN:NK garten))(VVFIN:HD komen)(KOMMA:-- /)(PP:MO(APPR:AC vber)(ART:NK die)(NN:NK maur))))))))
+# PTBstring_simple = (VROOT(CS(S(AVP(ADV Nu))(VP(VAFIN was))(NP(PPER wir))(PP(APPR in)(ART dem)(NN Brobsthof))(PP(APPR zu)(NN herberg)(KOMMA /)))(S(AVP(ADV da))(VP(VAFIN was))(NP(ART ain)(ADJA klainer)(NN garten))(PP(ADV jnn)(KOMMA /)))(S(AVP(ADV da))(VP(VVFIN sprach))(NP(PPER ich))(CS(S(NP(ADJA gnedig)(NN fraw))(VP(VVIMP lasst))(NP(PPER vns))(VP(PPER sy)(PTKVZ in)(VVINF graben)(PP(APPR in)(ART den)(NN garten)(KLAMMER /))))(KON vnd)(S(S(KOUS ob)(NP(ART die)(NN stat))(KOUS schon)(VP(VVPP verloren))(VP(VAFIN wirt))(KOMMA /))(NP(PPER wir))(VP(VMFIN wellen))(VP(ADV dennoch)(ADV wol)(NP(ART ain)(NN syn))(VVINF vinden)(S(KOUS daz)(NP(PPER wir))(PP(APPR in)(ART den)(NN garten))(VP(VVFIN komen))(KOMMA /)(PP(APPR vber)(ART die)(NN maur)))))))))
+# text = Nu was wir in dem Brobsthof zu herberg / (,) da was ain klainer garten jnn / (,) da sprach ich (:) (") gnedig fraw (,) lasst vns sy in graben in den garten / vnd ob die stat schon verloren wirt / (,) wir wellen dennoch wol ain syn vinden (,) daz wir in den garten komen / (,) vber die maur (.)
+1	Nu	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s377_1
+2	was	_	_	VAFIN	+1.Pl.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s377_2
+3	wir	_	_	PPER	+1.Pl.Mask.Nom	_	_	_	_	B-NC	B-NP	PPER	s377_3
+4	in	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s377_4
+5	dem	_	_	ART	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTB	s377_5
+6	Brobsthof	_	_	NN	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s377_6
+7	zu	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s377_7
+8	herberg	_	_	NN	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s377_8
+9	/	_	_	$,	_	_	_	_	_	O	I-PP	$(	s377_9
+10	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s377_10
+11	da	_	_	ADV	_	_	_	_	_	B-PC	B-ADVP	PAVD	s377_11
+12	was	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s377_12
+13	ain	_	_	ART	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTU	s377_13
+14	klainer	_	_	ADJA	Pos.Mask.Nom.Sg	_	_	_	_	I-NC	I-NP	ADJA	s377_14
+15	garten	_	_	NN	Mask.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s377_15
+16	jnn	_	_	ADV	_	_	_	_	_	B-PC	B-PP	PAVAP	s377_16
+17	/	_	_	$,	_	_	_	_	_	O	I-PP	$(	s377_17
+18	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s377_18
+19	da	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s377_19
+20	sprach	_	_	VVFIN	+1.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s377_20
+21	ich	_	_	PPER	+1.Sg.Fem.Nom	_	_	_	_	B-NC	B-NP	PPER	s377_21
+22	(:)	_	_	$(	_	_	_	_	_	O	O	$MSBI	s377_22
+23	(")	_	_	$(	_	_	_	_	_	O	O	$QL	s377_23
+24	gnedig	_	_	ADJA	Pos.Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	ADJA	s377_24
+25	fraw	_	_	NN	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s377_25
+26	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s377_26
+27	lasst	_	_	VVIMP	Pl	_	_	_	_	O	O	VVIMP	s377_27
+28	vns	_	_	PPER	+1.Pl.Mask.Akk	_	_	_	_	B-NC	B-NP	PPER	s377_28
+29	sy	_	_	PPER	+3.Sg.Fem.Akk	_	_	_	_	B-NC	B-NP	PPER	s377_29
+30	in	_	_	PTKVZ	_	_	_	_	_	O	O	PTKVZ	s377_30
+31	graben	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s377_31
+32	in	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s377_32
+33	den	_	_	ART	Mask.Akk.Sg	_	_	_	_	I-PC	I-PP	DARTB	s377_33
+34	garten	_	_	NN	Mask.Akk.Sg	_	_	_	_	I-PC	I-PP	NA	s377_34
+35	/	_	_	$(	_	_	_	_	_	O	I-PP	$(	s377_35
+36	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s377_36
+37	ob	_	_	KOUS	_	_	_	_	_	O	O	KOUS	s377_37
+38	die	_	_	ART	Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTB	s377_38
+39	stat	_	_	NN	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s377_39
+40	schon	_	_	KOUS	_	_	_	_	_	O	O	KOUS	s377_40
+41	verloren	_	_	VVPP	Unflekt	_	_	_	_	O	O	VVPP	s377_41
+42	wirt	_	_	VAFIN	+3.Sg.Präs.Ind.Unr	_	_	_	_	O	O	VAFIN	s377_42
+43	/	_	_	$,	_	_	_	_	_	O	O	$(	s377_43
+44	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s377_44
+45	wir	_	_	PPER	+1.Pl.Mask.Nom	_	_	_	_	B-NC	B-NP	PPER	s377_45
+46	wellen	_	_	VMFIN	+1.Pl.Präs.Ind.Unr	_	_	_	_	O	O	VMFIN	s377_46
+47	dennoch	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s377_47
+48	wol	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s377_48
+49	ain	_	_	ART	Mask.Akk.Sg	_	_	_	_	B-NC	B-NP	DARTU	s377_49
+50	syn	_	_	NN	Mask.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s377_50
+51	vinden	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s377_51
+52	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s377_52
+53	daz	_	_	KOUS	_	_	_	_	_	O	O	KOUS	s377_53
+54	wir	_	_	PPER	+1.Pl.Mask.Nom	_	_	_	_	B-NC	B-NP	PPER	s377_54
+55	in	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s377_55
+56	den	_	_	ART	Mask.Akk.Sg	_	_	_	_	I-PC	I-PP	DARTB	s377_56
+57	garten	_	_	NN	Mask.Akk.Sg	_	_	_	_	I-PC	I-PP	NA	s377_57
+58	komen	_	_	VVFIN	+1.Pl.Präs.Ind.St	_	_	_	_	O	O	VVFIN	s377_58
+59	/	_	_	$,	_	_	_	_	_	O	O	$(	s377_59
+60	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s377_60
+61	vber	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s377_61
+62	die	_	_	ART	Fem.Akk.Sg	_	_	_	_	I-PC	I-PP	DARTB	s377_62
+63	maur	_	_	NN	Fem.Akk.Sg	_	_	_	_	I-PC	I-PP	NA	s377_63
+64	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s377_64
+
+# sent_id = 43
+# sent_id(Tiger) = s396
+# PTBstring = (S:--(AVP:MO(NP:RE(ART:NK des)(PIAT:NK andern)(NN:NK tags))(ADV:PH da))(VVFIN:HD zug)(PPER:SB wir)(AVP:MO(PAV:HD dahin)(PP:MO(APPR:AC gen)(NE:NK Rab))))
+# PTBstring_simple = (VROOT(S(AVP(NP(ART des)(PIAT andern)(NN tags))(ADV da))(VP(VVFIN zug))(NP(PPER wir))(AVP(PAV dahin)(PP(APPR gen)(NE Rab)))))
+# text = des andern tags da zug wir dahin gen Rab (.)
+1	des	_	_	ART	Mask.Gen.Sg	_	_	_	_	B-NC	B-ADVP	DARTB	s396_1
+2	andern	_	_	PIAT	Mask.Gen.Sg	_	_	_	_	I-NC	I-ADVP	DINDEF	s396_2
+3	tags	_	_	NN	Mask.Gen.Sg	_	_	_	_	I-NC	I-ADVP	NA	s396_3
+4	da	_	_	ADV	_	_	_	_	_	B-ADVC	I-ADVP	AVD	s396_4
+5	zug	_	_	VVFIN	+1.Pl.Prät.Ind.Unr	_	_	_	_	O	O	VVFIN	s396_5
+6	wir	_	_	PPER	+1.Pl.Mask.Nom	_	_	_	_	B-NC	B-NP	PPER	s396_6
+7	dahin	_	_	PAV	_	_	_	_	_	B-ADVC	B-ADVP	PAVDAP	s396_7
+8	gen	_	_	APPR	_	_	_	_	_	B-PC	I-ADVP	APPR	s396_8
+9	Rab	_	_	NE	Neut.Nom.Sg	_	_	_	_	I-PC	I-ADVP	NE	s396_9
+10	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s396_10
+
+# sent_id = 44
+# sent_id(Tiger) = s419
+# PTBstring = (CS:--(S:CJ(ADV:MO da)(VVFIN:HD rieten)(NP:SB(ART:NK die)(NN:NK herren))(CS:OC(S:CJ(PIS:SB Man)(VMFIN:HD solt)(VP:OC(NP:OA(ART:NK das)(ADJA:NK edel)(NN:NK geslecht))(PTKNEG:NG nicht)(ADV:MO beyeinander)(VVINF:HD lassen)(KOMMA:-- /)))(S:CJ(PIS:SB Man)(VMFIN:HD solt)(VP:OC(PPER:OA sy)(VVINF:HD tailen)(KLAMMER:-- /)))))(KON:CD vnd)(S:CJ(PIS:SB ettlich)(VVFIN:HD rieten)(KOMMA:-- /)(S:OC(PIS:SB man)(VMFIN:HD solt)(VP:OC(NP:OA(NN:NK kung)(NE:APP lassla))(AVP:MO(ADV:HD herauf)(PP:MO(APPR:AC gen)(NE:NK Odenburgk)))(VVINF:HD fueren)(KLAMMER:-- /))))(KON:CD vnd)(S:CJ(PIS:SB ettleich)(VVFIN:HD rieten)(S:OC(PIS:SB man)(VMFIN:HD solt)(VP:OC(PPER:OA in)(PP:MO(APPR:AC auf)(ART:NK den)(NE:NK vorchttenstain))(VVINF:HD fueren)(KLAMMER:-- /))))(KON:CD vnd)(S:CJ(VVFIN:HD rieten)(S:OC(PIS:SB man)(VMFIN:HD solt)(VP:OC(NP:OA(PPOSAT:NK mein)(ADJA:NK junge)(NN:NK fraun))(PP:MO(APPR:AC zu)(NE:NK Rab))(VVINF:HD lassen)))))
+# PTBstring_simple = (VROOT(CS(S(AVP(ADV da))(VP(VVFIN rieten))(NP(ART die)(NN herren))(CS(S(NP(PIS Man))(VP(VMFIN solt))(VP(NP(ART das)(ADJA edel)(NN geslecht))(PTKNEG nicht)(ADV beyeinander)(VVINF lassen)(KOMMA /)))(S(NP(PIS Man))(VP(VMFIN solt))(VP(PPER sy)(VVINF tailen)(KLAMMER /)))))(KON vnd)(S(NP(PIS ettlich))(VP(VVFIN rieten))(KOMMA /)(S:OC(NP(PIS man))(VP(VMFIN solt))(VP(NP(NN kung)(NE lassla))(AVP(ADV herauf)(PP(APPR gen)(NE Odenburgk)))(VVINF fueren)(KLAMMER /))))(KON vnd)(S(NP(PIS ettleich))(VP(VVFIN rieten))(S:OC(NP(PIS man))(VP(VMFIN solt))(VP(PPER in)(PP(APPR auf)(ART den)(NE vorchttenstain))(VVINF fueren)(KLAMMER /))))(KON vnd)(S(VP(VVFIN rieten))(S:OC(NP(PIS man))(VP(VMFIN solt))(VP(NP(PPOSAT mein)(ADJA junge)(NN fraun))(PP(APPR zu)(NE Rab))(VVINF lassen))))))
+# text = da rieten die herren (,) Man solt das edel geslecht nicht beyeinander lassen / (,) Man solt sy tailen / vnd ettlich rieten / (,) man solt kung lassla herauf gen Odenburgk fueren / vnd ettleich rieten man solt in auf den vorchttenstain fueren / vnd rieten (,) man solt mein junge fraun zu Rab lassen (.)
+1	da	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s419_1
+2	rieten	_	_	VVFIN	+3.Pl.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s419_2
+3	die	_	_	ART	*.Nom.Pl	_	_	_	_	B-NC	B-NP	DARTB	s419_3
+4	herren	_	_	NN	*.Nom.Pl	_	_	_	_	I-NC	I-NP	NA	s419_4
+5	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s419_5
+6	Man	_	_	PIS	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	PINDEF	s419_6
+7	solt	_	_	VMFIN	+3.Sg.Prät.Konj.Unr	_	_	_	_	O	O	VMFIN	s419_7
+8	das	_	_	ART	Neut.Akk.Sg	_	_	_	_	B-NC	B-NP	DARTB	s419_8
+9	edel	_	_	ADJA	Pos.Neut.Akk.Sg	_	_	_	_	I-NC	I-NP	ADJA	s419_9
+10	geslecht	_	_	NN	Neut.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s419_10
+11	nicht	_	_	PTKNEG	_	_	_	_	_	B-ADVC	B-ADVP	PTKNEG	s419_11
+12	beyeinander	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s419_12
+13	lassen	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s419_13
+14	/	_	_	$,	_	_	_	_	_	O	O	$(	s419_14
+15	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s419_15
+16	Man	_	_	PIS	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	PINDEF	s419_16
+17	solt	_	_	VMFIN	+3.Sg.Prät.Konj.Unr	_	_	_	_	O	O	VMFIN	s419_17
+18	sy	_	_	PPER	+3.Pl.Mask.Akk	_	_	_	_	B-NC	B-NP	PPER	s419_18
+19	tailen	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s419_19
+20	/	_	_	$(	_	_	_	_	_	O	O	$(	s419_20
+21	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s419_21
+22	ettlich	_	_	PIS	*.Nom.Pl	_	_	_	_	B-NC	B-NP	PINDEF	s419_22
+23	rieten	_	_	VVFIN	+3.Pl.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s419_23
+24	/	_	_	$,	_	_	_	_	_	O	O	$(	s419_24
+25	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s419_25
+26	man	_	_	PIS	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	PINDEF	s419_26
+27	solt	_	_	VMFIN	+3.Sg.Prät.Konj.Unr	_	_	_	_	O	O	VMFIN	s419_27
+28	kung	_	_	NN	Mask.Akk.Sg	_	_	_	_	B-NC	B-NP	NA	s419_28
+29	lassla	_	_	NE	Mask.Akk.Sg	_	_	_	_	B-NC	I-NP	NE	s419_29
+30	herauf	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s419_30
+31	gen	_	_	APPR	_	_	_	_	_	B-PC	I-ADVP	APPR	s419_31
+32	Odenburgk	_	_	NE	Neut.Dat.Sg	_	_	_	_	I-PC	I-ADVP	NE	s419_32
+33	fueren	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s419_33
+34	/	_	_	$(	_	_	_	_	_	O	O	$(	s419_34
+35	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s419_35
+36	ettleich	_	_	PIS	*.Nom.Pl	_	_	_	_	B-NC	B-NP	PINDEF	s419_36
+37	rieten	_	_	VVFIN	+3.Pl.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s419_37
+38	man	_	_	PIS	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	PINDEF	s419_38
+39	solt	_	_	VMFIN	+3.Sg.Prät.Konj.Unr	_	_	_	_	O	O	VMFIN	s419_39
+40	in	_	_	PPER	+3.Sg.Mask.Akk	_	_	_	_	B-NC	B-NP	PPER	s419_40
+41	auf	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s419_41
+42	den	_	_	ART	Mask.Akk.Sg	_	_	_	_	I-PC	I-PP	DARTB	s419_42
+43	vorchttenstain	_	_	NE	Mask.Akk.Sg	_	_	_	_	I-PC	I-PP	NE	s419_43
+44	fueren	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s419_44
+45	/	_	_	$(	_	_	_	_	_	O	O	$(	s419_45
+46	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s419_46
+47	rieten	_	_	VVFIN	+3.Pl.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s419_47
+48	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s419_48
+49	man	_	_	PIS	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	PINDEF	s419_49
+50	solt	_	_	VMFIN	+3.Sg.Prät.Konj.Unr	_	_	_	_	O	O	VMFIN	s419_50
+51	mein	_	_	PPOSAT	Fem.Akk.Sg	_	_	_	_	B-NC	B-NP	DPOS	s419_51
+52	junge	_	_	ADJA	Pos.Fem.Akk.Sg	_	_	_	_	I-NC	I-NP	ADJA	s419_52
+53	fraun	_	_	NN	Fem.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s419_53
+54	zu	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s419_54
+55	Rab	_	_	NE	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	NE	s419_55
+56	lassen	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s419_56
+57	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s419_57
+
+# sent_id = 45
+# sent_id(Tiger) = s424
+# PTBstring = (S:--(KON:JU vnd)(VVFIN:HD gieng)(PP:MO(APPR:AC mit)(ART:NK den)(NN:NK herren))(PP:CVC(APPR:AC zu)(NN:NK Rat)(KOMMA:-- /))(S:OC(PP:MO(APPR:AC bei)(PWAT:NK welhem)(NN:NK tail))(PPER:SB ich)(VMFIN:HD solt)(VP:OC(VVINF:HD beleiben)(PUNKT:-- /))))
+# PTBstring_simple = (VROOT(S(KON vnd)(VP(VVFIN gieng))(PP(APPR mit)(ART den)(NN herren))(PP(APPR zu)(NN Rat)(KOMMA /))(S:OC(PP(APPR bei)(PWAT welhem)(NN tail))(NP(PPER ich))(VP(VMFIN solt))(VP(VVINF beleiben)(PUNKT /)))))
+# text = (") vnd gieng mit den herren zu Rat / (,) bei welhem tail ich solt beleiben / (.)
+1	(")	_	_	$(	_	_	_	_	_	O	O	$QR	s424_1
+2	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s424_2
+3	gieng	_	_	VVFIN	+1.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s424_3
+4	mit	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s424_4
+5	den	_	_	ART	*.Dat.Pl	_	_	_	_	I-PC	I-PP	DARTB	s424_5
+6	herren	_	_	NN	*.Dat.Pl	_	_	_	_	I-PC	I-PP	NA	s424_6
+7	zu	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s424_7
+8	Rat	_	_	NN	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s424_8
+9	/	_	_	$,	_	_	_	_	_	O	I-PP	$(	s424_9
+10	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s424_10
+11	bei	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s424_11
+12	welhem	_	_	PWAT	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	DW	s424_12
+13	tail	_	_	NN	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s424_13
+14	ich	_	_	PPER	+1.Sg.Fem.Nom	_	_	_	_	B-NC	B-NP	PPER	s424_14
+15	solt	_	_	VMFIN	+1.Sg.Prät.Konj.Unr	_	_	_	_	O	O	VMFIN	s424_15
+16	beleiben	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s424_16
+17	/	_	_	$.	_	_	_	_	_	O	O	$(	s424_17
+18	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s424_18
+
+# sent_id = 46
+# sent_id(Tiger) = s425
+# PTBstring = (S:--(ADV:MO da)(VVFIN:HD wolten)(NP:SB(ART:NK dy)(NN:NK heren))(NP:OA(PTKNEG:NG nicht)(PIS:NK anders)(KOMMA:-- /)(S:CC(KOKOM:CM denn)(KOUS:CP daz)(PPER:SB ich)(PP:MO(APPR:AC bei)(ART:NK dem)(ADJA:NK edlen)(NN:NK kung))(VMFIN:HD solt)(VP:OC(VVINF:HD beleiben)(PUNKT:-- /)))))
+# PTBstring_simple = (VROOT(S(AVP(ADV da))(VP(VVFIN wolten))(NP(ART dy)(NN heren))(NP(PTKNEG nicht)(PIS anders)(KOMMA /)(S(KOKOM denn)(KOUS daz)(NP(PPER ich))(PP(APPR bei)(ART dem)(ADJA edlen)(NN kung))(VP(VMFIN solt))(VP(VVINF beleiben)(PUNKT /))))))
+# text = da wolten dy heren nicht anders / (,) denn daz ich bei dem edlen kung solt beleiben / (.)
+1	da	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s425_1
+2	wolten	_	_	VVFIN	+3.Pl.Prät.Ind.Unr	_	_	_	_	O	O	VVFIN	s425_2
+3	dy	_	_	ART	*.Nom.Pl	_	_	_	_	B-NC	B-NP	DARTB	s425_3
+4	heren	_	_	NN	*.Nom.Pl	_	_	_	_	I-NC	I-NP	NA	s425_4
+5	nicht	_	_	PTKNEG	_	_	_	_	_	B-NC	B-NP	PTKNEG	s425_5
+6	anders	_	_	PIS	Neut.Akk.Sg	_	_	_	_	I-NC	I-NP	PINDEF	s425_6
+7	/	_	_	$,	_	_	_	_	_	O	O	$(	s425_7
+8	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s425_8
+9	denn	_	_	KOKOM	_	_	_	_	_	O	B-NP	KOKOM	s425_9
+10	daz	_	_	KOUS	_	_	_	_	_	O	O	KOUS	s425_10
+11	ich	_	_	PPER	+1.Sg.Fem.Nom	_	_	_	_	B-NC	B-NP	PPER	s425_11
+12	bei	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s425_12
+13	dem	_	_	ART	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTB	s425_13
+14	edlen	_	_	ADJA	Pos.Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	ADJA	s425_14
+15	kung	_	_	NN	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s425_15
+16	solt	_	_	VMFIN	+1.Sg.Prät.Konj.Unr	_	_	_	_	O	O	VMFIN	s425_16
+17	beleiben	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s425_17
+18	/	_	_	$.	_	_	_	_	_	O	O	$(	s425_18
+19	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s425_19
+
+# sent_id = 47
+# sent_id(Tiger) = s428
+# PTBstring = (CS:--(S:CJ(ADV:MO da)(VVFIN:HD sandt)(NP:SB(ART:NK dy)(ADJA:NK edel)(NN:NK kungjnn))(PP:MO(APPR:AC nach)(PPER:NK mir)))(KON:CD vnd)(S:CJ(VVFIN:HD sprach)(CS:OC(S:CJ(NP:VO(ADJA:NK liebe)(NE:NK kottannerinn))(PWAV:MO wie)(VVFIN:HD rat)(PPER:SB ir)(PPER:DA mir))(S:CJ(PWAV:UC wo)(VMFIN:HD sol)(PPER:SB ich)(VP:OC(NP:OA(PPOSAT:NK mein)(NN:NK sun))(ADV:UC hin)(VVINF:HD fuern)(PUNKT:-- /))))))
+# PTBstring_simple = (VROOT(CS(S(AVP(ADV da))(VP(VVFIN sandt))(NP(ART dy)(ADJA edel)(NN kungjnn))(PP(APPR nach)(PPER mir)))(KON vnd)(S(VP(VVFIN sprach))(CS(S(NP(ADJA liebe)(NE kottannerinn))(PWAV wie)(VP(VVFIN rat))(NP(PPER ir))(NP(PPER mir)))(S(PWAV wo)(VP(VMFIN sol))(NP(PPER ich))(VP(NP(PPOSAT mein)(NN sun))(ADV hin)(VVINF fuern)(PUNKT /)))))))
+# text = da sandt dy edel kungjnn nach mir vnd sprach (:) (") liebe kottannerinn (,) wie rat ir mir (,) wo sol ich mein sun hin fuern / (?) (")
+1	da	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s428_1
+2	sandt	_	_	VVFIN	+3.Sg.Prät.Ind.Sw	_	_	_	_	O	O	VVFIN	s428_2
+3	dy	_	_	ART	Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTB	s428_3
+4	edel	_	_	ADJA	Pos.Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	ADJA	s428_4
+5	kungjnn	_	_	NN	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s428_5
+6	nach	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s428_6
+7	mir	_	_	PPER	+1.Sg.Fem.Dat	_	_	_	_	I-PC	I-PP	PPER	s428_7
+8	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s428_8
+9	sprach	_	_	VVFIN	+3.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s428_9
+10	(:)	_	_	$(	_	_	_	_	_	O	O	$MSBI	s428_10
+11	(")	_	_	$(	_	_	_	_	_	O	O	$QL	s428_11
+12	liebe	_	_	ADJA	Pos.Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	ADJA	s428_12
+13	kottannerinn	_	_	NE	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	NE	s428_13
+14	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s428_14
+15	wie	_	_	PWAV	_	_	_	_	_	O	O	AVW	s428_15
+16	rat	_	_	VVFIN	+2.Pl.Präs.Ind.St	_	_	_	_	O	O	VVFIN	s428_16
+17	ir	_	_	PPER	+2.Pl.Mask.Nom	_	_	_	_	B-NC	B-NP	PPER	s428_17
+18	mir	_	_	PPER	+1.Sg.Fem.Dat	_	_	_	_	B-NC	B-NP	PPER	s428_18
+19	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s428_19
+20	wo	_	_	PWAV	_	_	_	_	_	O	O	PAVW	s428_20
+21	sol	_	_	VMFIN	+1.Sg.Präs.Ind.Unr	_	_	_	_	O	O	VMFIN	s428_21
+22	ich	_	_	PPER	+1.Sg.Fem.Nom	_	_	_	_	B-NC	B-NP	PPER	s428_22
+23	mein	_	_	PPOSAT	Mask.Akk.Sg	_	_	_	_	B-NC	B-NP	DPOS	s428_23
+24	sun	_	_	NN	Mask.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s428_24
+25	hin	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	PAVAP	s428_25
+26	fuern	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s428_26
+27	/	_	_	$.	_	_	_	_	_	O	O	$(	s428_27
+28	(?)	_	_	$(	_	_	_	_	_	O	O	$MSBI	s428_28
+29	(")	_	_	$(	_	_	_	_	_	O	O	$QR	s428_29
+
+# sent_id = 48
+# sent_id(Tiger) = s436
+# PTBstring = (CS:--(S:CJ(ADV:MO so)(VAFIN:HD was)(NP:SB(PPER:NK ich)(PN:APP(NE:PNC elena)(NE:PNC kottannerinn)))(PP:MO(APPR:AC mit)(ART:NK der)(NN:NK am))(NP:PD(ADJA:NK selbvierde)(NP:NK(TRUNC:UC frawns)(NN:UC pild)(KLAMMER:-- /))))(KON:CD vnd)(S:CJ(PPER:SB ich)(VVFIN:HD kam)(ADV:MO vngern)(PP:MO(APPR:AC in)(ART:NK die)(NN:NK Rais)))(KON:CD vnd)(S:CJ(VAFIN:HD ward)(VP:OC(NP:DA(NP:GL(PPOSAT:NK meiner)(NN:NK fraun))(NN:NK gnad))(NP:OA(PPOSAT:NK mein)(NN:NK notdürft))(ADV:MO vast)(VVINF:HD erczellen)(KOMMA:-- /))))
+# PTBstring_simple = (VROOT(CS(S(AVP(ADV so))(VP(VAFIN was))(NP(PPER ich)(PN(NE elena)(NE kottannerinn)))(PP(APPR mit)(ART der)(NN am))(NP(ADJA selbvierde)(NP(TRUNC frawns)(NN pild)(KLAMMER /))))(KON vnd)(S(NP(PPER ich))(VP(VVFIN kam))(AVP(ADV vngern))(PP(APPR in)(ART die)(NN Rais)))(KON vnd)(S(VP(VAFIN ward))(VP(NP(NP(PPOSAT meiner)(NN fraun))(NN gnad))(NP(PPOSAT mein)(NN notdürft))(ADV vast)(VVINF erczellen)(KOMMA /)))))
+# text = so was ich (,) elena kottannerinn (,) mit der am selbvierde frawns pild / vnd ich kam vngern in die Rais vnd ward meiner fraun gnad mein notdürft vast erczellen / (,)
+1	so	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s436_1
+2	was	_	_	VAFIN	+1.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s436_2
+3	ich	_	_	PPER	+1.Sg.Fem.Nom	_	_	_	_	B-NC	B-NP	PPER	s436_3
+4	(,)	_	_	$,	_	_	_	_	_	O	I-NP	$MK	s436_4
+5	elena	_	_	NE	Fem.Nom.Sg	_	_	_	_	B-NC	I-NP	NE	s436_5
+6	kottannerinn	_	_	NE	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	NE	s436_6
+7	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s436_7
+8	mit	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s436_8
+9	der	_	_	ART	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTB	s436_9
+10	am	_	_	NN	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s436_10
+11	selbvierde	_	_	ADJA	Pos.Neut.Nom.Sg	_	_	_	_	B-NC	B-NP	ADJA	s436_11
+12	frawns	_	_	TRUNC	_	_	_	_	_	B-NC	I-NP	TRUNC	s436_12
+13	pild	_	_	NN	Neut.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s436_13
+14	/	_	_	$(	_	_	_	_	_	O	I-NP	$(	s436_14
+15	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s436_15
+16	ich	_	_	PPER	+1.Sg.Fem.Nom	_	_	_	_	B-NC	B-NP	PPER	s436_16
+17	kam	_	_	VVFIN	+1.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s436_17
+18	vngern	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s436_18
+19	in	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s436_19
+20	die	_	_	ART	Fem.Akk.Sg	_	_	_	_	I-PC	I-PP	DARTB	s436_20
+21	Rais	_	_	NN	Fem.Akk.Sg	_	_	_	_	I-PC	I-PP	NA	s436_21
+22	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s436_22
+23	ward	_	_	VAFIN	+1.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s436_23
+24	meiner	_	_	PPOSAT	Fem.Gen.Sg	_	_	_	_	B-NC	B-NP	DPOS	s436_24
+25	fraun	_	_	NN	Fem.Gen.Sg	_	_	_	_	I-NC	I-NP	NA	s436_25
+26	gnad	_	_	NN	Fem.Dat.Sg	_	_	_	_	B-NC	I-NP	NA	s436_26
+27	mein	_	_	PPOSAT	Fem.Akk.Sg	_	_	_	_	B-NC	B-NP	DPOS	s436_27
+28	notdürft	_	_	NN	Fem.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s436_28
+29	vast	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s436_29
+30	erczellen	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s436_30
+31	/	_	_	$,	_	_	_	_	_	O	O	$(	s436_31
+32	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s436_32
+
+# sent_id = 49
+# sent_id(Tiger) = s451
+# PTBstring = (S:--(ADV:MO da)(VVFIN:HD sprach)(PPER:SB ich)(S:OC(PPER:SB jch)(VVFIN:HD rat)(PPER:PH sein)(ADV:MO auch)(PTKNEG:NG nicht)(S:RE(KOUS:CP daz)(PPER:SB wir)(ADV:MO alhie)(VVFIN:HD beleiben))))
+# PTBstring_simple = (VROOT(S(AVP(ADV da))(VP(VVFIN sprach))(NP(PPER ich))(S:OC(NP(PPER jch))(VP(VVFIN rat))(NP(PPER sein))(AVP(ADV auch))(AVP(PTKNEG nicht))(S(KOUS daz)(NP(PPER wir))(AVP(ADV alhie))(VP(VVFIN beleiben))))))
+# text = (") da sprach ich (:) (") jch rat sein auch nicht (,) daz wir alhie beleiben (,)
+1	(")	_	_	$(	_	_	_	_	_	O	O	$QR	s451_1
+2	da	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s451_2
+3	sprach	_	_	VVFIN	+1.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s451_3
+4	ich	_	_	PPER	+1.Sg.Fem.Nom	_	_	_	_	B-NC	B-NP	PPER	s451_4
+5	(:)	_	_	$(	_	_	_	_	_	O	O	$MSBI	s451_5
+6	(")	_	_	$(	_	_	_	_	_	O	O	$QL	s451_6
+7	jch	_	_	PPER	+1.Sg.Fem.Nom	_	_	_	_	B-NC	B-NP	PPER	s451_7
+8	rat	_	_	VVFIN	+1.Sg.Präs.Ind.St	_	_	_	_	O	O	VVFIN	s451_8
+9	sein	_	_	PPER	+3.Sg.Neut.Gen	_	_	_	_	B-NC	B-NP	PPER	s451_9
+10	auch	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s451_10
+11	nicht	_	_	PTKNEG	_	_	_	_	_	B-ADVC	B-ADVP	PTKNEG	s451_11
+12	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s451_12
+13	daz	_	_	KOUS	_	_	_	_	_	O	O	KOUS	s451_13
+14	wir	_	_	PPER	+1.Pl.Mask.Nom	_	_	_	_	B-NC	B-NP	PPER	s451_14
+15	alhie	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s451_15
+16	beleiben	_	_	VVFIN	+1.Pl.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s451_16
+17	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s451_17
+
+# sent_id = 50
+# sent_id(Tiger) = s457
+# PTBstring = (CS:--(S:CJ(ADV:MO da)(VVFIN:HD sant)(PPER:SB ich)(PP:MO(APPR:AC nach)(ART:NK dem)(CAP:NK(ADJA:CJ edeln)(KON:CD vnd)(ADJA:CJ getreün))(NN:NK hern)(NE:APP Vlreichen)(PP:MNR(APPR:AC von)(NE:NK Eyczing))))(KON:CD vnd)(S:CJ(VVFIN:HD sagt)(PPER:DA im)(PDS:OA das)(KLAMMER:-- /))(KON:CD vnd)(S:CJ(VVFIN:HD pat)(PPER:OA jn)(S:OC(KOUS:CP daz)(PPER:SB er)(PAV:PH darob)(VAFIN:HD wer)(S:RE(KOUS:CP daz)(PIS:SB man)(NP:DA(ART:NK den)(ADJA:NK armen)(NN:NK leüten))(NP:OA(PPOSAT:NK ir)(NN:NK Viech))(ADV:MO wider)(VVFIN:HD geb)))))
+# PTBstring_simple = (VROOT(CS(S(AVP(ADV da))(VP(VVFIN sant))(NP(PPER ich))(PP(APPR nach)(ART dem)(CAP(ADJA edeln)(KON vnd)(ADJA getreün))(NN hern)(NE Vlreichen)(PP(APPR von)(NE Eyczing))))(KON vnd)(S(VP(VVFIN sagt))(NP(PPER im))(NP(PDS das))(KLAMMER /))(KON vnd)(S(VP(VVFIN pat))(NP(PPER jn))(S:OC(KOUS daz)(NP(PPER er))(PP(PAV darob))(VP(VAFIN wer))(S(KOUS daz)(NP(PIS man))(NP(ART den)(ADJA armen)(NN leüten))(NP(PPOSAT ir)(NN Viech))(AVP(ADV wider))(VP(VVFIN geb)))))))
+# text = (") da sant ich nach dem edeln vnd getreün hern Vlreichen von Eyczing vnd sagt im das / vnd pat jn (,) daz er darob wer (,) daz man den armen leüten ir Viech wider geb (,)
+1	(")	_	_	$(	_	_	_	_	_	O	O	$QR	s457_1
+2	da	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s457_2
+3	sant	_	_	VVFIN	+1.Sg.Prät.Ind.Sw	_	_	_	_	O	O	VVFIN	s457_3
+4	ich	_	_	PPER	+1.Sg.Fem.Nom	_	_	_	_	B-NC	B-NP	PPER	s457_4
+5	nach	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s457_5
+6	dem	_	_	ART	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTB	s457_6
+7	edeln	_	_	ADJA	Pos.Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	ADJA	s457_7
+8	vnd	_	_	KON	_	_	_	_	_	I-PC	I-PP	KON	s457_8
+9	getreün	_	_	ADJA	Pos.Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	ADJA	s457_9
+10	hern	_	_	NN	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s457_10
+11	Vlreichen	_	_	NE	Mask.Dat.Sg	_	_	_	_	B-NC	I-PP	NE	s457_11
+12	von	_	_	APPR	_	_	_	_	_	B-PC	I-PP	APPR	s457_12
+13	Eyczing	_	_	NE	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	NE	s457_13
+14	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s457_14
+15	sagt	_	_	VVFIN	+1.Sg.Prät.Ind.Sw	_	_	_	_	O	O	VVFIN	s457_15
+16	im	_	_	PPER	+3.Sg.Mask.Dat	_	_	_	_	B-NC	B-NP	PPER	s457_16
+17	das	_	_	PDS	Neut.Akk.Sg	_	_	_	_	B-NC	B-NP	PDEM	s457_17
+18	/	_	_	$(	_	_	_	_	_	O	O	$(	s457_18
+19	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s457_19
+20	pat	_	_	VVFIN	+1.Sg.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s457_20
+21	jn	_	_	PPER	+3.Sg.Mask.Akk	_	_	_	_	B-NC	B-NP	PPER	s457_21
+22	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s457_22
+23	daz	_	_	KOUS	_	_	_	_	_	O	O	KOUS	s457_23
+24	er	_	_	PPER	+3.Sg.Mask.Nom	_	_	_	_	B-NC	B-NP	PPER	s457_24
+25	darob	_	_	PAV	_	_	_	_	_	B-PC	B-PP	PAVDAP	s457_25
+26	wer	_	_	VAFIN	+3.Sg.Prät.Konj.Unr	_	_	_	_	O	O	VAFIN	s457_26
+27	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s457_27
+28	daz	_	_	KOUS	_	_	_	_	_	O	O	KOUS	s457_28
+29	man	_	_	PIS	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	PINDEF	s457_29
+30	den	_	_	ART	*.Dat.Pl	_	_	_	_	B-NC	B-NP	DARTB	s457_30
+31	armen	_	_	ADJA	Pos.*.Dat.Pl	_	_	_	_	I-NC	I-NP	ADJA	s457_31
+32	leüten	_	_	NN	*.Dat.Pl	_	_	_	_	I-NC	I-NP	NA	s457_32
+33	ir	_	_	PPOSAT	Neut.Akk.Sg	_	_	_	_	B-NC	B-NP	DPOS	s457_33
+34	Viech	_	_	NN	Neut.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s457_34
+35	wider	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s457_35
+36	geb	_	_	VVFIN	+3.Sg.Prät.Konj.St	_	_	_	_	O	O	VVFIN	s457_36
+37	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s457_37
+
+# sent_id = 51
+# sent_id(Tiger) = s463
+# PTBstring = (CS:--(S:CJ(KON:JU vnd)(AVP:MO(S:RE(KOUS:CP do)(PPER:SB wir)(ADV:MO nu)(ADV:MO schir)(VVFIN:HD komen)(PP:MO(APPR:AC gegen)(ART:NK der)(NP:NK(TRUNC:UC Eysnein)(NE:UC stat))(APZR:AC vber)))(ADV:PH da))(VAFIN:HD waren)(PPER:SB wir)(ADV:MO aber)(PP:PD(APPR:AC in)(NN:NK sorgen)))(KON:CD wan)(S:CJ(PIS:SB man)(VAFIN:HD het)(VP:OC(PPER:DA vns)(VVPP:HD gesagt)(CS:OC(S:CJ(PPER:PH es)(VAFIN:HD wer)(NP:SB(ART:NK ain)(ADJA:NK michler)(NN:NK zeug)(PP:MNR(APPR:AC von)(ADJA:NK geraisigen)))(VP:OC(PP:MO(APPR:AC in)(ART:NK die)(NP:NK(TRUNC:UC Eysnein)(NE:UC stat)))(VVPP:HD komen)))(KON:CD vnd)(S:CJ(PPER:SB es)(VAFIN:HD weren)(ADV:MO auch)(NN:PD veint))))))
+# PTBstring_simple = (VROOT(CS(S(KON vnd)(AVP(S(KOUS do)(NP(PPER wir))(AVP(ADV nu))(AVP(ADV schir))(VP(VVFIN komen))(PP(APPR gegen)(ART der)(NP(TRUNC Eysnein)(NE stat))(APZR vber)))(ADV da))(VP(VAFIN waren))(NP(PPER wir))(AVP(ADV aber))(PP(APPR in)(NN sorgen)))(KON wan)(S(NP(PIS man))(VP(VAFIN het))(VP(PPER vns)(VVPP gesagt)(CS(S(NP(PPER es))(VP(VAFIN wer))(NP(ART ain)(ADJA michler)(NN zeug)(PP(APPR von)(ADJA geraisigen)))(VP(PP(APPR in)(ART die)(NP(TRUNC Eysnein)(NE stat)))(VVPP komen)))(KON vnd)(S(NP(PPER es))(VP(VAFIN weren))(AVP(ADV auch))(NP(NN veint))))))))
+# text = vnd do wir nu schir komen gegen der Eysnein stat vber (,) da waren wir aber in sorgen (,) wan man het vns gesagt (,) es wer ain michler zeug von geraisigen in die Eysnein stat komen vnd es weren auch veint (.)
+1	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s463_1
+2	do	_	_	KOUS	_	_	_	_	_	O	B-ADVP	KOUS	s463_2
+3	wir	_	_	PPER	+1.Pl.Mask.Nom	_	_	_	_	B-NC	I-ADVP	PPER	s463_3
+4	nu	_	_	ADV	_	_	_	_	_	B-ADVC	I-ADVP	AVD	s463_4
+5	schir	_	_	ADV	_	_	_	_	_	B-ADVC	I-ADVP	AVD	s463_5
+6	komen	_	_	VVFIN	+1.Pl.Prät.Ind.St	_	_	_	_	O	I-ADVP	VVFIN	s463_6
+7	gegen	_	_	APPR	_	_	_	_	_	B-PC	I-ADVP	APPR	s463_7
+8	der	_	_	ART	Fem.Dat.Sg	_	_	_	_	I-PC	I-ADVP	DARTB	s463_8
+9	Eysnein	_	_	TRUNC	_	_	_	_	_	B-PC	I-ADVP	TRUNC	s463_9
+10	stat	_	_	NE	Fem.Dat.Sg	_	_	_	_	I-PC	I-ADVP	NE	s463_10
+11	vber	_	_	APZR	_	_	_	_	_	I-PC	I-ADVP	APZR	s463_11
+12	(,)	_	_	$,	_	_	_	_	_	O	I-ADVP	$MK	s463_12
+13	da	_	_	ADV	_	_	_	_	_	B-ADVC	I-ADVP	AVD	s463_13
+14	waren	_	_	VAFIN	+1.Pl.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s463_14
+15	wir	_	_	PPER	+1.Pl.Mask.Nom	_	_	_	_	B-NC	B-NP	PPER	s463_15
+16	aber	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s463_16
+17	in	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s463_17
+18	sorgen	_	_	NN	*.Dat.Pl	_	_	_	_	I-PC	I-PP	NA	s463_18
+19	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s463_19
+20	wan	_	_	KON	_	_	_	_	_	O	O	KON	s463_20
+21	man	_	_	PIS	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	PINDEF	s463_21
+22	het	_	_	VAFIN	+3.Sg.Prät.Ind.Unr	_	_	_	_	O	O	VAFIN	s463_22
+23	vns	_	_	PPER	+1.Pl.Mask.Dat	_	_	_	_	B-NC	B-NP	PPER	s463_23
+24	gesagt	_	_	VVPP	_	_	_	_	_	O	O	VVPP	s463_24
+25	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s463_25
+26	es	_	_	PPER	+3.Sg.Neut.Nom	_	_	_	_	B-NC	B-NP	PPER	s463_26
+27	wer	_	_	VAFIN	+3.Sg.Prät.Konj.Unr	_	_	_	_	O	O	VAFIN	s463_27
+28	ain	_	_	ART	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTU	s463_28
+29	michler	_	_	ADJA	Komp.Mask.Nom.Sg	_	_	_	_	I-NC	I-NP	ADJA	s463_29
+30	zeug	_	_	NN	Mask.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s463_30
+31	von	_	_	APPR	_	_	_	_	_	B-PC	I-NP	APPR	s463_31
+32	geraisigen	_	_	ADJA	Pos.*.Dat.Pl	_	_	_	_	I-PC	I-NP	ADJS	s463_32
+33	in	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s463_33
+34	die	_	_	ART	Fem.Akk.Sg	_	_	_	_	I-PC	I-PP	DARTB	s463_34
+35	Eysnein	_	_	TRUNC	_	_	_	_	_	B-NC	I-PP	TRUNC	s463_35
+36	stat	_	_	NE	Fem.Akk.Sg	_	_	_	_	I-NC	I-PP	NE	s463_36
+37	komen	_	_	VVPP	_	_	_	_	_	O	O	VVPP	s463_37
+38	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s463_38
+39	es	_	_	PPER	+3.Sg.Neut.Nom	_	_	_	_	B-NC	B-NP	PPER	s463_39
+40	weren	_	_	VAFIN	+3.Pl.Prät.Konj.Unr	_	_	_	_	O	O	VAFIN	s463_40
+41	auch	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s463_41
+42	veint	_	_	NN	*.Nom.Pl	_	_	_	_	B-NC	B-NP	NA	s463_42
+43	(.)	_	_	$.	_	_	_	_	_	O	O	$MSBI	s463_43
+
+# sent_id = 52
+# sent_id(Tiger) = s470
+# PTBstring = (S:--(KON:JU vnd)(AVP:MO(PP:RE(AP:MO(PTKNEG:NG nicht)(ADJD:HD lang))(PAV:AC darnach))(ADV:PH da))(VVFIN:HD kamen)(PPER:DA vns)(ADV:MO aber)(NP:SB(ADJA:NK laydige)(NN:NK mer)(CS:OC(S:CJ(PWAV:MO wie)(CNP:SB(NP:CJ(ART:NK der)(ADJA:NK erbierdig)(NN:NK prelat)(NP:APP(ART:NK der)(NN:NK Bischoue)(PP:MNR(APPR:AC von)(NE:NK Gran))))(KON:CD vnd)(NP:CJ(NN:NK her)(NE:APP lasslawan)(PP:MNR(APPR:AC von)(NE:NK Gara))))(ADJD:PD gefangen)(VAFIN:HD wern))(KON:CD vnd)(S:CJ(VAFIN:HD wern)(VP:OC(PP:MO(APPR:AC in)(NN:NK gelaitt))(PP:MO(APPR:AC zu)(PDS:NK dem)(PP:MNR(APPR:AC von)(NE:NK polan)))(VVPP:HD geriten)))(KON:CD vnd)(S:CJ(PDS:SB der)(VAFIN:HD hiet)(VP:OC(PPER:OA sew)(PP:MO(APPR:AC in)(ART:NK dem)(NN:NK gelaitt))(VVPP:HD gefangen)(KOMMA:-- /)(PP:MO(PAV:PH darumb)(S:RE(KOUS:CP daz)(PPER:SB sie)(PPER:DA im)(VMFIN:HD solten)(VP:OC(VVINF:HD helffen)(PP:OP(APPR:AC zu)(ART:NK der)(NN:NK kronung)(PP:MNR(APPR:AC zu)(ART:NK dem)(NN:NK kungReich)(PP:MNR(APPR:AC zu)(NE:NK vngern)))))))))(KON:CD vnd)(S:CJ(PDS:SB dy)(VAFIN:HD heten)(ADV:MO noch)(NP:OA(ART:NK ain)(NN:NK zweifl)(S:OC(KOUS:CP daz)(NP:SB(ART:NK dy)(ADJA:NK heylig)(NN:NK kron))(ADV:MO nach)(PP:MO(APPR:AC auf)(ART:NK der)(NE:NK plintenpurg))(VAFIN:HD wer)(KOMMA:-- /)))(PP:MO(PAV:PH darumb)(S:RE(KOUS:CP daz)(CNP:SB(NP:CJ(ART:NK dy)(NN:NK sigel))(KON:CD vnd)(NP:CJ(ART:NK die)(NN:NK slos)))(ADV:MO nach)(PP:MO(APPR:AC an)(ART:NK den))))))))
+# PTBstring_simple = (VROOT(S(KON vnd)(AVP(PP(AP(PTKNEG nicht)(ADJD lang))(PAV darnach))(ADV da))(VP(VVFIN kamen))(NP(PPER vns))(AVP(ADV aber))(NP(ADJA laydige)(NN mer)(CS(S(PWAV wie)(CNP(NP(ART der)(ADJA erbierdig)(NN prelat)(NP(ART der)(NN Bischoue)(PP(APPR von)(NE Gran))))(KON vnd)(NP(NN her)(NE lasslawan)(PP(APPR von)(NE Gara))))(AP(ADJD gefangen))(VP(VAFIN wern)))(KON vnd)(S(VP(VAFIN wern))(VP(PP(APPR in)(NN gelaitt))(PP(APPR zu)(PDS dem)(PP(APPR von)(NE polan)))(VVPP geriten)))(KON vnd)(S(NP(PDS der))(VP(VAFIN hiet))(VP(PPER sew)(PP(APPR in)(ART dem)(NN gelaitt))(VVPP gefangen)(KOMMA /)(PP(PAV darumb)(S(KOUS daz)(NP(PPER sie))(NP(PPER im))(VP(VMFIN solten))(VP(VVINF helffen)(PP(APPR zu)(ART der)(NN kronung)(PP(APPR zu)(ART dem)(NN kungReich)(PP(APPR zu)(NE vngern)))))))))(KON vnd)(S(NP(PDS dy))(VP(VAFIN heten))(AVP(ADV noch))(NP(ART ain)(NN zweifl)(S:OC(KOUS daz)(NP(ART dy)(ADJA heylig)(NN kron))(AVP(ADV nach))(PP(APPR auf)(ART der)(NE plintenpurg))(VP(VAFIN wer))(KOMMA /)))(PP(PAV darumb)(S(KOUS daz)(CNP(NP(ART dy)(NN sigel))(KON vnd)(NP(ART die)(NN slos)))(AVP(ADV nach))(PP(APPR an)(ART den)))))))))
+# text = vnd nicht lang darnach (,) da kamen vns aber laydige mer (,) wie der erbierdig prelat (,) der Bischoue von Gran vnd her lasslawan von Gara gefangen wern vnd wern in gelaitt zu dem von polan geriten vnd der hiet sew in dem gelaitt gefangen / (,) darumb daz sie im solten helffen zu der kronung zu dem kungReich zu vngern vnd dy heten noch ain zweifl (,) daz dy heylig kron nach auf der plintenpurg wer / (,) darumb daz dy sigel vnd die slos nach an den
+1	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s470_1
+2	nicht	_	_	PTKNEG	_	_	_	_	_	B-PC	B-ADVP	PTKNEG	s470_2
+3	lang	_	_	ADJD	_	_	_	_	_	I-PC	I-ADVP	ADJV	s470_3
+4	darnach	_	_	PAV	_	_	_	_	_	I-PC	I-ADVP	PAVDAP	s470_4
+5	(,)	_	_	$,	_	_	_	_	_	O	I-ADVP	$MK	s470_5
+6	da	_	_	ADV	_	_	_	_	_	B-ADVC	I-ADVP	AVD	s470_6
+7	kamen	_	_	VVFIN	+3.Pl.Prät.Ind.St	_	_	_	_	O	O	VVFIN	s470_7
+8	vns	_	_	PPER	+1.Pl.Mask.Dat	_	_	_	_	B-NC	B-NP	PPER	s470_8
+9	aber	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s470_9
+10	laydige	_	_	ADJA	Pos.*.Nom.Pl	_	_	_	_	B-NC	B-NP	ADJA	s470_10
+11	mer	_	_	NN	*.Nom.Pl	_	_	_	_	I-NC	I-NP	NA	s470_11
+12	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s470_12
+13	wie	_	_	PWAV	_	_	_	_	_	O	O	AVW	s470_13
+14	der	_	_	ART	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTB	s470_14
+15	erbierdig	_	_	ADJA	Pos.Mask.Nom.Sg	_	_	_	_	I-NC	I-NP	ADJA	s470_15
+16	prelat	_	_	NN	Mask.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s470_16
+17	(,)	_	_	$,	_	_	_	_	_	O	I-NP	$MK	s470_17
+18	der	_	_	ART	Mask.Nom.Sg	_	_	_	_	B-NC	I-NP	DARTB	s470_18
+19	Bischoue	_	_	NN	Mask.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s470_19
+20	von	_	_	APPR	_	_	_	_	_	B-PC	I-NP	APPR	s470_20
+21	Gran	_	_	NE	Neut.Dat.Sg	_	_	_	_	I-PC	I-NP	NE	s470_21
+22	vnd	_	_	KON	_	_	_	_	_	O	I-NP	KON	s470_22
+23	her	_	_	NN	Mask.Nom.Sg	_	_	_	_	B-NC	I-NP	NA	s470_23
+24	lasslawan	_	_	NE	Mask.Nom.Sg	_	_	_	_	B-NC	I-NP	NE	s470_24
+25	von	_	_	APPR	_	_	_	_	_	B-PC	I-NP	APPR	s470_25
+26	Gara	_	_	NE	Neut.Dat.Sg	_	_	_	_	I-PC	I-NP	NE	s470_26
+27	gefangen	_	_	ADJD	Pos.*.Nom.Pl	_	_	_	_	B-AC	B-AP	VVPPD	s470_27
+28	wern	_	_	VAFIN	+3.Sg.Prät.Konj.Unr	_	_	_	_	O	O	VAFIN	s470_28
+29	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s470_29
+30	wern	_	_	VAFIN	+3.Sg.Prät.Konj.Unr	_	_	_	_	O	O	VAFIN	s470_30
+31	in	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s470_31
+32	gelaitt	_	_	NN	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s470_32
+33	zu	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s470_33
+34	dem	_	_	PDS	Mask.Dat.Sg	_	_	_	_	I-PC	I-PP	PDEM	s470_34
+35	von	_	_	APPR	_	_	_	_	_	B-PC	I-PP	APPR	s470_35
+36	polan	_	_	NE	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	NE	s470_36
+37	geriten	_	_	VVPP	_	_	_	_	_	O	O	VVPP	s470_37
+38	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s470_38
+39	der	_	_	PDS	Mask.Nom.Sg	_	_	_	_	B-NC	B-NP	PDEM	s470_39
+40	hiet	_	_	VAFIN	+3.Sg.Prät.Konj.Unr	_	_	_	_	O	O	VAFIN	s470_40
+41	sew	_	_	PPER	+3.Pl.Mask.Akk	_	_	_	_	B-NC	B-NP	PPER	s470_41
+42	in	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s470_42
+43	dem	_	_	ART	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTB	s470_43
+44	gelaitt	_	_	NN	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s470_44
+45	gefangen	_	_	VVPP	_	_	_	_	_	O	O	VVPP	s470_45
+46	/	_	_	$,	_	_	_	_	_	O	O	$(	s470_46
+47	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s470_47
+48	darumb	_	_	PAV	_	_	_	_	_	B-PC	B-PP	PAVDAP	s470_48
+49	daz	_	_	KOUS	_	_	_	_	_	O	O	KOUS	s470_49
+50	sie	_	_	PPER	+3.Pl.Mask.Nom	_	_	_	_	B-NC	B-NP	PPER	s470_50
+51	im	_	_	PPER	+3.Sg.Mask.Dat	_	_	_	_	B-NC	B-NP	PPER	s470_51
+52	solten	_	_	VMFIN	+3.Pl.Prät.Konj.Unr	_	_	_	_	O	O	VMFIN	s470_52
+53	helffen	_	_	VVINF	Unflekt	_	_	_	_	O	O	VVINF	s470_53
+54	zu	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s470_54
+55	der	_	_	ART	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTB	s470_55
+56	kronung	_	_	NN	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s470_56
+57	zu	_	_	APPR	_	_	_	_	_	B-PC	I-PP	APPR	s470_57
+58	dem	_	_	ART	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTB	s470_58
+59	kungReich	_	_	NN	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	NA	s470_59
+60	zu	_	_	APPR	_	_	_	_	_	B-PC	I-PP	APPR	s470_60
+61	vngern	_	_	NE	Neut.Dat.Sg	_	_	_	_	I-PC	I-PP	NE	s470_61
+62	vnd	_	_	KON	_	_	_	_	_	O	O	KON	s470_62
+63	dy	_	_	PDS	*.Nom.Pl	_	_	_	_	B-NC	B-NP	PDEM	s470_63
+64	heten	_	_	VAFIN	+3.Pl.Prät.Konj.Unr	_	_	_	_	O	O	VAFIN	s470_64
+65	noch	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s470_65
+66	ain	_	_	ART	Mask.Akk.Sg	_	_	_	_	B-NC	B-NP	DARTU	s470_66
+67	zweifl	_	_	NN	Mask.Akk.Sg	_	_	_	_	I-NC	I-NP	NA	s470_67
+68	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s470_68
+69	daz	_	_	KOUS	_	_	_	_	_	O	O	KOUS	s470_69
+70	dy	_	_	ART	Fem.Nom.Sg	_	_	_	_	B-NC	B-NP	DARTB	s470_70
+71	heylig	_	_	ADJA	Pos.Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	ADJA	s470_71
+72	kron	_	_	NN	Fem.Nom.Sg	_	_	_	_	I-NC	I-NP	NA	s470_72
+73	nach	_	_	ADV	_	_	_	_	_	B-ADVC	B-ADVP	AVD	s470_73
+74	auf	_	_	APPR	_	_	_	_	_	B-PC	B-PP	APPR	s470_74
+75	der	_	_	ART	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	DARTB	s470_75
+76	plintenpurg	_	_	NE	Fem.Dat.Sg	_	_	_	_	I-PC	I-PP	NE	s470_76
+77	wer	_	_	VAFIN	+3.Sg.Prät.Konj.Unr	_	_	_	_	O	O	VAFIN	s470_77
+78	/	_	_	$,	_	_	_	_	_	O	O	$(	s470_78
+79	(,)	_	_	$,	_	_	_	_	_	O	O	$MK	s470_79
+80	darumb	_	_	PAV	_	_	_	_	_	B-PC	B-PP	PAVDAP	s470_80
+81	daz	_	_	KOUS	_	_	_	_	_	O	I-PP	KOUS	s470_81
+82	dy	_	_	ART	*.Nom.Pl	_	_	_	_	B-NC	I-PP	DARTB	s470_82
+83	sigel	_	_	NN	*.Nom.Pl	_	_	_	_	I-NC	I-PP	NA	s470_83
+84	vnd	_	_	KON	_	_	_	_	_	O	I-PP	KON	s470_84
+85	die	_	_	ART	*.Nom.Pl	_	_	_	_	B-NC	I-PP	DARTB	s470_85
+86	slos	_	_	NN	*.Nom.Pl	_	_	_	_	I-NC	I-PP	NA	s470_86
+87	nach	_	_	ADV	_	_	_	_	_	B-ADVC	I-PP	AVD	s470_87
+88	an	_	_	APPR	_	_	_	_	_	B-PC	I-PP	APPR	s470_88
+89	den	_	_	ART	*.Dat.Pl	_	_	_	_	I-PC	I-PP	DARTB	s470_89

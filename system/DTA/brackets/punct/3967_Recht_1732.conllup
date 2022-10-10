@@ -1,0 +1,635 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CharOffset DTA:ID DTA:NORM POS SentBrckt
+# sent_id = 1
+# sent_id(TSV) = 1
+# TopFString = (S(VF(NN Einleitung)(APPRART Zur)(NN Staats-)(NN Wiſſenſchafft)(ADV uͤberhaupt))(LK(KON Und))(MF(ADV dann)(APPRART zur)(NN Kenntniß)(ADJA Derer)(ADJA Europaͤiſchen)(NN Staaten)(ADV inſonderheit))(KOMMA ,)(MF(APPRART Zum)(NN Gebrauch)(ART eines)(NN Collegii))(VC(VVPP entworffen))(NF(APPR Von)(NE Martin)(NE Schmeizel)(ADJA Koͤnigl.)(NN Maj.)(APPR in)(NE Preuſſen)(NN Hof-Rath)(KOMMA ,)(ADV auch)(NN Juris)(NN Publ.)(KON und)(NN Hiſtoriarum)(NN Prof.)(NN Publ.)(NE Ordin))(PUNKT .))
+# text = Einleitung Zur Staats- Wiſſenſchafft uͤberhaupt Und dann zur Kenntniß Derer Europaͤiſchen Staaten inſonderheit , Zum Gebrauch eines Collegii entworffen Von Martin Schmeizel Koͤnigl. Maj. in Preuſſen Hof-Rath , auch Juris Publ. und Hiſtoriarum Prof. Publ. Ordin .
+1	Einleitung	Einleitung	_	NN	_	_	_	_	_	0-10	w1	Einleitung	*	O
+2	Zur	zur	_	APPRART	_	_	_	_	_	11-14	w2	Zur	*	O
+3	Staats-	staats-	_	NN	_	_	_	_	_	15-22	w3	Staats-	*	O
+4	Wiſſenſchafft	Wissenschaft	_	NN	_	_	_	_	_	23-36	w4	Wissenschaft	*	O
+5	uͤberhaupt	überhaupt	_	ADV	_	_	_	_	_	37-47	w5	überhaupt	*	O
+6	Und	und	_	KON	_	_	_	_	_	48-51	w6	Und	*	B-LK
+7	dann	dann	_	ADV	_	_	_	_	_	52-56	w7	dann	*	O
+8	zur	zur	_	APPRART	_	_	_	_	_	57-60	w8	zur	*	O
+9	Kenntniß	Kenntnis	_	NN	_	_	_	_	_	61-69	w9	Kenntnis	*	O
+10	Derer	Derer	_	ADJA	_	_	_	_	_	70-75	wa	Derer	*	O
+11	Europaͤiſchen	europäisch	_	ADJA	_	_	_	_	_	76-89	wb	Europäischen	*	O
+12	Staaten	Staat	_	NN	_	_	_	_	_	90-97	wc	Staaten	*	O
+13	inſonderheit	insonderheit	_	ADV	_	_	_	_	_	98-110	wd	insonderheit	*	O
+14	,	,	_	$,	_	_	_	_	_	111-112	we	,	*	O
+15	Zum	zum	_	APPRART	_	_	_	_	_	113-116	wf	Zum	*	O
+16	Gebrauch	Gebrauch	_	NN	_	_	_	_	_	117-125	w10	Gebrauch	*	O
+17	eines	eine	_	ART	_	_	_	_	_	126-131	w11	eines	*	O
+18	Collegii	Collegii	_	NN	_	_	_	_	_	132-140	w12	Collegii	*	O
+19	entworffen	entwerfen	_	VVPP	_	_	_	_	_	141-151	w13	entworfen	*	B-RK
+20	Von	von	_	APPR	_	_	_	_	_	152-155	w14	Von	*	O
+21	Martin	Martin	_	NE	_	_	_	_	_	156-162	w15	Martin	*	O
+22	Schmeizel	Schmeizel	_	NE	_	_	_	_	_	163-172	w16	Schmeizel	*	O
+23	Koͤnigl.	Königl.	_	ADJA	_	_	_	_	_	173-181	w17	Königl.	*	O
+24	Maj.	Maj.	_	NN	_	_	_	_	_	182-186	w18	Maj.	*	O
+25	in	in	_	APPR	_	_	_	_	_	187-189	w19	in	*	O
+26	Preuſſen	Preußen	_	NE	_	_	_	_	_	190-198	w1a	Preußen	*	O
+27	Hof-Rath	Hofrat	_	NN	_	_	_	_	_	199-207	w1b	Hofrat	*	O
+28	,	,	_	$,	_	_	_	_	_	208-209	w1c	,	*	O
+29	auch	auch	_	ADV	_	_	_	_	_	210-214	w1d	auch	*	O
+30	Juris	Juris	_	NN	_	_	_	_	_	215-220	w1e	Juris	*	O
+31	Publ.	Publ.	_	NN	_	_	_	_	_	221-226	w1f	Publ.	*	O
+32	und	und	_	KON	_	_	_	_	_	227-230	w20	und	*	O
+33	Hiſtoriarum	Historiarum	_	NN	_	_	_	_	_	231-242	w21	Historiarum	*	O
+34	Prof.	Prof.	_	NN	_	_	_	_	_	243-248	w22	Prof.	*	O
+35	Publ.	Publ.	_	NN	_	_	_	_	_	249-254	w23	Publ.	*	O
+36	Ordin	Orden	_	NE	_	_	_	_	_	255-260	w24	Orden	*	O
+37	.	.	_	$.	_	_	_	_	_	261-262	w25	.	*	O
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# TopFString = (S(NE HALLE)(APPRART im)(NN Magdeburgiſchen)(KOMMA ,)(CARD 1732)(PUNKT .)(VC(PTKZU Zu)(VVINF finden))(NF(APPR in)(ART der)(ADJA Rengeriſchen)(NN Buchhandl))(PUNKT .))
+# text = HALLE im Magdeburgiſchen , 1732 . Zu finden in der Rengeriſchen Buchhandl .
+1	HALLE	Hall	_	NE	_	_	_	_	_	264-269	w26	HALLE	*	O
+2	im	im	_	APPRART	_	_	_	_	_	270-272	w27	im	*	O
+3	Magdeburgiſchen	Magdeburgische	_	NN	_	_	_	_	_	273-288	w28	Magdeburgischen	*	O
+4	,	,	_	$,	_	_	_	_	_	289-290	w29	,	*	O
+5	1732	1732	_	CARD	_	_	_	_	_	291-295	w2a	1732	*	O
+6	.	.	_	$.	_	_	_	_	_	296-297	w2b	.	*	O
+7	Zu	zu	_	PTKZU	_	_	_	_	_	298-300	w2c	Zu	*	B-RK
+8	finden	finden	_	VVINF	_	_	_	_	_	301-307	w2d	finden	*	I-RK
+9	in	in	_	APPR	_	_	_	_	_	308-310	w2e	in	*	O
+10	der	d	_	ART	_	_	_	_	_	311-314	w2f	der	*	O
+11	Rengeriſchen	rengerischen	_	ADJA	_	_	_	_	_	315-327	w30	Rengerischen	*	O
+12	Buchhandl	Buchhandel	_	NN	_	_	_	_	_	328-337	w31	Buchhandel	*	O
+13	.	.	_	$.	_	_	_	_	_	338-339	w32	.	*	O
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# TopFString = (S(VF(ART Dem)(ADJA Reichs-Frey-Hochwohlgebohr-<lb/>nen)(NN Herrn)(KOMMA ,)(NN Herrn)(NE Samuel)(APPR von)(NE COCCEJI))(KOMMA ,)(MF(PPOSAT Jhro)(ADJA Koͤniglichen)(NN Majeſtaͤt)(APPR in)(NE Preuſſen)(ADJA wuͤrcklichen)(ADJA geheimen)(TRUNC Staats-)(KON und)(NN Krieges-)(NN Miniſtre))(PUNKT ;)(ART des)(NN Ober-Appellations-Gerichts)(KON und)(ADJA Chur-Maͤrckiſchen)(NN Conſiſtorii)(KOMMA ,)(KON wie)(ADV auch)(ART des)(ADJA Reformirten)(NN Kirchen-Directorii)(NN Praͤſi-<lb/>denten)(PUNKT ;)(NN Chef)(PIAT aller)(ADJA Geiſtlichen)(KON und)(ADJA Fran-<lb/>tzoͤſiſchen)(NN Sachen)(KOMMA ,)(NN Lehns-Directori)(KOMMA ,)(PTKNEG nicht)(ADV minder)(PIAT aller)(ADJA Koͤnigl.)(NN Univerſitaͤten)(NN Ober-)(NN Curatori)(KOMMA ,)(KON und)(ART der)(NN Regierung)(ART des)(NN Fuͤrſtenthums)(NE Halberſtadt)(NN Directori)(KOMMA ,)(PPOSAT meinem)(ADJA gnaͤdigen)(NN Herrn)(PUNKT .))
+# text = Dem Reichs-Frey-Hochwohlgebohr-<lb/>nen Herrn , Herrn Samuel von COCCEJI , Jhro Koͤniglichen Majeſtaͤt in Preuſſen wuͤrcklichen geheimen Staats- und Krieges- Miniſtre ; des Ober-Appellations-Gerichts und Chur-Maͤrckiſchen Conſiſtorii , wie auch des Reformirten Kirchen-Directorii Praͤſi-<lb/>denten ; Chef aller Geiſtlichen und Fran-<lb/>tzoͤſiſchen Sachen , Lehns-Directori , nicht minder aller Koͤnigl. Univerſitaͤten Ober- Curatori , und der Regierung des Fuͤrſtenthums Halberſtadt Directori , meinem gnaͤdigen Herrn .
+1	Dem	d	_	ART	_	_	_	_	_	341-344	wc452	Dem	*	O
+2	Reichs-Frey-Hochwohlgebohr-<lb/>nen	reichs-frey-hochwohlgebohrnen	_	ADJA	_	_	_	_	_	345-380	wc453	Reichs-Frey-Hochwohlgebohrnen	*	O
+3	Herrn	Herr	_	NN	_	_	_	_	_	381-386	wc454	Herrn	*	O
+4	,	,	_	$,	_	_	_	_	_	387-388	wc455	,	*	O
+5	Herrn	Herr	_	NN	_	_	_	_	_	389-394	wc456,wc456_1	Herrn	*	O
+6	Samuel	Samuel	_	NE	_	_	_	_	_	395-401	wc457,wc457_1	Samuel	*	O
+7	von	von	_	APPR	_	_	_	_	_	402-405	wc458	von	*	O
+8	COCCEJI	Cocceji	_	NE	_	_	_	_	_	406-413	wc459	COCCEJI	*	O
+9	,	,	_	$,	_	_	_	_	_	414-415	wc45a	,	*	O
+10	Jhro	ihr	_	PPOSAT	_	_	_	_	_	416-420	wc45b	Ihrer	*	O
+11	Koͤniglichen	königlich	_	ADJA	_	_	_	_	_	421-433	wc45c	Königlichen	*	O
+12	Majeſtaͤt	Majestät	_	NN	_	_	_	_	_	434-443	wc45d	Majestät	*	O
+13	in	in	_	APPR	_	_	_	_	_	444-446	wc45e	in	*	O
+14	Preuſſen	Preußen	_	NE	_	_	_	_	_	447-455	wc45f	Preußen	*	O
+15	wuͤrcklichen	wirklich	_	ADJA	_	_	_	_	_	456-468	wc460	wirklichen	*	O
+16	geheimen	geheim	_	ADJA	_	_	_	_	_	469-477	wc461	geheimen	*	O
+17	Staats-	staats-	_	TRUNC	_	_	_	_	_	478-485	wc462	Staats-	*	O
+18	und	und	_	KON	_	_	_	_	_	486-489	wc463	und	*	O
+19	Krieges-	krieges-	_	NN	_	_	_	_	_	490-498	wc464	Krieges-	*	O
+20	Miniſtre	Minister	_	NN	_	_	_	_	_	499-507	wc465	Minister	*	O
+21	;	;	_	$.	_	_	_	_	_	508-509	wc466	;	*	O
+22	des	d	_	ART	_	_	_	_	_	510-513	wc467	des	*	O
+23	Ober-Appellations-Gerichts	Ober-Appellations-Gericht	_	NN	_	_	_	_	_	514-540	wc468	Ober-Appellations-Gerichts	*	O
+24	und	und	_	KON	_	_	_	_	_	541-544	wc469	und	*	O
+25	Chur-Maͤrckiſchen	kur-märkisch	_	ADJA	_	_	_	_	_	545-562	wc46a	Kur-märkischen	*	O
+26	Conſiſtorii	Consistorii	_	NN	_	_	_	_	_	563-574	wc46b	Consistorii	*	O
+27	,	,	_	$,	_	_	_	_	_	575-576	wc46c	,	*	O
+28	wie	wie	_	KON	_	_	_	_	_	577-580	wc46d	wie	*	O
+29	auch	auch	_	ADV	_	_	_	_	_	581-585	wc46e	auch	*	O
+30	des	d	_	ART	_	_	_	_	_	586-589	wc46f	des	*	O
+31	Reformirten	Reformierte	_	ADJA	_	_	_	_	_	590-601	wc470	Reformierten	*	O
+32	Kirchen-Directorii	kirchen-directorii	_	NN	_	_	_	_	_	602-620	wc471	Kirchen-Directorii	*	O
+33	Praͤſi-<lb/>denten	Präsident	_	NN	_	_	_	_	_	621-639	wc472	Präsidenten	*	O
+34	;	;	_	$.	_	_	_	_	_	640-641	wc473	;	*	O
+35	Chef	Chef	_	NN	_	_	_	_	_	642-646	wc474	Chef	*	O
+36	aller	alle	_	PIAT	_	_	_	_	_	647-652	wc475	aller	*	O
+37	Geiſtlichen	Geistliche	_	ADJA	_	_	_	_	_	653-664	wc476	Geistlichen	*	O
+38	und	und	_	KON	_	_	_	_	_	665-668	wc477	und	*	O
+39	Fran-<lb/>tzoͤſiſchen	französisch	_	ADJA	_	_	_	_	_	669-690	wc478	französischen	*	O
+40	Sachen	Sache	_	NN	_	_	_	_	_	691-697	wc479	Sachen	*	O
+41	,	,	_	$,	_	_	_	_	_	698-699	wc47a	,	*	O
+42	Lehns-Directori	Lehns-Directori	_	NN	_	_	_	_	_	700-715	wc47b	Lehns-Directori	*	O
+43	,	,	_	$,	_	_	_	_	_	716-717	wc47c	,	*	O
+44	nicht	nicht	_	PTKNEG	_	_	_	_	_	718-723	wc47d	nicht	*	O
+45	minder	minder	_	ADV	_	_	_	_	_	724-730	wc47e	minder	*	O
+46	aller	alle	_	PIAT	_	_	_	_	_	731-736	wc47f	aller	*	O
+47	Koͤnigl.	Königl.	_	ADJA	_	_	_	_	_	737-745	wc480	Königl.	*	O
+48	Univerſitaͤten	Universität	_	NN	_	_	_	_	_	746-760	wc481	Universitäten	*	O
+49	Ober-	Ober-	_	NN	_	_	_	_	_	761-766	wc482	Ober-	*	O
+50	Curatori	Curatori	_	NN	_	_	_	_	_	767-775	wc483	Curatori	*	O
+51	,	,	_	$,	_	_	_	_	_	776-777	wc484	,	*	O
+52	und	und	_	KON	_	_	_	_	_	778-781	wc485	und	*	O
+53	der	d	_	ART	_	_	_	_	_	782-785	wc486	der	*	O
+54	Regierung	Regierung	_	NN	_	_	_	_	_	786-795	wc487	Regierung	*	O
+55	des	d	_	ART	_	_	_	_	_	796-799	wc488	des	*	O
+56	Fuͤrſtenthums	Fürstentum	_	NN	_	_	_	_	_	800-813	wc489	Fürstentums	*	O
+57	Halberſtadt	Halberstadt	_	NE	_	_	_	_	_	814-825	wc48a	Halberstadt	*	O
+58	Directori	Directori	_	NN	_	_	_	_	_	826-835	wc48b	Directori	*	O
+59	,	,	_	$,	_	_	_	_	_	836-837	wc48c	,	*	O
+60	meinem	meine	_	PPOSAT	_	_	_	_	_	838-844	wc48d	meinem	*	O
+61	gnaͤdigen	gnädig	_	ADJA	_	_	_	_	_	845-854	wc48e	gnädigen	*	O
+62	Herrn	Herr	_	NN	_	_	_	_	_	855-860	wc48f	Herrn	*	O
+63	.	.	_	$.	_	_	_	_	_	861-862	wc490	.	*	O
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# TopFString = (S(ADJA Reichs-Frey-Hochwohlge-<lb/>bohrner)(NN Herr)(ADJA Gnaͤdiger)(NN Herr)(PUNKT .))
+# text = Reichs-Frey-Hochwohlge-<lb/>bohrner Herr Gnaͤdiger Herr .
+1	Reichs-Frey-Hochwohlge-<lb/>bohrner	Reichs-Frey-Hochwohlgebohrner	_	ADJA	_	_	_	_	_	864-899	wc491,wc491_1,wc491_2,wc491_3,wc491_4,wc491_5	Reichs-Frey-Hochwohlgebohrner	*	O
+2	Herr	Herr	_	NN	_	_	_	_	_	900-904	wc492,wc492_1	Herr	*	O
+3	Gnaͤdiger	gnädig	_	ADJA	_	_	_	_	_	905-914	wc493,wc493_1	Gnädiger	*	O
+4	Herr	Herr	_	NN	_	_	_	_	_	915-919	wc494,wc494_1	Herr	*	O
+5	.	.	_	$.	_	_	_	_	_	920-921	wc495	.	*	O
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# TopFString = (S(LV(C(KOUS DAß))(MF(ART ein)(ADJA neu-angehender)(NN Leh-<lb/>rer)(KOMMA ,)(ADV zumahl)(APPR auf)(NN Univerſi-<lb/>taͤten)(KOMMA ,)(ADV alſobald)(APPR bey)(PPOSAT ſeinem)(NN Antritt)(PRF ſich)(ART die)(ADJA erſte)(NN Sorge))(VCE(VMFIN muͤſſe))(VC(VAINF ſeyn)(VVINF laſſen)))(KOMMA ,)(VF(NN Fleiß)(KON und)(NN Danck)(KOMMA ,)(MF(APPR nach)(ADJA aͤuſſer-<lb/>ſtem)(NN Vermoͤgen)(APPR an)(NN Tage))(VC(PTKZU zu)(VVINF legen)))(KOMMA ,)(LK(VAFIN iſt))(MF(APPR aus)(PIAT vielen)(NN Urſachen)(KOMMA ,)(ADV ſo)(ADJD noͤthig)(KOMMA ,)(KOKOM als)(ADJD kluͤglich))(VC(VVPP ge-<lb/>handelt))(PUNKT .))
+# text = DAß ein neu-angehender Leh-<lb/>rer , zumahl auf Univerſi-<lb/>taͤten , alſobald bey ſeinem Antritt ſich die erſte Sorge muͤſſe ſeyn laſſen , Fleiß und Danck , nach aͤuſſer-<lb/>ſtem Vermoͤgen an Tage zu legen , iſt aus vielen Urſachen , ſo noͤthig , als kluͤglich ge-<lb/>handelt .
+1	DAß	daß	_	KOUS	_	_	_	_	_	923-926	w33,w33_1	Daß	*	B-LK
+2	ein	eine	_	ART	_	_	_	_	_	927-930	w34	ein	*	O
+3	neu-angehender	neu-angehend	_	ADJA	_	_	_	_	_	931-945	w35	neu-angehender	*	O
+4	Leh-<lb/>rer	Lehrer	_	NN	_	_	_	_	_	946-958	w36	Lehrer	*	O
+5	,	,	_	$,	_	_	_	_	_	959-960	w37	,	*	O
+6	zumahl	zumal	_	ADV	_	_	_	_	_	961-967	w38	zumal	*	O
+7	auf	auf	_	APPR	_	_	_	_	_	968-971	w39	auf	*	O
+8	Univerſi-<lb/>taͤten	Universität	_	NN	_	_	_	_	_	972-992	w3a	Universitäten	*	O
+9	,	,	_	$,	_	_	_	_	_	993-994	w3b	,	*	O
+10	alſobald	alsobald	_	ADV	_	_	_	_	_	995-1003	w3c	alsobald	*	O
+11	bey	bei	_	APPR	_	_	_	_	_	1004-1007	w3d	bei	*	O
+12	ſeinem	seine	_	PPOSAT	_	_	_	_	_	1008-1014	w3e	seinem	*	O
+13	Antritt	Antritt	_	NN	_	_	_	_	_	1015-1022	w3f	Antritt	*	O
+14	ſich	sich	_	PRF	_	_	_	_	_	1023-1027	w40	sich	*	O
+15	die	d	_	ART	_	_	_	_	_	1028-1031	w41	die	*	O
+16	erſte	erst	_	ADJA	_	_	_	_	_	1032-1037	w42	erste	*	O
+17	Sorge	Sorge	_	NN	_	_	_	_	_	1038-1043	w43	Sorge	*	O
+18	muͤſſe	müssen	_	VMFIN	_	_	_	_	_	1044-1050	w44	müsse	*	B-RK
+19	ſeyn	sein	_	VAINF	_	_	_	_	_	1051-1055	w45	sein	*	B-RK
+20	laſſen	lassen	_	VVINF	_	_	_	_	_	1056-1062	w46	lassen	*	I-RK
+21	,	,	_	$,	_	_	_	_	_	1063-1064	w47	,	*	O
+22	Fleiß	Fleiß	_	NN	_	_	_	_	_	1065-1070	w48	Fleiß	*	O
+23	und	und	_	KON	_	_	_	_	_	1071-1074	w49	und	*	O
+24	Danck	Dank	_	NN	_	_	_	_	_	1075-1080	w4a	Dank	*	O
+25	,	,	_	$,	_	_	_	_	_	1081-1082	w4b	,	*	O
+26	nach	nach	_	APPR	_	_	_	_	_	1083-1087	w4c	nach	*	O
+27	aͤuſſer-<lb/>ſtem	äußerst	_	ADJA	_	_	_	_	_	1088-1105	w4d	äußerstem	*	O
+28	Vermoͤgen	Vermögen	_	NN	_	_	_	_	_	1106-1115	w4e	Vermögen	*	O
+29	an	an	_	APPR	_	_	_	_	_	1116-1118	w4f	an	*	O
+30	Tage	Tag	_	NN	_	_	_	_	_	1119-1123	w50	Tage	*	O
+31	zu	zu	_	PTKZU	_	_	_	_	_	1124-1126	w51	zu	*	B-RK
+32	legen	legen	_	VVINF	_	_	_	_	_	1127-1132	w52	legen	*	I-RK
+33	,	,	_	$,	_	_	_	_	_	1133-1134	w53	,	*	O
+34	iſt	sein	_	VAFIN	_	_	_	_	_	1135-1138	w54	ist	*	B-LK
+35	aus	aus	_	APPR	_	_	_	_	_	1139-1142	w55	aus	*	O
+36	vielen	viel	_	PIAT	_	_	_	_	_	1143-1149	w56	vielen	*	O
+37	Urſachen	Ursache	_	NN	_	_	_	_	_	1150-1158	w57	Ursachen	*	O
+38	,	,	_	$,	_	_	_	_	_	1159-1160	w58	,	*	O
+39	ſo	so	_	ADV	_	_	_	_	_	1161-1163	w59	so	*	O
+40	noͤthig	nötig	_	ADJD	_	_	_	_	_	1164-1171	w5a	nötig	*	O
+41	,	,	_	$,	_	_	_	_	_	1172-1173	w5b	,	*	O
+42	als	als	_	KOKOM	_	_	_	_	_	1174-1177	w5c	als	*	O
+43	kluͤglich	klüglich	_	ADJD	_	_	_	_	_	1178-1187	w5d	klüglich	*	O
+44	ge-<lb/>handelt	handeln	_	VVPP	_	_	_	_	_	1188-1203	w5e	gehandelt	*	B-RK
+45	.	.	_	$.	_	_	_	_	_	1204-1205	w5f	.	*	O
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# TopFString = (S(VF(ART Der)(NN Zweck)(KOMMA ,)(C(KOUS daß))(MF(PPER er)(APPR in)(PIAT ſolche)(NN Be-<lb/>dienung))(VC(VVPP geſetzet)(VAPP worden)))(KOMMA ,)(LK(VAFIN iſt))(KOMMA ,)(NF(MF(APPR nach)(NN Maaß-<lb/>gebung)(PPOSAT ſeines)(NN Beruffs)(KOMMA ,)(ART der)(ADJA obliegenden)(NN Pflicht)(ART ein)(NN Gnuͤgen))(VC(PTKZU zu)(VVINF leiſten)))(PUNKT .))
+# text = Der Zweck , daß er in ſolche Be-<lb/>dienung geſetzet worden , iſt , nach Maaß-<lb/>gebung ſeines Beruffs , der obliegenden Pflicht ein Gnuͤgen zu leiſten .
+1	Der	d	_	ART	_	_	_	_	_	1207-1210	w60	Der	*	O
+2	Zweck	Zweck	_	NN	_	_	_	_	_	1211-1216	w61	Zweck	*	O
+3	,	,	_	$,	_	_	_	_	_	1217-1218	w62	,	*	O
+4	daß	daß	_	KOUS	_	_	_	_	_	1219-1222	w63	daß	*	B-LK
+5	er	er	_	PPER	_	_	_	_	_	1223-1225	w64	er	*	O
+6	in	in	_	APPR	_	_	_	_	_	1226-1228	w65	in	*	O
+7	ſolche	solch	_	PIAT	_	_	_	_	_	1229-1235	w66	solche	*	O
+8	Be-<lb/>dienung	Bedienung	_	NN	_	_	_	_	_	1236-1251	w67	Bedienung	*	O
+9	geſetzet	setzen	_	VVPP	_	_	_	_	_	1252-1260	w68	gesetzt	*	B-RK
+10	worden	werden	_	VAPP	_	_	_	_	_	1261-1267	w69	worden	*	I-RK
+11	,	,	_	$,	_	_	_	_	_	1268-1269	w6a	,	*	O
+12	iſt	sein	_	VAFIN	_	_	_	_	_	1270-1273	w6b	ist	*	B-LK
+13	,	,	_	$,	_	_	_	_	_	1274-1275	w6c	,	*	O
+14	nach	nach	_	APPR	_	_	_	_	_	1276-1280	w6d	nach	*	O
+15	Maaß-<lb/>gebung	Maaßgebung	_	NN	_	_	_	_	_	1281-1297	w6e	Maaßgebung	*	O
+16	ſeines	seine	_	PPOSAT	_	_	_	_	_	1298-1304	w6f	seines	*	O
+17	Beruffs	Beruf	_	NN	_	_	_	_	_	1305-1312	w70	Berufs	*	O
+18	,	,	_	$,	_	_	_	_	_	1313-1314	w71	,	*	O
+19	der	d	_	ART	_	_	_	_	_	1315-1318	w72	der	*	O
+20	obliegenden	obliegend	_	ADJA	_	_	_	_	_	1319-1330	w73	obliegenden	*	O
+21	Pflicht	Pflicht	_	NN	_	_	_	_	_	1331-1338	w74	Pflicht	*	O
+22	ein	eine	_	ART	_	_	_	_	_	1339-1342	w75	ein	*	O
+23	Gnuͤgen	Genügen	_	NN	_	_	_	_	_	1343-1350	w76	Genügen	*	O
+24	zu	zu	_	PTKZU	_	_	_	_	_	1351-1353	w77	zu	*	B-RK
+25	leiſten	leisten	_	VVINF	_	_	_	_	_	1354-1361	w78	leisten	*	I-RK
+26	.	.	_	$.	_	_	_	_	_	1362-1363	w79	.	*	O
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# TopFString = (S(VF(ADV Mithin))(LK(VAFIN iſt))(MF(ART das)(NN erſte))(KOMMA ,)(VF(PPER er))(LK(VMFIN ſoll))(MF(ADJD fleißig))(VC(VAINF ſeyn))(PUNKT .))
+# text = Mithin iſt das erſte , er ſoll fleißig ſeyn .
+1	Mithin	mithin	_	ADV	_	_	_	_	_	1365-1371	w7a	Mithin	*	O
+2	iſt	sein	_	VAFIN	_	_	_	_	_	1372-1375	w7b	ist	*	B-LK
+3	das	d	_	ART	_	_	_	_	_	1376-1379	w7c	das	*	O
+4	erſte	erst	_	NN	_	_	_	_	_	1380-1385	w7d	erste	*	O
+5	,	,	_	$,	_	_	_	_	_	1386-1387	w7e	,	*	O
+6	er	er	_	PPER	_	_	_	_	_	1388-1390	w7f	er	*	O
+7	ſoll	sollen	_	VMFIN	_	_	_	_	_	1391-1395	w80	soll	*	B-LK
+8	fleißig	fleißig	_	ADJD	_	_	_	_	_	1396-1403	w81	fleißig	*	O
+9	ſeyn	sein	_	VAINF	_	_	_	_	_	1404-1408	w82	sein	*	B-RK
+10	.	.	_	$.	_	_	_	_	_	1409-1410	w83	.	*	O
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# TopFString = (S(VF(ART Der)(NN Fleiß))(LK(VAFIN hat))(MF(APPR unter)(PIAT ſolchen)(NN Verrichtungen)(PPOSAT ſeinen)(NN Platz)(KOMMA ,)(C(PRELS welche))(MF(APPR in)(ART die)(ADJA aͤuſſerlichen)(NN Sinne))(VC(VVFIN fal-<lb/>len))(KOMMA ,)(KON und)(APPR durch)(NN Proben))(KOMMA ,)(NF(VF(PIS andern))(LK(VMFIN muͤſſen))(VC(VVPP be-<lb/>kannt)(VAINF werden)))(PUNKT .))
+# text = Der Fleiß hat unter ſolchen Verrichtungen ſeinen Platz , welche in die aͤuſſerlichen Sinne fal-<lb/>len , und durch Proben , andern muͤſſen be-<lb/>kannt werden .
+1	Der	d	_	ART	_	_	_	_	_	1412-1415	w84	Der	*	O
+2	Fleiß	Fleiß	_	NN	_	_	_	_	_	1416-1421	w85	Fleiß	*	O
+3	hat	haben	_	VAFIN	_	_	_	_	_	1422-1425	w86	hat	*	B-LK
+4	unter	unter	_	APPR	_	_	_	_	_	1426-1431	w87	unter	*	O
+5	ſolchen	solch	_	PIAT	_	_	_	_	_	1432-1439	w88	solchen	*	O
+6	Verrichtungen	Verrichtung	_	NN	_	_	_	_	_	1440-1453	w89	Verrichtungen	*	O
+7	ſeinen	seine	_	PPOSAT	_	_	_	_	_	1454-1460	w8a	seinen	*	O
+8	Platz	Platz	_	NN	_	_	_	_	_	1461-1466	w8b	Platz	*	O
+9	,	,	_	$,	_	_	_	_	_	1467-1468	w8c	,	*	O
+10	welche	welche	_	PRELS	_	_	_	_	_	1469-1475	w8d	welche	*	B-LK
+11	in	in	_	APPR	_	_	_	_	_	1476-1478	w8e	in	*	O
+12	die	d	_	ART	_	_	_	_	_	1479-1482	w8f	die	*	O
+13	aͤuſſerlichen	äußerlich	_	ADJA	_	_	_	_	_	1483-1496	w90	äußerlichen	*	O
+14	Sinne	Sinn	_	NN	_	_	_	_	_	1497-1502	w91	Sinne	*	O
+15	fal-<lb/>len	fallen	_	VVFIN	_	_	_	_	_	1503-1515	w92,w92_1,w92_2	fallen	*	B-RK
+16	,	,	_	$,	_	_	_	_	_	1516-1517	w93	,	*	O
+17	und	und	_	KON	_	_	_	_	_	1518-1521	w94	und	*	O
+18	durch	durch	_	APPR	_	_	_	_	_	1522-1527	w95	durch	*	O
+19	Proben	Probe	_	NN	_	_	_	_	_	1528-1534	w96	Proben	*	O
+20	,	,	_	$,	_	_	_	_	_	1535-1536	w97	,	*	O
+21	andern	andere	_	PIS	_	_	_	_	_	1537-1543	w98	anderen	*	O
+22	muͤſſen	müssen	_	VMFIN	_	_	_	_	_	1544-1551	w99	müssen	*	B-LK
+23	be-<lb/>kannt	bekennen	_	VVPP	_	_	_	_	_	1552-1565	w9a	bekannt	*	B-RK
+24	werden	werden	_	VAINF	_	_	_	_	_	1566-1572	w9b	werden	*	I-RK
+25	.	.	_	$.	_	_	_	_	_	1573-1574	w9c	.	*	O
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# TopFString = (S(VF(PAV Daraus))(LK(VVFIN folget))(KOMMA ,)(NF(C(KOUS daß))(MF(PPER er)(APPR auf)(NN Mittel)(KON und)(NN Wege))(VC(VVINF ſinnen)(VMFIN muͤſſe)))(KOMMA ,)(PAV dadurch)(PDS diejenigen)(C(PRELS denen))(MF(PIS ſolches))(VC(PTKZU zu)(VVINF wiſſen))(ADJD noͤthig)(KOMMA ,)(VF(APPR von)(PPOSAT ſeiner)(NN Bemuͤhung))(LK(VMFIN koͤnnen))(VC(VVPP uͤberzeu-<lb/>get)(VAINF werden))(PUNKT .))
+# text = Daraus folget , daß er auf Mittel und Wege ſinnen muͤſſe , dadurch diejenigen denen ſolches zu wiſſen noͤthig , von ſeiner Bemuͤhung koͤnnen uͤberzeu-<lb/>get werden .
+1	Daraus	daraus	_	PAV	_	_	_	_	_	1576-1582	w9d	Daraus	*	O
+2	folget	folgen	_	VVFIN	_	_	_	_	_	1583-1589	w9e	folget	*	B-LK
+3	,	,	_	$,	_	_	_	_	_	1590-1591	w9f	,	*	O
+4	daß	daß	_	KOUS	_	_	_	_	_	1592-1595	wa0	daß	*	B-LK
+5	er	er	_	PPER	_	_	_	_	_	1596-1598	wa1	er	*	O
+6	auf	auf	_	APPR	_	_	_	_	_	1599-1602	wa2	auf	*	O
+7	Mittel	Mittel	_	NN	_	_	_	_	_	1603-1609	wa3	Mittel	*	O
+8	und	und	_	KON	_	_	_	_	_	1610-1613	wa4	und	*	O
+9	Wege	Weg	_	NN	_	_	_	_	_	1614-1618	wa5	Wege	*	O
+10	ſinnen	sinnen	_	VVINF	_	_	_	_	_	1619-1625	wa6	sinnen	*	B-RK
+11	muͤſſe	müssen	_	VMFIN	_	_	_	_	_	1626-1632	wa7	müsse	*	I-RK
+12	,	,	_	$,	_	_	_	_	_	1633-1634	wa8	,	*	O
+13	dadurch	dadurch	_	PAV	_	_	_	_	_	1635-1642	wa9	dadurch	*	O
+14	diejenigen	diejenige	_	PDS	_	_	_	_	_	1643-1653	waa	diejenigen	*	O
+15	denen	die	_	PRELS	_	_	_	_	_	1654-1659	wab	denen	*	B-LK
+16	ſolches	solch	_	PIS	_	_	_	_	_	1660-1667	wac	solches	*	O
+17	zu	zu	_	PTKZU	_	_	_	_	_	1668-1670	wad	zu	*	B-RK
+18	wiſſen	wissen	_	VVINF	_	_	_	_	_	1671-1677	wae	wissen	*	I-RK
+19	noͤthig	nötig	_	ADJD	_	_	_	_	_	1678-1685	waf	nötig	*	O
+20	,	,	_	$,	_	_	_	_	_	1686-1687	wb0	,	*	O
+21	von	von	_	APPR	_	_	_	_	_	1688-1691	wb1	von	*	O
+22	ſeiner	seine	_	PPOSAT	_	_	_	_	_	1692-1698	wb2	seiner	*	O
+23	Bemuͤhung	Bemühung	_	NN	_	_	_	_	_	1699-1708	wb3	Bemühung	*	O
+24	koͤnnen	können	_	VMFIN	_	_	_	_	_	1709-1716	wb4	können	*	B-LK
+25	uͤberzeu-<lb/>get	überzeugen	_	VVPP	_	_	_	_	_	1717-1734	wb5	überzeugt	*	B-RK
+26	werden	werden	_	VAINF	_	_	_	_	_	1735-1741	wb6	werden	*	I-RK
+27	.	.	_	$.	_	_	_	_	_	1742-1743	wb7	.	*	O
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# TopFString = (S(VF(PDS Dieſe)(ADV nun))(LK(VAFIN ſind))(MF(ADV entweder)(ADJD gegenwaͤrtig)(KON oder)(ADJD abweſend))(PUNKT .))
+# text = Dieſe nun ſind entweder gegenwaͤrtig oder abweſend .
+1	Dieſe	diese	_	PDS	_	_	_	_	_	1745-1750	wb8	Diese	*	O
+2	nun	nun	_	ADV	_	_	_	_	_	1751-1754	wb9	nun	*	O
+3	ſind	sein	_	VAFIN	_	_	_	_	_	1755-1759	wba	sind	*	B-LK
+4	entweder	entweder	_	ADV	_	_	_	_	_	1760-1768	wbb	entweder	*	O
+5	gegenwaͤrtig	gegenwärtig	_	ADJD	_	_	_	_	_	1769-1781	wbc	gegenwärtig	*	O
+6	oder	oder	_	KON	_	_	_	_	_	1782-1786	wbd	oder	*	O
+7	abweſend	abwesend	_	ADJD	_	_	_	_	_	1787-1795	wbe	abwesend	*	O
+8	.	.	_	$.	_	_	_	_	_	1796-1797	wbf	.	*	O
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# TopFString = (S(VF(PDS Die)(APPR um)(KON und)(APPR neben)(MF(PPER ihn)(PRF ſich))(VC(VVFIN befinden)))(KOMMA ,)(LK(VVFIN faͤllt))(MF(ADJD leicht))(KOMMA ,)(NF(MF(APPR durch)(ART die)(NN Erfahrung))(VC(PTKZU zu)(VVINF ſagen))(NF(C(PWS was))(MF(PPER ſie)(ADJD taͤg-<lb/>lich))(VC(VVFIN ſehen)(KON und)(VVFIN hoͤren))))(PUNKT .))
+# text = Die um und neben ihn ſich befinden , faͤllt leicht , durch die Erfahrung zu ſagen was ſie taͤg-<lb/>lich ſehen und hoͤren .
+1	Die	d	_	PDS	_	_	_	_	_	1799-1802	wc0	Die	*	O
+2	um	um	_	APPR	_	_	_	_	_	1803-1805	wc1	um	*	O
+3	und	und	_	KON	_	_	_	_	_	1806-1809	wc2	und	*	O
+4	neben	neben	_	APPR	_	_	_	_	_	1810-1815	wc3	neben	*	O
+5	ihn	er	_	PPER	_	_	_	_	_	1816-1819	wc4	ihn	*	O
+6	ſich	sich	_	PRF	_	_	_	_	_	1820-1824	wc5	sich	*	O
+7	befinden	befinden	_	VVFIN	_	_	_	_	_	1825-1833	wc6	befinden	*	B-RK
+8	,	,	_	$,	_	_	_	_	_	1834-1835	wc7	,	*	O
+9	faͤllt	fällen	_	VVFIN	_	_	_	_	_	1836-1842	wc8	fällt	*	B-LK
+10	leicht	leicht	_	ADJD	_	_	_	_	_	1843-1849	wc9	leicht	*	O
+11	,	,	_	$,	_	_	_	_	_	1850-1851	wca	,	*	O
+12	durch	durch	_	APPR	_	_	_	_	_	1852-1857	wcb	durch	*	O
+13	die	d	_	ART	_	_	_	_	_	1858-1861	wcc	die	*	O
+14	Erfahrung	Erfahrung	_	NN	_	_	_	_	_	1862-1871	wcd	Erfahrung	*	O
+15	zu	zu	_	PTKZU	_	_	_	_	_	1872-1874	wce	zu	*	B-RK
+16	ſagen	sagen	_	VVINF	_	_	_	_	_	1875-1880	wcf	sagen	*	I-RK
+17	was	was	_	PWS	_	_	_	_	_	1881-1884	wd0	was	*	B-LK
+18	ſie	sie	_	PPER	_	_	_	_	_	1885-1888	wd1	sie	*	O
+19	taͤg-<lb/>lich	täglich	_	ADJD	_	_	_	_	_	1889-1903	wd2	täglich	*	O
+20	ſehen	sehen	_	VVFIN	_	_	_	_	_	1904-1909	wd3	sehen	*	B-RK
+21	und	und	_	KON	_	_	_	_	_	1910-1913	wd4	und	*	I-RK
+22	hoͤren	hören	_	VVFIN	_	_	_	_	_	1914-1920	wd5	hören	*	I-RK
+23	.	.	_	$.	_	_	_	_	_	1921-1922	wd6	.	*	O
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# TopFString = (S(KOORD(KON Aber))(VF(PWAV wie))(LK(VVFIN ſtehet))(MF(PPER es)(APPR mit)(ART den)(NN Abweſenden))(PUNKT .))
+# text = Aber wie ſtehet es mit den Abweſenden .
+1	Aber	aber	_	KON	_	_	_	_	_	1924-1928	wd7	Aber	*	O
+2	wie	wie	_	PWAV	_	_	_	_	_	1929-1932	wd8	wie	*	O
+3	ſtehet	stehen	_	VVFIN	_	_	_	_	_	1933-1939	wd9	steht	*	B-LK
+4	es	es	_	PPER	_	_	_	_	_	1940-1942	wda	es	*	O
+5	mit	mit	_	APPR	_	_	_	_	_	1943-1946	wdb	mit	*	O
+6	den	d	_	ART	_	_	_	_	_	1947-1950	wdc	den	*	O
+7	Abweſenden	Abwesende	_	NN	_	_	_	_	_	1951-1961	wdd	Abwesenden	*	O
+8	.	.	_	$.	_	_	_	_	_	1962-1963	wde	.	*	O
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# TopFString = (S(VF(PDS Dieſe))(LK(VAFIN haben))(KOMMA ,)(MF(ADJA be-<lb/>wandten)(NN Umſtaͤnden)(APPO nach)(KOMMA ,)(ADV oͤffters)(PIAT mehr)(NN Urſache))(KOMMA ,)(NF(MF(APPR von)(PPOSAT ſeiner)(NN Emſigkeit)(NN Proben))(VC(PTKZU zu)(VVINF wiſſen))(KOMMA ,)(NF(KOKOM als)(ART die)(NN Anweſenden)))(PUNKT .))
+# text = Dieſe haben , be-<lb/>wandten Umſtaͤnden nach , oͤffters mehr Urſache , von ſeiner Emſigkeit Proben zu wiſſen , als die Anweſenden .
+1	Dieſe	diese	_	PDS	_	_	_	_	_	1965-1970	wdf	Diese	*	O
+2	haben	haben	_	VAFIN	_	_	_	_	_	1971-1976	we0	haben	*	B-LK
+3	,	,	_	$,	_	_	_	_	_	1977-1978	we1	,	*	O
+4	be-<lb/>wandten	bewandt	_	ADJA	_	_	_	_	_	1979-1994	we2	bewandten	*	O
+5	Umſtaͤnden	Umstand	_	NN	_	_	_	_	_	1995-2005	we3	Umständen	*	O
+6	nach	nach	_	APPO	_	_	_	_	_	2006-2010	we4	nach	*	O
+7	,	,	_	$,	_	_	_	_	_	2011-2012	we5	,	*	O
+8	oͤffters	öfters	_	ADV	_	_	_	_	_	2013-2021	we6	öfters	*	O
+9	mehr	mehr	_	PIAT	_	_	_	_	_	2022-2026	we7	mehr	*	O
+10	Urſache	Ursache	_	NN	_	_	_	_	_	2027-2034	we8	Ursache	*	O
+11	,	,	_	$,	_	_	_	_	_	2035-2036	we9	,	*	O
+12	von	von	_	APPR	_	_	_	_	_	2037-2040	wea	von	*	O
+13	ſeiner	seine	_	PPOSAT	_	_	_	_	_	2041-2047	web	seiner	*	O
+14	Emſigkeit	Emsigkeit	_	NN	_	_	_	_	_	2048-2057	wec	Emsigkeit	*	O
+15	Proben	Probe	_	NN	_	_	_	_	_	2058-2064	wed	Proben	*	O
+16	zu	zu	_	PTKZU	_	_	_	_	_	2065-2067	wee	zu	*	B-RK
+17	wiſſen	wissen	_	VVINF	_	_	_	_	_	2068-2074	wef	wissen	*	I-RK
+18	,	,	_	$,	_	_	_	_	_	2075-2076	wf0	,	*	O
+19	als	als	_	KOKOM	_	_	_	_	_	2077-2080	wf1	als	*	O
+20	die	d	_	ART	_	_	_	_	_	2081-2084	wf2	die	*	O
+21	Anweſenden	Anwesende	_	NN	_	_	_	_	_	2085-2095	wf3	Anwesenden	*	O
+22	.	.	_	$.	_	_	_	_	_	2096-2097	wf4	.	*	O
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# TopFString = (S(VF(PPER Es))(LK(VVFIN laſſen))(MF(ADV aber)(ADV auch)(PPOSAT ihre)(NN Umſtaͤnde)(KON und)(NN Verrich-<lb/>tungen)(PTKNEG nicht)(ADV allezeit))(VC(PTKVZ zu))(KOMMA ,)(NF(MF(APPRART ins)(NN Werck))(VC(PTKZU zu)(VVINF rich-<lb/>ten))(KOMMA ,)(NF(C(PWS was))(MF(ADV dort))(VC(VVPP geſchrieben)(VVFIN ſtehet))))(PUNKT :)(LK(VVIMP komm))(VC(PTKVZ her))(KOMMA ,)(KON und)(LK(VVIMP ſiehe))(MF(PPER es))(PUNKT .))
+# text = Es laſſen aber auch ihre Umſtaͤnde und Verrich-<lb/>tungen nicht allezeit zu , ins Werck zu rich-<lb/>ten , was dort geſchrieben ſtehet : komm her , und ſiehe es .
+1	Es	es	_	PPER	_	_	_	_	_	2099-2101	wf5	Es	*	O
+2	laſſen	lassen	_	VVFIN	_	_	_	_	_	2102-2108	wf6	lassen	*	B-LK
+3	aber	aber	_	ADV	_	_	_	_	_	2109-2113	wf7	aber	*	O
+4	auch	auch	_	ADV	_	_	_	_	_	2114-2118	wf8	auch	*	O
+5	ihre	ihr	_	PPOSAT	_	_	_	_	_	2119-2123	wf9	ihre	*	O
+6	Umſtaͤnde	Umstand	_	NN	_	_	_	_	_	2124-2133	wfa	Umstände	*	O
+7	und	und	_	KON	_	_	_	_	_	2134-2137	wfb	und	*	O
+8	Verrich-<lb/>tungen	Verrichtung	_	NN	_	_	_	_	_	2138-2157	wfc	Verrichtungen	*	O
+9	nicht	nicht	_	PTKNEG	_	_	_	_	_	2158-2163	wfd	nicht	*	O
+10	allezeit	allezeit	_	ADV	_	_	_	_	_	2164-2172	wfe	allezeit	*	O
+11	zu	zu	_	PTKVZ	_	_	_	_	_	2173-2175	wff	zu	*	B-RK
+12	,	,	_	$,	_	_	_	_	_	2176-2177	w100	,	*	O
+13	ins	ins	_	APPRART	_	_	_	_	_	2178-2181	w101	ins	*	O
+14	Werck	Werk	_	NN	_	_	_	_	_	2182-2187	w102	Werk	*	O
+15	zu	zu	_	PTKZU	_	_	_	_	_	2188-2190	w103	zu	*	B-RK
+16	rich-<lb/>ten	richten	_	VVINF	_	_	_	_	_	2191-2204	w104	richten	*	I-RK
+17	,	,	_	$,	_	_	_	_	_	2205-2206	w105	,	*	O
+18	was	was	_	PWS	_	_	_	_	_	2207-2210	w106	was	*	B-LK
+19	dort	dort	_	ADV	_	_	_	_	_	2211-2215	w107	dort	*	O
+20	geſchrieben	schreiben	_	VVPP	_	_	_	_	_	2216-2227	w108	geschrieben	*	B-RK
+21	ſtehet	stehen	_	VVFIN	_	_	_	_	_	2228-2234	w109	steht	*	I-RK
+22	:	:	_	$.	_	_	_	_	_	2235-2236	w10a	:	*	O
+23	komm	kommen	_	VVIMP	_	_	_	_	_	2237-2241	w10b	komme	*	B-LK
+24	her	her	_	PTKVZ	_	_	_	_	_	2242-2245	w10c	her	*	B-RK
+25	,	,	_	$,	_	_	_	_	_	2246-2247	w10d	,	*	O
+26	und	und	_	KON	_	_	_	_	_	2248-2251	w10e	und	*	O
+27	ſiehe	sehen	_	VVIMP	_	_	_	_	_	2252-2257	w10f	siehe	*	B-LK
+28	es	es	_	PPER	_	_	_	_	_	2258-2260	w110	es	*	O
+29	.	.	_	$.	_	_	_	_	_	2261-2262	w111	.	*	O
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# TopFString = (S(VF(ART Der)(NN Ruf))(LK(VVFIN thut))(MF(ADV man-<lb/>chemahl)(ADV wohl)(PIS etwas)(KOMMA ,)(ADV allein))(KOMMA ,)(VF(PPER es))(LK(VVFIN heißt))(MF(ADV auch)(PAV dabey)(APPRART zum)(NN oͤfftern)(PUNKT :)(FM fama)(FM quandoque)(FM fallax))(PUNKT .))
+# text = Der Ruf thut man-<lb/>chemahl wohl etwas , allein , es heißt auch dabey zum oͤfftern : fama quandoque fallax .
+1	Der	d	_	ART	_	_	_	_	_	2264-2267	w112	Der	*	O
+2	Ruf	Ruf	_	NN	_	_	_	_	_	2268-2271	w113	Ruf	*	O
+3	thut	tun	_	VVFIN	_	_	_	_	_	2272-2276	w114	tut	*	B-LK
+4	man-<lb/>chemahl	manchmal	_	ADV	_	_	_	_	_	2277-2293	w115	manchmal	*	O
+5	wohl	wohl	_	ADV	_	_	_	_	_	2294-2298	w116	wohl	*	O
+6	etwas	etwas	_	PIS	_	_	_	_	_	2299-2304	w117	etwas	*	O
+7	,	,	_	$,	_	_	_	_	_	2305-2306	w118	,	*	O
+8	allein	allein	_	ADV	_	_	_	_	_	2307-2313	w119	allein	*	O
+9	,	,	_	$,	_	_	_	_	_	2314-2315	w11a	,	*	O
+10	es	es	_	PPER	_	_	_	_	_	2316-2318	w11b	es	*	O
+11	heißt	heißen	_	VVFIN	_	_	_	_	_	2319-2324	w11c	heißt	*	B-LK
+12	auch	auch	_	ADV	_	_	_	_	_	2325-2329	w11d	auch	*	O
+13	dabey	dabei	_	PAV	_	_	_	_	_	2330-2335	w11e	dabei	*	O
+14	zum	zum	_	APPRART	_	_	_	_	_	2336-2339	w11f	zum	*	O
+15	oͤfftern	oft	_	NN	_	_	_	_	_	2340-2348	w120	öfteren	*	O
+16	:	:	_	$.	_	_	_	_	_	2349-2350	w121	:	*	O
+17	fama	fama	_	FM	_	_	_	_	_	2351-2355	w122	fama	*	O
+18	quandoque	quandoque	_	FM	_	_	_	_	_	2356-2365	w123	quandoque	*	O
+19	fallax	fallax	_	FM	_	_	_	_	_	2366-2372	w124	fallax	*	O
+20	.	.	_	$.	_	_	_	_	_	2373-2374	w125	.	*	O
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# TopFString = (S(VF(ADV Folgentlich))(LK(VMFIN muͤſſen))(MF(PDS dieſe)(APPR auf)(ADJA an-<lb/>dere)(NN Arten)(APPR in)(PDAT dieſem)(NN Stuͤcke))(VC(VVPP unterrichtet)(VAINF werden))(PUNKT .))
+# text = Folgentlich muͤſſen dieſe auf an-<lb/>dere Arten in dieſem Stuͤcke unterrichtet werden .
+1	Folgentlich	folgeentelich	_	ADV	_	_	_	_	_	2376-2387	w126	Folgentlich	*	O
+2	muͤſſen	müssen	_	VMFIN	_	_	_	_	_	2388-2395	w127	müssen	*	B-LK
+3	dieſe	diese	_	PDS	_	_	_	_	_	2396-2401	w128	diese	*	O
+4	auf	auf	_	APPR	_	_	_	_	_	2402-2405	w129	auf	*	O
+5	an-<lb/>dere	ander	_	ADJA	_	_	_	_	_	2406-2418	w12a	andere	*	O
+6	Arten	Art	_	NN	_	_	_	_	_	2419-2424	w12b	Arten	*	O
+7	in	in	_	APPR	_	_	_	_	_	2425-2427	w12c	in	*	O
+8	dieſem	diese	_	PDAT	_	_	_	_	_	2428-2434	w12d	diesem	*	O
+9	Stuͤcke	Stück	_	NN	_	_	_	_	_	2435-2442	w12e	Stücke	*	O
+10	unterrichtet	unterrichten	_	VVPP	_	_	_	_	_	2443-2455	w12f	unterrichtet	*	B-RK
+11	werden	werden	_	VAINF	_	_	_	_	_	2456-2462	w130	werden	*	I-RK
+12	.	.	_	$.	_	_	_	_	_	2463-2464	w131	.	*	O
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# TopFString = (S(KOORD(KON Und))(VF(ADV da))(LK(VAFIN iſt))(MF(ADV nun)(APPR auſſer)(NN Streit)(ADV wohl)(ART die)(NN allerbeſte))(KOMMA ,)(NF(C(KOUS wenn))(FKOORD(FKONJ(MF(ART ein)(PIAT ſolcher)(NN Leh-<lb/>rer)(KOMMA ,)(APPR in)(PDAT dieſem)(KON und)(PDAT jenem)(NN Theil)(ART der)(NN Gelehr-<lb/>heit)(KOMMA ,)(KON und)(ADV darinnen)(PPER er)(ADV inſonderheit)(PIAT einige)(NN Geſchicklichkeit))(VC(VVFIN beſitzet)))(KOMMA ,)(FKONJ(MF(ART dem)(NN Publico)(ADJA gnugſame)(NN Proben))(VC(VVFIN vorleget)))))(PUNKT ;)(KON denn)(VF(PAV hier-<lb/>aus))(LK(VAFIN iſt))(MF(ADV ſodann)(ADV gar)(ADJD leicht)(APPR auf)(ART das)(NN uͤbrige)(KOMMA ,)(KON und)(ADV ſonderlich)(APPRART aufs)(NN zukuͤnfftige)(ART ein)(NN Schluß))(VC(PTKZU zu)(VVINF machen))(PUNKT .))
+# text = Und da iſt nun auſſer Streit wohl die allerbeſte , wenn ein ſolcher Leh-<lb/>rer , in dieſem und jenem Theil der Gelehr-<lb/>heit , und darinnen er inſonderheit einige Geſchicklichkeit beſitzet , dem Publico gnugſame Proben vorleget ; denn hier-<lb/>aus iſt ſodann gar leicht auf das uͤbrige , und ſonderlich aufs zukuͤnfftige ein Schluß zu machen .
+1	Und	und	_	KON	_	_	_	_	_	2466-2469	w132	Und	*	O
+2	da	da	_	ADV	_	_	_	_	_	2470-2472	w133	da	*	O
+3	iſt	sein	_	VAFIN	_	_	_	_	_	2473-2476	w134	ist	*	B-LK
+4	nun	nun	_	ADV	_	_	_	_	_	2477-2480	w135	nun	*	O
+5	auſſer	außer	_	APPR	_	_	_	_	_	2481-2487	w136	außer	*	O
+6	Streit	Streit	_	NN	_	_	_	_	_	2488-2494	w137	Streit	*	O
+7	wohl	wohl	_	ADV	_	_	_	_	_	2495-2499	w138	wohl	*	O
+8	die	d	_	ART	_	_	_	_	_	2500-2503	w139	die	*	O
+9	allerbeſte	allerbest	_	NN	_	_	_	_	_	2504-2514	w13a	allerbeste	*	O
+10	,	,	_	$,	_	_	_	_	_	2515-2516	w13b	,	*	O
+11	wenn	wenn	_	KOUS	_	_	_	_	_	2517-2521	w13c	wenn	*	B-LK
+12	ein	eine	_	ART	_	_	_	_	_	2522-2525	w13d	ein	*	O
+13	ſolcher	solch	_	PIAT	_	_	_	_	_	2526-2533	w13e	solcher	*	O
+14	Leh-<lb/>rer	Lehrer	_	NN	_	_	_	_	_	2534-2546	w13f	Lehrer	*	O
+15	,	,	_	$,	_	_	_	_	_	2547-2548	w140	,	*	O
+16	in	in	_	APPR	_	_	_	_	_	2549-2551	w141	in	*	O
+17	dieſem	diese	_	PDAT	_	_	_	_	_	2552-2558	w142	diesem	*	O
+18	und	und	_	KON	_	_	_	_	_	2559-2562	w143	und	*	O
+19	jenem	jen	_	PDAT	_	_	_	_	_	2563-2568	w144	jenem	*	O
+20	Theil	Teil	_	NN	_	_	_	_	_	2569-2574	w145	Teil	*	O
+21	der	d	_	ART	_	_	_	_	_	2575-2578	w146	der	*	O
+22	Gelehr-<lb/>heit	Gelehrtheit	_	NN	_	_	_	_	_	2579-2595	w147,w147_1,w147_2	Gelehrtheit	*	O
+23	,	,	_	$,	_	_	_	_	_	2596-2597	w148	,	*	O
+24	und	und	_	KON	_	_	_	_	_	2598-2601	w149	und	*	O
+25	darinnen	darinnen	_	ADV	_	_	_	_	_	2602-2610	w14a	darinnen	*	O
+26	er	er	_	PPER	_	_	_	_	_	2611-2613	w14b	er	*	O
+27	inſonderheit	insonderheit	_	ADV	_	_	_	_	_	2614-2626	w14c	insonderheit	*	O
+28	einige	einige	_	PIAT	_	_	_	_	_	2627-2633	w14d	einige	*	O
+29	Geſchicklichkeit	Geschicklichkeit	_	NN	_	_	_	_	_	2634-2650	w14e	Geschicklichkeit	*	O
+30	beſitzet	besitzen	_	VVFIN	_	_	_	_	_	2651-2659	w14f	besitzet	*	B-RK
+31	,	,	_	$,	_	_	_	_	_	2660-2661	w150	,	*	O
+32	dem	d	_	ART	_	_	_	_	_	2662-2665	w151	dem	*	O
+33	Publico	Publikum	_	NN	_	_	_	_	_	2666-2673	w152	Publikum	*	O
+34	gnugſame	genugsam	_	ADJA	_	_	_	_	_	2674-2682	w153	genugsame	*	O
+35	Proben	Probe	_	NN	_	_	_	_	_	2683-2689	w154	Proben	*	O
+36	vorleget	vorlegen	_	VVFIN	_	_	_	_	_	2690-2698	w155	vorleget	*	B-RK
+37	;	;	_	$.	_	_	_	_	_	2699-2700	w156	;	*	O
+38	denn	denn	_	KON	_	_	_	_	_	2701-2705	w157	denn	*	O
+39	hier-<lb/>aus	hieraus	_	PAV	_	_	_	_	_	2706-2719	w158	hieraus	*	O
+40	iſt	sein	_	VAFIN	_	_	_	_	_	2720-2723	w159	ist	*	B-LK
+41	ſodann	sodann	_	ADV	_	_	_	_	_	2724-2730	w15a	sodann	*	O
+42	gar	gar	_	ADV	_	_	_	_	_	2731-2734	w15b	gar	*	O
+43	leicht	leicht	_	ADJD	_	_	_	_	_	2735-2741	w15c	leicht	*	O
+44	auf	auf	_	APPR	_	_	_	_	_	2742-2745	w15d	auf	*	O
+45	das	d	_	ART	_	_	_	_	_	2746-2749	w15e	das	*	O
+46	uͤbrige	übrig	_	NN	_	_	_	_	_	2750-2757	w15f	übrige	*	O
+47	,	,	_	$,	_	_	_	_	_	2758-2759	w160	,	*	O
+48	und	und	_	KON	_	_	_	_	_	2760-2763	w161	und	*	O
+49	ſonderlich	sonderlich	_	ADV	_	_	_	_	_	2764-2774	w162	sonderlich	*	O
+50	aufs	aufs	_	APPRART	_	_	_	_	_	2775-2779	w163	aufs	*	O
+51	zukuͤnfftige	zukünftig	_	NN	_	_	_	_	_	2780-2792	w164	zukünftige	*	O
+52	ein	eine	_	ART	_	_	_	_	_	2793-2796	w165	ein	*	O
+53	Schluß	Schluß	_	NN	_	_	_	_	_	2797-2803	w166	Schluß	*	O
+54	zu	zu	_	PTKZU	_	_	_	_	_	2804-2806	w167	zu	*	B-RK
+55	machen	machen	_	VVINF	_	_	_	_	_	2807-2813	w168	machen	*	I-RK
+56	.	.	_	$.	_	_	_	_	_	2814-2815	w169	.	*	O
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# TopFString = (S(LK(VAFIN Hat))(MF(PPER es)(APPR mit)(PDAT dieſem)(ADJA erſten)(NN Punct)(PPOSAT ſeine)(NN Richtigkeit))(PUNKT .))
+# text = Hat es mit dieſem erſten Punct ſeine Richtigkeit .
+1	Hat	haben	_	VAFIN	_	_	_	_	_	2817-2820	w16a	Hat	*	B-LK
+2	es	es	_	PPER	_	_	_	_	_	2821-2823	w16b	es	*	O
+3	mit	mit	_	APPR	_	_	_	_	_	2824-2827	w16c	mit	*	O
+4	dieſem	diese	_	PDAT	_	_	_	_	_	2828-2834	w16d	diesem	*	O
+5	erſten	erst	_	ADJA	_	_	_	_	_	2835-2841	w16e	ersten	*	O
+6	Punct	Punkt	_	NN	_	_	_	_	_	2842-2847	w16f	Punkt	*	O
+7	ſeine	seine	_	PPOSAT	_	_	_	_	_	2848-2853	w170	seine	*	O
+8	Richtigkeit	Richtigkeit	_	NN	_	_	_	_	_	2854-2865	w171	Richtigkeit	*	O
+9	.	.	_	$.	_	_	_	_	_	2866-2867	w172	.	*	O
+
+# sent_id = 19
+# sent_id(TSV) = 19
+# TopFString = (S(LK(VAFIN Hat))(FKOORD(FKONJ(MF(PPER er)(ART den)(ADJA erſten)(NN Schritt)(ADV wohl))(VC(VVPP gemacht)))(KOMMA ,)(KON und)(FKONJ(MF(APPR durch)(ADJA gnugſame)(NN Pro-<lb/>ben)(PPOSAT ſeinen)(NN Fleiß))(VC(VVPP erwieſen))))(KOMMA ,)(KON und)(VF(ADV alſo)(KOMMA ,)(APPR zu)(ADJA fer-<lb/>nerer)(ADJA guten)(NN Hoffnung)(APPR von)(PPER ihm)(KOMMA ,)(MF(ART einen)(ADJA ſi-<lb/>chern)(NN Grund))(VC(VVPP geleget)))(ADV ſo)(LK(VVFIN erfordern))(MF(ADV alsdenn)(ART die)(NN Regeln)(ART der)(NN Klugheit)(KON und)(NN Erkaͤnntlich-<lb/>keit)(ADV weiter))(KOMMA ,)(NF(MF(ADV auch)(APPR an)(ART die)(NN Danckbarkeit)(KON und)(APPR an)(PDS diejenigen))(VC(PTKZU zu)(VVINF gedencken))(KOMMA ,)(NF(C(PRELS denen))(MF(PPER er)(PPOSAT ſeinen)(NN Beruf)(KON und)(PAV davon)(ADJA abhangendes)(NN Gluͤcke)(KOMMA ,)(APPR nechſt)(NN GOtt))(KOMMA ,)(VC(PTKZU zu)(VVINF dancken)(KON und)(VVIZU zuzuſchrei-<lb/>ben)(VAFIN habe))))(PUNKT .))
+# text = Hat er den erſten Schritt wohl gemacht , und durch gnugſame Pro-<lb/>ben ſeinen Fleiß erwieſen , und alſo , zu fer-<lb/>nerer guten Hoffnung von ihm , einen ſi-<lb/>chern Grund geleget ſo erfordern alsdenn die Regeln der Klugheit und Erkaͤnntlich-<lb/>keit weiter , auch an die Danckbarkeit und an diejenigen zu gedencken , denen er ſeinen Beruf und davon abhangendes Gluͤcke , nechſt GOtt , zu dancken und zuzuſchrei-<lb/>ben habe .
+1	Hat	haben	_	VAFIN	_	_	_	_	_	2869-2872	w173	Hat	*	B-LK
+2	er	er	_	PPER	_	_	_	_	_	2873-2875	w174	er	*	O
+3	den	d	_	ART	_	_	_	_	_	2876-2879	w175	den	*	O
+4	erſten	erst	_	ADJA	_	_	_	_	_	2880-2886	w176	ersten	*	O
+5	Schritt	Schritt	_	NN	_	_	_	_	_	2887-2894	w177	Schritt	*	O
+6	wohl	wohl	_	ADV	_	_	_	_	_	2895-2899	w178	wohl	*	O
+7	gemacht	machen	_	VVPP	_	_	_	_	_	2900-2907	w179	gemacht	*	B-RK
+8	,	,	_	$,	_	_	_	_	_	2908-2909	w17a	,	*	O
+9	und	und	_	KON	_	_	_	_	_	2910-2913	w17b	und	*	O
+10	durch	durch	_	APPR	_	_	_	_	_	2914-2919	w17c	durch	*	O
+11	gnugſame	genugsam	_	ADJA	_	_	_	_	_	2920-2928	w17d	genugsame	*	O
+12	Pro-<lb/>ben	Probe	_	NN	_	_	_	_	_	2929-2941	w17e	Proben	*	O
+13	ſeinen	seine	_	PPOSAT	_	_	_	_	_	2942-2948	w17f	seinen	*	O
+14	Fleiß	Fleiß	_	NN	_	_	_	_	_	2949-2954	w180	Fleiß	*	O
+15	erwieſen	erweisen	_	VVPP	_	_	_	_	_	2955-2963	w181	erwiesen	*	B-RK
+16	,	,	_	$,	_	_	_	_	_	2964-2965	w182	,	*	O
+17	und	und	_	KON	_	_	_	_	_	2966-2969	w183	und	*	O
+18	alſo	also	_	ADV	_	_	_	_	_	2970-2974	w184	also	*	O
+19	,	,	_	$,	_	_	_	_	_	2975-2976	w185	,	*	O
+20	zu	zu	_	APPR	_	_	_	_	_	2977-2979	w186	zu	*	O
+21	fer-<lb/>nerer	fern	_	ADJA	_	_	_	_	_	2980-2994	w187	fernerer	*	O
+22	guten	gut	_	ADJA	_	_	_	_	_	2995-3000	w188	guten	*	O
+23	Hoffnung	Hoffnung	_	NN	_	_	_	_	_	3001-3009	w189	Hoffnung	*	O
+24	von	von	_	APPR	_	_	_	_	_	3010-3013	w18a	von	*	O
+25	ihm	er	_	PPER	_	_	_	_	_	3014-3017	w18b	ihm	*	O
+26	,	,	_	$,	_	_	_	_	_	3018-3019	w18c	,	*	O
+27	einen	eine	_	ART	_	_	_	_	_	3020-3025	w18d	einen	*	O
+28	ſi-<lb/>chern	sicher	_	ADJA	_	_	_	_	_	3026-3039	w18e	sicheren	*	O
+29	Grund	Grund	_	NN	_	_	_	_	_	3040-3045	w18f	Grund	*	O
+30	geleget	legen	_	VVPP	_	_	_	_	_	3046-3053	w190	gelegt	*	B-RK
+31	ſo	so	_	ADV	_	_	_	_	_	3054-3056	w191	so	*	O
+32	erfordern	erfordern	_	VVFIN	_	_	_	_	_	3057-3066	w192	erfordern	*	B-LK
+33	alsdenn	alsdann	_	ADV	_	_	_	_	_	3067-3074	w193	alsdann	*	O
+34	die	d	_	ART	_	_	_	_	_	3075-3078	w194	die	*	O
+35	Regeln	Regel	_	NN	_	_	_	_	_	3079-3085	w195	Regeln	*	O
+36	der	d	_	ART	_	_	_	_	_	3086-3089	w196	der	*	O
+37	Klugheit	Klugheit	_	NN	_	_	_	_	_	3090-3098	w197	Klugheit	*	O
+38	und	und	_	KON	_	_	_	_	_	3099-3102	w198	und	*	O
+39	Erkaͤnntlich-<lb/>keit	Erkenntlichkeit	_	NN	_	_	_	_	_	3103-3125	w199	Erkenntlichkeit	*	O
+40	weiter	weiter	_	ADV	_	_	_	_	_	3126-3132	w19a	weiter	*	O
+41	,	,	_	$,	_	_	_	_	_	3133-3134	w19b	,	*	O
+42	auch	auch	_	ADV	_	_	_	_	_	3135-3139	w19c	auch	*	O
+43	an	an	_	APPR	_	_	_	_	_	3140-3142	w19d	an	*	O
+44	die	d	_	ART	_	_	_	_	_	3143-3146	w19e	die	*	O
+45	Danckbarkeit	Dankbarkeit	_	NN	_	_	_	_	_	3147-3159	w19f	Dankbarkeit	*	O
+46	und	und	_	KON	_	_	_	_	_	3160-3163	w1a0	und	*	O
+47	an	an	_	APPR	_	_	_	_	_	3164-3166	w1a1	an	*	O
+48	diejenigen	diejenige	_	PDS	_	_	_	_	_	3167-3177	w1a2	diejenigen	*	O
+49	zu	zu	_	PTKZU	_	_	_	_	_	3178-3180	w1a3	zu	*	B-RK
+50	gedencken	gedenken	_	VVINF	_	_	_	_	_	3181-3190	w1a4	gedenken	*	I-RK
+51	,	,	_	$,	_	_	_	_	_	3191-3192	w1a5	,	*	O
+52	denen	die	_	PRELS	_	_	_	_	_	3193-3198	w1a6	denen	*	B-LK
+53	er	er	_	PPER	_	_	_	_	_	3199-3201	w1a7	er	*	O
+54	ſeinen	seine	_	PPOSAT	_	_	_	_	_	3202-3208	w1a8	seinen	*	O
+55	Beruf	Beruf	_	NN	_	_	_	_	_	3209-3214	w1a9	Beruf	*	O
+56	und	und	_	KON	_	_	_	_	_	3215-3218	w1aa	und	*	O
+57	davon	davon	_	PAV	_	_	_	_	_	3219-3224	w1ab	davon	*	O
+58	abhangendes	abhangend	_	ADJA	_	_	_	_	_	3225-3236	w1ac	abhangendes	*	O
+59	Gluͤcke	Glück	_	NN	_	_	_	_	_	3237-3244	w1ad	Glücke	*	O
+60	,	,	_	$,	_	_	_	_	_	3245-3246	w1ae	,	*	O
+61	nechſt	nächst	_	APPR	_	_	_	_	_	3247-3253	w1af	nächst	*	O
+62	GOtt	Gott	_	NN	_	_	_	_	_	3254-3258	w1b0	Gott	*	O
+63	,	,	_	$,	_	_	_	_	_	3259-3260	w1b1	,	*	O
+64	zu	zu	_	PTKZU	_	_	_	_	_	3261-3263	w1b2	zu	*	B-RK
+65	dancken	danken	_	VVINF	_	_	_	_	_	3264-3271	w1b3	danken	*	I-RK
+66	und	und	_	KON	_	_	_	_	_	3272-3275	w1b4	und	*	I-RK
+67	zuzuſchrei-<lb/>ben	zuschreiben	_	VVIZU	_	_	_	_	_	3276-3295	w1b5	zuzuschreiben	*	I-RK
+68	habe	haben	_	VAFIN	_	_	_	_	_	3296-3300	w1b6	habe	*	I-RK
+69	.	.	_	$.	_	_	_	_	_	3301-3302	w1b7	.	*	O
+
+# sent_id = 20
+# sent_id(TSV) = 20
+# TopFString = (S(VF(ADV Schon)(ART die)(ADJA klugen)(ADJA alten)(NN Heyden))(LK(VAFIN haben))(VC(VVPP geglaubet))(KOMMA ,)(NF(C(KOUS daß))(MF(ART ein)(NN Menſch)(KOMMA ,)(APPR durch)(PIAT keine)(NN Tugend)(KOMMA ,)(ART den)(NN Goͤttern)(ADV ſo)(ADJD nahe))(VC(VVINF kom-<lb/>men)(VMFIN koͤnne))(KOMMA ,)(NF(KOKOM als)(APPR durch)(ART die)(NN Danckbahrkeit)))(PUNKT .))
+# text = Schon die klugen alten Heyden haben geglaubet , daß ein Menſch , durch keine Tugend , den Goͤttern ſo nahe kom-<lb/>men koͤnne , als durch die Danckbahrkeit .
+1	Schon	schon	_	ADV	_	_	_	_	_	3304-3309	w1b8	Schon	*	O
+2	die	d	_	ART	_	_	_	_	_	3310-3313	w1b9	die	*	O
+3	klugen	klug	_	ADJA	_	_	_	_	_	3314-3320	w1ba	klugen	*	O
+4	alten	alt	_	ADJA	_	_	_	_	_	3321-3326	w1bb	alten	*	O
+5	Heyden	Heide	_	NN	_	_	_	_	_	3327-3333	w1bc	Heiden	*	O
+6	haben	haben	_	VAFIN	_	_	_	_	_	3334-3339	w1bd	haben	*	B-LK
+7	geglaubet	glauben	_	VVPP	_	_	_	_	_	3340-3349	w1be	geglaubt	*	B-RK
+8	,	,	_	$,	_	_	_	_	_	3350-3351	w1bf	,	*	O
+9	daß	daß	_	KOUS	_	_	_	_	_	3352-3355	w1c0	daß	*	B-LK
+10	ein	eine	_	ART	_	_	_	_	_	3356-3359	w1c1	ein	*	O
+11	Menſch	Mensch	_	NN	_	_	_	_	_	3360-3366	w1c2	Mensch	*	O
+12	,	,	_	$,	_	_	_	_	_	3367-3368	w1c3	,	*	O
+13	durch	durch	_	APPR	_	_	_	_	_	3369-3374	w1c4	durch	*	O
+14	keine	keine	_	PIAT	_	_	_	_	_	3375-3380	w1c5	keine	*	O
+15	Tugend	Tugend	_	NN	_	_	_	_	_	3381-3387	w1c6	Tugend	*	O
+16	,	,	_	$,	_	_	_	_	_	3388-3389	w1c7	,	*	O
+17	den	d	_	ART	_	_	_	_	_	3390-3393	w1c8	den	*	O
+18	Goͤttern	Gott	_	NN	_	_	_	_	_	3394-3402	w1c9	Göttern	*	O
+19	ſo	so	_	ADV	_	_	_	_	_	3403-3405	w1ca	so	*	O
+20	nahe	nahe	_	ADJD	_	_	_	_	_	3406-3410	w1cb	nahe	*	O
+21	kom-<lb/>men	kommen	_	VVINF	_	_	_	_	_	3411-3423	w1cc	kommen	*	B-RK
+22	koͤnne	können	_	VMFIN	_	_	_	_	_	3424-3430	w1cd	könne	*	I-RK
+23	,	,	_	$,	_	_	_	_	_	3431-3432	w1ce	,	*	O
+24	als	als	_	KOKOM	_	_	_	_	_	3433-3436	w1cf	als	*	O
+25	durch	durch	_	APPR	_	_	_	_	_	3437-3442	w1d0	durch	*	O
+26	die	d	_	ART	_	_	_	_	_	3443-3446	w1d1	die	*	O
+27	Danckbahrkeit	Dankbarkeit	_	NN	_	_	_	_	_	3447-3460	w1d2	Dankbarkeit	*	O
+28	.	.	_	$.	_	_	_	_	_	3461-3462	w1d3	.	*	O

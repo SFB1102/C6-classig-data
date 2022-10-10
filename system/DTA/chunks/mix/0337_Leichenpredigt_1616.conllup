@@ -1,0 +1,410 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CHUNK CharOffset DTA:ID DTA:NORM POS
+# sent_id = 1
+# sent_id(TSV) = 1
+# text = Concio Threnodica .
+1	Concio	concio	_	FM	_	_	_	_	_	O	0-6	w1	Concio	*
+2	Threnodica	threnodica	_	FM	_	_	_	_	_	O	7-17	w2	Threnodica	*
+3	.	.	_	$.	_	_	_	_	_	O	18-19	w3	.	*
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# text = Das iſt : Leich : oder Thränen-<lb/>predigt bey dem Begraͤbnuͤſs / weylandt der Ehrbarn vnd Viel- Ehꝛentugentreichen Jungfꝛaw Elisabeth , Des Geſtrengen / Ehrenveſten vnd wolbenambten Herꝛen Galli Rtzimßkes Fuͤrſtlichen Muͤnſterbergiſchen Hauptmans zu Medtzibohꝛ vielgeliebten Jungfraw Tochter / ꝛc . Welche in wahrer vnd jnbruͤnſtiger Glaͤubiger Anruffung des Sohnes Gottes ſtarb / auff dem Honigkhammer / den 28 Julij / vnd hernach zu Medtzibohr den 8. Auguſti begraben ward .
+1	Das	die	_	PDS	_	_	_	_	_	B-NC	21-24	w4	Das	*
+2	iſt	sein	_	VAFIN	_	_	_	_	_	O	25-28	w5	ist	*
+3	:	:	_	$.	_	_	_	_	_	O	29-30	w6	:	*
+4	Leich	Leich	_	TRUNC	_	_	_	_	_	B-NC	31-36	w7	Leich	*
+5	:	:	_	$.	_	_	_	_	_	O	37-38	w8	:	*
+6	oder	oder	_	KON	_	_	_	_	_	O	39-43	w9	oder	*
+7	Thränen-<lb/>predigt	Tränenpredigt	_	NN	_	_	_	_	_	B-NC	44-64	wa	Tränenpredigt	*
+8	bey	bei	_	APPR	_	_	_	_	_	B-PC	65-68	wb	bei	*
+9	dem	d	_	ART	_	_	_	_	_	I-PC	69-72	wc	dem	*
+10	Begraͤbnuͤſs	Begräbnis	_	NN	_	_	_	_	_	I-PC	73-85	wd	Begräbnis	*
+11	/	/	_	$(	_	_	_	_	_	O	86-87	we	/	*
+12	weylandt	weiland	_	ADV	_	_	_	_	_	B-ADVC	88-96	wf	weiland	*
+13	der	d	_	ART	_	_	_	_	_	B-NC	97-100	w10	der	*
+14	Ehrbarn	Ehrbar	_	ADJA	_	_	_	_	_	I-NC	101-108	w11	Ehrbarn	*
+15	vnd	und	_	KON	_	_	_	_	_	I-NC	109-112	w12	und	*
+16	Viel-	viel-	_	ADV	_	_	_	_	_	I-NC	113-118	w13	Viel-	*
+17	Ehꝛentugentreichen	ehrentugentreich	_	ADJA	_	_	_	_	_	I-NC	119-137	w14	Ehrentugentreichen	*
+18	Jungfꝛaw	Jungfrau	_	NN	_	_	_	_	_	I-NC	138-146	w15	Jungfrau	*
+19	Elisabeth	Elisabeth	_	NE	_	_	_	_	_	B-NC	147-156	w16	Elisabeth	*
+20	,	,	_	$,	_	_	_	_	_	O	157-158	w17	,	*
+21	Des	d	_	ART	_	_	_	_	_	B-NC	159-162	w18	Des	*
+22	Geſtrengen	Gestrenge	_	ADJA	_	_	_	_	_	I-NC	163-173	w19	Gestrengen	*
+23	/	/	_	$(	_	_	_	_	_	I-NC	174-175	w1a	/	*
+24	Ehrenveſten	ehrenfest	_	ADJA	_	_	_	_	_	I-NC	176-187	w1b	Ehrenfesten	*
+25	vnd	und	_	KON	_	_	_	_	_	I-NC	188-191	w1c	und	*
+26	wolbenambten	wohlbenamt	_	ADJA	_	_	_	_	_	I-NC	192-204	w1d	wohlbenamten	*
+27	Herꝛen	Herr	_	NN	_	_	_	_	_	I-NC	205-211	w1e	Herren	*
+28	Galli	Galli	_	NE	_	_	_	_	_	B-NC	212-217	w1f	Galli	*
+29	Rtzimßkes	Rtzimßkes	_	NE	_	_	_	_	_	I-NC	218-227	w20	Rtzimßkes	*
+30	Fuͤrſtlichen	fürstlich	_	ADJA	_	_	_	_	_	B-NC	228-240	w21	Fürstlichen	*
+31	Muͤnſterbergiſchen	münsterbergisch	_	ADJA	_	_	_	_	_	I-NC	241-259	w22	Münsterbergischen	*
+32	Hauptmans	Hauptman	_	NN	_	_	_	_	_	I-NC	260-269	w23	Hauptmans	*
+33	zu	zu	_	APPR	_	_	_	_	_	B-PC	270-272	w24	zu	*
+34	Medtzibohꝛ	Medtzibohr	_	NE	_	_	_	_	_	I-PC	273-283	w25	Medtzibohr	*
+35	vielgeliebten	vielgeliebt	_	ADJA	_	_	_	_	_	B-NC	284-297	w26	vielgeliebten	*
+36	Jungfraw	Jungfrau	_	NN	_	_	_	_	_	I-NC	298-306	w27	Jungfrau	*
+37	Tochter	Tochter	_	NN	_	_	_	_	_	B-NC	307-314	w28	Tochter	*
+38	/	/	_	$(	_	_	_	_	_	O	315-316	w29	/	*
+39	ꝛc	et_cetera	_	ADV	_	_	_	_	_	B-ADVC	317-319	w2a	etc	*
+40	.	.	_	$.	_	_	_	_	_	O	320-321	w2b	.	*
+41	Welche	welche	_	PRELS	_	_	_	_	_	B-NC	322-328	w2c	Welche	*
+42	in	in	_	APPR	_	_	_	_	_	B-PC	329-331	w2d	in	*
+43	wahrer	wahr	_	ADJA	_	_	_	_	_	I-PC	332-338	w2e	wahrer	*
+44	vnd	und	_	KON	_	_	_	_	_	I-PC	339-342	w2f	und	*
+45	jnbruͤnſtiger	inbrünstig	_	ADJA	_	_	_	_	_	I-PC	343-356	w30	inbrünstiger	*
+46	Glaͤubiger	Gläubiger	_	ADJA	_	_	_	_	_	I-PC	357-367	w31	Gläubiger	*
+47	Anruffung	Anrufung	_	NN	_	_	_	_	_	I-PC	368-377	w32	Anrufung	*
+48	des	d	_	ART	_	_	_	_	_	B-NC	378-381	w33	des	*
+49	Sohnes	Sohn	_	NN	_	_	_	_	_	I-NC	382-388	w34	Sohnes	*
+50	Gottes	Gott	_	NN	_	_	_	_	_	B-NC	389-395	w35	Gottes	*
+51	ſtarb	sterben	_	VVFIN	_	_	_	_	_	O	396-401	w36	starb	*
+52	/	/	_	$(	_	_	_	_	_	O	402-403	w37	/	*
+53	auff	auf	_	APPR	_	_	_	_	_	B-PC	404-408	w38	auf	*
+54	dem	d	_	ART	_	_	_	_	_	I-PC	409-412	w39	dem	*
+55	Honigkhammer	Honighammer	_	NE	_	_	_	_	_	I-PC	413-425	w3a	Honighammer	*
+56	/	/	_	$(	_	_	_	_	_	O	426-427	w3b	/	*
+57	den	d	_	ART	_	_	_	_	_	B-NC	428-431	w3c	den	*
+58	28	28	_	ADJA	_	_	_	_	_	I-NC	432-434	w3d	28	*
+59	Julij	Juli	_	NN	_	_	_	_	_	I-NC	435-440	w3e	Juli	*
+60	/	/	_	$(	_	_	_	_	_	O	441-442	w3f	/	*
+61	vnd	und	_	KON	_	_	_	_	_	O	443-446	w40	und	*
+62	hernach	hernach	_	ADV	_	_	_	_	_	B-ADVC	447-454	w41	hernach	*
+63	zu	zu	_	APPR	_	_	_	_	_	B-PC	455-457	w42	zu	*
+64	Medtzibohr	Medtzibohr	_	NE	_	_	_	_	_	I-PC	458-468	w43	Medtzibohr	*
+65	den	d	_	ART	_	_	_	_	_	B-NC	469-472	w44	den	*
+66	8.	8.	_	ADJA	_	_	_	_	_	I-NC	473-475	w45	8.	*
+67	Auguſti	Augusti	_	NN	_	_	_	_	_	I-NC	476-483	w46	Augusti	*
+68	begraben	begraben	_	VVPP	_	_	_	_	_	O	484-492	w47	begraben	*
+69	ward	werden	_	VAFIN	_	_	_	_	_	O	493-497	w48	wurde	*
+70	.	.	_	$.	_	_	_	_	_	O	498-499	w49	.	*
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# text = Gehalten : Durch Danielem Millichium Wartemberg : Sileſium Pfarꝛherꝛen daſelbſt .
+1	Gehalten	halten	_	VVPP	_	_	_	_	_	O	501-509	w4a	Gehalten	*
+2	:	:	_	$.	_	_	_	_	_	O	510-511	w4b	:	*
+3	Durch	durch	_	APPR	_	_	_	_	_	B-PC	512-517	w4c	Durch	*
+4	Danielem	danielem	_	NE	_	_	_	_	_	I-PC	518-526	w4d	Danielem	*
+5	Millichium	millichium	_	NE	_	_	_	_	_	B-NC	527-537	w4e	Millichium	*
+6	Wartemberg	wartemberg	_	NE	_	_	_	_	_	I-NC	538-548	w4f	Wartemberg	*
+7	:	:	_	$(	_	_	_	_	_	O	549-550	w50	:	*
+8	Sileſium	Silesium	_	NE	_	_	_	_	_	B-NC	551-559	w51	Silesium	*
+9	Pfarꝛherꝛen	Pfarrherr	_	NN	_	_	_	_	_	B-NC	560-571	w52	Pfarrherren	*
+10	daſelbſt	daselbst	_	ADV	_	_	_	_	_	B-ADVC	572-580	w53	daselbst	*
+11	.	.	_	$.	_	_	_	_	_	O	581-582	w54	.	*
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# text = Gedruckt in der Fuͤrſtlichen Stadt Olſſe / Durch Joh : Boͤſſemeſſern . 1616 .
+1	Gedruckt	drucken	_	VVPP	_	_	_	_	_	O	584-592	w55	Gedruckt	*
+2	in	in	_	APPR	_	_	_	_	_	B-PC	593-595	w56	in	*
+3	der	d	_	ART	_	_	_	_	_	I-PC	596-599	w57	der	*
+4	Fuͤrſtlichen	fürstlich	_	ADJA	_	_	_	_	_	I-PC	600-612	w58	Fürstlichen	*
+5	Stadt	Stadt	_	NN	_	_	_	_	_	I-PC	613-618	w59	Stadt	*
+6	Olſſe	Olsse	_	NE	_	_	_	_	_	B-NC	619-624	w5a	Olsse	*
+7	/	/	_	$(	_	_	_	_	_	O	625-626	w5b	/	*
+8	Durch	durch	_	APPR	_	_	_	_	_	B-PC	627-632	w5c	Durch	*
+9	Joh	Joh	_	NE	_	_	_	_	_	I-PC	633-636	w5d	Joh	*
+10	:	:	_	$.	_	_	_	_	_	O	637-638	w5e	:	*
+11	Boͤſſemeſſern	Bösemesser	_	NE	_	_	_	_	_	B-NC	639-652	w5f	Bösemessern	*
+12	.	.	_	$.	_	_	_	_	_	O	653-654	w60	.	*
+13	1616	1616	_	CARD	_	_	_	_	_	B-NC	655-659	w61	1616	*
+14	.	.	_	$.	_	_	_	_	_	O	660-661	w62	.	*
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# text = Dem Geſtrengen / Ehꝛen-<lb/>veſten vnd Wolgeachten Herꝛen Gallo Rtzimßken / Fuͤrſtlichem Muͤnſterbergiſchem Hauptman zu Medtzibohꝛ / Meinem jnſonderm Großguͤnſtigem Herꝛen vnd Gevattern .
+1	Dem	d	_	ART	_	_	_	_	_	B-NC	663-666	w63	Dem	*
+2	Geſtrengen	Gestrenge	_	ADJA	_	_	_	_	_	I-NC	667-677	w64	Gestrengen	*
+3	/	/	_	$(	_	_	_	_	_	I-NC	678-679	w65	/	*
+4	Ehꝛen-<lb/>veſten	ehrenfest	_	ADJA	_	_	_	_	_	I-NC	680-697	w66	Ehrenfesten	*
+5	vnd	und	_	KON	_	_	_	_	_	I-NC	698-701	w67	und	*
+6	Wolgeachten	wohlgeachtet	_	ADJA	_	_	_	_	_	I-NC	702-713	w68	Wohlgeachteten	*
+7	Herꝛen	Herr	_	NN	_	_	_	_	_	I-NC	714-720	w69	Herren	*
+8	Gallo	Gallo	_	NE	_	_	_	_	_	B-NC	721-726	w6a	Gallo	*
+9	Rtzimßken	Rtzimßken	_	NE	_	_	_	_	_	I-NC	727-736	w6b	Rtzimßken	*
+10	/	/	_	$(	_	_	_	_	_	O	737-738	w6c	/	*
+11	Fuͤrſtlichem	fürstlich	_	ADJA	_	_	_	_	_	B-NC	739-751	w6d	Fürstlichem	*
+12	Muͤnſterbergiſchem	münsterbergisch	_	ADJA	_	_	_	_	_	I-NC	752-770	w6e	Münsterbergischem	*
+13	Hauptman	Hauptman	_	NN	_	_	_	_	_	I-NC	771-779	w6f	Hauptman	*
+14	zu	zu	_	APPR	_	_	_	_	_	B-PC	780-782	w70	zu	*
+15	Medtzibohꝛ	Medtzibohr	_	NE	_	_	_	_	_	I-PC	783-793	w71	Medtzibohr	*
+16	/	/	_	$(	_	_	_	_	_	O	794-795	w72	/	*
+17	Meinem	meine	_	PPOSAT	_	_	_	_	_	B-NC	796-802	w73	Meinem	*
+18	jnſonderm	Jnsonderm	_	ADV	_	_	_	_	_	I-NC	803-812	w74	jnsonderm	*
+19	Großguͤnſtigem	großgünstig	_	ADJA	_	_	_	_	_	I-NC	813-827	w75	Großgünstigem	*
+20	Herꝛen	Herr	_	NN	_	_	_	_	_	I-NC	828-834	w76	Herren	*
+21	vnd	und	_	KON	_	_	_	_	_	O	835-838	w77	und	*
+22	Gevattern	Gevatter	_	NN	_	_	_	_	_	B-NC	839-848	w78	Gevattern	*
+23	.	.	_	$.	_	_	_	_	_	O	849-850	w79	.	*
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# text = Gottes des Allmechtigen reichen ſegen / JEſu Chriſti des Himliſchen Bꝛaͤutigams vngeferbte Liebe / vnd des H. Geiſtes Troſt / Neben wuͤndſchung aller erſpruͤßlicher Leibes vnd der Seelen wolfahrt .
+1	Gottes	Gott	_	NN	_	_	_	_	_	B-NC	852-858	w7a	Gottes	*
+2	des	d	_	ART	_	_	_	_	_	B-NC	859-862	w7b	des	*
+3	Allmechtigen	allmächtig	_	NN	_	_	_	_	_	I-NC	863-875	w7c	allmächtigen	*
+4	reichen	reich	_	ADJA	_	_	_	_	_	B-NC	876-883	w7d	reichen	*
+5	ſegen	Segen	_	NN	_	_	_	_	_	I-NC	884-889	w7e	Segen	*
+6	/	/	_	$(	_	_	_	_	_	O	890-891	w7f	/	*
+7	JEſu	Jesu	_	NE	_	_	_	_	_	B-NC	892-896	w80	Jesu	*
+8	Chriſti	Christi	_	NE	_	_	_	_	_	I-NC	897-904	w81	Christi	*
+9	des	d	_	ART	_	_	_	_	_	B-NC	905-908	w82	des	*
+10	Himliſchen	himmlisch	_	ADJA	_	_	_	_	_	I-NC	909-919	w83	Himmlischen	*
+11	Bꝛaͤutigams	Bräutigam	_	NN	_	_	_	_	_	I-NC	920-931	w84	Bräutigams	*
+12	vngeferbte	ungefärbt	_	ADJA	_	_	_	_	_	B-NC	932-942	w85	ungefärbte	*
+13	Liebe	Liebe	_	NN	_	_	_	_	_	I-NC	943-948	w86	Liebe	*
+14	/	/	_	$(	_	_	_	_	_	O	949-950	w87	/	*
+15	vnd	und	_	KON	_	_	_	_	_	O	951-954	w88	und	*
+16	des	d	_	ART	_	_	_	_	_	B-NC	955-958	w89	des	*
+17	H.	H.	_	ADJA	_	_	_	_	_	I-NC	959-961	w8a	H.	*
+18	Geiſtes	Geist	_	NN	_	_	_	_	_	I-NC	962-969	w8b	Geistes	*
+19	Troſt	Trost	_	NN	_	_	_	_	_	B-NC	970-975	w8c	Trost	*
+20	/	/	_	$(	_	_	_	_	_	O	976-977	w8d	/	*
+21	Neben	neben	_	APPR	_	_	_	_	_	B-PC	978-983	w8e	Neben	*
+22	wuͤndſchung	Wünschung	_	NN	_	_	_	_	_	I-PC	984-995	w8f	Wünschung	*
+23	aller	alle	_	PIAT	_	_	_	_	_	B-NC	996-1001	w90	aller	*
+24	erſpruͤßlicher	ersprüßlicher	_	ADJA	_	_	_	_	_	I-NC	1002-1016	w91	ersprüßlicher	*
+25	Leibes	Leib	_	NN	_	_	_	_	_	I-NC	1017-1023	w92	Leibes	*
+26	vnd	und	_	KON	_	_	_	_	_	O	1024-1027	w93	und	*
+27	der	d	_	ART	_	_	_	_	_	B-NC	1028-1031	w94	der	*
+28	Seelen	Seele	_	NN	_	_	_	_	_	I-NC	1032-1038	w95	Seelen	*
+29	wolfahrt	Wohlfahrt	_	NN	_	_	_	_	_	B-NC	1039-1047	w96	Wohlfahrt	*
+30	.	.	_	$.	_	_	_	_	_	O	1048-1049	w97	.	*
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# text = GEſtrenger / Ehrenveſter vnd Wolgeachter Herꝛ Gevatter :
+1	GEſtrenger	Gestrenge	_	ADJA	_	_	_	_	_	B-NC	1051-1061	w98,w98_1	Gestrenger	*
+2	/	/	_	$(	_	_	_	_	_	I-NC	1062-1063	w99	/	*
+3	Ehrenveſter	ehrenfest	_	ADJA	_	_	_	_	_	I-NC	1064-1075	w9a	Ehrenfester	*
+4	vnd	und	_	KON	_	_	_	_	_	I-NC	1076-1079	w9b	und	*
+5	Wolgeachter	wohlgeachtet	_	ADJA	_	_	_	_	_	I-NC	1080-1091	w9c	Wohlgeachteter	*
+6	Herꝛ	Herr	_	NN	_	_	_	_	_	I-NC	1092-1096	w9d	Herr	*
+7	Gevatter	Gevatter	_	NN	_	_	_	_	_	B-NC	1097-1105	w9e	Gevatter	*
+8	:	:	_	$.	_	_	_	_	_	O	1106-1107	w9f	:	*
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# text = Es ſaget der Geiſtreiche Pꝛophet Eſaias , welcher nach Erſchoͤpffung ď Welt 3193 . Eſa. 40 . Vor Chꝛiſti Geburt aber 778 . Wie Bucholzerus in ſeiner Iſagoge Chronologica meldet / gelebet hat / am 40 Capitel alſo : Troͤſtet / Troͤſtet mein Volck / ſpricht Ewer GOtt .
+1	Es	es	_	PPER	_	_	_	_	_	B-NC	1109-1111	wa0	Es	*
+2	ſaget	sagen	_	VVFIN	_	_	_	_	_	O	1112-1117	wa1	sagt	*
+3	der	d	_	ART	_	_	_	_	_	B-NC	1118-1121	wa2	der	*
+4	Geiſtreiche	geistreich	_	ADJA	_	_	_	_	_	I-NC	1122-1133	wa3	Geistreiche	*
+5	Pꝛophet	Prophet	_	NN	_	_	_	_	_	I-NC	1134-1141	wa4	Prophet	*
+6	Eſaias	Esaias	_	NE	_	_	_	_	_	B-NC	1142-1148	wa5	Esaias	*
+7	,	,	_	$,	_	_	_	_	_	O	1149-1150	wa6	,	*
+8	welcher	welche	_	PRELS	_	_	_	_	_	B-NC	1151-1158	wa7	welcher	*
+9	nach	nach	_	APPR	_	_	_	_	_	B-PC	1159-1163	wa8	nach	*
+10	Erſchoͤpffung	Erschöpfung	_	NN	_	_	_	_	_	I-PC	1164-1177	wa9	Erschöpfung	*
+11	ď	D'	_	ART	_	_	_	_	_	B-NC	1178-1179	waa	d'	*
+12	Welt	Welt	_	NN	_	_	_	_	_	I-NC	1180-1184	wab	Welt	*
+13	3193	3193	_	CARD	_	_	_	_	_	B-NC	1185-1189	wac	3193	*
+14	.	.	_	$.	_	_	_	_	_	O	1190-1191	wad	.	*
+15	Eſa.	esa.	_	NE	_	_	_	_	_	B-NC	1192-1196	w4718	Esa.	*
+16	40	40	_	CARD	_	_	_	_	_	I-NC	1197-1199	w4719	40	*
+17	.	.	_	$.	_	_	_	_	_	O	1200-1201	w471a	.	*
+18	Vor	vor	_	APPR	_	_	_	_	_	B-PC	1202-1205	wae	Vor	*
+19	Chꝛiſti	Christi	_	NE	_	_	_	_	_	I-PC	1206-1213	waf	Christi	*
+20	Geburt	Geburt	_	NN	_	_	_	_	_	B-NC	1214-1220	wb0	Geburt	*
+21	aber	aber	_	ADV	_	_	_	_	_	I-NC	1221-1225	wb1	aber	*
+22	778	778	_	CARD	_	_	_	_	_	I-NC	1226-1229	wb2	778	*
+23	.	.	_	$.	_	_	_	_	_	O	1230-1231	wb3	.	*
+24	Wie	wie	_	KOUS	_	_	_	_	_	O	1232-1235	wb4	Wie	*
+25	Bucholzerus	Bucholzerus	_	NE	_	_	_	_	_	B-NC	1236-1247	wb5	Bucholzerus	*
+26	in	in	_	APPR	_	_	_	_	_	B-PC	1248-1250	wb6	in	*
+27	ſeiner	seine	_	PPOSAT	_	_	_	_	_	I-PC	1251-1257	wb7	seiner	*
+28	Iſagoge	Isagoge	_	NE	_	_	_	_	_	I-PC	1258-1265	wb8	Isagoge	*
+29	Chronologica	Chronologica	_	NE	_	_	_	_	_	I-PC	1266-1278	wb9	Chronologica	*
+30	meldet	melden	_	VVFIN	_	_	_	_	_	O	1279-1285	wba	meldet	*
+31	/	/	_	$(	_	_	_	_	_	O	1286-1287	wbb	/	*
+32	gelebet	leben	_	VVPP	_	_	_	_	_	O	1288-1295	wbc	gelebt	*
+33	hat	haben	_	VAFIN	_	_	_	_	_	O	1296-1299	wbd	hat	*
+34	/	/	_	$(	_	_	_	_	_	O	1300-1301	wbe	/	*
+35	am	am	_	APPRART	_	_	_	_	_	B-PC	1302-1304	wbf	am	*
+36	40	40	_	ADJA	_	_	_	_	_	I-PC	1305-1307	wc0	40	*
+37	Capitel	Kapitel	_	NN	_	_	_	_	_	I-PC	1308-1315	wc1	Kapitel	*
+38	alſo	also	_	ADV	_	_	_	_	_	B-ADVC	1316-1320	wc2	also	*
+39	:	:	_	$.	_	_	_	_	_	O	1321-1322	wc3	:	*
+40	Troͤſtet	trösten	_	VVIMP	_	_	_	_	_	O	1323-1331	wc4	Tröstet	*
+41	/	/	_	$(	_	_	_	_	_	O	1332-1333	wc5	/	*
+42	Troͤſtet	trösten	_	VVIMP	_	_	_	_	_	O	1334-1342	wc6	Tröstet	*
+43	mein	mein	_	PPOSAT	_	_	_	_	_	B-NC	1343-1347	wc7	mein	*
+44	Volck	Volk	_	NN	_	_	_	_	_	I-NC	1348-1353	wc8	Volk	*
+45	/	/	_	$(	_	_	_	_	_	O	1354-1355	wc9	/	*
+46	ſpricht	sprechen	_	VVFIN	_	_	_	_	_	O	1356-1363	wca	spricht	*
+47	Ewer	euer	_	PPOSAT	_	_	_	_	_	B-NC	1364-1368	wcb	Euer	*
+48	GOtt	Gott	_	NN	_	_	_	_	_	I-NC	1369-1373	wcc	Gott	*
+49	.	.	_	$.	_	_	_	_	_	O	1374-1375	wcd	.	*
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# text = Jn welchen Worten der Geiſt des HErꝛen / mit welchen Eſaias getrieben iſt worden / alle trewe Lehꝛer vnd Prediger vermanen thut / wie ſie ſich gegen ſeinem Volck / das iſt / allen Gottſeligen vnd Glaͤubigen hertzen / wañ ſie von Gott mit Creutz vnd Vngluͤck anheim geſucht werden / verhalten ſollen :
+1	Jn	in	_	APPR	_	_	_	_	_	B-PC	1377-1379	wce	In	*
+2	welchen	welchen	_	PWAT	_	_	_	_	_	I-PC	1380-1387	wcf	welchen	*
+3	Worten	Wort	_	NN	_	_	_	_	_	I-PC	1388-1394	wd0	Worten	*
+4	der	d	_	ART	_	_	_	_	_	B-NC	1395-1398	wd1	der	*
+5	Geiſt	Geist	_	NN	_	_	_	_	_	I-NC	1399-1404	wd2	Geist	*
+6	des	d	_	ART	_	_	_	_	_	B-NC	1405-1408	wd3	des	*
+7	HErꝛen	Herr	_	NN	_	_	_	_	_	I-NC	1409-1415	wd4	Herren	*
+8	/	/	_	$(	_	_	_	_	_	O	1416-1417	wd5	/	*
+9	mit	mit	_	APPR	_	_	_	_	_	B-PC	1418-1421	wd6	mit	*
+10	welchen	welchen	_	PRELS	_	_	_	_	_	I-PC	1422-1429	wd7	welchen	*
+11	Eſaias	Esaias	_	NE	_	_	_	_	_	B-NC	1430-1436	wd8	Esaias	*
+12	getrieben	treiben	_	VVPP	_	_	_	_	_	O	1437-1446	wd9	getrieben	*
+13	iſt	sein	_	VAFIN	_	_	_	_	_	O	1447-1450	wda	ist	*
+14	worden	werden	_	VAPP	_	_	_	_	_	O	1451-1457	wdb	worden	*
+15	/	/	_	$(	_	_	_	_	_	O	1458-1459	wdc	/	*
+16	alle	alle	_	PIAT	_	_	_	_	_	B-NC	1460-1464	wdd	alle	*
+17	trewe	treu	_	ADJA	_	_	_	_	_	I-NC	1465-1470	wde	treue	*
+18	Lehꝛer	Lehrer	_	NN	_	_	_	_	_	I-NC	1471-1477	wdf	Lehrer	*
+19	vnd	und	_	KON	_	_	_	_	_	O	1478-1481	we0	und	*
+20	Prediger	Prediger	_	NN	_	_	_	_	_	B-NC	1482-1490	we1	Prediger	*
+21	vermanen	Manen	_	VVINF	_	_	_	_	_	O	1491-1499	we2	Manen	*
+22	thut	tun	_	VVFIN	_	_	_	_	_	O	1500-1504	we3	tut	*
+23	/	/	_	$(	_	_	_	_	_	O	1505-1506	we4	/	*
+24	wie	wie	_	KOUS	_	_	_	_	_	O	1507-1510	we5	wie	*
+25	ſie	sie	_	PPER	_	_	_	_	_	B-NC	1511-1514	we6	sie	*
+26	ſich	sich	_	PRF	_	_	_	_	_	B-NC	1515-1519	we7	sich	*
+27	gegen	gegen	_	APPR	_	_	_	_	_	B-PC	1520-1525	we8	gegen	*
+28	ſeinem	seine	_	PPOSAT	_	_	_	_	_	I-PC	1526-1532	we9	seinem	*
+29	Volck	Volk	_	NN	_	_	_	_	_	I-PC	1533-1538	wea	Volk	*
+30	/	/	_	$(	_	_	_	_	_	O	1539-1540	web	/	*
+31	das	die	_	PDS	_	_	_	_	_	B-NC	1541-1544	wec	das	*
+32	iſt	sein	_	VAFIN	_	_	_	_	_	O	1545-1548	wed	ist	*
+33	/	/	_	$(	_	_	_	_	_	O	1549-1550	wee	/	*
+34	allen	alle	_	PIAT	_	_	_	_	_	B-NC	1551-1556	wef	allen	*
+35	Gottſeligen	Gottselige	_	ADJA	_	_	_	_	_	I-NC	1557-1568	wf0	Gottseligen	*
+36	vnd	und	_	KON	_	_	_	_	_	I-NC	1569-1572	wf1	und	*
+37	Glaͤubigen	Gläubige	_	ADJA	_	_	_	_	_	I-NC	1573-1583	wf2	Gläubigen	*
+38	hertzen	Herz	_	NN	_	_	_	_	_	I-NC	1584-1591	wf3	Herzen	*
+39	/	/	_	$(	_	_	_	_	_	O	1592-1593	wf4	/	*
+40	wañ	wann	_	KOUS	_	_	_	_	_	O	1594-1598	wf5	wann	*
+41	ſie	sie	_	PPER	_	_	_	_	_	B-NC	1599-1602	wf6	sie	*
+42	von	von	_	APPR	_	_	_	_	_	B-PC	1603-1606	wf7	von	*
+43	Gott	Gott	_	NN	_	_	_	_	_	I-PC	1607-1611	wf8	Gott	*
+44	mit	mit	_	APPR	_	_	_	_	_	B-PC	1612-1615	wf9	mit	*
+45	Creutz	Kreuz	_	NN	_	_	_	_	_	I-PC	1616-1622	wfa	Kreuz	*
+46	vnd	und	_	KON	_	_	_	_	_	O	1623-1626	wfb	und	*
+47	Vngluͤck	Unglück	_	NN	_	_	_	_	_	B-NC	1627-1635	wfc	Unglück	*
+48	anheim	anheim	_	ADV	_	_	_	_	_	B-ADVC	1636-1642	wfd	anheim	*
+49	geſucht	suchen	_	VVPP	_	_	_	_	_	O	1643-1650	wfe	gesucht	*
+50	werden	werden	_	VAFIN	_	_	_	_	_	O	1651-1657	wff	werden	*
+51	/	/	_	$(	_	_	_	_	_	O	1658-1659	w100	/	*
+52	verhalten	verhalten	_	VVINF	_	_	_	_	_	O	1660-1669	w101	verhalten	*
+53	ſollen	sollen	_	VMFIN	_	_	_	_	_	O	1670-1676	w102	sollen	*
+54	:	:	_	$.	_	_	_	_	_	O	1677-1678	w103	:	*
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# text = Nemlichen das ſie deroſelben im Creutz vnnd Vngluͤck nicht ſpotten ſollen / wie da that Jobs Weib / ſo da ſagte : Helteſtu noch feſt an deiner Froͤmigkeit / ja ſegne Gott vnd ſtuͤrb :
+1	Nemlichen	nämlich	_	ADV	_	_	_	_	_	B-ADVC	1680-1689	w104	nämlichen	*
+2	das	d	_	KOUS	_	_	_	_	_	O	1690-1693	w105	das	*
+3	ſie	sie	_	PPER	_	_	_	_	_	B-NC	1694-1697	w106	sie	*
+4	deroſelben	dieselbe	_	PDS	_	_	_	_	_	B-NC	1698-1708	w107	derselben	*
+5	im	im	_	APPRART	_	_	_	_	_	B-PC	1709-1711	w108	im	*
+6	Creutz	Kreuz	_	NN	_	_	_	_	_	I-PC	1712-1718	w109	Kreuz	*
+7	vnnd	und	_	KON	_	_	_	_	_	O	1719-1723	w10a	und	*
+8	Vngluͤck	Unglück	_	NN	_	_	_	_	_	B-NC	1724-1732	w10b	Unglück	*
+9	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVC	1733-1738	w10c	nicht	*
+10	ſpotten	spotten	_	VVINF	_	_	_	_	_	O	1739-1746	w10d	spotten	*
+11	ſollen	sollen	_	VMFIN	_	_	_	_	_	O	1747-1753	w10e	sollen	*
+12	/	/	_	$(	_	_	_	_	_	O	1754-1755	w10f	/	*
+13	wie	wie	_	KOUS	_	_	_	_	_	O	1756-1759	w110	wie	*
+14	da	da	_	ADV	_	_	_	_	_	B-ADVC	1760-1762	w111	da	*
+15	that	tun	_	VVFIN	_	_	_	_	_	O	1763-1767	w112	tat	*
+16	Jobs	Jobs	_	NE	_	_	_	_	_	B-NC	1768-1772	w113	Jobs	*
+17	Weib	Weib	_	NN	_	_	_	_	_	B-NC	1773-1777	w114	Weib	*
+18	/	/	_	$(	_	_	_	_	_	O	1778-1779	w115	/	*
+19	ſo	so	_	ADV	_	_	_	_	_	B-ADVC	1780-1782	w116	so	*
+20	da	da	_	ADV	_	_	_	_	_	B-ADVC	1783-1785	w117	da	*
+21	ſagte	sagen	_	VVFIN	_	_	_	_	_	O	1786-1791	w118	sagte	*
+22	:	:	_	$.	_	_	_	_	_	O	1792-1793	w119	:	*
+23	Helteſtu	Helletest	_	VVFIN	_	_	_	_	_	O	1794-1802	w11a	Helltest	*
+24	noch	noch	_	ADV	_	_	_	_	_	B-ADVC	1803-1807	w11b	noch	*
+25	feſt	fest	_	PTKVZ	_	_	_	_	_	O	1808-1812	w11c	fest	*
+26	an	an	_	APPR	_	_	_	_	_	B-PC	1813-1815	w11d	an	*
+27	deiner	deine	_	PPOSAT	_	_	_	_	_	I-PC	1816-1822	w11e	deiner	*
+28	Froͤmigkeit	Frömmigkeit	_	NN	_	_	_	_	_	I-PC	1823-1834	w11f	Frömmigkeit	*
+29	/	/	_	$(	_	_	_	_	_	O	1835-1836	w120	/	*
+30	ja	ja	_	ADV	_	_	_	_	_	B-ADVC	1837-1839	w121	ja	*
+31	ſegne	segnen	_	VVIMP	_	_	_	_	_	O	1840-1845	w122	segne	*
+32	Gott	Gott	_	NN	_	_	_	_	_	B-NC	1846-1850	w123	Gott	*
+33	vnd	und	_	KON	_	_	_	_	_	O	1851-1854	w124	und	*
+34	ſtuͤrb	sterben	_	VVIMP	_	_	_	_	_	O	1855-1861	w125	stürbe	*
+35	:	:	_	$.	_	_	_	_	_	O	1862-1863	w126	:	*
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# text = Das heiſt / wie Lutherꝰ auff dem rande ſaget : Job. 2. c . Ja du thuſt fein / Lobeſt vnd dieneſt Gott / vnd geheſt druͤber zu grunde .
+1	Das	die	_	PDS	_	_	_	_	_	B-NC	1865-1868	w127	Das	*
+2	heiſt	heissen	_	VVFIN	_	_	_	_	_	O	1869-1874	w128	heisst	*
+3	/	/	_	$(	_	_	_	_	_	O	1875-1876	w129	/	*
+4	wie	wie	_	KOUS	_	_	_	_	_	O	1877-1880	w12a	wie	*
+5	Lutherꝰ	Luther	_	NE	_	_	_	_	_	B-NC	1881-1888	w12b	Luther	*
+6	auff	auf	_	APPR	_	_	_	_	_	B-PC	1889-1893	w12c	auf	*
+7	dem	d	_	ART	_	_	_	_	_	I-PC	1894-1897	w12d	dem	*
+8	rande	Rand	_	NN	_	_	_	_	_	I-PC	1898-1903	w12e	Rande	*
+9	ſaget	sagen	_	VVFIN	_	_	_	_	_	O	1904-1909	w12f	sagt	*
+10	:	:	_	$.	_	_	_	_	_	O	1910-1911	w130	:	*
+11	Job.	Job.	_	NE	_	_	_	_	_	B-NC	1912-1916	w471d	Job.	*
+12	2.	2.	_	ADJA	_	_	_	_	_	B-NC	1917-1919	w471e	2.	*
+13	c	c	_	FM	_	_	_	_	_	I-NC	1920-1921	w471f	c	*
+14	.	.	_	$.	_	_	_	_	_	O	1922-1923	w4720	.	*
+15	Ja	ja	_	PTKANT	_	_	_	_	_	O	1924-1926	w131	Ja	*
+16	du	du	_	PPER	_	_	_	_	_	B-NC	1927-1929	w132	du	*
+17	thuſt	tun	_	VVFIN	_	_	_	_	_	O	1930-1935	w133	tust	*
+18	fein	fein	_	ADJD	_	_	_	_	_	B-AC	1936-1940	w134	fein	*
+19	/	/	_	$(	_	_	_	_	_	O	1941-1942	w135	/	*
+20	Lobeſt	loben	_	VVFIN	_	_	_	_	_	O	1943-1949	w136	Lobest	*
+21	vnd	und	_	KON	_	_	_	_	_	O	1950-1953	w137	und	*
+22	dieneſt	dienen	_	VVFIN	_	_	_	_	_	O	1954-1961	w138	dienest	*
+23	Gott	Gott	_	NN	_	_	_	_	_	B-NC	1962-1966	w139	Gott	*
+24	/	/	_	$(	_	_	_	_	_	O	1967-1968	w13a	/	*
+25	vnd	und	_	KON	_	_	_	_	_	O	1969-1972	w13b	und	*
+26	geheſt	gehen	_	VVFIN	_	_	_	_	_	O	1973-1979	w13c	gehest	*
+27	druͤber	drüber	_	PAV	_	_	_	_	_	B-PC	1980-1987	w13d	drüber	*
+28	zu	zu	_	APPR	_	_	_	_	_	B-PC	1988-1990	w13e	zu	*
+29	grunde	Grund	_	NN	_	_	_	_	_	I-PC	1991-1997	w13f	Grunde	*
+30	.	.	_	$.	_	_	_	_	_	O	1998-1999	w140	.	*
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# text = Jtem Anna , welche der Blindheit jhres Mannes ſpottete vnd ſagte : Da ſiehet man / das dein vortrawen nichts iſt / vnd dein Allmoſen ver-<lb/>lohꝛen ſindt .
+1	Jtem	Item	_	ADV	_	_	_	_	_	B-NC	2001-2005	w141	Item	*
+2	Anna	Anna	_	NE	_	_	_	_	_	I-NC	2006-2010	w142	Anna	*
+3	,	,	_	$,	_	_	_	_	_	O	2011-2012	w143	,	*
+4	welche	welche	_	PRELS	_	_	_	_	_	B-NC	2013-2019	w144	welche	*
+5	der	d	_	ART	_	_	_	_	_	B-NC	2020-2023	w145	der	*
+6	Blindheit	Blindheit	_	NN	_	_	_	_	_	I-NC	2024-2033	w146	Blindheit	*
+7	jhres	ihr	_	PPOSAT	_	_	_	_	_	B-NC	2034-2039	w147	ihres	*
+8	Mannes	Mann	_	NN	_	_	_	_	_	I-NC	2040-2046	w148	Mannes	*
+9	ſpottete	spotten	_	VVFIN	_	_	_	_	_	O	2047-2055	w149	spottete	*
+10	vnd	und	_	KON	_	_	_	_	_	O	2056-2059	w14a	und	*
+11	ſagte	sagen	_	VVFIN	_	_	_	_	_	O	2060-2065	w14b	sagte	*
+12	:	:	_	$.	_	_	_	_	_	O	2066-2067	w14c	:	*
+13	Da	da	_	ADV	_	_	_	_	_	B-ADVC	2068-2070	w14d	Da	*
+14	ſiehet	sehen	_	VVFIN	_	_	_	_	_	O	2071-2077	w14e	sieht	*
+15	man	man	_	PIS	_	_	_	_	_	B-NC	2078-2081	w14f	man	*
+16	/	/	_	$(	_	_	_	_	_	O	2082-2083	w150	/	*
+17	das	die	_	KOUS	_	_	_	_	_	O	2084-2087	w151	das	*
+18	dein	dein	_	PPOSAT	_	_	_	_	_	B-NC	2088-2092	w152	dein	*
+19	vortrawen	Vortran	_	NN	_	_	_	_	_	I-NC	2093-2102	w153	Vortran	*
+20	nichts	nichts	_	PIS	_	_	_	_	_	B-NC	2103-2109	w154	nichts	*
+21	iſt	sein	_	VAFIN	_	_	_	_	_	O	2110-2113	w155	ist	*
+22	/	/	_	$(	_	_	_	_	_	O	2114-2115	w156	/	*
+23	vnd	und	_	KON	_	_	_	_	_	O	2116-2119	w157	und	*
+24	dein	dein	_	PPOSAT	_	_	_	_	_	B-NC	2120-2124	w158	dein	*
+25	Allmoſen	Almosen	_	NN	_	_	_	_	_	I-NC	2125-2133	w159	Almosen	*
+26	ver-<lb/>lohꝛen	verlieren	_	VVPP	_	_	_	_	_	O	2134-2149	w15a,w15a_1	verloren	*
+27	ſindt	sein	_	VAFIN	_	_	_	_	_	O	2150-2155	w15b	sind	*
+28	.	.	_	$.	_	_	_	_	_	O	2156-2157	w15c	.	*
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# text = Tob. 2 .
+1	Tob.	tob.	_	NE	_	_	_	_	_	B-NC	2159-2163	w4721	Tob.	*
+2	2	2	_	CARD	_	_	_	_	_	I-NC	2164-2165	w4722	2	*
+3	.	.	_	$.	_	_	_	_	_	O	2166-2167	w4723	.	*

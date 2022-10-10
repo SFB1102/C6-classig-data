@@ -1,0 +1,1994 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC TOPF
+# sent_id = 1
+# sent_id(TSV) = 1
+# TopFString = (VROOT(VF(ART Der)(NE SC)(NE Lituania)(NE Tilsit))(LK(VAFIN war))(MF(ART ein)(ADJA deutscher)(NN Sportverein)(ART der)(ADJA ostpreußischen)(NN Stadt)(NE Tilsit))(KOMMA ,)(NF(ADV heute)(NE Sowetsk)))
+# text = Der SC Lituania Tilsit war ein deutscher Sportverein der ostpreußischen Stadt Tilsit , heute Sowetsk .
+1	Der	der	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	B-VF
+2	SC	SC	_	NE	number=sg|case=nom|gender=masc	5	subj	_	_	I-VF
+3	Lituania	Lituania	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	I-VF
+4	Tilsit	Tilsit	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	I-VF
+5	war	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+6	ein	ein	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	B-MF
+7	deutscher	deutsch	_	ADJA	number=sg|degree=pos|case=nom|gender=masc	_	_	_	_	I-MF
+8	Sportverein	Sportverein	_	NN	number=sg|case=nom|gender=masc	5	pred	_	_	I-MF
+9	der	der	_	ART	number=sg|case=gen|gender=fem	_	_	_	_	I-MF
+10	ostpreußischen	ostpreußisch	_	ADJA	number=sg|degree=pos|case=gen|gender=fem	_	_	_	_	I-MF
+11	Stadt	Stadt	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	I-MF
+12	Tilsit	Tilsit	_	NE	number=sg|case=nom|gender=neut	_	_	_	_	I-MF
+13	,	,	_	$,	_	_	_	_	_	O
+14	heute	heute	_	ADV	_	_	_	_	_	B-NF
+15	Sowetsk	Sowetsk	_	NE	number=sg|case=nom|gender=*	_	_	_	_	I-NF
+16	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# TopFString = (VROOT(NN Vereinsgeschichte))
+# text = Vereinsgeschichte
+1	Vereinsgeschichte	Vereinsgeschichte	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	O
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# TopFString = (VROOT(VF(ART Der)(CARD 1907)(ADJA gegründete)(NN Verein))(FKOORD(FKONJ(LK(VAFIN wurde))(MF(CARD 1911)(NN Verbandsmeister)(ART des)(ADJA Baltischen)(NN Rasensport-Verbandes)(KLAMMER LBR)(NE BRV)))(KLAMMER RBR)(KON und)(FKONJ(LK(VMFIN durfte))(MF(ADV somit)(APPR an)(ART der)(NN Endrunde)(APPR um)(ART die)(ADJA deutsche)(NN Fußballmeisterschaft))(VC(VVINF teilnehmen)))))
+# text = Der 1907 gegründete Verein wurde 1911 Verbandsmeister des Baltischen Rasensport-Verbandes ( BRV ) und durfte somit an der Endrunde um die deutsche Fußballmeisterschaft teilnehmen .
+1	Der	der	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	B-VF
+2	1907	1907	_	CARD	_	_	_	_	_	I-VF
+3	gegründete	gegründet	_	ADJA	number=sg|degree=pos|case=nom|gender=masc	_	_	_	_	I-VF
+4	Verein	Verein	_	NN	number=sg|case=nom|gender=masc	5	subj	_	_	I-VF
+5	wurde	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+6	1911	1911	_	CARD	_	_	_	_	_	B-MF
+7	Verbandsmeister	Verbandsmeister	_	NN	number=sg|case=nom|gender=masc	5	pred	_	_	I-MF
+8	des	der	_	ART	number=sg|case=gen|gender=masc	_	_	_	_	I-MF
+9	Baltischen	baltisch	_	ADJA	number=sg|degree=pos|case=gen|gender=masc	_	_	_	_	I-MF
+10	Rasensport-Verbandes	Rasensport-Verband	_	NN	number=sg|case=gen|gender=masc	_	_	_	_	I-MF
+11	(	(	_	$(	_	_	_	_	_	I-MF
+12	BRV	BRV	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	I-MF
+13	)	)	_	$(	_	_	_	_	_	O
+14	und	und	_	KON	_	_	_	_	_	B-KOORD
+15	durfte	dürfen	_	VMFIN	number=sg|person=3|mood=ind|tense=past	24	aux	_	_	B-LK
+16	somit	somit	_	ADV	_	_	_	_	_	B-MF
+17	an	an	_	APPR	_	19	pcase	_	_	I-MF
+18	der	der	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	I-MF
+19	Endrunde	Endrunde	_	NN	number=sg|case=dat|gender=fem	24	pobj	_	_	I-MF
+20	um	um	_	APPR	_	23	pcase	_	_	I-MF
+21	die	der	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	I-MF
+22	deutsche	deutsch	_	ADJA	number=sg|degree=pos|case=acc|gender=fem	_	_	_	_	I-MF
+23	Fußballmeisterschaft	Fußballmeisterschaft	_	NN	number=sg|case=acc|gender=fem	19	pobj	_	_	I-MF
+24	teilnehmen	teilnehmen	_	VVINF	_	_	_	_	_	B-RK
+25	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# TopFString = (VROOT(VF(APPR Wegen)(PTKA zu)(ADJA hoher)(NN Reisekosten))(LK(VVFIN verzichtete))(MF(NE Lituania)(NE Tilsit)(ADV jedoch)(APPR auf)(ART das)(NN Startrecht))(KOMMA ,)(NF(ADV so)(C(KOUS dass))(MF(ART die)(ADJA gegnerische)(NN Mannschaft)(APPRART vom)(ADJA Berliner)(NE TuFC)(NE Viktoria)(CARD 89)(ADJD kampflos)(APPRART ins)(NN Halbfinale))(VC(VVFIN einrückte))))
+# text = Wegen zu hoher Reisekosten verzichtete Lituania Tilsit jedoch auf das Startrecht , so dass die gegnerische Mannschaft vom Berliner TuFC Viktoria 89 kampflos ins Halbfinale einrückte .
+1	Wegen	wegen	_	APPR	_	_	_	_	_	B-VF
+2	zu	zu	_	PTKA	_	_	_	_	_	I-VF
+3	hoher	hoch	_	ADJA	number=pl|degree=pos|case=gen|gender=*	_	_	_	_	I-VF
+4	Reisekosten	Reisekosten	_	NN	number=pl|case=gen|gender=*	_	_	_	_	I-VF
+5	verzichtete	verzichten	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+6	Lituania	Lituania	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	B-MF
+7	Tilsit	Tilsit	_	NE	number=sg|case=nom|gender=masc	5	subj	_	_	I-MF
+8	jedoch	jedoch	_	ADV	_	_	_	_	_	I-MF
+9	auf	auf	_	APPR	_	11	pcase	_	_	I-MF
+10	das	der	_	ART	number=sg|case=acc|gender=neut	_	_	_	_	I-MF
+11	Startrecht	Startrecht	_	NN	number=sg|case=acc|gender=neut	5	pobj	_	_	I-MF
+12	,	,	_	$,	_	_	_	_	_	O
+13	so	so	_	ADV	_	_	_	_	_	B-NF
+14	dass	dass	_	KOUS	_	_	_	_	_	I-NF|B-LK
+15	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	I-NF|B-MF
+16	gegnerische	gegnerisch	_	ADJA	number=sg|degree=pos|case=nom|gender=fem	_	_	_	_	I-NF|I-MF
+17	Mannschaft	Mannschaft	_	NN	number=sg|case=nom|gender=fem	26	subj	_	_	I-NF|I-MF
+18	vom	von	_	APPRART	case=dat|gender=masc	_	_	_	_	I-NF|I-MF
+19	Berliner	Berliner	_	ADJA	number=sg|degree=pos|case=dat|gender=masc	_	_	_	_	I-NF|I-MF
+20	TuFC	TuFC	_	NE	number=sg|case=dat|gender=masc	_	_	_	_	I-NF|I-MF
+21	Viktoria	Viktoria	_	NE	number=sg|case=dat|gender=fem	_	_	_	_	I-NF|I-MF
+22	89	89	_	CARD	_	_	_	_	_	I-NF|I-MF
+23	kampflos	kampflos	_	ADJD	degree=pos	_	_	_	_	I-NF|I-MF
+24	ins	in	_	APPRART	case=acc|gender=neut	_	_	_	_	I-NF|I-MF
+25	Halbfinale	Halbfinale	_	NN	number=sg|case=acc|gender=neut	_	_	_	_	I-NF|I-MF
+26	einrückte	einrücken	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	I-NF|B-RK
+27	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# TopFString = (VROOT(VF(CARD 1912)(KON und)(CARD 1913))(FKOORD(FKONJ(LK(VVFIN erreichte))(MF(ART der)(NN Verein)(ADV noch)(ART die)(ADJA Baltische)(NN Endrunde)))(KOMMA ,)(FKONJ(LK(VVFIN unterlag))(MF(ADV aber)(APPR in)(PIAT beiden)(NN Jahren)(ART dem)(ADJA jeweiligen)(NN Finalgegner)))))
+# text = 1912 und 1913 erreichte der Verein noch die Baltische Endrunde , unterlag aber in beiden Jahren dem jeweiligen Finalgegner .
+1	1912	1912	_	CARD	_	_	_	_	_	B-VF
+2	und	und	_	KON	_	_	_	_	_	I-VF
+3	1913	1913	_	CARD	_	_	_	_	_	I-VF
+4	erreichte	erreichen	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+5	der	der	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	B-MF
+6	Verein	Verein	_	NN	number=sg|case=nom|gender=masc	4	subj	_	_	I-MF
+7	noch	noch	_	ADV	_	_	_	_	_	I-MF
+8	die	der	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	I-MF
+9	Baltische	Baltisch	_	ADJA	number=sg|degree=pos|case=acc|gender=fem	_	_	_	_	I-MF
+10	Endrunde	Endrunde	_	NN	number=sg|case=acc|gender=fem	4	obj	_	_	I-MF
+11	,	,	_	$,	_	_	_	_	_	O
+12	unterlag	unterliegen	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+13	aber	aber	_	ADV	_	_	_	_	_	B-MF
+14	in	in	_	APPR	_	_	_	_	_	I-MF
+15	beiden	beide	_	PIAT	number=pl|case=dat|gender=neut	_	_	_	_	I-MF
+16	Jahren	Jahr	_	NN	number=pl|case=dat|gender=neut	_	_	_	_	I-MF
+17	dem	der	_	ART	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+18	jeweiligen	jeweilig	_	ADJA	number=sg|degree=pos|case=dat|gender=masc	_	_	_	_	I-MF
+19	Finalgegner	Finalgegner	_	NN	number=sg|case=dat|gender=masc	12	iobj	_	_	I-MF
+20	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# TopFString = (VROOT(VF(C(KOUS Nachdem))(MF(NE Lituania)(APPR in)(ART den)(ADJA 20er)(NN Jahren)(APPR ohne)(ADJA größeren)(NN Erfolg)(APPRART im)(NN Bezirk)(NE Ostpreußen))(VC(VVPP gespielt)(VAFIN hatte)))(KOMMA ,)(LK(VVFIN erfolgte))(MF(CARD 1929)(ART die)(NN Fusion)(APPR mit)(ART dem)(NN Verein)(APPR für)(NN Körperübungen)(NE Tilsit)(APPRART zum)(ADJA Tilsiter)(NE SC)))
+# text = Nachdem Lituania in den 20er Jahren ohne größeren Erfolg im Bezirk Ostpreußen gespielt hatte , erfolgte 1929 die Fusion mit dem Verein für Körperübungen Tilsit zum Tilsiter SC .
+1	Nachdem	nachdem	_	KOUS	_	_	_	_	_	B-VF|B-LK
+2	Lituania	Lituania	_	NE	number=sg|case=nom|gender=masc	13	subj	_	_	I-VF|B-MF
+3	in	in	_	APPR	_	_	_	_	_	I-VF|I-MF
+4	den	der	_	ART	number=pl|case=dat|gender=neut	_	_	_	_	I-VF|I-MF
+5	20er	20er	_	ADJA	number=pl|degree=pos|case=dat|gender=neut	_	_	_	_	I-VF|I-MF
+6	Jahren	Jahr	_	NN	number=pl|case=dat|gender=neut	_	_	_	_	I-VF|I-MF
+7	ohne	ohne	_	APPR	_	_	_	_	_	I-VF|I-MF
+8	größeren	groß	_	ADJA	number=sg|degree=comp|case=acc|gender=masc	_	_	_	_	I-VF|I-MF
+9	Erfolg	Erfolg	_	NN	number=sg|case=acc|gender=masc	_	_	_	_	I-VF|I-MF
+10	im	in	_	APPRART	case=dat|gender=masc	_	_	_	_	I-VF|I-MF
+11	Bezirk	Bezirk	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-VF|I-MF
+12	Ostpreußen	Ostpreußen	_	NE	number=sg|case=nom|gender=neut	_	_	_	_	I-VF|I-MF
+13	gespielt	spielen	_	VVPP	_	_	_	_	_	I-VF|B-RK
+14	hatte	haben	_	VAFIN	number=sg|person=3|mood=ind|tense=past	13	aux	_	_	I-VF|I-RK
+15	,	,	_	$,	_	_	_	_	_	O
+16	erfolgte	erfolgen	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+17	1929	1929	_	CARD	_	_	_	_	_	B-MF
+18	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	I-MF
+19	Fusion	Fusion	_	NN	number=sg|case=nom|gender=fem	16	subj	_	_	I-MF
+20	mit	mit	_	APPR	_	22	pcase	_	_	I-MF
+21	dem	der	_	ART	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+22	Verein	Verein	_	NN	number=sg|case=dat|gender=masc	19	pobj	_	_	I-MF
+23	für	für	_	APPR	_	_	_	_	_	I-MF
+24	Körperübungen	Körperübung	_	NN	number=pl|case=acc|gender=fem	_	_	_	_	I-MF
+25	Tilsit	Tilsit	_	NE	number=sg|case=nom|gender=neut	_	_	_	_	I-MF
+26	zum	zu	_	APPRART	case=dat|gender=masc	_	_	_	_	I-MF
+27	Tilsiter	Tilsit	_	ADJA	number=sg|degree=pos|case=dat|gender=masc	_	_	_	_	I-MF
+28	SC	SC	_	NE	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+29	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# TopFString = (VROOT(VF(NE Córrego)(NE do)(NE Ouro))(LK(VAFIN ist))(MF(ART eine)(ADJA brasilianische)(ADJA politische)(NN Gemeinde)(APPRART im)(NN Bundesstaat)(NE Goiás)(APPR in)(ART der)(NN Mesoregion)(NE Zentral-Goiás)(KON und)(APPR in)(ART der)(NN Mikroregion)(NE Iporá)))
+# text = Córrego do Ouro ist eine brasilianische politische Gemeinde im Bundesstaat Goiás in der Mesoregion Zentral-Goiás und in der Mikroregion Iporá .
+1	Córrego	Córrego	_	NE	number=sg|case=nom|gender=*	4	subj	_	_	B-VF
+2	do	do	_	NE	number=sg|case=nom|gender=*	_	_	_	_	I-VF
+3	Ouro	Ouro	_	NE	number=sg|case=nom|gender=*	_	_	_	_	I-VF
+4	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+5	eine	ein	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	B-MF
+6	brasilianische	brasilianisch	_	ADJA	number=sg|degree=pos|case=nom|gender=fem	_	_	_	_	I-MF
+7	politische	politisch	_	ADJA	number=sg|degree=pos|case=nom|gender=fem	_	_	_	_	I-MF
+8	Gemeinde	Gemeinde	_	NN	number=sg|case=nom|gender=fem	4	pred	_	_	I-MF
+9	im	in	_	APPRART	case=dat|gender=masc	_	_	_	_	I-MF
+10	Bundesstaat	Bundesstaat	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+11	Goiás	Goiás	_	NE	_	_	_	_	_	I-MF
+12	in	in	_	APPR	_	_	_	_	_	I-MF
+13	der	der	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	I-MF
+14	Mesoregion	Mesoregion	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	I-MF
+15	Zentral-Goiás	Zentral-Goiás	_	NE	number=sg|case=nom|gender=neut	_	_	_	_	I-MF
+16	und	und	_	KON	_	_	_	_	_	I-MF
+17	in	in	_	APPR	_	_	_	_	_	I-MF
+18	der	der	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	I-MF
+19	Mikroregion	Mikroregion	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	I-MF
+20	Iporá	Iporá	_	NE	_	_	_	_	_	I-MF
+21	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# TopFString = (VROOT(VF(PPER Sie))(LK(VVFIN liegt))(MF(ADJD westsüdwestlich)(ART der)(ADJA brasilianischen)(NN Hauptstadt)(NE Brasília)(KON und)(ART der)(NN Hauptstadt)(NE Goiânia)))
+# text = Sie liegt westsüdwestlich der brasilianischen Hauptstadt Brasília und der Hauptstadt Goiânia .
+1	Sie	sie	_	PPER	number=sg|person=3|case=nom|gender=fem	2	subj	_	_	B-VF
+2	liegt	liegen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+3	westsüdwestlich	westsüdwestlich	_	ADJD	degree=pos	_	_	_	_	B-MF
+4	der	der	_	ART	number=sg|case=gen|gender=fem	_	_	_	_	I-MF
+5	brasilianischen	brasilianisch	_	ADJA	number=sg|degree=pos|case=gen|gender=fem	_	_	_	_	I-MF
+6	Hauptstadt	Hauptstadt	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	I-MF
+7	Brasília	Brasília	_	NE	number=sg|case=nom|gender=neut	_	_	_	_	I-MF
+8	und	und	_	KON	_	_	_	_	_	I-MF
+9	der	der	_	ART	number=sg|case=gen|gender=fem	_	_	_	_	I-MF
+10	Hauptstadt	Hauptstadt	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	I-MF
+11	Goiânia	Goiânia	_	NE	number=sg|case=nom|gender=neut	_	_	_	_	I-MF
+12	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# TopFString = (VROOT(NN Entwürfe)(APPR zu)(CARD 24)(NN Wandbildern)(APPR aus)(ART der)(NN Odyssee)(NE Homers)(KOMMA ,)(APPR ab)(CARD 1832)(NN Festsaalbau)(ART der)(ADJA Münchner)(NN Residenz))
+# text = Entwürfe zu 24 Wandbildern aus der Odyssee Homers , ab 1832 , Festsaalbau der Münchner Residenz
+1	Entwürfe	Entwurf	_	NN	number=pl|case=nom|gender=masc	_	_	_	_	O
+2	zu	zu	_	APPR	_	_	_	_	_	O
+3	24	24	_	CARD	_	_	_	_	_	O
+4	Wandbildern	Wandbild	_	NN	number=pl|case=dat|gender=neut	_	_	_	_	O
+5	aus	aus	_	APPR	_	_	_	_	_	O
+6	der	der	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	O
+7	Odyssee	Odyssee	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	O
+8	Homers	Homer	_	NE	number=sg|case=gen|gender=masc	_	_	_	_	O
+9	,	,	_	$,	_	_	_	_	_	O
+10	ab	ab	_	APPR	_	_	_	_	_	O
+11	1832	1832	_	CARD	_	_	_	_	_	O
+12	,	,	_	$,	_	_	_	_	_	O
+13	Festsaalbau	Festsaalbau	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	O
+14	der	der	_	ART	number=sg|case=gen|gender=fem	_	_	_	_	O
+15	Münchner	Münchner	_	ADJA	number=sg|degree=pos|case=gen|gender=fem	_	_	_	_	O
+16	Residenz	Residenz	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	O
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# TopFString = (VROOT(NN Marmorrelief)(APPRART am)(NN Grabmal)(APPR für)(ART den)(ADJA preußischen)(NN Minister)(NN Reichsfreiherr)(NE Karl)(APPRART vom)(NE Stein)(KOMMA ,)(CARD 1837/70)(KOMMA ,)(NN Familiengruft)(APPR in)(NE Frücht)(APPR bei)(NE Bad)(NE Ems))
+# text = Marmorrelief am Grabmal für den preußischen Minister Reichsfreiherr Karl vom Stein , 1837/70 , Familiengruft in Frücht bei Bad Ems
+1	Marmorrelief	Marmorrelief	_	NN	number=pl|case=nom|gender=neut	_	_	_	_	O
+2	am	an	_	APPRART	case=dat|gender=neut	_	_	_	_	O
+3	Grabmal	Grabmal	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	O
+4	für	für	_	APPR	_	_	_	_	_	O
+5	den	der	_	ART	number=sg|case=acc|gender=masc	_	_	_	_	O
+6	preußischen	preußisch	_	ADJA	number=sg|degree=pos|case=acc|gender=masc	_	_	_	_	O
+7	Minister	Minister	_	NN	number=sg|case=acc|gender=masc	_	_	_	_	O
+8	Reichsfreiherr	Reichsfreiherr	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	O
+9	Karl	Karl	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	O
+10	vom	von	_	APPRART	case=dat|gender=masc	_	_	_	_	O
+11	Stein	Stein	_	NE	number=sg|case=dat|gender=masc	_	_	_	_	O
+12	,	,	_	$,	_	_	_	_	_	O
+13	1837/70	1837/70	_	CARD	_	_	_	_	_	O
+14	,	,	_	$,	_	_	_	_	_	O
+15	Familiengruft	Familiengruft	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	O
+16	in	in	_	APPR	_	_	_	_	_	O
+17	Frücht	Frücht	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	O
+18	bei	bei	_	APPR	_	_	_	_	_	O
+19	Bad	Bad	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	O
+20	Ems	Ems	_	NE	number=sg|case=dat|gender=fem	_	_	_	_	O
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# TopFString = (VROOT(NN Denkmal)(NN Großherzog)(NE Karl)(NE Friedrich)(APPR von)(NE Baden)(CARD 1840)(NE Karlsruhe))
+# text = Denkmal Großherzog Karl Friedrich von Baden , 1840 , Karlsruhe
+1	Denkmal	Denkmal	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	O
+2	Großherzog	Großherzog	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	O
+3	Karl	Karl	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	O
+4	Friedrich	Friedrich	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	O
+5	von	von	_	APPR	_	_	_	_	_	O
+6	Baden	Baden	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	O
+7	,	,	_	$,	_	_	_	_	_	O
+8	1840	1840	_	CARD	_	_	_	_	_	O
+9	,	,	_	$,	_	_	_	_	_	O
+10	Karlsruhe	Karlsruhe	_	NE	number=sg|case=nom|gender=neut	_	_	_	_	O
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# TopFString = (VROOT(NN Denkmal)(NE Jean-Paul)(CARD 1841)(NE Bayreuth))
+# text = Denkmal Jean-Paul , 1841 , Bayreuth
+1	Denkmal	Denkmal	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	O
+2	Jean-Paul	Jean-Paul	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	O
+3	,	,	_	$,	_	_	_	_	_	O
+4	1841	1841	_	CARD	_	_	_	_	_	O
+5	,	,	_	$,	_	_	_	_	_	O
+6	Bayreuth	Bayreuth	_	NE	number=sg|case=nom|gender=neut	_	_	_	_	O
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# TopFString = (VROOT(NN Relief)(ADJA Trauernde)(ADJA weibliche)(NN Gestalt)(KOMMA ,)(C(PRELS die))(MF(ART einen)(NN Kranz)(APPR auf)(ART den)(NN Sarkophag)(NE Frauenlobs))(VC(VVFIN legt))(KOMMA ,)(CARD 1842)(KOMMA ,)(NE Carraramarmor)(NN Kreuzgang)(APPRART im)(ADJA Mainzer)(NN Dom))
+# text = Relief Trauernde weibliche Gestalt , die einen Kranz auf den Sarkophag Frauenlobs legt , 1842 , Carraramarmor , Kreuzgang im Mainzer Dom
+1	Relief	Relief	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	O
+2	Trauernde	trauernd	_	ADJA	number=sg|degree=pos|case=nom|gender=fem	_	_	_	_	O
+3	weibliche	weiblich	_	ADJA	number=sg|degree=pos|case=nom|gender=fem	_	_	_	_	O
+4	Gestalt	Gestalt	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	O
+5	,	,	_	$,	_	_	_	_	_	O
+6	die	der	_	PRELS	number=sg|case=nom|gender=fem	13	subj	_	_	B-LK
+7	einen	ein	_	ART	number=sg|case=acc|gender=masc	_	_	_	_	B-MF
+8	Kranz	Kranz	_	NN	number=sg|case=acc|gender=masc	13	obj	_	_	I-MF
+9	auf	auf	_	APPR	_	_	_	_	_	I-MF
+10	den	der	_	ART	number=sg|case=acc|gender=masc	_	_	_	_	I-MF
+11	Sarkophag	Sarkophag	_	NN	number=sg|case=acc|gender=masc	_	_	_	_	I-MF
+12	Frauenlobs	Frauenlob	_	NE	number=sg|case=gen|gender=masc	_	_	_	_	I-MF
+13	legt	legen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-RK
+14	,	,	_	$,	_	_	_	_	_	O
+15	1842	1842	_	CARD	_	_	_	_	_	O
+16	,	,	_	$,	_	_	_	_	_	O
+17	Carraramarmor	Carraramarmor	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	O
+18	,	,	_	$,	_	_	_	_	_	O
+19	Kreuzgang	Kreuzgang	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	O
+20	im	in	_	APPRART	case=dat|gender=masc	_	_	_	_	O
+21	Mainzer	Mainzer	_	ADJA	number=sg|degree=pos|case=dat|gender=masc	_	_	_	_	O
+22	Dom	Dom	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	O
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# TopFString = (VROOT(NN Denkmal)(NE Wolfgang)(NE Amadeus)(NE Mozart)(KOMMA ,)(CARD 1842)(NE Salzburg)(NN Mozartplatz))
+# text = Denkmal Wolfgang Amadeus Mozart , 1842 , Salzburg , Mozartplatz
+1	Denkmal	Denkmal	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	O
+2	Wolfgang	Wolfgang	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	O
+3	Amadeus	Amadeus	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	O
+4	Mozart	Mozart	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	O
+5	,	,	_	$,	_	_	_	_	_	O
+6	1842	1842	_	CARD	_	_	_	_	_	O
+7	,	,	_	$,	_	_	_	_	_	O
+8	Salzburg	Salzburg	_	NE	number=sg|case=nom|gender=neut	_	_	_	_	O
+9	,	,	_	$,	_	_	_	_	_	O
+10	Mozartplatz	Mozartplatz	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	O
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# TopFString = (VROOT(CARD 34)(NN Siegesgöttinnen)(CARD 1842-1863)(NN Befreiungshalle)(KOMMA ,)(NE Kelheim))
+# text = 34 Siegesgöttinnen , 1842-1863 , Befreiungshalle , Kelheim
+1	34	34	_	CARD	_	_	_	_	_	O
+2	Siegesgöttinnen	Siegesgott	_	NN	number=pl|case=nom|gender=fem	_	_	_	_	O
+3	,	,	_	$,	_	_	_	_	_	O
+4	1842-1863	1842-1863	_	CARD	_	_	_	_	_	O
+5	,	,	_	$,	_	_	_	_	_	O
+6	Befreiungshalle	Befreiungshalle	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	O
+7	,	,	_	$,	_	_	_	_	_	O
+8	Kelheim	Kelheim	_	NE	number=sg|case=nom|gender=neut	_	_	_	_	O
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# TopFString = (VROOT(NN Denkmal)(NN Markgraf)(NE Friedrich)(NE Alexander)(APPR von)(NE Brandenburg-Bayreuth)(CARD 1843)(KOMMA ,)(NE Erlangen))
+# text = Denkmal Markgraf Friedrich Alexander von Brandenburg-Bayreuth , 1843 , Erlangen
+1	Denkmal	Denkmal	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	O
+2	Markgraf	Markgraf	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	O
+3	Friedrich	Friedrich	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	O
+4	Alexander	Alexander	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	O
+5	von	von	_	APPR	_	_	_	_	_	O
+6	Brandenburg-Bayreuth	Brandenburg-Bayreuth	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	O
+7	,	,	_	$,	_	_	_	_	_	O
+8	1843	1843	_	CARD	_	_	_	_	_	O
+9	,	,	_	$,	_	_	_	_	_	O
+10	Erlangen	Erlangen	_	NE	number=sg|case=nom|gender=neut	_	_	_	_	O
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# TopFString = (VROOT(NN Grabmal)(NN König)(NE Rudolf)(APPR von)(NE Habsburgs)(KOMMA ,)(APPRART im)(ADJA Speyerer)(NN Dom)(CARD 1843))
+# text = Grabmal König Rudolf von Habsburgs , im Speyerer Dom , 1843
+1	Grabmal	Grabmal	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	O
+2	König	König	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	O
+3	Rudolf	Rudolf	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	O
+4	von	von	_	APPR	_	_	_	_	_	O
+5	Habsburgs	Habsburg	_	NE	number=sg|case=*|gender=*	_	_	_	_	O
+6	,	,	_	$,	_	_	_	_	_	O
+7	im	in	_	APPRART	case=dat|gender=masc	_	_	_	_	O
+8	Speyerer	Speyerer	_	ADJA	number=sg|degree=pos|case=dat|gender=masc	_	_	_	_	O
+9	Dom	Dom	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	O
+10	,	,	_	$,	_	_	_	_	_	O
+11	1843	1843	_	CARD	_	_	_	_	_	O
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# TopFString = (VROOT(NN Austriabrunnen)(KOMMA ,)(CARD 1844)(NE Wien))
+# text = Austriabrunnen , 1844 , Wien
+1	Austriabrunnen	Austriabrunnen	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	1844	1844	_	CARD	_	_	_	_	_	O
+4	,	,	_	$,	_	_	_	_	_	O
+5	Wien	Wien	_	NE	number=sg|case=nom|gender=neut	_	_	_	_	O
+
+# sent_id = 19
+# sent_id(TSV) = 19
+# TopFString = (VROOT(VF(ART Das)(ADJA 6.)(ADJA Kanadische)(NN Kabinett)(KLAMMER LBR)(ADJD engl.)(FM 6th)(FM Canadian)(FM Ministry)(KOMMA ,)(ADJD franz.)(FM 6e)(FM conseil)(FM des)(FM ministres)(FM du)(FM Canada))(KLAMMER RBR)(LK(VVFIN regierte))(MF(NE Kanada)(APPRART vom)(ADJA 21.)(NN Dezember)(CARD 1894)(APPR bis)(APPRART zum)(ADJA 27.)(NN April)(CARD 1896)))
+# text = Das 6. Kanadische Kabinett ( engl. 6th Canadian Ministry , franz. 6e conseil des ministres du Canada ) regierte Kanada vom 21. Dezember 1894 bis zum 27. April 1896 .
+1	Das	der	_	ART	number=sg|case=nom|gender=neut	_	_	_	_	B-VF
+2	6.	6.	_	ADJA	number=sg|degree=pos|case=nom|gender=neut	_	_	_	_	I-VF
+3	Kanadische	kanadisch	_	ADJA	number=sg|degree=pos|case=nom|gender=neut	_	_	_	_	I-VF
+4	Kabinett	Kabinett	_	NN	number=sg|case=nom|gender=neut	19	subj	_	_	I-VF
+5	(	(	_	$(	_	_	_	_	_	I-VF
+6	engl.	engl.	_	ADJD	degree=pos	_	_	_	_	I-VF
+7	6th	6th	_	FM	_	_	_	_	_	I-VF
+8	Canadian	Canadian	_	FM	_	_	_	_	_	I-VF
+9	Ministry	Ministry	_	FM	_	_	_	_	_	I-VF
+10	,	,	_	$,	_	_	_	_	_	I-VF
+11	franz.	franz.	_	ADJD	degree=pos	_	_	_	_	I-VF
+12	6e	6e	_	FM	_	_	_	_	_	I-VF
+13	conseil	conseil	_	FM	_	_	_	_	_	I-VF
+14	des	des	_	FM	_	_	_	_	_	I-VF
+15	ministres	ministres	_	FM	_	_	_	_	_	I-VF
+16	du	du	_	FM	_	_	_	_	_	I-VF
+17	Canada	Canada	_	FM	_	_	_	_	_	I-VF
+18	)	)	_	$(	_	_	_	_	_	O
+19	regierte	regieren	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+20	Kanada	Kanada	_	NE	number=sg|case=acc|gender=neut	19	obj	_	_	B-MF
+21	vom	von	_	APPRART	case=dat|gender=masc	_	_	_	_	I-MF
+22	21.	21.	_	ADJA	number=sg|degree=pos|case=dat|gender=masc	_	_	_	_	I-MF
+23	Dezember	Dezember	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+24	1894	1894	_	CARD	_	_	_	_	_	I-MF
+25	bis	bis	_	APPR	_	_	_	_	_	I-MF
+26	zum	zu	_	APPRART	case=dat|gender=masc	_	_	_	_	I-MF
+27	27.	27.	_	ADJA	number=sg|degree=pos|case=dat|gender=masc	_	_	_	_	I-MF
+28	April	April	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+29	1896	1896	_	CARD	_	_	_	_	_	I-MF
+30	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 20
+# sent_id(TSV) = 20
+# TopFString = (VROOT(VF(PDAT Dieses)(APPR von)(NN Premierminister)(NE Mackenzie)(NE Bowell)(ADJA angeführte)(NN Kabinett))(LK(VVFIN bestand))(MF(APPR aus)(NN Mitgliedern)(ART der)(ADJA Konservativen)(NN Partei)))
+# text = Dieses von Premierminister Mackenzie Bowell angeführte Kabinett bestand aus Mitgliedern der Konservativen Partei .
+1	Dieses	dieser	_	PDAT	number=sg|case=nom|gender=neut	_	_	_	_	B-VF
+2	von	von	_	APPR	_	_	_	_	_	I-VF
+3	Premierminister	Premierminister	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	I-VF
+4	Mackenzie	Mackenzie	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	I-VF
+5	Bowell	Bowell	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	I-VF
+6	angeführte	angeführt	_	ADJA	number=sg|degree=pos|case=nom|gender=neut	_	_	_	_	I-VF
+7	Kabinett	Kabinett	_	NN	number=sg|case=nom|gender=neut	8	subj	_	_	I-VF
+8	bestand	bestehen	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+9	aus	aus	_	APPR	_	10	pcase	_	_	B-MF
+10	Mitgliedern	Mitglied	_	NN	number=pl|case=dat|gender=neut	8	pobj	_	_	I-MF
+11	der	der	_	ART	number=sg|case=gen|gender=fem	_	_	_	_	I-MF
+12	Konservativen	konservativ	_	ADJA	number=sg|degree=pos|case=gen|gender=fem	_	_	_	_	I-MF
+13	Partei	Partei	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	I-MF
+14	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 21
+# sent_id(TSV) = 21
+# TopFString = (VROOT(VF(ADV Auch)(ART der)(NN Name)(ART der)(NN Ausstellung))(LK(VAFIN wurde))(MF(APPR in)(PDAT diesem)(NN Zusammenhang)(APPR in)(NE Nitten)(KLAMMER LBR)(NN Abk.)(APPR für)(KOMMA ,)(FM Nihon)(FM bijutsu)(FM tenrankai))(KLAMMER RBR)(VC(VVPP geändert)))
+# text = Auch der Name der Ausstellung wurde in diesem Zusammenhang in Nitten ( Abk. für , Nihon bijutsu tenrankai ) geändert .
+1	Auch	auch	_	ADV	_	_	_	_	_	B-VF
+2	der	der	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	I-VF
+3	Name	Name	_	NN	number=sg|case=nom|gender=masc	20	subj	_	_	I-VF
+4	der	der	_	ART	number=sg|case=gen|gender=fem	_	_	_	_	I-VF
+5	Ausstellung	Ausstellung	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	I-VF
+6	wurde	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=past	20	aux	_	_	B-LK
+7	in	in	_	APPR	_	_	_	_	_	B-MF
+8	diesem	dieser	_	PDAT	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+9	Zusammenhang	Zusammenhang	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+10	in	in	_	APPR	_	11	pcase	_	_	I-MF
+11	Nitten	Nitten	_	NE	number=sg|case=acc|gender=fem	20	pobj	_	_	I-MF
+12	(	(	_	$(	_	_	_	_	_	I-MF
+13	Abk.	Abk.	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	I-MF
+14	für	für	_	APPR	_	_	_	_	_	I-MF
+15	,	,	_	$,	_	_	_	_	_	I-MF
+16	Nihon	Nihon	_	FM	_	_	_	_	_	I-MF
+17	bijutsu	bijutsu	_	FM	_	_	_	_	_	I-MF
+18	tenrankai	tenrankai	_	FM	_	_	_	_	_	I-MF
+19	)	)	_	$(	_	_	_	_	_	O
+20	geändert	ändern	_	VVPP	_	_	_	_	_	B-RK
+21	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 22
+# sent_id(TSV) = 22
+# TopFString = (VROOT(VF(APPRART Im)(NN Zuge)(ART einer)(NN Neuordnung)(CARD 1958))(LK(VAFIN wurde))(MF(ART die)(NN Akademie)(APPR in)(ART eine)(ADJD rein)(ADJA wissenschaftliche)(KON und)(ADJA beratende)(NN Non-Profit-Organisation))(VC(VVPP überführt))(KON und)(VF(ART die)(NN Organisation)(ART der)(NN Kunstausstellung))(LK(VAFIN wurde))(MF(APPR in)(ART eine)(ADJA eigene)(NN Personengesellschaft)(KOMMA ,)(ART die)(NE Nitten)(NN Kapitalgesellschaft))(KOMMA ,)(VC(VVPP ausgegliedert)))
+# text = Im Zuge einer Neuordnung 1958 wurde die Akademie in eine rein wissenschaftliche und beratende Non-Profit-Organisation überführt und die Organisation der Kunstausstellung wurde in eine eigene Personengesellschaft , die Nitten Kapitalgesellschaft , ausgegliedert .
+1	Im	in	_	APPRART	case=dat|gender=masc	_	_	_	_	B-VF
+2	Zuge	Zug	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-VF
+3	einer	ein	_	ART	number=sg|case=gen|gender=fem	_	_	_	_	I-VF
+4	Neuordnung	Neuordnung	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	I-VF
+5	1958	1958	_	CARD	_	_	_	_	_	I-VF
+6	wurde	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=past	16	aux	_	_	B-LK
+7	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	B-MF
+8	Akademie	Akademie	_	NN	number=sg|case=nom|gender=fem	16	subj	_	_	I-MF
+9	in	in	_	APPR	_	_	_	_	_	I-MF
+10	eine	ein	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	I-MF
+11	rein	rein	_	ADJD	degree=pos	_	_	_	_	I-MF
+12	wissenschaftliche	wissenschaftlich	_	ADJA	number=sg|degree=pos|case=acc|gender=fem	_	_	_	_	I-MF
+13	und	und	_	KON	_	_	_	_	_	I-MF
+14	beratende	beratend	_	ADJA	number=sg|degree=pos|case=acc|gender=fem	_	_	_	_	I-MF
+15	Non-Profit-Organisation	Non-Profit-Organisation	_	NN	number=sg|case=acc|gender=fem	_	_	_	_	I-MF
+16	überführt	überführen	_	VVPP	_	_	_	_	_	B-RK
+17	und	und	_	KON	_	_	_	_	_	O
+18	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	B-VF
+19	Organisation	Organisation	_	NN	number=sg|case=nom|gender=fem	32	subj	_	_	I-VF
+20	der	der	_	ART	number=sg|case=gen|gender=fem	_	_	_	_	I-VF
+21	Kunstausstellung	Kunstausstellung	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	I-VF
+22	wurde	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=past	32	aux	_	_	B-LK
+23	in	in	_	APPR	_	_	_	_	_	B-MF
+24	eine	ein	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	I-MF
+25	eigene	eigen	_	ADJA	number=sg|degree=pos|case=acc|gender=fem	_	_	_	_	I-MF
+26	Personengesellschaft	Personengesellschaft	_	NN	number=sg|case=acc|gender=fem	_	_	_	_	I-MF
+27	,	,	_	$,	_	_	_	_	_	I-MF
+28	die	der	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	I-MF
+29	Nitten	Nitten	_	NE	number=sg|case=nom|gender=fem	_	_	_	_	I-MF
+30	Kapitalgesellschaft	Kapitalgesellschaft	_	NN	number=sg|case=acc|gender=fem	_	_	_	_	I-MF
+31	,	,	_	$,	_	_	_	_	_	O
+32	ausgegliedert	ausgliedern	_	VVPP	_	_	_	_	_	B-RK
+33	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 23
+# sent_id(TSV) = 23
+# TopFString = (VROOT(NN Mitgliedschaft))
+# text = Mitgliedschaft
+1	Mitgliedschaft	Mitgliedschaft	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	O
+
+# sent_id = 24
+# sent_id(TSV) = 24
+# TopFString = (VROOT(VF(ART Die)(NN Akademie)(ART der)(NN Künste))(LK(VVFIN gehört))(MF(ADJD formell)(APPRART zum)(NE MEXT)))
+# text = Die Akademie der Künste gehört formell zum MEXT .
+1	Die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	B-VF
+2	Akademie	Akademie	_	NN	number=sg|case=nom|gender=fem	5	subj	_	_	I-VF
+3	der	der	_	ART	number=pl|case=gen|gender=fem	_	_	_	_	I-VF
+4	Künste	Kunst	_	NN	number=pl|case=gen|gender=fem	_	_	_	_	I-VF
+5	gehört	gehören	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+6	formell	formell	_	ADJD	degree=pos	_	_	_	_	B-MF
+7	zum	zu	_	APPRART	case=dat|gender=*	8	pcase-det	_	_	I-MF
+8	MEXT	MEXT	_	NE	number=sg|case=dat|gender=*	5	pobj	_	_	I-MF
+9	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 25
+# sent_id(TSV) = 25
+# TopFString = (VROOT(VF(PPER Sie))(LK(VVFIN besitzt))(MF(ADJD maximal)(CARD 120)(NN Mitglieder))(KOMMA ,)(NF(C(PRELS die))(MF(APPR auf)(NN Lebenszeit))(VC(VVPP ernannt)(VAFIN werden))))
+# text = Sie besitzt maximal 120 Mitglieder , die auf Lebenszeit ernannt werden .
+1	Sie	sie	_	PPER	number=sg|person=3|case=nom|gender=fem	2	subj	_	_	B-VF
+2	besitzt	besitzen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+3	maximal	maximal	_	ADJD	degree=pos	_	_	_	_	B-MF
+4	120	120	_	CARD	_	_	_	_	_	I-MF
+5	Mitglieder	Mitglied	_	NN	number=pl|case=acc|gender=neut	2	obj	_	_	I-MF
+6	,	,	_	$,	_	_	_	_	_	O
+7	die	der	_	PRELS	number=pl|case=nom|gender=neut	10	subj	_	_	B-NF|B-LK
+8	auf	auf	_	APPR	_	_	_	_	_	I-NF|B-MF
+9	Lebenszeit	Lebenszeit	_	NN	number=sg|case=acc|gender=fem	_	_	_	_	I-NF|I-MF
+10	ernannt	ernennen	_	VVPP	_	_	_	_	_	I-NF|B-RK
+11	werden	werden	_	VAFIN	number=pl|person=3|mood=ind|tense=pres	10	aux	_	_	I-NF|I-RK
+12	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 26
+# sent_id(TSV) = 26
+# TopFString = (VROOT(VF(ART Die)(NN Akademie))(LK(VVFIN besitzt))(MF(CARD drei)(NN Hauptabteilungen)(APPR mit)(ADV insgesamt)(CARD 16)(NN Unterabteilungen))(KOMMA ,)(NF(C(PRELS die))(MF(ADJA einzelnen)(NN Fachgebieten))(VC(VVPP zugeordnet)(VAFIN sind))))
+# text = Die Akademie besitzt drei Hauptabteilungen mit insgesamt 16 Unterabteilungen , die einzelnen Fachgebieten zugeordnet sind .
+1	Die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	B-VF
+2	Akademie	Akademie	_	NN	number=sg|case=nom|gender=fem	3	subj	_	_	I-VF
+3	besitzt	besitzen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+4	drei	drei	_	CARD	_	_	_	_	_	B-MF
+5	Hauptabteilungen	Hauptabteilung	_	NN	number=pl|case=acc|gender=fem	3	obj	_	_	I-MF
+6	mit	mit	_	APPR	_	_	_	_	_	I-MF
+7	insgesamt	insgesamt	_	ADV	_	_	_	_	_	I-MF
+8	16	16	_	CARD	_	_	_	_	_	I-MF
+9	Unterabteilungen	Unterabteilung	_	NN	number=pl|case=dat|gender=fem	_	_	_	_	I-MF
+10	,	,	_	$,	_	_	_	_	_	O
+11	die	der	_	PRELS	number=pl|case=nom|gender=fem	14	subj	_	_	B-NF|B-LK
+12	einzelnen	einzeln	_	ADJA	number=pl|degree=pos|case=dat|gender=neut	_	_	_	_	I-NF|B-MF
+13	Fachgebieten	Fachgebiet	_	NN	number=pl|case=dat|gender=neut	14	iobj	_	_	I-NF|I-MF
+14	zugeordnet	zuordnen	_	VVPP	_	_	_	_	_	I-NF|B-RK
+15	sind	sein	_	VAFIN	number=pl|person=3|mood=ind|tense=pres	14	aux	_	_	I-NF|I-RK
+16	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 27
+# sent_id(TSV) = 27
+# TopFString = (VROOT(VF(ART Die)(NN Mitgliedschaft))(LK(VVFIN erfolgt))(MF(APPR für)(PIS eine)(ART der)(NN Unterabteilungen)))
+# text = Die Mitgliedschaft erfolgt für eine der Unterabteilungen :
+1	Die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	B-VF
+2	Mitgliedschaft	Mitgliedschaft	_	NN	number=sg|case=nom|gender=fem	3	subj	_	_	I-VF
+3	erfolgt	erfolgen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+4	für	für	_	APPR	_	_	_	_	_	B-MF
+5	eine	einer	_	PIS	number=sg|case=acc|gender=fem	_	_	_	_	I-MF
+6	der	der	_	ART	number=pl|case=gen|gender=fem	_	_	_	_	I-MF
+7	Unterabteilungen	Unterabteilung	_	NN	number=pl|case=gen|gender=fem	_	_	_	_	I-MF
+8	:	:	_	$.	_	_	_	_	_	O
+
+# sent_id = 28
+# sent_id(TSV) = 28
+# TopFString = (VROOT(XY A.)(ADJA Bildende)(NN Künste))
+# text = A. Bildende Künste
+1	A.	A.	_	XY	_	_	_	_	_	O
+2	Bildende	bildend	_	ADJA	number=pl|degree=pos|case=nom|gender=fem	_	_	_	_	O
+3	Künste	Kunst	_	NN	number=pl|case=nom|gender=fem	_	_	_	_	O
+
+# sent_id = 29
+# sent_id(TSV) = 29
+# TopFString = (VROOT(FM Nihonga))
+# text = Nihonga
+1	Nihonga	Nihonga	_	FM	_	_	_	_	_	O
+
+# sent_id = 30
+# sent_id(TSV) = 30
+# TopFString = (VROOT(FM Yōga))
+# text = Yōga
+1	Yōga	Yōga	_	FM	_	_	_	_	_	O
+
+# sent_id = 31
+# sent_id(TSV) = 31
+# TopFString = (VROOT(VF(NE Brügge))(LK(VAFIN wurde))(MF(KOKOM als)(NE Ernst)(NE Hess))(VC(VVPP geboren)))
+# text = Brügge wurde als Ernst Hess geboren .
+1	Brügge	Brügge	_	NE	number=sg|case=nom|gender=masc	6	subj	_	_	B-VF
+2	wurde	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=past	6	aux	_	_	B-LK
+3	als	als	_	KOKOM	_	_	_	_	_	B-MF
+4	Ernst	Ernst	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	I-MF
+5	Hess	Hess	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	I-MF
+6	geboren	gebären	_	VVPP	_	_	_	_	_	B-RK
+7	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 32
+# sent_id(TSV) = 32
+# TopFString = (VROOT(VF(PPER Er))(FKOORD(FKONJ(LK(VAFIN war))(MF(APPR von)(CARD 1961)(APPR bis)(CARD 1994)(NN Spiegel-Reporter)))(KON und)(FKONJ(LK(VVFIN schrieb))(MF(APPR unter)(ART dem)(NN Pseudonym)(NE Peter)(NE Brügge)))))
+# text = Er war von 1961 bis 1994 Spiegel-Reporter und schrieb unter dem Pseudonym Peter Brügge .
+1	Er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	2	subj	_	_	B-VF
+2	war	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+3	von	von	_	APPR	_	_	_	_	_	B-MF
+4	1961	1961	_	CARD	_	_	_	_	_	I-MF
+5	bis	bis	_	APPR	_	_	_	_	_	I-MF
+6	1994	1994	_	CARD	_	_	_	_	_	I-MF
+7	Spiegel-Reporter	Spiegel-Reporter	_	NN	number=sg|case=nom|gender=masc	2	pred	_	_	I-MF
+8	und	und	_	KON	_	_	_	_	_	B-KOORD
+9	schrieb	schreiben	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+10	unter	unter	_	APPR	_	_	_	_	_	B-MF
+11	dem	der	_	ART	number=sg|case=dat|gender=neut	_	_	_	_	I-MF
+12	Pseudonym	Pseudonym	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	I-MF
+13	Peter	Peter	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	I-MF
+14	Brügge	Brügge	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	I-MF
+15	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 33
+# sent_id(TSV) = 33
+# TopFString = (VROOT(VF(PAV Damit))(LK(VAFIN war))(MF(PPER er)(APPR neben)(NE Rudolf)(NE Augstein)(KLAMMER LBR)(NN Pseudonym)(NE Jens)(NE Daniel)(KLAMMER RBR)(PIS einer)(ART der)(ADJA wenigen)(NN Spiegel-Autoren))(KOMMA ,)(NF(C(PRELS die))(MF(PTKNEG nicht)(APPR unter)(PPOSAT ihrem)(NN Namen))(VC(VVFIN schrieben))))
+# text = Damit war er neben Rudolf Augstein ( Pseudonym Jens Daniel ) einer der wenigen Spiegel-Autoren , die nicht unter ihrem Namen schrieben .
+1	Damit	damit	_	PAV	_	_	_	_	_	B-VF
+2	war	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+3	er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	2	subj	_	_	B-MF
+4	neben	neben	_	APPR	_	_	_	_	_	I-MF
+5	Rudolf	Rudolf	_	NE	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+6	Augstein	Augstein	_	NE	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+7	(	(	_	$(	_	_	_	_	_	I-MF
+8	Pseudonym	Pseudonym	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	I-MF
+9	Jens	Jens	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	I-MF
+10	Daniel	Daniel	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	I-MF
+11	)	)	_	$(	_	_	_	_	_	I-MF
+12	einer	einer	_	PIS	number=sg|case=nom|gender=masc	2	pred	_	_	I-MF
+13	der	der	_	ART	number=pl|case=gen|gender=masc	_	_	_	_	I-MF
+14	wenigen	wenig	_	ADJA	number=pl|degree=pos|case=gen|gender=masc	_	_	_	_	I-MF
+15	Spiegel-Autoren	Spiegel-Autor	_	NN	number=pl|case=gen|gender=masc	_	_	_	_	I-MF
+16	,	,	_	$,	_	_	_	_	_	O
+17	die	der	_	PRELS	number=pl|case=nom|gender=masc	22	subj	_	_	B-NF|B-LK
+18	nicht	nicht	_	PTKNEG	_	_	_	_	_	I-NF|B-MF
+19	unter	unter	_	APPR	_	_	_	_	_	I-NF|I-MF
+20	ihrem	ihr	_	PPOSAT	number=sg|case=dat|gender=masc	_	_	_	_	I-NF|I-MF
+21	Namen	Name	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-NF|I-MF
+22	schrieben	schreiben	_	VVFIN	number=pl|person=3|mood=ind|tense=past	_	_	_	_	I-NF|B-RK
+23	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 34
+# sent_id(TSV) = 34
+# TopFString = (VROOT(VF(CARD 1966))(LK(VAFIN wurde))(MF(PPER er)(APPR mit)(ART dem)(NN Theodor-Wolff-Preis))(VC(VVPP ausgezeichnet)))
+# text = 1966 wurde er mit dem Theodor-Wolff-Preis ausgezeichnet .
+1	1966	1966	_	CARD	_	_	_	_	_	B-VF
+2	wurde	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=past	7	aux	_	_	B-LK
+3	er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	7	subj	_	_	B-MF
+4	mit	mit	_	APPR	_	_	_	_	_	I-MF
+5	dem	der	_	ART	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+6	Theodor-Wolff-Preis	Theodor-Wolff-Preis	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+7	ausgezeichnet	auszeichnen	_	VVPP	_	_	_	_	_	B-RK
+8	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 35
+# sent_id(TSV) = 35
+# TopFString = (VROOT(VF(APPR Für)(PPOSAT seine)(NN Arbeit)(NN Herr)(NE Meier)(KOMMA ,)(PWAV wo)(NN Blumen)(KOMMA ,)(PWAV wo)(NN Sommer)(PUNKT ?)(APPRART im)(NE Spiegel))(LK(VAFIN wurde))(MF(PPER er)(CARD 1980)(APPR mit)(ART dem)(NN Egon-Erwin-Kisch-Preis))(VC(VVPP ausgezeichnet)))
+# text = Für seine Arbeit Herr Meier , wo Blumen , wo Sommer ? im Spiegel wurde er 1980 mit dem Egon-Erwin-Kisch-Preis ausgezeichnet .
+1	Für	für	_	APPR	_	_	_	_	_	B-VF
+2	seine	sein	_	PPOSAT	number=sg|case=acc|gender=fem	_	_	_	_	I-VF
+3	Arbeit	Arbeit	_	NN	number=sg|case=acc|gender=fem	_	_	_	_	I-VF
+4	Herr	Herr	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	I-VF
+5	Meier	Meier	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	I-VF
+6	,	,	_	$,	_	_	_	_	_	I-VF
+7	wo	wo	_	PWAV	_	_	_	_	_	I-VF
+8	Blumen	Blume	_	NN	number=pl|case=nom|gender=fem	_	_	_	_	I-VF
+9	,	,	_	$,	_	_	_	_	_	I-VF
+10	wo	wo	_	PWAV	_	_	_	_	_	I-VF
+11	Sommer	Sommer	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	I-VF
+12	?	?	_	$.	_	_	_	_	_	I-VF
+13	im	in	_	APPRART	case=dat|gender=fem	_	_	_	_	I-VF
+14	Spiegel	Spiegel	_	NE	number=sg|case=dat|gender=masc	_	_	_	_	I-VF
+15	wurde	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=past	21	aux	_	_	B-LK
+16	er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	21	subj	_	_	B-MF
+17	1980	1980	_	CARD	_	_	_	_	_	I-MF
+18	mit	mit	_	APPR	_	_	_	_	_	I-MF
+19	dem	der	_	ART	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+20	Egon-Erwin-Kisch-Preis	Egon-Erwin-Kisch-Preis	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+21	ausgezeichnet	auszeichnen	_	VVPP	_	_	_	_	_	B-RK
+22	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 36
+# sent_id(TSV) = 36
+# TopFString = (VROOT(VF(ART Die)(NN Reportage)(APPR über)(ADJA vietnamesische)(NN Flüchtlinge)(KOMMA ,)(C(PRELS die))(MF(APPR in)(ART einem)(ADJA oberbayerischen)(NN Dorf)(NN Zuflucht))(VC(VVFIN finden)))(KOMMA ,)(LK(VVFIN beschäftigt))(MF(PRF sich)(APPR mit)(ART der)(ADJA allmählichen)(NN Stimmungsveränderung)(APPR unter)(ART den)(KLAMMER „)(NN Einheimischen)(KLAMMER “)(APPR zu)(NN Ungunsten)(ART der)(NN Flüchtlinge)))
+# text = Die Reportage über vietnamesische Flüchtlinge , die in einem oberbayerischen Dorf Zuflucht finden , beschäftigt sich mit der allmählichen Stimmungsveränderung unter den „ Einheimischen “ zu Ungunsten der Flüchtlinge .
+1	Die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	B-VF
+2	Reportage	Reportage	_	NN	number=sg|case=nom|gender=fem	15	subj	_	_	I-VF
+3	über	über	_	APPR	_	5	pcase	_	_	I-VF
+4	vietnamesische	vietnamesisch	_	ADJA	number=pl|degree=pos|case=acc|gender=*	_	_	_	_	I-VF
+5	Flüchtlinge	Flüchtling	_	NN	number=pl|case=acc|gender=*	2	pobj	_	_	I-VF
+6	,	,	_	$,	_	_	_	_	_	I-VF
+7	die	der	_	PRELS	number=pl|case=nom|gender=*	13	subj	_	_	I-VF|B-LK
+8	in	in	_	APPR	_	_	_	_	_	I-VF|B-MF
+9	einem	ein	_	ART	number=sg|case=dat|gender=neut	_	_	_	_	I-VF|I-MF
+10	oberbayerischen	oberbayerisch	_	ADJA	number=sg|degree=pos|case=dat|gender=neut	_	_	_	_	I-VF|I-MF
+11	Dorf	Dorf	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	I-VF|I-MF
+12	Zuflucht	Zuflucht	_	NN	number=sg|case=acc|gender=fem	13	obj	_	_	I-VF|I-MF
+13	finden	finden	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	I-VF|B-RK
+14	,	,	_	$,	_	_	_	_	_	O
+15	beschäftigt	beschäftigen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+16	sich	sich	_	PRF	number=sg|person=3|case=acc	15	obj	_	_	B-MF
+17	mit	mit	_	APPR	_	20	pcase	_	_	I-MF
+18	der	der	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	I-MF
+19	allmählichen	allmählich	_	ADJA	number=sg|degree=pos|case=dat|gender=fem	_	_	_	_	I-MF
+20	Stimmungsveränderung	Stimmungsveränderung	_	NN	number=sg|case=dat|gender=fem	15	pobj	_	_	I-MF
+21	unter	unter	_	APPR	_	_	_	_	_	I-MF
+22	den	der	_	ART	number=pl|case=dat|gender=*	_	_	_	_	I-MF
+23	„	„	_	$(	_	_	_	_	_	I-MF
+24	Einheimischen	Einheimische	_	NN	number=pl|case=dat|gender=*	_	_	_	_	I-MF
+25	“	“	_	$(	_	_	_	_	_	I-MF
+26	zu	zu	_	APPR	_	_	_	_	_	I-MF
+27	Ungunsten	Ungunst	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+28	der	der	_	ART	number=pl|case=gen|gender=*	_	_	_	_	I-MF
+29	Flüchtlinge	Flüchtling	_	NN	number=pl|case=gen|gender=*	_	_	_	_	I-MF
+30	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 37
+# sent_id(TSV) = 37
+# TopFString = (VROOT(NN Werke))
+# text = Werke
+1	Werke	Werk	_	NN	number=pl|case=nom|gender=neut	_	_	_	_	O
+
+# sent_id = 38
+# sent_id(TSV) = 38
+# TopFString = (VROOT(NN Schlachtfest)(APPR für)(NN Führungskräfte)(ART die)(ADJA sechziger)(NN Jahre)(ART der)(NN Republik))
+# text = Schlachtfest für Führungskräfte - die sechziger Jahre der Republik .
+1	Schlachtfest	Schlachtfest	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	O
+2	für	für	_	APPR	_	_	_	_	_	O
+3	Führungskräfte	Führungskraft	_	NN	number=pl|case=acc|gender=fem	_	_	_	_	O
+4	-	-	_	$(	_	_	_	_	_	O
+5	die	der	_	ART	number=pl|case=nom|gender=neut	_	_	_	_	O
+6	sechziger	sechziger	_	ADJA	number=pl|degree=pos|case=nom|gender=neut	_	_	_	_	O
+7	Jahre	Jahr	_	NN	number=pl|case=nom|gender=neut	_	_	_	_	O
+8	der	der	_	ART	number=sg|case=gen|gender=fem	_	_	_	_	O
+9	Republik	Republik	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	O
+10	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 39
+# sent_id(TSV) = 39
+# TopFString = (VROOT(NE Bertelsmann)(NE München)(CARD 1989)(NN ISBN)(CARD 3-570-02690-6))
+# text = Bertelsmann , München 1989 , ISBN 3-570-02690-6 .
+1	Bertelsmann	Bertelsmann	_	NE	number=sg|case=nom|gender=*	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	München	München	_	NE	number=sg|case=nom|gender=neut	_	_	_	_	O
+4	1989	1989	_	CARD	_	_	_	_	_	O
+5	,	,	_	$,	_	_	_	_	_	O
+6	ISBN	ISBN	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	O
+7	3-570-02690-6	3-570-02690-6	_	CARD	_	_	_	_	_	O
+8	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 40
+# sent_id(TSV) = 40
+# TopFString = (VROOT(ART Die)(NN Anthroposophen)(NN Waldorfschule)(KOMMA ,)(ADJA biodynamischer)(NN Landbau)(KOMMA ,)(NN Ganzheitsmedizin)(KOMMA ,)(ADJA kosmische)(NN Heilslehre))
+# text = Die Anthroposophen - Waldorfschule , biodynamischer Landbau , Ganzheitsmedizin , kosmische Heilslehre .
+1	Die	der	_	ART	number=pl|case=nom|gender=masc	_	_	_	_	O
+2	Anthroposophen	Anthroposoph	_	NN	number=pl|case=nom|gender=masc	_	_	_	_	O
+3	-	-	_	$(	_	_	_	_	_	O
+4	Waldorfschule	Waldorfschule	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	O
+5	,	,	_	$,	_	_	_	_	_	O
+6	biodynamischer	biodynamisch	_	ADJA	number=sg|degree=pos|case=nom|gender=masc	_	_	_	_	O
+7	Landbau	Landbau	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	O
+8	,	,	_	$,	_	_	_	_	_	O
+9	Ganzheitsmedizin	Ganzheitsmedizin	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	O
+10	,	,	_	$,	_	_	_	_	_	O
+11	kosmische	kosmisch	_	ADJA	number=sg|degree=pos|case=nom|gender=fem	_	_	_	_	O
+12	Heilslehre	Heilslehre	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	O
+13	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 41
+# sent_id(TSV) = 41
+# TopFString = (VROOT(VF(ART Das)(NN Glasmuseum)(NE Mariahilf))(LK(VAFIN ist))(MF(ART ein)(NN Museum)(APPRART im)(ADJA 6.)(ADJA Wiener)(NN Gemeindebezirk)(NE Mariahilf)))
+# text = Das Glasmuseum Mariahilf ist ein Museum im 6. Wiener Gemeindebezirk Mariahilf .
+1	Das	der	_	ART	number=sg|case=nom|gender=neut	_	_	_	_	B-VF
+2	Glasmuseum	Glasmuseum	_	NN	number=sg|case=nom|gender=neut	4	subj	_	_	I-VF
+3	Mariahilf	Mariahilf	_	NE	number=sg|case=nom|gender=*	_	_	_	_	I-VF
+4	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+5	ein	ein	_	ART	number=sg|case=nom|gender=neut	_	_	_	_	B-MF
+6	Museum	Museum	_	NN	number=sg|case=nom|gender=neut	4	pred	_	_	I-MF
+7	im	in	_	APPRART	case=dat|gender=masc	_	_	_	_	I-MF
+8	6.	6.	_	ADJA	number=sg|degree=pos|case=dat|gender=masc	_	_	_	_	I-MF
+9	Wiener	Wiener	_	ADJA	number=sg|degree=pos|case=dat|gender=masc	_	_	_	_	I-MF
+10	Gemeindebezirk	Gemeindebezirk	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+11	Mariahilf	Mariahilf	_	NE	number=sg|case=dat|gender=*	_	_	_	_	I-MF
+12	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 42
+# sent_id(TSV) = 42
+# TopFString = (VROOT(VF(ART Das)(APPRART im)(NN Oktober)(CARD 2008)(ADJA eröffnete)(NN Museum))(LK(VVFIN befindet))(MF(PRF sich)(APPRART im)(NN Bezirksmuseum)(NE Mariahilf)))
+# text = Das im Oktober 2008 eröffnete Museum befindet sich im Bezirksmuseum Mariahilf .
+1	Das	der	_	ART	number=sg|case=nom|gender=neut	_	_	_	_	B-VF
+2	im	in	_	APPRART	case=dat|gender=masc	_	_	_	_	I-VF
+3	Oktober	Oktober	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-VF
+4	2008	2008	_	CARD	_	_	_	_	_	I-VF
+5	eröffnete	eröffnet	_	ADJA	number=sg|degree=pos|case=nom|gender=neut	_	_	_	_	I-VF
+6	Museum	Museum	_	NN	number=sg|case=nom|gender=neut	7	subj	_	_	I-VF
+7	befindet	befinden	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+8	sich	sich	_	PRF	number=sg|person=3|case=acc	7	obj	_	_	B-MF
+9	im	in	_	APPRART	case=dat|gender=neut	_	_	_	_	I-MF
+10	Bezirksmuseum	Bezirksmuseum	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	I-MF
+11	Mariahilf	Mariahilf	_	NE	number=sg|case=dat|gender=*	_	_	_	_	I-MF
+12	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 43
+# sent_id(TSV) = 43
+# TopFString = (VROOT(VF(KOKOM Als)(ADJA erstes)(NN Museum)(APPR für)(NN Glasmalerei)(APPR in)(NE Österreich))(LK(VVFIN beinhaltet))(FKOORD(MF(PPER es)(ART eine)(NN Sammlung))(KON und)(MF(ART ein)(NN Archiv)(APPR für)(NN Glasmalerei)(KON und)(NN Glasergewerbe)(APPR in)(NE Wien)(APPR mit)(NN Augenmerk)(APPR auf)(NN Glasmalerei)(KOMMA ,)(NN Kunstverglasungen)(KON und)(ADJA veredeltem)(NN Flachglas))))
+# text = Als erstes Museum für Glasmalerei in Österreich beinhaltet es eine Sammlung und ein Archiv für Glasmalerei und Glasergewerbe in Wien mit Augenmerk auf Glasmalerei , Kunstverglasungen und veredeltem Flachglas .
+1	Als	als	_	KOKOM	_	_	_	_	_	B-VF
+2	erstes	erster	_	ADJA	number=sg|degree=pos|case=nom|gender=neut	_	_	_	_	I-VF
+3	Museum	Museum	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	I-VF
+4	für	für	_	APPR	_	_	_	_	_	I-VF
+5	Glasmalerei	Glasmalerei	_	NN	number=sg|case=acc|gender=fem	_	_	_	_	I-VF
+6	in	in	_	APPR	_	_	_	_	_	I-VF
+7	Österreich	Österreich	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	I-VF
+8	beinhaltet	beinhalten	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+9	es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	8	subj	_	_	B-MF
+10	eine	ein	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	I-MF
+11	Sammlung	Sammlung	_	NN	number=sg|case=acc|gender=fem	8	obj	_	_	I-MF
+12	und	und	_	KON	_	_	_	_	_	B-KOORD
+13	ein	ein	_	ART	number=sg|case=acc|gender=neut	_	_	_	_	B-MF
+14	Archiv	Archiv	_	NN	number=sg|case=acc|gender=neut	_	_	_	_	I-MF
+15	für	für	_	APPR	_	_	_	_	_	I-MF
+16	Glasmalerei	Glasmalerei	_	NN	number=sg|case=acc|gender=fem	_	_	_	_	I-MF
+17	und	und	_	KON	_	_	_	_	_	I-MF
+18	Glasergewerbe	Glasergewerbe	_	NN	number=pl|case=acc|gender=neut	_	_	_	_	I-MF
+19	in	in	_	APPR	_	_	_	_	_	I-MF
+20	Wien	Wien	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	I-MF
+21	mit	mit	_	APPR	_	_	_	_	_	I-MF
+22	Augenmerk	Augenmerk	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	I-MF
+23	auf	auf	_	APPR	_	_	_	_	_	I-MF
+24	Glasmalerei	Glasmalerei	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	I-MF
+25	,	,	_	$,	_	_	_	_	_	I-MF
+26	Kunstverglasungen	Kunstverglasung	_	NN	number=pl|case=dat|gender=fem	_	_	_	_	I-MF
+27	und	und	_	KON	_	_	_	_	_	I-MF
+28	veredeltem	veredelt	_	ADJA	number=sg|degree=pos|case=dat|gender=neut	_	_	_	_	I-MF
+29	Flachglas	Flachglas	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	I-MF
+30	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 44
+# sent_id(TSV) = 44
+# TopFString = (VROOT(VF(ART Einen)(NN Schwerpunkt))(LK(VVFIN bilden))(MF(ART die)(ADJA ehemaligen)(NN Werkstätten)(APPRART im)(ADJA 6.)(NN Bezirk))(KOMMA ,)(NF(KOKOM wie)(ART die)(NN Glasmalerei)(NE Carl)(NE Geyling’s)(NN Erben)(KON und)(ART die)(NN Filiale)(ART der)(ADJA Tiroler)(NN Glasmalerei)(KOMMA ,)(KON aber)(ADV auch)(ART die)(NN Mollardschule)(KON und)(PIAT viele)(ADJA kleinere)(NN Betriebe)(KOMMA ,)(C(PRELS die))(MF(APPR in)(NN Vergessenheit))(VC(VVFIN gerieten))))
+# text = Einen Schwerpunkt bilden die ehemaligen Werkstätten im 6. Bezirk , wie die Glasmalerei Carl Geyling’s Erben und die Filiale der Tiroler Glasmalerei , aber auch die Mollardschule und viele kleinere Betriebe , die in Vergessenheit gerieten .
+1	Einen	ein	_	ART	number=sg|case=acc|gender=masc	_	_	_	_	B-VF
+2	Schwerpunkt	Schwerpunkt	_	NN	number=sg|case=acc|gender=masc	3	obj	_	_	I-VF
+3	bilden	bilden	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+4	die	der	_	ART	number=pl|case=nom|gender=fem	_	_	_	_	B-MF
+5	ehemaligen	ehemalig	_	ADJA	number=pl|degree=pos|case=nom|gender=fem	_	_	_	_	I-MF
+6	Werkstätten	Werkstatt	_	NN	number=pl|case=nom|gender=fem	3	subj	_	_	I-MF
+7	im	in	_	APPRART	case=dat|gender=masc	_	_	_	_	I-MF
+8	6.	6.	_	ADJA	number=sg|degree=pos|case=dat|gender=masc	_	_	_	_	I-MF
+9	Bezirk	Bezirk	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+10	,	,	_	$,	_	_	_	_	_	O
+11	wie	wie	_	KOKOM	_	_	_	_	_	B-NF
+12	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	I-NF
+13	Glasmalerei	Glasmalerei	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	I-NF
+14	Carl	Carl	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	I-NF
+15	Geyling’s	Geyling	_	NE	number=sg|case=gen|gender=masc	_	_	_	_	I-NF
+16	Erben	Erbe	_	NN	number=pl|case=nom|gender=masc	_	_	_	_	I-NF
+17	und	und	_	KON	_	_	_	_	_	I-NF
+18	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	I-NF
+19	Filiale	Filiale	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	I-NF
+20	der	der	_	ART	number=sg|case=gen|gender=fem	_	_	_	_	I-NF
+21	Tiroler	Tiroler	_	ADJA	number=sg|degree=pos|case=gen|gender=fem	_	_	_	_	I-NF
+22	Glasmalerei	Glasmalerei	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	I-NF
+23	,	,	_	$,	_	_	_	_	_	I-NF
+24	aber	aber	_	KON	_	_	_	_	_	I-NF
+25	auch	auch	_	ADV	_	_	_	_	_	I-NF
+26	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	I-NF
+27	Mollardschule	Mollardschule	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	I-NF
+28	und	und	_	KON	_	_	_	_	_	I-NF
+29	viele	vieler	_	PIAT	number=pl|case=nom|gender=masc	_	_	_	_	I-NF
+30	kleinere	klein	_	ADJA	number=pl|degree=pos|case=nom|gender=masc	_	_	_	_	I-NF
+31	Betriebe	Betrieb	_	NN	number=pl|case=nom|gender=masc	_	_	_	_	I-NF
+32	,	,	_	$,	_	_	_	_	_	I-NF
+33	die	der	_	PRELS	number=pl|case=nom|gender=masc	36	subj	_	_	I-NF|B-LK
+34	in	in	_	APPR	_	_	_	_	_	I-NF|B-MF
+35	Vergessenheit	Vergessenheit	_	NN	number=sg|case=acc|gender=fem	_	_	_	_	I-NF|I-MF
+36	gerieten	geraten	_	VVFIN	number=pl|person=3|mood=ind|tense=past	_	_	_	_	I-NF|B-RK
+37	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 45
+# sent_id(TSV) = 45
+# TopFString = (VROOT(VF(APPR Von)(ART den)(ADJA genannten)(NN Institutionen))(LK(VVFIN stammen))(MF(ART die)(PIDAT meisten)(NN Leihgaben)))
+# text = Von den genannten Institutionen stammen die meisten Leihgaben .
+1	Von	von	_	APPR	_	_	_	_	_	B-VF
+2	den	der	_	ART	number=pl|case=dat|gender=fem	_	_	_	_	I-VF
+3	genannten	genannt	_	ADJA	number=pl|degree=pos|case=dat|gender=fem	_	_	_	_	I-VF
+4	Institutionen	Institution	_	NN	number=pl|case=dat|gender=fem	_	_	_	_	I-VF
+5	stammen	stammen	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+6	die	der	_	ART	number=pl|case=nom|gender=fem	_	_	_	_	B-MF
+7	meisten	meister	_	PIDAT	number=pl|case=nom|gender=fem	_	_	_	_	I-MF
+8	Leihgaben	Leihgabe	_	NN	number=pl|case=nom|gender=fem	5	subj	_	_	I-MF
+9	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 46
+# sent_id(TSV) = 46
+# TopFString = (VROOT(VF(VVPP Gezeigt))(LK(VAFIN werden))(MF(APPR unter)(PIS anderem)(NN Originale)(KOMMA ,)(NN Fotografien)(KOMMA ,)(NN Urkunden)(KOMMA ,)(NN Skizzen)(KOMMA ,)(NN Kartons)(KON oder)(NN Werkzeug))(KOMMA ,)(NF(C(PRELS welche))(MF(ART die)(NN Produktion)(KON und)(NN Verwendung)(KON sowie)(ART die)(ADJA kunsthistorische)(NN Bedeutung)(APPR von)(NN Glasmalerei))(VC(VVFIN verdeutlichen))))
+# text = Gezeigt werden unter anderem Originale , Fotografien , Urkunden , Skizzen , Kartons oder Werkzeug , welche die Produktion und Verwendung sowie die kunsthistorische Bedeutung von Glasmalerei verdeutlichen .
+1	Gezeigt	zeigen	_	VVPP	_	_	_	_	_	B-VF
+2	werden	werden	_	VAFIN	number=pl|person=3|mood=ind|tense=pres	1	aux	_	_	B-LK
+3	unter	unter	_	APPR	_	_	_	_	_	B-MF
+4	anderem	anderer	_	PIS	number=sg|case=dat|gender=neut	_	_	_	_	I-MF
+5	Originale	Original	_	NN	number=pl|case=nom|gender=neut	1	subj	_	_	I-MF
+6	,	,	_	$,	_	_	_	_	_	I-MF
+7	Fotografien	Fotografie	_	NN	number=pl|case=nom|gender=fem	_	_	_	_	I-MF
+8	,	,	_	$,	_	_	_	_	_	I-MF
+9	Urkunden	Urkunde	_	NN	number=pl|case=nom|gender=fem	_	_	_	_	I-MF
+10	,	,	_	$,	_	_	_	_	_	I-MF
+11	Skizzen	Skizze	_	NN	number=pl|case=nom|gender=fem	_	_	_	_	I-MF
+12	,	,	_	$,	_	_	_	_	_	I-MF
+13	Kartons	Karton	_	NN	number=pl|case=nom|gender=masc	_	_	_	_	I-MF
+14	oder	oder	_	KON	_	_	_	_	_	I-MF
+15	Werkzeug	Werkzeug	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	I-MF
+16	,	,	_	$,	_	_	_	_	_	O
+17	welche	welcher	_	PRELS	number=pl|case=nom|gender=*	28	subj	_	_	B-NF|B-LK
+18	die	der	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	I-NF|B-MF
+19	Produktion	Produktion	_	NN	number=sg|case=acc|gender=fem	28	obj	_	_	I-NF|I-MF
+20	und	und	_	KON	_	_	_	_	_	I-NF|I-MF
+21	Verwendung	Verwendung	_	NN	number=sg|case=acc|gender=fem	_	_	_	_	I-NF|I-MF
+22	sowie	sowie	_	KON	_	_	_	_	_	I-NF|I-MF
+23	die	der	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	I-NF|I-MF
+24	kunsthistorische	kunsthistorisch	_	ADJA	number=sg|degree=pos|case=acc|gender=fem	_	_	_	_	I-NF|I-MF
+25	Bedeutung	Bedeutung	_	NN	number=sg|case=acc|gender=fem	_	_	_	_	I-NF|I-MF
+26	von	von	_	APPR	_	_	_	_	_	I-NF|I-MF
+27	Glasmalerei	Glasmalerei	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	I-NF|I-MF
+28	verdeutlichen	verdeutlichen	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	I-NF|B-RK
+29	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 47
+# sent_id(TSV) = 47
+# TopFString = (VROOT(VF(VVPP Geplant))(LK(VAFIN sind))(MF(APPR neben)(ART der)(NN Dauerpräsentation)(APPRART zur)(NN Herstellung)(KON und)(NN Technik)(APPR von)(NN Glasmalerei)(ADJA jährliche)(NN Sonderausstellungen)(KOMMA ,)(NN Vorträge)(KON und)(NN Exkursionen)(APPR in)(ART eine)(ADJA traditionsreiche)(NN Glasmalereiwerkstatt)))
+# text = Geplant sind neben der Dauerpräsentation zur Herstellung und Technik von Glasmalerei jährliche Sonderausstellungen , Vorträge und Exkursionen in eine traditionsreiche Glasmalereiwerkstatt .
+1	Geplant	planen	_	VVPP	_	_	_	_	_	B-VF
+2	sind	sein	_	VAFIN	number=pl|person=3|mood=ind|tense=pres	1	aux	_	_	B-LK
+3	neben	neben	_	APPR	_	_	_	_	_	B-MF
+4	der	der	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	I-MF
+5	Dauerpräsentation	Dauerpräsentation	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	I-MF
+6	zur	zu	_	APPRART	case=dat|gender=fem	_	_	_	_	I-MF
+7	Herstellung	Herstellung	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	I-MF
+8	und	und	_	KON	_	_	_	_	_	I-MF
+9	Technik	Technik	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	I-MF
+10	von	von	_	APPR	_	_	_	_	_	I-MF
+11	Glasmalerei	Glasmalerei	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	I-MF
+12	jährliche	jährlich	_	ADJA	number=pl|degree=pos|case=nom|gender=fem	_	_	_	_	I-MF
+13	Sonderausstellungen	Sonderausstellung	_	NN	number=pl|case=nom|gender=fem	1	subj	_	_	I-MF
+14	,	,	_	$,	_	_	_	_	_	I-MF
+15	Vorträge	Vortrag	_	NN	number=pl|case=nom|gender=masc	_	_	_	_	I-MF
+16	und	und	_	KON	_	_	_	_	_	I-MF
+17	Exkursionen	Exkursion	_	NN	number=pl|case=nom|gender=fem	_	_	_	_	I-MF
+18	in	in	_	APPR	_	_	_	_	_	I-MF
+19	eine	ein	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	I-MF
+20	traditionsreiche	traditionsreich	_	ADJA	number=sg|degree=pos|case=acc|gender=fem	_	_	_	_	I-MF
+21	Glasmalereiwerkstatt	Glasmalereiwerkstatt	_	NN	number=sg|case=acc|gender=fem	_	_	_	_	I-MF
+22	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 48
+# sent_id(TSV) = 48
+# TopFString = (VROOT(NN Leben))
+# text = Leben
+1	Leben	Leben	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	O
+
+# sent_id = 49
+# sent_id(TSV) = 49
+# TopFString = (VROOT(VF(NE Angelo)(NE Cella))(LK(VVFIN studierte))(MF(NN Geisteswissenschaften)(APPRART am)(NN Seminar)(ART der)(NN Heimatdiözese)(NE Vittorio)(NE Veneto)))
+# text = Angelo Cella studierte Geisteswissenschaften am Seminar der Heimatdiözese Vittorio Veneto .
+1	Angelo	Angelo	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	B-VF
+2	Cella	Cella	_	NE	number=sg|case=nom|gender=masc	3	subj	_	_	I-VF
+3	studierte	studieren	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+4	Geisteswissenschaften	Geisteswissenschaft	_	NN	number=pl|case=acc|gender=fem	3	obj	_	_	B-MF
+5	am	an	_	APPRART	case=dat|gender=neut	_	_	_	_	I-MF
+6	Seminar	Seminar	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	I-MF
+7	der	der	_	ART	number=sg|case=gen|gender=fem	_	_	_	_	I-MF
+8	Heimatdiözese	Heimatdiözese	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	I-MF
+9	Vittorio	Vittorio	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	I-MF
+10	Veneto	Veneto	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	I-MF
+11	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 50
+# sent_id(TSV) = 50
+# TopFString = (VROOT(VF(CARD 1943))(LK(VVFIN trat))(MF(PPER er)(ART der)(NN Ordensgemeinschaft)(ART der)(NN Herz-Jesu-Missionare))(VC(PTKVZ bei)))
+# text = 1943 trat er der Ordensgemeinschaft der Herz-Jesu-Missionare bei .
+1	1943	1943	_	CARD	_	_	_	_	_	B-VF
+2	trat	treten	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+3	er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	2	subj	_	_	B-MF
+4	der	der	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	I-MF
+5	Ordensgemeinschaft	Ordensgemeinschaft	_	NN	number=sg|case=dat|gender=fem	2	iobj	_	_	I-MF
+6	der	der	_	ART	number=pl|case=gen|gender=masc	_	_	_	_	I-MF
+7	Herz-Jesu-Missionare	Herz-Jesu-Missionar	_	NN	number=pl|case=gen|gender=masc	_	_	_	_	I-MF
+8	bei	bei	_	PTKVZ	_	_	_	_	_	B-RK
+9	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 51
+# sent_id(TSV) = 51
+# TopFString = (VROOT(VF(APPR Nach)(ART dem)(NN Studium)(ART der)(ADJA Katholischen)(NN Theologie)(KON und)(NN Philosophie)(APPR an)(ART der)(ADJA Päpstlichen)(NN Universität)(NE Gregoriana)(APPR in)(NE Rom))(LK(VVFIN empfing))(MF(PPER er)(APPRART am)(ADJA 18.)(NN Dezember)(CARD 1948)(ART die)(NN Priesterweihe)))
+# text = Nach dem Studium der Katholischen Theologie und Philosophie an der Päpstlichen Universität Gregoriana in Rom empfing er am 18. Dezember 1948 die Priesterweihe .
+1	Nach	nach	_	APPR	_	_	_	_	_	B-VF
+2	dem	der	_	ART	number=sg|case=dat|gender=neut	_	_	_	_	I-VF
+3	Studium	Studium	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	I-VF
+4	der	der	_	ART	number=sg|case=gen|gender=fem	_	_	_	_	I-VF
+5	Katholischen	katholisch	_	ADJA	number=sg|degree=pos|case=gen|gender=fem	_	_	_	_	I-VF
+6	Theologie	Theologie	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	I-VF
+7	und	und	_	KON	_	_	_	_	_	I-VF
+8	Philosophie	Philosophie	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	I-VF
+9	an	an	_	APPR	_	_	_	_	_	I-VF
+10	der	der	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	I-VF
+11	Päpstlichen	päpstlich	_	ADJA	number=sg|degree=pos|case=dat|gender=fem	_	_	_	_	I-VF
+12	Universität	Universität	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	I-VF
+13	Gregoriana	Gregoriana	_	NE	number=sg|case=nom|gender=fem	_	_	_	_	I-VF
+14	in	in	_	APPR	_	_	_	_	_	I-VF
+15	Rom	Rom	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	I-VF
+16	empfing	empfangen	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+17	er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	16	subj	_	_	B-MF
+18	am	an	_	APPRART	case=dat|gender=masc	_	_	_	_	I-MF
+19	18.	18.	_	ADJA	number=sg|degree=pos|case=dat|gender=masc	_	_	_	_	I-MF
+20	Dezember	Dezember	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+21	1948	1948	_	CARD	_	_	_	_	_	I-MF
+22	die	der	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	I-MF
+23	Priesterweihe	Priesterweihe	_	NN	number=sg|case=acc|gender=fem	16	obj	_	_	I-MF
+24	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 52
+# sent_id(TSV) = 52
+# TopFString = (VROOT(VF(APPR Zwischen)(CARD 1950)(KON und)(CARD 1956))(LK(VAFIN war))(MF(PPER er)(NN Direktor)(ART des)(NN Theologieseminars)(PPOSAT seines)(NN Ordens))(KOMMA ,)(VF(APPR ab)(CARD 1956)(NN Pfarrer))(MF(APPR in)(ART der)(NN Gemeinde)(NE Santa)(NE Teresa)(NE di)(NE Gesù)(NE Bambino)(APPR in)(NE Palermo)))
+# text = Zwischen 1950 und 1956 war er Direktor des Theologieseminars seines Ordens , ab 1956 Pfarrer in der Gemeinde Santa Teresa di Gesù Bambino in Palermo .
+1	Zwischen	zwischen	_	APPR	_	_	_	_	_	B-VF
+2	1950	1950	_	CARD	_	_	_	_	_	I-VF
+3	und	und	_	KON	_	_	_	_	_	I-VF
+4	1956	1956	_	CARD	_	_	_	_	_	I-VF
+5	war	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+6	er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	5	subj	_	_	B-MF
+7	Direktor	Direktor	_	NN	number=sg|case=nom|gender=masc	5	pred	_	_	I-MF
+8	des	der	_	ART	number=sg|case=gen|gender=neut	_	_	_	_	I-MF
+9	Theologieseminars	Theologieseminar	_	NN	number=sg|case=gen|gender=neut	_	_	_	_	I-MF
+10	seines	sein	_	PPOSAT	number=sg|case=gen|gender=masc	_	_	_	_	I-MF
+11	Ordens	Orden	_	NN	number=sg|case=gen|gender=masc	_	_	_	_	I-MF
+12	,	,	_	$,	_	_	_	_	_	O
+13	ab	ab	_	APPR	_	_	_	_	_	B-VF
+14	1956	1956	_	CARD	_	_	_	_	_	I-VF
+15	Pfarrer	Pfarrer	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	I-VF
+16	in	in	_	APPR	_	_	_	_	_	B-MF
+17	der	der	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	I-MF
+18	Gemeinde	Gemeinde	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	I-MF
+19	Santa	Santa	_	NE	number=sg|case=nom|gender=fem	_	_	_	_	I-MF
+20	Teresa	Teresa	_	NE	number=sg|case=nom|gender=fem	_	_	_	_	I-MF
+21	di	di	_	NE	number=sg|case=nom|gender=*	_	_	_	_	I-MF
+22	Gesù	Gesù	_	NE	number=sg|case=nom|gender=*	_	_	_	_	I-MF
+23	Bambino	Bambino	_	NE	number=sg|case=nom|gender=*	_	_	_	_	I-MF
+24	in	in	_	APPR	_	_	_	_	_	I-MF
+25	Palermo	Palermo	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	I-MF
+26	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 53
+# sent_id(TSV) = 53
+# TopFString = (VROOT(VF(ADV Später))(LK(VAFIN war))(MF(PPER er)(NN Regens)(ART des)(NN Priesterseminars)(APPR in)(NE Palermo)(KOMMA ,)(NN Sekretär)(APPRART im)(NN Nebenamt)(ART der)(ADJA Sizilianischen)(NN Bischofskonferenz)(KON und)(NN Bischofsvikar)(APPR für)(ART die)(NN Pastoral)(APPRART im)(NN Erzbistum)(NE Palermo)))
+# text = Später war er Regens des Priesterseminars in Palermo , Sekretär im Nebenamt der Sizilianischen Bischofskonferenz und Bischofsvikar für die Pastoral im Erzbistum Palermo .
+1	Später	später	_	ADV	_	_	_	_	_	B-VF
+2	war	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+3	er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	2	subj	_	_	B-MF
+4	Regens	Regens	_	NN	number=sg|case=nom|gender=masc	2	pred	_	_	I-MF
+5	des	der	_	ART	number=sg|case=gen|gender=neut	_	_	_	_	I-MF
+6	Priesterseminars	Priesterseminar	_	NN	number=sg|case=gen|gender=neut	_	_	_	_	I-MF
+7	in	in	_	APPR	_	_	_	_	_	I-MF
+8	Palermo	Palermo	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	I-MF
+9	,	,	_	$,	_	_	_	_	_	I-MF
+10	Sekretär	Sekretär	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	I-MF
+11	im	in	_	APPRART	case=dat|gender=neut	_	_	_	_	I-MF
+12	Nebenamt	Nebenamt	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	I-MF
+13	der	der	_	ART	number=sg|case=gen|gender=fem	_	_	_	_	I-MF
+14	Sizilianischen	Sizilianisch	_	ADJA	number=sg|degree=pos|case=gen|gender=fem	_	_	_	_	I-MF
+15	Bischofskonferenz	Bischofskonferenz	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	I-MF
+16	und	und	_	KON	_	_	_	_	_	I-MF
+17	Bischofsvikar	Bischofsvikar	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	I-MF
+18	für	für	_	APPR	_	_	_	_	_	I-MF
+19	die	der	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	I-MF
+20	Pastoral	Pastoral	_	NN	number=sg|case=acc|gender=fem	_	_	_	_	I-MF
+21	im	in	_	APPRART	case=dat|gender=neut	_	_	_	_	I-MF
+22	Erzbistum	Erzbistum	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	I-MF
+23	Palermo	Palermo	_	NE	number=sg|case=nom|gender=neut	_	_	_	_	I-MF
+24	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 54
+# sent_id(TSV) = 54
+# TopFString = (VROOT(VF(CARD 1975))(LK(VAFIN wurde))(MF(PPER er)(APPR von)(NE Paul)(CARD VI.)(APPRART zum)(NN Titularbischof)(APPR von)(NE Vissalsa)(KON und)(APPRART zum)(NN Weihbischof)(APPRART im)(NN Erzbistum)(NE Palermo))(VC(VVPP ernannt)))
+# text = 1975 wurde er von Paul VI. zum Titularbischof von Vissalsa und zum Weihbischof im Erzbistum Palermo ernannt .
+1	1975	1975	_	CARD	_	_	_	_	_	B-VF
+2	wurde	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=past	17	aux	_	_	B-LK
+3	er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	17	subj	_	_	B-MF
+4	von	von	_	APPR	_	_	_	_	_	I-MF
+5	Paul	Paul	_	NE	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+6	VI.	VI.	_	CARD	_	_	_	_	_	I-MF
+7	zum	zu	_	APPRART	case=dat|gender=masc	_	_	_	_	I-MF
+8	Titularbischof	Titularbischof	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+9	von	von	_	APPR	_	_	_	_	_	I-MF
+10	Vissalsa	Vissalsa	_	NE	number=sg|case=dat|gender=*	_	_	_	_	I-MF
+11	und	und	_	KON	_	_	_	_	_	I-MF
+12	zum	zu	_	APPRART	case=dat|gender=masc	_	_	_	_	I-MF
+13	Weihbischof	Weihbischof	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+14	im	in	_	APPRART	case=dat|gender=neut	_	_	_	_	I-MF
+15	Erzbistum	Erzbistum	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	I-MF
+16	Palermo	Palermo	_	NE	number=sg|case=nom|gender=neut	_	_	_	_	I-MF
+17	ernannt	ernennen	_	VVPP	_	_	_	_	_	B-RK
+18	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 55
+# sent_id(TSV) = 55
+# TopFString = (VROOT(VF(ART Die)(NN Bischofsweihe))(LK(VVFIN spendete))(MF(PPER ihm)(APPRART am)(ADJA 7.)(NN Oktober)(CARD 1975)(ART der)(NN Erzbischof)(APPR von)(NE Palermo)(KON und)(ADJA spätere)(NN Kardinal)(NE Salvatore)(NE Pappalardo))(VF(NN Mitkonsekratoren))(LK(VAFIN waren))(MF(NE Francesco)(NE Fasola)(KOMMA ,)(NN Erzbischof)(APPR von)(NE Messina)(KOMMA ,)(KON und)(NE Corrado)(NE Mingo)(KOMMA ,)(NN Erzbischof)(APPR von)(NE Monreale)))
+# text = Die Bischofsweihe spendete ihm am 7. Oktober 1975 der Erzbischof von Palermo und spätere Kardinal Salvatore Pappalardo ; Mitkonsekratoren waren Francesco Fasola , Erzbischof von Messina , und Corrado Mingo , Erzbischof von Monreale .
+1	Die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	B-VF
+2	Bischofsweihe	Bischofsweihe	_	NN	number=sg|case=nom|gender=fem	3	obj	_	_	I-VF
+3	spendete	spenden	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+4	ihm	er	_	PPER	number=sg|person=3|case=dat|gender=masc	3	iobj	_	_	B-MF
+5	am	an	_	APPRART	case=dat|gender=masc	_	_	_	_	I-MF
+6	7.	7.	_	ADJA	number=sg|degree=pos|case=dat|gender=masc	_	_	_	_	I-MF
+7	Oktober	Oktober	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+8	1975	1975	_	CARD	_	_	_	_	_	I-MF
+9	der	der	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	I-MF
+10	Erzbischof	Erzbischof	_	NN	number=sg|case=nom|gender=masc	3	subj	_	_	I-MF
+11	von	von	_	APPR	_	_	_	_	_	I-MF
+12	Palermo	Palermo	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	I-MF
+13	und	und	_	KON	_	_	_	_	_	I-MF
+14	spätere	später	_	ADJA	number=sg|degree=comp|case=nom|gender=masc	_	_	_	_	I-MF
+15	Kardinal	Kardinal	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	I-MF
+16	Salvatore	Salvatore	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	I-MF
+17	Pappalardo	Pappalardo	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	I-MF
+18	;	;	_	$.	_	_	_	_	_	O
+19	Mitkonsekratoren	Mitkonsekrator	_	NN	number=pl|case=nom|gender=masc	20	pred	_	_	B-VF
+20	waren	sein	_	VAFIN	number=pl|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+21	Francesco	Francesco	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	B-MF
+22	Fasola	Fasola	_	NE	number=sg|case=nom|gender=masc	20	subj	_	_	I-MF
+23	,	,	_	$,	_	_	_	_	_	I-MF
+24	Erzbischof	Erzbischof	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	I-MF
+25	von	von	_	APPR	_	_	_	_	_	I-MF
+26	Messina	Messina	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	I-MF
+27	,	,	_	$,	_	_	_	_	_	I-MF
+28	und	und	_	KON	_	_	_	_	_	I-MF
+29	Corrado	Corrado	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	I-MF
+30	Mingo	Mingo	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	I-MF
+31	,	,	_	$,	_	_	_	_	_	I-MF
+32	Erzbischof	Erzbischof	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	I-MF
+33	von	von	_	APPR	_	_	_	_	_	I-MF
+34	Monreale	Monreale	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	I-MF
+35	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 56
+# sent_id(TSV) = 56
+# TopFString = (VROOT(VF(CARD 1981))(LK(VAFIN wurde))(MF(PPER er)(APPR von)(NN Papst)(NE Johannes)(NE Paul)(CARD II.)(APPRART zum)(NN Erzbischof)(APPR von)(NE Veroli-Frosinone)(KON sowie)(APPRART zum)(NN Erzbischof)(APPR von)(NE Ferentino))(VC(VVPP bestellt))(VF(CARD 1986))(LK(VVFIN führte))(MF(PPER er)(ART die)(PIDAT beiden)(NN Bistümer)(APPRART zum)(NN Bistum)(NE Frosinone-Veroli-Ferentino))(VC(PTKVZ zusammen)))
+# text = 1981 wurde er von Papst Johannes Paul II. zum Erzbischof von Veroli-Frosinone sowie zum Erzbischof von Ferentino bestellt ; 1986 führte er die beiden Bistümer zum Bistum Frosinone-Veroli-Ferentino zusammen .
+1	1981	1981	_	CARD	_	_	_	_	_	B-VF
+2	wurde	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=past	18	aux	_	_	B-LK
+3	er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	18	subj	_	_	B-MF
+4	von	von	_	APPR	_	_	_	_	_	I-MF
+5	Papst	Papst	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+6	Johannes	Johannes	_	NE	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+7	Paul	Paul	_	NE	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+8	II.	II.	_	CARD	_	_	_	_	_	I-MF
+9	zum	zu	_	APPRART	case=dat|gender=masc	_	_	_	_	I-MF
+10	Erzbischof	Erzbischof	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+11	von	von	_	APPR	_	_	_	_	_	I-MF
+12	Veroli-Frosinone	Veroli-Frosinone	_	NE	number=sg|case=dat|gender=*	_	_	_	_	I-MF
+13	sowie	sowie	_	KON	_	_	_	_	_	I-MF
+14	zum	zu	_	APPRART	case=dat|gender=masc	_	_	_	_	I-MF
+15	Erzbischof	Erzbischof	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+16	von	von	_	APPR	_	_	_	_	_	I-MF
+17	Ferentino	Ferentino	_	NE	number=sg|case=dat|gender=*	_	_	_	_	I-MF
+18	bestellt	bestellen	_	VVPP	_	_	_	_	_	B-RK
+19	;	;	_	$.	_	_	_	_	_	O
+20	1986	1986	_	CARD	_	_	_	_	_	B-VF
+21	führte	führen	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+22	er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	21	subj	_	_	B-MF
+23	die	der	_	ART	number=pl|case=acc|gender=neut	_	_	_	_	I-MF
+24	beiden	beide	_	PIDAT	number=pl|case=acc|gender=neut	_	_	_	_	I-MF
+25	Bistümer	Bistum	_	NN	number=pl|case=acc|gender=neut	21	obj	_	_	I-MF
+26	zum	zu	_	APPRART	case=dat|gender=neut	_	_	_	_	I-MF
+27	Bistum	Bistum	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	I-MF
+28	Frosinone-Veroli-Ferentino	Frosinone-Veroli-Ferentino	_	NE	number=sg|case=nom|gender=*	_	_	_	_	I-MF
+29	zusammen	zusammen	_	PTKVZ	_	_	_	_	_	B-RK
+30	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 57
+# sent_id(TSV) = 57
+# TopFString = (VROOT(VF(PPOSAT Seinem)(ADJA altersbedingten)(NN Rücktrittsgesuch))(LK(VAFIN wurde))(MF(CARD 1999)(APPR durch)(NE Johannes)(NE Paul)(CARD II.))(VC(VVPP stattgegeben)))
+# text = Seinem altersbedingten Rücktrittsgesuch wurde 1999 durch Johannes Paul II. stattgegeben .
+1	Seinem	sein	_	PPOSAT	number=sg|case=dat|gender=neut	_	_	_	_	B-VF
+2	altersbedingten	altersbedingt	_	ADJA	number=sg|degree=pos|case=dat|gender=neut	_	_	_	_	I-VF
+3	Rücktrittsgesuch	Rücktrittsgesuch	_	NN	number=sg|case=dat|gender=neut	10	iobj	_	_	I-VF
+4	wurde	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=past	10	aux	_	_	B-LK
+5	1999	1999	_	CARD	_	_	_	_	_	B-MF
+6	durch	durch	_	APPR	_	_	_	_	_	I-MF
+7	Johannes	Johannes	_	NE	number=sg|case=acc|gender=masc	_	_	_	_	I-MF
+8	Paul	Paul	_	NE	number=sg|case=acc|gender=masc	_	_	_	_	I-MF
+9	II.	II.	_	CARD	_	_	_	_	_	I-MF
+10	stattgegeben	stattgeben	_	VVPP	_	_	_	_	_	B-RK
+11	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 58
+# sent_id(TSV) = 58
+# TopFString = (VROOT(VF(ART Die)(NN Art))(LK(VAFIN wird))(MF(ADJD kommerziell))(VC(VVPP befischt)))
+# text = Die Art wird kommerziell befischt .
+1	Die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	B-VF
+2	Art	Art	_	NN	number=sg|case=nom|gender=fem	5	subj	_	_	I-VF
+3	wird	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	5	aux	_	_	B-LK
+4	kommerziell	kommerziell	_	ADJD	degree=pos	_	_	_	_	B-MF
+5	befischt	befischen	_	VVPP	_	_	_	_	_	B-RK
+6	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 59
+# sent_id(TSV) = 59
+# TopFString = (VROOT(NN Merkmale))
+# text = Merkmale
+1	Merkmale	Merkmal	_	NN	number=pl|case=nom|gender=neut	_	_	_	_	O
+
+# sent_id = 60
+# sent_id(TSV) = 60
+# TopFString = (VROOT(VF(FM Pangasius)(FM larnaudii))(LK(VVFIN unterscheidet))(MF(PRF sich)(APPR von)(ADJA anderen)(NN Arten)(ART der)(NN Gattung)(APPR durch)(ART einen)(ADJA großen)(KOMMA ,)(ADJA schwarzen)(NN Fleck)(ADV direkt)(APPR über)(ART der)(NN Brustflosse)))
+# text = Pangasius larnaudii unterscheidet sich von anderen Arten der Gattung durch einen großen , schwarzen Fleck direkt über der Brustflosse .
+1	Pangasius	Pangasius	_	FM	_	3	subj	_	_	B-VF
+2	larnaudii	larnaudii	_	FM	_	_	_	_	_	I-VF
+3	unterscheidet	unterscheiden	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+4	sich	sich	_	PRF	number=sg|person=3|case=acc	3	obj	_	_	B-MF
+5	von	von	_	APPR	_	7	pcase	_	_	I-MF
+6	anderen	anderer	_	ADJA	number=pl|degree=pos|case=dat|gender=fem	_	_	_	_	I-MF
+7	Arten	Art	_	NN	number=pl|case=dat|gender=fem	3	pobj	_	_	I-MF
+8	der	der	_	ART	number=sg|case=gen|gender=fem	_	_	_	_	I-MF
+9	Gattung	Gattung	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	I-MF
+10	durch	durch	_	APPR	_	_	_	_	_	I-MF
+11	einen	ein	_	ART	number=sg|case=acc|gender=masc	_	_	_	_	I-MF
+12	großen	groß	_	ADJA	number=sg|degree=pos|case=acc|gender=masc	_	_	_	_	I-MF
+13	,	,	_	$,	_	_	_	_	_	I-MF
+14	schwarzen	schwarz	_	ADJA	number=sg|degree=pos|case=acc|gender=masc	_	_	_	_	I-MF
+15	Fleck	Fleck	_	NN	number=sg|case=acc|gender=masc	_	_	_	_	I-MF
+16	direkt	direkt	_	ADV	_	_	_	_	_	I-MF
+17	über	über	_	APPR	_	_	_	_	_	I-MF
+18	der	der	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	I-MF
+19	Brustflosse	Brustflosse	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	I-MF
+20	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 61
+# sent_id(TSV) = 61
+# TopFString = (VROOT(VF(TRUNC Rücken-)(KOMMA ,)(TRUNC Brust-)(KOMMA ,)(TRUNC Bauch-)(KON und)(NN Afterflosse))(LK(VVFIN tragen))(MF(ADJA fadenartige)(NN Fortsätze)))
+# text = Rücken- , Brust- , Bauch- und Afterflosse tragen fadenartige Fortsätze .
+1	Rücken-	Rücken	_	TRUNC	_	8	subj	_	_	B-VF
+2	,	,	_	$,	_	_	_	_	_	I-VF
+3	Brust-	Brust	_	TRUNC	_	_	_	_	_	I-VF
+4	,	,	_	$,	_	_	_	_	_	I-VF
+5	Bauch-	Bauch	_	TRUNC	_	_	_	_	_	I-VF
+6	und	und	_	KON	_	_	_	_	_	I-VF
+7	Afterflosse	Afterflosse	_	NN	number=pl|case=nom|gender=fem	_	_	_	_	I-VF
+8	tragen	tragen	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+9	fadenartige	fadenartig	_	ADJA	number=pl|degree=pos|case=acc|gender=masc	_	_	_	_	B-MF
+10	Fortsätze	Fortsatz	_	NN	number=pl|case=acc|gender=masc	8	obj	_	_	I-MF
+11	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 62
+# sent_id(TSV) = 62
+# TopFString = (VROOT(VF(PIAT Beide)(NN Lappen)(ART der)(NN Schwanzflosse))(LK(VVFIN tragen))(MF(ADV gewöhnlich)(ART einen)(ADJA schwarzen)(NN Streifen)))
+# text = Beide Lappen der Schwanzflosse tragen gewöhnlich einen schwarzen Streifen .
+1	Beide	beide	_	PIAT	number=pl|case=nom|gender=masc	_	_	_	_	B-VF
+2	Lappen	Lappen	_	NN	number=pl|case=nom|gender=masc	5	subj	_	_	I-VF
+3	der	der	_	ART	number=sg|case=gen|gender=fem	_	_	_	_	I-VF
+4	Schwanzflosse	Schwanzflosse	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	I-VF
+5	tragen	tragen	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+6	gewöhnlich	gewöhnlich	_	ADV	_	_	_	_	_	B-MF
+7	einen	ein	_	ART	number=sg|case=acc|gender=masc	_	_	_	_	I-MF
+8	schwarzen	schwarz	_	ADJA	number=sg|degree=pos|case=acc|gender=masc	_	_	_	_	I-MF
+9	Streifen	Streifen	_	NN	number=sg|case=acc|gender=masc	5	obj	_	_	I-MF
+10	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 63
+# sent_id(TSV) = 63
+# TopFString = (VROOT(VF(ART Die)(NN Tiere))(LK(VVFIN erreichen))(MF(ART eine)(NN Länge)(APPR von)(ADV etwa)(CARD 80)(NN cm)(KOMMA ,)(ADV maximal)(CARD 130)(NN cm)(KOMMA ,)(KON und)(ART ein)(NN Gewicht)(APPR von)(APPR bis)(APPR zu)(CARD 4,8)(NN kg)))
+# text = Die Tiere erreichen eine Länge von etwa 80 cm , maximal 130 cm , und ein Gewicht von bis zu 4,8 kg .
+1	Die	der	_	ART	number=pl|case=nom|gender=neut	_	_	_	_	B-VF
+2	Tiere	Tier	_	NN	number=pl|case=nom|gender=neut	3	subj	_	_	I-VF
+3	erreichen	erreichen	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+4	eine	ein	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	B-MF
+5	Länge	Länge	_	NN	number=sg|case=acc|gender=fem	3	obj	_	_	I-MF
+6	von	von	_	APPR	_	_	_	_	_	I-MF
+7	etwa	etwa	_	ADV	_	_	_	_	_	I-MF
+8	80	80	_	CARD	_	_	_	_	_	I-MF
+9	cm	cm	_	NN	number=pl|case=dat|gender=masc	_	_	_	_	I-MF
+10	,	,	_	$,	_	_	_	_	_	I-MF
+11	maximal	maximal	_	ADV	_	_	_	_	_	I-MF
+12	130	130	_	CARD	_	_	_	_	_	I-MF
+13	cm	cm	_	NN	number=pl|case=dat|gender=masc	_	_	_	_	I-MF
+14	,	,	_	$,	_	_	_	_	_	I-MF
+15	und	und	_	KON	_	_	_	_	_	I-MF
+16	ein	ein	_	ART	number=sg|case=acc|gender=neut	_	_	_	_	I-MF
+17	Gewicht	Gewicht	_	NN	number=sg|case=acc|gender=neut	_	_	_	_	I-MF
+18	von	von	_	APPR	_	_	_	_	_	I-MF
+19	bis	bis	_	APPR	_	_	_	_	_	I-MF
+20	zu	zu	_	APPR	_	_	_	_	_	I-MF
+21	4,8	4,8	_	CARD	_	_	_	_	_	I-MF
+22	kg	kg	_	NN	number=pl|case=dat|gender=neut	_	_	_	_	I-MF
+23	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 64
+# sent_id(TSV) = 64
+# TopFString = (VROOT(VF(ART Die)(NN Chromosomenzahl))(LK(VVFIN beträgt))(MF(XY 2n)(XY =)(CARD 60)))
+# text = Die Chromosomenzahl beträgt 2n = 60 .
+1	Die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	B-VF
+2	Chromosomenzahl	Chromosomenzahl	_	NN	number=sg|case=nom|gender=fem	3	subj	_	_	I-VF
+3	beträgt	betragen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+4	2n	2n	_	XY	_	_	_	_	_	B-MF
+5	=	=	_	XY	_	_	_	_	_	I-MF
+6	60	60	_	CARD	_	_	_	_	_	I-MF
+7	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 65
+# sent_id(TSV) = 65
+# TopFString = (VROOT(NN Lebensweise))
+# text = Lebensweise
+1	Lebensweise	Lebensweise	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	O
+
+# sent_id = 66
+# sent_id(TSV) = 66
+# TopFString = (VROOT(VF(ART Die)(NN Art))(FKOORD(FKONJ(LK(VVFIN besiedelt))(MF(ADJA große)(NN Flusssysteme)))(KON und)(FKONJ(LK(VVFIN findet))(MF(PRF sich)(KON sowohl)(APPR in)(ADJA schnellfließenden)(NN Regionen)(KON als)(KON auch)(APPR in)(ADJD langsam)(ADJA fließendem)(KOMMA ,)(ADJA tiefen)(NN Wasser)))))
+# text = Die Art besiedelt große Flusssysteme und findet sich sowohl in schnellfließenden Regionen als auch in langsam fließendem , tiefen Wasser .
+1	Die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	B-VF
+2	Art	Art	_	NN	number=sg|case=nom|gender=fem	3	subj	_	_	I-VF
+3	besiedelt	besiedeln	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+4	große	groß	_	ADJA	number=pl|degree=pos|case=acc|gender=neut	_	_	_	_	B-MF
+5	Flusssysteme	Flusssystem	_	NN	number=pl|case=acc|gender=neut	3	obj	_	_	I-MF
+6	und	und	_	KON	_	_	_	_	_	B-KOORD
+7	findet	finden	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+8	sich	sich	_	PRF	number=sg|person=3|case=acc	7	obj	_	_	B-MF
+9	sowohl	sowohl	_	KON	_	_	_	_	_	I-MF
+10	in	in	_	APPR	_	_	_	_	_	I-MF
+11	schnellfließenden	schnellfließend	_	ADJA	number=pl|degree=pos|case=dat|gender=fem	_	_	_	_	I-MF
+12	Regionen	Region	_	NN	number=pl|case=dat|gender=fem	_	_	_	_	I-MF
+13	als	als	_	KON	_	_	_	_	_	I-MF
+14	auch	auch	_	KON	_	_	_	_	_	I-MF
+15	in	in	_	APPR	_	_	_	_	_	I-MF
+16	langsam	langsam	_	ADJD	degree=pos	_	_	_	_	I-MF
+17	fließendem	fließend	_	ADJA	number=sg|degree=pos|case=dat|gender=neut	_	_	_	_	I-MF
+18	,	,	_	$,	_	_	_	_	_	I-MF
+19	tiefen	tief	_	ADJA	number=sg|degree=pos|case=dat|gender=neut	_	_	_	_	I-MF
+20	Wasser	Wasser	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	I-MF
+21	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 67
+# sent_id(TSV) = 67
+# TopFString = (VROOT(VF(ART Der)(NN Laich))(LK(VAFIN wird))(MF(APPR zu)(NN Beginn)(ART der)(NN Regenzeit))(VC(VVPP abgesetzt))(KOMMA ,)(VF(PAV danach))(LK(VVFIN wandern))(MF(ART die)(NN Alttiere)(APPR in)(ART die)(NN Überflutungsebenen))(VC(PTKVZ ein)))
+# text = Der Laich wird zu Beginn der Regenzeit abgesetzt , danach wandern die Alttiere in die Überflutungsebenen ein .
+1	Der	der	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	B-VF
+2	Laich	Laich	_	NN	number=sg|case=nom|gender=masc	8	subj	_	_	I-VF
+3	wird	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	8	aux	_	_	B-LK
+4	zu	zu	_	APPR	_	_	_	_	_	B-MF
+5	Beginn	Beginn	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+6	der	der	_	ART	number=sg|case=gen|gender=fem	_	_	_	_	I-MF
+7	Regenzeit	Regenzeit	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	I-MF
+8	abgesetzt	absetzen	_	VVPP	_	_	_	_	_	B-RK
+9	,	,	_	$,	_	_	_	_	_	O
+10	danach	danach	_	PAV	_	_	_	_	_	B-VF
+11	wandern	wandern	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+12	die	der	_	ART	number=pl|case=nom|gender=neut	_	_	_	_	B-MF
+13	Alttiere	Alttier	_	NN	number=pl|case=nom|gender=neut	11	subj	_	_	I-MF
+14	in	in	_	APPR	_	_	_	_	_	I-MF
+15	die	der	_	ART	number=pl|case=acc|gender=fem	_	_	_	_	I-MF
+16	Überflutungsebenen	Überflutungsebene	_	NN	number=pl|case=acc|gender=fem	_	_	_	_	I-MF
+17	ein	ein	_	PTKVZ	_	_	_	_	_	B-RK
+18	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 68
+# sent_id(TSV) = 68
+# TopFString = (VROOT(VF(PDS Das))(LK(VAFIN ist))(MF(ART die)(ADJA erste)(ADJA urkundliche)(NN Erwähnung)(APPR von)(NE Döbeln))(CARD 981))
+# text = Das ist die erste urkundliche Erwähnung von Döbeln ( 981 ) .
+1	Das	der	_	PDS	number=sg|case=nom|gender=neut	2	pred	_	_	B-VF
+2	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+3	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	B-MF
+4	erste	erster	_	ADJA	number=sg|degree=pos|case=nom|gender=fem	_	_	_	_	I-MF
+5	urkundliche	urkundlich	_	ADJA	number=sg|degree=pos|case=nom|gender=fem	_	_	_	_	I-MF
+6	Erwähnung	Erwähnung	_	NN	number=sg|case=nom|gender=fem	2	subj	_	_	I-MF
+7	von	von	_	APPR	_	_	_	_	_	I-MF
+8	Döbeln	Döbeln	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	I-MF
+9	(	(	_	$(	_	_	_	_	_	O
+10	981	981	_	CARD	_	_	_	_	_	O
+11	)	)	_	$(	_	_	_	_	_	O
+12	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 69
+# sent_id(TSV) = 69
+# TopFString = (VROOT(VF(APPR In)(ART der)(NN Übersetzung))(LK(VVFIN heißt))(MF(PPER es))(VF(PPER Wir))(KLAMMER LBR)(VVFIN übergeben)(KLAMMER RBR)(MF(PIAT einige)(NN Burgen)(KON und)(NN Ortschaften)(PPOSAT unsers)(NN Besitzes)(APPRART im)(ADJA slawischen)(NN Gebiet)(KOMMA ,)(ADV nämlich)(NE Doblin)(KON und)(NE Hwoznie)(KOMMA ,)(APPRART im)(NE Gau)(NE Daleminze)(KLAMMER LBR)(KLAMMER ...)(KLAMMER RBR)(ART dem)(APPR von)(PPER Uns)(ADJA gestifteten)(KON und)(ADJA erbauten)(NN Kloster)(NE Memleben)))
+# text = In der Übersetzung heißt es : " Wir ( übergeben ) einige Burgen und Ortschaften unsers Besitzes im slawischen Gebiet , nämlich Doblin und Hwoznie , im Gau Daleminze ( ... ) dem von Uns gestifteten und erbauten Kloster Memleben . "
+1	In	in	_	APPR	_	_	_	_	_	B-VF
+2	der	der	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	I-VF
+3	Übersetzung	Übersetzung	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	I-VF
+4	heißt	heißen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+5	es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	4	expl	_	_	B-MF
+6	:	:	_	$.	_	_	_	_	_	O
+7	"	"	_	$(	_	_	_	_	_	O
+8	Wir	wir	_	PPER	number=pl|person=1|case=nom|gender=*	10	subj	_	_	B-VF
+9	(	(	_	$(	_	_	_	_	_	O
+10	übergeben	übergeben	_	VVFIN	number=pl|person=1|mood=ind|tense=pres	4	vobj	_	_	O
+11	)	)	_	$(	_	_	_	_	_	O
+12	einige	einiger	_	PIAT	number=pl|case=acc|gender=fem	_	_	_	_	B-MF
+13	Burgen	Burg	_	NN	number=pl|case=acc|gender=fem	10	obj	_	_	I-MF
+14	und	und	_	KON	_	_	_	_	_	I-MF
+15	Ortschaften	Ortschaft	_	NN	number=pl|case=acc|gender=fem	_	_	_	_	I-MF
+16	unsers	unser	_	PPOSAT	number=sg|case=gen|gender=masc	_	_	_	_	I-MF
+17	Besitzes	Besitz	_	NN	number=sg|case=gen|gender=masc	_	_	_	_	I-MF
+18	im	in	_	APPRART	case=dat|gender=neut	_	_	_	_	I-MF
+19	slawischen	slawisch	_	ADJA	number=sg|degree=pos|case=dat|gender=neut	_	_	_	_	I-MF
+20	Gebiet	Gebiet	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	I-MF
+21	,	,	_	$,	_	_	_	_	_	I-MF
+22	nämlich	nämlich	_	ADV	_	_	_	_	_	I-MF
+23	Doblin	Doblin	_	NE	number=sg|case=acc|gender=neut	_	_	_	_	I-MF
+24	und	und	_	KON	_	_	_	_	_	I-MF
+25	Hwoznie	Hwoznie	_	NE	number=sg|case=acc|gender=neut	_	_	_	_	I-MF
+26	,	,	_	$,	_	_	_	_	_	I-MF
+27	im	in	_	APPRART	case=dat|gender=*	_	_	_	_	I-MF
+28	Gau	Gau	_	NE	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+29	Daleminze	Daleminze	_	NE	number=sg|case=nom|gender=*	_	_	_	_	I-MF
+30	(	(	_	$(	_	_	_	_	_	I-MF
+31	...	...	_	$(	_	_	_	_	_	I-MF
+32	)	)	_	$(	_	_	_	_	_	I-MF
+33	dem	der	_	ART	number=sg|case=dat|gender=neut	_	_	_	_	I-MF
+34	von	von	_	APPR	_	_	_	_	_	I-MF
+35	Uns	wir	_	PPER	number=pl|person=1|case=dat|gender=*	_	_	_	_	I-MF
+36	gestifteten	gestiftet	_	ADJA	number=sg|degree=pos|case=dat|gender=neut	_	_	_	_	I-MF
+37	und	und	_	KON	_	_	_	_	_	I-MF
+38	erbauten	erbaut	_	ADJA	number=sg|degree=pos|case=dat|gender=neut	_	_	_	_	I-MF
+39	Kloster	Kloster	_	NN	number=sg|case=dat|gender=neut	10	iobj	_	_	I-MF
+40	Memleben	Memleben	_	NE	number=sg|case=nom|gender=*	_	_	_	_	I-MF
+41	.	.	_	$.	_	_	_	_	_	O
+42	"	"	_	$(	_	_	_	_	_	O
+
+# sent_id = 70
+# sent_id(TSV) = 70
+# TopFString = (VROOT(VF(ART Das)(NN Kloster))(LK(VVFIN bestand))(MF(ADV nur)(APPR bis)(APPRART zum)(NN Jahr)(CARD 1015))(KOMMA ,)(VF(ART der)(NN Besitz))(LK(VAFIN wurde))(MF(APPR an)(ART das)(NN Kloster)(NE Hersfeld)(APPR an)(ART der)(NE Fulda))(VC(VVPP überwiesen)))
+# text = Das Kloster bestand nur bis zum Jahr 1015 , der Besitz wurde an das Kloster Hersfeld an der Fulda überwiesen .
+1	Das	der	_	ART	number=sg|case=nom|gender=neut	_	_	_	_	B-VF
+2	Kloster	Kloster	_	NN	number=sg|case=nom|gender=neut	3	subj	_	_	I-VF
+3	bestand	bestehen	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+4	nur	nur	_	ADV	_	_	_	_	_	B-MF
+5	bis	bis	_	APPR	_	_	_	_	_	I-MF
+6	zum	zu	_	APPRART	case=dat|gender=neut	_	_	_	_	I-MF
+7	Jahr	Jahr	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	I-MF
+8	1015	1015	_	CARD	_	_	_	_	_	I-MF
+9	,	,	_	$,	_	_	_	_	_	O
+10	der	der	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	B-VF
+11	Besitz	Besitz	_	NN	number=sg|case=nom|gender=masc	20	subj	_	_	I-VF
+12	wurde	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=past	20	aux	_	_	B-LK
+13	an	an	_	APPR	_	_	_	_	_	B-MF
+14	das	der	_	ART	number=sg|case=acc|gender=neut	_	_	_	_	I-MF
+15	Kloster	Kloster	_	NN	number=sg|case=acc|gender=neut	_	_	_	_	I-MF
+16	Hersfeld	Hersfeld	_	NE	number=sg|case=nom|gender=neut	_	_	_	_	I-MF
+17	an	an	_	APPR	_	_	_	_	_	I-MF
+18	der	der	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	I-MF
+19	Fulda	Fulda	_	NE	number=sg|case=dat|gender=fem	_	_	_	_	I-MF
+20	überwiesen	überweisen	_	VVPP	_	_	_	_	_	B-RK
+21	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 71
+# sent_id(TSV) = 71
+# TopFString = (VROOT(VF(APPR In)(ART der)(NN Fachliteratur))(LK(VVFIN spricht))(MF(PIS man)(APPRART vom)(ADJA Hersfelder)(NN Eigen)(KON oder)(APPRART vom)(ADJA Hersfelder)(NN Lehen)))
+# text = In der Fachliteratur spricht man vom Hersfelder Eigen oder vom Hersfelder Lehen .
+1	In	in	_	APPR	_	_	_	_	_	B-VF
+2	der	der	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	I-VF
+3	Fachliteratur	Fachliteratur	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	I-VF
+4	spricht	sprechen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+5	man	man	_	PIS	number=sg|case=nom|gender=*	4	subj	_	_	B-MF
+6	vom	von	_	APPRART	case=dat|gender=neut	8	pcase-det	_	_	I-MF
+7	Hersfelder	Hersfelder	_	ADJA	number=sg|degree=pos|case=dat|gender=neut	_	_	_	_	I-MF
+8	Eigen	Eigen	_	NN	number=sg|case=dat|gender=neut	4	pobj	_	_	I-MF
+9	oder	oder	_	KON	_	_	_	_	_	I-MF
+10	vom	von	_	APPRART	case=dat|gender=neut	_	_	_	_	I-MF
+11	Hersfelder	Hersfelder	_	ADJA	number=sg|degree=pos|case=dat|gender=neut	_	_	_	_	I-MF
+12	Lehen	Lehen	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	I-MF
+13	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 72
+# sent_id(TSV) = 72
+# TopFString = (VROOT(VF(ADV Schon)(APPR in)(ADJA slawischer)(NN Zeit))(LK(VVFIN existierte))(MF(ADV hier)(ART ein)(ADJA zentralörtliches)(NN Herrschaftszentrum)(APPRART im)(NE Gau)(NE Daleminze)))
+# text = Schon in slawischer Zeit existierte hier ein zentralörtliches Herrschaftszentrum im Gau Daleminze .
+1	Schon	schon	_	ADV	_	_	_	_	_	B-VF
+2	in	in	_	APPR	_	_	_	_	_	I-VF
+3	slawischer	slawisch	_	ADJA	number=sg|degree=pos|case=dat|gender=fem	_	_	_	_	I-VF
+4	Zeit	Zeit	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	I-VF
+5	existierte	existieren	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+6	hier	hier	_	ADV	_	_	_	_	_	B-MF
+7	ein	ein	_	ART	number=sg|case=nom|gender=neut	_	_	_	_	I-MF
+8	zentralörtliches	zentralörtlich	_	ADJA	number=sg|degree=pos|case=nom|gender=neut	_	_	_	_	I-MF
+9	Herrschaftszentrum	Herrschaftszentrum	_	NN	number=sg|case=nom|gender=neut	5	subj	_	_	I-MF
+10	im	in	_	APPRART	case=dat|gender=*	_	_	_	_	I-MF
+11	Gau	Gau	_	NE	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+12	Daleminze	Daleminze	_	NE	number=sg|case=nom|gender=*	_	_	_	_	I-MF
+13	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 73
+# sent_id(TSV) = 73
+# TopFString = (VROOT(VF(APPR Mit)(ART der)(ADJA deutschen)(NN Besiedlung))(LK(VAFIN wurden))(MF(ADJA deutsche)(KLAMMER ")(NN Verwaltungsstrukturen)(KLAMMER ")(KLAMMER LBR)(NN Lehnsherrschaft)(KOMMA ,)(NN Christentum)(APPR mit)(PPOSAT seinen)(NN Institutionen)(PUNKT :)(NN Pfarrsystem)(KOMMA ,)(NN Amtskirche))(KLAMMER RBR)(VC(VVPP übernommen)))
+# text = Mit der deutschen Besiedlung wurden deutsche " Verwaltungsstrukturen " ( Lehnsherrschaft , Christentum mit seinen Institutionen : Pfarrsystem , Amtskirche ) übernommen .
+1	Mit	mit	_	APPR	_	_	_	_	_	B-VF
+2	der	der	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	I-VF
+3	deutschen	deutsch	_	ADJA	number=sg|degree=pos|case=dat|gender=fem	_	_	_	_	I-VF
+4	Besiedlung	Besiedlung	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	I-VF
+5	wurden	werden	_	VAFIN	number=pl|person=3|mood=ind|tense=past	22	aux	_	_	B-LK
+6	deutsche	deutsch	_	ADJA	number=pl|degree=pos|case=nom|gender=fem	_	_	_	_	B-MF
+7	"	"	_	$(	_	_	_	_	_	I-MF
+8	Verwaltungsstrukturen	Verwaltungsstruktur	_	NN	number=pl|case=nom|gender=fem	22	subj	_	_	I-MF
+9	"	"	_	$(	_	_	_	_	_	I-MF
+10	(	(	_	$(	_	_	_	_	_	I-MF
+11	Lehnsherrschaft	Lehnsherrschaft	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	I-MF
+12	,	,	_	$,	_	_	_	_	_	I-MF
+13	Christentum	Christentum	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	I-MF
+14	mit	mit	_	APPR	_	_	_	_	_	I-MF
+15	seinen	sein	_	PPOSAT	number=pl|case=dat|gender=fem	_	_	_	_	I-MF
+16	Institutionen	Institution	_	NN	number=pl|case=dat|gender=fem	_	_	_	_	I-MF
+17	:	:	_	$.	_	_	_	_	_	I-MF
+18	Pfarrsystem	Pfarrsystem	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	I-MF
+19	,	,	_	$,	_	_	_	_	_	I-MF
+20	Amtskirche	Amtskirche	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	I-MF
+21	)	)	_	$(	_	_	_	_	_	O
+22	übernommen	übernehmen	_	VVPP	_	_	_	_	_	B-RK
+23	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 74
+# sent_id(TSV) = 74
+# TopFString = (VROOT(VF(ADJD Genauer))(LK(VAFIN wäre))(MF(ADV hier)(APPR bis)(ADV etwa)(CARD 1000)(APPR n.)(NN Chr.)(ADJD ostfränkisch)(APPR statt)(ADJD deutsch))(VC(PTKZU zu)(VVINF sagen)))
+# text = Genauer wäre hier bis etwa 1000 n. Chr. ostfränkisch statt deutsch zu sagen .
+1	Genauer	genau	_	ADJD	degree=comp	2	pred	_	_	B-VF
+2	wäre	sein	_	VAFIN	number=sg|person=3|mood=subj|tense=past	_	_	_	_	B-LK
+3	hier	hier	_	ADV	_	_	_	_	_	B-MF
+4	bis	bis	_	APPR	_	_	_	_	_	I-MF
+5	etwa	etwa	_	ADV	_	_	_	_	_	I-MF
+6	1000	1000	_	CARD	_	_	_	_	_	I-MF
+7	n.	n.	_	APPR	_	_	_	_	_	I-MF
+8	Chr.	Chr.	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+9	ostfränkisch	ostfränkisch	_	ADJD	degree=pos	13	obj	_	_	I-MF
+10	statt	statt	_	APPR	_	_	_	_	_	I-MF
+11	deutsch	deutsch	_	ADJD	degree=pos	_	_	_	_	I-MF
+12	zu	zu	_	PTKZU	_	_	_	_	_	B-RK
+13	sagen	sagen	_	VVINF	_	2	vsubj	_	_	I-RK
+14	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 75
+# sent_id(TSV) = 75
+# TopFString = (VROOT(VF(ART Die)(ADJA deutsche)(NN Besiedlung)(ART des)(NN Ortes))(LK(VVFIN entwickelte))(MF(PRF sich)(ADV vermutlich)(APPR um)(CARD 1200)(APPRART zur)(ADJD kommunal)(ADJA verfassten)(NN Stadt))(KLAMMER LBR)(NF(APPR mit)(ADJA bestimmten)(ADJA eigenen)(NN Rechten)))
+# text = Die deutsche Besiedlung des Ortes entwickelte sich vermutlich um 1200 zur kommunal verfassten Stadt ( mit bestimmten eigenen Rechten ) .
+1	Die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	B-VF
+2	deutsche	deutsch	_	ADJA	number=sg|degree=pos|case=nom|gender=fem	_	_	_	_	I-VF
+3	Besiedlung	Besiedlung	_	NN	number=sg|case=nom|gender=fem	6	subj	_	_	I-VF
+4	des	der	_	ART	number=sg|case=gen|gender=masc	_	_	_	_	I-VF
+5	Ortes	Ort	_	NN	number=sg|case=gen|gender=masc	_	_	_	_	I-VF
+6	entwickelte	entwickeln	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+7	sich	sich	_	PRF	number=sg|person=3|case=acc	6	obj	_	_	B-MF
+8	vermutlich	vermutlich	_	ADV	_	_	_	_	_	I-MF
+9	um	um	_	APPR	_	_	_	_	_	I-MF
+10	1200	1200	_	CARD	_	_	_	_	_	I-MF
+11	zur	zu	_	APPRART	case=dat|gender=fem	_	_	_	_	I-MF
+12	kommunal	kommunal	_	ADJD	degree=pos	_	_	_	_	I-MF
+13	verfassten	verfasst	_	ADJA	number=sg|degree=pos|case=dat|gender=fem	_	_	_	_	I-MF
+14	Stadt	Stadt	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	I-MF
+15	(	(	_	$(	_	_	_	_	_	O
+16	mit	mit	_	APPR	_	_	_	_	_	B-NF
+17	bestimmten	bestimmt	_	ADJA	number=pl|degree=pos|case=dat|gender=neut	_	_	_	_	I-NF
+18	eigenen	eigen	_	ADJA	number=pl|degree=pos|case=dat|gender=neut	_	_	_	_	I-NF
+19	Rechten	Recht	_	NN	number=pl|case=dat|gender=neut	_	_	_	_	I-NF
+20	)	)	_	$(	_	_	_	_	_	O
+21	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 76
+# sent_id(TSV) = 76
+# TopFString = (VROOT(VF(ADV So))(LK(VAFIN wird))(MF(APPRART im)(NN Jahr)(CARD 1350)(ART ein)(ADJA selbständiger)(FM districtus)(NE Döbeln))(VC(VVPP genannt))(KOMMA ,)(VF(CARD 1378))(LK(VAFIN werden))(MF(NN Burg)(KON und)(NN Stadt))(VC(VVPP erwähnt)))
+# text = So wird im Jahr 1350 ein selbständiger districtus Döbeln genannt , 1378 werden Burg und Stadt erwähnt .
+1	So	so	_	ADV	_	_	_	_	_	B-VF
+2	wird	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	10	aux	_	_	B-LK
+3	im	in	_	APPRART	case=dat|gender=neut	_	_	_	_	B-MF
+4	Jahr	Jahr	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	I-MF
+5	1350	1350	_	CARD	_	_	_	_	_	I-MF
+6	ein	ein	_	ART	number=sg|case=nom|gender=neut	_	_	_	_	I-MF
+7	selbständiger	selbständig	_	ADJA	number=sg|degree=pos|case=nom|gender=neut	_	_	_	_	I-MF
+8	districtus	districtus	_	FM	_	10	subj	_	_	I-MF
+9	Döbeln	Döbeln	_	NE	number=sg|case=nom|gender=neut	_	_	_	_	I-MF
+10	genannt	nennen	_	VVPP	_	_	_	_	_	B-RK
+11	,	,	_	$,	_	_	_	_	_	O
+12	1378	1378	_	CARD	_	_	_	_	_	B-VF
+13	werden	werden	_	VAFIN	number=pl|person=3|mood=ind|tense=pres	17	aux	_	_	B-LK
+14	Burg	Burg	_	NN	number=sg|case=nom|gender=fem	17	subj	_	_	B-MF
+15	und	und	_	KON	_	_	_	_	_	I-MF
+16	Stadt	Stadt	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	I-MF
+17	erwähnt	erwähnen	_	VVPP	_	_	_	_	_	B-RK
+18	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 77
+# sent_id(TSV) = 77
+# TopFString = (VROOT(VF(CARD 1567))(LK(VAFIN wird))(MF(APPR von)(ART einem)(ADJA wüsten)(NN Amtsschloßberg))(VC(VVPP berichtet)))
+# text = 1567 wird von einem wüsten Amtsschloßberg berichtet .
+1	1567	1567	_	CARD	_	_	_	_	_	B-VF
+2	wird	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	7	aux	_	_	B-LK
+3	von	von	_	APPR	_	6	pcase	_	_	B-MF
+4	einem	ein	_	ART	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+5	wüsten	wüst	_	ADJA	number=sg|degree=pos|case=dat|gender=masc	_	_	_	_	I-MF
+6	Amtsschloßberg	Amtsschlossberg	_	NN	number=sg|case=dat|gender=masc	7	pobj	_	_	I-MF
+7	berichtet	berichten	_	VVPP	_	_	_	_	_	B-RK
+8	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 78
+# sent_id(TSV) = 78
+# TopFString = (VROOT(VF(ART Die)(NN Gründe))(LK(VAFIN sind))(MF(PTKNEG nicht)(ADJD bekannt))(KOMMA ,)(VF(APPRART im)(NN Jahr)(CARD 1588))(LK(VAFIN wurde))(MF(ART das)(APPR bis)(PAV dahin)(ADJA existierende)(NN Amt)(NE Döbeln)(APPR in)(ART das)(NN Amt)(NE Leisnig))(VC(VVPP integriert)))
+# text = Die Gründe sind nicht bekannt , im Jahr 1588 wurde das bis dahin existierende Amt Döbeln in das Amt Leisnig integriert .
+1	Die	der	_	ART	number=pl|case=nom|gender=masc	_	_	_	_	B-VF
+2	Gründe	Grund	_	NN	number=pl|case=nom|gender=masc	3	subj	_	_	I-VF
+3	sind	sein	_	VAFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+4	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-MF
+5	bekannt	bekannt	_	ADJD	degree=pos	3	pred	_	_	I-MF
+6	,	,	_	$,	_	_	_	_	_	O
+7	im	in	_	APPRART	case=dat|gender=neut	_	_	_	_	B-VF
+8	Jahr	Jahr	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	I-VF
+9	1588	1588	_	CARD	_	_	_	_	_	I-VF
+10	wurde	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=past	21	aux	_	_	B-LK
+11	das	der	_	ART	number=sg|case=nom|gender=neut	_	_	_	_	B-MF
+12	bis	bis	_	APPR	_	_	_	_	_	I-MF
+13	dahin	dahin	_	PAV	_	_	_	_	_	I-MF
+14	existierende	existierend	_	ADJA	number=sg|degree=pos|case=nom|gender=neut	_	_	_	_	I-MF
+15	Amt	Amt	_	NN	number=sg|case=nom|gender=neut	21	subj	_	_	I-MF
+16	Döbeln	Döbeln	_	NE	number=sg|case=nom|gender=neut	_	_	_	_	I-MF
+17	in	in	_	APPR	_	_	_	_	_	I-MF
+18	das	der	_	ART	number=sg|case=acc|gender=neut	_	_	_	_	I-MF
+19	Amt	Amt	_	NN	number=sg|case=acc|gender=neut	_	_	_	_	I-MF
+20	Leisnig	Leisnig	_	NE	number=sg|case=acc|gender=neut	_	_	_	_	I-MF
+21	integriert	integrieren	_	VVPP	_	_	_	_	_	B-RK
+22	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 79
+# sent_id(TSV) = 79
+# TopFString = (VROOT(VF(ART Das)(ADV offensichtlich)(APPR seit)(ADJA längerer)(NN Zeit)(ADJA verfallende)(NN Schloss))(FKOORD(FKONJ(LK(VAFIN wurde))(MF(PTKNEG nicht)(ADV mehr))(VC(VVPP gebraucht)))(KON und)(FKONJ(LK(VAFIN wurde))(MF(APPRART zur)(NN Gewinnung)(APPR von)(NN Baumaterial))(VC(VVPP genutzt)))))
+# text = Das offensichtlich seit längerer Zeit verfallende Schloss wurde nicht mehr gebraucht und wurde zur Gewinnung von Baumaterial genutzt .
+1	Das	der	_	ART	number=sg|case=nom|gender=neut	_	_	_	_	B-VF
+2	offensichtlich	offensichtlich	_	ADV	_	_	_	_	_	I-VF
+3	seit	seit	_	APPR	_	_	_	_	_	I-VF
+4	längerer	lang	_	ADJA	number=sg|degree=comp|case=dat|gender=fem	_	_	_	_	I-VF
+5	Zeit	Zeit	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	I-VF
+6	verfallende	verfallen	_	ADJA	number=sg|degree=pos|case=nom|gender=neut	_	_	_	_	I-VF
+7	Schloss	Schloss	_	NN	number=sg|case=nom|gender=neut	11	subj	_	_	I-VF
+8	wurde	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=past	11	aux	_	_	B-LK
+9	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-MF
+10	mehr	mehr	_	ADV	_	_	_	_	_	I-MF
+11	gebraucht	brauchen	_	VVPP	_	_	_	_	_	B-RK
+12	und	und	_	KON	_	_	_	_	_	B-KOORD
+13	wurde	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=past	18	aux	_	_	B-LK
+14	zur	zu	_	APPRART	case=dat|gender=fem	_	_	_	_	B-MF
+15	Gewinnung	Gewinnung	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	I-MF
+16	von	von	_	APPR	_	_	_	_	_	I-MF
+17	Baumaterial	Baumaterial	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	I-MF
+18	genutzt	nutzen	_	VVPP	_	_	_	_	_	B-RK
+19	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 80
+# sent_id(TSV) = 80
+# TopFString = (VROOT(VF(APPR Ab)(CARD 1730))(LK(VAFIN wurde))(MF(ADV auch)(ART der)(NN Bergfried))(VC(VVPP abgebrochen))(KON und)(VF(APPR zwischen)(CARD 1867)(KON und)(CARD 1869))(LK(VMFIN mussten))(MF(ART die)(ADJA letzten)(NN Reste)(ART der)(NN Burg)(NE Döbeln)(ART der)(NN Schloßbergschule))(VC(VVINF weichen)))
+# text = Ab 1730 wurde auch der Bergfried abgebrochen und zwischen 1867 und 1869 mussten die letzten Reste der Burg Döbeln der Schloßbergschule weichen .
+1	Ab	ab	_	APPR	_	_	_	_	_	B-VF
+2	1730	1730	_	CARD	_	_	_	_	_	I-VF
+3	wurde	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=past	7	aux	_	_	B-LK
+4	auch	auch	_	ADV	_	_	_	_	_	B-MF
+5	der	der	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	I-MF
+6	Bergfried	Bergfried	_	NN	number=sg|case=nom|gender=masc	7	subj	_	_	I-MF
+7	abgebrochen	abbrechen	_	VVPP	_	_	_	_	_	B-RK
+8	und	und	_	KON	_	_	_	_	_	O
+9	zwischen	zwischen	_	APPR	_	_	_	_	_	B-VF
+10	1867	1867	_	CARD	_	_	_	_	_	I-VF
+11	und	und	_	KON	_	_	_	_	_	I-VF
+12	1869	1869	_	CARD	_	_	_	_	_	I-VF
+13	mussten	müssen	_	VMFIN	number=pl|person=3|mood=ind|tense=past	22	aux	_	_	B-LK
+14	die	der	_	ART	number=pl|case=nom|gender=masc	_	_	_	_	B-MF
+15	letzten	letzter	_	ADJA	number=pl|degree=pos|case=nom|gender=masc	_	_	_	_	I-MF
+16	Reste	Rest	_	NN	number=pl|case=nom|gender=masc	22	subj	_	_	I-MF
+17	der	der	_	ART	number=sg|case=gen|gender=fem	_	_	_	_	I-MF
+18	Burg	Burg	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	I-MF
+19	Döbeln	Döbeln	_	NE	number=sg|case=nom|gender=neut	_	_	_	_	I-MF
+20	der	der	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	I-MF
+21	Schloßbergschule	Schloßbergschule	_	NN	number=sg|case=dat|gender=fem	22	iobj	_	_	I-MF
+22	weichen	weichen	_	VVINF	_	_	_	_	_	B-RK
+23	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 81
+# sent_id(TSV) = 81
+# TopFString = (VROOT(VF(APPR Zu)(NN Füßen)(ART des)(NN Berges))(LK(VVFIN steht))(MF(ADV noch)(ADV immer)(ART die)(NN Nicolaikirche))(KOMMA ,)(NF(C(PRELAT deren)(NN Vorgängerbau))(MF(ADV wahrscheinlich)(APPR um)(CARD 1230))(VC(VVFIN entstand))))
+# text = Zu Füßen des Berges steht noch immer die Nicolaikirche , deren Vorgängerbau wahrscheinlich um 1230 entstand .
+1	Zu	zu	_	APPR	_	_	_	_	_	B-VF
+2	Füßen	Fuß	_	NN	number=pl|case=dat|gender=masc	_	_	_	_	I-VF
+3	des	der	_	ART	number=sg|case=gen|gender=masc	_	_	_	_	I-VF
+4	Berges	Berg	_	NN	number=sg|case=gen|gender=masc	_	_	_	_	I-VF
+5	steht	stehen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+6	noch	noch	_	ADV	_	_	_	_	_	B-MF
+7	immer	immer	_	ADV	_	_	_	_	_	I-MF
+8	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	I-MF
+9	Nicolaikirche	Nicolaikirche	_	NN	number=sg|case=nom|gender=fem	5	subj	_	_	I-MF
+10	,	,	_	$,	_	_	_	_	_	O
+11	deren	der	_	PRELAT	number=sg|case=gen|gender=fem	_	_	_	_	B-NF|B-LK
+12	Vorgängerbau	Vorgängerbau	_	NN	number=sg|case=nom|gender=masc	16	subj	_	_	I-NF|I-LK
+13	wahrscheinlich	wahrscheinlich	_	ADV	_	_	_	_	_	I-NF|B-MF
+14	um	um	_	APPR	_	_	_	_	_	I-NF|I-MF
+15	1230	1230	_	CARD	_	_	_	_	_	I-NF|I-MF
+16	entstand	entstehen	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	I-NF|B-RK
+17	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 82
+# sent_id(TSV) = 82
+# TopFString = (VROOT(VF(APPR In)(NE Sodom))(FKOORD(FKONJ(LK(VVFIN treffen))(MF(PPER sie)(ADV wieder)(APPR auf)(NE Kain)))(KON und)(FKONJ(LK(VAFIN werden))(KLAMMER –)(KOKOM wie)(PPER er)(KLAMMER –)(MF(NN Wächter)(ART der)(NN Stadt)))))
+# text = In Sodom treffen sie wieder auf Kain und werden – wie er – Wächter der Stadt .
+1	In	in	_	APPR	_	_	_	_	_	B-VF
+2	Sodom	Sodom	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	I-VF
+3	treffen	treffen	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+4	sie	sie	_	PPER	number=pl|person=3|case=nom|gender=*	3	subj	_	_	B-MF
+5	wieder	wieder	_	ADV	_	_	_	_	_	I-MF
+6	auf	auf	_	APPR	_	7	pcase	_	_	I-MF
+7	Kain	Kain	_	NE	number=sg|case=acc|gender=masc	3	pobj	_	_	I-MF
+8	und	und	_	KON	_	_	_	_	_	B-KOORD
+9	werden	werden	_	VAFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+10	–	-	_	$(	_	_	_	_	_	O
+11	wie	wie	_	KOKOM	_	_	_	_	_	O
+12	er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	_	_	_	_	O
+13	–	-	_	$(	_	_	_	_	_	O
+14	Wächter	Wächter	_	NN	number=pl|case=nom|gender=masc	9	pred	_	_	B-MF
+15	der	der	_	ART	number=sg|case=gen|gender=fem	_	_	_	_	I-MF
+16	Stadt	Stadt	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	I-MF
+17	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 83
+# sent_id(TSV) = 83
+# TopFString = (VROOT(VF(C(KOUS Als))(MF(NN Prinzessin)(NE Inanna)(APPR in)(ART der)(NN Stadt))(VC(VVFIN auftaucht)))(KOMMA ,)(LK(VVFIN knien))(MF(PIS alle)(APPR vor)(PPER ihr))(VC(PTKVZ nieder))(KOMMA ,)(VF(ADV nur)(NE Zed))(MF(PTKNEG nicht)))
+# text = Als Prinzessin Inanna in der Stadt auftaucht , knien alle vor ihr nieder , nur Zed nicht .
+1	Als	als	_	KOUS	_	_	_	_	_	B-VF|B-LK
+2	Prinzessin	Prinzessin	_	NN	number=sg|case=nom|gender=fem	7	subj	_	_	I-VF|B-MF
+3	Inanna	Inanna	_	NE	number=sg|case=nom|gender=fem	_	_	_	_	I-VF|I-MF
+4	in	in	_	APPR	_	_	_	_	_	I-VF|I-MF
+5	der	der	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	I-VF|I-MF
+6	Stadt	Stadt	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	I-VF|I-MF
+7	auftaucht	auftauchen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	I-VF|B-RK
+8	,	,	_	$,	_	_	_	_	_	O
+9	knien	knien	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+10	alle	alle	_	PIS	number=pl|case=nom|gender=*	9	subj	_	_	B-MF
+11	vor	vor	_	APPR	_	_	_	_	_	I-MF
+12	ihr	sie	_	PPER	number=sg|person=3|case=dat|gender=fem	_	_	_	_	I-MF
+13	nieder	nieder	_	PTKVZ	_	_	_	_	_	B-RK
+14	,	,	_	$,	_	_	_	_	_	O
+15	nur	nur	_	ADV	_	_	_	_	_	B-VF
+16	Zed	Zed	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	I-VF
+17	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-MF
+18	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 84
+# sent_id(TSV) = 84
+# TopFString = (VROOT(VF(PDS Dies))(LK(VVFIN weckt))(MF(ART die)(NN Aufmerksamkeit)(APPR von)(NE Inanna))(KOMMA ,)(NF(C(KOUS sodass))(FKOORD(FKONJ(MF(PPER sie)(PPER ihn)(APPR für)(PIAT etwas)(NN Besonderes))(VC(VVFIN hält)))(KON und)(FKONJ(MF(PPER ihn)(APPRART am)(NN Abend)(APPR in)(PPOSAT ihrem)(NN Palast))(VC(VVFIN empfängt))))))
+# text = Dies weckt die Aufmerksamkeit von Inanna , sodass sie ihn für etwas Besonderes hält und ihn am Abend in ihrem Palast empfängt .
+1	Dies	dieser	_	PDS	number=sg|case=nom|gender=neut	2	subj	_	_	B-VF
+2	weckt	wecken	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+3	die	der	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	B-MF
+4	Aufmerksamkeit	Aufmerksamkeit	_	NN	number=sg|case=acc|gender=fem	2	obj	_	_	I-MF
+5	von	von	_	APPR	_	_	_	_	_	I-MF
+6	Inanna	Inanna	_	NE	number=sg|case=dat|gender=fem	_	_	_	_	I-MF
+7	,	,	_	$,	_	_	_	_	_	O
+8	sodass	sodass	_	KOUS	_	_	_	_	_	B-NF|B-LK
+9	sie	sie	_	PPER	number=sg|person=3|case=nom|gender=fem	14	subj	_	_	I-NF|B-MF
+10	ihn	er	_	PPER	number=sg|person=3|case=acc|gender=masc	14	obj	_	_	I-NF|I-MF
+11	für	für	_	APPR	_	13	pcase	_	_	I-NF|I-MF
+12	etwas	etwas	_	PIAT	number=sg|case=acc|gender=neut	_	_	_	_	I-NF|I-MF
+13	Besonderes	Besondere	_	NN	number=sg|case=acc|gender=neut	14	pobj	_	_	I-NF|I-MF
+14	hält	halten	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	I-NF|B-RK
+15	und	und	_	KON	_	_	_	_	_	I-NF|B-KOORD
+16	ihn	er	_	PPER	number=sg|person=3|case=acc|gender=masc	22	obj	_	_	I-NF|B-MF
+17	am	an	_	APPRART	case=dat|gender=masc	_	_	_	_	I-NF|I-MF
+18	Abend	Abend	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-NF|I-MF
+19	in	in	_	APPR	_	_	_	_	_	I-NF|I-MF
+20	ihrem	ihr	_	PPOSAT	number=sg|case=dat|gender=masc	_	_	_	_	I-NF|I-MF
+21	Palast	Palast	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-NF|I-MF
+22	empfängt	empfangen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	I-NF|B-RK
+23	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 85
+# sent_id(TSV) = 85
+# TopFString = (VROOT(VF(PPER Sie))(LK(VVFIN fordert))(MF(NE Zed))(VC(PTKVZ auf))(KOMMA ,)(VF(ART das)(NN Allerheiligste))(KLAMMER LBR)(FM Holy)(FM of)(FM Holies)(KLAMMER RBR)(VC(PTKZU zu)(VVINF betreten))(KOMMA ,)(NF(C(KOUS da))(MF(PPER sie)(PPER ihn)(APPR für)(ART den)(NN Auserwählten))(VC(VVFIN hält))))
+# text = Sie fordert Zed auf , das Allerheiligste ( Holy of Holies ) zu betreten , da sie ihn für den Auserwählten hält .
+1	Sie	sie	_	PPER	number=sg|person=3|case=nom|gender=fem	2	subj	_	_	B-VF
+2	fordert	fordern	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+3	Zed	Zed	_	NE	number=sg|case=acc|gender=masc	2	obj	_	_	B-MF
+4	auf	auf	_	PTKVZ	_	_	_	_	_	B-RK
+5	,	,	_	$,	_	_	_	_	_	O
+6	das	der	_	ART	number=sg|case=acc|gender=neut	_	_	_	_	B-VF
+7	Allerheiligste	Allerheiligste	_	NN	number=sg|case=acc|gender=neut	14	obj	_	_	I-VF
+8	(	(	_	$(	_	_	_	_	_	O
+9	Holy	Holy	_	FM	_	_	_	_	_	O
+10	of	of	_	FM	_	_	_	_	_	O
+11	Holies	Holies	_	FM	_	_	_	_	_	O
+12	)	)	_	$(	_	_	_	_	_	O
+13	zu	zu	_	PTKZU	_	_	_	_	_	B-RK
+14	betreten	betreten	_	VVINF	_	_	_	_	_	I-RK
+15	,	,	_	$,	_	_	_	_	_	O
+16	da	da	_	KOUS	_	_	_	_	_	B-NF|B-LK
+17	sie	sie	_	PPER	number=sg|person=3|case=nom|gender=fem	22	subj	_	_	I-NF|B-MF
+18	ihn	er	_	PPER	number=sg|person=3|case=acc|gender=masc	22	obj	_	_	I-NF|I-MF
+19	für	für	_	APPR	_	21	pcase	_	_	I-NF|I-MF
+20	den	der	_	ART	number=sg|case=acc|gender=masc	_	_	_	_	I-NF|I-MF
+21	Auserwählten	Auserwählte	_	NN	number=sg|case=acc|gender=masc	22	pobj	_	_	I-NF|I-MF
+22	hält	halten	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	I-NF|B-RK
+23	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 86
+# sent_id(TSV) = 86
+# TopFString = (VROOT(VF(APPRART Im)(NN Allerheiligsten))(LK(VVFIN findet))(MF(NE Zed)(ADV nur)(NE Oh))(VC(PTKVZ vor))(KOMMA ,)(NF(C(PRELS der))(MF(PRF sich)(ADV dort)(APPR vor)(ART den)(NN Nachstellungen)(ART des)(NN Hohepriesters))(VC(VVFIN versteckt))))
+# text = Im Allerheiligsten findet Zed nur Oh vor , der sich dort vor den Nachstellungen des Hohepriesters versteckt .
+1	Im	in	_	APPRART	case=dat|gender=neut	_	_	_	_	B-VF
+2	Allerheiligsten	Allerheiligste	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	I-VF
+3	findet	finden	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+4	Zed	Zed	_	NE	number=sg|case=nom|gender=masc	3	subj	_	_	B-MF
+5	nur	nur	_	ADV	_	_	_	_	_	I-MF
+6	Oh	Oh	_	NE	number=sg|case=acc|gender=masc	3	obj	_	_	I-MF
+7	vor	vor	_	PTKVZ	_	_	_	_	_	B-RK
+8	,	,	_	$,	_	_	_	_	_	O
+9	der	der	_	PRELS	number=sg|case=nom|gender=masc	17	subj	_	_	B-NF|B-LK
+10	sich	sich	_	PRF	number=sg|person=3|case=acc	17	obj	_	_	I-NF|B-MF
+11	dort	dort	_	ADV	_	_	_	_	_	I-NF|I-MF
+12	vor	vor	_	APPR	_	14	pcase	_	_	I-NF|I-MF
+13	den	der	_	ART	number=pl|case=dat|gender=fem	_	_	_	_	I-NF|I-MF
+14	Nachstellungen	Nachstellung	_	NN	number=pl|case=dat|gender=fem	17	pobj	_	_	I-NF|I-MF
+15	des	der	_	ART	number=sg|case=gen|gender=masc	_	_	_	_	I-NF|I-MF
+16	Hohepriesters	Hohepriester	_	NN	number=sg|case=gen|gender=masc	_	_	_	_	I-NF|I-MF
+17	versteckt	verstecken	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	I-NF|B-RK
+18	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 87
+# sent_id(TSV) = 87
+# TopFString = (VROOT(VF(PIS Beide))(LK(VAFIN werden))(FKOORD(FKONJ(MF(ADJD gefangen))(VC(VVPP genommen)))(KON und)(FKONJ(MF(APPRART zum)(NN Tode)(APPR durch)(NN Steinigung))(VC(VVPP verurteilt)))))
+# text = Beide werden gefangen genommen und zum Tode durch Steinigung verurteilt .
+1	Beide	beide	_	PIS	number=pl|case=nom|gender=masc	4	subj	_	_	B-VF
+2	werden	werden	_	VAFIN	number=pl|person=3|mood=ind|tense=pres	4	aux	_	_	B-LK
+3	gefangen	gefangen	_	ADJD	degree=pos	_	_	_	_	B-MF
+4	genommen	nehmen	_	VVPP	_	_	_	_	_	B-RK
+5	und	und	_	KON	_	_	_	_	_	B-KOORD
+6	zum	zu	_	APPRART	case=dat|gender=masc	_	_	_	_	B-MF
+7	Tode	Tod	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+8	durch	durch	_	APPR	_	_	_	_	_	I-MF
+9	Steinigung	Steinigung	_	NN	number=sg|case=acc|gender=fem	_	_	_	_	I-MF
+10	verurteilt	verurteilen	_	VVPP	_	_	_	_	_	B-RK
+11	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 88
+# sent_id(TSV) = 88
+# TopFString = (VROOT(VF(NE Zed))(LK(VVFIN gelingt))(MF(PPER es))(KOMMA ,)(NF(MF(ART eine)(NN Begnadigung)(APPRART vom)(NN König))(VC(PTKZU zu)(VVINF erwirken))))
+# text = Zed gelingt es , eine Begnadigung vom König zu erwirken .
+1	Zed	Zed	_	NE	number=sg|case=dat|gender=masc	2	iobj	_	_	B-VF
+2	gelingt	gelingen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+3	es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	2	expl	_	_	B-MF
+4	,	,	_	$,	_	_	_	_	_	O
+5	eine	ein	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	B-NF|B-MF
+6	Begnadigung	Begnadigung	_	NN	number=sg|case=acc|gender=fem	10	obj	_	_	I-NF|I-MF
+7	vom	von	_	APPRART	case=dat|gender=masc	_	_	_	_	I-NF|I-MF
+8	König	König	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-NF|I-MF
+9	zu	zu	_	PTKZU	_	_	_	_	_	I-NF|B-RK
+10	erwirken	erwirken	_	VVINF	_	2	vsubj	_	_	I-NF|I-RK
+11	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 89
+# sent_id(TSV) = 89
+# TopFString = (VROOT(VF(ADV Stattdessen))(LK(VAFIN werden))(MF(PIS beide)(APPRART zur)(NN Sklavenarbeit))(VC(VVPP verurteilt)))
+# text = Stattdessen werden beide zur Sklavenarbeit verurteilt .
+1	Stattdessen	stattdessen	_	ADV	_	_	_	_	_	B-VF
+2	werden	werden	_	VAFIN	number=pl|person=3|mood=ind|tense=pres	6	aux	_	_	B-LK
+3	beide	beide	_	PIS	number=pl|case=nom|gender=masc	6	subj	_	_	B-MF
+4	zur	zu	_	APPRART	case=dat|gender=fem	_	_	_	_	I-MF
+5	Sklavenarbeit	Sklavenarbeit	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	I-MF
+6	verurteilt	verurteilen	_	VVPP	_	_	_	_	_	B-RK
+7	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 90
+# sent_id(TSV) = 90
+# TopFString = (VROOT(LV(C(KOUS Als))(MF(ART der)(NN König)(NN Jungfrauen)(APPRART ins)(NN Feuer))(VC(VVFIN wirft)))(KOMMA ,)(VF(APPR auf))(C(KOUS dass))(MF(ART die)(NN Götter)(PPER es))(VC(VVINF regnen)(VVFIN lassen))(KOMMA ,)(LK(VVFIN unterbricht))(MF(NE Zed)(ART die)(NN Zeremonie)))
+# text = Als der König Jungfrauen ins Feuer wirft , auf dass die Götter es regnen lassen , unterbricht Zed die Zeremonie .
+1	Als	als	_	KOUS	_	_	_	_	_	B-LV|B-LK
+2	der	der	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	I-LV|B-MF
+3	König	König	_	NN	number=sg|case=nom|gender=masc	7	subj	_	_	I-LV|I-MF
+4	Jungfrauen	Jungfrau	_	NN	number=pl|case=acc|gender=fem	7	obj	_	_	I-LV|I-MF
+5	ins	in	_	APPRART	case=acc|gender=neut	_	_	_	_	I-LV|I-MF
+6	Feuer	Feuer	_	NN	number=sg|case=acc|gender=neut	_	_	_	_	I-LV|I-MF
+7	wirft	werfen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	I-LV|B-RK
+8	,	,	_	$,	_	_	_	_	_	O
+9	auf	auf	_	APPR	_	_	_	_	_	B-VF
+10	dass	dass	_	KOUS	_	_	_	_	_	B-LK
+11	die	der	_	ART	number=pl|case=nom|gender=masc	_	_	_	_	B-MF
+12	Götter	Gott	_	NN	number=pl|case=nom|gender=masc	15	subj	_	_	I-MF
+13	es	es	_	PPER	number=sg|person=3|case=acc|gender=neut	15	obj	_	_	I-MF
+14	regnen	regnen	_	VVINF	_	15	vobj	_	_	B-RK
+15	lassen	lassen	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	I-RK
+16	,	,	_	$,	_	_	_	_	_	O
+17	unterbricht	unterbrechen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+18	Zed	Zed	_	NE	number=sg|case=nom|gender=masc	17	subj	_	_	B-MF
+19	die	der	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	I-MF
+20	Zeremonie	Zeremonie	_	NN	number=sg|case=acc|gender=fem	17	obj	_	_	I-MF
+21	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 91
+# sent_id(TSV) = 91
+# TopFString = (VROOT(VF(ADV Inzwischen))(LK(VAFIN sind))(MF(ADV auch)(ART die)(NN Hebräer)(APPR in)(NE Sodom))(VC(VVPP angekommen))(KOMMA ,)(NF(C(KOUI um))(MF(ART die)(ADJA ungläubigen)(NN Sünder))(VC(PTKZU zu)(VVINF bekämpfen))))
+# text = Inzwischen sind auch die Hebräer in Sodom angekommen , um die ungläubigen Sünder zu bekämpfen .
+1	Inzwischen	inzwischen	_	ADV	_	_	_	_	_	B-VF
+2	sind	sein	_	VAFIN	number=pl|person=3|mood=ind|tense=pres	8	aux	_	_	B-LK
+3	auch	auch	_	ADV	_	_	_	_	_	B-MF
+4	die	der	_	ART	number=pl|case=nom|gender=masc	_	_	_	_	I-MF
+5	Hebräer	Hebräer	_	NN	number=pl|case=nom|gender=masc	8	subj	_	_	I-MF
+6	in	in	_	APPR	_	_	_	_	_	I-MF
+7	Sodom	Sodom	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	I-MF
+8	angekommen	ankommen	_	VVPP	_	_	_	_	_	B-RK
+9	,	,	_	$,	_	_	_	_	_	O
+10	um	um	_	KOUI	_	_	_	_	_	B-NF|B-LK
+11	die	der	_	ART	number=pl|case=acc|gender=masc	_	_	_	_	I-NF|B-MF
+12	ungläubigen	ungläubig	_	ADJA	number=pl|degree=pos|case=acc|gender=masc	_	_	_	_	I-NF|I-MF
+13	Sünder	Sünder	_	NN	number=pl|case=acc|gender=masc	15	obj	_	_	I-NF|I-MF
+14	zu	zu	_	PTKZU	_	_	_	_	_	I-NF|B-RK
+15	bekämpfen	bekämpfen	_	VVINF	_	_	_	_	_	I-NF|I-RK
+16	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 92
+# sent_id(TSV) = 92
+# TopFString = (VROOT(VF(NE Martin)(NE Zbončák)(KLAMMER LBR)(XY *)(ADJA 21.)(NN Juli)(CARD 1975)(APPR in)(NE Třinec))(KLAMMER RBR)(LK(VAFIN ist))(MF(ART ein)(ADJA tschechischer)(NN Fußballspieler)))
+# text = Martin Zbončák ( * 21. Juli 1975 in Třinec ) ist ein tschechischer Fußballspieler .
+1	Martin	Martin	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	B-VF
+2	Zbončák	Zbončák	_	NE	number=sg|case=nom|gender=masc	11	subj	_	_	I-VF
+3	(	(	_	$(	_	_	_	_	_	I-VF
+4	*	*	_	XY	_	_	_	_	_	I-VF
+5	21.	21.	_	ADJA	number=sg|degree=pos|case=nom|gender=masc	_	_	_	_	I-VF
+6	Juli	Juli	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	I-VF
+7	1975	1975	_	CARD	_	_	_	_	_	I-VF
+8	in	in	_	APPR	_	_	_	_	_	I-VF
+9	Třinec	Třinec	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	I-VF
+10	)	)	_	$(	_	_	_	_	_	O
+11	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+12	ein	ein	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	B-MF
+13	tschechischer	tschechisch	_	ADJA	number=sg|degree=pos|case=nom|gender=masc	_	_	_	_	I-MF
+14	Fußballspieler	Fußballspieler	_	NN	number=sg|case=nom|gender=masc	11	pred	_	_	I-MF
+15	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 93
+# sent_id(TSV) = 93
+# TopFString = (VROOT(NN Vereinskarriere))
+# text = Vereinskarriere
+1	Vereinskarriere	Vereinskarriere	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	O
+
+# sent_id = 94
+# sent_id(TSV) = 94
+# TopFString = (VROOT(VF(NE Zbončák))(LK(VVFIN spielte))(MF(APPR in)(PPOSAT seiner)(NN Jugend)(APPR für)(ART den)(NE SK)(NE Železárny)(NE Třinec)))
+# text = Zbončák spielte in seiner Jugend für den SK Železárny Třinec .
+1	Zbončák	Zbončák	_	NE	number=sg|case=nom|gender=masc	2	subj	_	_	B-VF
+2	spielte	spielen	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+3	in	in	_	APPR	_	_	_	_	_	B-MF
+4	seiner	sein	_	PPOSAT	number=sg|case=dat|gender=fem	_	_	_	_	I-MF
+5	Jugend	Jugend	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	I-MF
+6	für	für	_	APPR	_	_	_	_	_	I-MF
+7	den	der	_	ART	number=sg|case=acc|gender=masc	_	_	_	_	I-MF
+8	SK	SK	_	NE	number=sg|case=acc|gender=masc	_	_	_	_	I-MF
+9	Železárny	Železárny	_	NE	number=sg|case=acc|gender=masc	_	_	_	_	I-MF
+10	Třinec	Třinec	_	NE	number=sg|case=acc|gender=masc	_	_	_	_	I-MF
+11	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 95
+# sent_id(TSV) = 95
+# TopFString = (VROOT(VF(PPER Er))(FKOORD(FKONJ(LK(VVFIN absolvierte))(MF(PPOSAT seinen)(NN Wehrdienst)(CARD 1995)(APPR bei)(NE SKP)(NE Znojmo)))(KON und)(FKONJ(LK(VVFIN wechselte))(MF(ADV anschließend)(APPRART zum)(NE FC)(NE Boby)(NE Brno))(KOMMA ,)(NF(C(PRELS das))(MF(ADV später)(APPR in)(NE Stavo)(NE Artikel)(NE Brno))(VC(VVPP umbenannt)(VAFIN wurde))))))
+# text = Er absolvierte seinen Wehrdienst 1995 bei SKP Znojmo und wechselte anschließend zum FC Boby Brno , das später in Stavo Artikel Brno umbenannt wurde .
+1	Er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	2	subj	_	_	B-VF
+2	absolvierte	absolvieren	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+3	seinen	sein	_	PPOSAT	number=sg|case=acc|gender=masc	_	_	_	_	B-MF
+4	Wehrdienst	Wehrdienst	_	NN	number=sg|case=acc|gender=masc	2	obj	_	_	I-MF
+5	1995	1995	_	CARD	_	_	_	_	_	I-MF
+6	bei	bei	_	APPR	_	_	_	_	_	I-MF
+7	SKP	SKP	_	NE	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+8	Znojmo	Znojmo	_	NE	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+9	und	und	_	KON	_	_	_	_	_	B-KOORD
+10	wechselte	wechseln	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+11	anschließend	anschließend	_	ADV	_	_	_	_	_	B-MF
+12	zum	zu	_	APPRART	case=dat|gender=masc	_	_	_	_	I-MF
+13	FC	FC	_	NE	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+14	Boby	Boby	_	NE	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+15	Brno	Brno	_	NE	number=sg|case=dat|gender=masc	_	_	_	_	I-MF
+16	,	,	_	$,	_	_	_	_	_	O
+17	das	der	_	PRELS	number=sg|case=nom|gender=neut	23	subj	_	_	B-NF|B-LK
+18	später	später	_	ADV	_	_	_	_	_	I-NF|B-MF
+19	in	in	_	APPR	_	20	pcase	_	_	I-NF|I-MF
+20	Stavo	Stavo	_	NE	number=sg|case=acc|gender=*	23	pobj	_	_	I-NF|I-MF
+21	Artikel	Artikel	_	NE	number=sg|case=acc|gender=*	_	_	_	_	I-NF|I-MF
+22	Brno	Brno	_	NE	number=sg|case=acc|gender=*	_	_	_	_	I-NF|I-MF
+23	umbenannt	umbenennen	_	VVPP	_	_	_	_	_	I-NF|B-RK
+24	wurde	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=past	23	aux	_	_	I-NF|I-RK
+25	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 96
+# sent_id(TSV) = 96
+# TopFString = (VROOT(VF(ADV Dort))(FKOORD(FKONJ(LK(VVFIN blieb))(MF(ART der)(NN Mittelfeldspieler)(APPR bis)(CARD 2001)))(KON und)(FKONJ(LK(VVFIN absolvierte))(MF(CARD 122)(NN Erstligaspiele))(KOMMA ,)(NF(C(APPR in)(PRELS denen))(MF(PPER er)(CARD vier)(NN Tore))(VC(VVFIN schoss))))))
+# text = Dort blieb der Mittelfeldspieler bis 2001 und absolvierte 122 Erstligaspiele , in denen er vier Tore schoss .
+1	Dort	dort	_	ADV	_	_	_	_	_	B-VF
+2	blieb	bleiben	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+3	der	der	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	B-MF
+4	Mittelfeldspieler	Mittelfeldspieler	_	NN	number=sg|case=nom|gender=masc	2	subj	_	_	I-MF
+5	bis	bis	_	APPR	_	_	_	_	_	I-MF
+6	2001	2001	_	CARD	_	_	_	_	_	I-MF
+7	und	und	_	KON	_	_	_	_	_	B-KOORD
+8	absolvierte	absolvieren	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+9	122	122	_	CARD	_	_	_	_	_	B-MF
+10	Erstligaspiele	Erstligaspiel	_	NN	number=pl|case=acc|gender=neut	8	obj	_	_	I-MF
+11	,	,	_	$,	_	_	_	_	_	O
+12	in	in	_	APPR	_	_	_	_	_	B-NF|B-LK
+13	denen	der	_	PRELS	number=pl|case=dat|gender=neut	_	_	_	_	I-NF|I-LK
+14	er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	17	subj	_	_	I-NF|B-MF
+15	vier	vier	_	CARD	_	_	_	_	_	I-NF|I-MF
+16	Tore	Tor	_	NN	number=pl|case=acc|gender=neut	17	obj	_	_	I-NF|I-MF
+17	schoss	schießen	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	I-NF|B-RK
+18	.	.	_	$.	_	_	_	_	_	O

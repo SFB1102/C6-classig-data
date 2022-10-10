@@ -1,0 +1,582 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CharOffset DTA:ID DTA:NORM MovElem PHRASE POS TOPF
+# sent_id = 1
+# sent_id(TSV) = 1
+# PTBstring = (VROOT(DL(NP(ADJA EUROPÄISCHES)(NN VÖLKERRECHT)(PUNKT .))(S(NP(NN VON)(PN(NE JOHANN)(NE LUDWIG)(NE KLÜBER.)))(NP(ADJA ZWEITER)(NN BAND)(PUNKT .)))))
+# TopFString = (S(ADJA EUROPÄISCHES)(NN VÖLKERRECHT)(PUNKT .)(NN VON)(NE JOHANN)(NE LUDWIG)(NE KLÜBER.)(ADJA ZWEITER)(NN BAND)(PUNKT .))
+# text = EUROPÄISCHES VÖLKERRECHT . VON JOHANN LUDWIG KLÜBER. ZWEITER BAND .
+1	EUROPÄISCHES	europäisch	_	ADJA	_	_	_	_	_	0-12	w1	EUROPÄISCHES	B-NP-insitu	B-NP	*	O
+2	VÖLKERRECHT	Völkerrecht	_	NN	_	_	_	_	_	13-24	w2	VÖLKERRECHT	I-NP	I-NP	*	O
+3	.	.	_	$.	_	_	_	_	_	25-26	w3	.	_	I-NP	*	O
+4	VON	VON	_	NN	_	_	_	_	_	27-30	w4	VON	B-NP-insitu	B-NP	*	O
+5	JOHANN	Johann	_	NE	_	_	_	_	_	31-37	w5	JOHANN	I-NP	I-NP	*	O
+6	LUDWIG	Ludwig	_	NE	_	_	_	_	_	38-44	w6	LUDWIG	I-NP	I-NP	*	O
+7	KLÜBER.	KLÜBER.	_	NE	_	_	_	_	_	45-52	w7,w7_1	KLÜBER.	I-NP	I-NP	*	O
+8	ZWEITER	zweit	_	ADJA	_	_	_	_	_	53-60	w8	ZWEITER	B-NP-insitu	B-NP	*	O
+9	BAND	Band	_	NN	_	_	_	_	_	61-65	w9	BAND	I-NP	I-NP	*	O
+10	.	.	_	$.	_	_	_	_	_	66-67	wa	.	_	I-NP	*	O
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# PTBstring = (VROOT(S(PP(APPR MIT)(ART EINEM)(NN ANHANG)(KOMMA ,)(S(AP(ADJD enthaltend))(NP(ART EINE)(NN BIBLIOTHEK)(PP(APPR FÜR)(ART DAS)(NN VÖLKERRECHT.)(NE STUTTGART)(KOMMA ,)))))(PP(APPR in)(ART der)(PN(NE J.)(NE G.))(NP(ADJA Cotta’schen)(NN Buchhandlung)(PUNKT .)))(NP(CARD 1821))(PUNKT .)))
+# TopFString = (S(VF(APPR MIT)(ART EINEM)(NN ANHANG))(KOMMA ,)(ADJD enthaltend)(ART EINE)(NN BIBLIOTHEK)(APPR FÜR)(ART DAS)(NN VÖLKERRECHT.)(NE STUTTGART)(KOMMA ,)(APPR in)(ART der)(NE J.)(NE G.)(ADJA Cotta’schen)(NN Buchhandlung)(PUNKT .)(CARD 1821)(PUNKT .))
+# text = MIT EINEM ANHANG , enthaltend EINE BIBLIOTHEK FÜR DAS VÖLKERRECHT. STUTTGART , in der J. G. Cotta’schen Buchhandlung . 1821 .
+1	MIT	Massachussetts_Institute_Of_Technology	_	APPR	_	_	_	_	_	69-72	wb	MIT	B-PP-insitu	B-PP	*	B-VF
+2	EINEM	eine	_	ART	_	_	_	_	_	73-78	wc	EINEM	I-PP	I-PP	*	I-VF
+3	ANHANG	Anhang	_	NN	_	_	_	_	_	79-85	wd	ANHANG	I-PP	I-PP	*	I-VF
+4	,	,	_	$,	_	_	_	_	_	86-87	we	,	I-PP	I-PP	*	O
+5	enthaltend	enthaltend	_	ADJD	_	_	_	_	_	88-98	wf	enthaltend	I-PP	I-PP	*	O
+6	EINE	einen	_	ART	_	_	_	_	_	99-103	w10	EINE	I-PP	I-PP	*	O
+7	BIBLIOTHEK	Bibliothek	_	NN	_	_	_	_	_	104-114	w11	BIBLIOTHEK	I-PP	I-PP	*	O
+8	FÜR	für	_	APPR	_	_	_	_	_	115-118	w12	Für	I-PP	I-PP	*	O
+9	DAS	d	_	ART	_	_	_	_	_	119-122	w13	DAS	I-PP	I-PP	*	O
+10	VÖLKERRECHT.	VÖLKERRECHT.	_	NN	_	_	_	_	_	123-135	w14	VÖLKERRECHT.	I-PP	I-PP	*	O
+11	STUTTGART	Stuttgart	_	NE	_	_	_	_	_	136-145	w15	STUTTGART	I-PP	I-PP	*	O
+12	,	,	_	$,	_	_	_	_	_	146-147	w16	,	_	I-PP	*	O
+13	in	in	_	APPR	_	_	_	_	_	148-150	w17	in	B-PP-insitu	B-PP	*	O
+14	der	d	_	ART	_	_	_	_	_	151-154	w18	der	I-PP	I-PP	*	O
+15	J.	J.	_	NE	_	_	_	_	_	155-157	w19	J.	I-PP	I-PP	*	O
+16	G.	G.	_	NE	_	_	_	_	_	158-160	w1a	G.	I-PP	I-PP	*	O
+17	Cotta’schen	Cotta'schen	_	ADJA	_	_	_	_	_	161-172	w1b	Cotta'schen	I-PP	I-PP	*	O
+18	Buchhandlung	Buchhandlung	_	NN	_	_	_	_	_	173-185	w1c	Buchhandlung	I-PP	I-PP	*	O
+19	.	.	_	$.	_	_	_	_	_	186-187	w1d	.	_	I-PP	*	O
+20	1821	1821	_	CARD	_	_	_	_	_	188-192	w1e	1821	B-NP-insitu	B-NP	*	O
+21	.	.	_	$.	_	_	_	_	_	193-194	w1f	.	_	O	*	O
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# PTBstring = (VROOT(NP(ADJA ZWEITER)(NN ABSCHNITT.)(NN RECHTE)(NP(ART DER)(NN STAATEN)(KOMMA ,))(PP(APPR IN)(NN ABSICHT)(PP(APPR AUF)(ADJA FEINDLICHE)(NN VERHÄLTNISSE)(PUNKT .)))))
+# TopFString = (S(ADJA ZWEITER)(NN ABSCHNITT.)(NN RECHTE)(ART DER)(NN STAATEN)(KOMMA ,)(APPR IN)(NN ABSICHT)(APPR AUF)(ADJA FEINDLICHE)(NN VERHÄLTNISSE)(PUNKT .))
+# text = ZWEITER ABSCHNITT. RECHTE DER STAATEN , IN ABSICHT AUF FEINDLICHE VERHÄLTNISSE .
+1	ZWEITER	zweit	_	ADJA	_	_	_	_	_	196-203	w459a	ZWEITER	B-NP-insitu	B-NP	*	O
+2	ABSCHNITT.	ABSCHNITT.	_	NN	_	_	_	_	_	204-214	w459b,w459b_1	ABSCHNITT.	I-NP	I-NP	*	O
+3	RECHTE	Recht	_	NN	_	_	_	_	_	215-221	w459c	RECHTE	I-NP	I-NP	*	O
+4	DER	d	_	ART	_	_	_	_	_	222-225	w459d	Der	I-NP	I-NP	*	O
+5	STAATEN	Staat	_	NN	_	_	_	_	_	226-233	w459e	STAATEN	I-NP	I-NP	*	O
+6	,	,	_	$,	_	_	_	_	_	234-235	w459f	,	I-NP	I-NP	*	O
+7	IN	in	_	APPR	_	_	_	_	_	236-238	w45a0	IN	I-NP	I-NP	*	O
+8	ABSICHT	Absicht	_	NN	_	_	_	_	_	239-246	w45a1	ABSICHT	I-NP	I-NP	*	O
+9	AUF	auf	_	APPR	_	_	_	_	_	247-250	w45a2	Auf	I-NP	I-NP	*	O
+10	FEINDLICHE	feindlich	_	ADJA	_	_	_	_	_	251-261	w45a3	FEINDLICHE	I-NP	I-NP	*	O
+11	VERHÄLTNISSE	Verhältnis	_	NN	_	_	_	_	_	262-274	w45a4	VERHÄLTNISSE	I-NP	I-NP	*	O
+12	.	.	_	$.	_	_	_	_	_	275-276	w45a5	.	_	I-NP	*	O
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# PTBstring = (VROOT(NP(ADJA ERSTES)(NN CAPITEL))(PUNKT .))
+# TopFString = (S(ADJA ERSTES)(NN CAPITEL)(PUNKT .))
+# text = ERSTES CAPITEL .
+1	ERSTES	erst	_	ADJA	_	_	_	_	_	278-284	w45a6	ERSTES	B-NP-insitu	B-NP	*	O
+2	CAPITEL	Kapitel	_	NN	_	_	_	_	_	285-292	w45a7	Kapitel	I-NP	I-NP	*	O
+3	.	.	_	$.	_	_	_	_	_	293-294	w45a8	.	_	O	*	O
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# PTBstring = (VROOT(NP(NN RECHT)(NP(ART DES)(NN KRIEGS)))(PUNKT .))
+# TopFString = (S(NN RECHT)(ART DES)(NN KRIEGS)(PUNKT .))
+# text = RECHT DES KRIEGS .
+1	RECHT	recht	_	NN	_	_	_	_	_	296-301	w45a9	RECHT	B-NP-insitu	B-NP	*	O
+2	DES	d	_	ART	_	_	_	_	_	302-305	w45aa	Des	I-NP	I-NP	*	O
+3	KRIEGS	Krieg	_	NN	_	_	_	_	_	306-312	w45ab	KRIEGS	I-NP	I-NP	*	O
+4	.	.	_	$.	_	_	_	_	_	313-314	w45ac	.	_	O	*	O
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# PTBstring = (VROOT(NN §.)(NP(CARD 231.)(NN Verletzung)(NP(ART der)(NN Rechte)(NP(ART eines)(NN Staates)(PUNKT .)))))
+# TopFString = (S(NN §.)(CARD 231.)(NN Verletzung)(ART der)(NN Rechte)(ART eines)(NN Staates)(PUNKT .))
+# text = §. 231. Verletzung der Rechte eines Staates .
+1	§.	§.	_	NN	_	_	_	_	_	316-318	w45ad	§.	B-NP-insitu	B-NP	*	O
+2	231.	231.	_	CARD	_	_	_	_	_	319-323	w45ae	231.	B-NP-insitu	B-NP	*	O
+3	Verletzung	Verletzung	_	NN	_	_	_	_	_	324-334	w45af	Verletzung	I-NP	I-NP	*	O
+4	der	d	_	ART	_	_	_	_	_	335-338	w45b0	der	I-NP	I-NP	*	O
+5	Rechte	Rechte	_	NN	_	_	_	_	_	339-345	w45b1	Rechte	I-NP	I-NP	*	O
+6	eines	eine	_	ART	_	_	_	_	_	346-351	w45b2	eines	I-NP	I-NP	*	O
+7	Staates	Staat	_	NN	_	_	_	_	_	352-359	w45b3	Staates	I-NP	I-NP	*	O
+8	.	.	_	$.	_	_	_	_	_	360-361	w45b4	.	_	I-NP	*	O
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# PTBstring = (VROOT(NP(ADJA Feindliche)(NN Verhältnisse)(PP(APPR unter)(NN Staaten)(KOMMA ,))(S(VP(VVFIN ent-<lb/>stehen))(PP(APPR durch)(NN Rechtsverletzungen)(KOMMA ,)(CAP(ADJA wirkliche)(KON oder)(AP(ADJA drohende))))))(XY a)(KLAMMER RBR)(PUNKT .))
+# TopFString = (S(VF(ADJA Feindliche)(NN Verhältnisse)(APPR unter)(NN Staaten))(KOMMA ,)(LK(VVFIN ent-<lb/>stehen))(MF(APPR durch)(NN Rechtsverletzungen)(KOMMA ,)(ADJA wirkliche)(KON oder)(ADJA drohende)(XY a))(KLAMMER RBR)(PUNKT .))
+# text = Feindliche Verhältnisse unter Staaten , ent-<lb/>stehen durch Rechtsverletzungen , wirkliche oder drohende a ) .
+1	Feindliche	feindlich	_	ADJA	_	_	_	_	_	363-373	w20	Feindliche	B-NP-insitu	B-NP	*	B-VF
+2	Verhältnisse	Verhältnis	_	NN	_	_	_	_	_	374-386	w21	Verhältnisse	I-NP	I-NP	*	I-VF
+3	unter	unter	_	APPR	_	_	_	_	_	387-392	w22	unter	B-PP-insitu	B-PP	*	I-VF
+4	Staaten	Staat	_	NN	_	_	_	_	_	393-400	w23	Staaten	I-PP	I-PP	*	I-VF
+5	,	,	_	$,	_	_	_	_	_	401-402	w24	,	_	I-PP	*	O
+6	ent-<lb/>stehen	entstehen	_	VVFIN	_	_	_	_	_	403-418	w25	entstehen	_	O	*	B-LK
+7	durch	durch	_	APPR	_	_	_	_	_	419-424	w26	durch	B-PP-insitu	B-PP	*	B-MF
+8	Rechtsverletzungen	Rechtsverletzung	_	NN	_	_	_	_	_	425-443	w27	Rechtsverletzungen	I-PP	I-PP	*	I-MF
+9	,	,	_	$,	_	_	_	_	_	444-445	w28	,	I-PP	I-PP	*	I-MF
+10	wirkliche	wirklich	_	ADJA	_	_	_	_	_	446-455	w29	wirkliche	I-PP	I-PP	*	I-MF
+11	oder	oder	_	KON	_	_	_	_	_	456-460	w2a	oder	I-PP	I-PP	*	I-MF
+12	drohende	drohend	_	ADJA	_	_	_	_	_	461-469	w2b	drohende	I-PP	I-PP	*	I-MF
+13	a	A	_	XY	_	_	_	_	_	470-471	w2c	a	_	O	*	I-MF
+14	)	)	_	$(	_	_	_	_	_	472-473	w2d	)	_	O	*	O
+15	.	.	_	$.	_	_	_	_	_	474-475	w2e	.	_	O	*	O
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# PTBstring = (VROOT(S(NP(ART Die)(NN Rechte)(NP(ART der)(NN Staaten)))(VP(VAFIN werden))(VP(VVPP verletzt)(PP(APPR auf)(PDAT dieselbe)(NN Art)(KOMMA ,)(NP(KOKOM wie)(ART die)(NN Rechte)(NP(ADJA ein-<lb/>zelner)(NN Menschen)(PUNKT .)))))))
+# TopFString = (S(VF(ART Die)(NN Rechte)(ART der)(NN Staaten))(LK(VAFIN werden))(VC(VVPP verletzt))(NF(APPR auf)(PDAT dieselbe)(NN Art)(KOMMA ,)(KOKOM wie)(ART die)(NN Rechte)(ADJA ein-<lb/>zelner)(NN Menschen))(PUNKT .))
+# text = Die Rechte der Staaten werden verletzt auf dieselbe Art , wie die Rechte ein-<lb/>zelner Menschen .
+1	Die	d	_	ART	_	_	_	_	_	477-480	w2f	Die	B-NP-insitu	B-NP	*	B-VF
+2	Rechte	Rechte	_	NN	_	_	_	_	_	481-487	w30	Rechte	I-NP	I-NP	*	I-VF
+3	der	d	_	ART	_	_	_	_	_	488-491	w31	der	I-NP	I-NP	*	I-VF
+4	Staaten	Staat	_	NN	_	_	_	_	_	492-499	w32	Staaten	I-NP	I-NP	*	I-VF
+5	werden	werden	_	VAFIN	_	_	_	_	_	500-506	w33	werden	_	O	*	B-LK
+6	verletzt	verletzen	_	VVPP	_	_	_	_	_	507-515	w34	verletzt	_	O	*	B-RK
+7	auf	auf	_	APPR	_	_	_	_	_	516-519	w35	auf	B-PP-extrap	B-PP	*	B-NF
+8	dieselbe	dieselbe	_	PDAT	_	_	_	_	_	520-528	w36	dieselbe	I-PP	I-PP	*	I-NF
+9	Art	Art	_	NN	_	_	_	_	_	529-532	w37	Art	I-PP	I-PP	*	I-NF
+10	,	,	_	$,	_	_	_	_	_	533-534	w38	,	I-PP	I-PP	*	I-NF
+11	wie	wie	_	KOKOM	_	_	_	_	_	535-538	w39	wie	I-PP	I-PP	*	I-NF
+12	die	d	_	ART	_	_	_	_	_	539-542	w3a	die	I-PP	I-PP	*	I-NF
+13	Rechte	Rechte	_	NN	_	_	_	_	_	543-549	w3b	Rechte	I-PP	I-PP	*	I-NF
+14	ein-<lb/>zelner	einzeln	_	ADJA	_	_	_	_	_	550-565	w3c	einzelner	I-PP	I-PP	*	I-NF
+15	Menschen	Mensch	_	NN	_	_	_	_	_	566-574	w3d	Menschen	I-PP	I-PP	*	I-NF
+16	.	.	_	$.	_	_	_	_	_	575-576	w3e	.	_	I-PP	*	O
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# PTBstring = (VROOT(S(VP(VVPP Verletzt))(VP(VAFIN werden))(NP(PPER sie))(CO(KON entweder)(ADJD unmittelbar)(KOMMA ,)(KON oder)(ADJD mittelbar)))(PUNKT ;)(S(NP(PDS jenes))(KOMMA ,)(S(KOUS wenn)(NP(ART die)(NN Beleidigung)(NP(ART der)(NN Gesammtheit)(NP(ART des)(NN Staates)(KOMMA ,)))(NP(PDS die-<lb/>ses)(KOMMA ,)(S:RC(KOUS wenn)(NP(PPER sie))(NP(ADJA einzelnen)(NN Mitgliedern))(NP(PDS desselben))(VP(VVPP zugefügt))(VP(VAFIN wird))(KOMMA ,))))(CPP(PP(APPR von)(ART der)(NN Gesammtheit)(NP(ART des)(ADJA andern)(NN Staates)(KOMMA ,)))(KON oder)(PP(APPR von)(ADJA einzelnen)(NN Mitgliedern)))(VP(PDS dessel-<lb/>ben))(KOMMA ,))(AP(ADV so)(ADJD fern))(PP(PAV hieran))(NP(ART der)(ADJA gegenseitige)(NN Staat))(PP(APPR auf)(AP(ADV irgend)(NM(ART eine)(NN Art))))(SVP(PTKVZ Theil))(VP(VVFIN nimmt)))(XY b)(KLAMMER RBR)(PUNKT .))
+# TopFString = (S(VF(VC(VVPP Verletzt)))(LK(VAFIN werden))(MF(PPER sie)(KON entweder)(ADJD unmittelbar)(KOMMA ,)(KON oder)(ADJD mittelbar))(PUNKT ;)(PDS jenes)(KOMMA ,)(C(KOUS wenn))(MF(ART die)(NN Beleidigung)(ART der)(NN Gesammtheit)(ART des)(NN Staates)(KOMMA ,)(PDS die-<lb/>ses)(KOMMA ,)(C(KOUS wenn))(MF(PPER sie)(ADJA einzelnen)(NN Mitgliedern)(PDS desselben))(VC(VVPP zugefügt)(VAFIN wird))(KOMMA ,)(APPR von)(ART der)(NN Gesammtheit)(ART des)(ADJA andern)(NN Staates)(KOMMA ,)(KON oder)(APPR von)(ADJA einzelnen)(NN Mitgliedern)(PDS dessel-<lb/>ben)(KOMMA ,)(ADV so)(ADJD fern)(PAV hieran)(ART der)(ADJA gegenseitige)(NN Staat)(APPR auf)(ADV irgend)(ART eine)(NN Art))(VC(PTKVZ Theil)(VVFIN nimmt))(XY b)(KLAMMER RBR)(PUNKT .))
+# text = Verletzt werden sie entweder unmittelbar , oder mittelbar ; jenes , wenn die Beleidigung der Gesammtheit des Staates , die-<lb/>ses , wenn sie einzelnen Mitgliedern desselben zugefügt wird , von der Gesammtheit des andern Staates , oder von einzelnen Mitgliedern dessel-<lb/>ben , so fern hieran der gegenseitige Staat auf irgend eine Art Theil nimmt b ) .
+1	Verletzt	verletzen	_	VVPP	_	_	_	_	_	578-586	w3f	Verletzt	_	O	*	B-VF|B-RK
+2	werden	werden	_	VAFIN	_	_	_	_	_	587-593	w40	werden	_	O	*	B-LK
+3	sie	sie	_	PPER	_	_	_	_	_	594-597	w41	sie	B-NP-insitu	B-NP	*	B-MF
+4	entweder	entweder	_	KON	_	_	_	_	_	598-606	w42	entweder	_	O	*	I-MF
+5	unmittelbar	unmittelbar	_	ADJD	_	_	_	_	_	607-618	w43	unmittelbar	B-AP-insitu	B-AP	*	I-MF
+6	,	,	_	$,	_	_	_	_	_	619-620	w44	,	_	O	*	I-MF
+7	oder	oder	_	KON	_	_	_	_	_	621-625	w45	oder	_	O	*	I-MF
+8	mittelbar	mittelbar	_	ADJD	_	_	_	_	_	626-635	w46	mittelbar	B-AP-insitu	B-AP	*	I-MF
+9	;	;	_	$.	_	_	_	_	_	636-637	w47	;	_	O	*	O
+10	jenes	jene	_	PDS	_	_	_	_	_	638-643	w48	jenes	B-NP-insitu	B-NP	*	O
+11	,	,	_	$,	_	_	_	_	_	644-645	w49	,	_	O	*	O
+12	wenn	wenn	_	KOUS	_	_	_	_	_	646-650	w4a	wenn	_	O	*	B-LK
+13	die	d	_	ART	_	_	_	_	_	651-654	w4b	die	B-NP-insitu	B-NP	*	B-MF
+14	Beleidigung	Beleidigung	_	NN	_	_	_	_	_	655-666	w4c	Beleidigung	I-NP	I-NP	*	I-MF
+15	der	d	_	ART	_	_	_	_	_	667-670	w4d	der	I-NP	I-NP	*	I-MF
+16	Gesammtheit	Gesamtheit	_	NN	_	_	_	_	_	671-682	w4e	Gesamtheit	I-NP	I-NP	*	I-MF
+17	des	d	_	ART	_	_	_	_	_	683-686	w4f	des	I-NP	I-NP	*	I-MF
+18	Staates	Staat	_	NN	_	_	_	_	_	687-694	w50	Staates	I-NP	I-NP	*	I-MF
+19	,	,	_	$,	_	_	_	_	_	695-696	w51	,	I-NP	I-NP	*	I-MF
+20	die-<lb/>ses	diese	_	PDS	_	_	_	_	_	697-709	w52	dieses	I-NP	I-NP	*	I-MF
+21	,	,	_	$,	_	_	_	_	_	710-711	w53	,	I-NP	I-NP	*	I-MF
+22	wenn	wenn	_	KOUS	_	_	_	_	_	712-716	w54	wenn	I-NP	I-NP	*	I-MF|B-LK
+23	sie	sie	_	PPER	_	_	_	_	_	717-720	w55	sie	I-NP|B-NP-insitu	I-NP	*	I-MF|B-MF
+24	einzelnen	einzeln	_	ADJA	_	_	_	_	_	721-730	w56	einzelnen	I-NP|B-NP-insitu	I-NP	*	I-MF|I-MF
+25	Mitgliedern	Mitglied	_	NN	_	_	_	_	_	731-742	w57	Mitgliedern	I-NP|I-NP	I-NP	*	I-MF|I-MF
+26	desselben	dieselbe	_	PDS	_	_	_	_	_	743-752	w58	desselben	I-NP|B-NP-insitu	I-NP	*	I-MF|I-MF
+27	zugefügt	zufügen	_	VVPP	_	_	_	_	_	753-761	w59	zugefügt	I-NP	I-NP	*	I-MF|B-RK
+28	wird	werden	_	VAFIN	_	_	_	_	_	762-766	w5a	wird	I-NP	I-NP	*	I-MF|I-RK
+29	,	,	_	$,	_	_	_	_	_	767-768	w5b	,	_	I-NP	*	I-MF
+30	von	von	_	APPR	_	_	_	_	_	769-772	w5c	von	B-PP-insitu	B-PP	*	I-MF
+31	der	d	_	ART	_	_	_	_	_	773-776	w5d	der	I-PP	I-PP	*	I-MF
+32	Gesammtheit	Gesamtheit	_	NN	_	_	_	_	_	777-788	w5e	Gesamtheit	I-PP	I-PP	*	I-MF
+33	des	d	_	ART	_	_	_	_	_	789-792	w5f	des	I-PP	I-PP	*	I-MF
+34	andern	ander	_	ADJA	_	_	_	_	_	793-799	w60	anderen	I-PP	I-PP	*	I-MF
+35	Staates	Staat	_	NN	_	_	_	_	_	800-807	w61	Staates	I-PP	I-PP	*	I-MF
+36	,	,	_	$,	_	_	_	_	_	808-809	w62	,	I-PP	I-PP	*	I-MF
+37	oder	oder	_	KON	_	_	_	_	_	810-814	w63	oder	I-PP	I-PP	*	I-MF
+38	von	von	_	APPR	_	_	_	_	_	815-818	w64	von	I-PP	I-PP	*	I-MF
+39	einzelnen	einzeln	_	ADJA	_	_	_	_	_	819-828	w65	einzelnen	I-PP	I-PP	*	I-MF
+40	Mitgliedern	Mitglied	_	NN	_	_	_	_	_	829-840	w66	Mitgliedern	I-PP	I-PP	*	I-MF
+41	dessel-<lb/>ben	dieselbe	_	PDS	_	_	_	_	_	841-856	w67	desselben	B-NP-insitu	B-NP	*	I-MF
+42	,	,	_	$,	_	_	_	_	_	857-858	w68	,	_	O	*	I-MF
+43	so	so	_	ADV	_	_	_	_	_	859-861	w69	so	B-AP-insitu	B-AP	*	I-MF
+44	fern	fern	_	ADJD	_	_	_	_	_	862-866	w6a	fern	I-AP	I-AP	*	I-MF
+45	hieran	hieran	_	PAV	_	_	_	_	_	867-873	w6b	hieran	B-PP-insitu	B-PP	*	I-MF
+46	der	d	_	ART	_	_	_	_	_	874-877	w6c	der	B-NP-insitu	B-NP	*	I-MF
+47	gegenseitige	gegenseitig	_	ADJA	_	_	_	_	_	878-890	w6d	gegenseitige	I-NP	I-NP	*	I-MF
+48	Staat	Staat	_	NN	_	_	_	_	_	891-896	w6e	Staat	I-NP	I-NP	*	I-MF
+49	auf	auf	_	APPR	_	_	_	_	_	897-900	w6f	auf	B-PP-insitu	B-PP	*	I-MF
+50	irgend	irgend	_	ADV	_	_	_	_	_	901-907	w70	irgend	I-PP	I-PP	*	I-MF
+51	eine	eine	_	ART	_	_	_	_	_	908-912	w71	eine	I-PP	I-PP	*	I-MF
+52	Art	Art	_	NN	_	_	_	_	_	913-916	w72	Art	I-PP	I-PP	*	I-MF
+53	Theil	Teil	_	PTKVZ	_	_	_	_	_	917-922	w73	Teil	_	O	*	B-RK
+54	nimmt	nehmen	_	VVFIN	_	_	_	_	_	923-928	w74	nimmt	_	O	*	I-RK
+55	b	b	_	XY	_	_	_	_	_	929-930	w75	b	_	O	*	O
+56	)	)	_	$(	_	_	_	_	_	931-932	w76	)	_	O	*	O
+57	.	.	_	$.	_	_	_	_	_	933-934	w77	.	_	O	*	O
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# PTBstring = (VROOT(S(PP(APPR In)(NN Absicht)(PP(APPR auf)(ADJA feindliche)(NN Verhältnisse)(KOMMA ,)))(VP(VAFIN ist))(NP(ART die)(NN Aufgabe)(PUNKT :))(VZ(PTKZU zu)(VVINF be-<lb/>stimmen))(NP(ART das)(NN Recht)(NP(ART der)(NN Staaten)(KOMMA ,))(NP(PN(CPP(PP(APPR zu)(ART dem)(NN Krieg)(KOMMA ,))(PP(APPR in)(ART dem)(NN Krieg)(KOMMA ,))(PP(APPR nach)(ART dem)(NN Krieg))))(XY c)(KLAMMER RBR))))(PUNKT .))
+# TopFString = (S(VF(APPR In)(NN Absicht)(APPR auf)(ADJA feindliche)(NN Verhältnisse))(KOMMA ,)(LK(VAFIN ist))(MF(ART die)(NN Aufgabe))(PUNKT :)(VC(PTKZU zu)(VVINF be-<lb/>stimmen))(ART das)(NN Recht)(ART der)(NN Staaten)(KOMMA ,)(APPR zu)(ART dem)(NN Krieg)(KOMMA ,)(APPR in)(ART dem)(NN Krieg)(KOMMA ,)(APPR nach)(ART dem)(NN Krieg)(XY c)(KLAMMER RBR)(PUNKT .))
+# text = In Absicht auf feindliche Verhältnisse , ist die Aufgabe : zu be-<lb/>stimmen das Recht der Staaten , zu dem Krieg , in dem Krieg , nach dem Krieg c ) .
+1	In	in	_	APPR	_	_	_	_	_	936-938	w78	In	B-PP-insitu	B-PP	*	B-VF
+2	Absicht	Absicht	_	NN	_	_	_	_	_	939-946	w79	Absicht	I-PP	I-PP	*	I-VF
+3	auf	auf	_	APPR	_	_	_	_	_	947-950	w7a	auf	I-PP	I-PP	*	I-VF
+4	feindliche	feindlich	_	ADJA	_	_	_	_	_	951-961	w7b	feindliche	I-PP	I-PP	*	I-VF
+5	Verhältnisse	Verhältnis	_	NN	_	_	_	_	_	962-974	w7c	Verhältnisse	I-PP	I-PP	*	I-VF
+6	,	,	_	$,	_	_	_	_	_	975-976	w7d	,	_	I-PP	*	O
+7	ist	sein	_	VAFIN	_	_	_	_	_	977-980	w7e	ist	_	O	*	B-LK
+8	die	d	_	ART	_	_	_	_	_	981-984	w7f	die	B-NP-insitu	B-NP	*	B-MF
+9	Aufgabe	Aufgabe	_	NN	_	_	_	_	_	985-992	w80	Aufgabe	I-NP	I-NP	*	I-MF
+10	:	:	_	$.	_	_	_	_	_	993-994	w81	:	_	I-NP	*	O
+11	zu	zu	_	PTKZU	_	_	_	_	_	995-997	w82	zu	_	O	*	B-RK
+12	be-<lb/>stimmen	bestimmen	_	VVINF	_	_	_	_	_	998-1013	w83	bestimmen	_	O	*	I-RK
+13	das	d	_	ART	_	_	_	_	_	1014-1017	w84	das	B-NP-insitu	B-NP	*	O
+14	Recht	Recht	_	NN	_	_	_	_	_	1018-1023	w85	Recht	I-NP	I-NP	*	O
+15	der	d	_	ART	_	_	_	_	_	1024-1027	w86	der	I-NP	I-NP	*	O
+16	Staaten	Staat	_	NN	_	_	_	_	_	1028-1035	w87	Staaten	I-NP	I-NP	*	O
+17	,	,	_	$,	_	_	_	_	_	1036-1037	w88	,	I-NP	I-NP	*	O
+18	zu	zu	_	APPR	_	_	_	_	_	1038-1040	w89	zu	I-NP	I-NP	*	O
+19	dem	d	_	ART	_	_	_	_	_	1041-1044	w8a	dem	I-NP	I-NP	*	O
+20	Krieg	Krieg	_	NN	_	_	_	_	_	1045-1050	w8b	Krieg	I-NP	I-NP	*	O
+21	,	,	_	$,	_	_	_	_	_	1051-1052	w8c	,	I-NP	I-NP	*	O
+22	in	in	_	APPR	_	_	_	_	_	1053-1055	w8d	in	I-NP	I-NP	*	O
+23	dem	d	_	ART	_	_	_	_	_	1056-1059	w8e	dem	I-NP	I-NP	*	O
+24	Krieg	Krieg	_	NN	_	_	_	_	_	1060-1065	w8f	Krieg	I-NP	I-NP	*	O
+25	,	,	_	$,	_	_	_	_	_	1066-1067	w90	,	I-NP	I-NP	*	O
+26	nach	nach	_	APPR	_	_	_	_	_	1068-1072	w91	nach	I-NP	I-NP	*	O
+27	dem	d	_	ART	_	_	_	_	_	1073-1076	w92	dem	I-NP	I-NP	*	O
+28	Krieg	Krieg	_	NN	_	_	_	_	_	1077-1082	w93	Krieg	I-NP	I-NP	*	O
+29	c	c	_	XY	_	_	_	_	_	1083-1084	w94	c	I-NP	I-NP	*	O
+30	)	)	_	$(	_	_	_	_	_	1085-1086	w95	)	_	I-NP	*	O
+31	.	.	_	$.	_	_	_	_	_	1087-1088	w96	.	_	O	*	O
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# PTBstring = (VROOT(S(PP(APPR Von)(NN Ansprüchen)(KLAMMER LBR)(NN Prätensionen)(KLAMMER RBR))(VP(VVIMP s.))(CAVP(AVP(PP(APPR v.)(NP(NE Ompteda’s)(NN Lit.))(ADJA II.)(ADJA 605.)(CH(FM Neyron)(FM principes)(FM du)(FM droit)(FM des)(FM gens)(KOMMA ,))(NP(NN §.)(CARD 298.)))(ADV sqq.)(KOMMA ,))(KON und)(ADV oben))(NP(PN(CNP(NP(NN §.)(CARD 25)(KOMMA ,))(NN Note)))(XY b)(PUNKT .))))
+# TopFString = (S(VF(APPR Von)(NN Ansprüchen)(KLAMMER LBR)(NN Prätensionen))(KLAMMER RBR)(LK(VVIMP s.))(MF(APPR v.)(NE Ompteda’s)(NN Lit.)(ADJA II.)(ADJA 605.)(FM Neyron)(FM principes)(FM du)(FM droit)(FM des)(FM gens)(KOMMA ,)(NN §.)(CARD 298.)(ADV sqq.))(KOMMA ,)(KON und)(ADV oben)(NN §.)(CARD 25)(KOMMA ,)(NN Note)(XY b)(PUNKT .))
+# text = Von Ansprüchen ( Prätensionen ) s. v. Ompteda’s Lit. II. 605. Neyron principes du droit des gens , §. 298. sqq. , und oben §. 25 , Note b .
+1	Von	von	_	APPR	_	_	_	_	_	1090-1093	w45b5	Von	B-PP-insitu	B-PP	*	B-VF
+2	Ansprüchen	Anspruch	_	NN	_	_	_	_	_	1094-1104	w45b6	Ansprüchen	I-PP	I-PP	*	I-VF
+3	(	(	_	$(	_	_	_	_	_	1105-1106	w45b7	(	I-PP	I-PP	*	I-VF
+4	Prätensionen	Prätention	_	NN	_	_	_	_	_	1107-1119	w45b8	Prätentionen	I-PP	I-PP	*	I-VF
+5	)	)	_	$(	_	_	_	_	_	1120-1121	w45b9	)	_	I-PP	*	O
+6	s.	s.	_	VVIMP	_	_	_	_	_	1122-1124	w45ba	s.	_	O	*	B-LK
+7	v.	v.	_	APPR	_	_	_	_	_	1125-1127	w45bb	v.	B-ADVP-insitu	B-ADVP	*	B-MF
+8	Ompteda’s	Ompteda	_	NE	_	_	_	_	_	1128-1137	w45bc,w45bc_1	Ompteda's	I-ADVP	I-ADVP	*	I-MF
+9	Lit.	Lit.	_	NN	_	_	_	_	_	1138-1142	w45bd	Lit.	I-ADVP	I-ADVP	*	I-MF
+10	II.	Ii.	_	ADJA	_	_	_	_	_	1143-1146	w45be	II.	I-ADVP	I-ADVP	*	I-MF
+11	605.	605.	_	ADJA	_	_	_	_	_	1147-1151	w45bf	605.	I-ADVP	I-ADVP	*	I-MF
+12	Neyron	Neyron	_	FM	_	_	_	_	_	1152-1158	w45c0	Neyron	I-ADVP	I-ADVP	*	I-MF
+13	principes	Principes	_	FM	_	_	_	_	_	1159-1168	w45c1	principes	I-ADVP	I-ADVP	*	I-MF
+14	du	Du	_	FM	_	_	_	_	_	1169-1171	w45c2	du	I-ADVP	I-ADVP	*	I-MF
+15	droit	Droit	_	FM	_	_	_	_	_	1172-1177	w45c3	droit	I-ADVP	I-ADVP	*	I-MF
+16	des	d	_	FM	_	_	_	_	_	1178-1181	w45c4	des	I-ADVP	I-ADVP	*	I-MF
+17	gens	Gens	_	FM	_	_	_	_	_	1182-1186	w45c5	gens	I-ADVP	I-ADVP	*	I-MF
+18	,	,	_	$,	_	_	_	_	_	1187-1188	w45c6	,	I-ADVP	I-ADVP	*	I-MF
+19	§.	§.	_	NN	_	_	_	_	_	1189-1191	w45c7	§.	I-ADVP	I-ADVP	*	I-MF
+20	298.	298.	_	CARD	_	_	_	_	_	1192-1196	w45c8	298.	I-ADVP	I-ADVP	*	I-MF
+21	sqq.	Sqq.	_	ADV	_	_	_	_	_	1197-1201	w45c9	sqq.	I-ADVP	I-ADVP	*	I-MF
+22	,	,	_	$,	_	_	_	_	_	1202-1203	w45ca	,	_	I-ADVP	*	O
+23	und	und	_	KON	_	_	_	_	_	1204-1207	w45cb	und	_	O	*	O
+24	oben	oben	_	ADV	_	_	_	_	_	1208-1212	w45cc	oben	_	O	*	O
+25	§.	§.	_	NN	_	_	_	_	_	1213-1215	w45cd	§.	B-NP-insitu	B-NP	*	O
+26	25	25	_	CARD	_	_	_	_	_	1216-1218	w45ce	25	I-NP	I-NP	*	O
+27	,	,	_	$,	_	_	_	_	_	1219-1220	w45cf	,	I-NP	I-NP	*	O
+28	Note	Note	_	NN	_	_	_	_	_	1221-1225	w45d0	Note	I-NP	I-NP	*	O
+29	b	b	_	XY	_	_	_	_	_	1226-1227	w45d1	b	I-NP	I-NP	*	O
+30	.	.	_	$.	_	_	_	_	_	1228-1229	w45d2	.	_	I-NP	*	O
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# PTBstring = (VROOT(NP(PP(APPRART Z.)(NN B.))(AP(PP(APPR durch)(CNP(NN Ermächtigung)(KON oder)(NP(NN Anreizung)(PP(APPR zu)(ART der)(NN Rechts-<lb/>verletzung)(KOMMA ,)(PP(APPR durch)(ADJA widerrechtliche)(CNP(NN Verzögerung)(KON oder)(NN Verwei-<lb/>gerung))(NP(ART der)(ADJA geforderten)(NN Genugthuung)(KOMMA ,)(CS(S(AVP(ADV insbesondere))(KOUS wenn)(NP(PPOSAT seine)(NN Mitglieder))(NP(NN Räubereien))(VP(VVPP getrieben))(KOMMA ,))(S(KOUS wenn)(NP(NP(PPOSAT seine)(CNP(NN Caper)(KON oder)(NN FreiCorps)))(NN Excesse)(PP(APPR gegen)(ART ein)(AP(PTKNEG nicht)(ADJA feindliches))(NN Volk)))(VP(VVPP be-<lb/>gangen))(VP(VAFIN haben))(KOMMA ,))(S(KOUS wenn)(NP(PPOSAT sein)(NN Regent)(NP(KOKOM als)(NN Privatperson)))(VP(NP(ART den)(ADJA an-<lb/>dern)(NN Staat))(VVPP beleidigt))(VP(VAFIN hat.))(S(NP(NN Schrodt)(PN(FM syst.)(FM juris)(FM gent.)(FM p.)(CARD 49.)))(AVP(ADV sqq.))(NP(PN(NE Jo.)(NE Pet.))(PP(APPR de)(NE Ludewig)(CH(FM diss.)(FM de)(FM juris)(FM gentium)(FM laesione)(PUNKT .))(PN(NP(NN Hal.)(CARD 1741)(PUNKT .))))))))))))))(ADJA 4.))(PN(FM Obss.)(FM select.)(FM Halens.)(CARD T.)(CARD VII.)(FM obs.))(NM(CARD 6.)(CARD 7.))))
+# TopFString = (S(APPRART Z.)(NN B.)(APPR durch)(NN Ermächtigung)(KON oder)(NN Anreizung)(APPR zu)(ART der)(NN Rechts-<lb/>verletzung)(KOMMA ,)(APPR durch)(ADJA widerrechtliche)(NN Verzögerung)(KON oder)(NN Verwei-<lb/>gerung)(ART der)(ADJA geforderten)(NN Genugthuung)(KOMMA ,)(ADV insbesondere)(C(KOUS wenn))(MF(PPOSAT seine)(NN Mitglieder)(NN Räubereien))(VC(VVPP getrieben))(KOMMA ,)(NF(C(KOUS wenn))(MF(PPOSAT seine)(NN Caper)(KON oder)(NN FreiCorps)(NN Excesse)(APPR gegen)(ART ein)(PTKNEG nicht)(ADJA feindliches)(NN Volk))(VC(VVPP be-<lb/>gangen)(VAFIN haben))(KOMMA ,)(NF(C(KOUS wenn))(MF(PPOSAT sein)(NN Regent)(KOKOM als)(NN Privatperson)(ART den)(ADJA an-<lb/>dern)(NN Staat))(VC(VVPP beleidigt)(VAFIN hat.))))(NN Schrodt)(FM syst.)(FM juris)(FM gent.)(FM p.)(CARD 49.)(ADV sqq.)(NE Jo.)(NE Pet.)(APPR de)(NE Ludewig)(FM diss.)(FM de)(FM juris)(FM gentium)(FM laesione)(PUNKT .)(NN Hal.)(CARD 1741)(PUNKT .)(ADJA 4.)(FM Obss.)(FM select.)(FM Halens.)(CARD T.)(CARD VII.)(FM obs.)(CARD 6.)(CARD 7.))
+# text = Z. B. durch Ermächtigung oder Anreizung zu der Rechts-<lb/>verletzung , durch widerrechtliche Verzögerung oder Verwei-<lb/>gerung der geforderten Genugthuung , insbesondere wenn seine Mitglieder Räubereien getrieben , wenn seine Caper oder FreiCorps Excesse gegen ein nicht feindliches Volk be-<lb/>gangen haben , wenn sein Regent als Privatperson den an-<lb/>dern Staat beleidigt hat. Schrodt syst. juris gent. p. 49. sqq. Jo. Pet. de Ludewig diss. de juris gentium laesione . Hal. 1741 . 4. Obss. select. Halens. T. VII. obs. 6. 7.
+1	Z.	Z.	_	APPRART	_	_	_	_	_	1231-1233	w45d3	Z.	B-NP-insitu	B-NP	*	O
+2	B.	B.	_	NN	_	_	_	_	_	1234-1236	w45d4	B.	I-NP	I-NP	*	O
+3	durch	durch	_	APPR	_	_	_	_	_	1237-1242	w45d5	durch	I-NP	I-NP	*	O
+4	Ermächtigung	Ermächtigung	_	NN	_	_	_	_	_	1243-1255	w45d6	Ermächtigung	I-NP	I-NP	*	O
+5	oder	oder	_	KON	_	_	_	_	_	1256-1260	w45d7	oder	I-NP	I-NP	*	O
+6	Anreizung	Anreizung	_	NN	_	_	_	_	_	1261-1270	w45d8	Anreizung	I-NP	I-NP	*	O
+7	zu	zu	_	APPR	_	_	_	_	_	1271-1273	w45d9	zu	I-NP	I-NP	*	O
+8	der	d	_	ART	_	_	_	_	_	1274-1277	w45da	der	I-NP	I-NP	*	O
+9	Rechts-<lb/>verletzung	Rechtsverletzung	_	NN	_	_	_	_	_	1278-1300	w45db	Rechtsverletzung	I-NP	I-NP	*	O
+10	,	,	_	$,	_	_	_	_	_	1301-1302	w45dc	,	I-NP	I-NP	*	O
+11	durch	durch	_	APPR	_	_	_	_	_	1303-1308	w45dd	durch	I-NP	I-NP	*	O
+12	widerrechtliche	widerrechtlich	_	ADJA	_	_	_	_	_	1309-1324	w45de	widerrechtliche	I-NP	I-NP	*	O
+13	Verzögerung	Verzögerung	_	NN	_	_	_	_	_	1325-1336	w45df	Verzögerung	I-NP	I-NP	*	O
+14	oder	oder	_	KON	_	_	_	_	_	1337-1341	w45e0	oder	I-NP	I-NP	*	O
+15	Verwei-<lb/>gerung	Verweigerung	_	NN	_	_	_	_	_	1342-1360	w45e1	Verweigerung	I-NP	I-NP	*	O
+16	der	d	_	ART	_	_	_	_	_	1361-1364	w45e2	der	I-NP	I-NP	*	O
+17	geforderten	gefordert	_	ADJA	_	_	_	_	_	1365-1376	w45e3	geforderten	I-NP	I-NP	*	O
+18	Genugthuung	Genugtuung	_	NN	_	_	_	_	_	1377-1388	w45e4	Genugtuung	I-NP	I-NP	*	O
+19	,	,	_	$,	_	_	_	_	_	1389-1390	w45e5	,	I-NP	I-NP	*	O
+20	insbesondere	insbesondere	_	ADV	_	_	_	_	_	1391-1403	w45e6	insbesondere	I-NP	I-NP	*	O
+21	wenn	wenn	_	KOUS	_	_	_	_	_	1404-1408	w45e7	wenn	I-NP	I-NP	*	B-LK
+22	seine	seine	_	PPOSAT	_	_	_	_	_	1409-1414	w45e8	seine	I-NP|B-NP-insitu	I-NP	*	B-MF
+23	Mitglieder	Mitglied	_	NN	_	_	_	_	_	1415-1425	w45e9	Mitglieder	I-NP|I-NP	I-NP	*	I-MF
+24	Räubereien	Räuberei	_	NN	_	_	_	_	_	1426-1436	w45ea	Räubereien	I-NP|B-NP-insitu	I-NP	*	I-MF
+25	getrieben	treiben	_	VVPP	_	_	_	_	_	1437-1446	w45eb	getrieben	I-NP	I-NP	*	B-RK
+26	,	,	_	$,	_	_	_	_	_	1447-1448	w45ec	,	I-NP	I-NP	*	O
+27	wenn	wenn	_	KOUS	_	_	_	_	_	1449-1453	w45ed	wenn	I-NP	I-NP	*	B-NF|B-LK
+28	seine	seine	_	PPOSAT	_	_	_	_	_	1454-1459	w45ee	seine	I-NP|B-NP-insitu	I-NP	*	I-NF|B-MF
+29	Caper	Kaper	_	NN	_	_	_	_	_	1460-1465	w45ef	Kaper	I-NP|I-NP	I-NP	*	I-NF|I-MF
+30	oder	oder	_	KON	_	_	_	_	_	1466-1470	w45f0	oder	I-NP|I-NP	I-NP	*	I-NF|I-MF
+31	FreiCorps	Freikorps	_	NN	_	_	_	_	_	1471-1480	w45f1	Freikorps	I-NP|I-NP	I-NP	*	I-NF|I-MF
+32	Excesse	Exzeß	_	NN	_	_	_	_	_	1481-1488	w45f2	Exzesse	I-NP|I-NP	I-NP	*	I-NF|I-MF
+33	gegen	gegen	_	APPR	_	_	_	_	_	1489-1494	w45f3	gegen	I-NP|I-NP	I-NP	*	I-NF|I-MF
+34	ein	eine	_	ART	_	_	_	_	_	1495-1498	w45f4	ein	I-NP|I-NP	I-NP	*	I-NF|I-MF
+35	nicht	nicht	_	PTKNEG	_	_	_	_	_	1499-1504	w45f5	nicht	I-NP|I-NP	I-NP	*	I-NF|I-MF
+36	feindliches	feindlich	_	ADJA	_	_	_	_	_	1505-1516	w45f6	feindliches	I-NP|I-NP	I-NP	*	I-NF|I-MF
+37	Volk	Volk	_	NN	_	_	_	_	_	1517-1521	w45f7	Volk	I-NP|I-NP	I-NP	*	I-NF|I-MF
+38	be-<lb/>gangen	begehen	_	VVPP	_	_	_	_	_	1522-1536	w45f8	begangen	I-NP	I-NP	*	I-NF|B-RK
+39	haben	haben	_	VAFIN	_	_	_	_	_	1537-1542	w45f9	haben	I-NP	I-NP	*	I-NF|I-RK
+40	,	,	_	$,	_	_	_	_	_	1543-1544	w45fa	,	I-NP	I-NP	*	I-NF
+41	wenn	wenn	_	KOUS	_	_	_	_	_	1545-1549	w45fb	wenn	I-NP	I-NP	*	I-NF|B-NF|B-LK
+42	sein	sein	_	PPOSAT	_	_	_	_	_	1550-1554	w45fc	sein	I-NP|B-NP-insitu	I-NP	*	I-NF|I-NF|B-MF
+43	Regent	Regent	_	NN	_	_	_	_	_	1555-1561	w45fd	Regent	I-NP|I-NP	I-NP	*	I-NF|I-NF|I-MF
+44	als	als	_	KOKOM	_	_	_	_	_	1562-1565	w45fe	als	I-NP|I-NP	I-NP	*	I-NF|I-NF|I-MF
+45	Privatperson	Privatperson	_	NN	_	_	_	_	_	1566-1578	w45ff	Privatperson	I-NP|I-NP	I-NP	*	I-NF|I-NF|I-MF
+46	den	d	_	ART	_	_	_	_	_	1579-1582	w4600	den	I-NP|B-NP-insitu	I-NP	*	I-NF|I-NF|I-MF
+47	an-<lb/>dern	ander	_	ADJA	_	_	_	_	_	1583-1595	w4601	anderen	I-NP|I-NP	I-NP	*	I-NF|I-NF|I-MF
+48	Staat	Staat	_	NN	_	_	_	_	_	1596-1601	w4602	Staat	I-NP|I-NP	I-NP	*	I-NF|I-NF|I-MF
+49	beleidigt	beleidigt	_	VVPP	_	_	_	_	_	1602-1611	w4603	beleidigt	I-NP	I-NP	*	I-NF|I-NF|B-RK
+50	hat.	hat.	_	VAFIN	_	_	_	_	_	1612-1616	w4604	hat.	I-NP	I-NP	*	I-NF|I-NF|I-RK
+51	Schrodt	Schrot	_	NN	_	_	_	_	_	1617-1624	w4605	Schrot	I-NP	I-NP	*	O
+52	syst.	Syst.	_	FM	_	_	_	_	_	1625-1630	w4606	syst.	I-NP	I-NP	*	O
+53	juris	Juris	_	FM	_	_	_	_	_	1631-1636	w4607	juris	I-NP	I-NP	*	O
+54	gent.	Gent.	_	FM	_	_	_	_	_	1637-1642	w4608	gent.	I-NP	I-NP	*	O
+55	p.	P.	_	FM	_	_	_	_	_	1643-1645	w4609	p.	I-NP	I-NP	*	O
+56	49.	49.	_	CARD	_	_	_	_	_	1646-1649	w460a	49.	I-NP	I-NP	*	O
+57	sqq.	Sqq.	_	ADV	_	_	_	_	_	1650-1654	w460b	sqq.	I-NP	I-NP	*	O
+58	Jo.	Jo.	_	NE	_	_	_	_	_	1655-1658	w460c	Jo.	I-NP	I-NP	*	O
+59	Pet.	Pet.	_	NE	_	_	_	_	_	1659-1663	w460d	Pet.	I-NP	I-NP	*	O
+60	de	De	_	APPR	_	_	_	_	_	1664-1666	w460e	de	I-NP	I-NP	*	O
+61	Ludewig	Ludewig	_	NE	_	_	_	_	_	1667-1674	w460f	Ludewig	I-NP	I-NP	*	O
+62	diss.	Diss.	_	FM	_	_	_	_	_	1675-1680	w4610	diss.	I-NP	I-NP	*	O
+63	de	de	_	FM	_	_	_	_	_	1681-1683	w4611	de	I-NP	I-NP	*	O
+64	juris	juris	_	FM	_	_	_	_	_	1684-1689	w4612	juris	I-NP	I-NP	*	O
+65	gentium	gentium	_	FM	_	_	_	_	_	1690-1697	w4613	gentium	I-NP	I-NP	*	O
+66	laesione	laesione	_	FM	_	_	_	_	_	1698-1706	w4614	laesione	I-NP	I-NP	*	O
+67	.	.	_	$.	_	_	_	_	_	1707-1708	w4615	.	I-NP	I-NP	*	O
+68	Hal.	Hal.	_	NN	_	_	_	_	_	1709-1713	w4616	Hal.	I-NP	I-NP	*	O
+69	1741	1741	_	CARD	_	_	_	_	_	1714-1718	w4617	1741	I-NP	I-NP	*	O
+70	.	.	_	$.	_	_	_	_	_	1719-1720	w4618	.	I-NP	I-NP	*	O
+71	4.	4.	_	ADJA	_	_	_	_	_	1721-1723	w4619	4.	I-NP	I-NP	*	O
+72	Obss.	Obss.	_	FM	_	_	_	_	_	1724-1729	w461a	Obss.	I-NP	I-NP	*	O
+73	select.	Select.	_	FM	_	_	_	_	_	1730-1737	w461b	select.	I-NP	I-NP	*	O
+74	Halens.	Halens.	_	FM	_	_	_	_	_	1738-1745	w461c	Halens.	I-NP	I-NP	*	O
+75	T.	T.	_	CARD	_	_	_	_	_	1746-1748	w461d	T.	I-NP	I-NP	*	O
+76	VII.	Vii.	_	CARD	_	_	_	_	_	1749-1753	w461e	VII.	I-NP	I-NP	*	O
+77	obs.	Obs.	_	FM	_	_	_	_	_	1754-1758	w461f	obs.	I-NP	I-NP	*	O
+78	6.	6.	_	CARD	_	_	_	_	_	1759-1761	w4620	6.	I-NP	I-NP	*	O
+79	7.	7.	_	CARD	_	_	_	_	_	1762-1764	w4621	7.	I-NP	I-NP	*	O
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# PTBstring = (VROOT(NE Kant)(NP(NE ’s)(ADJA metaphysische)(NN Anfangsgründe)(NP(ART der)(NN Rechtslehre)(KOMMA ,))(NP(NN S.)(CARD 216)(PUNKT .))))
+# TopFString = (S(NE Kant)(NE ’s)(ADJA metaphysische)(NN Anfangsgründe)(ART der)(NN Rechtslehre)(KOMMA ,)(NN S.)(CARD 216)(PUNKT .))
+# text = Kant ’s metaphysische Anfangsgründe der Rechtslehre , S. 216 .
+1	Kant	Kant	_	NE	_	_	_	_	_	1766-1770	w4622	Kant	B-NP-insitu	B-NP	*	O
+2	’s	es	_	NE	_	_	_	_	_	1771-1773	w4623	es	B-NP-insitu	B-NP	*	O
+3	metaphysische	metaphysisch	_	ADJA	_	_	_	_	_	1774-1787	w4624	metaphysische	I-NP	I-NP	*	O
+4	Anfangsgründe	Anfangsgrund	_	NN	_	_	_	_	_	1788-1801	w4625	Anfangsgründe	I-NP	I-NP	*	O
+5	der	d	_	ART	_	_	_	_	_	1802-1805	w4626	der	I-NP	I-NP	*	O
+6	Rechtslehre	Rechtslehre	_	NN	_	_	_	_	_	1806-1817	w4627	Rechtslehre	I-NP	I-NP	*	O
+7	,	,	_	$,	_	_	_	_	_	1818-1819	w4628	,	I-NP	I-NP	*	O
+8	S.	S.	_	NN	_	_	_	_	_	1820-1822	w4629	S.	I-NP	I-NP	*	O
+9	216	216	_	CARD	_	_	_	_	_	1823-1826	w462a	216	I-NP	I-NP	*	O
+10	.	.	_	$.	_	_	_	_	_	1827-1828	w462b	.	_	I-NP	*	O
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# PTBstring = (VROOT(S(NP(NN §.))(NP(CARD 232.)(NN Befugniſs))(PP(PAV dagegen)))(PUNKT .))
+# TopFString = (S(NN §.)(CARD 232.)(NN Befugniſs)(PAV dagegen)(PUNKT .))
+# text = §. 232. Befugniſs dagegen .
+1	§.	§.	_	NN	_	_	_	_	_	1830-1832	w462c	§.	B-NP-insitu	B-NP	*	O
+2	232.	232.	_	CARD	_	_	_	_	_	1833-1837	w462d	232.	B-NP-insitu	B-NP	*	O
+3	Befugniſs	Befugnis	_	NN	_	_	_	_	_	1838-1847	w462e	Befugnis	I-NP	I-NP	*	O
+4	dagegen	dagegen	_	PAV	_	_	_	_	_	1848-1855	w462f	dagegen	B-PP-insitu	B-PP	*	O
+5	.	.	_	$.	_	_	_	_	_	1856-1857	w4630	.	_	O	*	O
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# PTBstring = (VROOT(S(AVP(NP(KOKOM Wie)(PIAT jeder)(ADJA einzelne)(NN Mensch)(PP(APPR in)(ART dem)(NN Natur-<lb/>stand)(KOMMA ,)))(ADV so))(VP(VAFIN ist))(NP(ADV auch)(PIAT jeder)(NN Staat)(PP(APPRART im)(NN Nothfall)))(VP(VVPP be-<lb/>fugt)(CPP(PP(APPR zu)(ADJA verhältniſsmäsiger)(NN Gewaltthätigkeit)(KOMMA ,))(PP(APPR ge-<lb/>gen)(CAP(ADJA drohende)(KON oder)(ADJA wirkliche))(NN Rechtsverletzungen)(KOMMA ,))(CPP(PP(AVP(PTKNEG nicht)(ADV nur))(APPR zu)(CNP(NN Erhaltung)(KON und)(NP(NN Vertheidigung)(NP(PPOSAT sei-<lb/>ner)(NN Rechte)(KOMMA ,)))))(KON sondern)(PP(ADV auch)(APPR zu)(NN Genugthuung)(PP(APPR we-<lb/>gen)(AP(ADJD widerrechtlich)(ADJA erlittenen))(NN Schadens)(KLAMMER LBR)(NN §.)(CARD 43)(KLAMMER RBR)(PUNKT .))))))))
+# TopFString = (S(VF(KOKOM Wie)(PIAT jeder)(ADJA einzelne)(NN Mensch)(APPR in)(ART dem)(NN Natur-<lb/>stand))(KOMMA ,)(VF(ADV so))(LK(VAFIN ist))(MF(ADV auch)(PIAT jeder)(NN Staat)(APPRART im)(NN Nothfall))(VC(VVPP be-<lb/>fugt))(NF(APPR zu)(ADJA verhältniſsmäsiger)(NN Gewaltthätigkeit)(KOMMA ,)(APPR ge-<lb/>gen)(ADJA drohende)(KON oder)(ADJA wirkliche)(NN Rechtsverletzungen)(KOMMA ,)(PTKNEG nicht)(ADV nur)(APPR zu)(NN Erhaltung)(KON und)(NN Vertheidigung)(PPOSAT sei-<lb/>ner)(NN Rechte)(KOMMA ,)(KON sondern)(ADV auch)(APPR zu)(NN Genugthuung)(APPR we-<lb/>gen)(ADJD widerrechtlich)(ADJA erlittenen)(NN Schadens)(KLAMMER LBR)(NN §.)(CARD 43))(KLAMMER RBR)(PUNKT .))
+# text = Wie jeder einzelne Mensch in dem Natur-<lb/>stand , so ist auch jeder Staat im Nothfall be-<lb/>fugt zu verhältniſsmäsiger Gewaltthätigkeit , ge-<lb/>gen drohende oder wirkliche Rechtsverletzungen , nicht nur zu Erhaltung und Vertheidigung sei-<lb/>ner Rechte , sondern auch zu Genugthuung we-<lb/>gen widerrechtlich erlittenen Schadens ( §. 43 ) .
+1	Wie	wie	_	KOKOM	_	_	_	_	_	1859-1862	w97	Wie	B-ADVP-insitu|B-NP-insitu	B-ADVP	*	B-VF
+2	jeder	jede	_	PIAT	_	_	_	_	_	1863-1868	w98	jeder	I-ADVP|I-NP	I-ADVP	*	I-VF
+3	einzelne	einzeln	_	ADJA	_	_	_	_	_	1869-1877	w99	einzelne	I-ADVP|I-NP	I-ADVP	*	I-VF
+4	Mensch	Mensch	_	NN	_	_	_	_	_	1878-1884	w9a	Mensch	I-ADVP|I-NP	I-ADVP	*	I-VF
+5	in	in	_	APPR	_	_	_	_	_	1885-1887	w9b	in	I-ADVP|I-NP	I-ADVP	*	I-VF
+6	dem	d	_	ART	_	_	_	_	_	1888-1891	w9c	dem	I-ADVP|I-NP	I-ADVP	*	I-VF
+7	Natur-<lb/>stand	Naturstand	_	NN	_	_	_	_	_	1892-1908	w9d	Naturstand	I-ADVP|I-NP	I-ADVP	*	I-VF
+8	,	,	_	$,	_	_	_	_	_	1909-1910	w9e	,	I-ADVP	I-ADVP	*	O
+9	so	so	_	ADV	_	_	_	_	_	1911-1913	w9f	so	I-ADVP	I-ADVP	*	B-VF
+10	ist	sein	_	VAFIN	_	_	_	_	_	1914-1917	wa0	ist	_	O	*	B-LK
+11	auch	auch	_	ADV	_	_	_	_	_	1918-1922	wa1	auch	B-NP-insitu	B-NP	*	B-MF
+12	jeder	jede	_	PIAT	_	_	_	_	_	1923-1928	wa2	jeder	I-NP	I-NP	*	I-MF
+13	Staat	Staat	_	NN	_	_	_	_	_	1929-1934	wa3	Staat	I-NP	I-NP	*	I-MF
+14	im	im	_	APPRART	_	_	_	_	_	1935-1937	wa4	im	I-NP	I-NP	*	I-MF
+15	Nothfall	Notfall	_	NN	_	_	_	_	_	1938-1946	wa5	Notfall	I-NP	I-NP	*	I-MF
+16	be-<lb/>fugt	befugt	_	VVPP	_	_	_	_	_	1947-1959	wa6	befugt	_	O	*	B-RK
+17	zu	zu	_	APPR	_	_	_	_	_	1960-1962	wa7	zu	_	B-PP	*	B-NF
+18	verhältniſsmäsiger	verhältnismäßig	_	ADJA	_	_	_	_	_	1963-1981	wa8	verhältnismäßiger	_	I-PP	*	I-NF
+19	Gewaltthätigkeit	Gewalttätigkeit	_	NN	_	_	_	_	_	1982-1998	wa9	Gewalttätigkeit	_	I-PP	*	I-NF
+20	,	,	_	$,	_	_	_	_	_	1999-2000	waa	,	_	I-PP	*	I-NF
+21	ge-<lb/>gen	gegen	_	APPR	_	_	_	_	_	2001-2012	wab	gegen	_	B-PP	*	I-NF
+22	drohende	drohend	_	ADJA	_	_	_	_	_	2013-2021	wac	drohende	_	I-PP	*	I-NF
+23	oder	oder	_	KON	_	_	_	_	_	2022-2026	wad	oder	_	I-PP	*	I-NF
+24	wirkliche	wirklich	_	ADJA	_	_	_	_	_	2027-2036	wae	wirkliche	_	I-PP	*	I-NF
+25	Rechtsverletzungen	Rechtsverletzung	_	NN	_	_	_	_	_	2037-2055	waf	Rechtsverletzungen	_	I-PP	*	I-NF
+26	,	,	_	$,	_	_	_	_	_	2056-2057	wb0	,	_	I-PP	*	I-NF
+27	nicht	nicht	_	PTKNEG	_	_	_	_	_	2058-2063	wb1	nicht	_	B-PP	*	I-NF
+28	nur	nur	_	ADV	_	_	_	_	_	2064-2067	wb2	nur	_	I-PP	*	I-NF
+29	zu	zu	_	APPR	_	_	_	_	_	2068-2070	wb3	zu	_	I-PP	*	I-NF
+30	Erhaltung	Erhaltung	_	NN	_	_	_	_	_	2071-2080	wb4	Erhaltung	_	I-PP	*	I-NF
+31	und	und	_	KON	_	_	_	_	_	2081-2084	wb5	und	_	I-PP	*	I-NF
+32	Vertheidigung	Verteidigung	_	NN	_	_	_	_	_	2085-2098	wb6	Verteidigung	_	I-PP	*	I-NF
+33	sei-<lb/>ner	seine	_	PPOSAT	_	_	_	_	_	2099-2111	wb7	seiner	_	I-PP	*	I-NF
+34	Rechte	Rechte	_	NN	_	_	_	_	_	2112-2118	wb8	Rechte	_	I-PP	*	I-NF
+35	,	,	_	$,	_	_	_	_	_	2119-2120	wb9	,	_	I-PP	*	I-NF
+36	sondern	sondern	_	KON	_	_	_	_	_	2121-2128	wba	sondern	_	I-PP	*	I-NF
+37	auch	auch	_	ADV	_	_	_	_	_	2129-2133	wbb	auch	_	I-PP	*	I-NF
+38	zu	zu	_	APPR	_	_	_	_	_	2134-2136	wbc	zu	_	I-PP	*	I-NF
+39	Genugthuung	Genugtuung	_	NN	_	_	_	_	_	2137-2148	wbd	Genugtuung	_	I-PP	*	I-NF
+40	we-<lb/>gen	wegen	_	APPR	_	_	_	_	_	2149-2160	wbe	wegen	_	I-PP	*	I-NF
+41	widerrechtlich	widerrechtlich	_	ADJD	_	_	_	_	_	2161-2175	wbf	widerrechtlich	_	I-PP	*	I-NF
+42	erlittenen	erleiden	_	ADJA	_	_	_	_	_	2176-2186	wc0	erlittenen	_	I-PP	*	I-NF
+43	Schadens	Schaden	_	NN	_	_	_	_	_	2187-2195	wc1	Schadens	_	I-PP	*	I-NF
+44	(	(	_	$(	_	_	_	_	_	2196-2197	wc2	(	_	I-PP	*	I-NF
+45	§.	§.	_	NN	_	_	_	_	_	2198-2200	wc3	§.	_	I-PP	*	I-NF
+46	43	43	_	CARD	_	_	_	_	_	2201-2203	wc4	43	_	I-PP	*	I-NF
+47	)	)	_	$(	_	_	_	_	_	2204-2205	wc5	)	_	I-PP	*	O
+48	.	.	_	$.	_	_	_	_	_	2206-2207	wc6	.	_	I-PP	*	O
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# PTBstring = (VROOT(S(NP(ART Die)(NN Gewaltthätigkeit))(VP(VVFIN findet))(SVP(PTKVZ statt))(KOMMA ,)(PP(APPR gegen)(ART die)(NN Ge-<lb/>sammtheit)(NP(ART des)(ADJA beleidigenden)(NN Staates)(PN(CO(ADJD unmittelbar)(KOMMA ,)(KON aber)(PP(ADV auch)(APPR wider)(CAP(PIAT einzelne)(KOMMA ,)(AP(KOUS wenn)(ADV gleich)(AP(PP(APPR an)(ART der)(NN Rechtsverletzung))(ADJD persönlich))(ADJA unschuldige)))(KOMMA ,)(NN Mit-<lb/>glieder)(PN(S(NP(CNP(NP(PDS desselben)(KOMMA ,)(S(KOUS weil)(NP(PPER sie))(NP(NN Theile)(NP(ART der)(NN Gesammt-<lb/>heit)))(VP(VAFIN sind))(KOMMA ,)))(KON und)(NP(PPOSAT ihr)(NN Vermögen)(PP(APPR in)(ART dem)(NN Verhält-<lb/>niſs)(PP(APPR zu)(ADJA andern)(NN Staaten)))))(NP(KOKOM als)(NN Bestandtheil)(NP(ART des)(NN Ver-<lb/>mögens)(NP(PPOSAT ihres)(NN Staates)))))(VZ(PTKZU zu)(VVINF betrachten))(VP(VAFIN ist)))))))(XY a)(KLAMMER RBR)(PUNKT .)))))
+# TopFString = (S(VF(ART Die)(NN Gewaltthätigkeit))(LK(VVFIN findet))(VC(PTKVZ statt))(KOMMA ,)(NF(APPR gegen)(ART die)(NN Ge-<lb/>sammtheit)(ART des)(ADJA beleidigenden)(NN Staates)(ADJD unmittelbar)(KOMMA ,)(KON aber)(ADV auch)(APPR wider)(PIAT einzelne)(KOMMA ,)(C(KOUS wenn))(MF(ADV gleich)(APPR an)(ART der)(NN Rechtsverletzung)(ADJD persönlich)(ADJA unschuldige)(KOMMA ,)(NN Mit-<lb/>glieder)(PDS desselben)(KOMMA ,)(C(KOUS weil))(MF(PPER sie)(NN Theile)(ART der)(NN Gesammt-<lb/>heit))(VC(VAFIN sind))(KOMMA ,)(KON und)(PPOSAT ihr)(NN Vermögen)(APPR in)(ART dem)(NN Verhält-<lb/>niſs)(APPR zu)(ADJA andern)(NN Staaten)(KOKOM als)(NN Bestandtheil)(ART des)(NN Ver-<lb/>mögens)(PPOSAT ihres)(NN Staates))(VC(PTKZU zu)(VVINF betrachten)(VAFIN ist)))(XY a)(KLAMMER RBR)(PUNKT .))
+# text = Die Gewaltthätigkeit findet statt , gegen die Ge-<lb/>sammtheit des beleidigenden Staates unmittelbar , aber auch wider einzelne , wenn gleich an der Rechtsverletzung persönlich unschuldige , Mit-<lb/>glieder desselben , weil sie Theile der Gesammt-<lb/>heit sind , und ihr Vermögen in dem Verhält-<lb/>niſs zu andern Staaten als Bestandtheil des Ver-<lb/>mögens ihres Staates zu betrachten ist a ) .
+1	Die	d	_	ART	_	_	_	_	_	2209-2212	wc7	Die	B-NP-insitu	B-NP	*	B-VF
+2	Gewaltthätigkeit	Gewalttätigkeit	_	NN	_	_	_	_	_	2213-2229	wc8	Gewalttätigkeit	I-NP	I-NP	*	I-VF
+3	findet	finden	_	VVFIN	_	_	_	_	_	2230-2236	wc9	findet	_	O	*	B-LK
+4	statt	statt	_	PTKVZ	_	_	_	_	_	2237-2242	wca	statt	_	O	*	B-RK
+5	,	,	_	$,	_	_	_	_	_	2243-2244	wcb	,	_	O	*	O
+6	gegen	gegen	_	APPR	_	_	_	_	_	2245-2250	wcc	gegen	B-PP-extrap	B-PP	*	B-NF
+7	die	d	_	ART	_	_	_	_	_	2251-2254	wcd	die	I-PP	I-PP	*	I-NF
+8	Ge-<lb/>sammtheit	Gesamtheit	_	NN	_	_	_	_	_	2255-2272	wce	Gesamtheit	I-PP	I-PP	*	I-NF
+9	des	d	_	ART	_	_	_	_	_	2273-2276	wcf	des	I-PP|B-NP-extrap	I-PP	*	I-NF
+10	beleidigenden	beleidigend	_	ADJA	_	_	_	_	_	2277-2290	wd0	beleidigenden	I-PP|I-NP	I-PP	*	I-NF
+11	Staates	Staat	_	NN	_	_	_	_	_	2291-2298	wd1	Staates	I-PP|I-NP	I-PP	*	I-NF
+12	unmittelbar	unmittelbar	_	ADJD	_	_	_	_	_	2299-2310	wd2	unmittelbar	I-PP|I-NP|B-NP-extrap	I-PP	*	I-NF
+13	,	,	_	$,	_	_	_	_	_	2311-2312	wd3	,	I-PP|I-NP|I-NP	I-PP	*	I-NF
+14	aber	aber	_	KON	_	_	_	_	_	2313-2317	wd4	aber	I-PP|I-NP|I-NP	I-PP	*	I-NF
+15	auch	auch	_	ADV	_	_	_	_	_	2318-2322	wd5	auch	I-PP|I-NP|I-NP	I-PP	*	I-NF
+16	wider	wider	_	APPR	_	_	_	_	_	2323-2328	wd6	wider	I-PP|I-NP|I-NP	I-PP	*	I-NF
+17	einzelne	einzeln	_	PIAT	_	_	_	_	_	2329-2337	wd7	einzelne	I-PP|I-NP|I-NP	I-PP	*	I-NF
+18	,	,	_	$,	_	_	_	_	_	2338-2339	wd8	,	I-PP|I-NP|I-NP	I-PP	*	I-NF
+19	wenn	wenn	_	KOUS	_	_	_	_	_	2340-2344	wd9	wenn	I-PP|I-NP|I-NP	I-PP	*	I-NF|B-LK
+20	gleich	gleich	_	ADV	_	_	_	_	_	2345-2351	wda	gleich	I-PP|I-NP|I-NP	I-PP	*	I-NF|B-MF
+21	an	an	_	APPR	_	_	_	_	_	2352-2354	wdb	an	I-PP|I-NP|I-NP|B-AP-insitu	I-PP	*	I-NF|I-MF
+22	der	d	_	ART	_	_	_	_	_	2355-2358	wdc	der	I-PP|I-NP|I-NP|I-AP	I-PP	*	I-NF|I-MF
+23	Rechtsverletzung	Rechtsverletzung	_	NN	_	_	_	_	_	2359-2375	wdd	Rechtsverletzung	I-PP|I-NP|I-NP|I-AP	I-PP	*	I-NF|I-MF
+24	persönlich	persönlich	_	ADJD	_	_	_	_	_	2376-2386	wde	persönlich	I-PP|I-NP|I-NP|I-AP	I-PP	*	I-NF|I-MF
+25	unschuldige	unschuldig	_	ADJA	_	_	_	_	_	2387-2398	wdf	unschuldige	I-PP|I-NP|I-NP	I-PP	*	I-NF|I-MF
+26	,	,	_	$,	_	_	_	_	_	2399-2400	we0	,	I-PP|I-NP|I-NP	I-PP	*	I-NF|I-MF
+27	Mit-<lb/>glieder	Mitglied	_	NN	_	_	_	_	_	2401-2417	we1	Mitglieder	I-PP|I-NP|I-NP	I-PP	*	I-NF|I-MF
+28	desselben	dieselbe	_	PDS	_	_	_	_	_	2418-2427	we2	desselben	I-PP|I-NP|I-NP|B-NP-insitu	I-PP	*	I-NF|I-MF
+29	,	,	_	$,	_	_	_	_	_	2428-2429	we3	,	I-PP|I-NP|I-NP|I-NP	I-PP	*	I-NF|I-MF
+30	weil	weil	_	KOUS	_	_	_	_	_	2430-2434	we4	weil	I-PP|I-NP|I-NP|I-NP	I-PP	*	I-NF|I-MF|B-LK
+31	sie	sie	_	PPER	_	_	_	_	_	2435-2438	we5	sie	I-PP|I-NP|I-NP|I-NP|B-NP-insitu	I-PP	*	I-NF|I-MF|B-MF
+32	Theile	Teil	_	NN	_	_	_	_	_	2439-2445	we6	Teile	I-PP|I-NP|I-NP|I-NP|B-NP-insitu	I-PP	*	I-NF|I-MF|I-MF
+33	der	d	_	ART	_	_	_	_	_	2446-2449	we7	der	I-PP|I-NP|I-NP|I-NP|I-NP	I-PP	*	I-NF|I-MF|I-MF
+34	Gesammt-<lb/>heit	Gesamtheit	_	NN	_	_	_	_	_	2450-2467	we8	Gesamtheit	I-PP|I-NP|I-NP|I-NP|I-NP	I-PP	*	I-NF|I-MF|I-MF
+35	sind	sein	_	VAFIN	_	_	_	_	_	2468-2472	we9	sind	I-PP|I-NP|I-NP|I-NP	I-PP	*	I-NF|I-MF|B-RK
+36	,	,	_	$,	_	_	_	_	_	2473-2474	wea	,	I-PP|I-NP|I-NP|I-NP	I-PP	*	I-NF|I-MF
+37	und	und	_	KON	_	_	_	_	_	2475-2478	web	und	I-PP|I-NP|I-NP|I-NP	I-PP	*	I-NF|I-MF
+38	ihr	ihr	_	PPOSAT	_	_	_	_	_	2479-2482	wec	ihr	I-PP|I-NP|I-NP|I-NP	I-PP	*	I-NF|I-MF
+39	Vermögen	Vermögen	_	NN	_	_	_	_	_	2483-2491	wed	Vermögen	I-PP|I-NP|I-NP|I-NP	I-PP	*	I-NF|I-MF
+40	in	in	_	APPR	_	_	_	_	_	2492-2494	wee	in	I-PP|I-NP|I-NP|I-NP	I-PP	*	I-NF|I-MF
+41	dem	d	_	ART	_	_	_	_	_	2495-2498	wef	dem	I-PP|I-NP|I-NP|I-NP	I-PP	*	I-NF|I-MF
+42	Verhält-<lb/>niſs	Verhältnis	_	NN	_	_	_	_	_	2499-2516	wf0	Verhältnis	I-PP|I-NP|I-NP|I-NP	I-PP	*	I-NF|I-MF
+43	zu	zu	_	APPR	_	_	_	_	_	2517-2519	wf1	zu	I-PP|I-NP|I-NP|I-NP	I-PP	*	I-NF|I-MF
+44	andern	ander	_	ADJA	_	_	_	_	_	2520-2526	wf2	anderen	I-PP|I-NP|I-NP|I-NP	I-PP	*	I-NF|I-MF
+45	Staaten	Staat	_	NN	_	_	_	_	_	2527-2534	wf3	Staaten	I-PP|I-NP|I-NP|I-NP	I-PP	*	I-NF|I-MF
+46	als	als	_	KOKOM	_	_	_	_	_	2535-2538	wf4	als	I-PP|I-NP|I-NP|B-NP-insitu	I-PP	*	I-NF|I-MF
+47	Bestandtheil	Bestandteil	_	NN	_	_	_	_	_	2539-2551	wf5	Bestandteil	I-PP|I-NP|I-NP|I-NP	I-PP	*	I-NF|I-MF
+48	des	d	_	ART	_	_	_	_	_	2552-2555	wf6	des	I-PP|I-NP|I-NP|I-NP	I-PP	*	I-NF|I-MF
+49	Ver-<lb/>mögens	Vermögen	_	NN	_	_	_	_	_	2556-2571	wf7	Vermögens	I-PP|I-NP|I-NP|I-NP	I-PP	*	I-NF|I-MF
+50	ihres	ihr	_	PPOSAT	_	_	_	_	_	2572-2577	wf8	ihres	I-PP|I-NP|I-NP|I-NP	I-PP	*	I-NF|I-MF
+51	Staates	Staat	_	NN	_	_	_	_	_	2578-2585	wf9	Staates	I-PP|I-NP|I-NP|I-NP	I-PP	*	I-NF|I-MF
+52	zu	zu	_	PTKZU	_	_	_	_	_	2586-2588	wfa	zu	I-PP|I-NP|I-NP	I-PP	*	I-NF|B-RK
+53	betrachten	betrachten	_	VVINF	_	_	_	_	_	2589-2599	wfb	betrachten	I-PP|I-NP|I-NP	I-PP	*	I-NF|I-RK
+54	ist	sein	_	VAFIN	_	_	_	_	_	2600-2603	wfc	ist	I-PP|I-NP|I-NP	I-PP	*	I-NF|I-RK
+55	a	A	_	XY	_	_	_	_	_	2604-2605	wfd	a	I-PP|I-NP	I-PP	*	O
+56	)	)	_	$(	_	_	_	_	_	2606-2607	wfe	)	_	I-PP	*	O
+57	.	.	_	$.	_	_	_	_	_	2608-2609	wff	.	_	I-PP	*	O
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# PTBstring = (VROOT(S(AVP(S(KOUS Da)(PP(APPR über)(NN Staaten))(NP(PIAT kein)(NN Richter))(VP(VVFIN gebietet))(KOMMA ,))(ADV so))(VP(VAFIN ist))(NP(PIS jeder))(VP(PP(APPR von)(PPER ihnen))(VVPP befugt)(KOMMA ,))(VP(ADV selbst)(NN Gewalt)(VZ(PTKZU zu)(VVINF gebrauchen))))(PP(APPR gegen)(NN Beleidigungen)(KOMMA ,)(PP(ADV also)(APPR zu)(NN Selbsthülfe)))(XY b)(KLAMMER RBR)(PUNKT .))
+# TopFString = (S(LV(C(KOUS Da))(MF(APPR über)(NN Staaten)(PIAT kein)(NN Richter))(VC(VVFIN gebietet)))(KOMMA ,)(VF(ADV so))(LK(VAFIN ist))(MF(PIS jeder)(APPR von)(PPER ihnen))(VC(VVPP befugt))(KOMMA ,)(NF(MF(ADV selbst)(NN Gewalt))(VC(PTKZU zu)(VVINF gebrauchen))(NF(APPR gegen)(NN Beleidigungen)(KOMMA ,)(ADV also)(APPR zu)(NN Selbsthülfe)(XY b)))(KLAMMER RBR)(PUNKT .))
+# text = Da über Staaten kein Richter gebietet , so ist jeder von ihnen befugt , selbst Gewalt zu gebrauchen gegen Beleidigungen , also zu Selbsthülfe b ) .
+1	Da	da	_	KOUS	_	_	_	_	_	2611-2613	w100	Da	B-ADVP-insitu	B-ADVP	*	B-LV|B-LK
+2	über	über	_	APPR	_	_	_	_	_	2614-2618	w101	über	I-ADVP|B-PP-insitu	I-ADVP	*	I-LV|B-MF
+3	Staaten	Staat	_	NN	_	_	_	_	_	2619-2626	w102	Staaten	I-ADVP|I-PP	I-ADVP	*	I-LV|I-MF
+4	kein	keine	_	PIAT	_	_	_	_	_	2627-2631	w103	kein	I-ADVP|B-NP-insitu	I-ADVP	*	I-LV|I-MF
+5	Richter	Richter	_	NN	_	_	_	_	_	2632-2639	w104	Richter	I-ADVP|I-NP	I-ADVP	*	I-LV|I-MF
+6	gebietet	gebieten	_	VVFIN	_	_	_	_	_	2640-2648	w105	gebietet	I-ADVP	I-ADVP	*	I-LV|B-RK
+7	,	,	_	$,	_	_	_	_	_	2649-2650	w106	,	I-ADVP	I-ADVP	*	O
+8	so	so	_	ADV	_	_	_	_	_	2651-2653	w107	so	I-ADVP	I-ADVP	*	B-VF
+9	ist	sein	_	VAFIN	_	_	_	_	_	2654-2657	w108	ist	_	O	*	B-LK
+10	jeder	jede	_	PIS	_	_	_	_	_	2658-2663	w109	jeder	B-NP-insitu	B-NP	*	B-MF
+11	von	von	_	APPR	_	_	_	_	_	2664-2667	w10a	von	B-PP-insitu	B-PP	*	I-MF
+12	ihnen	sie	_	PPER	_	_	_	_	_	2668-2673	w10b	ihnen	I-PP	I-PP	*	I-MF
+13	befugt	befugen	_	VVPP	_	_	_	_	_	2674-2680	w10c	befugt	_	O	*	B-RK
+14	,	,	_	$,	_	_	_	_	_	2681-2682	w10d	,	_	O	*	O
+15	selbst	selbst	_	ADV	_	_	_	_	_	2683-2689	w10e	selbst	B-ADVP-insitu	B-ADVP	*	B-NF|B-MF
+16	Gewalt	Gewalt	_	NN	_	_	_	_	_	2690-2696	w10f	Gewalt	B-NP-insitu	B-NP	*	I-NF|I-MF
+17	zu	zu	_	PTKZU	_	_	_	_	_	2697-2699	w110	zu	_	O	*	I-NF|B-RK
+18	gebrauchen	gebrauchen	_	VVINF	_	_	_	_	_	2700-2710	w111	gebrauchen	_	O	*	I-NF|I-RK
+19	gegen	gegen	_	APPR	_	_	_	_	_	2711-2716	w112	gegen	B-PP-extrap	B-PP	*	I-NF|B-NF
+20	Beleidigungen	Beleidigung	_	NN	_	_	_	_	_	2717-2730	w113	Beleidigungen	I-PP	I-PP	*	I-NF|I-NF
+21	,	,	_	$,	_	_	_	_	_	2731-2732	w114	,	I-PP	I-PP	*	I-NF|I-NF
+22	also	also	_	ADV	_	_	_	_	_	2733-2737	w115	also	I-PP	I-PP	*	I-NF|I-NF
+23	zu	zu	_	APPR	_	_	_	_	_	2738-2740	w116	zu	I-PP	I-PP	*	I-NF|I-NF
+24	Selbsthülfe	Selbsthülfe	_	NN	_	_	_	_	_	2741-2752	w117	Selbsthülfe	I-PP	I-PP	*	I-NF|I-NF
+25	b	b	_	XY	_	_	_	_	_	2753-2754	w118	b	_	O	*	I-NF|I-NF
+26	)	)	_	$(	_	_	_	_	_	2755-2756	w119	)	_	O	*	O
+27	.	.	_	$.	_	_	_	_	_	2757-2758	w11a	.	_	O	*	O
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# PTBstring = (VROOT(CH(FM Grotius)(KOMMA ,)(FM lib.)(CARD III.)(FM c.)(CARD 2)(PUNKT .)(KLAMMER —)))
+# TopFString = (S(FM Grotius)(KOMMA ,)(FM lib.)(CARD III.)(FM c.)(CARD 2)(PUNKT .)(KLAMMER —))
+# text = Grotius , lib. III. c. 2 . —
+1	Grotius	grotius	_	FM	_	_	_	_	_	2760-2767	w4631	Grotius	_	O	*	O
+2	,	,	_	$,	_	_	_	_	_	2768-2769	w4632	,	_	O	*	O
+3	lib.	lib.	_	FM	_	_	_	_	_	2770-2774	w4633	lib.	_	O	*	O
+4	III.	iii.	_	CARD	_	_	_	_	_	2775-2779	w4634	III.	B-NP-insitu	B-NP	*	O
+5	c.	c.	_	FM	_	_	_	_	_	2780-2782	w4635	c.	_	O	*	O
+6	2	2	_	CARD	_	_	_	_	_	2783-2784	w4636	2	B-NP-insitu	B-NP	*	O
+7	.	.	_	$.	_	_	_	_	_	2785-2786	w4637	.	_	O	*	O
+8	—	--	_	$(	_	_	_	_	_	2787-2788	w4638	--	_	O	*	O
+
+# sent_id = 19
+# sent_id(TSV) = 19
+# PTBstring = (VROOT(S(NP(PIS Man))(VP(VVIMP s.))(AVP(ADV jedoch)(ADV unten)(KOMMA ,)(NP(NN §.)(CARD 246)(KOMMA ,)))(CNP(NP(CARD 251)(NN f.)(KOMMA ,))(KON u.)(CARD 256.))))
+# TopFString = (S(VF(PIS Man))(LK(VVIMP s.))(MF(ADV jedoch)(ADV unten))(KOMMA ,)(NN §.)(CARD 246)(KOMMA ,)(CARD 251)(NN f.)(KOMMA ,)(KON u.)(CARD 256.))
+# text = Man s. jedoch unten , §. 246 , 251 f. , u. 256.
+1	Man	man	_	PIS	_	_	_	_	_	2790-2793	w4639	Man	B-NP-insitu	B-NP	*	B-VF
+2	s.	s.	_	VVIMP	_	_	_	_	_	2794-2796	w463a	s.	_	O	*	B-LK
+3	jedoch	jedoch	_	ADV	_	_	_	_	_	2797-2803	w463b	jedoch	B-ADVP-insitu	B-ADVP	*	B-MF
+4	unten	unten	_	ADV	_	_	_	_	_	2804-2809	w463c	unten	I-ADVP	I-ADVP	*	I-MF
+5	,	,	_	$,	_	_	_	_	_	2810-2811	w463d	,	I-ADVP	I-ADVP	*	O
+6	§.	§.	_	NN	_	_	_	_	_	2812-2814	w463e	§.	I-ADVP	I-ADVP	*	O
+7	246	246	_	CARD	_	_	_	_	_	2815-2818	w463f	246	I-ADVP	I-ADVP	*	O
+8	,	,	_	$,	_	_	_	_	_	2819-2820	w4640	,	_	I-ADVP	*	O
+9	251	251	_	CARD	_	_	_	_	_	2821-2824	w4641	251	B-NP-insitu	B-NP	*	O
+10	f.	F.	_	NN	_	_	_	_	_	2825-2827	w4642	f.	I-NP	I-NP	*	O
+11	,	,	_	$,	_	_	_	_	_	2828-2829	w4643	,	I-NP	I-NP	*	O
+12	u.	u.	_	KON	_	_	_	_	_	2830-2832	w4644	u.	I-NP	I-NP	*	O
+13	256.	256.	_	CARD	_	_	_	_	_	2833-2837	w4645	256.	I-NP	I-NP	*	O
+
+# sent_id = 20
+# sent_id(TSV) = 20
+# PTBstring = (VROOT(S(NP(PN(NE Moser)(NE ’s))(NN Versuch)(KOMMA ,))(NP(NM(CARD VIII.)(CARD 480))(NN ff)(PUNKT .))))
+# TopFString = (S(NE Moser)(NE ’s)(NN Versuch)(KOMMA ,)(CARD VIII.)(CARD 480)(NN ff)(PUNKT .))
+# text = Moser ’s Versuch , VIII. 480 ff .
+1	Moser	Moser	_	NE	_	_	_	_	_	2839-2844	w4646	Moser	B-NP-insitu	B-NP	*	O
+2	’s	es	_	NE	_	_	_	_	_	2845-2847	w4647	es	I-NP	I-NP	*	O
+3	Versuch	Versuch	_	NN	_	_	_	_	_	2848-2855	w4648	Versuch	I-NP	I-NP	*	O
+4	,	,	_	$,	_	_	_	_	_	2856-2857	w4649	,	_	I-NP	*	O
+5	VIII.	Viii.	_	CARD	_	_	_	_	_	2858-2863	w464a	VIII.	B-NP-insitu	B-NP	*	O
+6	480	480	_	CARD	_	_	_	_	_	2864-2867	w464b	480	I-NP	I-NP	*	O
+7	ff	Ff	_	NN	_	_	_	_	_	2868-2870	w464c	ff	I-NP	I-NP	*	O
+8	.	.	_	$.	_	_	_	_	_	2871-2872	w464d	.	_	I-NP	*	O

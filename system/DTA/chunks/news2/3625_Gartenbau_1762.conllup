@@ -1,0 +1,828 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CHUNK CharOffset DTA:ID DTA:NORM POS
+# sent_id = 1
+# sent_id(TSV) = 1
+# text = Chriſtian Reicharts , E. Hochedl . Raths andern Rathsmeiſters , E. Hochehrw . Miniſt. Aſſeſſ. und der Koͤnigl. Deutſ. Geſellſch. in Goͤttingen , und der Churfuͤrſtl. Mayntziſ . Academie nuͤtzlicher Wiſſenſchaften Mitgliedes .
+1	Chriſtian	Christian	_	NE	_	_	_	_	_	B-NC	0-9	w1	Christian	*
+2	Reicharts	Reichart	_	NE	_	_	_	_	_	I-NC	10-19	w2	Reicharts	*
+3	,	,	_	$,	_	_	_	_	_	O	20-21	w3	,	*
+4	E.	E.	_	PPOSAT	_	_	_	_	_	B-NC	22-24	w4	E.	*
+5	Hochedl	hochedel	_	NN	_	_	_	_	_	I-NC	25-32	w5	Hochedel	*
+6	.	.	_	$.	_	_	_	_	_	O	33-34	w6	.	*
+7	Raths	Rat	_	NN	_	_	_	_	_	B-NC	35-40	w7	Rats	*
+8	andern	ander	_	ADJA	_	_	_	_	_	B-NC	41-47	w8	anderen	*
+9	Rathsmeiſters	Ratschmeister	_	NN	_	_	_	_	_	I-NC	48-61	w9	Ratschmeisters	*
+10	,	,	_	$,	_	_	_	_	_	O	62-63	wa	,	*
+11	E.	E.	_	PPOSAT	_	_	_	_	_	B-NC	64-66	wb	E.	*
+12	Hochehrw	Hochehrw	_	NN	_	_	_	_	_	I-NC	67-75	wc	Hochehrw	*
+13	.	.	_	$.	_	_	_	_	_	O	76-77	wd	.	*
+14	Miniſt.	Minist.	_	NE	_	_	_	_	_	B-NC	78-85	we	Minist.	*
+15	Aſſeſſ.	Assess.	_	NE	_	_	_	_	_	I-NC	86-93	wf	Assess.	*
+16	und	und	_	KON	_	_	_	_	_	O	94-97	w10	und	*
+17	der	d	_	ART	_	_	_	_	_	B-NC	98-101	w11	der	*
+18	Koͤnigl.	Königl.	_	ADJA	_	_	_	_	_	I-NC	102-110	w12	Königl.	*
+19	Deutſ.	Deuts.	_	ADJA	_	_	_	_	_	I-NC	111-117	w13	Deuts.	*
+20	Geſellſch.	Gesellsch.	_	NN	_	_	_	_	_	I-NC	118-128	w14	Gesellsch.	*
+21	in	in	_	APPR	_	_	_	_	_	B-PC	129-131	w15	in	*
+22	Goͤttingen	Göttingen	_	NE	_	_	_	_	_	I-PC	132-142	w16	Göttingen	*
+23	,	,	_	$,	_	_	_	_	_	O	143-144	w17	,	*
+24	und	und	_	KON	_	_	_	_	_	O	145-148	w18	und	*
+25	der	d	_	ART	_	_	_	_	_	B-NC	149-152	w19	der	*
+26	Churfuͤrſtl.	Churfürstl.	_	ADJA	_	_	_	_	_	I-NC	153-165	w1a	Churfürstl.	*
+27	Mayntziſ	Mayntzis	_	ADJA	_	_	_	_	_	I-NC	166-174	w1b	Mayntzis	*
+28	.	.	_	$.	_	_	_	_	_	I-NC	175-176	w1c	.	*
+29	Academie	Akademie	_	NN	_	_	_	_	_	I-NC	177-185	w1d	Akademie	*
+30	nuͤtzlicher	nützlich	_	ADJD	_	_	_	_	_	B-AC	186-197	w1e	nützlicher	*
+31	Wiſſenſchaften	Wissenschaft	_	NN	_	_	_	_	_	B-NC	198-212	w1f	Wissenschaften	*
+32	Mitgliedes	Mitglied	_	NN	_	_	_	_	_	B-NC	213-223	w20	Mitgliedes	*
+33	.	.	_	$.	_	_	_	_	_	O	224-225	w21	.	*
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# text = Univerſal- Regiſter uͤber die Sechs Theile des Land- und Garten- Schatzes .
+1	Univerſal-	universal-	_	NN	_	_	_	_	_	B-NC	227-237	w22	Universal-	*
+2	Regiſter	Register	_	NN	_	_	_	_	_	B-NC	238-246	w23	Register	*
+3	uͤber	über	_	APPR	_	_	_	_	_	B-PC	247-252	w24	über	*
+4	die	d	_	ART	_	_	_	_	_	I-PC	253-256	w25	die	*
+5	Sechs	sechs	_	CARD	_	_	_	_	_	I-PC	257-262	w26	Sechs	*
+6	Theile	Teil	_	NN	_	_	_	_	_	I-PC	263-269	w27	Teile	*
+7	des	d	_	ART	_	_	_	_	_	B-NC	270-273	w28	des	*
+8	Land-	land-	_	TRUNC	_	_	_	_	_	I-NC	274-279	w29	Land-	*
+9	und	und	_	KON	_	_	_	_	_	O	280-283	w2a	und	*
+10	Garten-	garten-	_	NN	_	_	_	_	_	B-NC	284-291	w2b	Garten-	*
+11	Schatzes	Schatz	_	NN	_	_	_	_	_	B-NC	292-300	w2c	Schatzes	*
+12	.	.	_	$.	_	_	_	_	_	O	301-302	w2d	.	*
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# text = Erfurt , bey Hein . Nonnen , Univ. Buchdr. 1762 .
+1	Erfurt	Erfurt	_	NE	_	_	_	_	_	B-NC	304-310	w2e	Erfurt	*
+2	,	,	_	$,	_	_	_	_	_	O	311-312	w2f	,	*
+3	bey	bei	_	APPR	_	_	_	_	_	B-PC	313-316	w30	bei	*
+4	Hein	Hein	_	NE	_	_	_	_	_	I-PC	317-321	w31	Hein	*
+5	.	.	_	$.	_	_	_	_	_	O	322-323	w32	.	*
+6	Nonnen	Nonnen	_	NE	_	_	_	_	_	B-NC	324-330	w35	Nonnen	*
+7	,	,	_	$,	_	_	_	_	_	O	331-332	w36	,	*
+8	Univ.	Univ.	_	ADJA	_	_	_	_	_	B-NC	333-338	w37	Univ.	*
+9	Buchdr.	Buchdr.	_	NN	_	_	_	_	_	I-NC	339-346	w38	Buchdr.	*
+10	1762	1762	_	CARD	_	_	_	_	_	B-NC	347-351	w39	1762	*
+11	.	.	_	$.	_	_	_	_	_	O	352-353	w3a	.	*
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# text = Obgleich bey jeden Theile des Land- und Garten-Schatzes ein hinlaͤnglich Regiſter ge-<lb/>druckt worden , ſo ſind doch von vielen Liebhabern die ſchriftli-<lb/>chen Erinnerungen geſchehen , daß der Verleger ein Haupt-Regiſter uͤber dieſe Sechs Theile zum Druck befoͤr-<lb/>dern moͤchte , indem nicht einen jeden bekannt , in welchen dieſe oder jene Materie enthalten , weil das lange Nachſuchen allerdings etwas Ver-<lb/>driesliches iſt ;
+1	Obgleich	obgleich	_	KOUS	_	_	_	_	_	O	355-363	w3b,w3b_1	Obgleich	*
+2	bey	bei	_	APPR	_	_	_	_	_	B-PC	364-367	w3c	bei	*
+3	jeden	jede	_	PIAT	_	_	_	_	_	I-PC	368-373	w3d	jeden	*
+4	Theile	Teil	_	NN	_	_	_	_	_	I-PC	374-380	w3e	Teile	*
+5	des	d	_	ART	_	_	_	_	_	B-NC	381-384	w3f	des	*
+6	Land-	land-	_	TRUNC	_	_	_	_	_	I-NC	385-390	w40	Land-	*
+7	und	und	_	KON	_	_	_	_	_	O	391-394	w41	und	*
+8	Garten-Schatzes	Garten-Schatz	_	NN	_	_	_	_	_	B-NC	395-410	w42	Garten-Schatzes	*
+9	ein	eine	_	ART	_	_	_	_	_	B-NC	411-414	w43	ein	*
+10	hinlaͤnglich	hinlänglich	_	ADJD	_	_	_	_	_	I-NC	415-427	w44	hinlänglich	*
+11	Regiſter	Register	_	NN	_	_	_	_	_	I-NC	428-436	w45	Register	*
+12	ge-<lb/>druckt	drucken	_	VVPP	_	_	_	_	_	O	437-451	w46	gedruckt	*
+13	worden	werden	_	VAPP	_	_	_	_	_	O	452-458	w47	worden	*
+14	,	,	_	$,	_	_	_	_	_	O	459-460	w48	,	*
+15	ſo	so	_	ADV	_	_	_	_	_	B-ADVC	461-463	w49	so	*
+16	ſind	sein	_	VAFIN	_	_	_	_	_	O	464-468	w4a	sind	*
+17	doch	doch	_	ADV	_	_	_	_	_	B-ADVC	469-473	w4b	doch	*
+18	von	von	_	APPR	_	_	_	_	_	B-PC	474-477	w4c	von	*
+19	vielen	viel	_	PIAT	_	_	_	_	_	I-PC	478-484	w4d	vielen	*
+20	Liebhabern	Liebhaber	_	NN	_	_	_	_	_	I-PC	485-495	w4e	Liebhabern	*
+21	die	d	_	ART	_	_	_	_	_	B-NC	496-499	w4f	die	*
+22	ſchriftli-<lb/>chen	schriftlich	_	ADJA	_	_	_	_	_	I-NC	500-519	w50	schriftlichen	*
+23	Erinnerungen	Erinnerung	_	NN	_	_	_	_	_	I-NC	520-532	w51	Erinnerungen	*
+24	geſchehen	geschehen	_	VVPP	_	_	_	_	_	O	533-542	w52	geschehen	*
+25	,	,	_	$,	_	_	_	_	_	O	543-544	w53	,	*
+26	daß	daß	_	KOUS	_	_	_	_	_	O	545-548	w54	daß	*
+27	der	d	_	ART	_	_	_	_	_	B-NC	549-552	w55	der	*
+28	Verleger	Verleger	_	NN	_	_	_	_	_	I-NC	553-561	w56	Verleger	*
+29	ein	eine	_	ART	_	_	_	_	_	B-NC	562-565	w57	ein	*
+30	Haupt-Regiſter	Haupt-Register	_	NN	_	_	_	_	_	I-NC	566-580	w58	Haupt-Register	*
+31	uͤber	über	_	APPR	_	_	_	_	_	B-PC	581-586	w59	über	*
+32	dieſe	diese	_	PDAT	_	_	_	_	_	I-PC	587-592	w5a	diese	*
+33	Sechs	sechs	_	CARD	_	_	_	_	_	I-PC	593-598	w5b	Sechs	*
+34	Theile	Teil	_	NN	_	_	_	_	_	I-PC	599-605	w5c	Teile	*
+35	zum	zum	_	APPRART	_	_	_	_	_	B-PC	606-609	w5d	zum	*
+36	Druck	Druck	_	NN	_	_	_	_	_	I-PC	610-615	w5e	Druck	*
+37	befoͤr-<lb/>dern	befördern	_	VVINF	_	_	_	_	_	O	616-632	w5f,w5f_1,w5f_2	befördern	*
+38	moͤchte	mögen	_	VMFIN	_	_	_	_	_	O	633-640	w60	möchte	*
+39	,	,	_	$,	_	_	_	_	_	O	641-642	w61	,	*
+40	indem	indem	_	KOUS	_	_	_	_	_	O	643-648	w62	indem	*
+41	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVC	649-654	w63	nicht	*
+42	einen	eine	_	ART	_	_	_	_	_	B-NC	655-660	w64	einen	*
+43	jeden	jede	_	PIS	_	_	_	_	_	I-NC	661-666	w65	jeden	*
+44	bekannt	bekannt	_	ADJD	_	_	_	_	_	B-AC	667-674	w66	bekannt	*
+45	,	,	_	$,	_	_	_	_	_	O	675-676	w67	,	*
+46	in	in	_	APPR	_	_	_	_	_	B-PC	677-679	w68	in	*
+47	welchen	welchen	_	PRELS	_	_	_	_	_	I-PC	680-687	w69	welchen	*
+48	dieſe	diese	_	PDAT	_	_	_	_	_	B-NC	688-693	w6a	diese	*
+49	oder	oder	_	KON	_	_	_	_	_	O	694-698	w6b	oder	*
+50	jene	jen	_	PDAT	_	_	_	_	_	B-NC	699-703	w6c	jene	*
+51	Materie	Materie	_	NN	_	_	_	_	_	I-NC	704-711	w6d	Materie	*
+52	enthalten	enthalten	_	VVPP	_	_	_	_	_	O	712-721	w6e	enthalten	*
+53	,	,	_	$,	_	_	_	_	_	O	722-723	w6f	,	*
+54	weil	weil	_	KOUS	_	_	_	_	_	O	724-728	w70	weil	*
+55	das	d	_	ART	_	_	_	_	_	B-NC	729-732	w71	das	*
+56	lange	lang	_	ADJA	_	_	_	_	_	I-NC	733-738	w72	lange	*
+57	Nachſuchen	Nachsuche	_	NN	_	_	_	_	_	I-NC	739-749	w73	Nachsuchen	*
+58	allerdings	allerdings	_	ADV	_	_	_	_	_	B-ADVC	750-760	w74	allerdings	*
+59	etwas	etwas	_	PIAT	_	_	_	_	_	B-NC	761-766	w75	etwas	*
+60	Ver-<lb/>driesliches	verdrießlich	_	NN	_	_	_	_	_	I-NC	767-787	w76	Verdrießliches	*
+61	iſt	sein	_	VAFIN	_	_	_	_	_	O	788-791	w77	ist	*
+62	;	;	_	$.	_	_	_	_	_	O	792-793	w78	;	*
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# text = daher hat man ſich nicht entbrechen koͤnnen , den Wunſch vieler Beſitzer ſolches Werks ein Ge-<lb/>nuͤge zu leiſten , und ein Univerſal-Re-<lb/>giſter zu obbenannten Sechs Theilen zum Druck zu befoͤrdern .
+1	daher	daher	_	PAV	_	_	_	_	_	B-PC	795-800	w79	daher	*
+2	hat	haben	_	VAFIN	_	_	_	_	_	O	801-804	w7a	hat	*
+3	man	man	_	PIS	_	_	_	_	_	B-NC	805-808	w7b	man	*
+4	ſich	sich	_	PRF	_	_	_	_	_	B-NC	809-813	w7c	sich	*
+5	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVC	814-819	w7d	nicht	*
+6	entbrechen	entbrechen	_	VVINF	_	_	_	_	_	O	820-830	w7e	entbrechen	*
+7	koͤnnen	können	_	VMINF	_	_	_	_	_	O	831-838	w7f	können	*
+8	,	,	_	$,	_	_	_	_	_	O	839-840	w80	,	*
+9	den	d	_	ART	_	_	_	_	_	B-NC	841-844	w81	den	*
+10	Wunſch	Wunsch	_	NN	_	_	_	_	_	I-NC	845-851	w82	Wunsch	*
+11	vieler	viel	_	PIAT	_	_	_	_	_	B-NC	852-858	w83	vieler	*
+12	Beſitzer	Besitzer	_	NN	_	_	_	_	_	I-NC	859-867	w84	Besitzer	*
+13	ſolches	solch	_	PIAT	_	_	_	_	_	B-NC	868-875	w85	solches	*
+14	Werks	Werk	_	NN	_	_	_	_	_	I-NC	876-881	w86	Werks	*
+15	ein	eine	_	ART	_	_	_	_	_	B-NC	882-885	w87	ein	*
+16	Ge-<lb/>nuͤge	Genüge	_	NN	_	_	_	_	_	I-NC	886-899	w88	Genüge	*
+17	zu	zu	_	PTKZU	_	_	_	_	_	O	900-902	w89	zu	*
+18	leiſten	leisten	_	VVINF	_	_	_	_	_	O	903-910	w8a	leisten	*
+19	,	,	_	$,	_	_	_	_	_	O	911-912	w8b	,	*
+20	und	und	_	KON	_	_	_	_	_	O	913-916	w8c	und	*
+21	ein	eine	_	ART	_	_	_	_	_	B-NC	917-920	w8d	ein	*
+22	Univerſal-Re-<lb/>giſter	Universal-Register	_	NN	_	_	_	_	_	I-NC	921-945	w8e	Universal-Register	*
+23	zu	zu	_	PTKZU	_	_	_	_	_	O	946-948	w8f	zu	*
+24	obbenannten	obbenennt	_	ADJA	_	_	_	_	_	B-NC	949-960	w90	obbenannten	*
+25	Sechs	sechs	_	CARD	_	_	_	_	_	I-NC	961-966	w91	Sechs	*
+26	Theilen	Teil	_	NN	_	_	_	_	_	I-NC	967-974	w92	Teilen	*
+27	zum	zum	_	APPRART	_	_	_	_	_	B-PC	975-978	w93	zum	*
+28	Druck	Druck	_	NN	_	_	_	_	_	I-PC	979-984	w94	Druck	*
+29	zu	zu	_	PTKZU	_	_	_	_	_	O	985-987	w95	zu	*
+30	befoͤrdern	befördern	_	VVINF	_	_	_	_	_	O	988-998	w96	befördern	*
+31	.	.	_	$.	_	_	_	_	_	O	999-1000	w97	.	*
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# text = Die Weisheit des Schoͤpfers , welche in allen ihren Werken eine Manch-<lb/>faltigkeit erforderte , die alle menſchliche Begriffe weit uͤberſteiget , hat dieſe faſt unendliche Verſchiedenheit , welche in allen Reichen der Natur herrſchet , auch unter den Blumen und Kraͤutern hervorbli-<lb/>cken laſſen .
+1	Die	d	_	ART	_	_	_	_	_	B-NC	1002-1005	w98,w98_1	Die	*
+2	Weisheit	Weisheit	_	NN	_	_	_	_	_	I-NC	1006-1014	w99	Weisheit	*
+3	des	d	_	ART	_	_	_	_	_	B-NC	1015-1018	w9a	des	*
+4	Schoͤpfers	Schöpfer	_	NN	_	_	_	_	_	I-NC	1019-1029	w9b	Schöpfers	*
+5	,	,	_	$,	_	_	_	_	_	O	1030-1031	w9c	,	*
+6	welche	welche	_	PRELS	_	_	_	_	_	B-NC	1032-1038	w9d	welche	*
+7	in	in	_	APPR	_	_	_	_	_	B-PC	1039-1041	w9e	in	*
+8	allen	alle	_	PIAT	_	_	_	_	_	I-PC	1042-1047	w9f	allen	*
+9	ihren	ihr	_	PPOSAT	_	_	_	_	_	I-PC	1048-1053	wa0	ihren	*
+10	Werken	Werken	_	NN	_	_	_	_	_	I-PC	1054-1060	wa1	Werken	*
+11	eine	eine	_	ART	_	_	_	_	_	B-NC	1061-1065	wa2	eine	*
+12	Manch-<lb/>faltigkeit	Mannigfaltigkeit	_	NN	_	_	_	_	_	I-NC	1066-1087	wa3	Mannigfaltigkeit	*
+13	erforderte	erfordern	_	VVFIN	_	_	_	_	_	O	1088-1098	wa4	erforderte	*
+14	,	,	_	$,	_	_	_	_	_	O	1099-1100	wa5	,	*
+15	die	die	_	PRELS	_	_	_	_	_	B-NC	1101-1104	wa6	die	*
+16	alle	alle	_	PIAT	_	_	_	_	_	B-NC	1105-1109	wa7	alle	*
+17	menſchliche	menschlich	_	ADJA	_	_	_	_	_	I-NC	1110-1121	wa8	menschliche	*
+18	Begriffe	Begriff	_	NN	_	_	_	_	_	I-NC	1122-1130	wa9	Begriffe	*
+19	weit	weit	_	ADJD	_	_	_	_	_	B-AC	1131-1135	waa	weit	*
+20	uͤberſteiget	übersteigen	_	VVFIN	_	_	_	_	_	O	1136-1148	wab	übersteiget	*
+21	,	,	_	$,	_	_	_	_	_	O	1149-1150	wac	,	*
+22	hat	haben	_	VAFIN	_	_	_	_	_	O	1151-1154	wad	hat	*
+23	dieſe	diese	_	PDAT	_	_	_	_	_	B-NC	1155-1160	wae	diese	*
+24	faſt	fast	_	ADV	_	_	_	_	_	I-NC	1161-1165	waf	fast	*
+25	unendliche	unendlich	_	ADJA	_	_	_	_	_	I-NC	1166-1176	wb0	unendliche	*
+26	Verſchiedenheit	Verschiedenheit	_	NN	_	_	_	_	_	I-NC	1177-1192	wb1	Verschiedenheit	*
+27	,	,	_	$,	_	_	_	_	_	O	1193-1194	wb2	,	*
+28	welche	welche	_	PRELS	_	_	_	_	_	B-NC	1195-1201	wb3	welche	*
+29	in	in	_	APPR	_	_	_	_	_	B-PC	1202-1204	wb4	in	*
+30	allen	alle	_	PIAT	_	_	_	_	_	I-PC	1205-1210	wb5	allen	*
+31	Reichen	Reiche	_	NN	_	_	_	_	_	I-PC	1211-1218	wb6	Reichen	*
+32	der	d	_	ART	_	_	_	_	_	B-NC	1219-1222	wb7	der	*
+33	Natur	Natur	_	NN	_	_	_	_	_	I-NC	1223-1228	wb8	Natur	*
+34	herrſchet	herrschen	_	VVFIN	_	_	_	_	_	O	1229-1238	wb9	herrschet	*
+35	,	,	_	$,	_	_	_	_	_	O	1239-1240	wba	,	*
+36	auch	auch	_	ADV	_	_	_	_	_	B-PC	1241-1245	wbb	auch	*
+37	unter	unter	_	APPR	_	_	_	_	_	I-PC	1246-1251	wbc	unter	*
+38	den	d	_	ART	_	_	_	_	_	I-PC	1252-1255	wbd	den	*
+39	Blumen	Blume	_	NN	_	_	_	_	_	I-PC	1256-1262	wbe	Blumen	*
+40	und	und	_	KON	_	_	_	_	_	O	1263-1266	wbf	und	*
+41	Kraͤutern	Kraut	_	NN	_	_	_	_	_	B-NC	1267-1276	wc0	Kräutern	*
+42	hervorbli-<lb/>cken	hervorblicken	_	VVINF	_	_	_	_	_	O	1277-1296	wc1	hervorblicken	*
+43	laſſen	lassen	_	VVINF	_	_	_	_	_	O	1297-1303	wc2	lassen	*
+44	.	.	_	$.	_	_	_	_	_	O	1304-1305	wc3	.	*
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# text = Wir moͤgen uns den Anfang und die Veraͤnderungen unſers Erdbodens aus einem Geſichtspunkte vorſtellen , aus welchen wir wollen : ſo bleibt allemal ausge-<lb/>macht , daß dieſe groſſe Manchfaltigkeit von Blumen anfaͤnglich in einer ſchoͤnen Unord-<lb/>nung und ohne Unterſchied gewachſen , und daß dem Menſchen der Begrif eines Gar-<lb/>tens urſpruͤnglich unbekannt geweſen .
+1	Wir	wir	_	PPER	_	_	_	_	_	B-NC	1307-1310	wc4	Wir	*
+2	moͤgen	mögen	_	VMFIN	_	_	_	_	_	O	1311-1317	wc5	mögen	*
+3	uns	uns	_	PRF	_	_	_	_	_	B-NC	1318-1321	wc6	uns	*
+4	den	d	_	ART	_	_	_	_	_	B-NC	1322-1325	wc7	den	*
+5	Anfang	Anfang	_	NN	_	_	_	_	_	I-NC	1326-1332	wc8	Anfang	*
+6	und	und	_	KON	_	_	_	_	_	O	1333-1336	wc9	und	*
+7	die	d	_	ART	_	_	_	_	_	B-NC	1337-1340	wca	die	*
+8	Veraͤnderungen	Veränderung	_	NN	_	_	_	_	_	I-NC	1341-1355	wcb	Veränderungen	*
+9	unſers	unsere	_	PPOSAT	_	_	_	_	_	B-NC	1356-1362	wcc	unseres	*
+10	Erdbodens	Erdboden	_	NN	_	_	_	_	_	I-NC	1363-1372	wcd	Erdbodens	*
+11	aus	aus	_	APPR	_	_	_	_	_	B-PC	1373-1376	wce	aus	*
+12	einem	eine	_	ART	_	_	_	_	_	I-PC	1377-1382	wcf	einem	*
+13	Geſichtspunkte	Gesichtspunkt	_	NN	_	_	_	_	_	I-PC	1383-1397	wd0	Gesichtspunkte	*
+14	vorſtellen	vorstellen	_	VVINF	_	_	_	_	_	O	1398-1408	wd1	vorstellen	*
+15	,	,	_	$,	_	_	_	_	_	O	1409-1410	wd2	,	*
+16	aus	aus	_	APPR	_	_	_	_	_	B-PC	1411-1414	wd3	aus	*
+17	welchen	welchen	_	PRELS	_	_	_	_	_	I-PC	1415-1422	wd4	welchen	*
+18	wir	wir	_	PPER	_	_	_	_	_	B-NC	1423-1426	wd5	wir	*
+19	wollen	wollen	_	VMFIN	_	_	_	_	_	O	1427-1433	wd6	wollen	*
+20	:	:	_	$.	_	_	_	_	_	O	1434-1435	wd7	:	*
+21	ſo	so	_	ADV	_	_	_	_	_	B-ADVC	1436-1438	wd8	so	*
+22	bleibt	bleiben	_	VVFIN	_	_	_	_	_	O	1439-1445	wd9	bleibt	*
+23	allemal	allemal	_	ADV	_	_	_	_	_	B-ADVC	1446-1453	wda	allemal	*
+24	ausge-<lb/>macht	ausmachen	_	VVPP	_	_	_	_	_	O	1454-1470	wdb	ausgemacht	*
+25	,	,	_	$,	_	_	_	_	_	O	1471-1472	wdc	,	*
+26	daß	daß	_	KOUS	_	_	_	_	_	O	1473-1476	wdd	daß	*
+27	dieſe	diese	_	PDAT	_	_	_	_	_	B-NC	1477-1482	wde	diese	*
+28	groſſe	groß	_	ADJA	_	_	_	_	_	I-NC	1483-1489	wdf	große	*
+29	Manchfaltigkeit	Mannigfaltigkeit	_	NN	_	_	_	_	_	I-NC	1490-1505	we0	Mannigfaltigkeit	*
+30	von	von	_	APPR	_	_	_	_	_	B-PC	1506-1509	we1	von	*
+31	Blumen	Blume	_	NN	_	_	_	_	_	I-PC	1510-1516	we2	Blumen	*
+32	anfaͤnglich	anfänglich	_	ADJD	_	_	_	_	_	B-AC	1517-1528	we3	anfänglich	*
+33	in	in	_	APPR	_	_	_	_	_	B-PC	1529-1531	we4	in	*
+34	einer	eine	_	ART	_	_	_	_	_	I-PC	1532-1537	we5	einer	*
+35	ſchoͤnen	schön	_	ADJA	_	_	_	_	_	I-PC	1538-1546	we6	schönen	*
+36	Unord-<lb/>nung	Unordnung	_	NN	_	_	_	_	_	I-PC	1547-1562	we7	Unordnung	*
+37	und	und	_	KON	_	_	_	_	_	O	1563-1566	we8	und	*
+38	ohne	ohne	_	APPR	_	_	_	_	_	B-PC	1567-1571	we9	ohne	*
+39	Unterſchied	Unterschied	_	NN	_	_	_	_	_	I-PC	1572-1583	wea	Unterschied	*
+40	gewachſen	wachsen	_	VVPP	_	_	_	_	_	O	1584-1593	web	gewachsen	*
+41	,	,	_	$,	_	_	_	_	_	O	1594-1595	wec	,	*
+42	und	und	_	KON	_	_	_	_	_	O	1596-1599	wed	und	*
+43	daß	daß	_	KOUS	_	_	_	_	_	O	1600-1603	wee	daß	*
+44	dem	d	_	ART	_	_	_	_	_	B-NC	1604-1607	wef	dem	*
+45	Menſchen	Mensch	_	NN	_	_	_	_	_	I-NC	1608-1616	wf0	Menschen	*
+46	der	d	_	ART	_	_	_	_	_	B-NC	1617-1620	wf1	der	*
+47	Begrif	Begriff	_	NN	_	_	_	_	_	I-NC	1621-1627	wf2	Begriff	*
+48	eines	eine	_	ART	_	_	_	_	_	B-NC	1628-1633	wf3	eines	*
+49	Gar-<lb/>tens	Garten	_	NN	_	_	_	_	_	I-NC	1634-1647	wf4	Gartens	*
+50	urſpruͤnglich	ursprünglich	_	ADJD	_	_	_	_	_	B-AC	1648-1661	wf5	ursprünglich	*
+51	unbekannt	unbekannt	_	ADJD	_	_	_	_	_	I-AC	1662-1671	wf6	unbekannt	*
+52	geweſen	sein	_	VAPP	_	_	_	_	_	O	1672-1679	wf7	gewesen	*
+53	.	.	_	$.	_	_	_	_	_	O	1680-1681	wf8	.	*
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# text = So ſehr auch dieſe ſcheinbare Nachlaͤßig-<lb/>keit der Natur den weiſen Abſichten eines un-<lb/>endlichen Weſens gemaͤs iſt ; ſo fiel es doch den eingeſchraͤnkten Kraͤften endlicher Weſen ſehr ſchwer , wo nicht gar unmoͤglich , bey die-<lb/>ſer unzaͤhligen Menge das Brauchbare von den Unnuͤtzen , das Schoͤne von dem weniger Schoͤnen und Schlechten abzuſondern .
+1	So	so	_	ADV	_	_	_	_	_	B-ADVC	1683-1685	wf9	So	*
+2	ſehr	sehr	_	ADV	_	_	_	_	_	I-ADVC	1686-1690	wfa	sehr	*
+3	auch	auch	_	ADV	_	_	_	_	_	B-NC	1691-1695	wfb	auch	*
+4	dieſe	diese	_	PDAT	_	_	_	_	_	I-NC	1696-1701	wfc	diese	*
+5	ſcheinbare	scheinbar	_	ADJA	_	_	_	_	_	I-NC	1702-1712	wfd	scheinbare	*
+6	Nachlaͤßig-<lb/>keit	Nachlässigkeit	_	NN	_	_	_	_	_	I-NC	1713-1733	wfe	Nachlässigkeit	*
+7	der	d	_	ART	_	_	_	_	_	B-NC	1734-1737	wff	der	*
+8	Natur	Natur	_	NN	_	_	_	_	_	I-NC	1738-1743	w100	Natur	*
+9	den	d	_	ART	_	_	_	_	_	B-NC	1744-1747	w101	den	*
+10	weiſen	weise	_	ADJA	_	_	_	_	_	I-NC	1748-1754	w102	weisen	*
+11	Abſichten	Absicht	_	NN	_	_	_	_	_	I-NC	1755-1764	w103	Absichten	*
+12	eines	eine	_	ART	_	_	_	_	_	B-NC	1765-1770	w104	eines	*
+13	un-<lb/>endlichen	unendlich	_	ADJA	_	_	_	_	_	I-NC	1771-1788	w105	unendlichen	*
+14	Weſens	Wesen	_	NN	_	_	_	_	_	I-NC	1789-1795	w106	Wesens	*
+15	gemaͤs	gemäß	_	ADJD	_	_	_	_	_	B-AC	1796-1802	w107	gemäß	*
+16	iſt	sein	_	VAFIN	_	_	_	_	_	O	1803-1806	w108	ist	*
+17	;	;	_	$.	_	_	_	_	_	O	1807-1808	w109	;	*
+18	ſo	so	_	ADV	_	_	_	_	_	B-ADVC	1809-1811	w10a	so	*
+19	fiel	fallen	_	VVFIN	_	_	_	_	_	O	1812-1816	w10b	fiel	*
+20	es	es	_	PPER	_	_	_	_	_	B-NC	1817-1819	w10c	es	*
+21	doch	doch	_	ADV	_	_	_	_	_	B-ADVC	1820-1824	w10d	doch	*
+22	den	d	_	ART	_	_	_	_	_	B-NC	1825-1828	w10e	den	*
+23	eingeſchraͤnkten	eingeschränkt	_	ADJA	_	_	_	_	_	I-NC	1829-1845	w10f	eingeschränkten	*
+24	Kraͤften	Kraft	_	NN	_	_	_	_	_	I-NC	1846-1854	w110	Kräften	*
+25	endlicher	endlich	_	ADJA	_	_	_	_	_	B-NC	1855-1864	w111	endlicher	*
+26	Weſen	Wesen	_	NN	_	_	_	_	_	I-NC	1865-1870	w112	Wesen	*
+27	ſehr	sehr	_	ADV	_	_	_	_	_	B-ADVC	1871-1875	w113	sehr	*
+28	ſchwer	schwer	_	ADJD	_	_	_	_	_	B-AC	1876-1882	w114	schwer	*
+29	,	,	_	$,	_	_	_	_	_	O	1883-1884	w115	,	*
+30	wo	wo	_	PWAV	_	_	_	_	_	O	1885-1887	w116	wo	*
+31	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVC	1888-1893	w117	nicht	*
+32	gar	gar	_	ADV	_	_	_	_	_	I-ADVC	1894-1897	w118	gar	*
+33	unmoͤglich	unmöglich	_	ADJD	_	_	_	_	_	B-AC	1898-1908	w119	unmöglich	*
+34	,	,	_	$,	_	_	_	_	_	O	1909-1910	w11a	,	*
+35	bey	bei	_	APPR	_	_	_	_	_	B-PC	1911-1914	w11b	bei	*
+36	die-<lb/>ſer	diese	_	PDAT	_	_	_	_	_	I-PC	1915-1927	w11c	dieser	*
+37	unzaͤhligen	unzählig	_	ADJA	_	_	_	_	_	I-PC	1928-1939	w11d	unzähligen	*
+38	Menge	Menge	_	NN	_	_	_	_	_	I-PC	1940-1945	w11e	Menge	*
+39	das	d	_	ART	_	_	_	_	_	B-NC	1946-1949	w11f	das	*
+40	Brauchbare	Brauchbare	_	NN	_	_	_	_	_	I-NC	1950-1960	w120	Brauchbare	*
+41	von	von	_	APPR	_	_	_	_	_	B-PC	1961-1964	w121	von	*
+42	den	d	_	ART	_	_	_	_	_	I-PC	1965-1968	w122	den	*
+43	Unnuͤtzen	Unnütze	_	NN	_	_	_	_	_	I-PC	1969-1978	w123	Unnützen	*
+44	,	,	_	$,	_	_	_	_	_	O	1979-1980	w124	,	*
+45	das	d	_	ART	_	_	_	_	_	B-NC	1981-1984	w125	das	*
+46	Schoͤne	Schöne	_	NN	_	_	_	_	_	I-NC	1985-1992	w126	Schöne	*
+47	von	von	_	APPR	_	_	_	_	_	B-PC	1993-1996	w127	von	*
+48	dem	d	_	ART	_	_	_	_	_	I-PC	1997-2000	w128	dem	*
+49	weniger	wenige	_	PIAT	_	_	_	_	_	I-PC	2001-2008	w129	weniger	*
+50	Schoͤnen	Schöne	_	NN	_	_	_	_	_	I-PC	2009-2017	w12a	Schönen	*
+51	und	und	_	KON	_	_	_	_	_	O	2018-2021	w12b	und	*
+52	Schlechten	Schlechte	_	NN	_	_	_	_	_	B-NC	2022-2032	w12c	Schlechten	*
+53	abzuſondern	absondern	_	VVIZU	_	_	_	_	_	O	2033-2044	w12d	abzusondern	*
+54	.	.	_	$.	_	_	_	_	_	O	2045-2046	w12e	.	*
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# text = Es werden ſchon ſehr geuͤbte Kraͤfte des Verſtan-<lb/>des erfordert , wenn man bey einer groſſen Anzahl verſchiedener eiuzeler Dinge , die durch keine in die Augen fallende Ordnung und Ver-<lb/>haͤltniſſe mit einander verbunden werden , ſich fuͤr eine Verwirrung der Begriffe zu huͤten .
+1	Es	es	_	PPER	_	_	_	_	_	B-NC	2048-2050	w12f	Es	*
+2	werden	werden	_	VAFIN	_	_	_	_	_	O	2051-2057	w130	werden	*
+3	ſchon	schon	_	ADV	_	_	_	_	_	B-ADVC	2058-2063	w131	schon	*
+4	ſehr	sehr	_	ADV	_	_	_	_	_	B-ADVC	2064-2068	w132	sehr	*
+5	geuͤbte	geübt	_	ADJA	_	_	_	_	_	B-NC	2069-2076	w133	geübte	*
+6	Kraͤfte	Kraft	_	NN	_	_	_	_	_	I-NC	2077-2084	w134	Kräfte	*
+7	des	d	_	ART	_	_	_	_	_	B-NC	2085-2088	w135	des	*
+8	Verſtan-<lb/>des	Verstand	_	NN	_	_	_	_	_	I-NC	2089-2105	w136	Verstandes	*
+9	erfordert	erfordern	_	VVFIN	_	_	_	_	_	O	2106-2115	w137	erfordert	*
+10	,	,	_	$,	_	_	_	_	_	O	2116-2117	w138	,	*
+11	wenn	wenn	_	KOUS	_	_	_	_	_	O	2118-2122	w139	wenn	*
+12	man	man	_	PIS	_	_	_	_	_	B-NC	2123-2126	w13a	man	*
+13	bey	bei	_	APPR	_	_	_	_	_	B-PC	2127-2130	w13b	bei	*
+14	einer	eine	_	ART	_	_	_	_	_	I-PC	2131-2136	w13c	einer	*
+15	groſſen	groß	_	ADJA	_	_	_	_	_	I-PC	2137-2144	w13d	großen	*
+16	Anzahl	Anzahl	_	NN	_	_	_	_	_	I-PC	2145-2151	w13e	Anzahl	*
+17	verſchiedener	verschieden	_	ADJA	_	_	_	_	_	B-NC	2152-2165	w13f	verschiedener	*
+18	eiuzeler	eiuzeler	_	ADJA	_	_	_	_	_	I-NC	2166-2174	w140	eiuzeler	*
+19	Dinge	Ding	_	NN	_	_	_	_	_	I-NC	2175-2180	w141	Dinge	*
+20	,	,	_	$,	_	_	_	_	_	O	2181-2182	w142	,	*
+21	die	die	_	PRELS	_	_	_	_	_	B-NC	2183-2186	w143	die	*
+22	durch	durch	_	APPR	_	_	_	_	_	B-sPC	2187-2192	w144	durch	*
+23	keine	keine	_	PIAT	_	_	_	_	_	I-sPC	2193-2198	w145	keine	*
+24	in	in	_	APPR	_	_	_	_	_	B-PC	2199-2201	w146	in	*
+25	die	d	_	ART	_	_	_	_	_	I-PC	2202-2205	w147	die	*
+26	Augen	Auge	_	NN	_	_	_	_	_	I-PC	2206-2211	w148	Augen	*
+27	fallende	fallend	_	ADJA	_	_	_	_	_	B-NC	2212-2220	w149	fallende	*
+28	Ordnung	Ordnung	_	NN	_	_	_	_	_	I-NC	2221-2228	w14a	Ordnung	*
+29	und	und	_	KON	_	_	_	_	_	O	2229-2232	w14b	und	*
+30	Ver-<lb/>haͤltniſſe	Verhältnis	_	NN	_	_	_	_	_	B-NC	2233-2252	w14c	Verhältnisse	*
+31	mit	mit	_	APPR	_	_	_	_	_	B-PC	2253-2256	w14d	mit	*
+32	einander	einander	_	ADV	_	_	_	_	_	I-PC	2257-2265	w14e	einander	*
+33	verbunden	verbinden	_	VVPP	_	_	_	_	_	O	2266-2275	w14f	verbunden	*
+34	werden	werden	_	VAFIN	_	_	_	_	_	O	2276-2282	w150	werden	*
+35	,	,	_	$,	_	_	_	_	_	O	2283-2284	w151	,	*
+36	ſich	sich	_	PRF	_	_	_	_	_	B-NC	2285-2289	w152	sich	*
+37	fuͤr	für	_	APPR	_	_	_	_	_	B-PC	2290-2294	w153	für	*
+38	eine	eine	_	ART	_	_	_	_	_	I-PC	2295-2299	w154	eine	*
+39	Verwirrung	Verwirrung	_	NN	_	_	_	_	_	I-PC	2300-2310	w155	Verwirrung	*
+40	der	d	_	ART	_	_	_	_	_	B-NC	2311-2314	w156	der	*
+41	Begriffe	Begriff	_	NN	_	_	_	_	_	I-NC	2315-2323	w157	Begriffe	*
+42	zu	zu	_	PTKZU	_	_	_	_	_	O	2324-2326	w158	zu	*
+43	huͤten	hüten	_	VVINF	_	_	_	_	_	O	2327-2333	w159	hüten	*
+44	.	.	_	$.	_	_	_	_	_	O	2334-2335	w15a	.	*
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# text = Die Beduͤrfniſſe des Menſchen , welche die Veranlaſſung zu allen Kuͤnſten und Wiſſen-<lb/>ſchaften geweſen ſind , fuͤhreten ihn alſo nach und nach auf den Entwurf gewiſſe Kraͤuter und Blumen von andern abzuſondern , und unter der groſſen Menge derſelben eine noͤthi-<lb/>ge Wahl zu halten : das heiſt ſich Gaͤrten an-<lb/>zulegen .
+1	Die	d	_	ART	_	_	_	_	_	B-NC	2337-2340	w15b	Die	*
+2	Beduͤrfniſſe	Bedürfnis	_	NN	_	_	_	_	_	I-NC	2341-2353	w15c	Bedürfnisse	*
+3	des	d	_	ART	_	_	_	_	_	B-NC	2354-2357	w15d	des	*
+4	Menſchen	Mensch	_	NN	_	_	_	_	_	I-NC	2358-2366	w15e	Menschen	*
+5	,	,	_	$,	_	_	_	_	_	O	2367-2368	w15f	,	*
+6	welche	welche	_	PRELS	_	_	_	_	_	B-NC	2369-2375	w160	welche	*
+7	die	d	_	ART	_	_	_	_	_	B-NC	2376-2379	w161	die	*
+8	Veranlaſſung	Veranlaßung	_	NN	_	_	_	_	_	I-NC	2380-2392	w162	Veranlassung	*
+9	zu	zu	_	APPR	_	_	_	_	_	B-PC	2393-2395	w163	zu	*
+10	allen	alle	_	PIAT	_	_	_	_	_	I-PC	2396-2401	w164	allen	*
+11	Kuͤnſten	Kunst	_	NN	_	_	_	_	_	I-PC	2402-2410	w165	Künsten	*
+12	und	und	_	KON	_	_	_	_	_	O	2411-2414	w166	und	*
+13	Wiſſen-<lb/>ſchaften	Wissenschaft	_	NN	_	_	_	_	_	B-NC	2415-2435	w167	Wissenschaften	*
+14	geweſen	sein	_	VAPP	_	_	_	_	_	O	2436-2443	w168	gewesen	*
+15	ſind	sein	_	VAFIN	_	_	_	_	_	O	2444-2448	w169	sind	*
+16	,	,	_	$,	_	_	_	_	_	O	2449-2450	w16a	,	*
+17	fuͤhreten	führen	_	VVFIN	_	_	_	_	_	O	2451-2460	w16b	führten	*
+18	ihn	er	_	PPER	_	_	_	_	_	B-NC	2461-2464	w16c	ihn	*
+19	alſo	also	_	ADV	_	_	_	_	_	B-ADVC	2465-2469	w16d	also	*
+20	nach	nach	_	ADV	_	_	_	_	_	B-ADVC	2470-2474	w16e	nach	*
+21	und	und	_	KON	_	_	_	_	_	I-ADVC	2475-2478	w16f	und	*
+22	nach	nach	_	ADV	_	_	_	_	_	I-ADVC	2479-2483	w170	nach	*
+23	auf	auf	_	APPR	_	_	_	_	_	B-PC	2484-2487	w171	auf	*
+24	den	d	_	ART	_	_	_	_	_	I-PC	2488-2491	w172	den	*
+25	Entwurf	Entwurf	_	NN	_	_	_	_	_	I-PC	2492-2499	w173	Entwurf	*
+26	gewiſſe	gewiß	_	ADJA	_	_	_	_	_	B-NC	2500-2507	w174	gewisse	*
+27	Kraͤuter	Kraut	_	NN	_	_	_	_	_	I-NC	2508-2516	w175	Kräuter	*
+28	und	und	_	KON	_	_	_	_	_	O	2517-2520	w176	und	*
+29	Blumen	Blume	_	NN	_	_	_	_	_	B-NC	2521-2527	w177	Blumen	*
+30	von	von	_	APPR	_	_	_	_	_	B-PC	2528-2531	w178	von	*
+31	andern	andere	_	PIS	_	_	_	_	_	I-PC	2532-2538	w179	anderen	*
+32	abzuſondern	absondern	_	VVIZU	_	_	_	_	_	O	2539-2550	w17a	abzusondern	*
+33	,	,	_	$,	_	_	_	_	_	O	2551-2552	w17b	,	*
+34	und	und	_	KON	_	_	_	_	_	O	2553-2556	w17c	und	*
+35	unter	unter	_	APPR	_	_	_	_	_	B-PC	2557-2562	w17d	unter	*
+36	der	d	_	ART	_	_	_	_	_	I-PC	2563-2566	w17e	der	*
+37	groſſen	groß	_	ADJA	_	_	_	_	_	I-PC	2567-2574	w17f	großen	*
+38	Menge	Menge	_	NN	_	_	_	_	_	I-PC	2575-2580	w180	Menge	*
+39	derſelben	dieselbe	_	PDS	_	_	_	_	_	B-NC	2581-2590	w181	derselben	*
+40	eine	eine	_	ART	_	_	_	_	_	B-NC	2591-2595	w182	eine	*
+41	noͤthi-<lb/>ge	nötig	_	ADJA	_	_	_	_	_	I-NC	2596-2610	w183	nötige	*
+42	Wahl	Wahl	_	NN	_	_	_	_	_	I-NC	2611-2615	w184	Wahl	*
+43	zu	zu	_	PTKZU	_	_	_	_	_	O	2616-2618	w185	zu	*
+44	halten	halten	_	VVINF	_	_	_	_	_	O	2619-2625	w186	halten	*
+45	:	:	_	$.	_	_	_	_	_	O	2626-2627	w187	:	*
+46	das	die	_	PDS	_	_	_	_	_	B-NC	2628-2631	w188	das	*
+47	heiſt	heissen	_	VVFIN	_	_	_	_	_	O	2632-2637	w189	heisst	*
+48	ſich	sich	_	PRF	_	_	_	_	_	B-NC	2638-2642	w18a	sich	*
+49	Gaͤrten	Garten	_	NN	_	_	_	_	_	B-NC	2643-2650	w18b	Gärten	*
+50	an-<lb/>zulegen	anlegen	_	VVIZU	_	_	_	_	_	O	2651-2666	w18c	anzulegen	*
+51	.	.	_	$.	_	_	_	_	_	O	2667-2668	w18d	.	*
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# text = Man ſiehet leicht , daß dieſe von ſo vielfa-<lb/>cher Art ſeyn muſten , als vielfach die Abſich-<lb/>ten desjenigen ſeyn konnten , der den Entwurf bildete , gewiſſe Kraͤuter von andern abzuſon-<lb/>dern , und ſie durch dieſe Abſonderung zu ſei-<lb/>nem Gebrauche bequemer zu machen .
+1	Man	man	_	PIS	_	_	_	_	_	B-NC	2670-2673	w18e	Man	*
+2	ſiehet	sehen	_	VVFIN	_	_	_	_	_	O	2674-2680	w18f	sieht	*
+3	leicht	leicht	_	ADJD	_	_	_	_	_	B-AC	2681-2687	w190	leicht	*
+4	,	,	_	$,	_	_	_	_	_	O	2688-2689	w191	,	*
+5	daß	daß	_	KOUS	_	_	_	_	_	O	2690-2693	w192	daß	*
+6	dieſe	diese	_	PDS	_	_	_	_	_	B-NC	2694-2699	w193	diese	*
+7	von	von	_	APPR	_	_	_	_	_	B-PC	2700-2703	w194	von	*
+8	ſo	so	_	ADV	_	_	_	_	_	I-PC	2704-2706	w195	so	*
+9	vielfa-<lb/>cher	vielfach	_	ADJA	_	_	_	_	_	I-PC	2707-2723	w196	vielfacher	*
+10	Art	Art	_	NN	_	_	_	_	_	I-PC	2724-2727	w197	Art	*
+11	ſeyn	sein	_	VAINF	_	_	_	_	_	O	2728-2732	w198	sein	*
+12	muſten	müssen	_	VMFIN	_	_	_	_	_	O	2733-2739	w199	mussten	*
+13	,	,	_	$,	_	_	_	_	_	O	2740-2741	w19a	,	*
+14	als	als	_	KOUS	_	_	_	_	_	O	2742-2745	w19b	als	*
+15	vielfach	vielfach	_	ADV	_	_	_	_	_	B-ADVC	2746-2754	w19c	vielfach	*
+16	die	d	_	ART	_	_	_	_	_	B-NC	2755-2758	w19d	die	*
+17	Abſich-<lb/>ten	Absicht	_	NN	_	_	_	_	_	I-NC	2759-2774	w19e	Absichten	*
+18	desjenigen	desjenig	_	PDS	_	_	_	_	_	B-NC	2775-2785	w19f	desjenigen	*
+19	ſeyn	sein	_	VAINF	_	_	_	_	_	O	2786-2790	w1a0	sein	*
+20	konnten	können	_	VMFIN	_	_	_	_	_	O	2791-2798	w1a1	konnten	*
+21	,	,	_	$,	_	_	_	_	_	O	2799-2800	w1a2	,	*
+22	der	die	_	PRELS	_	_	_	_	_	B-NC	2801-2804	w1a3	der	*
+23	den	d	_	ART	_	_	_	_	_	B-NC	2805-2808	w1a4	den	*
+24	Entwurf	Entwurf	_	NN	_	_	_	_	_	I-NC	2809-2816	w1a5	Entwurf	*
+25	bildete	bilden	_	VVFIN	_	_	_	_	_	O	2817-2824	w1a6	bildete	*
+26	,	,	_	$,	_	_	_	_	_	O	2825-2826	w1a7	,	*
+27	gewiſſe	gewiß	_	ADJA	_	_	_	_	_	B-NC	2827-2834	w1a8	gewisse	*
+28	Kraͤuter	Kraut	_	NN	_	_	_	_	_	I-NC	2835-2843	w1a9	Kräuter	*
+29	von	von	_	APPR	_	_	_	_	_	B-PC	2844-2847	w1aa	von	*
+30	andern	andere	_	PIS	_	_	_	_	_	I-PC	2848-2854	w1ab	anderen	*
+31	abzuſon-<lb/>dern	absondern	_	VVIZU	_	_	_	_	_	O	2855-2872	w1ac	abzusondern	*
+32	,	,	_	$,	_	_	_	_	_	O	2873-2874	w1ad	,	*
+33	und	und	_	KON	_	_	_	_	_	O	2875-2878	w1ae	und	*
+34	ſie	sie	_	PPER	_	_	_	_	_	B-NC	2879-2882	w1af	sie	*
+35	durch	durch	_	APPR	_	_	_	_	_	B-PC	2883-2888	w1b0	durch	*
+36	dieſe	diese	_	PDAT	_	_	_	_	_	I-PC	2889-2894	w1b1	diese	*
+37	Abſonderung	Absonderung	_	NN	_	_	_	_	_	I-PC	2895-2906	w1b2	Absonderung	*
+38	zu	zu	_	APPR	_	_	_	_	_	B-PC	2907-2909	w1b3	zu	*
+39	ſei-<lb/>nem	seine	_	PPOSAT	_	_	_	_	_	I-PC	2910-2922	w1b4	seinem	*
+40	Gebrauche	Gebrauch	_	NN	_	_	_	_	_	I-PC	2923-2932	w1b5	Gebrauche	*
+41	bequemer	bequem	_	ADJD	_	_	_	_	_	B-AC	2933-2941	w1b6	bequemer	*
+42	zu	zu	_	PTKZU	_	_	_	_	_	O	2942-2944	w1b7	zu	*
+43	machen	machen	_	VVINF	_	_	_	_	_	O	2945-2951	w1b8	machen	*
+44	.	.	_	$.	_	_	_	_	_	O	2952-2953	w1b9	.	*
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# text = Ehe ich noch die verſchiedenen beſonderen Arten dieſer Abſichten anfuͤhre , ſo will ich nur zuvor zwey allgemeine Ausſichten eroͤfnen , die uns nach und nach zu mehrern beſondern leiten werden .
+1	Ehe	ehe	_	KOUS	_	_	_	_	_	O	2955-2958	w1ba	Ehe	*
+2	ich	ich	_	PPER	_	_	_	_	_	B-NC	2959-2962	w1bb	ich	*
+3	noch	noch	_	ADV	_	_	_	_	_	B-ADVC	2963-2967	w1bc	noch	*
+4	die	d	_	ART	_	_	_	_	_	B-NC	2968-2971	w1bd	die	*
+5	verſchiedenen	verschieden	_	ADJA	_	_	_	_	_	I-NC	2972-2985	w1be	verschiedenen	*
+6	beſonderen	besondere	_	ADJA	_	_	_	_	_	I-NC	2986-2996	w1bf	besonderen	*
+7	Arten	Art	_	NN	_	_	_	_	_	I-NC	2997-3002	w1c0	Arten	*
+8	dieſer	diese	_	PDAT	_	_	_	_	_	B-NC	3003-3009	w1c1	dieser	*
+9	Abſichten	Absicht	_	NN	_	_	_	_	_	I-NC	3010-3019	w1c2	Absichten	*
+10	anfuͤhre	anführen	_	VVFIN	_	_	_	_	_	O	3020-3028	w1c3	anführe	*
+11	,	,	_	$,	_	_	_	_	_	O	3029-3030	w1c4	,	*
+12	ſo	so	_	ADV	_	_	_	_	_	B-ADVC	3031-3033	w1c5	so	*
+13	will	wollen	_	VMFIN	_	_	_	_	_	O	3034-3038	w1c6	will	*
+14	ich	ich	_	PPER	_	_	_	_	_	B-NC	3039-3042	w1c7	ich	*
+15	nur	nur	_	ADV	_	_	_	_	_	B-ADVC	3043-3046	w1c8	nur	*
+16	zuvor	zuvor	_	ADV	_	_	_	_	_	I-ADVC	3047-3052	w1c9	zuvor	*
+17	zwey	zwei	_	CARD	_	_	_	_	_	B-NC	3053-3057	w1ca	zwei	*
+18	allgemeine	allgemein	_	ADJA	_	_	_	_	_	I-NC	3058-3068	w1cb	allgemeine	*
+19	Ausſichten	Aussicht	_	NN	_	_	_	_	_	I-NC	3069-3079	w1cc	Aussichten	*
+20	eroͤfnen	eröffnen	_	VVINF	_	_	_	_	_	O	3080-3088	w1cd	eröffnen	*
+21	,	,	_	$,	_	_	_	_	_	O	3089-3090	w1ce	,	*
+22	die	die	_	PRELS	_	_	_	_	_	B-NC	3091-3094	w1cf	die	*
+23	uns	wir	_	PPER	_	_	_	_	_	B-NC	3095-3098	w1d0	uns	*
+24	nach	nach	_	ADV	_	_	_	_	_	B-ADVC	3099-3103	w1d1	nach	*
+25	und	und	_	KON	_	_	_	_	_	I-ADVC	3104-3107	w1d2	und	*
+26	nach	nach	_	ADV	_	_	_	_	_	I-ADVC	3108-3112	w1d3	nach	*
+27	zu	zu	_	APPR	_	_	_	_	_	B-PC	3113-3115	w1d4	zu	*
+28	mehrern	mehrere	_	PIAT	_	_	_	_	_	I-PC	3116-3123	w1d5	mehreren	*
+29	beſondern	besondere	_	NN	_	_	_	_	_	I-PC	3124-3133	w1d6	besonderen	*
+30	leiten	leiten	_	VVINF	_	_	_	_	_	O	3134-3140	w1d7	leiten	*
+31	werden	werden	_	VAFIN	_	_	_	_	_	O	3141-3147	w1d8	werden	*
+32	.	.	_	$.	_	_	_	_	_	O	3148-3149	w1d9	.	*
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# text = Alle Handwerke , Kuͤnſte und Wiſſenſchaf-<lb/>ten , und mit einem Worte , alle Arten der Beſchaͤftigungen der Menſchen , ſie moͤgen nun vermittelſt der Gliedmaſſen ſeines Koͤr-<lb/>pers , oder durch die Kraͤfte ſeiner Seele ver-<lb/>richtet werden , laſſen ſich in Abſicht ihres Endzwecks in zwey Hauptarten eintheilen .
+1	Alle	alle	_	PIAT	_	_	_	_	_	B-NC	3151-3155	w1da	Alle	*
+2	Handwerke	Handwerk	_	NN	_	_	_	_	_	I-NC	3156-3165	w1db	Handwerke	*
+3	,	,	_	$,	_	_	_	_	_	O	3166-3167	w1dc	,	*
+4	Kuͤnſte	Kunst	_	NN	_	_	_	_	_	B-NC	3168-3175	w1dd	Künste	*
+5	und	und	_	KON	_	_	_	_	_	O	3176-3179	w1de	und	*
+6	Wiſſenſchaf-<lb/>ten	Wissenschaft	_	NN	_	_	_	_	_	B-NC	3180-3200	w1df	Wissenschaften	*
+7	,	,	_	$,	_	_	_	_	_	O	3201-3202	w1e0	,	*
+8	und	und	_	KON	_	_	_	_	_	O	3203-3206	w1e1	und	*
+9	mit	mit	_	APPR	_	_	_	_	_	B-PC	3207-3210	w1e2	mit	*
+10	einem	eine	_	ART	_	_	_	_	_	I-PC	3211-3216	w1e3	einem	*
+11	Worte	Wort	_	NN	_	_	_	_	_	I-PC	3217-3222	w1e4	Worte	*
+12	,	,	_	$,	_	_	_	_	_	O	3223-3224	w1e5	,	*
+13	alle	alle	_	PIAT	_	_	_	_	_	B-NC	3225-3229	w1e6	alle	*
+14	Arten	Art	_	NN	_	_	_	_	_	I-NC	3230-3235	w1e7	Arten	*
+15	der	d	_	ART	_	_	_	_	_	B-NC	3236-3239	w1e8	der	*
+16	Beſchaͤftigungen	Beschäftigung	_	NN	_	_	_	_	_	I-NC	3240-3256	w1e9	Beschäftigungen	*
+17	der	d	_	ART	_	_	_	_	_	B-NC	3257-3260	w1ea	der	*
+18	Menſchen	Mensch	_	NN	_	_	_	_	_	I-NC	3261-3269	w1eb	Menschen	*
+19	,	,	_	$,	_	_	_	_	_	O	3270-3271	w1ec	,	*
+20	ſie	sie	_	PPER	_	_	_	_	_	B-NC	3272-3275	w1ed	sie	*
+21	moͤgen	mögen	_	VMFIN	_	_	_	_	_	O	3276-3282	w1ee	mögen	*
+22	nun	nun	_	ADV	_	_	_	_	_	B-ADVC	3283-3286	w1ef	nun	*
+23	vermittelſt	vermittels	_	APPR	_	_	_	_	_	B-PC	3287-3298	w1f0	vermittels	*
+24	der	d	_	ART	_	_	_	_	_	I-PC	3299-3302	w1f1	der	*
+25	Gliedmaſſen	Gliedmaße	_	NN	_	_	_	_	_	I-PC	3303-3314	w1f2	Gliedmaßen	*
+26	ſeines	seine	_	PPOSAT	_	_	_	_	_	B-NC	3315-3321	w1f3	seines	*
+27	Koͤr-<lb/>pers	Körper	_	NN	_	_	_	_	_	I-NC	3322-3336	w1f4	Körpers	*
+28	,	,	_	$,	_	_	_	_	_	O	3337-3338	w1f5	,	*
+29	oder	oder	_	KON	_	_	_	_	_	O	3339-3343	w1f6	oder	*
+30	durch	durch	_	APPR	_	_	_	_	_	B-PC	3344-3349	w1f7	durch	*
+31	die	d	_	ART	_	_	_	_	_	I-PC	3350-3353	w1f8	die	*
+32	Kraͤfte	Kraft	_	NN	_	_	_	_	_	I-PC	3354-3361	w1f9	Kräfte	*
+33	ſeiner	seine	_	PPOSAT	_	_	_	_	_	B-NC	3362-3368	w1fa	seiner	*
+34	Seele	Seele	_	NN	_	_	_	_	_	I-NC	3369-3374	w1fb	Seele	*
+35	ver-<lb/>richtet	verrichten	_	VVPP	_	_	_	_	_	O	3375-3391	w1fc	verrichtet	*
+36	werden	werden	_	VAINF	_	_	_	_	_	O	3392-3398	w1fd	werden	*
+37	,	,	_	$,	_	_	_	_	_	O	3399-3400	w1fe	,	*
+38	laſſen	lassen	_	VVFIN	_	_	_	_	_	O	3401-3407	w1ff	lassen	*
+39	ſich	sich	_	PRF	_	_	_	_	_	B-NC	3408-3412	w200	sich	*
+40	in	in	_	APPR	_	_	_	_	_	B-PC	3413-3415	w201	in	*
+41	Abſicht	Absicht	_	NN	_	_	_	_	_	I-PC	3416-3423	w202	Absicht	*
+42	ihres	ihr	_	PPOSAT	_	_	_	_	_	B-NC	3424-3429	w203	ihres	*
+43	Endzwecks	Endezweck	_	NN	_	_	_	_	_	I-NC	3430-3439	w204	Endzwecks	*
+44	in	in	_	APPR	_	_	_	_	_	B-PC	3440-3442	w205	in	*
+45	zwey	zwei	_	CARD	_	_	_	_	_	I-PC	3443-3447	w206	zwei	*
+46	Hauptarten	Hauptart	_	NN	_	_	_	_	_	I-PC	3448-3458	w207	Hauptarten	*
+47	eintheilen	einteilen	_	VVINF	_	_	_	_	_	O	3459-3469	w208	einteilen	*
+48	.	.	_	$.	_	_	_	_	_	O	3470-3471	w209	.	*
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# text = Einige haben allein die Befriedigung unſrer nothwendigen Beduͤrfniſſe zum Gegenſtand ; andere hingegen zielen auf die Erweckung und Erhaltung unſers Vergnuͤgens ab .
+1	Einige	einige	_	PIS	_	_	_	_	_	B-NC	3473-3479	w20a	Einige	*
+2	haben	haben	_	VAFIN	_	_	_	_	_	O	3480-3485	w20b	haben	*
+3	allein	allein	_	ADV	_	_	_	_	_	B-ADVC	3486-3492	w20c	allein	*
+4	die	d	_	ART	_	_	_	_	_	B-NC	3493-3496	w20d	die	*
+5	Befriedigung	Befriedigung	_	NN	_	_	_	_	_	I-NC	3497-3509	w20e	Befriedigung	*
+6	unſrer	unsere	_	PPOSAT	_	_	_	_	_	B-NC	3510-3516	w20f	unserer	*
+7	nothwendigen	notwendig	_	ADJA	_	_	_	_	_	I-NC	3517-3529	w210	notwendigen	*
+8	Beduͤrfniſſe	Bedürfnis	_	NN	_	_	_	_	_	I-NC	3530-3542	w211	Bedürfnisse	*
+9	zum	zum	_	APPRART	_	_	_	_	_	B-PC	3543-3546	w212	zum	*
+10	Gegenſtand	Gegenstand	_	NN	_	_	_	_	_	I-PC	3547-3557	w213	Gegenstand	*
+11	;	;	_	$.	_	_	_	_	_	O	3558-3559	w214	;	*
+12	andere	andere	_	PIS	_	_	_	_	_	B-NC	3560-3566	w215	andere	*
+13	hingegen	hingegen	_	ADV	_	_	_	_	_	B-ADVC	3567-3575	w216	hingegen	*
+14	zielen	zielen	_	VVFIN	_	_	_	_	_	O	3576-3582	w217	zielen	*
+15	auf	auf	_	APPR	_	_	_	_	_	B-PC	3583-3586	w218	auf	*
+16	die	d	_	ART	_	_	_	_	_	I-PC	3587-3590	w219	die	*
+17	Erweckung	Erweckung	_	NN	_	_	_	_	_	I-PC	3591-3600	w21a	Erweckung	*
+18	und	und	_	KON	_	_	_	_	_	O	3601-3604	w21b	und	*
+19	Erhaltung	Erhaltung	_	NN	_	_	_	_	_	B-NC	3605-3614	w21c	Erhaltung	*
+20	unſers	unsere	_	PPOSAT	_	_	_	_	_	B-NC	3615-3621	w21d	unseres	*
+21	Vergnuͤgens	Vergnügen	_	NN	_	_	_	_	_	I-NC	3622-3633	w21e	Vergnügens	*
+22	ab	ab	_	PTKVZ	_	_	_	_	_	O	3634-3636	w21f	ab	*
+23	.	.	_	$.	_	_	_	_	_	O	3637-3638	w220	.	*
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# text = Man koͤnn-<lb/>te noch eine dritte Art hinzufuͤgen , welche bey-<lb/>de Endzwecke mit einander verbindet ; aber das thut hier nichts zur Sache .
+1	Man	man	_	PIS	_	_	_	_	_	B-NC	3640-3643	w221	Man	*
+2	koͤnn-<lb/>te	können	_	VMFIN	_	_	_	_	_	O	3644-3657	w222	könnte	*
+3	noch	noch	_	ADV	_	_	_	_	_	B-ADVC	3658-3662	w223	noch	*
+4	eine	eine	_	ART	_	_	_	_	_	B-NC	3663-3667	w224	eine	*
+5	dritte	dritt	_	ADJA	_	_	_	_	_	I-NC	3668-3674	w225	dritte	*
+6	Art	Art	_	NN	_	_	_	_	_	I-NC	3675-3678	w226	Art	*
+7	hinzufuͤgen	hinzufügen	_	VVINF	_	_	_	_	_	O	3679-3690	w227	hinzufügen	*
+8	,	,	_	$,	_	_	_	_	_	O	3691-3692	w228	,	*
+9	welche	welche	_	PRELS	_	_	_	_	_	B-NC	3693-3699	w229	welche	*
+10	bey-<lb/>de	beide	_	PIAT	_	_	_	_	_	B-NC	3700-3711	w22a	beide	*
+11	Endzwecke	Endezwecke	_	NN	_	_	_	_	_	I-NC	3712-3721	w22b	Endzwecke	*
+12	mit	mit	_	APPR	_	_	_	_	_	B-PC	3722-3725	w22c	mit	*
+13	einander	einander	_	PRF	_	_	_	_	_	I-PC	3726-3734	w22d	einander	*
+14	verbindet	verbinden	_	VVFIN	_	_	_	_	_	O	3735-3744	w22e	verbindet	*
+15	;	;	_	$.	_	_	_	_	_	O	3745-3746	w22f	;	*
+16	aber	aber	_	KON	_	_	_	_	_	O	3747-3751	w230	aber	*
+17	das	die	_	PDS	_	_	_	_	_	B-NC	3752-3755	w231	das	*
+18	thut	tun	_	VVFIN	_	_	_	_	_	O	3756-3760	w232	tut	*
+19	hier	hier	_	ADV	_	_	_	_	_	B-ADVC	3761-3765	w233	hier	*
+20	nichts	nichts	_	PIS	_	_	_	_	_	B-NC	3766-3772	w234	nichts	*
+21	zur	zur	_	APPRART	_	_	_	_	_	B-PC	3773-3776	w235	zur	*
+22	Sache	Sache	_	NN	_	_	_	_	_	I-PC	3777-3782	w236	Sache	*
+23	.	.	_	$.	_	_	_	_	_	O	3783-3784	w237	.	*
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# text = Die erſte Art iſt der Zeit nach aͤlter ; die zweyte konnte nicht ehe , als eine geraume Zeit , die oft Jahr-<lb/>hunderte in ſich enthielt , nach der erſten ent-<lb/>ſtehen .
+1	Die	d	_	ART	_	_	_	_	_	B-NC	3786-3789	w238	Die	*
+2	erſte	erst	_	ADJA	_	_	_	_	_	I-NC	3790-3795	w239	erste	*
+3	Art	Art	_	NN	_	_	_	_	_	I-NC	3796-3799	w23a	Art	*
+4	iſt	sein	_	VAFIN	_	_	_	_	_	O	3800-3803	w23b	ist	*
+5	der	d	_	ART	_	_	_	_	_	B-NC	3804-3807	w23c	der	*
+6	Zeit	Zeit	_	NN	_	_	_	_	_	I-NC	3808-3812	w23d	Zeit	*
+7	nach	nach	_	APPO	_	_	_	_	_	O	3813-3817	w23e	nach	*
+8	aͤlter	alt	_	ADJD	_	_	_	_	_	B-AC	3818-3824	w23f	älter	*
+9	;	;	_	$.	_	_	_	_	_	O	3825-3826	w240	;	*
+10	die	d	_	ART	_	_	_	_	_	B-NC	3827-3830	w241	die	*
+11	zweyte	zweit	_	NN	_	_	_	_	_	I-NC	3831-3837	w242	zweite	*
+12	konnte	können	_	VMFIN	_	_	_	_	_	O	3838-3844	w243	konnte	*
+13	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVC	3845-3850	w244	nicht	*
+14	ehe	ehe	_	ADV	_	_	_	_	_	I-ADVC	3851-3854	w245	ehe	*
+15	,	,	_	$,	_	_	_	_	_	O	3855-3856	w246	,	*
+16	als	als	_	KOKOM	_	_	_	_	_	B-NC	3857-3860	w247	als	*
+17	eine	eine	_	ART	_	_	_	_	_	I-NC	3861-3865	w248	eine	*
+18	geraume	geraum	_	ADJA	_	_	_	_	_	I-NC	3866-3873	w249	geraume	*
+19	Zeit	Zeit	_	NN	_	_	_	_	_	I-NC	3874-3878	w24a	Zeit	*
+20	,	,	_	$,	_	_	_	_	_	O	3879-3880	w24b	,	*
+21	die	die	_	PRELS	_	_	_	_	_	B-NC	3881-3884	w24c	die	*
+22	oft	oft	_	ADV	_	_	_	_	_	B-ADVC	3885-3888	w24d	oft	*
+23	Jahr-<lb/>hunderte	Jahrhundert	_	NN	_	_	_	_	_	B-NC	3889-3907	w24e	Jahrhunderte	*
+24	in	in	_	APPR	_	_	_	_	_	B-PC	3908-3910	w24f	in	*
+25	ſich	sich	_	PRF	_	_	_	_	_	I-PC	3911-3915	w250	sich	*
+26	enthielt	enthalten	_	VVFIN	_	_	_	_	_	O	3916-3924	w251	enthielt	*
+27	,	,	_	$,	_	_	_	_	_	O	3925-3926	w252	,	*
+28	nach	nach	_	APPR	_	_	_	_	_	B-PC	3927-3931	w253	nach	*
+29	der	d	_	ART	_	_	_	_	_	I-PC	3932-3935	w254	der	*
+30	erſten	erst	_	NN	_	_	_	_	_	I-PC	3936-3942	w255	ersten	*
+31	ent-<lb/>ſtehen	entstehen	_	VVINF	_	_	_	_	_	O	3943-3958	w256	entstehen	*
+32	.	.	_	$.	_	_	_	_	_	O	3959-3960	w257	.	*
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# text = Der Menſch , welcher nackt , huͤlflos und ohne Mittel den Erdball betritt , ſahe ſich gar bald in die Nothwendigkeit geſetzt , ſeinem Koͤrper die noͤthigen Nahrungs-Mittel zu er-<lb/>theilen , ſich fuͤr die Wuth der Elemente zu ſichern und den wilden Thieren Widerſtand zu leiſten .
+1	Der	d	_	ART	_	_	_	_	_	B-NC	3962-3965	w258	Der	*
+2	Menſch	Mensch	_	NN	_	_	_	_	_	I-NC	3966-3972	w259	Mensch	*
+3	,	,	_	$,	_	_	_	_	_	O	3973-3974	w25a	,	*
+4	welcher	welche	_	PRELS	_	_	_	_	_	B-NC	3975-3982	w25b	welcher	*
+5	nackt	nackt	_	ADJD	_	_	_	_	_	B-AC	3983-3988	w25c	nackt	*
+6	,	,	_	$,	_	_	_	_	_	O	3989-3990	w25d	,	*
+7	huͤlflos	hülfelos	_	ADJD	_	_	_	_	_	B-AC	3991-3999	w25e	hülflos	*
+8	und	und	_	KON	_	_	_	_	_	O	4000-4003	w25f	und	*
+9	ohne	ohne	_	APPR	_	_	_	_	_	B-PC	4004-4008	w260	ohne	*
+10	Mittel	Mittel	_	NN	_	_	_	_	_	I-PC	4009-4015	w261	Mittel	*
+11	den	d	_	ART	_	_	_	_	_	B-NC	4016-4019	w262	den	*
+12	Erdball	Erdball	_	NN	_	_	_	_	_	I-NC	4020-4027	w263	Erdball	*
+13	betritt	betreten	_	VVFIN	_	_	_	_	_	O	4028-4035	w264	betritt	*
+14	,	,	_	$,	_	_	_	_	_	O	4036-4037	w265	,	*
+15	ſahe	sehen	_	VVFIN	_	_	_	_	_	O	4038-4042	w266	sah	*
+16	ſich	sich	_	PRF	_	_	_	_	_	B-NC	4043-4047	w267	sich	*
+17	gar	gar	_	ADV	_	_	_	_	_	B-ADVC	4048-4051	w268	gar	*
+18	bald	bald	_	ADV	_	_	_	_	_	B-ADVC	4052-4056	w269	bald	*
+19	in	in	_	APPR	_	_	_	_	_	B-PC	4057-4059	w26a	in	*
+20	die	d	_	ART	_	_	_	_	_	I-PC	4060-4063	w26b	die	*
+21	Nothwendigkeit	Notwendigkeit	_	NN	_	_	_	_	_	I-PC	4064-4078	w26c	Notwendigkeit	*
+22	geſetzt	setzen	_	VVPP	_	_	_	_	_	O	4079-4086	w26d	gesetzt	*
+23	,	,	_	$,	_	_	_	_	_	O	4087-4088	w26e	,	*
+24	ſeinem	seine	_	PPOSAT	_	_	_	_	_	B-NC	4089-4095	w26f	seinem	*
+25	Koͤrper	Körper	_	NN	_	_	_	_	_	I-NC	4096-4103	w270	Körper	*
+26	die	d	_	ART	_	_	_	_	_	B-NC	4104-4107	w271	die	*
+27	noͤthigen	nötig	_	ADJA	_	_	_	_	_	I-NC	4108-4117	w272	nötigen	*
+28	Nahrungs-Mittel	Nahrungs-Mittel	_	NN	_	_	_	_	_	I-NC	4118-4133	w273	Nahrungs-Mittel	*
+29	zu	zu	_	PTKZU	_	_	_	_	_	O	4134-4136	w274	zu	*
+30	er-<lb/>theilen	erteilen	_	VVINF	_	_	_	_	_	O	4137-4152	w275	erteilen	*
+31	,	,	_	$,	_	_	_	_	_	O	4153-4154	w276	,	*
+32	ſich	sich	_	PRF	_	_	_	_	_	B-NC	4155-4159	w277	sich	*
+33	fuͤr	für	_	APPR	_	_	_	_	_	B-PC	4160-4164	w278	für	*
+34	die	d	_	ART	_	_	_	_	_	I-PC	4165-4168	w279	die	*
+35	Wuth	Wut	_	NN	_	_	_	_	_	I-PC	4169-4173	w27a	Wut	*
+36	der	d	_	ART	_	_	_	_	_	B-NC	4174-4177	w27b	der	*
+37	Elemente	Element	_	NN	_	_	_	_	_	I-NC	4178-4186	w27c	Elemente	*
+38	zu	zu	_	PTKZU	_	_	_	_	_	O	4187-4189	w27d	zu	*
+39	ſichern	sicher	_	VVINF	_	_	_	_	_	O	4190-4197	w27e	sicheren	*
+40	und	und	_	KON	_	_	_	_	_	O	4198-4201	w27f	und	*
+41	den	d	_	ART	_	_	_	_	_	B-NC	4202-4205	w280	den	*
+42	wilden	wild	_	ADJA	_	_	_	_	_	I-NC	4206-4212	w281	wilden	*
+43	Thieren	Tier	_	NN	_	_	_	_	_	I-NC	4213-4220	w282	Tieren	*
+44	Widerſtand	Widerstand	_	NN	_	_	_	_	_	B-NC	4221-4231	w283	Widerstand	*
+45	zu	zu	_	PTKZU	_	_	_	_	_	O	4232-4234	w284	zu	*
+46	leiſten	leisten	_	VVINF	_	_	_	_	_	O	4235-4242	w285	leisten	*
+47	.	.	_	$.	_	_	_	_	_	O	4243-4244	w286	.	*
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# text = Die Noth iſt ſinnreich .
+1	Die	d	_	ART	_	_	_	_	_	B-NC	4246-4249	w287	Die	*
+2	Noth	Not	_	NN	_	_	_	_	_	I-NC	4250-4254	w288	Not	*
+3	iſt	sein	_	VAFIN	_	_	_	_	_	O	4255-4258	w289	ist	*
+4	ſinnreich	sinnreich	_	ADJD	_	_	_	_	_	B-AC	4259-4268	w28a	sinnreich	*
+5	.	.	_	$.	_	_	_	_	_	O	4269-4270	w28b	.	*
+
+# sent_id = 19
+# sent_id(TSV) = 19
+# text = Aber die er-<lb/>ſten Verſuche waren grob und ungebildet .
+1	Aber	aber	_	KON	_	_	_	_	_	O	4272-4276	w28c	Aber	*
+2	die	d	_	ART	_	_	_	_	_	B-NC	4277-4280	w28d	die	*
+3	er-<lb/>ſten	erst	_	ADJA	_	_	_	_	_	I-NC	4281-4293	w28e	ersten	*
+4	Verſuche	Versuch	_	NN	_	_	_	_	_	I-NC	4294-4302	w28f	Versuche	*
+5	waren	sein	_	VAFIN	_	_	_	_	_	O	4303-4308	w290	waren	*
+6	grob	grob	_	ADJD	_	_	_	_	_	B-AC	4309-4313	w291	grob	*
+7	und	und	_	KON	_	_	_	_	_	O	4314-4317	w292	und	*
+8	ungebildet	ungebildet	_	ADJD	_	_	_	_	_	B-AC	4318-4328	w293	ungebildet	*
+9	.	.	_	$.	_	_	_	_	_	O	4329-4330	w294	.	*
+
+# sent_id = 20
+# sent_id(TSV) = 20
+# text = Die erſten Kleider waren Felle der Thiere oder wohl gar Blaͤtter und Zweige der Baͤume ; die erſten Wohnungen , Hoͤhlen oder Kluͤfte der Felſen .
+1	Die	d	_	ART	_	_	_	_	_	B-NC	4332-4335	w295	Die	*
+2	erſten	erst	_	ADJA	_	_	_	_	_	I-NC	4336-4342	w296	ersten	*
+3	Kleider	Kleid	_	NN	_	_	_	_	_	I-NC	4343-4350	w297	Kleider	*
+4	waren	sein	_	VAFIN	_	_	_	_	_	O	4351-4356	w298	waren	*
+5	Felle	Fell	_	NN	_	_	_	_	_	B-NC	4357-4362	w299	Felle	*
+6	der	d	_	ART	_	_	_	_	_	B-NC	4363-4366	w29a	der	*
+7	Thiere	Tier	_	NN	_	_	_	_	_	I-NC	4367-4373	w29b	Tiere	*
+8	oder	oder	_	KON	_	_	_	_	_	O	4374-4378	w29c	oder	*
+9	wohl	wohl	_	ADV	_	_	_	_	_	B-ADVC	4379-4383	w29d	wohl	*
+10	gar	gar	_	ADV	_	_	_	_	_	I-ADVC	4384-4387	w29e	gar	*
+11	Blaͤtter	Blatt	_	NN	_	_	_	_	_	B-NC	4388-4396	w29f	Blätter	*
+12	und	und	_	KON	_	_	_	_	_	O	4397-4400	w2a0	und	*
+13	Zweige	Zweig	_	NN	_	_	_	_	_	B-NC	4401-4407	w2a1	Zweige	*
+14	der	d	_	ART	_	_	_	_	_	B-NC	4408-4411	w2a2	der	*
+15	Baͤume	Baum	_	NN	_	_	_	_	_	I-NC	4412-4418	w2a3	Bäume	*
+16	;	;	_	$.	_	_	_	_	_	O	4419-4420	w2a4	;	*
+17	die	d	_	ART	_	_	_	_	_	B-NC	4421-4424	w2a5	die	*
+18	erſten	erst	_	ADJA	_	_	_	_	_	I-NC	4425-4431	w2a6	ersten	*
+19	Wohnungen	Wohnung	_	NN	_	_	_	_	_	I-NC	4432-4441	w2a7	Wohnungen	*
+20	,	,	_	$,	_	_	_	_	_	O	4442-4443	w2a8	,	*
+21	Hoͤhlen	Höhle	_	NN	_	_	_	_	_	B-NC	4444-4451	w2a9	Höhlen	*
+22	oder	oder	_	KON	_	_	_	_	_	O	4452-4456	w2aa	oder	*
+23	Kluͤfte	Kluft	_	NN	_	_	_	_	_	B-NC	4457-4464	w2ab	Klüfte	*
+24	der	d	_	ART	_	_	_	_	_	B-NC	4465-4468	w2ac	der	*
+25	Felſen	Felsen	_	NN	_	_	_	_	_	I-NC	4469-4475	w2ad	Felsen	*
+26	.	.	_	$.	_	_	_	_	_	O	4476-4477	w2ae	.	*
+
+# sent_id = 21
+# sent_id(TSV) = 21
+# text = Nach und nach fieng man an , das Nothwendige , das Nuͤtzliche mit dem An-<lb/>genehmen zu verbinden .
+1	Nach	nach	_	ADV	_	_	_	_	_	B-ADVC	4479-4483	w2af	Nach	*
+2	und	und	_	KON	_	_	_	_	_	I-ADVC	4484-4487	w2b0	und	*
+3	nach	nach	_	ADV	_	_	_	_	_	I-ADVC	4488-4492	w2b1	nach	*
+4	fieng	fangen	_	VVFIN	_	_	_	_	_	O	4493-4498	w2b2	fing	*
+5	man	man	_	PIS	_	_	_	_	_	B-NC	4499-4502	w2b3	man	*
+6	an	an	_	PTKVZ	_	_	_	_	_	O	4503-4505	w2b4	an	*
+7	,	,	_	$,	_	_	_	_	_	O	4506-4507	w2b5	,	*
+8	das	d	_	ART	_	_	_	_	_	B-NC	4508-4511	w2b6	das	*
+9	Nothwendige	Notwendige	_	NN	_	_	_	_	_	I-NC	4512-4523	w2b7	Notwendige	*
+10	,	,	_	$,	_	_	_	_	_	O	4524-4525	w2b8	,	*
+11	das	d	_	ART	_	_	_	_	_	B-NC	4526-4529	w2b9	das	*
+12	Nuͤtzliche	Nützliche	_	NN	_	_	_	_	_	I-NC	4530-4540	w2ba	Nützliche	*
+13	mit	mit	_	APPR	_	_	_	_	_	B-PC	4541-4544	w2bb	mit	*
+14	dem	d	_	ART	_	_	_	_	_	I-PC	4545-4548	w2bc	dem	*
+15	An-<lb/>genehmen	Angenehme	_	NN	_	_	_	_	_	I-PC	4549-4565	w2bd	Angenehmen	*
+16	zu	zu	_	PTKZU	_	_	_	_	_	O	4566-4568	w2be	zu	*
+17	verbinden	verbinden	_	VVINF	_	_	_	_	_	O	4569-4578	w2bf	verbinden	*
+18	.	.	_	$.	_	_	_	_	_	O	4579-4580	w2c0	.	*
+
+# sent_id = 22
+# sent_id(TSV) = 22
+# text = Wie viele Jahr-<lb/>hunderte wurden nicht erfordert , ehe ſich die Baukunſt von den Hoͤhlen und unfoͤrmlichen Huͤtten , den erſten Wohnungen des menſch-<lb/>lichen Geſchlechts , bis zur praͤchtigen Faßade eines auf corinthiſchen Saͤulen ruhenden Pallaſts zu ſchwingen !
+1	Wie	wie	_	PWAV	_	_	_	_	_	O	4582-4585	w2c1	Wie	*
+2	viele	viel	_	PIAT	_	_	_	_	_	B-NC	4586-4591	w2c2	viele	*
+3	Jahr-<lb/>hunderte	Jahrhundert	_	NN	_	_	_	_	_	I-NC	4592-4610	w2c3	Jahrhunderte	*
+4	wurden	werden	_	VAFIN	_	_	_	_	_	O	4611-4617	w2c4	wurden	*
+5	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVC	4618-4623	w2c5	nicht	*
+6	erfordert	erfordern	_	VVPP	_	_	_	_	_	O	4624-4633	w2c6	erfordert	*
+7	,	,	_	$,	_	_	_	_	_	O	4634-4635	w2c7	,	*
+8	ehe	ehe	_	KOUS	_	_	_	_	_	O	4636-4639	w2c8	ehe	*
+9	ſich	sich	_	PRF	_	_	_	_	_	B-NC	4640-4644	w2c9	sich	*
+10	die	d	_	ART	_	_	_	_	_	B-NC	4645-4648	w2ca	die	*
+11	Baukunſt	Baukunst	_	NN	_	_	_	_	_	I-NC	4649-4657	w2cb	Baukunst	*
+12	von	von	_	APPR	_	_	_	_	_	B-PC	4658-4661	w2cc	von	*
+13	den	d	_	ART	_	_	_	_	_	I-PC	4662-4665	w2cd	den	*
+14	Hoͤhlen	Höhle	_	NN	_	_	_	_	_	I-PC	4666-4673	w2ce	Höhlen	*
+15	und	und	_	KON	_	_	_	_	_	O	4674-4677	w2cf	und	*
+16	unfoͤrmlichen	unförmlich	_	ADJA	_	_	_	_	_	B-NC	4678-4691	w2d0	unförmlichen	*
+17	Huͤtten	Hütte	_	NN	_	_	_	_	_	I-NC	4692-4699	w2d1	Hütten	*
+18	,	,	_	$,	_	_	_	_	_	O	4700-4701	w2d2	,	*
+19	den	d	_	ART	_	_	_	_	_	B-NC	4702-4705	w2d3	den	*
+20	erſten	erst	_	ADJA	_	_	_	_	_	I-NC	4706-4712	w2d4	ersten	*
+21	Wohnungen	Wohnung	_	NN	_	_	_	_	_	I-NC	4713-4722	w2d5	Wohnungen	*
+22	des	d	_	ART	_	_	_	_	_	B-NC	4723-4726	w2d6	des	*
+23	menſch-<lb/>lichen	menschlich	_	ADJA	_	_	_	_	_	I-NC	4727-4745	w2d7	menschlichen	*
+24	Geſchlechts	Geschlecht	_	NN	_	_	_	_	_	I-NC	4746-4757	w2d8	Geschlechts	*
+25	,	,	_	$,	_	_	_	_	_	O	4758-4759	w2d9	,	*
+26	bis	bis	_	APPR	_	_	_	_	_	B-PC	4760-4763	w2da	bis	*
+27	zur	zur	_	APPRART	_	_	_	_	_	I-PC	4764-4767	w2db	zur	*
+28	praͤchtigen	prächtig	_	ADJA	_	_	_	_	_	I-PC	4768-4779	w2dc	prächtigen	*
+29	Faßade	Faßade	_	NN	_	_	_	_	_	I-PC	4780-4786	w2dd	Faßade	*
+30	eines	eine	_	ART	_	_	_	_	_	B-sNC	4787-4792	w2de	eines	*
+31	auf	auf	_	APPR	_	_	_	_	_	B-PC	4793-4796	w2df	auf	*
+32	corinthiſchen	korinthisch	_	ADJA	_	_	_	_	_	I-PC	4797-4810	w2e0	korinthischen	*
+33	Saͤulen	Säule	_	NN	_	_	_	_	_	I-PC	4811-4818	w2e1	Säulen	*
+34	ruhenden	ruhend	_	ADJA	_	_	_	_	_	B-NC	4819-4827	w2e2	ruhenden	*
+35	Pallaſts	Palast	_	NN	_	_	_	_	_	I-NC	4828-4836	w2e3	Palasts	*
+36	zu	zu	_	PTKZU	_	_	_	_	_	O	4837-4839	w2e4	zu	*
+37	ſchwingen	schwingen	_	VVINF	_	_	_	_	_	O	4840-4849	w2e5	schwingen	*
+38	!	!	_	$.	_	_	_	_	_	O	4850-4851	w2e6	!	*

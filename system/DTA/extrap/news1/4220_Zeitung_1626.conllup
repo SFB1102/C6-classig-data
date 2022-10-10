@@ -1,0 +1,514 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CharOffset DTA:ID DTA:NORM MovElem PHRASE POS TOPF
+# sent_id = 1
+# sent_id(TSV) = 1
+# PTBstring = (VROOT(NX(NN No))(KLAMMER :)(NX(CARD 16))(PUNKT .))
+# TopFString = (S(NN Nō)(KLAMMER :)(CARD 16)(PUNKT .))
+# text = Nō : 16 .
+1	Nō	no	_	NN	_	_	_	_	_	0-2	w9eb	No	B-NP-insitu	B-NP	*	O
+2	:	:	_	$(	_	_	_	_	_	3-4	w9ec	:	_	O	*	O
+3	16	16	_	CARD	_	_	_	_	_	5-7	w9ed	16	B-NP-insitu	B-NP	*	O
+4	.	.	_	$.	_	_	_	_	_	8-9	w9ee	.	_	O	*	O
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# PTBstring = (VROOT(PX(PX:HD(APPR Auß)(NX:HD(NE Erffurt)(KLAMMER /)(PX(APPRART vom)(NX:HD(ADJX(ADJA 20.))(NN Martij)))))(KOMMA ,)(NX(NN Anno)(NX(CARD 1626))))(PUNKT .))
+# TopFString = (S(VF(APPR Auß)(NE Erffurt))(KLAMMER /)(APPRART vom)(ADJA 20.)(NN Martij)(KOMMA ,)(NN Anno)(CARD 1626)(PUNKT .))
+# text = Auß Erffurt / vom 20. Martij , Anno 1626 .
+1	Auß	aus	_	APPR	_	_	_	_	_	11-14	w9ef	Aus	B-PP-insitu	B-PP	*	B-VF
+2	Erffurt	Erfurt	_	NE	_	_	_	_	_	15-22	w9f0	Erfurt	I-PP	I-PP	*	I-VF
+3	/	/	_	$(	_	_	_	_	_	23-24	w9f1	/	I-PP	I-PP	*	O
+4	vom	vom	_	APPRART	_	_	_	_	_	25-28	w9f2	vom	I-PP	I-PP	*	O
+5	20.	20.	_	ADJA	_	_	_	_	_	29-32	w9f3	20.	I-PP	I-PP	*	O
+6	Martij	März	_	NN	_	_	_	_	_	33-39	w9f4	März	I-PP	I-PP	*	O
+7	,	,	_	$,	_	_	_	_	_	40-41	w9f5	,	I-PP	I-PP	*	O
+8	Anno	Anno	_	NN	_	_	_	_	_	42-46	w9f6	Anno	I-PP	I-PP	*	O
+9	1626	1626	_	CARD	_	_	_	_	_	47-51	w9f7	1626	I-PP	I-PP	*	O
+10	.	.	_	$.	_	_	_	_	_	52-53	w9f8	.	_	O	*	O
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# PTBstring = (VROOT(SIMPX(VF(NX(PDAT DJeser)(NN orthen)))(LK(VXFIN(VVFIN wirbt)))(MF(NX(PIS man))(ADJX(ADVX(ADV noch))(ADJD starck))))(KLAMMER /))
+# TopFString = (S(VF(PDAT DJeser)(NN orthen))(LK(VVFIN wirbt))(MF(PIS man)(ADV noch)(ADJD starck))(KLAMMER /))
+# text = DJeser orthen wirbt man noch starck /
+1	DJeser	diese	_	PDAT	_	_	_	_	_	55-61	w1,w1_1	Dieser	B-NP-insitu	B-NP	*	B-VF
+2	orthen	Ort	_	NN	_	_	_	_	_	62-68	w2	Orten	I-NP	I-NP	*	I-VF
+3	wirbt	werben	_	VVFIN	_	_	_	_	_	69-74	w3	wirbt	_	O	*	B-LK
+4	man	man	_	PIS	_	_	_	_	_	75-78	w4	man	B-NP-insitu	B-NP	*	B-MF
+5	noch	noch	_	ADV	_	_	_	_	_	79-83	w5	noch	B-AP-insitu	B-AP	*	I-MF
+6	starck	stark	_	ADJD	_	_	_	_	_	84-90	w6	stark	I-AP	I-AP	*	I-MF
+7	/	/	_	$(	_	_	_	_	_	91-92	w7	/	_	O	*	O
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# PTBstring = (VROOT(SIMPX(VF(NX(ART der)(NN Hertzog)(PX(APPR von)(NX:HD(NE Hollstein)))))(LK(VXFIN(VAFIN hat)))(MF(NX(PPOSAT seinen)(NN Musterplatz)(PX(APPR zu)(NX:HD(NE Schmalkalden))))))(KLAMMER /))
+# TopFString = (S(VF(ART der)(NN Hertzog)(APPR von)(NE Hollstein))(LK(VAFIN hat))(MF(PPOSAT seinen)(NN Musterplatz)(APPR zu)(NE Schmalkalden))(KLAMMER /))
+# text = der Hertzog von Hollstein hat seinen Musterplatz zu Schmalkalden /
+1	der	d	_	ART	_	_	_	_	_	94-97	w8	der	B-NP-insitu	B-NP	*	B-VF
+2	Hertzog	Herzog	_	NN	_	_	_	_	_	98-105	w9	Herzog	I-NP	I-NP	*	I-VF
+3	von	von	_	APPR	_	_	_	_	_	106-109	wa	von	I-NP	I-NP	*	I-VF
+4	Hollstein	Hollstein	_	NE	_	_	_	_	_	110-119	wb	Hollstein	I-NP	I-NP	*	I-VF
+5	hat	haben	_	VAFIN	_	_	_	_	_	120-123	wc	hat	_	O	*	B-LK
+6	seinen	seine	_	PPOSAT	_	_	_	_	_	124-130	wd	seinen	B-NP-insitu	B-NP	*	B-MF
+7	Musterplatz	Musterplatz	_	NN	_	_	_	_	_	131-142	we	Musterplatz	I-NP	I-NP	*	I-MF
+8	zu	zu	_	APPR	_	_	_	_	_	143-145	wf	zu	I-NP	I-NP	*	I-MF
+9	Schmalkalden	Schmalkalden	_	NE	_	_	_	_	_	146-158	w10	Schmalkalden	I-NP	I-NP	*	I-MF
+10	/	/	_	$(	_	_	_	_	_	159-160	w11	/	_	O	*	O
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# PTBstring = (VROOT(SIMPX(VF(NX(NX:APP(NN Hertzog))(NX:APP(NE Frantz)(NE Allbrecht)(PX(APPR von)(NX:HD(NE Sassen))))(KLAMMER /)(SIMPX(MF(PX(ADVX(ADV so))(APPR biß)(ADVX:HD(ADV dato)))(NX(PRF sich))(PX(APPR mit)(NX:HD(NX:KONJ(CARD 2500))(PUNKT .)(NX:KONJ(NN Mann)(PX(APPR in)(NX:HD(NE Hessen)))))))(VC(VXINF(VVPP befunden))))))(KLAMMER /)(LK(VXFIN(VAFIN ist)))(MF(PX(APPRART im)(NX:HD(NN anzuge))))(KLAMMER /)(NF(SIMPX(MF(NX(PRF sich))(NX(PDAT dieser)(NN orthen)))(VC(VXINF(VVIZU einzuquartiren))))))(PUNKT .))
+# TopFString = (S(VF(NN Hertzog)(NE Frantz)(NE Allbrecht)(APPR von)(NE Sassen)(KLAMMER /)(MF(ADV so)(APPR biß)(ADV dato)(PRF sich)(APPR mit)(CARD 2500)(PUNKT .)(NN Mann)(APPR in)(NE Hessen))(VC(VVPP befunden)))(KLAMMER /)(LK(VAFIN ist))(MF(APPRART im)(NN anzuge))(KLAMMER /)(NF(MF(PRF sich)(PDAT dieser)(NN orthen))(VC(VVIZU einzuquartiren)))(PUNKT .))
+# text = Hertzog Frantz Allbrecht von Sassen / so biß dato sich mit 2500 . Mann in Hessen befunden / ist im anzuge / sich dieser orthen einzuquartiren .
+1	Hertzog	Herzog	_	NN	_	_	_	_	_	162-169	w12	Herzog	B-NP-insitu	B-NP	*	B-VF
+2	Frantz	Frantz	_	NE	_	_	_	_	_	170-176	w13	Frantz	I-NP	I-NP	*	I-VF
+3	Allbrecht	Albrecht	_	NE	_	_	_	_	_	177-186	w14	Albrecht	I-NP	I-NP	*	I-VF
+4	von	von	_	APPR	_	_	_	_	_	187-190	w15	von	I-NP	I-NP	*	I-VF
+5	Sassen	Sassen	_	NE	_	_	_	_	_	191-197	w16	Sassen	I-NP	I-NP	*	I-VF
+6	/	/	_	$(	_	_	_	_	_	198-199	w17	/	I-NP	I-NP	*	I-VF
+7	so	so	_	ADV	_	_	_	_	_	200-202	w18	so	I-NP|B-PP-insitu	I-NP	*	I-VF|B-MF
+8	biß	bis	_	APPR	_	_	_	_	_	203-206	w19	bis	I-NP|I-PP	I-NP	*	I-VF|I-MF
+9	dato	dato	_	ADV	_	_	_	_	_	207-211	w1a	dato	I-NP|I-PP	I-NP	*	I-VF|I-MF
+10	sich	sich	_	PRF	_	_	_	_	_	212-216	w1b	sich	I-NP|B-NP-insitu	I-NP	*	I-VF|I-MF
+11	mit	mit	_	APPR	_	_	_	_	_	217-220	w1c	mit	I-NP|B-PP-insitu	I-NP	*	I-VF|I-MF
+12	2500	2500	_	CARD	_	_	_	_	_	221-225	w1d	2500	I-NP|I-PP	I-NP	*	I-VF|I-MF
+13	.	.	_	$.	_	_	_	_	_	226-227	w1e	.	I-NP|I-PP	I-NP	*	I-VF|I-MF
+14	Mann	Mann	_	NN	_	_	_	_	_	228-232	w1f	Mann	I-NP|I-PP	I-NP	*	I-VF|I-MF
+15	in	in	_	APPR	_	_	_	_	_	233-235	w20	in	I-NP|I-PP	I-NP	*	I-VF|I-MF
+16	Hessen	Hessen	_	NE	_	_	_	_	_	236-242	w21	Hessen	I-NP|I-PP	I-NP	*	I-VF|I-MF
+17	befunden	befinden	_	VVPP	_	_	_	_	_	243-251	w22	befunden	I-NP	I-NP	*	I-VF|B-RK
+18	/	/	_	$(	_	_	_	_	_	252-253	w23	/	_	O	*	O
+19	ist	sein	_	VAFIN	_	_	_	_	_	254-257	w24	ist	_	O	*	B-LK
+20	im	im	_	APPRART	_	_	_	_	_	258-260	w25	im	B-PP-insitu	B-PP	*	B-MF
+21	anzuge	Anzug	_	NN	_	_	_	_	_	261-267	w26	Anzuge	I-PP	I-PP	*	I-MF
+22	/	/	_	$(	_	_	_	_	_	268-269	w27	/	_	O	*	O
+23	sich	sich	_	PRF	_	_	_	_	_	270-274	w28	sich	B-NP-insitu	B-NP	*	B-NF|B-MF
+24	dieser	diese	_	PDAT	_	_	_	_	_	275-281	w29	dieser	B-NP-insitu	B-NP	*	I-NF|I-MF
+25	orthen	Ort	_	NN	_	_	_	_	_	282-288	w2a	Orten	I-NP	I-NP	*	I-NF|I-MF
+26	einzuquartiren	einquartieren	_	VVIZU	_	_	_	_	_	289-303	w2b	einzuquartieren	_	O	*	I-NF|B-RK
+27	.	.	_	$.	_	_	_	_	_	304-305	w2c	.	_	O	*	O
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# PTBstring = (VROOT(SIMPX(VF(NX(PPER Es)))(LK(VXFIN(VVFIN continuirt)))(KOMMA ,)(NF(SIMPX(C(KOUS das))(FKOORD(FKONJ:KONJ(MF(ADVX(ADV theils))(NX(ADJX(ADJA Dänisch))(NN Volck)(NX(NE Oßnabrück))))(VC(VXINF(VVPP erö-<lb/>bert))))(KLAMMER /)(KON vnd)(FKONJ:KONJ(MF(NX(ADJX(CARD 7.))(ADJX(ADJA Geistliche))(NN Prælaten)))(VC(VXINF(VVPP gefangen))))))))(PUNKT .))
+# TopFString = (S(VF(PPER Es))(LK(VVFIN continuirt))(KOMMA ,)(NF(C(KOUS das))(FKOORD(FKONJ(MF(ADV theils)(ADJA Dänisch)(NN Volck)(NE Oßnabrück))(VC(VVPP erö-<lb/>bert)))(KLAMMER /)(KON vnd)(FKONJ(MF(CARD 7.)(ADJA Geistliche)(NN Prælaten))(VC(VVPP gefangen)))))(PUNKT .))
+# text = Es continuirt , das theils Dänisch Volck Oßnabrück erö-<lb/>bert / vnd 7. Geistliche Prælaten gefangen .
+1	Es	es	_	PPER	_	_	_	_	_	307-309	w2d	Es	B-NP-insitu	B-NP	*	B-VF
+2	continuirt	kontinuieren	_	VVFIN	_	_	_	_	_	310-320	w2e	kontinuiert	_	O	*	B-LK
+3	,	,	_	$,	_	_	_	_	_	321-322	w2f	,	_	O	*	O
+4	das	die	_	KOUS	_	_	_	_	_	323-326	w30	das	_	O	*	B-NF|B-LK
+5	theils	teils	_	ADV	_	_	_	_	_	327-333	w31	teils	B-ADVP-insitu	B-ADVP	*	I-NF|B-MF
+6	Dänisch	Dänisch	_	ADJA	_	_	_	_	_	334-341	w32	Dänisch	B-NP-insitu	B-NP	*	I-NF|I-MF
+7	Volck	Volk	_	NN	_	_	_	_	_	342-347	w33	Volk	I-NP	I-NP	*	I-NF|I-MF
+8	Oßnabrück	Osnabrück	_	NE	_	_	_	_	_	348-357	w34	Osnabrück	I-NP	I-NP	*	I-NF|I-MF
+9	erö-<lb/>bert	erobern	_	VVPP	_	_	_	_	_	358-371	w35	erobert	_	O	*	I-NF|B-RK
+10	/	/	_	$(	_	_	_	_	_	372-373	w36	/	_	O	*	I-NF
+11	vnd	und	_	KON	_	_	_	_	_	374-377	w37	und	_	O	*	I-NF|B-KOORD
+12	7.	7.	_	CARD	_	_	_	_	_	378-380	w38	7.	B-NP-insitu	B-NP	*	I-NF|B-MF
+13	Geistliche	Geistliche	_	ADJA	_	_	_	_	_	381-391	w39	Geistliche	I-NP	I-NP	*	I-NF|I-MF
+14	Prælaten	Prälat	_	NN	_	_	_	_	_	392-400	w3a	Prälaten	I-NP	I-NP	*	I-NF|I-MF
+15	gefangen	gefangen	_	VVPP	_	_	_	_	_	401-409	w3b	gefangen	_	O	*	I-NF|B-RK
+16	.	.	_	$.	_	_	_	_	_	410-411	w3c	.	_	O	*	O
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# PTBstring = (VROOT(SIMPX(VF(ADVX(ADV So)))(LK(VXFIN(VVFIN continuirt)))(MF(ADVX(ADV auch)))(KLAMMER /)(NF(SIMPX:OS(C(KOUS das))(MF(NX(ADJX(ADJA 14.))(NN Regiment))(NX(NX:KONJ(NN Frantzosen)(PX(APPR bey)(NX:HD(NE Metz))))(KON vnd)(NX:KONJ(PDAT dero)(NN orthen)))(PX(APPR nach)(NX:HD(ART der)(NE Pfaltz))))(VC(VXINF(VVINF passiren))(VXFIN(VAFIN werden))))))(PUNKT .))
+# TopFString = (S(VF(ADV So))(LK(VVFIN continuirt))(MF(ADV auch))(KLAMMER /)(NF(C(KOUS das))(MF(ADJA 14.)(NN Regiment)(NN Frantzosen)(APPR bey)(NE Metz)(KON vnd)(PDAT dero)(NN orthen)(APPR nach)(ART der)(NE Pfaltz))(VC(VVINF passiren)(VAFIN werden)))(PUNKT .))
+# text = So continuirt auch / das 14. Regiment Frantzosen bey Metz vnd dero orthen nach der Pfaltz passiren werden .
+1	So	so	_	ADV	_	_	_	_	_	413-415	w3d	So	B-ADVP-insitu	B-ADVP	*	B-VF
+2	continuirt	kontinuieren	_	VVFIN	_	_	_	_	_	416-426	w3e	kontinuiert	_	O	*	B-LK
+3	auch	auch	_	ADV	_	_	_	_	_	427-431	w3f	auch	B-ADVP-insitu	B-ADVP	*	B-MF
+4	/	/	_	$(	_	_	_	_	_	432-433	w40	/	_	O	*	O
+5	das	d	_	KOUS	_	_	_	_	_	434-437	w41	das	_	O	*	B-NF|B-LK
+6	14.	14.	_	ADJA	_	_	_	_	_	438-441	w42	14.	B-NP-insitu	B-NP	*	I-NF|B-MF
+7	Regiment	Regiment	_	NN	_	_	_	_	_	442-450	w43	Regiment	I-NP	I-NP	*	I-NF|I-MF
+8	Frantzosen	Franzose	_	NN	_	_	_	_	_	451-461	w44	Franzosen	B-NP-insitu	B-NP	*	I-NF|I-MF
+9	bey	bei	_	APPR	_	_	_	_	_	462-465	w45	bei	I-NP	I-NP	*	I-NF|I-MF
+10	Metz	Metz	_	NE	_	_	_	_	_	466-470	w46	Metz	I-NP	I-NP	*	I-NF|I-MF
+11	vnd	und	_	KON	_	_	_	_	_	471-474	w47	und	I-NP	I-NP	*	I-NF|I-MF
+12	dero	die	_	PDAT	_	_	_	_	_	475-479	w48	deren	I-NP	I-NP	*	I-NF|I-MF
+13	orthen	Ort	_	NN	_	_	_	_	_	480-486	w49	Orten	I-NP	I-NP	*	I-NF|I-MF
+14	nach	nach	_	APPR	_	_	_	_	_	487-491	w4a	nach	B-PP-insitu	B-PP	*	I-NF|I-MF
+15	der	d	_	ART	_	_	_	_	_	492-495	w4b	der	I-PP	I-PP	*	I-NF|I-MF
+16	Pfaltz	Pfalz	_	NE	_	_	_	_	_	496-502	w4c	Pfalz	I-PP	I-PP	*	I-NF|I-MF
+17	passiren	passieren	_	VVINF	_	_	_	_	_	503-511	w4d	passieren	_	O	*	I-NF|B-RK
+18	werden	werden	_	VAFIN	_	_	_	_	_	512-518	w4e	werden	_	O	*	I-NF|I-RK
+19	.	.	_	$.	_	_	_	_	_	519-520	w4f	.	_	O	*	O
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# PTBstring = (VROOT(PX(APPR Auß)(NX:HD(NE Antorff)(KLAMMER /)(PX(APPRART vom)(NX:HD(ADJX(ADJA 21.))(NN Martij)))))(PUNKT .))
+# TopFString = (S(VF(APPR Auß)(NE Antorff))(KLAMMER /)(APPRART vom)(ADJA 21.)(NN Martij)(PUNKT .))
+# text = Auß Antorff / vom 21. Martij .
+1	Auß	aus	_	APPR	_	_	_	_	_	522-525	w9f9	Aus	B-PP-insitu	B-PP	*	B-VF
+2	Antorff	Antorff	_	NE	_	_	_	_	_	526-533	w9fa	Antorff	I-PP	I-PP	*	I-VF
+3	/	/	_	$(	_	_	_	_	_	534-535	w9fb	/	I-PP	I-PP	*	O
+4	vom	vom	_	APPRART	_	_	_	_	_	536-539	w9fc	vom	I-PP	I-PP	*	O
+5	21.	21.	_	ADJA	_	_	_	_	_	540-543	w9fd	21.	I-PP	I-PP	*	O
+6	Martij	März	_	NN	_	_	_	_	_	544-550	w9fe	März	I-PP	I-PP	*	O
+7	.	.	_	$.	_	_	_	_	_	551-552	w9ff	.	_	O	*	O
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# PTBstring = (VROOT(SIMPX(SIMPX:KONJ(VF(NX(PIS Man)))(LK(VXFIN(VAFIN hat)))(MF(NX(NN Aviso))))(KOMMA ,)(SIMPX:KONJ(C(KOUS das))(MF(NX(ART die)(NN Roscheller)(NX(ART die)(NN Friedens)))(NX(NN Puncten)))(VC(VXINF(VVPP vn-<lb/>terschrieben))))(KLAMMER /)(KON vnd)(SIMPX:KONJ(LK(VXFIN(VMFIN sol)))(MF(NX(ART der)(NN Hertzog)(PX(APPR von)(NX:HD(NE Angelosme))))(PX(APPRART vom)(NX:HD(NN König)(PX(APPR in)(NX:HD(NX(NE Franckreich))(NN befehl))))))(VC(VXINF(VVINF bekommen)))))(KLAMMER /)(PX(APPR mit)(NX:HD(ART dem)(NN Volck)))(KLAMMER /)(SIMPX(VF(PX(ADVX(ADV so))(APPRART im)(NX:HD(NN Stifft)(NX(NE Metz)))))(LK(VXFIN(VVFIN ligt))))(KLAMMER /)(NX(KON vnd)(NX:KONJ(ADJX(ADJA etlichen))(NN Regimenten)(NN Schweitzern)))(KLAMMER /)(SIMPX(MF(ADVX(ADV ehist))(PX(APPR nach)(NX:HD(ART der)(NE Pfaltz))))(VC(VXINF(VVINF zu-<lb/>rücken))))(PUNKT .))
+# TopFString = (S(VF(PIS Man))(LK(VAFIN hat))(MF(NN Aviso))(KOMMA ,)(NF(C(KOUS das))(FKOORD(FKONJ(MF(ART die)(NN Roscheller)(ART die)(NN Friedens)(NN Puncten))(VC(VVPP vn-<lb/>terschrieben)(KLAMMER /)))(KON vnd)(FKONJ(LK(VMFIN sol))(MF(ART der)(NN Hertzog)(APPR von)(NE Angelosme)(APPRART vom)(NN König)(APPR in)(NE Franckreich)(NN befehl))(VC(VVINF bekommen))(KLAMMER /)(NF(APPR mit)(ART dem)(NN Volck)(KLAMMER /)(MF(ADV so)(APPRART im)(NN Stifft)(NE Metz))(VC(VVFIN ligt))))))(KLAMMER /)(KON vnd)(MF(ADJA etlichen)(NN Regimenten)(NN Schweitzern)(KLAMMER /)(ADV ehist)(APPR nach)(ART der)(NE Pfaltz))(VC(VVINF zu-<lb/>rücken))(PUNKT .))
+# text = Man hat Aviso , das die Roscheller die Friedens Puncten vn-<lb/>terschrieben / vnd sol der Hertzog von Angelosme vom König in Franckreich befehl bekommen / mit dem Volck / so im Stifft Metz ligt / vnd etlichen Regimenten Schweitzern / ehist nach der Pfaltz zu-<lb/>rücken .
+1	Man	man	_	PIS	_	_	_	_	_	554-557	w50	Man	B-NP-insitu	B-NP	*	B-VF
+2	hat	haben	_	VAFIN	_	_	_	_	_	558-561	w51	hat	_	O	*	B-LK
+3	Aviso	Aviso	_	NN	_	_	_	_	_	562-567	w52	Aviso	B-NP-insitu	B-NP	*	B-MF
+4	,	,	_	$,	_	_	_	_	_	568-569	w53	,	_	O	*	O
+5	das	die	_	KOUS	_	_	_	_	_	570-573	w54	das	_	O	*	B-NF|B-LK
+6	die	d	_	ART	_	_	_	_	_	574-577	w55	die	B-NP-insitu	B-NP	*	I-NF|B-MF
+7	Roscheller	Roscheller	_	NN	_	_	_	_	_	578-588	w56	Roscheller	I-NP	I-NP	*	I-NF|I-MF
+8	die	d	_	ART	_	_	_	_	_	589-592	w57	die	I-NP	I-NP	*	I-NF|I-MF
+9	Friedens	Frieden	_	NN	_	_	_	_	_	593-601	w58	Friedens	I-NP	I-NP	*	I-NF|I-MF
+10	Puncten	Punkt	_	NN	_	_	_	_	_	602-609	w59	Punkten	B-NP-insitu	B-NP	*	I-NF|I-MF
+11	vn-<lb/>terschrieben	unterschreiben	_	VVPP	_	_	_	_	_	610-630	w5a	unterschrieben	_	O	*	I-NF|B-RK
+12	/	/	_	$(	_	_	_	_	_	631-632	w5b	/	_	O	*	I-NF|I-RK
+13	vnd	und	_	KON	_	_	_	_	_	633-636	w5c	und	_	O	*	I-NF|B-KOORD
+14	sol	sollen	_	VMFIN	_	_	_	_	_	637-640	w5d	soll	_	O	*	I-NF|B-LK
+15	der	d	_	ART	_	_	_	_	_	641-644	w5e	der	B-NP-insitu	B-NP	*	I-NF|B-MF
+16	Hertzog	Herzog	_	NN	_	_	_	_	_	645-652	w5f	Herzog	I-NP	I-NP	*	I-NF|I-MF
+17	von	von	_	APPR	_	_	_	_	_	653-656	w60	von	I-NP	I-NP	*	I-NF|I-MF
+18	Angelosme	Angelosme	_	NE	_	_	_	_	_	657-666	w61	Angelosme	I-NP	I-NP	*	I-NF|I-MF
+19	vom	vom	_	APPRART	_	_	_	_	_	667-670	w62	vom	B-PP-insitu	B-PP	*	I-NF|I-MF
+20	König	König	_	NN	_	_	_	_	_	671-676	w63	König	I-PP	I-PP	*	I-NF|I-MF
+21	in	in	_	APPR	_	_	_	_	_	677-679	w64	in	I-PP	I-PP	*	I-NF|I-MF
+22	Franckreich	Frankreich	_	NE	_	_	_	_	_	680-691	w65	Frankreich	I-PP	I-PP	*	I-NF|I-MF
+23	befehl	Befehl	_	NN	_	_	_	_	_	692-698	w66	Befehl	I-PP	I-PP	*	I-NF|I-MF
+24	bekommen	bekommen	_	VVINF	_	_	_	_	_	699-707	w67	bekommen	_	O	*	I-NF|B-RK
+25	/	/	_	$(	_	_	_	_	_	708-709	w68	/	_	O	*	I-NF
+26	mit	mit	_	APPR	_	_	_	_	_	710-713	w69	mit	B-PP-extrap	B-PP	*	I-NF|B-NF
+27	dem	d	_	ART	_	_	_	_	_	714-717	w6a	dem	I-PP	I-PP	*	I-NF|I-NF
+28	Volck	Volk	_	NN	_	_	_	_	_	718-723	w6b	Volk	I-PP	I-PP	*	I-NF|I-NF
+29	/	/	_	$(	_	_	_	_	_	724-725	w6c	/	_	O	*	I-NF|I-NF
+30	so	so	_	ADV	_	_	_	_	_	726-728	w6d	so	B-PP-insitu	B-PP	*	I-NF|I-NF|B-MF
+31	im	im	_	APPRART	_	_	_	_	_	729-731	w6e	im	I-PP	I-PP	*	I-NF|I-NF|I-MF
+32	Stifft	Stift	_	NN	_	_	_	_	_	732-738	w6f	Stift	I-PP	I-PP	*	I-NF|I-NF|I-MF
+33	Metz	Metz	_	NE	_	_	_	_	_	739-743	w70	Metz	I-PP	I-PP	*	I-NF|I-NF|I-MF
+34	ligt	liegen	_	VVFIN	_	_	_	_	_	744-748	w71	liegt	_	O	*	I-NF|I-NF|B-RK
+35	/	/	_	$(	_	_	_	_	_	749-750	w72	/	_	O	*	O
+36	vnd	und	_	KON	_	_	_	_	_	751-754	w73	und	B-NP-insitu	B-NP	*	O
+37	etlichen	etlich	_	ADJA	_	_	_	_	_	755-763	w74	etlichen	I-NP|B-NP-insitu	I-NP	*	B-MF
+38	Regimenten	Regiment	_	NN	_	_	_	_	_	764-774	w75	Regimenten	I-NP|I-NP	I-NP	*	I-MF
+39	Schweitzern	Schweizer	_	NN	_	_	_	_	_	775-786	w76	Schweizern	I-NP|I-NP	I-NP	*	I-MF
+40	/	/	_	$(	_	_	_	_	_	787-788	w77	/	_	O	*	I-MF
+41	ehist	ehest	_	ADV	_	_	_	_	_	789-794	w78	ehest	B-ADVP-insitu	B-ADVP	*	I-MF
+42	nach	nach	_	APPR	_	_	_	_	_	795-799	w79	nach	B-PP-insitu	B-PP	*	I-MF
+43	der	d	_	ART	_	_	_	_	_	800-803	w7a	der	I-PP	I-PP	*	I-MF
+44	Pfaltz	Pfalz	_	NE	_	_	_	_	_	804-810	w7b	Pfalz	I-PP	I-PP	*	I-MF
+45	zu-<lb/>rücken	zurücken	_	VVINF	_	_	_	_	_	811-825	w7c	zurücken	_	O	*	B-RK
+46	.	.	_	$.	_	_	_	_	_	826-827	w7d	.	_	O	*	O
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# PTBstring = (VROOT(SIMPX(VF(NX(PPER Es)))(LK(VXFIN(VAFIN ist)))(FKOORD(FKONJ:KONJ(MF(NX(PIAT viel)(NN Geldt))(PX(APPR in)(NX:HD(PDAT diesen)(NN Landen)(PX(APPR auß)(NX:HD(NE Spania))))))(VC(VXINF(VVPP angelanget)))(KLAMMER /)(NF(SIMPX:OS(MF(ADVX(ADV noch))(NX(ADJX(CARD 50.))(NN Schiff)))(VC(VXINF(PTKZU zu)(VVINF zurüsten))))))(KLAMMER /)(KON vnd)(FKONJ:KONJ(MF(NX(NX:APP(ART die)(NN See))(NX:APP(NE Armada))))(VC(VXINF(VVINF zuverstercken))))))(PUNKT .))
+# TopFString = (S(VF(PPER Es))(LK(VAFIN ist))(FKOORD(FKONJ(MF(PIAT viel)(NN Geldt)(APPR in)(PDAT diesen)(NN Landen)(APPR auß)(NE Spania))(VC(VVPP angelanget)))(KLAMMER /)(FKONJ(MF(ADV noch)(CARD 50.)(NN Schiff))(VC(PTKZU zu)(VVINF zurüsten)))(KLAMMER /)(KON vnd)(FKONJ(MF(ART die)(NN See)(NE Armada))(VC(VVINF zuverstercken))))(PUNKT .))
+# text = Es ist viel Geldt in diesen Landen auß Spania angelanget / noch 50. Schiff zu zurüsten / vnd die See Armada zuverstercken .
+1	Es	es	_	PPER	_	_	_	_	_	829-831	w7e	Es	B-NP-insitu	B-NP	*	B-VF
+2	ist	sein	_	VAFIN	_	_	_	_	_	832-835	w7f	ist	_	O	*	B-LK
+3	viel	viel	_	PIAT	_	_	_	_	_	836-840	w80	viel	B-NP-insitu	B-NP	*	B-MF
+4	Geldt	Geld	_	NN	_	_	_	_	_	841-846	w81	Geld	I-NP	I-NP	*	I-MF
+5	in	in	_	APPR	_	_	_	_	_	847-849	w82	in	B-PP-insitu	B-PP	*	I-MF
+6	diesen	diese	_	PDAT	_	_	_	_	_	850-856	w83	diesen	I-PP	I-PP	*	I-MF
+7	Landen	Land	_	NN	_	_	_	_	_	857-863	w84	Landen	I-PP	I-PP	*	I-MF
+8	auß	aus	_	APPR	_	_	_	_	_	864-867	w85	aus	I-PP	I-PP	*	I-MF
+9	Spania	Spanien	_	NE	_	_	_	_	_	868-874	w86	Spanien	I-PP	I-PP	*	I-MF
+10	angelanget	angelangen	_	VVPP	_	_	_	_	_	875-885	w87	angelanget	_	O	*	B-RK
+11	/	/	_	$(	_	_	_	_	_	886-887	w88	/	_	O	*	O
+12	noch	noch	_	ADV	_	_	_	_	_	888-892	w89	noch	B-ADVP-insitu	B-ADVP	*	B-MF
+13	50.	50.	_	CARD	_	_	_	_	_	893-896	w8a	50.	B-NP-insitu	B-NP	*	I-MF
+14	Schiff	Schiff	_	NN	_	_	_	_	_	897-903	w8b	Schiff	I-NP	I-NP	*	I-MF
+15	zu	zu	_	PTKZU	_	_	_	_	_	904-906	w8c	zu	_	O	*	B-RK
+16	zurüsten	zurüsten	_	VVINF	_	_	_	_	_	907-915	w8d	zurüsten	_	O	*	I-RK
+17	/	/	_	$(	_	_	_	_	_	916-917	w8e	/	_	O	*	O
+18	vnd	und	_	KON	_	_	_	_	_	918-921	w8f	und	_	O	*	B-KOORD
+19	die	d	_	ART	_	_	_	_	_	922-925	w90	die	B-NP-insitu	B-NP	*	B-MF
+20	See	See	_	NN	_	_	_	_	_	926-929	w91	See	I-NP	I-NP	*	I-MF
+21	Armada	Armada	_	NE	_	_	_	_	_	930-936	w92	Armada	I-NP	I-NP	*	I-MF
+22	zuverstercken	zuverstecken	_	VVINF	_	_	_	_	_	937-950	w93	zuverstecken	_	O	*	B-RK
+23	.	.	_	$.	_	_	_	_	_	951-952	w94	.	_	O	*	O
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# PTBstring = (VROOT(PX(APPR Auß)(NX:HD(NE Nürnberg)(KLAMMER /)(PX(APPRART vom)(NX:HD(ADJX(ADJA 24.))(NN Martij)))))(PUNKT .))
+# TopFString = (S(VF(APPR Auß)(NE Nürnberg))(KLAMMER /)(APPRART vom)(ADJA 24.)(NN Martij)(PUNKT .))
+# text = Auß Nürnberg / vom 24. Martij .
+1	Auß	aus	_	APPR	_	_	_	_	_	954-957	wa00	Aus	B-PP-insitu	B-PP	*	B-VF
+2	Nürnberg	Nürnberg	_	NE	_	_	_	_	_	958-966	wa01	Nürnberg	I-PP	I-PP	*	I-VF
+3	/	/	_	$(	_	_	_	_	_	967-968	wa02	/	I-PP	I-PP	*	O
+4	vom	vom	_	APPRART	_	_	_	_	_	969-972	wa03	vom	I-PP	I-PP	*	O
+5	24.	24.	_	ADJA	_	_	_	_	_	973-976	wa04	24.	I-PP	I-PP	*	O
+6	Martij	März	_	NN	_	_	_	_	_	977-983	wa05	März	I-PP	I-PP	*	O
+7	.	.	_	$.	_	_	_	_	_	984-985	wa06	.	_	O	*	O
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# PTBstring = (VROOT(SIMPX(SIMPX:KONJ(LV(SIMPX(C(KOUS Obwol))(MF(ADVX(ADV allhie))(PX(APPR für)(NX:HD(NX:APP(NN Chur))(NX:APP(NE Mäyntz))))(ADVX(ADV schon))(ADVX(ADV gantz)))(VC(VXINF(VVPP einfuriert)))))(KLAMMER /)(VF(ADVX(ADV so)))(LK(VXFIN(VVFIN be-<lb/>sorgt)))(MF(NX(PIS man))))(KON doch)(SIMPX:KONJ(VF(NX(PPER es)))(LK(VXFIN(VMFIN möchte)))(MF(NX(PIAT solcher)(NN Tag))(ADVX(PTKNEG nicht)))(VC(PTKVZ fort))(NF(VXINF(VVINF gehen)))))(PUNKT .))
+# TopFString = (S(C(KOUS Obwol))(MF(ADV allhie)(APPR für)(NN Chur)(NE Mäyntz)(ADV schon)(ADV gantz))(VC(VVPP einfuriert))(KLAMMER /)(VF(ADV so))(LK(VVFIN be-<lb/>sorgt))(MF(PIS man))(KON doch)(VF(PPER es))(LK(VMFIN möchte))(MF(PIAT solcher)(NN Tag)(PTKNEG nicht))(VC(PTKVZ fort)(VVINF gehen))(PUNKT .))
+# text = Obwol allhie für Chur Mäyntz schon gantz einfuriert / so be-<lb/>sorgt man doch es möchte solcher Tag nicht fort gehen .
+1	Obwol	obwohl	_	KOUS	_	_	_	_	_	987-992	w95	Obwohl	_	O	*	B-LK
+2	allhie	allhier	_	ADV	_	_	_	_	_	993-999	w96	allhier	B-ADVP-insitu	B-ADVP	*	B-MF
+3	für	für	_	APPR	_	_	_	_	_	1000-1003	w97	für	B-PP-insitu	B-PP	*	I-MF
+4	Chur	Kür	_	NN	_	_	_	_	_	1004-1008	w98	Kür	I-PP	I-PP	*	I-MF
+5	Mäyntz	Mainz	_	NE	_	_	_	_	_	1009-1015	w99	Mainz	I-PP	I-PP	*	I-MF
+6	schon	schon	_	ADV	_	_	_	_	_	1016-1021	w9a	schon	B-ADVP-insitu	B-ADVP	*	I-MF
+7	gantz	ganz	_	ADV	_	_	_	_	_	1022-1027	w9b	ganz	B-ADVP-insitu	B-ADVP	*	I-MF
+8	einfuriert	Einfuriert	_	VVPP	_	_	_	_	_	1028-1038	w9c	einfuriert	_	O	*	B-RK
+9	/	/	_	$(	_	_	_	_	_	1039-1040	w9d	/	_	O	*	O
+10	so	so	_	ADV	_	_	_	_	_	1041-1043	w9e	so	B-ADVP-insitu	B-ADVP	*	B-VF
+11	be-<lb/>sorgt	besorgt	_	VVFIN	_	_	_	_	_	1044-1057	w9f	besorgt	_	O	*	B-LK
+12	man	man	_	PIS	_	_	_	_	_	1058-1061	wa0	man	B-NP-insitu	B-NP	*	B-MF
+13	doch	doch	_	KON	_	_	_	_	_	1062-1066	wa1	doch	_	O	*	O
+14	es	es	_	PPER	_	_	_	_	_	1067-1069	wa2	es	B-NP-insitu	B-NP	*	B-VF
+15	möchte	mögen	_	VMFIN	_	_	_	_	_	1070-1076	wa3	möchte	_	O	*	B-LK
+16	solcher	solch	_	PIAT	_	_	_	_	_	1077-1084	wa4	solcher	B-NP-insitu	B-NP	*	B-MF
+17	Tag	Tag	_	NN	_	_	_	_	_	1085-1088	wa5	Tag	I-NP	I-NP	*	I-MF
+18	nicht	nicht	_	PTKNEG	_	_	_	_	_	1089-1094	wa6	nicht	B-ADVP-insitu	B-ADVP	*	I-MF
+19	fort	fort	_	PTKVZ	_	_	_	_	_	1095-1099	wa7	fort	_	O	*	B-RK
+20	gehen	gehen	_	VVINF	_	_	_	_	_	1100-1105	wa8	gehen	_	O	*	I-RK
+21	.	.	_	$.	_	_	_	_	_	1106-1107	wa9	.	_	O	*	O
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# PTBstring = (VROOT(SIMPX(SIMPX:KONJ(VF(NX(ART Die)(NN Bi-<lb/>schöffe)))(LK(VXFIN(VVFIN lassen)))(MF(ADJX(ADJD starck)))(VC(VXINF(VVINF werben))))(KLAMMER /)(SIMPX:KONJ(VF(NX(PPER es)))(LK(VXFIN(VAFIN hat)))(MF(NX(ART ein)(ADJX(ADJA seltzam))(NN ansehen)))))(PUNKT .))
+# TopFString = (S(VF(ART Die)(NN Bi-<lb/>schöffe))(LK(VVFIN lassen))(MF(ADJD starck))(VC(VVINF werben))(KLAMMER /)(VF(PPER es))(LK(VAFIN hat))(MF(ART ein)(ADJA seltzam)(NN ansehen))(PUNKT .))
+# text = Die Bi-<lb/>schöffe lassen starck werben / es hat ein seltzam ansehen .
+1	Die	d	_	ART	_	_	_	_	_	1109-1112	waa	Die	B-NP-insitu	B-NP	*	B-VF
+2	Bi-<lb/>schöffe	Bischöffe	_	NN	_	_	_	_	_	1113-1128	wab	Bischöffe	I-NP	I-NP	*	I-VF
+3	lassen	lassen	_	VVFIN	_	_	_	_	_	1129-1135	wac	lassen	_	O	*	B-LK
+4	starck	stark	_	ADJD	_	_	_	_	_	1136-1142	wad	stark	B-AP-insitu	B-AP	*	B-MF
+5	werben	werben	_	VVINF	_	_	_	_	_	1143-1149	wae	werben	_	O	*	B-RK
+6	/	/	_	$(	_	_	_	_	_	1150-1151	waf	/	_	O	*	O
+7	es	es	_	PPER	_	_	_	_	_	1152-1154	wb0	es	B-NP-insitu	B-NP	*	B-VF
+8	hat	haben	_	VAFIN	_	_	_	_	_	1155-1158	wb1	hat	_	O	*	B-LK
+9	ein	eine	_	ART	_	_	_	_	_	1159-1162	wb2	ein	B-NP-insitu	B-NP	*	B-MF
+10	seltzam	seltsam	_	ADJA	_	_	_	_	_	1163-1170	wb3	seltsam	I-NP	I-NP	*	I-MF
+11	ansehen	ansehen	_	NN	_	_	_	_	_	1171-1178	wb4	ansehen	I-NP	I-NP	*	I-MF
+12	.	.	_	$.	_	_	_	_	_	1179-1180	wb5	.	_	O	*	O
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# PTBstring = (VROOT(PX(APPR Auß)(NX:HD(NE Wulffenbüttel)(KLAMMER /)(PX(APPRART vom)(NX:HD(ADJX(ADJA 26.))(NN Martij)))))(PUNKT .))
+# TopFString = (S(VF(APPR Auß)(NE Wulffenbüttel))(KLAMMER /)(APPRART vom)(ADJA 26.)(NN Martij)(PUNKT .))
+# text = Auß Wulffenbüttel / vom 26. Martij .
+1	Auß	aus	_	APPR	_	_	_	_	_	1182-1185	wa07	Aus	B-PP-insitu	B-PP	*	B-VF
+2	Wulffenbüttel	Wulffenbüttel	_	NE	_	_	_	_	_	1186-1199	wa08	Wulffenbüttel	I-PP	I-PP	*	I-VF
+3	/	/	_	$(	_	_	_	_	_	1200-1201	wa09	/	I-PP	I-PP	*	O
+4	vom	vom	_	APPRART	_	_	_	_	_	1202-1205	wa0a	vom	I-PP	I-PP	*	O
+5	26.	26.	_	ADJA	_	_	_	_	_	1206-1209	wa0b	26.	I-PP	I-PP	*	O
+6	Martij	März	_	NN	_	_	_	_	_	1210-1216	wa0c	März	I-PP	I-PP	*	O
+7	.	.	_	$.	_	_	_	_	_	1217-1218	wa0d	.	_	O	*	O
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# PTBstring = (VROOT(SIMPX(VF(NX(ART Der)(NN König)(PX(APPR in)(NX:HD(NE Dennemarck)))))(FKOORD(FKONJ:KONJ(LK(VXFIN(VVFIN lest)))(MF(ADVX(ADV allhier))(NX(NX:KONJ(ADJX(ADJA grosse))(NN Kriegsbereit-<lb/>schafften)(PX(APPR von)(NX:HD(NN Geschütz))))(KON vnd)(NX:KONJ(PIS andern)(PX(APPR in)(NX:HD(NN eyl))))))(VC(VXINF(VVINF verfertigen))))(KLAMMER /)(SIMPX(LK(VXFIN(VAFIN seind)))(MF(NX(ADVX(ADV auch))(PDAT diese)(NN Tage))(NX(CARD 6000)(PUNKT .)(SIMPX(MF(NX(NN Mann))(PX(APPR auß)(NX:HD(NE Holland))))(VC(VXINF(VVPP ankommen)))))))(KLAMMER /)(FKONJ:KONJ(LK(VXFIN(VMFIN sol)))(MF(ADVX(ADV jtzo))(NX(CARD 36.))(NX(CARD tausent))(PX(APPR zu)(NX:HD(NX:KONJ(NN Fuß))(KLAMMER /)(KON vnnd)(NX:KONJ(ADJX(CARD 6.))(ADJX(CARD tausent))(NN Pferd)(PX(APPR ohne)(NX:HD(ART die)(ADJX(ADJA Manßfeldische))(NE Armada))))))(ADJX(ADJD starck)))(VC(VXINF(VAINF sein))))(KLAMMER /)(KON vnd)(FKONJ:KONJ(LK(VXFIN(VVFIN erwartet)))(MF(ADVX(ADV noch))(NX(CARD 20.))(NX(ADJX(CARD tausent))(NN Mann))))))(PUNKT .))
+# TopFString = (S(VF(ART Der)(NN König)(APPR in)(NE Dennemarck))(FKOORD(FKONJ(LK(VVFIN lest))(MF(ADV allhier)(ADJA grosse)(NN Kriegsbereit-<lb/>schafften)(APPR von)(NN Geschütz)(KON vnd)(PIS andern)(APPR in)(NN eyl))(VC(VVINF verfertigen)))(KLAMMER /)(FKONJ(LK(VAFIN seind))(MF(ADV auch)(PDAT diese)(NN Tage)(CARD 6000)(PUNKT .)(NN Mann)(APPR auß)(NE Holland))(VC(VVPP ankommen)))(KLAMMER /)(FKONJ(LK(VMFIN sol))(MF(ADV jtzo)(CARD 36.)(CARD tausent)(APPR zu)(NN Fuß)(KLAMMER /)(KON vnnd)(CARD 6.)(CARD tausent)(NN Pferd)(APPR ohne)(ART die)(ADJA Manßfeldische)(NE Armada)(ADJD starck))(VC(VAINF sein)))(KLAMMER /)(KON vnd)(FKONJ(LK(VVFIN erwartet))(MF(ADV noch)(CARD 20.)(CARD tausent)(NN Mann))))(PUNKT .))
+# text = Der König in Dennemarck lest allhier grosse Kriegsbereit-<lb/>schafften von Geschütz vnd andern in eyl verfertigen / seind auch diese Tage 6000 . Mann auß Holland ankommen / sol jtzo 36. tausent zu Fuß / vnnd 6. tausent Pferd ohne die Manßfeldische Armada starck sein / vnd erwartet noch 20. tausent Mann .
+1	Der	d	_	ART	_	_	_	_	_	1220-1223	wb6	Der	B-NP-insitu	B-NP	*	B-VF
+2	König	König	_	NN	_	_	_	_	_	1224-1229	wb7	König	I-NP	I-NP	*	I-VF
+3	in	in	_	APPR	_	_	_	_	_	1230-1232	wb8	in	I-NP	I-NP	*	I-VF
+4	Dennemarck	Dänemark	_	NE	_	_	_	_	_	1233-1243	wb9	Dänemark	I-NP	I-NP	*	I-VF
+5	lest	lesen	_	VVFIN	_	_	_	_	_	1244-1248	wba	lest	_	O	*	B-LK
+6	allhier	allhier	_	ADV	_	_	_	_	_	1249-1256	wbb	allhier	B-ADVP-insitu	B-ADVP	*	B-MF
+7	grosse	groß	_	ADJA	_	_	_	_	_	1257-1263	wbc	große	B-NP-insitu	B-NP	*	I-MF
+8	Kriegsbereit-<lb/>schafften	Kriegsbereitschaft	_	NN	_	_	_	_	_	1264-1291	wbd	Kriegsbereitschaften	I-NP	I-NP	*	I-MF
+9	von	von	_	APPR	_	_	_	_	_	1292-1295	wbe	von	I-NP	I-NP	*	I-MF
+10	Geschütz	Geschütz	_	NN	_	_	_	_	_	1296-1304	wbf	Geschütz	I-NP	I-NP	*	I-MF
+11	vnd	und	_	KON	_	_	_	_	_	1305-1308	wc0	und	I-NP	I-NP	*	I-MF
+12	andern	andere	_	PIS	_	_	_	_	_	1309-1315	wc1	anderen	I-NP	I-NP	*	I-MF
+13	in	in	_	APPR	_	_	_	_	_	1316-1318	wc2	in	I-NP	I-NP	*	I-MF
+14	eyl	Eile	_	NN	_	_	_	_	_	1319-1322	wc3	Eile	I-NP	I-NP	*	I-MF
+15	verfertigen	verfertigen	_	VVINF	_	_	_	_	_	1323-1334	wc4	verfertigen	_	O	*	B-RK
+16	/	/	_	$(	_	_	_	_	_	1335-1336	wc5	/	_	O	*	O
+17	seind	sein	_	VAFIN	_	_	_	_	_	1337-1342	wc6	sind	_	O	*	B-LK
+18	auch	auch	_	ADV	_	_	_	_	_	1343-1347	wc7	auch	B-NP-insitu	B-NP	*	B-MF
+19	diese	diese	_	PDAT	_	_	_	_	_	1348-1353	wc8	diese	I-NP	I-NP	*	I-MF
+20	Tage	Tag	_	NN	_	_	_	_	_	1354-1358	wc9	Tage	I-NP	I-NP	*	I-MF
+21	6000	6000	_	CARD	_	_	_	_	_	1359-1363	wca	6000	B-NP-insitu	B-NP	*	I-MF
+22	.	.	_	$.	_	_	_	_	_	1364-1365	wcb	.	I-NP	I-NP	*	I-MF
+23	Mann	Mann	_	NN	_	_	_	_	_	1366-1370	wcc	Mann	I-NP|B-NP-insitu	I-NP	*	I-MF
+24	auß	aus	_	APPR	_	_	_	_	_	1371-1374	wcd	aus	I-NP|B-PP-insitu	I-NP	*	I-MF
+25	Holland	Holland	_	NE	_	_	_	_	_	1375-1382	wce	Holland	I-NP|I-PP	I-NP	*	I-MF
+26	ankommen	ankommen	_	VVPP	_	_	_	_	_	1383-1391	wcf	ankommen	I-NP	I-NP	*	B-RK
+27	/	/	_	$(	_	_	_	_	_	1392-1393	wd0	/	_	O	*	O
+28	sol	sollen	_	VMFIN	_	_	_	_	_	1394-1397	wd1	soll	_	O	*	B-LK
+29	jtzo	jetzt	_	ADV	_	_	_	_	_	1398-1402	wd2	jetzt	B-ADVP-insitu	B-ADVP	*	B-MF
+30	36.	36.	_	CARD	_	_	_	_	_	1403-1406	wd3	36.	B-NP-insitu	B-NP	*	I-MF
+31	tausent	tausend	_	CARD	_	_	_	_	_	1407-1414	wd4	tausend	B-NP-insitu	B-NP	*	I-MF
+32	zu	zu	_	APPR	_	_	_	_	_	1415-1417	wd5	zu	B-PP-insitu	B-PP	*	I-MF
+33	Fuß	Fuß	_	NN	_	_	_	_	_	1418-1421	wd6	Fuß	I-PP	I-PP	*	I-MF
+34	/	/	_	$(	_	_	_	_	_	1422-1423	wd7	/	I-PP	I-PP	*	I-MF
+35	vnnd	und	_	KON	_	_	_	_	_	1424-1428	wd8	und	I-PP	I-PP	*	I-MF
+36	6.	6.	_	CARD	_	_	_	_	_	1429-1431	wd9	6.	I-PP	I-PP	*	I-MF
+37	tausent	tausend	_	CARD	_	_	_	_	_	1432-1439	wda	tausend	I-PP	I-PP	*	I-MF
+38	Pferd	Pferd	_	NN	_	_	_	_	_	1440-1445	wdb	Pferd	I-PP	I-PP	*	I-MF
+39	ohne	ohne	_	APPR	_	_	_	_	_	1446-1450	wdc	ohne	I-PP	I-PP	*	I-MF
+40	die	d	_	ART	_	_	_	_	_	1451-1454	wdd	die	I-PP	I-PP	*	I-MF
+41	Manßfeldische	manßfeldische	_	ADJA	_	_	_	_	_	1455-1468	wde	Manßfeldische	I-PP	I-PP	*	I-MF
+42	Armada	Armada	_	NE	_	_	_	_	_	1469-1475	wdf	Armada	I-PP	I-PP	*	I-MF
+43	starck	stark	_	ADJD	_	_	_	_	_	1476-1482	we0	stark	B-AP-insitu	B-AP	*	I-MF
+44	sein	sein	_	VAINF	_	_	_	_	_	1483-1487	we1	sein	_	O	*	B-RK
+45	/	/	_	$(	_	_	_	_	_	1488-1489	we2	/	_	O	*	O
+46	vnd	und	_	KON	_	_	_	_	_	1490-1493	we3	und	_	O	*	B-KOORD
+47	erwartet	erwarten	_	VVFIN	_	_	_	_	_	1494-1502	we4	erwartet	_	O	*	B-LK
+48	noch	noch	_	ADV	_	_	_	_	_	1503-1507	we5	noch	B-ADVP-insitu	B-ADVP	*	B-MF
+49	20.	20.	_	CARD	_	_	_	_	_	1508-1511	we6	20.	B-NP-insitu	B-NP	*	I-MF
+50	tausent	tausend	_	CARD	_	_	_	_	_	1512-1519	we7	tausend	B-NP-insitu	B-NP	*	I-MF
+51	Mann	Mann	_	NN	_	_	_	_	_	1520-1524	we8	Mann	I-NP	I-NP	*	I-MF
+52	.	.	_	$.	_	_	_	_	_	1525-1526	we9	.	_	O	*	O
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# PTBstring = (VROOT(SIMPX(VF(NX(ART Der)(NE Tilly)))(FKOORD(FKONJ:KONJ(LK(VXFIN(VAFIN hat)))(MF(NX(NE Sankt)(NE Andreasbergk))(PX(APPR sambt)(NX:HD(PIAT andern)(NN örtern)))(PX(APPR in)(NX:HD(ADJX(ADJA Grubenhager))(NN lande))))(VC(VXINF(VVINF abbren-<lb/>nen))(VXINF(VVINF lassen))))(KLAMMER /)(KON vnd)(FKONJ:KONJ(LK(VXFIN(VAFIN werden)))(MF(ADVX(ADVX(ADV so))(ADV wol))(NX(ART die)(ADJX(ADJA Lüneburgischen))(NX(KOKOM als)(ADJX(ADJA Braunschwei-<lb/>gische))(NN Lande)))(PX(APPR in)(NX:HD(ART die)(NN Asche))))(VC(VXINF(VVPP gelegt))))))(PUNKT .))
+# TopFString = (S(VF(ART Der)(NE Tilly))(FKOORD(FKONJ(LK(VAFIN hat))(MF(NE Sankt)(NE Andreasbergk)(APPR sambt)(PIAT andern)(NN örtern)(APPR in)(ADJA Grubenhager)(NN lande))(VC(VVINF abbren-<lb/>nen)(VVINF lassen)))(KLAMMER /)(KON vnd)(FKONJ(LK(VAFIN werden))(MF(ADV so)(ADV wol)(ART die)(ADJA Lüneburgischen)(KOKOM als)(ADJA Braunschwei-<lb/>gische)(NN Lande)(APPR in)(ART die)(NN Asche))(VC(VVPP gelegt))))(PUNKT .))
+# text = Der Tilly hat Sankt Andreasbergk sambt andern örtern in Grubenhager lande abbren-<lb/>nen lassen / vnd werden so wol die Lüneburgischen als Braunschwei-<lb/>gische Lande in die Asche gelegt .
+1	Der	d	_	ART	_	_	_	_	_	1528-1531	wea	Der	B-NP-insitu	B-NP	*	B-VF
+2	Tilly	Tilly	_	NE	_	_	_	_	_	1532-1537	web	Tilly	I-NP	I-NP	*	I-VF
+3	hat	haben	_	VAFIN	_	_	_	_	_	1538-1541	wec	hat	_	O	*	B-LK
+4	Sankt	sinken	_	NE	_	_	_	_	_	1542-1547	wed	Sankt	B-NP-insitu	B-NP	*	B-MF
+5	Andreasbergk	Andreasbergk	_	NE	_	_	_	_	_	1548-1560	wee	Andreasbergk	I-NP	I-NP	*	I-MF
+6	sambt	samt	_	APPR	_	_	_	_	_	1561-1566	wef	samt	B-PP-insitu	B-PP	*	I-MF
+7	andern	andere	_	PIAT	_	_	_	_	_	1567-1573	wf0	anderen	I-PP	I-PP	*	I-MF
+8	örtern	örtern	_	NN	_	_	_	_	_	1574-1580	wf1	örtern	I-PP	I-PP	*	I-MF
+9	in	in	_	APPR	_	_	_	_	_	1581-1583	wf2	in	B-PP-insitu	B-PP	*	I-MF
+10	Grubenhager	grubenhager	_	ADJA	_	_	_	_	_	1584-1595	wf3	Grubenhager	I-PP	I-PP	*	I-MF
+11	lande	Land	_	NN	_	_	_	_	_	1596-1601	wf4	Lande	I-PP	I-PP	*	I-MF
+12	abbren-<lb/>nen	abbrennen	_	VVINF	_	_	_	_	_	1602-1617	wf5	abbrennen	_	O	*	B-RK
+13	lassen	lassen	_	VVINF	_	_	_	_	_	1618-1624	wf6	lassen	_	O	*	I-RK
+14	/	/	_	$(	_	_	_	_	_	1625-1626	wf7	/	_	O	*	O
+15	vnd	und	_	KON	_	_	_	_	_	1627-1630	wf8	und	_	O	*	B-KOORD
+16	werden	werden	_	VAFIN	_	_	_	_	_	1631-1637	wf9	werden	_	O	*	B-LK
+17	so	so	_	ADV	_	_	_	_	_	1638-1640	wfa	so	B-ADVP-insitu	B-ADVP	*	B-MF
+18	wol	wohl	_	ADV	_	_	_	_	_	1641-1644	wfb	wohl	I-ADVP	I-ADVP	*	I-MF
+19	die	d	_	ART	_	_	_	_	_	1645-1648	wfc	die	B-NP-insitu	B-NP	*	I-MF
+20	Lüneburgischen	Lüneburgischen	_	ADJA	_	_	_	_	_	1649-1663	wfd	Lüneburgischen	I-NP	I-NP	*	I-MF
+21	als	als	_	KOKOM	_	_	_	_	_	1664-1667	wfe	als	I-NP	I-NP	*	I-MF
+22	Braunschwei-<lb/>gische	braunschweigisch	_	ADJA	_	_	_	_	_	1668-1691	wff	Braunschweigische	I-NP	I-NP	*	I-MF
+23	Lande	Land	_	NN	_	_	_	_	_	1692-1697	w100	Lande	I-NP	I-NP	*	I-MF
+24	in	in	_	APPR	_	_	_	_	_	1698-1700	w101	in	B-PP-insitu	B-PP	*	I-MF
+25	die	d	_	ART	_	_	_	_	_	1701-1704	w102	die	I-PP	I-PP	*	I-MF
+26	Asche	Asche	_	NN	_	_	_	_	_	1705-1710	w103	Asche	I-PP	I-PP	*	I-MF
+27	gelegt	legen	_	VVPP	_	_	_	_	_	1711-1717	w104	gelegt	_	O	*	B-RK
+28	.	.	_	$.	_	_	_	_	_	1718-1719	w105	.	_	O	*	O
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# PTBstring = (VROOT(PX(APPR Auß)(NX:HD(NE Westphalen)(KLAMMER /)(PX(APPRART vom)(NX:HD(ADJX(ADJA 26.))(NN Martij)))))(PUNKT .))
+# TopFString = (S(VF(APPR Auß)(NE Westphalen))(KLAMMER /)(APPRART vom)(ADJA 26.)(NN Martij)(PUNKT .))
+# text = Auß Westphalen / vom 26. Martij .
+1	Auß	aus	_	APPR	_	_	_	_	_	1721-1724	wa0e	Aus	B-PP-insitu	B-PP	*	B-VF
+2	Westphalen	Westfalen	_	NE	_	_	_	_	_	1725-1735	wa0f	Westfalen	I-PP	I-PP	*	I-VF
+3	/	/	_	$(	_	_	_	_	_	1736-1737	wa10	/	I-PP	I-PP	*	O
+4	vom	vom	_	APPRART	_	_	_	_	_	1738-1741	wa11	vom	I-PP	I-PP	*	O
+5	26.	26.	_	ADJA	_	_	_	_	_	1742-1745	wa12	26.	I-PP	I-PP	*	O
+6	Martij	März	_	NN	_	_	_	_	_	1746-1752	wa13	März	I-PP	I-PP	*	O
+7	.	.	_	$.	_	_	_	_	_	1753-1754	wa14	.	_	O	*	O
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# PTBstring = (VROOT(SIMPX(SIMPX:KONJ(VF(NX(ART Der)(NN König)(PX(APPR in)(NX:HD(NE Dennemarck)))))(FKOORD(FKONJ:KONJ(LK(VXFIN(VAFIN hat)))(MF(NX(PX(APPR durch)(NX:HD(NX:APP(PPOSAT seinen)(NN Feld))(NX:APP(NN Marschalck))))(NN Hertzogen)(PX(APPR von)(NX:HD(NE Weymar))))(KLAMMER /)(NX(PRF sich))(NX(NX:APP(ART deß)(NN Stiffts))(NX:APP(NE Oßnabrück))))(VC(VXINF(VVPP bemächtiget))))(KLAMMER /)(KON Vnd)(FKONJ:KONJ(LK(VXFIN(VAFIN ist)))(MF(NX(PDAT dessen)(ADJX(ADJA Eltester))(NN Printz))(PX(APPRART zum)(NX:HD(NN Coadjutorn)(NX(ADJX(ADJA selbiges))(NN Stiffts)))))(VC(VXINF(VVPP er-<lb/>nennet))))))(KLAMMER /)(KON doch)(SIMPX:KONJ(VF(NX(ADJX(ADVX(ADV dofern))(ADJA selbiger))(NN Bischoff)(NX(NX:APP(NN Herr))(NX:APP(NX:APP(NN Graf))(PX(APPR von)(NX:HD(NE Wartenberg))))(KLAMMER /)(R(C(NX(PRF sich)))(MF(ADVX(PTKNEG nicht))(PX(APPR zu)(NX:HD(ADJX(ADJA rechter))(NN zeit))))(VC(VXINF(VVINF einstellen))(VXFIN(VAFIN wird)))))))(KLAMMER /)(LK(VXFIN(VMFIN sol)))(MF(NX(PPER er))(ADVX(ADV gar))(PX(APPRART zum)(NX:HD(NX:KONJ(NN Bischoff))(KON vnd)(NX:KONJ(NN Administrator)))))(VC(VXINF(VVPP installiret))(VXINF(VAINF werden)))))(PUNKT .))
+# TopFString = (S(VF(ART Der)(NN König)(APPR in)(NE Dennemarck))(FKOORD(FKONJ(LK(VAFIN hat))(MF(APPR durch)(PPOSAT seinen)(NN Feld)(NN Marschalck)(NN Hertzogen)(APPR von)(NE Weymar)(KLAMMER /)(PRF sich)(ART deß)(NN Stiffts)(NE Oßnabrück))(VC(VVPP bemächtiget)))(KLAMMER /)(KON Vnd)(FKONJ(LK(VAFIN ist))(MF(PDAT dessen)(ADJA Eltester)(NN Printz)(APPRART zum)(NN Coadjutorn)(ADJA selbiges)(NN Stiffts))(VC(VVPP er-<lb/>nennet))))(KLAMMER /)(KON doch)(VF(ADV dofern)(ADJA selbiger)(NN Bischoff)(NN Herr)(NN Graf)(APPR von)(NE Wartenberg)(KLAMMER /)(MF(PRF sich)(PTKNEG nicht)(APPR zu)(ADJA rechter)(NN zeit))(VC(VVINF einstellen)(VAFIN wird)))(KLAMMER /)(LK(VMFIN sol))(MF(PPER er)(ADV gar)(APPRART zum)(NN Bischoff)(KON vnd)(NN Administrator))(VC(VVPP installiret)(VAINF werden))(PUNKT .))
+# text = Der König in Dennemarck hat durch seinen Feld Marschalck Hertzogen von Weymar / sich deß Stiffts Oßnabrück bemächtiget / Vnd ist dessen Eltester Printz zum Coadjutorn selbiges Stiffts er-<lb/>nennet / doch dofern selbiger Bischoff Herr Graf von Wartenberg / sich nicht zu rechter zeit einstellen wird / sol er gar zum Bischoff vnd Administrator installiret werden .
+1	Der	d	_	ART	_	_	_	_	_	1756-1759	w106	Der	B-NP-insitu	B-NP	*	B-VF
+2	König	König	_	NN	_	_	_	_	_	1760-1765	w107	König	I-NP	I-NP	*	I-VF
+3	in	in	_	APPR	_	_	_	_	_	1766-1768	w108	in	I-NP	I-NP	*	I-VF
+4	Dennemarck	Dänemark	_	NE	_	_	_	_	_	1769-1779	w109	Dänemark	I-NP	I-NP	*	I-VF
+5	hat	haben	_	VAFIN	_	_	_	_	_	1780-1783	w10a	hat	_	O	*	B-LK
+6	durch	durch	_	APPR	_	_	_	_	_	1784-1789	w10b	durch	B-NP-insitu	B-NP	*	B-MF
+7	seinen	seine	_	PPOSAT	_	_	_	_	_	1790-1796	w10c	seinen	I-NP	I-NP	*	I-MF
+8	Feld	Feld	_	NN	_	_	_	_	_	1797-1801	w10d	Feld	I-NP	I-NP	*	I-MF
+9	Marschalck	Marschall	_	NN	_	_	_	_	_	1802-1812	w10e	Marschall	I-NP	I-NP	*	I-MF
+10	Hertzogen	Herzog	_	NN	_	_	_	_	_	1813-1822	w10f	Herzogs	I-NP	I-NP	*	I-MF
+11	von	von	_	APPR	_	_	_	_	_	1823-1826	w110	von	I-NP	I-NP	*	I-MF
+12	Weymar	Weimar	_	NE	_	_	_	_	_	1827-1833	w111	Weimar	I-NP	I-NP	*	I-MF
+13	/	/	_	$(	_	_	_	_	_	1834-1835	w112	/	_	O	*	I-MF
+14	sich	sich	_	PRF	_	_	_	_	_	1836-1840	w113	sich	B-NP-insitu	B-NP	*	I-MF
+15	deß	d	_	ART	_	_	_	_	_	1841-1844	w114	des	B-NP-insitu	B-NP	*	I-MF
+16	Stiffts	Stift	_	NN	_	_	_	_	_	1845-1852	w115	Stifts	I-NP	I-NP	*	I-MF
+17	Oßnabrück	Osnabrück	_	NE	_	_	_	_	_	1853-1862	w116	Osnabrück	I-NP	I-NP	*	I-MF
+18	bemächtiget	bemächtigen	_	VVPP	_	_	_	_	_	1863-1874	w117	bemächtigt	_	O	*	B-RK
+19	/	/	_	$(	_	_	_	_	_	1875-1876	w118	/	_	O	*	O
+20	Vnd	und	_	KON	_	_	_	_	_	1877-1880	w119	Und	_	O	*	B-KOORD
+21	ist	sein	_	VAFIN	_	_	_	_	_	1881-1884	w11a	ist	_	O	*	B-LK
+22	dessen	die	_	PDAT	_	_	_	_	_	1885-1891	w11b	dessen	B-NP-insitu	B-NP	*	B-MF
+23	Eltester	alt	_	ADJA	_	_	_	_	_	1892-1900	w11c	Ältester	I-NP	I-NP	*	I-MF
+24	Printz	Prinz	_	NN	_	_	_	_	_	1901-1907	w11d	Prinz	I-NP	I-NP	*	I-MF
+25	zum	zum	_	APPRART	_	_	_	_	_	1908-1911	w11e	zum	B-PP-insitu	B-PP	*	I-MF
+26	Coadjutorn	Koadjutor	_	NN	_	_	_	_	_	1912-1922	w11f	Koadjutoren	I-PP	I-PP	*	I-MF
+27	selbiges	selbig	_	ADJA	_	_	_	_	_	1923-1931	w120	selbiges	I-PP	I-PP	*	I-MF
+28	Stiffts	Stift	_	NN	_	_	_	_	_	1932-1939	w121	Stifts	I-PP	I-PP	*	I-MF
+29	er-<lb/>nennet	ernennen	_	VVPP	_	_	_	_	_	1940-1954	w122	ernennet	_	O	*	B-RK
+30	/	/	_	$(	_	_	_	_	_	1955-1956	w123	/	_	O	*	O
+31	doch	doch	_	KON	_	_	_	_	_	1957-1961	w124	doch	_	O	*	O
+32	dofern	Dofern	_	ADV	_	_	_	_	_	1962-1968	w125	dofern	B-NP-insitu	B-NP	*	B-VF
+33	selbiger	selbig	_	ADJA	_	_	_	_	_	1969-1977	w126	selbiger	I-NP	I-NP	*	I-VF
+34	Bischoff	Bischof	_	NN	_	_	_	_	_	1978-1986	w127	Bischof	I-NP	I-NP	*	I-VF
+35	Herr	Herr	_	NN	_	_	_	_	_	1987-1991	w128	Herr	I-NP	I-NP	*	I-VF
+36	Graf	Graf	_	NN	_	_	_	_	_	1992-1996	w129	Graf	I-NP	I-NP	*	I-VF
+37	von	von	_	APPR	_	_	_	_	_	1997-2000	w12a	von	I-NP	I-NP	*	I-VF
+38	Wartenberg	Wartenberg	_	NE	_	_	_	_	_	2001-2011	w12b	Wartenberg	I-NP	I-NP	*	I-VF
+39	/	/	_	$(	_	_	_	_	_	2012-2013	w12c	/	I-NP	I-NP	*	I-VF
+40	sich	sich	_	PRF	_	_	_	_	_	2014-2018	w12d	sich	I-NP|B-NP-insitu	I-NP	*	I-VF|B-MF
+41	nicht	nicht	_	PTKNEG	_	_	_	_	_	2019-2024	w12e	nicht	I-NP|B-ADVP-insitu	I-NP	*	I-VF|I-MF
+42	zu	zu	_	APPR	_	_	_	_	_	2025-2027	w12f	zu	I-NP|B-PP-insitu	I-NP	*	I-VF|I-MF
+43	rechter	recht	_	ADJA	_	_	_	_	_	2028-2035	w130	rechter	I-NP|I-PP	I-NP	*	I-VF|I-MF
+44	zeit	Zeit	_	NN	_	_	_	_	_	2036-2040	w131	Zeit	I-NP|I-PP	I-NP	*	I-VF|I-MF
+45	einstellen	einstellen	_	VVINF	_	_	_	_	_	2041-2051	w132	einstellen	I-NP	I-NP	*	I-VF|B-RK
+46	wird	werden	_	VAFIN	_	_	_	_	_	2052-2056	w133	wird	I-NP	I-NP	*	I-VF|I-RK
+47	/	/	_	$(	_	_	_	_	_	2057-2058	w134	/	_	O	*	O
+48	sol	sollen	_	VMFIN	_	_	_	_	_	2059-2062	w135	soll	_	O	*	B-LK
+49	er	er	_	PPER	_	_	_	_	_	2063-2065	w136	er	B-NP-insitu	B-NP	*	B-MF
+50	gar	gar	_	ADV	_	_	_	_	_	2066-2069	w137	gar	B-ADVP-insitu	B-ADVP	*	I-MF
+51	zum	zum	_	APPRART	_	_	_	_	_	2070-2073	w138	zum	B-PP-insitu	B-PP	*	I-MF
+52	Bischoff	Bischof	_	NN	_	_	_	_	_	2074-2082	w139	Bischof	I-PP	I-PP	*	I-MF
+53	vnd	und	_	KON	_	_	_	_	_	2083-2086	w13a	und	I-PP	I-PP	*	I-MF
+54	Administrator	Administrator	_	NN	_	_	_	_	_	2087-2100	w13b	Administrator	I-PP	I-PP	*	I-MF
+55	installiret	installieren	_	VVPP	_	_	_	_	_	2101-2112	w13c	installieret	_	O	*	B-RK
+56	werden	werden	_	VAINF	_	_	_	_	_	2113-2119	w13d	werden	_	O	*	I-RK
+57	.	.	_	$.	_	_	_	_	_	2120-2121	w13e	.	_	O	*	O
+
+# sent_id = 19
+# sent_id(TSV) = 19
+# PTBstring = (VROOT(SIMPX(VF(NX(NX:APP(ART Die)(NN Stadt))(NX:APP(NE Wiedenburg))))(LK(VXFIN(VAFIN ist)))(MF(NX(ART den)(NN 16.)(NX(PDAT diß)(NN früe)))(KLAMMER /)(SIMPX(MF(PX(APPRART vom)(NX:HD(NN Hertzog)(PX(APPR von)(NX:HD(NE Weymar))))))(VC(VXINF(VVPP vberrascht))))(KLAMMER /)(NX(NX:KONJ(PX(PAV darüber))(ART die)(NN Nonnen)(NX(NN Klöster))(NX(ART der)(NN Geist-<lb/>lichen)))(KLAMMER /)(KON vnd)(NX:KONJ(PIAT etliche)(NN Bürgershäuser))))(VC(VXINF(VVPP geplündert))))(PUNKT .))
+# TopFString = (S(VF(ART Die)(NN Stadt)(NE Wiedenburg))(LK(VAFIN ist))(FKOORD(FKONJ(MF(ART den)(NN 16.)(PDAT diß)(NN früe)(KLAMMER /)(APPRART vom)(NN Hertzog)(APPR von)(NE Weymar))(VC(VVPP vberrascht)))(KLAMMER /)(FKONJ(MF(PAV darüber)(ART die)(NN Nonnen)(NN Klöster)(ART der)(NN Geist-<lb/>lichen)(KLAMMER /)(KON vnd)(PIAT etliche)(NN Bürgershäuser))(VC(VVPP geplündert))))(PUNKT .))
+# text = Die Stadt Wiedenburg ist den 16. diß früe / vom Hertzog von Weymar vberrascht / darüber die Nonnen Klöster der Geist-<lb/>lichen / vnd etliche Bürgershäuser geplündert .
+1	Die	d	_	ART	_	_	_	_	_	2123-2126	w13f	Die	B-NP-insitu	B-NP	*	B-VF
+2	Stadt	Stadt	_	NN	_	_	_	_	_	2127-2132	w140	Stadt	I-NP	I-NP	*	I-VF
+3	Wiedenburg	Wiedenburg	_	NE	_	_	_	_	_	2133-2143	w141	Wiedenburg	I-NP	I-NP	*	I-VF
+4	ist	sein	_	VAFIN	_	_	_	_	_	2144-2147	w142	ist	_	O	*	B-LK
+5	den	d	_	ART	_	_	_	_	_	2148-2151	w143	den	B-NP-insitu	B-NP	*	B-MF
+6	16.	16.	_	NN	_	_	_	_	_	2152-2155	w144	16.	I-NP	I-NP	*	I-MF
+7	diß	diese	_	PDAT	_	_	_	_	_	2156-2159	w145	dies	I-NP	I-NP	*	I-MF
+8	früe	früh	_	NN	_	_	_	_	_	2160-2164	w146	frühe	I-NP	I-NP	*	I-MF
+9	/	/	_	$(	_	_	_	_	_	2165-2166	w147	/	_	O	*	I-MF
+10	vom	vom	_	APPRART	_	_	_	_	_	2167-2170	w148	vom	B-PP-insitu	B-PP	*	I-MF
+11	Hertzog	Herzog	_	NN	_	_	_	_	_	2171-2178	w149	Herzog	I-PP	I-PP	*	I-MF
+12	von	von	_	APPR	_	_	_	_	_	2179-2182	w14a	von	I-PP	I-PP	*	I-MF
+13	Weymar	Weimar	_	NE	_	_	_	_	_	2183-2189	w14b	Weimar	I-PP	I-PP	*	I-MF
+14	vberrascht	überraschen	_	VVPP	_	_	_	_	_	2190-2200	w14c	überrascht	_	O	*	B-RK
+15	/	/	_	$(	_	_	_	_	_	2201-2202	w14d	/	_	O	*	O
+16	darüber	darüber	_	PAV	_	_	_	_	_	2203-2210	w14e	darüber	B-NP-insitu	B-NP	*	B-MF
+17	die	d	_	ART	_	_	_	_	_	2211-2214	w14f	die	I-NP	I-NP	*	I-MF
+18	Nonnen	Nonnen	_	NN	_	_	_	_	_	2215-2221	w150	Nonnen	I-NP	I-NP	*	I-MF
+19	Klöster	Kloster	_	NN	_	_	_	_	_	2222-2229	w151	Klöster	I-NP	I-NP	*	I-MF
+20	der	d	_	ART	_	_	_	_	_	2230-2233	w152	der	I-NP	I-NP	*	I-MF
+21	Geist-<lb/>lichen	Geistliche	_	NN	_	_	_	_	_	2234-2251	w153	Geistlichen	I-NP	I-NP	*	I-MF
+22	/	/	_	$(	_	_	_	_	_	2252-2253	w154	/	I-NP	I-NP	*	I-MF
+23	vnd	und	_	KON	_	_	_	_	_	2254-2257	w155	und	I-NP	I-NP	*	I-MF
+24	etliche	etliche	_	PIAT	_	_	_	_	_	2258-2265	w156	etliche	I-NP	I-NP	*	I-MF
+25	Bürgershäuser	Bürgershaus	_	NN	_	_	_	_	_	2266-2279	w157	Bürgershäuser	I-NP	I-NP	*	I-MF
+26	geplündert	plündern	_	VVPP	_	_	_	_	_	2280-2290	w158	geplündert	_	O	*	B-RK
+27	.	.	_	$.	_	_	_	_	_	2291-2292	w159	.	_	O	*	O
+
+# sent_id = 20
+# sent_id(TSV) = 20
+# PTBstring = (VROOT(SIMPX(VF(NX(ART Die)(NN Staaden)))(LK(VXFIN(VVFIN wen-<lb/>den)))(MF(NX(PRF sich))(PX(APPR nachter)(NX:HD(NE Lipstadt)))))(PUNKT .))
+# TopFString = (S(VF(ART Die)(NN Staaden))(LK(VVFIN wen-<lb/>den))(MF(PRF sich)(APPR nachter)(NE Lipstadt))(PUNKT .))
+# text = Die Staaden wen-<lb/>den sich nachter Lipstadt .
+1	Die	d	_	ART	_	_	_	_	_	2294-2297	w15a	Die	B-NP-insitu	B-NP	*	B-VF
+2	Staaden	Staat	_	NN	_	_	_	_	_	2298-2305	w15b	Staaten	I-NP	I-NP	*	I-VF
+3	wen-<lb/>den	wenden	_	VVFIN	_	_	_	_	_	2306-2318	w15c	wenden	_	O	*	B-LK
+4	sich	sich	_	PRF	_	_	_	_	_	2319-2323	w15d	sich	B-NP-insitu	B-NP	*	B-MF
+5	nachter	Nager	_	APPR	_	_	_	_	_	2324-2331	w15e	Nager	B-PP-insitu	B-PP	*	I-MF
+6	Lipstadt	Lipstadt	_	NE	_	_	_	_	_	2332-2340	w15f	Lipstadt	I-PP	I-PP	*	I-MF
+7	.	.	_	$.	_	_	_	_	_	2341-2342	w160	.	_	O	*	O

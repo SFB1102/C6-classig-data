@@ -1,0 +1,14 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS PHRASE POS Rekonstruktion SATZKLAMMER SATZSTATUS UEBERLIEFERUNGSTRAEGER VERLINKUNG
+# sent_id = 1
+# PTBstring = (VROOT(SIMPX(VF(ADVX(ADV *{N*}v)))(LK(VXFIN(VMFIN ſchvlt)))(MF(NX(PPER ir))(ADVX(ADV hivte)))(VC(VXINF(VVINF lazzin))(VXINF(VVINF gniezzin)))(NF(NX(ART die)(ADJX(ADJA heiligin))(NN chriſtenheit))))(PUNKT .))
+# text = *{N*}v ſchvlt ir hivte lazzin gniezzin die heiligin chriſtenheit.
+1	*{N*}v	_	_	ADV	_	_	_	_	_	ADVP	*{N*}v	06,06	_	ADVB	_	B-ADVP	ADV	_	_	MAINDECL	03v,26	_
+2	ſchvlt	_	_	VMFIN	_	_	_	_	_	VP	ſchvlt	06,06	_	VFIN	_	O	VMFIN	_	LI	MAINDECL	03v,26	_
+3	ir	_	_	PPER	_	_	_	_	_	NP	ir	06,06	_	SUBJ	_	B-NP	PPER	_	_	MAINDECL	03v,26	_
+4	hivte	_	_	ADV	_	_	_	_	_	ADVP	hivte	06,06	_	ADVB	_	B-ADVP	ADV	_	_	MAINDECL	03v,26	_
+5	lazzin	_	_	VVINF	_	_	_	_	_	VP	lazzin	06,06	_	INF	_	O	VVINF	_	_	MAINDECL	03v,26	_
+6	gniezzin	_	_	VVINF	_	_	_	_	_	VP	gniezzin	06,06	_	INF	_	O	VVINF	chriſtenheit	RE	MAINDECL	03v,26	_
+7	die	_	_	ART	_	_	_	_	_	NP	die	06,06	NF	DO	NEW	B-NP	DDA	_	_	MAINDECL	03v,26	UNLINK
+8	heiligin	_	_	ADJA	_	_	_	_	_	NP	heiligin	06,06	NF	DO	NEW	I-NP	ADJ	_	_	MAINDECL	03v,26	UNLINK
+9	chriſtenheit	_	_	NN	_	_	_	_	_	NP	chriſtenheit	06,06	NF	DO	NEW	I-NP	NA	_	_	MAINDECL	03v,26	UNLINK
+10	.	_	_	$.	_	_	_	_	_	_	.	06,07	_	_	_	O	$_	_	_	MAINDECL	03v,27; -ſtenheit	_

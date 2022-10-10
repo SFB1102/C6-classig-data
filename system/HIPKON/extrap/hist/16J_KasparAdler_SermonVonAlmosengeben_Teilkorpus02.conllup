@@ -1,0 +1,212 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN FOKUS GF IS MovElem PHRASE POS SATZKLAMMER SATZSTATUS TOPF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# PTBstring = (VROOT(S(NP(PPER wir))(VP(VMFIN sollen))(VP(VVINF abstehen))(PP(APPR von)(PPOSAT vn=ser)(NN meinung))(KOMMA /)))
+# TopFString = (S(VF(PPER wir))(LK(VMFIN sollen))(VC(VVINF abstehen))(NF(APPR von)(PPOSAT vn=ser)(NN meinung))(KOMMA /))
+# text = wir sollen abstehen von vn=ser meinung /
+1	wir	_	_	PPER	_	_	_	_	_	NP	wir	_	SUBJ	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-VF	34,16 vn-	_	_
+2	sollen	_	_	VMFIN	_	_	_	_	_	VP	sollen	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	B-LK	34,16 vn-	_	_
+3	abstehen	_	_	VVINF	_	_	_	_	_	VP	abstehen	NF	INF	_	_	O	VVINF	RE	MAINDECL	B-RK	34,16 vn-	_	_
+4	von	_	_	APPR	_	_	_	_	_	PP	von	NF	PP-OBJ	_	B-PP-extrap	B-PP	APPR	_	MAINDECL	B-NF	34,16 vn-	UNLINK	_
+5	vn=ser	_	_	PPOSAT	_	_	_	_	_	PP	vnser	NF	PP-OBJ	ACC-INF_	I-PP	I-PP	DPOS	_	MAINDECL	I-NF	34,16 vn-	UNLINK	_
+6	meinung	_	_	NN	_	_	_	_	_	PP	meinung	NF	PP-OBJ	_ACC-ABSTR-UNUSED	I-PP	I-PP	NA	_	MAINDECL	I-NF	34,17-ser	UNLINK	_
+7	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	O	$_	_	MAINDECL	O	34,17-ser	_	_
+
+# sent_id = 2
+# PTBstring = (VROOT(S(PP(PAV Darumb))(VP(VMFIN konnen))(S(KON vnd)(VP(VMFIN muͤgen))(NP(PPER wir))(VP(PPER sie)(PTKNEG nicht)(VVINF hoͤren)(PP(APPR nach)(NP(PPER jrer)(NN bitte)(KOMMA /)))))))
+# TopFString = (S(VF(PAV Darumb))(LK(VMFIN konnen))(KON vnd)(LK(VMFIN muͤgen))(MF(PPER wir)(PPER sie)(PTKNEG nicht))(VC(VVINF hoͤren))(NF(APPR nach)(PPER jrer)(NN bitte))(KOMMA /))
+# text = Darumb konnen vnd muͤgen wir sie nicht hoͤren nach jrer bitte /
+1	Darumb	_	_	PAV	_	_	_	_	_	ADVP	Darumb	_	ADVB	_	B-PP-insitu	B-PP	PWAV	_	MAINDECL	B-VF	35,06	_	_
+2	konnen	_	_	VMFIN	_	_	_	_	_	VP	konnen	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	B-LK	35,06	_	_
+3	vnd	_	_	KON	_	_	_	_	_	VP	vnd	_	_	_	_	O	KON	LI	MAINDECL	O	35,06	_	_
+4	muͤgen	_	_	VMFIN	_	_	_	_	_	VP	muͤgen	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	B-LK	35,06	_	_
+5	wir	_	_	PPER	_	_	_	_	_	NP	wir	_	SUBJ	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-MF	35,07	_	_
+6	sie	_	_	PPER	_	_	_	_	_	NP	sie	_	DO	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	I-MF	35,07	_	_
+7	nicht	_	_	PTKNEG	_	_	_	_	_	_	nicht	_	_	_	B-ADVP-insitu	B-ADVP	PTKNEG	_	MAINDECL	I-MF	35,07	_	_
+8	hoͤren	_	_	VVINF	_	_	_	_	_	VP	hoͤren	BGR	INF	_	_	O	VVINF	RE	MAINDECL	B-RK	35,07	_	_
+9	nach	_	_	APPR	_	_	_	_	_	PP	nach	BGR	PP-ADV	_	B-PP-extrap	B-PP	APPR	_	MAINDECL	B-NF	35,07	UNLINK	_
+10	jrer	_	_	PPER	_	_	_	_	_	PP	jrer	BGR	PP-ADV	ACC-INF_	I-PP	I-PP	PPER	_	MAINDECL	I-NF	35,07	UNLINK	_
+11	bitte	_	_	NN	_	_	_	_	_	PP	bitte	BGR	PP-ADV	_ACC-ABSTR-UNUSED	I-PP	I-PP	NA	_	MAINDECL	I-NF	35,07	UNLINK	_
+12	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	I-PP	$_	_	MAINDECL	O	35,07	_	_
+
+# sent_id = 3
+# PTBstring = (VROOT(S(VP(VVIMP last))(NP(PPER vns))(NP(NN guts))(VP(VVINF thun)(PP(APPR an)(PIAT je=derman)(KOMMA /)(PP(ADV allermeist)(ADV aber)(APPR an)(NP(ART des)(NN glaubens))(NN genossen)(KOMMA /))))))
+# TopFString = (S(LK(VVIMP last))(MF(PPER vns)(NN guts))(VC(VVINF thun))(NF(APPR an)(PIAT je=derman)(KOMMA /)(ADV allermeist)(ADV aber)(APPR an)(ART des)(NN glaubens)(NN genossen))(KOMMA /))
+# text = last vns guts thun an je=derman / allermeist aber an des glaubens genossen /
+1	last	_	_	VVIMP	_	_	_	_	_	VP	last	_	VFIN	_	_	O	VVIMP	LI	MAINDECL-ELLI	B-LK	35,19; je-	_	_
+2	vns	_	_	PPER	_	_	_	_	_	VP	vns	_	VZ_RFL	_	B-NP-insitu	B-NP	PPER	_	MAINDECL-ELLI	B-MF	35,19; je-	_	_
+3	guts	_	_	NN	_	_	_	_	_	NA	guts	NF_	DO	_	B-NP-insitu	B-NP	NA	_	MAINDECL-ELLI	I-MF	35,19; je-	_	_
+4	thun	_	_	VVINF	_	_	_	_	_	VP	thun	NF_	INF	_	_	O	VVINF	RE	MAINDECL-ELLI	B-RK	35,19; je-	_	_
+5	an	_	_	APPR	_	_	_	_	_	PP	an	NF_	PP-OBJ	_	B-PP-extrap	B-PP	APPR	_	MAINDECL-ELLI	B-NF	35,19; je-	UNLINK1	_
+6	je=derman	_	_	PIAT	_	_	_	_	_	PP	jederman	NF_	PP-OBJ	NA	I-PP	I-PP	DI	_	MAINDECL-ELLI	I-NF	35,19; je-	UNLINK1	_
+7	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	I-PP	I-PP	_	_	MAINDECL-ELLI	I-NF	35,20; -derman	_	_
+8	allermeist	_	_	ADV	_	_	_	_	_	ADVP	allermeist	_	APPOS	_	I-PP	I-PP	ADV	_	MAINDECL-ELLI	I-NF	35,20; -derman	UNLINK2	_
+9	aber	_	_	ADV	_	_	_	_	_	_	aber	_	APPOS	_	I-PP	I-PP	KON	_	MAINDECL-ELLI	I-NF	35,20; -derman	UNLINK2	_
+10	an	_	_	APPR	_	_	_	_	_	PP	an	NF_	APPOS	_	I-PP	I-PP	APPR	_	MAINDECL-ELLI	I-NF	35,20; -derman	UNLINK2	_
+11	des	_	_	ART	_	_	_	_	_	PP	des	NF_	APPOS	_	I-PP	I-PP	DDA	_	MAINDECL-ELLI	I-NF	35,20; -derman	UNLINK2	_
+12	glaubens	_	_	NN	_	_	_	_	_	PP	glaubens	NF_	APPOS	NEW	I-PP	I-PP	NA	_	MAINDECL-ELLI	I-NF	35,20; -derman	UNLINK2	_
+13	genossen	_	_	NN	_	_	_	_	_	PP	genossen	NF_	APPOS	NEW	I-PP	I-PP	NA	_	MAINDECL-ELLI	I-NF	35,20; -derman	UNLINK2	_
+14	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	I-PP	_	_	MAINDECL-ELLI	O	35,20; -derman	_	_
+
+# sent_id = 4
+# PTBstring = (VROOT(S(AVP(ADV so))(VP(VMFIN will))(NP(PPER dich))(NP(ART der)(NN HErr)(NP(PPOSAT dein)(NN Gott)))(VP(VVINF sege=nen)(PP(APPR jnn)(ADJA allen)(NN wercken)(NP(PPOSAT deiner)(NN hende))))))
+# TopFString = (S(VF(ADV so))(LK(VMFIN will))(MF(PPER dich)(ART der)(NN HErr)(PPOSAT dein)(NN Gott))(VC(VVINF sege=nen))(NF(APPR jnn)(ADJA allen)(NN wercken)(PPOSAT deiner)(NN hende)))
+# text = so will dich der HErr dein Gott sege=nen jnn allen wercken deiner hende
+1	so	_	_	ADV	_	_	_	_	_	ADVP	so	_	ADVB	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	B-VF	37,14 sege-	_	_
+2	will	_	_	VMFIN	_	_	_	_	_	VP	will	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	B-LK	37,14 sege-	_	_
+3	dich	_	_	PPER	_	_	_	_	_	NP	dich	_	DO	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-MF	37,14 sege-	_	_
+4	der	_	_	ART	_	_	_	_	_	NP	der	_	SUBJ	_	B-NP-insitu	B-NP	DDA	_	MAINDECL	I-MF	37,14 sege-	_	_
+5	HErr	_	_	NN	_	_	_	_	_	NP	HErr	_	SUBJ	_	I-NP	I-NP	NA	_	MAINDECL	I-MF	37,14 sege-	_	_
+6	dein	_	_	PPOSAT	_	_	_	_	_	NP	dein	_	APPOS	_	I-NP	I-NP	DPOS	_	MAINDECL	I-MF	37,14 sege-	_	_
+7	Gott	_	_	NN	_	_	_	_	_	NP	Gott	_	APPOS	_	I-NP	I-NP	NA	_	MAINDECL	I-MF	37,14 sege-	_	_
+8	sege=nen	_	_	VVINF	_	_	_	_	_	VP	segenen	NF	INF	_	_	O	VVINF	RE	MAINDECL	B-RK	37,14 sege-	_	_
+9	jnn	_	_	APPR	_	_	_	_	_	PP	jnn	NF	PP-ADV	_	B-PP-extrap	B-PP	APPR	_	MAINDECL	B-NF	37,15-nen	UNLINK	_
+10	allen	_	_	ADJA	_	_	_	_	_	PP	allen	NF	PP-ADV	NEW_	I-PP	I-PP	ADJ	_	MAINDECL	I-NF	37,15-nen	UNLINK	_
+11	wercken	_	_	NN	_	_	_	_	_	PP	wercken	NF	PP-ADV	NEW_	I-PP	I-PP	NA	_	MAINDECL	I-NF	37,15-nen	UNLINK	_
+12	deiner	_	_	PPOSAT	_	_	_	_	_	PP	deiner	NF	ATTR	_ACC-INF_	I-PP	I-PP	DPOS	_	MAINDECL	I-NF	37,15-nen	UNLINK	_
+13	hende	_	_	NN	_	_	_	_	_	PP	hende	NF	ATTR	_NEW	I-PP	I-PP	NA	_	MAINDECL	I-NF	37,15-nen	UNLINK	_
+
+# sent_id = 5
+# PTBstring = (VROOT(S(KON Aber)(AVP(ADV also))(VP(VMFIN magest))(NP(PPER |u))(VP(PTKVZ aus)(VVINF lei=hen)(KOMMA /))(CNP(NN gelt)(KOMMA /)(NN korn)(KON odder)(NP(ADJA ander)(NN gut)(KOMMA /)))))
+# TopFString = (S(KOORD(KON Aber))(VF(ADV also))(LK(VMFIN magest))(MF(PPER |u))(VC(PTKVZ aus)(VVINF lei=hen))(KOMMA /)(NF(NN gelt)(KOMMA /)(NN korn)(KON odder)(ADJA ander)(NN gut))(KOMMA /))
+# text = Aber also magest |u aus lei=hen / gelt / korn odder ander gut /
+1	Aber	_	_	KON	_	_	_	_	_	_	Aber	_	_	_	_	O	KON	_	MAINDECL	B-KOORD	37,31; -dern lei-	_	_
+2	also	_	_	ADV	_	_	_	_	_	ADVP	also	_	ADVB	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	B-VF	37,31; -dern lei-	_	_
+3	magest	_	_	VMFIN	_	_	_	_	_	VP	magest	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	B-LK	37,31; -dern lei-	_	_
+4	|u	_	_	PPER	_	_	_	_	_	NP	du	_	SUBJ	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-MF	37,31; -dern lei-	_	_
+5	aus	_	_	PTKVZ	_	_	_	_	_	VP	aus	_	VZ_PTK	_	_	O	PTKVZ	_	MAINDECL	B-RK	37,31; -dern lei-	_	_
+6	lei=hen	_	_	VVINF	_	_	_	_	_	VP	leihen	_	INF	_	_	O	VVINF	RE	MAINDECL	I-RK	37,31; -dern lei-	_	_
+7	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	O	$_	_	MAINDECL	O	38,01; -hen	_	_
+8	gelt	_	_	NN	_	_	_	_	_	NP	gelt	NF	DO	NEW_	B-NP-extrap	B-NP	NA	_	MAINDECL	B-NF	38,01; -hen	UNLINK	_
+9	/	_	_	$,	_	_	_	_	_	NP	/	NF	DO	_	I-NP	I-NP	$_	_	MAINDECL	I-NF	38,01; -hen	UNLINK	_
+10	korn	_	_	NN	_	_	_	_	_	NP	korn	NF	DO	_GIV-INACTIVE_	I-NP	I-NP	NA	_	MAINDECL	I-NF	38,01; -hen	UNLINK	_
+11	odder	_	_	KON	_	_	_	_	_	NP	odder	NF	DO	_	I-NP	I-NP	KON	_	MAINDECL	I-NF	38,01; -hen	UNLINK	_
+12	ander	_	_	ADJA	_	_	_	_	_	NP	ander	NF	DO	_	I-NP	I-NP	ADJ	_	MAINDECL	I-NF	38,01; -hen	UNLINK	_
+13	gut	_	_	NN	_	_	_	_	_	NP	gut	NF	DO	_ACC-AGGR	I-NP	I-NP	NA	_	MAINDECL	I-NF	38,01; -hen	UNLINK	_
+14	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	I-NP	$_	_	MAINDECL	O	38,01; -hen	_	_
+
+# sent_id = 6
+# PTBstring = (VROOT(S(PWAV Dar=umb)(VP(VMFIN wilt))(NP(PPER |u))(CVP(VP(PTKVZ aus)(VVINF geben)(KOMMA /))(VP(PTKVZ aus)(VVINF leihen)(PP(APPR auff)(NN Borck))))))
+# TopFString = (S(VF(PWAV Dar=umb))(LK(VMFIN wilt))(FKOORD(FKONJ(MF(PPER |u))(VC(PTKVZ aus)(VVINF geben)))(KOMMA /)(VC(PTKVZ aus)))(VC(VVINF leihen))(NF(APPR auff)(NN Borck)))
+# text = Dar=umb wilt |u aus geben / aus leihen auff Borck
+1	Dar=umb	_	_	PWAV	_	_	_	_	_	ADVP	Darumb	_	ADVB	_	_	O	PWAV	_	MAINDECL	B-VF	38,09; Da-	_	_
+2	wilt	_	_	VMFIN	_	_	_	_	_	VP	wilt	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	B-LK	38,10; -umb	_	_
+3	|u	_	_	PPER	_	_	_	_	_	VP	du	_	VFIN	_	B-NP-insitu	B-NP	PPER	LI	MAINDECL	B-MF	38,10; -umb	_	_
+4	aus	_	_	PTKVZ	_	_	_	_	_	VP	aus	_	VZ_PTK	_	_	O	PTKVZ	_	MAINDECL	B-RK	38,10; -umb	_	_
+5	geben	_	_	VVINF	_	_	_	_	_	VP	geben	_	INF	_	_	O	VVINF	_	MAINDECL	I-RK	38,10; -umb	_	_
+6	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	O	_	_	MAINDECL	O	38,10; -umb	_	_
+7	aus	_	_	PTKVZ	_	_	_	_	_	VP	aus	NF	VZ_PTK	_	_	O	PTKVZ	_	MAINDECL	B-RK	38,10; -umb	_	_
+8	leihen	_	_	VVINF	_	_	_	_	_	VP	leihen	NF	INF	_	_	O	VVINF	RE	MAINDECL	B-RK	38,10; -umb	_	_
+9	auff	_	_	APPR	_	_	_	_	_	PP	auff	NF	PP-ADV	_	B-PP-extrap	B-PP	APPR	_	MAINDECL	B-NF	38,10; -umb	UNLINK	_
+10	Borck	_	_	NN	_	_	_	_	_	PP	Borck	NF	PP-ADV	ACC-ABSTR-USED-X	I-PP	I-PP	NA	_	MAINDECL	I-NF	38,10; -umb	UNLINK	_
+
+# sent_id = 7
+# PTBstring = (VROOT(S(NP(PPER Sie))(VP(VMFIN sollen))(VP(ADJD gastfrey)(VVINF sein)(KOMMA /))(CAP(ADJD mild)(KON vnd)(AP(ADJD troͤstlich)(NP(ART den)(NN armen)(KOMMA /))))))
+# TopFString = (S(VF(PPER Sie))(LK(VMFIN sollen))(MF(ADJD gastfrey))(VC(VVINF sein))(KOMMA /)(NF(ADJD mild)(KON vnd)(ADJD troͤstlich)(ART den)(NN armen))(KOMMA /))
+# text = Sie sollen gastfrey sein / mild vnd troͤstlich den armen /
+1	Sie	_	_	PPER	_	_	_	_	_	NP	Sie	_	SUBJ	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-VF	39,06	_	_
+2	sollen	_	_	VMFIN	_	_	_	_	_	VP	sollen	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	B-LK	39,07	_	_
+3	gastfrey	_	_	ADJD	_	_	_	_	_	AP	gastfrey	NF_	PRD	_	B-AP-insitu	B-AP	ADJD	_	MAINDECL	B-MF	39,07	_	_
+4	sein	_	_	VVINF	_	_	_	_	_	VP	sein	NF_	INF	_	_	O	VVINF	RE	MAINDECL	B-RK	39,07	_	_
+5	/	_	_	$,	_	_	_	_	_	_	/	NF_	_	_	_	O	_	_	MAINDECL	O	39,07	_	_
+6	mild	_	_	ADJD	_	_	_	_	_	AP	mild	NF_	PRD	NA	B-AP-extrap	B-AP	ADJD	_	MAINDECL	B-NF	39,07	LINK_SYM	_
+7	vnd	_	_	KON	_	_	_	_	_	_	vnd	NF_	_	NA	I-AP	I-AP	KON	_	MAINDECL	I-NF	39,07	LINK_SYM	_
+8	troͤstlich	_	_	ADJD	_	_	_	_	_	AP	troͤstlich	NF_	PRD	NA	I-AP	I-AP	ADJD	_	MAINDECL	I-NF	39,07	LINK_SYM	_
+9	den	_	_	ART	_	_	_	_	_	NP	den	NF_	IO-DAT	_	I-AP	I-AP	DDA	_	MAINDECL	I-NF	39,07	UNLINK	_
+10	armen	_	_	NN	_	_	_	_	_	NP	armen	NF_	IO-DAT	NEW	I-AP	I-AP	NA	_	MAINDECL	I-NF	39,07	UNLINK	_
+11	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	I-AP	$_	_	MAINDECL	O	39,07	_	_
+
+# sent_id = 8
+# PTBstring = (VROOT(S(AVP(ADV so))(VP(VMFIN muͤssen))(NP(PPER sie))(VP(ADV auch)(ADV zimlich)(VVPP versor=get)(VP(VVINF sein)(KOMMA /)(PP(APPR mit)(CNP(NN gelt)(KON vnd)(NN gut)(KOMMA /)))))))
+# TopFString = (S(VF(ADV so))(LK(VMFIN muͤssen))(MF(PPER sie)(ADV auch)(ADV zimlich))(VC(VVPP versor=get)(VVINF sein))(KOMMA /)(NF(APPR mit)(NN gelt)(KON vnd)(NN gut))(KOMMA /))
+# text = so muͤssen sie auch zimlich versor=get sein / mit gelt vnd gut /
+1	so	_	_	ADV	_	_	_	_	_	ADVP	so	_	ADVB	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	B-VF	39,15 versor-	_	_
+2	muͤssen	_	_	VMFIN	_	_	_	_	_	VP	muͤssen	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	B-LK	39,15 versor-	_	_
+3	sie	_	_	PPER	_	_	_	_	_	NP	sie	_	SUBJ	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-MF	39,15 versor-	_	_
+4	auch	_	_	ADV	_	_	_	_	_	ADVP	auch	_	ADVB	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	I-MF	39,15 versor-	_	_
+5	zimlich	_	_	ADV	_	_	_	_	_	ADVP	zimlich	_	ADVB	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	I-MF	39,15 versor-	_	_
+6	versor=get	_	_	VVPP	_	_	_	_	_	VP	versorget	_	INF	_	_	O	VVPP	_	MAINDECL	B-RK	39,15 versor-	_	_
+7	sein	_	_	VVINF	_	_	_	_	_	VP	sein	_	INF	_	_	O	VVINF	RE	MAINDECL	I-RK	39,16-get	_	_
+8	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	O	$_	_	MAINDECL	O	39,16-get	_	_
+9	mit	_	_	APPR	_	_	_	_	_	PP	mit	BGR	PP-OBJ	_	B-PP-extrap	B-PP	APPR	_	MAINDECL	B-NF	39,16-get	UNLINK	_
+10	gelt	_	_	NN	_	_	_	_	_	PP	gelt	BGR	PP-OBJ	GIV-ACTIVE	I-PP	I-PP	NA	_	MAINDECL	I-NF	39,16-get	UNLINK	KOREF1
+11	vnd	_	_	KON	_	_	_	_	_	PP	vnd	BGR	PP-OBJ	_	I-PP	I-PP	KON	_	MAINDECL	I-NF	39,16-get	UNLINK	KOREF1
+12	gut	_	_	NN	_	_	_	_	_	PP	gut	BGR	PP-OBJ	ACC-AGGR	I-PP	I-PP	NA	_	MAINDECL	I-NF	39,16-get	UNLINK	KOREF1
+13	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	I-PP	$_	_	MAINDECL	O	39,16-get	_	_
+
+# sent_id = 9
+# PTBstring = (VROOT(S(KON vnd)(VP(VAFIN hat))(AVP(PTKNEG nicht))(VP(VVPP geho=ffet))(PP(APPR auff)(PPOSAT sein)(NN gelt))(PUNKT .)))
+# TopFString = (S(KOORD(KON vnd))(LK(VAFIN hat))(MF(PTKNEG nicht))(VC(VVPP geho=ffet))(NF(APPR auff)(PPOSAT sein)(NN gelt))(PUNKT .))
+# text = vnd hat nicht geho=ffet auff sein gelt.
+1	vnd	_	_	KON	_	_	_	_	_	_	vnd	_	_	_	_	O	KON	_	MAINDECL-ELLI	B-KOORD	40,24; geho-	_	_
+2	hat	_	_	VAFIN	_	_	_	_	_	VP	hat	_	VFIN	_	_	O	VAFIN	LI	MAINDECL-ELLI	B-LK	40,24; geho-	_	_
+3	nicht	_	_	PTKNEG	_	_	_	_	_	_	nicht	_	_	_	B-ADVP-insitu	B-ADVP	PTKNEG	_	MAINDECL-ELLI	B-MF	40,24; geho-	_	_
+4	geho=ffet	_	_	VVPP	_	_	_	_	_	VP	gehoffet	_	INF	_	_	O	VVPP	RE	MAINDECL-ELLI	B-RK	40,24; geho-	_	_
+5	auff	_	_	APPR	_	_	_	_	_	PP	auff	NF	PP-ADV	_	B-PP-extrap	B-PP	APPR	_	MAINDECL-ELLI	B-NF	40,25; -ffet	UNLINK	_
+6	sein	_	_	PPOSAT	_	_	_	_	_	PP	sein	NF	PP-ADV	ACC-INF_	I-PP	I-PP	DPOS	_	MAINDECL-ELLI	I-NF	40,25; -ffet	UNLINK	_
+7	gelt	_	_	NN	_	_	_	_	_	PP	gelt	NF	PP-ADV	_GIV-INACTIVE	I-PP	I-PP	NA	_	MAINDECL-ELLI	I-NF	40,25; -ffet	UNLINK	_
+8	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	_	O	$_	_	MAINDECL-ELLI	O	40,25; -ffet	_	_
+
+# sent_id = 10
+# PTBstring = (VROOT(S(AVP(ADV so))(VP(VMFIN mus))(NP(PIS man))(CVP(VP(PPER |s)(ADV auch)(VVINF haben)(KOMMA /))(KON vnd)(VP(ADV also)(PTKVZ jnn)(VVINF halten)(PP(APPR fur)(PPOSAT vnser)(ADJA eigen)(NN gut)(KOMMA /))))))
+# TopFString = (S(VF(ADV so))(LK(VMFIN mus))(MF(PIS man)(PPER |s)(ADV auch))(VC(VVINF haben))(KOMMA /)(NF(KON vnd)(ADV also)(VC(PTKVZ jnn)(VVINF halten))(NF(APPR fur)(PPOSAT vnser)(ADJA eigen)(NN gut)))(KOMMA /))
+# text = so mus man |s auch haben / vnd also jnn halten fur vnser eigen gut /
+1	so	_	_	ADV	_	_	_	_	_	ADVP	so	_	ADVB	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	B-VF	41,14	_	_
+2	mus	_	_	VMFIN	_	_	_	_	_	VP	mus	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	B-LK	41,14	_	_
+3	man	_	_	PIS	_	_	_	_	_	NP	man	_	SUBJ	_	B-NP-insitu	B-NP	PI	_	MAINDECL	B-MF	41,14	_	_
+4	|s	_	_	PPER	_	_	_	_	_	NP	es	_	DO	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	I-MF	41,14	_	_
+5	auch	_	_	ADV	_	_	_	_	_	_	auch	_	_	_	B-ADVP-insitu	B-ADVP	KON	_	MAINDECL	I-MF	41,14	_	_
+6	haben	_	_	VVINF	_	_	_	_	_	VP	haben	_	INF	_	_	O	VVINF	_	MAINDECL	B-RK	41,14	_	_
+7	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	O	$_	_	MAINDECL	O	41,14	_	_
+8	vnd	_	_	KON	_	_	_	_	_	_	vnd	_	_	_	_	O	KON	_	MAINDECL	B-NF	41,14	_	_
+9	also	_	_	ADV	_	_	_	_	_	ADVP	also	_	ADVB	_	B-ADVP-extrap	B-ADVP	ADV	_	MAINDECL	I-NF	41,14	_	_
+10	jnn	_	_	PTKVZ	_	_	_	_	_	VP	jnn	_	VZ_PTK	_	_	O	PTKVZ	_	MAINDECL	I-NF|B-RK	41,14	_	_
+11	halten	_	_	VVINF	_	_	_	_	_	VP	halten	NF	INF	_	_	O	VVINF	RE	MAINDECL	I-NF|I-RK	41,14	_	_
+12	fur	_	_	APPR	_	_	_	_	_	PP	fur	NF	PP-OBJ	_	B-PP-extrap	B-PP	APPR	_	MAINDECL	I-NF|B-NF	41,15	UNLINK	_
+13	vnser	_	_	PPOSAT	_	_	_	_	_	PP	vnser	NF	PP-OBJ	ACC-INF_	I-PP	I-PP	DPOS	_	MAINDECL	I-NF|I-NF	41,15	UNLINK	_
+14	eigen	_	_	ADJA	_	_	_	_	_	PP	eigen	NF	PP-OBJ	_GIV-INACTIVE	I-PP	I-PP	ADJ	_	MAINDECL	I-NF|I-NF	41,15	UNLINK	_
+15	gut	_	_	NN	_	_	_	_	_	PP	gut	NF	PP-OBJ	_GIV-INACTIVE	I-PP	I-PP	NA	_	MAINDECL	I-NF|I-NF	41,15	UNLINK	_
+16	/	_	_	$,	_	_	_	_	_	PP	/	_	_	_	_	I-PP	$_	_	MAINDECL	O	41,15	_	_
+
+# sent_id = 11
+# PTBstring = (VROOT(S(AVP(ADV Da))(VP(VAFIN wird))(AVP(ADV aber))(VP(VVPP auffgeloͤset))(NP(ART die)(NN antwort)(PP(ADV oben)(APPR jnn)(NP(ART der)(ADJA dritte))(NN frage)(KOMMA /)))))
+# TopFString = (S(VF(ADV Da))(LK(VAFIN wird))(MF(ADV aber))(VC(VVPP auffgeloͤset))(NF(ART die)(NN antwort)(ADV oben)(APPR jnn)(ART der)(ADJA dritte)(NN frage))(KOMMA /))
+# text = Da wird aber auffgeloͤset die antwort oben jnn der dritte frage /
+1	Da	_	_	ADV	_	_	_	_	_	ADVP	Da	_	ADVB	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	B-VF	41,26	_	_
+2	wird	_	_	VAFIN	_	_	_	_	_	VP	wird	_	VFIN	_	_	O	VAFIN	LI	MAINDECL	B-LK	41,26	_	_
+3	aber	_	_	ADV	_	_	_	_	_	ADVP	aber	_	ADVB	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	B-MF	41,26	_	_
+4	auffgeloͤset	_	_	VVPP	_	_	_	_	_	VP	auffgeloͤset	_	INF	_	_	O	VVPP	RE	MAINDECL	B-RK	41,26	_	_
+5	die	_	_	ART	_	_	_	_	_	NP	die	BGR	DO	_	B-NP-extrap	B-NP	DDA	_	MAINDECL	B-NF	41,26	UNLINK	_
+6	antwort	_	_	NN	_	_	_	_	_	NP	antwort	BGR	DO	ACC-ABSTR-USED-X	I-NP	I-NP	NA	_	MAINDECL	I-NF	41,26	UNLINK	_
+7	oben	_	_	ADV	_	_	_	_	_	ADVP	oben	BGR	ATTR	_	I-NP	I-NP	ADV	_	MAINDECL	I-NF	41,26	UNLINK	_
+8	jnn	_	_	APPR	_	_	_	_	_	PP	jnn	BGR	ATTR	_	I-NP	I-NP	APPR	_	MAINDECL	I-NF	41,26	UNLINK	_
+9	der	_	_	ART	_	_	_	_	_	PP	der	BGR	ATTR	_	I-NP	I-NP	DDA	_	MAINDECL	I-NF	41,26	UNLINK	_
+10	dritte	_	_	ADJA	_	_	_	_	_	PP	dritte	BGR	ATTR	ACC-ABSTR-USED-X	I-NP	I-NP	ADJO	_	MAINDECL	I-NF	41,26	UNLINK	_
+11	frage	_	_	NN	_	_	_	_	_	PP	frage	BGR	ATTR	ACC-ABSTR-USED-X	I-NP	I-NP	NA	_	MAINDECL	I-NF	41,26	UNLINK	_
+12	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	I-NP	$_	_	MAINDECL	O	41,26	_	_
+
+# sent_id = 12
+# PTBstring = (VROOT(S(NP(PIS man))(VP(VMFIN sol))(VP(VVINF anhalten)(NP(PDAT solche)(ADJA vnoͤr=denliche)(NN leute)))))
+# TopFString = (S(VF(PIS man))(LK(VMFIN sol))(VC(VVINF anhalten))(NF(PDAT solche)(ADJA vnoͤr=denliche)(NN leute)))
+# text = man sol anhalten solche vnoͤr=denliche leute
+1	man	_	_	PIS	_	_	_	_	_	NP	man	_	SUBJ	_	B-NP-insitu	B-NP	PI	_	MAINDECL	B-VF	41,30; vnoͤr-	_	_
+2	sol	_	_	VMFIN	_	_	_	_	_	VP	sol	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	B-LK	41,30; vnoͤr-	_	_
+3	anhalten	_	_	VVINF	_	_	_	_	_	VP	anhalten	_	INF	_	_	O	VVINF	RE	MAINDECL	B-RK	41,30; vnoͤr-	_	_
+4	solche	_	_	PDAT	_	_	_	_	_	NP	solche	BGR	DO	ACC-AGGR	B-NP-extrap	B-NP	DD	_	MAINDECL	B-NF	41,30; vnoͤr-	UNLINK	_
+5	vnoͤr=denliche	_	_	ADJA	_	_	_	_	_	NP	vnoͤrdenliche	BGR	DO	ACC-AGGR	I-NP	I-NP	ADJ	_	MAINDECL	I-NF	41,30; vnoͤr-	UNLINK	_
+6	leute	_	_	NN	_	_	_	_	_	NP	leute	BGR	DO	ACC-AGGR	I-NP	I-NP	NA	_	MAINDECL	I-NF	41,31; -denliche	UNLINK	KOREF1
+
+# sent_id = 13
+# PTBstring = (VROOT(S(KON vnd)(VP(PPER jn)(PIS nichts)(VZ(PTKZU zu)(VVINF essen)))(VP(VVFIN geben))(PP(APPR on)(CNP(NN dienst)(KON vnd)(NN arbeit)(KOMMA /)))))
+# TopFString = (S(KOORD(KON vnd))(VF(MF(PPER jn)(PIS nichts))(VC(PTKZU zu)(VVINF essen)))(LK(VVFIN geben))(MF(APPR on)(NN dienst)(KON vnd)(NN arbeit))(KOMMA /))
+# text = vnd jn nichts zu essen geben on dienst vnd arbeit /
+1	vnd	_	_	KON	_	_	_	_	_	_	vnd	_	_	_	_	O	KON	_	MAINDECL-ELLI	B-KOORD	41,31; -denliche	_	_
+2	jn	_	_	PPER	_	_	_	_	_	NP	jn	_	IO-DAT	_	B-NP-insitu	B-NP	PPER	_	MAINDECL-ELLI	B-VF|B-MF	41,31; -denliche	_	KOREF2
+3	nichts	_	_	PIS	_	_	_	_	_	_	nichts	_	DO	_	B-NP-insitu	B-NP	PINEG	_	MAINDECL-ELLI	I-VF|I-MF	41,31; -denliche	_	_
+4	zu	_	_	PTKZU	_	_	_	_	_	VP	zu	_	ATTR	_	_	O	PTKZU	_	MAINDECL-ELLI	I-VF|B-RK	41,31; -denliche	_	_
+5	essen	_	_	VVINF	_	_	_	_	_	VP	essen	_	ATTR	_	_	O	VVINF	_	MAINDECL-ELLI	I-VF|I-RK	41,31; -denliche	_	_
+6	geben	_	_	VVFIN	_	_	_	_	_	VP	geben	_	INF	_	_	O	VVFIN	RE	MAINDECL-ELLI	B-LK	42,01	_	_
+7	on	_	_	APPR	_	_	_	_	_	PP	on	NF	PRD	NA	B-PP-insitu	B-PP	APPR	_	MAINDECL-ELLI	B-MF	42,01	UNLINK	_
+8	dienst	_	_	NN	_	_	_	_	_	PP	dienst	NF	PRD	NA	I-PP	I-PP	NA	_	MAINDECL-ELLI	I-MF	42,01	UNLINK	_
+9	vnd	_	_	KON	_	_	_	_	_	PP	vnd	NF	PRD	NA	I-PP	I-PP	KON	_	MAINDECL-ELLI	I-MF	42,01	UNLINK	_
+10	arbeit	_	_	NN	_	_	_	_	_	PP	arbeit	NF	PRD	NA	I-PP	I-PP	NA	_	MAINDECL-ELLI	I-MF	42,01	UNLINK	_
+11	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	I-PP	$_	_	MAINDECL-ELLI	O	42,01	_	_

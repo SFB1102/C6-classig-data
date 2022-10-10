@@ -1,0 +1,2529 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC SentBrckt
+# sent_id = 1
+# sent_id(TSV) = 1
+# TopFString = (S(VF(PPER Du))(LK(VMFIN willst))(MF(PIS alles))(VC(VVINF wissen))(PUNKT .))
+# text = Du willst alles wissen .
+1	Du	du	_	PPER	number=sg|person=2|case=nom|gender=*	4	subj	_	_	O
+2	willst	wollen	_	VMFIN	number=sg|person=2|mood=ind|tense=pres	4	aux	_	_	B-LK
+3	alles	alle	_	PIS	number=sg|case=acc|gender=neut	4	obj	_	_	O
+4	wissen	wissen	_	VVINF	_	_	_	_	_	B-RK
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# TopFString = (S(VF(PPER Es))(LK(VAFIN ist))(MF(PPOSAT mein)(NN Töff))(KOMMA ,)(KON oder)(PUNKT !))
+# text = Es ist mein Töff , oder !
+1	Es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	2	pred	_	_	O
+2	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+3	mein	mein	_	PPOSAT	number=sg|case=nom|gender=masc	_	_	_	_	O
+4	Töff	Töff	_	NN	number=sg|case=nom|gender=masc	2	subj	_	_	O
+5	,	,	_	$,	_	_	_	_	_	O
+6	oder	oder	_	KON	_	_	_	_	_	O
+7	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# TopFString = (S(VF(ADJD Gut)(KOMMA ,)(ADV also)(ART das)(NN Benzin))(LK(VVFIN geht))(MF(ADV hier))(VC(PTKVZ durch))(KOMMA ,)(ADV da)(VC(PTKVZ hinein))(PUNKT .))
+# text = Gut , also das Benzin geht hier durch , da hinein .
+1	Gut	gut	_	ADJD	degree=pos	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	also	also	_	ADV	_	_	_	_	_	O
+4	das	der	_	ART	number=sg|case=nom|gender=neut	_	_	_	_	O
+5	Benzin	Benzin	_	NN	number=sg|case=nom|gender=neut	6	subj	_	_	O
+6	geht	gehen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+7	hier	hier	_	ADV	_	_	_	_	_	O
+8	durch	durch	_	PTKVZ	_	_	_	_	_	B-RK
+9	,	,	_	$,	_	_	_	_	_	O
+10	da	da	_	ADV	_	_	_	_	_	O
+11	hinein	hinein	_	PTKVZ	_	_	_	_	_	B-RK
+12	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# TopFString = (S(VF(ADV Da)(PAV drin))(LK(VAFIN ist))(MF(PPER es)(ADV sehr)(ADJD heiss))(PUNKT .))
+# text = Da drin ist es sehr heiss .
+1	Da	da	_	ADV	_	_	_	_	_	O
+2	drin	drin	_	PAV	_	_	_	_	_	O
+3	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+4	es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	3	subj	_	_	O
+5	sehr	sehr	_	ADV	_	_	_	_	_	O
+6	heiss	heiß	_	ADJD	degree=pos	3	pred	_	_	O
+7	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# TopFString = (S(VF(ADV Dann)(ART die)(NN Kerze))(LK(VVFIN maken))(MF(ART ein))(PUNKT ...))
+# text = Dann die Kerze maken ein ...
+1	Dann	dann	_	ADV	_	_	_	_	_	O
+2	die	der	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	O
+3	Kerze	Kerze	_	NN	number=sg|case=acc|gender=fem	4	subj	_	_	O
+4	maken	machen	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+5	ein	ein	_	ART	number=sg|case=acc|gender=masc	4	obj	_	_	O
+6	...	...	_	$.	_	_	_	_	_	O
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# TopFString = (S(PTKANT Ja)(KOMMA ,)(KOKOM wie)(ART ein)(NN Messer)(APPR auf)(ART dem)(NN Schleifstein)(PUNKT .))
+# text = Ja , wie ein Messer auf dem Schleifstein .
+1	Ja	ja	_	PTKANT	_	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	wie	wie	_	KOKOM	_	_	_	_	_	O
+4	ein	ein	_	ART	number=sg|case=nom|gender=neut	_	_	_	_	O
+5	Messer	Messer	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	O
+6	auf	auf	_	APPR	_	_	_	_	_	O
+7	dem	der	_	ART	number=sg|case=dat|gender=masc	_	_	_	_	O
+8	Schleifstein	Schleifstein	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	O
+9	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# TopFString = (S(KOKOM Wie)(ART ein)(NN Feuerzeug)(PUNKT .))
+# text = Wie ein Feuerzeug .
+1	Wie	wie	_	KOKOM	_	_	_	_	_	O
+2	ein	ein	_	ART	number=sg|case=nom|gender=neut	_	_	_	_	O
+3	Feuerzeug	Feuerzeug	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	O
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# TopFString = (S(ART Ein)(NN Funke)(PUNKT .))
+# text = Ein Funke .
+1	Ein	ein	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	O
+2	Funke	Funke	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	O
+3	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# TopFString = (S(NN Funke)(KLAMMER ...)(ADJD gut)(PUNKT .))
+# text = Funke ... gut .
+1	Funke	Funke	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	O
+2	...	...	_	$(	_	_	_	_	_	O
+3	gut	gut	_	ADJD	degree=pos	_	_	_	_	O
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# TopFString = (S(VF(ADV Also)(ART die)(NN Kerze))(LK(VVFIN machen))(MF(ART ein)(NN Funke))(KON und)(VF(ITJ päng))(LK(VVFIN bringt))(MF(ART das)(NN Benzin)(APPRART zum)(NN Explodiern)))
+# text = Also die Kerze machen ein Funke und päng bringt das Benzin zum Explodiern
+1	Also	also	_	ADV	_	_	_	_	_	O
+2	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	O
+3	Kerze	Kerze	_	NN	number=sg|case=nom|gender=fem	4	subj	_	_	O
+4	machen	machen	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+5	ein	ein	_	ART	number=sg|case=acc|gender=masc	_	_	_	_	O
+6	Funke	Funke	_	NN	number=sg|case=acc|gender=masc	4	obj	_	_	O
+7	und	und	_	KON	_	_	_	_	_	O
+8	päng	päng	_	ITJ	_	_	_	_	_	O
+9	bringt	bringen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+10	das	der	_	ART	number=sg|case=acc|gender=neut	_	_	_	_	O
+11	Benzin	Benzin	_	NN	number=sg|case=acc|gender=neut	9	obj	_	_	O
+12	zum	zu	_	APPRART	case=dat|gender=neut	_	_	_	_	O
+13	Explodiern	Explodieren	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	O
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# TopFString = (S(VF(NE Anateo))(LK(VAFIN hat))(MF(PPER uns)(PIS alle))(VC(VVPP verraten))(KON und)(VF(PPER er))(LK(VAFIN wird))(MF(PAV dafür))(VC(VVINF bezahlen))(PUNKT .))
+# text = Anateo hat uns alle verraten und er wird dafür bezahlen .
+1	Anateo	Anateo	_	NE	number=sg|case=nom|gender=masc	5	subj	_	_	O
+2	hat	haben	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	5	aux	_	_	B-LK
+3	uns	wir	_	PPER	number=pl|person=1|case=acc|gender=*	5	obj	_	_	O
+4	alle	alle	_	PIS	number=pl|case=acc|gender=*	_	_	_	_	O
+5	verraten	verraten	_	VVPP	_	_	_	_	_	B-RK
+6	und	und	_	KON	_	_	_	_	_	O
+7	er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	10	subj	_	_	O
+8	wird	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	10	aux	_	_	B-LK
+9	dafür	dafür	_	PAV	_	10	pobj	_	_	O
+10	bezahlen	bezahlen	_	VVINF	_	_	_	_	_	B-RK
+11	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# TopFString = (S(KON Und)(APPR wegen)(ART der)(NE Tau'ri)(KLAMMER ...)(VF(PPER sie))(LK(VVFIN befanden))(MF(PRF sich)(ADV schon)(APPRART im)(NN Krieg)(APPR gegen)(PPER uns)(KON und)(PPER wir)(APPR gegen)(PPER sie))(PUNKT ...)(KON und)(VF(PPER ich))(LK(VAFIN werde))(MF(PRF mich)(PTKNEG nicht)(ADJD ängstlich))(VC(VVINF verkriechen))(PUNKT .))
+# text = Und wegen der Tau'ri ... sie befanden sich schon im Krieg gegen uns und wir gegen sie ... und ich werde mich nicht ängstlich verkriechen .
+1	Und	und	_	KON	_	_	_	_	_	O
+2	wegen	wegen	_	APPR	_	_	_	_	_	O
+3	der	der	_	ART	number=pl|case=gen|gender=*	_	_	_	_	O
+4	Tau'ri	Tau'ri	_	NE	number=pl|case=gen|gender=*	_	_	_	_	O
+5	...	...	_	$(	_	_	_	_	_	O
+6	sie	sie	_	PPER	number=pl|person=3|case=nom|gender=*	7	subj	_	_	O
+7	befanden	befinden	_	VVFIN	number=pl|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+8	sich	sich	_	PRF	number=pl|person=3|case=nom	7	obj	_	_	O
+9	schon	schon	_	ADV	_	_	_	_	_	O
+10	im	in	_	APPRART	case=dat|gender=masc	_	_	_	_	O
+11	Krieg	Krieg	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	O
+12	gegen	gegen	_	APPR	_	_	_	_	_	O
+13	uns	wir	_	PPER	number=pl|person=1|case=acc|gender=*	_	_	_	_	O
+14	und	und	_	KON	_	_	_	_	_	O
+15	wir	wir	_	PPER	number=pl|person=1|case=nom|gender=*	_	_	_	_	O
+16	gegen	gegen	_	APPR	_	_	_	_	_	O
+17	sie	sie	_	PPER	number=pl|person=3|case=acc|gender=*	_	_	_	_	O
+18	...	...	_	$.	_	_	_	_	_	O
+19	und	und	_	KON	_	_	_	_	_	O
+20	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	25	subj	_	_	O
+21	werde	werden	_	VAFIN	number=sg|person=1|mood=ind|tense=pres	25	aux	_	_	B-LK
+22	mich	ich	_	PRF	number=sg|person=1|case=nom	25	obj	_	_	O
+23	nicht	nicht	_	PTKNEG	_	_	_	_	_	O
+24	ängstlich	ängstlich	_	ADJD	degree=pos	_	_	_	_	O
+25	verkriechen	verkriechen	_	VVINF	_	_	_	_	_	B-RK
+26	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# TopFString = (S(LK(VVIMP Sagt))(MF(PDS das))(VC(PTKVZ weiter))(PUNKT .))
+# text = Sagt das weiter .
+1	Sagt	sagen	_	VVIMP	number=pl	_	_	_	_	B-LK
+2	das	der	_	PDS	number=sg|case=acc|gender=neut	1	obj	_	_	O
+3	weiter	weiter	_	PTKVZ	_	_	_	_	_	B-RK
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# TopFString = (S(LK(VVIMP Schickt))(MF(PIAT alle)(ADJA verfügbaren)(NN Schiffe))(PUNKT .))
+# text = Schickt alle verfügbaren Schiffe .
+1	Schickt	schicken	_	VVIMP	number=pl	_	_	_	_	B-LK
+2	alle	aller	_	PIAT	number=pl|case=acc|gender=neut	_	_	_	_	O
+3	verfügbaren	verfügbar	_	ADJA	number=pl|degree=pos|case=acc|gender=neut	_	_	_	_	O
+4	Schiffe	Schiff	_	NN	number=pl|case=acc|gender=neut	1	obj	_	_	O
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# TopFString = (S(VF(PPER Ich))(LK(VMFIN will))(KOMMA ,)(NF(C(KOUS dass))(MF(ART die)(NE 0dyssey))(VC(VVPP gefunden)(VAFIN wird)))(PUNKT .))
+# text = Ich will , dass die 0dyssey gefunden wird .
+1	Ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	2	subj	_	_	O
+2	will	wollen	_	VMFIN	number=sg|person=1|mood=ind|tense=pres	_	_	_	_	B-LK
+3	,	,	_	$,	_	_	_	_	_	O
+4	dass	dass	_	KOUS	_	_	_	_	_	B-LK
+5	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	O
+6	0dyssey	Odyssey	_	NE	number=sg|case=nom|gender=fem	7	subj	_	_	O
+7	gefunden	finden	_	VVPP	_	2	vobj	_	_	B-RK
+8	wird	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	7	aux	_	_	I-RK
+9	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# TopFString = (S(VF(ADV Sofort))(MF(PUNKT !)))
+# text = Sofort !
+1	Sofort	sofort	_	ADV	_	_	_	_	_	O
+2	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# TopFString = (S(VF(NE Kefflin))(MF(PUNKT .)))
+# text = Kefflin .
+1	Kefflin	Kefflin	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	O
+2	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# TopFString = (S(LK(VAFIN War))(MF(PPER es)(ADV wirklich)(ADJD nötig))(KOMMA ,)(NF(MF(PPER mich)(ADV so))(VC(PTKZU zu)(VVINF blamieren)))(PUNKT ?))
+# text = War es wirklich nötig , mich so zu blamieren ?
+1	War	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+2	es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	1	expl	_	_	O
+3	wirklich	wirklich	_	ADV	_	_	_	_	_	O
+4	nötig	nötig	_	ADJD	degree=pos	1	pred	_	_	O
+5	,	,	_	$,	_	_	_	_	_	O
+6	mich	ich	_	PPER	number=sg|person=1|case=acc|gender=*	9	obj	_	_	O
+7	so	so	_	ADV	_	_	_	_	_	O
+8	zu	zu	_	PTKZU	_	_	_	_	_	B-RK
+9	blamieren	blamieren	_	VVINF	_	1	vsubj	_	_	I-RK
+10	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 19
+# sent_id(TSV) = 19
+# TopFString = (S(VF(PPER Es))(LK(VVFIN gab))(MF(NN Gerüchte)(APPR wegen)(ART der)(NN Stärke)(PPOSAT deiner)(NN Führung))(PUNKT .))
+# text = Es gab Gerüchte wegen der Stärke deiner Führung .
+1	Es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	2	expl	_	_	O
+2	gab	geben	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+3	Gerüchte	Gerücht	_	NN	number=pl|case=acc|gender=neut	2	obj	_	_	O
+4	wegen	wegen	_	APPR	_	_	_	_	_	O
+5	der	der	_	ART	number=sg|case=gen|gender=fem	_	_	_	_	O
+6	Stärke	Stärke	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	O
+7	deiner	dein	_	PPOSAT	number=sg|case=gen|gender=fem	_	_	_	_	O
+8	Führung	Führung	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	O
+9	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 20
+# sent_id(TSV) = 20
+# TopFString = (S(VF(ADV Jetzt))(LK(VAFIN werden))(MF(PDAT diese)(NN Gerüchte))(VC(VVINF aufhören))(PUNKT .))
+# text = Jetzt werden diese Gerüchte aufhören .
+1	Jetzt	jetzt	_	ADV	_	_	_	_	_	O
+2	werden	werden	_	VAFIN	number=pl|person=3|mood=ind|tense=pres	5	aux	_	_	B-LK
+3	diese	dieser	_	PDAT	number=pl|case=nom|gender=neut	_	_	_	_	O
+4	Gerüchte	Gerücht	_	NN	number=pl|case=nom|gender=neut	5	subj	_	_	O
+5	aufhören	aufhören	_	VVINF	_	_	_	_	_	B-RK
+6	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 21
+# sent_id(TSV) = 21
+# TopFString = (S(LK(KON Und))(MF(PUNKT ?)))
+# text = Und ?
+1	Und	und	_	KON	_	_	_	_	_	B-LK
+2	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 22
+# sent_id(TSV) = 22
+# TopFString = (S(VF(LK(VAFIN Wirst))(MF(PPER du)(PPER es)(ADV so))(VC(VVINF lassen)))(KON oder)(LK(VAFIN wirst))(MF(PPER du)(PDS das)(APPR in)(NN Ordnung))(VC(VVINF bringen))(PUNKT ?))
+# text = Wirst du es so lassen oder wirst du das in Ordnung bringen ?
+1	Wirst	werden	_	VAFIN	number=sg|person=2|mood=ind|tense=pres	5	aux	_	_	B-LK
+2	du	du	_	PPER	number=sg|person=2|case=nom|gender=*	5	subj	_	_	O
+3	es	es	_	PPER	number=sg|person=3|case=acc|gender=neut	5	obj	_	_	O
+4	so	so	_	ADV	_	_	_	_	_	O
+5	lassen	lassen	_	VVINF	_	_	_	_	_	B-RK
+6	oder	oder	_	KON	_	_	_	_	_	O
+7	wirst	werden	_	VAFIN	number=sg|person=2|mood=ind|tense=pres	12	aux	_	_	B-LK
+8	du	du	_	PPER	number=sg|person=2|case=nom|gender=*	12	subj	_	_	O
+9	das	der	_	PDS	number=sg|case=acc|gender=neut	12	obj	_	_	O
+10	in	in	_	APPR	_	_	_	_	_	O
+11	Ordnung	Ordnung	_	NN	number=sg|case=acc|gender=fem	_	_	_	_	O
+12	bringen	bringen	_	VVINF	_	_	_	_	_	B-RK
+13	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 23
+# sent_id(TSV) = 23
+# TopFString = (S(LK(VAFIN Bist))(MF(PPER du)(ADJD glücklich))(PUNKT ?))
+# text = Bist du glücklich ?
+1	Bist	sein	_	VAFIN	number=sg|person=2|mood=ind|tense=pres	_	_	_	_	B-LK
+2	du	du	_	PPER	number=sg|person=2|case=nom|gender=*	1	subj	_	_	O
+3	glücklich	glücklich	_	ADJD	degree=pos	1	pred	_	_	O
+4	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 24
+# sent_id(TSV) = 24
+# TopFString = (S(VF(PTKANT Ja))(MF(PUNKT .)))
+# text = Ja .
+1	Ja	ja	_	PTKANT	_	_	_	_	_	O
+2	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 25
+# sent_id(TSV) = 25
+# TopFString = (S(KLAMMER -)(VF(PPER Es))(LK(VAFIN ist))(MF(ADJD nett)(APPR von)(PPER dir))(KOMMA ,)(NF(C(KOUS dass))(MF(PPER du))(VC(VVFIN hilfst)))(PUNKT .))
+# text = - Es ist nett von dir , dass du hilfst .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	3	expl	_	_	O
+3	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+4	nett	nett	_	ADJD	degree=pos	3	pred	_	_	O
+5	von	von	_	APPR	_	_	_	_	_	O
+6	dir	du	_	PPER	number=sg|person=2|case=dat|gender=*	_	_	_	_	O
+7	,	,	_	$,	_	_	_	_	_	O
+8	dass	dass	_	KOUS	_	_	_	_	_	B-LK
+9	du	du	_	PPER	number=sg|person=2|case=nom|gender=*	10	subj	_	_	O
+10	hilfst	helfen	_	VVFIN	number=sg|person=2|mood=ind|tense=pres	3	vsubj	_	_	B-RK
+11	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 26
+# sent_id(TSV) = 26
+# TopFString = (S(KLAMMER -)(ADV Einmal)(ART ein)(NN Pfadfinder)(KOMMA ,)(ADV immer)(ART ein)(NN Pfadfinder)(PUNKT .))
+# text = - Einmal ein Pfadfinder , immer ein Pfadfinder .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Einmal	einmal	_	ADV	_	_	_	_	_	O
+3	ein	ein	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	O
+4	Pfadfinder	Pfadfinder	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	O
+5	,	,	_	$,	_	_	_	_	_	O
+6	immer	immer	_	ADV	_	_	_	_	_	O
+7	ein	ein	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	O
+8	Pfadfinder	Pfadfinder	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	O
+9	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 27
+# sent_id(TSV) = 27
+# TopFString = (S(KLAMMER -)(VF(PPER Du))(LK(VAFIN warst))(MF(ADV nie)(ART ein)(NN Pfandfinder))(PUNKT .))
+# text = - Du warst nie ein Pfandfinder .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Du	du	_	PPER	number=sg|person=2|case=nom|gender=*	3	subj	_	_	O
+3	warst	sein	_	VAFIN	number=sg|person=2|mood=ind|tense=past	_	_	_	_	B-LK
+4	nie	nie	_	ADV	_	_	_	_	_	O
+5	ein	ein	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	O
+6	Pfandfinder	Pfadfinder	_	NN	number=sg|case=nom|gender=masc	3	pred	_	_	O
+7	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 28
+# sent_id(TSV) = 28
+# TopFString = (S(KLAMMER -)(VF(ADV Offensichtlich))(LK(VAFIN habe))(MF(PPER ich)(PPOSAT mein))(PUNKT ...))
+# text = - Offensichtlich habe ich mein ...
+1	-	-	_	$(	_	_	_	_	_	O
+2	Offensichtlich	offensichtlich	_	ADV	_	_	_	_	_	O
+3	habe	haben	_	VAFIN	number=sg|person=1|mood=ind|tense=pres	_	_	_	_	B-LK
+4	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	3	subj	_	_	O
+5	mein	mein	_	PPOSAT	number=sg|case=acc|gender=neut	3	obj	_	_	O
+6	...	...	_	$.	_	_	_	_	_	O
+
+# sent_id = 29
+# sent_id(TSV) = 29
+# TopFString = (S(MF(NN Verdienstabzeichen)(APPR für)(NN Biberfallen))(VC(VVPP bekommen))(PUNKT .))
+# text = Verdienstabzeichen für Biberfallen bekommen .
+1	Verdienstabzeichen	Verdienstabzeichen	_	NN	number=sg|case=acc|gender=neut	4	obj	_	_	O
+2	für	für	_	APPR	_	_	_	_	_	O
+3	Biberfallen	Biberfalle	_	NN	number=pl|case=acc|gender=fem	_	_	_	_	O
+4	bekommen	bekommen	_	VVPP	_	_	_	_	_	B-RK
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 30
+# sent_id(TSV) = 30
+# TopFString = (S(KLAMMER -)(LK(VVIMP Konzentriere))(MF(PRF dich)(ADV lieber)(ADV da)(PAV drauf))(PUNKT .))
+# text = - Konzentriere dich lieber da drauf .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Konzentriere	konzentrieren	_	VVIMP	number=sg	_	_	_	_	B-LK
+3	dich	du	_	PRF	number=sg|person=*|case=nom	2	obj	_	_	O
+4	lieber	lieber	_	ADV	_	_	_	_	_	O
+5	da	da	_	ADV	_	_	_	_	_	O
+6	drauf	drauf	_	PAV	_	2	pobj	_	_	O
+7	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 31
+# sent_id(TSV) = 31
+# TopFString = (S(LK(VVIMP Kommt))(MF(APPR mit)(PPER mir))(PUNKT .))
+# text = Kommt mit mir .
+1	Kommt	kommen	_	VVIMP	number=pl	_	_	_	_	B-LK
+2	mit	mit	_	APPR	_	_	_	_	_	O
+3	mir	ich	_	PPER	number=sg|person=1|case=dat|gender=*	_	_	_	_	O
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 32
+# sent_id(TSV) = 32
+# TopFString = (S(LK(VVFIN Wisst))(MF(PPER ihr))(KOMMA ,)(NF(C(PWAV wie)(ADJD wertvoll))(MF(PDAT diese)(NN Mohnblumen))(VC(VAFIN waren)))(PUNKT ?))
+# text = Wisst ihr , wie wertvoll diese Mohnblumen waren ?
+1	Wisst	wissen	_	VVFIN	number=pl|person=2|mood=ind|tense=pres	_	_	_	_	B-LK
+2	ihr	ihr	_	PPER	number=pl|person=2|case=nom|gender=*	1	subj	_	_	O
+3	,	,	_	$,	_	_	_	_	_	O
+4	wie	wie	_	PWAV	_	_	_	_	_	B-LK
+5	wertvoll	wertvoll	_	ADJD	degree=pos	8	pred	_	_	I-LK
+6	diese	dieser	_	PDAT	number=pl|case=nom|gender=fem	_	_	_	_	O
+7	Mohnblumen	Mohnblume	_	NN	number=pl|case=nom|gender=fem	8	subj	_	_	O
+8	waren	sein	_	VAFIN	number=pl|person=3|mood=ind|tense=past	1	vobj	_	_	B-RK
+9	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 33
+# sent_id(TSV) = 33
+# TopFString = (S(MF(APPR In)(NN Rauch))(VC(VVPP aufgegangen))(PUNKT .))
+# text = In Rauch aufgegangen .
+1	In	in	_	APPR	_	_	_	_	_	O
+2	Rauch	Rauch	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	O
+3	aufgegangen	aufgehen	_	VVPP	_	_	_	_	_	B-RK
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 34
+# sent_id(TSV) = 34
+# TopFString = (S(KLAMMER -)(PWS Was)(PUNKT ?))
+# text = - Was ?
+1	-	-	_	$(	_	_	_	_	_	O
+2	Was	was	_	PWS	number=sg|case=nom|gender=*	_	_	_	_	O
+3	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 35
+# sent_id(TSV) = 35
+# TopFString = (S(LK(VAFIN Hat))(MF(PPER sie)(PIS jemand))(VC(VVPP angezündet))(PUNKT ?))
+# text = Hat sie jemand angezündet ?
+1	Hat	haben	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	4	aux	_	_	B-LK
+2	sie	sie	_	PPER	number=pl|person=3|case=acc|gender=fem	4	obj	_	_	O
+3	jemand	jemand	_	PIS	number=sg|case=nom|gender=masc	4	subj	_	_	O
+4	angezündet	anzünden	_	VVPP	_	_	_	_	_	B-RK
+5	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 36
+# sent_id(TSV) = 36
+# TopFString = (S(KLAMMER -)(PTKANT Ja)(PUNKT .))
+# text = - Ja .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Ja	ja	_	PTKANT	_	_	_	_	_	O
+3	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 37
+# sent_id(TSV) = 37
+# TopFString = (S(ADJA Betrunkene)(ADJA irische)(NN Familie)(KOMMA ,)(ART die)(NN Straße)(ADV hoch)(PUNKT .))
+# text = Betrunkene irische Familie , die Straße hoch .
+1	Betrunkene	betrunken	_	ADJA	number=sg|degree=pos|case=nom|gender=fem	_	_	_	_	O
+2	irische	irisch	_	ADJA	number=sg|degree=pos|case=nom|gender=fem	_	_	_	_	O
+3	Familie	Familie	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	O
+4	,	,	_	$,	_	_	_	_	_	O
+5	die	der	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	O
+6	Straße	Straße	_	NN	number=sg|case=acc|gender=fem	_	_	_	_	O
+7	hoch	hoch	_	ADV	_	_	_	_	_	O
+8	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 38
+# sent_id(TSV) = 38
+# TopFString = (S(ART Die)(NE O'Hallorans)(PUNKT .))
+# text = Die O'Hallorans .
+1	Die	der	_	ART	number=pl|case=nom|gender=*	_	_	_	_	O
+2	O'Hallorans	O'Halloran	_	NE	number=pl|case=nom|gender=*	_	_	_	_	O
+3	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 39
+# sent_id(TSV) = 39
+# TopFString = (S(C(PWAV Warum))(VC(PUNKT ?)))
+# text = Warum ?
+1	Warum	warum	_	PWAV	_	_	_	_	_	B-LK
+2	?	?	_	$.	_	_	_	_	_	B-RK
+
+# sent_id = 40
+# sent_id(TSV) = 40
+# TopFString = (S(VF(PWS Was))(LK(VAFIN hast))(MF(PPER du))(VC(VVPP getan))(KOMMA ,)(NF(C(KOUI um))(MF(PPER sie))(VC(PTKZU zu)(VVINF verärgern)))(PUNKT ?))
+# text = Was hast du getan , um sie zu verärgern ?
+1	Was	was	_	PWS	number=sg|case=acc|gender=neut	4	obj	_	_	O
+2	hast	haben	_	VAFIN	number=sg|person=2|mood=ind|tense=pres	4	aux	_	_	B-LK
+3	du	du	_	PPER	number=sg|person=2|case=nom|gender=*	4	subj	_	_	O
+4	getan	tun	_	VVPP	_	_	_	_	_	B-RK
+5	,	,	_	$,	_	_	_	_	_	O
+6	um	um	_	KOUI	_	_	_	_	_	B-LK
+7	sie	sie	_	PPER	number=pl|person=3|case=acc|gender=*	9	obj	_	_	O
+8	zu	zu	_	PTKZU	_	_	_	_	_	B-RK
+9	verärgern	verärgern	_	VVINF	_	_	_	_	_	I-RK
+10	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 41
+# sent_id(TSV) = 41
+# TopFString = (S(KLAMMER -)(LK(VVFIN Arbeitet))(MF(PPER sie)(PTKNEG nicht)(APPR für)(PPER dich)(KOMMA ,)(NE Vince))(PUNKT ?))
+# text = - Arbeitet sie nicht für dich , Vince ?
+1	-	-	_	$(	_	_	_	_	_	O
+2	Arbeitet	arbeiten	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+3	sie	sie	_	PPER	number=sg|person=3|case=nom|gender=fem	2	subj	_	_	O
+4	nicht	nicht	_	PTKNEG	_	_	_	_	_	O
+5	für	für	_	APPR	_	_	_	_	_	O
+6	dich	du	_	PPER	number=sg|person=2|case=acc|gender=masc	_	_	_	_	O
+7	,	,	_	$,	_	_	_	_	_	O
+8	Vince	Vince	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	O
+9	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 42
+# sent_id(TSV) = 42
+# TopFString = (S(KLAMMER -)(PTKANT Ja)(KOMMA ,)(ADV allerdings)(PUNKT .))
+# text = - Ja , allerdings .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Ja	ja	_	PTKANT	_	_	_	_	_	O
+3	,	,	_	$,	_	_	_	_	_	O
+4	allerdings	allerdings	_	ADV	_	_	_	_	_	O
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 43
+# sent_id(TSV) = 43
+# TopFString = (S(KOORD(KON Und))(VF(MF(APPR bei)(NN E)(ADV einfach)(ART den)(NN Hörer))(VC(VVIZU aufzulegen)))(KOMMA ,)(LK(VMFIN muss))(MF(ADV ziemlich)(ADJD entmannend))(VC(VAPP gewesen)(VAINF sein))(PUNKT ?))
+# text = Und bei E einfach den Hörer aufzulegen , muss ziemlich entmannend gewesen sein ?
+1	Und	und	_	KON	_	_	_	_	_	O
+2	bei	bei	_	APPR	_	_	_	_	_	O
+3	E	E	_	NN	number=sg|case=dat|gender=*	_	_	_	_	O
+4	einfach	einfach	_	ADV	_	_	_	_	_	O
+5	den	der	_	ART	number=sg|case=acc|gender=masc	_	_	_	_	O
+6	Hörer	Hörer	_	NN	number=sg|case=acc|gender=masc	7	obj	_	_	O
+7	aufzulegen	auflegen	_	VVIZU	_	12	vsubj	_	_	B-RK
+8	,	,	_	$,	_	_	_	_	_	O
+9	muss	müssen	_	VMFIN	number=sg|person=3|mood=ind|tense=pres	12	aux	_	_	B-LK
+10	ziemlich	ziemlich	_	ADV	_	_	_	_	_	O
+11	entmannend	entmannend	_	ADJD	degree=pos	12	pred	_	_	O
+12	gewesen	sein	_	VAPP	_	_	_	_	_	B-RK
+13	sein	sein	_	VAINF	_	12	aux	_	_	I-RK
+14	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 44
+# sent_id(TSV) = 44
+# TopFString = (S(LK(VVFIN Fühlte))(MF(PRF sich))(VC(PTKVZ an))(KOMMA ,)(NF(C(KOUS wie))(MF(APPRART zum)(NN Direktor)(NE Reeve)(APPRART ins)(NN Büro))(VC(VVPP gerufen)(PTKZU zu)(VAINF werden)))(PUNKT .))
+# text = Fühlte sich an , wie zum Direktor Reeve ins Büro gerufen zu werden .
+1	Fühlte	fühlen	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	B-LK
+2	sich	sich	_	PRF	number=sg|person=3|case=acc	1	obj	_	_	O
+3	an	an	_	PTKVZ	_	_	_	_	_	B-RK
+4	,	,	_	$,	_	_	_	_	_	O
+5	wie	wie	_	KOUS	_	_	_	_	_	B-LK
+6	zum	zu	_	APPRART	case=dat|gender=masc	_	_	_	_	O
+7	Direktor	Direktor	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	O
+8	Reeve	Reeve	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	O
+9	ins	in	_	APPRART	case=acc|gender=neut	_	_	_	_	O
+10	Büro	Büro	_	NN	number=sg|case=acc|gender=neut	_	_	_	_	O
+11	gerufen	rufen	_	VVPP	_	_	_	_	_	B-RK
+12	zu	zu	_	PTKZU	_	_	_	_	_	I-RK
+13	werden	werden	_	VAINF	_	11	aux	_	_	I-RK
+14	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 45
+# sent_id(TSV) = 45
+# TopFString = (S(VF(ADV Genauso)(KOKOM wie)(PPER er))(KOMMA ,)(LK(VAFIN werde))(MF(PPER ich)(PPER ihr))(VC(VVINF sagen))(KOMMA ,)(NF(C(PWAV wie))(MF(PPER es))(VC(VAFIN ist)))(PUNKT .))
+# text = Genauso wie er , werde ich ihr sagen , wie es ist .
+1	Genauso	genauso	_	ADV	_	_	_	_	_	O
+2	wie	wie	_	KOKOM	_	_	_	_	_	O
+3	er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	_	_	_	_	O
+4	,	,	_	$,	_	_	_	_	_	O
+5	werde	werden	_	VAFIN	number=sg|person=1|mood=ind|tense=pres	8	aux	_	_	B-LK
+6	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	8	subj	_	_	O
+7	ihr	sie	_	PPER	number=sg|person=3|case=dat|gender=fem	8	iobj	_	_	O
+8	sagen	sagen	_	VVINF	_	_	_	_	_	B-RK
+9	,	,	_	$,	_	_	_	_	_	O
+10	wie	wie	_	PWAV	_	12	pred	_	_	B-LK
+11	es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	12	subj	_	_	O
+12	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	8	vobj	_	_	B-RK
+13	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 46
+# sent_id(TSV) = 46
+# TopFString = (S(LK(VVIMP Mach))(MF(PDS das)(PTKANT bitte))(KOMMA ,)(KON denn)(VF(PPER ich))(LK(VMFIN mag))(MF(PPER ihr)(PTKNEG nicht)(APPR aus)(ART dem)(NN Weg))(VC(VVINF gehen))(PUNKT .))
+# text = Mach das bitte , denn ich mag ihr nicht aus dem Weg gehen .
+1	Mach	machen	_	VVIMP	number=sg	_	_	_	_	B-LK
+2	das	der	_	PDS	number=sg|case=acc|gender=neut	1	obj	_	_	O
+3	bitte	bitte	_	PTKANT	_	_	_	_	_	O
+4	,	,	_	$,	_	_	_	_	_	O
+5	denn	denn	_	KON	_	_	_	_	_	O
+6	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	13	subj	_	_	O
+7	mag	mögen	_	VMFIN	number=sg|person=1|mood=ind|tense=pres	13	aux	_	_	B-LK
+8	ihr	sie	_	PPER	number=sg|person=3|case=dat|gender=fem	13	iobj	_	_	O
+9	nicht	nicht	_	PTKNEG	_	_	_	_	_	O
+10	aus	aus	_	APPR	_	_	_	_	_	O
+11	dem	der	_	ART	number=sg|case=dat|gender=masc	_	_	_	_	O
+12	Weg	Weg	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	O
+13	gehen	gehen	_	VVINF	_	_	_	_	_	B-RK
+14	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 47
+# sent_id(TSV) = 47
+# TopFString = (S(PTKANT Nein)(KOMMA ,)(PTKANT nein)(PUNKT .))
+# text = Nein , nein .
+1	Nein	nein	_	PTKANT	_	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	nein	nein	_	PTKANT	_	_	_	_	_	O
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 48
+# sent_id(TSV) = 48
+# TopFString = (S(PIAT Kein)(ADJA weiteres)(NN Ausweichen)(PUNKT .))
+# text = Kein weiteres Ausweichen .
+1	Kein	kein	_	PIAT	number=sg|case=nom|gender=neut	_	_	_	_	O
+2	weiteres	weiterer	_	ADJA	number=sg|degree=pos|case=nom|gender=neut	_	_	_	_	O
+3	Ausweichen	Ausweichen	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	O
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 49
+# sent_id(TSV) = 49
+# TopFString = (S(VF(PPER Wir))(LK(VAFIN werden))(MF(PPER ihr))(VC(VVINF sagen))(KOMMA ,)(VF(PPER wir))(LK(VVFIN machen))(MF(PIAT keinen)(NN Film)(APPR über)(PIS irgendwas))(KOMMA ,)(NF(C(KOUS bis))(MF(ART die)(NN Kameras)(ADV tatsächlich)(APPR für)(KLAMMER ")(NE Medellin))(KLAMMER ")(VC(VVFIN anlaufen)))(PUNKT .))
+# text = Wir werden ihr sagen , wir machen keinen Film über irgendwas , bis die Kameras tatsächlich für " Medellin " anlaufen .
+1	Wir	wir	_	PPER	number=pl|person=1|case=nom|gender=*	4	subj	_	_	O
+2	werden	werden	_	VAFIN	number=pl|person=1|mood=ind|tense=pres	4	aux	_	_	B-LK
+3	ihr	sie	_	PPER	number=sg|person=3|case=dat|gender=fem	4	iobj	_	_	O
+4	sagen	sagen	_	VVINF	_	_	_	_	_	B-RK
+5	,	,	_	$,	_	_	_	_	_	O
+6	wir	wir	_	PPER	number=pl|person=1|case=nom|gender=*	7	subj	_	_	O
+7	machen	machen	_	VVFIN	number=pl|person=1|mood=ind|tense=pres	4	vobj	_	_	B-LK
+8	keinen	kein	_	PIAT	number=sg|case=acc|gender=masc	_	_	_	_	O
+9	Film	Film	_	NN	number=sg|case=acc|gender=masc	7	obj	_	_	O
+10	über	über	_	APPR	_	11	pcase	_	_	O
+11	irgendwas	irgendwas	_	PIS	number=*|case=*|gender=neut	9	pobj	_	_	O
+12	,	,	_	$,	_	_	_	_	_	O
+13	bis	bis	_	KOUS	_	_	_	_	_	B-LK
+14	die	der	_	ART	number=pl|case=nom|gender=fem	_	_	_	_	O
+15	Kameras	Kamera	_	NN	number=pl|case=nom|gender=fem	21	subj	_	_	O
+16	tatsächlich	tatsächlich	_	ADV	_	_	_	_	_	O
+17	für	für	_	APPR	_	_	_	_	_	O
+18	"	"	_	$(	_	_	_	_	_	O
+19	Medellin	Medellin	_	NE	number=sg|case=acc|gender=*	_	_	_	_	O
+20	"	"	_	$(	_	_	_	_	_	O
+21	anlaufen	anlaufen	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	B-RK
+22	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 50
+# sent_id(TSV) = 50
+# TopFString = (S(VF(PPER Sie))(LK(VAFIN wird))(MF(ADJD angepisst))(VC(VAINF sein))(KOMMA ,)(NF(C(KOUS wenn))(MF(PPER sie))(VC(VVFIN denkt)))(KOMMA ,)(VF(PPER du))(LK(VVFIN nimmst))(MF(NE Ari))(VC(PTKVZ ernst))(PUNKT .))
+# text = Sie wird angepisst sein , wenn sie denkt , du nimmst Ari ernst .
+1	Sie	sie	_	PPER	number=sg|person=3|case=nom|gender=fem	4	subj	_	_	O
+2	wird	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	4	aux	_	_	B-LK
+3	angepisst	angepisst	_	ADJD	degree=pos	4	pred	_	_	O
+4	sein	sein	_	VAINF	_	_	_	_	_	B-RK
+5	,	,	_	$,	_	_	_	_	_	O
+6	wenn	wenn	_	KOUS	_	_	_	_	_	B-LK
+7	sie	sie	_	PPER	number=sg|person=3|case=nom|gender=fem	8	subj	_	_	O
+8	denkt	denken	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-RK
+9	,	,	_	$,	_	_	_	_	_	O
+10	du	du	_	PPER	number=sg|person=2|case=nom|gender=*	11	subj	_	_	O
+11	nimmst	nehmen	_	VVFIN	number=sg|person=2|mood=ind|tense=pres	8	vobj	_	_	B-LK
+12	Ari	Ari	_	NE	number=sg|case=acc|gender=*	11	obj	_	_	O
+13	ernst	ernst	_	PTKVZ	_	_	_	_	_	B-RK
+14	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 51
+# sent_id(TSV) = 51
+# TopFString = (S(VF(NN Anpassung))(MF(APPR von)(FM Movie)))
+# text = Anpassung von Movie
+1	Anpassung	Anpassung	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	O
+2	von	von	_	APPR	_	_	_	_	_	O
+3	Movie	Movie	_	FM	_	_	_	_	_	O
+
+# sent_id = 52
+# sent_id(TSV) = 52
+# TopFString = (S(VF(PPER Er))(LK(VVFIN sieht))(MF(KOKOM wie)(NE Frankenstein))(VC(PTKVZ aus))(PUNKT .))
+# text = Er sieht wie Frankenstein aus .
+1	Er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	2	subj	_	_	O
+2	sieht	sehen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+3	wie	wie	_	KOKOM	_	_	_	_	_	O
+4	Frankenstein	Frankenstein	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	O
+5	aus	aus	_	PTKVZ	_	_	_	_	_	B-RK
+6	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 53
+# sent_id(TSV) = 53
+# TopFString = (S(VF(ADV Immerhin))(LK(VVFIN läuft))(MF(PPER er)(APPR ohne)(NN Krücken))(PUNKT .))
+# text = Immerhin läuft er ohne Krücken .
+1	Immerhin	immerhin	_	ADV	_	_	_	_	_	O
+2	läuft	laufen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+3	er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	2	subj	_	_	O
+4	ohne	ohne	_	APPR	_	_	_	_	_	O
+5	Krücken	Krücke	_	NN	number=pl|case=acc|gender=fem	_	_	_	_	O
+6	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 54
+# sent_id(TSV) = 54
+# TopFString = (S(PTKANT Ja)(KOMMA ,)(VF(PPER ich))(LK(VVFIN dachte))(KOMMA ,)(NF(VF(PPER er))(LK(VAFIN wäre))(MF(ADJD glücklicher)(PAV darüber)))(PUNKT .))
+# text = Ja , ich dachte , er wäre glücklicher darüber .
+1	Ja	ja	_	PTKANT	_	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	4	subj	_	_	O
+4	dachte	denken	_	VVFIN	number=sg|person=1|mood=ind|tense=past	_	_	_	_	B-LK
+5	,	,	_	$,	_	_	_	_	_	O
+6	er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	7	subj	_	_	O
+7	wäre	sein	_	VAFIN	number=sg|person=3|mood=subj|tense=past	4	vobj	_	_	B-LK
+8	glücklicher	glücklich	_	ADJD	degree=comp	7	pred	_	_	O
+9	darüber	darüber	_	PAV	_	8	pobj	_	_	O
+10	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 55
+# sent_id(TSV) = 55
+# TopFString = (S(VF(PPER Ich))(LK(VAFIN bin))(MF(ADJD glücklicher)(PAV darüber))(PUNKT .))
+# text = Ich bin glücklicher darüber .
+1	Ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	2	subj	_	_	O
+2	bin	sein	_	VAFIN	number=sg|person=1|mood=ind|tense=pres	_	_	_	_	B-LK
+3	glücklicher	glücklich	_	ADJD	degree=comp	2	pred	_	_	O
+4	darüber	darüber	_	PAV	_	3	pobj	_	_	O
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 56
+# sent_id(TSV) = 56
+# TopFString = (S(VF(PWAV Wie))(LK(VVFIN geht))(MF(PPER es)(PPER dir)(KOMMA ,)(NE Maggie))(PUNKT ?))
+# text = Wie geht es dir , Maggie ?
+1	Wie	wie	_	PWAV	_	_	_	_	_	O
+2	geht	gehen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+3	es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	2	expl	_	_	O
+4	dir	du	_	PPER	number=sg|person=2|case=dat|gender=fem	2	iobj	_	_	O
+5	,	,	_	$,	_	_	_	_	_	O
+6	Maggie	Maggie	_	NE	number=sg|case=nom|gender=fem	_	_	_	_	O
+7	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 57
+# sent_id(TSV) = 57
+# TopFString = (S(ADJA Langer)(NN Tag)(PUNKT .))
+# text = Langer Tag .
+1	Langer	lang	_	ADJA	number=sg|degree=pos|case=nom|gender=masc	_	_	_	_	O
+2	Tag	Tag	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	O
+3	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 58
+# sent_id(TSV) = 58
+# TopFString = (S(LK(VVFIN Sieht))(MF(ADV so))(VC(PTKVZ aus))(KOMMA ,)(C(KOUS als))(LK(VVFIN fängt))(MF(PPOSAT mein)(NN Tag)(ADV gerade))(VC(PTKVZ an))(PUNKT .))
+# text = Sieht so aus , als fängt mein Tag gerade an .
+1	Sieht	sehen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+2	so	so	_	ADV	_	_	_	_	_	O
+3	aus	aus	_	PTKVZ	_	_	_	_	_	B-RK
+4	,	,	_	$,	_	_	_	_	_	O
+5	als	als	_	KOUS	_	_	_	_	_	B-LK
+6	fängt	fangen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+7	mein	mein	_	PPOSAT	number=sg|case=nom|gender=masc	_	_	_	_	O
+8	Tag	Tag	_	NN	number=sg|case=nom|gender=masc	6	subj	_	_	O
+9	gerade	gerade	_	ADV	_	_	_	_	_	O
+10	an	an	_	PTKVZ	_	_	_	_	_	B-RK
+11	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 59
+# sent_id(TSV) = 59
+# TopFString = (S(VF(NE Hal))(MF(PUNKT .)))
+# text = Hal .
+1	Hal	Hal	_	NE	number=sg|case=nom|gender=*	_	_	_	_	O
+2	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 60
+# sent_id(TSV) = 60
+# TopFString = (S(VF(C(PWS Was))(MF(PPER ich))(VC(VVFIN sage)))(LK(VAFIN ist))(KOMMA ,)(VF(FKONJ(MF(APPR mit)(ART dem)(NN Militär))(VC(VVPP ausgenommen))))(LK(VAFIN sind))(MF(PPER es)(ADV vielleicht)(CARD vier)(NN Leute))(KOMMA ,)(NF(C(PRELS die))(MF(ADV genau))(VC(VVFIN wissen))(KOMMA ,)(NF(C(KOUS wie))(MF(PDAT dieser)(NN Ort))(VC(VVFIN funktioniert))))(PUNKT .))
+# text = Was ich sage ist , mit dem Militär ausgenommen sind es vielleicht vier Leute , die genau wissen , wie dieser Ort funktioniert .
+1	Was	was	_	PWS	number=sg|case=acc|gender=neut	3	obj	_	_	B-LK
+2	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	3	subj	_	_	O
+3	sage	sagen	_	VVFIN	number=sg|person=1|mood=ind|tense=pres	_	_	_	_	B-RK
+4	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	3	aux	_	_	B-LK
+5	,	,	_	$,	_	_	_	_	_	O
+6	mit	mit	_	APPR	_	_	_	_	_	O
+7	dem	der	_	ART	number=sg|case=dat|gender=neut	_	_	_	_	O
+8	Militär	Militär	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	O
+9	ausgenommen	ausnehmen	_	VVPP	_	_	_	_	_	B-RK
+10	sind	sein	_	VAFIN	number=pl|person=3|mood=ind|tense=pres	3	vobj	_	_	B-LK
+11	es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	10	pred	_	_	O
+12	vielleicht	vielleicht	_	ADV	_	_	_	_	_	O
+13	vier	vier	_	CARD	_	_	_	_	_	O
+14	Leute	Leute	_	NN	number=pl|case=nom|gender=*	10	subj	_	_	O
+15	,	,	_	$,	_	_	_	_	_	O
+16	die	der	_	PRELS	number=pl|case=nom|gender=*	18	subj	_	_	B-LK
+17	genau	genau	_	ADV	_	_	_	_	_	O
+18	wissen	wissen	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	B-RK
+19	,	,	_	$,	_	_	_	_	_	O
+20	wie	wie	_	KOUS	_	_	_	_	_	B-LK
+21	dieser	dieser	_	PDAT	number=sg|case=nom|gender=masc	_	_	_	_	O
+22	Ort	Ort	_	NN	number=sg|case=nom|gender=masc	23	subj	_	_	O
+23	funktioniert	funktionieren	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	18	vobj	_	_	B-RK
+24	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 61
+# sent_id(TSV) = 61
+# TopFString = (S(KLAMMER -)(ART Die)(NN Vaginoplastie)(PUNKT .))
+# text = - Die Vaginoplastie .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	O
+3	Vaginoplastie	Vaginoplastie	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	O
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 62
+# sent_id(TSV) = 62
+# TopFString = (S(LK(VAFIN Wird))(MF(ART die)(NN Vaginoplastie)(ADJD separat))(VC(VVPP gemacht))(PUNKT ?))
+# text = Wird die Vaginoplastie separat gemacht ?
+1	Wird	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	5	aux	_	_	B-LK
+2	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	O
+3	Vaginoplastie	Vaginoplastie	_	NN	number=sg|case=nom|gender=fem	5	subj	_	_	O
+4	separat	separat	_	ADJD	degree=pos	_	_	_	_	O
+5	gemacht	machen	_	VVPP	_	_	_	_	_	B-RK
+6	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 63
+# sent_id(TSV) = 63
+# TopFString = (S(VF(ADV Genau))(MF(PUNKT .)))
+# text = Genau .
+1	Genau	genau	_	ADV	_	_	_	_	_	O
+2	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 64
+# sent_id(TSV) = 64
+# TopFString = (S(VF(PDS Das))(LK(VAFIN wird))(MF(ADJD einzeln))(VC(VVPP gemacht))(PUNKT .))
+# text = Das wird einzeln gemacht .
+1	Das	der	_	PDS	number=sg|case=nom|gender=neut	4	subj	_	_	O
+2	wird	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	4	aux	_	_	B-LK
+3	einzeln	einzeln	_	ADJD	degree=pos	_	_	_	_	O
+4	gemacht	machen	_	VVPP	_	_	_	_	_	B-RK
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 65
+# sent_id(TSV) = 65
+# TopFString = (S(VF(PPER Ich))(LK(VMFIN möchte))(MF(PTKNEG nicht)(ADV mehr)(KOKOM als)(ADJD nötig)(APPR unter)(NN Narkose))(VC(VVPP gesetzt)(VAINF werden))(PUNKT .))
+# text = Ich möchte nicht mehr als nötig unter Narkose gesetzt werden .
+1	Ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	9	subj	_	_	O
+2	möchte	mögen	_	VMFIN	number=sg|person=1|mood=ind|tense=pres	9	aux	_	_	B-LK
+3	nicht	nicht	_	PTKNEG	_	_	_	_	_	O
+4	mehr	mehr	_	ADV	_	_	_	_	_	O
+5	als	als	_	KOKOM	_	_	_	_	_	O
+6	nötig	nötig	_	ADJD	degree=pos	_	_	_	_	O
+7	unter	unter	_	APPR	_	_	_	_	_	O
+8	Narkose	Narkose	_	NN	number=sg|case=acc|gender=fem	_	_	_	_	O
+9	gesetzt	setzen	_	VVPP	_	_	_	_	_	B-RK
+10	werden	werden	_	VAINF	_	9	aux	_	_	I-RK
+11	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 66
+# sent_id(TSV) = 66
+# TopFString = (S(VF(PPER Ich))(LK(VVFIN bekomme))(MF(ART eine)(NN Narkose)(KOMMA ,)(KON und)(ADV dann)(ADV noch)(PIS eine))(PUNKT ?))
+# text = Ich bekomme eine Narkose , und dann noch eine ?
+1	Ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	2	subj	_	_	O
+2	bekomme	bekommen	_	VVFIN	number=sg|person=1|mood=ind|tense=pres	_	_	_	_	B-LK
+3	eine	ein	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	O
+4	Narkose	Narkose	_	NN	number=sg|case=acc|gender=fem	2	obj	_	_	O
+5	,	,	_	$,	_	_	_	_	_	O
+6	und	und	_	KON	_	_	_	_	_	O
+7	dann	dann	_	ADV	_	_	_	_	_	O
+8	noch	noch	_	ADV	_	_	_	_	_	O
+9	eine	einer	_	PIS	number=sg|case=acc|gender=fem	_	_	_	_	O
+10	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 67
+# sent_id(TSV) = 67
+# TopFString = (S(VF(PPER Es))(LK(VAFIN ist))(MF(ART ein)(ADJA schwerer)(NN Eingriff)(APPR mit)(ART einer)(ADJA langen)(NN Rekonvaleszenz))(PUNKT .))
+# text = Es ist ein schwerer Eingriff mit einer langen Rekonvaleszenz .
+1	Es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	2	pred	_	_	O
+2	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+3	ein	ein	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	O
+4	schwerer	schwer	_	ADJA	number=sg|degree=pos|case=nom|gender=masc	_	_	_	_	O
+5	Eingriff	Eingriff	_	NN	number=sg|case=nom|gender=masc	2	subj	_	_	O
+6	mit	mit	_	APPR	_	_	_	_	_	O
+7	einer	ein	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	O
+8	langen	lang	_	ADJA	number=sg|degree=pos|case=dat|gender=fem	_	_	_	_	O
+9	Rekonvaleszenz	Rekonvaleszenz	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	O
+10	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 68
+# sent_id(TSV) = 68
+# TopFString = (S(VF(PAV Außerdem))(LK(VVFIN brauchen))(MF(PPER wir)(PAV dafür)(ART einen)(NN Spezialisten))(PUNKT .))
+# text = Außerdem brauchen wir dafür einen Spezialisten .
+1	Außerdem	außerdem	_	PAV	_	_	_	_	_	O
+2	brauchen	brauchen	_	VVFIN	number=pl|person=1|mood=ind|tense=pres	_	_	_	_	B-LK
+3	wir	wir	_	PPER	number=pl|person=1|case=nom|gender=*	2	subj	_	_	O
+4	dafür	dafür	_	PAV	_	_	_	_	_	O
+5	einen	ein	_	ART	number=sg|case=acc|gender=masc	_	_	_	_	O
+6	Spezialisten	Spezialist	_	NN	number=sg|case=acc|gender=masc	2	obj	_	_	O
+7	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 69
+# sent_id(TSV) = 69
+# TopFString = (S(VF(ADJD Aufregend))(MF(PUNKT .)))
+# text = Aufregend .
+1	Aufregend	aufregend	_	ADJD	degree=pos	_	_	_	_	O
+2	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 70
+# sent_id(TSV) = 70
+# TopFString = (S(PTKANT Ja)(KOMMA ,)(VF(PDS das))(LK(VAFIN ist))(MF(PPER es)(APPR in)(ART der)(NN Tat))(PUNKT .))
+# text = Ja , das ist es in der Tat .
+1	Ja	ja	_	PTKANT	_	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	das	der	_	PDS	number=sg|case=nom|gender=neut	4	pred	_	_	O
+4	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+5	es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	4	subj	_	_	O
+6	in	in	_	APPR	_	_	_	_	_	O
+7	der	der	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	O
+8	Tat	Tat	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	O
+9	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 71
+# sent_id(TSV) = 71
+# TopFString = (S(KLAMMER -)(ITJ Oh)(NN Gott)(PUNKT .))
+# text = - Oh Gott .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Oh	oh	_	ITJ	_	_	_	_	_	O
+3	Gott	Gott	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	O
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 72
+# sent_id(TSV) = 72
+# TopFString = (S(VF(PDS Das))(LK(VVFIN reicht))(KOMMA ,)(MF(NE Dad))(PUNKT !))
+# text = Das reicht , Dad !
+1	Das	der	_	PDS	number=sg|case=nom|gender=neut	2	subj	_	_	O
+2	reicht	reichen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+3	,	,	_	$,	_	_	_	_	_	O
+4	Dad	Dad	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	O
+5	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 73
+# sent_id(TSV) = 73
+# TopFString = (S(LK(VVFIN Weißt))(MF(PPER du))(KOMMA ,)(NF(C(PWAV wovon))(MF(PPER ich))(VC(VVFIN rede)))(PUNKT ?))
+# text = Weißt du , wovon ich rede ?
+1	Weißt	wissen	_	VVFIN	number=sg|person=2|mood=ind|tense=pres	_	_	_	_	B-LK
+2	du	du	_	PPER	number=sg|person=2|case=nom|gender=*	1	subj	_	_	O
+3	,	,	_	$,	_	_	_	_	_	O
+4	wovon	wovon	_	PWAV	_	6	pobj	_	_	B-LK
+5	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	6	subj	_	_	O
+6	rede	reden	_	VVFIN	number=sg|person=1|mood=ind|tense=pres	1	vobj	_	_	B-RK
+7	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 74
+# sent_id(TSV) = 74
+# TopFString = (S(KLAMMER -)(LK(VVFIN Verstehst))(MF(PPER du)(PPER mich))(PUNKT ?))
+# text = - Verstehst du mich ?
+1	-	-	_	$(	_	_	_	_	_	O
+2	Verstehst	verstehen	_	VVFIN	number=sg|person=2|mood=ind|tense=pres	_	_	_	_	B-LK
+3	du	du	_	PPER	number=sg|person=2|case=nom|gender=*	2	subj	_	_	O
+4	mich	ich	_	PPER	number=sg|person=1|case=acc|gender=*	2	obj	_	_	O
+5	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 75
+# sent_id(TSV) = 75
+# TopFString = (S(KLAMMER -)(NE Dad)(KOMMA ,)(VF(PDS das))(LK(VVFIN reicht))(PUNKT !))
+# text = - Dad , das reicht !
+1	-	-	_	$(	_	_	_	_	_	O
+2	Dad	Dad	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	O
+3	,	,	_	$,	_	_	_	_	_	O
+4	das	der	_	PDS	number=sg|case=nom|gender=neut	5	subj	_	_	O
+5	reicht	reichen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+6	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 76
+# sent_id(TSV) = 76
+# TopFString = (S(VF(PPER Ich))(LK(VVFIN gehe))(KOMMA ,)(ADV ok)(PUNKT .))
+# text = Ich gehe , ok .
+1	Ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	2	subj	_	_	O
+2	gehe	gehen	_	VVFIN	number=sg|person=1|mood=ind|tense=pres	_	_	_	_	B-LK
+3	,	,	_	$,	_	_	_	_	_	O
+4	ok	ok	_	ADV	_	_	_	_	_	O
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 77
+# sent_id(TSV) = 77
+# TopFString = (S(VF(ADV Ok))(MF(PUNKT .)))
+# text = Ok .
+1	Ok	ok	_	ADV	_	_	_	_	_	O
+2	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 78
+# sent_id(TSV) = 78
+# TopFString = (S(VF(ADJD Gut))(MF(PUNKT .)))
+# text = Gut .
+1	Gut	gut	_	ADJD	degree=pos	_	_	_	_	O
+2	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 79
+# sent_id(TSV) = 79
+# TopFString = (S(LK(VVIMP Warte))(MF(PUNKT ...)))
+# text = Warte ...
+1	Warte	warten	_	VVIMP	number=sg	_	_	_	_	B-LK
+2	...	...	_	$.	_	_	_	_	_	O
+
+# sent_id = 80
+# sent_id(TSV) = 80
+# TopFString = (S(PTKANT Ja)(KOMMA ,)(ART die)(NN DVD)(PUNKT .))
+# text = Ja , die DVD .
+1	Ja	ja	_	PTKANT	_	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	O
+4	DVD	DVD	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	O
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 81
+# sent_id(TSV) = 81
+# TopFString = (S(ADV Okay)(KOMMA ,)(VF(PPER ich))(LK(VVFIN sehe))(MF(ADV mal))(VC(PTKVZ nach))(KOMMA ,)(NF(C(KOUS ob))(MF(PPER wir)(ADV noch)(ADJA gefrorene)(NN Soja-Pizza))(VC(VAFIN haben)))(PUNKT .))
+# text = Okay , ich sehe mal nach , ob wir noch gefrorene Soja-Pizza haben .
+1	Okay	okay	_	ADV	_	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	4	subj	_	_	O
+4	sehe	sehen	_	VVFIN	number=sg|person=1|mood=ind|tense=pres	_	_	_	_	B-LK
+5	mal	mal	_	ADV	_	_	_	_	_	O
+6	nach	nach	_	PTKVZ	_	_	_	_	_	B-RK
+7	,	,	_	$,	_	_	_	_	_	O
+8	ob	ob	_	KOUS	_	_	_	_	_	B-LK
+9	wir	wir	_	PPER	number=pl|person=1|case=nom|gender=*	13	subj	_	_	O
+10	noch	noch	_	ADV	_	_	_	_	_	O
+11	gefrorene	gefroren	_	ADJA	number=sg|degree=pos|case=acc|gender=fem	_	_	_	_	O
+12	Soja-Pizza	Soja-Pizza	_	NN	number=sg|case=acc|gender=fem	13	obj	_	_	O
+13	haben	haben	_	VAFIN	number=pl|person=1|mood=ind|tense=pres	_	_	_	_	B-RK
+14	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 82
+# sent_id(TSV) = 82
+# TopFString = (S(VF(NN Ausweise))(MF(PUNKT .)))
+# text = Ausweise .
+1	Ausweise	Ausweis	_	NN	number=pl|case=acc|gender=masc	_	_	_	_	O
+2	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 83
+# sent_id(TSV) = 83
+# TopFString = (S(KLAMMER -)(ITJ Hi)(PUNKT .))
+# text = - Hi .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Hi	hi	_	ITJ	_	_	_	_	_	O
+3	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 84
+# sent_id(TSV) = 84
+# TopFString = (S(ADV Echt)(ADV jetzt)(PUNKT ?))
+# text = Echt jetzt ?
+1	Echt	echt	_	ADV	_	_	_	_	_	O
+2	jetzt	jetzt	_	ADV	_	_	_	_	_	O
+3	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 85
+# sent_id(TSV) = 85
+# TopFString = (S(PTKANT Ja)(KOMMA ,)(NE Baby)(KOMMA ,)(VF(PIS man))(LK(VMFIN kann))(MF(PPOSAT euer)(NN Alter)(ADV kaum)(ADV noch))(VC(VVINF schätzen))(KOMMA ,)(LK(VVFIN wisst))(MF(PPER ihr))(PUNKT .))
+# text = Ja , Baby , man kann euer Alter kaum noch schätzen , wisst ihr .
+1	Ja	ja	_	PTKANT	_	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	Baby	Baby	_	NE	number=sg|case=nom|gender=neut	_	_	_	_	O
+4	,	,	_	$,	_	_	_	_	_	O
+5	man	man	_	PIS	number=sg|case=nom|gender=*	11	subj	_	_	O
+6	kann	können	_	VMFIN	number=sg|person=3|mood=ind|tense=pres	11	aux	_	_	B-LK
+7	euer	euer	_	PPOSAT	number=sg|case=acc|gender=neut	_	_	_	_	O
+8	Alter	Alter	_	NN	number=sg|case=acc|gender=neut	11	obj	_	_	O
+9	kaum	kaum	_	ADV	_	_	_	_	_	O
+10	noch	noch	_	ADV	_	_	_	_	_	O
+11	schätzen	schätzen	_	VVINF	_	13	vobj	_	_	B-RK
+12	,	,	_	$,	_	_	_	_	_	O
+13	wisst	wissen	_	VVFIN	number=pl|person=2|mood=ind|tense=pres	_	_	_	_	B-LK
+14	ihr	ihr	_	PPER	number=pl|person=2|case=nom|gender=*	13	subj	_	_	O
+15	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 86
+# sent_id(TSV) = 86
+# TopFString = (S(PTKANT Ja)(KOMMA ,)(PTKANT bitte)(PUNKT .))
+# text = Ja , bitte .
+1	Ja	ja	_	PTKANT	_	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	bitte	bitte	_	PTKANT	_	_	_	_	_	O
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 87
+# sent_id(TSV) = 87
+# TopFString = (S(KLAMMER -)(VF(ART Der)(NN Abend))(LK(VVFIN gefällt))(MF(PPER mir)(ADV jetzt)(ADV schon))(PUNKT .))
+# text = - Der Abend gefällt mir jetzt schon .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Der	der	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	O
+3	Abend	Abend	_	NN	number=sg|case=nom|gender=masc	4	subj	_	_	O
+4	gefällt	gefallen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+5	mir	ich	_	PPER	number=sg|person=1|case=dat|gender=*	4	iobj	_	_	O
+6	jetzt	jetzt	_	ADV	_	_	_	_	_	O
+7	schon	schon	_	ADV	_	_	_	_	_	O
+8	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 88
+# sent_id(TSV) = 88
+# TopFString = (S(VF(NE Rachel))(MF(PUNKT ?)))
+# text = Rachel ?
+1	Rachel	Rachel	_	NE	number=sg|case=nom|gender=fem	_	_	_	_	O
+2	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 89
+# sent_id(TSV) = 89
+# TopFString = (S(KLAMMER -)(PTKANT Ja)(KOMMA ,)(VF(PDS das))(LK(VAFIN bin))(MF(PPER ich))(PUNKT .))
+# text = - Ja , das bin ich .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Ja	ja	_	PTKANT	_	_	_	_	_	O
+3	,	,	_	$,	_	_	_	_	_	O
+4	das	der	_	PDS	number=sg|case=nom|gender=neut	5	pred	_	_	O
+5	bin	sein	_	VAFIN	number=sg|person=1|mood=ind|tense=pres	_	_	_	_	B-LK
+6	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	5	subj	_	_	O
+7	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 90
+# sent_id(TSV) = 90
+# TopFString = (S(KLAMMER -)(PIAT Vielen)(NN Dank)(PUNKT .))
+# text = - Vielen Dank .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Vielen	vieler	_	PIAT	number=sg|case=acc|gender=masc	_	_	_	_	O
+3	Dank	Dank	_	NN	number=sg|case=acc|gender=masc	_	_	_	_	O
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 91
+# sent_id(TSV) = 91
+# TopFString = (S(VF(PPER Es))(LK(VVFIN gefällt))(MF(PPER mir)(ADV viel)(ADJD besser))(KOMMA ,)(NF(C(KOUS wenn))(MF(PPER wir)(ART einer)(NN Meinung))(VC(VAFIN sind)))(PUNKT .))
+# text = Es gefällt mir viel besser , wenn wir einer Meinung sind .
+1	Es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	2	expl	_	_	O
+2	gefällt	gefallen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	B-LK
+3	mir	ich	_	PPER	number=sg|person=1|case=dat|gender=*	2	iobj	_	_	O
+4	viel	viel	_	ADV	_	_	_	_	_	O
+5	besser	gut	_	ADJD	degree=comp	_	_	_	_	O
+6	,	,	_	$,	_	_	_	_	_	O
+7	wenn	wenn	_	KOUS	_	_	_	_	_	B-LK
+8	wir	wir	_	PPER	number=pl|person=1|case=nom|gender=*	11	subj	_	_	O
+9	einer	ein	_	ART	number=sg|case=gen|gender=fem	_	_	_	_	O
+10	Meinung	Meinung	_	NN	number=sg|case=gen|gender=fem	11	pred	_	_	O
+11	sind	sein	_	VAFIN	number=pl|person=1|mood=ind|tense=pres	2	vsubj	_	_	B-RK
+12	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 92
+# sent_id(TSV) = 92
+# TopFString = (S(PPER Ihnen)(PTKNEG nicht)(PUNKT ?))
+# text = Ihnen nicht ?
+1	Ihnen	Sie	_	PPER	number=sg|person=3|case=dat|gender=*	_	_	_	_	O
+2	nicht	nicht	_	PTKNEG	_	_	_	_	_	O
+3	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 93
+# sent_id(TSV) = 93
+# TopFString = (S(ART Der)(NN Text)(ART des)(NE Kosst)(NE Amojan)(KOMMA ,)(C(KOUS wie))(MF(PPER Sie))(VC(VVFIN wünschten))(PUNKT .))
+# text = Der Text des Kosst Amojan , wie Sie wünschten .
+1	Der	der	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	O
+2	Text	Text	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	O
+3	des	der	_	ART	number=sg|case=gen|gender=masc	_	_	_	_	O
+4	Kosst	Kosst	_	NE	number=sg|case=gen|gender=masc	_	_	_	_	O
+5	Amojan	Amojan	_	NE	number=sg|case=gen|gender=masc	_	_	_	_	O
+6	,	,	_	$,	_	_	_	_	_	O
+7	wie	wie	_	KOUS	_	_	_	_	_	B-LK
+8	Sie	Sie	_	PPER	number=sg|person=3|case=nom|gender=*	9	subj	_	_	O
+9	wünschten	wünschen	_	VVFIN	number=pl|person=3|mood=ind|tense=past	_	_	_	_	B-RK
+10	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 94
+# sent_id(TSV) = 94
+# TopFString = (S(ADV Sehr)(ADJD gut)(PUNKT .))
+# text = Sehr gut .
+1	Sehr	sehr	_	ADV	_	_	_	_	_	O
+2	gut	gut	_	ADJD	degree=pos	_	_	_	_	O
+3	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 95
+# sent_id(TSV) = 95
+# TopFString = (S(VF(ADV Also))(MF(PUNKT ?)))
+# text = Also ?
+1	Also	also	_	ADV	_	_	_	_	_	O
+2	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 96
+# sent_id(TSV) = 96
+# TopFString = (S(LK(VVIMP Legen))(MF(PPER Sie)(PPER ihn)(APPR auf)(PPOSAT meinen)(NN Schreibtisch))(PUNKT .))
+# text = Legen Sie ihn auf meinen Schreibtisch .
+1	Legen	legen	_	VVIMP	number=pl	_	_	_	_	B-LK
+2	Sie	Sie	_	PPER	number=sg|person=3|case=nom|gender=*	1	subj	_	_	O
+3	ihn	er	_	PPER	number=sg|person=3|case=acc|gender=masc	1	obj	_	_	O
+4	auf	auf	_	APPR	_	_	_	_	_	O
+5	meinen	mein	_	PPOSAT	number=sg|case=acc|gender=masc	_	_	_	_	O
+6	Schreibtisch	Schreibtisch	_	NN	number=sg|case=acc|gender=masc	_	_	_	_	O
+7	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 97
+# sent_id(TSV) = 97
+# TopFString = (S(KLAMMER -)(NN Eminenz)(KOMMA ,)(LK(VMFIN darf))(MF(PPER ich)(ADJD offen))(VC(VVINF sprechen))(PUNKT ?))
+# text = - Eminenz , darf ich offen sprechen ?
+1	-	-	_	$(	_	_	_	_	_	O
+2	Eminenz	Eminenz	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	O
+3	,	,	_	$,	_	_	_	_	_	O
+4	darf	dürfen	_	VMFIN	number=sg|person=1|mood=ind|tense=pres	7	aux	_	_	B-LK
+5	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	7	subj	_	_	O
+6	offen	offen	_	ADJD	degree=pos	_	_	_	_	O
+7	sprechen	sprechen	_	VVINF	_	_	_	_	_	B-RK
+8	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 98
+# sent_id(TSV) = 98
+# TopFString = (S(KLAMMER -)(C(KOUS Wenn))(MF(PPER es))(VC(VAINF sein)(VMFIN muss))(PUNKT .))
+# text = - Wenn es sein muss .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Wenn	wenn	_	KOUS	_	_	_	_	_	B-LK
+3	es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	4	subj	_	_	O
+4	sein	sein	_	VAINF	_	_	_	_	_	B-RK
+5	muss	müssen	_	VMFIN	number=sg|person=3|mood=ind|tense=pres	4	aux	_	_	I-RK
+6	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 99
+# sent_id(TSV) = 99
+# TopFString = (S(VF(PDAT Dieses)(NN Buch))(LK(VAFIN wurde))(MF(APPR seit)(CARD 700)(NN Jahren)(PTKNEG nicht)(ADV mehr)(APPR aus)(ART den)(NN Archiven))(VC(VVPP geholt))(PUNKT .))
+# text = Dieses Buch wurde seit 700 Jahren nicht mehr aus den Archiven geholt .
+1	Dieses	dieser	_	PDAT	number=sg|case=nom|gender=neut	_	_	_	_	O
+2	Buch	Buch	_	NN	number=sg|case=nom|gender=neut	12	subj	_	_	O
+3	wurde	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=past	12	aux	_	_	B-LK
+4	seit	seit	_	APPR	_	_	_	_	_	O
+5	700	700	_	CARD	_	_	_	_	_	O
+6	Jahren	Jahr	_	NN	number=pl|case=dat|gender=neut	_	_	_	_	O
+7	nicht	nicht	_	PTKNEG	_	_	_	_	_	O
+8	mehr	mehr	_	ADV	_	_	_	_	_	O
+9	aus	aus	_	APPR	_	_	_	_	_	O
+10	den	der	_	ART	number=pl|case=dat|gender=neut	_	_	_	_	O
+11	Archiven	Archiv	_	NN	number=pl|case=dat|gender=neut	_	_	_	_	O
+12	geholt	holen	_	VVPP	_	_	_	_	_	B-RK
+13	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 100
+# sent_id(TSV) = 100
+# TopFString = (S(VF(PWS Was))(LK(VMFIN wollen))(MF(PPER Sie)(PAV damit))(VC(VVINF sagen))(PUNKT ?))
+# text = Was wollen Sie damit sagen ?
+1	Was	was	_	PWS	number=sg|case=acc|gender=neut	5	obj	_	_	O
+2	wollen	wollen	_	VMFIN	number=pl|person=3|mood=ind|tense=pres	5	aux	_	_	B-LK
+3	Sie	Sie	_	PPER	number=sg|person=3|case=nom|gender=*	5	subj	_	_	O
+4	damit	damit	_	PAV	_	5	pobj	_	_	O
+5	sagen	sagen	_	VVINF	_	_	_	_	_	B-RK
+6	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 101
+# sent_id(TSV) = 101
+# TopFString = (S(VF(PPER Er))(LK(VAFIN hat))(MF(PPER dich))(VC(VVPP gebraucht))(KOMMA ,)(KON und)(VF(PPER du))(LK(VAFIN hast))(MF(PPER ihn)(APPRART im)(NN Stich))(VC(VVPP gelassen))(PUNKT .))
+# text = Er hat dich gebraucht , und du hast ihn im Stich gelassen .
+1	Er	er	_	PPER	person=3|case=nom|gender=masc|number=sg	4	subj	_	_	O
+2	hat	haben	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	4	aux	_	_	B-LK
+3	dich	du	_	PPER	person=2|case=acc|gender=*|number=sg	4	obj	_	_	O
+4	gebraucht	brauchen	_	VVPP	_	_	_	_	_	B-RK
+5	,	,	_	$,	_	_	_	_	_	O
+6	und	und	_	KON	_	_	_	_	_	O
+7	du	du	_	PPER	person=2|case=nom|gender=*|number=sg	12	subj	_	_	O
+8	hast	haben	_	VAFIN	person=2|tense=pres|number=sg|mood=ind	12	aux	_	_	B-LK
+9	ihn	er	_	PPER	person=3|case=acc|gender=masc|number=sg	12	obj	_	_	O
+10	im	in	_	APPRART	gender=masc|case=dat	_	_	_	_	O
+11	Stich	Stich	_	NN	case=dat|gender=masc|number=sg	_	_	_	_	O
+12	gelassen	lassen	_	VVPP	_	_	_	_	_	B-RK
+13	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 102
+# sent_id(TSV) = 102
+# TopFString = (S(KLAMMER -)(VF(NE Mom)(KOMMA ,)(NE Dad))(KOMMA ,)(LK(VVIMP helft))(MF(PPER mir))(PUNKT !))
+# text = - Mom , Dad , helft mir !
+1	-	-	_	$(	_	_	_	_	_	O
+2	Mom	Mom	_	NE	case=nom|gender=fem|number=sg	_	_	_	_	O
+3	,	,	_	$,	_	_	_	_	_	O
+4	Dad	Dad	_	NE	case=nom|gender=masc|number=sg	_	_	_	_	O
+5	,	,	_	$,	_	_	_	_	_	O
+6	helft	helfen	_	VVIMP	number=pl	_	_	_	_	B-LK
+7	mir	ich	_	PPER	person=1|case=dat|gender=*|number=sg	6	iobj	_	_	O
+8	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 103
+# sent_id(TSV) = 103
+# TopFString = (S(KLAMMER -)(NN Schatz)(PUNKT .))
+# text = - Schatz .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Schatz	Schatz	_	NN	case=nom|gender=masc|number=sg	_	_	_	_	O
+3	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 104
+# sent_id(TSV) = 104
+# TopFString = (S(VF(NE Eddie))(LK(VMFIN wollte))(MF(ART den)(NN Brand)(APPR in)(PRF sich))(VC(VVINF löschen))(KOMMA ,)(NF(C(KOUS indem))(MF(PPER er)(APPR in)(ART den)(NN Fluss))(VC(VVFIN sprang)))(PUNKT .))
+# text = Eddie wollte den Brand in sich löschen , indem er in den Fluss sprang .
+1	Eddie	Eddie	_	NE	case=nom|gender=masc|number=sg	7	subj	_	_	O
+2	wollte	wollen	_	VMFIN	person=3|tense=past|number=sg|mood=ind	7	aux	_	_	B-LK
+3	den	der	_	ART	case=acc|gender=masc|number=sg	_	_	_	_	O
+4	Brand	Brand	_	NN	case=acc|gender=masc|number=sg	7	obj	_	_	O
+5	in	in	_	APPR	_	_	_	_	_	O
+6	sich	sich	_	PRF	person=3|case=dat|number=sg	_	_	_	_	O
+7	löschen	löschen	_	VVINF	_	_	_	_	_	B-RK
+8	,	,	_	$,	_	_	_	_	_	O
+9	indem	indem	_	KOUS	_	_	_	_	_	B-LK
+10	er	er	_	PPER	person=3|case=nom|gender=masc|number=sg	14	subj	_	_	O
+11	in	in	_	APPR	_	_	_	_	_	O
+12	den	der	_	ART	case=acc|gender=masc|number=sg	_	_	_	_	O
+13	Fluss	Fluss	_	NN	case=acc|gender=masc|number=sg	_	_	_	_	O
+14	sprang	springen	_	VVFIN	person=3|tense=past|number=sg|mood=ind	_	_	_	_	B-RK
+15	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 105
+# sent_id(TSV) = 105
+# TopFString = (S(LK(VVFIN Siehst))(MF(PPER du))(PUNKT ?))
+# text = Siehst du ?
+1	Siehst	sehen	_	VVFIN	person=2|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+2	du	du	_	PPER	person=2|case=nom|gender=*|number=sg	1	subj	_	_	O
+3	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 106
+# sent_id(TSV) = 106
+# TopFString = (S(VF(PPER Es))(LK(VAFIN ist))(MF(ART das)(NN Beste))(KOMMA ,)(NF(C(KOUS wenn))(MF(PPER wir)(PPER uns)(APPR in)(PDAT diesen)(NN Dingen)(PTKNEG nicht))(VC(VVFIN einmischen)))(PUNKT .))
+# text = Es ist das Beste , wenn wir uns in diesen Dingen nicht einmischen .
+1	Es	es	_	PPER	person=3|case=nom|gender=neut|number=sg	2	expl	_	_	O
+2	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+3	das	der	_	ART	case=nom|gender=neut|number=sg	_	_	_	_	O
+4	Beste	Beste	_	NN	case=nom|gender=neut|number=sg	2	pred	_	_	O
+5	,	,	_	$,	_	_	_	_	_	O
+6	wenn	wenn	_	KOUS	_	_	_	_	_	B-LK
+7	wir	wir	_	PPER	person=1|case=nom|gender=*|number=pl	13	subj	_	_	O
+8	uns	wir	_	PPER	person=1|case=acc|gender=*|number=pl	13	obj	_	_	O
+9	in	in	_	APPR	_	_	_	_	_	O
+10	diesen	dieser	_	PDAT	case=acc|gender=neut|number=pl	_	_	_	_	O
+11	Dingen	Ding	_	NN	case=acc|gender=neut|number=pl	_	_	_	_	O
+12	nicht	nicht	_	PTKNEG	_	_	_	_	_	O
+13	einmischen	einmischen	_	VVFIN	person=1|tense=pres|number=pl|mood=ind	2	vsubj	_	_	B-RK
+14	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 107
+# sent_id(TSV) = 107
+# TopFString = (S(KOORD(KON Aber))(VF(PPER er))(LK(VMFIN kann))(MF(PTKNEG nicht))(VC(VVINF schwimmen))(PUNKT .))
+# text = Aber er kann nicht schwimmen .
+1	Aber	aber	_	KON	_	_	_	_	_	O
+2	er	er	_	PPER	person=3|case=nom|gender=masc|number=sg	5	subj	_	_	O
+3	kann	können	_	VMFIN	person=3|tense=pres|number=sg|mood=ind	5	aux	_	_	B-LK
+4	nicht	nicht	_	PTKNEG	_	_	_	_	_	O
+5	schwimmen	schwimmen	_	VVINF	_	_	_	_	_	B-RK
+6	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 108
+# sent_id(TSV) = 108
+# TopFString = (S(VF(PPER Du))(LK(VAFIN hast))(MF(PPER es)(PPER ihm)(ADV nie))(VC(VVPP beigebracht))(PUNKT .))
+# text = Du hast es ihm nie beigebracht .
+1	Du	du	_	PPER	person=2|case=nom|gender=*|number=sg	6	subj	_	_	O
+2	hast	haben	_	VAFIN	person=2|tense=pres|number=sg|mood=ind	6	aux	_	_	B-LK
+3	es	es	_	PPER	person=3|case=acc|gender=neut|number=sg	6	obj	_	_	O
+4	ihm	er	_	PPER	person=3|case=dat|gender=masc|number=sg	6	iobj	_	_	O
+5	nie	nie	_	ADV	_	_	_	_	_	O
+6	beigebracht	beibringen	_	VVPP	_	_	_	_	_	B-RK
+7	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 109
+# sent_id(TSV) = 109
+# TopFString = (S(LK(VVIMP Lass))(MF(PPER ihn)(PDS das))(VC(VVINF lernen))(KOMMA ,)(NF(C(KOUS wie))(MF(PPER ich)(PPER es))(VC(VVFIN tat))(PUNKT :)(NF(APPR auf)(ART der)(NN Straße)))(PUNKT .))
+# text = Lass ihn das lernen , wie ich es tat : auf der Straße .
+1	Lass	lassen	_	VVIMP	number=sg	_	_	_	_	B-LK
+2	ihn	er	_	PPER	person=3|case=acc|gender=masc|number=sg	1	obj	_	_	O
+3	das	der	_	PDS	case=acc|gender=neut|number=sg	4	obj	_	_	O
+4	lernen	lernen	_	VVINF	_	1	vobj	_	_	B-RK
+5	,	,	_	$,	_	_	_	_	_	O
+6	wie	wie	_	KOUS	_	_	_	_	_	B-LK
+7	ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	9	subj	_	_	O
+8	es	es	_	PPER	person=3|case=acc|gender=neut|number=sg	9	obj	_	_	O
+9	tat	tun	_	VVFIN	person=1|tense=past|number=sg|mood=ind	_	_	_	_	B-RK
+10	:	:	_	$.	_	_	_	_	_	O
+11	auf	auf	_	APPR	_	_	_	_	_	O
+12	der	der	_	ART	case=dat|gender=fem|number=sg	_	_	_	_	O
+13	Straße	Straße	_	NN	case=dat|gender=fem|number=sg	_	_	_	_	O
+14	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 110
+# sent_id(TSV) = 110
+# TopFString = (S(ADJA Nächste)(NN Woche)(APPR bei)(ADV Völlig)(ADJA ineffektiver)(NN Dad)(ART die)(ADJA urkomische)(NN Beerdigungsfolge)(PUNKT .))
+# text = Nächste Woche bei Völlig ineffektiver Dad die urkomische Beerdigungsfolge .
+1	Nächste	nächster	_	ADJA	degree=pos|case=nom|number=sg|gender=fem	_	_	_	_	O
+2	Woche	Woche	_	NN	case=nom|gender=fem|number=sg	_	_	_	_	O
+3	bei	bei	_	APPR	_	_	_	_	_	O
+4	Völlig	völlig	_	ADV	_	_	_	_	_	O
+5	ineffektiver	ineffektiv	_	ADJA	degree=pos|case=nom|number=sg|gender=masc	_	_	_	_	O
+6	Dad	Dad	_	NN	case=nom|gender=masc|number=sg	_	_	_	_	O
+7	die	der	_	ART	case=nom|gender=fem|number=sg	_	_	_	_	O
+8	urkomische	urkomisch	_	ADJA	degree=pos|case=nom|number=sg|gender=fem	_	_	_	_	O
+9	Beerdigungsfolge	Beerdigungsfolge	_	NN	case=nom|gender=fem|number=sg	_	_	_	_	O
+10	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 111
+# sent_id(TSV) = 111
+# TopFString = (S(VF(PPER Ich))(LK(VVFIN finde))(KOMMA ,)(NF(VF(PIS man))(LK(VMFIN kann))(MF(APPR über)(ADV so)(ADJA persönliche)(NN Dinge)(ADV nur))(VC(VVINF sprechen))(KOMMA ,)(NF(C(KOUS wenn))(MF(ART der)(PIS andere)(ART das)(NN Verständnis))(VC(VAFIN hat))))(PUNKT .))
+# text = Ich finde , man kann über so persönliche Dinge nur sprechen , wenn der andere das Verständnis hat .
+1	Ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	2	subj	_	_	O
+2	finde	finden	_	VVFIN	person=1|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+3	,	,	_	$,	_	_	_	_	_	O
+4	man	man	_	PIS	case=nom|gender=*|number=sg	11	subj	_	_	O
+5	kann	können	_	VMFIN	person=3|tense=pres|number=sg|mood=ind	11	aux	_	_	B-LK
+6	über	über	_	APPR	_	9	pcase	_	_	O
+7	so	so	_	ADV	_	_	_	_	_	O
+8	persönliche	persönlich	_	ADJA	degree=pos|case=acc|number=pl|gender=neut	_	_	_	_	O
+9	Dinge	Ding	_	NN	case=acc|gender=neut|number=pl	11	pobj	_	_	O
+10	nur	nur	_	ADV	_	_	_	_	_	O
+11	sprechen	sprechen	_	VVINF	_	2	vobj	_	_	B-RK
+12	,	,	_	$,	_	_	_	_	_	O
+13	wenn	wenn	_	KOUS	_	_	_	_	_	B-LK
+14	der	der	_	ART	case=nom|gender=masc|number=sg	_	_	_	_	O
+15	andere	anderer	_	PIS	case=nom|gender=masc|number=sg	18	subj	_	_	O
+16	das	der	_	ART	case=acc|gender=neut|number=sg	_	_	_	_	O
+17	Verständnis	Verständnis	_	NN	case=acc|gender=neut|number=sg	18	obj	_	_	O
+18	hat	haben	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	B-RK
+19	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 112
+# sent_id(TSV) = 112
+# TopFString = (S(VF(PAV Deshalb))(LK(VVFIN schäme))(MF(PPER ich)(PRF mich)(ADV überhaupt)(PTKNEG nicht))(KOMMA ,)(NF(MF(PPER Ihnen))(VC(PTKZU zu)(VVINF sagen)))(PUNKT :)(VF(APPR Ohne)(NE Babs))(LK(VAFIN wäre))(MF(PPER ich)(ADJD verloren))(PUNKT .))
+# text = Deshalb schäme ich mich überhaupt nicht , Ihnen zu sagen : Ohne Babs wäre ich verloren .
+1	Deshalb	deshalb	_	PAV	_	_	_	_	_	O
+2	schäme	schämen	_	VVFIN	person=1|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+3	ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	2	subj	_	_	O
+4	mich	ich	_	PRF	person=1|case=acc|number=sg	2	obj	_	_	O
+5	überhaupt	überhaupt	_	ADV	_	_	_	_	_	O
+6	nicht	nicht	_	PTKNEG	_	_	_	_	_	O
+7	,	,	_	$,	_	_	_	_	_	O
+8	Ihnen	Sie	_	PPER	person=3|case=dat|gender=*|number=*	10	iobj	_	_	O
+9	zu	zu	_	PTKZU	_	_	_	_	_	B-RK
+10	sagen	sagen	_	VVINF	_	_	_	_	_	I-RK
+11	:	:	_	$.	_	_	_	_	_	O
+12	Ohne	ohne	_	APPR	_	_	_	_	_	O
+13	Babs	Babs	_	NE	case=acc|gender=fem|number=sg	_	_	_	_	O
+14	wäre	sein	_	VAFIN	person=1|tense=past|number=sg|mood=subj	10	vobj	_	_	B-LK
+15	ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	14	subj	_	_	O
+16	verloren	verloren	_	ADJD	degree=pos	14	pred	_	_	O
+17	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 113
+# sent_id(TSV) = 113
+# TopFString = (S(VF(PDS Das))(LK(VAFIN ist))(MF(PPER mir)(ADV ganz)(ADJD klar))(VC(VVPP geworden))(KOMMA ,)(NF(ADV schon)(APPR bei)(PDAT dieser)(ADJA kurzen)(NN Trennung))(PUNKT .))
+# text = Das ist mir ganz klar geworden , schon bei dieser kurzen Trennung .
+1	Das	der	_	PDS	case=nom|gender=neut|number=sg	6	subj	_	_	O
+2	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	6	aux	_	_	B-LK
+3	mir	ich	_	PPER	person=1|case=dat|gender=*|number=sg	6	iobj	_	_	O
+4	ganz	ganz	_	ADV	_	_	_	_	_	O
+5	klar	klar	_	ADJD	degree=pos	6	pred	_	_	O
+6	geworden	werden	_	VVPP	_	_	_	_	_	B-RK
+7	,	,	_	$,	_	_	_	_	_	O
+8	schon	schon	_	ADV	_	_	_	_	_	O
+9	bei	bei	_	APPR	_	_	_	_	_	O
+10	dieser	dieser	_	PDAT	case=dat|gender=fem|number=sg	_	_	_	_	O
+11	kurzen	kurz	_	ADJA	degree=pos|case=dat|number=sg|gender=fem	_	_	_	_	O
+12	Trennung	Trennung	_	NN	case=dat|gender=fem|number=sg	_	_	_	_	O
+13	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 114
+# sent_id(TSV) = 114
+# TopFString = (S(VF(PPER Ich))(LK(VVFIN glaube))(KOMMA ,)(NF(VF(PDS das))(LK(VAFIN wäre))(MF(ART ein)(ADJA schlechtes)(NN Land))(KOMMA ,)(NF(C(KOUI um))(MF(NN Kinder))(VC(VVIZU aufzuziehen))))(PUNKT .))
+# text = Ich glaube , das wäre ein schlechtes Land , um Kinder aufzuziehen .
+1	Ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	2	subj	_	_	O
+2	glaube	glauben	_	VVFIN	person=1|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+3	,	,	_	$,	_	_	_	_	_	O
+4	das	der	_	PDS	case=nom|gender=neut|number=sg	5	pred	_	_	O
+5	wäre	sein	_	VAFIN	person=3|tense=past|number=sg|mood=subj	2	vobj	_	_	B-LK
+6	ein	ein	_	ART	case=nom|gender=neut|number=sg	_	_	_	_	O
+7	schlechtes	schlecht	_	ADJA	degree=pos|case=nom|number=sg|gender=neut	_	_	_	_	O
+8	Land	Land	_	NN	case=nom|gender=neut|number=sg	5	subj	_	_	O
+9	,	,	_	$,	_	_	_	_	_	O
+10	um	um	_	KOUI	_	_	_	_	_	B-LK
+11	Kinder	Kind	_	NN	case=acc|gender=neut|number=pl	12	obj	_	_	O
+12	aufzuziehen	aufziehen	_	VVIZU	_	_	_	_	_	B-RK
+13	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 115
+# sent_id(TSV) = 115
+# TopFString = (S(VF(PPER Ich))(LK(VVFIN weiß))(MF(PTKNEG nicht))(PUNKT .))
+# text = Ich weiß nicht .
+1	Ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	2	subj	_	_	O
+2	weiß	wissen	_	VVFIN	person=1|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+3	nicht	nicht	_	PTKNEG	_	_	_	_	_	O
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 116
+# sent_id(TSV) = 116
+# TopFString = (S(KLAMMER -)(LK(VVFIN Wissen))(MF(PPER Sie))(PUNKT ?))
+# text = - Wissen Sie ?
+1	-	-	_	$(	_	_	_	_	_	O
+2	Wissen	wissen	_	VVFIN	person=3|tense=pres|number=*|mood=ind	_	_	_	_	B-LK
+3	Sie	Sie	_	PPER	person=3|case=nom|gender=*|number=*	2	subj	_	_	O
+4	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 117
+# sent_id(TSV) = 117
+# TopFString = (S(VF(NE Babs)(KON und)(PPER ich))(KOMMA ,)(VF(PPER wir))(LK(VMFIN wollten))(MF(PTKA am)(ADJD liebsten)(ADV gleich)(NN Kinder))(VC(VAINF haben))(PUNKT .))
+# text = Babs und ich , wir wollten am liebsten gleich Kinder haben .
+1	Babs	Babs	_	NE	case=nom|gender=fem|number=sg	_	_	_	_	O
+2	und	und	_	KON	_	_	_	_	_	O
+3	ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	_	_	_	_	O
+4	,	,	_	$,	_	_	_	_	_	O
+5	wir	wir	_	PPER	person=1|case=nom|gender=*|number=pl	11	subj	_	_	O
+6	wollten	wollen	_	VMFIN	person=1|tense=past|number=pl|mood=ind	11	aux	_	_	B-LK
+7	am	am	_	PTKA	_	_	_	_	_	O
+8	liebsten	lieb	_	ADJD	degree=sup	_	_	_	_	O
+9	gleich	gleich	_	ADV	_	_	_	_	_	O
+10	Kinder	Kind	_	NN	case=acc|gender=neut|number=pl	11	obj	_	_	O
+11	haben	haben	_	VAINF	_	_	_	_	_	B-RK
+12	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 118
+# sent_id(TSV) = 118
+# TopFString = (S(KOORD(KON Doch))(VF(ADV dann))(LK(VVFIN kam))(MF(PPER ich)(APPR zu)(PDAT diesem)(NN Job))(PUNKT .))
+# text = Doch dann kam ich zu diesem Job .
+1	Doch	doch	_	KON	_	_	_	_	_	O
+2	dann	dann	_	ADV	_	_	_	_	_	O
+3	kam	kommen	_	VVFIN	person=1|tense=past|number=sg|mood=ind	_	_	_	_	B-LK
+4	ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	3	subj	_	_	O
+5	zu	zu	_	APPR	_	_	_	_	_	O
+6	diesem	dieser	_	PDAT	case=dat|gender=masc|number=sg	_	_	_	_	O
+7	Job	Job	_	NN	case=dat|gender=masc|number=sg	_	_	_	_	O
+8	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 119
+# sent_id(TSV) = 119
+# TopFString = (S(VF(NN Kinder))(MF(PUNKT ...)))
+# text = Kinder ...
+1	Kinder	Kind	_	NN	case=nom|gender=neut|number=pl	_	_	_	_	O
+2	...	...	_	$.	_	_	_	_	_	O
+
+# sent_id = 120
+# sent_id(TSV) = 120
+# TopFString = (S(VF(ADV Zuerst))(LK(VVFIN dachten))(MF(PPER wir)(APPR an)(CARD 2)(NN Jungen)(KON und)(ADV dann)(ADV vielleicht)(ART ein)(NN Mädchen))(PUNKT .))
+# text = Zuerst dachten wir an 2 Jungen und dann vielleicht ein Mädchen .
+1	Zuerst	zuerst	_	ADV	_	_	_	_	_	O
+2	dachten	denken	_	VVFIN	person=1|tense=past|number=pl|mood=ind	_	_	_	_	B-LK
+3	wir	wir	_	PPER	person=1|case=nom|gender=*|number=pl	2	subj	_	_	O
+4	an	an	_	APPR	_	6	pcase	_	_	O
+5	2	2	_	CARD	_	_	_	_	_	O
+6	Jungen	Junge	_	NN	case=acc|gender=masc|number=pl	2	pobj	_	_	O
+7	und	und	_	KON	_	_	_	_	_	O
+8	dann	dann	_	ADV	_	_	_	_	_	O
+9	vielleicht	vielleicht	_	ADV	_	_	_	_	_	O
+10	ein	ein	_	ART	case=acc|gender=neut|number=sg	_	_	_	_	O
+11	Mädchen	Mädchen	_	NN	case=acc|gender=neut|number=sg	_	_	_	_	O
+12	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 121
+# sent_id(TSV) = 121
+# TopFString = (S(VF(APPR Auf)(ART der)(NN Flucht)(APPR vor)(ART der)(NN Steuerfaschistin))(LK(VMFIN konnte))(MF(PPER ich)(NN Pluspunkte)(APPR bei)(NE Sam)(KON und)(ART den)(NN Kindern))(VC(VVINF sammeln))(PUNKT .))
+# text = Auf der Flucht vor der Steuerfaschistin konnte ich Pluspunkte bei Sam und den Kindern sammeln .
+1	Auf	auf	_	APPR	_	_	_	_	_	O
+2	der	der	_	ART	case=dat|gender=fem|number=sg	_	_	_	_	O
+3	Flucht	Flucht	_	NN	case=dat|gender=fem|number=sg	_	_	_	_	O
+4	vor	vor	_	APPR	_	6	pcase	_	_	O
+5	der	der	_	ART	case=dat|gender=fem|number=sg	_	_	_	_	O
+6	Steuerfaschistin	Steuerfaschistin	_	NN	case=dat|gender=fem|number=sg	3	pobj	_	_	O
+7	konnte	können	_	VMFIN	person=1|tense=past|number=sg|mood=ind	15	aux	_	_	B-LK
+8	ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	15	subj	_	_	O
+9	Pluspunkte	Pluspunkt	_	NN	case=acc|gender=masc|number=pl	15	obj	_	_	O
+10	bei	bei	_	APPR	_	_	_	_	_	O
+11	Sam	Sam	_	NE	case=dat|gender=masc|number=sg	_	_	_	_	O
+12	und	und	_	KON	_	_	_	_	_	O
+13	den	der	_	ART	case=dat|gender=neut|number=pl	_	_	_	_	O
+14	Kindern	Kind	_	NN	case=dat|gender=neut|number=pl	_	_	_	_	O
+15	sammeln	sammeln	_	VVINF	_	_	_	_	_	B-RK
+16	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 122
+# sent_id(TSV) = 122
+# TopFString = (S(VF(PWS Wer))(LK(VVFIN hält))(MF(PPER mich)(APPR für)(ART den)(ADJA besten)(NN Daddy)(ART der)(NN Welt))(PUNKT ?))
+# text = Wer hält mich für den besten Daddy der Welt ?
+1	Wer	wer	_	PWS	case=nom|gender=*|number=sg	2	subj	_	_	O
+2	hält	halten	_	VVFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+3	mich	ich	_	PPER	person=1|case=acc|gender=*|number=sg	2	obj	_	_	O
+4	für	für	_	APPR	_	7	pcase	_	_	O
+5	den	der	_	ART	case=acc|gender=masc|number=sg	_	_	_	_	O
+6	besten	gut	_	ADJA	degree=sup|case=acc|number=sg|gender=masc	_	_	_	_	O
+7	Daddy	Daddy	_	NN	case=acc|gender=masc|number=sg	2	pobj	_	_	O
+8	der	der	_	ART	case=gen|gender=fem|number=sg	_	_	_	_	O
+9	Welt	Welt	_	NN	case=gen|gender=fem|number=sg	_	_	_	_	O
+10	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 123
+# sent_id(TSV) = 123
+# TopFString = (S(KLAMMER -)(VF(PWS Wer))(LK(VMFIN will))(MF(ADV heute)(NN Schule))(VC(VVINF schwänzen))(PUNKT ?))
+# text = - Wer will heute Schule schwänzen ?
+1	-	-	_	$(	_	_	_	_	_	O
+2	Wer	wer	_	PWS	case=nom|gender=*|number=sg	6	subj	_	_	O
+3	will	wollen	_	VMFIN	person=3|tense=pres|number=sg|mood=ind	6	aux	_	_	B-LK
+4	heute	heute	_	ADV	_	_	_	_	_	O
+5	Schule	Schule	_	NN	case=acc|gender=fem|number=sg	6	obj	_	_	O
+6	schwänzen	schwänzen	_	VVINF	_	_	_	_	_	B-RK
+7	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 124
+# sent_id(TSV) = 124
+# TopFString = (S(KLAMMER -)(PTKANT Ja)(PUNKT .))
+# text = - Ja .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Ja	ja	_	PTKANT	_	_	_	_	_	O
+3	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 125
+# sent_id(TSV) = 125
+# TopFString = (S(ADV Schon)(ADJD besser)(PUNKT .))
+# text = Schon besser .
+1	Schon	schon	_	ADV	_	_	_	_	_	O
+2	besser	gut	_	ADJD	degree=comp	_	_	_	_	O
+3	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 126
+# sent_id(TSV) = 126
+# TopFString = (S(VF(ADV Okay))(MF(PUNKT .)))
+# text = Okay .
+1	Okay	okay	_	ADV	_	_	_	_	_	O
+2	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 127
+# sent_id(TSV) = 127
+# TopFString = (S(VF(ART Die)(NE Swans))(LK(VVFIN machen))(MF(ART einen)(NN Familienausflug))(PUNKT .))
+# text = Die Swans machen einen Familienausflug .
+1	Die	der	_	ART	case=nom|gender=*|number=pl	_	_	_	_	O
+2	Swans	Swan	_	NE	case=nom|gender=*|number=pl	3	subj	_	_	O
+3	machen	machen	_	VVFIN	person=3|tense=pres|number=pl|mood=ind	_	_	_	_	B-LK
+4	einen	ein	_	ART	case=acc|gender=masc|number=sg	_	_	_	_	O
+5	Familienausflug	Familienausflug	_	NN	case=acc|gender=masc|number=sg	3	obj	_	_	O
+6	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 128
+# sent_id(TSV) = 128
+# TopFString = (S(VF(PDS Die))(LK(VVFIN finden))(MF(NN Wege))(KOMMA ,)(NF(MF(ART die)(NN Seite)(CARD drei)(ADV jetzt)(ADV sogar)(ADV noch)(ADJD gruseliger))(VC(PTKZU zu)(VVINF machen)))(PUNKT .))
+# text = Die finden Wege , die Seite drei jetzt sogar noch gruseliger zu machen .
+1	Die	der	_	PDS	case=nom|gender=*|number=pl	2	subj	_	_	O
+2	finden	finden	_	VVFIN	person=3|tense=pres|number=pl|mood=ind	_	_	_	_	B-LK
+3	Wege	Weg	_	NN	case=acc|gender=masc|number=pl	2	obj	_	_	O
+4	,	,	_	$,	_	_	_	_	_	O
+5	die	der	_	ART	case=acc|gender=fem|number=sg	_	_	_	_	O
+6	Seite	Seite	_	NN	case=acc|gender=fem|number=sg	13	obj	_	_	O
+7	drei	drei	_	CARD	_	_	_	_	_	O
+8	jetzt	jetzt	_	ADV	_	_	_	_	_	O
+9	sogar	sogar	_	ADV	_	_	_	_	_	O
+10	noch	noch	_	ADV	_	_	_	_	_	O
+11	gruseliger	gruselig	_	ADJD	degree=comp	_	_	_	_	O
+12	zu	zu	_	PTKZU	_	_	_	_	_	B-RK
+13	machen	machen	_	VVINF	_	_	_	_	_	I-RK
+14	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 129
+# sent_id(TSV) = 129
+# TopFString = (S(KLAMMER ")(VF(ART Die)(ADJA süße)(NE Karen)(NE Clarke))(LK(VAFIN war))(MF(ADV schon)(APPR in)(ADJA jungen)(NN Jahren)(ART eine)(NN Oben-ohne-Schönheit))(PUNKT .))
+# text = " Die süße Karen Clarke war schon in jungen Jahren eine Oben-ohne-Schönheit .
+1	"	"	_	$(	_	_	_	_	_	O
+2	Die	der	_	ART	case=nom|gender=fem|number=sg	_	_	_	_	O
+3	süße	süß	_	ADJA	degree=pos|case=nom|number=sg|gender=fem	_	_	_	_	O
+4	Karen	Karen	_	NE	case=nom|gender=fem|number=sg	_	_	_	_	O
+5	Clarke	Clarke	_	NE	case=nom|gender=fem|number=sg	6	subj	_	_	O
+6	war	sein	_	VAFIN	person=3|tense=past|number=sg|mood=ind	_	_	_	_	B-LK
+7	schon	schon	_	ADV	_	_	_	_	_	O
+8	in	in	_	APPR	_	_	_	_	_	O
+9	jungen	jung	_	ADJA	degree=pos|case=dat|number=pl|gender=neut	_	_	_	_	O
+10	Jahren	Jahr	_	NN	case=dat|gender=neut|number=pl	_	_	_	_	O
+11	eine	ein	_	ART	case=nom|gender=fem|number=sg	_	_	_	_	O
+12	Oben-ohne-Schönheit	Oben-ohne-Schönheit	_	NN	case=nom|gender=fem|number=sg	6	pred	_	_	O
+13	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 130
+# sent_id(TSV) = 130
+# TopFString = (S(KOORD(KON Aber))(VF(ADV jetzt))(LK(VAFIN ist))(MF(PPER sie)(ART ein)(ADJA großes)(NN Mädchen)(KON und)(ART eine)(ADJA wohlgeformte)(NN Lady))(PUNKT .)(KLAMMER "))
+# text = Aber jetzt ist sie ein großes Mädchen und eine wohlgeformte Lady . "
+1	Aber	aber	_	KON	_	_	_	_	_	O
+2	jetzt	jetzt	_	ADV	_	_	_	_	_	O
+3	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+4	sie	sie	_	PPER	person=3|case=nom|gender=fem|number=sg	3	subj	_	_	O
+5	ein	ein	_	ART	case=nom|gender=neut|number=sg	_	_	_	_	O
+6	großes	groß	_	ADJA	degree=pos|case=nom|number=sg|gender=neut	_	_	_	_	O
+7	Mädchen	Mädchen	_	NN	case=nom|gender=neut|number=sg	3	pred	_	_	O
+8	und	und	_	KON	_	_	_	_	_	O
+9	eine	ein	_	ART	case=nom|gender=fem|number=sg	_	_	_	_	O
+10	wohlgeformte	wohlgeformt	_	ADJA	degree=pos|case=nom|number=sg|gender=fem	_	_	_	_	O
+11	Lady	Lady	_	NN	case=nom|gender=fem|number=sg	_	_	_	_	O
+12	.	.	_	$.	_	_	_	_	_	O
+13	"	"	_	$(	_	_	_	_	_	O
+
+# sent_id = 131
+# sent_id(TSV) = 131
+# TopFString = (S(VF(PWS Was))(LK(VAFIN ist))(MF(APPR mit)(NE Cassie)(KON und)(NE Ramse))(PUNKT ?))
+# text = Was ist mit Cassie und Ramse ?
+1	Was	was	_	PWS	case=nom|gender=neut|number=sg	2	subj	_	_	O
+2	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+3	mit	mit	_	APPR	_	_	_	_	_	O
+4	Cassie	Cassie	_	NE	case=dat|gender=fem|number=sg	_	_	_	_	O
+5	und	und	_	KON	_	_	_	_	_	O
+6	Ramse	Ramse	_	NE	case=dat|gender=masc|number=sg	_	_	_	_	O
+7	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 132
+# sent_id(TSV) = 132
+# TopFString = (S(VF(PPER Ich))(LK(VVFIN dachte))(KOMMA ,)(NF(VF(PPER du))(LK(VAFIN würdest))(MF(PPER sie)(ADV zuletzt))(VC(VVINF rauslassen)(VMINF wollen))(KOMMA ,)(NF(APPR für)(ART den)(NN Fall)(KOMMA ,)(C(KOUS dass))(MF(PPER sie)(PIS etwas))(VC(VVFIN versuchen))))(PUNKT .))
+# text = Ich dachte , du würdest sie zuletzt rauslassen wollen , für den Fall , dass sie etwas versuchen .
+1	Ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	2	subj	_	_	O
+2	dachte	denken	_	VVFIN	person=1|tense=past|number=sg|mood=ind	_	_	_	_	B-LK
+3	,	,	_	$,	_	_	_	_	_	O
+4	du	du	_	PPER	person=2|case=nom|gender=*|number=sg	8	subj	_	_	O
+5	würdest	werden	_	VAFIN	person=2|tense=past|number=sg|mood=subj	8	aux	_	_	B-LK
+6	sie	sie	_	PPER	person=3|case=acc|gender=*|number=pl	8	obj	_	_	O
+7	zuletzt	zuletzt	_	ADV	_	_	_	_	_	O
+8	rauslassen	rauslassen	_	VVINF	_	2	vobj	_	_	B-RK
+9	wollen	wollen	_	VMINF	_	8	aux	_	_	I-RK
+10	,	,	_	$,	_	_	_	_	_	O
+11	für	für	_	APPR	_	_	_	_	_	O
+12	den	der	_	ART	case=acc|gender=masc|number=sg	_	_	_	_	O
+13	Fall	Fall	_	NN	case=acc|gender=masc|number=sg	_	_	_	_	O
+14	,	,	_	$,	_	_	_	_	_	O
+15	dass	dass	_	KOUS	_	_	_	_	_	B-LK
+16	sie	sie	_	PPER	person=3|case=nom|gender=*|number=pl	18	subj	_	_	O
+17	etwas	etwas	_	PIS	case=acc|gender=neut|number=sg	18	obj	_	_	O
+18	versuchen	versuchen	_	VVFIN	person=3|tense=pres|number=pl|mood=ind	_	_	_	_	B-RK
+19	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 133
+# sent_id(TSV) = 133
+# TopFString = (S(KLAMMER -)(PTKANT Ja)(PUNKT .))
+# text = - Ja .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Ja	ja	_	PTKANT	_	_	_	_	_	O
+3	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 134
+# sent_id(TSV) = 134
+# TopFString = (S(KLAMMER -)(VF(PDS Das))(LK(VAFIN habe))(MF(PPER ich)(PRF mir))(VC(VVPP gedacht))(PUNKT .))
+# text = - Das habe ich mir gedacht .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Das	der	_	PDS	case=acc|gender=neut|number=sg	6	obj	_	_	O
+3	habe	haben	_	VAFIN	person=1|tense=pres|number=sg|mood=ind	6	aux	_	_	B-LK
+4	ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	6	subj	_	_	O
+5	mir	ich	_	PRF	person=1|case=dat|number=sg	6	iobj	_	_	O
+6	gedacht	denken	_	VVPP	_	_	_	_	_	B-RK
+7	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 135
+# sent_id(TSV) = 135
+# TopFString = (S(VF(PWS Was)(APPRART zur)(NN Hölle))(LK(VAFIN war))(MF(PDS das))(PUNKT ?))
+# text = Was zur Hölle war das ?
+1	Was	was	_	PWS	case=nom|gender=neut|number=sg	4	pred	_	_	O
+2	zur	zu	_	APPRART	gender=fem|case=dat	_	_	_	_	O
+3	Hölle	Hölle	_	NN	case=dat|gender=fem|number=sg	_	_	_	_	O
+4	war	sein	_	VAFIN	person=3|tense=past|number=sg|mood=ind	_	_	_	_	B-LK
+5	das	der	_	PDS	case=nom|gender=neut|number=sg	4	subj	_	_	O
+6	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 136
+# sent_id(TSV) = 136
+# TopFString = (S(KLAMMER -)(VF(PWS Was)(APPRART zur)(NN Hölle))(LK(VAFIN ist))(VC(VVPP passiert))(PUNKT ?))
+# text = - Was zur Hölle ist passiert ?
+1	-	-	_	$(	_	_	_	_	_	O
+2	Was	was	_	PWS	case=nom|gender=neut|number=sg	6	subj	_	_	O
+3	zur	zu	_	APPRART	gender=fem|case=dat	_	_	_	_	O
+4	Hölle	Hölle	_	NN	case=dat|gender=fem|number=sg	_	_	_	_	O
+5	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	6	aux	_	_	B-LK
+6	passiert	passieren	_	VVPP	_	_	_	_	_	B-RK
+7	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 137
+# sent_id(TSV) = 137
+# TopFString = (S(KLAMMER -)(VF(ART Der)(NN Blitz))(LK(VVFIN traf))(MF(PIS einen)(ART der)(NN Transformatoren))(PUNKT .))
+# text = - Der Blitz traf einen der Transformatoren .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Der	der	_	ART	case=nom|gender=masc|number=sg	_	_	_	_	O
+3	Blitz	Blitz	_	NN	case=nom|gender=masc|number=sg	4	subj	_	_	O
+4	traf	treffen	_	VVFIN	person=3|tense=past|number=sg|mood=ind	_	_	_	_	B-LK
+5	einen	einer	_	PIS	case=acc|gender=masc|number=sg	4	obj	_	_	O
+6	der	der	_	ART	case=gen|gender=masc|number=pl	_	_	_	_	O
+7	Transformatoren	Transformator	_	NN	case=gen|gender=masc|number=pl	_	_	_	_	O
+8	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 138
+# sent_id(TSV) = 138
+# TopFString = (S(VF(PPER Wir))(LK(VMFIN dürfen))(MF(ART die)(NN Evakuierung)(PTKNEG nicht))(VC(VVINF verzögern))(PUNKT .))
+# text = Wir dürfen die Evakuierung nicht verzögern .
+1	Wir	wir	_	PPER	person=1|case=nom|gender=*|number=pl	6	subj	_	_	O
+2	dürfen	dürfen	_	VMFIN	person=1|tense=pres|number=pl|mood=ind	6	aux	_	_	B-LK
+3	die	der	_	ART	case=acc|gender=fem|number=sg	_	_	_	_	O
+4	Evakuierung	Evakuierung	_	NN	case=acc|gender=fem|number=sg	6	obj	_	_	O
+5	nicht	nicht	_	PTKNEG	_	_	_	_	_	O
+6	verzögern	verzögern	_	VVINF	_	_	_	_	_	B-RK
+7	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 139
+# sent_id(TSV) = 139
+# TopFString = (S(LK(VVIMP Leite))(MF(PIS alle)(APPR über)(ART den)(ADJA westlichen)(NN Gang)(APPRART zur)(NN Fahrzeughalle))(PUNKT .))
+# text = Leite alle über den westlichen Gang zur Fahrzeughalle .
+1	Leite	leiten	_	VVIMP	number=sg	_	_	_	_	B-LK
+2	alle	alle	_	PIS	case=acc|gender=*|number=pl	1	obj	_	_	O
+3	über	über	_	APPR	_	_	_	_	_	O
+4	den	der	_	ART	case=acc|gender=masc|number=sg	_	_	_	_	O
+5	westlichen	westlich	_	ADJA	degree=pos|case=acc|number=sg|gender=masc	_	_	_	_	O
+6	Gang	Gang	_	NN	case=acc|gender=masc|number=sg	_	_	_	_	O
+7	zur	zu	_	APPRART	gender=fem|case=dat	_	_	_	_	O
+8	Fahrzeughalle	Fahrzeughalle	_	NN	case=dat|gender=fem|number=sg	_	_	_	_	O
+9	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 140
+# sent_id(TSV) = 140
+# TopFString = (S(KLAMMER -)(VF(PWAV Wie)(PIS viele))(LK(VAFIN sind))(MF(ADJD verwundet))(PUNKT ?))
+# text = - Wie viele sind verwundet ?
+1	-	-	_	$(	_	_	_	_	_	O
+2	Wie	wie	_	PWAV	_	_	_	_	_	O
+3	viele	viele	_	PIS	case=nom|gender=*|number=pl	4	subj	_	_	O
+4	sind	sein	_	VAFIN	person=3|tense=pres|number=pl|mood=ind	_	_	_	_	B-LK
+5	verwundet	verwundet	_	ADJD	degree=pos	4	pred	_	_	O
+6	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 141
+# sent_id(TSV) = 141
+# TopFString = (S(VF(LV(C(KOUS Obwohl)))(KOMMA ,)(VF(PPER er))(LK(VAFIN hat))(ADJA schöne)(NN Reifen))(LK(VAFIN hat))(KLAMMER ...)(MF(APPR für)(ART einen)(NN Verrückten))(PUNKT .))
+# text = Obwohl , er hat schöne Reifen hat ... für einen Verrückten .
+1	Obwohl	obwohl	_	KOUS	_	_	_	_	_	B-LK
+2	,	,	_	$,	_	_	_	_	_	O
+3	er	er	_	PPER	person=3|case=nom|gender=masc|number=sg	4	subj	_	_	O
+4	hat	haben	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+5	schöne	schön	_	ADJA	degree=pos|case=acc|number=pl|gender=masc	_	_	_	_	O
+6	Reifen	Reifen	_	NN	case=acc|gender=masc|number=pl	4	obj	_	_	O
+7	hat	haben	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+8	...	...	_	$(	_	_	_	_	_	O
+9	für	für	_	APPR	_	_	_	_	_	O
+10	einen	ein	_	ART	case=acc|gender=masc|number=sg	_	_	_	_	O
+11	Verrückten	Verrückte	_	NN	case=acc|gender=masc|number=sg	_	_	_	_	O
+12	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 142
+# sent_id(TSV) = 142
+# TopFString = (S(LK(VVIMP Halt))(MF(ART den)(NN Mund))(PUNKT !))
+# text = Halt den Mund !
+1	Halt	halten	_	VVIMP	number=sg	_	_	_	_	B-LK
+2	den	der	_	ART	case=acc|gender=masc|number=sg	_	_	_	_	O
+3	Mund	Mund	_	NN	case=acc|gender=masc|number=sg	1	obj	_	_	O
+4	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 143
+# sent_id(TSV) = 143
+# TopFString = (S(KLAMMER -)(APPR Zu)(NN Hause)(PUNKT !))
+# text = - Zu Hause !
+1	-	-	_	$(	_	_	_	_	_	O
+2	Zu	zu	_	APPR	_	_	_	_	_	O
+3	Hause	Haus	_	NN	case=dat|gender=neut|number=sg	_	_	_	_	O
+4	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 144
+# sent_id(TSV) = 144
+# TopFString = (S(KLAMMER -)(VF(PDAT Dieser)(NN Ort))(LK(VAFIN ist))(MF(ADV verdammt)(ADJD geil))(PUNKT .))
+# text = - Dieser Ort ist verdammt geil .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Dieser	dieser	_	PDAT	case=nom|gender=masc|number=sg	_	_	_	_	O
+3	Ort	Ort	_	NN	case=nom|gender=masc|number=sg	4	subj	_	_	O
+4	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+5	verdammt	verdammt	_	ADV	_	_	_	_	_	O
+6	geil	geil	_	ADJD	degree=pos	4	pred	_	_	O
+7	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 145
+# sent_id(TSV) = 145
+# TopFString = (S(KOKOM Wie)(APPRART im)(NN Schlaraffenland)(PUNKT .))
+# text = Wie im Schlaraffenland .
+1	Wie	wie	_	KOKOM	_	_	_	_	_	O
+2	im	in	_	APPRART	gender=neut|case=dat	_	_	_	_	O
+3	Schlaraffenland	Schlaraffenland	_	NN	case=dat|gender=neut|number=sg	_	_	_	_	O
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 146
+# sent_id(TSV) = 146
+# TopFString = (S(VF(ADV Hier))(LK(VVFIN kommen))(MF(ART die)(ADJA reichen)(NN Kinder)(APPRART zum)(NN sterben))(VC(PTKVZ hin))(PUNKT .))
+# text = Hier kommen die reichen Kinder zum sterben hin .
+1	Hier	hier	_	ADV	_	_	_	_	_	O
+2	kommen	kommen	_	VVFIN	person=3|tense=pres|number=pl|mood=ind	_	_	_	_	B-LK
+3	die	der	_	ART	case=nom|gender=neut|number=pl	_	_	_	_	O
+4	reichen	reich	_	ADJA	degree=pos|case=nom|number=pl|gender=neut	_	_	_	_	O
+5	Kinder	Kind	_	NN	case=nom|gender=neut|number=pl	2	subj	_	_	O
+6	zum	zu	_	APPRART	gender=neut|case=dat	_	_	_	_	O
+7	sterben	Sterben	_	NN	case=dat|gender=neut|number=sg	_	_	_	_	O
+8	hin	hin	_	PTKVZ	_	_	_	_	_	B-RK
+9	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 147
+# sent_id(TSV) = 147
+# TopFString = (S(ADJD Willkommen)(APPR in)(PPOSAT meiner)(NN Welt)(PUNKT .))
+# text = Willkommen in meiner Welt .
+1	Willkommen	willkommen	_	ADJD	degree=pos	_	_	_	_	O
+2	in	in	_	APPR	_	_	_	_	_	O
+3	meiner	mein	_	PPOSAT	case=dat|gender=fem|number=sg	_	_	_	_	O
+4	Welt	Welt	_	NN	case=dat|gender=fem|number=sg	_	_	_	_	O
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 148
+# sent_id(TSV) = 148
+# TopFString = (S(VF(PPER Mir))(LK(VAFIN ist))(MF(ART ein)(PIS bisschen)(ADJD schlecht))(PUNKT !))
+# text = Mir ist ein bisschen schlecht !
+1	Mir	ich	_	PPER	person=1|case=dat|gender=*|number=sg	2	iobj	_	_	O
+2	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+3	ein	ein	_	ART	case=*|gender=*|number=*	_	_	_	_	O
+4	bisschen	bisschen	_	PIS	case=*|gender=*|number=*	_	_	_	_	O
+5	schlecht	schlecht	_	ADJD	degree=pos	2	pred	_	_	O
+6	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 149
+# sent_id(TSV) = 149
+# TopFString = (S(NE Kevin)(KOMMA ,)(VF(PPER ich))(LK(VVFIN glaube))(KOMMA ,)(NF(VF(PPER du))(LK(VMFIN solltest))(MF(NE Julie)(APPRART ins)(NN Badezimmer))(VC(VVINF bringen)))(PUNKT .))
+# text = Kevin , ich glaube , du solltest Julie ins Badezimmer bringen .
+1	Kevin	Kevin	_	NE	case=nom|gender=masc|number=sg	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	4	subj	_	_	O
+4	glaube	glauben	_	VVFIN	person=1|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+5	,	,	_	$,	_	_	_	_	_	O
+6	du	du	_	PPER	person=2|case=nom|gender=*|number=sg	11	subj	_	_	O
+7	solltest	sollen	_	VMFIN	person=2|tense=past|number=sg|mood=subj	11	aux	_	_	B-LK
+8	Julie	Julie	_	NE	case=acc|gender=fem|number=sg	11	obj	_	_	O
+9	ins	in	_	APPRART	gender=neut|case=acc	_	_	_	_	O
+10	Badezimmer	Badezimmer	_	NN	case=acc|gender=neut|number=sg	_	_	_	_	O
+11	bringen	bringen	_	VVINF	_	4	vobj	_	_	B-RK
+12	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 150
+# sent_id(TSV) = 150
+# TopFString = (S(LK(VVIMP Komm))(MF(ADV schon))(PUNKT .))
+# text = Komm schon .
+1	Komm	kommen	_	VVIMP	number=sg	_	_	_	_	B-LK
+2	schon	schon	_	ADV	_	_	_	_	_	O
+3	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 151
+# sent_id(TSV) = 151
+# TopFString = (S(PTKANT Nein)(KOMMA ,)(VF(ART die)(NN Ärzte))(LK(VAFIN sind))(MF(ADV sehr)(ADJD zufrieden))(KOMMA ,)(VF(PPER er))(LK(VAFIN ist))(MF(ART der)(NN Tapferste))(PUNKT .))
+# text = Nein , die Ärzte sind sehr zufrieden , er ist der Tapferste .
+1	Nein	nein	_	PTKANT	_	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	die	der	_	ART	case=nom|gender=masc|number=pl	_	_	_	_	O
+4	Ärzte	Arzt	_	NN	case=nom|gender=masc|number=pl	5	subj	_	_	O
+5	sind	sein	_	VAFIN	person=3|tense=pres|number=pl|mood=ind	_	_	_	_	B-LK
+6	sehr	sehr	_	ADV	_	_	_	_	_	O
+7	zufrieden	zufrieden	_	ADJD	degree=pos	5	pred	_	_	O
+8	,	,	_	$,	_	_	_	_	_	O
+9	er	er	_	PPER	person=3|case=nom|gender=masc|number=sg	10	subj	_	_	O
+10	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+11	der	der	_	ART	case=nom|gender=masc|number=sg	_	_	_	_	O
+12	Tapferste	Tapferste	_	NN	case=nom|gender=masc|number=sg	10	pred	_	_	O
+13	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 152
+# sent_id(TSV) = 152
+# TopFString = (S(LK(VAFIN Hast))(MF(PPER du)(ART die)(NN Bodys))(PUNKT ?))
+# text = Hast du die Bodys ?
+1	Hast	haben	_	VAFIN	person=2|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+2	du	du	_	PPER	person=2|case=nom|gender=*|number=sg	1	subj	_	_	O
+3	die	der	_	ART	case=acc|gender=masc|number=pl	_	_	_	_	O
+4	Bodys	Body	_	NN	case=acc|gender=masc|number=pl	1	obj	_	_	O
+5	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 153
+# sent_id(TSV) = 153
+# TopFString = (S(LK(VVIMP Frag))(MF(PPOSAT deinen)(NN Vater))(PUNKT !))
+# text = Frag deinen Vater !
+1	Frag	fragen	_	VVIMP	number=sg	_	_	_	_	B-LK
+2	deinen	dein	_	PPOSAT	case=acc|gender=masc|number=sg	_	_	_	_	O
+3	Vater	Vater	_	NN	case=acc|gender=masc|number=sg	1	obj	_	_	O
+4	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 154
+# sent_id(TSV) = 154
+# TopFString = (S(LK(VVIMP Sag))(MF(PPER 's)(PPER ihr))(PUNKT !))
+# text = Sag 's ihr !
+1	Sag	sagen	_	VVIMP	number=sg	_	_	_	_	B-LK
+2	's	es	_	PPER	person=3|case=acc|gender=neut|number=sg	1	obj	_	_	O
+3	ihr	sie	_	PPER	person=3|case=dat|gender=fem|number=sg	1	iobj	_	_	O
+4	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 155
+# sent_id(TSV) = 155
+# TopFString = (S(VF(PPER Ich))(LK(VAFIN hatte))(MF(ART die)(NN Tüte)(PAV damit))(VC(VVPP vorbereitet))(KON und)(VF(PPER er))(LK(VVFIN lässt))(MF(PPER sie))(VC(VVINF stehen))(PUNKT !))
+# text = Ich hatte die Tüte damit vorbereitet und er lässt sie stehen !
+1	Ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	6	subj	_	_	O
+2	hatte	haben	_	VAFIN	person=1|tense=past|number=sg|mood=ind	6	aux	_	_	B-LK
+3	die	der	_	ART	case=acc|gender=fem|number=sg	_	_	_	_	O
+4	Tüte	Tüte	_	NN	case=acc|gender=fem|number=sg	6	obj	_	_	O
+5	damit	damit	_	PAV	_	_	_	_	_	O
+6	vorbereitet	vorbereiten	_	VVPP	_	_	_	_	_	B-RK
+7	und	und	_	KON	_	_	_	_	_	O
+8	er	er	_	PPER	person=3|case=nom|gender=masc|number=sg	9	subj	_	_	O
+9	lässt	lassen	_	VVFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+10	sie	sie	_	PPER	person=3|case=acc|gender=fem|number=sg	9	obj	_	_	O
+11	stehen	stehen	_	VVINF	_	9	vobj	_	_	B-RK
+12	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 156
+# sent_id(TSV) = 156
+# TopFString = (S(ADV Schade)(KOMMA ,)(VF(PPER ich))(LK(VAFIN hab))(MF(PTKNEG nicht)(ADV mehr)(PIS viele))(PUNKT .))
+# text = Schade , ich hab nicht mehr viele .
+1	Schade	schade	_	ADV	_	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	4	subj	_	_	O
+4	hab	haben	_	VAFIN	person=1|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+5	nicht	nicht	_	PTKNEG	_	_	_	_	_	O
+6	mehr	mehr	_	ADV	_	_	_	_	_	O
+7	viele	viele	_	PIS	case=acc|gender=fem|number=pl	4	obj	_	_	O
+8	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 157
+# sent_id(TSV) = 157
+# TopFString = (S(LK(VVFIN Siehst))(MF(PPER du))(KOMMA ,)(VF(PPER sie))(LK(VAFIN ist))(MF(ADV sehr)(ADJD enttäuscht))(PUNKT !))
+# text = Siehst du , sie ist sehr enttäuscht !
+1	Siehst	sehen	_	VVFIN	person=2|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+2	du	du	_	PPER	person=2|case=nom|gender=*|number=sg	1	subj	_	_	O
+3	,	,	_	$,	_	_	_	_	_	O
+4	sie	sie	_	PPER	person=3|case=nom|gender=fem|number=sg	5	subj	_	_	O
+5	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	1	vobj	_	_	B-LK
+6	sehr	sehr	_	ADV	_	_	_	_	_	O
+7	enttäuscht	enttäuscht	_	ADJD	degree=pos	5	pred	_	_	O
+8	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 158
+# sent_id(TSV) = 158
+# TopFString = (S(ADV Gut)(KOMMA ,)(VF(PPER ich))(LK(VAFIN hab))(MF(PPER sie))(VC(VVPP vergessen))(PUNKT !))
+# text = Gut , ich hab sie vergessen !
+1	Gut	gut	_	ADV	_	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	6	subj	_	_	O
+4	hab	haben	_	VAFIN	person=1|tense=pres|number=sg|mood=ind	6	aux	_	_	B-LK
+5	sie	sie	_	PPER	person=3|case=acc|gender=fem|number=sg	6	obj	_	_	O
+6	vergessen	vergessen	_	VVPP	_	_	_	_	_	B-RK
+7	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 159
+# sent_id(TSV) = 159
+# TopFString = (S(LK(VVIMP Mach))(MF(PTKNEG nicht)(ADV so)(ART ein)(NN Theater))(PUNKT !))
+# text = Mach nicht so ein Theater !
+1	Mach	machen	_	VVIMP	number=sg	_	_	_	_	B-LK
+2	nicht	nicht	_	PTKNEG	_	_	_	_	_	O
+3	so	so	_	ADV	_	_	_	_	_	O
+4	ein	ein	_	ART	case=acc|gender=neut|number=sg	_	_	_	_	O
+5	Theater	Theater	_	NN	case=acc|gender=neut|number=sg	1	obj	_	_	O
+6	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 160
+# sent_id(TSV) = 160
+# TopFString = (S(VF(ADJD Typisch))(MF(PUNKT !)))
+# text = Typisch !
+1	Typisch	typisch	_	ADJD	degree=pos	_	_	_	_	O
+2	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 161
+# sent_id(TSV) = 161
+# TopFString = (S(KLAMMER -)(APPR Mit)(ART dem)(NN Mund)(PUNKT .))
+# text = - Mit dem Mund .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Mit	mit	_	APPR	_	_	_	_	_	O
+3	dem	der	_	ART	case=dat|gender=masc|number=sg	_	_	_	_	O
+4	Mund	Mund	_	NN	case=dat|gender=masc|number=sg	_	_	_	_	O
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 162
+# sent_id(TSV) = 162
+# TopFString = (S(VF(PPOSAT Mein)(NN Autoreifen))(LK(VAFIN ist))(VC(VVPP geplatzt))(PUNKT .))
+# text = Mein Autoreifen ist geplatzt .
+1	Mein	mein	_	PPOSAT	case=nom|gender=masc|number=sg	_	_	_	_	O
+2	Autoreifen	Autoreifen	_	NN	case=nom|gender=masc|number=sg	4	subj	_	_	O
+3	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	4	aux	_	_	B-LK
+4	geplatzt	platzen	_	VVPP	_	_	_	_	_	B-RK
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 163
+# sent_id(TSV) = 163
+# TopFString = (S(VF(PPOSAT Meine)(NN Allianz))(LK(VAFIN ist))(MF(ADV vorbei))(PUNKT .))
+# text = Meine Allianz ist vorbei .
+1	Meine	mein	_	PPOSAT	case=nom|gender=fem|number=sg	_	_	_	_	O
+2	Allianz	Allianz	_	NN	case=nom|gender=fem|number=sg	3	subj	_	_	O
+3	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+4	vorbei	vorbei	_	ADV	_	3	pred	_	_	O
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 164
+# sent_id(TSV) = 164
+# TopFString = (S(PIAT Viel)(NN Glück)(PUNKT .))
+# text = Viel Glück .
+1	Viel	viel	_	PIAT	case=nom|gender=neut|number=sg	_	_	_	_	O
+2	Glück	Glück	_	NN	case=nom|gender=neut|number=sg	_	_	_	_	O
+3	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 165
+# sent_id(TSV) = 165
+# TopFString = (S(C(PWS Was))(VC(PUNKT ?)))
+# text = Was ?
+1	Was	was	_	PWS	case=nom|gender=neut|number=sg	_	_	_	_	B-LK
+2	?	?	_	$.	_	_	_	_	_	B-RK
+
+# sent_id = 166
+# sent_id(TSV) = 166
+# TopFString = (S(VF(NE Dad))(MF(PUNKT !)))
+# text = Dad !
+1	Dad	Dad	_	NE	case=nom|gender=masc|number=sg	_	_	_	_	O
+2	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 167
+# sent_id(TSV) = 167
+# TopFString = (S(VF(ART Das)(NN Gute)(PAV daran))(LK(VAFIN ist))(KOMMA ,)(NF(C(KOUS dass))(MF(PPER ich)(PPOSAT meinen)(NN Fisch))(VC(VVFIN wiedersehe)))(PUNKT .))
+# text = Das Gute daran ist , dass ich meinen Fisch wiedersehe .
+1	Das	der	_	ART	case=nom|gender=neut|number=sg	_	_	_	_	O
+2	Gute	Gute	_	NN	case=nom|gender=neut|number=sg	4	subj	_	_	O
+3	daran	daran	_	PAV	_	_	_	_	_	O
+4	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+5	,	,	_	$,	_	_	_	_	_	O
+6	dass	dass	_	KOUS	_	_	_	_	_	B-LK
+7	ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	10	subj	_	_	O
+8	meinen	mein	_	PPOSAT	case=acc|gender=masc|number=sg	_	_	_	_	O
+9	Fisch	Fisch	_	NN	case=acc|gender=masc|number=sg	10	obj	_	_	O
+10	wiedersehe	wiedersehen	_	VVFIN	person=1|tense=pres|number=sg|mood=ind	4	vsubj	_	_	B-RK
+11	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 168
+# sent_id(TSV) = 168
+# TopFString = (S(ITJ Hey)(KOMMA ,)(VF(PWS was))(LK(VAFIN ist))(VC(PTKVZ los))(PUNKT ?))
+# text = Hey , was ist los ?
+1	Hey	hey	_	ITJ	_	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	was	was	_	PWS	case=nom|gender=neut|number=sg	4	subj	_	_	O
+4	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+5	los	los	_	PTKVZ	_	_	_	_	_	B-RK
+6	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 169
+# sent_id(TSV) = 169
+# TopFString = (S(VF(PPER Es))(LK(VVFIN spült))(MF(PTKNEG nicht))(VC(PTKVZ runter))(PUNKT .))
+# text = Es spült nicht runter .
+1	Es	es	_	PPER	person=3|case=nom|gender=neut|number=sg	2	subj	_	_	O
+2	spült	spülen	_	VVFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+3	nicht	nicht	_	PTKNEG	_	_	_	_	_	O
+4	runter	runter	_	PTKVZ	_	_	_	_	_	B-RK
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 170
+# sent_id(TSV) = 170
+# TopFString = (S(VF(PPER Wir))(LK(VVFIN brauchen))(MF(ART ein)(ADJA größeres)(NN Klo))(PUNKT .))
+# text = Wir brauchen ein größeres Klo .
+1	Wir	wir	_	PPER	person=1|case=nom|gender=*|number=pl	2	subj	_	_	O
+2	brauchen	brauchen	_	VVFIN	person=1|tense=pres|number=pl|mood=ind	_	_	_	_	B-LK
+3	ein	ein	_	ART	case=acc|gender=neut|number=sg	_	_	_	_	O
+4	größeres	groß	_	ADJA	degree=comp|case=acc|number=sg|gender=neut	_	_	_	_	O
+5	Klo	Klo	_	NN	case=acc|gender=neut|number=sg	2	obj	_	_	O
+6	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 171
+# sent_id(TSV) = 171
+# TopFString = (S(LK(VVIMP Führe))(MF(PPER mich)(APPR zu)(ART dem)(NN Mann))(KOMMA ,)(NF(C(PRELS der))(MF(PPER dich))(VC(VVFIN schickte)))(PUNKT .))
+# text = Führe mich zu dem Mann , der dich schickte .
+1	Führe	führen	_	VVIMP	number=sg	_	_	_	_	B-LK
+2	mich	ich	_	PPER	person=1|case=acc|gender=*|number=sg	1	obj	_	_	O
+3	zu	zu	_	APPR	_	_	_	_	_	O
+4	dem	der	_	ART	case=dat|gender=masc|number=sg	_	_	_	_	O
+5	Mann	Mann	_	NN	case=dat|gender=masc|number=sg	_	_	_	_	O
+6	,	,	_	$,	_	_	_	_	_	O
+7	der	der	_	PRELS	case=nom|gender=masc|number=sg	9	subj	_	_	B-LK
+8	dich	du	_	PPER	person=2|case=acc|gender=*|number=sg	9	obj	_	_	O
+9	schickte	schicken	_	VVFIN	person=3|tense=past|number=sg|mood=ind	_	_	_	_	B-RK
+10	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 172
+# sent_id(TSV) = 172
+# TopFString = (S(VF(PPER Er))(LK(VVFIN erwartet))(MF(PPER dich))(PUNKT .))
+# text = Er erwartet dich .
+1	Er	er	_	PPER	person=3|case=nom|gender=masc|number=sg	2	subj	_	_	O
+2	erwartet	erwarten	_	VVFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+3	dich	du	_	PPER	person=2|case=acc|gender=*|number=sg	2	obj	_	_	O
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 173
+# sent_id(TSV) = 173
+# TopFString = (S(KLAMMER -)(PWAV Wo)(PUNKT ?))
+# text = - Wo ?
+1	-	-	_	$(	_	_	_	_	_	O
+2	Wo	wo	_	PWAV	_	_	_	_	_	O
+3	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 174
+# sent_id(TSV) = 174
+# TopFString = (S(VF(PDS Das))(LK(VAFIN wirst))(MF(PPER du))(VC(VVINF sehen))(KOMMA ,)(NF(C(KOUS wenn))(MF(PPER wir)(PTKNEG nicht))(VC(VVPP verhaftet)(VAFIN werden)))(PUNKT .))
+# text = Das wirst du sehen , wenn wir nicht verhaftet werden .
+1	Das	der	_	PDS	case=acc|gender=neut|number=sg	4	obj	_	_	O
+2	wirst	werden	_	VAFIN	person=2|tense=pres|number=sg|mood=ind	4	aux	_	_	B-LK
+3	du	du	_	PPER	person=2|case=nom|gender=*|number=sg	4	subj	_	_	O
+4	sehen	sehen	_	VVINF	_	_	_	_	_	B-RK
+5	,	,	_	$,	_	_	_	_	_	O
+6	wenn	wenn	_	KOUS	_	_	_	_	_	B-LK
+7	wir	wir	_	PPER	person=1|case=nom|gender=*|number=pl	9	subj	_	_	O
+8	nicht	nicht	_	PTKNEG	_	_	_	_	_	O
+9	verhaftet	verhaften	_	VVPP	_	_	_	_	_	B-RK
+10	werden	werden	_	VAFIN	person=1|tense=pres|number=pl|mood=ind	9	aux	_	_	I-RK
+11	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 175
+# sent_id(TSV) = 175
+# TopFString = (S(ADV Also)(ADV los)(PUNKT .))
+# text = Also los .
+1	Also	also	_	ADV	_	_	_	_	_	O
+2	los	los	_	ADV	_	_	_	_	_	O
+3	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 176
+# sent_id(TSV) = 176
+# TopFString = (S(VF(PPER Du))(LK(VVFIN gehst))(MF(APPR vor)(PPER mir))(PUNKT .))
+# text = Du gehst vor mir .
+1	Du	du	_	PPER	person=2|case=nom|gender=*|number=sg	2	subj	_	_	O
+2	gehst	gehen	_	VVFIN	person=2|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+3	vor	vor	_	APPR	_	_	_	_	_	O
+4	mir	ich	_	PPER	person=1|case=nom|gender=*|number=sg	_	_	_	_	O
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 177
+# sent_id(TSV) = 177
+# TopFString = (S(VF(PPER Ich))(LK(VVFIN komme))(VC(PTKVZ nach))(PUNKT .))
+# text = Ich komme nach .
+1	Ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	2	subj	_	_	O
+2	komme	kommen	_	VVFIN	person=1|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+3	nach	nach	_	PTKVZ	_	_	_	_	_	B-RK
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 178
+# sent_id(TSV) = 178
+# TopFString = (S(VF(PDS Das))(LK(VAFIN war))(MF(ART ein)(NN Test))(PUNKT .))
+# text = Das war ein Test .
+1	Das	der	_	PDS	case=nom|gender=neut|number=sg	2	pred	_	_	O
+2	war	sein	_	VAFIN	person=3|tense=past|number=sg|mood=ind	_	_	_	_	B-LK
+3	ein	ein	_	ART	case=nom|gender=masc|number=sg	_	_	_	_	O
+4	Test	Test	_	NN	case=nom|gender=masc|number=sg	2	subj	_	_	O
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 179
+# sent_id(TSV) = 179
+# TopFString = (S(VF(PPER Du))(LK(VMFIN konntest))(MF(ART ein)(NN Spion))(VC(VAINF sein))(PUNKT .))
+# text = Du konntest ein Spion sein .
+1	Du	du	_	PPER	person=2|case=nom|gender=*|number=sg	5	subj	_	_	O
+2	konntest	können	_	VMFIN	person=2|tense=past|number=sg|mood=ind	5	aux	_	_	B-LK
+3	ein	ein	_	ART	case=nom|gender=masc|number=sg	_	_	_	_	O
+4	Spion	Spion	_	NN	case=nom|gender=masc|number=sg	5	pred	_	_	O
+5	sein	sein	_	VAINF	_	_	_	_	_	B-RK
+6	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 180
+# sent_id(TSV) = 180
+# TopFString = (S(VF(ART Die)(NN Waffe))(LK(VAFIN war))(MF(ADJD ungeladen))(PUNKT .))
+# text = Die Waffe war ungeladen .
+1	Die	der	_	ART	case=nom|gender=fem|number=sg	_	_	_	_	O
+2	Waffe	Waffe	_	NN	case=nom|gender=fem|number=sg	3	subj	_	_	O
+3	war	sein	_	VAFIN	person=3|tense=past|number=sg|mood=ind	_	_	_	_	B-LK
+4	ungeladen	ungeladen	_	ADJD	degree=pos	3	pred	_	_	O
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 181
+# sent_id(TSV) = 181
+# TopFString = (S(KLAMMER -)(LK(VVIMP Kommen))(MF(PPER Sie))(PUNKT .))
+# text = - Kommen Sie .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Kommen	kommen	_	VVIMP	number=pl	_	_	_	_	B-LK
+3	Sie	Sie	_	PPER	person=3|case=nom|gender=*|number=sg	2	subj	_	_	O
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 182
+# sent_id(TSV) = 182
+# TopFString = (S(LK(VAIMP Seien))(MF(PPER Sie)(ADJD außergewöhnlich))(PUNKT .))
+# text = Seien Sie außergewöhnlich .
+1	Seien	sein	_	VAIMP	number=pl	_	_	_	_	B-LK
+2	Sie	Sie	_	PPER	person=3|case=nom|gender=*|number=sg	1	subj	_	_	O
+3	außergewöhnlich	außergewöhnlich	_	ADJD	degree=pos	1	pred	_	_	O
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 183
+# sent_id(TSV) = 183
+# TopFString = (S(ITJ Oh)(KOMMA ,)(PPER Sie)(PUNKT ...))
+# text = Oh , Sie ...
+1	Oh	oh	_	ITJ	_	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	Sie	Sie	_	PPER	person=3|case=nom|gender=*|number=sg	_	_	_	_	O
+4	...	...	_	$.	_	_	_	_	_	O
+
+# sent_id = 184
+# sent_id(TSV) = 184
+# TopFString = (S(VF(ADV Okay))(MF(PUNKT .)))
+# text = Okay .
+1	Okay	okay	_	ADV	_	_	_	_	_	O
+2	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 185
+# sent_id(TSV) = 185
+# TopFString = (S(C(KOUI Um))(MF(ART die)(NN Dinge))(VC(PTKZU zu)(VVINF ordnen))(PUNKT :))
+# text = Um die Dinge zu ordnen :
+1	Um	um	_	KOUI	_	_	_	_	_	B-LK
+2	die	der	_	ART	case=acc|gender=neut|number=pl	_	_	_	_	O
+3	Dinge	Ding	_	NN	case=acc|gender=neut|number=pl	5	obj	_	_	O
+4	zu	zu	_	PTKZU	_	_	_	_	_	B-RK
+5	ordnen	ordnen	_	VVINF	_	_	_	_	_	I-RK
+6	:	:	_	$.	_	_	_	_	_	O
+
+# sent_id = 186
+# sent_id(TSV) = 186
+# TopFString = (S(VF(ART Das)(ADJA erste)(NN Treffen)(APPR von)(NN Vertretern)(ART der)(ADJA menschlichen)(NN Spezies)(KON und)(FM Homo)(FM Reptilia))(LK(VAFIN wird))(MF(ADV jetzt))(VC(VVPP abgehalten))(PUNKT .))
+# text = Das erste Treffen von Vertretern der menschlichen Spezies und Homo Reptilia wird jetzt abgehalten .
+1	Das	der	_	ART	case=nom|gender=neut|number=sg	_	_	_	_	O
+2	erste	erster	_	ADJA	degree=pos|case=nom|number=sg|gender=neut	_	_	_	_	O
+3	Treffen	Treffen	_	NN	case=nom|gender=neut|number=sg	14	subj	_	_	O
+4	von	von	_	APPR	_	_	_	_	_	O
+5	Vertretern	Vertreter	_	NN	case=dat|gender=masc|number=pl	_	_	_	_	O
+6	der	der	_	ART	case=gen|gender=fem|number=pl	_	_	_	_	O
+7	menschlichen	menschlich	_	ADJA	degree=pos|case=gen|number=pl|gender=fem	_	_	_	_	O
+8	Spezies	Spezies	_	NN	case=gen|gender=fem|number=pl	_	_	_	_	O
+9	und	und	_	KON	_	_	_	_	_	O
+10	Homo	Homo	_	FM	_	_	_	_	_	O
+11	Reptilia	Reptilia	_	FM	_	_	_	_	_	O
+12	wird	werden	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	14	aux	_	_	B-LK
+13	jetzt	jetzt	_	ADV	_	_	_	_	_	O
+14	abgehalten	abhalten	_	VVPP	_	_	_	_	_	B-RK
+15	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 187
+# sent_id(TSV) = 187
+# TopFString = (S(VF(PDS Das))(LK(VAFIN habe))(MF(PPER ich)(ADV noch)(ADV nie))(VC(VVPP gesagt))(KOMMA ,)(VF(PDS dass))(LK(VAFIN ist))(MF(ADJD toll))(PUNKT !))
+# text = Das habe ich noch nie gesagt , dass ist toll !
+1	Das	der	_	PDS	case=acc|gender=neut|number=sg	6	obj	_	_	O
+2	habe	haben	_	VAFIN	person=1|tense=pres|number=sg|mood=ind	6	aux	_	_	B-LK
+3	ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	6	subj	_	_	O
+4	noch	noch	_	ADV	_	_	_	_	_	O
+5	nie	nie	_	ADV	_	_	_	_	_	O
+6	gesagt	sagen	_	VVPP	_	_	_	_	_	B-RK
+7	,	,	_	$,	_	_	_	_	_	O
+8	dass	der	_	PDS	case=nom|gender=neut|number=sg	9	subj	_	_	O
+9	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+10	toll	toll	_	ADJD	degree=pos	9	pred	_	_	O
+11	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 188
+# sent_id(TSV) = 188
+# TopFString = (S(LK(VVIMP Machen))(MF(PPER wir))(VC(PTKVZ weiter))(PUNKT !))
+# text = Machen wir weiter !
+1	Machen	machen	_	VVIMP	number=pl	_	_	_	_	B-LK
+2	wir	wir	_	PPER	person=1|case=nom|gender=*|number=pl	1	subj	_	_	O
+3	weiter	weiter	_	PTKVZ	_	_	_	_	_	B-RK
+4	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 189
+# sent_id(TSV) = 189
+# TopFString = (S(VF(ADV Nun)(KOMMA ,)(NE Mo))(KOMMA ,)(LK(VVIMP gehen))(MF(PPER wir)(PPOSAT Ihren)(NN Sohn))(VC(VVINF holen))(PUNKT .))
+# text = Nun , Mo , gehen wir Ihren Sohn holen .
+1	Nun	nun	_	ADV	_	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	Mo	Mo	_	NE	case=nom|gender=masc|number=sg	_	_	_	_	O
+4	,	,	_	$,	_	_	_	_	_	O
+5	gehen	gehen	_	VVIMP	number=pl	_	_	_	_	B-LK
+6	wir	wir	_	PPER	person=1|case=nom|gender=*|number=pl	5	subj	_	_	O
+7	Ihren	Ihr	_	PPOSAT	case=acc|gender=masc|number=sg	_	_	_	_	O
+8	Sohn	Sohn	_	NN	case=acc|gender=masc|number=sg	9	obj	_	_	O
+9	holen	holen	_	VVINF	_	5	vobj	_	_	B-RK
+10	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 190
+# sent_id(TSV) = 190
+# TopFString = (S(ITJ Ach)(KOMMA ,)(LK(VVFIN wissen))(MF(PPER Sie))(KOMMA ,)(VF(NN Menschen)(KON und)(PPOSAT ihre)(NN Vorgänger))(LK(VVFIN unterhalten))(MF(PRF sich)(ADV ganz)(ADJD gemütlich))(PUNKT .))
+# text = Ach , wissen Sie , Menschen und ihre Vorgänger unterhalten sich ganz gemütlich .
+1	Ach	ach	_	ITJ	_	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	wissen	wissen	_	VVFIN	person=3|tense=pres|number=pl|mood=ind	_	_	_	_	B-LK
+4	Sie	Sie	_	PPER	person=3|case=nom|gender=*|number=sg	3	subj	_	_	O
+5	,	,	_	$,	_	_	_	_	_	O
+6	Menschen	Mensch	_	NN	case=nom|gender=masc|number=pl	10	subj	_	_	O
+7	und	und	_	KON	_	_	_	_	_	O
+8	ihre	ihr	_	PPOSAT	case=nom|gender=masc|number=pl	_	_	_	_	O
+9	Vorgänger	Vorgänger	_	NN	case=nom|gender=masc|number=pl	_	_	_	_	O
+10	unterhalten	unterhalten	_	VVFIN	person=3|tense=pres|number=pl|mood=ind	3	vobj	_	_	B-LK
+11	sich	sich	_	PRF	person=3|case=acc|number=pl	10	obj	_	_	O
+12	ganz	ganz	_	ADV	_	_	_	_	_	O
+13	gemütlich	gemütlich	_	ADJD	degree=pos	_	_	_	_	O
+14	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 191
+# sent_id(TSV) = 191
+# TopFString = (S(VF(ADV Niemals))(MF(PUNKT .)))
+# text = Niemals .
+1	Niemals	niemals	_	ADV	_	_	_	_	_	O
+2	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 192
+# sent_id(TSV) = 192
+# TopFString = (S(VF(C(KOUS Wenn))(MF(PPER er))(VC(VVFIN lügt)))(KOMMA ,)(LK(VAFIN haben))(MF(PPER Sie)(PIS nichts))(VC(PTKZU zu)(VVINF befürchten))(PUNKT .))
+# text = Wenn er lügt , haben Sie nichts zu befürchten .
+1	Wenn	wenn	_	KOUS	_	_	_	_	_	B-LK
+2	er	er	_	PPER	person=3|case=nom|gender=masc|number=sg	3	subj	_	_	O
+3	lügt	lügen	_	VVFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	B-RK
+4	,	,	_	$,	_	_	_	_	_	O
+5	haben	haben	_	VAFIN	person=3|tense=pres|number=pl|mood=ind	9	aux	_	_	B-LK
+6	Sie	Sie	_	PPER	person=3|case=nom|gender=*|number=sg	9	subj	_	_	O
+7	nichts	nichts	_	PIS	case=*|gender=neut|number=*	9	obj	_	_	O
+8	zu	zu	_	PTKZU	_	_	_	_	_	B-RK
+9	befürchten	befürchten	_	VVINF	_	_	_	_	_	I-RK
+10	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 193
+# sent_id(TSV) = 193
+# TopFString = (S(VF(NE Kahless))(LK(VAFIN ist))(MF(APPR seit)(CARD 1.000)(NN Jahren)(ADJD tot))(PUNKT .))
+# text = Kahless ist seit 1.000 Jahren tot .
+1	Kahless	Kahless	_	NE	case=nom|gender=masc|number=sg	2	subj	_	_	O
+2	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+3	seit	seit	_	APPR	_	_	_	_	_	O
+4	1.000	1.000	_	CARD	_	_	_	_	_	O
+5	Jahren	Jahr	_	NN	case=dat|gender=neut|number=pl	_	_	_	_	O
+6	tot	tot	_	ADJD	degree=pos	2	pred	_	_	O
+7	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 194
+# sent_id(TSV) = 194
+# TopFString = (S(KOORD(KON Aber))(VF(PPOSAT sein)(NN Geist))(LK(VAFIN ist))(MF(ADV noch)(ADJD lebendig))(PUNKT .))
+# text = Aber sein Geist ist noch lebendig .
+1	Aber	aber	_	KON	_	_	_	_	_	O
+2	sein	sein	_	PPOSAT	case=nom|gender=masc|number=sg	_	_	_	_	O
+3	Geist	Geist	_	NN	case=nom|gender=masc|number=sg	4	subj	_	_	O
+4	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+5	noch	noch	_	ADV	_	_	_	_	_	O
+6	lebendig	lebendig	_	ADJD	degree=pos	4	pred	_	_	O
+7	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 195
+# sent_id(TSV) = 195
+# TopFString = (S(LK(VAFIN Haben))(MF(PPER Sie)(ADV je)(ART einen)(NN Geist))(VC(VVPP bekämpft))(PUNKT ?))
+# text = Haben Sie je einen Geist bekämpft ?
+1	Haben	haben	_	VAFIN	person=3|tense=pres|number=pl|mood=ind	6	aux	_	_	B-LK
+2	Sie	Sie	_	PPER	person=3|case=nom|gender=*|number=sg	6	subj	_	_	O
+3	je	je	_	ADV	_	_	_	_	_	O
+4	einen	ein	_	ART	case=acc|gender=masc|number=sg	_	_	_	_	O
+5	Geist	Geist	_	NN	case=acc|gender=masc|number=sg	6	obj	_	_	O
+6	bekämpft	bekämpfen	_	VVPP	_	_	_	_	_	B-RK
+7	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 196
+# sent_id(TSV) = 196
+# TopFString = (S(VF(PIAT Keine)(NN Waffe))(LK(VMFIN kann))(MF(PPER ihn))(VC(VVINF vernichten))(PUNKT .))
+# text = Keine Waffe kann ihn vernichten .
+1	Keine	kein	_	PIAT	case=nom|gender=fem|number=sg	_	_	_	_	O
+2	Waffe	Waffe	_	NN	case=nom|gender=fem|number=sg	5	subj	_	_	O
+3	kann	können	_	VMFIN	person=3|tense=pres|number=sg|mood=ind	5	aux	_	_	B-LK
+4	ihn	er	_	PPER	person=3|case=acc|gender=masc|number=sg	5	obj	_	_	O
+5	vernichten	vernichten	_	VVINF	_	_	_	_	_	B-RK
+6	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 197
+# sent_id(TSV) = 197
+# TopFString = (S(VF(ART Der)(NN Geist)(APPR von)(NE Kahless))(LK(VMFIN muss))(MF(ADV aber)(ADV sofort))(VC(VVPP ausgemerzt)(VAINF werden))(KOMMA ,)(KON oder)(VF(PPER er))(LK(VAFIN wird))(MF(PRF sich)(KOKOM wie)(ART eine)(NN Welle)(APPRART im)(NN Reich))(VC(VVINF verbreiten))(KOMMA ,)(KON und)(VF(VC(VVINF bleiben)))(LK(VAFIN wird))(MF(PIS nichts)(KOKOM als)(ART eine)(ADJA öde)(NN Wüste))(PUNKT .))
+# text = Der Geist von Kahless muss aber sofort ausgemerzt werden , oder er wird sich wie eine Welle im Reich verbreiten , und bleiben wird nichts als eine öde Wüste .
+1	Der	der	_	ART	case=nom|gender=masc|number=sg	_	_	_	_	O
+2	Geist	Geist	_	NN	case=nom|gender=masc|number=sg	8	subj	_	_	O
+3	von	von	_	APPR	_	_	_	_	_	O
+4	Kahless	Kahless	_	NE	case=dat|gender=masc|number=sg	_	_	_	_	O
+5	muss	müssen	_	VMFIN	person=3|tense=pres|number=sg|mood=ind	8	aux	_	_	B-LK
+6	aber	aber	_	ADV	_	_	_	_	_	O
+7	sofort	sofort	_	ADV	_	_	_	_	_	O
+8	ausgemerzt	ausmerzen	_	VVPP	_	_	_	_	_	B-RK
+9	werden	werden	_	VAINF	_	8	aux	_	_	I-RK
+10	,	,	_	$,	_	_	_	_	_	O
+11	oder	oder	_	KON	_	_	_	_	_	O
+12	er	er	_	PPER	person=3|case=nom|gender=masc|number=sg	20	subj	_	_	O
+13	wird	werden	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	20	aux	_	_	B-LK
+14	sich	sich	_	PRF	person=3|case=acc|number=sg	20	obj	_	_	O
+15	wie	wie	_	KOKOM	_	_	_	_	_	O
+16	eine	ein	_	ART	case=nom|gender=fem|number=sg	_	_	_	_	O
+17	Welle	Welle	_	NN	case=nom|gender=fem|number=sg	_	_	_	_	O
+18	im	in	_	APPRART	gender=neut|case=dat	_	_	_	_	O
+19	Reich	Reich	_	NN	case=dat|gender=neut|number=sg	_	_	_	_	O
+20	verbreiten	verbreiten	_	VVINF	_	_	_	_	_	B-RK
+21	,	,	_	$,	_	_	_	_	_	O
+22	und	und	_	KON	_	_	_	_	_	O
+23	bleiben	bleiben	_	VVINF	_	_	_	_	_	B-RK
+24	wird	werden	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	23	aux	_	_	B-LK
+25	nichts	nichts	_	PIS	case=*|gender=neut|number=*	23	subj	_	_	O
+26	als	als	_	KOKOM	_	_	_	_	_	O
+27	eine	ein	_	ART	case=nom|gender=fem|number=sg	_	_	_	_	O
+28	öde	öde	_	ADJA	degree=pos|case=nom|number=sg|gender=fem	_	_	_	_	O
+29	Wüste	Wüste	_	NN	case=nom|gender=fem|number=sg	_	_	_	_	O
+30	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 198
+# sent_id(TSV) = 198
+# TopFString = (S(VF(NE Gowron))(LK(VAFIN ist))(MF(ADV also)(APPR an)(NN Bord))(VC(VVPP gekommen))(KOMMA ,)(NF(C(KOUI um))(MF(PPOSAT Ihren)(NN Anspruch))(VC(PTKZU zu)(VVINF prüfen)))(PUNKT .))
+# text = Gowron ist also an Bord gekommen , um Ihren Anspruch zu prüfen .
+1	Gowron	Gowron	_	NE	case=nom|gender=masc|number=sg	6	subj	_	_	O
+2	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	6	aux	_	_	B-LK
+3	also	also	_	ADV	_	_	_	_	_	O
+4	an	an	_	APPR	_	_	_	_	_	O
+5	Bord	Bord	_	NN	case=acc|gender=neut|number=sg	_	_	_	_	O
+6	gekommen	kommen	_	VVPP	_	_	_	_	_	B-RK
+7	,	,	_	$,	_	_	_	_	_	O
+8	um	um	_	KOUI	_	_	_	_	_	B-LK
+9	Ihren	Ihr	_	PPOSAT	case=acc|gender=masc|number=sg	_	_	_	_	O
+10	Anspruch	Anspruch	_	NN	case=acc|gender=masc|number=sg	12	obj	_	_	O
+11	zu	zu	_	PTKZU	_	_	_	_	_	B-RK
+12	prüfen	prüfen	_	VVINF	_	_	_	_	_	I-RK
+13	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 199
+# sent_id(TSV) = 199
+# TopFString = (S(VF(NE Gowron))(LK(VVFIN weiß))(KOMMA ,)(NF(VF(PPOSAT seine)(NN Tage))(LK(VAFIN sind))(VC(VVPP gezählt)))(PUNKT .))
+# text = Gowron weiß , seine Tage sind gezählt .
+1	Gowron	Gowron	_	NE	case=nom|gender=masc|number=sg	2	subj	_	_	O
+2	weiß	wissen	_	VVFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+3	,	,	_	$,	_	_	_	_	_	O
+4	seine	sein	_	PPOSAT	case=nom|gender=masc|number=pl	_	_	_	_	O
+5	Tage	Tag	_	NN	case=nom|gender=masc|number=pl	7	subj	_	_	O
+6	sind	sein	_	VAFIN	person=3|tense=pres|number=pl|mood=ind	7	aux	_	_	B-LK
+7	gezählt	zählen	_	VVPP	_	2	vobj	_	_	B-RK
+8	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 200
+# sent_id(TSV) = 200
+# TopFString = (S(VF(ADV Also))(LK(VVFIN kommt))(MF(PPER er)(APPR mit)(ART einem)(ADJA läppischen)(NN Test)(PAV daher))(PUNKT .))
+# text = Also kommt er mit einem läppischen Test daher .
+1	Also	also	_	ADV	_	_	_	_	_	O
+2	kommt	kommen	_	VVFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+3	er	er	_	PPER	person=3|case=nom|gender=masc|number=sg	2	subj	_	_	O
+4	mit	mit	_	APPR	_	_	_	_	_	O
+5	einem	ein	_	ART	case=dat|gender=masc|number=sg	_	_	_	_	O
+6	läppischen	läppisch	_	ADJA	degree=pos|case=dat|number=sg|gender=masc	_	_	_	_	O
+7	Test	Test	_	NN	case=dat|gender=masc|number=sg	_	_	_	_	O
+8	daher	daher	_	PAV	_	_	_	_	_	O
+9	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 201
+# sent_id(TSV) = 201
+# TopFString = (S(VF(PDS Das))(LK(VAFIN hat))(MF(PIS was))(PUNKT .))
+# text = Das hat was .
+1	Das	der	_	PDS	case=nom|gender=neut|number=sg	2	subj	_	_	O
+2	hat	haben	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+3	was	was	_	PIS	case=acc|gender=neut|number=sg	2	obj	_	_	O
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 202
+# sent_id(TSV) = 202
+# TopFString = (S(KOORD(KON Aber))(LK(VVIMP denk))(MF(PAV dran))(NF(VF(PPER du))(LK(VAFIN bist))(MF(PTKNEG nicht)(ADV wirklich)(ADJD sauer)(APPR wegen)(ART der)(NN schnurrbarthaare)))(PUNKT .))
+# text = Aber denk dran du bist nicht wirklich sauer wegen der schnurrbarthaare .
+1	Aber	aber	_	KON	_	_	_	_	_	O
+2	denk	denken	_	VVIMP	number=sg	_	_	_	_	B-LK
+3	dran	dran	_	PAV	_	2	pobj	_	_	O
+4	du	du	_	PPER	person=2|case=nom|gender=*|number=sg	5	subj	_	_	O
+5	bist	sein	_	VAFIN	person=2|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+6	nicht	nicht	_	PTKNEG	_	_	_	_	_	O
+7	wirklich	wirklich	_	ADV	_	_	_	_	_	O
+8	sauer	sauer	_	ADJD	degree=pos	5	pred	_	_	O
+9	wegen	wegen	_	APPR	_	_	_	_	_	O
+10	der	der	_	ART	case=gen|gender=neut|number=pl	_	_	_	_	O
+11	schnurrbarthaare	Schnurrbarthaar	_	NN	case=gen|gender=neut|number=pl	_	_	_	_	O
+12	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 203
+# sent_id(TSV) = 203
+# TopFString = (S(VF(PPER Du))(LK(VAFIN bist))(MF(ADJD sauer))(NF(C(KOUS weil))(FKOORD(FKONJ(MF(PPER ich)(PPER dir)(PTKNEG nicht))(VC(VVFIN zuhöre)))(KOMMA ,)(FKONJ(MF(PPOSAT deine)(NN Freunde)(PTKNEG nicht))(VC(VMFIN mag)))(KON und)(FKONJ(MF(APPR über)(PPOSAT deine)(NN Mutter))(VC(VVFIN läster)))))(PUNKT .))
+# text = Du bist sauer weil ich dir nicht zuhöre , deine Freunde nicht mag und über deine Mutter läster .
+1	Du	du	_	PPER	person=2|case=nom|gender=*|number=sg	2	subj	_	_	O
+2	bist	sein	_	VAFIN	person=2|tense=pres|number=sg|mood=ind	_	_	_	_	B-LK
+3	sauer	sauer	_	ADJD	degree=pos	2	pred	_	_	O
+4	weil	weil	_	KOUS	_	_	_	_	_	B-LK
+5	ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	8	subj	_	_	O
+6	dir	du	_	PPER	person=2|case=dat|gender=*|number=sg	8	iobj	_	_	O
+7	nicht	nicht	_	PTKNEG	_	_	_	_	_	O
+8	zuhöre	zuhören	_	VVFIN	person=1|tense=pres|number=sg|mood=ind	_	_	_	_	B-RK
+9	,	,	_	$,	_	_	_	_	_	O
+10	deine	dein	_	PPOSAT	case=acc|gender=masc|number=pl	_	_	_	_	O
+11	Freunde	Freund	_	NN	case=acc|gender=masc|number=pl	13	obj	_	_	O
+12	nicht	nicht	_	PTKNEG	_	_	_	_	_	O
+13	mag	mögen	_	VMFIN	person=1|tense=pres|number=sg|mood=ind	_	_	_	_	B-RK
+14	und	und	_	KON	_	_	_	_	_	O
+15	über	über	_	APPR	_	17	pcase	_	_	O
+16	deine	dein	_	PPOSAT	case=acc|gender=fem|number=sg	_	_	_	_	O
+17	Mutter	Mutter	_	NN	case=acc|gender=fem|number=sg	18	pobj	_	_	O
+18	läster	lästern	_	VVFIN	person=1|tense=pres|number=sg|mood=ind	_	_	_	_	B-RK
+19	.	.	_	$.	_	_	_	_	_	O

@@ -1,0 +1,133 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC Antec CAT CLEAN FOKUS GF IS Kommentar MovElem PHRASE POS SATZKLAMMER SATZSTATUS TOPF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# PTBstring = (VROOT(S(NP(PPER Jch))(VP(VMFIN will))(CVP(VP(PRF mich)(ADV ſelbs)(VVINF rechtfertigen)(KOMMA /))(KON vnnd)(VP(NN buͦß)(VVINF thuͦn)(PP(APPR im)(CNP(NN ſtaub)(KON vn̄)(NN aͤſchen)(PUNKT .)))))))
+# TopFString = (S(VF(PPER Jch))(LK(VMFIN will))(FKOORD(FKONJ(MF(PRF mich)(ADV ſelbs))(VC(VVINF rechtfertigen)))(KOMMA /)(KON vnnd)(FKONJ(MF(NN buͦß))(VC(VVINF thuͦn))(NF(APPR im)(NN ſtaub)(KON vn̄)(NN aͤſchen))))(PUNKT .))
+# text = Jch will mich ſelbs rechtfertigen / vnnd buͦß thuͦn im ſtaub vn̄ aͤſchen.
+1	Jch	_	_	PPER	_	_	_	_	_	_	NP	Jch	_	SUBJ	_	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-VF	12,02	_	_
+2	will	_	_	VMFIN	_	_	_	_	_	_	VP	will	_	VFIN	_	_	_	O	VMFIN	LI	MAINDECL	B-LK	12,02	_	_
+3	mich	_	_	PRF	_	_	_	_	_	_	NP	mich	_	VZ_PTK	_	_	B-NP-insitu	B-NP	PTKVZ	_	MAINDECL	B-MF	12,02	_	_
+4	ſelbs	_	_	ADV	_	_	_	_	_	_	NP	ſelbs	_	VZ_PTK	_	_	B-ADVP-insitu	B-ADVP	ADJD	_	MAINDECL	I-MF	12,02	_	_
+5	rechtfertigen	_	_	VVINF	_	_	_	_	_	_	VP	rechtfertigen	_	INF	_	_	_	O	VVINF	_	MAINDECL	B-RK	12,02	_	_
+6	/	_	_	$,	_	_	_	_	_	_	_	/	_	_	_	_	_	O	$_	_	MAINDECL	O	12,02	_	_
+7	vnnd	_	_	KON	_	_	_	_	_	_	_	vnnd	_	_	_	_	_	O	KON	_	MAINDECL	B-KOORD	12,02	_	_
+8	buͦß	_	_	NN	_	_	_	_	_	_	NP	buͦß	NF	DO	_	_	B-NP-insitu	B-NP	NA	_	MAINDECL	B-MF	12,03	_	_
+9	thuͦn	_	_	VVINF	_	_	_	_	_	_	VP	thuͦn	NF	INF	_	_	_	O	VVINF	RE	MAINDECL	B-RK	12,03	_	_
+10	im	_	_	APPR	_	_	_	_	_	_	PP	im	NF	PP-SIT	_	_	B-PP-extrap	B-PP	APPR	_	MAINDECL	B-NF	12,03	UNLINK	_
+11	ſtaub	_	_	NN	_	_	_	_	_	_	PP	ſtaub	NF	PP-SIT	NEW_	_	I-PP	I-PP	NA	_	MAINDECL	I-NF	12,03	UNLINK	_
+12	vn̄	_	_	KON	_	_	_	_	_	_	PP	vn̄	NF	PP-SIT	_	_	I-PP	I-PP	KON	_	MAINDECL	I-NF	12,03	UNLINK	_
+13	aͤſchen	_	_	NN	_	_	_	_	_	_	PP	aͤſchen	NF	PP-SIT	_NEW	_	I-PP	I-PP	NA	_	MAINDECL	I-NF	12,03	UNLINK	_
+14	.	_	_	$.	_	_	_	_	_	_	_	.	_	_	_	_	_	I-PP	$_	_	MAINDECL	O	12,03	_	_
+
+# sent_id = 2
+# PTBstring = (VROOT(S(NP(PDS der))(VP(VAFIN wirt))(VP(PPER |s)(VVINF erhalten)(PP(APPRART zuͦm)(ADJA ewigen)(NN leben)(KOMMA /)))))
+# TopFString = (S(VF(PDS der))(LK(VAFIN wirt))(MF(PPER |s))(VC(VVINF erhalten))(NF(APPRART zuͦm)(ADJA ewigen)(NN leben))(KOMMA /))
+# text = der wirt |s erhalten zuͦm ewigen leben /
+1	der	_	_	PDS	_	_	_	_	_	_	NP	der	_	SUBJ	_	_	B-NP-insitu	B-NP	DD	_	MAINDECL	B-VF	12,24	_	_
+2	wirt	_	_	VAFIN	_	_	_	_	_	_	VP	wirt	_	VFIN	_	_	_	O	VAFIN	LI	MAINDECL	B-LK	12,24	_	_
+3	|s	_	_	PPER	_	_	_	_	_	_	NP	s	_	VFIN	_	_	B-NP-insitu	B-NP	PPER	LI	MAINDECL	B-MF	12,24	_	_
+4	erhalten	_	_	VVINF	_	_	_	_	_	_	VP	erhalten	_	INF	_	_	_	O	VVINF	RE	MAINDECL	B-RK	12,24	_	_
+5	zuͦm	_	_	APPRART	_	_	_	_	_	_	PP	zuͦm	CF	PP-ADV	_	Konstrast mit "auff diser welt"?	B-PP-extrap	B-PP	APPRART	_	MAINDECL	B-NF	12,24	UNLINK	_
+6	ewigen	_	_	ADJA	_	_	_	_	_	_	PP	ewigen	CF	PP-ADV	ACC-ABSTR-USED-1	Konstrast mit "auff diser welt"?	I-PP	I-PP	ADJ	_	MAINDECL	I-NF	12,24	UNLINK	_
+7	leben	_	_	NN	_	_	_	_	_	_	PP	leben	CF	PP-ADV	ACC-ABSTR-USED-1	Konstrast mit "auff diser welt"?	I-PP	I-PP	NA	_	MAINDECL	I-NF	12,24	UNLINK	_
+8	/	_	_	$,	_	_	_	_	_	_	_	/	_	_	_	_	_	I-PP	$_	_	MAINDECL	O	12,24	_	_
+
+# sent_id = 3
+# PTBstring = (VROOT(S(NP(PPER Er))(VP(VAFIN hat))(NP(ART ain)(NN exempel))(VP(VVINF gebē)(NP(PPOSAT ſeines)(NN creütz)(KOMMA /)))))
+# TopFString = (S(VF(PPER Er))(LK(VAFIN hat))(MF(ART ain)(NN exempel))(VC(VVINF gebē))(NF(PPOSAT ſeines)(NN creütz))(KOMMA /))
+# text = Er hat ain exempel gebē ſeines creütz /
+1	Er	_	_	PPER	_	_	_	_	_	_	NP	Er	_	SUBJ	_	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-VF	13,02; =erſteeung	_	_
+2	hat	_	_	VAFIN	_	_	_	_	_	_	VP	hat	_	VFIN	_	_	_	O	VAFIN	LI	MAINDECL	B-LK	13,02; =erſteeung	_	_
+3	ain	_	_	ART	_	_	_	_	_	_	NP	ain	_	DO	_	_	B-NP-insitu	B-NP	DIA	_	MAINDECL	B-MF	13,02; =erſteeung	_	_
+4	exempel	_	_	NN	_	_	_	_	_	_	NP	exempel	_	DO	_	_	I-NP	I-NP	NA	_	MAINDECL	I-MF	13,02; =erſteeung	_	_
+5	gebē	_	_	VVINF	_	_	_	_	_	_	VP	gebē	_	INF	_	_	_	O	VVINF	RE	MAINDECL	B-RK	13,02; =erſteeung	_	_
+6	ſeines	_	_	PPOSAT	_	_	_	_	_	_	NP	ſeines	NF	IO-GEN	ACC-INF_	im Sinne von 'Leiden'	B-NP-extrap	B-NP	DPOS	_	MAINDECL	B-NF	13,02; =erſteeung	LINK_SYM	KOREF1
+7	creütz	_	_	NN	_	_	_	_	_	_	NP	creütz	NF	IO-GEN	_ACC-ABSTR-USED-X	im Sinne von 'Leiden'	I-NP	I-NP	NA	_	MAINDECL	I-NF	13,02; =erſteeung	LINK_SYM	KOREF1
+8	/	_	_	$,	_	_	_	_	_	_	_	/	_	_	_	_	_	I-NP	$_	_	MAINDECL	O	13,02; =erſteeung	_	_
+
+# sent_id = 4
+# PTBstring = (VROOT(S(NP(PPER er))(VP(VMFIN wirt))(VP(PPER mir)(PPER |s)(ADV wol)(PTKVZ wider)(VVINF geben)(KOMMA /))(NP(KOKOM wie)(ADV dan̄)(NN Job)(PUNKT .))))
+# TopFString = (S(VF(PPER er))(LK(VMFIN wirt))(MF(PPER mir)(PPER |s)(ADV wol))(VC(PTKVZ wider)(VVINF geben))(KOMMA /)(NF(KOKOM wie)(ADV dan̄)(NN Job))(PUNKT .))
+# text = er wirt mir |s wol wider geben / wie dan̄ Job.
+1	er	_	_	PPER	_	_	_	_	_	_	NP	er	_	SUBJ	_	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-VF	15,13; -ſen	_	_
+2	wirt	_	_	VMFIN	_	_	_	_	_	_	VP	wirt	_	VFIN	_	_	_	O	VMFIN	LI	MAINDECL	B-LK	15,13; -ſen	_	_
+3	mir	_	_	PPER	_	_	_	_	_	_	NP	mir	_	IO-DAT	_	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-MF	15,13; -ſen	_	_
+4	|s	_	_	PPER	_	_	_	_	_	_	NP	s	_	DO	_	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	I-MF	15,13; -ſen	_	_
+5	wol	_	_	ADV	_	_	_	_	_	_	ADVP	wol	_	ADVB	_	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	I-MF	15,13; -ſen	_	_
+6	wider	_	_	PTKVZ	_	_	_	_	_	_	VP	wider	_	INF	_	_	_	O	PTKVZ	_	MAINDECL	B-RK	15,13; -ſen	_	_
+7	geben	_	_	VVINF	_	_	_	_	_	_	VP	geben	_	INF	_	_	_	O	VVINF	RE	MAINDECL	I-RK	15,13; -ſen	_	_
+8	/	_	_	$,	_	_	_	_	_	_	_	/	_	_	_	_	_	O	$_	_	MAINDECL	O	15,13; -ſen	_	_
+9	wie	_	_	KOKOM	_	_	_	_	_	_	ADVP	wie	_	VGL	_	_	B-NP-extrap	B-NP	KOKOM	_	MAINDECL	B-NF	15,14	LINK_ASSYM	_
+10	dan̄	_	_	ADV	_	_	_	_	_	_	ADVP	dan̄	_	VGL	_	_	I-NP	I-NP	ADV	_	MAINDECL	I-NF	15,14	LINK_ASSYM	_
+11	Job	_	_	NN	_	_	_	_	_	_	ADVP	Job	_	VGL	ACC-UNI-USED-X	_	I-NP	I-NP	NA	_	MAINDECL	I-NF	15,14	LINK_ASSYM	_
+12	.	_	_	$.	_	_	_	_	_	_	_	.	_	_	_	_	_	I-NP	$_	_	MAINDECL	O	15,14	_	_
+
+# sent_id = 5
+# PTBstring = (VROOT(S(ITJ O)(S(PWAV wie)(VP(VMFIN würd))(NP(PPER er))(VP(ADV ietz)(VVINF donnerē)))(VP(PP(APPR über)(PPOSAT vnſer)(ADJA vn=chriſtlich)(ADJA zaͤnkiſch)(NN gericht)))(PUNKT .)))
+# TopFString = (S(VF(ITJ O)(PWAV wie))(LK(VMFIN würd))(MF(PPER er)(ADV ietz))(VC(VVINF donnerē))(NF(APPR über)(PPOSAT vnſer)(ADJA vn=chriſtlich)(ADJA zaͤnkiſch)(NN gericht))(PUNKT .))
+# text = O wie würd er ietz donnerē über vnſer vn=chriſtlich zaͤnkiſch gericht.
+1	O	_	_	ITJ	_	_	_	_	_	_	_	O	_	_	_	_	_	O	ITJ	_	MAINDECL	B-VF	16,16; vn-	_	_
+2	wie	_	_	PWAV	_	_	_	_	_	_	NP	wie	_	_	_	_	_	O	PWAV	_	MAINDECL	I-VF	16,16; vn-	_	_
+3	würd	_	_	VMFIN	_	_	_	_	_	_	VP	würd	_	VFIN	_	_	_	O	VMFIN	LI	MAINDECL	B-LK	16,16; vn-	_	_
+4	er	_	_	PPER	_	_	_	_	_	_	NP	er	_	SUBJ	_	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-MF	16,16; vn-	_	_
+5	ietz	_	_	ADV	_	_	_	_	_	_	ADVP	ietz	_	ADVB	_	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	I-MF	16,16; vn-	_	_
+6	donnerē	_	_	VVINF	_	_	_	_	_	_	VP	donnerē	_	INF	_	_	_	O	VVINF	RE	MAINDECL	B-RK	16,16; vn-	_	_
+7	über	_	_	APPR	_	_	_	_	_	_	PP	über	NF	PP-OBJ	_	_	B-PP-extrap	B-PP	APPR	_	MAINDECL	B-NF	16,16; vn-	UNLINK	_
+8	vnſer	_	_	PPOSAT	_	_	_	_	_	_	PP	vnſer	NF	PP-OBJ	_	_	I-PP	I-PP	DPOS	_	MAINDECL	I-NF	16,16; vn-	UNLINK	_
+9	vn=chriſtlich	_	_	ADJA	_	_	_	_	_	_	PP	vnchriſtlich	NF	PP-OBJ	_	_	I-PP	I-PP	ADJ	_	MAINDECL	I-NF	16,16; vn-	UNLINK	_
+10	zaͤnkiſch	_	_	ADJA	_	_	_	_	_	_	PP	zaͤnkiſch	NF	PP-OBJ	_	_	I-PP	I-PP	ADJ	_	MAINDECL	I-NF	16,17; -chriſtlich	UNLINK	_
+11	gericht	_	_	NN	_	_	_	_	_	_	PP	gericht	NF	PP-OBJ	ACC-ABSTR-USED-X	_	I-PP	I-PP	NA	_	MAINDECL	I-NF	16,17; -chriſtlich	UNLINK	_
+12	.	_	_	$.	_	_	_	_	_	_	_	.	_	_	_	_	_	O	$_	_	MAINDECL	O	16,17; -chriſtlich	_	_
+
+# sent_id = 6
+# PTBstring = (VROOT(S(NP(PPER Jch))(VP(VMFIN wil))(VP(ADV hie)(PTKNEG nit)(VVINF verwerffē)(NP(NN oberkait)(KOMMA /)(S:RC(NP(PRELS die))(VP(NP(ART dz)(NN übel))(VVINF ſtraffē))(VP(VMFIN muͤſſen))(KOMMA /))))))
+# TopFString = (S(VF(PPER Jch))(LK(VMFIN wil))(MF(ADV hie)(PTKNEG nit))(VC(VVINF verwerffē))(NN oberkait)(KOMMA /)(C(PRELS die))(MF(ART dz)(NN übel))(VC(VVINF ſtraffē)(VMFIN muͤſſen))(KOMMA /))
+# text = Jch wil hie nit verwerffē oberkait / die dz übel ſtraffē muͤſſen /
+1	Jch	_	_	PPER	_	_	_	_	_	_	NP	Jch	_	SUBJ	_	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-VF	16,17; -chriſtlich	_	_
+2	wil	_	_	VMFIN	_	_	_	_	_	_	VP	wil	_	VFIN	_	_	_	O	VMFIN	LI	MAINDECL	B-LK	16,17; -chriſtlich	_	_
+3	hie	_	_	ADV	_	_	_	_	_	_	ADVP	hie	_	ADVB	_	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	B-MF	16,17; -chriſtlich	_	_
+4	nit	_	_	PTKNEG	_	_	_	_	_	_	_	nit	_	_	_	_	B-ADVP-insitu	B-ADVP	PTKNEG	_	MAINDECL	I-MF	16,17; -chriſtlich	_	_
+5	verwerffē	_	_	VVINF	_	_	_	_	_	_	VP	verwerffē	_	INF	_	_	_	O	VVINF	RE	MAINDECL	B-RK	16,17; -chriſtlich	_	_
+6	oberkait	_	_	NN	_	_	_	_	_	B-Antec-1-Head	NP	oberkait	NF	DO	ACC-ABSTR-USED-X	_	B-NP-insitu	B-NP	NA	_	MAINDECL	O	16,18	UNLINK	KOREF1-REL
+7	/	_	_	$,	_	_	_	_	_	_	_	/	_	_	_	_	I-NP	I-NP	$_	_	MAINDECL	O	16,18	UNLINK	_
+8	die	_	_	PRELS	_	_	_	_	_	_	CP	die	_	ATTR	_	_	I-NP|B-RELC-insitu-1|B-NP-insitu	I-NP	DDSREL	_	MAINDECL	B-LK	16,18	UNLINK	KOREF2-REL
+9	dz	_	_	ART	_	_	_	_	_	_	CP	dz	_	ATTR	_	_	I-NP|I-RELC|B-NP-insitu	I-NP	DDS	_	MAINDECL	B-MF	16,18	UNLINK	_
+10	übel	_	_	NN	_	_	_	_	_	_	CP	übel	_	ATTR	_	_	I-NP|I-RELC|I-NP	I-NP	ADV	_	MAINDECL	I-MF	16,18	UNLINK	_
+11	ſtraffē	_	_	VVINF	_	_	_	_	_	_	CP	ſtraffē	_	ATTR	_	_	I-NP|I-RELC	I-NP	VVINF	_	MAINDECL	B-RK	16,18	UNLINK	_
+12	muͤſſen	_	_	VMFIN	_	_	_	_	_	_	CP	muͤſſen	_	ATTR	_	_	I-NP|I-RELC	I-NP	VMFIN	_	MAINDECL	I-RK	16,18	UNLINK	_
+13	/	_	_	$,	_	_	_	_	_	_	_	/	_	_	_	_	_	I-NP	$_	_	MAINDECL	O	16,18	_	_
+
+# sent_id = 7
+# PTBstring = (VROOT(S(AVP(ADV Darūb))(VP(VMFIN moͤgen))(NP(PIAT ſollich)(NN diener)(NE got)(ADV etwa)(AP(KOKOM als)(ADJD wol)))(VP(VVINF gefallen)(KOMMA /)(NP(KOKOM als)(ART ain)(NE Chartheüſer)(KOMMA /)(S:RC(NP(PRELS der))(NP(PIS niemandts))(AP(ADJD nutzlich))(VP(VVFIN iſt))(PUNKT .))))))
+# TopFString = (S(VF(ADV Darūb))(LK(VMFIN moͤgen))(MF(PIAT ſollich)(NN diener)(NE got)(ADV etwa)(KOKOM als)(ADJD wol))(VC(VVINF gefallen))(KOMMA /)(NF(KOKOM als)(ART ain)(NE Chartheüſer)(KOMMA /)(C(PRELS der))(MF(PIS niemandts)(ADJD nutzlich))(VC(VVFIN iſt)))(PUNKT .))
+# text = Darūb moͤgen ſollich diener got etwa als wol gefallen / als ain Chartheüſer / der niemandts nutzlich iſt.
+1	Darūb	_	_	ADV	_	_	_	_	_	_	ADVP	Darūb	_	ADVB	_	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	B-VF	16,23	_	_
+2	moͤgen	_	_	VMFIN	_	_	_	_	_	_	VP	moͤgen	_	VFIN	_	_	_	O	VMFIN	LI	MAINDECL	B-LK	16,23	_	_
+3	ſollich	_	_	PIAT	_	_	_	_	_	_	NP	ſollich	_	SUBJ	_	_	B-NP-insitu	B-NP	ADJ	_	MAINDECL	B-MF	16,23	_	_
+4	diener	_	_	NN	_	_	_	_	_	_	NP	diener	_	SUBJ	_	_	I-NP	I-NP	NA	_	MAINDECL	I-MF	16,23	_	_
+5	got	_	_	NE	_	_	_	_	_	_	NP	got	_	IO-DAT	_	_	I-NP	I-NP	NE	_	MAINDECL	I-MF	16,23	_	_
+6	etwa	_	_	ADV	_	_	_	_	_	_	ADVP	etwa	_	ADVB	_	_	I-NP	I-NP	ADV	_	MAINDECL	I-MF	16,23	_	_
+7	als	_	_	KOKOM	_	_	_	_	_	_	AP	als	_	PRD	_	_	I-NP	I-NP	KOUS	_	MAINDECL	I-MF	16,23	_	_
+8	wol	_	_	ADJD	_	_	_	_	_	_	AP	wol	_	PRD	_	_	I-NP	I-NP	ADJD	_	MAINDECL	I-MF	16,24	_	_
+9	gefallen	_	_	VVINF	_	_	_	_	_	_	VP	gefallen	_	INF	_	_	_	O	VVINF	RE	MAINDECL	B-RK	16,24	_	_
+10	/	_	_	$,	_	_	_	_	_	_	_	/	_	_	_	_	_	O	$_	_	MAINDECL	O	16,24	_	_
+11	als	_	_	KOKOM	_	_	_	_	_	B-Antec-1	_	als	NF	VGL	_	_	B-NP-extrap	B-NP	KOKOM	_	MAINDECL	B-NF	16,24	LINK_ASSYM	_
+12	ain	_	_	ART	_	_	_	_	_	I-Antec	NP	ain	NF	VGL	_	_	I-NP	I-NP	DIA	_	MAINDECL	I-NF	16,24	LINK_ASSYM	_
+13	Chartheüſer	_	_	NE	_	_	_	_	_	I-Antec-Head	NP	Chartheüſer	NF	VGL	ACC-UNI-UNUSED	_	I-NP	I-NP	NE	_	MAINDECL	I-NF	16,24	LINK_ASSYM	KOREF1-REL
+14	/	_	_	$,	_	_	_	_	_	_	_	/	_	_	_	_	I-NP	I-NP	$_	_	MAINDECL	I-NF	16,24	_	_
+15	der	_	_	PRELS	_	_	_	_	_	_	CP	der	_	ATTR	_	_	I-NP|B-RELC-insitu-1|B-NP-insitu	I-NP	DDSREL	_	MAINDECL	I-NF|B-LK	16,24	_	KOREF2-REL
+16	niemandts	_	_	PIS	_	_	_	_	_	_	CP	niemandts	_	ATTR	_	_	I-NP|I-RELC|B-NP-insitu	I-NP	PINEG	_	MAINDECL	I-NF|B-MF	16,24	_	_
+17	nutzlich	_	_	ADJD	_	_	_	_	_	_	CP	nutzlich	_	ATTR	_	_	I-NP|I-RELC|B-AP-insitu	I-NP	ADV	_	MAINDECL	I-NF|I-MF	16,25; die-	_	_
+18	iſt	_	_	VVFIN	_	_	_	_	_	_	CP	iſt	_	ATTR	_	_	I-NP|I-RELC	I-NP	VVFIN	_	MAINDECL	I-NF|B-RK	16,25; die-	_	_
+19	.	_	_	$.	_	_	_	_	_	_	_	.	_	_	_	_	_	I-NP	$_	_	MAINDECL	O	16,25; die-	_	_
+
+# sent_id = 8
+# PTBstring = (VROOT(S(NP(ART Die)(NN ſenfften))(VP(VAFIN werden))(VP(VVINF erer-ben)(NP(ART das)(NN erdtrich)(KOMMA /)))))
+# TopFString = (S(VF(ART Die)(NN ſenfften))(LK(VAFIN werden))(MF(VVINF erer-ben)(ART das)(NN erdtrich))(KOMMA /))
+# text = Die ſenfften werden erer-ben das erdtrich /
+1	Die	_	_	ART	_	_	_	_	_	_	NP	Die	NF	SUBJ	_	_	B-NP-insitu	B-NP	DDA	_	MAINDECL	B-VF	17,09; erer-	_	_
+2	ſenfften	_	_	NN	_	_	_	_	_	_	NP	ſenfften	NF	SUBJ	_	_	I-NP	I-NP	ADJS	_	MAINDECL	I-VF	17,09; erer-	_	_
+3	werden	_	_	VAFIN	_	_	_	_	_	_	VP	werden	NF	VFIN	_	_	_	O	VAFIN	LI	MAINDECL	B-LK	17,09; erer-	_	_
+4	erer-ben	_	_	VVINF	_	_	_	_	_	_	VP	ererben	NF	INF	_	_	_	O	VVINF	RE	MAINDECL	B-MF	17,09; erer-	_	_
+5	das	_	_	ART	_	_	_	_	_	_	NP	das	NF	DO	GIV-INACTIVE	_	B-NP-insitu	B-NP	DDA	_	MAINDECL	I-MF	17,10; -ben	UNLINK	KOREF1
+6	erdtrich	_	_	NN	_	_	_	_	_	_	NP	erdtrich	NF	DO	GIV-INACTIVE	_	I-NP	I-NP	NA	_	MAINDECL	I-MF	17,10; -ben	UNLINK	KOREF1
+7	/	_	_	$,	_	_	_	_	_	_	_	/	_	_	_	_	_	I-NP	$_	_	MAINDECL	O	17,10; -ben	_	_

@@ -1,0 +1,458 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CharOffset DTA:ID DTA:NORM PHRASE POS
+# sent_id = 1
+# sent_id(TSV) = 1
+# PTBstring = (VROOT(NP(ADJA Newe)(NN Zeytung)(PP(APPR auß)(NE Ghendt)(KLAMMER /))(PP(APPR in)(NE Flandern)(PUNKT .))))
+# text = Newe Zeytung auß Ghendt / in Flandern .
+1	Newe	neu	_	ADJA	_	_	_	_	_	0-4	w1e2	Neue	B-NP	*
+2	Zeytung	Zeitung	_	NN	_	_	_	_	_	5-12	w1e3	Zeitung	I-NP	*
+3	auß	aus	_	APPR	_	_	_	_	_	13-16	w1e4	aus	I-NP	*
+4	Ghendt	Ghendt	_	NE	_	_	_	_	_	17-23	w1e5	Ghendt	I-NP	*
+5	/	/	_	$(	_	_	_	_	_	24-25	w1e6	/	I-NP	*
+6	in	in	_	APPR	_	_	_	_	_	26-28	w1e7	in	I-NP	*
+7	Flandern	Flandern	_	NE	_	_	_	_	_	29-37	w1e8	Flandern	I-NP	*
+8	.	.	_	$.	_	_	_	_	_	38-39	w1e9	.	I-NP	*
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# PTBstring = (VROOT(S(KOUS Wie)(NP(PPER es))(VP(VP(VP(ADV da)(ADV selbst)(NP(ART ein)(CAP(AP(ADV gantz)(ADJA greuͤlichs))(KON vnd)(ADJA Erschroͤcklichs))(KLAMMER /)(NN vngewiter))(VVPP entstanden))(NP(ART des)(NN gleichen))(AVP(ADV vormals)(ADV nie))(VVPP erhoͤrt))(VAPP wordn))(VP(VAFIN ist)))(KLAMMER /))
+# text = Wie es da selbst ein gantz greuͤlichs vnd Erschroͤcklichs / vngewiter entstanden des gleichen vormals nie erhoͤrt wordn ist /
+1	Wie	wie	_	KOUS	_	_	_	_	_	41-44	w1ea	Wie	O	*
+2	es	es	_	PPER	_	_	_	_	_	45-47	w1eb	es	B-NP	*
+3	da	da	_	ADV	_	_	_	_	_	48-50	w1ec	da	B-ADVP	*
+4	selbst	selbst	_	ADV	_	_	_	_	_	51-57	w1ed	selbst	B-ADVP	*
+5	ein	eine	_	ART	_	_	_	_	_	58-61	w1ee	ein	B-NP	*
+6	gantz	ganz	_	ADV	_	_	_	_	_	62-67	w1ef	ganz	I-NP	*
+7	greuͤlichs	greulich	_	ADJA	_	_	_	_	_	68-78	w1f0	greuliches	I-NP	*
+8	vnd	und	_	KON	_	_	_	_	_	79-82	w1f1	und	I-NP	*
+9	Erschroͤcklichs	erschröcklich	_	ADJA	_	_	_	_	_	83-98	w1f2	Erschröckliches	I-NP	*
+10	/	/	_	$(	_	_	_	_	_	99-100	w1f3	/	I-NP	*
+11	vngewiter	Ungewitter	_	NN	_	_	_	_	_	101-110	w1f4	Ungewitter	I-NP	*
+12	entstanden	entstehen	_	VVPP	_	_	_	_	_	111-121	w1f5	entstanden	O	*
+13	des	d	_	ART	_	_	_	_	_	122-125	w1f6	des	B-NP	*
+14	gleichen	gleich	_	NN	_	_	_	_	_	126-134	w1f7	gleichen	I-NP	*
+15	vormals	vormals	_	ADV	_	_	_	_	_	135-142	w1f8	vormals	B-ADVP	*
+16	nie	nie	_	ADV	_	_	_	_	_	143-146	w1f9	nie	I-ADVP	*
+17	erhoͤrt	erhören	_	VVPP	_	_	_	_	_	147-154	w1fa	erhört	O	*
+18	wordn	werden	_	VAPP	_	_	_	_	_	155-160	w1fb	worden	O	*
+19	ist	sein	_	VAFIN	_	_	_	_	_	161-164	w1fc	ist	O	*
+20	/	/	_	$(	_	_	_	_	_	165-166	w1fd	/	O	*
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# PTBstring = (VROOT(VP(VVPP geschehen)(NP(NN Anno)(CARD 1586.)(NP(ART den)(ADJA 18.)(NN Augustij)(PUNKT .)))))
+# text = geschehen Anno 1586. den 18. Augustij .
+1	geschehen	geschehen	_	VVPP	_	_	_	_	_	168-177	w1fe	geschehen	O	*
+2	Anno	Anno	_	NN	_	_	_	_	_	178-182	w1ff	Anno	B-NP	*
+3	1586.	1586.	_	CARD	_	_	_	_	_	183-188	w200	1586.	I-NP	*
+4	den	d	_	ART	_	_	_	_	_	189-192	w201	den	I-NP	*
+5	18.	18.	_	ADJA	_	_	_	_	_	193-196	w202	18.	I-NP	*
+6	Augustij	Augustij	_	NN	_	_	_	_	_	197-205	w203	Augustij	I-NP	*
+7	.	.	_	$.	_	_	_	_	_	206-207	w204	.	I-NP	*
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# PTBstring = (VROOT(VP(AP(ADV SEhr)(ADJD khleglich))(PP(APPR in)(ART der)(NN zeit))(VVPP gemelt)(KLAMMER /)))
+# text = SEhr khleglich in der zeit gemelt /
+1	SEhr	sehr	_	ADV	_	_	_	_	_	209-213	w1,w1_1	Sehr	B-AP	*
+2	khleglich	kläglich	_	ADJD	_	_	_	_	_	214-223	w2	kläglich	I-AP	*
+3	in	in	_	APPR	_	_	_	_	_	224-226	w3	in	B-PP	*
+4	der	d	_	ART	_	_	_	_	_	227-230	w4	der	I-PP	*
+5	zeit	Zeit	_	NN	_	_	_	_	_	231-235	w5	Zeit	I-PP	*
+6	gemelt	melden	_	VVPP	_	_	_	_	_	236-242	w6	gemeldet	O	*
+7	/	/	_	$(	_	_	_	_	_	243-244	w7	/	O	*
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# PTBstring = (VROOT(S(AVP(ADV Da))(VP(VAFIN hat))(NP(PRF sich))(NP(ART der)(NN Himmel))(VP(VVPP gestele)(PUNKT .))))
+# text = Da hat sich der Himmel gestele .
+1	Da	da	_	ADV	_	_	_	_	_	246-248	w8	Da	B-ADVP	*
+2	hat	haben	_	VAFIN	_	_	_	_	_	249-252	w9	hat	O	*
+3	sich	sich	_	PRF	_	_	_	_	_	253-257	wa	sich	B-NP	*
+4	der	d	_	ART	_	_	_	_	_	258-261	wb	der	B-NP	*
+5	Himmel	Himmel	_	NN	_	_	_	_	_	262-268	wc	Himmel	I-NP	*
+6	gestele	Gestell	_	VVPP	_	_	_	_	_	269-276	wd	Gestelle	O	*
+7	.	.	_	$.	_	_	_	_	_	277-278	we	.	O	*
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# PTBstring = (VROOT(S(AP(ADJD Schroͤcklich))(KLAMMER /)(NP(ART die)(NN Windt))(VP(VVFIN theten))(AVP(ADV auch))(SVP(PTKVZ web))))
+# text = Schroͤcklich / die Windt theten auch web
+1	Schroͤcklich	schrecklich	_	ADJD	_	_	_	_	_	280-292	wf	Schrecklich	B-AP	*
+2	/	/	_	$(	_	_	_	_	_	293-294	w10	/	O	*
+3	die	d	_	ART	_	_	_	_	_	295-298	w11	die	B-NP	*
+4	Windt	Wind	_	NN	_	_	_	_	_	299-304	w12	Wind	I-NP	*
+5	theten	tun	_	VVFIN	_	_	_	_	_	305-311	w13	täten	O	*
+6	auch	auch	_	ADV	_	_	_	_	_	312-316	w14	auch	B-ADVP	*
+7	web	Web	_	PTKVZ	_	_	_	_	_	317-320	w15	web	O	*
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# PTBstring = (VROOT(S(PP(APPR Zu)(PDS dem))(VP(VVFIN sach))(NP(PIS man))(PP(APPR in)(NN lüften)(KLAMMER /))(VP(VVINF Schweben))(KLAMMER /)(PP(APPR Vnter)(ART aim)(NN vngewiter))(CAP(ADJD groß)(PUNKT .)(ADJD Sichtbarlichen))(NP(ART den)(NN Satan))(AVP(ADV Bloß))(KLAMMER /)))
+# text = Zu dem sach man in lüften / Schweben / Vnter aim vngewiter groß . Sichtbarlichen den Satan Bloß /
+1	Zu	zu	_	APPR	_	_	_	_	_	322-324	w16	Zu	B-PP	*
+2	dem	d	_	PDS	_	_	_	_	_	325-328	w17	dem	I-PP	*
+3	sach	Sache	_	VVFIN	_	_	_	_	_	329-333	w18	Sache	O	*
+4	man	man	_	PIS	_	_	_	_	_	334-337	w19	man	B-NP	*
+5	in	in	_	APPR	_	_	_	_	_	338-340	w1a	in	B-PP	*
+6	lüften	lüften	_	NN	_	_	_	_	_	341-347	w1b	lüften	I-PP	*
+7	/	/	_	$(	_	_	_	_	_	348-349	w1c	/	I-PP	*
+8	Schweben	Schwebe	_	VVINF	_	_	_	_	_	350-358	w1d	Schweben	O	*
+9	/	/	_	$(	_	_	_	_	_	359-360	w1e	/	O	*
+10	Vnter	unter	_	APPR	_	_	_	_	_	361-366	w1f	Unter	B-PP	*
+11	aim	Aim	_	ART	_	_	_	_	_	367-370	w20	aim	I-PP	*
+12	vngewiter	Ungewitter	_	NN	_	_	_	_	_	371-380	w21	Ungewitter	I-PP	*
+13	groß	groß	_	ADJD	_	_	_	_	_	381-385	w22	groß	B-AP	*
+14	.	.	_	$.	_	_	_	_	_	386-387	w23	.	O	*
+15	Sichtbarlichen	Sichtbarliche	_	ADJD	_	_	_	_	_	388-402	w24	Sichtbarlichen	B-AP	*
+16	den	d	_	ART	_	_	_	_	_	403-406	w25	den	B-NP	*
+17	Satan	Satan	_	NN	_	_	_	_	_	407-412	w26	Satan	I-NP	*
+18	Bloß	bloß	_	ADV	_	_	_	_	_	413-417	w27	Bloß	B-ADVP	*
+19	/	/	_	$(	_	_	_	_	_	418-419	w28	/	O	*
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# PTBstring = (VROOT(S(AVP(ADV Auch))(KOUS wie)(NP(PPER er))(NP(PRF sich))(VP(VVFIN thete))(VP(VVINF befleisen))(PUNKT .)(VP(NP(PIAT Villerley)(NN schaden))(VZ(PTKZU zu)(VVINF beweisen)(KLAMMER /)))(S:RC(NP(PRELS Des))(NP(ADJA manichen)(NN Mann))(VP(VAFIN hat))(VP(VVPP geschmirtzt)(PUNKT .)))))
+# text = Auch wie er sich thete befleisen . Villerley schaden zu beweisen / Des manichen Mann hat geschmirtzt .
+1	Auch	auch	_	ADV	_	_	_	_	_	421-425	w29	Auch	B-ADVP	*
+2	wie	wie	_	KOUS	_	_	_	_	_	426-429	w2a	wie	O	*
+3	er	er	_	PPER	_	_	_	_	_	430-432	w2b	er	B-NP	*
+4	sich	sich	_	PRF	_	_	_	_	_	433-437	w2c	sich	B-NP	*
+5	thete	tun	_	VVFIN	_	_	_	_	_	438-443	w2d	täte	O	*
+6	befleisen	befleißen	_	VVINF	_	_	_	_	_	444-453	w2e	befleißen	O	*
+7	.	.	_	$.	_	_	_	_	_	454-455	w2f	.	O	*
+8	Villerley	vielerlei	_	PIAT	_	_	_	_	_	456-465	w30	vielerlei	B-NP	*
+9	schaden	schaden	_	NN	_	_	_	_	_	466-473	w31	schaden	I-NP	*
+10	zu	zu	_	PTKZU	_	_	_	_	_	474-476	w32	zu	O	*
+11	beweisen	beweisen	_	VVINF	_	_	_	_	_	477-485	w33	beweisen	O	*
+12	/	/	_	$(	_	_	_	_	_	486-487	w34	/	O	*
+13	Des	d	_	PRELS	_	_	_	_	_	488-491	w35	Des	B-NP	*
+14	manichen	Maniechen	_	ADJA	_	_	_	_	_	492-500	w36	Manichen	B-NP	*
+15	Mann	Mann	_	NN	_	_	_	_	_	501-505	w37	Mann	I-NP	*
+16	hat	haben	_	VAFIN	_	_	_	_	_	506-509	w38	hat	O	*
+17	geschmirtzt	geschmiert	_	VVPP	_	_	_	_	_	510-521	w39	geschmiertst	O	*
+18	.	.	_	$.	_	_	_	_	_	522-523	w3a	.	O	*
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# PTBstring = (VROOT(S(NP(PPER Er))(VP(VAFIN hat))(VP(NP(PIAT vil)(NN Heüser))(PTKVZ vmb)(VVPP gesturtzt)(PP(APPR Jn)(ART der)(NN Stat)(NE Ghendt)(KLAMMER /))(CAP(ADJD Nache)(KON vnd)(ADJD feren)(PUNKT .)))))
+# text = Er hat vil Heüser vmb gesturtzt Jn der Stat Ghendt / Nache vnd feren .
+1	Er	er	_	PPER	_	_	_	_	_	525-527	w3b	Er	B-NP	*
+2	hat	haben	_	VAFIN	_	_	_	_	_	528-531	w3c	hat	O	*
+3	vil	viel	_	PIAT	_	_	_	_	_	532-535	w3d	viel	B-NP	*
+4	Heüser	heiser	_	NN	_	_	_	_	_	536-542	w3e	Heiser	I-NP	*
+5	vmb	um	_	PTKVZ	_	_	_	_	_	543-546	w3f	um	O	*
+6	gesturtzt	stürzen	_	VVPP	_	_	_	_	_	547-556	w40	gestürzt	O	*
+7	Jn	in	_	APPR	_	_	_	_	_	557-559	w41	In	B-PP	*
+8	der	d	_	ART	_	_	_	_	_	560-563	w42	der	I-PP	*
+9	Stat	Staat	_	NN	_	_	_	_	_	564-568	w43	Staat	I-PP	*
+10	Ghendt	Ghendt	_	NE	_	_	_	_	_	569-575	w44	Ghendt	I-PP	*
+11	/	/	_	$(	_	_	_	_	_	576-577	w45	/	I-PP	*
+12	Nache	nagen	_	ADJD	_	_	_	_	_	578-583	w46	Nage	B-AP	*
+13	vnd	und	_	KON	_	_	_	_	_	584-587	w47	und	I-AP	*
+14	feren	Feren	_	ADJD	_	_	_	_	_	588-593	w48	feren	I-AP	*
+15	.	.	_	$.	_	_	_	_	_	594-595	w49	.	I-AP	*
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# PTBstring = (VROOT(S(PP(APPR Nach)(PIS sollichem))(VP(VVFIN ließ))(NP(PPER Er))(NP(PRF sich))(VP(VVINF hoͤrren)(KLAMMER /)(PP(APPR Jn)(ART aim)(NN Castel)(KLAMMER /)))))
+# text = Nach sollichem ließ Er sich hoͤrren / Jn aim Castel /
+1	Nach	nach	_	APPR	_	_	_	_	_	597-601	w4a	Nach	B-PP	*
+2	sollichem	solelich	_	PIS	_	_	_	_	_	602-611	w4b	sollichem	I-PP	*
+3	ließ	lassen	_	VVFIN	_	_	_	_	_	612-616	w4c	ließ	O	*
+4	Er	er	_	PPER	_	_	_	_	_	617-619	w4d	Er	B-NP	*
+5	sich	sich	_	PRF	_	_	_	_	_	620-624	w4e	sich	B-NP	*
+6	hoͤrren	hören	_	VVINF	_	_	_	_	_	625-632	w4f	hören	O	*
+7	/	/	_	$(	_	_	_	_	_	633-634	w50	/	O	*
+8	Jn	in	_	APPR	_	_	_	_	_	635-637	w51	In	B-PP	*
+9	aim	Aim	_	ART	_	_	_	_	_	638-641	w52	aim	I-PP	*
+10	Castel	Castel	_	NN	_	_	_	_	_	642-648	w53	Castel	I-PP	*
+11	/	/	_	$(	_	_	_	_	_	649-650	w54	/	I-PP	*
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# PTBstring = (VROOT(S(AVP(ADV da))(VP(VVFIN griff))(NP(PPER Er))(SVP(PTKVZ ann.))(AP(ADV Gar)(ADJD schroͤcklich)(NP(ART ainen)(NN Edelman)(KLAMMER /)))))
+# text = da griff Er ann. Gar schroͤcklich ainen Edelman /
+1	da	da	_	ADV	_	_	_	_	_	652-654	w55	da	B-ADVP	*
+2	griff	greifen	_	VVFIN	_	_	_	_	_	655-660	w56	griff	O	*
+3	Er	er	_	PPER	_	_	_	_	_	661-663	w57	Er	B-NP	*
+4	ann.	Ann.	_	PTKVZ	_	_	_	_	_	664-668	w58	ann.	O	*
+5	Gar	gar	_	ADV	_	_	_	_	_	669-672	w59	Gar	B-AP	*
+6	schroͤcklich	schrecklich	_	ADJD	_	_	_	_	_	673-685	w5a	schrecklich	I-AP	*
+7	ainen	eine	_	ART	_	_	_	_	_	686-691	w5b	einen	I-AP	*
+8	Edelman	Edelmann	_	NN	_	_	_	_	_	692-699	w5c	Edelmann	I-AP	*
+9	/	/	_	$(	_	_	_	_	_	700-701	w5d	/	I-AP	*
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# PTBstring = (VROOT(DL(PP(APPR Auß)(PPOSAT seinem)(NN Leib)(KLAMMER /))(S(NP(PIAT vil)(NN stückh))(NP(PPER Er))(VP(VVFIN Riß))(PUNKT .))))
+# text = Auß seinem Leib / vil stückh Er Riß .
+1	Auß	aus	_	APPR	_	_	_	_	_	703-706	w5e	Aus	B-PP	*
+2	seinem	seine	_	PPOSAT	_	_	_	_	_	707-713	w5f	seinem	I-PP	*
+3	Leib	Leib	_	NN	_	_	_	_	_	714-718	w60	Leib	I-PP	*
+4	/	/	_	$(	_	_	_	_	_	719-720	w61	/	I-PP	*
+5	vil	viel	_	PIAT	_	_	_	_	_	721-724	w62	viel	B-NP	*
+6	stückh	Stück	_	NN	_	_	_	_	_	725-731	w63	Stück	I-NP	*
+7	Er	er	_	PPER	_	_	_	_	_	732-734	w64	Er	B-NP	*
+8	Riß	Riß	_	VVFIN	_	_	_	_	_	735-738	w65	Riß	O	*
+9	.	.	_	$.	_	_	_	_	_	739-740	w66	.	O	*
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# PTBstring = (VROOT(S(AP(ADJD Wunderlich))(VP(VAFIN ists))(KLAMMER /)(AVP(ADV doch))(AVP(ADV gleichwol))(AVP(ADV gwiß)(KLAMMER /)(S(KOUS Das)(NP(PPER er))(NP(ART ain)(ADJA klaines)(NN Heuͤßlein))(AP(ADJD fein)(PUNKT .)(S(NP(PRELS Deß))(NP(ART aines)(NN Schuchmachers))(VP(VVFIN thet))(VP(VAINF sein))(KLAMMER /)))(SVP(PTKVZ Hinweckh))(VP(VVFIN trueg))(KLAMMER /)(AP(PP(APPR mit)(PPOSAT sein)(NN macht))(VVPP enteckht)(PUNKT .))))))
+# text = Wunderlich ists / doch gleichwol gwiß / Das er ain klaines Heuͤßlein fein . Deß aines Schuchmachers thet sein / Hinweckh trueg / mit sein macht enteckht .
+1	Wunderlich	wunderlich	_	ADJD	_	_	_	_	_	742-752	w67	Wunderlich	B-AP	*
+2	ists	sein_es	_	VAFIN	_	_	_	_	_	753-757	w68	ist_es	O	*
+3	/	/	_	$(	_	_	_	_	_	758-759	w69	/	O	*
+4	doch	doch	_	ADV	_	_	_	_	_	760-764	w6a	doch	B-ADVP	*
+5	gleichwol	gleichwohl	_	ADV	_	_	_	_	_	765-774	w6b	gleichwohl	B-ADVP	*
+6	gwiß	gewiß	_	ADV	_	_	_	_	_	775-779	w6c	gewiß	B-ADVP	*
+7	/	/	_	$(	_	_	_	_	_	780-781	w6d	/	I-ADVP	*
+8	Das	d	_	KOUS	_	_	_	_	_	782-785	w6e	Das	O	*
+9	er	er	_	PPER	_	_	_	_	_	786-788	w6f	er	B-NP	*
+10	ain	eine	_	ART	_	_	_	_	_	789-792	w70	ein	B-NP	*
+11	klaines	klein	_	ADJA	_	_	_	_	_	793-800	w71	kleines	I-NP	*
+12	Heuͤßlein	Heüßlein	_	NN	_	_	_	_	_	801-810	w72	Heüßlein	I-NP	*
+13	fein	fein	_	ADJD	_	_	_	_	_	811-815	w73	fein	B-AP	*
+14	.	.	_	$.	_	_	_	_	_	816-817	w74	.	I-AP	*
+15	Deß	d	_	PRELS	_	_	_	_	_	818-821	w75	Des	B-NP	*
+16	aines	eine	_	ART	_	_	_	_	_	822-827	w76	eines	B-NP	*
+17	Schuchmachers	Schachmacher	_	NN	_	_	_	_	_	828-841	w77	Schachmachers	I-NP	*
+18	thet	tun	_	VVFIN	_	_	_	_	_	842-846	w78	täte	O	*
+19	sein	sein	_	VAINF	_	_	_	_	_	847-851	w79	sein	O	*
+20	/	/	_	$(	_	_	_	_	_	852-853	w7a	/	O	*
+21	Hinweckh	hinweg	_	PTKVZ	_	_	_	_	_	854-862	w7b	hinweg	O	*
+22	trueg	trügen	_	VVFIN	_	_	_	_	_	863-868	w7c	trüg	O	*
+23	/	/	_	$(	_	_	_	_	_	869-870	w7d	/	O	*
+24	mit	mit	_	APPR	_	_	_	_	_	871-874	w7e	mit	B-PP	*
+25	sein	sein	_	PPOSAT	_	_	_	_	_	875-879	w7f	sein	I-PP	*
+26	macht	machen	_	NN	_	_	_	_	_	880-885	w80	macht	I-PP	*
+27	enteckht	entdecken	_	VVPP	_	_	_	_	_	886-894	w81	entdeckt	O	*
+28	.	.	_	$.	_	_	_	_	_	895-896	w82	.	O	*
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# PTBstring = (VROOT(S(NP(ART Ein)(ADJA Alte)(NN Fraw)(PAV darmit))(VP(VVPP erschreckt))(KLAMMER /)(S:OC(KOUS Das)(NP(PIS man))(NP(PPER sie))(VP(VAFIN hat))(VP(PP(APPR fir)(ADJD Thot))(VVPP vmbzogen)(PUNKT .)))))
+# text = Ein Alte Fraw darmit erschreckt / Das man sie hat fir Thot vmbzogen .
+1	Ein	eine	_	ART	_	_	_	_	_	898-901	w83	Ein	B-NP	*
+2	Alte	alt	_	ADJA	_	_	_	_	_	902-906	w84	Alte	I-NP	*
+3	Fraw	Frau	_	NN	_	_	_	_	_	907-911	w85	Frau	I-NP	*
+4	darmit	damit	_	PAV	_	_	_	_	_	912-918	w86	damit	I-NP	*
+5	erschreckt	erschrecken	_	VVPP	_	_	_	_	_	919-929	w87	erschreckt	O	*
+6	/	/	_	$(	_	_	_	_	_	930-931	w88	/	O	*
+7	Das	die	_	KOUS	_	_	_	_	_	932-935	w89	Das	O	*
+8	man	man	_	PIS	_	_	_	_	_	936-939	w8a	man	B-NP	*
+9	sie	sie	_	PPER	_	_	_	_	_	940-943	w8b	sie	B-NP	*
+10	hat	haben	_	VAFIN	_	_	_	_	_	944-947	w8c	hat	O	*
+11	fir	für	_	APPR	_	_	_	_	_	948-951	w8d	für	B-PP	*
+12	Thot	Tod	_	ADJD	_	_	_	_	_	952-956	w8e	Tod	I-PP	*
+13	vmbzogen	umziehen	_	VVPP	_	_	_	_	_	957-965	w8f	umzogen	O	*
+14	.	.	_	$.	_	_	_	_	_	966-967	w90	.	O	*
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# PTBstring = (VROOT(S(AVP(ADV Ferner))(VP(VAFIN ist))(NP(ART der)(ADJA Boͤß)(NN Geist))(VP(VVPP geflogen)(KLAMMER /)(PP(APPR Mit)(ADJA lautem)(NN Getuͤmel)(PP(APPR ohn)(NN trawren)(KLAMMER /)))(PP(APPR Auff)(NN S.)(NP(NE Peters)(NN Kirch))))))
+# text = Ferner ist der Boͤß Geist geflogen / Mit lautem Getuͤmel ohn trawren / Auff S. Peters Kirch
+1	Ferner	ferner	_	ADV	_	_	_	_	_	969-975	w91	Ferner	B-ADVP	*
+2	ist	sein	_	VAFIN	_	_	_	_	_	976-979	w92	ist	O	*
+3	der	d	_	ART	_	_	_	_	_	980-983	w93	der	B-NP	*
+4	Boͤß	böse	_	ADJA	_	_	_	_	_	984-988	w94	Böse	I-NP	*
+5	Geist	Geist	_	NN	_	_	_	_	_	989-994	w95	Geist	I-NP	*
+6	geflogen	fliegen	_	VVPP	_	_	_	_	_	995-1003	w96	geflogen	O	*
+7	/	/	_	$(	_	_	_	_	_	1004-1005	w97	/	O	*
+8	Mit	mit	_	APPR	_	_	_	_	_	1006-1009	w98	Mit	B-PP	*
+9	lautem	laut	_	ADJA	_	_	_	_	_	1010-1016	w99	lautem	I-PP	*
+10	Getuͤmel	Getümmel	_	NN	_	_	_	_	_	1017-1025	w9a	Getümmel	I-PP	*
+11	ohn	ohne	_	APPR	_	_	_	_	_	1026-1029	w9b	ohne	I-PP	*
+12	trawren	Trauern	_	NN	_	_	_	_	_	1030-1037	w9c	Trauern	I-PP	*
+13	/	/	_	$(	_	_	_	_	_	1038-1039	w9d	/	I-PP	*
+14	Auff	auf	_	APPR	_	_	_	_	_	1040-1044	w9e	Auf	B-PP	*
+15	S.	S.	_	NN	_	_	_	_	_	1045-1047	w9f	S.	I-PP	*
+16	Peters	Peters	_	NE	_	_	_	_	_	1048-1054	wa0	Peters	I-PP	*
+17	Kirch	Kirche	_	NN	_	_	_	_	_	1055-1060	wa1	Kirche	I-PP	*
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# PTBstring = (VROOT(CS(S(PP(APPR von)(ART den)(NN Maurẽ)(PUNKT .))(NP(NN Stücker))(VP(VVFIN Riß))(KLAMMER /))(KON vnd)(S(VP(PTKVZ Rab)(VVPP geworffen))(VP(VAFIN hat))(KLAMMER /))))
+# text = von den Maurẽ . Stücker Riß / vnd Rab geworffen hat /
+1	von	von	_	APPR	_	_	_	_	_	1062-1065	wa2	von	B-PP	*
+2	den	d	_	ART	_	_	_	_	_	1066-1069	wa3	den	I-PP	*
+3	Maurẽ	Maure	_	NN	_	_	_	_	_	1070-1076	wa4	Mauren	I-PP	*
+4	.	.	_	$.	_	_	_	_	_	1077-1078	wa5	.	I-PP	*
+5	Stücker	Stücker	_	NN	_	_	_	_	_	1079-1086	wa6	Stücker	B-NP	*
+6	Riß	Riß	_	VVFIN	_	_	_	_	_	1087-1090	wa7	Riß	O	*
+7	/	/	_	$(	_	_	_	_	_	1091-1092	wa8	/	O	*
+8	vnd	und	_	KON	_	_	_	_	_	1093-1096	wa9	und	O	*
+9	Rab	herab	_	PTKVZ	_	_	_	_	_	1097-1100	waa	Herab	O	*
+10	geworffen	werfen	_	VVPP	_	_	_	_	_	1101-1110	wab	geworfen	O	*
+11	hat	haben	_	VAFIN	_	_	_	_	_	1111-1114	wac	hat	O	*
+12	/	/	_	$(	_	_	_	_	_	1115-1116	wad	/	O	*
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# PTBstring = (VROOT(S(NP(PPER Er))(VP(VVFIN fandt))(PP(ADV auch)(APPRART beim)(NN Waser))(PP(APPRART am)(NN gstat))(NP(ART Einen)(ADJA guten)(ADJA frumen)(NN man))(AP(ADJD Alt)))(PUNKT .))
+# text = Er fandt auch beim Waser am gstat Einen guten frumen man Alt .
+1	Er	er	_	PPER	_	_	_	_	_	1118-1120	wae	Er	B-NP	*
+2	fandt	finden	_	VVFIN	_	_	_	_	_	1121-1126	waf	fand	O	*
+3	auch	auch	_	ADV	_	_	_	_	_	1127-1131	wb0	auch	B-PP	*
+4	beim	beim	_	APPRART	_	_	_	_	_	1132-1136	wb1	beim	I-PP	*
+5	Waser	Wasser	_	NN	_	_	_	_	_	1137-1142	wb2	Wasser	I-PP	*
+6	am	am	_	APPRART	_	_	_	_	_	1143-1145	wb3	am	B-PP	*
+7	gstat	Gstat	_	NN	_	_	_	_	_	1146-1151	wb4	gstat	I-PP	*
+8	Einen	eine	_	ART	_	_	_	_	_	1152-1157	wb5	Einen	B-NP	*
+9	guten	gut	_	ADJA	_	_	_	_	_	1158-1163	wb6	guten	I-NP	*
+10	frumen	Frumen	_	ADJA	_	_	_	_	_	1164-1170	wb7	frumen	I-NP	*
+11	man	man	_	NN	_	_	_	_	_	1171-1174	wb8	man	I-NP	*
+12	Alt	alt	_	ADJD	_	_	_	_	_	1175-1178	wb9	Alt	B-AP	*
+13	.	.	_	$.	_	_	_	_	_	1179-1180	wba	.	O	*
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# PTBstring = (VROOT(CS(S(NP(PDS Den))(VP(VVFIN nam))(NP(PPER er))(KLAMMER /)(NP(ADJA vngitiger)(NN gstalt)(KLAMMER /)(PP(APPRART Bein)(NN schultern)(KLAMMER /))))(S(VP(VVFIN fürt))(NP(PPER jn))(PP(APPR in)(ART die)(NN lüft)(PUNKT .)))))
+# text = Den nam er / vngitiger gstalt / Bein schultern / fürt jn in die lüft .
+1	Den	D	_	PDS	_	_	_	_	_	1182-1185	wbb	Den	B-NP	*
+2	nam	nehmen	_	VVFIN	_	_	_	_	_	1186-1189	wbc	nahm	O	*
+3	er	er	_	PPER	_	_	_	_	_	1190-1192	wbd	er	B-NP	*
+4	/	/	_	$(	_	_	_	_	_	1193-1194	wbe	/	O	*
+5	vngitiger	ungütig	_	ADJA	_	_	_	_	_	1195-1204	wbf	ungütiger	B-NP	*
+6	gstalt	Gestalt	_	NN	_	_	_	_	_	1205-1211	wc0	Gestalt	I-NP	*
+7	/	/	_	$(	_	_	_	_	_	1212-1213	wc1	/	I-NP	*
+8	Bein	Bein	_	APPRART	_	_	_	_	_	1214-1218	wc2	Bein	I-NP	*
+9	schultern	schultern	_	NN	_	_	_	_	_	1219-1228	wc3	schultern	I-NP	*
+10	/	/	_	$(	_	_	_	_	_	1229-1230	wc4	/	I-NP	*
+11	fürt	führen	_	VVFIN	_	_	_	_	_	1231-1235	wc5	führt	O	*
+12	jn	er	_	PPER	_	_	_	_	_	1236-1238	wc6	ihn	B-NP	*
+13	in	in	_	APPR	_	_	_	_	_	1239-1241	wc7	in	B-PP	*
+14	die	d	_	ART	_	_	_	_	_	1242-1245	wc8	die	I-PP	*
+15	lüft	lüften	_	NN	_	_	_	_	_	1246-1250	wc9	lüfte	I-PP	*
+16	.	.	_	$.	_	_	_	_	_	1251-1252	wca	.	I-PP	*
+
+# sent_id = 19
+# sent_id(TSV) = 19
+# PTBstring = (VROOT(S(NP(ADJA Groses)(NN Hertzenleidt))(VP(NP(PPER er))(VP(PPER jm)(VVPP stifft))))(KLAMMER /))
+# text = Groses Hertzenleidt er jm stifft /
+1	Groses	groß	_	ADJA	_	_	_	_	_	1254-1260	wcb	Großes	B-NP	*
+2	Hertzenleidt	Herzeleid	_	NN	_	_	_	_	_	1261-1273	wcc	Herzenleid	I-NP	*
+3	er	er	_	PPER	_	_	_	_	_	1274-1276	wcd	er	B-NP	*
+4	jm	er	_	PPER	_	_	_	_	_	1277-1279	wce	ihm	B-NP	*
+5	stifft	Stift	_	VVPP	_	_	_	_	_	1280-1286	wcf	Stift	O	*
+6	/	/	_	$(	_	_	_	_	_	1287-1288	wd0	/	O	*
+
+# sent_id = 20
+# sent_id(TSV) = 20
+# PTBstring = (VROOT(S(AVP(ADV Gleich)(ADV woll))(VP(VVFIN thet))(NP(PPER er))(NP(PPER in))(PP(APPR jn)(ART den)(NN dingen)(PUNKT .))(PP(APPR Ohn)(NN schaden))(VP(ADV widerumb)(VVINF herbringen)(KLAMMER /))))
+# text = Gleich woll thet er in jn den dingen . Ohn schaden widerumb herbringen /
+1	Gleich	gleich	_	ADV	_	_	_	_	_	1290-1296	wd1	Gleich	B-ADVP	*
+2	woll	wohl	_	ADV	_	_	_	_	_	1297-1301	wd2	wohl	I-ADVP	*
+3	thet	tun	_	VVFIN	_	_	_	_	_	1302-1306	wd3	täte	O	*
+4	er	er	_	PPER	_	_	_	_	_	1307-1309	wd4	er	B-NP	*
+5	in	in	_	PPER	_	_	_	_	_	1310-1312	wd5	in	B-NP	*
+6	jn	er	_	APPR	_	_	_	_	_	1313-1315	wd6	ihn	B-PP	*
+7	den	d	_	ART	_	_	_	_	_	1316-1319	wd7	den	I-PP	*
+8	dingen	Ding	_	NN	_	_	_	_	_	1320-1326	wd8	Dingen	I-PP	*
+9	.	.	_	$.	_	_	_	_	_	1327-1328	wd9	.	I-PP	*
+10	Ohn	ohne	_	APPR	_	_	_	_	_	1329-1332	wda	Ohne	B-PP	*
+11	schaden	schaden	_	NN	_	_	_	_	_	1333-1340	wdb	schaden	I-PP	*
+12	widerumb	wiederum	_	ADV	_	_	_	_	_	1341-1349	wdc	wiederum	B-ADVP	*
+13	herbringen	herbringen	_	VVINF	_	_	_	_	_	1350-1360	wdd	herbringen	O	*
+14	/	/	_	$(	_	_	_	_	_	1361-1362	wde	/	O	*
+
+# sent_id = 21
+# sent_id(TSV) = 21
+# PTBstring = (VROOT(CS(S(AVP(ADV Jttem))(NP(PPER er))(VP(VVFIN thet))(VP(PRF sich)(ADV auch)(VVINF erregen)(PUNKT .)(PP(APPR Mit)(AP(ADV sehr)(ADJA grawsamen))(NN Donerschlaͤgen)(KLAMMER /))))(S(NP(ADV Auch)(ADJA Hellen)(NN Blitzen))(AP(ADJD vngehewr))(PUNKT .)(S(NP(PRELS Die))(VP(VVFIN scheinen))(VP(VVINF thetten)(NP(KOKOM wie)(ART das)(NN Fewr)(KLAMMER /)))))))
+# text = Jttem er thet sich auch erregen . Mit sehr grawsamen Donerschlaͤgen / Auch Hellen Blitzen vngehewr . Die scheinen thetten wie das Fewr /
+1	Jttem	Item	_	ADV	_	_	_	_	_	1364-1369	wdf	Item	B-ADVP	*
+2	er	er	_	PPER	_	_	_	_	_	1370-1372	we0	er	B-NP	*
+3	thet	tun	_	VVFIN	_	_	_	_	_	1373-1377	we1	täte	O	*
+4	sich	sich	_	PRF	_	_	_	_	_	1378-1382	we2	sich	B-NP	*
+5	auch	auch	_	ADV	_	_	_	_	_	1383-1387	we3	auch	B-ADVP	*
+6	erregen	erregen	_	VVINF	_	_	_	_	_	1388-1395	we4	erregen	O	*
+7	.	.	_	$.	_	_	_	_	_	1396-1397	we5	.	O	*
+8	Mit	mit	_	APPR	_	_	_	_	_	1398-1401	we6	Mit	B-PP	*
+9	sehr	sehr	_	ADV	_	_	_	_	_	1402-1406	we7	sehr	I-PP	*
+10	grawsamen	grausam	_	ADJA	_	_	_	_	_	1407-1416	we8	grausamen	I-PP	*
+11	Donerschlaͤgen	Donnerschlag	_	NN	_	_	_	_	_	1417-1431	we9	Donnerschlägen	I-PP	*
+12	/	/	_	$(	_	_	_	_	_	1432-1433	wea	/	I-PP	*
+13	Auch	auch	_	ADV	_	_	_	_	_	1434-1438	web	Auch	B-NP	*
+14	Hellen	hell	_	ADJA	_	_	_	_	_	1439-1445	wec	Hellen	I-NP	*
+15	Blitzen	Blitz	_	NN	_	_	_	_	_	1446-1453	wed	Blitzen	I-NP	*
+16	vngehewr	Vngehewr	_	ADJD	_	_	_	_	_	1454-1462	wee	vngehewr	B-AP	*
+17	.	.	_	$.	_	_	_	_	_	1463-1464	wef	.	O	*
+18	Die	die	_	PRELS	_	_	_	_	_	1465-1468	wf0	Die	B-NP	*
+19	scheinen	scheinen	_	VVFIN	_	_	_	_	_	1469-1477	wf1	scheinen	O	*
+20	thetten	tun	_	VVINF	_	_	_	_	_	1478-1485	wf2	täten	O	*
+21	wie	wie	_	KOKOM	_	_	_	_	_	1486-1489	wf3	wie	B-NP	*
+22	das	d	_	ART	_	_	_	_	_	1490-1493	wf4	das	I-NP	*
+23	Fewr	Feuer	_	NN	_	_	_	_	_	1494-1498	wf5	Feuer	I-NP	*
+24	/	/	_	$(	_	_	_	_	_	1499-1500	wf6	/	I-NP	*
+
+# sent_id = 22
+# sent_id(TSV) = 22
+# PTBstring = (VROOT(S(PP(APPR Zu)(NN Gott))(VP(VVFIN Ruften))(NP(ART die)(ADJA lieben)(NN Frumen)))(PUNKT .))
+# text = Zu Gott Ruften die lieben Frumen .
+1	Zu	zu	_	APPR	_	_	_	_	_	1502-1504	wf7	Zu	B-PP	*
+2	Gott	Gott	_	NN	_	_	_	_	_	1505-1509	wf8	Gott	I-PP	*
+3	Ruften	Ruften	_	VVFIN	_	_	_	_	_	1510-1516	wf9	Ruften	O	*
+4	die	d	_	ART	_	_	_	_	_	1517-1520	wfa	die	B-NP	*
+5	lieben	lieb	_	ADJA	_	_	_	_	_	1521-1527	wfb	lieben	I-NP	*
+6	Frumen	Frumen	_	NN	_	_	_	_	_	1528-1534	wfc	Frumen	I-NP	*
+7	.	.	_	$.	_	_	_	_	_	1535-1536	wfd	.	O	*
+
+# sent_id = 23
+# sent_id(TSV) = 23
+# PTBstring = (VROOT(S(NP(PPER Sie))(VP(VVFIN meintẽ))(S:OC(NP(ART der)(ADJA Jüngst)(NN Tag))(VP(VAFIN würt))(VP(VVINF kumẽ)(KLAMMER /)))))
+# text = Sie meintẽ der Jüngst Tag würt kumẽ /
+1	Sie	sie	_	PPER	_	_	_	_	_	1538-1541	wfe	Sie	B-NP	*
+2	meintẽ	meinen	_	VVFIN	_	_	_	_	_	1542-1549	wff	meinten	O	*
+3	der	d	_	ART	_	_	_	_	_	1550-1553	w100	der	B-NP	*
+4	Jüngst	jüngst	_	ADJA	_	_	_	_	_	1554-1560	w101	Jüngst	I-NP	*
+5	Tag	Tag	_	NN	_	_	_	_	_	1561-1564	w102	Tag	I-NP	*
+6	würt	werden	_	VAFIN	_	_	_	_	_	1565-1569	w103	wird	O	*
+7	kumẽ	Kumen	_	VVINF	_	_	_	_	_	1570-1575	w104	kumen	O	*
+8	/	/	_	$(	_	_	_	_	_	1576-1577	w105	/	O	*
+
+# sent_id = 24
+# sent_id(TSV) = 24
+# PTBstring = (VROOT(S(NP(PDS Das))(VP(VVFIN wert))(PP(APPR vber)(CARD drey)(ADJA gantze)(NN Stundt)(PUNKT .))))
+# text = Das wert vber drey gantze Stundt .
+1	Das	die	_	PDS	_	_	_	_	_	1579-1582	w106	Das	B-NP	*
+2	wert	wert	_	VVFIN	_	_	_	_	_	1583-1587	w107	wert	O	*
+3	vber	über	_	APPR	_	_	_	_	_	1588-1592	w108	über	B-PP	*
+4	drey	drei	_	CARD	_	_	_	_	_	1593-1597	w109	drei	I-PP	*
+5	gantze	ganz	_	ADJA	_	_	_	_	_	1598-1604	w10a	ganze	I-PP	*
+6	Stundt	Stand	_	NN	_	_	_	_	_	1605-1611	w10b	Stand	I-PP	*
+7	.	.	_	$.	_	_	_	_	_	1612-1613	w10c	.	I-PP	*
+
+# sent_id = 25
+# sent_id(TSV) = 25
+# PTBstring = (VROOT(S(KON Vnd)(VP(VAFIN ist))(CS(S(AVP(ADV oftermals))(VP(VVFIN thue))(NP(PPER ich))(SVP(PTKVZ Kundt))(KLAMMER /)(NP(ART Der)(NN Himmel))(VP(ADJD Finster)(VAPP worden)(ADJD Schnel)(PUNKT .)))(S(KOUS Als)(VP(VAFIN seis))(CNP(NN Nacht)(KLAMMER /)(KON vnd)(NP(AP(ADV dan)(ADV wider)(ADJD Hell)(KLAMMER /))(NN Sach)))(AVP(ADV gleich))(S(KOKOM als)(KOUS wan)(NP(PPER es))(VP(VVINF Brinnen))(VP(VVFIN thet))(PUNKT .))))))
+# text = Vnd ist oftermals thue ich Kundt / Der Himmel Finster worden Schnel . Als seis Nacht / vnd dan wider Hell / Sach gleich als wan es Brinnen thet .
+1	Vnd	und	_	KON	_	_	_	_	_	1615-1618	w10d	Und	O	*
+2	ist	sein	_	VAFIN	_	_	_	_	_	1619-1622	w10e	ist	O	*
+3	oftermals	oftmals	_	ADV	_	_	_	_	_	1623-1632	w10f	öftermals	B-ADVP	*
+4	thue	tun	_	VVFIN	_	_	_	_	_	1633-1637	w110	tue	O	*
+5	ich	ich	_	PPER	_	_	_	_	_	1638-1641	w111	ich	B-NP	*
+6	Kundt	kund	_	PTKVZ	_	_	_	_	_	1642-1647	w112	kund	O	*
+7	/	/	_	$(	_	_	_	_	_	1648-1649	w113	/	O	*
+8	Der	d	_	ART	_	_	_	_	_	1650-1653	w114	Der	B-NP	*
+9	Himmel	Himmel	_	NN	_	_	_	_	_	1654-1660	w115	Himmel	I-NP	*
+10	Finster	finster	_	ADJD	_	_	_	_	_	1661-1668	w116	Finster	B-AP	*
+11	worden	werden	_	VAPP	_	_	_	_	_	1669-1675	w117	worden	O	*
+12	Schnel	schnell	_	ADJD	_	_	_	_	_	1676-1682	w118	schnell	B-AP	*
+13	.	.	_	$.	_	_	_	_	_	1683-1684	w119	.	O	*
+14	Als	als	_	KOUS	_	_	_	_	_	1685-1688	w11a	Als	O	*
+15	seis	sein	_	VAFIN	_	_	_	_	_	1689-1693	w11b	seist	O	*
+16	Nacht	Nacht	_	NN	_	_	_	_	_	1694-1699	w11c	Nacht	B-NP	*
+17	/	/	_	$(	_	_	_	_	_	1700-1701	w11d	/	I-NP	*
+18	vnd	und	_	KON	_	_	_	_	_	1702-1705	w11e	und	I-NP	*
+19	dan	dann	_	ADV	_	_	_	_	_	1706-1709	w11f	dann	I-NP	*
+20	wider	wider	_	ADV	_	_	_	_	_	1710-1715	w120	wider	I-NP	*
+21	Hell	Hell	_	ADJD	_	_	_	_	_	1716-1720	w121	Hell	I-NP	*
+22	/	/	_	$(	_	_	_	_	_	1721-1722	w122	/	I-NP	*
+23	Sach	Sache	_	NN	_	_	_	_	_	1723-1727	w123	Sache	I-NP	*
+24	gleich	gleich	_	ADV	_	_	_	_	_	1728-1734	w124	gleich	B-ADVP	*
+25	als	als	_	KOKOM	_	_	_	_	_	1735-1738	w125	als	O	*
+26	wan	wann	_	KOUS	_	_	_	_	_	1739-1742	w126	wann	O	*
+27	es	es	_	PPER	_	_	_	_	_	1743-1745	w127	es	B-NP	*
+28	Brinnen	Brennen	_	VVINF	_	_	_	_	_	1746-1753	w128	Brennen	O	*
+29	thet	tun	_	VVFIN	_	_	_	_	_	1754-1758	w129	täte	O	*
+30	.	.	_	$.	_	_	_	_	_	1759-1760	w12a	.	O	*

@@ -1,0 +1,29 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS Kommentar PHRASE POS SATZKLAMMER SATZSTATUS UEBERLIEFERUNGSTRAEGER VERLINKUNG
+# sent_id = 1
+# PTBstring = (VROOT(S(NP(PDS div))(VP(VAFIN waſ))(VP(VVPP bew%ollin))(AVP(ADV vil)(ADV diche))(PP(APPR mit)(NN brodicheit)(NP(PPOSAT ir)(NN libeſ))))(PUNKT .))
+# text = div waſ bew%ollin vil diche mit brodicheit ir libeſ.
+1	div	_	_	PDS	_	_	_	_	_	NP	div	87,04	_	SUBJ	_	_	B-NP	DDS	_	MAINDECL	81r,16	_
+2	waſ	_	_	VAFIN	_	_	_	_	_	VP	waſ	87,04	_	VFIN	_	_	O	VAFIN	LI	MAINDECL	81r,16	_
+3	bew%ollin	_	_	VVPP	_	_	_	_	_	VP	bew%ollin	87,05	_	INF	_	_	O	VVPP	RE	MAINDECL	81r,16	_
+4	vil	_	_	ADV	_	_	_	_	_	ADVP	vil	87,05	NF_	ADVB	NA	_	B-ADVP	ADV	_	MAINDECL	81r,16	UNLINK1
+5	diche	_	_	ADV	_	_	_	_	_	ADVP	diche	87,05	NF_	ADVB	NA	_	I-ADVP	ADV	_	MAINDECL	81r,16	UNLINK1
+6	mit	_	_	APPR	_	_	_	_	_	PP	mit	87,05	NF_	PP-OBJ	ACC-ABSTR-UNUSED_	_	B-PP	APPR	_	MAINDECL	81r,16	UNLINK2
+7	brodicheit	_	_	NN	_	_	_	_	_	PP	brodicheit	87,05	NF_	PP-OBJ	ACC-ABSTR-UNUSED_	Schwäche	I-PP	NA	_	MAINDECL	81r,16	UNLINK2
+8	ir	_	_	PPOSAT	_	_	_	_	_	NP	ir	87,05	NF_	ATTR	_ACC-SIT_	Schwäche	I-PP	DPOS	_	MAINDECL	81r,16	UNLINK2
+9	libeſ	_	_	NN	_	_	_	_	_	NP	libeſ	87,05	NF_	ATTR	_ACC-ABSTR-UNUSED	_	I-PP	NA	_	MAINDECL	81r,17; go-	UNLINK2
+10	.	_	_	$.	_	_	_	_	_	_	.	87,05	_	_	_	_	O	$_	_	MAINDECL	81r,17; go-	_
+
+# sent_id = 2
+# PTBstring = (VROOT(S(KON un̄)(VP(VAFIN hete))(NP(ART ein)(PIAT vil)(ADJA michel)(NN teil))(VP(VVPP getân)(PP(APPR wider)(NE gotiſ)(NN huldin)(PUNKT .)))))
+# text = un̄ hete ein vil michel teil getân wider gotiſ huldin.
+1	un̄	_	_	KON	_	_	_	_	_	_	un̄	87,05	_	_	_	_	O	KON	_	MAINDECL-ELLI	81r,17; go-	_
+2	hete	_	_	VAFIN	_	_	_	_	_	VP	hete	87,05	_	VFIN	_	_	O	VAFIN	LI	MAINDECL-ELLI	81r,17; go-	_
+3	ein	_	_	ART	_	_	_	_	_	NP	ein	87,05	_	DO	_	_	B-NP	DIA	_	MAINDECL-ELLI	81r,17; go-	_
+4	vil	_	_	PIAT	_	_	_	_	_	NP	vil	87,05	_	DO	_	_	I-NP	DI	_	MAINDECL-ELLI	81r,17; go-	_
+5	michel	_	_	ADJA	_	_	_	_	_	NP	michel	87,05	_	DO	_	_	I-NP	ADJ	_	MAINDECL-ELLI	81r,17; go-	_
+6	teil	_	_	NN	_	_	_	_	_	NP	teil	87,06	_	DO	_	_	I-NP	NA	_	MAINDECL-ELLI	81r,17; go-	_
+7	getân	_	_	VVPP	_	_	_	_	_	VP	getân	87,06	_	INF	_	_	O	VVPP	RE	MAINDECL-ELLI	81r,17; go-	_
+8	wider	_	_	APPR	_	_	_	_	_	PP	wider	87,06	NF	PP-ADV	_	_	B-PP	APPR	_	MAINDECL-ELLI	81r,17; go-	UNLINK
+9	gotiſ	_	_	NE	_	_	_	_	_	PP	gotiſ	87,06	NF	PP-ADV	ACC-UNI-UNUSED_	_	I-PP	NE	_	MAINDECL-ELLI	81r,17; go-	UNLINK
+10	huldin	_	_	NN	_	_	_	_	_	PP	huldin	87,06	NF	PP-ADV	_ACC-ABSTR-UNUSED	_	I-PP	NA	_	MAINDECL-ELLI	81r,18; -tiſ	UNLINK
+11	.	_	_	$.	_	_	_	_	_	_	.	87,06	_	_	_	_	I-PP	$_	_	MAINDECL-ELLI	81r,18; -tiſ	_

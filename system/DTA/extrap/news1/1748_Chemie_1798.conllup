@@ -1,0 +1,505 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC Antec CharOffset DTA:ID DTA:NORM MovElem PHRASE POS TOPF
+# sent_id = 1
+# sent_id(TSV) = 1
+# PTBstring = (VROOT(SIMPX(MF(NX(ADJX(ADJA Allgemeines))(NN Journal)(NX(ART der)(NN Chemie))))(VC(VXINF(VVPP Herausgegeben)))(NF(PX(APPR von)(NX:HD(NN D.)))(NX(NE Alexander)(NE Nicolaus)(NE Scherer)(KOMMA ,)(ADJX(ADJD Herzogl)))))(PUNKT .))
+# TopFString = (S(MF(ADJA Allgemeines)(NN Journal)(ART der)(NN Chemie))(VC(VVPP Herausgegeben))(APPR von)(NN D.)(NE Alexander)(NE Nicolaus)(NE Scherer)(KOMMA ,)(ADJD Herzogl)(PUNKT .))
+# text = Allgemeines Journal der Chemie Herausgegeben von D. Alexander Nicolaus Scherer , Herzogl .
+1	Allgemeines	allgemein	_	ADJA	_	_	_	_	_	_	0-11	w1	Allgemeines	B-NP-insitu	B-NP	*	B-MF
+2	Journal	Journal	_	NN	_	_	_	_	_	_	12-19	w2	Journal	I-NP	I-NP	*	I-MF
+3	der	d	_	ART	_	_	_	_	_	_	20-23	w3	der	I-NP	I-NP	*	I-MF
+4	Chemie	Chemie	_	NN	_	_	_	_	_	_	24-30	w4	Chemie	I-NP	I-NP	*	I-MF
+5	Herausgegeben	herausgeben	_	VVPP	_	_	_	_	_	_	31-44	w5	Herausgegeben	_	O	*	B-RK
+6	von	von	_	APPR	_	_	_	_	_	_	45-48	w6	von	B-PP-insitu	B-PP	*	O
+7	D.	D.	_	NN	_	_	_	_	_	_	49-51	w7	D.	I-PP	I-PP	*	O
+8	Alexander	Alexander	_	NE	_	_	_	_	_	_	52-61	w8	Alexander	B-NP-insitu	B-NP	*	O
+9	Nicolaus	Nicolaus	_	NE	_	_	_	_	_	_	62-70	w9	Nicolaus	I-NP	I-NP	*	O
+10	Scherer	Scherer	_	NE	_	_	_	_	_	_	71-78	wa	Scherer	I-NP	I-NP	*	O
+11	,	,	_	$,	_	_	_	_	_	_	79-80	wb	,	I-NP	I-NP	*	O
+12	Herzogl	Herzogl	_	ADJD	_	_	_	_	_	_	81-88	wc	Herzogl	I-NP	I-NP	*	O
+13	.	.	_	$.	_	_	_	_	_	_	89-90	wd	.	_	O	*	O
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# PTBstring = (VROOT(NX(NX:APP(NN Erſter))(NX:APP(NN Band)))(PUNKT .))
+# TopFString = (S(NN Erſter)(NN Band)(PUNKT .))
+# text = Erſter Band .
+1	Erſter	Erster	_	NN	_	_	_	_	_	_	92-98	w12	Erster	B-NP-insitu	B-NP	*	O
+2	Band	Band	_	NN	_	_	_	_	_	_	99-103	w13	Band	I-NP	I-NP	*	O
+3	.	.	_	$.	_	_	_	_	_	_	104-105	w14	.	_	O	*	O
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# PTBstring = (VROOT(PX(APPR Mit)(NX:HD(ART dem)(NN Bildniſſe)(NX(NE Bergman's))(KOMMA ,)(NX(NX:KONJ(ADJX(CARD acht))(NN Kupfern))(KOMMA ,)(NX:KONJ(ART einer)(NN Tabelle))(KOMMA ,)(KON und)(NX:KONJ(NN Jntelligenzblatt)(NX(NX(NN No.)(NX(CARD 1.)))(NE Leipzig)(NX(CARD 1798)))))))(PUNKT .))
+# TopFString = (S(APPR Mit)(ART dem)(NN Bildniſſe)(NE Bergman's)(KOMMA ,)(CARD acht)(NN Kupfern)(KOMMA ,)(ART einer)(NN Tabelle)(KOMMA ,)(KON und)(NN Jntelligenzblatt)(NN No.)(CARD 1.)(NE Leipzig)(CARD 1798)(PUNKT .))
+# text = Mit dem Bildniſſe Bergman's , acht Kupfern , einer Tabelle , und Jntelligenzblatt No. 1. Leipzig 1798 .
+1	Mit	mit	_	APPR	_	_	_	_	_	_	107-110	w15	Mit	B-PP-insitu	B-PP	*	O
+2	dem	d	_	ART	_	_	_	_	_	_	111-114	w16	dem	I-PP	I-PP	*	O
+3	Bildniſſe	Bildnis	_	NN	_	_	_	_	_	_	115-124	w17	Bildnisse	I-PP	I-PP	*	O
+4	Bergman's	Bergmans	_	NE	_	_	_	_	_	_	125-134	w18	Bergman's	I-PP	I-PP	*	O
+5	,	,	_	$,	_	_	_	_	_	_	135-136	w19	,	I-PP	I-PP	*	O
+6	acht	acht	_	CARD	_	_	_	_	_	_	137-141	w1a	acht	I-PP	I-PP	*	O
+7	Kupfern	Kupfer	_	NN	_	_	_	_	_	_	142-149	w1b	Kupfern	I-PP	I-PP	*	O
+8	,	,	_	$,	_	_	_	_	_	_	150-151	w1c	,	I-PP	I-PP	*	O
+9	einer	eine	_	ART	_	_	_	_	_	_	152-157	w1d	einer	I-PP	I-PP	*	O
+10	Tabelle	Tabelle	_	NN	_	_	_	_	_	_	158-165	w1e	Tabelle	I-PP	I-PP	*	O
+11	,	,	_	$,	_	_	_	_	_	_	166-167	w1f	,	I-PP	I-PP	*	O
+12	und	und	_	KON	_	_	_	_	_	_	168-171	w20	und	I-PP	I-PP	*	O
+13	Jntelligenzblatt	Intelligenzblatt	_	NN	_	_	_	_	_	_	172-188	w21	Intelligenzblatt	I-PP	I-PP	*	O
+14	No.	No.	_	NN	_	_	_	_	_	_	189-192	w22	No.	I-PP	I-PP	*	O
+15	1.	1.	_	CARD	_	_	_	_	_	_	193-195	w23	1.	I-PP	I-PP	*	O
+16	Leipzig	Leipzig	_	NE	_	_	_	_	_	_	196-203	w24	Leipzig	I-PP	I-PP	*	O
+17	1798	1798	_	CARD	_	_	_	_	_	_	204-208	w25	1798	I-PP	I-PP	*	O
+18	.	.	_	$.	_	_	_	_	_	_	209-210	w26	.	_	O	*	O
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# PTBstring = (VROOT(PX(APPR bey)(NX:HD(NX:KONJ(NE Breitkopf))(KON und)(NX:KONJ(NE Haͤrtel))))(PUNKT .))
+# TopFString = (S(VF(APPR bey)(NE Breitkopf))(LK(KON und))(MF(NE Haͤrtel))(PUNKT .))
+# text = bey Breitkopf und Haͤrtel .
+1	bey	bei	_	APPR	_	_	_	_	_	_	212-215	w27	bei	B-PP-insitu	B-PP	*	B-VF
+2	Breitkopf	Breitkopf	_	NE	_	_	_	_	_	_	216-225	w28	Breitkopf	I-PP|B-NP-insitu	I-PP	*	I-VF
+3	und	und	_	KON	_	_	_	_	_	_	226-229	w29	und	I-PP	I-PP	*	B-LK
+4	Haͤrtel	Härtel	_	NE	_	_	_	_	_	_	230-237	w2a	Härtel	I-PP|B-NP-insitu	I-PP	*	B-MF
+5	.	.	_	$.	_	_	_	_	_	_	238-239	w2b	.	_	O	*	O
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# PTBstring = (VROOT(NX(ADJX(ADJA 27.))(NN Abhandlung)(PX(APPR uͤber)(NX:HD(ART die)(ADJX(ADJA dreyfache))(NN Verbindung)(PX(APPR aus)(NX:HD(NX:KONJ(NN Phosphor))(KOMMA ,)(NX:KONJ(NN Stickſtoff))(KON und)(NX:KONJ(NN Sauerſtoff)))))))(KOMMA ,)(NX(KON oder)(NX:KONJ(PX(APPR uͤber)(NX:HD(ART das)(NN Daſeyn)))(ART der)(FX(FM Phosphures)(FM d')(FM azote)(FM oxidés))))(PUNKT .))
+# TopFString = (S(VF(ADJA 27.)(NN Abhandlung)(APPR uͤber)(ART die)(ADJA dreyfache)(NN Verbindung)(APPR aus)(NN Phosphor)(KOMMA ,)(NN Stickſtoff)(KON und)(NN Sauerſtoff))(KOMMA ,)(LK(KON oder))(MF(APPR uͤber)(ART das)(NN Daſeyn)(ART der)(FM Phosphures)(FM d')(FM azote)(FM oxidés))(PUNKT .))
+# text = 27. Abhandlung uͤber die dreyfache Verbindung aus Phosphor , Stickſtoff und Sauerſtoff , oder uͤber das Daſeyn der Phosphures d' azote oxidés .
+1	27.	27.	_	ADJA	_	_	_	_	_	_	241-244	wdf4	27.	B-NP-insitu	B-NP	*	B-VF
+2	Abhandlung	Abhandlung	_	NN	_	_	_	_	_	_	245-255	wdf5	Abhandlung	I-NP	I-NP	*	I-VF
+3	uͤber	über	_	APPR	_	_	_	_	_	_	256-261	wdf6	über	I-NP	I-NP	*	I-VF
+4	die	d	_	ART	_	_	_	_	_	_	262-265	wdf7	die	I-NP	I-NP	*	I-VF
+5	dreyfache	dreifach	_	ADJA	_	_	_	_	_	_	266-275	wdf8	dreifache	I-NP	I-NP	*	I-VF
+6	Verbindung	Verbindung	_	NN	_	_	_	_	_	_	276-286	wdf9	Verbindung	I-NP	I-NP	*	I-VF
+7	aus	aus	_	APPR	_	_	_	_	_	_	287-290	wdfa	aus	I-NP	I-NP	*	I-VF
+8	Phosphor	Phosphor	_	NN	_	_	_	_	_	_	291-299	wdfb	Phosphor	I-NP	I-NP	*	I-VF
+9	,	,	_	$,	_	_	_	_	_	_	300-301	wdfc	,	I-NP	I-NP	*	I-VF
+10	Stickſtoff	Stickstoff	_	NN	_	_	_	_	_	_	302-312	wdfd	Stickstoff	I-NP	I-NP	*	I-VF
+11	und	und	_	KON	_	_	_	_	_	_	313-316	wdfe	und	I-NP	I-NP	*	I-VF
+12	Sauerſtoff	Sauerstoff	_	NN	_	_	_	_	_	_	317-327	wdff	Sauerstoff	I-NP	I-NP	*	I-VF
+13	,	,	_	$,	_	_	_	_	_	_	328-329	we00	,	_	O	*	O
+14	oder	oder	_	KON	_	_	_	_	_	_	330-334	we01	oder	B-NP-insitu	B-NP	*	B-LK
+15	uͤber	über	_	APPR	_	_	_	_	_	_	335-340	we02	über	I-NP|B-NP-insitu	I-NP	*	B-MF
+16	das	d	_	ART	_	_	_	_	_	_	341-344	we03	das	I-NP|I-NP	I-NP	*	I-MF
+17	Daſeyn	Dasein	_	NN	_	_	_	_	_	_	345-351	we04	Dasein	I-NP|I-NP	I-NP	*	I-MF
+18	der	d	_	ART	_	_	_	_	_	_	352-355	we05	der	I-NP|I-NP	I-NP	*	I-MF
+19	Phosphures	Phosphor	_	FM	_	_	_	_	_	_	356-366	we06	Phosphors	I-NP|I-NP	I-NP	*	I-MF
+20	d'	D'	_	FM	_	_	_	_	_	_	367-369	we07	d'	I-NP|I-NP	I-NP	*	I-MF
+21	azote	Azote	_	FM	_	_	_	_	_	_	370-375	we08	azote	I-NP|I-NP	I-NP	*	I-MF
+22	oxidés	Oxid	_	FM	_	_	_	_	_	_	376-382	we09	Oxides	I-NP|I-NP	I-NP	*	I-MF
+23	.	.	_	$.	_	_	_	_	_	_	383-384	we0a	.	_	O	*	O
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# PTBstring = (VROOT(PX(APPRART Vom)(NX:HD(NX:KONJ(NX:APP(NN Herrn))(NX:APP(NE Fr.)(NE Al.))(PX(APPR v.)(NX:HD(NE Humboldt))))(KOMMA ,)(NX:KONJ(ADJX(ADJA Koͤnigl.))(ADJX(ADJA Preuß.))(NN Oberbergrath))))(PUNKT .))
+# TopFString = (S(APPRART Vom)(NN Herrn)(NE Fr.)(NE Al.)(APPR v.)(NE Humboldt)(KOMMA ,)(ADJA Koͤnigl.)(ADJA Preuß.)(NN Oberbergrath)(PUNKT .))
+# text = Vom Herrn Fr. Al. v. Humboldt , Koͤnigl. Preuß. Oberbergrath .
+1	Vom	vom	_	APPRART	_	_	_	_	_	_	386-389	w2c	Vom	B-PP-insitu	B-PP	*	O
+2	Herrn	Herr	_	NN	_	_	_	_	_	_	390-395	w2d	Herrn	I-PP	I-PP	*	O
+3	Fr.	Fr.	_	NE	_	_	_	_	_	_	396-399	w2e	Fr.	I-PP	I-PP	*	O
+4	Al.	Al.	_	NE	_	_	_	_	_	_	400-403	w2f	Al.	I-PP	I-PP	*	O
+5	v.	v.	_	APPR	_	_	_	_	_	_	404-406	w30	v.	I-PP	I-PP	*	O
+6	Humboldt	Humboldt	_	NE	_	_	_	_	_	_	407-415	w31	Humboldt	I-PP	I-PP	*	O
+7	,	,	_	$,	_	_	_	_	_	_	416-417	w32	,	I-PP	I-PP	*	O
+8	Koͤnigl.	Königl.	_	ADJA	_	_	_	_	_	_	418-426	w33	Königl.	I-PP	I-PP	*	O
+9	Preuß.	Preuß.	_	ADJA	_	_	_	_	_	_	427-433	w34	Preuß.	I-PP	I-PP	*	O
+10	Oberbergrath	Oberbergrat	_	NN	_	_	_	_	_	_	434-446	w35	Oberbergrat	I-PP	I-PP	*	O
+11	.	.	_	$.	_	_	_	_	_	_	447-448	w36	.	_	O	*	O
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# PTBstring = (VROOT(SIMPX(VF(PX(APPR Unter)(NX:HD(PIAT allen)(NN Erſcheinungen)(KOMMA ,)(R(C(NX(PRELS welche)))(MF(NX(ART die)(ADJX(ADJA pneumatiſche))(NN Che-<lb/>mie)))(VC(VXFIN(VVFIN darbietet)))))))(KOMMA ,)(LK(VXFIN(VVFIN giebt)))(MF(NX(PPER es))(NX(PIS wenige)))(KOMMA ,)(NF(R(C(NX(PRELS welche)))(MF(NX(DP(ADVX(ADV ſo))(PIAT viel))(NN Aufmerkſam-<lb/>keit)))(VC(VXFIN(VVFIN verdienten)))(KOMMA ,)(NF(NX(KOKOM als)(ART die)(ADJX(ADJA dreyfachen))(NN Verbindungen)(NX(ART der)(NN Stoffe)))))))(PUNKT .))
+# TopFString = (S(VF(APPR Unter)(PIAT allen)(NN Erſcheinungen)(KOMMA ,)(C(PRELS welche))(MF(ART die)(ADJA pneumatiſche)(NN Che-<lb/>mie))(VC(VVFIN darbietet)))(KOMMA ,)(LK(VVFIN giebt))(MF(PPER es)(PIS wenige))(KOMMA ,)(NF(C(PRELS welche))(MF(ADV ſo)(PIAT viel)(NN Aufmerkſam-<lb/>keit))(VC(VVFIN verdienten))(KOMMA ,)(NF(KOKOM als)(ART die)(ADJA dreyfachen)(NN Verbindungen)(ART der)(NN Stoffe)))(PUNKT .))
+# text = Unter allen Erſcheinungen , welche die pneumatiſche Che-<lb/>mie darbietet , giebt es wenige , welche ſo viel Aufmerkſam-<lb/>keit verdienten , als die dreyfachen Verbindungen der Stoffe .
+1	Unter	unter	_	APPR	_	_	_	_	_	B-Antec-1	450-455	w37,w37_1	Unter	B-PP-insitu	B-PP	*	B-VF
+2	allen	alle	_	PIAT	_	_	_	_	_	I-Antec	456-461	w38	allen	I-PP	I-PP	*	I-VF
+3	Erſcheinungen	Erscheinung	_	NN	_	_	_	_	_	I-Antec-Head	462-475	w39	Erscheinungen	I-PP	I-PP	*	I-VF
+4	,	,	_	$,	_	_	_	_	_	_	476-477	w3a	,	I-PP	I-PP	*	I-VF
+5	welche	welche	_	PRELS	_	_	_	_	_	_	478-484	w3b	welche	I-PP|B-RELC-insitu-1|B-NP-insitu	I-PP	*	I-VF|B-LK
+6	die	d	_	ART	_	_	_	_	_	_	485-488	w3c	die	I-PP|I-RELC|B-NP-insitu	I-PP	*	I-VF|B-MF
+7	pneumatiſche	pneumatisch	_	ADJA	_	_	_	_	_	_	489-501	w3d	pneumatische	I-PP|I-RELC|I-NP	I-PP	*	I-VF|I-MF
+8	Che-<lb/>mie	Chemie	_	NN	_	_	_	_	_	_	502-514	w3e	Chemie	I-PP|I-RELC|I-NP	I-PP	*	I-VF|I-MF
+9	darbietet	darbieten	_	VVFIN	_	_	_	_	_	_	515-524	w3f	darbietet	I-PP|I-RELC	I-PP	*	I-VF|B-RK
+10	,	,	_	$,	_	_	_	_	_	_	525-526	w40	,	_	O	*	O
+11	giebt	geben	_	VVFIN	_	_	_	_	_	_	527-532	w41	gibt	_	O	*	B-LK
+12	es	es	_	PPER	_	_	_	_	_	_	533-535	w42	es	B-NP-insitu	B-NP	*	B-MF
+13	wenige	wenige	_	PIS	_	_	_	_	_	B-Antec-2-Head	536-542	w43	wenige	B-NP-insitu	B-NP	*	I-MF
+14	,	,	_	$,	_	_	_	_	_	_	543-544	w44	,	_	O	*	O
+15	welche	welche	_	PRELS	_	_	_	_	_	_	545-551	w45	welche	B-RELC-ambig-2|B-NP-insitu	B-NP	*	B-NF|B-LK
+16	ſo	so	_	ADV	_	_	_	_	_	_	552-554	w46	so	I-RELC|B-NP-insitu	B-NP	*	I-NF|B-MF
+17	viel	viel	_	PIAT	_	_	_	_	_	_	555-559	w47	viel	I-RELC|I-NP	I-NP	*	I-NF|I-MF
+18	Aufmerkſam-<lb/>keit	Aufmerksamkeit	_	NN	_	_	_	_	_	_	560-580	w48	Aufmerksamkeit	I-RELC|I-NP	I-NP	*	I-NF|I-MF
+19	verdienten	verdienen	_	VVFIN	_	_	_	_	_	_	581-591	w49	verdienten	I-RELC	O	*	I-NF|B-RK
+20	,	,	_	$,	_	_	_	_	_	_	592-593	w4a	,	I-RELC	O	*	I-NF
+21	als	als	_	KOKOM	_	_	_	_	_	_	594-597	w4b	als	I-RELC|B-NP-extrap	B-NP	*	I-NF|B-NF
+22	die	d	_	ART	_	_	_	_	_	_	598-601	w4c	die	I-RELC|I-NP	I-NP	*	I-NF|I-NF
+23	dreyfachen	dreifach	_	ADJA	_	_	_	_	_	_	602-612	w4d	dreifachen	I-RELC|I-NP	I-NP	*	I-NF|I-NF
+24	Verbindungen	Verbindung	_	NN	_	_	_	_	_	_	613-625	w4e	Verbindungen	I-RELC|I-NP	I-NP	*	I-NF|I-NF
+25	der	d	_	ART	_	_	_	_	_	_	626-629	w4f	der	I-RELC|I-NP	I-NP	*	I-NF|I-NF
+26	Stoffe	Stoff	_	NN	_	_	_	_	_	_	630-636	w50	Stoffe	I-RELC|I-NP	I-NP	*	I-NF|I-NF
+27	.	.	_	$.	_	_	_	_	_	_	637-638	w51	.	_	O	*	O
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# PTBstring = (VROOT(SIMPX(LV(SIMPX(C(KOUS Wenn))(MF(NX(PPER es))(PX(APPR bey)(NX:HD(ART der)(NN Zerlegung)(NX(ADJX(ADJX:KONJ(ADJA thieriſcher))(KON und)(ADJX:KONJ(ADJA vegetabiliſcher)))(NN Koͤrper))))(ADJX(ADJD ſchwer)))(VC(VXFIN(VAFIN iſt)))(KOMMA ,)(NF(NX(ART die)(NN Grundlagen)(KOMMA ,)(R(C(NX(PRELS welche)))(MF(NX(NX:KONJ(ART die)(NN Saͤuren))(KOMMA ,)(NX:KONJ(ART die)(NN Gallerten))(KOMMA ,)(NX:KONJ(ART den)(NN Eyweißſtoff))(KON oder)(NX:KONJ(ART die)(NN Schleime))))(VC(VXINF(VVINF zuſam-<lb/>menſetzen))))))))(KOMMA ,)(VF(ADVX(ADV ſo)))(LK(VXFIN(VVFIN nimmt)))(MF(NX(PDAT dieſe)(NN Schwierigkeit))(ADVX(ADV noch)))(VC(PTKVZ zu))(KOMMA ,)(NF(SIMPX(C(KOUS wenn))(MF(NX(PDAT dieſe)(ADJX(ADJX:KONJ(TRUNC drey-))(KON oder)(ADJX:KONJ(ADJA vierfachen)))(NN Verbindungen))(ADVX(ADV nur))(PX(APPRART im)(NX:HD(ADJX(ADJA gasar-<lb/>tigen))(NN Zuſtande))))(VC(VXFIN(VVFIN vorkommen))))))(PUNKT .))
+# TopFString = (S(LV(C(KOUS Wenn))(MF(PPER es)(APPR bey)(ART der)(NN Zerlegung)(ADJA thieriſcher)(KON und)(ADJA vegetabiliſcher)(NN Koͤrper)(ADJD ſchwer))(VC(VAFIN iſt))(KOMMA ,)(NF(ART die)(NN Grundlagen)(KOMMA ,)(C(PRELS welche))(MF(ART die)(NN Saͤuren)(KOMMA ,)(ART die)(NN Gallerten)(KOMMA ,)(ART den)(NN Eyweißſtoff)(KON oder)(ART die)(NN Schleime))(VC(VVINF zuſam-<lb/>menſetzen))))(KOMMA ,)(VF(ADV ſo))(LK(VVFIN nimmt))(MF(PDAT dieſe)(NN Schwierigkeit)(ADV noch))(VC(PTKVZ zu))(KOMMA ,)(NF(C(KOUS wenn))(MF(PDAT dieſe)(TRUNC drey-)(KON oder)(ADJA vierfachen)(NN Verbindungen)(ADV nur)(APPRART im)(ADJA gasar-<lb/>tigen)(NN Zuſtande))(VC(VVFIN vorkommen)))(PUNKT .))
+# text = Wenn es bey der Zerlegung thieriſcher und vegetabiliſcher Koͤrper ſchwer iſt , die Grundlagen , welche die Saͤuren , die Gallerten , den Eyweißſtoff oder die Schleime zuſam-<lb/>menſetzen , ſo nimmt dieſe Schwierigkeit noch zu , wenn dieſe drey- oder vierfachen Verbindungen nur im gasar-<lb/>tigen Zuſtande vorkommen .
+1	Wenn	wenn	_	KOUS	_	_	_	_	_	_	640-644	w52	Wenn	_	O	*	B-LV|B-LK
+2	es	es	_	PPER	_	_	_	_	_	_	645-647	w53	es	B-NP-insitu	B-NP	*	I-LV|B-MF
+3	bey	bei	_	APPR	_	_	_	_	_	_	648-651	w54	bei	B-PP-insitu	B-PP	*	I-LV|I-MF
+4	der	d	_	ART	_	_	_	_	_	_	652-655	w55	der	I-PP	I-PP	*	I-LV|I-MF
+5	Zerlegung	Zerlegung	_	NN	_	_	_	_	_	_	656-665	w56	Zerlegung	I-PP	I-PP	*	I-LV|I-MF
+6	thieriſcher	tierisch	_	ADJA	_	_	_	_	_	_	666-677	w57	tierischer	I-PP	I-PP	*	I-LV|I-MF
+7	und	und	_	KON	_	_	_	_	_	_	678-681	w58	und	I-PP	I-PP	*	I-LV|I-MF
+8	vegetabiliſcher	vegetabilisch	_	ADJA	_	_	_	_	_	_	682-697	w59	vegetabilischer	I-PP	I-PP	*	I-LV|I-MF
+9	Koͤrper	Körper	_	NN	_	_	_	_	_	_	698-705	w5a	Körper	I-PP	I-PP	*	I-LV|I-MF
+10	ſchwer	schwer	_	ADJD	_	_	_	_	_	_	706-712	w5b	schwer	B-AP-insitu	B-AP	*	I-LV|I-MF
+11	iſt	sein	_	VAFIN	_	_	_	_	_	_	713-716	w5c	ist	_	O	*	I-LV|B-RK
+12	,	,	_	$,	_	_	_	_	_	_	717-718	w5d	,	_	O	*	I-LV
+13	die	d	_	ART	_	_	_	_	_	B-Antec-1	719-722	w5e	die	B-NP-extrap	B-NP	*	I-LV|B-NF
+14	Grundlagen	Grundlage	_	NN	_	_	_	_	_	I-Antec-Head	723-733	w5f	Grundlagen	I-NP	I-NP	*	I-LV|I-NF
+15	,	,	_	$,	_	_	_	_	_	_	734-735	w60	,	I-NP	I-NP	*	I-LV|I-NF
+16	welche	welche	_	PRELS	_	_	_	_	_	_	736-742	w61	welche	I-NP|B-RELC-insitu-1|B-NP-insitu	I-NP	*	I-LV|I-NF|B-LK
+17	die	d	_	ART	_	_	_	_	_	_	743-746	w62	die	I-NP|I-RELC|B-NP-insitu	I-NP	*	I-LV|I-NF|B-MF
+18	Saͤuren	Säure	_	NN	_	_	_	_	_	_	747-754	w63	Säuren	I-NP|I-RELC|I-NP	I-NP	*	I-LV|I-NF|I-MF
+19	,	,	_	$,	_	_	_	_	_	_	755-756	w64	,	I-NP|I-RELC|I-NP	I-NP	*	I-LV|I-NF|I-MF
+20	die	d	_	ART	_	_	_	_	_	_	757-760	w65	die	I-NP|I-RELC|I-NP	I-NP	*	I-LV|I-NF|I-MF
+21	Gallerten	Gallerte	_	NN	_	_	_	_	_	_	761-770	w66	Gallerten	I-NP|I-RELC|I-NP	I-NP	*	I-LV|I-NF|I-MF
+22	,	,	_	$,	_	_	_	_	_	_	771-772	w67	,	I-NP|I-RELC|I-NP	I-NP	*	I-LV|I-NF|I-MF
+23	den	d	_	ART	_	_	_	_	_	_	773-776	w68	den	I-NP|I-RELC|I-NP	I-NP	*	I-LV|I-NF|I-MF
+24	Eyweißſtoff	Eiweißstoff	_	NN	_	_	_	_	_	_	777-788	w69	Eiweißstoff	I-NP|I-RELC|I-NP	I-NP	*	I-LV|I-NF|I-MF
+25	oder	oder	_	KON	_	_	_	_	_	_	789-793	w6a	oder	I-NP|I-RELC|I-NP	I-NP	*	I-LV|I-NF|I-MF
+26	die	d	_	ART	_	_	_	_	_	_	794-797	w6b	die	I-NP|I-RELC|I-NP	I-NP	*	I-LV|I-NF|I-MF
+27	Schleime	Schleim	_	NN	_	_	_	_	_	_	798-806	w6c	Schleime	I-NP|I-RELC|I-NP	I-NP	*	I-LV|I-NF|I-MF
+28	zuſam-<lb/>menſetzen	zusammensetzen	_	VVINF	_	_	_	_	_	_	807-827	w6d	zusammensetzen	I-NP|I-RELC	I-NP	*	I-LV|I-NF|B-RK
+29	,	,	_	$,	_	_	_	_	_	_	828-829	w6e	,	_	O	*	O
+30	ſo	so	_	ADV	_	_	_	_	_	_	830-832	w6f	so	B-ADVP-insitu	B-ADVP	*	B-VF
+31	nimmt	nehmen	_	VVFIN	_	_	_	_	_	_	833-838	w70	nimmt	_	O	*	B-LK
+32	dieſe	diese	_	PDAT	_	_	_	_	_	_	839-844	w71	diese	B-NP-insitu	B-NP	*	B-MF
+33	Schwierigkeit	Schwierigkeit	_	NN	_	_	_	_	_	_	845-858	w72	Schwierigkeit	I-NP	I-NP	*	I-MF
+34	noch	noch	_	ADV	_	_	_	_	_	_	859-863	w73	noch	B-ADVP-insitu	B-ADVP	*	I-MF
+35	zu	zu	_	PTKVZ	_	_	_	_	_	_	864-866	w74	zu	_	O	*	B-RK
+36	,	,	_	$,	_	_	_	_	_	_	867-868	w75	,	_	O	*	O
+37	wenn	wenn	_	KOUS	_	_	_	_	_	_	869-873	w76	wenn	_	O	*	B-NF|B-LK
+38	dieſe	diese	_	PDAT	_	_	_	_	_	_	874-879	w77	diese	B-NP-insitu	B-NP	*	I-NF|B-MF
+39	drey-	drey-	_	TRUNC	_	_	_	_	_	_	880-885	w78	drey-	I-NP	I-NP	*	I-NF|I-MF
+40	oder	oder	_	KON	_	_	_	_	_	_	886-890	w79	oder	I-NP	I-NP	*	I-NF|I-MF
+41	vierfachen	vierfach	_	ADJA	_	_	_	_	_	_	891-901	w7a	vierfachen	I-NP	I-NP	*	I-NF|I-MF
+42	Verbindungen	Verbindung	_	NN	_	_	_	_	_	_	902-914	w7b	Verbindungen	I-NP	I-NP	*	I-NF|I-MF
+43	nur	nur	_	ADV	_	_	_	_	_	_	915-918	w7c	nur	B-ADVP-insitu	B-ADVP	*	I-NF|I-MF
+44	im	im	_	APPRART	_	_	_	_	_	_	919-921	w7d	im	B-PP-insitu	B-PP	*	I-NF|I-MF
+45	gasar-<lb/>tigen	gasartig	_	ADJA	_	_	_	_	_	_	922-938	w7e	gasartigen	I-PP	I-PP	*	I-NF|I-MF
+46	Zuſtande	Zustand	_	NN	_	_	_	_	_	_	939-947	w7f	Zustande	I-PP	I-PP	*	I-NF|I-MF
+47	vorkommen	vorkommen	_	VVFIN	_	_	_	_	_	_	948-957	w80	vorkommen	_	O	*	I-NF|B-RK
+48	.	.	_	$.	_	_	_	_	_	_	958-959	w81	.	_	O	*	O
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# PTBstring = (VROOT(SIMPX(VF(NX(NX:KONJ(ART Der)(NN Schwefel))(KOMMA ,)(NX:KONJ(ART die)(NN Kohle))(KON und)(NX:KONJ(ART der)(NN Arſenikkalk))))(LK(VXFIN(VVFIN loͤſen)))(MF(NX(PRF ſich))(PX(APPR in)(NX:HD(ART dem)(NN Waſſerſtoffgas))))(VC(PTKVZ auf)))(PUNKT .))
+# TopFString = (S(VF(ART Der)(NN Schwefel)(KOMMA ,)(ART die)(NN Kohle)(KON und)(ART der)(NN Arſenikkalk))(LK(VVFIN loͤſen))(MF(PRF ſich)(APPR in)(ART dem)(NN Waſſerſtoffgas))(VC(PTKVZ auf))(PUNKT .))
+# text = Der Schwefel , die Kohle und der Arſenikkalk loͤſen ſich in dem Waſſerſtoffgas auf .
+1	Der	d	_	ART	_	_	_	_	_	_	961-964	w82	Der	B-NP-insitu	B-NP	*	B-VF
+2	Schwefel	Schwefel	_	NN	_	_	_	_	_	_	965-973	w83	Schwefel	I-NP	I-NP	*	I-VF
+3	,	,	_	$,	_	_	_	_	_	_	974-975	w84	,	I-NP	I-NP	*	I-VF
+4	die	d	_	ART	_	_	_	_	_	_	976-979	w85	die	I-NP	I-NP	*	I-VF
+5	Kohle	Kohle	_	NN	_	_	_	_	_	_	980-985	w86	Kohle	I-NP	I-NP	*	I-VF
+6	und	und	_	KON	_	_	_	_	_	_	986-989	w87	und	I-NP	I-NP	*	I-VF
+7	der	d	_	ART	_	_	_	_	_	_	990-993	w88	der	I-NP	I-NP	*	I-VF
+8	Arſenikkalk	Arsenikkalk	_	NN	_	_	_	_	_	_	994-1005	w89	Arsenikkalk	I-NP	I-NP	*	I-VF
+9	loͤſen	lösen	_	VVFIN	_	_	_	_	_	_	1006-1012	w8a	lösen	_	O	*	B-LK
+10	ſich	sich	_	PRF	_	_	_	_	_	_	1013-1017	w8b	sich	B-NP-insitu	B-NP	*	B-MF
+11	in	in	_	APPR	_	_	_	_	_	_	1018-1020	w8c	in	B-PP-insitu	B-PP	*	I-MF
+12	dem	d	_	ART	_	_	_	_	_	_	1021-1024	w8d	dem	I-PP	I-PP	*	I-MF
+13	Waſſerſtoffgas	Wasserstoffgas	_	NN	_	_	_	_	_	_	1025-1039	w8e	Wasserstoffgas	I-PP	I-PP	*	I-MF
+14	auf	auf	_	PTKVZ	_	_	_	_	_	_	1040-1043	w8f	auf	_	O	*	B-RK
+15	.	.	_	$.	_	_	_	_	_	_	1044-1045	w90	.	_	O	*	O
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# PTBstring = (VROOT(SIMPX(VF(NX(PPER Es)))(LK(VXFIN(VVFIN ſcheint)))(KOMMA ,)(NF(SIMPX(C(KOUS daß))(MF(NX(ART der)(NN Schwefel))(PX(APPR in)(NX:HD(ART dem)(NN Stickſtoffgas)))(ADJX(ADJD auf-<lb/>loͤslich)))(VC(VXFIN(VAFIN ſey))))))(PUNKT .))
+# TopFString = (S(VF(PPER Es))(LK(VVFIN ſcheint))(KOMMA ,)(NF(C(KOUS daß))(MF(ART der)(NN Schwefel)(APPR in)(ART dem)(NN Stickſtoffgas)(ADJD auf-<lb/>loͤslich))(VC(VAFIN ſey)))(PUNKT .))
+# text = Es ſcheint , daß der Schwefel in dem Stickſtoffgas auf-<lb/>loͤslich ſey .
+1	Es	es	_	PPER	_	_	_	_	_	_	1047-1049	w91	Es	B-NP-insitu	B-NP	*	B-VF
+2	ſcheint	scheinen	_	VVFIN	_	_	_	_	_	_	1050-1057	w92	scheint	_	O	*	B-LK
+3	,	,	_	$,	_	_	_	_	_	_	1058-1059	w93	,	_	O	*	O
+4	daß	daß	_	KOUS	_	_	_	_	_	_	1060-1063	w94	daß	_	O	*	B-NF|B-LK
+5	der	d	_	ART	_	_	_	_	_	_	1064-1067	w95	der	B-NP-insitu	B-NP	*	I-NF|B-MF
+6	Schwefel	Schwefel	_	NN	_	_	_	_	_	_	1068-1076	w96	Schwefel	I-NP	I-NP	*	I-NF|I-MF
+7	in	in	_	APPR	_	_	_	_	_	_	1077-1079	w97	in	B-PP-insitu	B-PP	*	I-NF|I-MF
+8	dem	d	_	ART	_	_	_	_	_	_	1080-1083	w98	dem	I-PP	I-PP	*	I-NF|I-MF
+9	Stickſtoffgas	Stickstoffgas	_	NN	_	_	_	_	_	_	1084-1097	w99	Stickstoffgas	I-PP	I-PP	*	I-NF|I-MF
+10	auf-<lb/>loͤslich	auflöslich	_	ADJD	_	_	_	_	_	_	1098-1115	w9a,w9a_1,w9a_2	auflöslich	B-AP-insitu	B-AP	*	I-NF|I-MF
+11	ſey	sein	_	VAFIN	_	_	_	_	_	_	1116-1119	w9b	sei	_	O	*	I-NF|B-RK
+12	.	.	_	$.	_	_	_	_	_	_	1120-1121	w9c	.	_	O	*	O
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# PTBstring = (VROOT(SIMPX(VF(SIMPX(C(KOUS Als))(MF(NX(PPER ich))(NX(PIAT vielen)(NN Schwefel))(ADJX(ADVX(ADV ſehr))(ADJD langſam))(PX(APPR in)(NX:HD(ART einer)(ADJX(ADJA atmoſphaͤriſchen))(NN Luft)(KOMMA ,)(R(C(NX(PRELS welche)))(MF(ADVX(ADV nur))(NX(ADJX(CARD 0,16))(NN Sauerſtoff)))(VC(VXFIN(VVFIN enthielt)))))))(KOMMA ,)(VC(VXINF(VVPP verbrannt))(VXFIN(VAFIN hatte)))))(KOMMA ,)(LK(VXFIN(VVFIN fand)))(MF(NX(PPER ich))(NX(ART den)(NN Ruͤckſtand))(ADJX(ADJX(NX(ADJX(CARD zwey))(NN Tage))(ADJD lang))(ADJD durchſichtig))))(PUNKT ;)(SIMPX(SIMPX:KONJ(VF(PX(APPRART am)(NX:HD(NN dritten)(KOMMA ,)(R(C(ADVX(PWAV wo)))(MF(NX(ART die)(NN Temperatur)(NX(ART des)(NN Zimmers)))(APPR bis)(PX(APPR auf)(KLAMMER —)(NX:HD(ADJX(CARD 5))(NN °)(NX(ART des)(ADJX(ADJA hundertgradigten))(NN Thermometers)))))(VC(VXFIN(VVFIN fiel)))))))(KOMMA ,)(LK(VXFIN(VVFIN uͤberzogen)))(MF(NX(PRF ſich))(NX(ART die)(NN Waͤnde)(NX(ART der)(NN Glocke))(KOMMA ,)(R(C(NX(PRELS welche)))(MF(NX(ART das)(NN Stick-<lb/>ſtoffgas)))(VC(VXFIN(VVFIN enthielt)))))(KOMMA ,)(PX(APPR mit)(NX:HD(ART einem)(ADJX(ADJA gelben))(NN Staub)))))(PUNKT ;)(SIMPX:KONJ(VF(NX(PPER es)))(LK(VXFIN(VAFIN war)))(MF(ADVX(ADV ſehr))(NX(ADJX(ADJA reiner))(NN Schwefel)))(KOMMA ,)(NF(R(C(NX(PRELS der)))(MF(NX(PRF ſich))(PX(APPR aus)(NX:HD(PPOSAT ſeiner)(ADJX(ADJA gasartigen))(NN Aufloͤſung))))(VC(VXFIN(VVFIN niederſchlug)))))))(PUNKT .))
+# TopFString = (S(VF(C(KOUS Als))(MF(PPER ich)(PIAT vielen)(NN Schwefel)(ADV ſehr)(ADJD langſam)(APPR in)(ART einer)(ADJA atmoſphaͤriſchen)(NN Luft)(KOMMA ,)(C(PRELS welche))(MF(ADV nur)(CARD 0,16)(NN Sauerſtoff))(VC(VVFIN enthielt)))(KOMMA ,)(VC(VVPP verbrannt)(VAFIN hatte)))(KOMMA ,)(LK(VVFIN fand))(MF(PPER ich)(ART den)(NN Ruͤckſtand)(CARD zwey)(NN Tage)(ADJD lang)(ADJD durchſichtig))(PUNKT ;)(APPRART am)(NN dritten)(KOMMA ,)(VF(C(PWAV wo))(MF(ART die)(NN Temperatur)(ART des)(NN Zimmers)(APPR bis)(APPR auf)(KLAMMER —)(CARD 5)(NN °)(ART des)(ADJA hundertgradigten)(NN Thermometers))(VC(VVFIN fiel)))(KOMMA ,)(LK(VVFIN uͤberzogen))(MF(PRF ſich)(ART die)(NN Waͤnde)(ART der)(NN Glocke)(KOMMA ,)(C(PRELS welche))(MF(ART das)(NN Stick-<lb/>ſtoffgas))(VC(VVFIN enthielt))(KOMMA ,)(APPR mit)(ART einem)(ADJA gelben)(NN Staub))(PUNKT ;)(VF(PPER es))(LK(VAFIN war))(MF(ADV ſehr)(ADJA reiner)(NN Schwefel))(KOMMA ,)(NF(C(PRELS der))(MF(PRF ſich)(APPR aus)(PPOSAT ſeiner)(ADJA gasartigen)(NN Aufloͤſung))(VC(VVFIN niederſchlug)))(PUNKT .))
+# text = Als ich vielen Schwefel ſehr langſam in einer atmoſphaͤriſchen Luft , welche nur 0,16 Sauerſtoff enthielt , verbrannt hatte , fand ich den Ruͤckſtand zwey Tage lang durchſichtig ; am dritten , wo die Temperatur des Zimmers bis auf — 5 ° des hundertgradigten Thermometers fiel , uͤberzogen ſich die Waͤnde der Glocke , welche das Stick-<lb/>ſtoffgas enthielt , mit einem gelben Staub ; es war ſehr reiner Schwefel , der ſich aus ſeiner gasartigen Aufloͤſung niederſchlug .
+1	Als	als	_	KOUS	_	_	_	_	_	_	1123-1126	w9d	Als	_	O	*	B-VF|B-LK
+2	ich	ich	_	PPER	_	_	_	_	_	_	1127-1130	w9e	ich	B-NP-insitu	B-NP	*	I-VF|B-MF
+3	vielen	viel	_	PIAT	_	_	_	_	_	_	1131-1137	w9f	vielen	B-NP-insitu	B-NP	*	I-VF|I-MF
+4	Schwefel	Schwefel	_	NN	_	_	_	_	_	_	1138-1146	wa0	Schwefel	I-NP	I-NP	*	I-VF|I-MF
+5	ſehr	sehr	_	ADV	_	_	_	_	_	_	1147-1151	wa1	sehr	B-AP-insitu	B-AP	*	I-VF|I-MF
+6	langſam	langsam	_	ADJD	_	_	_	_	_	_	1152-1159	wa2	langsam	I-AP	I-AP	*	I-VF|I-MF
+7	in	in	_	APPR	_	_	_	_	_	B-Antec-1	1160-1162	wa3	in	B-PP-insitu	B-PP	*	I-VF|I-MF
+8	einer	eine	_	ART	_	_	_	_	_	I-Antec	1163-1168	wa4	einer	I-PP	I-PP	*	I-VF|I-MF
+9	atmoſphaͤriſchen	atmosphärisch	_	ADJA	_	_	_	_	_	I-Antec	1169-1185	wa5	atmosphärischen	I-PP	I-PP	*	I-VF|I-MF
+10	Luft	Luft	_	NN	_	_	_	_	_	I-Antec-Head	1186-1190	wa6	Luft	I-PP	I-PP	*	I-VF|I-MF
+11	,	,	_	$,	_	_	_	_	_	_	1191-1192	wa7	,	I-PP	I-PP	*	I-VF|I-MF
+12	welche	welche	_	PRELS	_	_	_	_	_	_	1193-1199	wa8	welche	I-PP|B-RELC-insitu-1|B-NP-insitu	I-PP	*	I-VF|I-MF|B-LK
+13	nur	nur	_	ADV	_	_	_	_	_	_	1200-1203	wa9	nur	I-PP|I-RELC|B-ADVP-insitu	I-PP	*	I-VF|I-MF|B-MF
+14	0,16	0,16	_	CARD	_	_	_	_	_	_	1204-1208	waa	0,16	I-PP|I-RELC|B-NP-insitu	I-PP	*	I-VF|I-MF|I-MF
+15	Sauerſtoff	Sauerstoff	_	NN	_	_	_	_	_	_	1209-1219	wab	Sauerstoff	I-PP|I-RELC|I-NP	I-PP	*	I-VF|I-MF|I-MF
+16	enthielt	enthalten	_	VVFIN	_	_	_	_	_	_	1220-1228	wac	enthielt	I-PP|I-RELC	I-PP	*	I-VF|I-MF|B-RK
+17	,	,	_	$,	_	_	_	_	_	_	1229-1230	wad	,	_	O	*	I-VF
+18	verbrannt	verbrennen	_	VVPP	_	_	_	_	_	_	1231-1240	wae	verbrannt	_	O	*	I-VF|B-RK
+19	hatte	haben	_	VAFIN	_	_	_	_	_	_	1241-1246	waf	hatte	_	O	*	I-VF|I-RK
+20	,	,	_	$,	_	_	_	_	_	_	1247-1248	wb0	,	_	O	*	O
+21	fand	finden	_	VVFIN	_	_	_	_	_	_	1249-1253	wb1	fand	_	O	*	B-LK
+22	ich	ich	_	PPER	_	_	_	_	_	_	1254-1257	wb2	ich	B-NP-insitu	B-NP	*	B-MF
+23	den	d	_	ART	_	_	_	_	_	_	1258-1261	wb3	den	B-NP-insitu	B-NP	*	I-MF
+24	Ruͤckſtand	Rückstand	_	NN	_	_	_	_	_	_	1262-1272	wb4	Rückstand	I-NP	I-NP	*	I-MF
+25	zwey	zwei	_	CARD	_	_	_	_	_	_	1273-1277	wb5	zwei	B-AP-insitu	B-AP	*	I-MF
+26	Tage	Tag	_	NN	_	_	_	_	_	_	1278-1282	wb6	Tage	I-AP	I-AP	*	I-MF
+27	lang	lang	_	ADJD	_	_	_	_	_	_	1283-1287	wb7	lang	I-AP	I-AP	*	I-MF
+28	durchſichtig	durchsichtig	_	ADJD	_	_	_	_	_	_	1288-1300	wb8	durchsichtig	I-AP	I-AP	*	I-MF
+29	;	;	_	$.	_	_	_	_	_	_	1301-1302	wb9	;	_	O	*	O
+30	am	am	_	APPRART	_	_	_	_	_	_	1303-1305	wba	am	B-PP-insitu	B-PP	*	O
+31	dritten	dritt	_	NN	_	_	_	_	_	_	1306-1313	wbb	dritten	I-PP	I-PP	*	O
+32	,	,	_	$,	_	_	_	_	_	_	1314-1315	wbc	,	I-PP	I-PP	*	O
+33	wo	wo	_	PWAV	_	_	_	_	_	_	1316-1318	wbd	wo	I-PP	I-PP	*	B-VF|B-LK
+34	die	d	_	ART	_	_	_	_	_	_	1319-1322	wbe	die	I-PP|B-NP-insitu	I-PP	*	I-VF|B-MF
+35	Temperatur	Temperatur	_	NN	_	_	_	_	_	_	1323-1333	wbf	Temperatur	I-PP|I-NP	I-PP	*	I-VF|I-MF
+36	des	d	_	ART	_	_	_	_	_	_	1334-1337	wc0	des	I-PP|I-NP	I-PP	*	I-VF|I-MF
+37	Zimmers	Zimmer	_	NN	_	_	_	_	_	_	1338-1345	wc1	Zimmers	I-PP|I-NP	I-PP	*	I-VF|I-MF
+38	bis	bis	_	APPR	_	_	_	_	_	_	1346-1349	wc2	bis	I-PP	I-PP	*	I-VF|I-MF
+39	auf	auf	_	APPR	_	_	_	_	_	_	1350-1353	wc3	auf	I-PP|B-PP-insitu	I-PP	*	I-VF|I-MF
+40	—	--	_	$(	_	_	_	_	_	_	1354-1355	wc4	--	I-PP|I-PP	I-PP	*	I-VF|I-MF
+41	5	5	_	CARD	_	_	_	_	_	_	1356-1357	wc5	5	I-PP|I-PP	I-PP	*	I-VF|I-MF
+42	°	°	_	NN	_	_	_	_	_	_	1358-1359	wc6	°	I-PP|I-PP	I-PP	*	I-VF|I-MF
+43	des	d	_	ART	_	_	_	_	_	_	1360-1363	wc7	des	I-PP|I-PP	I-PP	*	I-VF|I-MF
+44	hundertgradigten	hundertgradigten	_	ADJA	_	_	_	_	_	_	1364-1380	wc8	hundertgradigten	I-PP|I-PP	I-PP	*	I-VF|I-MF
+45	Thermometers	Thermometer	_	NN	_	_	_	_	_	_	1381-1393	wc9	Thermometers	I-PP|I-PP	I-PP	*	I-VF|I-MF
+46	fiel	fallen	_	VVFIN	_	_	_	_	_	_	1394-1398	wca	fiel	I-PP	I-PP	*	I-VF|B-RK
+47	,	,	_	$,	_	_	_	_	_	_	1399-1400	wcb	,	_	O	*	O
+48	uͤberzogen	überziehen	_	VVFIN	_	_	_	_	_	_	1401-1411	wcc	überzogen	_	O	*	B-LK
+49	ſich	sich	_	PRF	_	_	_	_	_	_	1412-1416	wcd	sich	B-NP-insitu	B-NP	*	B-MF
+50	die	d	_	ART	_	_	_	_	_	B-Antec-2	1417-1420	wce	die	B-NP-insitu	B-NP	*	I-MF
+51	Waͤnde	Wand	_	NN	_	_	_	_	_	I-Antec-Head	1421-1427	wcf	Wände	I-NP	I-NP	*	I-MF
+52	der	d	_	ART	_	_	_	_	_	I-Antec	1428-1431	wd0	der	I-NP	I-NP	*	I-MF
+53	Glocke	Glocke	_	NN	_	_	_	_	_	I-Antec	1432-1438	wd1	Glocke	I-NP	I-NP	*	I-MF
+54	,	,	_	$,	_	_	_	_	_	_	1439-1440	wd2	,	I-NP	I-NP	*	I-MF
+55	welche	welche	_	PRELS	_	_	_	_	_	_	1441-1447	wd3	welche	I-NP|B-RELC-insitu-2|B-NP-insitu	I-NP	*	I-MF|B-LK
+56	das	d	_	ART	_	_	_	_	_	_	1448-1451	wd4	das	I-NP|I-RELC|B-NP-insitu	I-NP	*	I-MF|B-MF
+57	Stick-<lb/>ſtoffgas	Stickstoffgas	_	NN	_	_	_	_	_	_	1452-1471	wd5	Stickstoffgas	I-NP|I-RELC|I-NP	I-NP	*	I-MF|I-MF
+58	enthielt	enthalten	_	VVFIN	_	_	_	_	_	_	1472-1480	wd6	enthielt	I-NP|I-RELC	I-NP	*	I-MF|B-RK
+59	,	,	_	$,	_	_	_	_	_	_	1481-1482	wd7	,	_	O	*	I-MF
+60	mit	mit	_	APPR	_	_	_	_	_	_	1483-1486	wd8	mit	B-PP-insitu	B-PP	*	I-MF
+61	einem	eine	_	ART	_	_	_	_	_	_	1487-1492	wd9	einem	I-PP	I-PP	*	I-MF
+62	gelben	gelb	_	ADJA	_	_	_	_	_	_	1493-1499	wda	gelben	I-PP	I-PP	*	I-MF
+63	Staub	Staub	_	NN	_	_	_	_	_	_	1500-1505	wdb	Staub	I-PP	I-PP	*	I-MF
+64	;	;	_	$.	_	_	_	_	_	_	1506-1507	wdc	;	_	O	*	O
+65	es	es	_	PPER	_	_	_	_	_	_	1508-1510	wdd	es	B-NP-insitu	B-NP	*	B-VF
+66	war	sein	_	VAFIN	_	_	_	_	_	_	1511-1514	wde	war	_	O	*	B-LK
+67	ſehr	sehr	_	ADV	_	_	_	_	_	_	1515-1519	wdf	sehr	B-ADVP-insitu	B-ADVP	*	B-MF
+68	reiner	rein	_	ADJA	_	_	_	_	_	B-Antec-3	1520-1526	we0	reiner	B-NP-insitu	B-NP	*	I-MF
+69	Schwefel	Schwefel	_	NN	_	_	_	_	_	I-Antec-Head	1527-1535	we1	Schwefel	I-NP	I-NP	*	I-MF
+70	,	,	_	$,	_	_	_	_	_	_	1536-1537	we2	,	_	O	*	O
+71	der	die	_	PRELS	_	_	_	_	_	_	1538-1541	we3	der	B-RELC-ambig-3|B-NP-insitu	B-NP	*	B-NF|B-LK
+72	ſich	sich	_	PRF	_	_	_	_	_	_	1542-1546	we4	sich	I-RELC|B-NP-insitu	B-NP	*	I-NF|B-MF
+73	aus	aus	_	APPR	_	_	_	_	_	_	1547-1550	we5	aus	I-RELC|B-PP-insitu	B-PP	*	I-NF|I-MF
+74	ſeiner	seine	_	PPOSAT	_	_	_	_	_	_	1551-1557	we6	seiner	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+75	gasartigen	gasartig	_	ADJA	_	_	_	_	_	_	1558-1568	we7	gasartigen	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+76	Aufloͤſung	Auflösung	_	NN	_	_	_	_	_	_	1569-1579	we8	Auflösung	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+77	niederſchlug	niederschlagen	_	VVFIN	_	_	_	_	_	_	1580-1592	we9	niederschlug	I-RELC	O	*	I-NF|B-RK
+78	.	.	_	$.	_	_	_	_	_	_	1593-1594	wea	.	_	O	*	O
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# PTBstring = (VROOT(SIMPX(VF(SIMPX(C(KOUS Als))(MF(NX(PPER ich))(NX(PRF mich))(PX(APPR mit)(NX:HD(ART der)(NN Zerlegung)(NX(ART der)(NN Berg-<lb/>ſchwaden)))))(VC(VXFIN(VVFIN beſchaͤftigte)))))(KOMMA ,)(LK(VXFIN(VVFIN ſammelte)))(MF(NX(PPER ich))(PX(APPR in)(NX:HD(ART den)(NN Ritzen)(NX(ART eines)(NN Eiſenganges))))(NX(ART eine)(NN Miſchung)(PX(APPR von)(NX:HD(NX:KONJ(TRUNC Waſſerſtoff-Stickſtoff-))(KON und)(NX:KONJ(ADJX(ADJA Kohlenſtoffſaurem))(NN Gas)))))))(PUNKT .))
+# TopFString = (S(VF(C(KOUS Als))(MF(PPER ich)(PRF mich)(APPR mit)(ART der)(NN Zerlegung)(ART der)(NN Berg-<lb/>ſchwaden))(VC(VVFIN beſchaͤftigte)))(KOMMA ,)(LK(VVFIN ſammelte))(MF(PPER ich)(APPR in)(ART den)(NN Ritzen)(ART eines)(NN Eiſenganges)(ART eine)(NN Miſchung)(APPR von)(TRUNC Waſſerſtoff-Stickſtoff-)(KON und)(ADJA Kohlenſtoffſaurem)(NN Gas))(PUNKT .))
+# text = Als ich mich mit der Zerlegung der Berg-<lb/>ſchwaden beſchaͤftigte , ſammelte ich in den Ritzen eines Eiſenganges eine Miſchung von Waſſerſtoff-Stickſtoff- und Kohlenſtoffſaurem Gas .
+1	Als	als	_	KOUS	_	_	_	_	_	_	1596-1599	web	Als	_	O	*	B-VF|B-LK
+2	ich	ich	_	PPER	_	_	_	_	_	_	1600-1603	wec	ich	B-NP-insitu	B-NP	*	I-VF|B-MF
+3	mich	mich	_	PRF	_	_	_	_	_	_	1604-1608	wed	mich	B-NP-insitu	B-NP	*	I-VF|I-MF
+4	mit	mit	_	APPR	_	_	_	_	_	_	1609-1612	wee	mit	B-PP-insitu	B-PP	*	I-VF|I-MF
+5	der	d	_	ART	_	_	_	_	_	_	1613-1616	wef	der	I-PP	I-PP	*	I-VF|I-MF
+6	Zerlegung	Zerlegung	_	NN	_	_	_	_	_	_	1617-1626	wf0	Zerlegung	I-PP	I-PP	*	I-VF|I-MF
+7	der	d	_	ART	_	_	_	_	_	_	1627-1630	wf1	der	I-PP	I-PP	*	I-VF|I-MF
+8	Berg-<lb/>ſchwaden	Bergschwaden	_	NN	_	_	_	_	_	_	1631-1649	wf2	Bergschwaden	I-PP	I-PP	*	I-VF|I-MF
+9	beſchaͤftigte	beschäftigen	_	VVFIN	_	_	_	_	_	_	1650-1663	wf3	beschäftigte	_	O	*	I-VF|B-RK
+10	,	,	_	$,	_	_	_	_	_	_	1664-1665	wf4	,	_	O	*	O
+11	ſammelte	sammeln	_	VVFIN	_	_	_	_	_	_	1666-1674	wf5	sammelte	_	O	*	B-LK
+12	ich	ich	_	PPER	_	_	_	_	_	_	1675-1678	wf6	ich	B-NP-insitu	B-NP	*	B-MF
+13	in	in	_	APPR	_	_	_	_	_	_	1679-1681	wf7	in	B-PP-insitu	B-PP	*	I-MF
+14	den	d	_	ART	_	_	_	_	_	_	1682-1685	wf8	den	I-PP	I-PP	*	I-MF
+15	Ritzen	Ritze	_	NN	_	_	_	_	_	_	1686-1692	wf9	Ritzen	I-PP	I-PP	*	I-MF
+16	eines	eine	_	ART	_	_	_	_	_	_	1693-1698	wfa	eines	I-PP	I-PP	*	I-MF
+17	Eiſenganges	Eisengang	_	NN	_	_	_	_	_	_	1699-1710	wfb	Eisenganges	I-PP	I-PP	*	I-MF
+18	eine	eine	_	ART	_	_	_	_	_	_	1711-1715	wfc	eine	B-NP-insitu	B-NP	*	I-MF
+19	Miſchung	Mischung	_	NN	_	_	_	_	_	_	1716-1724	wfd	Mischung	I-NP	I-NP	*	I-MF
+20	von	von	_	APPR	_	_	_	_	_	_	1725-1728	wfe	von	I-NP	I-NP	*	I-MF
+21	Waſſerſtoff-Stickſtoff-	wasserstoff-stickstoff-	_	TRUNC	_	_	_	_	_	_	1729-1752	wff	Wasserstoff-Stickstoff-	I-NP	I-NP	*	I-MF
+22	und	und	_	KON	_	_	_	_	_	_	1753-1756	w100	und	I-NP	I-NP	*	I-MF
+23	Kohlenſtoffſaurem	kohlenstoffsauer	_	ADJA	_	_	_	_	_	_	1757-1774	w101	Kohlenstoffsaurem	I-NP	I-NP	*	I-MF
+24	Gas	Gas	_	NN	_	_	_	_	_	_	1775-1778	w102	Gas	I-NP	I-NP	*	I-MF
+25	.	.	_	$.	_	_	_	_	_	_	1779-1780	w103	.	_	O	*	O
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# PTBstring = (VROOT(SIMPX(VF(NX(ART Die)(NN Flaſche)(KOMMA ,)(R(C(NX(PRELS welche)))(MF(NX(PDAT dieſe)(NN Miſchung)))(VC(VXFIN(VVFIN enthielt))))))(KOMMA ,)(LK(VXFIN(VAFIN war)))(MF(ADJX(ADJX:KONJ(ADJD klar))(KON und)(ADJX:KONJ(ADJD durchſichtig)))))(PUNKT ;)(SIMPX(VF(SIMPX(MF(PX(APPR in)(NX:HD(NN Schnee))))(VC(VXINF(VVPP geſtellt)))))(KOMMA ,)(LK(VXFIN(VVFIN uͤberzog)))(MF(NX(PPER ſie))(NX(PRF ſich))(ADJX(ADJD inwendig))(PX(APPR mit)(NX:HD(ART einem)(ADJX(ADJA gelben))(NN Eiſen-<lb/>kalk)))))(PUNKT :)(SIMPX(VF(NX(PDAT dieſer)(NN Schwaden)))(LK(VXFIN(VVFIN hielt)))(MF(ADVX(ADV alſo))(NX(NN Metall))(ADJX(ADJD aufgeloͤſt))))(PUNKT .))
+# TopFString = (S(VF(VF(ART Die)(NN Flaſche)(KOMMA ,)(C(PRELS welche))(MF(PDAT dieſe)(NN Miſchung))(VC(VVFIN enthielt)))(KOMMA ,)(LK(VAFIN war))(MF(ADJD klar)(KON und)(ADJD durchſichtig)(PUNKT ;)(APPR in)(NN Schnee))(VC(VVPP geſtellt)))(KOMMA ,)(LK(VVFIN uͤberzog))(MF(PPER ſie)(PRF ſich)(ADJD inwendig)(APPR mit)(ART einem)(ADJA gelben)(NN Eiſen-<lb/>kalk))(PUNKT :)(VF(PDAT dieſer)(NN Schwaden))(LK(VVFIN hielt))(MF(ADV alſo)(NN Metall)(ADJD aufgeloͤſt))(PUNKT .))
+# text = Die Flaſche , welche dieſe Miſchung enthielt , war klar und durchſichtig ; in Schnee geſtellt , uͤberzog ſie ſich inwendig mit einem gelben Eiſen-<lb/>kalk : dieſer Schwaden hielt alſo Metall aufgeloͤſt .
+1	Die	d	_	ART	_	_	_	_	_	B-Antec-1	1782-1785	w104	Die	B-NP-insitu	B-NP	*	B-VF|B-VF
+2	Flaſche	Flasche	_	NN	_	_	_	_	_	I-Antec-Head	1786-1793	w105	Flasche	I-NP	I-NP	*	I-VF|I-VF
+3	,	,	_	$,	_	_	_	_	_	_	1794-1795	w106	,	I-NP	I-NP	*	I-VF|I-VF
+4	welche	welche	_	PRELS	_	_	_	_	_	_	1796-1802	w107	welche	I-NP|B-RELC-insitu-1|B-NP-insitu	I-NP	*	I-VF|I-VF|B-LK
+5	dieſe	diese	_	PDAT	_	_	_	_	_	_	1803-1808	w108	diese	I-NP|I-RELC|B-NP-insitu	I-NP	*	I-VF|I-VF|B-MF
+6	Miſchung	Mischung	_	NN	_	_	_	_	_	_	1809-1817	w109	Mischung	I-NP|I-RELC|I-NP	I-NP	*	I-VF|I-VF|I-MF
+7	enthielt	enthalten	_	VVFIN	_	_	_	_	_	_	1818-1826	w10a	enthielt	I-NP|I-RELC	I-NP	*	I-VF|I-VF|B-RK
+8	,	,	_	$,	_	_	_	_	_	_	1827-1828	w10b	,	_	O	*	I-VF
+9	war	sein	_	VAFIN	_	_	_	_	_	_	1829-1832	w10c	war	_	O	*	I-VF|B-LK
+10	klar	klar	_	ADJD	_	_	_	_	_	_	1833-1837	w10d	klar	B-AP-insitu	B-AP	*	I-VF|B-MF
+11	und	und	_	KON	_	_	_	_	_	_	1838-1841	w10e	und	I-AP	I-AP	*	I-VF|I-MF
+12	durchſichtig	durchsichtig	_	ADJD	_	_	_	_	_	_	1842-1854	w10f	durchsichtig	I-AP	I-AP	*	I-VF|I-MF
+13	;	;	_	$.	_	_	_	_	_	_	1855-1856	w110	;	_	O	*	I-VF|I-MF
+14	in	in	_	APPR	_	_	_	_	_	_	1857-1859	w111	in	B-PP-insitu	B-PP	*	I-VF|I-MF
+15	Schnee	Schnee	_	NN	_	_	_	_	_	_	1860-1866	w112	Schnee	I-PP	I-PP	*	I-VF|I-MF
+16	geſtellt	stellen	_	VVPP	_	_	_	_	_	_	1867-1875	w113	gestellt	_	O	*	I-VF|B-RK
+17	,	,	_	$,	_	_	_	_	_	_	1876-1877	w114	,	_	O	*	O
+18	uͤberzog	überziehen	_	VVFIN	_	_	_	_	_	_	1878-1886	w115	überzog	_	O	*	B-LK
+19	ſie	sie	_	PPER	_	_	_	_	_	_	1887-1890	w116	sie	B-NP-insitu	B-NP	*	B-MF
+20	ſich	sich	_	PRF	_	_	_	_	_	_	1891-1895	w117	sich	B-NP-insitu	B-NP	*	I-MF
+21	inwendig	inwendig	_	ADJD	_	_	_	_	_	_	1896-1904	w118	inwendig	B-AP-insitu	B-AP	*	I-MF
+22	mit	mit	_	APPR	_	_	_	_	_	_	1905-1908	w119	mit	B-PP-insitu	B-PP	*	I-MF
+23	einem	eine	_	ART	_	_	_	_	_	_	1909-1914	w11a	einem	I-PP	I-PP	*	I-MF
+24	gelben	gelb	_	ADJA	_	_	_	_	_	_	1915-1921	w11b	gelben	I-PP	I-PP	*	I-MF
+25	Eiſen-<lb/>kalk	Eisenkalk	_	NN	_	_	_	_	_	_	1922-1937	w11c	Eisenkalk	I-PP	I-PP	*	I-MF
+26	:	:	_	$.	_	_	_	_	_	_	1938-1939	w11d	:	_	O	*	O
+27	dieſer	diese	_	PDAT	_	_	_	_	_	_	1940-1946	w11e	dieser	B-NP-insitu	B-NP	*	B-VF
+28	Schwaden	Schwaden	_	NN	_	_	_	_	_	_	1947-1955	w11f	Schwaden	I-NP	I-NP	*	I-VF
+29	hielt	halten	_	VVFIN	_	_	_	_	_	_	1956-1961	w120	hielt	_	O	*	B-LK
+30	alſo	also	_	ADV	_	_	_	_	_	_	1962-1966	w121	also	B-ADVP-insitu	B-ADVP	*	B-MF
+31	Metall	Metall	_	NN	_	_	_	_	_	_	1967-1973	w122	Metall	B-NP-insitu	B-NP	*	I-MF
+32	aufgeloͤſt	auflösen	_	ADJD	_	_	_	_	_	_	1974-1984	w123	aufgelöst	B-AP-insitu	B-AP	*	I-MF
+33	.	.	_	$.	_	_	_	_	_	_	1985-1986	w124	.	_	O	*	O
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# PTBstring = (VROOT(SIMPX(VF(ADJX(NX(NN Metalle)(PX(APPR in)(NX:HD(NN Gasarten))))(ADJD aufgeloͤſt)))(KOMMA ,)(LK(VXFIN(VAFIN ſind)))(MF(NX(ART ein)(ADJX(PX(APPR fuͤr)(NX:HD(ART die)(NX:KONJ(NN Meteorologie))(KON und)(NX:KONJ(NN Mineralogie))))(ADVX(ADV aͤußerſt))(ADJA intereſſanter))(NN Gegenſtand))))(PUNKT .))
+# TopFString = (S(VF(NN Metalle)(APPR in)(NN Gasarten)(ADJD aufgeloͤſt))(KOMMA ,)(LK(VAFIN ſind))(MF(ART ein)(APPR fuͤr)(ART die)(NN Meteorologie)(KON und)(NN Mineralogie)(ADV aͤußerſt)(ADJA intereſſanter)(NN Gegenſtand))(PUNKT .))
+# text = Metalle in Gasarten aufgeloͤſt , ſind ein fuͤr die Meteorologie und Mineralogie aͤußerſt intereſſanter Gegenſtand .
+1	Metalle	Metall	_	NN	_	_	_	_	_	_	1988-1995	we0b	Metalle	B-AP-insitu	B-AP	*	B-VF
+2	in	in	_	APPR	_	_	_	_	_	_	1996-1998	we0c	in	I-AP	I-AP	*	I-VF
+3	Gasarten	Gasart	_	NN	_	_	_	_	_	_	1999-2007	we0d	Gasarten	I-AP	I-AP	*	I-VF
+4	aufgeloͤſt	auflösen	_	ADJD	_	_	_	_	_	_	2008-2018	we0e	aufgelöst	I-AP	I-AP	*	I-VF
+5	,	,	_	$,	_	_	_	_	_	_	2019-2020	we0f	,	_	O	*	O
+6	ſind	sein	_	VAFIN	_	_	_	_	_	_	2021-2025	we10	sind	_	O	*	B-LK
+7	ein	eine	_	ART	_	_	_	_	_	_	2026-2029	we11	ein	B-NP-insitu	B-NP	*	B-MF
+8	fuͤr	für	_	APPR	_	_	_	_	_	_	2030-2034	we12	für	I-NP	I-NP	*	I-MF
+9	die	d	_	ART	_	_	_	_	_	_	2035-2038	we13	die	I-NP	I-NP	*	I-MF
+10	Meteorologie	Meteorologie	_	NN	_	_	_	_	_	_	2039-2051	we14	Meteorologie	I-NP	I-NP	*	I-MF
+11	und	und	_	KON	_	_	_	_	_	_	2052-2055	we15	und	I-NP	I-NP	*	I-MF
+12	Mineralogie	Mineralogie	_	NN	_	_	_	_	_	_	2056-2067	we16	Mineralogie	I-NP	I-NP	*	I-MF
+13	aͤußerſt	äußerst	_	ADV	_	_	_	_	_	_	2068-2076	we17	äußerst	I-NP	I-NP	*	I-MF
+14	intereſſanter	interessant	_	ADJA	_	_	_	_	_	_	2077-2090	we18	interessanter	I-NP	I-NP	*	I-MF
+15	Gegenſtand	Gegenstand	_	NN	_	_	_	_	_	_	2091-2101	we19	Gegenstand	I-NP	I-NP	*	I-MF
+16	.	.	_	$.	_	_	_	_	_	_	2102-2103	we1a	.	_	O	*	O
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# PTBstring = (VROOT(SIMPX(VF(NX(PPER Es)))(LK(VXFIN(VAFIN iſt)))(MF(NX(ART eine)(ADJX(ADVX(ADV ſehr))(ADJA erwieſene))(NN Thatſache)))(KOMMA ,)(NF(SIMPX(C(KOUS daß))(MF(NX(ART die)(NN Feuerkugeln))(ADVX(ADV oft))(NX(NN Stuͤcken)(NX(ADJX(ADJA halb-<lb/>verſchlacktes))(NN Eiſen))))(VC(VXINF(VVINF fallen))(VXFIN(VVFIN laſſen))))))(PUNKT .))
+# TopFString = (S(VF(PPER Es))(LK(VAFIN iſt))(MF(ART eine)(ADV ſehr)(ADJA erwieſene)(NN Thatſache))(KOMMA ,)(NF(C(KOUS daß))(MF(ART die)(NN Feuerkugeln)(ADV oft)(NN Stuͤcken)(ADJA halb-<lb/>verſchlacktes)(NN Eiſen))(VC(VVINF fallen)(VVFIN laſſen)))(PUNKT .))
+# text = Es iſt eine ſehr erwieſene Thatſache , daß die Feuerkugeln oft Stuͤcken halb-<lb/>verſchlacktes Eiſen fallen laſſen .
+1	Es	es	_	PPER	_	_	_	_	_	_	2105-2107	we1b	Es	B-NP-insitu	B-NP	*	B-VF
+2	iſt	sein	_	VAFIN	_	_	_	_	_	_	2108-2111	we1c	ist	_	O	*	B-LK
+3	eine	eine	_	ART	_	_	_	_	_	_	2112-2116	we1d	eine	B-NP-insitu	B-NP	*	B-MF
+4	ſehr	sehr	_	ADV	_	_	_	_	_	_	2117-2121	we1e	sehr	I-NP	I-NP	*	I-MF
+5	erwieſene	erweisen	_	ADJA	_	_	_	_	_	_	2122-2131	we1f	erwiesene	I-NP	I-NP	*	I-MF
+6	Thatſache	Tatsache	_	NN	_	_	_	_	_	_	2132-2141	we20	Tatsache	I-NP	I-NP	*	I-MF
+7	,	,	_	$,	_	_	_	_	_	_	2142-2143	we21	,	_	O	*	O
+8	daß	daß	_	KOUS	_	_	_	_	_	_	2144-2147	we22	daß	_	O	*	B-NF|B-LK
+9	die	d	_	ART	_	_	_	_	_	_	2148-2151	we23	die	B-NP-insitu	B-NP	*	I-NF|B-MF
+10	Feuerkugeln	Feuerkugel	_	NN	_	_	_	_	_	_	2152-2163	we24	Feuerkugeln	I-NP	I-NP	*	I-NF|I-MF
+11	oft	oft	_	ADV	_	_	_	_	_	_	2164-2167	we25	oft	B-ADVP-insitu	B-ADVP	*	I-NF|I-MF
+12	Stuͤcken	Stück	_	NN	_	_	_	_	_	_	2168-2176	we26	Stücken	B-NP-insitu	B-NP	*	I-NF|I-MF
+13	halb-<lb/>verſchlacktes	halbverschlackt	_	ADJA	_	_	_	_	_	_	2177-2200	we27	halbverschlacktes	I-NP	I-NP	*	I-NF|I-MF
+14	Eiſen	Eisen	_	NN	_	_	_	_	_	_	2201-2206	we28	Eisen	I-NP	I-NP	*	I-NF|I-MF
+15	fallen	fallen	_	VVINF	_	_	_	_	_	_	2207-2213	we29	fallen	_	O	*	I-NF|B-RK
+16	laſſen	lassen	_	VVFIN	_	_	_	_	_	_	2214-2220	we2a	lassen	_	O	*	I-NF|I-RK
+17	.	.	_	$.	_	_	_	_	_	_	2221-2222	we2b	.	_	O	*	O
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# PTBstring = (VROOT(SIMPX(LK(VXFIN(VVFIN Befindet)))(MF(NX(PRF ſich))(ADVX(ADV wohl))(NX(PDAT dieſes)(NN Eiſen))(PX(APPR in)(NX:HD(ART den)(ADJX(ADJA hoͤchſten))(NN Schichten)(NX(ART der)(NN Atmoſphaͤre)(PX(APPRART im)(NX:HD(ADJX(ADJA gasartigen))(NN Zu-<lb/>ſtand))))))))(PUNKT ?))
+# TopFString = (S(LK(VVFIN Befindet))(MF(PRF ſich)(ADV wohl)(PDAT dieſes)(NN Eiſen)(APPR in)(ART den)(ADJA hoͤchſten)(NN Schichten)(ART der)(NN Atmoſphaͤre)(APPRART im)(ADJA gasartigen)(NN Zu-<lb/>ſtand))(PUNKT ?))
+# text = Befindet ſich wohl dieſes Eiſen in den hoͤchſten Schichten der Atmoſphaͤre im gasartigen Zu-<lb/>ſtand ?
+1	Befindet	befinden	_	VVFIN	_	_	_	_	_	_	2224-2232	we2c	Befindet	_	O	*	B-LK
+2	ſich	sich	_	PRF	_	_	_	_	_	_	2233-2237	we2d	sich	B-NP-insitu	B-NP	*	B-MF
+3	wohl	wohl	_	ADV	_	_	_	_	_	_	2238-2242	we2e	wohl	B-ADVP-insitu	B-ADVP	*	I-MF
+4	dieſes	diese	_	PDAT	_	_	_	_	_	_	2243-2249	we2f	dieses	B-NP-insitu	B-NP	*	I-MF
+5	Eiſen	Eisen	_	NN	_	_	_	_	_	_	2250-2255	we30	Eisen	I-NP	I-NP	*	I-MF
+6	in	in	_	APPR	_	_	_	_	_	_	2256-2258	we31	in	B-PP-insitu	B-PP	*	I-MF
+7	den	d	_	ART	_	_	_	_	_	_	2259-2262	we32	den	I-PP	I-PP	*	I-MF
+8	hoͤchſten	hoch	_	ADJA	_	_	_	_	_	_	2263-2272	we33	höchsten	I-PP	I-PP	*	I-MF
+9	Schichten	Schichte	_	NN	_	_	_	_	_	_	2273-2282	we34	Schichten	I-PP	I-PP	*	I-MF
+10	der	d	_	ART	_	_	_	_	_	_	2283-2286	we35	der	I-PP	I-PP	*	I-MF
+11	Atmoſphaͤre	Atmosphäre	_	NN	_	_	_	_	_	_	2287-2298	we36	Atmosphäre	I-PP	I-PP	*	I-MF
+12	im	im	_	APPRART	_	_	_	_	_	_	2299-2301	we37	im	I-PP	I-PP	*	I-MF
+13	gasartigen	gasartig	_	ADJA	_	_	_	_	_	_	2302-2312	we38	gasartigen	I-PP	I-PP	*	I-MF
+14	Zu-<lb/>ſtand	Zustand	_	NN	_	_	_	_	_	_	2313-2326	we39	Zustand	I-PP	I-PP	*	I-MF
+15	?	?	_	$.	_	_	_	_	_	_	2327-2328	we3a	?	_	O	*	O
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# PTBstring = (VROOT(SIMPX(LK(VXFIN(VVFIN Erhebt)))(MF(NX(PPER es))(NX(PRF ſich))(PX(APPR mit)(NX:HD(ART dem)(NN Waſſerſtoffgas)))))(KOMMA ,)(SIMPX(C(NX(PRELS welches)))(MF(NX(ART die)(NN Moraͤſte))(PX(APPR in)(NX:HD(NN Ueberfluß))))(VC(VXFIN(VVFIN ausdunſten))))(PUNKT ?)(KLAMMER —))
+# TopFString = (S(LK(VVFIN Erhebt))(MF(PPER es)(PRF ſich)(APPR mit)(ART dem)(NN Waſſerſtoffgas))(KOMMA ,)(NF(C(PRELS welches))(MF(ART die)(NN Moraͤſte)(APPR in)(NN Ueberfluß))(VC(VVFIN ausdunſten)))(PUNKT ?)(KLAMMER —))
+# text = Erhebt es ſich mit dem Waſſerſtoffgas , welches die Moraͤſte in Ueberfluß ausdunſten ? —
+1	Erhebt	erheben	_	VVFIN	_	_	_	_	_	_	2330-2336	we3b	Erhebt	_	O	*	B-LK
+2	es	es	_	PPER	_	_	_	_	_	_	2337-2339	we3c	es	B-NP-insitu	B-NP	*	B-MF
+3	ſich	sich	_	PRF	_	_	_	_	_	_	2340-2344	we3d	sich	B-NP-insitu	B-NP	*	I-MF
+4	mit	mit	_	APPR	_	_	_	_	_	B-Antec-1	2345-2348	we3e	mit	B-PP-insitu	B-PP	*	I-MF
+5	dem	d	_	ART	_	_	_	_	_	I-Antec	2349-2352	we3f	dem	I-PP	I-PP	*	I-MF
+6	Waſſerſtoffgas	Wasserstoffgas	_	NN	_	_	_	_	_	I-Antec-Head	2353-2367	we40	Wasserstoffgas	I-PP	I-PP	*	I-MF
+7	,	,	_	$,	_	_	_	_	_	_	2368-2369	we41	,	_	O	*	O
+8	welches	welche	_	PRELS	_	_	_	_	_	_	2370-2377	we42	welches	B-RELC-ambig-1|B-NP-insitu	B-NP	*	B-NF|B-LK
+9	die	d	_	ART	_	_	_	_	_	_	2378-2381	we43	die	I-RELC|B-NP-insitu	B-NP	*	I-NF|B-MF
+10	Moraͤſte	Morast	_	NN	_	_	_	_	_	_	2382-2390	we44	Moraste	I-RELC|I-NP	I-NP	*	I-NF|I-MF
+11	in	in	_	APPR	_	_	_	_	_	_	2391-2393	we45	in	I-RELC|B-PP-insitu	B-PP	*	I-NF|I-MF
+12	Ueberfluß	Überfluß	_	NN	_	_	_	_	_	_	2394-2403	we46	Überfluß	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+13	ausdunſten	ausdunsten	_	VVFIN	_	_	_	_	_	_	2404-2414	we47	ausdunsten	I-RELC	O	*	I-NF|B-RK
+14	?	?	_	$.	_	_	_	_	_	_	2415-2416	we48	?	_	O	*	O
+15	—	--	_	$(	_	_	_	_	_	_	2417-2418	we49	--	_	O	*	O
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# PTBstring = (VROOT(SIMPX(VF(NX(ART Die)(NN Mineralogen)))(LK(VXFIN(VVFIN ken-<lb/>nen)))(MF(NX(ART die)(ADJX(ADJA ſchoͤnen))(NN Gruppen)(PX(APPR von)(NX:HD(NX:KONJ(NN Bergkryſtall))(KON oder)(NX:KONJ(NN Kalkſpath))))))(KOMMA ,)(NF(R(C(NX(PRELS die)))(MF(ADVX(ADV blos))(PX(APPR auf)(NX:HD(ART einer)(NN Seite)(PX(APPR mit)(NX:HD(NX:KONJ(NN Kieß))(KON oder)(NX:KONJ(NN Bleyglanz))))))(ADJX(ADJD uͤberzogen)))(VC(VXFIN(VAFIN ſind))))))(PUNKT .))
+# TopFString = (S(VF(ART Die)(NN Mineralogen))(LK(VVFIN ken-<lb/>nen))(MF(ART die)(ADJA ſchoͤnen)(NN Gruppen)(APPR von)(NN Bergkryſtall)(KON oder)(NN Kalkſpath))(KOMMA ,)(NF(C(PRELS die))(MF(ADV blos)(APPR auf)(ART einer)(NN Seite)(APPR mit)(NN Kieß)(KON oder)(NN Bleyglanz)(ADJD uͤberzogen))(VC(VAFIN ſind)))(PUNKT .))
+# text = Die Mineralogen ken-<lb/>nen die ſchoͤnen Gruppen von Bergkryſtall oder Kalkſpath , die blos auf einer Seite mit Kieß oder Bleyglanz uͤberzogen ſind .
+1	Die	d	_	ART	_	_	_	_	_	_	2420-2423	we4a	Die	B-NP-insitu	B-NP	*	B-VF
+2	Mineralogen	Mineraloge	_	NN	_	_	_	_	_	_	2424-2435	we4b	Mineralogen	I-NP	I-NP	*	I-VF
+3	ken-<lb/>nen	kennen	_	VVFIN	_	_	_	_	_	_	2436-2448	we4c	kennen	_	O	*	B-LK
+4	die	d	_	ART	_	_	_	_	_	B-Antec-1	2449-2452	we4d	die	B-NP-insitu	B-NP	*	B-MF
+5	ſchoͤnen	schön	_	ADJA	_	_	_	_	_	I-Antec	2453-2461	we4e	schönen	I-NP	I-NP	*	I-MF
+6	Gruppen	Gruppe	_	NN	_	_	_	_	_	I-Antec-Head	2462-2469	we4f	Gruppen	I-NP	I-NP	*	I-MF
+7	von	von	_	APPR	_	_	_	_	_	I-Antec	2470-2473	we50	von	I-NP	I-NP	*	I-MF
+8	Bergkryſtall	Bergkristall	_	NN	_	_	_	_	_	I-Antec	2474-2486	we51	Bergkristall	I-NP	I-NP	*	I-MF
+9	oder	oder	_	KON	_	_	_	_	_	I-Antec	2487-2491	we52	oder	I-NP	I-NP	*	I-MF
+10	Kalkſpath	Kalkspath	_	NN	_	_	_	_	_	I-Antec	2492-2501	we53	Kalkspath	I-NP	I-NP	*	I-MF
+11	,	,	_	$,	_	_	_	_	_	_	2502-2503	we54	,	_	O	*	O
+12	die	die	_	PRELS	_	_	_	_	_	_	2504-2507	we55	die	B-RELC-ambig-1|B-NP-insitu	B-NP	*	B-NF|B-LK
+13	blos	bloß	_	ADV	_	_	_	_	_	_	2508-2512	we56	bloß	I-RELC|B-ADVP-insitu	B-ADVP	*	I-NF|B-MF
+14	auf	auf	_	APPR	_	_	_	_	_	_	2513-2516	we57	auf	I-RELC|B-PP-insitu	B-PP	*	I-NF|I-MF
+15	einer	eine	_	ART	_	_	_	_	_	_	2517-2522	we58	einer	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+16	Seite	Seite	_	NN	_	_	_	_	_	_	2523-2528	we59	Seite	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+17	mit	mit	_	APPR	_	_	_	_	_	_	2529-2532	we5a	mit	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+18	Kieß	Kies	_	NN	_	_	_	_	_	_	2533-2537	we5b	Kies	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+19	oder	oder	_	KON	_	_	_	_	_	_	2538-2542	we5c	oder	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+20	Bleyglanz	Bleiglanz	_	NN	_	_	_	_	_	_	2543-2552	we5d	Bleiglanz	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+21	uͤberzogen	überziehen	_	ADJD	_	_	_	_	_	_	2553-2563	we5e	überzogen	I-RELC|B-AP-insitu	B-AP	*	I-NF|I-MF
+22	ſind	sein	_	VAFIN	_	_	_	_	_	_	2564-2568	we5f	sind	I-RELC	O	*	I-NF|B-RK
+23	.	.	_	$.	_	_	_	_	_	_	2569-2570	we60	.	_	O	*	O

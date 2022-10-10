@@ -1,0 +1,33 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC Antec CAT CLEAN EDITION FOKUS GF IS MovElem PHRASE POS SATZKLAMMER SATZSTATUS TOPF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# PTBstring = (VROOT(S(AVP(ADV nv))(VP(VMFIN wil))(NP(PPER er))(VP(NP(ART den)(NN ſchaden))(VVINF beſſeren)(NP(PDAT dien)(NN luͥtē)))(S(NP(PRELS den))(NP(PPER er))(NP(ART den)(NN ſchadē))(VP(VAFIN hat))(VP(VVPP getan)(PUNKT .)))))
+# TopFString = (S(VF(ADV nv))(LK(VMFIN wil))(MF(PPER er)(ART den)(NN ſchaden))(VC(VVINF beſſeren))(NF(PDAT dien)(NN luͥtē)(C(PRELS den))(MF(PPER er)(ART den)(NN ſchadē))(VCE(VAFIN hat))(VC(VVPP getan)))(PUNKT .))
+# text = nv wil er den ſchaden beſſeren dien luͥtē den er den ſchadē hat getan.
+1	nv	_	_	ADV	_	_	_	_	_	_	ADVP	nv	281,37	_	ADVB	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	B-VF	60ra,16	_	_
+2	wil	_	_	VMFIN	_	_	_	_	_	_	VP	wil	281,37	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	B-LK	60ra,17	_	_
+3	er	_	_	PPER	_	_	_	_	_	_	NP	er	281,37	_	SUBJ	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-MF	60ra,17	_	_
+4	den	_	_	ART	_	_	_	_	_	_	NP	den	281,37	_	DO	_	B-NP-insitu	B-NP	DDA	_	MAINDECL	I-MF	60ra,17	_	_
+5	ſchaden	_	_	NN	_	_	_	_	_	_	NP	ſchaden	281,37	_	DO	_	I-NP	I-NP	NA	_	MAINDECL	I-MF	60ra,17	_	_
+6	beſſeren	_	_	VVINF	_	_	_	_	_	_	VP	beſſeren	281,37	_	INF	_	_	O	VVINF	RE	MAINDECL	B-RK	60ra,17	_	_
+7	dien	_	_	PDAT	_	_	_	_	_	B-Antec-1	NP	dien	281,38	NF	IO-DAT	NEW	B-NP-extrap	B-NP	DD	_	MAINDECL	B-NF	60ra,18	UNLINK	KOREF1-REL
+8	luͥtē	_	_	NN	_	_	_	_	_	I-Antec-Head	NP	luͥtē	281,38	NF	IO-DAT	NEW	I-NP	I-NP	NA	_	MAINDECL	I-NF	60ra,18	UNLINK	KOREF1-REL
+9	den	_	_	PRELS	_	_	_	_	_	_	CP	den	281,38	NF	ATTR	_	B-RELC-insitu-1|B-NP-insitu	B-NP	DDSREL	_	MAINDECL	I-NF|B-LK	60ra,18	UNLINK	KOREF2-REL
+10	er	_	_	PPER	_	_	_	_	_	_	CP	er	281,38	NF	ATTR	_	I-RELC|B-NP-insitu	B-NP	PPER	_	MAINDECL	I-NF|B-MF	60ra,18	UNLINK	_
+11	den	_	_	ART	_	_	_	_	_	_	CP	den	281,38	NF	ATTR	_	I-RELC|B-NP-insitu	B-NP	DDA	_	MAINDECL	I-NF|I-MF	60ra,18	UNLINK	_
+12	ſchadē	_	_	NN	_	_	_	_	_	_	CP	ſchadē	281,38	NF	ATTR	_	I-RELC|I-NP	I-NP	NA	_	MAINDECL	I-NF|I-MF	60ra,18	UNLINK	_
+13	hat	_	_	VAFIN	_	_	_	_	_	_	CP	hat	281,38	NF	ATTR	_	I-RELC	O	VAFIN	_	MAINDECL	I-NF|B-RK	60ra,19	UNLINK	_
+14	getan	_	_	VVPP	_	_	_	_	_	_	CP	getan	281,38	NF	ATTR	_	I-RELC	O	VVPP	_	MAINDECL	I-NF|B-RK	60ra,19	UNLINK	_
+15	.	_	_	$.	_	_	_	_	_	_	CP	.	281,38	_	ATTR	_	_	O	$_	_	MAINDECL	O	60ra,19	UNLINK	_
+
+# sent_id = 2
+# PTBstring = (VROOT(S(KON vn̄)(VP(VMFIN koͤnden))(NP(PPER wír))(VP(ADV wiſlich)(VVINF griLBR=RBRfen)(PP(APPR in)(PDS diſen)(NN ſchatz)))))
+# TopFString = (S(KOORD(KON vn̄))(LK(VMFIN koͤnden))(MF(PPER wír)(ADV wiſlich))(VC(VVINF griLBR=RBRfen))(NF(APPR in)(PDS diſen)(NN ſchatz)))
+# text = vn̄ koͤnden wír wiſlich gri(=)fen in diſen ſchatz
+1	vn̄	_	_	KON	_	_	_	_	_	_	_	vn̄	282, 10	_	_	_	_	O	KON	_	MAINDECL	B-KOORD	60va,04	_	_
+2	koͤnden	_	_	VMFIN	_	_	_	_	_	_	VP	koͤnden	282, 10	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	B-LK	60va,05; gri(=)-	_	_
+3	wír	_	_	PPER	_	_	_	_	_	_	NP	wír	282, 10	_	SUBJ	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-MF	60va,05; gri(=)-	_	_
+4	wiſlich	_	_	ADV	_	_	_	_	_	_	ADVP	wiſlich	282, 10	_	ADVB	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	I-MF	60va,05; gri(=)-	_	_
+5	gri(=)fen	_	_	VVINF	_	_	_	_	_	_	VP	grifen	282, 10	NF	INF	_	_	O	VVINF	RE	MAINDECL	B-RK	60va,05; gri(=)-	_	_
+6	in	_	_	APPR	_	_	_	_	_	_	PP	in	282, 11	NF	PP-ADV	_	B-PP-extrap	B-PP	APPR	_	MAINDECL	B-NF	60va,06; -fen	UNLINK	_
+7	diſen	_	_	PDS	_	_	_	_	_	_	PP	diſen	282, 11	NF	PP-ADV	GIV-ACTIVE	I-PP	I-PP	DDS	_	MAINDECL	I-NF	60va,06; -fen	UNLINK	_
+8	ſchatz	_	_	NN	_	_	_	_	_	_	PP	ſchatz	282, 11	NF	PP-ADV	GIV-ACTIVE	I-PP	I-PP	NA	_	MAINDECL	I-NF	60va,06; -fen	UNLINK	_

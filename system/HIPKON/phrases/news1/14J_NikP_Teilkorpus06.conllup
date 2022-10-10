@@ -1,0 +1,43 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS Kommentar PHRASE POS SATZKLAMMER SATZSTATUS UEBERLIEFERUNGSTRAEGER VERLINKUNG
+# sent_id = 1
+# PTBstring = (VROOT(SIMPX(VF(NX(ADJX(ADJA guͦt))(NN luͥte)))(LK(VXFIN(VMFIN muͦſſen)))(MF(NX(PPER ſí))(PX(APPR vmb)(NX:HD(PPOSAT vͥnLBR=RBRſern)(NN h'rē))))(VC(VXINF(VVINF erwerben)))(NF(NX(ART die)(ADJX(ADJA ſelbē))(NN gnade))))(PUNKT .))
+# text = guͦt luͥte muͦſſen ſí vmb vͥn(=)ſern h'rē erwerben die ſelbē gnade.
+1	guͦt	_	_	ADJA	_	_	_	_	_	NP	guͦt	276,24	_	SUBJ	_	_	B-NP	ADJ	_	MAINDECL	54rb,08	_
+2	luͥte	_	_	NN	_	_	_	_	_	NP	luͥte	276,24	_	SUBJ	_	_	I-NP	NA	_	MAINDECL	54rb,09; vͥn-	_
+3	muͦſſen	_	_	VMFIN	_	_	_	_	_	VP	muͦſſen	276,24	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	54rb,09; vͥn-	_
+4	ſí	_	_	PPER	_	_	_	_	_	NP	ſí	276,24	_	DO	_	_	B-NP	PPER	_	MAINDECL	54rb,09; vͥn-	_
+5	vmb	_	_	APPR	_	_	_	_	_	PP	vmb	276,24	_	PP-ADV	_	CF	B-PP	APPR	_	MAINDECL	54rb,09; vͥn-	_
+6	vͥn(=)ſern	_	_	PPOSAT	_	_	_	_	_	PP	vͥnſern	276,24	_	PP-ADV	_	CF	I-PP	DPOS	_	MAINDECL	54rb,09; vͥn-	_
+7	h'rē	_	_	NN	_	_	_	_	_	PP	h'rē	276,25	_	PP-ADV	_	CF	I-PP	NA	_	MAINDECL	54rb,10; -ſern	_
+8	erwerben	_	_	VVINF	_	_	_	_	_	VP	erwerben	276,25	_	INF	_	_	O	VVINF	RE	MAINDECL	54rb,10; -ſern	_
+9	die	_	_	ART	_	_	_	_	_	NP	die	276,25	BGR	APPOS	ACC-ABSTR-USED-1	_	B-NP	DDA	_	MAINDECL	54rb,10; -ſern	LINK_APPOS
+10	ſelbē	_	_	ADJA	_	_	_	_	_	NP	ſelbē	276,25	BGR	APPOS	ACC-ABSTR-USED-1	_	I-NP	ADJ	_	MAINDECL	54rb,11	LINK_APPOS
+11	gnade	_	_	NN	_	_	_	_	_	NP	gnade	276,25	BGR	APPOS	ACC-ABSTR-USED-1	_	I-NP	NA	_	MAINDECL	54rb,11	LINK_APPOS
+12	.	_	_	$.	_	_	_	_	_	_	.	276,25	_	_	_	_	O	$_	_	MAINDECL	54rb,11	_
+
+# sent_id = 2
+# PTBstring = (VROOT(SIMPX(VF(ADVX(ADV ſo)))(LK(VXFIN(VMFIN ſolt)))(MF(NX(PPER du))(ADVX(ADV doch)))(VC(VXINF(VVINF gan)))(NF(NX(PX(APPR an)(NX:HD(PIAT alle)))(ART die)(NN ſtette)))))
+# text = ſo ſolt du doch gan an alle die ſtette
+1	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo	277,16	_	ADVB	_	_	B-ADVP	ADV	_	MAINDECL	55ra,17	_
+2	ſolt	_	_	VMFIN	_	_	_	_	_	VP	ſolt	277,16	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	55ra,17	_
+3	du	_	_	PPER	_	_	_	_	_	NP	du	277,16	_	SUBJ	_	_	B-NP	PPER	_	MAINDECL	55ra,17	_
+4	doch	_	_	ADV	_	_	_	_	_	ADVP	doch	277,16	_	ADVB	_	_	B-ADVP	ADV	_	MAINDECL	55ra,17	_
+5	gan	_	_	VVINF	_	_	_	_	_	VP	gan	277,16	_	INF	_	_	O	VVINF	RE	MAINDECL	55ra,17	_
+6	an	_	_	APPR	_	_	_	_	_	PP	an	277,16	NF	PP-DIR	_	_	B-NP	APPR	_	MAINDECL	55ra,17	UNLINK
+7	alle	_	_	PIAT	_	_	_	_	_	PP	alle	277,16	NF	PP-DIR	_	_	I-NP	ADJ	_	MAINDECL	55ra,17	UNLINK
+8	die	_	_	ART	_	_	_	_	_	PP	die	277,16	NF	PP-DIR	_	_	I-NP	DDA	_	MAINDECL	55ra,18	UNLINK
+9	ſtette	_	_	NN	_	_	_	_	_	PP	ſtette	277,16	NF	PP-DIR	NEW	_	I-NP	NA	_	MAINDECL	55ra,18	UNLINK
+
+# sent_id = 3
+# PTBstring = (VROOT(SIMPX(VF(NX(PPER es)))(LK(VXFIN(VMFIN muͦz)))(VC(VXINF(VVPP v'golten))(VXINF(VAINF werden)))(NF(PX(APPR vnz)(PX:HD(APPR vf)(NX:HD(ART daz)(ADJX(ADJA iungſte))(NN ort))))))(PUNKT .))
+# text = es muͦz v'golten werden vnz vf daz iungſte ort.
+1	es	_	_	PPER	_	_	_	_	_	NP	es	278,02; ver-	_	SUBJ	_	_	B-NP	PPER	_	MAINDECL	55vb,18	_
+2	muͦz	_	_	VMFIN	_	_	_	_	_	VP	muͦz	278,02; ver-	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	55vb,18	_
+3	v'golten	_	_	VVPP	_	_	_	_	_	VP	v'golten	278,02; ver-	_	INF	_	_	O	VVPP	_	MAINDECL	55vb,18	_
+4	werden	_	_	VAINF	_	_	_	_	_	VP	werden	278,03; -golten	_	INF	_	_	O	VAINF	RE	MAINDECL	55vb,18	_
+5	vnz	_	_	APPR	_	_	_	_	_	PP	vnz	278,03; -golten	NF	PP-ADV	_	_	B-PP	APPR	_	MAINDECL	55vb,19	UNLINK
+6	vf	_	_	APPR	_	_	_	_	_	PP	vf	278,03; -golten	NF	PP-ADV	_	_	I-PP	APPR	_	MAINDECL	55vb,19	UNLINK
+7	daz	_	_	ART	_	_	_	_	_	PP	daz	278,03; -golten	NF	PP-ADV	_	_	I-PP	DDA	_	MAINDECL	55vb,19	UNLINK
+8	iungſte	_	_	ADJA	_	_	_	_	_	PP	iungſte	278,03; -golten	NF	PP-ADV	NA	_	I-PP	ADJ	_	MAINDECL	55vb,19	UNLINK
+9	ort	_	_	NN	_	_	_	_	_	PP	ort	278,03; -golten	NF	PP-ADV	NA	_	I-PP	NA	_	MAINDECL	55vb,19	UNLINK
+10	.	_	_	$.	_	_	_	_	_	_	.	278,03; -golten	_	_	_	_	O	$_	_	MAINDECL	55vb,19	_

@@ -1,0 +1,885 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC Antec CharOffset DTA:ID DTA:NORM MovElem PHRASE POS TOPF
+# sent_id = 1
+# sent_id(TSV) = 1
+# PTBstring = (VROOT(NX(NN JOCO-SERIA))(SIMPX(VF(NX(PDS Das)))(LK(VXFIN(VAFIN iſt)))(MF(NX(NX:KONJ(NX:KONJ(NN Schimpff))(KON vnd)(NX:KONJ(NN Ernſt))(KLAMMER /)(NX(ADJX(ADJX:KONJ(PX(PAV darin))(ADVX(PTKNEG nicht))(ADVX(ADV allein))(ADJA nuͤtzliche))(KON vnd)(ADJX:KONJ(ADJA denckwuͤrdige)))))(KLAMMER /)(KON ſon-<lb/>dern)(ADVX(ADV auch))(NX:KONJ(ADJX(ADJX:KONJ(ADJA anmuͤhtige))(KON vnnd)(ADJX:KONJ(ADJA luſtige)))(NN Hiſtorien))))(VC(VXINF(VXINF:KONJ(VVPP erzehlet))(KON vnd)(VXINF:KONJ(VVPP beſchrieben)))(VXINF(VAINF werden))))(PUNKT .))
+# TopFString = (S(VF(NN JOCO-SERIA)(PDS Das))(LK(VAFIN iſt))(MF(NN Schimpff)(KON vnd)(NN Ernſt)(KLAMMER /)(PAV darin)(PTKNEG nicht)(ADV allein)(ADJA nuͤtzliche)(KON vnd)(ADJA denckwuͤrdige)(KLAMMER /)(KON ſon-<lb/>dern)(ADV auch)(ADJA anmuͤhtige)(KON vnnd)(ADJA luſtige)(NN Hiſtorien))(VC(VVPP erzehlet)(KON vnd)(VVPP beſchrieben)(VAINF werden))(PUNKT .))
+# text = JOCO-SERIA Das iſt Schimpff vnd Ernſt / darin nicht allein nuͤtzliche vnd denckwuͤrdige / ſon-<lb/>dern auch anmuͤhtige vnnd luſtige Hiſtorien erzehlet vnd beſchrieben werden .
+1	JOCO-SERIA	joco-seria	_	NN	_	_	_	_	_	_	0-10	w1	JOCO-SERIA	B-NP-insitu	B-NP	*	B-VF
+2	Das	die	_	PDS	_	_	_	_	_	_	11-14	w2	Das	B-NP-insitu	B-NP	*	I-VF
+3	iſt	sein	_	VAFIN	_	_	_	_	_	_	15-18	w3	ist	_	O	*	B-LK
+4	Schimpff	Schimpf	_	NN	_	_	_	_	_	_	19-27	w4	Schimpf	B-NP-insitu	B-NP	*	B-MF
+5	vnd	und	_	KON	_	_	_	_	_	_	28-31	w5	und	I-NP	I-NP	*	I-MF
+6	Ernſt	Ernst	_	NN	_	_	_	_	_	_	32-37	w6	Ernst	I-NP	I-NP	*	I-MF
+7	/	/	_	$(	_	_	_	_	_	_	38-39	w7	/	I-NP	I-NP	*	I-MF
+8	darin	darin	_	PAV	_	_	_	_	_	_	40-45	w8	darin	I-NP	I-NP	*	I-MF
+9	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	46-51	w9	nicht	I-NP	I-NP	*	I-MF
+10	allein	allein	_	ADV	_	_	_	_	_	_	52-58	wa	allein	I-NP	I-NP	*	I-MF
+11	nuͤtzliche	nützlich	_	ADJA	_	_	_	_	_	_	59-69	wb	nützliche	I-NP	I-NP	*	I-MF
+12	vnd	und	_	KON	_	_	_	_	_	_	70-73	wc	und	I-NP	I-NP	*	I-MF
+13	denckwuͤrdige	denkwürdig	_	ADJA	_	_	_	_	_	_	74-87	wd	denkwürdige	I-NP	I-NP	*	I-MF
+14	/	/	_	$(	_	_	_	_	_	_	88-89	we	/	I-NP	I-NP	*	I-MF
+15	ſon-<lb/>dern	sondern	_	KON	_	_	_	_	_	_	90-103	wf	sondern	I-NP	I-NP	*	I-MF
+16	auch	auch	_	ADV	_	_	_	_	_	_	104-108	w10	auch	I-NP	I-NP	*	I-MF
+17	anmuͤhtige	anmutig	_	ADJA	_	_	_	_	_	_	109-119	w11	anmutige	I-NP	I-NP	*	I-MF
+18	vnnd	und	_	KON	_	_	_	_	_	_	120-124	w12	und	I-NP	I-NP	*	I-MF
+19	luſtige	lustig	_	ADJA	_	_	_	_	_	_	125-132	w13	lustige	I-NP	I-NP	*	I-MF
+20	Hiſtorien	Historie	_	NN	_	_	_	_	_	_	133-142	w14	Historien	I-NP	I-NP	*	I-MF
+21	erzehlet	erzählen	_	VVPP	_	_	_	_	_	_	143-151	w15	erzählt	_	O	*	B-RK
+22	vnd	und	_	KON	_	_	_	_	_	_	152-155	w16	und	_	O	*	I-RK
+23	beſchrieben	beschreiben	_	VVPP	_	_	_	_	_	_	156-167	w17	beschrieben	_	O	*	I-RK
+24	werden	werden	_	VAINF	_	_	_	_	_	_	168-174	w18	werden	_	O	*	I-RK
+25	.	.	_	$.	_	_	_	_	_	_	175-176	w19	.	_	O	*	O
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# PTBstring = (VROOT(SIMPX(MF(ADVX(ADV Erſtlich))(PX(APPR in)(NX:HD(ADJX(ADJA Lateiniſcher))(NN Sprach))))(VC(VXINF(VVPP außgangen))))(KLAMMER /)(PX(APPR durch)(NX:HD(NX:APP(NN Herrn))(NX:APP(NN D.))))(NX(NE Othonem)(NE Melandrum))(PUNKT :)(SIMPX(MF(ADVX(ADV Jetzo)(PX(ADVX(ADV aber))(APPR vf)(NX:HD(PIAT vieler)(ADJX(ADJA ehrlicher))(NN Leut))))(NX(NN Begeren))(PX(APPRART ins)(NX:HD(NN teutſch))))(VC(VXINF(VVPP vberſetzet))))(PUNKT .))
+# TopFString = (S(MF(ADV Erſtlich)(APPR in)(ADJA Lateiniſcher)(NN Sprach))(VC(VVPP außgangen))(KLAMMER /)(APPR durch)(NN Herꝛn)(NN D.)(NE Othonem)(NE Melandrum)(PUNKT :)(MF(ADV Jetzo)(ADV aber)(APPR vf)(PIAT vieler)(ADJA ehrlicher)(NN Leut)(NN Begeren)(APPRART ins)(NN teutſch))(VC(VVPP vberſetzet))(PUNKT .))
+# text = Erſtlich in Lateiniſcher Sprach außgangen / durch Herꝛn D. Othonem Melandrum : Jetzo aber vf vieler ehrlicher Leut Begeren ins teutſch vberſetzet .
+1	Erſtlich	erstlich	_	ADV	_	_	_	_	_	_	178-186	w1a	Erstlich	B-ADVP-insitu	B-ADVP	*	B-MF
+2	in	in	_	APPR	_	_	_	_	_	_	187-189	w1b	in	B-PP-insitu	B-PP	*	I-MF
+3	Lateiniſcher	lateinisch	_	ADJA	_	_	_	_	_	_	190-202	w1c	Lateinischer	I-PP	I-PP	*	I-MF
+4	Sprach	Sprache	_	NN	_	_	_	_	_	_	203-209	w1d	Sprache	I-PP	I-PP	*	I-MF
+5	außgangen	ausgehen	_	VVPP	_	_	_	_	_	_	210-219	w1e	ausgegangen	_	O	*	B-RK
+6	/	/	_	$(	_	_	_	_	_	_	220-221	w1f	/	_	O	*	O
+7	durch	durch	_	APPR	_	_	_	_	_	_	222-227	w20	durch	B-PP-insitu	B-PP	*	O
+8	Herꝛn	Herr	_	NN	_	_	_	_	_	_	228-233	w21	Herrn	I-PP	I-PP	*	O
+9	D.	D.	_	NN	_	_	_	_	_	_	234-236	w22	D.	I-PP	I-PP	*	O
+10	Othonem	Othonem	_	NE	_	_	_	_	_	_	237-244	w23	Othonem	B-NP-insitu	B-NP	*	O
+11	Melandrum	Melandrum	_	NE	_	_	_	_	_	_	245-254	w24	Melandrum	I-NP	I-NP	*	O
+12	:	:	_	$.	_	_	_	_	_	_	255-256	w25	:	_	O	*	O
+13	Jetzo	jetzt	_	ADV	_	_	_	_	_	_	257-262	w26	Jetzt	B-ADVP-insitu	B-ADVP	*	B-MF
+14	aber	aber	_	ADV	_	_	_	_	_	_	263-267	w27	aber	I-ADVP	I-ADVP	*	I-MF
+15	vf	auf	_	APPR	_	_	_	_	_	_	268-270	w28	auf	I-ADVP	I-ADVP	*	I-MF
+16	vieler	viel	_	PIAT	_	_	_	_	_	_	271-277	w29	vieler	I-ADVP	I-ADVP	*	I-MF
+17	ehrlicher	ehrlich	_	ADJA	_	_	_	_	_	_	278-287	w2a	ehrlicher	I-ADVP	I-ADVP	*	I-MF
+18	Leut	Leute	_	NN	_	_	_	_	_	_	288-292	w2b	Leute	I-ADVP	I-ADVP	*	I-MF
+19	Begeren	Begehren	_	NN	_	_	_	_	_	_	293-300	w2c	Begehren	B-NP-insitu	B-NP	*	I-MF
+20	ins	ins	_	APPRART	_	_	_	_	_	_	301-304	w2d	ins	B-PP-insitu	B-PP	*	I-MF
+21	teutſch	deutsch	_	NN	_	_	_	_	_	_	305-312	w2e	deutsch	I-PP	I-PP	*	I-MF
+22	vberſetzet	übersetzen	_	VVPP	_	_	_	_	_	_	313-323	w2f	übersetzet	_	O	*	B-RK
+23	.	.	_	$.	_	_	_	_	_	_	324-325	w30	.	_	O	*	O
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# PTBstring = (VROOT(SIMPX(VC(VXINF(VVPP Getruckt)))(NF(PX(APPR zu)(NX:HD(NE Lich)(KLAMMER /)(PX(PX:KONJ(APPR in)(NX:HD(ART der)(NN Graffſchafft)(NX(NE Solms))))(KLAMMER /)(PX:KONJ(APPR durch)(NX:HD(NE Wolgang)(NE Kezeln))))))))(PUNKT .))
+# TopFString = (S(VC(VVPP Getruckt))(NF(APPR zu)(NE Lich)(KLAMMER /)(APPR in)(ART der)(NN Graffſchafft)(NE Solms))(KLAMMER /)(APPR durch)(NE Wolgang)(NE Kezeln)(PUNKT .))
+# text = Getruckt zu Lich / in der Graffſchafft Solms / durch Wolgang Kezeln .
+1	Getruckt	gedruckt	_	VVPP	_	_	_	_	_	_	327-335	w31	gedruckt	_	O	*	B-RK
+2	zu	zu	_	APPR	_	_	_	_	_	_	336-338	w32	zu	B-PP-extrap	B-PP	*	B-NF
+3	Lich	Lich	_	NE	_	_	_	_	_	_	339-343	w33	Lich	I-PP	I-PP	*	I-NF
+4	/	/	_	$(	_	_	_	_	_	_	344-345	w34	/	I-PP	I-PP	*	I-NF
+5	in	in	_	APPR	_	_	_	_	_	_	346-348	w35	in	I-PP|B-PP-extrap|B-PP-extrap	I-PP	*	I-NF
+6	der	d	_	ART	_	_	_	_	_	_	349-352	w36	der	I-PP|I-PP|I-PP	I-PP	*	I-NF
+7	Graffſchafft	Grafschaft	_	NN	_	_	_	_	_	_	353-365	w37	Grafschaft	I-PP|I-PP|I-PP	I-PP	*	I-NF
+8	Solms	Solms	_	NE	_	_	_	_	_	_	366-371	w38	Solms	I-PP|I-PP|I-PP	I-PP	*	I-NF
+9	/	/	_	$(	_	_	_	_	_	_	372-373	w39	/	I-PP|I-PP	I-PP	*	O
+10	durch	durch	_	APPR	_	_	_	_	_	_	374-379	w3a	durch	I-PP|I-PP	I-PP	*	O
+11	Wolgang	Wohlgang	_	NE	_	_	_	_	_	_	380-387	w3b	Wohlgang	I-PP|I-PP	I-PP	*	O
+12	Kezeln	Kezeln	_	NE	_	_	_	_	_	_	388-394	w3c	Kezeln	I-PP|I-PP	I-PP	*	O
+13	.	.	_	$.	_	_	_	_	_	_	395-396	w3d	.	_	O	*	O
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# PTBstring = (VROOT(NX(NX:APP(NN Anno))(NX:APP(CARD M.)(CARD DC.)))(NX(CARD V))(PUNKT .))
+# TopFString = (S(NN Anno)(CARD M.)(CARD DC.)(CARD V)(PUNKT .))
+# text = Anno M. DC. V .
+1	Anno	Anno	_	NN	_	_	_	_	_	_	398-402	w3e	Anno	B-NP-insitu	B-NP	*	O
+2	M.	M.	_	CARD	_	_	_	_	_	_	403-405	w3f	M.	I-NP	I-NP	*	O
+3	DC.	Dc.	_	CARD	_	_	_	_	_	_	406-409	w40,w40_1	DC.	I-NP	I-NP	*	O
+4	V	v	_	CARD	_	_	_	_	_	_	410-411	w41	V	B-NP-insitu	B-NP	*	O
+5	.	.	_	$.	_	_	_	_	_	_	412-413	w42	.	_	O	*	O
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# PTBstring = (VROOT(NX(NX:APP(ART Dem)(ADJX(ADJA Vornehmen))(ADJX(ADJX:KONJ(ADJA Vor-<lb/>ſichtigen))(KON vnd)(ADJX:KONJ(ADJA Kunſtreichen)))(NN Herrn))(NX:APP(NE Johann)(NE Berner))(KLAMMER /)(NX(PPOSAT meinem)(ADJX(ADVX(ADV inſonderß))(ADJA lie-<lb/>ben))(NN Gevattern)))(KLAMMER /)(NX(NX:KONJ(NN Fried))(KON vnnd)(NX:KONJ(NN heil))(PX(APPR von)(NX:HD(NN GOTT)(NX(ART dem)(NN Allmech-<lb/>tigen)))))(PUNKT .))
+# TopFString = (S(VF(ART Dem)(ADJA Vornehmen)(ADJA Vor-<lb/>ſichtigen)(KON vnd)(ADJA Kunſtreichen)(NN Herꝛn)(NE Johann)(NE Berner)(KLAMMER /)(PPOSAT meinem)(ADV inſonderß)(ADJA lie-<lb/>ben)(NN Gevattern))(KLAMMER /)(MF(NN Fried)(KON vnnd)(NN heil)(APPR von)(NN GOTT)(ART dem)(NN Allmech-<lb/>tigen))(PUNKT .))
+# text = Dem Vornehmen Vor-<lb/>ſichtigen vnd Kunſtreichen Herꝛn Johann Berner / meinem inſonderß lie-<lb/>ben Gevattern / Fried vnnd heil von GOTT dem Allmech-<lb/>tigen .
+1	Dem	d	_	ART	_	_	_	_	_	_	415-418	w458	Dem	B-NP-insitu	B-NP	*	B-VF
+2	Vornehmen	vornehm	_	ADJA	_	_	_	_	_	_	419-428	w459	Vornehmen	I-NP	I-NP	*	I-VF
+3	Vor-<lb/>ſichtigen	Vorsichtige	_	ADJA	_	_	_	_	_	_	429-447	w45a	Vorsichtigen	I-NP	I-NP	*	I-VF
+4	vnd	und	_	KON	_	_	_	_	_	_	448-451	w45b	und	I-NP	I-NP	*	I-VF
+5	Kunſtreichen	kunstreich	_	ADJA	_	_	_	_	_	_	452-464	w45c	Kunstreichen	I-NP	I-NP	*	I-VF
+6	Herꝛn	Herr	_	NN	_	_	_	_	_	_	465-470	w45d	Herrn	I-NP	I-NP	*	I-VF
+7	Johann	Johann	_	NE	_	_	_	_	_	_	471-477	w45e	Johann	I-NP	I-NP	*	I-VF
+8	Berner	Berner	_	NE	_	_	_	_	_	_	478-484	w45f	Berner	I-NP	I-NP	*	I-VF
+9	/	/	_	$(	_	_	_	_	_	_	485-486	w460	/	I-NP	I-NP	*	I-VF
+10	meinem	meine	_	PPOSAT	_	_	_	_	_	_	487-493	w461	meinem	I-NP	I-NP	*	I-VF
+11	inſonderß	insonders	_	ADV	_	_	_	_	_	_	494-503	w462	insonders	I-NP	I-NP	*	I-VF
+12	lie-<lb/>ben	lieb	_	ADJA	_	_	_	_	_	_	504-516	w463	lieben	I-NP	I-NP	*	I-VF
+13	Gevattern	Gevatter	_	NN	_	_	_	_	_	_	517-526	w464	Gevattern	I-NP	I-NP	*	I-VF
+14	/	/	_	$(	_	_	_	_	_	_	527-528	w465	/	_	O	*	O
+15	Fried	Frieden	_	NN	_	_	_	_	_	_	529-534	w466	Frieden	B-NP-insitu	B-NP	*	B-MF
+16	vnnd	und	_	KON	_	_	_	_	_	_	535-539	w467	und	I-NP	I-NP	*	I-MF
+17	heil	heil	_	NN	_	_	_	_	_	_	540-544	w468	heil	I-NP	I-NP	*	I-MF
+18	von	von	_	APPR	_	_	_	_	_	_	545-548	w469	von	I-NP	I-NP	*	I-MF
+19	GOTT	Gott	_	NN	_	_	_	_	_	_	549-553	w46a	GOTT	I-NP	I-NP	*	I-MF
+20	dem	d	_	ART	_	_	_	_	_	_	554-557	w46b	dem	I-NP	I-NP	*	I-MF
+21	Allmech-<lb/>tigen	allmächtig	_	NN	_	_	_	_	_	_	558-576	w46c	allmächtigen	I-NP	I-NP	*	I-MF
+22	.	.	_	$.	_	_	_	_	_	_	577-578	w46d	.	_	O	*	O
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# PTBstring = (VROOT(SIMPX(VF(NX(PPER ES)))(LK(VXFIN(VAFIN hatt)))(MF(NX(ADJX(ADJA vorſichtiger))(NN Herr))))(KLAMMER /)(NX(ADJX(ADJA guter))(NN freundt))(KLAMMER /)(NX(ART der)(ADJX(ADJA gelehrte))(NN Mann))(KLAMMER /)(SIMPX(MF(NX(NX:APP(NN D.))(NX:APP(NE Otho)(NE Melander)))(PX(APPR vor)(NX:HD(ADJX(ADJA etlichen))(NN Jahren)))(NX(ART ein)(NN Buch)))(VC(VXINF(VXINF:KONJ(VVPP colligiret))(KON vnd)(VXINF:KONJ(VVPP geſchrieben)))))(KLAMMER /)(SIMPX(C(NX(PRELS wel-<lb/>ches)))(MF(NX(PPER er))(NX(NN Joco-Seria)))(VC(VXINF(VVPP intituliret))(VXFIN(VAFIN hat))))(KLAMMER /)(SIMPX(VF(NX(PDS das)))(LK(VXFIN(VAFIN iſt))))(KLAMMER /)(NX(NX:KONJ(NN Schimpff))(KON vnd)(NX:KONJ(NN Ernſt)))(KLAMMER /)(SIMPX(SIMPX:KONJ(C(NX(PRELS welche)))(MF(NX(PPER er))(SIMPX:OS(MF(ADVX(ADV auch))(NX(PPER mir)))(VC(PTKVZ zu))))(VC(VXINF(VVINF kommen))(VXINF(VVINF laſſen))))(KON vnnd)(FKOORD(FKONJ:KONJ(MF(FX(FM per)(FM typos)(FM meos)))(VC(VXINF(VVPP evulgirt))))(KON vnd)(FKONJ:KONJ(MF(PX(APPR ahn)(NX:HD(NN tag))))(VC(VXINF(VVPP kommen))))))(PUNKT .))
+# TopFString = (S(VF(PPER ES))(LK(VAFIN hatt))(MF(ADJA vorſichtiger)(NN Herꝛ)(KLAMMER /)(ADJA guter)(NN freundt)(KLAMMER /)(ART der)(ADJA gelehrte)(NN Mann)(KLAMMER /)(NN D.)(NE Otho)(NE Melander)(APPR vor)(ADJA etlichen)(NN Jahren)(ART ein)(NN Buch))(VC(VVPP colligiret)(KON vnd)(VVPP geſchrieben))(KLAMMER /)(NF(C(PRELS wel-<lb/>ches))(MF(PPER er)(NN Joco-Seria))(VC(VVPP intituliret)(VAFIN hat)))(KLAMMER /)(VF(PDS das))(LK(VAFIN iſt))(KLAMMER /)(FKOORD(FKONJ(MF(NN Schimpff)(KON vnd)(NN Ernſt)(KLAMMER /)(C(PRELS welche))(MF(PPER er)(ADV auch)(PPER mir))(VC(PTKVZ zu)(VVINF kommen)(VVINF laſſen))(KON vnnd)(FM per)(FM typos)(FM meos))(VC(VVPP evulgirt)))(KON vnd)(FKONJ(MF(APPR ahn)(NN tag))(VC(VVPP kommen))))(PUNKT .))
+# text = ES hatt vorſichtiger Herꝛ / guter freundt / der gelehrte Mann / D. Otho Melander vor etlichen Jahren ein Buch colligiret vnd geſchrieben / wel-<lb/>ches er Joco-Seria intituliret hat / das iſt / Schimpff vnd Ernſt / welche er auch mir zu kommen laſſen vnnd per typos meos evulgirt vnd ahn tag kommen .
+1	ES	es	_	PPER	_	_	_	_	_	_	580-582	w43,w43_1	Es	B-NP-insitu	B-NP	*	B-VF
+2	hatt	haben	_	VAFIN	_	_	_	_	_	_	583-587	w44	hatte	_	O	*	B-LK
+3	vorſichtiger	vorsichtig	_	ADJA	_	_	_	_	_	_	588-600	w45	vorsichtiger	B-NP-insitu	B-NP	*	B-MF
+4	Herꝛ	Herr	_	NN	_	_	_	_	_	_	601-605	w46	Herr	I-NP	I-NP	*	I-MF
+5	/	/	_	$(	_	_	_	_	_	_	606-607	w47	/	_	O	*	I-MF
+6	guter	gut	_	ADJA	_	_	_	_	_	_	608-613	w48	guter	B-NP-insitu	B-NP	*	I-MF
+7	freundt	Freund	_	NN	_	_	_	_	_	_	614-621	w49	Freund	I-NP	I-NP	*	I-MF
+8	/	/	_	$(	_	_	_	_	_	_	622-623	w4a	/	_	O	*	I-MF
+9	der	d	_	ART	_	_	_	_	_	_	624-627	w4b	der	B-NP-insitu	B-NP	*	I-MF
+10	gelehrte	gelehrt	_	ADJA	_	_	_	_	_	_	628-636	w4c	gelehrte	I-NP	I-NP	*	I-MF
+11	Mann	Mann	_	NN	_	_	_	_	_	_	637-641	w4d	Mann	I-NP	I-NP	*	I-MF
+12	/	/	_	$(	_	_	_	_	_	_	642-643	w4e	/	_	O	*	I-MF
+13	D.	D.	_	NN	_	_	_	_	_	_	644-646	w4f	D.	B-NP-insitu	B-NP	*	I-MF
+14	Otho	Otho	_	NE	_	_	_	_	_	_	647-651	w50	Otho	I-NP	I-NP	*	I-MF
+15	Melander	Melander	_	NE	_	_	_	_	_	_	652-660	w51	Melander	I-NP	I-NP	*	I-MF
+16	vor	vor	_	APPR	_	_	_	_	_	_	661-664	w52	vor	B-PP-insitu	B-PP	*	I-MF
+17	etlichen	etlich	_	ADJA	_	_	_	_	_	_	665-673	w53	etlichen	I-PP	I-PP	*	I-MF
+18	Jahren	Jahr	_	NN	_	_	_	_	_	_	674-680	w54	Jahren	I-PP	I-PP	*	I-MF
+19	ein	eine	_	ART	_	_	_	_	_	B-Antec-1	681-684	w55	ein	B-NP-insitu	B-NP	*	I-MF
+20	Buch	Buch	_	NN	_	_	_	_	_	I-Antec-Head	685-689	w56	Buch	I-NP	I-NP	*	I-MF
+21	colligiret	Colligiret	_	VVPP	_	_	_	_	_	_	690-700	w57	colligiret	_	O	*	B-RK
+22	vnd	und	_	KON	_	_	_	_	_	_	701-704	w58	und	_	O	*	I-RK
+23	geſchrieben	schreiben	_	VVPP	_	_	_	_	_	_	705-716	w59	geschrieben	_	O	*	I-RK
+24	/	/	_	$(	_	_	_	_	_	_	717-718	w5a	/	_	O	*	O
+25	wel-<lb/>ches	welches	_	PRELS	_	_	_	_	_	_	719-732	w5b	welches	B-RELC-extrap-1|B-NP-insitu	B-NP	*	B-NF|B-LK
+26	er	er	_	PPER	_	_	_	_	_	_	733-735	w5c	er	I-RELC|B-NP-insitu	B-NP	*	I-NF|B-MF
+27	Joco-Seria	Joco-Seria	_	NN	_	_	_	_	_	_	736-746	w5d	Joco-Seria	I-RELC|B-NP-insitu	B-NP	*	I-NF|I-MF
+28	intituliret	Intituliret	_	VVPP	_	_	_	_	_	_	747-758	w5e	intituliret	I-RELC	O	*	I-NF|B-RK
+29	hat	haben	_	VAFIN	_	_	_	_	_	_	759-762	w5f	hat	I-RELC	O	*	I-NF|I-RK
+30	/	/	_	$(	_	_	_	_	_	_	763-764	w60	/	_	O	*	O
+31	das	die	_	PDS	_	_	_	_	_	_	765-768	w61	das	B-NP-insitu	B-NP	*	B-VF
+32	iſt	sein	_	VAFIN	_	_	_	_	_	_	769-772	w62	ist	_	O	*	B-LK
+33	/	/	_	$(	_	_	_	_	_	_	773-774	w63	/	_	O	*	O
+34	Schimpff	Schimpf	_	NN	_	_	_	_	_	B-Antec-2	775-783	w64	Schimpf	B-NP-insitu	B-NP	*	B-MF
+35	vnd	und	_	KON	_	_	_	_	_	I-Antec	784-787	w65	und	I-NP	I-NP	*	I-MF
+36	Ernſt	Ernst	_	NN	_	_	_	_	_	I-Antec-Head	788-793	w66	Ernst	I-NP	I-NP	*	I-MF
+37	/	/	_	$(	_	_	_	_	_	_	794-795	w67	/	_	O	*	I-MF
+38	welche	welche	_	PRELS	_	_	_	_	_	_	796-802	w68	welche	B-RELC-insitu-2|B-NP-insitu	B-NP	*	I-MF|B-LK
+39	er	er	_	PPER	_	_	_	_	_	_	803-805	w69	er	I-RELC|B-NP-insitu	B-NP	*	I-MF|B-MF
+40	auch	auch	_	ADV	_	_	_	_	_	_	806-810	w6a	auch	I-RELC|B-ADVP-insitu	B-ADVP	*	I-MF|I-MF
+41	mir	ich	_	PPER	_	_	_	_	_	_	811-814	w6b	mir	I-RELC|B-NP-insitu	B-NP	*	I-MF|I-MF
+42	zu	zu	_	PTKVZ	_	_	_	_	_	_	815-817	w6c	zu	I-RELC	O	*	I-MF|B-RK
+43	kommen	kommen	_	VVINF	_	_	_	_	_	_	818-824	w6d	kommen	I-RELC	O	*	I-MF|I-RK
+44	laſſen	lassen	_	VVINF	_	_	_	_	_	_	825-831	w6e	lassen	I-RELC	O	*	I-MF|I-RK
+45	vnnd	und	_	KON	_	_	_	_	_	_	832-836	w6f	und	_	O	*	I-MF
+46	per	per	_	FM	_	_	_	_	_	_	837-840	w70	per	_	O	*	I-MF
+47	typos	typos	_	FM	_	_	_	_	_	_	841-846	w71	typos	_	O	*	I-MF
+48	meos	meos	_	FM	_	_	_	_	_	_	847-851	w72	meos	_	O	*	I-MF
+49	evulgirt	evulgirt	_	VVPP	_	_	_	_	_	_	852-860	w73	evulgirt	_	O	*	B-RK
+50	vnd	und	_	KON	_	_	_	_	_	_	861-864	w74	und	_	O	*	B-KOORD
+51	ahn	ahn	_	APPR	_	_	_	_	_	_	865-868	w75	ahn	B-PP-insitu	B-PP	*	B-MF
+52	tag	Tag	_	NN	_	_	_	_	_	_	869-872	w76	tag	I-PP	I-PP	*	I-MF
+53	kommen	kommen	_	VVPP	_	_	_	_	_	_	873-879	w77	kommen	_	O	*	B-RK
+54	.	.	_	$.	_	_	_	_	_	_	880-881	w78	.	_	O	*	O
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# PTBstring = (VROOT(SIMPX(C(KOUS Weil))(FKOORD(FKONJ:KONJ(MF(ADVX(ADV aber))(NX(PIAT ſolches)(NN wercks))(NX(PIAT viel)(NN exẽplaria)))(VCE(VXFIN(VAFIN ſind)))(VC(VXINF(VVPP diſtrahi-<lb/>ret))))(KON vnd)(FKONJ:KONJ(MF(PX(APPR ahn)(NX:HD(PIAT alle)(NN ort))))(VC(VXINF(VVPP verkaufft))(VXINF(VAPP worden))))))(KLAMMER /)(SIMPX(LK(VXFIN(VAFIN hab)))(MF(NX(PPER ich))(NX(NX:KONJ(NN vrſach))(KON vnd)(NX:KONJ(NN anleitung))))(VC(VXINF(VVINF bekommen))))(KLAMMER /)(SIMPX(SIMPX:KONJ(MF(NX(PDS die-<lb/>ſelbe))(ADVX(PTKNEG nicht))(PX(APPR ohn)(NX:HD(ADJX(ADJA geringen))(NX:KONJ(NN koſten))(KON vnd)(NX:KONJ(NN muͤh)))))(VC(VXINF(PTKZU zu)(VVINF vertiren))))(KON vnd)(SIMPX:KONJ(MF(PX(APPR in)(NX:HD(ADJX(ADJA Teutſche))(NN ſprach))))(VC(VXINF(PTKZU zu)(VVINF bringen))(VXINF(VVINF laſſen)))))(KLAMMER /)(SIMPX(C(KOUS daß))(MF(ADVX(PTKNEG nicht))(ADVX(ADV allein))(NX(ADJX(ADJA gemeltes))(NN Buch)))(NF(SIMPX:OS(VF(NX(ART den)(NN Gelehrten)))(LK(VXFIN(VMFIN moͤge)))(MF(ADJX(ADJX:KONJ(ADJD dienſtlich))(KON vnd)(ADJX:KONJ(ADJD angenehm))))(VC(VXINF(VAINF ſein))))))(KLAMMER /)(NX(KON ſondern)(ADVX(ADV auch))(NX:KONJ(ART den)(ADJX(ADJA gemeinen))(NN layen)))(KLAMMER /)(SIMPX(C(KOUS daß))(MF(NX(PDS die))(ADVX(ADV auch))(NX(PIAT etwas)(NN nutzliches)(PX(PAV daraus))))(VC(VXINF(VVINF lernen))(VXFIN(VMFIN moͤchten))))(KLAMMER /)(SIMPX(KOORD(KON vnd))(LV(SIMPX(C(KOUS wo))(MF(NX(PPER ſie)))(VC(VXINF(VVINF ſehen))(VXFIN(VAFIN wurden)))))(NF(SIMPX(C(KOUS daß))(MF(NX(ADJX(ADJA an-<lb/>dere))(NN Leuth))(NX(PIAT etwas)(NN loͤbliches)))(VC(VXINF(VXINF:KONJ(VVPP gethan))(KON vnd)(VXINF:KONJ(VVPP ver-<lb/>richt)))(VXFIN(VAFIN haben))))))(KLAMMER /)(SIMPX(VF(NX(PPER ſie)))(LK(VXFIN(VVFIN lerneten)))(MF(NX(PDS denſelben)))(VC(PTKVZ nach))(NF(VXINF(VVINF fol-<lb/>gẽ))))(KLAMMER /)(SIMPX(KOORD(KON oder))(SIMPX(C(KOUS wo))(MF(ADVX(ADV jrgent))))(VC(VXINF(VVPP gefehlet))))(KLAMMER /)(SIMPX(VF(NX(PPER ſie)(NX(ART ein)(NN abſcheu-<lb/>wen))))(LK(VXFIN(VMFIN moͤchten)))(VC(VXINF(VVINF nehmen))))(KLAMMER /)(SIMPX(MF(NX(PIAT ſolche)(NN ding)))(VC(PTKVZ nach))(NF(VC(VXINF(PTKZU zu)(VVINF thun)))))(PUNKT .))
+# TopFString = (S(VF(C(KOUS Weil))(FKOORD(FKONJ(MF(ADV aber)(PIAT ſolches)(NN wercks)(PIAT viel)(NN exẽplaria))(VCE(VAFIN ſind))(VC(VVPP diſtrahi-<lb/>ret)))(KON vnd)(FKONJ(MF(APPR ahn)(PIAT alle)(NN ort))(VC(VVPP verkaufft)(VAPP worden)))))(KLAMMER /)(LK(VAFIN hab))(MF(PPER ich)(NN vrſach)(KON vnd)(NN anleitung))(VC(VVINF bekommen))(KLAMMER /)(NF(MF(PDS die-<lb/>ſelbe)(PTKNEG nicht)(APPR ohn)(ADJA geringen)(NN koſten)(KON vnd)(NN muͤh))(VC(PTKZU zu)(VVINF vertiren))(KON vnd)(MF(APPR in)(ADJA Teutſche)(NN ſprach))(VC(PTKZU zu)(VVINF bringen)(VVINF laſſen)))(KLAMMER /)(C(KOUS daß))(MF(PTKNEG nicht)(ADV allein)(ADJA gemeltes)(NN Buch))(VF(ART den)(NN Gelehrten))(LK(VMFIN moͤge))(MF(ADJD dienſtlich)(KON vnd)(ADJD angenehm))(VC(VAINF ſein))(KLAMMER /)(NF(KON ſondern)(ADV auch)(ART den)(ADJA gemeinen)(NN layen)(KLAMMER /)(C(KOUS daß))(MF(PDS die)(ADV auch)(PIAT etwas)(NN nutzliches)(PAV daraus))(VC(VVINF lernen)(VMFIN moͤchten))(KLAMMER /)(KON vnd)(C(KOUS wo))(MF(PPER ſie))(VC(VVINF ſehen)(VAFIN wurden))(NF(C(KOUS daß))(MF(ADJA an-<lb/>dere)(NN Leuth)(PIAT etwas)(NN loͤbliches))(VC(VVPP gethan)(KON vnd)(VVPP ver-<lb/>richt)(VAFIN haben))))(KLAMMER /)(VF(PPER ſie))(LK(VVFIN lerneten))(MF(PDS denſelben))(VC(PTKVZ nach)(VVINF fol-<lb/>gẽ))(KLAMMER /)(KON oder)(C(KOUS wo))(MF(ADV jrgent))(VC(VVPP gefehlet))(KLAMMER /)(VF(PPER ſie)(ART ein)(NN abſcheu-<lb/>wen))(LK(VMFIN moͤchten))(VC(VVINF nehmen))(KLAMMER /)(NF(MF(PIAT ſolche)(NN ding))(VC(PTKVZ nach)(PTKZU zu)(VVINF thun)))(PUNKT .))
+# text = Weil aber ſolches wercks viel exẽplaria ſind diſtrahi-<lb/>ret vnd ahn alle ort verkaufft worden / hab ich vrſach vnd anleitung bekommen / die-<lb/>ſelbe nicht ohn geringen koſten vnd muͤh zu vertiren vnd in Teutſche ſprach zu bringen laſſen / daß nicht allein gemeltes Buch den Gelehrten moͤge dienſtlich vnd angenehm ſein / ſondern auch den gemeinen layen / daß die auch etwas nutzliches daraus lernen moͤchten / vnd wo ſie ſehen wurden daß an-<lb/>dere Leuth etwas loͤbliches gethan vnd ver-<lb/>richt haben / ſie lerneten denſelben nach fol-<lb/>gẽ / oder wo jrgent gefehlet / ſie ein abſcheu-<lb/>wen moͤchten nehmen / ſolche ding nach zu thun .
+1	Weil	weil	_	KOUS	_	_	_	_	_	_	883-887	w79	Weil	_	O	*	B-VF|B-LK
+2	aber	aber	_	ADV	_	_	_	_	_	_	888-892	w7a	aber	B-ADVP-insitu	B-ADVP	*	I-VF|B-MF
+3	ſolches	solch	_	PIAT	_	_	_	_	_	_	893-900	w7b	solches	B-NP-insitu	B-NP	*	I-VF|I-MF
+4	wercks	Werk	_	NN	_	_	_	_	_	_	901-907	w7c	Werks	I-NP	I-NP	*	I-VF|I-MF
+5	viel	viel	_	PIAT	_	_	_	_	_	_	908-912	w7d	viel	B-NP-insitu	B-NP	*	I-VF|I-MF
+6	exẽplaria	Exenplaria	_	NN	_	_	_	_	_	_	913-923	w7e	exenplaria	I-NP	I-NP	*	I-VF|I-MF
+7	ſind	sein	_	VAFIN	_	_	_	_	_	_	924-928	w7f	sind	_	O	*	I-VF|B-RK
+8	diſtrahi-<lb/>ret	distrahieren	_	VVPP	_	_	_	_	_	_	929-946	w80	distrahieret	_	O	*	I-VF|B-RK
+9	vnd	und	_	KON	_	_	_	_	_	_	947-950	w81	und	_	O	*	I-VF|B-KOORD
+10	ahn	ahnen	_	APPR	_	_	_	_	_	_	951-954	w82	ahn	B-PP-insitu	B-PP	*	I-VF|B-MF
+11	alle	alle	_	PIAT	_	_	_	_	_	_	955-959	w83	alle	I-PP	I-PP	*	I-VF|I-MF
+12	ort	Ort	_	NN	_	_	_	_	_	_	960-963	w84	Ort	I-PP	I-PP	*	I-VF|I-MF
+13	verkaufft	verkaufen	_	VVPP	_	_	_	_	_	_	964-973	w85	verkauft	_	O	*	I-VF|B-RK
+14	worden	werden	_	VAPP	_	_	_	_	_	_	974-980	w86	worden	_	O	*	I-VF|I-RK
+15	/	/	_	$(	_	_	_	_	_	_	981-982	w87	/	_	O	*	O
+16	hab	haben	_	VAFIN	_	_	_	_	_	_	983-986	w88	habe	_	O	*	B-LK
+17	ich	ich	_	PPER	_	_	_	_	_	_	987-990	w89	ich	B-NP-insitu	B-NP	*	B-MF
+18	vrſach	Ursache	_	NN	_	_	_	_	_	_	991-997	w8a	Ursache	B-NP-insitu	B-NP	*	I-MF
+19	vnd	und	_	KON	_	_	_	_	_	_	998-1001	w8b	und	I-NP	I-NP	*	I-MF
+20	anleitung	Anleitung	_	NN	_	_	_	_	_	_	1002-1011	w8c	Anleitung	I-NP	I-NP	*	I-MF
+21	bekommen	bekommen	_	VVINF	_	_	_	_	_	_	1012-1020	w8d	bekommen	_	O	*	B-RK
+22	/	/	_	$(	_	_	_	_	_	_	1021-1022	w8e	/	_	O	*	O
+23	die-<lb/>ſelbe	dieselbe	_	PDS	_	_	_	_	_	_	1023-1037	w8f	dieselbe	B-NP-insitu	B-NP	*	B-NF|B-MF
+24	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	1038-1043	w90	nicht	B-ADVP-insitu	B-ADVP	*	I-NF|I-MF
+25	ohn	ohne	_	APPR	_	_	_	_	_	_	1044-1047	w91	ohne	B-PP-insitu	B-PP	*	I-NF|I-MF
+26	geringen	gering	_	ADJA	_	_	_	_	_	_	1048-1056	w92	geringen	I-PP	I-PP	*	I-NF|I-MF
+27	koſten	kosten	_	NN	_	_	_	_	_	_	1057-1063	w93	kosten	I-PP	I-PP	*	I-NF|I-MF
+28	vnd	und	_	KON	_	_	_	_	_	_	1064-1067	w94	und	I-PP	I-PP	*	I-NF|I-MF
+29	muͤh	Mühe	_	NN	_	_	_	_	_	_	1068-1072	w95	Mühe	I-PP	I-PP	*	I-NF|I-MF
+30	zu	zu	_	PTKZU	_	_	_	_	_	_	1073-1075	w96	zu	_	O	*	I-NF|B-RK
+31	vertiren	vertieren	_	VVINF	_	_	_	_	_	_	1076-1084	w97	vertieren	_	O	*	I-NF|I-RK
+32	vnd	und	_	KON	_	_	_	_	_	_	1085-1088	w98	und	_	O	*	I-NF
+33	in	in	_	APPR	_	_	_	_	_	_	1089-1091	w99	in	B-PP-insitu	B-PP	*	I-NF|B-MF
+34	Teutſche	Deutsche	_	ADJA	_	_	_	_	_	_	1092-1100	w9a	Deutsche	I-PP	I-PP	*	I-NF|I-MF
+35	ſprach	sprechen	_	NN	_	_	_	_	_	_	1101-1107	w9b	sprach	I-PP	I-PP	*	I-NF|I-MF
+36	zu	zu	_	PTKZU	_	_	_	_	_	_	1108-1110	w9c	zu	_	O	*	I-NF|B-RK
+37	bringen	bringen	_	VVINF	_	_	_	_	_	_	1111-1118	w9d	bringen	_	O	*	I-NF|I-RK
+38	laſſen	lassen	_	VVINF	_	_	_	_	_	_	1119-1125	w9e	lassen	_	O	*	I-NF|I-RK
+39	/	/	_	$(	_	_	_	_	_	_	1126-1127	w9f	/	_	O	*	O
+40	daß	daß	_	KOUS	_	_	_	_	_	_	1128-1131	wa0	daß	_	O	*	B-LK
+41	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	1132-1137	wa1	nicht	B-ADVP-insitu	B-ADVP	*	B-MF
+42	allein	allein	_	ADV	_	_	_	_	_	_	1138-1144	wa2	allein	B-ADVP-insitu	B-ADVP	*	I-MF
+43	gemeltes	gemeldet	_	ADJA	_	_	_	_	_	_	1145-1153	wa3	gemeldetes	B-NP-insitu	B-NP	*	I-MF
+44	Buch	Buch	_	NN	_	_	_	_	_	_	1154-1158	wa4	Buch	I-NP	I-NP	*	I-MF
+45	den	d	_	ART	_	_	_	_	_	_	1159-1162	wa5	den	B-NP-insitu	B-NP	*	B-VF
+46	Gelehrten	Gelehrte	_	NN	_	_	_	_	_	_	1163-1172	wa6	Gelehrten	I-NP	I-NP	*	I-VF
+47	moͤge	mögen	_	VMFIN	_	_	_	_	_	_	1173-1178	wa7	möge	_	O	*	B-LK
+48	dienſtlich	dienstlich	_	ADJD	_	_	_	_	_	_	1179-1189	wa8	dienstlich	B-AP-insitu	B-AP	*	B-MF
+49	vnd	und	_	KON	_	_	_	_	_	_	1190-1193	wa9	und	I-AP	I-AP	*	I-MF
+50	angenehm	angenehm	_	ADJD	_	_	_	_	_	_	1194-1202	waa	angenehm	I-AP	I-AP	*	I-MF
+51	ſein	sein	_	VAINF	_	_	_	_	_	_	1203-1207	wab	sein	_	O	*	B-RK
+52	/	/	_	$(	_	_	_	_	_	_	1208-1209	wac	/	_	O	*	O
+53	ſondern	sondern	_	KON	_	_	_	_	_	_	1210-1217	wad	sondern	B-NP-extrap	B-NP	*	B-NF
+54	auch	auch	_	ADV	_	_	_	_	_	_	1218-1222	wae	auch	I-NP	I-NP	*	I-NF
+55	den	d	_	ART	_	_	_	_	_	_	1223-1226	waf	den	I-NP	I-NP	*	I-NF
+56	gemeinen	gemein	_	ADJA	_	_	_	_	_	_	1227-1235	wb0	gemeinen	I-NP	I-NP	*	I-NF
+57	layen	Laie	_	NN	_	_	_	_	_	_	1236-1241	wb1	Laien	I-NP	I-NP	*	I-NF
+58	/	/	_	$(	_	_	_	_	_	_	1242-1243	wb2	/	_	O	*	I-NF
+59	daß	daß	_	KOUS	_	_	_	_	_	_	1244-1247	wb3	daß	_	O	*	I-NF|B-LK
+60	die	d	_	PDS	_	_	_	_	_	_	1248-1251	wb4	die	B-NP-insitu	B-NP	*	I-NF|B-MF
+61	auch	auch	_	ADV	_	_	_	_	_	_	1252-1256	wb5	auch	B-ADVP-insitu	B-ADVP	*	I-NF|I-MF
+62	etwas	etwas	_	PIAT	_	_	_	_	_	_	1257-1262	wb6	etwas	B-NP-insitu	B-NP	*	I-NF|I-MF
+63	nutzliches	nützlich	_	NN	_	_	_	_	_	_	1263-1273	wb7	nützliches	I-NP	I-NP	*	I-NF|I-MF
+64	daraus	daraus	_	PAV	_	_	_	_	_	_	1274-1280	wb8	daraus	I-NP	I-NP	*	I-NF|I-MF
+65	lernen	lernen	_	VVINF	_	_	_	_	_	_	1281-1287	wb9	lernen	_	O	*	I-NF|B-RK
+66	moͤchten	mögen	_	VMFIN	_	_	_	_	_	_	1288-1296	wba	möchten	_	O	*	I-NF|I-RK
+67	/	/	_	$(	_	_	_	_	_	_	1297-1298	wbb	/	_	O	*	I-NF
+68	vnd	und	_	KON	_	_	_	_	_	_	1299-1302	wbc	und	_	O	*	I-NF
+69	wo	wo	_	KOUS	_	_	_	_	_	_	1303-1305	wbd	wo	_	O	*	I-NF|B-LK
+70	ſie	sie	_	PPER	_	_	_	_	_	_	1306-1309	wbe	sie	B-NP-insitu	B-NP	*	I-NF|B-MF
+71	ſehen	sehen	_	VVINF	_	_	_	_	_	_	1310-1315	wbf	sehen	_	O	*	I-NF|B-RK
+72	wurden	werden	_	VAFIN	_	_	_	_	_	_	1316-1322	wc0	wurden	_	O	*	I-NF|I-RK
+73	daß	daß	_	KOUS	_	_	_	_	_	_	1323-1326	wc1	daß	_	O	*	I-NF|B-NF|B-LK
+74	an-<lb/>dere	ander	_	ADJA	_	_	_	_	_	_	1327-1339	wc2	andere	B-NP-insitu	B-NP	*	I-NF|I-NF|B-MF
+75	Leuth	Leute	_	NN	_	_	_	_	_	_	1340-1345	wc3	Leute	I-NP	I-NP	*	I-NF|I-NF|I-MF
+76	etwas	etwas	_	PIAT	_	_	_	_	_	_	1346-1351	wc4	etwas	B-NP-insitu	B-NP	*	I-NF|I-NF|I-MF
+77	loͤbliches	löblich	_	NN	_	_	_	_	_	_	1352-1362	wc5	löbliches	I-NP	I-NP	*	I-NF|I-NF|I-MF
+78	gethan	tun	_	VVPP	_	_	_	_	_	_	1363-1369	wc6	getan	_	O	*	I-NF|I-NF|B-RK
+79	vnd	und	_	KON	_	_	_	_	_	_	1370-1373	wc7	und	_	O	*	I-NF|I-NF|I-RK
+80	ver-<lb/>richt	verrichten	_	VVPP	_	_	_	_	_	_	1374-1388	wc8	verrichtete	_	O	*	I-NF|I-NF|I-RK
+81	haben	haben	_	VAFIN	_	_	_	_	_	_	1389-1394	wc9	haben	_	O	*	I-NF|I-NF|I-RK
+82	/	/	_	$(	_	_	_	_	_	_	1395-1396	wca	/	_	O	*	O
+83	ſie	sie	_	PPER	_	_	_	_	_	_	1397-1400	wcb	sie	B-NP-insitu	B-NP	*	B-VF
+84	lerneten	lernen	_	VVFIN	_	_	_	_	_	_	1401-1409	wcc	lernten	_	O	*	B-LK
+85	denſelben	dieselbe	_	PDS	_	_	_	_	_	_	1410-1419	wcd	denselben	B-NP-insitu	B-NP	*	B-MF
+86	nach	nach	_	PTKVZ	_	_	_	_	_	_	1420-1424	wce	nach	_	O	*	B-RK
+87	fol-<lb/>gẽ	folgen	_	VVINF	_	_	_	_	_	_	1425-1437	wcf	folgen	_	O	*	I-RK
+88	/	/	_	$(	_	_	_	_	_	_	1438-1439	wd0	/	_	O	*	O
+89	oder	oder	_	KON	_	_	_	_	_	_	1440-1444	wd1	oder	_	O	*	O
+90	wo	wo	_	KOUS	_	_	_	_	_	_	1445-1447	wd2	wo	_	O	*	B-LK
+91	jrgent	irgend	_	ADV	_	_	_	_	_	_	1448-1454	wd3	irgend	B-ADVP-insitu	B-ADVP	*	B-MF
+92	gefehlet	fehlen	_	VVPP	_	_	_	_	_	_	1455-1463	wd4	gefehlt	_	O	*	B-RK
+93	/	/	_	$(	_	_	_	_	_	_	1464-1465	wd5	/	_	O	*	O
+94	ſie	sie	_	PPER	_	_	_	_	_	_	1466-1469	wd6	sie	B-NP-insitu	B-NP	*	B-VF
+95	ein	ein	_	ART	_	_	_	_	_	_	1470-1473	wd7	ein	I-NP	I-NP	*	I-VF
+96	abſcheu-<lb/>wen	abscheuern	_	NN	_	_	_	_	_	_	1474-1490	wd8	abscheuern	I-NP	I-NP	*	I-VF
+97	moͤchten	mögen	_	VMFIN	_	_	_	_	_	_	1491-1499	wd9	möchten	_	O	*	B-LK
+98	nehmen	nehmen	_	VVINF	_	_	_	_	_	_	1500-1506	wda	nehmen	_	O	*	B-RK
+99	/	/	_	$(	_	_	_	_	_	_	1507-1508	wdb	/	_	O	*	O
+100	ſolche	solch	_	PIAT	_	_	_	_	_	_	1509-1515	wdc	solche	B-NP-insitu	B-NP	*	B-NF|B-MF
+101	ding	Ding	_	NN	_	_	_	_	_	_	1516-1520	wdd	Ding	I-NP	I-NP	*	I-NF|I-MF
+102	nach	nach	_	PTKVZ	_	_	_	_	_	_	1521-1525	wde	nach	_	O	*	I-NF|B-RK
+103	zu	zu	_	PTKZU	_	_	_	_	_	_	1526-1528	wdf	zu	_	O	*	I-NF|I-RK
+104	thun	tun	_	VVINF	_	_	_	_	_	_	1529-1533	we0	tun	_	O	*	I-NF|I-RK
+105	.	.	_	$.	_	_	_	_	_	_	1534-1535	we1	.	_	O	*	O
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# PTBstring = (VROOT(SIMPX(KOORD(KON Dan))(VF(NX(PDAT dieſe)(NN Hiſtorien)))(LK(VXFIN(VAFIN ſind)))(MF(PX(APPR mit)(NX:HD(ADJX(ADJA groſſer))(NN muͤh)))(PX(APPR von)(NX:HD(ART dem)(ADJX(ADJA Gelehrten))(NN Man)))(PX(APPR durch)(NX:HD(ADJX(ADJA taͤg-<lb/>liche))(NN erfahrung))))(VC(PTKVZ zuſam̃en))(VC(VXINF(VVPP geſchrieben))))(KLAMMER /)(SIMPX(KOORD(KON vnd))(MF(ADVX(ADV auch))(PX(APPR auß)(NX:HD(ADJX(ADJA vornehmer))(ADJX(ADJA beruͤmpter))(NN leut)))(NX(NN Buͤ-<lb/>cher)))(VC(VXINF(VVPP gezogẽ))(VXINF(VAPP worden))))(KLAMMER /)(SIMPX(LK(VXFIN(VAFIN hat)))(MF(ADVX(ADV auch))(NX(PIS nichts))(PX(PAV darin)))(VC(VXINF(VXINF:KONJ(VVPP geſetzt))(KON noch)(VXINF:KONJ(VVINF ſetzen))(VVINF laſſen))))(KLAMMER /)(SIMPX(C(PX(PAV daraus)))(MF(NX(PIS man))(ADVX(PTKNEG nit))(NX(PIAT et-<lb/>was)(NN nutzliches)))(VC(VXINF(VVINF ſchoͤpffen))(VXFIN(VMFIN koͤñe))))(PUNKT .))
+# TopFString = (S(KOORD(KON Dan))(VF(PDAT dieſe)(NN Hiſtorien))(LK(VAFIN ſind))(FKOORD(FKONJ(MF(APPR mit)(ADJA groſſer)(NN muͤh)(APPR von)(ART dem)(ADJA Gelehrten)(NN Man)(APPR durch)(ADJA taͤg-<lb/>liche)(NN erfahrung))(VC(PTKVZ zuſam̃en)(VVPP geſchrieben)))(KLAMMER /)(KON vnd)(FKONJ(MF(ADV auch)(APPR auß)(ADJA vornehmer)(ADJA beruͤmpter)(NN leut)(NN Buͤ-<lb/>cher))(VC(VVPP gezogẽ)(VAPP worden))))(KLAMMER /)(LK(VAFIN hat))(MF(ADV auch)(PIS nichts)(PAV darin))(VC(VVPP geſetzt)(KON noch)(VVINF ſetzen)(VVINF laſſen))(KLAMMER /)(NF(C(PAV daraus))(MF(PIS man)(PTKNEG nit)(PIAT et-<lb/>was)(NN nutzliches))(VC(VVINF ſchoͤpffen)(VMFIN koͤñe)))(PUNKT .))
+# text = Dan dieſe Hiſtorien ſind mit groſſer muͤh von dem Gelehrten Man durch taͤg-<lb/>liche erfahrung zuſam̃en geſchrieben / vnd auch auß vornehmer beruͤmpter leut Buͤ-<lb/>cher gezogẽ worden / hat auch nichts darin geſetzt noch ſetzen laſſen / daraus man nit et-<lb/>was nutzliches ſchoͤpffen koͤñe .
+1	Dan	dann	_	KON	_	_	_	_	_	_	1537-1540	we2	Dann	_	O	*	B-KOORD
+2	dieſe	diese	_	PDAT	_	_	_	_	_	_	1541-1546	we3	diese	B-NP-insitu	B-NP	*	B-VF
+3	Hiſtorien	Historie	_	NN	_	_	_	_	_	_	1547-1556	we4	Historien	I-NP	I-NP	*	I-VF
+4	ſind	sein	_	VAFIN	_	_	_	_	_	_	1557-1561	we5	sind	_	O	*	B-LK
+5	mit	mit	_	APPR	_	_	_	_	_	_	1562-1565	we6	mit	B-PP-insitu	B-PP	*	B-MF
+6	groſſer	groß	_	ADJA	_	_	_	_	_	_	1566-1573	we7	großer	I-PP	I-PP	*	I-MF
+7	muͤh	Mühe	_	NN	_	_	_	_	_	_	1574-1578	we8	Mühe	I-PP	I-PP	*	I-MF
+8	von	von	_	APPR	_	_	_	_	_	_	1579-1582	we9	von	B-PP-insitu	B-PP	*	I-MF
+9	dem	d	_	ART	_	_	_	_	_	_	1583-1586	wea	dem	I-PP	I-PP	*	I-MF
+10	Gelehrten	Gelehrte	_	ADJA	_	_	_	_	_	_	1587-1596	web	Gelehrten	I-PP	I-PP	*	I-MF
+11	Man	man	_	NN	_	_	_	_	_	_	1597-1600	wec	Man	I-PP	I-PP	*	I-MF
+12	durch	durch	_	APPR	_	_	_	_	_	_	1601-1606	wed	durch	B-PP-insitu	B-PP	*	I-MF
+13	taͤg-<lb/>liche	täglich	_	ADJA	_	_	_	_	_	_	1607-1622	wee	tägliche	I-PP	I-PP	*	I-MF
+14	erfahrung	Erfahrung	_	NN	_	_	_	_	_	_	1623-1632	wef	Erfahrung	I-PP	I-PP	*	I-MF
+15	zuſam̃en	zusammen	_	PTKVZ	_	_	_	_	_	_	1633-1641	wf0	zusammen	_	O	*	B-RK
+16	geſchrieben	schreiben	_	VVPP	_	_	_	_	_	_	1642-1653	wf1	geschrieben	_	O	*	I-RK
+17	/	/	_	$(	_	_	_	_	_	_	1654-1655	wf2	/	_	O	*	O
+18	vnd	und	_	KON	_	_	_	_	_	_	1656-1659	wf3	und	_	O	*	B-KOORD
+19	auch	auch	_	ADV	_	_	_	_	_	_	1660-1664	wf4	auch	B-ADVP-insitu	B-ADVP	*	B-MF
+20	auß	aus	_	APPR	_	_	_	_	_	_	1665-1668	wf5	aus	B-PP-insitu	B-PP	*	I-MF
+21	vornehmer	vornehm	_	ADJA	_	_	_	_	_	_	1669-1678	wf6	vornehmer	I-PP	I-PP	*	I-MF
+22	beruͤmpter	berühmt	_	ADJA	_	_	_	_	_	_	1679-1689	wf7	berühmter	I-PP	I-PP	*	I-MF
+23	leut	Leut	_	NN	_	_	_	_	_	_	1690-1694	wf8	Leut	I-PP	I-PP	*	I-MF
+24	Buͤ-<lb/>cher	Buch	_	NN	_	_	_	_	_	_	1695-1708	wf9	Bücher	B-NP-insitu	B-NP	*	I-MF
+25	gezogẽ	ziehen	_	VVPP	_	_	_	_	_	_	1709-1716	wfa	gezogen	_	O	*	B-RK
+26	worden	werden	_	VAPP	_	_	_	_	_	_	1717-1723	wfb	worden	_	O	*	I-RK
+27	/	/	_	$(	_	_	_	_	_	_	1724-1725	wfc	/	_	O	*	O
+28	hat	haben	_	VAFIN	_	_	_	_	_	_	1726-1729	wfd	hat	_	O	*	B-LK
+29	auch	auch	_	ADV	_	_	_	_	_	_	1730-1734	wfe	auch	B-ADVP-insitu	B-ADVP	*	B-MF
+30	nichts	nichts	_	PIS	_	_	_	_	_	_	1735-1741	wff	nichts	B-NP-insitu	B-NP	*	I-MF
+31	darin	darin	_	PAV	_	_	_	_	_	_	1742-1747	w100	darin	B-PP-insitu	B-PP	*	I-MF
+32	geſetzt	setzen	_	VVPP	_	_	_	_	_	_	1748-1755	w101	gesetzt	_	O	*	B-RK
+33	noch	noch	_	KON	_	_	_	_	_	_	1756-1760	w102	noch	_	O	*	I-RK
+34	ſetzen	setzen	_	VVINF	_	_	_	_	_	_	1761-1767	w103	setzen	_	O	*	I-RK
+35	laſſen	lassen	_	VVINF	_	_	_	_	_	_	1768-1774	w104	lassen	_	O	*	I-RK
+36	/	/	_	$(	_	_	_	_	_	_	1775-1776	w105	/	_	O	*	O
+37	daraus	daraus	_	PAV	_	_	_	_	_	_	1777-1783	w106	daraus	B-PP-insitu	B-PP	*	B-NF|B-LK
+38	man	man	_	PIS	_	_	_	_	_	_	1784-1787	w107	man	B-NP-insitu	B-NP	*	I-NF|B-MF
+39	nit	nicht	_	PTKNEG	_	_	_	_	_	_	1788-1791	w108	nicht	B-ADVP-insitu	B-ADVP	*	I-NF|I-MF
+40	et-<lb/>was	etwas	_	PIAT	_	_	_	_	_	_	1792-1803	w109	etwas	B-NP-insitu	B-NP	*	I-NF|I-MF
+41	nutzliches	nützlich	_	NN	_	_	_	_	_	_	1804-1814	w10a	nützliches	I-NP	I-NP	*	I-NF|I-MF
+42	ſchoͤpffen	schöpfen	_	VVINF	_	_	_	_	_	_	1815-1825	w10b	schöpfen	_	O	*	I-NF|B-RK
+43	koͤñe	können	_	VMFIN	_	_	_	_	_	_	1826-1832	w10c	könne	_	O	*	I-NF|I-RK
+44	.	.	_	$.	_	_	_	_	_	_	1833-1834	w10d	.	_	O	*	O
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# PTBstring = (VROOT(SIMPX(VF(NX(PDS Dieſes)))(MF(ADVX(ADV auch))(PX(PAV derentwegen))))(KLAMMER /)(SIMPX(C(KOUS wen))(MF(NX(ADJX(ADJA andere))(NN leut)))(VC(VXFIN(VVFIN ſitzen)))(VC(VXFIN(VVFIN Spie-<lb/>len)))(VC(VXFIN(VXFIN:KONJ(VVFIN freſſen))(KON vnd)(VXFIN:KONJ(VVFIN ſauffen)))))(KLAMMER /)(SIMPX(VF(PX(PAV dardurch)))(FKOORD(FKONJ:KONJ(MF(NX(NN Gott)))(VC(VXINF(VVPP ge-<lb/>leſtert))))(KON vnnd)(FKONJ:KONJ(MF(NX(ART die)(NN Seel)))(VC(VXINF(VVPP verdampt))(VXFIN(VAFIN wird))))))(KLAMMER /)(SIMPX(LK(VXFIN(VMFIN konte)))(MF(PX(PAV hergegen))(NX(ART der)(ADJX(ADJA fromme))(NN leſer))(SIMPX(VF(NX(PIAT etwas)(NN kurtzwei-<lb/>liges)))(LK(VXFIN(VAFIN haben)))(VC(VXINF(PTKZU zu)(VVINF leſen))))(KLAMMER /)(NX(ART die)(NN zeit))(PX(PAV darmit)))(VC(PTKVZ hin))(NF(VC(VXINF(PTKZU zu)(VVINF bringen)))))(KLAMMER /)(SIMPX(KOORD(KON vnd))(LK(VXFIN(VAFIN wird)))(MF(ADVX(ADV alſo))(NX(PPOSAT ſein)(NN zeit))(ADVX(PTKNEG nit))(ADJX(ADJD vbel)))(VC(VXINF(VVPP an-<lb/>gewendet))(VXINF(VAINF haben))))(KLAMMER /)(SIMPX(KOORD(KON dan))(VF(NX(PPER er)))(LK(VXFIN(VAFIN wurde)))(FKOORD(FKONJ:KONJ(VF(NX(ADVX(ADV allzeit))(PIS etwas)))(LK(VXFIN(VAFIN haben))))(KON entweder)(FKONJ:KONJ(MF(NX(NN exempel)(NX(ART des)(NN guten))))(VC(PTKVZ nach))(NF(VC(VXINF(PTKZU zu)(VVINF folgen)))))))(KLAMMER /)(NX(KON oder)(ART das)(NN boͤſe))(KLAMMER /)(NX(ADJX(ADJX:KONJ(PX(APPR wegen)(NX:HD(NN vermeidung)))(ADJA zeitlicher))(KON vnd)(ADJX:KONJ(ADJA ewiger)))(NN ſtraff))(KLAMMER /)(SIMPX(VC(VXINF(PTKZU zu)(VVINF flihen))))(PUNKT .))
+# TopFString = (S(VF(PDS Dieſes))(FKOORD(FKONJ(MF(ADV auch)(PAV derentwegen))(KLAMMER /)(NF(C(KOUS wen))(FKOORD(FKONJ(MF(ADJA andere)(NN leut))(VC(VVFIN ſitzen)(VVFIN Spie-<lb/>len)(VVFIN freſſen)))(KON vnd)(FKONJ(LK(VVFIN ſauffen))(KLAMMER /)(NF(C(PAV dardurch))(FKOORD(FKONJ(MF(NN Gott))(VC(VVPP ge-<lb/>leſtert)))(KON vnnd)(FKONJ(MF(ART die)(NN Seel))(VC(VVPP verdampt)(VAFIN wird)))))))))(KLAMMER /)(FKONJ(LK(VMFIN konte))(FKOORD(FKONJ(MF(PAV hergegen)(ART der)(ADJA fromme)(NN leſer)(PIAT etwas)(NN kurtzwei-<lb/>liges))(VCE(VAFIN haben))(VC(PTKZU zu)(VVINF leſen)))(KLAMMER /)(FKONJ(MF(ART die)(NN zeit)(PAV darmit))(VC(PTKVZ hin)(PTKZU zu)(VVINF bringen)))))(KLAMMER /)(KON vnd)(FKONJ(LK(VAFIN wird))(MF(ADV alſo)(PPOSAT ſein)(NN zeit)(PTKNEG nit)(ADJD vbel))(VC(VVPP an-<lb/>gewendet)(VAINF haben))))(KLAMMER /)(KON dan)(VF(PPER er))(LK(VAFIN wurde))(FKOORD(FKONJ(MF(ADV allzeit)(PIS etwas))(VC(VAFIN haben))(KON entweder)(NF(MF(NN exempel)(ART des)(NN guten))(VC(PTKVZ nach)(PTKZU zu)(VVINF folgen))))(KLAMMER /)(KON oder)(FKONJ(MF(ART das)(NN boͤſe)(KLAMMER /)(APPR wegen)(NN vermeidung)(ADJA zeitlicher)(KON vnd)(ADJA ewiger)(NN ſtraff))(KLAMMER /)(VC(PTKZU zu)(VVINF flihen))))(PUNKT .))
+# text = Dieſes auch derentwegen / wen andere leut ſitzen Spie-<lb/>len freſſen vnd ſauffen / dardurch Gott ge-<lb/>leſtert vnnd die Seel verdampt wird / konte hergegen der fromme leſer etwas kurtzwei-<lb/>liges haben zu leſen / die zeit darmit hin zu bringen / vnd wird alſo ſein zeit nit vbel an-<lb/>gewendet haben / dan er wurde allzeit etwas haben entweder exempel des guten nach zu folgen / oder das boͤſe / wegen vermeidung zeitlicher vnd ewiger ſtraff / zu flihen .
+1	Dieſes	diese	_	PDS	_	_	_	_	_	_	1836-1842	w10e	Dieses	B-NP-insitu	B-NP	*	B-VF
+2	auch	auch	_	ADV	_	_	_	_	_	_	1843-1847	w10f	auch	B-ADVP-insitu	B-ADVP	*	B-MF
+3	derentwegen	derentwegen	_	PAV	_	_	_	_	_	_	1848-1859	w110	derentwegen	B-PP-insitu	B-PP	*	I-MF
+4	/	/	_	$(	_	_	_	_	_	_	1860-1861	w111	/	_	O	*	O
+5	wen	wen	_	KOUS	_	_	_	_	_	_	1862-1865	w112	wen	_	O	*	B-NF|B-LK
+6	andere	ander	_	ADJA	_	_	_	_	_	_	1866-1872	w113	andere	B-NP-insitu	B-NP	*	I-NF|B-MF
+7	leut	Leut	_	NN	_	_	_	_	_	_	1873-1877	w114	Leut	I-NP	I-NP	*	I-NF|I-MF
+8	ſitzen	sitzen	_	VVFIN	_	_	_	_	_	_	1878-1884	w115	sitzen	_	O	*	I-NF|B-RK
+9	Spie-<lb/>len	Spiel	_	VVFIN	_	_	_	_	_	_	1885-1898	w116	Spielen	_	O	*	I-NF|I-RK
+10	freſſen	fressen	_	VVFIN	_	_	_	_	_	_	1899-1906	w117	fressen	_	O	*	I-NF|I-RK
+11	vnd	und	_	KON	_	_	_	_	_	_	1907-1910	w118	und	_	O	*	I-NF|B-KOORD
+12	ſauffen	saufen	_	VVFIN	_	_	_	_	_	_	1911-1918	w119	saufen	_	O	*	I-NF|B-LK
+13	/	/	_	$(	_	_	_	_	_	_	1919-1920	w11a	/	_	O	*	I-NF
+14	dardurch	dadurch	_	PAV	_	_	_	_	_	_	1921-1929	w11b	dadurch	B-PP-insitu	B-PP	*	I-NF|B-NF|B-LK
+15	Gott	Gott	_	NN	_	_	_	_	_	_	1930-1934	w11c	Gott	B-NP-insitu	B-NP	*	I-NF|I-NF|B-MF
+16	ge-<lb/>leſtert	lästern	_	VVPP	_	_	_	_	_	_	1935-1950	w11d	gelästert	_	O	*	I-NF|I-NF|B-RK
+17	vnnd	und	_	KON	_	_	_	_	_	_	1951-1955	w11e	und	_	O	*	I-NF|I-NF|B-KOORD
+18	die	d	_	ART	_	_	_	_	_	_	1956-1959	w11f	die	B-NP-insitu	B-NP	*	I-NF|I-NF|B-MF
+19	Seel	Seele	_	NN	_	_	_	_	_	_	1960-1964	w120	Seele	I-NP	I-NP	*	I-NF|I-NF|I-MF
+20	verdampt	verdammen	_	VVPP	_	_	_	_	_	_	1965-1973	w121	verdammt	_	O	*	I-NF|I-NF|B-RK
+21	wird	werden	_	VAFIN	_	_	_	_	_	_	1974-1978	w122	wird	_	O	*	I-NF|I-NF|I-RK
+22	/	/	_	$(	_	_	_	_	_	_	1979-1980	w123	/	_	O	*	O
+23	konte	können	_	VMFIN	_	_	_	_	_	_	1981-1986	w124	konnte	_	O	*	B-LK
+24	hergegen	hingegen	_	PAV	_	_	_	_	_	_	1987-1995	w125	hingegen	B-PP-insitu	B-PP	*	B-MF
+25	der	d	_	ART	_	_	_	_	_	_	1996-1999	w126	der	B-NP-insitu	B-NP	*	I-MF
+26	fromme	fromm	_	ADJA	_	_	_	_	_	_	2000-2006	w127	fromme	I-NP	I-NP	*	I-MF
+27	leſer	Leser	_	NN	_	_	_	_	_	_	2007-2012	w128	Leser	I-NP	I-NP	*	I-MF
+28	etwas	etwas	_	PIAT	_	_	_	_	_	_	2013-2018	w129	etwas	B-NP-insitu	B-NP	*	I-MF
+29	kurtzwei-<lb/>liges	kurzweilig	_	NN	_	_	_	_	_	_	2019-2038	w12a	kurzweiliges	I-NP	I-NP	*	I-MF
+30	haben	haben	_	VAFIN	_	_	_	_	_	_	2039-2044	w12b	haben	_	O	*	B-RK
+31	zu	zu	_	PTKZU	_	_	_	_	_	_	2045-2047	w12c	zu	_	O	*	B-RK
+32	leſen	lesen	_	VVINF	_	_	_	_	_	_	2048-2053	w12d	lesen	_	O	*	I-RK
+33	/	/	_	$(	_	_	_	_	_	_	2054-2055	w12e	/	_	O	*	O
+34	die	d	_	ART	_	_	_	_	_	_	2056-2059	w12f	die	B-NP-insitu	B-NP	*	B-MF
+35	zeit	Zeit	_	NN	_	_	_	_	_	_	2060-2064	w130	Zeit	I-NP	I-NP	*	I-MF
+36	darmit	damit	_	PAV	_	_	_	_	_	_	2065-2071	w131	damit	B-PP-insitu	B-PP	*	I-MF
+37	hin	hin	_	PTKVZ	_	_	_	_	_	_	2072-2075	w132	hin	_	O	*	B-RK
+38	zu	zu	_	PTKZU	_	_	_	_	_	_	2076-2078	w133	zu	_	O	*	I-RK
+39	bringen	bringen	_	VVINF	_	_	_	_	_	_	2079-2086	w134	bringen	_	O	*	I-RK
+40	/	/	_	$(	_	_	_	_	_	_	2087-2088	w135	/	_	O	*	O
+41	vnd	und	_	KON	_	_	_	_	_	_	2089-2092	w136	und	_	O	*	B-KOORD
+42	wird	werden	_	VAFIN	_	_	_	_	_	_	2093-2097	w137	wird	_	O	*	B-LK
+43	alſo	also	_	ADV	_	_	_	_	_	_	2098-2102	w138	also	B-ADVP-insitu	B-ADVP	*	B-MF
+44	ſein	sein	_	PPOSAT	_	_	_	_	_	_	2103-2107	w139	sein	B-NP-insitu	B-NP	*	I-MF
+45	zeit	Zeit	_	NN	_	_	_	_	_	_	2108-2112	w13a	Zeit	I-NP	I-NP	*	I-MF
+46	nit	nicht	_	PTKNEG	_	_	_	_	_	_	2113-2116	w13b	nicht	B-ADVP-insitu	B-ADVP	*	I-MF
+47	vbel	übel	_	ADJD	_	_	_	_	_	_	2117-2121	w13c	übel	B-AP-insitu	B-AP	*	I-MF
+48	an-<lb/>gewendet	anwenden	_	VVPP	_	_	_	_	_	_	2122-2138	w13d	angewendet	_	O	*	B-RK
+49	haben	haben	_	VAINF	_	_	_	_	_	_	2139-2144	w13e	haben	_	O	*	I-RK
+50	/	/	_	$(	_	_	_	_	_	_	2145-2146	w13f	/	_	O	*	O
+51	dan	dann	_	KON	_	_	_	_	_	_	2147-2150	w140	dann	_	O	*	O
+52	er	er	_	PPER	_	_	_	_	_	_	2151-2153	w141	er	B-NP-insitu	B-NP	*	B-VF
+53	wurde	werden	_	VAFIN	_	_	_	_	_	_	2154-2159	w142	wurde	_	O	*	B-LK
+54	allzeit	allzeit	_	ADV	_	_	_	_	_	_	2160-2167	w143	allzeit	B-NP-insitu	B-NP	*	B-MF
+55	etwas	etwas	_	PIS	_	_	_	_	_	_	2168-2173	w144	etwas	I-NP	I-NP	*	I-MF
+56	haben	haben	_	VAFIN	_	_	_	_	_	_	2174-2179	w145	haben	_	O	*	B-RK
+57	entweder	entweder	_	KON	_	_	_	_	_	_	2180-2188	w146	entweder	_	O	*	O
+58	exempel	Exempel	_	NN	_	_	_	_	_	_	2189-2196	w147	Exempel	B-NP-insitu	B-NP	*	B-NF|B-MF
+59	des	d	_	ART	_	_	_	_	_	_	2197-2200	w148	des	I-NP	I-NP	*	I-NF|I-MF
+60	guten	gut	_	NN	_	_	_	_	_	_	2201-2206	w149	guten	I-NP	I-NP	*	I-NF|I-MF
+61	nach	nach	_	PTKVZ	_	_	_	_	_	_	2207-2211	w14a	nach	_	O	*	I-NF|B-RK
+62	zu	zu	_	PTKZU	_	_	_	_	_	_	2212-2214	w14b	zu	_	O	*	I-NF|I-RK
+63	folgen	folgen	_	VVINF	_	_	_	_	_	_	2215-2221	w14c	folgen	_	O	*	I-NF|I-RK
+64	/	/	_	$(	_	_	_	_	_	_	2222-2223	w14d	/	_	O	*	O
+65	oder	oder	_	KON	_	_	_	_	_	_	2224-2228	w14e	oder	B-NP-insitu	B-NP	*	B-KOORD
+66	das	d	_	ART	_	_	_	_	_	_	2229-2232	w14f	das	I-NP	I-NP	*	B-MF
+67	boͤſe	böse	_	NN	_	_	_	_	_	_	2233-2238	w150	böse	I-NP	I-NP	*	I-MF
+68	/	/	_	$(	_	_	_	_	_	_	2239-2240	w151	/	_	O	*	I-MF
+69	wegen	wegen	_	APPR	_	_	_	_	_	_	2241-2246	w152	wegen	B-NP-insitu	B-NP	*	I-MF
+70	vermeidung	Vermeidung	_	NN	_	_	_	_	_	_	2247-2257	w153	Vermeidung	I-NP	I-NP	*	I-MF
+71	zeitlicher	zeitlich	_	ADJA	_	_	_	_	_	_	2258-2268	w154	zeitlicher	I-NP	I-NP	*	I-MF
+72	vnd	und	_	KON	_	_	_	_	_	_	2269-2272	w155	und	I-NP	I-NP	*	I-MF
+73	ewiger	ewig	_	ADJA	_	_	_	_	_	_	2273-2279	w156	ewiger	I-NP	I-NP	*	I-MF
+74	ſtraff	Strafe	_	NN	_	_	_	_	_	_	2280-2286	w157	Strafe	I-NP	I-NP	*	I-MF
+75	/	/	_	$(	_	_	_	_	_	_	2287-2288	w158	/	_	O	*	O
+76	zu	zu	_	PTKZU	_	_	_	_	_	_	2289-2291	w159	zu	_	O	*	B-RK
+77	flihen	fliehen	_	VVINF	_	_	_	_	_	_	2292-2298	w15a	fliehen	_	O	*	I-RK
+78	.	.	_	$.	_	_	_	_	_	_	2299-2300	w15b	.	_	O	*	O
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# PTBstring = (VROOT(SIMPX(VF(PX(PX(PAV Dar-<lb/>nach))(APPRART zum)(NX:HD(NN andern))))(LK(VXFIN(VAFIN wird)))(MF(NX(PPER er))(ADVX(ADV auch))(SIMPX:OS(VF(NX(NN anleitung)))(LK(VXFIN(VAFIN haben)))(MF(PX(APPR in)(NX:HD(NN zuſamen)))(NX(NN kunfften))))))(KLAMMER /)(SIMPX(C(KOUS wen))(MF(ADVX(ADV vielleicht))(NX(PIS etliche))(PX(APPR in)(NX:HD(NN froͤligkeiten))))(VC(VXINF(VVPP verſamlet))))(KLAMMER /)(SIMPX(MF(PX(APPR mit)(NX:HD(NN exem-<lb/>peln))))(VC(VXINF(PTKZU zu)(VVINF erzehlẽ))))(KLAMMER /)(SIMPX(VF(NX(PDS das)))(MF(ADVX(ADV doch))(ADVX(ADV alzeit))(ADJX(ADJD ehrlicher))))(KLAMMER /)(SIMPX(KOKOM als)(C(KOUS wen))(FKOORD(FKONJ:KONJ(MF(NX(PIS andere)))(VC(VXINF(VVINF ſitzen))))(KON vnd)(FKONJ:KONJ(MF(NX(ADJX(ADJA grobe))(NX:KONJ(NN zotten))(KON vnd)(NX:KONJ(NN boſ-<lb/>ſen))))(VC(VXFIN(VVFIN reiſſen)))))(KLAMMER /)(NF(R(C(PX(PAV dardurch)))(MF(NX(PIAT alle)(NN beywohner)))(VC(VXINF(VVPP geaͤr-<lb/>gert))(VXFIN(VAFIN werden))))))(KLAMMER /)(NX(KON vnd)(ADVX(ADV auch))(ART die)(NN Engel)(R(R(C(NX(PRELS welche)))(MF(ADJX(ADJD ſie-<lb/>tigs))(PX(APPR vmb)(NX:HD(ART die)(NN menſchen))))(VC(VXFIN(VAFIN ſein))))(KLAMMER /)(VC(VXINF(VVPP vertrieben))(VXFIN(VAFIN wer-<lb/>den)))))(PUNKT .))
+# TopFString = (S(VF(PAV Dar-<lb/>nach)(APPRART zum)(NN andern))(LK(VAFIN wird))(MF(PPER er)(ADV auch)(NN anleitung))(LK(VAFIN haben))(MF(APPR in)(NN zuſamen)(NN kunfften))(KLAMMER /)(NF(C(KOUS wen))(FKOORD(FKONJ(MF(ADV vielleicht)(PIS etliche)(APPR in)(NN froͤligkeiten))(VC(VVPP verſamlet)))(KLAMMER /)(FKONJ(MF(APPR mit)(NN exem-<lb/>peln))(VC(PTKZU zu)(VVINF erzehlẽ)))(KLAMMER /)(FKONJ(MF(PDS das)(ADV doch)(ADV alzeit)(ADJD ehrlicher)(KLAMMER /)(NF(KOKOM als)(C(KOUS wen))(FKOORD(FKONJ(MF(PIS andere))(VC(VVINF ſitzen)))(KON vnd)(FKONJ(MF(ADJA grobe)(NN zotten)(KON vnd)(NN boſ-<lb/>ſen))(VC(VVFIN reiſſen)))))(KLAMMER /)(PAV dardurch)(PIAT alle)(NN beywohner))(VC(VVPP geaͤr-<lb/>gert)(VAFIN werden)))))(KLAMMER /)(KON vnd)(ADV auch)(ART die)(NN Engel)(C(PRELS welche))(FKOORD(FKONJ(MF(ADJD ſie-<lb/>tigs)(APPR vmb)(ART die)(NN menſchen))(VC(VAFIN ſein)))(KLAMMER /)(VC(VVPP vertrieben)(VAFIN wer-<lb/>den)))(PUNKT .))
+# text = Dar-<lb/>nach zum andern wird er auch anleitung haben in zuſamen kunfften / wen vielleicht etliche in froͤligkeiten verſamlet / mit exem-<lb/>peln zu erzehlẽ / das doch alzeit ehrlicher / als wen andere ſitzen vnd grobe zotten vnd boſ-<lb/>ſen reiſſen / dardurch alle beywohner geaͤr-<lb/>gert werden / vnd auch die Engel welche ſie-<lb/>tigs vmb die menſchen ſein / vertrieben wer-<lb/>den .
+1	Dar-<lb/>nach	danach	_	PAV	_	_	_	_	_	_	2302-2315	w15c,w15c_1,w15c_2	Danach	B-PP-insitu	B-PP	*	B-VF
+2	zum	zum	_	APPRART	_	_	_	_	_	_	2316-2319	w15d	zum	I-PP	I-PP	*	I-VF
+3	andern	ander	_	NN	_	_	_	_	_	_	2320-2326	w15e	anderen	I-PP	I-PP	*	I-VF
+4	wird	werden	_	VAFIN	_	_	_	_	_	_	2327-2331	w15f	wird	_	O	*	B-LK
+5	er	er	_	PPER	_	_	_	_	_	_	2332-2334	w160	er	B-NP-insitu	B-NP	*	B-MF
+6	auch	auch	_	ADV	_	_	_	_	_	_	2335-2339	w161	auch	B-ADVP-insitu	B-ADVP	*	I-MF
+7	anleitung	Anleitung	_	NN	_	_	_	_	_	_	2340-2349	w162	Anleitung	B-NP-insitu	B-NP	*	I-MF
+8	haben	haben	_	VAFIN	_	_	_	_	_	_	2350-2355	w163	haben	_	O	*	B-LK
+9	in	in	_	APPR	_	_	_	_	_	_	2356-2358	w164	in	B-PP-insitu	B-PP	*	B-MF
+10	zuſamen	zusamen	_	NN	_	_	_	_	_	_	2359-2366	w165	zusamen	I-PP	I-PP	*	I-MF
+11	kunfften	Kunfften	_	NN	_	_	_	_	_	_	2367-2375	w166	kunfften	B-NP-insitu	B-NP	*	I-MF
+12	/	/	_	$(	_	_	_	_	_	_	2376-2377	w167	/	_	O	*	O
+13	wen	wen	_	KOUS	_	_	_	_	_	_	2378-2381	w168	wen	_	O	*	B-NF|B-LK
+14	vielleicht	vielleicht	_	ADV	_	_	_	_	_	_	2382-2392	w169	vielleicht	B-ADVP-insitu	B-ADVP	*	I-NF|B-MF
+15	etliche	etliche	_	PIS	_	_	_	_	_	_	2393-2400	w16a	etliche	B-NP-insitu	B-NP	*	I-NF|I-MF
+16	in	in	_	APPR	_	_	_	_	_	_	2401-2403	w16b	in	B-PP-insitu	B-PP	*	I-NF|I-MF
+17	froͤligkeiten	Fröhlichkeit	_	NN	_	_	_	_	_	_	2404-2417	w16c	Fröhlichkeiten	I-PP	I-PP	*	I-NF|I-MF
+18	verſamlet	versammeln	_	VVPP	_	_	_	_	_	_	2418-2427	w16d	versammelt	_	O	*	I-NF|B-RK
+19	/	/	_	$(	_	_	_	_	_	_	2428-2429	w16e	/	_	O	*	I-NF
+20	mit	mit	_	APPR	_	_	_	_	_	_	2430-2433	w16f	mit	B-PP-insitu	B-PP	*	I-NF|B-MF
+21	exem-<lb/>peln	Exempel	_	NN	_	_	_	_	_	_	2434-2448	w170	Exempeln	I-PP	I-PP	*	I-NF|I-MF
+22	zu	zu	_	PTKZU	_	_	_	_	_	_	2449-2451	w171	zu	_	O	*	I-NF|B-RK
+23	erzehlẽ	erzählen	_	VVINF	_	_	_	_	_	_	2452-2460	w172	erzählen	_	O	*	I-NF|I-RK
+24	/	/	_	$(	_	_	_	_	_	_	2461-2462	w173	/	_	O	*	I-NF
+25	das	die	_	PDS	_	_	_	_	_	_	2463-2466	w174	das	B-NP-insitu	B-NP	*	I-NF|B-MF
+26	doch	doch	_	ADV	_	_	_	_	_	_	2467-2471	w175	doch	B-ADVP-insitu	B-ADVP	*	I-NF|I-MF
+27	alzeit	allzeit	_	ADV	_	_	_	_	_	_	2472-2478	w176	allzeit	B-ADVP-insitu	B-ADVP	*	I-NF|I-MF
+28	ehrlicher	ehrlich	_	ADJD	_	_	_	_	_	_	2479-2488	w177	ehrlicher	B-AP-insitu	B-AP	*	I-NF|I-MF
+29	/	/	_	$(	_	_	_	_	_	_	2489-2490	w178	/	_	O	*	I-NF|I-MF
+30	als	als	_	KOKOM	_	_	_	_	_	_	2491-2494	w179	als	_	O	*	I-NF|I-MF|B-NF
+31	wen	wen	_	KOUS	_	_	_	_	_	_	2495-2498	w17a	wen	_	O	*	I-NF|I-MF|I-NF|B-LK
+32	andere	andere	_	PIS	_	_	_	_	_	_	2499-2505	w17b	andere	B-NP-insitu	B-NP	*	I-NF|I-MF|I-NF|B-MF
+33	ſitzen	sitzen	_	VVINF	_	_	_	_	_	_	2506-2512	w17c	sitzen	_	O	*	I-NF|I-MF|I-NF|B-RK
+34	vnd	und	_	KON	_	_	_	_	_	_	2513-2516	w17d	und	_	O	*	I-NF|I-MF|I-NF|B-KOORD
+35	grobe	grob	_	ADJA	_	_	_	_	_	_	2517-2522	w17e	grobe	B-NP-insitu	B-NP	*	I-NF|I-MF|I-NF|B-MF
+36	zotten	Zotte	_	NN	_	_	_	_	_	_	2523-2529	w17f	Zotten	I-NP	I-NP	*	I-NF|I-MF|I-NF|I-MF
+37	vnd	und	_	KON	_	_	_	_	_	_	2530-2533	w180	und	I-NP	I-NP	*	I-NF|I-MF|I-NF|I-MF
+38	boſ-<lb/>ſen	böse	_	NN	_	_	_	_	_	_	2534-2546	w181	bösen	I-NP	I-NP	*	I-NF|I-MF|I-NF|I-MF
+39	reiſſen	reissen	_	VVFIN	_	_	_	_	_	_	2547-2554	w182	reißen	_	O	*	I-NF|I-MF|I-NF|B-RK
+40	/	/	_	$(	_	_	_	_	_	_	2555-2556	w183	/	_	O	*	I-NF|I-MF
+41	dardurch	dadurch	_	PAV	_	_	_	_	_	_	2557-2565	w184	dadurch	B-PP-insitu	B-PP	*	I-NF|I-MF
+42	alle	alle	_	PIAT	_	_	_	_	_	_	2566-2570	w185	alle	B-NP-insitu	B-NP	*	I-NF|I-MF
+43	beywohner	Beiwohner	_	NN	_	_	_	_	_	_	2571-2580	w186	Beiwohner	I-NP	I-NP	*	I-NF|I-MF
+44	geaͤr-<lb/>gert	ärgern	_	VVPP	_	_	_	_	_	_	2581-2596	w187	geärgert	_	O	*	I-NF|B-RK
+45	werden	werden	_	VAFIN	_	_	_	_	_	_	2597-2603	w188	werden	_	O	*	I-NF|I-RK
+46	/	/	_	$(	_	_	_	_	_	_	2604-2605	w189	/	_	O	*	O
+47	vnd	und	_	KON	_	_	_	_	_	B-Antec-1|B-Antec-2	2606-2609	w18a	und	B-NP-insitu	B-NP	*	O
+48	auch	auch	_	ADV	_	_	_	_	_	I-Antec|I-Antec	2610-2614	w18b	auch	I-NP	I-NP	*	O
+49	die	d	_	ART	_	_	_	_	_	I-Antec|I-Antec	2615-2618	w18c	die	I-NP	I-NP	*	O
+50	Engel	Engel	_	NN	_	_	_	_	_	I-Antec-Head|I-Antec-Head	2619-2624	w18d	Engel	I-NP	I-NP	*	O
+51	welche	welche	_	PRELS	_	_	_	_	_	_	2625-2631	w18e	welche	I-NP|B-RELC-insitu-1|B-RELC-insitu-2|B-NP-insitu	I-NP	*	B-LK
+52	ſie-<lb/>tigs	Sietigs	_	ADJD	_	_	_	_	_	_	2632-2645	w18f	sietigs	I-NP|I-RELC|I-RELC|B-AP-insitu	I-NP	*	B-MF
+53	vmb	um	_	APPR	_	_	_	_	_	_	2646-2649	w190	um	I-NP|I-RELC|I-RELC|B-PP-insitu	I-NP	*	I-MF
+54	die	d	_	ART	_	_	_	_	_	_	2650-2653	w191	die	I-NP|I-RELC|I-RELC|I-PP	I-NP	*	I-MF
+55	menſchen	Mensch	_	NN	_	_	_	_	_	_	2654-2662	w192	Menschen	I-NP|I-RELC|I-RELC|I-PP	I-NP	*	I-MF
+56	ſein	sein	_	VAFIN	_	_	_	_	_	_	2663-2667	w193	sein	I-NP|I-RELC|I-RELC	I-NP	*	B-RK
+57	/	/	_	$(	_	_	_	_	_	_	2668-2669	w194	/	I-NP|I-RELC	I-NP	*	O
+58	vertrieben	vertreiben	_	VVPP	_	_	_	_	_	_	2670-2680	w195	vertrieben	I-NP|I-RELC	I-NP	*	B-RK
+59	wer-<lb/>den	werden	_	VAFIN	_	_	_	_	_	_	2681-2693	w196	werden	I-NP|I-RELC	I-NP	*	I-RK
+60	.	.	_	$.	_	_	_	_	_	_	2694-2695	w197	.	_	O	*	O
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# PTBstring = (VROOT(SIMPX(ADVX(ADV Endlich))(C(KOUS wen))(MF(NX(PPER er))(NX(PDAT dieſe)(NN Hiſtorien))(ADVX(ADV ſo)))(VCE(VXFIN(VAFIN wird)))(VC(VXINF(VVINF erzehlen))))(KLAMMER /)(SIMPX(LK(VXFIN(VAFIN werden)))(MF(NX(PIAT alle)(NN leut))(ADVX(ADV allein))(PX(APPR auff)(NX:HD(PPER jhn))))(VC(VXFIN(VVFIN ſe-<lb/>hen))))(KLAMMER /)(SIMPX(MF(NX(PPER jhn))(PX(APPR vor)(ADJX:HD(ADJX(ADJD gelehrt))(KLAMMER /)(KON vnd)(ADJX:KONJ(ADVX(ADV wol))(ADJD erfahren)))))(VC(VXINF(VVINF hal-<lb/>ten))))(KLAMMER /)(SIMPX(C(KOUS wenn))(MF(NX(PPER er))(NX(PIAT ſolche)(NN exempel)))(NF(R(C(NX(PRELS die)))(MF(ADVX(ADV doch))(ADJX(ADVX(ADV noch))(ADJD Chriſtlich)))(KLAMMER /)(VCE(VXFIN(VAFIN wird)))(VC(VXINF(VVINF erzehlen))(VXINF(VMINF koͤnnen))))))(PUNKT .))
+# TopFString = (S(VF(ADV Endlich)(C(KOUS wen))(MF(PPER er)(PDAT dieſe)(NN Hiſtorien)(ADV ſo))(VCE(VAFIN wird))(VC(VVINF erzehlen)))(KLAMMER /)(LK(VAFIN werden))(FKOORD(FKONJ(MF(PIAT alle)(NN leut)(ADV allein)(APPR auff)(PPER jhn))(VC(VVFIN ſe-<lb/>hen)))(KLAMMER /)(FKONJ(MF(PPER jhn)(APPR vor)(ADJD gelehrt)(KLAMMER /)(KON vnd)(ADV wol)(ADJD erfahren))(VC(VVINF hal-<lb/>ten))))(KLAMMER /)(C(KOUS wenn))(MF(PPER er)(PIAT ſolche)(NN exempel))(NF(C(PRELS die))(MF(ADV doch)(ADV noch)(ADJD Chriſtlich))(KLAMMER /)(VCE(VAFIN wird))(VC(VVINF erzehlen)(VMINF koͤnnen)))(PUNKT .))
+# text = Endlich wen er dieſe Hiſtorien ſo wird erzehlen / werden alle leut allein auff jhn ſe-<lb/>hen / jhn vor gelehrt / vnd wol erfahren hal-<lb/>ten / wenn er ſolche exempel die doch noch Chriſtlich / wird erzehlen koͤnnen .
+1	Endlich	endlich	_	ADV	_	_	_	_	_	_	2697-2704	w198	Endlich	B-ADVP-insitu	B-ADVP	*	B-VF
+2	wen	wen	_	KOUS	_	_	_	_	_	_	2705-2708	w199	wen	_	O	*	I-VF|B-LK
+3	er	er	_	PPER	_	_	_	_	_	_	2709-2711	w19a	er	B-NP-insitu	B-NP	*	I-VF|B-MF
+4	dieſe	diese	_	PDAT	_	_	_	_	_	_	2712-2717	w19b	diese	B-NP-insitu	B-NP	*	I-VF|I-MF
+5	Hiſtorien	Historie	_	NN	_	_	_	_	_	_	2718-2727	w19c	Historien	I-NP	I-NP	*	I-VF|I-MF
+6	ſo	so	_	ADV	_	_	_	_	_	_	2728-2730	w19d	so	B-ADVP-insitu	B-ADVP	*	I-VF|I-MF
+7	wird	werden	_	VAFIN	_	_	_	_	_	_	2731-2735	w19e	wird	_	O	*	I-VF|B-RK
+8	erzehlen	erzählen	_	VVINF	_	_	_	_	_	_	2736-2744	w19f	erzählen	_	O	*	I-VF|B-RK
+9	/	/	_	$(	_	_	_	_	_	_	2745-2746	w1a0	/	_	O	*	O
+10	werden	werden	_	VAFIN	_	_	_	_	_	_	2747-2753	w1a1	werden	_	O	*	B-LK
+11	alle	alle	_	PIAT	_	_	_	_	_	_	2754-2758	w1a2	alle	B-NP-insitu	B-NP	*	B-MF
+12	leut	Leut	_	NN	_	_	_	_	_	_	2759-2763	w1a3	Leut	I-NP	I-NP	*	I-MF
+13	allein	allein	_	ADV	_	_	_	_	_	_	2764-2770	w1a4	allein	B-ADVP-insitu	B-ADVP	*	I-MF
+14	auff	auf	_	APPR	_	_	_	_	_	_	2771-2775	w1a5	auf	B-PP-insitu	B-PP	*	I-MF
+15	jhn	er	_	PPER	_	_	_	_	_	_	2776-2779	w1a6	ihn	I-PP	I-PP	*	I-MF
+16	ſe-<lb/>hen	sehen	_	VVFIN	_	_	_	_	_	_	2780-2791	w1a7	sehen	_	O	*	B-RK
+17	/	/	_	$(	_	_	_	_	_	_	2792-2793	w1a8	/	_	O	*	O
+18	jhn	er	_	PPER	_	_	_	_	_	_	2794-2797	w1a9	ihn	B-NP-insitu	B-NP	*	B-MF
+19	vor	vor	_	APPR	_	_	_	_	_	_	2798-2801	w1aa	vor	B-PP-insitu	B-PP	*	I-MF
+20	gelehrt	lehren	_	ADJD	_	_	_	_	_	_	2802-2809	w1ab	gelehrt	I-PP	I-PP	*	I-MF
+21	/	/	_	$(	_	_	_	_	_	_	2810-2811	w1ac	/	I-PP	I-PP	*	I-MF
+22	vnd	und	_	KON	_	_	_	_	_	_	2812-2815	w1ad	und	I-PP	I-PP	*	I-MF
+23	wol	wohl	_	ADV	_	_	_	_	_	_	2816-2819	w1ae	wohl	I-PP	I-PP	*	I-MF
+24	erfahren	erfahren	_	ADJD	_	_	_	_	_	_	2820-2828	w1af	erfahren	I-PP	I-PP	*	I-MF
+25	hal-<lb/>ten	halten	_	VVINF	_	_	_	_	_	_	2829-2841	w1b0	halten	_	O	*	B-RK
+26	/	/	_	$(	_	_	_	_	_	_	2842-2843	w1b1	/	_	O	*	O
+27	wenn	wenn	_	KOUS	_	_	_	_	_	_	2844-2848	w1b2	wenn	_	O	*	B-LK
+28	er	er	_	PPER	_	_	_	_	_	_	2849-2851	w1b3	er	B-NP-insitu	B-NP	*	B-MF
+29	ſolche	solch	_	PIAT	_	_	_	_	_	B-Antec-1	2852-2858	w1b4	solche	B-NP-insitu	B-NP	*	I-MF
+30	exempel	Exempel	_	NN	_	_	_	_	_	I-Antec-Head	2859-2866	w1b5	Exempel	I-NP	I-NP	*	I-MF
+31	die	d	_	PRELS	_	_	_	_	_	_	2867-2870	w1b6	die	B-RELC-ambig-1|B-NP-insitu	B-NP	*	B-NF|B-LK
+32	doch	doch	_	ADV	_	_	_	_	_	_	2871-2875	w1b7	doch	I-RELC|B-ADVP-insitu	B-ADVP	*	I-NF|B-MF
+33	noch	noch	_	ADV	_	_	_	_	_	_	2876-2880	w1b8	noch	I-RELC|B-AP-insitu	B-AP	*	I-NF|I-MF
+34	Chriſtlich	christlich	_	ADJD	_	_	_	_	_	_	2881-2891	w1b9	Christlich	I-RELC|I-AP	I-AP	*	I-NF|I-MF
+35	/	/	_	$(	_	_	_	_	_	_	2892-2893	w1ba	/	I-RELC	O	*	I-NF
+36	wird	werden	_	VAFIN	_	_	_	_	_	_	2894-2898	w1bb	wird	I-RELC	O	*	I-NF|B-RK
+37	erzehlen	erzählen	_	VVINF	_	_	_	_	_	_	2899-2907	w1bc	erzählen	I-RELC	O	*	I-NF|B-RK
+38	koͤnnen	können	_	VMINF	_	_	_	_	_	_	2908-2915	w1bd	können	I-RELC	O	*	I-NF|I-RK
+39	.	.	_	$.	_	_	_	_	_	_	2916-2917	w1be	.	_	O	*	O
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# PTBstring = (VROOT(SIMPX(VF(NX(PPER Eſ)))(LK(VXFIN(VAFIN hat)))(FKOORD(FKONJ:KONJ(MF(ADVX(ADV doch))(NX(ART der)(ADJX(ADJA vornehme))(NN Man)(NX(NE Lutherus)))(ADVX(ADV ſeltſten))(PX(APPR in)(NX:HD(PPOSAT ſeinen)(NN Diſchreden)))(ADVX(ADV gar))(NX(NX:KONJ(PIAT viel))(KON vnd)(NX:KONJ(NX:KONJ(ADJX(ADJA wunder-<lb/>liche))(NN Hiſtorien))(KON vnd)(NX:KONJ(NN geſchichten)))))(VC(VXINF(VVPP erzehlet))(KLAMMER /)(VXINF(VVPP ge-<lb/>ſchrieben))))(KON vnnd)(FKONJ:KONJ(MF(PX(APPR an)(NX:HD(NN tag))))(VC(VXINF(VVPP bracht))))))(PUNKT .))
+# TopFString = (S(VF(PPER Eſ))(LK(VAFIN hat))(FKOORD(FKONJ(MF(ADV doch)(ART der)(ADJA vornehme)(NN Man)(NE Lutherus)(ADV ſeltſten)(APPR in)(PPOSAT ſeinen)(NN Diſchreden)(ADV gar)(PIAT viel)(KON vnd)(ADJA wunder-<lb/>liche)(NN Hiſtorien)(KON vnd)(NN geſchichten))(VC(VVPP erzehlet)))(KLAMMER /)(VC(VVPP ge-<lb/>ſchrieben))(KON vnnd)(FKONJ(MF(APPR an)(NN tag))(VC(VVPP bracht))))(PUNKT .))
+# text = Eſ hat doch der vornehme Man Lutherus ſeltſten in ſeinen Diſchreden gar viel vnd wunder-<lb/>liche Hiſtorien vnd geſchichten erzehlet / ge-<lb/>ſchrieben vnnd an tag bracht .
+1	Eſ	es	_	PPER	_	_	_	_	_	_	2919-2921	w1bf,w1bf_1	Es	B-NP-insitu	B-NP	*	B-VF
+2	hat	haben	_	VAFIN	_	_	_	_	_	_	2922-2925	w1c0	hat	_	O	*	B-LK
+3	doch	doch	_	ADV	_	_	_	_	_	_	2926-2930	w1c1	doch	B-ADVP-insitu	B-ADVP	*	B-MF
+4	der	d	_	ART	_	_	_	_	_	_	2931-2934	w1c2	der	B-NP-insitu	B-NP	*	I-MF
+5	vornehme	vornehm	_	ADJA	_	_	_	_	_	_	2935-2943	w1c3	vornehme	I-NP	I-NP	*	I-MF
+6	Man	man	_	NN	_	_	_	_	_	_	2944-2947	w1c4	Man	I-NP	I-NP	*	I-MF
+7	Lutherus	Luther	_	NE	_	_	_	_	_	_	2948-2956	w1c5	Luther	I-NP	I-NP	*	I-MF
+8	ſeltſten	Seltsten	_	ADV	_	_	_	_	_	_	2957-2965	w1c6	seltsten	B-ADVP-insitu	B-ADVP	*	I-MF
+9	in	in	_	APPR	_	_	_	_	_	_	2966-2968	w1c7	in	B-PP-insitu	B-PP	*	I-MF
+10	ſeinen	seine	_	PPOSAT	_	_	_	_	_	_	2969-2975	w1c8	seinen	I-PP	I-PP	*	I-MF
+11	Diſchreden	Tischrede	_	NN	_	_	_	_	_	_	2976-2986	w1c9	Tischreden	I-PP	I-PP	*	I-MF
+12	gar	gar	_	ADV	_	_	_	_	_	_	2987-2990	w1ca	gar	B-ADVP-insitu	B-ADVP	*	I-MF
+13	viel	viel	_	PIAT	_	_	_	_	_	_	2991-2995	w1cb	viel	B-NP-insitu	B-NP	*	I-MF
+14	vnd	und	_	KON	_	_	_	_	_	_	2996-2999	w1cc	und	I-NP	I-NP	*	I-MF
+15	wunder-<lb/>liche	wunderlich	_	ADJA	_	_	_	_	_	_	3000-3017	w1cd	wunderliche	I-NP	I-NP	*	I-MF
+16	Hiſtorien	Historie	_	NN	_	_	_	_	_	_	3018-3027	w1ce	Historien	I-NP	I-NP	*	I-MF
+17	vnd	und	_	KON	_	_	_	_	_	_	3028-3031	w1cf	und	I-NP	I-NP	*	I-MF
+18	geſchichten	Geschichte	_	NN	_	_	_	_	_	_	3032-3043	w1d0	Geschichten	I-NP	I-NP	*	I-MF
+19	erzehlet	erzählen	_	VVPP	_	_	_	_	_	_	3044-3052	w1d1,w1d1_1	erzählt	_	O	*	B-RK
+20	/	/	_	$(	_	_	_	_	_	_	3053-3054	w1d2	/	_	O	*	O
+21	ge-<lb/>ſchrieben	schreiben	_	VVPP	_	_	_	_	_	_	3055-3072	w1d3	geschrieben	_	O	*	B-RK
+22	vnnd	und	_	KON	_	_	_	_	_	_	3073-3077	w1d4	und	_	O	*	B-KOORD
+23	an	an	_	APPR	_	_	_	_	_	_	3078-3080	w1d5	an	B-PP-insitu	B-PP	*	B-MF
+24	tag	Tag	_	NN	_	_	_	_	_	_	3081-3084	w1d6	tag	I-PP	I-PP	*	I-MF
+25	bracht	bringen	_	VVPP	_	_	_	_	_	_	3085-3091	w1d7	brachte	_	O	*	B-RK
+26	.	.	_	$.	_	_	_	_	_	_	3092-3093	w1d8	.	_	O	*	O
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# PTBstring = (VROOT(SIMPX(VF(NX(NX(NE Johannes)(NE Gaſtivs)(NX(ART ein)(NX:KONJ(ADJX(ADJA vornehmer))(NN Theologus))(KON vnnd)(NX:KONJ(NN Kirchen))))(NN diener)(PX(APPR zu)(NX:HD(NE Baſel)))))(LK(VXFIN(VAFIN hat)))(MF(NX(ADJX(CARD drey))(ADJX(ADJA gantzer))(NN Tomos)(NX(PIAT ſolcher)(NX:KONJ(TRUNC ſchimpff))(KON vnd)(NX:KONJ(NN ſchertzreden))))(PX(APPR vor)(NX:HD(ART die)(NN Gaͤſt))))(VC(VXINF(VVPP geſchrieben))))(PUNKT .))
+# TopFString = (S(VF(NE Johannes)(NE Gaſtivs)(ART ein)(ADJA vornehmer)(NN Theologus)(KON vnnd)(NN Kirchen)(NN diener)(APPR zu)(NE Baſel))(LK(VAFIN hat))(MF(CARD drey)(ADJA gantzer)(NN Tomos)(PIAT ſolcher)(TRUNC ſchimpff)(KON vnd)(NN ſchertzreden)(APPR vor)(ART die)(NN Gaͤſt))(VC(VVPP geſchrieben))(PUNKT .))
+# text = Johannes Gaſtivs ein vornehmer Theologus vnnd Kirchen diener zu Baſel hat drey gantzer Tomos ſolcher ſchimpff vnd ſchertzreden vor die Gaͤſt geſchrieben .
+1	Johannes	Johannes	_	NE	_	_	_	_	_	_	3095-3103	w1d9	Johannes	B-NP-insitu	B-NP	*	B-VF
+2	Gaſtivs	Gastivs	_	NE	_	_	_	_	_	_	3104-3111	w1da	Gastivs	I-NP	I-NP	*	I-VF
+3	ein	eine	_	ART	_	_	_	_	_	_	3112-3115	w1db	ein	I-NP	I-NP	*	I-VF
+4	vornehmer	vornehm	_	ADJA	_	_	_	_	_	_	3116-3125	w1dc	vornehmer	I-NP	I-NP	*	I-VF
+5	Theologus	theologus	_	NN	_	_	_	_	_	_	3126-3135	w1dd	Theologus	I-NP	I-NP	*	I-VF
+6	vnnd	und	_	KON	_	_	_	_	_	_	3136-3140	w1de	und	I-NP	I-NP	*	I-VF
+7	Kirchen	Kirche	_	NN	_	_	_	_	_	_	3141-3148	w1df	Kirchen	I-NP	I-NP	*	I-VF
+8	diener	Diener	_	NN	_	_	_	_	_	_	3149-3155	w1e0	Diener	I-NP	I-NP	*	I-VF
+9	zu	zu	_	APPR	_	_	_	_	_	_	3156-3158	w1e1	zu	I-NP	I-NP	*	I-VF
+10	Baſel	Basel	_	NE	_	_	_	_	_	_	3159-3164	w1e2	Basel	I-NP	I-NP	*	I-VF
+11	hat	haben	_	VAFIN	_	_	_	_	_	_	3165-3168	w1e3	hat	_	O	*	B-LK
+12	drey	drei	_	CARD	_	_	_	_	_	_	3169-3173	w1e4	drei	B-NP-insitu	B-NP	*	B-MF
+13	gantzer	ganz	_	ADJA	_	_	_	_	_	_	3174-3181	w1e5	ganzer	I-NP	I-NP	*	I-MF
+14	Tomos	Tomos	_	NN	_	_	_	_	_	_	3182-3187	w1e6	Tomos	I-NP	I-NP	*	I-MF
+15	ſolcher	solch	_	PIAT	_	_	_	_	_	_	3188-3195	w1e7	solcher	I-NP	I-NP	*	I-MF
+16	ſchimpff	Schimpf	_	TRUNC	_	_	_	_	_	_	3196-3204	w1e8	Schimpf	I-NP	I-NP	*	I-MF
+17	vnd	und	_	KON	_	_	_	_	_	_	3205-3208	w1e9	und	I-NP	I-NP	*	I-MF
+18	ſchertzreden	Scherzrede	_	NN	_	_	_	_	_	_	3209-3221	w1ea	Scherzreden	I-NP	I-NP	*	I-MF
+19	vor	vor	_	APPR	_	_	_	_	_	_	3222-3225	w1eb	vor	B-PP-insitu	B-PP	*	I-MF
+20	die	d	_	ART	_	_	_	_	_	_	3226-3229	w1ec	die	I-PP	I-PP	*	I-MF
+21	Gaͤſt	Gast	_	NN	_	_	_	_	_	_	3230-3235	w1ed	Gäste	I-PP	I-PP	*	I-MF
+22	geſchrieben	schreiben	_	VVPP	_	_	_	_	_	_	3236-3247	w1ee	geschrieben	_	O	*	B-RK
+23	.	.	_	$.	_	_	_	_	_	_	3248-3249	w1ef	.	_	O	*	O
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# PTBstring = (VROOT(SIMPX(VF(NX(PPER Es)))(LK(VXFIN(VVFIN bezeuget)))(MF(ADVX(ADV noch))(PX(APPR vber)(NX:HD(PDS das)))(ADVX(ADV auch))(NX(ART ein)(ADJX(ADJA ge-<lb/>lehrter))(NN Man))(NX(NE Johannes)(NE Poſthius))))(PUNKT :)(SIMPX(VF(NX(PPER Er)))(LK(VXFIN(VMFIN koͤn-<lb/>ne)))(MF(ADVX(PTKNEG nit))(ADVX(ADV allzeit))(NX(ART die)(NN Theologen)))(VC(VXINF(VVINF leſen))))(KLAMMER /)(SIMPX(VF(ADVX(ADV ſo)))(LK(VXFIN(VMFIN koͤnn)))(MF(NX(PPER er))(ADVX(ADV auch))(NX(ADVX(PTKNEG nicht))(ADVX(ADV allzeit))(NX:KONJ(ART den)(NN Juriſten))(KLAMMER /)(KON noch)(NX:KONJ(ART den)(NN Medicis))))(VC(VXINF(VXINF:KONJ(VVINF obligen))(KON vnnd)(VXINF:KONJ(VVINF vorhaben)))))(KLAMMER /)(SIMPX(VF(NX(PPER er)))(LK(VXFIN(VMFIN muͤſſe)))(MF(PX(NX:HD(NN noth))(APPO halben))))(KLAMMER /)(SIMPX(C(KOUS dz))(MF(NX(PPER jm))(NX(ART die)(NN zeit)))(VC(VXFIN(VVFIN kuͤrtzete))))(KLAMMER /)(NX(KON vnd)(ART das)(NN gemuͤth))(SIMPX(VF(VXINF(VVPP erfriſchet)))(LK(VXFIN(VAFIN wuͤrde)))(MF(ADVX(ADV auch))(NX(NX:KONJ(TRUNC ſchimpff))(KON vñ)(NX:KONJ(NN ſchertz)))(NX(NN rede))(ADVX(ADV mit)))(VC(VXINF(VXINF:KONJ(TRUNC ein))(KON vnd)(VXINF:KONJ(VVINF vndermengen)))))(PUNKT .))
+# TopFString = (S(VF(PPER Es))(LK(VVFIN bezeuget))(MF(ADV noch)(APPR vber)(PDS das)(ADV auch)(ART ein)(ADJA ge-<lb/>lehrter)(NN Man)(NE Johannes)(NE Poſthius))(PUNKT :)(VF(PPER Er))(LK(VMFIN koͤn-<lb/>ne))(MF(PTKNEG nit)(ADV allzeit)(ART die)(NN Theologen))(VC(VVINF leſen))(KLAMMER /)(VF(ADV ſo))(LK(VMFIN koͤnn))(MF(PPER er)(ADV auch)(PTKNEG nicht)(ADV allzeit)(ART den)(NN Juriſten)(KLAMMER /)(KON noch)(ART den)(NN Medicis))(VC(VVINF obligen)(KON vnnd)(VVINF vorhaben))(KLAMMER /)(VF(PPER er))(LK(VMFIN muͤſſe))(MF(NN noth)(APPO halben))(KLAMMER /)(NF(C(KOUS dz))(MF(PPER jm)(ART die)(NN zeit))(VC(VVFIN kuͤrtzete)))(KLAMMER /)(KON vnd)(VF(MF(ART das)(NN gemuͤth))(VC(VVPP erfriſchet)))(LK(VAFIN wuͤrde))(MF(ADV auch)(TRUNC ſchimpff)(KON vñ)(NN ſchertz)(NN rede)(ADV mit))(VC(TRUNC ein)(KON vnd)(VVINF vndermengen))(PUNKT .))
+# text = Es bezeuget noch vber das auch ein ge-<lb/>lehrter Man Johannes Poſthius : Er koͤn-<lb/>ne nit allzeit die Theologen leſen / ſo koͤnn er auch nicht allzeit den Juriſten / noch den Medicis obligen vnnd vorhaben / er muͤſſe noth halben / dz jm die zeit kuͤrtzete / vnd das gemuͤth erfriſchet wuͤrde auch ſchimpff vñ ſchertz rede mit ein vnd vndermengen .
+1	Es	es	_	PPER	_	_	_	_	_	_	3251-3253	w1f0	Es	B-NP-insitu	B-NP	*	B-VF
+2	bezeuget	bezeugen	_	VVFIN	_	_	_	_	_	_	3254-3262	w1f1	bezeuget	_	O	*	B-LK
+3	noch	noch	_	ADV	_	_	_	_	_	_	3263-3267	w1f2	noch	B-ADVP-insitu	B-ADVP	*	B-MF
+4	vber	über	_	APPR	_	_	_	_	_	_	3268-3272	w1f3	über	B-PP-insitu	B-PP	*	I-MF
+5	das	d	_	PDS	_	_	_	_	_	_	3273-3276	w1f4	das	I-PP	I-PP	*	I-MF
+6	auch	auch	_	ADV	_	_	_	_	_	_	3277-3281	w1f5	auch	B-ADVP-insitu	B-ADVP	*	I-MF
+7	ein	eine	_	ART	_	_	_	_	_	_	3282-3285	w1f6	ein	B-NP-insitu	B-NP	*	I-MF
+8	ge-<lb/>lehrter	gelehrt	_	ADJA	_	_	_	_	_	_	3286-3301	w1f7	gelehrter	I-NP	I-NP	*	I-MF
+9	Man	man	_	NN	_	_	_	_	_	_	3302-3305	w1f8	Man	I-NP	I-NP	*	I-MF
+10	Johannes	Johannes	_	NE	_	_	_	_	_	_	3306-3314	w1f9	Johannes	B-NP-insitu	B-NP	*	I-MF
+11	Poſthius	Posthius	_	NE	_	_	_	_	_	_	3315-3323	w1fa	Posthius	I-NP	I-NP	*	I-MF
+12	:	:	_	$.	_	_	_	_	_	_	3324-3325	w1fb	:	_	O	*	O
+13	Er	er	_	PPER	_	_	_	_	_	_	3326-3328	w1fc	Er	B-NP-insitu	B-NP	*	B-VF
+14	koͤn-<lb/>ne	können	_	VMFIN	_	_	_	_	_	_	3329-3341	w1fd	könne	_	O	*	B-LK
+15	nit	nicht	_	PTKNEG	_	_	_	_	_	_	3342-3345	w1fe	nicht	B-ADVP-insitu	B-ADVP	*	B-MF
+16	allzeit	allzeit	_	ADV	_	_	_	_	_	_	3346-3353	w1ff	allzeit	B-ADVP-insitu	B-ADVP	*	I-MF
+17	die	d	_	ART	_	_	_	_	_	_	3354-3357	w200	die	B-NP-insitu	B-NP	*	I-MF
+18	Theologen	Theologe	_	NN	_	_	_	_	_	_	3358-3367	w201	Theologen	I-NP	I-NP	*	I-MF
+19	leſen	lesen	_	VVINF	_	_	_	_	_	_	3368-3373	w202	lesen	_	O	*	B-RK
+20	/	/	_	$(	_	_	_	_	_	_	3374-3375	w203	/	_	O	*	O
+21	ſo	so	_	ADV	_	_	_	_	_	_	3376-3378	w204	so	B-ADVP-insitu	B-ADVP	*	B-VF
+22	koͤnn	könn	_	VMFIN	_	_	_	_	_	_	3379-3384	w205	könn	_	O	*	B-LK
+23	er	er	_	PPER	_	_	_	_	_	_	3385-3387	w206	er	B-NP-insitu	B-NP	*	B-MF
+24	auch	auch	_	ADV	_	_	_	_	_	_	3388-3392	w207	auch	B-ADVP-insitu	B-ADVP	*	I-MF
+25	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	3393-3398	w208	nicht	B-NP-insitu	B-NP	*	I-MF
+26	allzeit	allzeit	_	ADV	_	_	_	_	_	_	3399-3406	w209	allzeit	I-NP	I-NP	*	I-MF
+27	den	d	_	ART	_	_	_	_	_	_	3407-3410	w20a	den	I-NP	I-NP	*	I-MF
+28	Juriſten	Jurist	_	NN	_	_	_	_	_	_	3411-3419	w20b	Juristen	I-NP	I-NP	*	I-MF
+29	/	/	_	$(	_	_	_	_	_	_	3420-3421	w20c	/	I-NP	I-NP	*	I-MF
+30	noch	noch	_	KON	_	_	_	_	_	_	3422-3426	w20d	noch	I-NP	I-NP	*	I-MF
+31	den	d	_	ART	_	_	_	_	_	_	3427-3430	w20e	den	I-NP	I-NP	*	I-MF
+32	Medicis	Medici	_	NN	_	_	_	_	_	_	3431-3438	w20f	Medicis	I-NP	I-NP	*	I-MF
+33	obligen	obliegen	_	VVINF	_	_	_	_	_	_	3439-3446	w210	obliegen	_	O	*	B-RK
+34	vnnd	und	_	KON	_	_	_	_	_	_	3447-3451	w211	und	_	O	*	I-RK
+35	vorhaben	vorhaben	_	VVINF	_	_	_	_	_	_	3452-3460	w212	vorhaben	_	O	*	I-RK
+36	/	/	_	$(	_	_	_	_	_	_	3461-3462	w213	/	_	O	*	O
+37	er	er	_	PPER	_	_	_	_	_	_	3463-3465	w214	er	B-NP-insitu	B-NP	*	B-VF
+38	muͤſſe	müssen	_	VMFIN	_	_	_	_	_	_	3466-3472	w215	müsse	_	O	*	B-LK
+39	noth	Not	_	NN	_	_	_	_	_	_	3473-3477	w216	Not	B-PP-insitu	B-PP	*	B-MF
+40	halben	halb	_	APPO	_	_	_	_	_	_	3478-3484	w217	halben	I-PP	I-PP	*	I-MF
+41	/	/	_	$(	_	_	_	_	_	_	3485-3486	w218	/	_	O	*	O
+42	dz	dass	_	KOUS	_	_	_	_	_	_	3487-3489	w219	dass	_	O	*	B-NF|B-LK
+43	jm	er	_	PPER	_	_	_	_	_	_	3490-3492	w21a	ihm	B-NP-insitu	B-NP	*	I-NF|B-MF
+44	die	d	_	ART	_	_	_	_	_	_	3493-3496	w21b	die	B-NP-insitu	B-NP	*	I-NF|I-MF
+45	zeit	Zeit	_	NN	_	_	_	_	_	_	3497-3501	w21c	Zeit	I-NP	I-NP	*	I-NF|I-MF
+46	kuͤrtzete	kürzen	_	VVFIN	_	_	_	_	_	_	3502-3511	w21d	kürzte	_	O	*	I-NF|B-RK
+47	/	/	_	$(	_	_	_	_	_	_	3512-3513	w21e	/	_	O	*	O
+48	vnd	und	_	KON	_	_	_	_	_	_	3514-3517	w21f	und	B-NP-insitu	B-NP	*	O
+49	das	d	_	ART	_	_	_	_	_	_	3518-3521	w220	das	I-NP	I-NP	*	B-VF|B-MF
+50	gemuͤth	Gemüt	_	NN	_	_	_	_	_	_	3522-3529	w221	Gemüt	I-NP	I-NP	*	I-VF|I-MF
+51	erfriſchet	erfrischen	_	VVPP	_	_	_	_	_	_	3530-3540	w222	erfrischet	_	O	*	I-VF|B-RK
+52	wuͤrde	werden	_	VAFIN	_	_	_	_	_	_	3541-3547	w223	würde	_	O	*	B-LK
+53	auch	auch	_	ADV	_	_	_	_	_	_	3548-3552	w224	auch	B-ADVP-insitu	B-ADVP	*	B-MF
+54	ſchimpff	Schimpf	_	TRUNC	_	_	_	_	_	_	3553-3561	w225	Schimpf	B-NP-insitu	B-NP	*	I-MF
+55	vñ	und	_	KON	_	_	_	_	_	_	3562-3565	w226	und	I-NP	I-NP	*	I-MF
+56	ſchertz	Scherz	_	NN	_	_	_	_	_	_	3566-3573	w227	Scherz	I-NP	I-NP	*	I-MF
+57	rede	reden	_	NN	_	_	_	_	_	_	3574-3578	w228	rede	B-NP-insitu	B-NP	*	I-MF
+58	mit	mit	_	ADV	_	_	_	_	_	_	3579-3582	w229	mit	B-ADVP-insitu	B-ADVP	*	I-MF
+59	ein	eine	_	TRUNC	_	_	_	_	_	_	3583-3586	w22a	ein	_	O	*	B-RK
+60	vnd	und	_	KON	_	_	_	_	_	_	3587-3590	w22b	und	_	O	*	I-RK
+61	vndermengen	untermengen	_	VVINF	_	_	_	_	_	_	3591-3602	w22c	untermengen	_	O	*	I-RK
+62	.	.	_	$.	_	_	_	_	_	_	3603-3604	w22d	.	_	O	*	O
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# PTBstring = (VROOT(SIMPX(VF(NX(NE Joh.)(NE Reiffenſtein)))(LK(VXFIN(VVFIN ſchreibt)))(MF(ADVX(ADV alſo))))(PUNKT :)(SIMPX(VF(NX(PPER Es)))(LK(VXFIN(VAFIN werden)))(MF(NX(PDAT die-<lb/>ſer)(NN zeit))(NX(NN Leuth)))(VC(VXINF(VVPP gefunden))))(KLAMMER /)(SIMPX(C(NX(PRELS welche)))(MF(NX(ADJX(ADJX:KONJ(ADJA nutzlicher))(KON vnd)(ADJX:KONJ(ADJA hochwichtiger)))(NN dingen))(NX(PRF ſich)))(VC(VXFIN(VVFIN vnderfangẽ)))))
+# TopFString = (S(VF(NE Joh.)(NE Reiffenſtein))(LK(VVFIN ſchreibt))(MF(ADV alſo))(PUNKT :)(VF(PPER Es))(LK(VAFIN werden))(MF(PDAT die-<lb/>ſer)(NN zeit)(NN Leuth))(VC(VVPP gefunden))(KLAMMER /)(NF(C(PRELS welche))(MF(ADJA nutzlicher)(KON vnd)(ADJA hochwichtiger)(NN dingen)(PRF ſich))(VC(VVFIN vnderfangẽ))))
+# text = Joh. Reiffenſtein ſchreibt alſo : Es werden die-<lb/>ſer zeit Leuth gefunden / welche nutzlicher vnd hochwichtiger dingen ſich vnderfangẽ
+1	Joh.	Joh.	_	NE	_	_	_	_	_	_	3606-3610	w22e	Joh.	B-NP-insitu	B-NP	*	B-VF
+2	Reiffenſtein	Reifenstein	_	NE	_	_	_	_	_	_	3611-3623	w22f	Reifenstein	I-NP	I-NP	*	I-VF
+3	ſchreibt	schreiben	_	VVFIN	_	_	_	_	_	_	3624-3632	w230	schreibt	_	O	*	B-LK
+4	alſo	also	_	ADV	_	_	_	_	_	_	3633-3637	w231	also	B-ADVP-insitu	B-ADVP	*	B-MF
+5	:	:	_	$.	_	_	_	_	_	_	3638-3639	w232	:	_	O	*	O
+6	Es	es	_	PPER	_	_	_	_	_	_	3640-3642	w233	Es	B-NP-insitu	B-NP	*	B-VF
+7	werden	werden	_	VAFIN	_	_	_	_	_	_	3643-3649	w234	werden	_	O	*	B-LK
+8	die-<lb/>ſer	diese	_	PDAT	_	_	_	_	_	_	3650-3662	w235	dieser	B-NP-insitu	B-NP	*	B-MF
+9	zeit	Zeit	_	NN	_	_	_	_	_	_	3663-3667	w236	Zeit	I-NP	I-NP	*	I-MF
+10	Leuth	Leute	_	NN	_	_	_	_	_	B-Antec-1-Head	3668-3673	w237	Leute	B-NP-insitu	B-NP	*	I-MF
+11	gefunden	finden	_	VVPP	_	_	_	_	_	_	3674-3682	w238	gefunden	_	O	*	B-RK
+12	/	/	_	$(	_	_	_	_	_	_	3683-3684	w239	/	_	O	*	O
+13	welche	welche	_	PRELS	_	_	_	_	_	_	3685-3691	w23a	welche	B-RELC-extrap-1|B-NP-insitu	B-NP	*	B-NF|B-LK
+14	nutzlicher	nützlich	_	ADJA	_	_	_	_	_	_	3692-3702	w23b	nützlicher	I-RELC|B-NP-insitu	B-NP	*	I-NF|B-MF
+15	vnd	und	_	KON	_	_	_	_	_	_	3703-3706	w23c	und	I-RELC|I-NP	I-NP	*	I-NF|I-MF
+16	hochwichtiger	hochwichtig	_	ADJA	_	_	_	_	_	_	3707-3720	w23d	hochwichtiger	I-RELC|I-NP	I-NP	*	I-NF|I-MF
+17	dingen	Ding	_	NN	_	_	_	_	_	_	3721-3727	w23e	Dingen	I-RELC|I-NP	I-NP	*	I-NF|I-MF
+18	ſich	sich	_	PRF	_	_	_	_	_	_	3728-3732	w23f	sich	I-RELC|B-NP-insitu	B-NP	*	I-NF|I-MF
+19	vnderfangẽ	unterfangen	_	VVFIN	_	_	_	_	_	_	3733-3744	w240	unterfangen	I-RELC	O	*	I-NF|B-RK
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# PTBstring = (VROOT(SIMPX(VF(NX(PPER ich)))(LK(VXFIN(VVFIN hielt)))(MF(NX(PPER es))(ADJX(ADJD beſſer))))(KLAMMER /)(SIMPX(SIMPX:KONJ(C(KOUS dz))(MF(NX(PIS man))(PX(PAV darvor))(NX(PIAT etliche)(NN zeit)))(VC(VXFIN(VVFIN zubraͤchte))))(KON vnd)(LK(VXFIN(VVFIN leſe)))(MF(PX(PAV darvor))(NX(NN Jocos))))(KLAMMER /)(ADJX(ADJD ſonder-<lb/>lich)(SIMPX(C(PX(PAV darauß)))(MF(NX(PIS man))(ADVX(ADV etwan)))(VC(VXINF(VVINF nutzenſchaffẽ))(VXFIN(VMFIN koͤn-<lb/>ne)))))(KLAMMER /))
+# TopFString = (S(VF(PPER ich))(LK(VVFIN hielt))(MF(PPER es)(ADJD beſſer))(KLAMMER /)(NF(C(KOUS dz))(FKOORD(FKONJ(MF(PIS man)(PAV darvor)(PIAT etliche)(NN zeit))(VC(VVFIN zubraͤchte)))(KON vnd)(FKONJ(LK(VVFIN leſe))(MF(PAV darvor)(NN Jocos))(KLAMMER /)(NF(C(ADJD ſonder-<lb/>lich))(MF(PAV darauß)(PIS man)(ADV etwan))(VC(VVINF nutzenſchaffẽ)(VMFIN koͤn-<lb/>ne))))))(KLAMMER /))
+# text = ich hielt es beſſer / dz man darvor etliche zeit zubraͤchte vnd leſe darvor Jocos / ſonder-<lb/>lich darauß man etwan nutzenſchaffẽ koͤn-<lb/>ne /
+1	ich	ich	_	PPER	_	_	_	_	_	_	3746-3749	w241	ich	B-NP-insitu	B-NP	*	B-VF
+2	hielt	halten	_	VVFIN	_	_	_	_	_	_	3750-3755	w242	hielt	_	O	*	B-LK
+3	es	es	_	PPER	_	_	_	_	_	_	3756-3758	w243	es	B-NP-insitu	B-NP	*	B-MF
+4	beſſer	gut	_	ADJD	_	_	_	_	_	_	3759-3765	w244	besser	B-AP-insitu	B-AP	*	I-MF
+5	/	/	_	$(	_	_	_	_	_	_	3766-3767	w245	/	_	O	*	O
+6	dz	dass	_	KOUS	_	_	_	_	_	_	3768-3770	w246	dass	_	O	*	B-NF|B-LK
+7	man	man	_	PIS	_	_	_	_	_	_	3771-3774	w247	man	B-NP-insitu	B-NP	*	I-NF|B-MF
+8	darvor	davor	_	PAV	_	_	_	_	_	_	3775-3781	w248	davor	B-PP-insitu	B-PP	*	I-NF|I-MF
+9	etliche	etliche	_	PIAT	_	_	_	_	_	_	3782-3789	w249	etliche	B-NP-insitu	B-NP	*	I-NF|I-MF
+10	zeit	Zeit	_	NN	_	_	_	_	_	_	3790-3794	w24a	Zeit	I-NP	I-NP	*	I-NF|I-MF
+11	zubraͤchte	zubringen	_	VVFIN	_	_	_	_	_	_	3795-3805	w24b	zubrächte	_	O	*	I-NF|B-RK
+12	vnd	und	_	KON	_	_	_	_	_	_	3806-3809	w24c	und	_	O	*	I-NF|B-KOORD
+13	leſe	lesen	_	VVFIN	_	_	_	_	_	_	3810-3814	w24d	lese	_	O	*	I-NF|B-LK
+14	darvor	davor	_	PAV	_	_	_	_	_	_	3815-3821	w24e	davor	B-PP-insitu	B-PP	*	I-NF|B-MF
+15	Jocos	jocos	_	NN	_	_	_	_	_	_	3822-3827	w24f	Jocos	B-NP-insitu	B-NP	*	I-NF|I-MF
+16	/	/	_	$(	_	_	_	_	_	_	3828-3829	w250	/	_	O	*	I-NF
+17	ſonder-<lb/>lich	sonderlich	_	ADJD	_	_	_	_	_	_	3830-3846	w251	sonderlich	B-AP-extrap	B-AP	*	I-NF|B-NF|B-LK
+18	darauß	daraus	_	PAV	_	_	_	_	_	_	3847-3853	w252	daraus	I-AP|B-PP-insitu	I-AP	*	I-NF|I-NF|B-MF
+19	man	man	_	PIS	_	_	_	_	_	_	3854-3857	w253	man	I-AP|B-NP-insitu	I-AP	*	I-NF|I-NF|I-MF
+20	etwan	etwan	_	ADV	_	_	_	_	_	_	3858-3863	w254	etwan	I-AP|B-ADVP-insitu	I-AP	*	I-NF|I-NF|I-MF
+21	nutzenſchaffẽ	Nutzenschaffen	_	VVINF	_	_	_	_	_	_	3864-3878	w255	Nutzenschaffen	I-AP	I-AP	*	I-NF|I-NF|B-RK
+22	koͤn-<lb/>ne	können	_	VMFIN	_	_	_	_	_	_	3879-3891	w256	könne	I-AP	I-AP	*	I-NF|I-NF|I-RK
+23	/	/	_	$(	_	_	_	_	_	_	3892-3893	w257	/	_	O	*	O
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# PTBstring = (VROOT(SIMPX(VF(NX(PDS die)))(LK(VXFIN(VVFIN legten)))(MF(NX(PPOSAT jre)(NN zeit))(ADJX(ADJD beſſer)))(VC(PTKVZ an)))(PUNKT .))
+# TopFString = (S(VF(PDS die))(LK(VVFIN legten))(MF(PPOSAT jre)(NN zeit)(ADJD beſſer))(VC(PTKVZ an))(PUNKT .))
+# text = die legten jre zeit beſſer an .
+1	die	die	_	PDS	_	_	_	_	_	_	3895-3898	w258	die	B-NP-insitu	B-NP	*	B-VF
+2	legten	legen	_	VVFIN	_	_	_	_	_	_	3899-3905	w259	legten	_	O	*	B-LK
+3	jre	ihr	_	PPOSAT	_	_	_	_	_	_	3906-3909	w25a	ihre	B-NP-insitu	B-NP	*	B-MF
+4	zeit	Zeit	_	NN	_	_	_	_	_	_	3910-3914	w25b	Zeit	I-NP	I-NP	*	I-MF
+5	beſſer	gut	_	ADJD	_	_	_	_	_	_	3915-3921	w25c	besser	B-AP-insitu	B-AP	*	I-MF
+6	an	an	_	PTKVZ	_	_	_	_	_	_	3922-3924	w25d	an	_	O	*	B-RK
+7	.	.	_	$.	_	_	_	_	_	_	3925-3926	w25e	.	_	O	*	O
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# PTBstring = (VROOT(SIMPX(VF(NX(ART Der)(NN Codrus)))(LK(VXFIN(VAFIN wahre)))(VC(VXINF(VVPP gefragt))(VXINF(VAPP wordẽ))))(KLAMMER /)(SIMPX(C(ADVX(PWAV warumb)))(MF(NX(PPER er))(SIMPX:OS(MF(ADVX(ADV allzeit))(PX(APPR in)(NX:HD(PPOSAT ſeinem)(NX:KONJ(NN reden))(KON vnd)(NX:KONJ(NN ſchwetzẽ))))(NX(NN ſchweng))(ADVX(ADV mit)))(VC(PTKVZ ein))))(VC(VXFIN(VVFIN braͤchte))))(PUNKT ?))
+# TopFString = (S(VF(ART Der)(NN Codrus))(LK(VAFIN wahre))(VC(VVPP gefragt)(VAPP wordẽ))(KLAMMER /)(NF(C(PWAV warumb))(MF(PPER er)(ADV allzeit)(APPR in)(PPOSAT ſeinem)(NN reden)(KON vnd)(NN ſchwetzẽ)(NN ſchweng)(ADV mit))(VC(PTKVZ ein)(VVFIN braͤchte)))(PUNKT ?))
+# text = Der Codrus wahre gefragt wordẽ / warumb er allzeit in ſeinem reden vnd ſchwetzẽ ſchweng mit ein braͤchte ?
+1	Der	d	_	ART	_	_	_	_	_	_	3928-3931	w25f	Der	B-NP-insitu	B-NP	*	B-VF
+2	Codrus	Codrus	_	NN	_	_	_	_	_	_	3932-3938	w260	Codrus	I-NP	I-NP	*	I-VF
+3	wahre	wahr	_	VAFIN	_	_	_	_	_	_	3939-3944	w261	wahre	_	O	*	B-LK
+4	gefragt	fragen	_	VVPP	_	_	_	_	_	_	3945-3952	w262	gefragt	_	O	*	B-RK
+5	wordẽ	werden	_	VAPP	_	_	_	_	_	_	3953-3959	w263	worden	_	O	*	I-RK
+6	/	/	_	$(	_	_	_	_	_	_	3960-3961	w264	/	_	O	*	O
+7	warumb	warum	_	PWAV	_	_	_	_	_	_	3962-3968	w265	warum	_	O	*	B-NF|B-LK
+8	er	er	_	PPER	_	_	_	_	_	_	3969-3971	w266	er	B-NP-insitu	B-NP	*	I-NF|B-MF
+9	allzeit	allzeit	_	ADV	_	_	_	_	_	_	3972-3979	w267	allzeit	B-ADVP-insitu	B-ADVP	*	I-NF|I-MF
+10	in	in	_	APPR	_	_	_	_	_	_	3980-3982	w268	in	B-PP-insitu	B-PP	*	I-NF|I-MF
+11	ſeinem	seine	_	PPOSAT	_	_	_	_	_	_	3983-3989	w269	seinem	I-PP	I-PP	*	I-NF|I-MF
+12	reden	reden	_	NN	_	_	_	_	_	_	3990-3995	w26a	reden	I-PP	I-PP	*	I-NF|I-MF
+13	vnd	und	_	KON	_	_	_	_	_	_	3996-3999	w26b	und	I-PP	I-PP	*	I-NF|I-MF
+14	ſchwetzẽ	schwätzen	_	NN	_	_	_	_	_	_	4000-4009	w26c	schwätzen	I-PP	I-PP	*	I-NF|I-MF
+15	ſchweng	schwängen	_	NN	_	_	_	_	_	_	4010-4017	w26d	schwäng	B-NP-insitu	B-NP	*	I-NF|I-MF
+16	mit	mit	_	ADV	_	_	_	_	_	_	4018-4021	w26e	mit	B-ADVP-insitu	B-ADVP	*	I-NF|I-MF
+17	ein	eine	_	PTKVZ	_	_	_	_	_	_	4022-4025	w26f	ein	_	O	*	I-NF|B-RK
+18	braͤchte	bringen	_	VVFIN	_	_	_	_	_	_	4026-4034	w270	brächte	_	O	*	I-NF|I-RK
+19	?	?	_	$.	_	_	_	_	_	_	4035-4036	w271	?	_	O	*	O
+
+# sent_id = 19
+# sent_id(TSV) = 19
+# PTBstring = (VROOT(SIMPX(LK(VXFIN(VAFIN hat)))(MF(NX(PPER er)))(VC(VXINF(VVPP geantwortet))))(KLAMMER /)(SIMPX(C(KOUS daß))(MF(NX(ART die)(NN Natur))(NX(ART die)(NN menſchen))(ADVX(ADV alſo)))(VC(VXINF(VVPP beſchaffen)))(NF(C(KOUS daß))))(SIMPX(VF(NX(PPER ſie)))(LK(VXFIN(VMFIN ſolten)))(MF(ADJX(ADJD freundlich))))(KLAMMER /)(SIMPX(MF(ADJX(ADJX:KONJ(ADJD hoͤfflich))(KON vnnd)(ADJX:KONJ(ADJD kurtzweilig))))(VC(VXINF(VAINF ſein))))(KLAMMER /))
+# TopFString = (S(LK(VAFIN hat))(MF(PPER er))(VC(VVPP geantwortet))(KLAMMER /)(NF(C(KOUS daß))(FKOORD(FKONJ(MF(ART die)(NN Natur)(ART die)(NN menſchen)(ADV alſo))(VC(VVPP beſchaffen))(NF(C(KOUS daß))(MF(PPER ſie))(VC(VMFIN ſolten))(NF(ADJD freundlich)(KLAMMER /)(ADJD hoͤfflich))))(KON vnnd)(FKONJ(MF(ADJD kurtzweilig))(VC(VAINF ſein)))))(KLAMMER /))
+# text = hat er geantwortet / daß die Natur die menſchen alſo beſchaffen daß ſie ſolten freundlich / hoͤfflich vnnd kurtzweilig ſein /
+1	hat	haben	_	VAFIN	_	_	_	_	_	_	4038-4041	w272	hat	_	O	*	B-LK
+2	er	er	_	PPER	_	_	_	_	_	_	4042-4044	w273	er	B-NP-insitu	B-NP	*	B-MF
+3	geantwortet	antworten	_	VVPP	_	_	_	_	_	_	4045-4056	w274	geantwortet	_	O	*	B-RK
+4	/	/	_	$(	_	_	_	_	_	_	4057-4058	w275	/	_	O	*	O
+5	daß	daß	_	KOUS	_	_	_	_	_	_	4059-4062	w276	daß	_	O	*	B-NF|B-LK
+6	die	d	_	ART	_	_	_	_	_	_	4063-4066	w277	die	B-NP-insitu	B-NP	*	I-NF|B-MF
+7	Natur	Natur	_	NN	_	_	_	_	_	_	4067-4072	w278	Natur	I-NP	I-NP	*	I-NF|I-MF
+8	die	d	_	ART	_	_	_	_	_	_	4073-4076	w279	die	B-NP-insitu	B-NP	*	I-NF|I-MF
+9	menſchen	Mensch	_	NN	_	_	_	_	_	_	4077-4085	w27a	Menschen	I-NP	I-NP	*	I-NF|I-MF
+10	alſo	also	_	ADV	_	_	_	_	_	_	4086-4090	w27b	also	B-ADVP-insitu	B-ADVP	*	I-NF|I-MF
+11	beſchaffen	beschaffen	_	VVPP	_	_	_	_	_	_	4091-4101	w27c	beschaffen	_	O	*	I-NF|B-RK
+12	daß	daß	_	KOUS	_	_	_	_	_	_	4102-4105	w27d	daß	_	O	*	I-NF|B-NF|B-LK
+13	ſie	sie	_	PPER	_	_	_	_	_	_	4106-4109	w27e	sie	B-NP-insitu	B-NP	*	I-NF|I-NF|B-MF
+14	ſolten	sollen	_	VMFIN	_	_	_	_	_	_	4110-4116	w27f	sollten	_	O	*	I-NF|I-NF|B-RK
+15	freundlich	freundlich	_	ADJD	_	_	_	_	_	_	4117-4127	w280	freundlich	B-AP-extrap	B-AP	*	I-NF|I-NF|B-NF
+16	/	/	_	$(	_	_	_	_	_	_	4128-4129	w281	/	_	O	*	I-NF|I-NF|I-NF
+17	hoͤfflich	höflich	_	ADJD	_	_	_	_	_	_	4130-4139	w282	höflich	B-AP-insitu	B-AP	*	I-NF|I-NF|I-NF
+18	vnnd	und	_	KON	_	_	_	_	_	_	4140-4144	w283	und	I-AP	I-AP	*	I-NF|B-KOORD
+19	kurtzweilig	kurzweilig	_	ADJD	_	_	_	_	_	_	4145-4156	w284	kurzweilig	I-AP|B-AP-insitu	I-AP	*	I-NF|B-MF
+20	ſein	sein	_	VAINF	_	_	_	_	_	_	4157-4161	w285	sein	_	O	*	I-NF|B-RK
+21	/	/	_	$(	_	_	_	_	_	_	4162-4163	w286	/	_	O	*	O
+
+# sent_id = 20
+# sent_id(TSV) = 20
+# PTBstring = (VROOT(SIMPX(SIMPX:KONJ(VF(NX(ART der)(NN Author)(NX(PDAT dieſes)(NX:KONJ(NN Schimpffs))(KON vnd)(NX:KONJ(NN Ernſts)))))(LK(VXFIN(VAFIN hat)))(FKOORD(FKONJ:KONJ(MF(ADVX(ADV auch))(NX(PIS ſolches)))(VC(VXFIN(VVFIN erklaͤret))))(KLAMMER /)(KLAMMER LBR)(C:KONJ(KOUS daß))))(SIMPX:KONJ(VF(NX(PPER wir)))(LK(VXFIN(VMFIN ſollen)))(MF(ADJX(ADJX:KONJ(ADJD kurtzweilig))(KON vnd)(ADJX:KONJ(ADJD froͤlich))))(VC(VXINF(VAINF ſein)))(NF(PX(APPR in)(NX:HD(NN Ehren))))))(KLAMMER RBR)(PX(APPR in)(NX:HD(PDAT dieſem)(NN Tetraſticho)))(PUNKT :))
+# TopFString = (S(VF(ART der)(NN Author)(PDAT dieſes)(NN Schimpffs)(KON vnd)(NN Ernſts))(LK(VAFIN hat))(FKOORD(FKONJ(MF(ADV auch)(PIS ſolches))(VC(VVFIN erklaͤret)))(KLAMMER /)(KLAMMER LBR)(C(KOUS daß))(NF(VF(PPER wir))(LK(VMFIN ſollen))(MF(ADJD kurtzweilig)(KON vnd)(ADJD froͤlich))(VC(VAINF ſein))(NF(APPR in)(NN Ehren)))(KLAMMER RBR)(MF(APPR in)(PDAT dieſem)(NN Tetraſticho)))(PUNKT :))
+# text = der Author dieſes Schimpffs vnd Ernſts hat auch ſolches erklaͤret / ( daß wir ſollen kurtzweilig vnd froͤlich ſein in Ehren ) in dieſem Tetraſticho :
+1	der	d	_	ART	_	_	_	_	_	_	4165-4168	w287	der	B-NP-insitu	B-NP	*	B-VF
+2	Author	Autor	_	NN	_	_	_	_	_	_	4169-4175	w288	Autor	I-NP	I-NP	*	I-VF
+3	dieſes	diese	_	PDAT	_	_	_	_	_	_	4176-4182	w289	dieses	I-NP	I-NP	*	I-VF
+4	Schimpffs	Schimpf	_	NN	_	_	_	_	_	_	4183-4192	w28a	Schimpfs	I-NP	I-NP	*	I-VF
+5	vnd	und	_	KON	_	_	_	_	_	_	4193-4196	w28b	und	I-NP	I-NP	*	I-VF
+6	Ernſts	Ernst	_	NN	_	_	_	_	_	_	4197-4203	w28c	Ernsts	I-NP	I-NP	*	I-VF
+7	hat	haben	_	VAFIN	_	_	_	_	_	_	4204-4207	w28d	hat	_	O	*	B-LK
+8	auch	auch	_	ADV	_	_	_	_	_	_	4208-4212	w28e	auch	B-ADVP-insitu	B-ADVP	*	B-MF
+9	ſolches	solch	_	PIS	_	_	_	_	_	_	4213-4220	w28f	solches	B-NP-insitu	B-NP	*	I-MF
+10	erklaͤret	erklären	_	VVFIN	_	_	_	_	_	_	4221-4230	w290	erkläret	_	O	*	B-RK
+11	/	/	_	$(	_	_	_	_	_	_	4231-4232	w291	/	_	O	*	O
+12	(	(	_	$(	_	_	_	_	_	_	4233-4234	w292	(	_	O	*	O
+13	daß	daß	_	KOUS	_	_	_	_	_	_	4235-4238	w293	daß	_	O	*	B-LK
+14	wir	wir	_	PPER	_	_	_	_	_	_	4239-4242	w294	wir	B-NP-insitu	B-NP	*	B-NF|B-VF
+15	ſollen	sollen	_	VMFIN	_	_	_	_	_	_	4243-4249	w295	sollen	_	O	*	I-NF|B-LK
+16	kurtzweilig	kurzweilig	_	ADJD	_	_	_	_	_	_	4250-4261	w296	kurzweilig	B-AP-insitu	B-AP	*	I-NF|B-MF
+17	vnd	und	_	KON	_	_	_	_	_	_	4262-4265	w297	und	I-AP	I-AP	*	I-NF|I-MF
+18	froͤlich	fröhlich	_	ADJD	_	_	_	_	_	_	4266-4274	w298	fröhlich	I-AP	I-AP	*	I-NF|I-MF
+19	ſein	sein	_	VAINF	_	_	_	_	_	_	4275-4279	w299	sein	_	O	*	I-NF|B-RK
+20	in	in	_	APPR	_	_	_	_	_	_	4280-4282	w29a	in	B-PP-extrap	B-PP	*	I-NF|B-NF
+21	Ehren	Ehre	_	NN	_	_	_	_	_	_	4283-4288	w29b	Ehren	I-PP	I-PP	*	I-NF|I-NF
+22	)	)	_	$(	_	_	_	_	_	_	4289-4290	w29c	)	_	O	*	O
+23	in	in	_	APPR	_	_	_	_	_	_	4291-4293	w29d	in	B-PP-insitu	B-PP	*	B-MF
+24	dieſem	diese	_	PDAT	_	_	_	_	_	_	4294-4300	w29e	diesem	I-PP	I-PP	*	I-MF
+25	Tetraſticho	Tetrasticho	_	NN	_	_	_	_	_	_	4301-4312	w29f	Tetrasticho	I-PP	I-PP	*	I-MF
+26	:	:	_	$.	_	_	_	_	_	_	4313-4314	w2a0	:	_	O	*	O
+
+# sent_id = 21
+# sent_id(TSV) = 21
+# PTBstring = (VROOT(FX(FM Qui)(FM qtlandoque)(FM ſales)(FM non)(FM immiſcere)(FM facetos)(FM Novit)(KOMMA ,)(FM is)(FM indignus)(KOMMA ,)(FM qui)(FM voret)(FM ore)(FM ſalem)(KOMMA ,)(FM eſt))(PUNKT .))
+# TopFString = (S(VF(FM Qui)(FM qtlandoque)(FM ſales)(FM non)(FM immiſcere)(FM facetos)(FM Novit))(KOMMA ,)(FM is)(FM indignus)(KOMMA ,)(FM qui)(FM voret)(FM ore)(FM ſalem)(KOMMA ,)(FM eſt)(PUNKT .))
+# text = Qui qtlandoque ſales non immiſcere facetos Novit , is indignus , qui voret ore ſalem , eſt .
+1	Qui	qui	_	FM	_	_	_	_	_	_	4316-4319	w2a1	Qui	_	O	*	B-VF
+2	qtlandoque	qtlandoque	_	FM	_	_	_	_	_	_	4320-4330	w2a2	qtlandoque	_	O	*	I-VF
+3	ſales	sales	_	FM	_	_	_	_	_	_	4331-4336	w2a3	sales	_	O	*	I-VF
+4	non	non	_	FM	_	_	_	_	_	_	4337-4340	w2a4	non	_	O	*	I-VF
+5	immiſcere	immiscere	_	FM	_	_	_	_	_	_	4341-4350	w2a5	immiscere	_	O	*	I-VF
+6	facetos	facetos	_	FM	_	_	_	_	_	_	4351-4358	w2a6	facetos	_	O	*	I-VF
+7	Novit	novit	_	FM	_	_	_	_	_	_	4359-4364	w2a7	Novit	_	O	*	I-VF
+8	,	,	_	$,	_	_	_	_	_	_	4365-4366	w2a8	,	_	O	*	O
+9	is	is	_	FM	_	_	_	_	_	_	4367-4369	w2a9	is	_	O	*	O
+10	indignus	indignus	_	FM	_	_	_	_	_	_	4370-4378	w2aa	indignus	_	O	*	O
+11	,	,	_	$,	_	_	_	_	_	_	4379-4380	w2ab	,	_	O	*	O
+12	qui	qui	_	FM	_	_	_	_	_	_	4381-4384	w2ac	qui	_	O	*	O
+13	voret	voret	_	FM	_	_	_	_	_	_	4385-4390	w2ad	voret	_	O	*	O
+14	ore	ore	_	FM	_	_	_	_	_	_	4391-4394	w2ae	ore	_	O	*	O
+15	ſalem	salem	_	FM	_	_	_	_	_	_	4395-4400	w2af	salem	_	O	*	O
+16	,	,	_	$,	_	_	_	_	_	_	4401-4402	w2b0	,	_	O	*	O
+17	eſt	est	_	FM	_	_	_	_	_	_	4403-4406	w2b1	est	_	O	*	O
+18	.	.	_	$.	_	_	_	_	_	_	4407-4408	w2b2	.	_	O	*	O
+
+# sent_id = 22
+# sent_id(TSV) = 22
+# PTBstring = (VROOT(FX(FM Quive)(FM recenſentem)(FM non)(FM vult)(FM audire)(FM lepores)(KOMMA ,)(FM Eſt)(FM lepus)(KOMMA ,)(FM atque)(FM animo)(FM non)(FM habet)(FM ille)(FM ſalem))(PUNKT .))
+# TopFString = (S(VF(FM Quive)(FM recenſentem)(FM non)(FM vult)(FM audire)(FM lepores))(KOMMA ,)(MF(FM Eſt)(FM lepus)(KOMMA ,)(FM atque)(FM animo)(FM non)(FM habet)(FM ille)(FM ſalem))(PUNKT .))
+# text = Quive recenſentem non vult audire lepores , Eſt lepus , atque animo non habet ille ſalem .
+1	Quive	quive	_	FM	_	_	_	_	_	_	4410-4415	w2b3	Quive	_	O	*	B-VF
+2	recenſentem	recensentem	_	FM	_	_	_	_	_	_	4416-4427	w2b4	recensentem	_	O	*	I-VF
+3	non	non	_	FM	_	_	_	_	_	_	4428-4431	w2b5	non	_	O	*	I-VF
+4	vult	vult	_	FM	_	_	_	_	_	_	4432-4436	w2b6	vult	_	O	*	I-VF
+5	audire	audire	_	FM	_	_	_	_	_	_	4437-4443	w2b7	audire	_	O	*	I-VF
+6	lepores	lepores	_	FM	_	_	_	_	_	_	4444-4451	w2b8	lepores	_	O	*	I-VF
+7	,	,	_	$,	_	_	_	_	_	_	4452-4453	w2b9	,	_	O	*	O
+8	Eſt	est	_	FM	_	_	_	_	_	_	4454-4457	w2ba	Est	_	O	*	B-MF
+9	lepus	lepus	_	FM	_	_	_	_	_	_	4458-4463	w2bb	lepus	_	O	*	I-MF
+10	,	,	_	$,	_	_	_	_	_	_	4464-4465	w2bc	,	_	O	*	I-MF
+11	atque	atque	_	FM	_	_	_	_	_	_	4466-4471	w2bd	atque	_	O	*	I-MF
+12	animo	animo	_	FM	_	_	_	_	_	_	4472-4477	w2be	animo	_	O	*	I-MF
+13	non	non	_	FM	_	_	_	_	_	_	4478-4481	w2bf	non	_	O	*	I-MF
+14	habet	habet	_	FM	_	_	_	_	_	_	4482-4487	w2c0	habet	_	O	*	I-MF
+15	ille	ille	_	FM	_	_	_	_	_	_	4488-4492	w2c1	ille	_	O	*	I-MF
+16	ſalem	salem	_	FM	_	_	_	_	_	_	4493-4498	w2c2	salem	_	O	*	I-MF
+17	.	.	_	$.	_	_	_	_	_	_	4499-4500	w2c3	.	_	O	*	O
+
+# sent_id = 23
+# sent_id(TSV) = 23
+# PTBstring = (VROOT(FX(FM Muſica)(FM vita)(FM Deo)(FM Grata)(FM eſt)(KOMMA ,)(FM hominumque)(FM catervæ)(KOMMA ,)(FM Exeat)(FM è)(FM mundo)(KOMMA ,)(FM qui)(FM joca)(FM docta)(FM fugit))(PUNKT .))
+# TopFString = (S(VF(FM Muſica)(FM vita)(FM Deo)(FM Grata)(FM eſt))(KOMMA ,)(FM hominumque)(FM catervæ)(KOMMA ,)(FM Exeat)(FM è)(FM mundo)(KOMMA ,)(FM qui)(FM joca)(FM docta)(FM fugit)(PUNKT .))
+# text = Muſica vita Deo Grata eſt , hominumque catervæ , Exeat è mundo , qui joca docta fugit .
+1	Muſica	musik	_	FM	_	_	_	_	_	_	4502-4508	w2c4	Musik	_	O	*	B-VF
+2	vita	vita	_	FM	_	_	_	_	_	_	4509-4513	w2c5	vita	_	O	*	I-VF
+3	Deo	deo	_	FM	_	_	_	_	_	_	4514-4517	w2c6	Deo	_	O	*	I-VF
+4	Grata	grata	_	FM	_	_	_	_	_	_	4518-4523	w2c7	Grata	_	O	*	I-VF
+5	eſt	est	_	FM	_	_	_	_	_	_	4524-4527	w2c8	est	_	O	*	I-VF
+6	,	,	_	$,	_	_	_	_	_	_	4528-4529	w2c9	,	_	O	*	O
+7	hominumque	hominumque	_	FM	_	_	_	_	_	_	4530-4540	w2ca	hominumque	_	O	*	O
+8	catervæ	catervae	_	FM	_	_	_	_	_	_	4541-4548	w2cb	catervae	_	O	*	O
+9	,	,	_	$,	_	_	_	_	_	_	4549-4550	w2cc	,	_	O	*	O
+10	Exeat	exeat	_	FM	_	_	_	_	_	_	4551-4556	w2cd	Exeat	_	O	*	O
+11	è	e	_	FM	_	_	_	_	_	_	4557-4558	w2ce	e	_	O	*	O
+12	mundo	mundo	_	FM	_	_	_	_	_	_	4559-4564	w2cf	mundo	_	O	*	O
+13	,	,	_	$,	_	_	_	_	_	_	4565-4566	w2d0	,	_	O	*	O
+14	qui	qui	_	FM	_	_	_	_	_	_	4567-4570	w2d1	qui	_	O	*	O
+15	joca	joca	_	FM	_	_	_	_	_	_	4571-4575	w2d2	joca	_	O	*	O
+16	docta	docta	_	FM	_	_	_	_	_	_	4576-4581	w2d3	docta	_	O	*	O
+17	fugit	fugit	_	FM	_	_	_	_	_	_	4582-4587	w2d4	fugit	_	O	*	O
+18	.	.	_	$.	_	_	_	_	_	_	4588-4589	w2d5	.	_	O	*	O

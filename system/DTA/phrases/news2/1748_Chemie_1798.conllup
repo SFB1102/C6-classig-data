@@ -1,0 +1,487 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CharOffset DTA:ID DTA:NORM PHRASE POS
+# sent_id = 1
+# sent_id(TSV) = 1
+# PTBstring = (VROOT(S(NP(ADJA Allgemeines)(NN Journal)(NP(ART der)(NN Chemie)))(VP(VVPP Herausgegeben))(PP(APPR von)(NN D.)(PN(NE Alexander)(NE Nicolaus)(NE Scherer)(KOMMA ,))(AP(ADJD Herzogl)(PUNKT .)))))
+# text = Allgemeines Journal der Chemie Herausgegeben von D. Alexander Nicolaus Scherer , Herzogl .
+1	Allgemeines	allgemein	_	ADJA	_	_	_	_	_	0-11	w1	Allgemeines	B-NP	*
+2	Journal	Journal	_	NN	_	_	_	_	_	12-19	w2	Journal	I-NP	*
+3	der	d	_	ART	_	_	_	_	_	20-23	w3	der	I-NP	*
+4	Chemie	Chemie	_	NN	_	_	_	_	_	24-30	w4	Chemie	I-NP	*
+5	Herausgegeben	herausgeben	_	VVPP	_	_	_	_	_	31-44	w5	Herausgegeben	O	*
+6	von	von	_	APPR	_	_	_	_	_	45-48	w6	von	B-PP	*
+7	D.	D.	_	NN	_	_	_	_	_	49-51	w7	D.	I-PP	*
+8	Alexander	Alexander	_	NE	_	_	_	_	_	52-61	w8	Alexander	I-PP	*
+9	Nicolaus	Nicolaus	_	NE	_	_	_	_	_	62-70	w9	Nicolaus	I-PP	*
+10	Scherer	Scherer	_	NE	_	_	_	_	_	71-78	wa	Scherer	I-PP	*
+11	,	,	_	$,	_	_	_	_	_	79-80	wb	,	I-PP	*
+12	Herzogl	Herzogl	_	ADJD	_	_	_	_	_	81-88	wc	Herzogl	I-PP	*
+13	.	.	_	$.	_	_	_	_	_	89-90	wd	.	I-PP	*
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# PTBstring = (VROOT(NP(NN Erſter)(NN Band)(PUNKT .)))
+# text = Erſter Band .
+1	Erſter	Erster	_	NN	_	_	_	_	_	92-98	w12	Erster	B-NP	*
+2	Band	Band	_	NN	_	_	_	_	_	99-103	w13	Band	I-NP	*
+3	.	.	_	$.	_	_	_	_	_	104-105	w14	.	I-NP	*
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# PTBstring = (VROOT(S(PP(APPR Mit)(ART dem)(NN Bildniſſe)(NE Bergman's)(KOMMA ,)(NP(CARD acht)(NN Kupfern)(KOMMA ,)))(CNP(NP(ART einer)(NN Tabelle)(KOMMA ,))(KON und)(NP(NN Jntelligenzblatt)(PN(NN No.)(CARD 1.)(NE Leipzig)(CARD 1798)(PUNKT .))))))
+# text = Mit dem Bildniſſe Bergman's , acht Kupfern , einer Tabelle , und Jntelligenzblatt No. 1. Leipzig 1798 .
+1	Mit	mit	_	APPR	_	_	_	_	_	107-110	w15	Mit	B-PP	*
+2	dem	d	_	ART	_	_	_	_	_	111-114	w16	dem	I-PP	*
+3	Bildniſſe	Bildnis	_	NN	_	_	_	_	_	115-124	w17	Bildnisse	I-PP	*
+4	Bergman's	Bergmans	_	NE	_	_	_	_	_	125-134	w18	Bergman's	I-PP	*
+5	,	,	_	$,	_	_	_	_	_	135-136	w19	,	I-PP	*
+6	acht	acht	_	CARD	_	_	_	_	_	137-141	w1a	acht	I-PP	*
+7	Kupfern	Kupfer	_	NN	_	_	_	_	_	142-149	w1b	Kupfern	I-PP	*
+8	,	,	_	$,	_	_	_	_	_	150-151	w1c	,	I-PP	*
+9	einer	eine	_	ART	_	_	_	_	_	152-157	w1d	einer	B-NP	*
+10	Tabelle	Tabelle	_	NN	_	_	_	_	_	158-165	w1e	Tabelle	I-NP	*
+11	,	,	_	$,	_	_	_	_	_	166-167	w1f	,	I-NP	*
+12	und	und	_	KON	_	_	_	_	_	168-171	w20	und	I-NP	*
+13	Jntelligenzblatt	Intelligenzblatt	_	NN	_	_	_	_	_	172-188	w21	Intelligenzblatt	I-NP	*
+14	No.	No.	_	NN	_	_	_	_	_	189-192	w22	No.	I-NP	*
+15	1.	1.	_	CARD	_	_	_	_	_	193-195	w23	1.	I-NP	*
+16	Leipzig	Leipzig	_	NE	_	_	_	_	_	196-203	w24	Leipzig	I-NP	*
+17	1798	1798	_	CARD	_	_	_	_	_	204-208	w25	1798	I-NP	*
+18	.	.	_	$.	_	_	_	_	_	209-210	w26	.	I-NP	*
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# PTBstring = (VROOT(PP(APPR bey)(CNP(NE Breitkopf)(KON und)(NE Haͤrtel)))(PUNKT .))
+# text = bey Breitkopf und Haͤrtel .
+1	bey	bei	_	APPR	_	_	_	_	_	212-215	w27	bei	B-PP	*
+2	Breitkopf	Breitkopf	_	NE	_	_	_	_	_	216-225	w28	Breitkopf	I-PP	*
+3	und	und	_	KON	_	_	_	_	_	226-229	w29	und	I-PP	*
+4	Haͤrtel	Härtel	_	NE	_	_	_	_	_	230-237	w2a	Härtel	I-PP	*
+5	.	.	_	$.	_	_	_	_	_	238-239	w2b	.	O	*
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# PTBstring = (VROOT(CO(NP(ADJA 27.)(NN Abhandlung)(PP(APPR uͤber)(ART die)(ADJA dreyfache)(NN Verbindung)(PP(APPR aus)(CNP(NN Phosphor)(KOMMA ,)(NN Stickſtoff)(KON und)(NN Sauerſtoff)(KOMMA ,)))))(KON oder)(PP(APPR uͤber)(ART das)(NN Daſeyn)(NP(ART der)(CH(FM Phosphures)(FM d')(FM azote)(FM oxidés)(PUNKT .))))))
+# text = 27. Abhandlung uͤber die dreyfache Verbindung aus Phosphor , Stickſtoff und Sauerſtoff , oder uͤber das Daſeyn der Phosphures d' azote oxidés .
+1	27.	27.	_	ADJA	_	_	_	_	_	241-244	wdf4	27.	B-NP	*
+2	Abhandlung	Abhandlung	_	NN	_	_	_	_	_	245-255	wdf5	Abhandlung	I-NP	*
+3	uͤber	über	_	APPR	_	_	_	_	_	256-261	wdf6	über	I-NP	*
+4	die	d	_	ART	_	_	_	_	_	262-265	wdf7	die	I-NP	*
+5	dreyfache	dreifach	_	ADJA	_	_	_	_	_	266-275	wdf8	dreifache	I-NP	*
+6	Verbindung	Verbindung	_	NN	_	_	_	_	_	276-286	wdf9	Verbindung	I-NP	*
+7	aus	aus	_	APPR	_	_	_	_	_	287-290	wdfa	aus	I-NP	*
+8	Phosphor	Phosphor	_	NN	_	_	_	_	_	291-299	wdfb	Phosphor	I-NP	*
+9	,	,	_	$,	_	_	_	_	_	300-301	wdfc	,	I-NP	*
+10	Stickſtoff	Stickstoff	_	NN	_	_	_	_	_	302-312	wdfd	Stickstoff	I-NP	*
+11	und	und	_	KON	_	_	_	_	_	313-316	wdfe	und	I-NP	*
+12	Sauerſtoff	Sauerstoff	_	NN	_	_	_	_	_	317-327	wdff	Sauerstoff	I-NP	*
+13	,	,	_	$,	_	_	_	_	_	328-329	we00	,	I-NP	*
+14	oder	oder	_	KON	_	_	_	_	_	330-334	we01	oder	O	*
+15	uͤber	über	_	APPR	_	_	_	_	_	335-340	we02	über	B-PP	*
+16	das	d	_	ART	_	_	_	_	_	341-344	we03	das	I-PP	*
+17	Daſeyn	Dasein	_	NN	_	_	_	_	_	345-351	we04	Dasein	I-PP	*
+18	der	d	_	ART	_	_	_	_	_	352-355	we05	der	I-PP	*
+19	Phosphures	Phosphor	_	FM	_	_	_	_	_	356-366	we06	Phosphors	I-PP	*
+20	d'	D'	_	FM	_	_	_	_	_	367-369	we07	d'	I-PP	*
+21	azote	Azote	_	FM	_	_	_	_	_	370-375	we08	azote	I-PP	*
+22	oxidés	Oxid	_	FM	_	_	_	_	_	376-382	we09	Oxides	I-PP	*
+23	.	.	_	$.	_	_	_	_	_	383-384	we0a	.	I-PP	*
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# PTBstring = (VROOT(S(PP(APPRART Vom)(NN Herrn)(PN(NE Fr.)(NE Al.))(PP(APPR v.)(NE Humboldt)(KOMMA ,)))(NP(ADJA Koͤnigl.)(ADJA Preuß.)(NN Oberbergrath)))(PUNKT .))
+# text = Vom Herrn Fr. Al. v. Humboldt , Koͤnigl. Preuß. Oberbergrath .
+1	Vom	vom	_	APPRART	_	_	_	_	_	386-389	w2c	Vom	B-PP	*
+2	Herrn	Herr	_	NN	_	_	_	_	_	390-395	w2d	Herrn	I-PP	*
+3	Fr.	Fr.	_	NE	_	_	_	_	_	396-399	w2e	Fr.	I-PP	*
+4	Al.	Al.	_	NE	_	_	_	_	_	400-403	w2f	Al.	I-PP	*
+5	v.	v.	_	APPR	_	_	_	_	_	404-406	w30	v.	I-PP	*
+6	Humboldt	Humboldt	_	NE	_	_	_	_	_	407-415	w31	Humboldt	I-PP	*
+7	,	,	_	$,	_	_	_	_	_	416-417	w32	,	I-PP	*
+8	Koͤnigl.	Königl.	_	ADJA	_	_	_	_	_	418-426	w33	Königl.	B-NP	*
+9	Preuß.	Preuß.	_	ADJA	_	_	_	_	_	427-433	w34	Preuß.	I-NP	*
+10	Oberbergrath	Oberbergrat	_	NN	_	_	_	_	_	434-446	w35	Oberbergrat	I-NP	*
+11	.	.	_	$.	_	_	_	_	_	447-448	w36	.	O	*
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# PTBstring = (VROOT(S(PP(APPR Unter)(PIAT allen)(NN Erſcheinungen)(KOMMA ,)(S:RC(NP(PRELS welche))(NP(ART die)(ADJA pneumatiſche)(NN Che-<lb/>mie))(VP(VVFIN darbietet))(KOMMA ,)))(VP(VVFIN giebt))(NP(PPER es))(NP(PIS wenige)(KOMMA ,)(S:RC(NP(PRELS welche))(AVP(ADV ſo))(NP(PIAT viel)(NN Aufmerkſam-<lb/>keit))(VP(VVFIN verdienten))(KOMMA ,)))(NP(KOKOM als)(ART die)(ADJA dreyfachen)(NN Verbindungen)(NP(ART der)(NN Stoffe)(PUNKT .)))))
+# text = Unter allen Erſcheinungen , welche die pneumatiſche Che-<lb/>mie darbietet , giebt es wenige , welche ſo viel Aufmerkſam-<lb/>keit verdienten , als die dreyfachen Verbindungen der Stoffe .
+1	Unter	unter	_	APPR	_	_	_	_	_	450-455	w37,w37_1	Unter	B-PP	*
+2	allen	alle	_	PIAT	_	_	_	_	_	456-461	w38	allen	I-PP	*
+3	Erſcheinungen	Erscheinung	_	NN	_	_	_	_	_	462-475	w39	Erscheinungen	I-PP	*
+4	,	,	_	$,	_	_	_	_	_	476-477	w3a	,	I-PP	*
+5	welche	welche	_	PRELS	_	_	_	_	_	478-484	w3b	welche	I-PP	*
+6	die	d	_	ART	_	_	_	_	_	485-488	w3c	die	I-PP	*
+7	pneumatiſche	pneumatisch	_	ADJA	_	_	_	_	_	489-501	w3d	pneumatische	I-PP	*
+8	Che-<lb/>mie	Chemie	_	NN	_	_	_	_	_	502-514	w3e	Chemie	I-PP	*
+9	darbietet	darbieten	_	VVFIN	_	_	_	_	_	515-524	w3f	darbietet	I-PP	*
+10	,	,	_	$,	_	_	_	_	_	525-526	w40	,	I-PP	*
+11	giebt	geben	_	VVFIN	_	_	_	_	_	527-532	w41	gibt	O	*
+12	es	es	_	PPER	_	_	_	_	_	533-535	w42	es	B-NP	*
+13	wenige	wenige	_	PIS	_	_	_	_	_	536-542	w43	wenige	B-NP	*
+14	,	,	_	$,	_	_	_	_	_	543-544	w44	,	O	*
+15	welche	welche	_	PRELS	_	_	_	_	_	545-551	w45	welche	B-NP	*
+16	ſo	so	_	ADV	_	_	_	_	_	552-554	w46	so	B-ADVP	*
+17	viel	viel	_	PIAT	_	_	_	_	_	555-559	w47	viel	B-NP	*
+18	Aufmerkſam-<lb/>keit	Aufmerksamkeit	_	NN	_	_	_	_	_	560-580	w48	Aufmerksamkeit	I-NP	*
+19	verdienten	verdienen	_	VVFIN	_	_	_	_	_	581-591	w49	verdienten	O	*
+20	,	,	_	$,	_	_	_	_	_	592-593	w4a	,	O	*
+21	als	als	_	KOKOM	_	_	_	_	_	594-597	w4b	als	B-NP	*
+22	die	d	_	ART	_	_	_	_	_	598-601	w4c	die	I-NP	*
+23	dreyfachen	dreifach	_	ADJA	_	_	_	_	_	602-612	w4d	dreifachen	I-NP	*
+24	Verbindungen	Verbindung	_	NN	_	_	_	_	_	613-625	w4e	Verbindungen	I-NP	*
+25	der	d	_	ART	_	_	_	_	_	626-629	w4f	der	I-NP	*
+26	Stoffe	Stoff	_	NN	_	_	_	_	_	630-636	w50	Stoffe	I-NP	*
+27	.	.	_	$.	_	_	_	_	_	637-638	w51	.	I-NP	*
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# PTBstring = (VROOT(CS(S(KOUS Wenn)(NP(PPER es))(AP(PP(APPR bey)(ART der)(NN Zerlegung)(NP(CAP(ADJA thieriſcher)(KON und)(ADJA vegetabiliſcher))(NN Koͤrper)))(ADJD ſchwer))(VP(VAFIN iſt))(KOMMA ,)(NP(ART die)(NN Grundlagen)(KOMMA ,)))(S(NP(PRELS welche))(VP(NP(ART die)(NN Saͤuren)(KOMMA ,)(NP(ART die)(NN Gallerten)(KOMMA ,)))(CNP(NP(ART den)(NN Eyweißſtoff))(KON oder)(NP(ART die)(NN Schleime)))(VVINF zuſam-<lb/>menſetzen)(KOMMA ,)))(S(AVP(ADV ſo))(VP(VVFIN nimmt))(NP(PDAT dieſe)(NN Schwierigkeit))(AVP(ADV noch))(SVP(PTKVZ zu))(KOMMA ,)(S(KOUS wenn)(NP(PDAT dieſe)(CAP(TRUNC drey-)(KON oder)(ADJA vierfachen))(NN Verbindungen))(PP(ADV nur)(APPRART im)(ADJA gasar-<lb/>tigen)(NN Zuſtande))(VP(VVFIN vorkommen))(PUNKT .)))))
+# text = Wenn es bey der Zerlegung thieriſcher und vegetabiliſcher Koͤrper ſchwer iſt , die Grundlagen , welche die Saͤuren , die Gallerten , den Eyweißſtoff oder die Schleime zuſam-<lb/>menſetzen , ſo nimmt dieſe Schwierigkeit noch zu , wenn dieſe drey- oder vierfachen Verbindungen nur im gasar-<lb/>tigen Zuſtande vorkommen .
+1	Wenn	wenn	_	KOUS	_	_	_	_	_	640-644	w52	Wenn	O	*
+2	es	es	_	PPER	_	_	_	_	_	645-647	w53	es	B-NP	*
+3	bey	bei	_	APPR	_	_	_	_	_	648-651	w54	bei	B-AP	*
+4	der	d	_	ART	_	_	_	_	_	652-655	w55	der	I-AP	*
+5	Zerlegung	Zerlegung	_	NN	_	_	_	_	_	656-665	w56	Zerlegung	I-AP	*
+6	thieriſcher	tierisch	_	ADJA	_	_	_	_	_	666-677	w57	tierischer	I-AP	*
+7	und	und	_	KON	_	_	_	_	_	678-681	w58	und	I-AP	*
+8	vegetabiliſcher	vegetabilisch	_	ADJA	_	_	_	_	_	682-697	w59	vegetabilischer	I-AP	*
+9	Koͤrper	Körper	_	NN	_	_	_	_	_	698-705	w5a	Körper	I-AP	*
+10	ſchwer	schwer	_	ADJD	_	_	_	_	_	706-712	w5b	schwer	I-AP	*
+11	iſt	sein	_	VAFIN	_	_	_	_	_	713-716	w5c	ist	O	*
+12	,	,	_	$,	_	_	_	_	_	717-718	w5d	,	O	*
+13	die	d	_	ART	_	_	_	_	_	719-722	w5e	die	B-NP	*
+14	Grundlagen	Grundlage	_	NN	_	_	_	_	_	723-733	w5f	Grundlagen	I-NP	*
+15	,	,	_	$,	_	_	_	_	_	734-735	w60	,	I-NP	*
+16	welche	welche	_	PRELS	_	_	_	_	_	736-742	w61	welche	B-NP	*
+17	die	d	_	ART	_	_	_	_	_	743-746	w62	die	B-NP	*
+18	Saͤuren	Säure	_	NN	_	_	_	_	_	747-754	w63	Säuren	I-NP	*
+19	,	,	_	$,	_	_	_	_	_	755-756	w64	,	I-NP	*
+20	die	d	_	ART	_	_	_	_	_	757-760	w65	die	I-NP	*
+21	Gallerten	Gallerte	_	NN	_	_	_	_	_	761-770	w66	Gallerten	I-NP	*
+22	,	,	_	$,	_	_	_	_	_	771-772	w67	,	I-NP	*
+23	den	d	_	ART	_	_	_	_	_	773-776	w68	den	B-NP	*
+24	Eyweißſtoff	Eiweißstoff	_	NN	_	_	_	_	_	777-788	w69	Eiweißstoff	I-NP	*
+25	oder	oder	_	KON	_	_	_	_	_	789-793	w6a	oder	I-NP	*
+26	die	d	_	ART	_	_	_	_	_	794-797	w6b	die	I-NP	*
+27	Schleime	Schleim	_	NN	_	_	_	_	_	798-806	w6c	Schleime	I-NP	*
+28	zuſam-<lb/>menſetzen	zusammensetzen	_	VVINF	_	_	_	_	_	807-827	w6d	zusammensetzen	O	*
+29	,	,	_	$,	_	_	_	_	_	828-829	w6e	,	O	*
+30	ſo	so	_	ADV	_	_	_	_	_	830-832	w6f	so	B-ADVP	*
+31	nimmt	nehmen	_	VVFIN	_	_	_	_	_	833-838	w70	nimmt	O	*
+32	dieſe	diese	_	PDAT	_	_	_	_	_	839-844	w71	diese	B-NP	*
+33	Schwierigkeit	Schwierigkeit	_	NN	_	_	_	_	_	845-858	w72	Schwierigkeit	I-NP	*
+34	noch	noch	_	ADV	_	_	_	_	_	859-863	w73	noch	B-ADVP	*
+35	zu	zu	_	PTKVZ	_	_	_	_	_	864-866	w74	zu	O	*
+36	,	,	_	$,	_	_	_	_	_	867-868	w75	,	O	*
+37	wenn	wenn	_	KOUS	_	_	_	_	_	869-873	w76	wenn	O	*
+38	dieſe	diese	_	PDAT	_	_	_	_	_	874-879	w77	diese	B-NP	*
+39	drey-	drey-	_	TRUNC	_	_	_	_	_	880-885	w78	drey-	I-NP	*
+40	oder	oder	_	KON	_	_	_	_	_	886-890	w79	oder	I-NP	*
+41	vierfachen	vierfach	_	ADJA	_	_	_	_	_	891-901	w7a	vierfachen	I-NP	*
+42	Verbindungen	Verbindung	_	NN	_	_	_	_	_	902-914	w7b	Verbindungen	I-NP	*
+43	nur	nur	_	ADV	_	_	_	_	_	915-918	w7c	nur	B-PP	*
+44	im	im	_	APPRART	_	_	_	_	_	919-921	w7d	im	I-PP	*
+45	gasar-<lb/>tigen	gasartig	_	ADJA	_	_	_	_	_	922-938	w7e	gasartigen	I-PP	*
+46	Zuſtande	Zustand	_	NN	_	_	_	_	_	939-947	w7f	Zustande	I-PP	*
+47	vorkommen	vorkommen	_	VVFIN	_	_	_	_	_	948-957	w80	vorkommen	O	*
+48	.	.	_	$.	_	_	_	_	_	958-959	w81	.	O	*
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# PTBstring = (VROOT(S(CNP(NP(ART Der)(NN Schwefel)(KOMMA ,))(NP(ART die)(NN Kohle))(KON und)(NP(ART der)(NN Arſenikkalk)))(VP(VVFIN loͤſen))(NP(PRF ſich))(PP(APPR in)(ART dem)(NN Waſſerſtoffgas))(SVP(PTKVZ auf)))(PUNKT .))
+# text = Der Schwefel , die Kohle und der Arſenikkalk loͤſen ſich in dem Waſſerſtoffgas auf .
+1	Der	d	_	ART	_	_	_	_	_	961-964	w82	Der	B-NP	*
+2	Schwefel	Schwefel	_	NN	_	_	_	_	_	965-973	w83	Schwefel	I-NP	*
+3	,	,	_	$,	_	_	_	_	_	974-975	w84	,	I-NP	*
+4	die	d	_	ART	_	_	_	_	_	976-979	w85	die	I-NP	*
+5	Kohle	Kohle	_	NN	_	_	_	_	_	980-985	w86	Kohle	I-NP	*
+6	und	und	_	KON	_	_	_	_	_	986-989	w87	und	I-NP	*
+7	der	d	_	ART	_	_	_	_	_	990-993	w88	der	I-NP	*
+8	Arſenikkalk	Arsenikkalk	_	NN	_	_	_	_	_	994-1005	w89	Arsenikkalk	I-NP	*
+9	loͤſen	lösen	_	VVFIN	_	_	_	_	_	1006-1012	w8a	lösen	O	*
+10	ſich	sich	_	PRF	_	_	_	_	_	1013-1017	w8b	sich	B-NP	*
+11	in	in	_	APPR	_	_	_	_	_	1018-1020	w8c	in	B-PP	*
+12	dem	d	_	ART	_	_	_	_	_	1021-1024	w8d	dem	I-PP	*
+13	Waſſerſtoffgas	Wasserstoffgas	_	NN	_	_	_	_	_	1025-1039	w8e	Wasserstoffgas	I-PP	*
+14	auf	auf	_	PTKVZ	_	_	_	_	_	1040-1043	w8f	auf	O	*
+15	.	.	_	$.	_	_	_	_	_	1044-1045	w90	.	O	*
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# PTBstring = (VROOT(S(NP(PPER Es))(VP(VVFIN ſcheint))(KOMMA ,)(S(KOUS daß)(NP(ART der)(NN Schwefel))(AP(PP(APPR in)(ART dem)(NN Stickſtoffgas))(ADJD auf-<lb/>loͤslich))(VP(VAFIN ſey))(PUNKT .))))
+# text = Es ſcheint , daß der Schwefel in dem Stickſtoffgas auf-<lb/>loͤslich ſey .
+1	Es	es	_	PPER	_	_	_	_	_	1047-1049	w91	Es	B-NP	*
+2	ſcheint	scheinen	_	VVFIN	_	_	_	_	_	1050-1057	w92	scheint	O	*
+3	,	,	_	$,	_	_	_	_	_	1058-1059	w93	,	O	*
+4	daß	daß	_	KOUS	_	_	_	_	_	1060-1063	w94	daß	O	*
+5	der	d	_	ART	_	_	_	_	_	1064-1067	w95	der	B-NP	*
+6	Schwefel	Schwefel	_	NN	_	_	_	_	_	1068-1076	w96	Schwefel	I-NP	*
+7	in	in	_	APPR	_	_	_	_	_	1077-1079	w97	in	B-AP	*
+8	dem	d	_	ART	_	_	_	_	_	1080-1083	w98	dem	I-AP	*
+9	Stickſtoffgas	Stickstoffgas	_	NN	_	_	_	_	_	1084-1097	w99	Stickstoffgas	I-AP	*
+10	auf-<lb/>loͤslich	auflöslich	_	ADJD	_	_	_	_	_	1098-1115	w9a,w9a_1,w9a_2	auflöslich	I-AP	*
+11	ſey	sein	_	VAFIN	_	_	_	_	_	1116-1119	w9b	sei	O	*
+12	.	.	_	$.	_	_	_	_	_	1120-1121	w9c	.	O	*
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# PTBstring = (VROOT(S(S(KOUS Als)(NP(PPER ich))(VP(NP(PIAT vielen)(NN Schwefel))(AP(ADV ſehr)(ADJD langſam))(PP(APPR in)(ART einer)(ADJA atmoſphaͤriſchen)(NN Luft)(KOMMA ,)(S:RC(NP(PRELS welche))(NP(AP(ADV nur)(CARD 0,16))(NN Sauerſtoff))(VP(VVFIN enthielt))(KOMMA ,)))(VVPP verbrannt))(VP(VAFIN hatte))(KOMMA ,))(VP(VVFIN fand))(NP(PPER ich))(NP(ART den)(NN Ruͤckſtand))(AP(NP(CARD zwey)(NN Tage))(ADJD lang))(AP(ADJD durchſichtig))(PUNKT ;)(CS(S(PP(APPRART am)(NN dritten)(KOMMA ,)(S:RC(PWAV wo)(NP(ART die)(NN Temperatur)(NP(ART des)(NN Zimmers)))(PP(APPR bis)(PP(APPR auf)(KLAMMER —)(CARD 5)(NN °)(NP(ART des)(ADJA hundertgradigten)(NN Thermometers))))(VP(VVFIN fiel))(KOMMA ,)))(VP(VVFIN uͤberzogen))(NP(PRF ſich))(NP(ART die)(NN Waͤnde)(NP(ART der)(NN Glocke)(KOMMA ,)(S:RC(NP(PRELS welche))(NP(ART das)(NN Stick-<lb/>ſtoffgas))(VP(VVFIN enthielt))(KOMMA ,))))(PP(APPR mit)(ART einem)(ADJA gelben)(NN Staub)(PUNKT ;)))(S(NP(PPER es))(VP(VAFIN war))(NP(AP(ADV ſehr)(ADJA reiner))(NN Schwefel)(KOMMA ,)(S:RC(NP(PRELS der))(NP(PRF ſich))(PP(APPR aus)(PPOSAT ſeiner)(ADJA gasartigen)(NN Aufloͤſung))(VP(VVFIN niederſchlug))(PUNKT .)))))))
+# text = Als ich vielen Schwefel ſehr langſam in einer atmoſphaͤriſchen Luft , welche nur 0,16 Sauerſtoff enthielt , verbrannt hatte , fand ich den Ruͤckſtand zwey Tage lang durchſichtig ; am dritten , wo die Temperatur des Zimmers bis auf — 5 ° des hundertgradigten Thermometers fiel , uͤberzogen ſich die Waͤnde der Glocke , welche das Stick-<lb/>ſtoffgas enthielt , mit einem gelben Staub ; es war ſehr reiner Schwefel , der ſich aus ſeiner gasartigen Aufloͤſung niederſchlug .
+1	Als	als	_	KOUS	_	_	_	_	_	1123-1126	w9d	Als	O	*
+2	ich	ich	_	PPER	_	_	_	_	_	1127-1130	w9e	ich	B-NP	*
+3	vielen	viel	_	PIAT	_	_	_	_	_	1131-1137	w9f	vielen	B-NP	*
+4	Schwefel	Schwefel	_	NN	_	_	_	_	_	1138-1146	wa0	Schwefel	I-NP	*
+5	ſehr	sehr	_	ADV	_	_	_	_	_	1147-1151	wa1	sehr	B-AP	*
+6	langſam	langsam	_	ADJD	_	_	_	_	_	1152-1159	wa2	langsam	I-AP	*
+7	in	in	_	APPR	_	_	_	_	_	1160-1162	wa3	in	B-PP	*
+8	einer	eine	_	ART	_	_	_	_	_	1163-1168	wa4	einer	I-PP	*
+9	atmoſphaͤriſchen	atmosphärisch	_	ADJA	_	_	_	_	_	1169-1185	wa5	atmosphärischen	I-PP	*
+10	Luft	Luft	_	NN	_	_	_	_	_	1186-1190	wa6	Luft	I-PP	*
+11	,	,	_	$,	_	_	_	_	_	1191-1192	wa7	,	I-PP	*
+12	welche	welche	_	PRELS	_	_	_	_	_	1193-1199	wa8	welche	I-PP	*
+13	nur	nur	_	ADV	_	_	_	_	_	1200-1203	wa9	nur	I-PP	*
+14	0,16	0,16	_	CARD	_	_	_	_	_	1204-1208	waa	0,16	I-PP	*
+15	Sauerſtoff	Sauerstoff	_	NN	_	_	_	_	_	1209-1219	wab	Sauerstoff	I-PP	*
+16	enthielt	enthalten	_	VVFIN	_	_	_	_	_	1220-1228	wac	enthielt	I-PP	*
+17	,	,	_	$,	_	_	_	_	_	1229-1230	wad	,	I-PP	*
+18	verbrannt	verbrennen	_	VVPP	_	_	_	_	_	1231-1240	wae	verbrannt	O	*
+19	hatte	haben	_	VAFIN	_	_	_	_	_	1241-1246	waf	hatte	O	*
+20	,	,	_	$,	_	_	_	_	_	1247-1248	wb0	,	O	*
+21	fand	finden	_	VVFIN	_	_	_	_	_	1249-1253	wb1	fand	O	*
+22	ich	ich	_	PPER	_	_	_	_	_	1254-1257	wb2	ich	B-NP	*
+23	den	d	_	ART	_	_	_	_	_	1258-1261	wb3	den	B-NP	*
+24	Ruͤckſtand	Rückstand	_	NN	_	_	_	_	_	1262-1272	wb4	Rückstand	I-NP	*
+25	zwey	zwei	_	CARD	_	_	_	_	_	1273-1277	wb5	zwei	B-AP	*
+26	Tage	Tag	_	NN	_	_	_	_	_	1278-1282	wb6	Tage	I-AP	*
+27	lang	lang	_	ADJD	_	_	_	_	_	1283-1287	wb7	lang	I-AP	*
+28	durchſichtig	durchsichtig	_	ADJD	_	_	_	_	_	1288-1300	wb8	durchsichtig	B-AP	*
+29	;	;	_	$.	_	_	_	_	_	1301-1302	wb9	;	O	*
+30	am	am	_	APPRART	_	_	_	_	_	1303-1305	wba	am	B-PP	*
+31	dritten	dritt	_	NN	_	_	_	_	_	1306-1313	wbb	dritten	I-PP	*
+32	,	,	_	$,	_	_	_	_	_	1314-1315	wbc	,	I-PP	*
+33	wo	wo	_	PWAV	_	_	_	_	_	1316-1318	wbd	wo	I-PP	*
+34	die	d	_	ART	_	_	_	_	_	1319-1322	wbe	die	I-PP	*
+35	Temperatur	Temperatur	_	NN	_	_	_	_	_	1323-1333	wbf	Temperatur	I-PP	*
+36	des	d	_	ART	_	_	_	_	_	1334-1337	wc0	des	I-PP	*
+37	Zimmers	Zimmer	_	NN	_	_	_	_	_	1338-1345	wc1	Zimmers	I-PP	*
+38	bis	bis	_	APPR	_	_	_	_	_	1346-1349	wc2	bis	I-PP	*
+39	auf	auf	_	APPR	_	_	_	_	_	1350-1353	wc3	auf	I-PP	*
+40	—	--	_	$(	_	_	_	_	_	1354-1355	wc4	--	I-PP	*
+41	5	5	_	CARD	_	_	_	_	_	1356-1357	wc5	5	I-PP	*
+42	°	°	_	NN	_	_	_	_	_	1358-1359	wc6	°	I-PP	*
+43	des	d	_	ART	_	_	_	_	_	1360-1363	wc7	des	I-PP	*
+44	hundertgradigten	hundertgradigten	_	ADJA	_	_	_	_	_	1364-1380	wc8	hundertgradigten	I-PP	*
+45	Thermometers	Thermometer	_	NN	_	_	_	_	_	1381-1393	wc9	Thermometers	I-PP	*
+46	fiel	fallen	_	VVFIN	_	_	_	_	_	1394-1398	wca	fiel	I-PP	*
+47	,	,	_	$,	_	_	_	_	_	1399-1400	wcb	,	I-PP	*
+48	uͤberzogen	überziehen	_	VVFIN	_	_	_	_	_	1401-1411	wcc	überzogen	O	*
+49	ſich	sich	_	PRF	_	_	_	_	_	1412-1416	wcd	sich	B-NP	*
+50	die	d	_	ART	_	_	_	_	_	1417-1420	wce	die	B-NP	*
+51	Waͤnde	Wand	_	NN	_	_	_	_	_	1421-1427	wcf	Wände	I-NP	*
+52	der	d	_	ART	_	_	_	_	_	1428-1431	wd0	der	I-NP	*
+53	Glocke	Glocke	_	NN	_	_	_	_	_	1432-1438	wd1	Glocke	I-NP	*
+54	,	,	_	$,	_	_	_	_	_	1439-1440	wd2	,	I-NP	*
+55	welche	welche	_	PRELS	_	_	_	_	_	1441-1447	wd3	welche	I-NP	*
+56	das	d	_	ART	_	_	_	_	_	1448-1451	wd4	das	I-NP	*
+57	Stick-<lb/>ſtoffgas	Stickstoffgas	_	NN	_	_	_	_	_	1452-1471	wd5	Stickstoffgas	I-NP	*
+58	enthielt	enthalten	_	VVFIN	_	_	_	_	_	1472-1480	wd6	enthielt	I-NP	*
+59	,	,	_	$,	_	_	_	_	_	1481-1482	wd7	,	I-NP	*
+60	mit	mit	_	APPR	_	_	_	_	_	1483-1486	wd8	mit	B-PP	*
+61	einem	eine	_	ART	_	_	_	_	_	1487-1492	wd9	einem	I-PP	*
+62	gelben	gelb	_	ADJA	_	_	_	_	_	1493-1499	wda	gelben	I-PP	*
+63	Staub	Staub	_	NN	_	_	_	_	_	1500-1505	wdb	Staub	I-PP	*
+64	;	;	_	$.	_	_	_	_	_	1506-1507	wdc	;	I-PP	*
+65	es	es	_	PPER	_	_	_	_	_	1508-1510	wdd	es	B-NP	*
+66	war	sein	_	VAFIN	_	_	_	_	_	1511-1514	wde	war	O	*
+67	ſehr	sehr	_	ADV	_	_	_	_	_	1515-1519	wdf	sehr	B-NP	*
+68	reiner	rein	_	ADJA	_	_	_	_	_	1520-1526	we0	reiner	I-NP	*
+69	Schwefel	Schwefel	_	NN	_	_	_	_	_	1527-1535	we1	Schwefel	I-NP	*
+70	,	,	_	$,	_	_	_	_	_	1536-1537	we2	,	I-NP	*
+71	der	die	_	PRELS	_	_	_	_	_	1538-1541	we3	der	I-NP	*
+72	ſich	sich	_	PRF	_	_	_	_	_	1542-1546	we4	sich	I-NP	*
+73	aus	aus	_	APPR	_	_	_	_	_	1547-1550	we5	aus	I-NP	*
+74	ſeiner	seine	_	PPOSAT	_	_	_	_	_	1551-1557	we6	seiner	I-NP	*
+75	gasartigen	gasartig	_	ADJA	_	_	_	_	_	1558-1568	we7	gasartigen	I-NP	*
+76	Aufloͤſung	Auflösung	_	NN	_	_	_	_	_	1569-1579	we8	Auflösung	I-NP	*
+77	niederſchlug	niederschlagen	_	VVFIN	_	_	_	_	_	1580-1592	we9	niederschlug	I-NP	*
+78	.	.	_	$.	_	_	_	_	_	1593-1594	wea	.	I-NP	*
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# PTBstring = (VROOT(S(S(KOUS Als)(NP(PPER ich))(NP(PRF mich))(PP(APPR mit)(ART der)(NN Zerlegung)(NP(ART der)(NN Berg-<lb/>ſchwaden)))(VP(VVFIN beſchaͤftigte))(KOMMA ,))(VP(VVFIN ſammelte))(NP(PPER ich))(PP(APPR in)(ART den)(NN Ritzen)(NP(ART eines)(NN Eiſenganges)))(NP(ART eine)(NN Miſchung)(PP(APPR von)(CNP(TRUNC Waſſerſtoff-Stickſtoff-)(KON und)(NP(ADJA Kohlenſtoffſaurem)(NN Gas))))))(PUNKT .))
+# text = Als ich mich mit der Zerlegung der Berg-<lb/>ſchwaden beſchaͤftigte , ſammelte ich in den Ritzen eines Eiſenganges eine Miſchung von Waſſerſtoff-Stickſtoff- und Kohlenſtoffſaurem Gas .
+1	Als	als	_	KOUS	_	_	_	_	_	1596-1599	web	Als	O	*
+2	ich	ich	_	PPER	_	_	_	_	_	1600-1603	wec	ich	B-NP	*
+3	mich	mich	_	PRF	_	_	_	_	_	1604-1608	wed	mich	B-NP	*
+4	mit	mit	_	APPR	_	_	_	_	_	1609-1612	wee	mit	B-PP	*
+5	der	d	_	ART	_	_	_	_	_	1613-1616	wef	der	I-PP	*
+6	Zerlegung	Zerlegung	_	NN	_	_	_	_	_	1617-1626	wf0	Zerlegung	I-PP	*
+7	der	d	_	ART	_	_	_	_	_	1627-1630	wf1	der	I-PP	*
+8	Berg-<lb/>ſchwaden	Bergschwaden	_	NN	_	_	_	_	_	1631-1649	wf2	Bergschwaden	I-PP	*
+9	beſchaͤftigte	beschäftigen	_	VVFIN	_	_	_	_	_	1650-1663	wf3	beschäftigte	O	*
+10	,	,	_	$,	_	_	_	_	_	1664-1665	wf4	,	O	*
+11	ſammelte	sammeln	_	VVFIN	_	_	_	_	_	1666-1674	wf5	sammelte	O	*
+12	ich	ich	_	PPER	_	_	_	_	_	1675-1678	wf6	ich	B-NP	*
+13	in	in	_	APPR	_	_	_	_	_	1679-1681	wf7	in	B-PP	*
+14	den	d	_	ART	_	_	_	_	_	1682-1685	wf8	den	I-PP	*
+15	Ritzen	Ritze	_	NN	_	_	_	_	_	1686-1692	wf9	Ritzen	I-PP	*
+16	eines	eine	_	ART	_	_	_	_	_	1693-1698	wfa	eines	I-PP	*
+17	Eiſenganges	Eisengang	_	NN	_	_	_	_	_	1699-1710	wfb	Eisenganges	I-PP	*
+18	eine	eine	_	ART	_	_	_	_	_	1711-1715	wfc	eine	B-NP	*
+19	Miſchung	Mischung	_	NN	_	_	_	_	_	1716-1724	wfd	Mischung	I-NP	*
+20	von	von	_	APPR	_	_	_	_	_	1725-1728	wfe	von	I-NP	*
+21	Waſſerſtoff-Stickſtoff-	wasserstoff-stickstoff-	_	TRUNC	_	_	_	_	_	1729-1752	wff	Wasserstoff-Stickstoff-	I-NP	*
+22	und	und	_	KON	_	_	_	_	_	1753-1756	w100	und	I-NP	*
+23	Kohlenſtoffſaurem	kohlenstoffsauer	_	ADJA	_	_	_	_	_	1757-1774	w101	Kohlenstoffsaurem	I-NP	*
+24	Gas	Gas	_	NN	_	_	_	_	_	1775-1778	w102	Gas	I-NP	*
+25	.	.	_	$.	_	_	_	_	_	1779-1780	w103	.	O	*
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# PTBstring = (VROOT(CS(S(S(NP(ART Die)(NN Flaſche)(KOMMA ,)(S:RC(NP(PRELS welche))(NP(PDAT dieſe)(NN Miſchung))(VP(VVFIN enthielt))(KOMMA ,)))(VP(VAFIN war))(CAP(ADJD klar)(KON und)(ADJD durchſichtig)(PUNKT ;))(VP(PP(APPR in)(NN Schnee))(VVPP geſtellt)(KOMMA ,)))(VP(VVFIN uͤberzog))(NP(PPER ſie))(NP(PRF ſich))(AP(ADJD inwendig))(PP(APPR mit)(ART einem)(ADJA gelben)(NN Eiſen-<lb/>kalk)(PUNKT :)))(S(NP(PDAT dieſer)(NN Schwaden))(VP(VVFIN hielt))(AVP(ADV alſo))(NP(NN Metall))(AP(ADJD aufgeloͤſt))(PUNKT .))))
+# text = Die Flaſche , welche dieſe Miſchung enthielt , war klar und durchſichtig ; in Schnee geſtellt , uͤberzog ſie ſich inwendig mit einem gelben Eiſen-<lb/>kalk : dieſer Schwaden hielt alſo Metall aufgeloͤſt .
+1	Die	d	_	ART	_	_	_	_	_	1782-1785	w104	Die	B-NP	*
+2	Flaſche	Flasche	_	NN	_	_	_	_	_	1786-1793	w105	Flasche	I-NP	*
+3	,	,	_	$,	_	_	_	_	_	1794-1795	w106	,	I-NP	*
+4	welche	welche	_	PRELS	_	_	_	_	_	1796-1802	w107	welche	I-NP	*
+5	dieſe	diese	_	PDAT	_	_	_	_	_	1803-1808	w108	diese	I-NP	*
+6	Miſchung	Mischung	_	NN	_	_	_	_	_	1809-1817	w109	Mischung	I-NP	*
+7	enthielt	enthalten	_	VVFIN	_	_	_	_	_	1818-1826	w10a	enthielt	I-NP	*
+8	,	,	_	$,	_	_	_	_	_	1827-1828	w10b	,	I-NP	*
+9	war	sein	_	VAFIN	_	_	_	_	_	1829-1832	w10c	war	O	*
+10	klar	klar	_	ADJD	_	_	_	_	_	1833-1837	w10d	klar	B-AP	*
+11	und	und	_	KON	_	_	_	_	_	1838-1841	w10e	und	I-AP	*
+12	durchſichtig	durchsichtig	_	ADJD	_	_	_	_	_	1842-1854	w10f	durchsichtig	I-AP	*
+13	;	;	_	$.	_	_	_	_	_	1855-1856	w110	;	I-AP	*
+14	in	in	_	APPR	_	_	_	_	_	1857-1859	w111	in	B-PP	*
+15	Schnee	Schnee	_	NN	_	_	_	_	_	1860-1866	w112	Schnee	I-PP	*
+16	geſtellt	stellen	_	VVPP	_	_	_	_	_	1867-1875	w113	gestellt	O	*
+17	,	,	_	$,	_	_	_	_	_	1876-1877	w114	,	O	*
+18	uͤberzog	überziehen	_	VVFIN	_	_	_	_	_	1878-1886	w115	überzog	O	*
+19	ſie	sie	_	PPER	_	_	_	_	_	1887-1890	w116	sie	B-NP	*
+20	ſich	sich	_	PRF	_	_	_	_	_	1891-1895	w117	sich	B-NP	*
+21	inwendig	inwendig	_	ADJD	_	_	_	_	_	1896-1904	w118	inwendig	B-AP	*
+22	mit	mit	_	APPR	_	_	_	_	_	1905-1908	w119	mit	B-PP	*
+23	einem	eine	_	ART	_	_	_	_	_	1909-1914	w11a	einem	I-PP	*
+24	gelben	gelb	_	ADJA	_	_	_	_	_	1915-1921	w11b	gelben	I-PP	*
+25	Eiſen-<lb/>kalk	Eisenkalk	_	NN	_	_	_	_	_	1922-1937	w11c	Eisenkalk	I-PP	*
+26	:	:	_	$.	_	_	_	_	_	1938-1939	w11d	:	I-PP	*
+27	dieſer	diese	_	PDAT	_	_	_	_	_	1940-1946	w11e	dieser	B-NP	*
+28	Schwaden	Schwaden	_	NN	_	_	_	_	_	1947-1955	w11f	Schwaden	I-NP	*
+29	hielt	halten	_	VVFIN	_	_	_	_	_	1956-1961	w120	hielt	O	*
+30	alſo	also	_	ADV	_	_	_	_	_	1962-1966	w121	also	B-ADVP	*
+31	Metall	Metall	_	NN	_	_	_	_	_	1967-1973	w122	Metall	B-NP	*
+32	aufgeloͤſt	auflösen	_	ADJD	_	_	_	_	_	1974-1984	w123	aufgelöst	B-AP	*
+33	.	.	_	$.	_	_	_	_	_	1985-1986	w124	.	O	*
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# PTBstring = (VROOT(S(NP(NN Metalle))(PP(APPR in)(NN Gasarten))(AP(ADJD aufgeloͤſt))(KOMMA ,)(S(VP(VAFIN ſind))(NP(ART ein)(AP(PP(APPR fuͤr)(ART die)(CNP(NN Meteorologie)(KON und)(NN Mineralogie)))(ADV aͤußerſt)(ADJA intereſſanter))(NN Gegenſtand)(PUNKT .)))))
+# text = Metalle in Gasarten aufgeloͤſt , ſind ein fuͤr die Meteorologie und Mineralogie aͤußerſt intereſſanter Gegenſtand .
+1	Metalle	Metall	_	NN	_	_	_	_	_	1988-1995	we0b	Metalle	B-NP	*
+2	in	in	_	APPR	_	_	_	_	_	1996-1998	we0c	in	B-PP	*
+3	Gasarten	Gasart	_	NN	_	_	_	_	_	1999-2007	we0d	Gasarten	I-PP	*
+4	aufgeloͤſt	auflösen	_	ADJD	_	_	_	_	_	2008-2018	we0e	aufgelöst	B-AP	*
+5	,	,	_	$,	_	_	_	_	_	2019-2020	we0f	,	O	*
+6	ſind	sein	_	VAFIN	_	_	_	_	_	2021-2025	we10	sind	O	*
+7	ein	eine	_	ART	_	_	_	_	_	2026-2029	we11	ein	B-NP	*
+8	fuͤr	für	_	APPR	_	_	_	_	_	2030-2034	we12	für	I-NP	*
+9	die	d	_	ART	_	_	_	_	_	2035-2038	we13	die	I-NP	*
+10	Meteorologie	Meteorologie	_	NN	_	_	_	_	_	2039-2051	we14	Meteorologie	I-NP	*
+11	und	und	_	KON	_	_	_	_	_	2052-2055	we15	und	I-NP	*
+12	Mineralogie	Mineralogie	_	NN	_	_	_	_	_	2056-2067	we16	Mineralogie	I-NP	*
+13	aͤußerſt	äußerst	_	ADV	_	_	_	_	_	2068-2076	we17	äußerst	I-NP	*
+14	intereſſanter	interessant	_	ADJA	_	_	_	_	_	2077-2090	we18	interessanter	I-NP	*
+15	Gegenſtand	Gegenstand	_	NN	_	_	_	_	_	2091-2101	we19	Gegenstand	I-NP	*
+16	.	.	_	$.	_	_	_	_	_	2102-2103	we1a	.	I-NP	*
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# PTBstring = (VROOT(S(NP(PPER Es))(VP(VAFIN iſt))(NP(ART eine)(AP(ADV ſehr)(ADJA erwieſene))(NN Thatſache)(KOMMA ,))(S(KOUS daß)(NP(ART die)(NN Feuerkugeln))(AVP(ADV oft))(VP(NP(NN Stuͤcken)(NP(ADJA halb-<lb/>verſchlacktes)(NN Eiſen)))(VVINF fallen))(VP(VVFIN laſſen))(PUNKT .))))
+# text = Es iſt eine ſehr erwieſene Thatſache , daß die Feuerkugeln oft Stuͤcken halb-<lb/>verſchlacktes Eiſen fallen laſſen .
+1	Es	es	_	PPER	_	_	_	_	_	2105-2107	we1b	Es	B-NP	*
+2	iſt	sein	_	VAFIN	_	_	_	_	_	2108-2111	we1c	ist	O	*
+3	eine	eine	_	ART	_	_	_	_	_	2112-2116	we1d	eine	B-NP	*
+4	ſehr	sehr	_	ADV	_	_	_	_	_	2117-2121	we1e	sehr	I-NP	*
+5	erwieſene	erweisen	_	ADJA	_	_	_	_	_	2122-2131	we1f	erwiesene	I-NP	*
+6	Thatſache	Tatsache	_	NN	_	_	_	_	_	2132-2141	we20	Tatsache	I-NP	*
+7	,	,	_	$,	_	_	_	_	_	2142-2143	we21	,	I-NP	*
+8	daß	daß	_	KOUS	_	_	_	_	_	2144-2147	we22	daß	O	*
+9	die	d	_	ART	_	_	_	_	_	2148-2151	we23	die	B-NP	*
+10	Feuerkugeln	Feuerkugel	_	NN	_	_	_	_	_	2152-2163	we24	Feuerkugeln	I-NP	*
+11	oft	oft	_	ADV	_	_	_	_	_	2164-2167	we25	oft	B-ADVP	*
+12	Stuͤcken	Stück	_	NN	_	_	_	_	_	2168-2176	we26	Stücken	B-NP	*
+13	halb-<lb/>verſchlacktes	halbverschlackt	_	ADJA	_	_	_	_	_	2177-2200	we27	halbverschlacktes	I-NP	*
+14	Eiſen	Eisen	_	NN	_	_	_	_	_	2201-2206	we28	Eisen	I-NP	*
+15	fallen	fallen	_	VVINF	_	_	_	_	_	2207-2213	we29	fallen	O	*
+16	laſſen	lassen	_	VVFIN	_	_	_	_	_	2214-2220	we2a	lassen	O	*
+17	.	.	_	$.	_	_	_	_	_	2221-2222	we2b	.	O	*
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# PTBstring = (VROOT(S(VP(VVFIN Befindet))(NP(PRF ſich))(AVP(ADV wohl))(NP(PDAT dieſes)(NN Eiſen)(PP(APPR in)(ART den)(ADJA hoͤchſten)(NN Schichten)(NP(ART der)(NN Atmoſphaͤre))(PP(APPRART im)(ADJA gasartigen)(NN Zu-<lb/>ſtand)))))(PUNKT ?))
+# text = Befindet ſich wohl dieſes Eiſen in den hoͤchſten Schichten der Atmoſphaͤre im gasartigen Zu-<lb/>ſtand ?
+1	Befindet	befinden	_	VVFIN	_	_	_	_	_	2224-2232	we2c	Befindet	O	*
+2	ſich	sich	_	PRF	_	_	_	_	_	2233-2237	we2d	sich	B-NP	*
+3	wohl	wohl	_	ADV	_	_	_	_	_	2238-2242	we2e	wohl	B-ADVP	*
+4	dieſes	diese	_	PDAT	_	_	_	_	_	2243-2249	we2f	dieses	B-NP	*
+5	Eiſen	Eisen	_	NN	_	_	_	_	_	2250-2255	we30	Eisen	I-NP	*
+6	in	in	_	APPR	_	_	_	_	_	2256-2258	we31	in	I-NP	*
+7	den	d	_	ART	_	_	_	_	_	2259-2262	we32	den	I-NP	*
+8	hoͤchſten	hoch	_	ADJA	_	_	_	_	_	2263-2272	we33	höchsten	I-NP	*
+9	Schichten	Schichte	_	NN	_	_	_	_	_	2273-2282	we34	Schichten	I-NP	*
+10	der	d	_	ART	_	_	_	_	_	2283-2286	we35	der	I-NP	*
+11	Atmoſphaͤre	Atmosphäre	_	NN	_	_	_	_	_	2287-2298	we36	Atmosphäre	I-NP	*
+12	im	im	_	APPRART	_	_	_	_	_	2299-2301	we37	im	I-NP	*
+13	gasartigen	gasartig	_	ADJA	_	_	_	_	_	2302-2312	we38	gasartigen	I-NP	*
+14	Zu-<lb/>ſtand	Zustand	_	NN	_	_	_	_	_	2313-2326	we39	Zustand	I-NP	*
+15	?	?	_	$.	_	_	_	_	_	2327-2328	we3a	?	O	*
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# PTBstring = (VROOT(S(VP(VVFIN Erhebt))(NP(PPER es))(NP(PRF ſich))(PP(APPR mit)(ART dem)(NN Waſſerſtoffgas)(KOMMA ,)(S:RC(NP(PRELS welches))(NP(ART die)(NN Moraͤſte))(PP(APPR in)(NN Ueberfluß))(VP(VVFIN ausdunſten))(PUNKT ?)(KLAMMER —)))))
+# text = Erhebt es ſich mit dem Waſſerſtoffgas , welches die Moraͤſte in Ueberfluß ausdunſten ? —
+1	Erhebt	erheben	_	VVFIN	_	_	_	_	_	2330-2336	we3b	Erhebt	O	*
+2	es	es	_	PPER	_	_	_	_	_	2337-2339	we3c	es	B-NP	*
+3	ſich	sich	_	PRF	_	_	_	_	_	2340-2344	we3d	sich	B-NP	*
+4	mit	mit	_	APPR	_	_	_	_	_	2345-2348	we3e	mit	B-PP	*
+5	dem	d	_	ART	_	_	_	_	_	2349-2352	we3f	dem	I-PP	*
+6	Waſſerſtoffgas	Wasserstoffgas	_	NN	_	_	_	_	_	2353-2367	we40	Wasserstoffgas	I-PP	*
+7	,	,	_	$,	_	_	_	_	_	2368-2369	we41	,	O	*
+8	welches	welche	_	PRELS	_	_	_	_	_	2370-2377	we42	welches	B-NP	*
+9	die	d	_	ART	_	_	_	_	_	2378-2381	we43	die	B-NP	*
+10	Moraͤſte	Morast	_	NN	_	_	_	_	_	2382-2390	we44	Moraste	I-NP	*
+11	in	in	_	APPR	_	_	_	_	_	2391-2393	we45	in	B-PP	*
+12	Ueberfluß	Überfluß	_	NN	_	_	_	_	_	2394-2403	we46	Überfluß	I-PP	*
+13	ausdunſten	ausdunsten	_	VVFIN	_	_	_	_	_	2404-2414	we47	ausdunsten	O	*
+14	?	?	_	$.	_	_	_	_	_	2415-2416	we48	?	O	*
+15	—	--	_	$(	_	_	_	_	_	2417-2418	we49	--	O	*
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# PTBstring = (VROOT(S(NP(ART Die)(NN Mineralogen))(VP(VVFIN ken-<lb/>nen))(NP(ART die)(ADJA ſchoͤnen)(NN Gruppen))(PP(APPR von)(CNP(NN Bergkryſtall)(KON oder)(NN Kalkſpath)(KOMMA ,))(S:RC(NP(PRELS die))(PP(ADV blos)(APPR auf)(ART einer)(NN Seite)(PP(APPR mit)(CNP(NN Kieß)(KON oder)(NN Bleyglanz))))(AP(ADJD uͤberzogen))(VP(VAFIN ſind))(PUNKT .)))))
+# text = Die Mineralogen ken-<lb/>nen die ſchoͤnen Gruppen von Bergkryſtall oder Kalkſpath , die blos auf einer Seite mit Kieß oder Bleyglanz uͤberzogen ſind .
+1	Die	d	_	ART	_	_	_	_	_	2420-2423	we4a	Die	B-NP	*
+2	Mineralogen	Mineraloge	_	NN	_	_	_	_	_	2424-2435	we4b	Mineralogen	I-NP	*
+3	ken-<lb/>nen	kennen	_	VVFIN	_	_	_	_	_	2436-2448	we4c	kennen	O	*
+4	die	d	_	ART	_	_	_	_	_	2449-2452	we4d	die	B-NP	*
+5	ſchoͤnen	schön	_	ADJA	_	_	_	_	_	2453-2461	we4e	schönen	I-NP	*
+6	Gruppen	Gruppe	_	NN	_	_	_	_	_	2462-2469	we4f	Gruppen	I-NP	*
+7	von	von	_	APPR	_	_	_	_	_	2470-2473	we50	von	B-PP	*
+8	Bergkryſtall	Bergkristall	_	NN	_	_	_	_	_	2474-2486	we51	Bergkristall	O	*
+9	oder	oder	_	KON	_	_	_	_	_	2487-2491	we52	oder	O	*
+10	Kalkſpath	Kalkspath	_	NN	_	_	_	_	_	2492-2501	we53	Kalkspath	O	*
+11	,	,	_	$,	_	_	_	_	_	2502-2503	we54	,	O	*
+12	die	die	_	PRELS	_	_	_	_	_	2504-2507	we55	die	B-NP	*
+13	blos	bloß	_	ADV	_	_	_	_	_	2508-2512	we56	bloß	B-PP	*
+14	auf	auf	_	APPR	_	_	_	_	_	2513-2516	we57	auf	I-PP	*
+15	einer	eine	_	ART	_	_	_	_	_	2517-2522	we58	einer	I-PP	*
+16	Seite	Seite	_	NN	_	_	_	_	_	2523-2528	we59	Seite	I-PP	*
+17	mit	mit	_	APPR	_	_	_	_	_	2529-2532	we5a	mit	I-PP	*
+18	Kieß	Kies	_	NN	_	_	_	_	_	2533-2537	we5b	Kies	I-PP	*
+19	oder	oder	_	KON	_	_	_	_	_	2538-2542	we5c	oder	I-PP	*
+20	Bleyglanz	Bleiglanz	_	NN	_	_	_	_	_	2543-2552	we5d	Bleiglanz	I-PP	*
+21	uͤberzogen	überziehen	_	ADJD	_	_	_	_	_	2553-2563	we5e	überzogen	B-AP	*
+22	ſind	sein	_	VAFIN	_	_	_	_	_	2564-2568	we5f	sind	O	*
+23	.	.	_	$.	_	_	_	_	_	2569-2570	we60	.	O	*

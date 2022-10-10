@@ -1,0 +1,64 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS MovElem PHRASE POS SATZKLAMMER SATZSTATUS TOPF UEBERLIEFERUNGSTRAEGER VERLINKUNG
+# sent_id = 1
+# PTBstring = (VROOT(S(PP(PAV Davo))(VP(VMFIN ſont))(NP(PPER ir))(VP(PIS eime)(NP(KOKOM als)(ADJA groz)(NN ere))(VVINF bíeLBR=RBRten))(S(KOKOM als)(NP(ART dem)(PIS and'n))(AP(ADJD gelich))(PUNKT .))))
+# TopFString = (S(VF(PAV Davō))(LK(VMFIN ſont))(MF(PPER ir)(PIS eime)(KOKOM als)(ADJA groz)(NN ere))(VC(VVINF bíeLBR=RBRten))(NF(KOKOM als)(ART dem)(PIS and'n)(ADJD gelich))(PUNKT .))
+# text = Davō ſont ir eime als groz ere bíe(=)ten als dem and'n gelich.
+1	Davō	_	_	PAV	_	_	_	_	_	ADVP	Davō	294,27	_	ADVB	_	B-PP-insitu	B-PP	PAV	_	MAINDECL	B-VF	73va,14	_
+2	ſont	_	_	VMFIN	_	_	_	_	_	VP	ſont	294,27	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	B-LK	73va,14	_
+3	ir	_	_	PPER	_	_	_	_	_	NP	ir	294,27	_	SUBJ	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-MF	73va,15 bie=	_
+4	eime	_	_	PIS	_	_	_	_	_	NP	eime	294,27	_	IO-DAT	_	B-NP-insitu	B-NP	DIA	_	MAINDECL	I-MF	73va,15 bie=	_
+5	als	_	_	KOKOM	_	_	_	_	_	PP	als	294,27	_	PP-OBJ	_	B-NP-insitu	B-NP	KOKOM	_	MAINDECL	I-MF	73va,15 bie=	_
+6	groz	_	_	ADJA	_	_	_	_	_	PP	groz	294,27	_	PP-OBJ	_	I-NP	I-NP	ADJ	_	MAINDECL	I-MF	73va,15 bie=	_
+7	ere	_	_	NN	_	_	_	_	_	PP	ere	294,27	_	PP-OBJ	_	I-NP	I-NP	NA	_	MAINDECL	I-MF	73va,15 bie=	_
+8	bíe(=)ten	_	_	VVINF	_	_	_	_	_	VP	bíeten	294,27	_	INF	_	_	O	VVINF	RE	MAINDECL	B-RK	73va,15 bie=	_
+9	als	_	_	KOKOM	_	_	_	_	_	PP	als	294,27	CF	VGL	NA	_	O	KOKOM	_	MAINDECL	B-NF	73va,16	LINK_ASSYM
+10	dem	_	_	ART	_	_	_	_	_	PP	dem	294,27	CF	VGL	NA	B-NP-extrap	B-NP	DDA	_	MAINDECL	I-NF	73va,16	LINK_ASSYM
+11	and'n	_	_	PIS	_	_	_	_	_	PP	and'n	294,27	CF	VGL	NA	I-NP	I-NP	ADJS	_	MAINDECL	I-NF	73va,16	LINK_ASSYM
+12	gelich	_	_	ADJD	_	_	_	_	_	PP	gelich	294,28	CF	VGL	NA	B-AP-extrap	B-AP	ADV	_	MAINDECL	I-NF	73va,16	LINK_ASSYM
+13	.	_	_	$.	_	_	_	_	_	_	.	294,28	_	_	_	_	O	$_	_	MAINDECL	O	73va,16	_
+
+# sent_id = 2
+# PTBstring = (VROOT(S(AVP(ADV da))(VP(VMFIN mugē))(NP(PPER wír))(NP(PPOSS ſín))(VP(ADV oͮch)(PTKNEG nuͥt)(VVINF geſehē)(PP(KOKOM wa)(APPR ín)(ART dem)(NN liechte)(NP(ART des)(NN gloͮbē)))))(PUNKT .))
+# TopFString = (S(VF(ADV da))(LK(VMFIN mugē))(MF(PPER wír)(PPOSS ſín)(ADV oͮch)(PTKNEG nuͥt))(VC(VVINF geſehē))(NF(KOKOM wā)(APPR ín)(ART dem)(NN liechte)(ART des)(NN gloͮbē))(PUNKT .))
+# text = da mugē wír ſín oͮch nuͥt geſehē wā ín dem liechte des gloͮbē.
+1	da	_	_	ADV	_	_	_	_	_	ADVP	da	296,30	_	ADVB	_	B-ADVP-insitu	B-ADVP	PAV	_	MAINDECL	B-VF	75vb,05	_
+2	mugē	_	_	VMFIN	_	_	_	_	_	VP	mugē	296,30	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	B-LK	75vb,05	_
+3	wír	_	_	PPER	_	_	_	_	_	NP	wír	296,30	_	SUBJ	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-MF	75vb,05	_
+4	ſín	_	_	PPOSS	_	_	_	_	_	NP	ſín	296,30	_	IO-GEN	_	B-NP-insitu	B-NP	DPOS	_	MAINDECL	I-MF	75vb,05	_
+5	oͮch	_	_	ADV	_	_	_	_	_	ADVP	oͮch	296,30	_	ADVB	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	I-MF	75vb,05	_
+6	nuͥt	_	_	PTKNEG	_	_	_	_	_	_	nuͥt	296,30	_	_	_	B-ADVP-insitu	B-ADVP	PTKNEG	_	MAINDECL	I-MF	75vb,05	_
+7	geſehē	_	_	VVINF	_	_	_	_	_	VP	geſehē	296,30	_	INF	_	_	O	VVINF	RE	MAINDECL	B-RK	75vb,06	_
+8	wā	_	_	KOKOM	_	_	_	_	_	PP	wā	296,30	NF	PP-ADV	_	B-PP-extrap	B-PP	KOKOM	_	MAINDECL	B-NF	75vb,06	UNLINK
+9	ín	_	_	APPR	_	_	_	_	_	PP	ín	296,30	NF	PP-ADV	_	I-PP	I-PP	APPR	_	MAINDECL	I-NF	75vb,06	UNLINK
+10	dem	_	_	ART	_	_	_	_	_	PP	dem	296,30	NF	PP-ADV	_	I-PP	I-PP	DDA	_	MAINDECL	I-NF	75vb,06	UNLINK
+11	liechte	_	_	NN	_	_	_	_	_	PP	liechte	296,31	NF	PP-ADV	ACC-ABSTR-UNUSED_	I-PP	I-PP	NA	_	MAINDECL	I-NF	75vb,06	UNLINK
+12	des	_	_	ART	_	_	_	_	_	PP	des	296,31	NF	PP-ADV	_	I-PP	I-PP	DDA	_	MAINDECL	I-NF	75vb,07	UNLINK
+13	gloͮbē	_	_	NN	_	_	_	_	_	PP	gloͮbē	296,31	NF	PP-ADV	_ACC-ABSTR-USED-X	I-PP	I-PP	NA	_	MAINDECL	I-NF	75vb,07	UNLINK
+14	.	_	_	$.	_	_	_	_	_	_	.	296,31	_	_	_	_	O	$_	_	MAINDECL	O	75vb,07	_
+
+# sent_id = 3
+# PTBstring = (VROOT(S(KON vn̄)(VP(VMFIN ſuͥlē))(VP(ADV niem')(VVINF erwíndē)(PP(APPR mít)(CNP(NN mine)(KON vn̄)(NN beLBR=RBRgírde/))))))
+# TopFString = (S(KOORD(KON vn̄))(LK(VMFIN ſuͥlē))(MF(ADV niem'))(VC(VVINF erwíndē))(NF(APPR mít)(NN mī́ne)(KON vn̄)(NN beLBR=RBRgírde/)))
+# text = vn̄ ſuͥlē niem' erwíndē mít mī́ne vn̄ be(=)gírde/
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	296,33	_	_	_	_	O	KON	_	MAINDECL-ELLI	B-KOORD	75vb,13	_
+2	ſuͥlē	_	_	VMFIN	_	_	_	_	_	VP	ſuͥlē	296,33	_	VFIN	_	_	O	VMFIN	LI	MAINDECL-ELLI	B-LK	75vb,13	_
+3	niem'	_	_	ADV	_	_	_	_	_	ADVP	niem'	296,33	_	ADVB	_	B-ADVP-insitu	B-ADVP	ADVNEG	_	MAINDECL-ELLI	B-MF	75vb,13	_
+4	erwíndē	_	_	VVINF	_	_	_	_	_	VP	erwíndē	296,34	_	INF	_	_	O	VVINF	RE	MAINDECL-ELLI	B-RK	75vb,14; be-	_
+5	mít	_	_	APPR	_	_	_	_	_	PP	mít	296,34	NF	PP-ADV	_	B-PP-extrap	B-PP	APPR	_	MAINDECL-ELLI	B-NF	75vb,14; be-	UNLINK
+6	mī́ne	_	_	NN	_	_	_	_	_	PP	mī́ne	296,34	NF	PP-ADV	ACC-ABSTR-USED-X_	I-PP	I-PP	NA	_	MAINDECL-ELLI	I-NF	75vb,14; be-	UNLINK
+7	vn̄	_	_	KON	_	_	_	_	_	PP	vn̄	296,34	NF	PP-ADV	_	I-PP	I-PP	KON	_	MAINDECL-ELLI	I-NF	75vb,14; be-	UNLINK
+8	be(=)gírde/	_	_	NN	_	_	_	_	_	PP	begírde/	296,34	NF	PP-ADV	_ACC-ABSTR-UNUSED	I-PP	I-PP	NA	_	MAINDECL-ELLI	I-NF	75vb,14; be-	UNLINK
+
+# sent_id = 4
+# PTBstring = (VROOT(S(AVP(ADV So))(VP(VMFIN ſuͥlē))(NP(PPER wir))(VP(ADV dēne)(VVINF ſprechen)(PP(APPR mit)(ADJA grozer)(NN begirde)(PUNKT .)))))
+# TopFString = (S(VF(ADV So))(LK(VMFIN ſuͥlē))(MF(PPER wir)(ADV dēne))(VC(VVINF ſprechen))(NF(APPR mit)(ADJA grozer)(NN begirde))(PUNKT .))
+# text = So ſuͥlē wir dēne ſprechen mit grozer begirde.
+1	So	_	_	ADV	_	_	_	_	_	ADVP	So	296,38; be-	_	ADVB	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	B-VF	76ra,01	_
+2	ſuͥlē	_	_	VMFIN	_	_	_	_	_	VP	ſuͥlē	296,38; be-	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	B-LK	76ra,01	_
+3	wir	_	_	PPER	_	_	_	_	_	NP	wir	296,38; be-	_	SUBJ	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-MF	76ra,01	_
+4	dēne	_	_	ADV	_	_	_	_	_	ADVP	dēne	296,38; be-	_	ADVB	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	I-MF	76ra,01	_
+5	ſprechen	_	_	VVINF	_	_	_	_	_	VP	ſprechen	296,38; be-	_	INF	_	_	O	VVINF	RE	MAINDECL	B-RK	76ra,01	_
+6	mit	_	_	APPR	_	_	_	_	_	PP	mit	296,38; be-	NF	PP-ADV	_	B-PP-extrap	B-PP	APPR	_	MAINDECL	B-NF	76ra,02	UNLINK
+7	grozer	_	_	ADJA	_	_	_	_	_	PP	grozer	296,38; be-	NF	PP-ADV	_	I-PP	I-PP	ADJ	_	MAINDECL	I-NF	76ra,02	UNLINK
+8	begirde	_	_	NN	_	_	_	_	_	PP	begirde	296,38; be-	NF	PP-ADV	ACC-ABSTR-USED-X	I-PP	I-PP	NA	_	MAINDECL	I-NF	76ra,02	UNLINK
+9	.	_	_	$.	_	_	_	_	_	_	.	296.,39; -girde	_	_	_	_	I-PP	$_	_	MAINDECL	O	76ra,02	_

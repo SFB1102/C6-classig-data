@@ -1,0 +1,433 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CHUNK CharOffset DTA:ID DTA:NORM POS
+# sent_id = 1
+# sent_id(TSV) = 1
+# text = Newe Zeytung auß Ghendt / in Flandern .
+1	Newe	neu	_	ADJA	_	_	_	_	_	B-NC	0-4	w1e2	Neue	*
+2	Zeytung	Zeitung	_	NN	_	_	_	_	_	I-NC	5-12	w1e3	Zeitung	*
+3	auß	aus	_	APPR	_	_	_	_	_	B-PC	13-16	w1e4	aus	*
+4	Ghendt	Ghendt	_	NE	_	_	_	_	_	I-PC	17-23	w1e5	Ghendt	*
+5	/	/	_	$(	_	_	_	_	_	O	24-25	w1e6	/	*
+6	in	in	_	APPR	_	_	_	_	_	B-PC	26-28	w1e7	in	*
+7	Flandern	Flandern	_	NE	_	_	_	_	_	I-PC	29-37	w1e8	Flandern	*
+8	.	.	_	$.	_	_	_	_	_	O	38-39	w1e9	.	*
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# text = Wie es da selbst ein gantz greuͤlichs vnd Erschroͤcklichs / vngewiter entstanden des gleichen vormals nie erhoͤrt wordn ist /
+1	Wie	wie	_	KOUS	_	_	_	_	_	O	41-44	w1ea	Wie	*
+2	es	es	_	PPER	_	_	_	_	_	B-NC	45-47	w1eb	es	*
+3	da	da	_	ADV	_	_	_	_	_	B-ADVC	48-50	w1ec	da	*
+4	selbst	selbst	_	ADV	_	_	_	_	_	B-ADVC	51-57	w1ed	selbst	*
+5	ein	eine	_	ART	_	_	_	_	_	B-NC	58-61	w1ee	ein	*
+6	gantz	ganz	_	ADV	_	_	_	_	_	I-NC	62-67	w1ef	ganz	*
+7	greuͤlichs	greulich	_	ADJA	_	_	_	_	_	I-NC	68-78	w1f0	greuliches	*
+8	vnd	und	_	KON	_	_	_	_	_	I-NC	79-82	w1f1	und	*
+9	Erschroͤcklichs	erschröcklich	_	ADJA	_	_	_	_	_	I-NC	83-98	w1f2	Erschröckliches	*
+10	/	/	_	$(	_	_	_	_	_	I-NC	99-100	w1f3	/	*
+11	vngewiter	Ungewitter	_	NN	_	_	_	_	_	I-NC	101-110	w1f4	Ungewitter	*
+12	entstanden	entstehen	_	VVPP	_	_	_	_	_	O	111-121	w1f5	entstanden	*
+13	des	d	_	ART	_	_	_	_	_	B-NC	122-125	w1f6	des	*
+14	gleichen	gleich	_	NN	_	_	_	_	_	I-NC	126-134	w1f7	gleichen	*
+15	vormals	vormals	_	ADV	_	_	_	_	_	B-ADVC	135-142	w1f8	vormals	*
+16	nie	nie	_	ADV	_	_	_	_	_	B-ADVC	143-146	w1f9	nie	*
+17	erhoͤrt	erhören	_	VVPP	_	_	_	_	_	O	147-154	w1fa	erhört	*
+18	wordn	werden	_	VAPP	_	_	_	_	_	O	155-160	w1fb	worden	*
+19	ist	sein	_	VAFIN	_	_	_	_	_	O	161-164	w1fc	ist	*
+20	/	/	_	$(	_	_	_	_	_	O	165-166	w1fd	/	*
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# text = geschehen Anno 1586. den 18. Augustij .
+1	geschehen	geschehen	_	VVPP	_	_	_	_	_	O	168-177	w1fe	geschehen	*
+2	Anno	Anno	_	NN	_	_	_	_	_	B-NC	178-182	w1ff	Anno	*
+3	1586.	1586.	_	CARD	_	_	_	_	_	B-NC	183-188	w200	1586.	*
+4	den	d	_	ART	_	_	_	_	_	B-NC	189-192	w201	den	*
+5	18.	18.	_	ADJA	_	_	_	_	_	I-NC	193-196	w202	18.	*
+6	Augustij	Augustij	_	NN	_	_	_	_	_	I-NC	197-205	w203	Augustij	*
+7	.	.	_	$.	_	_	_	_	_	O	206-207	w204	.	*
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# text = SEhr khleglich in der zeit gemelt /
+1	SEhr	sehr	_	ADV	_	_	_	_	_	B-AC	209-213	w1,w1_1	Sehr	*
+2	khleglich	kläglich	_	ADJD	_	_	_	_	_	I-AC	214-223	w2	kläglich	*
+3	in	in	_	APPR	_	_	_	_	_	B-PC	224-226	w3	in	*
+4	der	d	_	ART	_	_	_	_	_	I-PC	227-230	w4	der	*
+5	zeit	Zeit	_	NN	_	_	_	_	_	I-PC	231-235	w5	Zeit	*
+6	gemelt	melden	_	VVPP	_	_	_	_	_	O	236-242	w6	gemeldet	*
+7	/	/	_	$(	_	_	_	_	_	O	243-244	w7	/	*
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# text = Da hat sich der Himmel gestele .
+1	Da	da	_	ADV	_	_	_	_	_	B-ADVC	246-248	w8	Da	*
+2	hat	haben	_	VAFIN	_	_	_	_	_	O	249-252	w9	hat	*
+3	sich	sich	_	PRF	_	_	_	_	_	B-NC	253-257	wa	sich	*
+4	der	d	_	ART	_	_	_	_	_	B-NC	258-261	wb	der	*
+5	Himmel	Himmel	_	NN	_	_	_	_	_	I-NC	262-268	wc	Himmel	*
+6	gestele	Gestell	_	VVPP	_	_	_	_	_	O	269-276	wd	Gestelle	*
+7	.	.	_	$.	_	_	_	_	_	O	277-278	we	.	*
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# text = Schroͤcklich / die Windt theten auch web
+1	Schroͤcklich	schrecklich	_	ADJD	_	_	_	_	_	B-AC	280-292	wf	Schrecklich	*
+2	/	/	_	$(	_	_	_	_	_	O	293-294	w10	/	*
+3	die	d	_	ART	_	_	_	_	_	B-NC	295-298	w11	die	*
+4	Windt	Wind	_	NN	_	_	_	_	_	I-NC	299-304	w12	Wind	*
+5	theten	tun	_	VVFIN	_	_	_	_	_	O	305-311	w13	täten	*
+6	auch	auch	_	ADV	_	_	_	_	_	B-ADVC	312-316	w14	auch	*
+7	web	Web	_	PTKVZ	_	_	_	_	_	O	317-320	w15	web	*
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# text = Zu dem sach man in lüften / Schweben / Vnter aim vngewiter groß . Sichtbarlichen den Satan Bloß /
+1	Zu	zu	_	APPR	_	_	_	_	_	B-PC	322-324	w16	Zu	*
+2	dem	d	_	PDS	_	_	_	_	_	I-PC	325-328	w17	dem	*
+3	sach	Sache	_	VVFIN	_	_	_	_	_	O	329-333	w18	Sache	*
+4	man	man	_	PIS	_	_	_	_	_	B-NC	334-337	w19	man	*
+5	in	in	_	APPR	_	_	_	_	_	B-PC	338-340	w1a	in	*
+6	lüften	lüften	_	NN	_	_	_	_	_	I-PC	341-347	w1b	lüften	*
+7	/	/	_	$(	_	_	_	_	_	O	348-349	w1c	/	*
+8	Schweben	Schwebe	_	VVINF	_	_	_	_	_	O	350-358	w1d	Schweben	*
+9	/	/	_	$(	_	_	_	_	_	O	359-360	w1e	/	*
+10	Vnter	unter	_	APPR	_	_	_	_	_	B-PC	361-366	w1f	Unter	*
+11	aim	Aim	_	ART	_	_	_	_	_	I-PC	367-370	w20	aim	*
+12	vngewiter	Ungewitter	_	NN	_	_	_	_	_	I-PC	371-380	w21	Ungewitter	*
+13	groß	groß	_	ADJD	_	_	_	_	_	B-AC	381-385	w22	groß	*
+14	.	.	_	$.	_	_	_	_	_	O	386-387	w23	.	*
+15	Sichtbarlichen	Sichtbarliche	_	ADJD	_	_	_	_	_	B-AC	388-402	w24	Sichtbarlichen	*
+16	den	d	_	ART	_	_	_	_	_	B-NC	403-406	w25	den	*
+17	Satan	Satan	_	NN	_	_	_	_	_	I-NC	407-412	w26	Satan	*
+18	Bloß	bloß	_	ADV	_	_	_	_	_	B-ADVC	413-417	w27	Bloß	*
+19	/	/	_	$(	_	_	_	_	_	O	418-419	w28	/	*
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# text = Auch wie er sich thete befleisen . Villerley schaden zu beweisen / Des manichen Mann hat geschmirtzt .
+1	Auch	auch	_	ADV	_	_	_	_	_	B-ADVC	421-425	w29	Auch	*
+2	wie	wie	_	KOUS	_	_	_	_	_	O	426-429	w2a	wie	*
+3	er	er	_	PPER	_	_	_	_	_	B-NC	430-432	w2b	er	*
+4	sich	sich	_	PRF	_	_	_	_	_	B-NC	433-437	w2c	sich	*
+5	thete	tun	_	VVFIN	_	_	_	_	_	O	438-443	w2d	täte	*
+6	befleisen	befleißen	_	VVINF	_	_	_	_	_	O	444-453	w2e	befleißen	*
+7	.	.	_	$.	_	_	_	_	_	O	454-455	w2f	.	*
+8	Villerley	vielerlei	_	PIAT	_	_	_	_	_	B-NC	456-465	w30	vielerlei	*
+9	schaden	schaden	_	NN	_	_	_	_	_	I-NC	466-473	w31	schaden	*
+10	zu	zu	_	PTKZU	_	_	_	_	_	O	474-476	w32	zu	*
+11	beweisen	beweisen	_	VVINF	_	_	_	_	_	O	477-485	w33	beweisen	*
+12	/	/	_	$(	_	_	_	_	_	O	486-487	w34	/	*
+13	Des	d	_	PRELS	_	_	_	_	_	B-NC	488-491	w35	Des	*
+14	manichen	Maniechen	_	ADJA	_	_	_	_	_	B-NC	492-500	w36	Manichen	*
+15	Mann	Mann	_	NN	_	_	_	_	_	I-NC	501-505	w37	Mann	*
+16	hat	haben	_	VAFIN	_	_	_	_	_	O	506-509	w38	hat	*
+17	geschmirtzt	geschmiert	_	VVPP	_	_	_	_	_	O	510-521	w39	geschmiertst	*
+18	.	.	_	$.	_	_	_	_	_	O	522-523	w3a	.	*
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# text = Er hat vil Heüser vmb gesturtzt Jn der Stat Ghendt / Nache vnd feren .
+1	Er	er	_	PPER	_	_	_	_	_	B-NC	525-527	w3b	Er	*
+2	hat	haben	_	VAFIN	_	_	_	_	_	O	528-531	w3c	hat	*
+3	vil	viel	_	PIAT	_	_	_	_	_	B-NC	532-535	w3d	viel	*
+4	Heüser	heiser	_	NN	_	_	_	_	_	I-NC	536-542	w3e	Heiser	*
+5	vmb	um	_	PTKVZ	_	_	_	_	_	O	543-546	w3f	um	*
+6	gesturtzt	stürzen	_	VVPP	_	_	_	_	_	O	547-556	w40	gestürzt	*
+7	Jn	in	_	APPR	_	_	_	_	_	B-PC	557-559	w41	In	*
+8	der	d	_	ART	_	_	_	_	_	I-PC	560-563	w42	der	*
+9	Stat	Staat	_	NN	_	_	_	_	_	I-PC	564-568	w43	Staat	*
+10	Ghendt	Ghendt	_	NE	_	_	_	_	_	B-NC	569-575	w44	Ghendt	*
+11	/	/	_	$(	_	_	_	_	_	O	576-577	w45	/	*
+12	Nache	nagen	_	ADJD	_	_	_	_	_	B-AC	578-583	w46	Nage	*
+13	vnd	und	_	KON	_	_	_	_	_	O	584-587	w47	und	*
+14	feren	Feren	_	ADJD	_	_	_	_	_	B-AC	588-593	w48	feren	*
+15	.	.	_	$.	_	_	_	_	_	O	594-595	w49	.	*
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# text = Nach sollichem ließ Er sich hoͤrren / Jn aim Castel /
+1	Nach	nach	_	APPR	_	_	_	_	_	B-PC	597-601	w4a	Nach	*
+2	sollichem	solelich	_	PIS	_	_	_	_	_	I-PC	602-611	w4b	sollichem	*
+3	ließ	lassen	_	VVFIN	_	_	_	_	_	O	612-616	w4c	ließ	*
+4	Er	er	_	PPER	_	_	_	_	_	B-NC	617-619	w4d	Er	*
+5	sich	sich	_	PRF	_	_	_	_	_	B-NC	620-624	w4e	sich	*
+6	hoͤrren	hören	_	VVINF	_	_	_	_	_	O	625-632	w4f	hören	*
+7	/	/	_	$(	_	_	_	_	_	O	633-634	w50	/	*
+8	Jn	in	_	APPR	_	_	_	_	_	B-PC	635-637	w51	In	*
+9	aim	Aim	_	ART	_	_	_	_	_	I-PC	638-641	w52	aim	*
+10	Castel	Castel	_	NN	_	_	_	_	_	I-PC	642-648	w53	Castel	*
+11	/	/	_	$(	_	_	_	_	_	O	649-650	w54	/	*
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# text = da griff Er ann. Gar schroͤcklich ainen Edelman /
+1	da	da	_	ADV	_	_	_	_	_	B-ADVC	652-654	w55	da	*
+2	griff	greifen	_	VVFIN	_	_	_	_	_	O	655-660	w56	griff	*
+3	Er	er	_	PPER	_	_	_	_	_	B-NC	661-663	w57	Er	*
+4	ann.	Ann.	_	PTKVZ	_	_	_	_	_	O	664-668	w58	ann.	*
+5	Gar	gar	_	ADV	_	_	_	_	_	B-AC	669-672	w59	Gar	*
+6	schroͤcklich	schrecklich	_	ADJD	_	_	_	_	_	I-AC	673-685	w5a	schrecklich	*
+7	ainen	eine	_	ART	_	_	_	_	_	B-NC	686-691	w5b	einen	*
+8	Edelman	Edelmann	_	NN	_	_	_	_	_	I-NC	692-699	w5c	Edelmann	*
+9	/	/	_	$(	_	_	_	_	_	O	700-701	w5d	/	*
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# text = Auß seinem Leib / vil stückh Er Riß .
+1	Auß	aus	_	APPR	_	_	_	_	_	B-PC	703-706	w5e	Aus	*
+2	seinem	seine	_	PPOSAT	_	_	_	_	_	I-PC	707-713	w5f	seinem	*
+3	Leib	Leib	_	NN	_	_	_	_	_	I-PC	714-718	w60	Leib	*
+4	/	/	_	$(	_	_	_	_	_	O	719-720	w61	/	*
+5	vil	viel	_	PIAT	_	_	_	_	_	B-NC	721-724	w62	viel	*
+6	stückh	Stück	_	NN	_	_	_	_	_	I-NC	725-731	w63	Stück	*
+7	Er	er	_	PPER	_	_	_	_	_	B-NC	732-734	w64	Er	*
+8	Riß	Riß	_	VVFIN	_	_	_	_	_	O	735-738	w65	Riß	*
+9	.	.	_	$.	_	_	_	_	_	O	739-740	w66	.	*
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# text = Wunderlich ists / doch gleichwol gwiß / Das er ain klaines Heuͤßlein fein . Deß aines Schuchmachers thet sein / Hinweckh trueg / mit sein macht enteckht .
+1	Wunderlich	wunderlich	_	ADJD	_	_	_	_	_	B-AC	742-752	w67	Wunderlich	*
+2	ists	sein_es	_	VAFIN	_	_	_	_	_	O	753-757	w68	ist_es	*
+3	/	/	_	$(	_	_	_	_	_	O	758-759	w69	/	*
+4	doch	doch	_	ADV	_	_	_	_	_	B-ADVC	760-764	w6a	doch	*
+5	gleichwol	gleichwohl	_	ADV	_	_	_	_	_	B-ADVC	765-774	w6b	gleichwohl	*
+6	gwiß	gewiß	_	ADV	_	_	_	_	_	B-ADVC	775-779	w6c	gewiß	*
+7	/	/	_	$(	_	_	_	_	_	O	780-781	w6d	/	*
+8	Das	d	_	KOUS	_	_	_	_	_	O	782-785	w6e	Das	*
+9	er	er	_	PPER	_	_	_	_	_	B-NC	786-788	w6f	er	*
+10	ain	eine	_	ART	_	_	_	_	_	B-NC	789-792	w70	ein	*
+11	klaines	klein	_	ADJA	_	_	_	_	_	I-NC	793-800	w71	kleines	*
+12	Heuͤßlein	Heüßlein	_	NN	_	_	_	_	_	I-NC	801-810	w72	Heüßlein	*
+13	fein	fein	_	ADJD	_	_	_	_	_	B-AC	811-815	w73	fein	*
+14	.	.	_	$.	_	_	_	_	_	O	816-817	w74	.	*
+15	Deß	d	_	PRELS	_	_	_	_	_	B-NC	818-821	w75	Des	*
+16	aines	eine	_	ART	_	_	_	_	_	B-NC	822-827	w76	eines	*
+17	Schuchmachers	Schachmacher	_	NN	_	_	_	_	_	I-NC	828-841	w77	Schachmachers	*
+18	thet	tun	_	VVFIN	_	_	_	_	_	O	842-846	w78	täte	*
+19	sein	sein	_	VAINF	_	_	_	_	_	O	847-851	w79	sein	*
+20	/	/	_	$(	_	_	_	_	_	O	852-853	w7a	/	*
+21	Hinweckh	hinweg	_	PTKVZ	_	_	_	_	_	O	854-862	w7b	hinweg	*
+22	trueg	trügen	_	VVFIN	_	_	_	_	_	O	863-868	w7c	trüg	*
+23	/	/	_	$(	_	_	_	_	_	O	869-870	w7d	/	*
+24	mit	mit	_	APPR	_	_	_	_	_	B-PC	871-874	w7e	mit	*
+25	sein	sein	_	PPOSAT	_	_	_	_	_	I-PC	875-879	w7f	sein	*
+26	macht	machen	_	NN	_	_	_	_	_	I-PC	880-885	w80	macht	*
+27	enteckht	entdecken	_	VVPP	_	_	_	_	_	O	886-894	w81	entdeckt	*
+28	.	.	_	$.	_	_	_	_	_	O	895-896	w82	.	*
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# text = Ein Alte Fraw darmit erschreckt / Das man sie hat fir Thot vmbzogen .
+1	Ein	eine	_	ART	_	_	_	_	_	B-NC	898-901	w83	Ein	*
+2	Alte	alt	_	ADJA	_	_	_	_	_	I-NC	902-906	w84	Alte	*
+3	Fraw	Frau	_	NN	_	_	_	_	_	I-NC	907-911	w85	Frau	*
+4	darmit	damit	_	PAV	_	_	_	_	_	B-AC	912-918	w86	damit	*
+5	erschreckt	erschrecken	_	VVPP	_	_	_	_	_	O	919-929	w87	erschreckt	*
+6	/	/	_	$(	_	_	_	_	_	O	930-931	w88	/	*
+7	Das	die	_	KOUS	_	_	_	_	_	O	932-935	w89	Das	*
+8	man	man	_	PIS	_	_	_	_	_	B-NC	936-939	w8a	man	*
+9	sie	sie	_	PPER	_	_	_	_	_	B-NC	940-943	w8b	sie	*
+10	hat	haben	_	VAFIN	_	_	_	_	_	O	944-947	w8c	hat	*
+11	fir	für	_	APPR	_	_	_	_	_	B-PC	948-951	w8d	für	*
+12	Thot	Tod	_	ADJD	_	_	_	_	_	I-PC	952-956	w8e	Tod	*
+13	vmbzogen	umziehen	_	VVPP	_	_	_	_	_	O	957-965	w8f	umzogen	*
+14	.	.	_	$.	_	_	_	_	_	O	966-967	w90	.	*
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# text = Ferner ist der Boͤß Geist geflogen / Mit lautem Getuͤmel ohn trawren / Auff S. Peters Kirch
+1	Ferner	ferner	_	ADV	_	_	_	_	_	B-ADVC	969-975	w91	Ferner	*
+2	ist	sein	_	VAFIN	_	_	_	_	_	O	976-979	w92	ist	*
+3	der	d	_	ART	_	_	_	_	_	B-NC	980-983	w93	der	*
+4	Boͤß	böse	_	ADJA	_	_	_	_	_	I-NC	984-988	w94	Böse	*
+5	Geist	Geist	_	NN	_	_	_	_	_	I-NC	989-994	w95	Geist	*
+6	geflogen	fliegen	_	VVPP	_	_	_	_	_	O	995-1003	w96	geflogen	*
+7	/	/	_	$(	_	_	_	_	_	O	1004-1005	w97	/	*
+8	Mit	mit	_	APPR	_	_	_	_	_	B-PC	1006-1009	w98	Mit	*
+9	lautem	laut	_	ADJA	_	_	_	_	_	I-PC	1010-1016	w99	lautem	*
+10	Getuͤmel	Getümmel	_	NN	_	_	_	_	_	I-PC	1017-1025	w9a	Getümmel	*
+11	ohn	ohne	_	APPR	_	_	_	_	_	B-PC	1026-1029	w9b	ohne	*
+12	trawren	Trauern	_	NN	_	_	_	_	_	I-PC	1030-1037	w9c	Trauern	*
+13	/	/	_	$(	_	_	_	_	_	O	1038-1039	w9d	/	*
+14	Auff	auf	_	APPR	_	_	_	_	_	B-PC	1040-1044	w9e	Auf	*
+15	S.	S.	_	NN	_	_	_	_	_	I-PC	1045-1047	w9f	S.	*
+16	Peters	Peters	_	NE	_	_	_	_	_	B-NC	1048-1054	wa0	Peters	*
+17	Kirch	Kirche	_	NN	_	_	_	_	_	B-NC	1055-1060	wa1	Kirche	*
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# text = von den Maurẽ . Stücker Riß / vnd Rab geworffen hat /
+1	von	von	_	APPR	_	_	_	_	_	B-PC	1062-1065	wa2	von	*
+2	den	d	_	ART	_	_	_	_	_	I-PC	1066-1069	wa3	den	*
+3	Maurẽ	Maure	_	NN	_	_	_	_	_	I-PC	1070-1076	wa4	Mauren	*
+4	.	.	_	$.	_	_	_	_	_	O	1077-1078	wa5	.	*
+5	Stücker	Stücker	_	NN	_	_	_	_	_	B-NC	1079-1086	wa6	Stücker	*
+6	Riß	Riß	_	VVFIN	_	_	_	_	_	O	1087-1090	wa7	Riß	*
+7	/	/	_	$(	_	_	_	_	_	O	1091-1092	wa8	/	*
+8	vnd	und	_	KON	_	_	_	_	_	O	1093-1096	wa9	und	*
+9	Rab	herab	_	PTKVZ	_	_	_	_	_	O	1097-1100	waa	Herab	*
+10	geworffen	werfen	_	VVPP	_	_	_	_	_	O	1101-1110	wab	geworfen	*
+11	hat	haben	_	VAFIN	_	_	_	_	_	O	1111-1114	wac	hat	*
+12	/	/	_	$(	_	_	_	_	_	O	1115-1116	wad	/	*
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# text = Er fandt auch beim Waser am gstat Einen guten frumen man Alt .
+1	Er	er	_	PPER	_	_	_	_	_	B-NC	1118-1120	wae	Er	*
+2	fandt	finden	_	VVFIN	_	_	_	_	_	O	1121-1126	waf	fand	*
+3	auch	auch	_	ADV	_	_	_	_	_	B-ADVC	1127-1131	wb0	auch	*
+4	beim	beim	_	APPRART	_	_	_	_	_	B-PC	1132-1136	wb1	beim	*
+5	Waser	Wasser	_	NN	_	_	_	_	_	I-PC	1137-1142	wb2	Wasser	*
+6	am	am	_	APPRART	_	_	_	_	_	B-PC	1143-1145	wb3	am	*
+7	gstat	Gstat	_	NN	_	_	_	_	_	I-PC	1146-1151	wb4	gstat	*
+8	Einen	eine	_	ART	_	_	_	_	_	B-NC	1152-1157	wb5	Einen	*
+9	guten	gut	_	ADJA	_	_	_	_	_	I-NC	1158-1163	wb6	guten	*
+10	frumen	Frumen	_	ADJA	_	_	_	_	_	I-NC	1164-1170	wb7	frumen	*
+11	man	man	_	NN	_	_	_	_	_	I-NC	1171-1174	wb8	man	*
+12	Alt	alt	_	ADJD	_	_	_	_	_	B-AC	1175-1178	wb9	Alt	*
+13	.	.	_	$.	_	_	_	_	_	O	1179-1180	wba	.	*
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# text = Den nam er / vngitiger gstalt / Bein schultern / fürt jn in die lüft .
+1	Den	D	_	PDS	_	_	_	_	_	B-NC	1182-1185	wbb	Den	*
+2	nam	nehmen	_	VVFIN	_	_	_	_	_	O	1186-1189	wbc	nahm	*
+3	er	er	_	PPER	_	_	_	_	_	B-NC	1190-1192	wbd	er	*
+4	/	/	_	$(	_	_	_	_	_	O	1193-1194	wbe	/	*
+5	vngitiger	ungütig	_	ADJA	_	_	_	_	_	B-NC	1195-1204	wbf	ungütiger	*
+6	gstalt	Gestalt	_	NN	_	_	_	_	_	I-NC	1205-1211	wc0	Gestalt	*
+7	/	/	_	$(	_	_	_	_	_	O	1212-1213	wc1	/	*
+8	Bein	Bein	_	APPRART	_	_	_	_	_	B-PC	1214-1218	wc2	Bein	*
+9	schultern	schultern	_	NN	_	_	_	_	_	I-PC	1219-1228	wc3	schultern	*
+10	/	/	_	$(	_	_	_	_	_	O	1229-1230	wc4	/	*
+11	fürt	führen	_	VVFIN	_	_	_	_	_	O	1231-1235	wc5	führt	*
+12	jn	er	_	PPER	_	_	_	_	_	B-NC	1236-1238	wc6	ihn	*
+13	in	in	_	APPR	_	_	_	_	_	B-PC	1239-1241	wc7	in	*
+14	die	d	_	ART	_	_	_	_	_	I-PC	1242-1245	wc8	die	*
+15	lüft	lüften	_	NN	_	_	_	_	_	I-PC	1246-1250	wc9	lüfte	*
+16	.	.	_	$.	_	_	_	_	_	O	1251-1252	wca	.	*
+
+# sent_id = 19
+# sent_id(TSV) = 19
+# text = Groses Hertzenleidt er jm stifft /
+1	Groses	groß	_	ADJA	_	_	_	_	_	B-NC	1254-1260	wcb	Großes	*
+2	Hertzenleidt	Herzeleid	_	NN	_	_	_	_	_	I-NC	1261-1273	wcc	Herzenleid	*
+3	er	er	_	PPER	_	_	_	_	_	B-NC	1274-1276	wcd	er	*
+4	jm	er	_	PPER	_	_	_	_	_	B-NC	1277-1279	wce	ihm	*
+5	stifft	Stift	_	VVPP	_	_	_	_	_	O	1280-1286	wcf	Stift	*
+6	/	/	_	$(	_	_	_	_	_	O	1287-1288	wd0	/	*
+
+# sent_id = 20
+# sent_id(TSV) = 20
+# text = Gleich woll thet er in jn den dingen . Ohn schaden widerumb herbringen /
+1	Gleich	gleich	_	ADV	_	_	_	_	_	B-ADVC	1290-1296	wd1	Gleich	*
+2	woll	wohl	_	ADV	_	_	_	_	_	B-ADVC	1297-1301	wd2	wohl	*
+3	thet	tun	_	VVFIN	_	_	_	_	_	O	1302-1306	wd3	täte	*
+4	er	er	_	PPER	_	_	_	_	_	B-NC	1307-1309	wd4	er	*
+5	in	in	_	PPER	_	_	_	_	_	B-NC	1310-1312	wd5	in	*
+6	jn	er	_	APPR	_	_	_	_	_	B-PC	1313-1315	wd6	ihn	*
+7	den	d	_	ART	_	_	_	_	_	I-PC	1316-1319	wd7	den	*
+8	dingen	Ding	_	NN	_	_	_	_	_	I-PC	1320-1326	wd8	Dingen	*
+9	.	.	_	$.	_	_	_	_	_	O	1327-1328	wd9	.	*
+10	Ohn	ohne	_	APPR	_	_	_	_	_	B-PC	1329-1332	wda	Ohne	*
+11	schaden	schaden	_	NN	_	_	_	_	_	I-PC	1333-1340	wdb	schaden	*
+12	widerumb	wiederum	_	ADV	_	_	_	_	_	B-ADVC	1341-1349	wdc	wiederum	*
+13	herbringen	herbringen	_	VVINF	_	_	_	_	_	O	1350-1360	wdd	herbringen	*
+14	/	/	_	$(	_	_	_	_	_	O	1361-1362	wde	/	*
+
+# sent_id = 21
+# sent_id(TSV) = 21
+# text = Jttem er thet sich auch erregen . Mit sehr grawsamen Donerschlaͤgen / Auch Hellen Blitzen vngehewr . Die scheinen thetten wie das Fewr /
+1	Jttem	Item	_	ADV	_	_	_	_	_	B-ADVC	1364-1369	wdf	Item	*
+2	er	er	_	PPER	_	_	_	_	_	B-NC	1370-1372	we0	er	*
+3	thet	tun	_	VVFIN	_	_	_	_	_	O	1373-1377	we1	täte	*
+4	sich	sich	_	PRF	_	_	_	_	_	B-NC	1378-1382	we2	sich	*
+5	auch	auch	_	ADV	_	_	_	_	_	B-ADVC	1383-1387	we3	auch	*
+6	erregen	erregen	_	VVINF	_	_	_	_	_	O	1388-1395	we4	erregen	*
+7	.	.	_	$.	_	_	_	_	_	O	1396-1397	we5	.	*
+8	Mit	mit	_	APPR	_	_	_	_	_	B-PC	1398-1401	we6	Mit	*
+9	sehr	sehr	_	ADV	_	_	_	_	_	I-PC	1402-1406	we7	sehr	*
+10	grawsamen	grausam	_	ADJA	_	_	_	_	_	I-PC	1407-1416	we8	grausamen	*
+11	Donerschlaͤgen	Donnerschlag	_	NN	_	_	_	_	_	I-PC	1417-1431	we9	Donnerschlägen	*
+12	/	/	_	$(	_	_	_	_	_	O	1432-1433	wea	/	*
+13	Auch	auch	_	ADV	_	_	_	_	_	B-NC	1434-1438	web	Auch	*
+14	Hellen	hell	_	ADJA	_	_	_	_	_	I-NC	1439-1445	wec	Hellen	*
+15	Blitzen	Blitz	_	NN	_	_	_	_	_	I-NC	1446-1453	wed	Blitzen	*
+16	vngehewr	Vngehewr	_	ADJD	_	_	_	_	_	B-AC	1454-1462	wee	vngehewr	*
+17	.	.	_	$.	_	_	_	_	_	O	1463-1464	wef	.	*
+18	Die	die	_	PRELS	_	_	_	_	_	B-NC	1465-1468	wf0	Die	*
+19	scheinen	scheinen	_	VVFIN	_	_	_	_	_	O	1469-1477	wf1	scheinen	*
+20	thetten	tun	_	VVINF	_	_	_	_	_	O	1478-1485	wf2	täten	*
+21	wie	wie	_	KOKOM	_	_	_	_	_	B-NC	1486-1489	wf3	wie	*
+22	das	d	_	ART	_	_	_	_	_	I-NC	1490-1493	wf4	das	*
+23	Fewr	Feuer	_	NN	_	_	_	_	_	I-NC	1494-1498	wf5	Feuer	*
+24	/	/	_	$(	_	_	_	_	_	O	1499-1500	wf6	/	*
+
+# sent_id = 22
+# sent_id(TSV) = 22
+# text = Zu Gott Ruften die lieben Frumen .
+1	Zu	zu	_	APPR	_	_	_	_	_	B-PC	1502-1504	wf7	Zu	*
+2	Gott	Gott	_	NN	_	_	_	_	_	I-PC	1505-1509	wf8	Gott	*
+3	Ruften	Ruften	_	VVFIN	_	_	_	_	_	O	1510-1516	wf9	Ruften	*
+4	die	d	_	ART	_	_	_	_	_	B-NC	1517-1520	wfa	die	*
+5	lieben	lieb	_	ADJA	_	_	_	_	_	I-NC	1521-1527	wfb	lieben	*
+6	Frumen	Frumen	_	NN	_	_	_	_	_	I-NC	1528-1534	wfc	Frumen	*
+7	.	.	_	$.	_	_	_	_	_	O	1535-1536	wfd	.	*
+
+# sent_id = 23
+# sent_id(TSV) = 23
+# text = Sie meintẽ der Jüngst Tag würt kumẽ /
+1	Sie	sie	_	PPER	_	_	_	_	_	B-NC	1538-1541	wfe	Sie	*
+2	meintẽ	meinen	_	VVFIN	_	_	_	_	_	O	1542-1549	wff	meinten	*
+3	der	d	_	ART	_	_	_	_	_	B-NC	1550-1553	w100	der	*
+4	Jüngst	jüngst	_	ADJA	_	_	_	_	_	I-NC	1554-1560	w101	Jüngst	*
+5	Tag	Tag	_	NN	_	_	_	_	_	I-NC	1561-1564	w102	Tag	*
+6	würt	werden	_	VAFIN	_	_	_	_	_	O	1565-1569	w103	wird	*
+7	kumẽ	Kumen	_	VVINF	_	_	_	_	_	O	1570-1575	w104	kumen	*
+8	/	/	_	$(	_	_	_	_	_	O	1576-1577	w105	/	*
+
+# sent_id = 24
+# sent_id(TSV) = 24
+# text = Das wert vber drey gantze Stundt .
+1	Das	die	_	PDS	_	_	_	_	_	B-NC	1579-1582	w106	Das	*
+2	wert	wert	_	VVFIN	_	_	_	_	_	O	1583-1587	w107	wert	*
+3	vber	über	_	APPR	_	_	_	_	_	B-PC	1588-1592	w108	über	*
+4	drey	drei	_	CARD	_	_	_	_	_	I-PC	1593-1597	w109	drei	*
+5	gantze	ganz	_	ADJA	_	_	_	_	_	I-PC	1598-1604	w10a	ganze	*
+6	Stundt	Stand	_	NN	_	_	_	_	_	I-PC	1605-1611	w10b	Stand	*
+7	.	.	_	$.	_	_	_	_	_	O	1612-1613	w10c	.	*
+
+# sent_id = 25
+# sent_id(TSV) = 25
+# text = Vnd ist oftermals thue ich Kundt / Der Himmel Finster worden Schnel . Als seis Nacht / vnd dan wider Hell / Sach gleich als wan es Brinnen thet .
+1	Vnd	und	_	KON	_	_	_	_	_	O	1615-1618	w10d	Und	*
+2	ist	sein	_	VAFIN	_	_	_	_	_	O	1619-1622	w10e	ist	*
+3	oftermals	oftmals	_	ADV	_	_	_	_	_	B-ADVC	1623-1632	w10f	öftermals	*
+4	thue	tun	_	VVFIN	_	_	_	_	_	O	1633-1637	w110	tue	*
+5	ich	ich	_	PPER	_	_	_	_	_	B-NC	1638-1641	w111	ich	*
+6	Kundt	kund	_	PTKVZ	_	_	_	_	_	O	1642-1647	w112	kund	*
+7	/	/	_	$(	_	_	_	_	_	O	1648-1649	w113	/	*
+8	Der	d	_	ART	_	_	_	_	_	B-NC	1650-1653	w114	Der	*
+9	Himmel	Himmel	_	NN	_	_	_	_	_	I-NC	1654-1660	w115	Himmel	*
+10	Finster	finster	_	ADJD	_	_	_	_	_	B-AC	1661-1668	w116	Finster	*
+11	worden	werden	_	VAPP	_	_	_	_	_	O	1669-1675	w117	worden	*
+12	Schnel	schnell	_	ADJD	_	_	_	_	_	B-AC	1676-1682	w118	schnell	*
+13	.	.	_	$.	_	_	_	_	_	O	1683-1684	w119	.	*
+14	Als	als	_	KOUS	_	_	_	_	_	O	1685-1688	w11a	Als	*
+15	seis	sein	_	VAFIN	_	_	_	_	_	O	1689-1693	w11b	seist	*
+16	Nacht	Nacht	_	NN	_	_	_	_	_	B-NC	1694-1699	w11c	Nacht	*
+17	/	/	_	$(	_	_	_	_	_	O	1700-1701	w11d	/	*
+18	vnd	und	_	KON	_	_	_	_	_	O	1702-1705	w11e	und	*
+19	dan	dann	_	ADV	_	_	_	_	_	B-ADVC	1706-1709	w11f	dann	*
+20	wider	wider	_	ADV	_	_	_	_	_	B-AC	1710-1715	w120	wider	*
+21	Hell	Hell	_	ADJD	_	_	_	_	_	I-AC	1716-1720	w121	Hell	*
+22	/	/	_	$(	_	_	_	_	_	O	1721-1722	w122	/	*
+23	Sach	Sache	_	NN	_	_	_	_	_	B-NC	1723-1727	w123	Sache	*
+24	gleich	gleich	_	ADV	_	_	_	_	_	B-ADVC	1728-1734	w124	gleich	*
+25	als	als	_	KOKOM	_	_	_	_	_	O	1735-1738	w125	als	*
+26	wan	wann	_	KOUS	_	_	_	_	_	O	1739-1742	w126	wann	*
+27	es	es	_	PPER	_	_	_	_	_	B-NC	1743-1745	w127	es	*
+28	Brinnen	Brennen	_	VVINF	_	_	_	_	_	O	1746-1753	w128	Brennen	*
+29	thet	tun	_	VVFIN	_	_	_	_	_	O	1754-1758	w129	täte	*
+30	.	.	_	$.	_	_	_	_	_	O	1759-1760	w12a	.	*

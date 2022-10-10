@@ -1,0 +1,601 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC Antec CharOffset DTA:ID DTA:NORM MovElem PHRASE POS TOPF
+# sent_id = 1
+# sent_id(TSV) = 1
+# PTBstring = (VROOT(CNP(NP(CNP(NN Leben)(KON und)(NN Thaten))(NP(ART des)(ADJA ehrwürdigen)(NN Paters)(NE Simpertus)(PUNKT ;)))(KON oder)(NN Geschichte))(NP(ART der)(NN Verfinsterung)(NP(ART des)(NN Fürstenthums)(NE Strahlenberg)(PUNKT .))))
+# TopFString = (S(NN Leben)(KON und)(NN Thaten)(ART des)(ADJA ehrwürdigen)(NN Paters)(NE Simpertus)(PUNKT ;)(KON oder)(NN Geschichte)(ART der)(NN Verfinsterung)(ART des)(NN Fürstenthums)(NE Strahlenberg)(PUNKT .))
+# text = Leben und Thaten des ehrwürdigen Paters Simpertus ; oder Geschichte der Verfinsterung des Fürstenthums Strahlenberg .
+1	Leben	Leben	_	NN	_	_	_	_	_	_	0-5	w1	Leben	B-NP-insitu	B-NP	*	O
+2	und	und	_	KON	_	_	_	_	_	_	6-9	w2	und	I-NP	I-NP	*	O
+3	Thaten	Tat	_	NN	_	_	_	_	_	_	10-16	w3	Taten	I-NP	I-NP	*	O
+4	des	d	_	ART	_	_	_	_	_	_	17-20	w4	des	I-NP	I-NP	*	O
+5	ehrwürdigen	ehrewürdig	_	ADJA	_	_	_	_	_	_	21-32	w5	ehrwürdigen	I-NP	I-NP	*	O
+6	Paters	Pater	_	NN	_	_	_	_	_	_	33-39	w6	Paters	I-NP	I-NP	*	O
+7	Simpertus	Simpertus	_	NE	_	_	_	_	_	_	40-49	w7	Simpertus	I-NP	I-NP	*	O
+8	;	;	_	$.	_	_	_	_	_	_	50-51	w8	;	I-NP	I-NP	*	O
+9	oder	oder	_	KON	_	_	_	_	_	_	52-56	w9	oder	I-NP	I-NP	*	O
+10	Geschichte	Geschichte	_	NN	_	_	_	_	_	_	57-67	wa	Geschichte	I-NP	I-NP	*	O
+11	der	d	_	ART	_	_	_	_	_	_	68-71	wb	der	B-NP-insitu	B-NP	*	O
+12	Verfinsterung	Verfinsterung	_	NN	_	_	_	_	_	_	72-85	wc	Verfinsterung	I-NP	I-NP	*	O
+13	des	d	_	ART	_	_	_	_	_	_	86-89	wd	des	I-NP	I-NP	*	O
+14	Fürstenthums	Fürstentum	_	NN	_	_	_	_	_	_	90-102	we	Fürstentums	I-NP	I-NP	*	O
+15	Strahlenberg	Strahlenberg	_	NE	_	_	_	_	_	_	103-115	wf	Strahlenberg	I-NP	I-NP	*	O
+16	.	.	_	$.	_	_	_	_	_	_	116-117	w10	.	_	I-NP	*	O
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# PTBstring = (VROOT(VP(PP(APPRART Zur)(CNP(NN Lehre)(KON und)(NN Warnung))(PP(APPR für)(CNP(NN Obskuranten)(KON und)(NN Aufklärer))))(VVPP geschrieben)(KOMMA ,)(PP(APPR Von)(ART dem)(NN Bruder)(NE Thomas)(KOMMA ,))(NP(NN Pförtner)(PP(APPR an)(ART dem)(NN Jesuiter-Collegium)(PP(APPR zu)(NE Strahlenberg)(PUNKT .))))))
+# TopFString = (S(MF(APPRART Zur)(NN Lehre)(KON und)(NN Warnung)(APPR für)(NN Obskuranten)(KON und)(NN Aufklärer))(VC(VVPP geschrieben))(KOMMA ,)(NF(APPR Von)(ART dem)(NN Bruder)(NE Thomas)(KOMMA ,)(NN Pförtner)(APPR an)(ART dem)(NN Jesuiter-Collegium)(APPR zu)(NE Strahlenberg))(PUNKT .))
+# text = Zur Lehre und Warnung für Obskuranten und Aufklärer geschrieben , Von dem Bruder Thomas , Pförtner an dem Jesuiter-Collegium zu Strahlenberg .
+1	Zur	zur	_	APPRART	_	_	_	_	_	_	119-122	w11	Zur	B-PP-insitu	B-PP	*	B-MF
+2	Lehre	Lehre	_	NN	_	_	_	_	_	_	123-128	w12	Lehre	I-PP	I-PP	*	I-MF
+3	und	und	_	KON	_	_	_	_	_	_	129-132	w13	und	I-PP	I-PP	*	I-MF
+4	Warnung	Warnung	_	NN	_	_	_	_	_	_	133-140	w14	Warnung	I-PP	I-PP	*	I-MF
+5	für	für	_	APPR	_	_	_	_	_	_	141-144	w15	für	I-PP	I-PP	*	I-MF
+6	Obskuranten	Obskurant	_	NN	_	_	_	_	_	_	145-156	w16	Obskuranten	I-PP	I-PP	*	I-MF
+7	und	und	_	KON	_	_	_	_	_	_	157-160	w17	und	I-PP	I-PP	*	I-MF
+8	Aufklärer	Aufklärer	_	NN	_	_	_	_	_	_	161-170	w18	Aufklärer	I-PP	I-PP	*	I-MF
+9	geschrieben	schreiben	_	VVPP	_	_	_	_	_	_	171-182	w19	geschrieben	_	O	*	B-RK
+10	,	,	_	$,	_	_	_	_	_	_	183-184	w1a	,	_	O	*	O
+11	Von	von	_	APPR	_	_	_	_	_	_	185-188	w1b	Von	B-PP-extrap	B-PP	*	B-NF
+12	dem	d	_	ART	_	_	_	_	_	_	189-192	w1c	dem	I-PP	I-PP	*	I-NF
+13	Bruder	Bruder	_	NN	_	_	_	_	_	_	193-199	w1d	Bruder	I-PP	I-PP	*	I-NF
+14	Thomas	Thomas	_	NE	_	_	_	_	_	_	200-206	w1e	Thomas	I-PP	I-PP	*	I-NF
+15	,	,	_	$,	_	_	_	_	_	_	207-208	w1f	,	_	I-PP	*	I-NF
+16	Pförtner	Pförtner	_	NN	_	_	_	_	_	_	209-217	w20	Pförtner	B-NP-extrap	B-NP	*	I-NF
+17	an	an	_	APPR	_	_	_	_	_	_	218-220	w21	an	I-NP	I-NP	*	I-NF
+18	dem	d	_	ART	_	_	_	_	_	_	221-224	w22	dem	I-NP	I-NP	*	I-NF
+19	Jesuiter-Collegium	Jesuiter-Kollegium	_	NN	_	_	_	_	_	_	225-243	w23	Jesuiter-Kollegium	I-NP	I-NP	*	I-NF
+20	zu	zu	_	APPR	_	_	_	_	_	_	244-246	w24	zu	I-NP	I-NP	*	I-NF
+21	Strahlenberg	Strahlenberg	_	NE	_	_	_	_	_	_	247-259	w25	Strahlenberg	I-NP	I-NP	*	I-NF
+22	.	.	_	$.	_	_	_	_	_	_	260-261	w26	.	_	I-NP	*	O
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# PTBstring = (VROOT(NP(NE Madrit)(KOMMA ,)(VP(VVPP gedruckt)(PP(APPR auf)(NN Kosten)(NP(ART der)(ADJA heil.)(NN Inquisition)(PUNKT .))))))
+# TopFString = (S(NE Madrit)(KOMMA ,)(VC(VVPP gedruckt))(NF(APPR auf)(NN Kosten)(ART der)(ADJA heil.)(NN Inquisition))(PUNKT .))
+# text = Madrit , gedruckt auf Kosten der heil. Inquisition .
+1	Madrit	Madrid	_	NE	_	_	_	_	_	_	263-269	w27	Madrid	B-NP-insitu	B-NP	*	O
+2	,	,	_	$,	_	_	_	_	_	_	270-271	w28	,	I-NP	I-NP	*	O
+3	gedruckt	drucken	_	VVPP	_	_	_	_	_	_	272-280	w29	gedruckt	I-NP	I-NP	*	B-RK
+4	auf	auf	_	APPR	_	_	_	_	_	_	281-284	w2a	auf	I-NP|B-PP-extrap	I-NP	*	B-NF
+5	Kosten	Kosten	_	NN	_	_	_	_	_	_	285-291	w2b	Kosten	I-NP|I-PP	I-NP	*	I-NF
+6	der	d	_	ART	_	_	_	_	_	_	292-295	w2c	der	I-NP|I-PP	I-NP	*	I-NF
+7	heil.	heil.	_	ADJA	_	_	_	_	_	_	296-301	w2d	heil.	I-NP|I-PP	I-NP	*	I-NF
+8	Inquisition	Inquisition	_	NN	_	_	_	_	_	_	302-313	w2e	Inquisition	I-NP|I-PP	I-NP	*	I-NF
+9	.	.	_	$.	_	_	_	_	_	_	314-315	w2f	.	_	I-NP	*	O
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# PTBstring = (VROOT(CS(S(NP(NN Sr.)(CNP(NN Hochwürden)(KON und)(NN Gnaden))(NP(ART dem)(NN Herrn)(NN Coadjutor)(PP(APPR von)(NE Dallberg)(KOMMA ,))(NP(NN Sr.)(NP(NN Excellenz)(NP(ART dem)(ADJA kurtrierischen)(NN Herrn)(NN Staatsminister)(PP(APPR von)(NE Dominique)(KOMMA ,))(NP(ART Dem)(NN Herrn)(CNP(NN Rath)(KON und)(NN Bibliothekar))(NE Reichard)(PP(APPR in)(NE Gotha)(PUNKT ;))))))))(NP(KOKOM wie)(CNP(NP(ADV auch)(ART Dem)(NN Herrn)(NP(CNP(NE Hofstätter)(KON und)(NE Hofmann))(PP(APPR in)(NE Wien)(KOMMA ,)))(NP(ART dem)(NN Herrn)(NN Etatsrath)(PP(APPR von)(NE Schirach))(PP(APPR in)(NE Altona)(KOMMA ,))))(KON und)(NP(ART dem)(NN Herrn)(ADJA Geheimen)(NN Justiz-Rath)(NE Girtanner)(PP(APPR in)(NE Göttingen)(PUNKT ;)))))(NP(ADV ingleichem)(CNP(NP(CNP(NP(ART Dem)(NN Herrn)(PP(APPR von)(NE Donderer)(KOMMA ,))(NP(NN Zeitungsschreiber)(PP(APPR in)(NE Neuwied)(KOMMA ,))))(KON und)(NP(NN Herrn)(NE Brandmüller)(KOMMA ,)))(NP(NN Zeitungsschreiber)(PP(APPR in)(NE Augsburg)(PUNKT ;))))(KON und)(NP(ADV endlich)(ART Den)(NN PP)(PUNKT .)))))(S(PP(APPR ex)(CNP(NP(NN Societate)(NE Jesu)(PP(APPR in)(PIAT allen)(NN Provinzen)(KOMMA ,)))(NP(KOKOM als)(ART den)(ADJA treueifrigsten)(NN Beförderern)(NP(ART des)(ADJA heilsamen)(NN Obskurations-Werks)(PP(APPR in)(NE Teutschland))))))(VP(VVFIN widmet))(NP(PDAT diese)(NN Schrift))(CPP(PP(APPRART zur)(NN Lehre)(KOMMA ,))(PP(APPRART zur)(NN Ermahnung)(KOMMA ,))(CPP(PP(APPRART zur)(NN Warnung))(KON und)(PP(APPRART zum)(NN Troste))))(CAP(KON respective)(ADJD unterthänigst)(KOMMA ,)(ADJD gehorsamst)(KON und)(ADJD freundwilligst))(NP(PDAT Deroselben)(ADJA treuer)(CH(FM Collega)(FM in)(FM tenebris))(NN Bruder)(NP(NE Thomas)(KOMMA ,)(NP(NE Pförtner)(PP(APPRART am)(NE Jesuiter-Collegio))))(PP(APPR zu)(NE Strahlenberg)(PUNKT .))))))
+# TopFString = (S(VF(NN Sr.)(NN Hochwürden)(KON und)(NN Gnaden)(ART dem)(NN Herrn)(NN Coadjutor)(APPR von)(NE Dallberg)(KOMMA ,)(NN Sr.)(NN Excellenz)(ART dem)(ADJA kurtrierischen)(NN Herrn)(NN Staatsminister)(APPR von)(NE Dominique)(KOMMA ,)(ART Dem)(NN Herrn)(NN Rath)(KON und)(NN Bibliothekar)(NE Reichard)(APPR in)(NE Gotha)(PUNKT ;)(KOKOM wie)(ADV auch)(ART Dem)(NN Herrn)(NE Hofstätter)(KON und)(NE Hofmann)(APPR in)(NE Wien)(KOMMA ,)(ART dem)(NN Herrn)(NN Etatsrath)(APPR von)(NE Schirach)(APPR in)(NE Altona)(KOMMA ,)(KON und)(ART dem)(NN Herrn)(ADJA Geheimen)(NN Justiz-Rath)(NE Girtanner)(APPR in)(NE Göttingen)(PUNKT ;)(ADV ingleichem)(ART Dem)(NN Herrn)(APPR von)(NE Donderer)(KOMMA ,)(NN Zeitungsschreiber)(APPR in)(NE Neuwied)(KOMMA ,)(KON und)(NN Herrn)(NE Brandmüller)(KOMMA ,)(NN Zeitungsschreiber)(APPR in)(NE Augsburg)(PUNKT ;)(KON und)(ADV endlich)(ART Den)(NN PP)(PUNKT .)(APPR ex)(NN Societate)(NE Jesu)(APPR in)(PIAT allen)(NN Provinzen)(KOMMA ,)(KOKOM als)(ART den)(ADJA treueifrigsten)(NN Beförderern)(ART des)(ADJA heilsamen)(NN Obskurations-Werks)(APPR in)(NE Teutschland))(LK(VVFIN widmet))(MF(PDAT diese)(NN Schrift)(APPRART zur)(NN Lehre)(KOMMA ,)(APPRART zur)(NN Ermahnung)(KOMMA ,)(APPRART zur)(NN Warnung)(KON und)(APPRART zum)(NN Troste)(KON respective)(ADJD unterthänigst)(KOMMA ,)(ADJD gehorsamst)(KON und)(ADJD freundwilligst)(PDAT Deroselben)(ADJA treuer)(FM Collega)(FM in)(FM tenebris)(NN Bruder)(NE Thomas)(KOMMA ,)(NE Pförtner)(APPRART am)(NE Jesuiter-Collegio)(APPR zu)(NE Strahlenberg))(PUNKT .))
+# text = Sr. Hochwürden und Gnaden dem Herrn Coadjutor von Dallberg , Sr. Excellenz dem kurtrierischen Herrn Staatsminister von Dominique , Dem Herrn Rath und Bibliothekar Reichard in Gotha ; wie auch Dem Herrn Hofstätter und Hofmann in Wien , dem Herrn Etatsrath von Schirach in Altona , und dem Herrn Geheimen Justiz-Rath Girtanner in Göttingen ; ingleichem Dem Herrn von Donderer , Zeitungsschreiber in Neuwied , und Herrn Brandmüller , Zeitungsschreiber in Augsburg ; und endlich Den PP . ex Societate Jesu in allen Provinzen , als den treueifrigsten Beförderern des heilsamen Obskurations-Werks in Teutschland widmet diese Schrift zur Lehre , zur Ermahnung , zur Warnung und zum Troste respective unterthänigst , gehorsamst und freundwilligst Deroselben treuer Collega in tenebris Bruder Thomas , Pförtner am Jesuiter-Collegio zu Strahlenberg .
+1	Sr.	Sr.	_	NN	_	_	_	_	_	_	317-320	w32	Sr.	B-NP-insitu	B-NP	*	B-VF
+2	Hochwürden	Hochwürden	_	NN	_	_	_	_	_	_	321-331	w33	Hochwürden	I-NP	I-NP	*	I-VF
+3	und	und	_	KON	_	_	_	_	_	_	332-335	w34	und	I-NP	I-NP	*	I-VF
+4	Gnaden	Gnade	_	NN	_	_	_	_	_	_	336-342	w35	Gnaden	I-NP	I-NP	*	I-VF
+5	dem	d	_	ART	_	_	_	_	_	_	343-346	w36	dem	I-NP	I-NP	*	I-VF
+6	Herrn	Herr	_	NN	_	_	_	_	_	_	347-352	w37	Herrn	I-NP	I-NP	*	I-VF
+7	Coadjutor	Coadjutor	_	NN	_	_	_	_	_	_	353-362	w38	Coadjutor	I-NP	I-NP	*	I-VF
+8	von	von	_	APPR	_	_	_	_	_	_	363-366	w39	von	I-NP	I-NP	*	I-VF
+9	Dallberg	Dallberg	_	NE	_	_	_	_	_	_	367-375	w3a	Dallberg	I-NP	I-NP	*	I-VF
+10	,	,	_	$,	_	_	_	_	_	_	376-377	w3b	,	I-NP	I-NP	*	I-VF
+11	Sr.	Sr.	_	NN	_	_	_	_	_	_	378-381	w3c	Sr.	I-NP	I-NP	*	I-VF
+12	Excellenz	Exzellenz	_	NN	_	_	_	_	_	_	382-391	w3d	Exzellenz	I-NP	I-NP	*	I-VF
+13	dem	d	_	ART	_	_	_	_	_	_	392-395	w3e	dem	I-NP	I-NP	*	I-VF
+14	kurtrierischen	kurtrierisch	_	ADJA	_	_	_	_	_	_	396-410	w3f	kurtrierischen	I-NP	I-NP	*	I-VF
+15	Herrn	Herr	_	NN	_	_	_	_	_	_	411-416	w40	Herrn	I-NP	I-NP	*	I-VF
+16	Staatsminister	Staatsminister	_	NN	_	_	_	_	_	_	417-431	w41	Staatsminister	I-NP	I-NP	*	I-VF
+17	von	von	_	APPR	_	_	_	_	_	_	432-435	w42	von	I-NP	I-NP	*	I-VF
+18	Dominique	Dominique	_	NE	_	_	_	_	_	_	436-445	w43	Dominique	I-NP	I-NP	*	I-VF
+19	,	,	_	$,	_	_	_	_	_	_	446-447	w44	,	I-NP	I-NP	*	I-VF
+20	Dem	d	_	ART	_	_	_	_	_	_	448-451	w45	Dem	I-NP	I-NP	*	I-VF
+21	Herrn	Herr	_	NN	_	_	_	_	_	_	452-457	w46	Herrn	I-NP	I-NP	*	I-VF
+22	Rath	Rat	_	NN	_	_	_	_	_	_	458-462	w47	Rat	I-NP	I-NP	*	I-VF
+23	und	und	_	KON	_	_	_	_	_	_	463-466	w48	und	I-NP	I-NP	*	I-VF
+24	Bibliothekar	Bibliothekar	_	NN	_	_	_	_	_	_	467-479	w49	Bibliothekar	I-NP	I-NP	*	I-VF
+25	Reichard	Reichard	_	NE	_	_	_	_	_	_	480-488	w4a	Reichard	I-NP	I-NP	*	I-VF
+26	in	in	_	APPR	_	_	_	_	_	_	489-491	w4b	in	I-NP	I-NP	*	I-VF
+27	Gotha	Gotha	_	NE	_	_	_	_	_	_	492-497	w4c	Gotha	I-NP	I-NP	*	I-VF
+28	;	;	_	$.	_	_	_	_	_	_	498-499	w4d	;	_	I-NP	*	I-VF
+29	wie	wie	_	KOKOM	_	_	_	_	_	_	500-503	w4e	wie	B-NP-insitu	B-NP	*	I-VF
+30	auch	auch	_	ADV	_	_	_	_	_	_	504-508	w4f	auch	I-NP	I-NP	*	I-VF
+31	Dem	d	_	ART	_	_	_	_	_	_	509-512	w50	Dem	I-NP	I-NP	*	I-VF
+32	Herrn	Herr	_	NN	_	_	_	_	_	_	513-518	w51	Herrn	I-NP	I-NP	*	I-VF
+33	Hofstätter	Hofstetter	_	NE	_	_	_	_	_	_	519-529	w52	Hofstetter	I-NP	I-NP	*	I-VF
+34	und	und	_	KON	_	_	_	_	_	_	530-533	w53	und	I-NP	I-NP	*	I-VF
+35	Hofmann	Hofmann	_	NE	_	_	_	_	_	_	534-541	w54	Hofmann	I-NP	I-NP	*	I-VF
+36	in	in	_	APPR	_	_	_	_	_	_	542-544	w55	in	I-NP	I-NP	*	I-VF
+37	Wien	Wien	_	NE	_	_	_	_	_	_	545-549	w56	Wien	I-NP	I-NP	*	I-VF
+38	,	,	_	$,	_	_	_	_	_	_	550-551	w57	,	I-NP	I-NP	*	I-VF
+39	dem	d	_	ART	_	_	_	_	_	_	552-555	w58	dem	I-NP	I-NP	*	I-VF
+40	Herrn	Herr	_	NN	_	_	_	_	_	_	556-561	w59	Herrn	I-NP	I-NP	*	I-VF
+41	Etatsrath	Etatsrat	_	NN	_	_	_	_	_	_	562-571	w5a	Etatsrat	I-NP	I-NP	*	I-VF
+42	von	von	_	APPR	_	_	_	_	_	_	572-575	w5b	von	I-NP	I-NP	*	I-VF
+43	Schirach	Schirach	_	NE	_	_	_	_	_	_	576-584	w5c	Schirach	I-NP	I-NP	*	I-VF
+44	in	in	_	APPR	_	_	_	_	_	_	585-587	w5d	in	I-NP	I-NP	*	I-VF
+45	Altona	Altona	_	NE	_	_	_	_	_	_	588-594	w5e	Altona	I-NP	I-NP	*	I-VF
+46	,	,	_	$,	_	_	_	_	_	_	595-596	w5f	,	I-NP	I-NP	*	I-VF
+47	und	und	_	KON	_	_	_	_	_	_	597-600	w60	und	I-NP	I-NP	*	I-VF
+48	dem	d	_	ART	_	_	_	_	_	_	601-604	w61	dem	I-NP	I-NP	*	I-VF
+49	Herrn	Herr	_	NN	_	_	_	_	_	_	605-610	w62	Herrn	I-NP	I-NP	*	I-VF
+50	Geheimen	geheim	_	ADJA	_	_	_	_	_	_	611-619	w63	Geheimen	I-NP	I-NP	*	I-VF
+51	Justiz-Rath	Justiz-Rat	_	NN	_	_	_	_	_	_	620-631	w64	Justiz-Rat	I-NP	I-NP	*	I-VF
+52	Girtanner	Girtanner	_	NE	_	_	_	_	_	_	632-641	w65	Girtanner	I-NP	I-NP	*	I-VF
+53	in	in	_	APPR	_	_	_	_	_	_	642-644	w66	in	I-NP	I-NP	*	I-VF
+54	Göttingen	Göttingen	_	NE	_	_	_	_	_	_	645-654	w67	Göttingen	I-NP	I-NP	*	I-VF
+55	;	;	_	$.	_	_	_	_	_	_	655-656	w68	;	_	I-NP	*	I-VF
+56	ingleichem	ingleich	_	ADV	_	_	_	_	_	_	657-667	w69	ingleichem	B-ADVP-insitu	B-ADVP	*	I-VF
+57	Dem	d	_	ART	_	_	_	_	_	_	668-671	w6a	Dem	_	B-NP	*	I-VF
+58	Herrn	Herr	_	NN	_	_	_	_	_	_	672-677	w6b	Herrn	_	I-NP	*	I-VF
+59	von	von	_	APPR	_	_	_	_	_	_	678-681	w6c	von	_	I-NP	*	I-VF
+60	Donderer	Donderer	_	NE	_	_	_	_	_	_	682-690	w6d	Donderer	_	I-NP	*	I-VF
+61	,	,	_	$,	_	_	_	_	_	_	691-692	w6e	,	_	I-NP	*	I-VF
+62	Zeitungsschreiber	Zeitungsschreiber	_	NN	_	_	_	_	_	_	693-710	w6f	Zeitungsschreiber	_	I-NP	*	I-VF
+63	in	in	_	APPR	_	_	_	_	_	_	711-713	w70	in	_	I-NP	*	I-VF
+64	Neuwied	Neuwied	_	NE	_	_	_	_	_	_	714-721	w71	Neuwied	_	I-NP	*	I-VF
+65	,	,	_	$,	_	_	_	_	_	_	722-723	w72	,	_	I-NP	*	I-VF
+66	und	und	_	KON	_	_	_	_	_	_	724-727	w73	und	_	I-NP	*	I-VF
+67	Herrn	Herr	_	NN	_	_	_	_	_	_	728-733	w74	Herrn	_	I-NP	*	I-VF
+68	Brandmüller	Brandmüller	_	NE	_	_	_	_	_	_	734-745	w75	Brandmüller	_	I-NP	*	I-VF
+69	,	,	_	$,	_	_	_	_	_	_	746-747	w76	,	_	I-NP	*	I-VF
+70	Zeitungsschreiber	Zeitungsschreiber	_	NN	_	_	_	_	_	_	748-765	w77	Zeitungsschreiber	_	I-NP	*	I-VF
+71	in	in	_	APPR	_	_	_	_	_	_	766-768	w78	in	_	I-NP	*	I-VF
+72	Augsburg	Augsburg	_	NE	_	_	_	_	_	_	769-777	w79	Augsburg	_	I-NP	*	I-VF
+73	;	;	_	$.	_	_	_	_	_	_	778-779	w7a	;	_	I-NP	*	I-VF
+74	und	und	_	KON	_	_	_	_	_	_	780-783	w7b	und	_	I-NP	*	I-VF
+75	endlich	endlich	_	ADV	_	_	_	_	_	_	784-791	w7c	endlich	_	I-NP	*	I-VF
+76	Den	D	_	ART	_	_	_	_	_	_	792-795	w7d	Den	_	I-NP	*	I-VF
+77	PP	pp	_	NN	_	_	_	_	_	_	796-798	w7e	PP	_	I-NP	*	I-VF
+78	.	.	_	$.	_	_	_	_	_	_	799-800	w7f	.	_	I-NP	*	I-VF
+79	ex	ex	_	APPR	_	_	_	_	_	_	801-803	w80	ex	B-PP-insitu	B-PP	*	I-VF
+80	Societate	societate	_	NN	_	_	_	_	_	_	804-813	w81	Societate	I-PP	I-PP	*	I-VF
+81	Jesu	Jesu	_	NE	_	_	_	_	_	_	814-818	w82	Jesu	I-PP	I-PP	*	I-VF
+82	in	in	_	APPR	_	_	_	_	_	_	819-821	w83	in	I-PP	I-PP	*	I-VF
+83	allen	alle	_	PIAT	_	_	_	_	_	_	822-827	w84	allen	I-PP	I-PP	*	I-VF
+84	Provinzen	Provinz	_	NN	_	_	_	_	_	_	828-837	w85	Provinzen	I-PP	I-PP	*	I-VF
+85	,	,	_	$,	_	_	_	_	_	_	838-839	w86	,	I-PP	I-PP	*	I-VF
+86	als	als	_	KOKOM	_	_	_	_	_	_	840-843	w87	als	I-PP	I-PP	*	I-VF
+87	den	d	_	ART	_	_	_	_	_	_	844-847	w88	den	I-PP	I-PP	*	I-VF
+88	treueifrigsten	treueifrig	_	ADJA	_	_	_	_	_	_	848-862	w89	treueifrigsten	I-PP	I-PP	*	I-VF
+89	Beförderern	Beförderer	_	NN	_	_	_	_	_	_	863-874	w8a	Beförderern	I-PP	I-PP	*	I-VF
+90	des	d	_	ART	_	_	_	_	_	_	875-878	w8b	des	I-PP	I-PP	*	I-VF
+91	heilsamen	heilsam	_	ADJA	_	_	_	_	_	_	879-888	w8c	heilsamen	I-PP	I-PP	*	I-VF
+92	Obskurations-Werks	Obskurations-Werks	_	NN	_	_	_	_	_	_	889-907	w8d	Obskurations-Werks	I-PP	I-PP	*	I-VF
+93	in	in	_	APPR	_	_	_	_	_	_	908-910	w8e	in	I-PP	I-PP	*	I-VF
+94	Teutschland	Deutschland	_	NE	_	_	_	_	_	_	911-922	w8f	Deutschland	I-PP	I-PP	*	I-VF
+95	widmet	widmen	_	VVFIN	_	_	_	_	_	_	923-929	w90	widmet	_	O	*	B-LK
+96	diese	diese	_	PDAT	_	_	_	_	_	_	930-935	w91	diese	B-NP-insitu	B-NP	*	B-MF
+97	Schrift	Schrift	_	NN	_	_	_	_	_	_	936-943	w92	Schrift	I-NP	I-NP	*	I-MF
+98	zur	zur	_	APPRART	_	_	_	_	_	_	944-947	w93	zur	_	B-PP	*	I-MF
+99	Lehre	Lehre	_	NN	_	_	_	_	_	_	948-953	w94	Lehre	_	I-PP	*	I-MF
+100	,	,	_	$,	_	_	_	_	_	_	954-955	w95	,	_	I-PP	*	I-MF
+101	zur	zur	_	APPRART	_	_	_	_	_	_	956-959	w96	zur	_	B-PP	*	I-MF
+102	Ermahnung	Ermahnung	_	NN	_	_	_	_	_	_	960-969	w97	Ermahnung	_	I-PP	*	I-MF
+103	,	,	_	$,	_	_	_	_	_	_	970-971	w98	,	_	I-PP	*	I-MF
+104	zur	zur	_	APPRART	_	_	_	_	_	_	972-975	w99	zur	_	B-PP	*	I-MF
+105	Warnung	Warnung	_	NN	_	_	_	_	_	_	976-983	w9a	Warnung	_	I-PP	*	I-MF
+106	und	und	_	KON	_	_	_	_	_	_	984-987	w9b	und	_	I-PP	*	I-MF
+107	zum	zum	_	APPRART	_	_	_	_	_	_	988-991	w9c	zum	_	I-PP	*	I-MF
+108	Troste	Trost	_	NN	_	_	_	_	_	_	992-998	w9d	Troste	_	I-PP	*	I-MF
+109	respective	respektiv	_	KON	_	_	_	_	_	_	999-1009	w9e	respektive	B-AP-insitu	B-AP	*	I-MF
+110	unterthänigst	untertänig	_	ADJD	_	_	_	_	_	_	1010-1023	w9f	untertänigst	I-AP	I-AP	*	I-MF
+111	,	,	_	$,	_	_	_	_	_	_	1024-1025	wa0	,	I-AP	I-AP	*	I-MF
+112	gehorsamst	gehorsam	_	ADJD	_	_	_	_	_	_	1026-1036	wa1	gehorsamst	I-AP	I-AP	*	I-MF
+113	und	und	_	KON	_	_	_	_	_	_	1037-1040	wa2	und	I-AP	I-AP	*	I-MF
+114	freundwilligst	freundwillig	_	ADJD	_	_	_	_	_	_	1041-1055	wa3	freundwilligst	I-AP	I-AP	*	I-MF
+115	Deroselben	dieselbe	_	PDAT	_	_	_	_	_	_	1056-1066	wa4	Derselben	B-NP-insitu	B-NP	*	I-MF
+116	treuer	treuer	_	ADJA	_	_	_	_	_	_	1067-1073	wa5	treuer	I-NP	I-NP	*	I-MF
+117	Collega	collega	_	FM	_	_	_	_	_	_	1074-1081	wa6	Collega	I-NP	I-NP	*	I-MF
+118	in	in	_	FM	_	_	_	_	_	_	1082-1084	wa7	in	I-NP	I-NP	*	I-MF
+119	tenebris	tenebris	_	FM	_	_	_	_	_	_	1085-1093	wa8	tenebris	I-NP	I-NP	*	I-MF
+120	Bruder	Bruder	_	NN	_	_	_	_	_	_	1094-1100	wa9	Bruder	I-NP	I-NP	*	I-MF
+121	Thomas	Thomas	_	NE	_	_	_	_	_	_	1101-1107	waa	Thomas	I-NP	I-NP	*	I-MF
+122	,	,	_	$,	_	_	_	_	_	_	1108-1109	wab	,	I-NP	I-NP	*	I-MF
+123	Pförtner	Pförtner	_	NE	_	_	_	_	_	_	1110-1118	wac	Pförtner	I-NP	I-NP	*	I-MF
+124	am	am	_	APPRART	_	_	_	_	_	_	1119-1121	wad	am	I-NP	I-NP	*	I-MF
+125	Jesuiter-Collegio	Jesuiter-Collegio	_	NE	_	_	_	_	_	_	1122-1139	wae	Jesuiter-Collegio	I-NP	I-NP	*	I-MF
+126	zu	zu	_	APPR	_	_	_	_	_	_	1140-1142	waf	zu	I-NP	I-NP	*	I-MF
+127	Strahlenberg	Strahlenberg	_	NE	_	_	_	_	_	_	1143-1155	wb0	Strahlenberg	I-NP	I-NP	*	I-MF
+128	.	.	_	$.	_	_	_	_	_	_	1156-1157	wb1	.	_	I-NP	*	O
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# PTBstring = (VROOT(S(VP(VVIMP Verwundern))(NP(PPER Sie))(NP(PRF sich))(AVP(PTKNEG nicht))(KOMMA ,)(NP(PPOSAT meine)(CAP(ADJA gnädigen)(KOMMA ,)(ADJA hochwürdigen)(KON und)(ADJA vielgeehrten))(NN Herren)(PUNKT !))(S(KOUS daß)(NP(PPER ich))(KOMMA ,)(NP(ART ein)(CAP(AP(ADV so)(ADJA kleines))(KON und)(AP(ADJD bescheiden)(ADJA flimmerndes)))(NN Lichtlein)(PP(APPR an)(ART dem)(NN Himmel)(NP(ART der)(ADJA heiligen)(ADJA katholischen)(NN Kirche))))(NP(PRF mich))(VP(VVFIN unterstehe))(KOMMA ,)(CVP(VP(NP(PDAT dieses)(NN opusculum))(ADJD leve)(CPP(PP(APPR zu)(PPOSAT Ihren)(NN Füßen))(KON und)(PP(APPR in)(PPOSAT Ihre)(NN Hände)))(VVIZU niederzulegen)(KOMMA ,))(KON und)(VP(PRF mich)(ADV noch)(ADV obendrein)(PP(APPR auf)(ART der)(NN Stirne)(PDS desselben)(NP(PPOSAT Ihren)(NN Collegen)))(VZ(PTKZU zu)(VVINF nennen)(PUNKT .)))))))
+# TopFString = (S(LK(VVIMP Verwundern))(MF(PPER Sie)(PRF sich)(PTKNEG nicht))(KOMMA ,)(MF(PPOSAT meine)(ADJA gnädigen)(KOMMA ,)(ADJA hochwürdigen)(KON und)(ADJA vielgeehrten)(NN Herren))(PUNKT !)(NF(C(KOUS daß))(MF(PPER ich)(KOMMA ,)(ART ein)(ADV so)(ADJA kleines)(KON und)(ADJD bescheiden)(ADJA flimmerndes)(NN Lichtlein)(APPR an)(ART dem)(NN Himmel)(ART der)(ADJA heiligen)(ADJA katholischen)(NN Kirche)(PRF mich))(VC(VVFIN unterstehe))(KOMMA ,)(NF(MF(PDAT dieses)(NN opusculum)(ADJD leve)(APPR zu)(PPOSAT Ihren)(NN Füßen)(KON und)(APPR in)(PPOSAT Ihre)(NN Hände))(VC(VVIZU niederzulegen))(KOMMA ,)(KON und)(MF(PRF mich)(ADV noch)(ADV obendrein)(APPR auf)(ART der)(NN Stirne)(PDS desselben)(PPOSAT Ihren)(NN Collegen))(VC(PTKZU zu)(VVINF nennen))))(PUNKT .))
+# text = Verwundern Sie sich nicht , meine gnädigen , hochwürdigen und vielgeehrten Herren ! daß ich , ein so kleines und bescheiden flimmerndes Lichtlein an dem Himmel der heiligen katholischen Kirche mich unterstehe , dieses opusculum leve zu Ihren Füßen und in Ihre Hände niederzulegen , und mich noch obendrein auf der Stirne desselben Ihren Collegen zu nennen .
+1	Verwundern	Verwundern	_	VVIMP	_	_	_	_	_	_	1159-1169	wb2	Verwundern	_	O	*	B-LK
+2	Sie	sie	_	PPER	_	_	_	_	_	_	1170-1173	wb3	Sie	B-NP-insitu	B-NP	*	B-MF
+3	sich	sich	_	PRF	_	_	_	_	_	_	1174-1178	wb4	sich	B-NP-insitu	B-NP	*	I-MF
+4	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	1179-1184	wb5	nicht	B-ADVP-insitu	B-ADVP	*	I-MF
+5	,	,	_	$,	_	_	_	_	_	_	1185-1186	wb6	,	_	O	*	O
+6	meine	meine	_	PPOSAT	_	_	_	_	_	_	1187-1192	wb7	meine	B-NP-insitu	B-NP	*	B-MF
+7	gnädigen	gnädig	_	ADJA	_	_	_	_	_	_	1193-1201	wb8	gnädigen	I-NP	I-NP	*	I-MF
+8	,	,	_	$,	_	_	_	_	_	_	1202-1203	wb9	,	I-NP	I-NP	*	I-MF
+9	hochwürdigen	hochwürdig	_	ADJA	_	_	_	_	_	_	1204-1216	wba	hochwürdigen	I-NP	I-NP	*	I-MF
+10	und	und	_	KON	_	_	_	_	_	_	1217-1220	wbb	und	I-NP	I-NP	*	I-MF
+11	vielgeehrten	vielgeehrt	_	ADJA	_	_	_	_	_	_	1221-1233	wbc	vielgeehrten	I-NP	I-NP	*	I-MF
+12	Herren	Herr	_	NN	_	_	_	_	_	_	1234-1240	wbd	Herren	I-NP	I-NP	*	I-MF
+13	!	!	_	$.	_	_	_	_	_	_	1241-1242	wbe	!	_	I-NP	*	O
+14	daß	daß	_	KOUS	_	_	_	_	_	_	1243-1246	wbf	daß	_	O	*	B-NF|B-LK
+15	ich	ich	_	PPER	_	_	_	_	_	_	1247-1250	wc0	ich	B-NP-insitu	B-NP	*	I-NF|B-MF
+16	,	,	_	$,	_	_	_	_	_	_	1251-1252	wc1	,	_	O	*	I-NF|I-MF
+17	ein	eine	_	ART	_	_	_	_	_	_	1253-1256	wc2	ein	B-NP-insitu	B-NP	*	I-NF|I-MF
+18	so	so	_	ADV	_	_	_	_	_	_	1257-1259	wc3	so	I-NP	I-NP	*	I-NF|I-MF
+19	kleines	klein	_	ADJA	_	_	_	_	_	_	1260-1267	wc4	kleines	I-NP	I-NP	*	I-NF|I-MF
+20	und	und	_	KON	_	_	_	_	_	_	1268-1271	wc5	und	I-NP	I-NP	*	I-NF|I-MF
+21	bescheiden	bescheiden	_	ADJD	_	_	_	_	_	_	1272-1282	wc6	bescheiden	I-NP	I-NP	*	I-NF|I-MF
+22	flimmerndes	flimmernd	_	ADJA	_	_	_	_	_	_	1283-1294	wc7	flimmerndes	I-NP	I-NP	*	I-NF|I-MF
+23	Lichtlein	Lichtlein	_	NN	_	_	_	_	_	_	1295-1304	wc8	Lichtlein	I-NP	I-NP	*	I-NF|I-MF
+24	an	an	_	APPR	_	_	_	_	_	_	1305-1307	wc9	an	I-NP	I-NP	*	I-NF|I-MF
+25	dem	d	_	ART	_	_	_	_	_	_	1308-1311	wca	dem	I-NP	I-NP	*	I-NF|I-MF
+26	Himmel	Himmel	_	NN	_	_	_	_	_	_	1312-1318	wcb	Himmel	I-NP	I-NP	*	I-NF|I-MF
+27	der	d	_	ART	_	_	_	_	_	_	1319-1322	wcc	der	I-NP	I-NP	*	I-NF|I-MF
+28	heiligen	heilig	_	ADJA	_	_	_	_	_	_	1323-1331	wcd	heiligen	I-NP	I-NP	*	I-NF|I-MF
+29	katholischen	katholisch	_	ADJA	_	_	_	_	_	_	1332-1344	wce	katholischen	I-NP	I-NP	*	I-NF|I-MF
+30	Kirche	Kirche	_	NN	_	_	_	_	_	_	1345-1351	wcf	Kirche	I-NP	I-NP	*	I-NF|I-MF
+31	mich	ich	_	PRF	_	_	_	_	_	_	1352-1356	wd0	mich	B-NP-insitu	B-NP	*	I-NF|I-MF
+32	unterstehe	unterstehen	_	VVFIN	_	_	_	_	_	_	1357-1367	wd1	unterstehe	_	O	*	I-NF|B-RK
+33	,	,	_	$,	_	_	_	_	_	_	1368-1369	wd2	,	_	O	*	I-NF
+34	dieses	diese	_	PDAT	_	_	_	_	_	_	1370-1376	wd3	dieses	B-NP-insitu	B-NP	*	I-NF|B-NF|B-MF
+35	opusculum	Opusculum	_	NN	_	_	_	_	_	_	1377-1386	wd4	opusculum	I-NP	I-NP	*	I-NF|I-NF|I-MF
+36	leve	Leve	_	ADJD	_	_	_	_	_	_	1387-1391	wd5	leve	B-AP-insitu	B-AP	*	I-NF|I-NF|I-MF
+37	zu	zu	_	APPR	_	_	_	_	_	_	1392-1394	wd6	zu	B-PP-insitu	B-PP	*	I-NF|I-NF|I-MF
+38	Ihren	ihr	_	PPOSAT	_	_	_	_	_	_	1395-1400	wd7	Ihren	I-PP	I-PP	*	I-NF|I-NF|I-MF
+39	Füßen	Fuß	_	NN	_	_	_	_	_	_	1401-1406	wd8	Füßen	I-PP	I-PP	*	I-NF|I-NF|I-MF
+40	und	und	_	KON	_	_	_	_	_	_	1407-1410	wd9	und	I-PP	I-PP	*	I-NF|I-NF|I-MF
+41	in	in	_	APPR	_	_	_	_	_	_	1411-1413	wda	in	I-PP	I-PP	*	I-NF|I-NF|I-MF
+42	Ihre	ihr	_	PPOSAT	_	_	_	_	_	_	1414-1418	wdb	Ihre	I-PP	I-PP	*	I-NF|I-NF|I-MF
+43	Hände	Hand	_	NN	_	_	_	_	_	_	1419-1424	wdc	Hände	I-PP	I-PP	*	I-NF|I-NF|I-MF
+44	niederzulegen	niederlegen	_	VVIZU	_	_	_	_	_	_	1425-1438	wdd	niederzulegen	_	O	*	I-NF|I-NF|B-RK
+45	,	,	_	$,	_	_	_	_	_	_	1439-1440	wde	,	_	O	*	I-NF|I-NF
+46	und	und	_	KON	_	_	_	_	_	_	1441-1444	wdf	und	_	O	*	I-NF|I-NF
+47	mich	ich	_	PRF	_	_	_	_	_	_	1445-1449	we0	mich	B-NP-insitu	B-NP	*	I-NF|I-NF|B-MF
+48	noch	noch	_	ADV	_	_	_	_	_	_	1450-1454	we1	noch	B-ADVP-insitu	B-ADVP	*	I-NF|I-NF|I-MF
+49	obendrein	obendrein	_	ADV	_	_	_	_	_	_	1455-1464	we2	obendrein	B-ADVP-insitu	B-ADVP	*	I-NF|I-NF|I-MF
+50	auf	auf	_	APPR	_	_	_	_	_	_	1465-1468	we3	auf	B-PP-insitu	B-PP	*	I-NF|I-NF|I-MF
+51	der	d	_	ART	_	_	_	_	_	_	1469-1472	we4	der	I-PP	I-PP	*	I-NF|I-NF|I-MF
+52	Stirne	Stirn	_	NN	_	_	_	_	_	_	1473-1479	we5	Stirn	I-PP	I-PP	*	I-NF|I-NF|I-MF
+53	desselben	dieselbe	_	PDS	_	_	_	_	_	_	1480-1489	we6	desselben	I-PP	I-PP	*	I-NF|I-NF|I-MF
+54	Ihren	ihr	_	PPOSAT	_	_	_	_	_	_	1490-1495	we7	Ihren	I-PP	I-PP	*	I-NF|I-NF|I-MF
+55	Collegen	Kollege	_	NN	_	_	_	_	_	_	1496-1504	we8	Kollegen	I-PP	I-PP	*	I-NF|I-NF|I-MF
+56	zu	zu	_	PTKZU	_	_	_	_	_	_	1505-1507	we9	zu	_	O	*	I-NF|I-NF|B-RK
+57	nennen	nennen	_	VVINF	_	_	_	_	_	_	1508-1514	wea	nennen	_	O	*	I-NF|I-NF|I-RK
+58	.	.	_	$.	_	_	_	_	_	_	1515-1516	web	.	_	O	*	O
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# PTBstring = (VROOT(CS(S(NP(PPER Ich))(VP(VAFIN bin))(AVP(ADV freylich))(NP(ADV nur)(ART ein)(ADJA geistlicher)(NN Handlanger)(KOMMA ,)))(KON und)(S(NP(PDAT derselbe)(ADJA fatale)(NN Fehltritt)(KOMMA ,)(CS(S(PP(APPR vor)(PRELS dem))(NP(PRF sich))(NP(AVP(PTKNEG nicht)(ADV nur))(ART der)(ADJA fromme)(NN König)(NE David)(KOMMA ,)))(KON sondern)(S(AVP(ADV sogar))(AVP(ADV auch))(NP(ART der)(ADJA hochgelehrte)(NN Pabst)(PN(NE Aeneas)(NE Silvius)))(AVP(PTKNEG nicht))(VP(VVINF verwahren))(VP(VMFIN konnte))(KOMMA ,))))(VP(VVFIN schloß))(NP(PPER mir))(AVP(ADV unglüklicherweise))(NP(ART die)(NN Pforte)(PP(APPR zu)(ART dem)(ADJA heiligen)(NN Priesterthum)))(PP(APPR in)(ART dem)(NN Augenblike)(PP(APPR vor)(ART der)(NN Nase)))(SVP(PTKVZ zu))(KOMMA ,)(S(KOUS als)(NP(PPER ich))(VP(NP(ART die)(ADJA lezten)(NN Weihen))(VVINF erhalten))(VP(VMFIN sollte))(PUNKT .)))))
+# TopFString = (S(VF(VF(PPER Ich))(LK(VAFIN bin))(MF(ADV freylich)(ADV nur)(ART ein)(ADJA geistlicher)(NN Handlanger)(KOMMA ,)(KON und)(PDAT derselbe)(ADJA fatale)(NN Fehltritt))(KOMMA ,)(NF(C(APPR vor)(PRELS dem))(MF(PRF sich)(PTKNEG nicht)(ADV nur)(ART der)(ADJA fromme)(NN König)(NE David)(KOMMA ,)(KON sondern)(ADV sogar)(ADV auch)(ART der)(ADJA hochgelehrte)(NN Pabst)(NE Aeneas)(NE Silvius)(PTKNEG nicht))(VC(VVINF verwahren)(VMFIN konnte))))(KOMMA ,)(LK(VVFIN schloß))(MF(PPER mir)(ADV unglüklicherweise)(ART die)(NN Pforte)(APPR zu)(ART dem)(ADJA heiligen)(NN Priesterthum)(APPR in)(ART dem)(NN Augenblike)(APPR vor)(ART der)(NN Nase))(VC(PTKVZ zu))(KOMMA ,)(NF(C(KOUS als))(MF(PPER ich)(ART die)(ADJA lezten)(NN Weihen))(VC(VVINF erhalten)(VMFIN sollte)))(PUNKT .))
+# text = Ich bin freylich nur ein geistlicher Handlanger , und derselbe fatale Fehltritt , vor dem sich nicht nur der fromme König David , sondern sogar auch der hochgelehrte Pabst Aeneas Silvius nicht verwahren konnte , schloß mir unglüklicherweise die Pforte zu dem heiligen Priesterthum in dem Augenblike vor der Nase zu , als ich die lezten Weihen erhalten sollte .
+1	Ich	ich	_	PPER	_	_	_	_	_	_	1518-1521	wec	Ich	B-NP-insitu	B-NP	*	B-VF|B-VF
+2	bin	sein	_	VAFIN	_	_	_	_	_	_	1522-1525	wed	bin	_	O	*	I-VF|B-LK
+3	freylich	freilich	_	ADV	_	_	_	_	_	_	1526-1534	wee	freilich	B-ADVP-insitu	B-ADVP	*	I-VF|B-MF
+4	nur	nur	_	ADV	_	_	_	_	_	_	1535-1538	wef	nur	B-NP-insitu	B-NP	*	I-VF|I-MF
+5	ein	eine	_	ART	_	_	_	_	_	_	1539-1542	wf0	ein	I-NP	I-NP	*	I-VF|I-MF
+6	geistlicher	geistlich	_	ADJA	_	_	_	_	_	_	1543-1554	wf1	geistlicher	I-NP	I-NP	*	I-VF|I-MF
+7	Handlanger	Handlanger	_	NN	_	_	_	_	_	_	1555-1565	wf2	Handlanger	I-NP	I-NP	*	I-VF|I-MF
+8	,	,	_	$,	_	_	_	_	_	_	1566-1567	wf3	,	_	I-NP	*	I-VF|I-MF
+9	und	und	_	KON	_	_	_	_	_	_	1568-1571	wf4	und	_	O	*	I-VF|I-MF
+10	derselbe	dieselbe	_	PDAT	_	_	_	_	_	B-Antec-1	1572-1580	wf5	derselbe	B-NP-insitu	B-NP	*	I-VF|I-MF
+11	fatale	fatal	_	ADJA	_	_	_	_	_	I-Antec	1581-1587	wf6	fatale	I-NP	I-NP	*	I-VF|I-MF
+12	Fehltritt	Fehltritt	_	NN	_	_	_	_	_	I-Antec-Head	1588-1597	wf7	Fehltritt	I-NP	I-NP	*	I-VF|I-MF
+13	,	,	_	$,	_	_	_	_	_	_	1598-1599	wf8	,	_	O	*	I-VF
+14	vor	vor	_	APPR	_	_	_	_	_	_	1600-1603	wf9	vor	B-RELC-ambig-1|B-PP-insitu	B-PP	*	I-VF|B-NF|B-LK
+15	dem	die	_	PRELS	_	_	_	_	_	_	1604-1607	wfa	dem	I-RELC|I-PP	I-PP	*	I-VF|I-NF|I-LK
+16	sich	sich	_	PRF	_	_	_	_	_	_	1608-1612	wfb	sich	I-RELC|B-NP-insitu	B-NP	*	I-VF|I-NF|B-MF
+17	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	1613-1618	wfc	nicht	I-RELC|B-NP-insitu	B-NP	*	I-VF|I-NF|I-MF
+18	nur	nur	_	ADV	_	_	_	_	_	_	1619-1622	wfd	nur	I-RELC|I-NP	I-NP	*	I-VF|I-NF|I-MF
+19	der	d	_	ART	_	_	_	_	_	_	1623-1626	wfe	der	I-RELC|I-NP	I-NP	*	I-VF|I-NF|I-MF
+20	fromme	fromm	_	ADJA	_	_	_	_	_	_	1627-1633	wff	fromme	I-RELC|I-NP	I-NP	*	I-VF|I-NF|I-MF
+21	König	König	_	NN	_	_	_	_	_	_	1634-1639	w100	König	I-RELC|I-NP	I-NP	*	I-VF|I-NF|I-MF
+22	David	David	_	NE	_	_	_	_	_	_	1640-1645	w101	David	I-RELC|I-NP	I-NP	*	I-VF|I-NF|I-MF
+23	,	,	_	$,	_	_	_	_	_	_	1646-1647	w102	,	_	I-NP	*	I-VF|I-NF|I-MF
+24	sondern	sondern	_	KON	_	_	_	_	_	_	1648-1655	w103	sondern	_	O	*	I-VF|I-NF|I-MF
+25	sogar	sogar	_	ADV	_	_	_	_	_	_	1656-1661	w104	sogar	B-ADVP-insitu	B-ADVP	*	I-VF|I-NF|I-MF
+26	auch	auch	_	ADV	_	_	_	_	_	_	1662-1666	w105	auch	B-ADVP-insitu	B-ADVP	*	I-VF|I-NF|I-MF
+27	der	d	_	ART	_	_	_	_	_	_	1667-1670	w106	der	B-NP-insitu	B-NP	*	I-VF|I-NF|I-MF
+28	hochgelehrte	hochgelehrt	_	ADJA	_	_	_	_	_	_	1671-1683	w107	hochgelehrte	I-NP	I-NP	*	I-VF|I-NF|I-MF
+29	Pabst	Papst	_	NN	_	_	_	_	_	_	1684-1689	w108	Papst	I-NP	I-NP	*	I-VF|I-NF|I-MF
+30	Aeneas	Aeneas	_	NE	_	_	_	_	_	_	1690-1696	w109	Aeneas	I-NP	I-NP	*	I-VF|I-NF|I-MF
+31	Silvius	Silvius	_	NE	_	_	_	_	_	_	1697-1704	w10a	Silvius	I-NP	I-NP	*	I-VF|I-NF|I-MF
+32	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	1705-1710	w10b	nicht	B-ADVP-insitu	B-ADVP	*	I-VF|I-NF|I-MF
+33	verwahren	verwahren	_	VVINF	_	_	_	_	_	_	1711-1720	w10c	verwahren	_	O	*	I-VF|I-NF|B-RK
+34	konnte	können	_	VMFIN	_	_	_	_	_	_	1721-1727	w10d	konnte	_	O	*	I-VF|I-NF|I-RK
+35	,	,	_	$,	_	_	_	_	_	_	1728-1729	w10e	,	_	O	*	O
+36	schloß	schließen	_	VVFIN	_	_	_	_	_	_	1730-1736	w10f	schloß	_	O	*	B-LK
+37	mir	ich	_	PPER	_	_	_	_	_	_	1737-1740	w110	mir	B-NP-insitu	B-NP	*	B-MF
+38	unglüklicherweise	unglücklicherweise	_	ADV	_	_	_	_	_	_	1741-1758	w111	unglücklicherweise	B-ADVP-insitu	B-ADVP	*	I-MF
+39	die	d	_	ART	_	_	_	_	_	_	1759-1762	w112	die	B-NP-insitu	B-NP	*	I-MF
+40	Pforte	Pforte	_	NN	_	_	_	_	_	_	1763-1769	w113	Pforte	I-NP	I-NP	*	I-MF
+41	zu	zu	_	APPR	_	_	_	_	_	_	1770-1772	w114	zu	I-NP	I-NP	*	I-MF
+42	dem	d	_	ART	_	_	_	_	_	_	1773-1776	w115	dem	I-NP	I-NP	*	I-MF
+43	heiligen	heilig	_	ADJA	_	_	_	_	_	_	1777-1785	w116	heiligen	I-NP	I-NP	*	I-MF
+44	Priesterthum	Priestertum	_	NN	_	_	_	_	_	_	1786-1798	w117	Priestertum	I-NP	I-NP	*	I-MF
+45	in	in	_	APPR	_	_	_	_	_	_	1799-1801	w118	in	B-PP-insitu	B-PP	*	I-MF
+46	dem	d	_	ART	_	_	_	_	_	_	1802-1805	w119	dem	I-PP	I-PP	*	I-MF
+47	Augenblike	Augenblick	_	NN	_	_	_	_	_	_	1806-1816	w11a	Augenblicke	I-PP	I-PP	*	I-MF
+48	vor	vor	_	APPR	_	_	_	_	_	_	1817-1820	w11b	vor	I-PP	I-PP	*	I-MF
+49	der	d	_	ART	_	_	_	_	_	_	1821-1824	w11c	der	I-PP	I-PP	*	I-MF
+50	Nase	Nase	_	NN	_	_	_	_	_	_	1825-1829	w11d	Nase	I-PP	I-PP	*	I-MF
+51	zu	zu	_	PTKVZ	_	_	_	_	_	_	1830-1832	w11e	zu	_	O	*	B-RK
+52	,	,	_	$,	_	_	_	_	_	_	1833-1834	w11f	,	_	O	*	O
+53	als	als	_	KOUS	_	_	_	_	_	_	1835-1838	w120	als	_	O	*	B-NF|B-LK
+54	ich	ich	_	PPER	_	_	_	_	_	_	1839-1842	w121	ich	B-NP-insitu	B-NP	*	I-NF|B-MF
+55	die	d	_	ART	_	_	_	_	_	_	1843-1846	w122	die	B-NP-insitu	B-NP	*	I-NF|I-MF
+56	lezten	letzte	_	ADJA	_	_	_	_	_	_	1847-1853	w123	letzten	I-NP	I-NP	*	I-NF|I-MF
+57	Weihen	Weihe	_	NN	_	_	_	_	_	_	1854-1860	w124	Weihen	I-NP	I-NP	*	I-NF|I-MF
+58	erhalten	erhalten	_	VVINF	_	_	_	_	_	_	1861-1869	w125	erhalten	_	O	*	I-NF|B-RK
+59	sollte	sollen	_	VMFIN	_	_	_	_	_	_	1870-1876	w126	sollte	_	O	*	I-NF|I-RK
+60	.	.	_	$.	_	_	_	_	_	_	1877-1878	w127	.	_	O	*	O
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# PTBstring = (VROOT(CS(S(PP(APPR Um)(ADV deßwillen))(VP(VAFIN bin))(NP(PPER ich))(AVP(ADV aber))(AP(AVP(PTKNEG nicht)(ADV weniger))(ADJD eifrig)(KOMMA ,))(PP(APPR für)(CNP(NP(ART die)(ADJA gute)(NN Sache<lb/>)(NP(ART des)(NN Glaubens)(KOMMA ,)))(NP(ART der)(NN Klerisey)(KOMMA ,))(NP(ART des)(NN Adels))(KON und)(NP(ART der)(ADJA gekrönten)(NN Häupter)(KOMMA ,)))))(KON und)(S(VP(VAFIN habe))(VP(ADV wohl)(ADV schon)(AVP(ADV mehr)(PP(APPR für)(PPER sie)))(PP(APPR durch)(CNP(NN Worte)(KON und)(NN Thaten)))(VVPP gewirkt)(KOMMA ,)(CO(AVP(KOKOM als)(NP(PIAT mancher)(NN Domherr))(KOMMA ,))(KON oder)(AVP(ADV gar)(NP(KOKOM als)(PIAT mancher)(NN Bischof)(PUNKT .))))))))
+# TopFString = (S(VF(APPR Um)(ADV deßwillen))(LK(VAFIN bin))(MF(PPER ich)(ADV aber)(PTKNEG nicht)(ADV weniger)(ADJD eifrig)(KOMMA ,)(APPR für)(ART die)(ADJA gute)(NN Sache<lb/>)(ART des)(NN Glaubens)(KOMMA ,)(ART der)(NN Klerisey)(KOMMA ,)(ART des)(NN Adels)(KON und)(ART der)(ADJA gekrönten)(NN Häupter))(KOMMA ,)(KON und)(LK(VAFIN habe))(MF(ADV wohl)(ADV schon)(ADV mehr)(APPR für)(PPER sie)(APPR durch)(NN Worte)(KON und)(NN Thaten))(VC(VVPP gewirkt))(KOMMA ,)(NF(KOKOM als)(PIAT mancher)(NN Domherr)(KOMMA ,)(KON oder)(ADV gar)(KOKOM als)(PIAT mancher)(NN Bischof))(PUNKT .))
+# text = Um deßwillen bin ich aber nicht weniger eifrig , für die gute Sache<lb/> des Glaubens , der Klerisey , des Adels und der gekrönten Häupter , und habe wohl schon mehr für sie durch Worte und Thaten gewirkt , als mancher Domherr , oder gar als mancher Bischof .
+1	Um	um	_	APPR	_	_	_	_	_	_	1880-1882	w128	Um	B-PP-insitu	B-PP	*	B-VF
+2	deßwillen	deswillen	_	ADV	_	_	_	_	_	_	1883-1892	w129	deswillen	I-PP	I-PP	*	I-VF
+3	bin	sein	_	VAFIN	_	_	_	_	_	_	1893-1896	w12a	bin	_	O	*	B-LK
+4	ich	ich	_	PPER	_	_	_	_	_	_	1897-1900	w12b	ich	B-NP-insitu	B-NP	*	B-MF
+5	aber	aber	_	ADV	_	_	_	_	_	_	1901-1905	w12c	aber	B-ADVP-insitu	B-ADVP	*	I-MF
+6	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	1906-1911	w12d	nicht	B-AP-insitu	B-AP	*	I-MF
+7	weniger	wenige	_	ADV	_	_	_	_	_	_	1912-1919	w12e	weniger	I-AP	I-AP	*	I-MF
+8	eifrig	eifrig	_	ADJD	_	_	_	_	_	_	1920-1926	w12f	eifrig	I-AP	I-AP	*	I-MF
+9	,	,	_	$,	_	_	_	_	_	_	1927-1928	w130	,	_	I-AP	*	I-MF
+10	für	für	_	APPR	_	_	_	_	_	_	1929-1932	w131	für	B-PP-insitu	B-PP	*	I-MF
+11	die	d	_	ART	_	_	_	_	_	_	1933-1936	w132	die	I-PP	I-PP	*	I-MF
+12	gute	gut	_	ADJA	_	_	_	_	_	_	1937-1941	w133	gute	I-PP	I-PP	*	I-MF
+13	Sache<lb/>	Sache	_	NN	_	_	_	_	_	_	1942-1952	w134	Sache	I-PP	I-PP	*	I-MF
+14	des	d	_	ART	_	_	_	_	_	_	1953-1956	w135	des	I-PP	I-PP	*	I-MF
+15	Glaubens	Glauben	_	NN	_	_	_	_	_	_	1957-1965	w136	Glaubens	I-PP	I-PP	*	I-MF
+16	,	,	_	$,	_	_	_	_	_	_	1966-1967	w137	,	I-PP	I-PP	*	I-MF
+17	der	d	_	ART	_	_	_	_	_	_	1968-1971	w138	der	I-PP	I-PP	*	I-MF
+18	Klerisey	Klerusei	_	NN	_	_	_	_	_	_	1972-1980	w139	Klerisei	I-PP	I-PP	*	I-MF
+19	,	,	_	$,	_	_	_	_	_	_	1981-1982	w13a	,	I-PP	I-PP	*	I-MF
+20	des	d	_	ART	_	_	_	_	_	_	1983-1986	w13b	des	I-PP	I-PP	*	I-MF
+21	Adels	Adel	_	NN	_	_	_	_	_	_	1987-1992	w13c	Adels	I-PP	I-PP	*	I-MF
+22	und	und	_	KON	_	_	_	_	_	_	1993-1996	w13d	und	I-PP	I-PP	*	I-MF
+23	der	d	_	ART	_	_	_	_	_	_	1997-2000	w13e	der	I-PP	I-PP	*	I-MF
+24	gekrönten	gekrönt	_	ADJA	_	_	_	_	_	_	2001-2010	w13f	gekrönten	I-PP	I-PP	*	I-MF
+25	Häupter	Haupt	_	NN	_	_	_	_	_	_	2011-2018	w140	Häupter	I-PP	I-PP	*	I-MF
+26	,	,	_	$,	_	_	_	_	_	_	2019-2020	w141	,	_	I-PP	*	O
+27	und	und	_	KON	_	_	_	_	_	_	2021-2024	w142	und	_	O	*	O
+28	habe	haben	_	VAFIN	_	_	_	_	_	_	2025-2029	w143	habe	_	O	*	B-LK
+29	wohl	wohl	_	ADV	_	_	_	_	_	_	2030-2034	w144	wohl	B-ADVP-insitu	B-ADVP	*	B-MF
+30	schon	schon	_	ADV	_	_	_	_	_	_	2035-2040	w145	schon	B-ADVP-insitu	B-ADVP	*	I-MF
+31	mehr	mehr	_	ADV	_	_	_	_	_	_	2041-2045	w146	mehr	B-ADVP-insitu	B-ADVP	*	I-MF
+32	für	für	_	APPR	_	_	_	_	_	_	2046-2049	w147	für	I-ADVP	I-ADVP	*	I-MF
+33	sie	sie	_	PPER	_	_	_	_	_	_	2050-2053	w148	sie	I-ADVP	I-ADVP	*	I-MF
+34	durch	durch	_	APPR	_	_	_	_	_	_	2054-2059	w149	durch	B-PP-insitu	B-PP	*	I-MF
+35	Worte	Wort	_	NN	_	_	_	_	_	_	2060-2065	w14a	Worte	I-PP	I-PP	*	I-MF
+36	und	und	_	KON	_	_	_	_	_	_	2066-2069	w14b	und	I-PP	I-PP	*	I-MF
+37	Thaten	Tat	_	NN	_	_	_	_	_	_	2070-2076	w14c	Taten	I-PP	I-PP	*	I-MF
+38	gewirkt	wirken	_	VVPP	_	_	_	_	_	_	2077-2084	w14d	gewirkt	_	O	*	B-RK
+39	,	,	_	$,	_	_	_	_	_	_	2085-2086	w14e	,	_	O	*	O
+40	als	als	_	KOKOM	_	_	_	_	_	_	2087-2090	w14f	als	B-ADVP-extrap	B-ADVP	*	B-NF
+41	mancher	manche	_	PIAT	_	_	_	_	_	_	2091-2098	w150	mancher	I-ADVP	I-ADVP	*	I-NF
+42	Domherr	Domherr	_	NN	_	_	_	_	_	_	2099-2106	w151	Domherr	I-ADVP	I-ADVP	*	I-NF
+43	,	,	_	$,	_	_	_	_	_	_	2107-2108	w152	,	_	I-ADVP	*	I-NF
+44	oder	oder	_	KON	_	_	_	_	_	_	2109-2113	w153	oder	_	O	*	I-NF
+45	gar	gar	_	ADV	_	_	_	_	_	_	2114-2117	w154	gar	B-ADVP-extrap	B-ADVP	*	I-NF
+46	als	als	_	KOKOM	_	_	_	_	_	_	2118-2121	w155	als	I-ADVP	I-ADVP	*	I-NF
+47	mancher	manche	_	PIAT	_	_	_	_	_	_	2122-2129	w156	mancher	I-ADVP	I-ADVP	*	I-NF
+48	Bischof	Bischof	_	NN	_	_	_	_	_	_	2130-2137	w157	Bischof	I-ADVP	I-ADVP	*	I-NF
+49	.	.	_	$.	_	_	_	_	_	_	2138-2139	w158	.	_	I-ADVP	*	O
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# PTBstring = (VROOT(S(KON Doch)(VP(VMFIN will))(NP(PPER ich))(NP(PRF mich))(AVP(ADV lieber))(VP(NP(PPOSAT meiner)(NN Schwäche)(NP(KOKOM als)(PPOSAT meiner)(NN Stärke)))(VVINF rühmen)))(PUNKT .))
+# TopFString = (S(KOORD(KON Doch))(LK(VMFIN will))(MF(PPER ich)(PRF mich)(ADV lieber)(PPOSAT meiner)(NN Schwäche)(KOKOM als)(PPOSAT meiner)(NN Stärke))(VC(VVINF rühmen))(PUNKT .))
+# text = Doch will ich mich lieber meiner Schwäche als meiner Stärke rühmen .
+1	Doch	doch	_	KON	_	_	_	_	_	_	2141-2145	w159	Doch	_	O	*	B-KOORD
+2	will	wollen	_	VMFIN	_	_	_	_	_	_	2146-2150	w15a	will	_	O	*	B-LK
+3	ich	ich	_	PPER	_	_	_	_	_	_	2151-2154	w15b	ich	B-NP-insitu	B-NP	*	B-MF
+4	mich	mich	_	PRF	_	_	_	_	_	_	2155-2159	w15c	mich	B-NP-insitu	B-NP	*	I-MF
+5	lieber	lieber	_	ADV	_	_	_	_	_	_	2160-2166	w15d	lieber	B-ADVP-insitu	B-ADVP	*	I-MF
+6	meiner	meine	_	PPOSAT	_	_	_	_	_	_	2167-2173	w15e	meiner	B-NP-insitu	B-NP	*	I-MF
+7	Schwäche	Schwäche	_	NN	_	_	_	_	_	_	2174-2182	w15f	Schwäche	I-NP	I-NP	*	I-MF
+8	als	als	_	KOKOM	_	_	_	_	_	_	2183-2186	w160	als	I-NP	I-NP	*	I-MF
+9	meiner	meine	_	PPOSAT	_	_	_	_	_	_	2187-2193	w161	meiner	I-NP	I-NP	*	I-MF
+10	Stärke	Stärke	_	NN	_	_	_	_	_	_	2194-2200	w162	Stärke	I-NP	I-NP	*	I-MF
+11	rühmen	rühmen	_	VVINF	_	_	_	_	_	_	2201-2207	w163	rühmen	_	O	*	B-RK
+12	.	.	_	$.	_	_	_	_	_	_	2208-2209	w164	.	_	O	*	O
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# PTBstring = (VROOT(S(NP(ART Das)(NN Büchlein)(KOMMA ,)(S:RC(NP(PRELS das))(NP(PPER ich))(NP(PPER Ihnen))(VP(VVFIN überreiche))(KOMMA ,)))(VP(VMFIN mag))(CVP(VP(CNP(NP(PPOSAT mein)(NN Attestat))(KON oder)(NP(PPOSAT mein)(NN Passeport)))(PP(APPR in)(PPOSAT Ihren)(ADJA ehrwürdigen)(NN Zirkel))(VAINF seyn)(KOMMA ,))(KON und)(VP(PPER Ihnen)(VVINF beweisen)(KOMMA ,)))(S(KOUS daß)(NP(PPER ich))(PP(APPR mit)(AP(ADJD weit)(ADJA größerem))(NN Rechte)(PPOSAT Ihr)(CH(FM Collega)(FM in)(FM tenebris)))(VP(VVFIN heiße))(KOMMA ,)(NP(KOKOM als)(ART der)(ADJA römische)(NN Kaiser)(KOMMA ,)(NP(NN König)(PP(APPR zu)(NE Jerusalem)(PUNKT .)))))))
+# TopFString = (S(VF(ART Das)(NN Büchlein)(KOMMA ,)(C(PRELS das))(MF(PPER ich)(PPER Ihnen))(VC(VVFIN überreiche)))(KOMMA ,)(LK(VMFIN mag))(MF(PPOSAT mein)(NN Attestat)(KON oder)(PPOSAT mein)(NN Passeport)(APPR in)(PPOSAT Ihren)(ADJA ehrwürdigen)(NN Zirkel))(VC(VAINF seyn))(KOMMA ,)(KON und)(MF(PPER Ihnen))(VC(VVINF beweisen))(KOMMA ,)(NF(C(KOUS daß))(MF(PPER ich)(APPR mit)(ADJD weit)(ADJA größerem)(NN Rechte)(PPOSAT Ihr)(FM Collega)(FM in)(FM tenebris))(VC(VVFIN heiße))(KOMMA ,)(NF(KOKOM als)(ART der)(ADJA römische)(NN Kaiser)(KOMMA ,)(NN König)(APPR zu)(NE Jerusalem)))(PUNKT .))
+# text = Das Büchlein , das ich Ihnen überreiche , mag mein Attestat oder mein Passeport in Ihren ehrwürdigen Zirkel seyn , und Ihnen beweisen , daß ich mit weit größerem Rechte Ihr Collega in tenebris heiße , als der römische Kaiser , König zu Jerusalem .
+1	Das	d	_	ART	_	_	_	_	_	B-Antec-1	2211-2214	w165	Das	B-NP-insitu	B-NP	*	B-VF
+2	Büchlein	Büchlein	_	NN	_	_	_	_	_	I-Antec-Head	2215-2223	w166	Büchlein	I-NP	I-NP	*	I-VF
+3	,	,	_	$,	_	_	_	_	_	_	2224-2225	w167	,	I-NP	I-NP	*	I-VF
+4	das	die	_	PRELS	_	_	_	_	_	_	2226-2229	w168	das	I-NP|B-RELC-insitu-1|B-NP-insitu	I-NP	*	I-VF|B-LK
+5	ich	ich	_	PPER	_	_	_	_	_	_	2230-2233	w169	ich	I-NP|I-RELC|B-NP-insitu	I-NP	*	I-VF|B-MF
+6	Ihnen	sie	_	PPER	_	_	_	_	_	_	2234-2239	w16a	Ihnen	I-NP|I-RELC|B-NP-insitu	I-NP	*	I-VF|I-MF
+7	überreiche	überreichen	_	VVFIN	_	_	_	_	_	_	2240-2250	w16b	überreiche	I-NP|I-RELC	I-NP	*	I-VF|B-RK
+8	,	,	_	$,	_	_	_	_	_	_	2251-2252	w16c	,	_	I-NP	*	O
+9	mag	mögen	_	VMFIN	_	_	_	_	_	_	2253-2256	w16d	mag	_	O	*	B-LK
+10	mein	mein	_	PPOSAT	_	_	_	_	_	_	2257-2261	w16e	mein	B-NP-insitu	B-NP	*	B-MF
+11	Attestat	attestat	_	NN	_	_	_	_	_	_	2262-2270	w16f	Attestat	I-NP	I-NP	*	I-MF
+12	oder	oder	_	KON	_	_	_	_	_	_	2271-2275	w170	oder	I-NP	I-NP	*	I-MF
+13	mein	mein	_	PPOSAT	_	_	_	_	_	_	2276-2280	w171	mein	I-NP	I-NP	*	I-MF
+14	Passeport	Passeport	_	NN	_	_	_	_	_	_	2281-2290	w172	Passeport	I-NP	I-NP	*	I-MF
+15	in	in	_	APPR	_	_	_	_	_	_	2291-2293	w173	in	B-PP-insitu	B-PP	*	I-MF
+16	Ihren	ihr	_	PPOSAT	_	_	_	_	_	_	2294-2299	w174	Ihren	I-PP	I-PP	*	I-MF
+17	ehrwürdigen	ehrewürdig	_	ADJA	_	_	_	_	_	_	2300-2311	w175	ehrwürdigen	I-PP	I-PP	*	I-MF
+18	Zirkel	Zirkel	_	NN	_	_	_	_	_	_	2312-2318	w176	Zirkel	I-PP	I-PP	*	I-MF
+19	seyn	sein	_	VAINF	_	_	_	_	_	_	2319-2323	w177	sein	_	O	*	B-RK
+20	,	,	_	$,	_	_	_	_	_	_	2324-2325	w178	,	_	O	*	O
+21	und	und	_	KON	_	_	_	_	_	_	2326-2329	w179	und	_	O	*	O
+22	Ihnen	sie	_	PPER	_	_	_	_	_	_	2330-2335	w17a	Ihnen	B-NP-insitu	B-NP	*	B-MF
+23	beweisen	beweisen	_	VVINF	_	_	_	_	_	_	2336-2344	w17b	beweisen	_	O	*	B-RK
+24	,	,	_	$,	_	_	_	_	_	_	2345-2346	w17c	,	_	O	*	O
+25	daß	daß	_	KOUS	_	_	_	_	_	_	2347-2350	w17d	daß	_	O	*	B-NF|B-LK
+26	ich	ich	_	PPER	_	_	_	_	_	_	2351-2354	w17e	ich	B-NP-insitu	B-NP	*	I-NF|B-MF
+27	mit	mit	_	APPR	_	_	_	_	_	_	2355-2358	w17f	mit	B-PP-insitu	B-PP	*	I-NF|I-MF
+28	weit	weit	_	ADJD	_	_	_	_	_	_	2359-2363	w180	weit	I-PP	I-PP	*	I-NF|I-MF
+29	größerem	groß	_	ADJA	_	_	_	_	_	_	2364-2372	w181	größerem	I-PP	I-PP	*	I-NF|I-MF
+30	Rechte	Rechte	_	NN	_	_	_	_	_	_	2373-2379	w182	Rechte	I-PP	I-PP	*	I-NF|I-MF
+31	Ihr	ihr	_	PPOSAT	_	_	_	_	_	_	2380-2383	w183	Ihr	I-PP	I-PP	*	I-NF|I-MF
+32	Collega	collega	_	FM	_	_	_	_	_	_	2384-2391	w184	Collega	I-PP	I-PP	*	I-NF|I-MF
+33	in	in	_	FM	_	_	_	_	_	_	2392-2394	w185	in	I-PP	I-PP	*	I-NF|I-MF
+34	tenebris	tenebris	_	FM	_	_	_	_	_	_	2395-2403	w186	tenebris	I-PP	I-PP	*	I-NF|I-MF
+35	heiße	heißen	_	VVFIN	_	_	_	_	_	_	2404-2409	w187	heiße	_	O	*	I-NF|B-RK
+36	,	,	_	$,	_	_	_	_	_	_	2410-2411	w188	,	_	O	*	I-NF
+37	als	als	_	KOKOM	_	_	_	_	_	_	2412-2415	w189	als	B-NP-extrap	B-NP	*	I-NF|B-NF
+38	der	d	_	ART	_	_	_	_	_	_	2416-2419	w18a	der	I-NP	I-NP	*	I-NF|I-NF
+39	römische	römisch	_	ADJA	_	_	_	_	_	_	2420-2428	w18b	römische	I-NP	I-NP	*	I-NF|I-NF
+40	Kaiser	Kaiser	_	NN	_	_	_	_	_	_	2429-2435	w18c	Kaiser	I-NP	I-NP	*	I-NF|I-NF
+41	,	,	_	$,	_	_	_	_	_	_	2436-2437	w18d	,	I-NP	I-NP	*	I-NF|I-NF
+42	König	König	_	NN	_	_	_	_	_	_	2438-2443	w18e	König	I-NP	I-NP	*	I-NF|I-NF
+43	zu	zu	_	APPR	_	_	_	_	_	_	2444-2446	w18f	zu	I-NP	I-NP	*	I-NF|I-NF
+44	Jerusalem	Jerusalem	_	NE	_	_	_	_	_	_	2447-2456	w190	Jerusalem	I-NP	I-NP	*	I-NF|I-NF
+45	.	.	_	$.	_	_	_	_	_	_	2457-2458	w191	.	_	I-NP	*	O
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# PTBstring = (VROOT(CS(S(AVP(ADV Freylich))(VP(VAFIN ward))(CPP(PP(APPR durch)(PPOSAT mein)(CNP(NN Sorgen)(KON und)(NN Bemühen)(KOMMA ,)))(KON und)(PP(APPR durch)(PPOSAT meine)(ADJA lustigen)(NN Streiche)))(NP(ART das)(ADJA segensvolle)(NN Werk)(NP(ART der)(NN Verfinsterung))(PP(ADV nur)(APPR auf)(ART einen)(ADJA kleinen)(NN Fleke)))(VP(NP(PPOSAT unsers)(ADJA lieben)(ADJA teutschen)(NN Vaterlandes))(VVPP betrieben)(PUNKT ;)))(KON denn)(S(NP(ART das)(NN Fürstenthums)(NE Strahlenberg))(VP(VVFIN umfaßt))(KOMMA ,)(S(KOUS wie)(NP(PPER Ihnen))(CNP(NE Büsching)(KON und)(NE Fabri))(VP(VVFIN sagen))(KOMMA ,))(AVP(ADV höchstens))(NP(ART einen)(NN Flächenraum)(PP(APPR von)(CARD 50)(NN Quadrat-Meilen)(PUNKT .))))))
+# TopFString = (S(VF(ADV Freylich))(LK(VAFIN ward))(MF(APPR durch)(PPOSAT mein)(NN Sorgen)(KON und)(NN Bemühen)(KOMMA ,)(KON und)(APPR durch)(PPOSAT meine)(ADJA lustigen)(NN Streiche)(ART das)(ADJA segensvolle)(NN Werk)(ART der)(NN Verfinsterung)(ADV nur)(APPR auf)(ART einen)(ADJA kleinen)(NN Fleke)(PPOSAT unsers)(ADJA lieben)(ADJA teutschen)(NN Vaterlandes))(VC(VVPP betrieben))(PUNKT ;)(KON denn)(VF(ART das)(NN Fürstenthums)(NE Strahlenberg))(LK(VVFIN umfaßt))(KOMMA ,)(NF(C(KOUS wie))(MF(PPER Ihnen)(NE Büsching)(KON und)(NE Fabri))(VC(VVFIN sagen))(KOMMA ,)(NF(ADV höchstens)(ART einen)(NN Flächenraum)(APPR von)(CARD 50)(NN Quadrat-Meilen)))(PUNKT .))
+# text = Freylich ward durch mein Sorgen und Bemühen , und durch meine lustigen Streiche das segensvolle Werk der Verfinsterung nur auf einen kleinen Fleke unsers lieben teutschen Vaterlandes betrieben ; denn das Fürstenthums Strahlenberg umfaßt , wie Ihnen Büsching und Fabri sagen , höchstens einen Flächenraum von 50 Quadrat-Meilen .
+1	Freylich	freilich	_	ADV	_	_	_	_	_	_	2460-2468	w192	Freilich	B-ADVP-insitu	B-ADVP	*	B-VF
+2	ward	werden	_	VAFIN	_	_	_	_	_	_	2469-2473	w193	wurde	_	O	*	B-LK
+3	durch	durch	_	APPR	_	_	_	_	_	_	2474-2479	w194	durch	B-PP-insitu	B-PP	*	B-MF
+4	mein	mein	_	PPOSAT	_	_	_	_	_	_	2480-2484	w195	mein	I-PP	I-PP	*	I-MF
+5	Sorgen	Sorge	_	NN	_	_	_	_	_	_	2485-2491	w196	Sorgen	I-PP	I-PP	*	I-MF
+6	und	und	_	KON	_	_	_	_	_	_	2492-2495	w197	und	I-PP	I-PP	*	I-MF
+7	Bemühen	Bemühen	_	NN	_	_	_	_	_	_	2496-2503	w198	Bemühen	I-PP	I-PP	*	I-MF
+8	,	,	_	$,	_	_	_	_	_	_	2504-2505	w199	,	I-PP	I-PP	*	I-MF
+9	und	und	_	KON	_	_	_	_	_	_	2506-2509	w19a	und	I-PP	I-PP	*	I-MF
+10	durch	durch	_	APPR	_	_	_	_	_	_	2510-2515	w19b	durch	I-PP	I-PP	*	I-MF
+11	meine	meine	_	PPOSAT	_	_	_	_	_	_	2516-2521	w19c	meine	I-PP	I-PP	*	I-MF
+12	lustigen	lustig	_	ADJA	_	_	_	_	_	_	2522-2530	w19d	lustigen	I-PP	I-PP	*	I-MF
+13	Streiche	Streiche	_	NN	_	_	_	_	_	_	2531-2539	w19e	Streiche	I-PP	I-PP	*	I-MF
+14	das	d	_	ART	_	_	_	_	_	_	2540-2543	w19f	das	B-NP-insitu	B-NP	*	I-MF
+15	segensvolle	segensvoll	_	ADJA	_	_	_	_	_	_	2544-2555	w1a0	segensvolle	I-NP	I-NP	*	I-MF
+16	Werk	Werk	_	NN	_	_	_	_	_	_	2556-2560	w1a1	Werk	I-NP	I-NP	*	I-MF
+17	der	d	_	ART	_	_	_	_	_	_	2561-2564	w1a2	der	I-NP	I-NP	*	I-MF
+18	Verfinsterung	Verfinsterung	_	NN	_	_	_	_	_	_	2565-2578	w1a3	Verfinsterung	I-NP	I-NP	*	I-MF
+19	nur	nur	_	ADV	_	_	_	_	_	_	2579-2582	w1a4	nur	I-NP	I-NP	*	I-MF
+20	auf	auf	_	APPR	_	_	_	_	_	_	2583-2586	w1a5	auf	I-NP	I-NP	*	I-MF
+21	einen	eine	_	ART	_	_	_	_	_	_	2587-2592	w1a6	einen	I-NP	I-NP	*	I-MF
+22	kleinen	klein	_	ADJA	_	_	_	_	_	_	2593-2600	w1a7	kleinen	I-NP	I-NP	*	I-MF
+23	Fleke	Fleck	_	NN	_	_	_	_	_	_	2601-2606	w1a8	Flecke	I-NP	I-NP	*	I-MF
+24	unsers	unsere	_	PPOSAT	_	_	_	_	_	_	2607-2613	w1a9	unseres	B-NP-insitu	B-NP	*	I-MF
+25	lieben	lieb	_	ADJA	_	_	_	_	_	_	2614-2620	w1aa	lieben	I-NP	I-NP	*	I-MF
+26	teutschen	deutsch	_	ADJA	_	_	_	_	_	_	2621-2630	w1ab	deutschen	I-NP	I-NP	*	I-MF
+27	Vaterlandes	Vaterland	_	NN	_	_	_	_	_	_	2631-2642	w1ac	Vaterlandes	I-NP	I-NP	*	I-MF
+28	betrieben	betreiben	_	VVPP	_	_	_	_	_	_	2643-2652	w1ad	betrieben	_	O	*	B-RK
+29	;	;	_	$.	_	_	_	_	_	_	2653-2654	w1ae	;	_	O	*	O
+30	denn	denn	_	KON	_	_	_	_	_	_	2655-2659	w1af	denn	_	O	*	O
+31	das	d	_	ART	_	_	_	_	_	_	2660-2663	w1b0	das	B-NP-insitu	B-NP	*	B-VF
+32	Fürstenthums	Fürstentum	_	NN	_	_	_	_	_	_	2664-2676	w1b1	Fürstentums	I-NP	I-NP	*	I-VF
+33	Strahlenberg	Strahlenberg	_	NE	_	_	_	_	_	_	2677-2689	w1b2	Strahlenberg	I-NP	I-NP	*	I-VF
+34	umfaßt	umfassen	_	VVFIN	_	_	_	_	_	_	2690-2696	w1b3	umfaßt	_	O	*	B-LK
+35	,	,	_	$,	_	_	_	_	_	_	2697-2698	w1b4	,	_	O	*	O
+36	wie	wie	_	KOUS	_	_	_	_	_	_	2699-2702	w1b5	wie	_	O	*	B-NF|B-LK
+37	Ihnen	sie	_	PPER	_	_	_	_	_	_	2703-2708	w1b6	Ihnen	B-NP-insitu	B-NP	*	I-NF|B-MF
+38	Büsching	Büsching	_	NE	_	_	_	_	_	_	2709-2717	w1b7	Büsching	B-NP-insitu	B-NP	*	I-NF|I-MF
+39	und	und	_	KON	_	_	_	_	_	_	2718-2721	w1b8	und	I-NP	I-NP	*	I-NF|I-MF
+40	Fabri	Fabri	_	NE	_	_	_	_	_	_	2722-2727	w1b9	Fabri	I-NP	I-NP	*	I-NF|I-MF
+41	sagen	sagen	_	VVFIN	_	_	_	_	_	_	2728-2733	w1ba	sagen	_	O	*	I-NF|B-RK
+42	,	,	_	$,	_	_	_	_	_	_	2734-2735	w1bb	,	_	O	*	I-NF
+43	höchstens	höchstens	_	ADV	_	_	_	_	_	_	2736-2745	w1bc	höchstens	B-ADVP-extrap	B-ADVP	*	I-NF|B-NF
+44	einen	eine	_	ART	_	_	_	_	_	_	2746-2751	w1bd	einen	B-NP-extrap	B-NP	*	I-NF|I-NF
+45	Flächenraum	Flächenraum	_	NN	_	_	_	_	_	_	2752-2763	w1be	Flächenraum	I-NP	I-NP	*	I-NF|I-NF
+46	von	von	_	APPR	_	_	_	_	_	_	2764-2767	w1bf	von	I-NP	I-NP	*	I-NF|I-NF
+47	50	50	_	CARD	_	_	_	_	_	_	2768-2770	w1c0	50	I-NP	I-NP	*	I-NF|I-NF
+48	Quadrat-Meilen	Quadrat-Meile	_	NN	_	_	_	_	_	_	2771-2785	w1c1	Quadrat-Meilen	I-NP	I-NP	*	I-NF|I-NF
+49	.	.	_	$.	_	_	_	_	_	_	2786-2787	w1c2	.	_	I-NP	*	O
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# PTBstring = (VROOT(S(KON Aber)(VP(VVFIN thäte))(NP(PIS jeder<lb/>)(PP(APPR in)(PPOSAT seinem)(NN Kreise)(KOMMA ,))(S:OC(NP(PWS was))(NP(ART der)(NN Pater))(S(NP(NE Simpert)(KOMMA ,)(PP(APPR in)(NN Verbindung)))(VP(PP(APPR mit)(PPER mir))(PP(APPR in)(ART dem)(PPOSS seinigen))(VVPP gethan))(VP(VAFIN hat))(KOMMA ,))(ITJ o))))(PUNKT !))
+# TopFString = (S(KOORD(KON Aber))(LV(LK(VVFIN thäte))(MF(PIS jeder<lb/>)(APPR in)(PPOSAT seinem)(NN Kreise))(KOMMA ,)(C(PWS was))(MF(ART der)(NN Pater)(NE Simpert)(KOMMA ,)(APPR in)(NN Verbindung)(APPR mit)(PPER mir)(APPR in)(ART dem)(PPOSS seinigen))(VC(VVPP gethan)(VAFIN hat)))(KOMMA ,)(ITJ o)(PUNKT !))
+# text = Aber thäte jeder<lb/> in seinem Kreise , was der Pater Simpert , in Verbindung mit mir in dem seinigen gethan hat , o !
+1	Aber	aber	_	KON	_	_	_	_	_	_	2789-2793	w1c3	Aber	_	O	*	B-KOORD
+2	thäte	tun	_	VVFIN	_	_	_	_	_	_	2794-2799	w1c4	täte	_	O	*	B-LV|B-LK
+3	jeder<lb/>	jede	_	PIS	_	_	_	_	_	_	2800-2810	w1c5	jeder	B-NP-insitu	B-NP	*	I-LV|B-MF
+4	in	in	_	APPR	_	_	_	_	_	_	2811-2813	w1c6	in	B-PP-insitu	B-PP	*	I-LV|I-MF
+5	seinem	seine	_	PPOSAT	_	_	_	_	_	_	2814-2820	w1c7	seinem	I-PP	I-PP	*	I-LV|I-MF
+6	Kreise	Kreis	_	NN	_	_	_	_	_	_	2821-2827	w1c8	Kreise	I-PP	I-PP	*	I-LV|I-MF
+7	,	,	_	$,	_	_	_	_	_	_	2828-2829	w1c9	,	_	I-PP	*	I-LV
+8	was	was	_	PWS	_	_	_	_	_	_	2830-2833	w1ca	was	B-NP-insitu	B-NP	*	I-LV|B-LK
+9	der	d	_	ART	_	_	_	_	_	_	2834-2837	w1cb	der	B-NP-insitu	B-NP	*	I-LV|B-MF
+10	Pater	Pater	_	NN	_	_	_	_	_	_	2838-2843	w1cc	Pater	I-NP	I-NP	*	I-LV|I-MF
+11	Simpert	Sempert	_	NE	_	_	_	_	_	_	2844-2851	w1cd	Sempert	B-NP-insitu	B-NP	*	I-LV|I-MF
+12	,	,	_	$,	_	_	_	_	_	_	2852-2853	w1ce	,	I-NP	I-NP	*	I-LV|I-MF
+13	in	in	_	APPR	_	_	_	_	_	_	2854-2856	w1cf	in	I-NP	I-NP	*	I-LV|I-MF
+14	Verbindung	Verbindung	_	NN	_	_	_	_	_	_	2857-2867	w1d0	Verbindung	I-NP	I-NP	*	I-LV|I-MF
+15	mit	mit	_	APPR	_	_	_	_	_	_	2868-2871	w1d1	mit	B-PP-insitu	B-PP	*	I-LV|I-MF
+16	mir	ich	_	PPER	_	_	_	_	_	_	2872-2875	w1d2	mir	I-PP	I-PP	*	I-LV|I-MF
+17	in	in	_	APPR	_	_	_	_	_	_	2876-2878	w1d3	in	B-PP-insitu	B-PP	*	I-LV|I-MF
+18	dem	d	_	ART	_	_	_	_	_	_	2879-2882	w1d4	dem	I-PP	I-PP	*	I-LV|I-MF
+19	seinigen	seinigen	_	PPOSS	_	_	_	_	_	_	2883-2891	w1d5	seinigen	I-PP	I-PP	*	I-LV|I-MF
+20	gethan	tun	_	VVPP	_	_	_	_	_	_	2892-2898	w1d6	getan	_	O	*	I-LV|B-RK
+21	hat	haben	_	VAFIN	_	_	_	_	_	_	2899-2902	w1d7	hat	_	O	*	I-LV|I-RK
+22	,	,	_	$,	_	_	_	_	_	_	2903-2904	w1d8	,	_	O	*	O
+23	o	o	_	ITJ	_	_	_	_	_	_	2905-2906	w1d9	o	_	O	*	O
+24	!	!	_	$.	_	_	_	_	_	_	2907-2908	w1da	!	_	O	*	O
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# PTBstring = (VROOT(S(AVP(ADV dann))(VP(VVFIN flöhe))(NP(ART das)(NN Licht))(AVP(ADV überall))(KOMMA ,)(S:OC(CNP(NP(KOKOM wie)(ART die)(NN Sonne)(PP(APPR vor)(ART den)(NN Schatten)(NP(ART der)(NN Nacht)(KOMMA ,)))(S(NP(ART der)(NN Unfug)(NP(ART der)(CNP(NN Illuminaten)(KON und)(NN Philosophen))))(VP(VVFIN nähme))(NP(ART ein)(ADJA plötzliches)(NN Ende)(PP(APPR mit)(NN Schrecken)(KOMMA ,)))))(KON und)(NP(ART die)(CAP(ADJA schöne)(KOMMA ,)(ADJA wünschenswerthe))(NN Zeit)))(VP(VVFIN käme))(SVP(PTKVZ wieder))(KOMMA ,)(CS(S(PWAV wo)(NP(PIS niemand))(AP(ADJD frey))(VP(VAFIN war))(KOMMA ,)(NP(KOKOM als)(ART der)(NN Adel)(KOMMA ,)))(KON und)(S(NP(PIS niemand))(CVP(VVINF lesen)(KON und)(VP(VVINF schreiben)))(VP(VMFIN konnte))(KOMMA ,)(NP(KOKOM als)(ART die)(NN Pfaffen)(PUNKT .)))))))
+# TopFString = (S(VF(ADV dann))(LK(VVFIN flöhe))(MF(ART das)(NN Licht)(ADV überall)(KOMMA ,)(KOKOM wie)(ART die)(NN Sonne)(APPR vor)(ART den)(NN Schatten)(ART der)(NN Nacht))(KOMMA ,)(VF(ART der)(NN Unfug)(ART der)(NN Illuminaten)(KON und)(NN Philosophen))(LK(VVFIN nähme))(MF(ART ein)(ADJA plötzliches)(NN Ende)(APPR mit)(NN Schrecken))(KOMMA ,)(KON und)(VF(ART die)(ADJA schöne)(KOMMA ,)(ADJA wünschenswerthe)(NN Zeit))(LK(VVFIN käme))(VC(PTKVZ wieder))(KOMMA ,)(NF(C(PWAV wo))(FKOORD(FKONJ(MF(PIS niemand)(ADJD frey))(VC(VAFIN war))(KOMMA ,)(NF(KOKOM als)(ART der)(NN Adel)))(KOMMA ,)(KON und)(FKONJ(MF(PIS niemand))(VC(VVINF lesen)(KON und)(VVINF schreiben)(VMFIN konnte))))(KOMMA ,)(NF(KOKOM als)(ART die)(NN Pfaffen)))(PUNKT .))
+# text = dann flöhe das Licht überall , wie die Sonne vor den Schatten der Nacht , der Unfug der Illuminaten und Philosophen nähme ein plötzliches Ende mit Schrecken , und die schöne , wünschenswerthe Zeit käme wieder , wo niemand frey war , als der Adel , und niemand lesen und schreiben konnte , als die Pfaffen .
+1	dann	dann	_	ADV	_	_	_	_	_	_	2910-2914	w1db	dann	B-ADVP-insitu	B-ADVP	*	B-VF
+2	flöhe	flöhen	_	VVFIN	_	_	_	_	_	_	2915-2920	w1dc	flöhe	_	O	*	B-LK
+3	das	d	_	ART	_	_	_	_	_	_	2921-2924	w1dd	das	B-NP-insitu	B-NP	*	B-MF
+4	Licht	Licht	_	NN	_	_	_	_	_	_	2925-2930	w1de	Licht	I-NP	I-NP	*	I-MF
+5	überall	überall	_	ADV	_	_	_	_	_	_	2931-2938	w1df	überall	B-ADVP-insitu	B-ADVP	*	I-MF
+6	,	,	_	$,	_	_	_	_	_	_	2939-2940	w1e0	,	_	O	*	I-MF
+7	wie	wie	_	KOKOM	_	_	_	_	_	_	2941-2944	w1e1	wie	_	O	*	I-MF
+8	die	d	_	ART	_	_	_	_	_	_	2945-2948	w1e2	die	_	O	*	I-MF
+9	Sonne	Sonne	_	NN	_	_	_	_	_	_	2949-2954	w1e3	Sonne	_	O	*	I-MF
+10	vor	vor	_	APPR	_	_	_	_	_	_	2955-2958	w1e4	vor	_	O	*	I-MF
+11	den	d	_	ART	_	_	_	_	_	_	2959-2962	w1e5	den	_	O	*	I-MF
+12	Schatten	Schatten	_	NN	_	_	_	_	_	_	2963-2971	w1e6	Schatten	_	O	*	I-MF
+13	der	d	_	ART	_	_	_	_	_	_	2972-2975	w1e7	der	_	O	*	I-MF
+14	Nacht	Nacht	_	NN	_	_	_	_	_	_	2976-2981	w1e8	Nacht	_	O	*	I-MF
+15	,	,	_	$,	_	_	_	_	_	_	2982-2983	w1e9	,	_	O	*	O
+16	der	d	_	ART	_	_	_	_	_	_	2984-2987	w1ea	der	_	O	*	B-VF
+17	Unfug	Unfug	_	NN	_	_	_	_	_	_	2988-2993	w1eb	Unfug	_	O	*	I-VF
+18	der	d	_	ART	_	_	_	_	_	_	2994-2997	w1ec	der	_	O	*	I-VF
+19	Illuminaten	Illuminat	_	NN	_	_	_	_	_	_	2998-3009	w1ed	Illuminaten	_	O	*	I-VF
+20	und	und	_	KON	_	_	_	_	_	_	3010-3013	w1ee	und	_	O	*	I-VF
+21	Philosophen	Philosoph	_	NN	_	_	_	_	_	_	3014-3025	w1ef	Philosophen	_	O	*	I-VF
+22	nähme	nehmen	_	VVFIN	_	_	_	_	_	_	3026-3031	w1f0	nähme	_	O	*	B-LK
+23	ein	eine	_	ART	_	_	_	_	_	_	3032-3035	w1f1	ein	_	O	*	B-MF
+24	plötzliches	plötzlich	_	ADJA	_	_	_	_	_	_	3036-3047	w1f2	plötzliches	_	O	*	I-MF
+25	Ende	Ende	_	NN	_	_	_	_	_	_	3048-3052	w1f3	Ende	_	O	*	I-MF
+26	mit	mit	_	APPR	_	_	_	_	_	_	3053-3056	w1f4	mit	_	O	*	I-MF
+27	Schrecken	Schrecken	_	NN	_	_	_	_	_	_	3057-3066	w1f5	Schrecken	_	O	*	I-MF
+28	,	,	_	$,	_	_	_	_	_	_	3067-3068	w1f6	,	_	O	*	O
+29	und	und	_	KON	_	_	_	_	_	_	3069-3072	w1f7	und	_	O	*	O
+30	die	d	_	ART	_	_	_	_	_	_	3073-3076	w1f8	die	B-NP-insitu	B-NP	*	B-VF
+31	schöne	schön	_	ADJA	_	_	_	_	_	_	3077-3083	w1f9	schöne	I-NP	I-NP	*	I-VF
+32	,	,	_	$,	_	_	_	_	_	_	3084-3085	w1fa	,	I-NP	I-NP	*	I-VF
+33	wünschenswerthe	wünschenswert	_	ADJA	_	_	_	_	_	_	3086-3101	w1fb	wünschenswerte	I-NP	I-NP	*	I-VF
+34	Zeit	Zeit	_	NN	_	_	_	_	_	_	3102-3106	w1fc	Zeit	I-NP	I-NP	*	I-VF
+35	käme	kommen	_	VVFIN	_	_	_	_	_	_	3107-3111	w1fd	käme	_	O	*	B-LK
+36	wieder	wieder	_	PTKVZ	_	_	_	_	_	_	3112-3118	w1fe	wieder	_	O	*	B-RK
+37	,	,	_	$,	_	_	_	_	_	_	3119-3120	w1ff	,	_	O	*	O
+38	wo	wo	_	PWAV	_	_	_	_	_	_	3121-3123	w200	wo	_	O	*	B-NF|B-LK
+39	niemand	niemand	_	PIS	_	_	_	_	_	_	3124-3131	w201	niemand	B-NP-insitu	B-NP	*	I-NF|B-MF
+40	frey	frei	_	ADJD	_	_	_	_	_	_	3132-3136	w202	frei	B-AP-insitu	B-AP	*	I-NF|I-MF
+41	war	sein	_	VAFIN	_	_	_	_	_	_	3137-3140	w203	war	_	O	*	I-NF|B-RK
+42	,	,	_	$,	_	_	_	_	_	_	3141-3142	w204	,	_	O	*	I-NF
+43	als	als	_	KOKOM	_	_	_	_	_	_	3143-3146	w205	als	B-NP-extrap	B-NP	*	I-NF|B-NF
+44	der	d	_	ART	_	_	_	_	_	_	3147-3150	w206	der	I-NP	I-NP	*	I-NF|I-NF
+45	Adel	Adel	_	NN	_	_	_	_	_	_	3151-3155	w207	Adel	I-NP	I-NP	*	I-NF|I-NF
+46	,	,	_	$,	_	_	_	_	_	_	3156-3157	w208	,	_	I-NP	*	I-NF
+47	und	und	_	KON	_	_	_	_	_	_	3158-3161	w209	und	_	O	*	I-NF|B-KOORD
+48	niemand	niemand	_	PIS	_	_	_	_	_	_	3162-3169	w20a	niemand	B-NP-insitu	B-NP	*	I-NF|B-MF
+49	lesen	lesen	_	VVINF	_	_	_	_	_	_	3170-3175	w20b	lesen	_	O	*	I-NF|B-RK
+50	und	und	_	KON	_	_	_	_	_	_	3176-3179	w20c	und	_	O	*	I-NF|I-RK
+51	schreiben	schreiben	_	VVINF	_	_	_	_	_	_	3180-3189	w20d	schreiben	_	O	*	I-NF|I-RK
+52	konnte	können	_	VMFIN	_	_	_	_	_	_	3190-3196	w20e	konnte	_	O	*	I-NF|I-RK
+53	,	,	_	$,	_	_	_	_	_	_	3197-3198	w20f	,	_	O	*	I-NF
+54	als	als	_	KOKOM	_	_	_	_	_	_	3199-3202	w210	als	B-NP-extrap	B-NP	*	I-NF|B-NF
+55	die	d	_	ART	_	_	_	_	_	_	3203-3206	w211	die	I-NP	I-NP	*	I-NF|I-NF
+56	Pfaffen	Pfaffe	_	NN	_	_	_	_	_	_	3207-3214	w212	Pfaffen	I-NP	I-NP	*	I-NF|I-NF
+57	.	.	_	$.	_	_	_	_	_	_	3215-3216	w213	.	_	I-NP	*	O

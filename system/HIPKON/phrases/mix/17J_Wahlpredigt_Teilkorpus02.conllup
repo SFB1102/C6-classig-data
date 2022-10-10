@@ -1,0 +1,54 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN FOKUS GF IS PHRASE POS Rekonstruktion SATZKLAMMER SATZSTATUS Sprache UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# PTBstring = (VROOT(S(NP(ART Das)(NN erſte))(VP(VAFIN iſt))(VP(VVPP geweſen)(KOMMA /)(CH(FM Iudicium)(FM Triumvirale)(KOMMA ,))(AS(PAV darinnen)(NP(AP(ADV nun)(CARD drey))(NN Perſonen))(VP(VVPP geſeſſen)(KOMMA /))))))
+# text = Das erſte iſt geweſen / Iudicium Triumvirale, darinnen nun drey Perſonen geſeſſen /
+1	Das	_	_	ART	_	_	_	_	_	NP	Das	_	SUBJ	_	B-NP	DDA	_	_	MAINDECL	_	15,01	_	_
+2	erſte	_	_	NN	_	_	_	_	_	NP	erſte	_	SUBJ	_	I-NP	ADJOS	_	_	MAINDECL	_	15,01	_	_
+3	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	_	VFIN	_	O	VAFIN	_	LI	MAINDECL	_	15,01	_	_
+4	geweſen	_	_	VVPP	_	_	_	_	_	VP	geweſen	_	INF	_	O	VVPP	_	RE	MAINDECL	_	15,01	_	_
+5	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	O	$_	_	_	MAINDECL	_	15,01	_	_
+6	Iudicium	_	_	FM	_	_	_	_	_	NP	Iuicium	NF	PRD	NEW	O	FM	Latein	_	MAINDECL	_	15,01	UNLINK	KOREF1-REL
+7	Triumvirale	_	_	FM	_	_	_	_	_	NP	Triumvirale	NF	PRD	NEW	O	FM	Latein	_	MAINDECL	_	15,01	UNLINK	KOREF1-REL
+8	,	_	_	$,	_	_	_	_	_	_	,	_	_	_	O	_	_	_	MAINDECL	_	15,01	_	_
+9	darinnen	_	_	PAV	_	_	_	_	_	ADVP	darinnen	_	ADVB	_	B-PP	ADV	_	_	MAINDECL	_	15,01	_	KOREF2-REL
+10	nun	_	_	ADV	_	_	_	_	_	_	nun	_	_	_	B-NP	ADV	_	_	MAINDECL	_	_	_	_
+11	drey	_	_	CARD	_	_	_	_	_	_	drey	_	_	_	I-NP	CARD	_	_	MAINDECL	_	_	_	_
+12	Perſonen	_	_	NN	_	_	_	_	_	_	Perſonen	_	_	_	I-NP	NA	_	_	MAINDECL	_	_	_	_
+13	geſeſſen	_	_	VVPP	_	_	_	_	_	_	geſeſſen	_	_	_	O	VVPP	_	_	MAINDECL	_	_	_	_
+14	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	O	$_	_	_	MAINDECL	_	_	_	_
+
+# sent_id = 2
+# PTBstring = (VROOT(S(NP(ART Das)(NN ander))(VP(VAFIN iſt))(VP(VVPP geweſen)(CH(FM ſynedrium)(FM paruum)(PUNKT .)))(NP(ART daß)(ADJA kleine)(NN Ge=richt)(KOMMA /)(AS(PAV darinnen)(NP(CARD drey))(VP(PP(NM(CARD vnd)(CARD zweinzig)))(VVPP geſeſſen)(KOMMA /))))))
+# text = Das ander iſt geweſen ſynedrium paruum. daß kleine Ge=richt / darinnen drey vnd zweinzig geſeſſen /
+1	Das	_	_	ART	_	_	_	_	_	NP	Das	_	SUBJ	_	B-NP	DDA	_	_	MAINDECL	_	15,06 Ge=	_	_
+2	ander	_	_	NN	_	_	_	_	_	NP	ander	_	SUBJ	_	I-NP	ADJOS	_	_	MAINDECL	_	15,06 Ge=	_	_
+3	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	_	VFIN	_	O	VAFIN	_	LI	MAINDECL	_	15,06 Ge=	_	_
+4	geweſen	_	_	VVPP	_	_	_	_	_	VP	geweſen	_	INF	_	O	VVPP	_	RE	MAINDECL	_	15,06 Ge=	_	_
+5	ſynedrium	_	_	FM	_	_	_	_	_	NP	ſynedrium	NF	PRD	_	O	FM	_	_	MAINDECL	Latein	15,06 Ge=	UNLINK	_
+6	paruum	_	_	FM	_	_	_	_	_	NP	paruum	NF	PRD	_	O	FM	_	_	MAINDECL	Latein	15,06 Ge=	UNLINK	_
+7	.	_	_	$.	_	_	_	_	_	NP	.	NF	PRD	_	O	$_	_	_	MAINDECL	_	15,06 Ge=	UNLINK	_
+8	daß	_	_	ART	_	_	_	_	_	NP	daß	NF	APPOS	_	B-NP	DDA	_	_	MAINDECL	_	15,06 Ge=	UNLINK	KOREF1-REL
+9	kleine	_	_	ADJA	_	_	_	_	_	NP	kleine	NF	APPOS	_	I-NP	ADJ	_	_	MAINDECL	_	15,06 Ge=	UNLINK	KOREF1-REL
+10	Ge=richt	_	_	NN	_	_	_	_	_	NP	Gericht	NF	APPOS	GIV-INACTIVE	I-NP	NA	_	_	MAINDECL	_	15,06 Ge=	UNLINK	KOREF1-REL
+11	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	O	$_	_	_	MAINDECL	_	_	_	_
+12	darinnen	_	_	PAV	_	_	_	_	_	CP	darinnen	_	ADVB	_	B-PP	ADV	_	_	MAINDECL	_	15,07 Capital=	_	KOREF2-REL
+13	drey	_	_	CARD	_	_	_	_	_	CP	drey	_	ADVB	_	B-NP	CARD	_	_	MAINDECL	_	15,07 Capital=	_	_
+14	vnd	_	_	CARD	_	_	_	_	_	CP	vnd	_	ADVB	_	B-PP	CARD	_	_	MAINDECL	_	15,07 Capital=	_	_
+15	zweinzig	_	_	CARD	_	_	_	_	_	CP	zweinzig	_	ADVB	_	I-PP	CARD	_	_	MAINDECL	_	15,07 Capital=	_	_
+16	geſeſſen	_	_	VVPP	_	_	_	_	_	CP	geſeſſen	_	ADVB	_	O	VVPP	_	_	MAINDECL	_	15,07 Capital=	_	_
+17	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	O	$_	_	_	MAINDECL	_	15,07 Capital=	_	_
+
+# sent_id = 3
+# PTBstring = (VROOT(S(NP(ART Das)(NN dritte))(VP(VAFIN iſt))(VP(VVPP geweſen)(CNP(CH(FM Synedrium)(FM Magnum)(KOMMA ,))(NP(ART das)(ADJA hoͤchſte)(NN Gericht)(KOMMA /))))))
+# text = Das dritte iſt geweſen Synedrium Magnum, das hoͤchſte Gericht /
+1	Das	_	_	ART	_	_	_	_	_	NP	Das	_	SUBJ	_	B-NP	DDA	_	_	MAINDECL	_	15,10	_	_
+2	dritte	_	_	NN	_	_	_	_	_	NP	dritte	_	SUBJ	_	I-NP	ADJOS	_	_	MAINDECL	_	15,10	_	_
+3	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	_	VFIN	_	O	VAFIN	_	LI	MAINDECL	_	15,10	_	_
+4	geweſen	_	_	VVPP	_	_	_	_	_	VP	geweſen	_	INF	_	O	VVPP	_	RE	MAINDECL	_	15,10	_	_
+5	Synedrium	_	_	FM	_	_	_	_	_	NP	Synedrium	NF	PRD	_	O	FM	_	_	MAINDECL	Latein	15,10	UNLINK	_
+6	Magnum	_	_	FM	_	_	_	_	_	NP	Magnum	NF	PRD	_	O	FM	_	_	MAINDECL	Latein	15,10	UNLINK	_
+7	,	_	_	$,	_	_	_	_	_	NP	,	NF	_	_	O	_	_	_	MAINDECL	_	15,10	UNLINK	_
+8	das	_	_	ART	_	_	_	_	_	NP	das	NF	APPOS	_	B-NP	DDA	_	_	MAINDECL	_	15,10	UNLINK	_
+9	hoͤchſte	_	_	ADJA	_	_	_	_	_	NP	hoͤchſte	NF	APPOS	_	I-NP	ADJ	_	_	MAINDECL	_	15,10	UNLINK	_
+10	Gericht	_	_	NN	_	_	_	_	_	NP	Gericht	NF	APPOS	GIV-ACTIVE	I-NP	NA	_	_	MAINDECL	_	15,11	UNLINK	_
+11	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	I-NP	$_	_	_	MAINDECL	_	15,11	_	_

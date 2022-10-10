@@ -1,0 +1,2529 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PHRASE
+# sent_id = 1
+# sent_id(TSV) = 1
+# PTBstring = (VROOT(S(NP(PPER Du))(VP(VMFIN willst))(VP(PIS alles)(VVINF wissen)))(PUNKT .))
+# text = Du willst alles wissen .
+1	Du	du	_	PPER	number=sg|person=2|case=nom|gender=*	4	subj	_	_	B-NP
+2	willst	wollen	_	VMFIN	number=sg|person=2|mood=ind|tense=pres	4	aux	_	_	O
+3	alles	alle	_	PIS	number=sg|case=acc|gender=neut	4	obj	_	_	B-NP
+4	wissen	wissen	_	VVINF	_	_	_	_	_	O
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# PTBstring = (VROOT(S(NP(PPER Es))(VP(VAFIN ist))(NP(PPOSAT mein)(NN Töff)(KOMMA ,)))(KON oder)(PUNKT !))
+# text = Es ist mein Töff , oder !
+1	Es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	2	pred	_	_	B-NP
+2	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	O
+3	mein	mein	_	PPOSAT	number=sg|case=nom|gender=masc	_	_	_	_	B-NP
+4	Töff	Töff	_	NN	number=sg|case=nom|gender=masc	2	subj	_	_	I-NP
+5	,	,	_	$,	_	_	_	_	_	I-NP
+6	oder	oder	_	KON	_	_	_	_	_	O
+7	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# PTBstring = (VROOT(S(AP(ADJD Gut))(KOMMA ,)(S(NP(ADV also)(ART das)(NN Benzin))(VP(VVFIN geht))(AVP(ADV hier))(SVP(PTKVZ durch))(KOMMA ,))(AVP(ADV da))(SVP(PTKVZ hinein)))(PUNKT .))
+# text = Gut , also das Benzin geht hier durch , da hinein .
+1	Gut	gut	_	ADJD	degree=pos	_	_	_	_	B-AP
+2	,	,	_	$,	_	_	_	_	_	O
+3	also	also	_	ADV	_	_	_	_	_	B-NP
+4	das	der	_	ART	number=sg|case=nom|gender=neut	_	_	_	_	I-NP
+5	Benzin	Benzin	_	NN	number=sg|case=nom|gender=neut	6	subj	_	_	I-NP
+6	geht	gehen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	O
+7	hier	hier	_	ADV	_	_	_	_	_	B-ADVP
+8	durch	durch	_	PTKVZ	_	_	_	_	_	O
+9	,	,	_	$,	_	_	_	_	_	O
+10	da	da	_	ADV	_	_	_	_	_	B-ADVP
+11	hinein	hinein	_	PTKVZ	_	_	_	_	_	O
+12	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# PTBstring = (VROOT(S(AVP(ADV Da)(PP(PAV drin)))(VP(VAFIN ist))(NP(PPER es))(AP(ADV sehr)(ADJD heiss)(PUNKT .))))
+# text = Da drin ist es sehr heiss .
+1	Da	da	_	ADV	_	_	_	_	_	B-ADVP
+2	drin	drin	_	PAV	_	_	_	_	_	I-ADVP
+3	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	O
+4	es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	3	subj	_	_	B-NP
+5	sehr	sehr	_	ADV	_	_	_	_	_	B-AP
+6	heiss	heiß	_	ADJD	degree=pos	3	pred	_	_	I-AP
+7	.	.	_	$.	_	_	_	_	_	I-AP
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# PTBstring = (VROOT(S(AVP(ADV Dann))(NP(ART die)(NN Kerze))(VP(VVFIN maken))(SVP(PTKVZ ein)))(KLAMMER ...))
+# text = Dann die Kerze maken ein ...
+1	Dann	dann	_	ADV	_	_	_	_	_	B-ADVP
+2	die	der	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	B-NP
+3	Kerze	Kerze	_	NN	number=sg|case=acc|gender=fem	4	subj	_	_	I-NP
+4	maken	machen	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	O
+5	ein	ein	_	ART	number=sg|case=acc|gender=masc	4	obj	_	_	O
+6	...	...	_	$.	_	_	_	_	_	O
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# PTBstring = (VROOT(S(PTKANT Ja)(KOMMA ,)(NP(KOKOM wie)(ART ein)(NN Messer)(PP(APPR auf)(ART dem)(NN Schleifstein)(PUNKT .)))))
+# text = Ja , wie ein Messer auf dem Schleifstein .
+1	Ja	ja	_	PTKANT	_	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	wie	wie	_	KOKOM	_	_	_	_	_	B-NP
+4	ein	ein	_	ART	number=sg|case=nom|gender=neut	_	_	_	_	I-NP
+5	Messer	Messer	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	I-NP
+6	auf	auf	_	APPR	_	_	_	_	_	I-NP
+7	dem	der	_	ART	number=sg|case=dat|gender=masc	_	_	_	_	I-NP
+8	Schleifstein	Schleifstein	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-NP
+9	.	.	_	$.	_	_	_	_	_	I-NP
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# PTBstring = (VROOT(NP(KOKOM Wie)(ART ein)(NN Feuerzeug))(PUNKT .))
+# text = Wie ein Feuerzeug .
+1	Wie	wie	_	KOKOM	_	_	_	_	_	B-NP
+2	ein	ein	_	ART	number=sg|case=nom|gender=neut	_	_	_	_	I-NP
+3	Feuerzeug	Feuerzeug	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	I-NP
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# PTBstring = (VROOT(NP(ART Ein)(NN Funke))(PUNKT .))
+# text = Ein Funke .
+1	Ein	ein	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	B-NP
+2	Funke	Funke	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	I-NP
+3	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# PTBstring = (VROOT(S(NP(NN Funke))(KLAMMER ...)(AP(ADJD gut)))(PUNKT .))
+# text = Funke ... gut .
+1	Funke	Funke	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	B-NP
+2	...	...	_	$(	_	_	_	_	_	O
+3	gut	gut	_	ADJD	degree=pos	_	_	_	_	B-AP
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# PTBstring = (VROOT(CS(S(NP(ADV Also)(ART die)(NN Kerze))(VP(VVFIN machen))(NP(ART ein)(NN Funke)))(KON und)(S(AP(ADJD päng))(VP(VVFIN bringt))(NP(ART das)(NN Benzin))(PP(APPRART zum)(NN Explodiern)))))
+# text = Also die Kerze machen ein Funke und päng bringt das Benzin zum Explodiern
+1	Also	also	_	ADV	_	_	_	_	_	B-NP
+2	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	I-NP
+3	Kerze	Kerze	_	NN	number=sg|case=nom|gender=fem	4	subj	_	_	I-NP
+4	machen	machen	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	O
+5	ein	ein	_	ART	number=sg|case=acc|gender=masc	_	_	_	_	B-NP
+6	Funke	Funke	_	NN	number=sg|case=acc|gender=masc	4	obj	_	_	I-NP
+7	und	und	_	KON	_	_	_	_	_	O
+8	päng	päng	_	ITJ	_	_	_	_	_	B-AP
+9	bringt	bringen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	O
+10	das	der	_	ART	number=sg|case=acc|gender=neut	_	_	_	_	B-NP
+11	Benzin	Benzin	_	NN	number=sg|case=acc|gender=neut	9	obj	_	_	I-NP
+12	zum	zu	_	APPRART	case=dat|gender=neut	_	_	_	_	B-PP
+13	Explodiern	Explodieren	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	I-PP
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# PTBstring = (VROOT(CS(S(NP(NE Anateo))(VP(VAFIN hat))(NP(PPER uns))(NP(PIS alle))(VP(VVPP verraten)))(KON und)(S(NP(PPER er))(VP(VAFIN wird))(PP(PAV dafür))(VP(VVINF bezahlen)(PUNKT .)))))
+# text = Anateo hat uns alle verraten und er wird dafür bezahlen .
+1	Anateo	Anateo	_	NE	number=sg|case=nom|gender=masc	5	subj	_	_	B-NP
+2	hat	haben	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	5	aux	_	_	O
+3	uns	wir	_	PPER	number=pl|person=1|case=acc|gender=*	5	obj	_	_	B-NP
+4	alle	alle	_	PIS	number=pl|case=acc|gender=*	_	_	_	_	B-NP
+5	verraten	verraten	_	VVPP	_	_	_	_	_	O
+6	und	und	_	KON	_	_	_	_	_	O
+7	er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	10	subj	_	_	B-NP
+8	wird	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	10	aux	_	_	O
+9	dafür	dafür	_	PAV	_	10	pobj	_	_	B-PP
+10	bezahlen	bezahlen	_	VVINF	_	_	_	_	_	O
+11	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# PTBstring = (VROOT(S(KON Und)(PP(APPR wegen)(ART der)(NN Tau'ri))(KLAMMER ...)(CS(S(NP(PPER sie))(VP(VVFIN befanden))(NP(PRF sich))(PP(ADV schon)(APPRART im)(NN Krieg))(PP(APPR gegen)(CNP(PPER uns)(KON und)(PPER wir)))(PP(APPR gegen)(PPER sie)(KLAMMER ...)))(KON und)(S(NP(PPER ich))(VP(VAFIN werde))(VP(PRF mich)(PTKNEG nicht)(ADJD ängstlich)(VVPP verkriechen)(PUNKT .))))))
+# text = Und wegen der Tau'ri ... sie befanden sich schon im Krieg gegen uns und wir gegen sie ... und ich werde mich nicht ängstlich verkriechen .
+1	Und	und	_	KON	_	_	_	_	_	O
+2	wegen	wegen	_	APPR	_	_	_	_	_	B-PP
+3	der	der	_	ART	number=pl|case=gen|gender=*	_	_	_	_	I-PP
+4	Tau'ri	Tau'ri	_	NE	number=pl|case=gen|gender=*	_	_	_	_	I-PP
+5	...	...	_	$(	_	_	_	_	_	O
+6	sie	sie	_	PPER	number=pl|person=3|case=nom|gender=*	7	subj	_	_	B-NP
+7	befanden	befinden	_	VVFIN	number=pl|person=3|mood=ind|tense=past	_	_	_	_	O
+8	sich	sich	_	PRF	number=pl|person=3|case=nom	7	obj	_	_	B-NP
+9	schon	schon	_	ADV	_	_	_	_	_	B-PP
+10	im	in	_	APPRART	case=dat|gender=masc	_	_	_	_	I-PP
+11	Krieg	Krieg	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-PP
+12	gegen	gegen	_	APPR	_	_	_	_	_	B-PP
+13	uns	wir	_	PPER	number=pl|person=1|case=acc|gender=*	_	_	_	_	I-PP
+14	und	und	_	KON	_	_	_	_	_	I-PP
+15	wir	wir	_	PPER	number=pl|person=1|case=nom|gender=*	_	_	_	_	I-PP
+16	gegen	gegen	_	APPR	_	_	_	_	_	B-PP
+17	sie	sie	_	PPER	number=pl|person=3|case=acc|gender=*	_	_	_	_	I-PP
+18	...	...	_	$.	_	_	_	_	_	I-PP
+19	und	und	_	KON	_	_	_	_	_	O
+20	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	25	subj	_	_	B-NP
+21	werde	werden	_	VAFIN	number=sg|person=1|mood=ind|tense=pres	25	aux	_	_	O
+22	mich	ich	_	PRF	number=sg|person=1|case=nom	25	obj	_	_	B-NP
+23	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVP
+24	ängstlich	ängstlich	_	ADJD	degree=pos	_	_	_	_	B-AP
+25	verkriechen	verkriechen	_	VVINF	_	_	_	_	_	O
+26	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# PTBstring = (VROOT(S(VP(VVIMP Sagt))(NP(PDS das))(SVP(PTKVZ weiter)))(PUNKT .))
+# text = Sagt das weiter .
+1	Sagt	sagen	_	VVIMP	number=pl	_	_	_	_	O
+2	das	der	_	PDS	number=sg|case=acc|gender=neut	1	obj	_	_	B-NP
+3	weiter	weiter	_	PTKVZ	_	_	_	_	_	O
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# PTBstring = (VROOT(S(VP(VVIMP Schickt))(NP(PIAT alle)(ADJA verfügbaren)(NN Schiffe)))(PUNKT .))
+# text = Schickt alle verfügbaren Schiffe .
+1	Schickt	schicken	_	VVIMP	number=pl	_	_	_	_	O
+2	alle	aller	_	PIAT	number=pl|case=acc|gender=neut	_	_	_	_	B-NP
+3	verfügbaren	verfügbar	_	ADJA	number=pl|degree=pos|case=acc|gender=neut	_	_	_	_	I-NP
+4	Schiffe	Schiff	_	NN	number=pl|case=acc|gender=neut	1	obj	_	_	I-NP
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# PTBstring = (VROOT(S(NP(PPER Ich))(VP(VMFIN will))(KOMMA ,)(S(KOUS dass)(NP(ART die)(NE 0dyssey))(VP(VVPP gefunden))(VP(VAFIN wird))(PUNKT .))))
+# text = Ich will , dass die 0dyssey gefunden wird .
+1	Ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	2	subj	_	_	B-NP
+2	will	wollen	_	VMFIN	number=sg|person=1|mood=ind|tense=pres	_	_	_	_	O
+3	,	,	_	$,	_	_	_	_	_	O
+4	dass	dass	_	KOUS	_	_	_	_	_	O
+5	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	B-NP
+6	0dyssey	Odyssey	_	NE	number=sg|case=nom|gender=fem	7	subj	_	_	I-NP
+7	gefunden	finden	_	VVPP	_	2	vobj	_	_	O
+8	wird	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	7	aux	_	_	O
+9	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# PTBstring = (VROOT(AVP(ADV Sofort)(PUNKT !)))
+# text = Sofort !
+1	Sofort	sofort	_	ADV	_	_	_	_	_	B-ADVP
+2	!	!	_	$.	_	_	_	_	_	I-ADVP
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# PTBstring = (VROOT(NE Kefflin)(PUNKT .))
+# text = Kefflin .
+1	Kefflin	Kefflin	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	B-NP
+2	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# PTBstring = (VROOT(S(VP(VAFIN War))(NP(PPER es))(AP(ADV wirklich)(ADJD nötig)(KOMMA ,))(VP(PPER mich)(ADV so)(VZ(PTKZU zu)(VVINF blamieren)(PUNKT ?)))))
+# text = War es wirklich nötig , mich so zu blamieren ?
+1	War	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	O
+2	es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	1	expl	_	_	B-NP
+3	wirklich	wirklich	_	ADV	_	_	_	_	_	B-AP
+4	nötig	nötig	_	ADJD	degree=pos	1	pred	_	_	I-AP
+5	,	,	_	$,	_	_	_	_	_	I-AP
+6	mich	ich	_	PPER	number=sg|person=1|case=acc|gender=*	9	obj	_	_	B-NP
+7	so	so	_	ADV	_	_	_	_	_	B-ADVP
+8	zu	zu	_	PTKZU	_	_	_	_	_	O
+9	blamieren	blamieren	_	VVINF	_	1	vsubj	_	_	O
+10	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 19
+# sent_id(TSV) = 19
+# PTBstring = (VROOT(S(NP(PPER Es))(VP(VVFIN gab))(NP(NN Gerüchte)(PP(APPR wegen)(ART der)(NN Stärke)(NP(PPOSAT deiner)(NN Führung)))))(PUNKT .))
+# text = Es gab Gerüchte wegen der Stärke deiner Führung .
+1	Es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	2	expl	_	_	B-NP
+2	gab	geben	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	O
+3	Gerüchte	Gerücht	_	NN	number=pl|case=acc|gender=neut	2	obj	_	_	B-NP
+4	wegen	wegen	_	APPR	_	_	_	_	_	I-NP
+5	der	der	_	ART	number=sg|case=gen|gender=fem	_	_	_	_	I-NP
+6	Stärke	Stärke	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	I-NP
+7	deiner	dein	_	PPOSAT	number=sg|case=gen|gender=fem	_	_	_	_	I-NP
+8	Führung	Führung	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	I-NP
+9	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 20
+# sent_id(TSV) = 20
+# PTBstring = (VROOT(S(AVP(ADV Jetzt))(VP(VAFIN werden))(NP(PDAT diese)(NN Gerüchte))(VP(VVINF aufhören)(PUNKT .))))
+# text = Jetzt werden diese Gerüchte aufhören .
+1	Jetzt	jetzt	_	ADV	_	_	_	_	_	B-ADVP
+2	werden	werden	_	VAFIN	number=pl|person=3|mood=ind|tense=pres	5	aux	_	_	O
+3	diese	dieser	_	PDAT	number=pl|case=nom|gender=neut	_	_	_	_	B-NP
+4	Gerüchte	Gerücht	_	NN	number=pl|case=nom|gender=neut	5	subj	_	_	I-NP
+5	aufhören	aufhören	_	VVINF	_	_	_	_	_	O
+6	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 21
+# sent_id(TSV) = 21
+# PTBstring = (VROOT(KON Und)(PUNKT ?))
+# text = Und ?
+1	Und	und	_	KON	_	_	_	_	_	O
+2	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 22
+# sent_id(TSV) = 22
+# PTBstring = (VROOT(CS(S(VP(VAFIN Wirst))(NP(PPER du))(VP(PPER es)(ADV so)(VVINF lassen)))(KON oder)(S(VP(VAFIN wirst))(NP(PPER du))(NP(PDS das))(VP(PP(APPR in)(NN Ordnung))(VVINF bringen)(PUNKT ?)))))
+# text = Wirst du es so lassen oder wirst du das in Ordnung bringen ?
+1	Wirst	werden	_	VAFIN	number=sg|person=2|mood=ind|tense=pres	5	aux	_	_	O
+2	du	du	_	PPER	number=sg|person=2|case=nom|gender=*	5	subj	_	_	B-NP
+3	es	es	_	PPER	number=sg|person=3|case=acc|gender=neut	5	obj	_	_	B-NP
+4	so	so	_	ADV	_	_	_	_	_	B-ADVP
+5	lassen	lassen	_	VVINF	_	_	_	_	_	O
+6	oder	oder	_	KON	_	_	_	_	_	O
+7	wirst	werden	_	VAFIN	number=sg|person=2|mood=ind|tense=pres	12	aux	_	_	O
+8	du	du	_	PPER	number=sg|person=2|case=nom|gender=*	12	subj	_	_	B-NP
+9	das	der	_	PDS	number=sg|case=acc|gender=neut	12	obj	_	_	B-NP
+10	in	in	_	APPR	_	_	_	_	_	B-PP
+11	Ordnung	Ordnung	_	NN	number=sg|case=acc|gender=fem	_	_	_	_	I-PP
+12	bringen	bringen	_	VVINF	_	_	_	_	_	O
+13	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 23
+# sent_id(TSV) = 23
+# PTBstring = (VROOT(S(VP(VAFIN Bist))(NP(PPER du))(AP(ADJD glücklich)))(PUNKT ?))
+# text = Bist du glücklich ?
+1	Bist	sein	_	VAFIN	number=sg|person=2|mood=ind|tense=pres	_	_	_	_	O
+2	du	du	_	PPER	number=sg|person=2|case=nom|gender=*	1	subj	_	_	B-NP
+3	glücklich	glücklich	_	ADJD	degree=pos	1	pred	_	_	B-AP
+4	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 24
+# sent_id(TSV) = 24
+# PTBstring = (VROOT(NN Ja)(PUNKT .))
+# text = Ja .
+1	Ja	ja	_	PTKANT	_	_	_	_	_	O
+2	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 25
+# sent_id(TSV) = 25
+# PTBstring = (VROOT(KLAMMER -)(S(NP(PPER Es))(VP(VAFIN ist))(AP(ADJD nett)(PP(APPR von)(PPER dir)(KOMMA ,))(S(KOUS dass)(NP(PPER du))(VP(VVFIN hilfst))(PUNKT .)))))
+# text = - Es ist nett von dir , dass du hilfst .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	3	expl	_	_	B-NP
+3	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	O
+4	nett	nett	_	ADJD	degree=pos	3	pred	_	_	B-AP
+5	von	von	_	APPR	_	_	_	_	_	I-AP
+6	dir	du	_	PPER	number=sg|person=2|case=dat|gender=*	_	_	_	_	I-AP
+7	,	,	_	$,	_	_	_	_	_	I-AP
+8	dass	dass	_	KOUS	_	_	_	_	_	I-AP
+9	du	du	_	PPER	number=sg|person=2|case=nom|gender=*	10	subj	_	_	I-AP
+10	hilfst	helfen	_	VVFIN	number=sg|person=2|mood=ind|tense=pres	3	vsubj	_	_	I-AP
+11	.	.	_	$.	_	_	_	_	_	I-AP
+
+# sent_id = 26
+# sent_id(TSV) = 26
+# PTBstring = (VROOT(KLAMMER -)(CS(S(AVP(ADV Einmal))(NP(ART ein)(NN Pfadfinder)(KOMMA ,)))(S(AVP(ADV immer))(NP(ART ein)(NN Pfadfinder)(PUNKT .)))))
+# text = - Einmal ein Pfadfinder , immer ein Pfadfinder .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Einmal	einmal	_	ADV	_	_	_	_	_	B-ADVP
+3	ein	ein	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	B-NP
+4	Pfadfinder	Pfadfinder	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	I-NP
+5	,	,	_	$,	_	_	_	_	_	I-NP
+6	immer	immer	_	ADV	_	_	_	_	_	B-ADVP
+7	ein	ein	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	B-NP
+8	Pfadfinder	Pfadfinder	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	I-NP
+9	.	.	_	$.	_	_	_	_	_	I-NP
+
+# sent_id = 27
+# sent_id(TSV) = 27
+# PTBstring = (VROOT(KLAMMER -)(S(NP(PPER Du))(VP(VAFIN warst))(AVP(ADV nie))(NP(ART ein)(NN Pfandfinder)))(PUNKT .))
+# text = - Du warst nie ein Pfandfinder .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Du	du	_	PPER	number=sg|person=2|case=nom|gender=*	3	subj	_	_	B-NP
+3	warst	sein	_	VAFIN	number=sg|person=2|mood=ind|tense=past	_	_	_	_	O
+4	nie	nie	_	ADV	_	_	_	_	_	B-ADVP
+5	ein	ein	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	B-NP
+6	Pfandfinder	Pfadfinder	_	NN	number=sg|case=nom|gender=masc	3	pred	_	_	I-NP
+7	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 28
+# sent_id(TSV) = 28
+# PTBstring = (VROOT(KLAMMER -)(S(AP(ADJD Offensichtlich))(VP(VAFIN habe))(NP(PPER ich))(VP(VVINF mein)(KLAMMER ...))))
+# text = - Offensichtlich habe ich mein ...
+1	-	-	_	$(	_	_	_	_	_	O
+2	Offensichtlich	offensichtlich	_	ADV	_	_	_	_	_	B-ADVP
+3	habe	haben	_	VAFIN	number=sg|person=1|mood=ind|tense=pres	_	_	_	_	O
+4	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	3	subj	_	_	B-NP
+5	mein	mein	_	PPOSAT	number=sg|case=acc|gender=neut	3	obj	_	_	O
+6	...	...	_	$.	_	_	_	_	_	O
+
+# sent_id = 29
+# sent_id(TSV) = 29
+# PTBstring = (VROOT(S(NP(NN Verdienstabzeichen))(VP(PP(APPR für)(NN Biberfallen))(VVPP bekommen)))(PUNKT .))
+# text = Verdienstabzeichen für Biberfallen bekommen .
+1	Verdienstabzeichen	Verdienstabzeichen	_	NN	number=sg|case=acc|gender=neut	4	obj	_	_	B-NP
+2	für	für	_	APPR	_	_	_	_	_	B-PP
+3	Biberfallen	Biberfalle	_	NN	number=pl|case=acc|gender=fem	_	_	_	_	I-PP
+4	bekommen	bekommen	_	VVPP	_	_	_	_	_	O
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 30
+# sent_id(TSV) = 30
+# PTBstring = (VROOT(KLAMMER -)(S(VP(VVIMP Konzentriere))(NP(PRF dich))(AVP(ADV lieber))(AVP(ADV da))(PP(PAV drauf))(PUNKT .)))
+# text = - Konzentriere dich lieber da drauf .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Konzentriere	konzentrieren	_	VVIMP	number=sg	_	_	_	_	O
+3	dich	du	_	PRF	number=sg|person=*|case=nom	2	obj	_	_	B-NP
+4	lieber	lieber	_	ADV	_	_	_	_	_	B-ADVP
+5	da	da	_	ADV	_	_	_	_	_	B-ADVP
+6	drauf	drauf	_	PAV	_	2	pobj	_	_	B-PP
+7	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 31
+# sent_id(TSV) = 31
+# PTBstring = (VROOT(S(VP(VVIMP Kommt))(PP(APPR mit)(PPER mir)))(PUNKT .))
+# text = Kommt mit mir .
+1	Kommt	kommen	_	VVIMP	number=pl	_	_	_	_	O
+2	mit	mit	_	APPR	_	_	_	_	_	B-PP
+3	mir	ich	_	PPER	number=sg|person=1|case=dat|gender=*	_	_	_	_	I-PP
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 32
+# sent_id(TSV) = 32
+# PTBstring = (VROOT(S(VP(VVFIN Wisst))(NP(PPER ihr))(KOMMA ,)(S:OC(AP(PWAV wie)(ADJD wertvoll))(NP(PDAT diese)(NN Mohnblumen))(VP(VAFIN waren))(PUNKT ?))))
+# text = Wisst ihr , wie wertvoll diese Mohnblumen waren ?
+1	Wisst	wissen	_	VVFIN	number=pl|person=2|mood=ind|tense=pres	_	_	_	_	O
+2	ihr	ihr	_	PPER	number=pl|person=2|case=nom|gender=*	1	subj	_	_	B-NP
+3	,	,	_	$,	_	_	_	_	_	O
+4	wie	wie	_	PWAV	_	_	_	_	_	B-AP
+5	wertvoll	wertvoll	_	ADJD	degree=pos	8	pred	_	_	I-AP
+6	diese	dieser	_	PDAT	number=pl|case=nom|gender=fem	_	_	_	_	B-NP
+7	Mohnblumen	Mohnblume	_	NN	number=pl|case=nom|gender=fem	8	subj	_	_	I-NP
+8	waren	sein	_	VAFIN	number=pl|person=3|mood=ind|tense=past	1	vobj	_	_	O
+9	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 33
+# sent_id(TSV) = 33
+# PTBstring = (VROOT(VP(PP(APPR In)(NN Rauch))(VVPP aufgegangen))(PUNKT .))
+# text = In Rauch aufgegangen .
+1	In	in	_	APPR	_	_	_	_	_	B-PP
+2	Rauch	Rauch	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-PP
+3	aufgegangen	aufgehen	_	VVPP	_	_	_	_	_	O
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 34
+# sent_id(TSV) = 34
+# PTBstring = (VROOT(KLAMMER -)(NP(PWS Was))(PUNKT ?))
+# text = - Was ?
+1	-	-	_	$(	_	_	_	_	_	O
+2	Was	was	_	PWS	number=sg|case=nom|gender=*	_	_	_	_	B-NP
+3	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 35
+# sent_id(TSV) = 35
+# PTBstring = (VROOT(S(VP(VAFIN Hat))(NP(PPER sie)(PIS jemand))(VP(VVPP angezündet)))(PUNKT ?))
+# text = Hat sie jemand angezündet ?
+1	Hat	haben	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	4	aux	_	_	O
+2	sie	sie	_	PPER	number=pl|person=3|case=acc|gender=fem	4	obj	_	_	B-NP
+3	jemand	jemand	_	PIS	number=sg|case=nom|gender=masc	4	subj	_	_	I-NP
+4	angezündet	anzünden	_	VVPP	_	_	_	_	_	O
+5	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 36
+# sent_id(TSV) = 36
+# PTBstring = (VROOT(KLAMMER -)(NN Ja)(PUNKT .))
+# text = - Ja .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Ja	ja	_	PTKANT	_	_	_	_	_	O
+3	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 37
+# sent_id(TSV) = 37
+# PTBstring = (VROOT(S(NP(ADJA Betrunkene)(ADJA irische)(NN Familie)(KOMMA ,))(NP(ART die)(NN Straße)(ADV hoch)(PUNKT .))))
+# text = Betrunkene irische Familie , die Straße hoch .
+1	Betrunkene	betrunken	_	ADJA	number=sg|degree=pos|case=nom|gender=fem	_	_	_	_	B-NP
+2	irische	irisch	_	ADJA	number=sg|degree=pos|case=nom|gender=fem	_	_	_	_	I-NP
+3	Familie	Familie	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	I-NP
+4	,	,	_	$,	_	_	_	_	_	I-NP
+5	die	der	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	B-NP
+6	Straße	Straße	_	NN	number=sg|case=acc|gender=fem	_	_	_	_	I-NP
+7	hoch	hoch	_	ADV	_	_	_	_	_	I-NP
+8	.	.	_	$.	_	_	_	_	_	I-NP
+
+# sent_id = 38
+# sent_id(TSV) = 38
+# PTBstring = (VROOT(NP(ART Die)(NE O'Hallorans))(PUNKT .))
+# text = Die O'Hallorans .
+1	Die	der	_	ART	number=pl|case=nom|gender=*	_	_	_	_	B-NP
+2	O'Hallorans	O'Halloran	_	NE	number=pl|case=nom|gender=*	_	_	_	_	I-NP
+3	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 39
+# sent_id(TSV) = 39
+# PTBstring = (VROOT(S(VP(PWAV Warum))(PUNKT ?)))
+# text = Warum ?
+1	Warum	warum	_	PWAV	_	_	_	_	_	O
+2	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 40
+# sent_id(TSV) = 40
+# PTBstring = (VROOT(S(NP(PWS Was))(VP(VAFIN hast))(NP(PPER du))(VP(VVPP getan)(KOMMA ,)(VP(KOUI um)(PPER sie)(VZ(PTKZU zu)(VVINF verärgern)(PUNKT ?))))))
+# text = Was hast du getan , um sie zu verärgern ?
+1	Was	was	_	PWS	number=sg|case=acc|gender=neut	4	obj	_	_	B-NP
+2	hast	haben	_	VAFIN	number=sg|person=2|mood=ind|tense=pres	4	aux	_	_	O
+3	du	du	_	PPER	number=sg|person=2|case=nom|gender=*	4	subj	_	_	B-NP
+4	getan	tun	_	VVPP	_	_	_	_	_	O
+5	,	,	_	$,	_	_	_	_	_	O
+6	um	um	_	KOUI	_	_	_	_	_	O
+7	sie	sie	_	PPER	number=pl|person=3|case=acc|gender=*	9	obj	_	_	B-NP
+8	zu	zu	_	PTKZU	_	_	_	_	_	O
+9	verärgern	verärgern	_	VVINF	_	_	_	_	_	O
+10	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 41
+# sent_id(TSV) = 41
+# PTBstring = (VROOT(KLAMMER -)(S(VP(VVFIN Arbeitet))(NP(PPER sie))(AVP(PTKNEG nicht))(PP(APPR für)(PPER dich)(KOMMA ,)(NE Vince)(PUNKT ?))))
+# text = - Arbeitet sie nicht für dich , Vince ?
+1	-	-	_	$(	_	_	_	_	_	O
+2	Arbeitet	arbeiten	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	O
+3	sie	sie	_	PPER	number=sg|person=3|case=nom|gender=fem	2	subj	_	_	B-NP
+4	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVP
+5	für	für	_	APPR	_	_	_	_	_	B-PP
+6	dich	du	_	PPER	number=sg|person=2|case=acc|gender=masc	_	_	_	_	I-PP
+7	,	,	_	$,	_	_	_	_	_	I-PP
+8	Vince	Vince	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	I-PP
+9	?	?	_	$.	_	_	_	_	_	I-PP
+
+# sent_id = 42
+# sent_id(TSV) = 42
+# PTBstring = (VROOT(KLAMMER -)(S(PTKANT Ja)(KOMMA ,)(AVP(ADV allerdings))(PUNKT .)))
+# text = - Ja , allerdings .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Ja	ja	_	PTKANT	_	_	_	_	_	O
+3	,	,	_	$,	_	_	_	_	_	O
+4	allerdings	allerdings	_	ADV	_	_	_	_	_	B-ADVP
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 43
+# sent_id(TSV) = 43
+# PTBstring = (VROOT(S(S(KON Und)(PP(APPR bei)(NN E))(VP(ADV einfach)(NP(ART den)(NN Hörer))(VVIZU aufzulegen)(KOMMA ,)))(VP(VMFIN muss))(VP(VP(AP(ADV ziemlich)(ADJD entmannend))(VAPP gewesen))(VAINF sein)))(PUNKT ?))
+# text = Und bei E einfach den Hörer aufzulegen , muss ziemlich entmannend gewesen sein ?
+1	Und	und	_	KON	_	_	_	_	_	O
+2	bei	bei	_	APPR	_	_	_	_	_	B-PP
+3	E	E	_	NN	number=sg|case=dat|gender=*	_	_	_	_	I-PP
+4	einfach	einfach	_	ADV	_	_	_	_	_	B-ADVP
+5	den	der	_	ART	number=sg|case=acc|gender=masc	_	_	_	_	B-NP
+6	Hörer	Hörer	_	NN	number=sg|case=acc|gender=masc	7	obj	_	_	I-NP
+7	aufzulegen	auflegen	_	VVIZU	_	12	vsubj	_	_	O
+8	,	,	_	$,	_	_	_	_	_	O
+9	muss	müssen	_	VMFIN	number=sg|person=3|mood=ind|tense=pres	12	aux	_	_	O
+10	ziemlich	ziemlich	_	ADV	_	_	_	_	_	B-AP
+11	entmannend	entmannend	_	ADJD	degree=pos	12	pred	_	_	I-AP
+12	gewesen	sein	_	VAPP	_	_	_	_	_	O
+13	sein	sein	_	VAINF	_	12	aux	_	_	O
+14	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 44
+# sent_id(TSV) = 44
+# PTBstring = (VROOT(S(VP(VVFIN Fühlte))(NP(PRF sich))(SVP(PTKVZ an))(KOMMA ,)(S(KOUS wie)(VP(VP(PP(APPRART zum)(NN Direktor)(NE Reeve))(PP(APPRART ins)(NN Büro))(VVPP gerufen))(VZ(PTKZU zu)(VAINF werden)(PUNKT .))))))
+# text = Fühlte sich an , wie zum Direktor Reeve ins Büro gerufen zu werden .
+1	Fühlte	fühlen	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	O
+2	sich	sich	_	PRF	number=sg|person=3|case=acc	1	obj	_	_	B-NP
+3	an	an	_	PTKVZ	_	_	_	_	_	O
+4	,	,	_	$,	_	_	_	_	_	O
+5	wie	wie	_	KOUS	_	_	_	_	_	O
+6	zum	zu	_	APPRART	case=dat|gender=masc	_	_	_	_	B-PP
+7	Direktor	Direktor	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-PP
+8	Reeve	Reeve	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	I-PP
+9	ins	in	_	APPRART	case=acc|gender=neut	_	_	_	_	B-PP
+10	Büro	Büro	_	NN	number=sg|case=acc|gender=neut	_	_	_	_	I-PP
+11	gerufen	rufen	_	VVPP	_	_	_	_	_	O
+12	zu	zu	_	PTKZU	_	_	_	_	_	O
+13	werden	werden	_	VAINF	_	11	aux	_	_	O
+14	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 45
+# sent_id(TSV) = 45
+# PTBstring = (VROOT(S(AVP(ADV Genauso)(NP(KOKOM wie)(PPER er)(KOMMA ,)))(VP(VAFIN werde))(NP(PPER ich))(VP(PPER ihr)(VVINF sagen)(KOMMA ,)(S(PWAV wie)(NP(PPER es))(VP(VAFIN ist))(PUNKT .)))))
+# text = Genauso wie er , werde ich ihr sagen , wie es ist .
+1	Genauso	genauso	_	ADV	_	_	_	_	_	B-ADVP
+2	wie	wie	_	KOKOM	_	_	_	_	_	I-ADVP
+3	er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	_	_	_	_	I-ADVP
+4	,	,	_	$,	_	_	_	_	_	I-ADVP
+5	werde	werden	_	VAFIN	number=sg|person=1|mood=ind|tense=pres	8	aux	_	_	O
+6	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	8	subj	_	_	B-NP
+7	ihr	sie	_	PPER	number=sg|person=3|case=dat|gender=fem	8	iobj	_	_	B-NP
+8	sagen	sagen	_	VVINF	_	_	_	_	_	O
+9	,	,	_	$,	_	_	_	_	_	O
+10	wie	wie	_	PWAV	_	12	pred	_	_	O
+11	es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	12	subj	_	_	B-NP
+12	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	8	vobj	_	_	O
+13	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 46
+# sent_id(TSV) = 46
+# PTBstring = (VROOT(CS(S(VP(VVIMP Mach))(NP(PDS das))(S:OC(PTKANT bitte)(KOMMA ,)))(KON denn)(S(NP(PPER ich))(VP(VMFIN mag))(NP(PPER ihr))(AVP(PTKNEG nicht))(VP(PP(APPR aus)(ART dem)(NN Weg))(VVINF gehen)(PUNKT .)))))
+# text = Mach das bitte , denn ich mag ihr nicht aus dem Weg gehen .
+1	Mach	machen	_	VVIMP	number=sg	_	_	_	_	O
+2	das	der	_	PDS	number=sg|case=acc|gender=neut	1	obj	_	_	B-NP
+3	bitte	bitte	_	PTKANT	_	_	_	_	_	O
+4	,	,	_	$,	_	_	_	_	_	O
+5	denn	denn	_	KON	_	_	_	_	_	O
+6	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	13	subj	_	_	B-NP
+7	mag	mögen	_	VMFIN	number=sg|person=1|mood=ind|tense=pres	13	aux	_	_	O
+8	ihr	sie	_	PPER	number=sg|person=3|case=dat|gender=fem	13	iobj	_	_	B-NP
+9	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVP
+10	aus	aus	_	APPR	_	_	_	_	_	B-PP
+11	dem	der	_	ART	number=sg|case=dat|gender=masc	_	_	_	_	I-PP
+12	Weg	Weg	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	I-PP
+13	gehen	gehen	_	VVINF	_	_	_	_	_	O
+14	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 47
+# sent_id(TSV) = 47
+# PTBstring = (VROOT(S(PTKANT Nein)(KOMMA ,)(NP(NN nein))(PUNKT .)))
+# text = Nein , nein .
+1	Nein	nein	_	PTKANT	_	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	nein	nein	_	PTKANT	_	_	_	_	_	B-NP
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 48
+# sent_id(TSV) = 48
+# PTBstring = (VROOT(NP(PIAT Kein)(ADJA weiteres)(NN Ausweichen))(PUNKT .))
+# text = Kein weiteres Ausweichen .
+1	Kein	kein	_	PIAT	number=sg|case=nom|gender=neut	_	_	_	_	B-NP
+2	weiteres	weiterer	_	ADJA	number=sg|degree=pos|case=nom|gender=neut	_	_	_	_	I-NP
+3	Ausweichen	Ausweichen	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	I-NP
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 49
+# sent_id(TSV) = 49
+# PTBstring = (VROOT(S(NP(PPER Wir))(VP(VAFIN werden))(VP(PPER ihr)(VVINF sagen)(KOMMA ,)(S:OC(NP(PPER wir))(VP(VVFIN machen))(NP(PIAT keinen)(NN Film)(PP(APPR über)(PIS irgendwas)(KOMMA ,)))(S(KOUS bis)(NP(ART die)(NN Kameras))(AVP(ADV tatsächlich))(PP(APPR für)(KLAMMER ")(NE Medellin)(KLAMMER "))(VP(VVFIN anlaufen))(PUNKT .))))))
+# text = Wir werden ihr sagen , wir machen keinen Film über irgendwas , bis die Kameras tatsächlich für " Medellin " anlaufen .
+1	Wir	wir	_	PPER	number=pl|person=1|case=nom|gender=*	4	subj	_	_	B-NP
+2	werden	werden	_	VAFIN	number=pl|person=1|mood=ind|tense=pres	4	aux	_	_	O
+3	ihr	sie	_	PPER	number=sg|person=3|case=dat|gender=fem	4	iobj	_	_	B-NP
+4	sagen	sagen	_	VVINF	_	_	_	_	_	O
+5	,	,	_	$,	_	_	_	_	_	O
+6	wir	wir	_	PPER	number=pl|person=1|case=nom|gender=*	7	subj	_	_	B-NP
+7	machen	machen	_	VVFIN	number=pl|person=1|mood=ind|tense=pres	4	vobj	_	_	O
+8	keinen	kein	_	PIAT	number=sg|case=acc|gender=masc	_	_	_	_	B-NP
+9	Film	Film	_	NN	number=sg|case=acc|gender=masc	7	obj	_	_	I-NP
+10	über	über	_	APPR	_	11	pcase	_	_	I-NP
+11	irgendwas	irgendwas	_	PIS	number=*|case=*|gender=neut	9	pobj	_	_	I-NP
+12	,	,	_	$,	_	_	_	_	_	I-NP
+13	bis	bis	_	KOUS	_	_	_	_	_	O
+14	die	der	_	ART	number=pl|case=nom|gender=fem	_	_	_	_	B-NP
+15	Kameras	Kamera	_	NN	number=pl|case=nom|gender=fem	21	subj	_	_	I-NP
+16	tatsächlich	tatsächlich	_	ADV	_	_	_	_	_	B-ADVP
+17	für	für	_	APPR	_	_	_	_	_	B-PP
+18	"	"	_	$(	_	_	_	_	_	I-PP
+19	Medellin	Medellin	_	NE	number=sg|case=acc|gender=*	_	_	_	_	I-PP
+20	"	"	_	$(	_	_	_	_	_	I-PP
+21	anlaufen	anlaufen	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	O
+22	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 50
+# sent_id(TSV) = 50
+# PTBstring = (VROOT(CS(S(NP(PPER Sie))(VP(VAFIN wird))(VP(ADJD angepisst)(VAINF sein)(KOMMA ,)(S(KOUS wenn)(NP(PPER sie))(VP(VVFIN denkt))(KOMMA ,))))(S(NP(PPER du))(VP(VVFIN nimmst))(NP(NE Ari))(SVP(PTKVZ ernst))(PUNKT .))))
+# text = Sie wird angepisst sein , wenn sie denkt , du nimmst Ari ernst .
+1	Sie	sie	_	PPER	number=sg|person=3|case=nom|gender=fem	4	subj	_	_	B-NP
+2	wird	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	4	aux	_	_	O
+3	angepisst	angepisst	_	ADJD	degree=pos	4	pred	_	_	B-AP
+4	sein	sein	_	VAINF	_	_	_	_	_	O
+5	,	,	_	$,	_	_	_	_	_	O
+6	wenn	wenn	_	KOUS	_	_	_	_	_	O
+7	sie	sie	_	PPER	number=sg|person=3|case=nom|gender=fem	8	subj	_	_	B-NP
+8	denkt	denken	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	O
+9	,	,	_	$,	_	_	_	_	_	O
+10	du	du	_	PPER	number=sg|person=2|case=nom|gender=*	11	subj	_	_	B-NP
+11	nimmst	nehmen	_	VVFIN	number=sg|person=2|mood=ind|tense=pres	8	vobj	_	_	O
+12	Ari	Ari	_	NE	number=sg|case=acc|gender=*	11	obj	_	_	B-NP
+13	ernst	ernst	_	PTKVZ	_	_	_	_	_	O
+14	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 51
+# sent_id(TSV) = 51
+# PTBstring = (VROOT(S(NP(NN Anpassung))(PP(APPR von)(FM Movie))))
+# text = Anpassung von Movie
+1	Anpassung	Anpassung	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	B-NP
+2	von	von	_	APPR	_	_	_	_	_	B-PP
+3	Movie	Movie	_	FM	_	_	_	_	_	I-PP
+
+# sent_id = 52
+# sent_id(TSV) = 52
+# PTBstring = (VROOT(S(NP(PPER Er))(VP(VVFIN sieht))(NP(KOKOM wie)(NE Frankenstein))(SVP(PTKVZ aus)))(PUNKT .))
+# text = Er sieht wie Frankenstein aus .
+1	Er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	2	subj	_	_	B-NP
+2	sieht	sehen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	O
+3	wie	wie	_	KOKOM	_	_	_	_	_	B-NP
+4	Frankenstein	Frankenstein	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	I-NP
+5	aus	aus	_	PTKVZ	_	_	_	_	_	O
+6	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 53
+# sent_id(TSV) = 53
+# PTBstring = (VROOT(S(AVP(ADV Immerhin))(VP(VVFIN läuft))(NP(PPER er))(PP(APPR ohne)(NN Krücken)))(PUNKT .))
+# text = Immerhin läuft er ohne Krücken .
+1	Immerhin	immerhin	_	ADV	_	_	_	_	_	B-ADVP
+2	läuft	laufen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	O
+3	er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	2	subj	_	_	B-NP
+4	ohne	ohne	_	APPR	_	_	_	_	_	B-PP
+5	Krücken	Krücke	_	NN	number=pl|case=acc|gender=fem	_	_	_	_	I-PP
+6	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 54
+# sent_id(TSV) = 54
+# PTBstring = (VROOT(S(PTKANT Ja)(KOMMA ,)(NP(PPER ich))(VP(VVFIN dachte))(KOMMA ,)(S(NP(PPER er))(VP(VAFIN wäre))(AP(ADJD glücklicher))(PP(PAV darüber))(PUNKT .))))
+# text = Ja , ich dachte , er wäre glücklicher darüber .
+1	Ja	ja	_	PTKANT	_	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	4	subj	_	_	B-NP
+4	dachte	denken	_	VVFIN	number=sg|person=1|mood=ind|tense=past	_	_	_	_	O
+5	,	,	_	$,	_	_	_	_	_	O
+6	er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	7	subj	_	_	B-NP
+7	wäre	sein	_	VAFIN	number=sg|person=3|mood=subj|tense=past	4	vobj	_	_	O
+8	glücklicher	glücklich	_	ADJD	degree=comp	7	pred	_	_	B-AP
+9	darüber	darüber	_	PAV	_	8	pobj	_	_	B-PP
+10	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 55
+# sent_id(TSV) = 55
+# PTBstring = (VROOT(S(NP(PPER Ich))(VP(VAFIN bin))(AP(ADJD glücklicher))(PP(PAV darüber)))(PUNKT .))
+# text = Ich bin glücklicher darüber .
+1	Ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	2	subj	_	_	B-NP
+2	bin	sein	_	VAFIN	number=sg|person=1|mood=ind|tense=pres	_	_	_	_	O
+3	glücklicher	glücklich	_	ADJD	degree=comp	2	pred	_	_	B-AP
+4	darüber	darüber	_	PAV	_	3	pobj	_	_	B-PP
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 56
+# sent_id(TSV) = 56
+# PTBstring = (VROOT(S(PWAV Wie)(VP(VVFIN geht))(NP(PPER es))(NP(PPER dir)(KOMMA ,)(PN(NE Maggie))))(PUNKT ?))
+# text = Wie geht es dir , Maggie ?
+1	Wie	wie	_	PWAV	_	_	_	_	_	O
+2	geht	gehen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	O
+3	es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	2	expl	_	_	B-NP
+4	dir	du	_	PPER	number=sg|person=2|case=dat|gender=fem	2	iobj	_	_	B-NP
+5	,	,	_	$,	_	_	_	_	_	I-NP
+6	Maggie	Maggie	_	NE	number=sg|case=nom|gender=fem	_	_	_	_	I-NP
+7	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 57
+# sent_id(TSV) = 57
+# PTBstring = (VROOT(NP(ADJA Langer)(NN Tag))(PUNKT .))
+# text = Langer Tag .
+1	Langer	lang	_	ADJA	number=sg|degree=pos|case=nom|gender=masc	_	_	_	_	B-NP
+2	Tag	Tag	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	I-NP
+3	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 58
+# sent_id(TSV) = 58
+# PTBstring = (VROOT(S(VP(VVFIN Sieht))(AVP(ADV so))(SVP(PTKVZ aus))(KOMMA ,)(S:OC(KOUS als)(VP(VVFIN fängt))(NP(PPOSAT mein)(NN Tag))(AVP(ADV gerade))(SVP(PTKVZ an))(PUNKT .))))
+# text = Sieht so aus , als fängt mein Tag gerade an .
+1	Sieht	sehen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	O
+2	so	so	_	ADV	_	_	_	_	_	B-ADVP
+3	aus	aus	_	PTKVZ	_	_	_	_	_	O
+4	,	,	_	$,	_	_	_	_	_	O
+5	als	als	_	KOUS	_	_	_	_	_	O
+6	fängt	fangen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	O
+7	mein	mein	_	PPOSAT	number=sg|case=nom|gender=masc	_	_	_	_	B-NP
+8	Tag	Tag	_	NN	number=sg|case=nom|gender=masc	6	subj	_	_	I-NP
+9	gerade	gerade	_	ADV	_	_	_	_	_	B-ADVP
+10	an	an	_	PTKVZ	_	_	_	_	_	O
+11	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 59
+# sent_id(TSV) = 59
+# PTBstring = (VROOT(NE Hal)(PUNKT .))
+# text = Hal .
+1	Hal	Hal	_	NE	number=sg|case=nom|gender=*	_	_	_	_	B-NP
+2	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 60
+# sent_id(TSV) = 60
+# PTBstring = (VROOT(S(S(NP(PWS Was))(NP(PPER ich))(VP(VVFIN sage))(VP(VAFIN ist))(KOMMA ,)(VP(PP(APPR mit)(ART dem)(NN Militär))(VVPP ausgenommen)))(VP(VAFIN sind))(NP(PPER es))(AVP(ADV vielleicht))(NP(CARD vier)(NN Leute)(KOMMA ,)(S:RC(NP(PRELS die))(AVP(ADV genau))(VP(VVFIN wissen))(KOMMA ,)(S(KOUS wie)(NP(PDAT dieser)(NN Ort))(VP(VVFIN funktioniert))(PUNKT .))))))
+# text = Was ich sage ist , mit dem Militär ausgenommen sind es vielleicht vier Leute , die genau wissen , wie dieser Ort funktioniert .
+1	Was	was	_	PWS	number=sg|case=acc|gender=neut	3	obj	_	_	B-NP
+2	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	3	subj	_	_	B-NP
+3	sage	sagen	_	VVFIN	number=sg|person=1|mood=ind|tense=pres	_	_	_	_	O
+4	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	3	aux	_	_	O
+5	,	,	_	$,	_	_	_	_	_	O
+6	mit	mit	_	APPR	_	_	_	_	_	B-PP
+7	dem	der	_	ART	number=sg|case=dat|gender=neut	_	_	_	_	I-PP
+8	Militär	Militär	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	I-PP
+9	ausgenommen	ausnehmen	_	VVPP	_	_	_	_	_	O
+10	sind	sein	_	VAFIN	number=pl|person=3|mood=ind|tense=pres	3	vobj	_	_	O
+11	es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	10	pred	_	_	B-NP
+12	vielleicht	vielleicht	_	ADV	_	_	_	_	_	B-ADVP
+13	vier	vier	_	CARD	_	_	_	_	_	B-NP
+14	Leute	Leute	_	NN	number=pl|case=nom|gender=*	10	subj	_	_	I-NP
+15	,	,	_	$,	_	_	_	_	_	O
+16	die	der	_	PRELS	number=pl|case=nom|gender=*	18	subj	_	_	B-NP
+17	genau	genau	_	ADV	_	_	_	_	_	B-ADVP
+18	wissen	wissen	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	O
+19	,	,	_	$,	_	_	_	_	_	O
+20	wie	wie	_	KOUS	_	_	_	_	_	O
+21	dieser	dieser	_	PDAT	number=sg|case=nom|gender=masc	_	_	_	_	B-NP
+22	Ort	Ort	_	NN	number=sg|case=nom|gender=masc	23	subj	_	_	I-NP
+23	funktioniert	funktionieren	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	18	vobj	_	_	O
+24	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 61
+# sent_id(TSV) = 61
+# PTBstring = (VROOT(KLAMMER -)(NP(ART Die)(NN Vaginoplastie))(PUNKT .))
+# text = - Die Vaginoplastie .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	B-NP
+3	Vaginoplastie	Vaginoplastie	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	I-NP
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 62
+# sent_id(TSV) = 62
+# PTBstring = (VROOT(S(VP(VAFIN Wird))(NP(ART die)(NN Vaginoplastie))(VP(ADJD separat)(VVPP gemacht)))(PUNKT ?))
+# text = Wird die Vaginoplastie separat gemacht ?
+1	Wird	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	5	aux	_	_	O
+2	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	B-NP
+3	Vaginoplastie	Vaginoplastie	_	NN	number=sg|case=nom|gender=fem	5	subj	_	_	I-NP
+4	separat	separat	_	ADJD	degree=pos	_	_	_	_	B-AP
+5	gemacht	machen	_	VVPP	_	_	_	_	_	O
+6	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 63
+# sent_id(TSV) = 63
+# PTBstring = (VROOT(ADV Genau)(PUNKT .))
+# text = Genau .
+1	Genau	genau	_	ADV	_	_	_	_	_	B-ADVP
+2	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 64
+# sent_id(TSV) = 64
+# PTBstring = (VROOT(S(NP(PDS Das))(VP(VAFIN wird))(VP(ADJD einzeln)(VVPP gemacht)))(PUNKT .))
+# text = Das wird einzeln gemacht .
+1	Das	der	_	PDS	number=sg|case=nom|gender=neut	4	subj	_	_	B-NP
+2	wird	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	4	aux	_	_	O
+3	einzeln	einzeln	_	ADJD	degree=pos	_	_	_	_	B-AP
+4	gemacht	machen	_	VVPP	_	_	_	_	_	O
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 65
+# sent_id(TSV) = 65
+# PTBstring = (VROOT(S(NP(PPER Ich))(VP(VMFIN möchte))(AVP(PTKNEG nicht)(ADV mehr)(AP(KOKOM als)(ADJD nötig)))(VP(VP(PP(APPR unter)(NN Narkose))(VVPP gesetzt))(VAINF werden)(PUNKT .))))
+# text = Ich möchte nicht mehr als nötig unter Narkose gesetzt werden .
+1	Ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	9	subj	_	_	B-NP
+2	möchte	mögen	_	VMFIN	number=sg|person=1|mood=ind|tense=pres	9	aux	_	_	O
+3	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVP
+4	mehr	mehr	_	ADV	_	_	_	_	_	I-ADVP
+5	als	als	_	KOKOM	_	_	_	_	_	I-ADVP
+6	nötig	nötig	_	ADJD	degree=pos	_	_	_	_	I-ADVP
+7	unter	unter	_	APPR	_	_	_	_	_	B-PP
+8	Narkose	Narkose	_	NN	number=sg|case=acc|gender=fem	_	_	_	_	I-PP
+9	gesetzt	setzen	_	VVPP	_	_	_	_	_	O
+10	werden	werden	_	VAINF	_	9	aux	_	_	O
+11	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 66
+# sent_id(TSV) = 66
+# PTBstring = (VROOT(CS(S(NP(PPER Ich))(VP(VVFIN bekomme))(NP(ART eine)(NN Narkose)(KOMMA ,)))(KON und)(S(AVP(ADV dann))(AVP(ADV noch))(NP(PIS eine))(PUNKT ?))))
+# text = Ich bekomme eine Narkose , und dann noch eine ?
+1	Ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	2	subj	_	_	B-NP
+2	bekomme	bekommen	_	VVFIN	number=sg|person=1|mood=ind|tense=pres	_	_	_	_	O
+3	eine	ein	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	B-NP
+4	Narkose	Narkose	_	NN	number=sg|case=acc|gender=fem	2	obj	_	_	I-NP
+5	,	,	_	$,	_	_	_	_	_	I-NP
+6	und	und	_	KON	_	_	_	_	_	O
+7	dann	dann	_	ADV	_	_	_	_	_	B-ADVP
+8	noch	noch	_	ADV	_	_	_	_	_	B-ADVP
+9	eine	einer	_	PIS	number=sg|case=acc|gender=fem	_	_	_	_	B-NP
+10	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 67
+# sent_id(TSV) = 67
+# PTBstring = (VROOT(S(NP(PPER Es))(VP(VAFIN ist))(NP(ART ein)(ADJA schwerer)(NN Eingriff)(PP(APPR mit)(ART einer)(ADJA langen)(NN Rekonvaleszenz))))(PUNKT .))
+# text = Es ist ein schwerer Eingriff mit einer langen Rekonvaleszenz .
+1	Es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	2	pred	_	_	B-NP
+2	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	O
+3	ein	ein	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	B-NP
+4	schwerer	schwer	_	ADJA	number=sg|degree=pos|case=nom|gender=masc	_	_	_	_	I-NP
+5	Eingriff	Eingriff	_	NN	number=sg|case=nom|gender=masc	2	subj	_	_	I-NP
+6	mit	mit	_	APPR	_	_	_	_	_	I-NP
+7	einer	ein	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	I-NP
+8	langen	lang	_	ADJA	number=sg|degree=pos|case=dat|gender=fem	_	_	_	_	I-NP
+9	Rekonvaleszenz	Rekonvaleszenz	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	I-NP
+10	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 68
+# sent_id(TSV) = 68
+# PTBstring = (VROOT(S(PP(PAV Außerdem))(VP(VVFIN brauchen))(NP(PPER wir))(PP(PAV dafür))(NP(ART einen)(NN Spezialisten)))(PUNKT .))
+# text = Außerdem brauchen wir dafür einen Spezialisten .
+1	Außerdem	außerdem	_	PAV	_	_	_	_	_	B-PP
+2	brauchen	brauchen	_	VVFIN	number=pl|person=1|mood=ind|tense=pres	_	_	_	_	O
+3	wir	wir	_	PPER	number=pl|person=1|case=nom|gender=*	2	subj	_	_	B-NP
+4	dafür	dafür	_	PAV	_	_	_	_	_	B-PP
+5	einen	ein	_	ART	number=sg|case=acc|gender=masc	_	_	_	_	B-NP
+6	Spezialisten	Spezialist	_	NN	number=sg|case=acc|gender=masc	2	obj	_	_	I-NP
+7	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 69
+# sent_id(TSV) = 69
+# PTBstring = (VROOT(ADJD Aufregend)(PUNKT .))
+# text = Aufregend .
+1	Aufregend	aufregend	_	ADJD	degree=pos	_	_	_	_	B-AP
+2	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 70
+# sent_id(TSV) = 70
+# PTBstring = (VROOT(S(PTKANT Ja)(KOMMA ,)(NP(PDS das))(VP(VAFIN ist))(NP(PPER es))(PP(APPR in)(ART der)(NN Tat)))(PUNKT .))
+# text = Ja , das ist es in der Tat .
+1	Ja	ja	_	PTKANT	_	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	das	der	_	PDS	number=sg|case=nom|gender=neut	4	pred	_	_	B-NP
+4	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	O
+5	es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	4	subj	_	_	B-NP
+6	in	in	_	APPR	_	_	_	_	_	B-PP
+7	der	der	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	I-PP
+8	Tat	Tat	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	I-PP
+9	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 71
+# sent_id(TSV) = 71
+# PTBstring = (VROOT(KLAMMER -)(NP(NN Oh)(NN Gott)(PUNKT .)))
+# text = - Oh Gott .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Oh	oh	_	ITJ	_	_	_	_	_	B-NP
+3	Gott	Gott	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	I-NP
+4	.	.	_	$.	_	_	_	_	_	I-NP
+
+# sent_id = 72
+# sent_id(TSV) = 72
+# PTBstring = (VROOT(S(NP(PDS Das))(VP(VVFIN reicht))(KOMMA ,)(NP(NE Dad))(PUNKT !)))
+# text = Das reicht , Dad !
+1	Das	der	_	PDS	number=sg|case=nom|gender=neut	2	subj	_	_	B-NP
+2	reicht	reichen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	O
+3	,	,	_	$,	_	_	_	_	_	O
+4	Dad	Dad	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	B-NP
+5	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 73
+# sent_id(TSV) = 73
+# PTBstring = (VROOT(S(VP(VVFIN Weißt))(NP(PPER du))(KOMMA ,)(S:OC(PWAV wovon)(NP(PPER ich))(VP(VVFIN rede))(PUNKT ?))))
+# text = Weißt du , wovon ich rede ?
+1	Weißt	wissen	_	VVFIN	number=sg|person=2|mood=ind|tense=pres	_	_	_	_	O
+2	du	du	_	PPER	number=sg|person=2|case=nom|gender=*	1	subj	_	_	B-NP
+3	,	,	_	$,	_	_	_	_	_	O
+4	wovon	wovon	_	PWAV	_	6	pobj	_	_	O
+5	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	6	subj	_	_	B-NP
+6	rede	reden	_	VVFIN	number=sg|person=1|mood=ind|tense=pres	1	vobj	_	_	O
+7	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 74
+# sent_id(TSV) = 74
+# PTBstring = (VROOT(KLAMMER -)(S(VP(VVFIN Verstehst))(NP(PPER du))(NP(PPER mich)))(PUNKT ?))
+# text = - Verstehst du mich ?
+1	-	-	_	$(	_	_	_	_	_	O
+2	Verstehst	verstehen	_	VVFIN	number=sg|person=2|mood=ind|tense=pres	_	_	_	_	O
+3	du	du	_	PPER	number=sg|person=2|case=nom|gender=*	2	subj	_	_	B-NP
+4	mich	ich	_	PPER	number=sg|person=1|case=acc|gender=*	2	obj	_	_	B-NP
+5	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 75
+# sent_id(TSV) = 75
+# PTBstring = (VROOT(KLAMMER -)(NP(NE Dad)(KOMMA ,)(S:RC(NP(PDS das))(VP(VVFIN reicht))(PUNKT !))))
+# text = - Dad , das reicht !
+1	-	-	_	$(	_	_	_	_	_	O
+2	Dad	Dad	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	B-NP
+3	,	,	_	$,	_	_	_	_	_	I-NP
+4	das	der	_	PDS	number=sg|case=nom|gender=neut	5	subj	_	_	I-NP
+5	reicht	reichen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	I-NP
+6	!	!	_	$.	_	_	_	_	_	I-NP
+
+# sent_id = 76
+# sent_id(TSV) = 76
+# PTBstring = (VROOT(S(NP(PPER Ich))(VP(VVFIN gehe))(KOMMA ,)(AVP(ADV ok))(PUNKT .)))
+# text = Ich gehe , ok .
+1	Ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	2	subj	_	_	B-NP
+2	gehe	gehen	_	VVFIN	number=sg|person=1|mood=ind|tense=pres	_	_	_	_	O
+3	,	,	_	$,	_	_	_	_	_	O
+4	ok	ok	_	ADV	_	_	_	_	_	B-ADVP
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 77
+# sent_id(TSV) = 77
+# PTBstring = (VROOT(ADV Ok)(PUNKT .))
+# text = Ok .
+1	Ok	ok	_	ADV	_	_	_	_	_	B-ADVP
+2	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 78
+# sent_id(TSV) = 78
+# PTBstring = (VROOT(ADJD Gut)(PUNKT .))
+# text = Gut .
+1	Gut	gut	_	ADJD	degree=pos	_	_	_	_	B-AP
+2	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 79
+# sent_id(TSV) = 79
+# PTBstring = (VROOT(AP(ADJD Warte)(KLAMMER ...)))
+# text = Warte ...
+1	Warte	warten	_	VVIMP	number=sg	_	_	_	_	O
+2	...	...	_	$.	_	_	_	_	_	O
+
+# sent_id = 80
+# sent_id(TSV) = 80
+# PTBstring = (VROOT(S(PTKANT Ja)(KOMMA ,)(NP(ART die)(NN DVD)(PUNKT .))))
+# text = Ja , die DVD .
+1	Ja	ja	_	PTKANT	_	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	B-NP
+4	DVD	DVD	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	I-NP
+5	.	.	_	$.	_	_	_	_	_	I-NP
+
+# sent_id = 81
+# sent_id(TSV) = 81
+# PTBstring = (VROOT(S(AVP(ADV Okay))(KOMMA ,)(NP(PPER ich))(VP(VVFIN sehe))(AVP(ADV mal))(SVP(PTKVZ nach))(KOMMA ,)(S:OC(KOUS ob)(NP(PPER wir))(AVP(ADV noch))(NP(ADJA gefrorene)(NN Soja-Pizza))(VP(VAFIN haben))(PUNKT .))))
+# text = Okay , ich sehe mal nach , ob wir noch gefrorene Soja-Pizza haben .
+1	Okay	okay	_	ADV	_	_	_	_	_	B-ADVP
+2	,	,	_	$,	_	_	_	_	_	O
+3	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	4	subj	_	_	B-NP
+4	sehe	sehen	_	VVFIN	number=sg|person=1|mood=ind|tense=pres	_	_	_	_	O
+5	mal	mal	_	ADV	_	_	_	_	_	B-ADVP
+6	nach	nach	_	PTKVZ	_	_	_	_	_	O
+7	,	,	_	$,	_	_	_	_	_	O
+8	ob	ob	_	KOUS	_	_	_	_	_	O
+9	wir	wir	_	PPER	number=pl|person=1|case=nom|gender=*	13	subj	_	_	B-NP
+10	noch	noch	_	ADV	_	_	_	_	_	B-ADVP
+11	gefrorene	gefroren	_	ADJA	number=sg|degree=pos|case=acc|gender=fem	_	_	_	_	B-NP
+12	Soja-Pizza	Soja-Pizza	_	NN	number=sg|case=acc|gender=fem	13	obj	_	_	I-NP
+13	haben	haben	_	VAFIN	number=pl|person=1|mood=ind|tense=pres	_	_	_	_	O
+14	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 82
+# sent_id(TSV) = 82
+# PTBstring = (VROOT(NN Ausweise)(PUNKT .))
+# text = Ausweise .
+1	Ausweise	Ausweis	_	NN	number=pl|case=acc|gender=masc	_	_	_	_	B-NP
+2	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 83
+# sent_id(TSV) = 83
+# PTBstring = (VROOT(KLAMMER -)(NN Hi)(PUNKT .))
+# text = - Hi .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Hi	hi	_	ITJ	_	_	_	_	_	O
+3	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 84
+# sent_id(TSV) = 84
+# PTBstring = (VROOT(S(AVP(ADV Echt))(AVP(ADV jetzt))(PUNKT ?)))
+# text = Echt jetzt ?
+1	Echt	echt	_	ADV	_	_	_	_	_	B-ADVP
+2	jetzt	jetzt	_	ADV	_	_	_	_	_	B-ADVP
+3	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 85
+# sent_id(TSV) = 85
+# PTBstring = (VROOT(S(PTKANT Ja)(KOMMA ,)(NP(NE Baby)(KOMMA ,)(S:OC(NP(PIS man))(VP(VMFIN kann))(VP(NP(PPOSAT euer)(NN Alter))(AVP(ADV kaum)(ADV noch))(VVINF schätzen)(KOMMA ,))))(VP(VVFIN wisst))(NP(PPER ihr)))(PUNKT .))
+# text = Ja , Baby , man kann euer Alter kaum noch schätzen , wisst ihr .
+1	Ja	ja	_	PTKANT	_	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	Baby	Baby	_	NE	number=sg|case=nom|gender=neut	_	_	_	_	B-NP
+4	,	,	_	$,	_	_	_	_	_	I-NP
+5	man	man	_	PIS	number=sg|case=nom|gender=*	11	subj	_	_	I-NP
+6	kann	können	_	VMFIN	number=sg|person=3|mood=ind|tense=pres	11	aux	_	_	I-NP
+7	euer	euer	_	PPOSAT	number=sg|case=acc|gender=neut	_	_	_	_	I-NP
+8	Alter	Alter	_	NN	number=sg|case=acc|gender=neut	11	obj	_	_	I-NP
+9	kaum	kaum	_	ADV	_	_	_	_	_	I-NP
+10	noch	noch	_	ADV	_	_	_	_	_	I-NP
+11	schätzen	schätzen	_	VVINF	_	13	vobj	_	_	I-NP
+12	,	,	_	$,	_	_	_	_	_	I-NP
+13	wisst	wissen	_	VVFIN	number=pl|person=2|mood=ind|tense=pres	_	_	_	_	O
+14	ihr	ihr	_	PPER	number=pl|person=2|case=nom|gender=*	13	subj	_	_	B-NP
+15	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 86
+# sent_id(TSV) = 86
+# PTBstring = (VROOT(S(PTKANT Ja)(KOMMA ,)(S(VP(VVFIN bitte))(PUNKT .))))
+# text = Ja , bitte .
+1	Ja	ja	_	PTKANT	_	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	bitte	bitte	_	PTKANT	_	_	_	_	_	O
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 87
+# sent_id(TSV) = 87
+# PTBstring = (VROOT(KLAMMER -)(S(NP(ART Der)(NN Abend))(VP(VVFIN gefällt))(NP(PPER mir))(AVP(ADV jetzt)(ADV schon))(PUNKT .)))
+# text = - Der Abend gefällt mir jetzt schon .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Der	der	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	B-NP
+3	Abend	Abend	_	NN	number=sg|case=nom|gender=masc	4	subj	_	_	I-NP
+4	gefällt	gefallen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	O
+5	mir	ich	_	PPER	number=sg|person=1|case=dat|gender=*	4	iobj	_	_	B-NP
+6	jetzt	jetzt	_	ADV	_	_	_	_	_	B-ADVP
+7	schon	schon	_	ADV	_	_	_	_	_	I-ADVP
+8	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 88
+# sent_id(TSV) = 88
+# PTBstring = (VROOT(NE Rachel)(PUNKT ?))
+# text = Rachel ?
+1	Rachel	Rachel	_	NE	number=sg|case=nom|gender=fem	_	_	_	_	B-NP
+2	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 89
+# sent_id(TSV) = 89
+# PTBstring = (VROOT(KLAMMER -)(S(PTKANT Ja)(KOMMA ,)(NP(PDS das))(VP(VAFIN bin))(NP(PPER ich))(PUNKT .)))
+# text = - Ja , das bin ich .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Ja	ja	_	PTKANT	_	_	_	_	_	O
+3	,	,	_	$,	_	_	_	_	_	O
+4	das	der	_	PDS	number=sg|case=nom|gender=neut	5	pred	_	_	B-NP
+5	bin	sein	_	VAFIN	number=sg|person=1|mood=ind|tense=pres	_	_	_	_	O
+6	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	5	subj	_	_	B-NP
+7	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 90
+# sent_id(TSV) = 90
+# PTBstring = (VROOT(KLAMMER -)(NP(PIAT Vielen)(NN Dank))(PUNKT .))
+# text = - Vielen Dank .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Vielen	vieler	_	PIAT	number=sg|case=acc|gender=masc	_	_	_	_	B-NP
+3	Dank	Dank	_	NN	number=sg|case=acc|gender=masc	_	_	_	_	I-NP
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 91
+# sent_id(TSV) = 91
+# PTBstring = (VROOT(S(NP(PPER Es))(VP(VVFIN gefällt))(NP(PPER mir))(AP(ADV viel)(ADJD besser)(KOMMA ,)(S(KOUS wenn)(NP(PPER wir))(NP(ART einer)(NN Meinung))(VP(VAFIN sind))(PUNKT .)))))
+# text = Es gefällt mir viel besser , wenn wir einer Meinung sind .
+1	Es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	2	expl	_	_	B-NP
+2	gefällt	gefallen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	O
+3	mir	ich	_	PPER	number=sg|person=1|case=dat|gender=*	2	iobj	_	_	B-NP
+4	viel	viel	_	ADV	_	_	_	_	_	B-AP
+5	besser	gut	_	ADJD	degree=comp	_	_	_	_	I-AP
+6	,	,	_	$,	_	_	_	_	_	O
+7	wenn	wenn	_	KOUS	_	_	_	_	_	O
+8	wir	wir	_	PPER	number=pl|person=1|case=nom|gender=*	11	subj	_	_	B-NP
+9	einer	ein	_	ART	number=sg|case=gen|gender=fem	_	_	_	_	B-NP
+10	Meinung	Meinung	_	NN	number=sg|case=gen|gender=fem	11	pred	_	_	I-NP
+11	sind	sein	_	VAFIN	number=pl|person=1|mood=ind|tense=pres	2	vsubj	_	_	O
+12	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 92
+# sent_id(TSV) = 92
+# PTBstring = (VROOT(S(NP(PPER Ihnen))(AVP(PTKNEG nicht))(PUNKT ?)))
+# text = Ihnen nicht ?
+1	Ihnen	Sie	_	PPER	number=sg|person=3|case=dat|gender=*	_	_	_	_	B-NP
+2	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVP
+3	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 93
+# sent_id(TSV) = 93
+# PTBstring = (VROOT(NP(ART Der)(NN Text)(NP(ART des)(PN(NE Kosst)(NE Amojan)(KOMMA ,))(S(KOUS wie)(NP(PPER Sie))(VP(VVFIN wünschten))(PUNKT .)))))
+# text = Der Text des Kosst Amojan , wie Sie wünschten .
+1	Der	der	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	B-NP
+2	Text	Text	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	I-NP
+3	des	der	_	ART	number=sg|case=gen|gender=masc	_	_	_	_	I-NP
+4	Kosst	Kosst	_	NE	number=sg|case=gen|gender=masc	_	_	_	_	I-NP
+5	Amojan	Amojan	_	NE	number=sg|case=gen|gender=masc	_	_	_	_	I-NP
+6	,	,	_	$,	_	_	_	_	_	I-NP
+7	wie	wie	_	KOUS	_	_	_	_	_	I-NP
+8	Sie	Sie	_	PPER	number=sg|person=3|case=nom|gender=*	9	subj	_	_	I-NP
+9	wünschten	wünschen	_	VVFIN	number=pl|person=3|mood=ind|tense=past	_	_	_	_	I-NP
+10	.	.	_	$.	_	_	_	_	_	I-NP
+
+# sent_id = 94
+# sent_id(TSV) = 94
+# PTBstring = (VROOT(AP(ADV Sehr)(ADJD gut))(PUNKT .))
+# text = Sehr gut .
+1	Sehr	sehr	_	ADV	_	_	_	_	_	B-AP
+2	gut	gut	_	ADJD	degree=pos	_	_	_	_	I-AP
+3	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 95
+# sent_id(TSV) = 95
+# PTBstring = (VROOT(AVP(ADV Also)(PUNKT ?)))
+# text = Also ?
+1	Also	also	_	ADV	_	_	_	_	_	B-ADVP
+2	?	?	_	$.	_	_	_	_	_	I-ADVP
+
+# sent_id = 96
+# sent_id(TSV) = 96
+# PTBstring = (VROOT(S(VP(VVIMP Legen))(NP(PPER Sie))(NP(PPER ihn))(PP(APPR auf)(PPOSAT meinen)(NN Schreibtisch)))(PUNKT .))
+# text = Legen Sie ihn auf meinen Schreibtisch .
+1	Legen	legen	_	VVIMP	number=pl	_	_	_	_	O
+2	Sie	Sie	_	PPER	number=sg|person=3|case=nom|gender=*	1	subj	_	_	B-NP
+3	ihn	er	_	PPER	number=sg|person=3|case=acc|gender=masc	1	obj	_	_	B-NP
+4	auf	auf	_	APPR	_	_	_	_	_	B-PP
+5	meinen	mein	_	PPOSAT	number=sg|case=acc|gender=masc	_	_	_	_	I-PP
+6	Schreibtisch	Schreibtisch	_	NN	number=sg|case=acc|gender=masc	_	_	_	_	I-PP
+7	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 97
+# sent_id(TSV) = 97
+# PTBstring = (VROOT(KLAMMER -)(NP(NN Eminenz)(KOMMA ,)(S:OC(VP(VMFIN darf))(NP(PPER ich))(VP(ADJD offen)(VVINF sprechen)(PUNKT ?)))))
+# text = - Eminenz , darf ich offen sprechen ?
+1	-	-	_	$(	_	_	_	_	_	O
+2	Eminenz	Eminenz	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	B-NP
+3	,	,	_	$,	_	_	_	_	_	I-NP
+4	darf	dürfen	_	VMFIN	number=sg|person=1|mood=ind|tense=pres	7	aux	_	_	I-NP
+5	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=*	7	subj	_	_	I-NP
+6	offen	offen	_	ADJD	degree=pos	_	_	_	_	I-NP
+7	sprechen	sprechen	_	VVINF	_	_	_	_	_	I-NP
+8	?	?	_	$.	_	_	_	_	_	I-NP
+
+# sent_id = 98
+# sent_id(TSV) = 98
+# PTBstring = (VROOT(KLAMMER -)(S(KOUS Wenn)(NP(PPER es))(VP(VAINF sein))(VP(VMFIN muss))(PUNKT .)))
+# text = - Wenn es sein muss .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Wenn	wenn	_	KOUS	_	_	_	_	_	O
+3	es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	4	subj	_	_	B-NP
+4	sein	sein	_	VAINF	_	_	_	_	_	O
+5	muss	müssen	_	VMFIN	number=sg|person=3|mood=ind|tense=pres	4	aux	_	_	O
+6	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 99
+# sent_id(TSV) = 99
+# PTBstring = (VROOT(S(NP(PDAT Dieses)(NN Buch))(VP(VAFIN wurde))(VP(PP(APPR seit)(CARD 700)(NN Jahren))(PP(AVP(PTKNEG nicht)(ADV mehr))(APPR aus)(ART den)(NN Archiven))(VVPP geholt)))(PUNKT .))
+# text = Dieses Buch wurde seit 700 Jahren nicht mehr aus den Archiven geholt .
+1	Dieses	dieser	_	PDAT	number=sg|case=nom|gender=neut	_	_	_	_	B-NP
+2	Buch	Buch	_	NN	number=sg|case=nom|gender=neut	12	subj	_	_	I-NP
+3	wurde	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=past	12	aux	_	_	O
+4	seit	seit	_	APPR	_	_	_	_	_	B-PP
+5	700	700	_	CARD	_	_	_	_	_	I-PP
+6	Jahren	Jahr	_	NN	number=pl|case=dat|gender=neut	_	_	_	_	I-PP
+7	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-PP
+8	mehr	mehr	_	ADV	_	_	_	_	_	I-PP
+9	aus	aus	_	APPR	_	_	_	_	_	I-PP
+10	den	der	_	ART	number=pl|case=dat|gender=neut	_	_	_	_	I-PP
+11	Archiven	Archiv	_	NN	number=pl|case=dat|gender=neut	_	_	_	_	I-PP
+12	geholt	holen	_	VVPP	_	_	_	_	_	O
+13	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 100
+# sent_id(TSV) = 100
+# PTBstring = (VROOT(S(NP(PWS Was))(VP(VMFIN wollen))(NP(PPER Sie))(PP(PAV damit))(VP(VVINF sagen)(PUNKT ?))))
+# text = Was wollen Sie damit sagen ?
+1	Was	was	_	PWS	number=sg|case=acc|gender=neut	5	obj	_	_	B-NP
+2	wollen	wollen	_	VMFIN	number=pl|person=3|mood=ind|tense=pres	5	aux	_	_	O
+3	Sie	Sie	_	PPER	number=sg|person=3|case=nom|gender=*	5	subj	_	_	B-NP
+4	damit	damit	_	PAV	_	5	pobj	_	_	B-PP
+5	sagen	sagen	_	VVINF	_	_	_	_	_	O
+6	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 101
+# sent_id(TSV) = 101
+# PTBstring = (VROOT(CS(S(NP(PPER Er))(VP(VAFIN hat))(VP(PPER dich)(VVPP gebraucht)(KOMMA ,)))(KON und)(S(NP(PPER du))(VP(VAFIN hast))(VP(PPER ihn)(PP(APPRART im)(NN Stich))(VVPP gelassen)(PUNKT .)))))
+# text = Er hat dich gebraucht , und du hast ihn im Stich gelassen .
+1	Er	er	_	PPER	person=3|case=nom|gender=masc|number=sg	4	subj	_	_	B-NP
+2	hat	haben	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	4	aux	_	_	O
+3	dich	du	_	PPER	person=2|case=acc|gender=*|number=sg	4	obj	_	_	B-NP
+4	gebraucht	brauchen	_	VVPP	_	_	_	_	_	O
+5	,	,	_	$,	_	_	_	_	_	O
+6	und	und	_	KON	_	_	_	_	_	O
+7	du	du	_	PPER	person=2|case=nom|gender=*|number=sg	12	subj	_	_	B-NP
+8	hast	haben	_	VAFIN	person=2|tense=pres|number=sg|mood=ind	12	aux	_	_	O
+9	ihn	er	_	PPER	person=3|case=acc|gender=masc|number=sg	12	obj	_	_	B-NP
+10	im	in	_	APPRART	gender=masc|case=dat	_	_	_	_	B-PP
+11	Stich	Stich	_	NN	case=dat|gender=masc|number=sg	_	_	_	_	I-PP
+12	gelassen	lassen	_	VVPP	_	_	_	_	_	O
+13	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 102
+# sent_id(TSV) = 102
+# PTBstring = (VROOT(KLAMMER -)(S(NP(NE Mom)(KOMMA ,)(NE Dad)(KOMMA ,))(VP(VVIMP helft))(NP(PPER mir)))(PUNKT !))
+# text = - Mom , Dad , helft mir !
+1	-	-	_	$(	_	_	_	_	_	O
+2	Mom	Mom	_	NE	case=nom|gender=fem|number=sg	_	_	_	_	B-NP
+3	,	,	_	$,	_	_	_	_	_	I-NP
+4	Dad	Dad	_	NE	case=nom|gender=masc|number=sg	_	_	_	_	I-NP
+5	,	,	_	$,	_	_	_	_	_	I-NP
+6	helft	helfen	_	VVIMP	number=pl	_	_	_	_	O
+7	mir	ich	_	PPER	person=1|case=dat|gender=*|number=sg	6	iobj	_	_	B-NP
+8	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 103
+# sent_id(TSV) = 103
+# PTBstring = (VROOT(KLAMMER -)(NN Schatz)(PUNKT .))
+# text = - Schatz .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Schatz	Schatz	_	NN	case=nom|gender=masc|number=sg	_	_	_	_	B-NP
+3	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 104
+# sent_id(TSV) = 104
+# PTBstring = (VROOT(S(NP(NE Eddie))(VP(VMFIN wollte))(VP(NP(ART den)(NN Brand))(PP(APPR in)(PRF sich))(VVINF löschen)(KOMMA ,)(S(KOUS indem)(NP(PPER er))(PP(APPR in)(ART den)(NN Fluss))(VP(VVFIN sprang))(PUNKT .)))))
+# text = Eddie wollte den Brand in sich löschen , indem er in den Fluss sprang .
+1	Eddie	Eddie	_	NE	case=nom|gender=masc|number=sg	7	subj	_	_	B-NP
+2	wollte	wollen	_	VMFIN	person=3|tense=past|number=sg|mood=ind	7	aux	_	_	O
+3	den	der	_	ART	case=acc|gender=masc|number=sg	_	_	_	_	B-NP
+4	Brand	Brand	_	NN	case=acc|gender=masc|number=sg	7	obj	_	_	I-NP
+5	in	in	_	APPR	_	_	_	_	_	B-PP
+6	sich	sich	_	PRF	person=3|case=dat|number=sg	_	_	_	_	I-PP
+7	löschen	löschen	_	VVINF	_	_	_	_	_	O
+8	,	,	_	$,	_	_	_	_	_	O
+9	indem	indem	_	KOUS	_	_	_	_	_	O
+10	er	er	_	PPER	person=3|case=nom|gender=masc|number=sg	14	subj	_	_	B-NP
+11	in	in	_	APPR	_	_	_	_	_	B-PP
+12	den	der	_	ART	case=acc|gender=masc|number=sg	_	_	_	_	I-PP
+13	Fluss	Fluss	_	NN	case=acc|gender=masc|number=sg	_	_	_	_	I-PP
+14	sprang	springen	_	VVFIN	person=3|tense=past|number=sg|mood=ind	_	_	_	_	O
+15	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 105
+# sent_id(TSV) = 105
+# PTBstring = (VROOT(S(VP(VVFIN Siehst))(NP(PPER du))(PUNKT ?)))
+# text = Siehst du ?
+1	Siehst	sehen	_	VVFIN	person=2|tense=pres|number=sg|mood=ind	_	_	_	_	O
+2	du	du	_	PPER	person=2|case=nom|gender=*|number=sg	1	subj	_	_	B-NP
+3	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 106
+# sent_id(TSV) = 106
+# PTBstring = (VROOT(S(NP(PPER Es))(VP(VAFIN ist))(NP(ART das)(NN Beste)(KOMMA ,))(S(KOUS wenn)(NP(PPER wir))(NP(PPER uns))(PP(APPR in)(PDAT diesen)(NN Dingen))(AVP(PTKNEG nicht))(VP(VVFIN einmischen))(PUNKT .))))
+# text = Es ist das Beste , wenn wir uns in diesen Dingen nicht einmischen .
+1	Es	es	_	PPER	person=3|case=nom|gender=neut|number=sg	2	expl	_	_	B-NP
+2	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	O
+3	das	der	_	ART	case=nom|gender=neut|number=sg	_	_	_	_	B-NP
+4	Beste	Beste	_	NN	case=nom|gender=neut|number=sg	2	pred	_	_	I-NP
+5	,	,	_	$,	_	_	_	_	_	I-NP
+6	wenn	wenn	_	KOUS	_	_	_	_	_	O
+7	wir	wir	_	PPER	person=1|case=nom|gender=*|number=pl	13	subj	_	_	B-NP
+8	uns	wir	_	PPER	person=1|case=acc|gender=*|number=pl	13	obj	_	_	B-NP
+9	in	in	_	APPR	_	_	_	_	_	B-PP
+10	diesen	dieser	_	PDAT	case=acc|gender=neut|number=pl	_	_	_	_	I-PP
+11	Dingen	Ding	_	NN	case=acc|gender=neut|number=pl	_	_	_	_	I-PP
+12	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVP
+13	einmischen	einmischen	_	VVFIN	person=1|tense=pres|number=pl|mood=ind	2	vsubj	_	_	O
+14	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 107
+# sent_id(TSV) = 107
+# PTBstring = (VROOT(S(KON Aber)(NP(PPER er))(VP(VMFIN kann))(VP(PTKNEG nicht)(VVINF schwimmen)))(PUNKT .))
+# text = Aber er kann nicht schwimmen .
+1	Aber	aber	_	KON	_	_	_	_	_	O
+2	er	er	_	PPER	person=3|case=nom|gender=masc|number=sg	5	subj	_	_	B-NP
+3	kann	können	_	VMFIN	person=3|tense=pres|number=sg|mood=ind	5	aux	_	_	O
+4	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVP
+5	schwimmen	schwimmen	_	VVINF	_	_	_	_	_	O
+6	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 108
+# sent_id(TSV) = 108
+# PTBstring = (VROOT(S(NP(PPER Du))(VP(VAFIN hast))(NP(PPER es))(VP(PPER ihm)(ADV nie)(VVPP beigebracht)(PUNKT .))))
+# text = Du hast es ihm nie beigebracht .
+1	Du	du	_	PPER	person=2|case=nom|gender=*|number=sg	6	subj	_	_	B-NP
+2	hast	haben	_	VAFIN	person=2|tense=pres|number=sg|mood=ind	6	aux	_	_	O
+3	es	es	_	PPER	person=3|case=acc|gender=neut|number=sg	6	obj	_	_	B-NP
+4	ihm	er	_	PPER	person=3|case=dat|gender=masc|number=sg	6	iobj	_	_	B-NP
+5	nie	nie	_	ADV	_	_	_	_	_	B-ADVP
+6	beigebracht	beibringen	_	VVPP	_	_	_	_	_	O
+7	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 109
+# sent_id(TSV) = 109
+# PTBstring = (VROOT(S(VP(VVIMP Lass))(NP(PPER ihn))(NP(PDS das))(VP(VVINF lernen)(KOMMA ,)(S(KOUS wie)(NP(PPER ich))(NP(PPER es))(VP(VVFIN tat))(PUNKT :)(PP(APPR auf)(ART der)(NN Straße)(PUNKT .))))))
+# text = Lass ihn das lernen , wie ich es tat : auf der Straße .
+1	Lass	lassen	_	VVIMP	number=sg	_	_	_	_	O
+2	ihn	er	_	PPER	person=3|case=acc|gender=masc|number=sg	1	obj	_	_	B-NP
+3	das	der	_	PDS	case=acc|gender=neut|number=sg	4	obj	_	_	B-NP
+4	lernen	lernen	_	VVINF	_	1	vobj	_	_	O
+5	,	,	_	$,	_	_	_	_	_	O
+6	wie	wie	_	KOUS	_	_	_	_	_	O
+7	ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	9	subj	_	_	B-NP
+8	es	es	_	PPER	person=3|case=acc|gender=neut|number=sg	9	obj	_	_	B-NP
+9	tat	tun	_	VVFIN	person=1|tense=past|number=sg|mood=ind	_	_	_	_	O
+10	:	:	_	$.	_	_	_	_	_	O
+11	auf	auf	_	APPR	_	_	_	_	_	B-PP
+12	der	der	_	ART	case=dat|gender=fem|number=sg	_	_	_	_	I-PP
+13	Straße	Straße	_	NN	case=dat|gender=fem|number=sg	_	_	_	_	I-PP
+14	.	.	_	$.	_	_	_	_	_	I-PP
+
+# sent_id = 110
+# sent_id(TSV) = 110
+# PTBstring = (VROOT(S(NP(ADJA Nächste)(NN Woche))(PP(APPR bei)(AP(ADV Völlig)(ADJA ineffektiver))(NN Dad))(NP(ART die)(ADJA urkomische)(NN Beerdigungsfolge)))(PUNKT .))
+# text = Nächste Woche bei Völlig ineffektiver Dad die urkomische Beerdigungsfolge .
+1	Nächste	nächster	_	ADJA	degree=pos|case=nom|number=sg|gender=fem	_	_	_	_	B-NP
+2	Woche	Woche	_	NN	case=nom|gender=fem|number=sg	_	_	_	_	I-NP
+3	bei	bei	_	APPR	_	_	_	_	_	B-PP
+4	Völlig	völlig	_	ADV	_	_	_	_	_	I-PP
+5	ineffektiver	ineffektiv	_	ADJA	degree=pos|case=nom|number=sg|gender=masc	_	_	_	_	I-PP
+6	Dad	Dad	_	NN	case=nom|gender=masc|number=sg	_	_	_	_	I-PP
+7	die	der	_	ART	case=nom|gender=fem|number=sg	_	_	_	_	B-NP
+8	urkomische	urkomisch	_	ADJA	degree=pos|case=nom|number=sg|gender=fem	_	_	_	_	I-NP
+9	Beerdigungsfolge	Beerdigungsfolge	_	NN	case=nom|gender=fem|number=sg	_	_	_	_	I-NP
+10	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 111
+# sent_id(TSV) = 111
+# PTBstring = (VROOT(S(NP(PPER Ich))(VP(VVFIN finde))(KOMMA ,)(S:OC(NP(PIS man))(VP(VMFIN kann))(PP(APPR über)(AP(ADV so)(ADJA persönliche))(NN Dinge))(VP(ADV nur)(VVINF sprechen)(KOMMA ,)(S(KOUS wenn)(NP(ART der)(PIS andere))(NP(ART das)(NN Verständnis))(VP(VAFIN hat))(PUNKT .))))))
+# text = Ich finde , man kann über so persönliche Dinge nur sprechen , wenn der andere das Verständnis hat .
+1	Ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	2	subj	_	_	B-NP
+2	finde	finden	_	VVFIN	person=1|tense=pres|number=sg|mood=ind	_	_	_	_	O
+3	,	,	_	$,	_	_	_	_	_	O
+4	man	man	_	PIS	case=nom|gender=*|number=sg	11	subj	_	_	B-NP
+5	kann	können	_	VMFIN	person=3|tense=pres|number=sg|mood=ind	11	aux	_	_	O
+6	über	über	_	APPR	_	9	pcase	_	_	B-PP
+7	so	so	_	ADV	_	_	_	_	_	I-PP
+8	persönliche	persönlich	_	ADJA	degree=pos|case=acc|number=pl|gender=neut	_	_	_	_	I-PP
+9	Dinge	Ding	_	NN	case=acc|gender=neut|number=pl	11	pobj	_	_	I-PP
+10	nur	nur	_	ADV	_	_	_	_	_	B-ADVP
+11	sprechen	sprechen	_	VVINF	_	2	vobj	_	_	O
+12	,	,	_	$,	_	_	_	_	_	O
+13	wenn	wenn	_	KOUS	_	_	_	_	_	O
+14	der	der	_	ART	case=nom|gender=masc|number=sg	_	_	_	_	B-NP
+15	andere	anderer	_	PIS	case=nom|gender=masc|number=sg	18	subj	_	_	I-NP
+16	das	der	_	ART	case=acc|gender=neut|number=sg	_	_	_	_	B-NP
+17	Verständnis	Verständnis	_	NN	case=acc|gender=neut|number=sg	18	obj	_	_	I-NP
+18	hat	haben	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	O
+19	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 112
+# sent_id(TSV) = 112
+# PTBstring = (VROOT(CS(S(PP(PAV Deshalb))(VP(VVFIN schäme))(NP(PPER ich))(NP(PRF mich))(AVP(ADV überhaupt))(AVP(PTKNEG nicht))(KOMMA ,)(VP(PPER Ihnen)(VZ(PTKZU zu)(VVINF sagen)(PUNKT :))))(S(PP(APPR Ohne)(NE Babs))(VP(VAFIN wäre))(NP(PPER ich))(AP(ADJD verloren))(PUNKT .))))
+# text = Deshalb schäme ich mich überhaupt nicht , Ihnen zu sagen : Ohne Babs wäre ich verloren .
+1	Deshalb	deshalb	_	PAV	_	_	_	_	_	B-PP
+2	schäme	schämen	_	VVFIN	person=1|tense=pres|number=sg|mood=ind	_	_	_	_	O
+3	ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	2	subj	_	_	B-NP
+4	mich	ich	_	PRF	person=1|case=acc|number=sg	2	obj	_	_	B-NP
+5	überhaupt	überhaupt	_	ADV	_	_	_	_	_	B-ADVP
+6	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVP
+7	,	,	_	$,	_	_	_	_	_	O
+8	Ihnen	Sie	_	PPER	person=3|case=dat|gender=*|number=*	10	iobj	_	_	B-NP
+9	zu	zu	_	PTKZU	_	_	_	_	_	O
+10	sagen	sagen	_	VVINF	_	_	_	_	_	O
+11	:	:	_	$.	_	_	_	_	_	O
+12	Ohne	ohne	_	APPR	_	_	_	_	_	B-PP
+13	Babs	Babs	_	NE	case=acc|gender=fem|number=sg	_	_	_	_	I-PP
+14	wäre	sein	_	VAFIN	person=1|tense=past|number=sg|mood=subj	10	vobj	_	_	O
+15	ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	14	subj	_	_	B-NP
+16	verloren	verloren	_	ADJD	degree=pos	14	pred	_	_	B-AP
+17	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 113
+# sent_id(TSV) = 113
+# PTBstring = (VROOT(CS(S(NP(PDS Das))(VP(VAFIN ist))(VP(PPER mir)(AP(ADV ganz)(ADJD klar))(VVPP geworden)(KOMMA ,)))(S(AVP(ADV schon))(PP(APPR bei)(PDAT dieser)(ADJA kurzen)(NN Trennung)(PUNKT .)))))
+# text = Das ist mir ganz klar geworden , schon bei dieser kurzen Trennung .
+1	Das	der	_	PDS	case=nom|gender=neut|number=sg	6	subj	_	_	B-NP
+2	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	6	aux	_	_	O
+3	mir	ich	_	PPER	person=1|case=dat|gender=*|number=sg	6	iobj	_	_	B-NP
+4	ganz	ganz	_	ADV	_	_	_	_	_	B-AP
+5	klar	klar	_	ADJD	degree=pos	6	pred	_	_	I-AP
+6	geworden	werden	_	VVPP	_	_	_	_	_	O
+7	,	,	_	$,	_	_	_	_	_	O
+8	schon	schon	_	ADV	_	_	_	_	_	B-ADVP
+9	bei	bei	_	APPR	_	_	_	_	_	B-PP
+10	dieser	dieser	_	PDAT	case=dat|gender=fem|number=sg	_	_	_	_	I-PP
+11	kurzen	kurz	_	ADJA	degree=pos|case=dat|number=sg|gender=fem	_	_	_	_	I-PP
+12	Trennung	Trennung	_	NN	case=dat|gender=fem|number=sg	_	_	_	_	I-PP
+13	.	.	_	$.	_	_	_	_	_	I-PP
+
+# sent_id = 114
+# sent_id(TSV) = 114
+# PTBstring = (VROOT(S(NP(PPER Ich))(VP(VVFIN glaube))(KOMMA ,)(S:OC(NP(PDS das))(VP(VAFIN wäre))(NP(ART ein)(ADJA schlechtes)(NN Land)(KOMMA ,)(VP(KOUI um)(NN Kinder)(VVIZU aufzuziehen)(PUNKT .))))))
+# text = Ich glaube , das wäre ein schlechtes Land , um Kinder aufzuziehen .
+1	Ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	2	subj	_	_	B-NP
+2	glaube	glauben	_	VVFIN	person=1|tense=pres|number=sg|mood=ind	_	_	_	_	O
+3	,	,	_	$,	_	_	_	_	_	O
+4	das	der	_	PDS	case=nom|gender=neut|number=sg	5	pred	_	_	B-NP
+5	wäre	sein	_	VAFIN	person=3|tense=past|number=sg|mood=subj	2	vobj	_	_	O
+6	ein	ein	_	ART	case=nom|gender=neut|number=sg	_	_	_	_	B-NP
+7	schlechtes	schlecht	_	ADJA	degree=pos|case=nom|number=sg|gender=neut	_	_	_	_	I-NP
+8	Land	Land	_	NN	case=nom|gender=neut|number=sg	5	subj	_	_	I-NP
+9	,	,	_	$,	_	_	_	_	_	I-NP
+10	um	um	_	KOUI	_	_	_	_	_	I-NP
+11	Kinder	Kind	_	NN	case=acc|gender=neut|number=pl	12	obj	_	_	I-NP
+12	aufzuziehen	aufziehen	_	VVIZU	_	_	_	_	_	I-NP
+13	.	.	_	$.	_	_	_	_	_	I-NP
+
+# sent_id = 115
+# sent_id(TSV) = 115
+# PTBstring = (VROOT(S(NP(PPER Ich))(VP(VVFIN weiß))(AVP(PTKNEG nicht)))(PUNKT .))
+# text = Ich weiß nicht .
+1	Ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	2	subj	_	_	B-NP
+2	weiß	wissen	_	VVFIN	person=1|tense=pres|number=sg|mood=ind	_	_	_	_	O
+3	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVP
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 116
+# sent_id(TSV) = 116
+# PTBstring = (VROOT(KLAMMER -)(S(VP(VVFIN Wissen))(NP(PPER Sie)))(PUNKT ?))
+# text = - Wissen Sie ?
+1	-	-	_	$(	_	_	_	_	_	O
+2	Wissen	wissen	_	VVFIN	person=3|tense=pres|number=*|mood=ind	_	_	_	_	O
+3	Sie	Sie	_	PPER	person=3|case=nom|gender=*|number=*	2	subj	_	_	B-NP
+4	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 117
+# sent_id(TSV) = 117
+# PTBstring = (VROOT(CNP(NE Babs)(KON und)(NP(PPER ich)(KOMMA ,)(S:OC(NP(PPER wir))(VP(VMFIN wollten))(VP(AA(PTKA am)(ADJD liebsten))(NP(ADV gleich)(NN Kinder))(VAINF haben)(PUNKT .))))))
+# text = Babs und ich , wir wollten am liebsten gleich Kinder haben .
+1	Babs	Babs	_	NE	case=nom|gender=fem|number=sg	_	_	_	_	B-NP
+2	und	und	_	KON	_	_	_	_	_	I-NP
+3	ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	_	_	_	_	I-NP
+4	,	,	_	$,	_	_	_	_	_	I-NP
+5	wir	wir	_	PPER	person=1|case=nom|gender=*|number=pl	11	subj	_	_	I-NP
+6	wollten	wollen	_	VMFIN	person=1|tense=past|number=pl|mood=ind	11	aux	_	_	I-NP
+7	am	am	_	PTKA	_	_	_	_	_	I-NP
+8	liebsten	lieb	_	ADJD	degree=sup	_	_	_	_	I-NP
+9	gleich	gleich	_	ADV	_	_	_	_	_	I-NP
+10	Kinder	Kind	_	NN	case=acc|gender=neut|number=pl	11	obj	_	_	I-NP
+11	haben	haben	_	VAINF	_	_	_	_	_	I-NP
+12	.	.	_	$.	_	_	_	_	_	I-NP
+
+# sent_id = 118
+# sent_id(TSV) = 118
+# PTBstring = (VROOT(S(KON Doch)(AVP(ADV dann))(VP(VVFIN kam))(NP(PPER ich))(PP(APPR zu)(PDAT diesem)(NN Job)))(PUNKT .))
+# text = Doch dann kam ich zu diesem Job .
+1	Doch	doch	_	KON	_	_	_	_	_	O
+2	dann	dann	_	ADV	_	_	_	_	_	B-ADVP
+3	kam	kommen	_	VVFIN	person=1|tense=past|number=sg|mood=ind	_	_	_	_	O
+4	ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	3	subj	_	_	B-NP
+5	zu	zu	_	APPR	_	_	_	_	_	B-PP
+6	diesem	dieser	_	PDAT	case=dat|gender=masc|number=sg	_	_	_	_	I-PP
+7	Job	Job	_	NN	case=dat|gender=masc|number=sg	_	_	_	_	I-PP
+8	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 119
+# sent_id(TSV) = 119
+# PTBstring = (VROOT(NN Kinder)(KLAMMER ...))
+# text = Kinder ...
+1	Kinder	Kind	_	NN	case=nom|gender=neut|number=pl	_	_	_	_	B-NP
+2	...	...	_	$.	_	_	_	_	_	O
+
+# sent_id = 120
+# sent_id(TSV) = 120
+# PTBstring = (VROOT(CS(S(AVP(ADV Zuerst))(VP(VVFIN dachten))(NP(PPER wir))(PP(APPR an)(CARD 2)(NN Jungen)))(KON und)(S(AVP(ADV dann))(NP(ADV vielleicht)(ART ein)(NN Mädchen))))(PUNKT .))
+# text = Zuerst dachten wir an 2 Jungen und dann vielleicht ein Mädchen .
+1	Zuerst	zuerst	_	ADV	_	_	_	_	_	B-ADVP
+2	dachten	denken	_	VVFIN	person=1|tense=past|number=pl|mood=ind	_	_	_	_	O
+3	wir	wir	_	PPER	person=1|case=nom|gender=*|number=pl	2	subj	_	_	B-NP
+4	an	an	_	APPR	_	6	pcase	_	_	B-PP
+5	2	2	_	CARD	_	_	_	_	_	I-PP
+6	Jungen	Junge	_	NN	case=acc|gender=masc|number=pl	2	pobj	_	_	I-PP
+7	und	und	_	KON	_	_	_	_	_	O
+8	dann	dann	_	ADV	_	_	_	_	_	B-ADVP
+9	vielleicht	vielleicht	_	ADV	_	_	_	_	_	B-NP
+10	ein	ein	_	ART	case=acc|gender=neut|number=sg	_	_	_	_	I-NP
+11	Mädchen	Mädchen	_	NN	case=acc|gender=neut|number=sg	_	_	_	_	I-NP
+12	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 121
+# sent_id(TSV) = 121
+# PTBstring = (VROOT(S(PP(APPR Auf)(ART der)(NN Flucht)(PP(APPR vor)(ART der)(NN Steuerfaschistin)))(VP(VMFIN konnte))(NP(PPER ich))(VP(NN Pluspunkte)(PP(APPR bei)(CNP(NE Sam)(KON und)(NP(ART den)(NN Kindern))))(VVINF sammeln)))(PUNKT .))
+# text = Auf der Flucht vor der Steuerfaschistin konnte ich Pluspunkte bei Sam und den Kindern sammeln .
+1	Auf	auf	_	APPR	_	_	_	_	_	B-PP
+2	der	der	_	ART	case=dat|gender=fem|number=sg	_	_	_	_	I-PP
+3	Flucht	Flucht	_	NN	case=dat|gender=fem|number=sg	_	_	_	_	I-PP
+4	vor	vor	_	APPR	_	6	pcase	_	_	I-PP
+5	der	der	_	ART	case=dat|gender=fem|number=sg	_	_	_	_	I-PP
+6	Steuerfaschistin	Steuerfaschistin	_	NN	case=dat|gender=fem|number=sg	3	pobj	_	_	I-PP
+7	konnte	können	_	VMFIN	person=1|tense=past|number=sg|mood=ind	15	aux	_	_	O
+8	ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	15	subj	_	_	B-NP
+9	Pluspunkte	Pluspunkt	_	NN	case=acc|gender=masc|number=pl	15	obj	_	_	B-NP
+10	bei	bei	_	APPR	_	_	_	_	_	B-PP
+11	Sam	Sam	_	NE	case=dat|gender=masc|number=sg	_	_	_	_	I-PP
+12	und	und	_	KON	_	_	_	_	_	I-PP
+13	den	der	_	ART	case=dat|gender=neut|number=pl	_	_	_	_	I-PP
+14	Kindern	Kind	_	NN	case=dat|gender=neut|number=pl	_	_	_	_	I-PP
+15	sammeln	sammeln	_	VVINF	_	_	_	_	_	O
+16	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 122
+# sent_id(TSV) = 122
+# PTBstring = (VROOT(S(NP(PWS Wer))(VP(VVFIN hält))(NP(PPER mich))(PP(APPR für)(ART den)(ADJA besten)(NN Daddy)(NP(ART der)(NN Welt))))(PUNKT ?))
+# text = Wer hält mich für den besten Daddy der Welt ?
+1	Wer	wer	_	PWS	case=nom|gender=*|number=sg	2	subj	_	_	B-NP
+2	hält	halten	_	VVFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	O
+3	mich	ich	_	PPER	person=1|case=acc|gender=*|number=sg	2	obj	_	_	B-NP
+4	für	für	_	APPR	_	7	pcase	_	_	B-PP
+5	den	der	_	ART	case=acc|gender=masc|number=sg	_	_	_	_	I-PP
+6	besten	gut	_	ADJA	degree=sup|case=acc|number=sg|gender=masc	_	_	_	_	I-PP
+7	Daddy	Daddy	_	NN	case=acc|gender=masc|number=sg	2	pobj	_	_	I-PP
+8	der	der	_	ART	case=gen|gender=fem|number=sg	_	_	_	_	I-PP
+9	Welt	Welt	_	NN	case=gen|gender=fem|number=sg	_	_	_	_	I-PP
+10	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 123
+# sent_id(TSV) = 123
+# PTBstring = (VROOT(KLAMMER -)(S(NP(PWS Wer))(VP(VMFIN will))(AVP(ADV heute))(NP(NN Schule))(VP(VVINF schwänzen)))(PUNKT ?))
+# text = - Wer will heute Schule schwänzen ?
+1	-	-	_	$(	_	_	_	_	_	O
+2	Wer	wer	_	PWS	case=nom|gender=*|number=sg	6	subj	_	_	B-NP
+3	will	wollen	_	VMFIN	person=3|tense=pres|number=sg|mood=ind	6	aux	_	_	O
+4	heute	heute	_	ADV	_	_	_	_	_	B-ADVP
+5	Schule	Schule	_	NN	case=acc|gender=fem|number=sg	6	obj	_	_	B-NP
+6	schwänzen	schwänzen	_	VVINF	_	_	_	_	_	O
+7	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 124
+# sent_id(TSV) = 124
+# PTBstring = (VROOT(KLAMMER -)(NN Ja)(PUNKT .))
+# text = - Ja .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Ja	ja	_	PTKANT	_	_	_	_	_	O
+3	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 125
+# sent_id(TSV) = 125
+# PTBstring = (VROOT(AP(ADV Schon)(ADJD besser))(PUNKT .))
+# text = Schon besser .
+1	Schon	schon	_	ADV	_	_	_	_	_	B-AP
+2	besser	gut	_	ADJD	degree=comp	_	_	_	_	I-AP
+3	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 126
+# sent_id(TSV) = 126
+# PTBstring = (VROOT(ADV Okay)(PUNKT .))
+# text = Okay .
+1	Okay	okay	_	ADV	_	_	_	_	_	B-ADVP
+2	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 127
+# sent_id(TSV) = 127
+# PTBstring = (VROOT(S(NP(ART Die)(NE Swans))(VP(VVFIN machen))(NP(ART einen)(NN Familienausflug)))(PUNKT .))
+# text = Die Swans machen einen Familienausflug .
+1	Die	der	_	ART	case=nom|gender=*|number=pl	_	_	_	_	B-NP
+2	Swans	Swan	_	NE	case=nom|gender=*|number=pl	3	subj	_	_	I-NP
+3	machen	machen	_	VVFIN	person=3|tense=pres|number=pl|mood=ind	_	_	_	_	O
+4	einen	ein	_	ART	case=acc|gender=masc|number=sg	_	_	_	_	B-NP
+5	Familienausflug	Familienausflug	_	NN	case=acc|gender=masc|number=sg	3	obj	_	_	I-NP
+6	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 128
+# sent_id(TSV) = 128
+# PTBstring = (VROOT(S(NP(PDS Die))(VP(VVFIN finden))(NP(NN Wege)(KOMMA ,)(VP(NP(ART die)(NN Seite)(CARD drei))(ADV jetzt)(AP(AVP(ADV sogar)(ADV noch))(ADJD gruseliger))(VZ(PTKZU zu)(VVINF machen)(PUNKT .))))))
+# text = Die finden Wege , die Seite drei jetzt sogar noch gruseliger zu machen .
+1	Die	der	_	PDS	case=nom|gender=*|number=pl	2	subj	_	_	B-NP
+2	finden	finden	_	VVFIN	person=3|tense=pres|number=pl|mood=ind	_	_	_	_	O
+3	Wege	Weg	_	NN	case=acc|gender=masc|number=pl	2	obj	_	_	B-NP
+4	,	,	_	$,	_	_	_	_	_	I-NP
+5	die	der	_	ART	case=acc|gender=fem|number=sg	_	_	_	_	I-NP
+6	Seite	Seite	_	NN	case=acc|gender=fem|number=sg	13	obj	_	_	I-NP
+7	drei	drei	_	CARD	_	_	_	_	_	I-NP
+8	jetzt	jetzt	_	ADV	_	_	_	_	_	I-NP
+9	sogar	sogar	_	ADV	_	_	_	_	_	I-NP
+10	noch	noch	_	ADV	_	_	_	_	_	I-NP
+11	gruseliger	gruselig	_	ADJD	degree=comp	_	_	_	_	I-NP
+12	zu	zu	_	PTKZU	_	_	_	_	_	I-NP
+13	machen	machen	_	VVINF	_	_	_	_	_	I-NP
+14	.	.	_	$.	_	_	_	_	_	I-NP
+
+# sent_id = 129
+# sent_id(TSV) = 129
+# PTBstring = (VROOT(KLAMMER ")(S(NP(ART Die)(ADJA süße)(PN(NE Karen)(NE Clarke)))(VP(VAFIN war))(AVP(ADV schon))(PP(APPR in)(ADJA jungen)(NN Jahren))(NP(ART eine)(NN Oben-ohne-Schönheit)))(PUNKT .))
+# text = " Die süße Karen Clarke war schon in jungen Jahren eine Oben-ohne-Schönheit .
+1	"	"	_	$(	_	_	_	_	_	O
+2	Die	der	_	ART	case=nom|gender=fem|number=sg	_	_	_	_	B-NP
+3	süße	süß	_	ADJA	degree=pos|case=nom|number=sg|gender=fem	_	_	_	_	I-NP
+4	Karen	Karen	_	NE	case=nom|gender=fem|number=sg	_	_	_	_	I-NP
+5	Clarke	Clarke	_	NE	case=nom|gender=fem|number=sg	6	subj	_	_	I-NP
+6	war	sein	_	VAFIN	person=3|tense=past|number=sg|mood=ind	_	_	_	_	O
+7	schon	schon	_	ADV	_	_	_	_	_	B-ADVP
+8	in	in	_	APPR	_	_	_	_	_	B-PP
+9	jungen	jung	_	ADJA	degree=pos|case=dat|number=pl|gender=neut	_	_	_	_	I-PP
+10	Jahren	Jahr	_	NN	case=dat|gender=neut|number=pl	_	_	_	_	I-PP
+11	eine	ein	_	ART	case=nom|gender=fem|number=sg	_	_	_	_	B-NP
+12	Oben-ohne-Schönheit	Oben-ohne-Schönheit	_	NN	case=nom|gender=fem|number=sg	6	pred	_	_	I-NP
+13	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 130
+# sent_id(TSV) = 130
+# PTBstring = (VROOT(S(KON Aber)(AVP(ADV jetzt))(VP(VAFIN ist))(NP(PPER sie))(CNP(NP(ART ein)(ADJA großes)(NN Mädchen))(KON und)(NP(ART eine)(ADJA wohlgeformte)(NN Lady))))(PUNKT .)(KLAMMER "))
+# text = Aber jetzt ist sie ein großes Mädchen und eine wohlgeformte Lady . "
+1	Aber	aber	_	KON	_	_	_	_	_	O
+2	jetzt	jetzt	_	ADV	_	_	_	_	_	B-ADVP
+3	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	O
+4	sie	sie	_	PPER	person=3|case=nom|gender=fem|number=sg	3	subj	_	_	B-NP
+5	ein	ein	_	ART	case=nom|gender=neut|number=sg	_	_	_	_	B-NP
+6	großes	groß	_	ADJA	degree=pos|case=nom|number=sg|gender=neut	_	_	_	_	I-NP
+7	Mädchen	Mädchen	_	NN	case=nom|gender=neut|number=sg	3	pred	_	_	I-NP
+8	und	und	_	KON	_	_	_	_	_	I-NP
+9	eine	ein	_	ART	case=nom|gender=fem|number=sg	_	_	_	_	I-NP
+10	wohlgeformte	wohlgeformt	_	ADJA	degree=pos|case=nom|number=sg|gender=fem	_	_	_	_	I-NP
+11	Lady	Lady	_	NN	case=nom|gender=fem|number=sg	_	_	_	_	I-NP
+12	.	.	_	$.	_	_	_	_	_	O
+13	"	"	_	$(	_	_	_	_	_	O
+
+# sent_id = 131
+# sent_id(TSV) = 131
+# PTBstring = (VROOT(S(NP(PWS Was))(VP(VAFIN ist))(PP(APPR mit)(CNP(NE Cassie)(KON und)(NE Ramse))))(PUNKT ?))
+# text = Was ist mit Cassie und Ramse ?
+1	Was	was	_	PWS	case=nom|gender=neut|number=sg	2	subj	_	_	B-NP
+2	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	O
+3	mit	mit	_	APPR	_	_	_	_	_	B-PP
+4	Cassie	Cassie	_	NE	case=dat|gender=fem|number=sg	_	_	_	_	I-PP
+5	und	und	_	KON	_	_	_	_	_	I-PP
+6	Ramse	Ramse	_	NE	case=dat|gender=masc|number=sg	_	_	_	_	I-PP
+7	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 132
+# sent_id(TSV) = 132
+# PTBstring = (VROOT(S(NP(PPER Ich))(VP(VVFIN dachte))(KOMMA ,)(S:OC(NP(PPER du))(VP(VAFIN würdest))(VP(PPER sie)(ADV zuletzt)(VVINF rauslassen)(VMINF wollen)(KOMMA ,)(PP(APPR für)(ART den)(NN Fall)(KOMMA ,))(S(KOUS dass)(NP(PPER sie))(NP(PIS etwas))(VP(VVFIN versuchen))(PUNKT .))))))
+# text = Ich dachte , du würdest sie zuletzt rauslassen wollen , für den Fall , dass sie etwas versuchen .
+1	Ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	2	subj	_	_	B-NP
+2	dachte	denken	_	VVFIN	person=1|tense=past|number=sg|mood=ind	_	_	_	_	O
+3	,	,	_	$,	_	_	_	_	_	O
+4	du	du	_	PPER	person=2|case=nom|gender=*|number=sg	8	subj	_	_	B-NP
+5	würdest	werden	_	VAFIN	person=2|tense=past|number=sg|mood=subj	8	aux	_	_	O
+6	sie	sie	_	PPER	person=3|case=acc|gender=*|number=pl	8	obj	_	_	B-NP
+7	zuletzt	zuletzt	_	ADV	_	_	_	_	_	B-ADVP
+8	rauslassen	rauslassen	_	VVINF	_	2	vobj	_	_	O
+9	wollen	wollen	_	VMINF	_	8	aux	_	_	O
+10	,	,	_	$,	_	_	_	_	_	O
+11	für	für	_	APPR	_	_	_	_	_	B-PP
+12	den	der	_	ART	case=acc|gender=masc|number=sg	_	_	_	_	I-PP
+13	Fall	Fall	_	NN	case=acc|gender=masc|number=sg	_	_	_	_	I-PP
+14	,	,	_	$,	_	_	_	_	_	I-PP
+15	dass	dass	_	KOUS	_	_	_	_	_	O
+16	sie	sie	_	PPER	person=3|case=nom|gender=*|number=pl	18	subj	_	_	B-NP
+17	etwas	etwas	_	PIS	case=acc|gender=neut|number=sg	18	obj	_	_	B-NP
+18	versuchen	versuchen	_	VVFIN	person=3|tense=pres|number=pl|mood=ind	_	_	_	_	O
+19	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 133
+# sent_id(TSV) = 133
+# PTBstring = (VROOT(KLAMMER -)(NN Ja)(PUNKT .))
+# text = - Ja .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Ja	ja	_	PTKANT	_	_	_	_	_	O
+3	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 134
+# sent_id(TSV) = 134
+# PTBstring = (VROOT(KLAMMER -)(S(NP(PDS Das))(VP(VAFIN habe))(NP(PPER ich))(VP(PRF mir)(VVPP gedacht)(PUNKT .))))
+# text = - Das habe ich mir gedacht .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Das	der	_	PDS	case=acc|gender=neut|number=sg	6	obj	_	_	B-NP
+3	habe	haben	_	VAFIN	person=1|tense=pres|number=sg|mood=ind	6	aux	_	_	O
+4	ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	6	subj	_	_	B-NP
+5	mir	ich	_	PRF	person=1|case=dat|number=sg	6	iobj	_	_	B-NP
+6	gedacht	denken	_	VVPP	_	_	_	_	_	O
+7	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 135
+# sent_id(TSV) = 135
+# PTBstring = (VROOT(S(NP(PWS Was)(PP(APPRART zur)(NN Hölle)))(VP(VAFIN war))(NP(PDS das)))(PUNKT ?))
+# text = Was zur Hölle war das ?
+1	Was	was	_	PWS	case=nom|gender=neut|number=sg	4	pred	_	_	B-NP
+2	zur	zu	_	APPRART	gender=fem|case=dat	_	_	_	_	I-NP
+3	Hölle	Hölle	_	NN	case=dat|gender=fem|number=sg	_	_	_	_	I-NP
+4	war	sein	_	VAFIN	person=3|tense=past|number=sg|mood=ind	_	_	_	_	O
+5	das	der	_	PDS	case=nom|gender=neut|number=sg	4	subj	_	_	B-NP
+6	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 136
+# sent_id(TSV) = 136
+# PTBstring = (VROOT(KLAMMER -)(S(NP(PWS Was))(PP(APPRART zur)(NN Hölle))(VP(VAFIN ist))(VP(VVPP passiert)))(PUNKT ?))
+# text = - Was zur Hölle ist passiert ?
+1	-	-	_	$(	_	_	_	_	_	O
+2	Was	was	_	PWS	case=nom|gender=neut|number=sg	6	subj	_	_	B-NP
+3	zur	zu	_	APPRART	gender=fem|case=dat	_	_	_	_	B-PP
+4	Hölle	Hölle	_	NN	case=dat|gender=fem|number=sg	_	_	_	_	I-PP
+5	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	6	aux	_	_	O
+6	passiert	passieren	_	VVPP	_	_	_	_	_	O
+7	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 137
+# sent_id(TSV) = 137
+# PTBstring = (VROOT(KLAMMER -)(S(NP(ART Der)(NN Blitz))(VP(VVFIN traf))(NP(PIS einen)(NP(ART der)(NN Transformatoren)(PUNKT .)))))
+# text = - Der Blitz traf einen der Transformatoren .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Der	der	_	ART	case=nom|gender=masc|number=sg	_	_	_	_	B-NP
+3	Blitz	Blitz	_	NN	case=nom|gender=masc|number=sg	4	subj	_	_	I-NP
+4	traf	treffen	_	VVFIN	person=3|tense=past|number=sg|mood=ind	_	_	_	_	O
+5	einen	einer	_	PIS	case=acc|gender=masc|number=sg	4	obj	_	_	B-NP
+6	der	der	_	ART	case=gen|gender=masc|number=pl	_	_	_	_	I-NP
+7	Transformatoren	Transformator	_	NN	case=gen|gender=masc|number=pl	_	_	_	_	I-NP
+8	.	.	_	$.	_	_	_	_	_	I-NP
+
+# sent_id = 138
+# sent_id(TSV) = 138
+# PTBstring = (VROOT(S(NP(PPER Wir))(VP(VMFIN dürfen))(NP(ART die)(NN Evakuierung))(AVP(PTKNEG nicht))(VP(VVINF verzögern)(PUNKT .))))
+# text = Wir dürfen die Evakuierung nicht verzögern .
+1	Wir	wir	_	PPER	person=1|case=nom|gender=*|number=pl	6	subj	_	_	B-NP
+2	dürfen	dürfen	_	VMFIN	person=1|tense=pres|number=pl|mood=ind	6	aux	_	_	O
+3	die	der	_	ART	case=acc|gender=fem|number=sg	_	_	_	_	B-NP
+4	Evakuierung	Evakuierung	_	NN	case=acc|gender=fem|number=sg	6	obj	_	_	I-NP
+5	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVP
+6	verzögern	verzögern	_	VVINF	_	_	_	_	_	O
+7	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 139
+# sent_id(TSV) = 139
+# PTBstring = (VROOT(S(VP(VVIMP Leite))(NP(PIS alle))(PP(APPR über)(ART den)(ADJA westlichen)(NN Gang))(PP(APPRART zur)(NN Fahrzeughalle)))(PUNKT .))
+# text = Leite alle über den westlichen Gang zur Fahrzeughalle .
+1	Leite	leiten	_	VVIMP	number=sg	_	_	_	_	O
+2	alle	alle	_	PIS	case=acc|gender=*|number=pl	1	obj	_	_	B-NP
+3	über	über	_	APPR	_	_	_	_	_	B-PP
+4	den	der	_	ART	case=acc|gender=masc|number=sg	_	_	_	_	I-PP
+5	westlichen	westlich	_	ADJA	degree=pos|case=acc|number=sg|gender=masc	_	_	_	_	I-PP
+6	Gang	Gang	_	NN	case=acc|gender=masc|number=sg	_	_	_	_	I-PP
+7	zur	zu	_	APPRART	gender=fem|case=dat	_	_	_	_	B-PP
+8	Fahrzeughalle	Fahrzeughalle	_	NN	case=dat|gender=fem|number=sg	_	_	_	_	I-PP
+9	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 140
+# sent_id(TSV) = 140
+# PTBstring = (VROOT(KLAMMER -)(S(PWAV Wie)(NP(PIS viele))(VP(VAFIN sind))(AP(ADJD verwundet))(PUNKT ?)))
+# text = - Wie viele sind verwundet ?
+1	-	-	_	$(	_	_	_	_	_	O
+2	Wie	wie	_	PWAV	_	_	_	_	_	O
+3	viele	viele	_	PIS	case=nom|gender=*|number=pl	4	subj	_	_	B-NP
+4	sind	sein	_	VAFIN	person=3|tense=pres|number=pl|mood=ind	_	_	_	_	O
+5	verwundet	verwundet	_	ADJD	degree=pos	4	pred	_	_	B-AP
+6	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 141
+# sent_id(TSV) = 141
+# PTBstring = (VROOT(S(KOUS Obwohl)(KOMMA ,)(S(NP(PPER er))(VP(VAFIN hat))(NP(ADJA schöne)(NN Reifen))(VP(VAFIN hat))(KLAMMER ...)(PP(APPR für)(ART einen)(NN Verrückten)(PUNKT .)))))
+# text = Obwohl , er hat schöne Reifen hat ... für einen Verrückten .
+1	Obwohl	obwohl	_	KOUS	_	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	er	er	_	PPER	person=3|case=nom|gender=masc|number=sg	4	subj	_	_	B-NP
+4	hat	haben	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	O
+5	schöne	schön	_	ADJA	degree=pos|case=acc|number=pl|gender=masc	_	_	_	_	B-NP
+6	Reifen	Reifen	_	NN	case=acc|gender=masc|number=pl	4	obj	_	_	I-NP
+7	hat	haben	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	O
+8	...	...	_	$(	_	_	_	_	_	O
+9	für	für	_	APPR	_	_	_	_	_	B-PP
+10	einen	ein	_	ART	case=acc|gender=masc|number=sg	_	_	_	_	I-PP
+11	Verrückten	Verrückte	_	NN	case=acc|gender=masc|number=sg	_	_	_	_	I-PP
+12	.	.	_	$.	_	_	_	_	_	I-PP
+
+# sent_id = 142
+# sent_id(TSV) = 142
+# PTBstring = (VROOT(S(VP(VVIMP Halt))(NP(ART den)(NN Mund)))(PUNKT !))
+# text = Halt den Mund !
+1	Halt	halten	_	VVIMP	number=sg	_	_	_	_	O
+2	den	der	_	ART	case=acc|gender=masc|number=sg	_	_	_	_	B-NP
+3	Mund	Mund	_	NN	case=acc|gender=masc|number=sg	1	obj	_	_	I-NP
+4	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 143
+# sent_id(TSV) = 143
+# PTBstring = (VROOT(KLAMMER -)(PP(APPR Zu)(NN Hause))(PUNKT !))
+# text = - Zu Hause !
+1	-	-	_	$(	_	_	_	_	_	O
+2	Zu	zu	_	APPR	_	_	_	_	_	B-PP
+3	Hause	Haus	_	NN	case=dat|gender=neut|number=sg	_	_	_	_	I-PP
+4	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 144
+# sent_id(TSV) = 144
+# PTBstring = (VROOT(KLAMMER -)(S(NP(PDAT Dieser)(NN Ort))(VP(VAFIN ist))(AP(ADV verdammt)(ADJD geil)))(PUNKT .))
+# text = - Dieser Ort ist verdammt geil .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Dieser	dieser	_	PDAT	case=nom|gender=masc|number=sg	_	_	_	_	B-NP
+3	Ort	Ort	_	NN	case=nom|gender=masc|number=sg	4	subj	_	_	I-NP
+4	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	O
+5	verdammt	verdammt	_	ADV	_	_	_	_	_	B-AP
+6	geil	geil	_	ADJD	degree=pos	4	pred	_	_	I-AP
+7	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 145
+# sent_id(TSV) = 145
+# PTBstring = (VROOT(PP(KOKOM Wie)(APPRART im)(NN Schlaraffenland))(PUNKT .))
+# text = Wie im Schlaraffenland .
+1	Wie	wie	_	KOKOM	_	_	_	_	_	B-PP
+2	im	in	_	APPRART	gender=neut|case=dat	_	_	_	_	I-PP
+3	Schlaraffenland	Schlaraffenland	_	NN	case=dat|gender=neut|number=sg	_	_	_	_	I-PP
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 146
+# sent_id(TSV) = 146
+# PTBstring = (VROOT(S(AVP(ADV Hier))(VP(VVFIN kommen))(NP(ART die)(ADJA reichen)(NN Kinder))(PP(APPRART zum)(NN sterben))(SVP(PTKVZ hin)))(PUNKT .))
+# text = Hier kommen die reichen Kinder zum sterben hin .
+1	Hier	hier	_	ADV	_	_	_	_	_	B-ADVP
+2	kommen	kommen	_	VVFIN	person=3|tense=pres|number=pl|mood=ind	_	_	_	_	O
+3	die	der	_	ART	case=nom|gender=neut|number=pl	_	_	_	_	B-NP
+4	reichen	reich	_	ADJA	degree=pos|case=nom|number=pl|gender=neut	_	_	_	_	I-NP
+5	Kinder	Kind	_	NN	case=nom|gender=neut|number=pl	2	subj	_	_	I-NP
+6	zum	zu	_	APPRART	gender=neut|case=dat	_	_	_	_	B-PP
+7	sterben	Sterben	_	NN	case=dat|gender=neut|number=sg	_	_	_	_	I-PP
+8	hin	hin	_	PTKVZ	_	_	_	_	_	O
+9	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 147
+# sent_id(TSV) = 147
+# PTBstring = (VROOT(AP(ADJD Willkommen)(PP(APPR in)(PPOSAT meiner)(NN Welt)))(PUNKT .))
+# text = Willkommen in meiner Welt .
+1	Willkommen	willkommen	_	ADJD	degree=pos	_	_	_	_	B-AP
+2	in	in	_	APPR	_	_	_	_	_	I-AP
+3	meiner	mein	_	PPOSAT	case=dat|gender=fem|number=sg	_	_	_	_	I-AP
+4	Welt	Welt	_	NN	case=dat|gender=fem|number=sg	_	_	_	_	I-AP
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 148
+# sent_id(TSV) = 148
+# PTBstring = (VROOT(S(NP(PPER Mir))(VP(VAFIN ist))(AP(NP(ART ein)(PIS bisschen))(ADJD schlecht)))(PUNKT !))
+# text = Mir ist ein bisschen schlecht !
+1	Mir	ich	_	PPER	person=1|case=dat|gender=*|number=sg	2	iobj	_	_	B-NP
+2	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	O
+3	ein	ein	_	ART	case=*|gender=*|number=*	_	_	_	_	B-AP
+4	bisschen	bisschen	_	PIS	case=*|gender=*|number=*	_	_	_	_	I-AP
+5	schlecht	schlecht	_	ADJD	degree=pos	2	pred	_	_	I-AP
+6	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 149
+# sent_id(TSV) = 149
+# PTBstring = (VROOT(NE Kevin)(KOMMA ,)(S(NP(PPER ich))(VP(VVFIN glaube))(KOMMA ,)(S:OC(NP(PPER du))(VP(VMFIN solltest))(VP(NE Julie)(PP(APPRART ins)(NN Badezimmer))(VVINF bringen)(PUNKT .)))))
+# text = Kevin , ich glaube , du solltest Julie ins Badezimmer bringen .
+1	Kevin	Kevin	_	NE	case=nom|gender=masc|number=sg	_	_	_	_	B-NP
+2	,	,	_	$,	_	_	_	_	_	O
+3	ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	4	subj	_	_	B-NP
+4	glaube	glauben	_	VVFIN	person=1|tense=pres|number=sg|mood=ind	_	_	_	_	O
+5	,	,	_	$,	_	_	_	_	_	O
+6	du	du	_	PPER	person=2|case=nom|gender=*|number=sg	11	subj	_	_	B-NP
+7	solltest	sollen	_	VMFIN	person=2|tense=past|number=sg|mood=subj	11	aux	_	_	O
+8	Julie	Julie	_	NE	case=acc|gender=fem|number=sg	11	obj	_	_	B-NP
+9	ins	in	_	APPRART	gender=neut|case=acc	_	_	_	_	B-PP
+10	Badezimmer	Badezimmer	_	NN	case=acc|gender=neut|number=sg	_	_	_	_	I-PP
+11	bringen	bringen	_	VVINF	_	4	vobj	_	_	O
+12	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 150
+# sent_id(TSV) = 150
+# PTBstring = (VROOT(S(VP(VVIMP Komm))(AVP(ADV schon)))(PUNKT .))
+# text = Komm schon .
+1	Komm	kommen	_	VVIMP	number=sg	_	_	_	_	O
+2	schon	schon	_	ADV	_	_	_	_	_	B-ADVP
+3	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 151
+# sent_id(TSV) = 151
+# PTBstring = (VROOT(CS(S(PTKANT Nein)(KOMMA ,)(NP(ART die)(NN Ärzte))(VP(VAFIN sind))(AP(ADV sehr)(ADJD zufrieden)(KOMMA ,)))(S(NP(PPER er))(VP(VAFIN ist))(NP(ART der)(NN Tapferste)(PUNKT .)))))
+# text = Nein , die Ärzte sind sehr zufrieden , er ist der Tapferste .
+1	Nein	nein	_	PTKANT	_	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	die	der	_	ART	case=nom|gender=masc|number=pl	_	_	_	_	B-NP
+4	Ärzte	Arzt	_	NN	case=nom|gender=masc|number=pl	5	subj	_	_	I-NP
+5	sind	sein	_	VAFIN	person=3|tense=pres|number=pl|mood=ind	_	_	_	_	O
+6	sehr	sehr	_	ADV	_	_	_	_	_	B-AP
+7	zufrieden	zufrieden	_	ADJD	degree=pos	5	pred	_	_	I-AP
+8	,	,	_	$,	_	_	_	_	_	I-AP
+9	er	er	_	PPER	person=3|case=nom|gender=masc|number=sg	10	subj	_	_	B-NP
+10	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	O
+11	der	der	_	ART	case=nom|gender=masc|number=sg	_	_	_	_	B-NP
+12	Tapferste	Tapferste	_	NN	case=nom|gender=masc|number=sg	10	pred	_	_	I-NP
+13	.	.	_	$.	_	_	_	_	_	I-NP
+
+# sent_id = 152
+# sent_id(TSV) = 152
+# PTBstring = (VROOT(S(VP(VAFIN Hast))(NP(PPER du))(NP(ART die)(NN Bodys)))(PUNKT ?))
+# text = Hast du die Bodys ?
+1	Hast	haben	_	VAFIN	person=2|tense=pres|number=sg|mood=ind	_	_	_	_	O
+2	du	du	_	PPER	person=2|case=nom|gender=*|number=sg	1	subj	_	_	B-NP
+3	die	der	_	ART	case=acc|gender=masc|number=pl	_	_	_	_	B-NP
+4	Bodys	Body	_	NN	case=acc|gender=masc|number=pl	1	obj	_	_	I-NP
+5	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 153
+# sent_id(TSV) = 153
+# PTBstring = (VROOT(S(VP(VVIMP Frag))(NP(PPOSAT deinen)(NN Vater)))(PUNKT !))
+# text = Frag deinen Vater !
+1	Frag	fragen	_	VVIMP	number=sg	_	_	_	_	O
+2	deinen	dein	_	PPOSAT	case=acc|gender=masc|number=sg	_	_	_	_	B-NP
+3	Vater	Vater	_	NN	case=acc|gender=masc|number=sg	1	obj	_	_	I-NP
+4	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 154
+# sent_id(TSV) = 154
+# PTBstring = (VROOT(S(VP(VVIMP Sag))(NP(PPER 's))(NP(PPER ihr)))(PUNKT !))
+# text = Sag 's ihr !
+1	Sag	sagen	_	VVIMP	number=sg	_	_	_	_	O
+2	's	es	_	PPER	person=3|case=acc|gender=neut|number=sg	1	obj	_	_	B-NP
+3	ihr	sie	_	PPER	person=3|case=dat|gender=fem|number=sg	1	iobj	_	_	B-NP
+4	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 155
+# sent_id(TSV) = 155
+# PTBstring = (VROOT(CS(S(NP(PPER Ich))(VP(VAFIN hatte))(VP(NP(ART die)(NN Tüte))(PP(PAV damit))(VVPP vorbereitet)))(KON und)(S(NP(PPER er))(VP(VVFIN lässt))(VP(PPER sie)(VVINF stehen)(PUNKT !)))))
+# text = Ich hatte die Tüte damit vorbereitet und er lässt sie stehen !
+1	Ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	6	subj	_	_	B-NP
+2	hatte	haben	_	VAFIN	person=1|tense=past|number=sg|mood=ind	6	aux	_	_	O
+3	die	der	_	ART	case=acc|gender=fem|number=sg	_	_	_	_	B-NP
+4	Tüte	Tüte	_	NN	case=acc|gender=fem|number=sg	6	obj	_	_	I-NP
+5	damit	damit	_	PAV	_	_	_	_	_	B-PP
+6	vorbereitet	vorbereiten	_	VVPP	_	_	_	_	_	O
+7	und	und	_	KON	_	_	_	_	_	O
+8	er	er	_	PPER	person=3|case=nom|gender=masc|number=sg	9	subj	_	_	B-NP
+9	lässt	lassen	_	VVFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	O
+10	sie	sie	_	PPER	person=3|case=acc|gender=fem|number=sg	9	obj	_	_	B-NP
+11	stehen	stehen	_	VVINF	_	9	vobj	_	_	O
+12	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 156
+# sent_id(TSV) = 156
+# PTBstring = (VROOT(S(AVP(ADV Schade))(KOMMA ,)(NP(PPER ich))(VP(VAFIN hab))(AVP(PTKNEG nicht)(ADV mehr))(NP(PIS viele)))(PUNKT .))
+# text = Schade , ich hab nicht mehr viele .
+1	Schade	schade	_	ADV	_	_	_	_	_	B-ADVP
+2	,	,	_	$,	_	_	_	_	_	O
+3	ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	4	subj	_	_	B-NP
+4	hab	haben	_	VAFIN	person=1|tense=pres|number=sg|mood=ind	_	_	_	_	O
+5	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVP
+6	mehr	mehr	_	ADV	_	_	_	_	_	I-ADVP
+7	viele	viele	_	PIS	case=acc|gender=fem|number=pl	4	obj	_	_	B-NP
+8	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 157
+# sent_id(TSV) = 157
+# PTBstring = (VROOT(S(VP(VVFIN Siehst))(NP(PPER du))(KOMMA ,)(S:OC(NP(PPER sie))(VP(VAFIN ist))(AP(ADV sehr)(ADJD enttäuscht)(PUNKT !)))))
+# text = Siehst du , sie ist sehr enttäuscht !
+1	Siehst	sehen	_	VVFIN	person=2|tense=pres|number=sg|mood=ind	_	_	_	_	O
+2	du	du	_	PPER	person=2|case=nom|gender=*|number=sg	1	subj	_	_	B-NP
+3	,	,	_	$,	_	_	_	_	_	O
+4	sie	sie	_	PPER	person=3|case=nom|gender=fem|number=sg	5	subj	_	_	B-NP
+5	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	1	vobj	_	_	O
+6	sehr	sehr	_	ADV	_	_	_	_	_	B-AP
+7	enttäuscht	enttäuscht	_	ADJD	degree=pos	5	pred	_	_	I-AP
+8	!	!	_	$.	_	_	_	_	_	I-AP
+
+# sent_id = 158
+# sent_id(TSV) = 158
+# PTBstring = (VROOT(S(AVP(ADV Gut))(KOMMA ,)(NP(PPER ich))(VP(VAFIN hab))(VP(PPER sie)(VVPP vergessen)))(PUNKT !))
+# text = Gut , ich hab sie vergessen !
+1	Gut	gut	_	ADV	_	_	_	_	_	B-ADVP
+2	,	,	_	$,	_	_	_	_	_	O
+3	ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	6	subj	_	_	B-NP
+4	hab	haben	_	VAFIN	person=1|tense=pres|number=sg|mood=ind	6	aux	_	_	O
+5	sie	sie	_	PPER	person=3|case=acc|gender=fem|number=sg	6	obj	_	_	B-NP
+6	vergessen	vergessen	_	VVPP	_	_	_	_	_	O
+7	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 159
+# sent_id(TSV) = 159
+# PTBstring = (VROOT(S(VP(VVIMP Mach))(AVP(PTKNEG nicht)(ADV so))(NP(ART ein)(NN Theater)))(PUNKT !))
+# text = Mach nicht so ein Theater !
+1	Mach	machen	_	VVIMP	number=sg	_	_	_	_	O
+2	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVP
+3	so	so	_	ADV	_	_	_	_	_	I-ADVP
+4	ein	ein	_	ART	case=acc|gender=neut|number=sg	_	_	_	_	B-NP
+5	Theater	Theater	_	NN	case=acc|gender=neut|number=sg	1	obj	_	_	I-NP
+6	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 160
+# sent_id(TSV) = 160
+# PTBstring = (VROOT(ADJD Typisch)(PUNKT !))
+# text = Typisch !
+1	Typisch	typisch	_	ADJD	degree=pos	_	_	_	_	B-AP
+2	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 161
+# sent_id(TSV) = 161
+# PTBstring = (VROOT(KLAMMER -)(PP(APPR Mit)(ART dem)(NN Mund))(PUNKT .))
+# text = - Mit dem Mund .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Mit	mit	_	APPR	_	_	_	_	_	B-PP
+3	dem	der	_	ART	case=dat|gender=masc|number=sg	_	_	_	_	I-PP
+4	Mund	Mund	_	NN	case=dat|gender=masc|number=sg	_	_	_	_	I-PP
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 162
+# sent_id(TSV) = 162
+# PTBstring = (VROOT(S(NP(PPOSAT Mein)(NN Autoreifen))(VP(VAFIN ist))(VP(VVPP geplatzt)))(PUNKT .))
+# text = Mein Autoreifen ist geplatzt .
+1	Mein	mein	_	PPOSAT	case=nom|gender=masc|number=sg	_	_	_	_	B-NP
+2	Autoreifen	Autoreifen	_	NN	case=nom|gender=masc|number=sg	4	subj	_	_	I-NP
+3	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	4	aux	_	_	O
+4	geplatzt	platzen	_	VVPP	_	_	_	_	_	O
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 163
+# sent_id(TSV) = 163
+# PTBstring = (VROOT(S(NP(PPOSAT Meine)(NN Allianz))(VP(VAFIN ist))(AVP(ADV vorbei)))(PUNKT .))
+# text = Meine Allianz ist vorbei .
+1	Meine	mein	_	PPOSAT	case=nom|gender=fem|number=sg	_	_	_	_	B-NP
+2	Allianz	Allianz	_	NN	case=nom|gender=fem|number=sg	3	subj	_	_	I-NP
+3	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	O
+4	vorbei	vorbei	_	ADV	_	3	pred	_	_	B-ADVP
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 164
+# sent_id(TSV) = 164
+# PTBstring = (VROOT(NP(PIAT Viel)(NN Glück))(PUNKT .))
+# text = Viel Glück .
+1	Viel	viel	_	PIAT	case=nom|gender=neut|number=sg	_	_	_	_	B-NP
+2	Glück	Glück	_	NN	case=nom|gender=neut|number=sg	_	_	_	_	I-NP
+3	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 165
+# sent_id(TSV) = 165
+# PTBstring = (VROOT(NP(PWS Was))(PUNKT ?))
+# text = Was ?
+1	Was	was	_	PWS	case=nom|gender=neut|number=sg	_	_	_	_	B-NP
+2	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 166
+# sent_id(TSV) = 166
+# PTBstring = (VROOT(NE Dad)(PUNKT !))
+# text = Dad !
+1	Dad	Dad	_	NE	case=nom|gender=masc|number=sg	_	_	_	_	B-NP
+2	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 167
+# sent_id(TSV) = 167
+# PTBstring = (VROOT(S(NP(ART Das)(NN Gute)(PP(PAV daran)))(VP(VAFIN ist))(KOMMA ,)(S(KOUS dass)(NP(PPER ich))(NP(PPOSAT meinen)(NN Fisch))(VP(VVFIN wiedersehe))(PUNKT .))))
+# text = Das Gute daran ist , dass ich meinen Fisch wiedersehe .
+1	Das	der	_	ART	case=nom|gender=neut|number=sg	_	_	_	_	B-NP
+2	Gute	Gute	_	NN	case=nom|gender=neut|number=sg	4	subj	_	_	I-NP
+3	daran	daran	_	PAV	_	_	_	_	_	I-NP
+4	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	O
+5	,	,	_	$,	_	_	_	_	_	O
+6	dass	dass	_	KOUS	_	_	_	_	_	O
+7	ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	10	subj	_	_	B-NP
+8	meinen	mein	_	PPOSAT	case=acc|gender=masc|number=sg	_	_	_	_	B-NP
+9	Fisch	Fisch	_	NN	case=acc|gender=masc|number=sg	10	obj	_	_	I-NP
+10	wiedersehe	wiedersehen	_	VVFIN	person=1|tense=pres|number=sg|mood=ind	4	vsubj	_	_	O
+11	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 168
+# sent_id(TSV) = 168
+# PTBstring = (VROOT(S(ITJ Hey)(KOMMA ,)(NP(PWS was))(VP(VAFIN ist))(AP(ADJD los)))(PUNKT ?))
+# text = Hey , was ist los ?
+1	Hey	hey	_	ITJ	_	_	_	_	_	O
+2	,	,	_	$,	_	_	_	_	_	O
+3	was	was	_	PWS	case=nom|gender=neut|number=sg	4	subj	_	_	B-NP
+4	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	O
+5	los	los	_	PTKVZ	_	_	_	_	_	O
+6	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 169
+# sent_id(TSV) = 169
+# PTBstring = (VROOT(S(NP(PPER Es))(VP(VVFIN spült))(AVP(PTKNEG nicht))(SVP(PTKVZ runter)))(PUNKT .))
+# text = Es spült nicht runter .
+1	Es	es	_	PPER	person=3|case=nom|gender=neut|number=sg	2	subj	_	_	B-NP
+2	spült	spülen	_	VVFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	O
+3	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVP
+4	runter	runter	_	PTKVZ	_	_	_	_	_	O
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 170
+# sent_id(TSV) = 170
+# PTBstring = (VROOT(S(NP(PPER Wir))(VP(VVFIN brauchen))(NP(ART ein)(ADJA größeres)(NN Klo)))(PUNKT .))
+# text = Wir brauchen ein größeres Klo .
+1	Wir	wir	_	PPER	person=1|case=nom|gender=*|number=pl	2	subj	_	_	B-NP
+2	brauchen	brauchen	_	VVFIN	person=1|tense=pres|number=pl|mood=ind	_	_	_	_	O
+3	ein	ein	_	ART	case=acc|gender=neut|number=sg	_	_	_	_	B-NP
+4	größeres	groß	_	ADJA	degree=comp|case=acc|number=sg|gender=neut	_	_	_	_	I-NP
+5	Klo	Klo	_	NN	case=acc|gender=neut|number=sg	2	obj	_	_	I-NP
+6	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 171
+# sent_id(TSV) = 171
+# PTBstring = (VROOT(S(VP(VVIMP Führe))(NP(PPER mich))(PP(APPR zu)(ART dem)(NN Mann)(KOMMA ,))(S:RC(NP(PRELS der))(NP(PPER dich))(VP(VVFIN schickte))(PUNKT .))))
+# text = Führe mich zu dem Mann , der dich schickte .
+1	Führe	führen	_	VVIMP	number=sg	_	_	_	_	O
+2	mich	ich	_	PPER	person=1|case=acc|gender=*|number=sg	1	obj	_	_	B-NP
+3	zu	zu	_	APPR	_	_	_	_	_	B-PP
+4	dem	der	_	ART	case=dat|gender=masc|number=sg	_	_	_	_	I-PP
+5	Mann	Mann	_	NN	case=dat|gender=masc|number=sg	_	_	_	_	I-PP
+6	,	,	_	$,	_	_	_	_	_	I-PP
+7	der	der	_	PRELS	case=nom|gender=masc|number=sg	9	subj	_	_	B-NP
+8	dich	du	_	PPER	person=2|case=acc|gender=*|number=sg	9	obj	_	_	B-NP
+9	schickte	schicken	_	VVFIN	person=3|tense=past|number=sg|mood=ind	_	_	_	_	O
+10	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 172
+# sent_id(TSV) = 172
+# PTBstring = (VROOT(S(NP(PPER Er))(VP(VVFIN erwartet))(NP(PPER dich)))(PUNKT .))
+# text = Er erwartet dich .
+1	Er	er	_	PPER	person=3|case=nom|gender=masc|number=sg	2	subj	_	_	B-NP
+2	erwartet	erwarten	_	VVFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	O
+3	dich	du	_	PPER	person=2|case=acc|gender=*|number=sg	2	obj	_	_	B-NP
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 173
+# sent_id(TSV) = 173
+# PTBstring = (VROOT(KLAMMER -)(S(VP(PWAV Wo))(PUNKT ?)))
+# text = - Wo ?
+1	-	-	_	$(	_	_	_	_	_	O
+2	Wo	wo	_	PWAV	_	_	_	_	_	O
+3	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 174
+# sent_id(TSV) = 174
+# PTBstring = (VROOT(S(NP(PDS Das))(VP(VAFIN wirst))(NP(PPER du))(VP(VVINF sehen)(KOMMA ,)(S(KOUS wenn)(NP(PPER wir))(AVP(PTKNEG nicht))(VP(VVPP verhaftet))(VP(VAFIN werden))(PUNKT .)))))
+# text = Das wirst du sehen , wenn wir nicht verhaftet werden .
+1	Das	der	_	PDS	case=acc|gender=neut|number=sg	4	obj	_	_	B-NP
+2	wirst	werden	_	VAFIN	person=2|tense=pres|number=sg|mood=ind	4	aux	_	_	O
+3	du	du	_	PPER	person=2|case=nom|gender=*|number=sg	4	subj	_	_	B-NP
+4	sehen	sehen	_	VVINF	_	_	_	_	_	O
+5	,	,	_	$,	_	_	_	_	_	O
+6	wenn	wenn	_	KOUS	_	_	_	_	_	O
+7	wir	wir	_	PPER	person=1|case=nom|gender=*|number=pl	9	subj	_	_	B-NP
+8	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVP
+9	verhaftet	verhaften	_	VVPP	_	_	_	_	_	O
+10	werden	werden	_	VAFIN	person=1|tense=pres|number=pl|mood=ind	9	aux	_	_	O
+11	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 175
+# sent_id(TSV) = 175
+# PTBstring = (VROOT(S(AVP(ADV Also))(AVP(ADV los)))(PUNKT .))
+# text = Also los .
+1	Also	also	_	ADV	_	_	_	_	_	B-ADVP
+2	los	los	_	ADV	_	_	_	_	_	B-ADVP
+3	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 176
+# sent_id(TSV) = 176
+# PTBstring = (VROOT(S(NP(PPER Du))(VP(VVFIN gehst))(PP(APPR vor)(PPER mir)))(PUNKT .))
+# text = Du gehst vor mir .
+1	Du	du	_	PPER	person=2|case=nom|gender=*|number=sg	2	subj	_	_	B-NP
+2	gehst	gehen	_	VVFIN	person=2|tense=pres|number=sg|mood=ind	_	_	_	_	O
+3	vor	vor	_	APPR	_	_	_	_	_	B-PP
+4	mir	ich	_	PPER	person=1|case=nom|gender=*|number=sg	_	_	_	_	I-PP
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 177
+# sent_id(TSV) = 177
+# PTBstring = (VROOT(S(NP(PPER Ich))(VP(VVFIN komme))(SVP(PTKVZ nach)))(PUNKT .))
+# text = Ich komme nach .
+1	Ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	2	subj	_	_	B-NP
+2	komme	kommen	_	VVFIN	person=1|tense=pres|number=sg|mood=ind	_	_	_	_	O
+3	nach	nach	_	PTKVZ	_	_	_	_	_	O
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 178
+# sent_id(TSV) = 178
+# PTBstring = (VROOT(S(NP(PDS Das))(VP(VAFIN war))(NP(ART ein)(NN Test)))(PUNKT .))
+# text = Das war ein Test .
+1	Das	der	_	PDS	case=nom|gender=neut|number=sg	2	pred	_	_	B-NP
+2	war	sein	_	VAFIN	person=3|tense=past|number=sg|mood=ind	_	_	_	_	O
+3	ein	ein	_	ART	case=nom|gender=masc|number=sg	_	_	_	_	B-NP
+4	Test	Test	_	NN	case=nom|gender=masc|number=sg	2	subj	_	_	I-NP
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 179
+# sent_id(TSV) = 179
+# PTBstring = (VROOT(S(NP(PPER Du))(VP(VMFIN konntest))(VP(NP(ART ein)(NN Spion))(VAINF sein)))(PUNKT .))
+# text = Du konntest ein Spion sein .
+1	Du	du	_	PPER	person=2|case=nom|gender=*|number=sg	5	subj	_	_	B-NP
+2	konntest	können	_	VMFIN	person=2|tense=past|number=sg|mood=ind	5	aux	_	_	O
+3	ein	ein	_	ART	case=nom|gender=masc|number=sg	_	_	_	_	B-NP
+4	Spion	Spion	_	NN	case=nom|gender=masc|number=sg	5	pred	_	_	I-NP
+5	sein	sein	_	VAINF	_	_	_	_	_	O
+6	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 180
+# sent_id(TSV) = 180
+# PTBstring = (VROOT(S(NP(ART Die)(NN Waffe))(VP(VAFIN war))(AP(ADJD ungeladen)))(PUNKT .))
+# text = Die Waffe war ungeladen .
+1	Die	der	_	ART	case=nom|gender=fem|number=sg	_	_	_	_	B-NP
+2	Waffe	Waffe	_	NN	case=nom|gender=fem|number=sg	3	subj	_	_	I-NP
+3	war	sein	_	VAFIN	person=3|tense=past|number=sg|mood=ind	_	_	_	_	O
+4	ungeladen	ungeladen	_	ADJD	degree=pos	3	pred	_	_	B-AP
+5	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 181
+# sent_id(TSV) = 181
+# PTBstring = (VROOT(KLAMMER -)(S(VP(VVIMP Kommen))(NP(PPER Sie)))(PUNKT .))
+# text = - Kommen Sie .
+1	-	-	_	$(	_	_	_	_	_	O
+2	Kommen	kommen	_	VVIMP	number=pl	_	_	_	_	O
+3	Sie	Sie	_	PPER	person=3|case=nom|gender=*|number=sg	2	subj	_	_	B-NP
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 182
+# sent_id(TSV) = 182
+# PTBstring = (VROOT(CS(S(VP(VAIMP Seien)))(S(NP(PPER Sie))(AP(ADJD außergewöhnlich))(PUNKT .))))
+# text = Seien Sie außergewöhnlich .
+1	Seien	sein	_	VAIMP	number=pl	_	_	_	_	O
+2	Sie	Sie	_	PPER	person=3|case=nom|gender=*|number=sg	1	subj	_	_	B-NP
+3	außergewöhnlich	außergewöhnlich	_	ADJD	degree=pos	1	pred	_	_	B-AP
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 183
+# sent_id(TSV) = 183
+# PTBstring = (VROOT(S(NP(NE Oh))(KOMMA ,)(NP(PPER Sie))(KLAMMER ...)))
+# text = Oh , Sie ...
+1	Oh	oh	_	ITJ	_	_	_	_	_	B-NP
+2	,	,	_	$,	_	_	_	_	_	O
+3	Sie	Sie	_	PPER	person=3|case=nom|gender=*|number=sg	_	_	_	_	B-NP
+4	...	...	_	$.	_	_	_	_	_	O
+
+# sent_id = 184
+# sent_id(TSV) = 184
+# PTBstring = (VROOT(ADV Okay)(PUNKT .))
+# text = Okay .
+1	Okay	okay	_	ADV	_	_	_	_	_	B-ADVP
+2	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 185
+# sent_id(TSV) = 185
+# PTBstring = (VROOT(VP(KOUI Um)(NP(ART die)(NN Dinge))(VZ(PTKZU zu)(VVINF ordnen)(PUNKT :))))
+# text = Um die Dinge zu ordnen :
+1	Um	um	_	KOUI	_	_	_	_	_	O
+2	die	der	_	ART	case=acc|gender=neut|number=pl	_	_	_	_	B-NP
+3	Dinge	Ding	_	NN	case=acc|gender=neut|number=pl	5	obj	_	_	I-NP
+4	zu	zu	_	PTKZU	_	_	_	_	_	O
+5	ordnen	ordnen	_	VVINF	_	_	_	_	_	O
+6	:	:	_	$.	_	_	_	_	_	O
+
+# sent_id = 186
+# sent_id(TSV) = 186
+# PTBstring = (VROOT(S(NP(ART Das)(ADJA erste)(NN Treffen)(PP(APPR von)(CNP(PN(NP(NN Vertretern)(NP(ART der)(ADJA menschlichen)(NN Spezies))))(KON und)(PN(FM Homo)(FM Reptilia)))))(VP(VAFIN wird))(VP(ADV jetzt)(VVPP abgehalten)))(PUNKT .))
+# text = Das erste Treffen von Vertretern der menschlichen Spezies und Homo Reptilia wird jetzt abgehalten .
+1	Das	der	_	ART	case=nom|gender=neut|number=sg	_	_	_	_	B-NP
+2	erste	erster	_	ADJA	degree=pos|case=nom|number=sg|gender=neut	_	_	_	_	I-NP
+3	Treffen	Treffen	_	NN	case=nom|gender=neut|number=sg	14	subj	_	_	I-NP
+4	von	von	_	APPR	_	_	_	_	_	I-NP
+5	Vertretern	Vertreter	_	NN	case=dat|gender=masc|number=pl	_	_	_	_	I-NP
+6	der	der	_	ART	case=gen|gender=fem|number=pl	_	_	_	_	I-NP
+7	menschlichen	menschlich	_	ADJA	degree=pos|case=gen|number=pl|gender=fem	_	_	_	_	I-NP
+8	Spezies	Spezies	_	NN	case=gen|gender=fem|number=pl	_	_	_	_	I-NP
+9	und	und	_	KON	_	_	_	_	_	I-NP
+10	Homo	Homo	_	FM	_	_	_	_	_	I-NP
+11	Reptilia	Reptilia	_	FM	_	_	_	_	_	I-NP
+12	wird	werden	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	14	aux	_	_	O
+13	jetzt	jetzt	_	ADV	_	_	_	_	_	B-ADVP
+14	abgehalten	abhalten	_	VVPP	_	_	_	_	_	O
+15	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 187
+# sent_id(TSV) = 187
+# PTBstring = (VROOT(S(NP(PDS Das))(VP(VAFIN habe))(NP(PPER ich))(VP(AVP(ADV noch)(ADV nie))(VVPP gesagt)(KOMMA ,)(S:OC(NP(PDS dass))(VP(VAFIN ist))(AP(ADJD toll))(PUNKT !)))))
+# text = Das habe ich noch nie gesagt , dass ist toll !
+1	Das	der	_	PDS	case=acc|gender=neut|number=sg	6	obj	_	_	B-NP
+2	habe	haben	_	VAFIN	person=1|tense=pres|number=sg|mood=ind	6	aux	_	_	O
+3	ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	6	subj	_	_	B-NP
+4	noch	noch	_	ADV	_	_	_	_	_	B-ADVP
+5	nie	nie	_	ADV	_	_	_	_	_	I-ADVP
+6	gesagt	sagen	_	VVPP	_	_	_	_	_	O
+7	,	,	_	$,	_	_	_	_	_	O
+8	dass	der	_	PDS	case=nom|gender=neut|number=sg	9	subj	_	_	B-NP
+9	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	O
+10	toll	toll	_	ADJD	degree=pos	9	pred	_	_	B-AP
+11	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 188
+# sent_id(TSV) = 188
+# PTBstring = (VROOT(S(VP(VVIMP Machen))(NP(PPER wir))(SVP(PTKVZ weiter)))(PUNKT !))
+# text = Machen wir weiter !
+1	Machen	machen	_	VVIMP	number=pl	_	_	_	_	O
+2	wir	wir	_	PPER	person=1|case=nom|gender=*|number=pl	1	subj	_	_	B-NP
+3	weiter	weiter	_	PTKVZ	_	_	_	_	_	O
+4	!	!	_	$.	_	_	_	_	_	O
+
+# sent_id = 189
+# sent_id(TSV) = 189
+# PTBstring = (VROOT(S(AVP(ADV Nun))(KOMMA ,)(S:OC(NP(NE Mo))(KOMMA ,))(VP(VVIMP gehen))(NP(PPER wir))(VP(NP(PPOSAT Ihren)(NN Sohn))(VVINF holen)))(PUNKT .))
+# text = Nun , Mo , gehen wir Ihren Sohn holen .
+1	Nun	nun	_	ADV	_	_	_	_	_	B-ADVP
+2	,	,	_	$,	_	_	_	_	_	O
+3	Mo	Mo	_	NE	case=nom|gender=masc|number=sg	_	_	_	_	B-NP
+4	,	,	_	$,	_	_	_	_	_	O
+5	gehen	gehen	_	VVIMP	number=pl	_	_	_	_	O
+6	wir	wir	_	PPER	person=1|case=nom|gender=*|number=pl	5	subj	_	_	B-NP
+7	Ihren	Ihr	_	PPOSAT	case=acc|gender=masc|number=sg	_	_	_	_	B-NP
+8	Sohn	Sohn	_	NN	case=acc|gender=masc|number=sg	9	obj	_	_	I-NP
+9	holen	holen	_	VVINF	_	5	vobj	_	_	O
+10	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 190
+# sent_id(TSV) = 190
+# PTBstring = (VROOT(AP(ITJ Ach)(KOMMA ,)(AVP(CS(S(VP(VVFIN wissen))(NP(PPER Sie))(KOMMA ,)(NP(NN Menschen)))(KON und)(S(NP(PPOSAT ihre)(NN Vorgänger))(VP(VVFIN unterhalten))(NP(PRF sich))))(ADV ganz))(ADJD gemütlich))(PUNKT .))
+# text = Ach , wissen Sie , Menschen und ihre Vorgänger unterhalten sich ganz gemütlich .
+1	Ach	ach	_	ITJ	_	_	_	_	_	B-AP
+2	,	,	_	$,	_	_	_	_	_	I-AP
+3	wissen	wissen	_	VVFIN	person=3|tense=pres|number=pl|mood=ind	_	_	_	_	I-AP
+4	Sie	Sie	_	PPER	person=3|case=nom|gender=*|number=sg	3	subj	_	_	I-AP
+5	,	,	_	$,	_	_	_	_	_	I-AP
+6	Menschen	Mensch	_	NN	case=nom|gender=masc|number=pl	10	subj	_	_	I-AP
+7	und	und	_	KON	_	_	_	_	_	I-AP
+8	ihre	ihr	_	PPOSAT	case=nom|gender=masc|number=pl	_	_	_	_	I-AP
+9	Vorgänger	Vorgänger	_	NN	case=nom|gender=masc|number=pl	_	_	_	_	I-AP
+10	unterhalten	unterhalten	_	VVFIN	person=3|tense=pres|number=pl|mood=ind	3	vobj	_	_	I-AP
+11	sich	sich	_	PRF	person=3|case=acc|number=pl	10	obj	_	_	I-AP
+12	ganz	ganz	_	ADV	_	_	_	_	_	I-AP
+13	gemütlich	gemütlich	_	ADJD	degree=pos	_	_	_	_	I-AP
+14	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 191
+# sent_id(TSV) = 191
+# PTBstring = (VROOT(ADV Niemals)(PUNKT .))
+# text = Niemals .
+1	Niemals	niemals	_	ADV	_	_	_	_	_	B-ADVP
+2	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 192
+# sent_id(TSV) = 192
+# PTBstring = (VROOT(S(S(KOUS Wenn)(NP(PPER er))(VP(VVFIN lügt))(KOMMA ,))(VP(VAFIN haben))(NP(PPER Sie))(NP(PIS nichts))(VZ(PTKZU zu)(VVINF befürchten)(PUNKT .))))
+# text = Wenn er lügt , haben Sie nichts zu befürchten .
+1	Wenn	wenn	_	KOUS	_	_	_	_	_	O
+2	er	er	_	PPER	person=3|case=nom|gender=masc|number=sg	3	subj	_	_	B-NP
+3	lügt	lügen	_	VVFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	O
+4	,	,	_	$,	_	_	_	_	_	O
+5	haben	haben	_	VAFIN	person=3|tense=pres|number=pl|mood=ind	9	aux	_	_	O
+6	Sie	Sie	_	PPER	person=3|case=nom|gender=*|number=sg	9	subj	_	_	B-NP
+7	nichts	nichts	_	PIS	case=*|gender=neut|number=*	9	obj	_	_	B-NP
+8	zu	zu	_	PTKZU	_	_	_	_	_	O
+9	befürchten	befürchten	_	VVINF	_	_	_	_	_	O
+10	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 193
+# sent_id(TSV) = 193
+# PTBstring = (VROOT(S(NP(NE Kahless))(VP(VAFIN ist))(PP(APPR seit)(CARD 1.000)(NN Jahren))(AP(ADJD tot)))(PUNKT .))
+# text = Kahless ist seit 1.000 Jahren tot .
+1	Kahless	Kahless	_	NE	case=nom|gender=masc|number=sg	2	subj	_	_	B-NP
+2	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	O
+3	seit	seit	_	APPR	_	_	_	_	_	B-PP
+4	1.000	1.000	_	CARD	_	_	_	_	_	I-PP
+5	Jahren	Jahr	_	NN	case=dat|gender=neut|number=pl	_	_	_	_	I-PP
+6	tot	tot	_	ADJD	degree=pos	2	pred	_	_	B-AP
+7	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 194
+# sent_id(TSV) = 194
+# PTBstring = (VROOT(S(KON Aber)(NP(PPOSAT sein)(NN Geist))(VP(VAFIN ist))(AP(ADV noch)(ADJD lebendig)))(PUNKT .))
+# text = Aber sein Geist ist noch lebendig .
+1	Aber	aber	_	KON	_	_	_	_	_	O
+2	sein	sein	_	PPOSAT	case=nom|gender=masc|number=sg	_	_	_	_	B-NP
+3	Geist	Geist	_	NN	case=nom|gender=masc|number=sg	4	subj	_	_	I-NP
+4	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	O
+5	noch	noch	_	ADV	_	_	_	_	_	B-AP
+6	lebendig	lebendig	_	ADJD	degree=pos	4	pred	_	_	I-AP
+7	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 195
+# sent_id(TSV) = 195
+# PTBstring = (VROOT(S(VP(VAFIN Haben))(NP(PPER Sie))(VP(ADV je)(NP(ART einen)(NN Geist))(VVPP bekämpft)))(PUNKT ?))
+# text = Haben Sie je einen Geist bekämpft ?
+1	Haben	haben	_	VAFIN	person=3|tense=pres|number=pl|mood=ind	6	aux	_	_	O
+2	Sie	Sie	_	PPER	person=3|case=nom|gender=*|number=sg	6	subj	_	_	B-NP
+3	je	je	_	ADV	_	_	_	_	_	B-ADVP
+4	einen	ein	_	ART	case=acc|gender=masc|number=sg	_	_	_	_	B-NP
+5	Geist	Geist	_	NN	case=acc|gender=masc|number=sg	6	obj	_	_	I-NP
+6	bekämpft	bekämpfen	_	VVPP	_	_	_	_	_	O
+7	?	?	_	$.	_	_	_	_	_	O
+
+# sent_id = 196
+# sent_id(TSV) = 196
+# PTBstring = (VROOT(S(NP(PIAT Keine)(NN Waffe))(VP(VMFIN kann))(VP(PPER ihn)(VVINF vernichten)))(PUNKT .))
+# text = Keine Waffe kann ihn vernichten .
+1	Keine	kein	_	PIAT	case=nom|gender=fem|number=sg	_	_	_	_	B-NP
+2	Waffe	Waffe	_	NN	case=nom|gender=fem|number=sg	5	subj	_	_	I-NP
+3	kann	können	_	VMFIN	person=3|tense=pres|number=sg|mood=ind	5	aux	_	_	O
+4	ihn	er	_	PPER	person=3|case=acc|gender=masc|number=sg	5	obj	_	_	B-NP
+5	vernichten	vernichten	_	VVINF	_	_	_	_	_	O
+6	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 197
+# sent_id(TSV) = 197
+# PTBstring = (VROOT(CS(S(NP(ART Der)(NN Geist)(PP(APPR von)(NE Kahless)))(VP(VMFIN muss))(AVP(ADV aber))(VP(VP(ADV sofort)(VVPP ausgemerzt))(VAINF werden)(KOMMA ,)))(KON oder)(S(NP(PPER er))(VP(VAFIN wird))(VP(PRF sich)(NP(KOKOM wie)(ART eine)(NN Welle)(PP(APPRART im)(NN Reich)))(VVINF verbreiten)(KOMMA ,)))(KON und)(S(VP(VVINF bleiben))(VP(VAFIN wird))(NP(PIS nichts)(NP(KOKOM als)(ART eine)(ADJA öde)(NN Wüste)))(PUNKT .))))
+# text = Der Geist von Kahless muss aber sofort ausgemerzt werden , oder er wird sich wie eine Welle im Reich verbreiten , und bleiben wird nichts als eine öde Wüste .
+1	Der	der	_	ART	case=nom|gender=masc|number=sg	_	_	_	_	B-NP
+2	Geist	Geist	_	NN	case=nom|gender=masc|number=sg	8	subj	_	_	I-NP
+3	von	von	_	APPR	_	_	_	_	_	I-NP
+4	Kahless	Kahless	_	NE	case=dat|gender=masc|number=sg	_	_	_	_	I-NP
+5	muss	müssen	_	VMFIN	person=3|tense=pres|number=sg|mood=ind	8	aux	_	_	O
+6	aber	aber	_	ADV	_	_	_	_	_	B-ADVP
+7	sofort	sofort	_	ADV	_	_	_	_	_	B-ADVP
+8	ausgemerzt	ausmerzen	_	VVPP	_	_	_	_	_	O
+9	werden	werden	_	VAINF	_	8	aux	_	_	O
+10	,	,	_	$,	_	_	_	_	_	O
+11	oder	oder	_	KON	_	_	_	_	_	O
+12	er	er	_	PPER	person=3|case=nom|gender=masc|number=sg	20	subj	_	_	B-NP
+13	wird	werden	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	20	aux	_	_	O
+14	sich	sich	_	PRF	person=3|case=acc|number=sg	20	obj	_	_	B-NP
+15	wie	wie	_	KOKOM	_	_	_	_	_	B-NP
+16	eine	ein	_	ART	case=nom|gender=fem|number=sg	_	_	_	_	I-NP
+17	Welle	Welle	_	NN	case=nom|gender=fem|number=sg	_	_	_	_	I-NP
+18	im	in	_	APPRART	gender=neut|case=dat	_	_	_	_	I-NP
+19	Reich	Reich	_	NN	case=dat|gender=neut|number=sg	_	_	_	_	I-NP
+20	verbreiten	verbreiten	_	VVINF	_	_	_	_	_	O
+21	,	,	_	$,	_	_	_	_	_	O
+22	und	und	_	KON	_	_	_	_	_	O
+23	bleiben	bleiben	_	VVINF	_	_	_	_	_	O
+24	wird	werden	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	23	aux	_	_	O
+25	nichts	nichts	_	PIS	case=*|gender=neut|number=*	23	subj	_	_	B-NP
+26	als	als	_	KOKOM	_	_	_	_	_	I-NP
+27	eine	ein	_	ART	case=nom|gender=fem|number=sg	_	_	_	_	I-NP
+28	öde	öde	_	ADJA	degree=pos|case=nom|number=sg|gender=fem	_	_	_	_	I-NP
+29	Wüste	Wüste	_	NN	case=nom|gender=fem|number=sg	_	_	_	_	I-NP
+30	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 198
+# sent_id(TSV) = 198
+# PTBstring = (VROOT(S(NP(NE Gowron))(VP(VAFIN ist))(VP(ADV also)(PP(APPR an)(NN Bord))(VVPP gekommen)(KOMMA ,)(VP(KOUI um)(NP(PPOSAT Ihren)(NN Anspruch))(VZ(PTKZU zu)(VVINF prüfen)(PUNKT .))))))
+# text = Gowron ist also an Bord gekommen , um Ihren Anspruch zu prüfen .
+1	Gowron	Gowron	_	NE	case=nom|gender=masc|number=sg	6	subj	_	_	B-NP
+2	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	6	aux	_	_	O
+3	also	also	_	ADV	_	_	_	_	_	B-ADVP
+4	an	an	_	APPR	_	_	_	_	_	B-PP
+5	Bord	Bord	_	NN	case=acc|gender=neut|number=sg	_	_	_	_	I-PP
+6	gekommen	kommen	_	VVPP	_	_	_	_	_	O
+7	,	,	_	$,	_	_	_	_	_	O
+8	um	um	_	KOUI	_	_	_	_	_	O
+9	Ihren	Ihr	_	PPOSAT	case=acc|gender=masc|number=sg	_	_	_	_	B-NP
+10	Anspruch	Anspruch	_	NN	case=acc|gender=masc|number=sg	12	obj	_	_	I-NP
+11	zu	zu	_	PTKZU	_	_	_	_	_	O
+12	prüfen	prüfen	_	VVINF	_	_	_	_	_	O
+13	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 199
+# sent_id(TSV) = 199
+# PTBstring = (VROOT(S(NP(NE Gowron))(VP(VVFIN weiß))(KOMMA ,)(S:OC(NP(PPOSAT seine)(NN Tage))(VP(VAFIN sind))(VP(VVPP gezählt))(PUNKT .))))
+# text = Gowron weiß , seine Tage sind gezählt .
+1	Gowron	Gowron	_	NE	case=nom|gender=masc|number=sg	2	subj	_	_	B-NP
+2	weiß	wissen	_	VVFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	O
+3	,	,	_	$,	_	_	_	_	_	O
+4	seine	sein	_	PPOSAT	case=nom|gender=masc|number=pl	_	_	_	_	B-NP
+5	Tage	Tag	_	NN	case=nom|gender=masc|number=pl	7	subj	_	_	I-NP
+6	sind	sein	_	VAFIN	person=3|tense=pres|number=pl|mood=ind	7	aux	_	_	O
+7	gezählt	zählen	_	VVPP	_	2	vobj	_	_	O
+8	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 200
+# sent_id(TSV) = 200
+# PTBstring = (VROOT(S(AVP(ADV Also))(VP(VVFIN kommt))(NP(PPER er))(PP(APPR mit)(ART einem)(ADJA läppischen)(NN Test))(PP(PAV daher)))(PUNKT .))
+# text = Also kommt er mit einem läppischen Test daher .
+1	Also	also	_	ADV	_	_	_	_	_	B-ADVP
+2	kommt	kommen	_	VVFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	O
+3	er	er	_	PPER	person=3|case=nom|gender=masc|number=sg	2	subj	_	_	B-NP
+4	mit	mit	_	APPR	_	_	_	_	_	B-PP
+5	einem	ein	_	ART	case=dat|gender=masc|number=sg	_	_	_	_	I-PP
+6	läppischen	läppisch	_	ADJA	degree=pos|case=dat|number=sg|gender=masc	_	_	_	_	I-PP
+7	Test	Test	_	NN	case=dat|gender=masc|number=sg	_	_	_	_	I-PP
+8	daher	daher	_	PAV	_	_	_	_	_	B-PP
+9	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 201
+# sent_id(TSV) = 201
+# PTBstring = (VROOT(S(NP(PDS Das))(VP(VAFIN hat))(NP(PIS was)))(PUNKT .))
+# text = Das hat was .
+1	Das	der	_	PDS	case=nom|gender=neut|number=sg	2	subj	_	_	B-NP
+2	hat	haben	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	O
+3	was	was	_	PIS	case=acc|gender=neut|number=sg	2	obj	_	_	B-NP
+4	.	.	_	$.	_	_	_	_	_	O
+
+# sent_id = 202
+# sent_id(TSV) = 202
+# PTBstring = (VROOT(S(KON Aber)(VP(VVIMP denk))(PP(PAV dran))(S:OC(NP(PPER du))(VP(VAFIN bist))(AP(PTKNEG nicht)(ADV wirklich)(ADJD sauer)(PP(APPR wegen)(ART der)(NN schnurrbarthaare)(PUNKT .))))))
+# text = Aber denk dran du bist nicht wirklich sauer wegen der schnurrbarthaare .
+1	Aber	aber	_	KON	_	_	_	_	_	O
+2	denk	denken	_	VVIMP	number=sg	_	_	_	_	O
+3	dran	dran	_	PAV	_	2	pobj	_	_	B-PP
+4	du	du	_	PPER	person=2|case=nom|gender=*|number=sg	5	subj	_	_	B-NP
+5	bist	sein	_	VAFIN	person=2|tense=pres|number=sg|mood=ind	_	_	_	_	O
+6	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-AP
+7	wirklich	wirklich	_	ADV	_	_	_	_	_	I-AP
+8	sauer	sauer	_	ADJD	degree=pos	5	pred	_	_	I-AP
+9	wegen	wegen	_	APPR	_	_	_	_	_	I-AP
+10	der	der	_	ART	case=gen|gender=neut|number=pl	_	_	_	_	I-AP
+11	schnurrbarthaare	Schnurrbarthaar	_	NN	case=gen|gender=neut|number=pl	_	_	_	_	I-AP
+12	.	.	_	$.	_	_	_	_	_	I-AP
+
+# sent_id = 203
+# sent_id(TSV) = 203
+# PTBstring = (VROOT(S(NP(PPER Du))(VP(VAFIN bist))(AP(ADJD sauer))(CS(S(KOUS weil)(NP(PPER ich))(NP(PPER dir))(AVP(PTKNEG nicht))(VP(VVFIN zuhöre))(KOMMA ,))(S(NP(PPOSAT deine)(NN Freunde))(AVP(PTKNEG nicht))(VP(VMFIN mag)))(KON und)(S(PP(APPR über)(PPOSAT deine)(NN Mutter))(VP(VVFIN läster))(PUNKT .)))))
+# text = Du bist sauer weil ich dir nicht zuhöre , deine Freunde nicht mag und über deine Mutter läster .
+1	Du	du	_	PPER	person=2|case=nom|gender=*|number=sg	2	subj	_	_	B-NP
+2	bist	sein	_	VAFIN	person=2|tense=pres|number=sg|mood=ind	_	_	_	_	O
+3	sauer	sauer	_	ADJD	degree=pos	2	pred	_	_	B-AP
+4	weil	weil	_	KOUS	_	_	_	_	_	O
+5	ich	ich	_	PPER	person=1|case=nom|gender=*|number=sg	8	subj	_	_	B-NP
+6	dir	du	_	PPER	person=2|case=dat|gender=*|number=sg	8	iobj	_	_	B-NP
+7	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVP
+8	zuhöre	zuhören	_	VVFIN	person=1|tense=pres|number=sg|mood=ind	_	_	_	_	O
+9	,	,	_	$,	_	_	_	_	_	O
+10	deine	dein	_	PPOSAT	case=acc|gender=masc|number=pl	_	_	_	_	B-NP
+11	Freunde	Freund	_	NN	case=acc|gender=masc|number=pl	13	obj	_	_	I-NP
+12	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVP
+13	mag	mögen	_	VMFIN	person=1|tense=pres|number=sg|mood=ind	_	_	_	_	O
+14	und	und	_	KON	_	_	_	_	_	O
+15	über	über	_	APPR	_	17	pcase	_	_	B-PP
+16	deine	dein	_	PPOSAT	case=acc|gender=fem|number=sg	_	_	_	_	I-PP
+17	Mutter	Mutter	_	NN	case=acc|gender=fem|number=sg	18	pobj	_	_	I-PP
+18	läster	lästern	_	VVFIN	person=1|tense=pres|number=sg|mood=ind	_	_	_	_	O
+19	.	.	_	$.	_	_	_	_	_	O

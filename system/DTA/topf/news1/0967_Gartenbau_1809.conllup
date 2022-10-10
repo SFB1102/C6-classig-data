@@ -1,0 +1,476 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CharOffset DTA:ID DTA:NORM POS TOPF
+# sent_id = 1
+# sent_id(TSV) = 1
+# TopFString = (VROOT(ADJA Vollſtändige)(NN Pomologie)(KON und)(ADV zugleich)(ADJA ſyſtematiſches)(KOMMA ,)(ADJD richtig)(KON und)(ADJD ausführlich)(ADJA beſchreibendes)(NN Verzeichnis)(ART der)(ADJA vornehmſten)(NN Sorten)(ART des)(TRUNC Kern-)(KON und)(NN Steinobſtes)(KOMMA ,)(TRUNC Schalen-)(KON und)(NN Beerenobſtes)(ART der)(ADJA Chriſt'ſchen)(NN Baumſchulen)(APPR zu)(NE Kronberg)(KOMMA ,)(APPR mit)(ADJA ausgemahlten)(NN Kupfern)(ART der)(NN Obſtſorten)(KOMMA ,)(ADV theils)(APPR in)(TRUNC Miniatur-)(KON und)(ADV theils)(APPR in)(NN Naturgröße)(KOMMA ,)(APPR von)(NE Johann)(NE Ludwig)(NE Chriſt)(KOMMA ,)(NN Past.)(ADJD prim.)(APPR zu)(NE Kronberg)(APPR an)(ART der)(NN Höhe)(APPR bey)(NE Frankf.)(APPRART a.)(NE M.))
+# text = Vollſtändige Pomologie und zugleich ſyſtematiſches , richtig und ausführlich beſchreibendes Verzeichnis der vornehmſten Sorten des Kern- und Steinobſtes , Schalen- und Beerenobſtes der Chriſt'ſchen Baumſchulen zu Kronberg , mit ausgemahlten Kupfern der Obſtſorten , theils in Miniatur- und theils in Naturgröße , von Johann Ludwig Chriſt , Past. prim. zu Kronberg an der Höhe bey Frankf. a. M. ,
+1	Vollſtändige	vollständig	_	ADJA	_	_	_	_	_	0-12	w1	Vollständige	*	O
+2	Pomologie	Pomologie	_	NN	_	_	_	_	_	13-22	w2	Pomologie	*	O
+3	und	und	_	KON	_	_	_	_	_	23-26	w3	und	*	O
+4	zugleich	zugleich	_	ADV	_	_	_	_	_	27-35	w4	zugleich	*	O
+5	ſyſtematiſches	systematisch	_	ADJA	_	_	_	_	_	36-50	w5	systematisches	*	O
+6	,	,	_	$,	_	_	_	_	_	51-52	w6	,	*	O
+7	richtig	richtig	_	ADJD	_	_	_	_	_	53-60	w7	richtig	*	O
+8	und	und	_	KON	_	_	_	_	_	61-64	w8	und	*	O
+9	ausführlich	ausführlich	_	ADJD	_	_	_	_	_	65-76	w9	ausführlich	*	O
+10	beſchreibendes	beschreibend	_	ADJA	_	_	_	_	_	77-91	wa	beschreibendes	*	O
+11	Verzeichnis	Verzeichnis	_	NN	_	_	_	_	_	92-103	wb	Verzeichnis	*	O
+12	der	d	_	ART	_	_	_	_	_	104-107	wc	der	*	O
+13	vornehmſten	vornehm	_	ADJA	_	_	_	_	_	108-119	wd	vornehmsten	*	O
+14	Sorten	Sorte	_	NN	_	_	_	_	_	120-126	we	Sorten	*	O
+15	des	d	_	ART	_	_	_	_	_	127-130	wf	des	*	O
+16	Kern-	kern-	_	TRUNC	_	_	_	_	_	131-136	w10	Kern-	*	O
+17	und	und	_	KON	_	_	_	_	_	137-140	w11	und	*	O
+18	Steinobſtes	Steinobst	_	NN	_	_	_	_	_	141-152	w12	Steinobstes	*	O
+19	,	,	_	$,	_	_	_	_	_	153-154	w13	,	*	O
+20	Schalen-	schalen-	_	TRUNC	_	_	_	_	_	155-163	w14	Schalen-	*	O
+21	und	und	_	KON	_	_	_	_	_	164-167	w15	und	*	O
+22	Beerenobſtes	Beerenobst	_	NN	_	_	_	_	_	168-180	w16	Beerenobstes	*	O
+23	der	d	_	ART	_	_	_	_	_	181-184	w17	der	*	O
+24	Chriſt'ſchen	Christesche	_	ADJA	_	_	_	_	_	185-197	w18,w18_1	Christeschen	*	O
+25	Baumſchulen	Baumschule	_	NN	_	_	_	_	_	198-209	w19	Baumschulen	*	O
+26	zu	zu	_	APPR	_	_	_	_	_	210-212	w1a	zu	*	O
+27	Kronberg	Kronberg	_	NE	_	_	_	_	_	213-221	w1b	Kronberg	*	O
+28	,	,	_	$,	_	_	_	_	_	222-223	w1c	,	*	O
+29	mit	mit	_	APPR	_	_	_	_	_	224-227	w1d	mit	*	O
+30	ausgemahlten	ausgemalt	_	ADJA	_	_	_	_	_	228-240	w1e	ausgemalten	*	O
+31	Kupfern	Kupfer	_	NN	_	_	_	_	_	241-248	w1f	Kupfern	*	O
+32	der	d	_	ART	_	_	_	_	_	249-252	w20	der	*	O
+33	Obſtſorten	Obstsorte	_	NN	_	_	_	_	_	253-263	w21	Obstsorten	*	O
+34	,	,	_	$,	_	_	_	_	_	264-265	w22	,	*	O
+35	theils	teils	_	ADV	_	_	_	_	_	266-272	w23	teils	*	O
+36	in	in	_	APPR	_	_	_	_	_	273-275	w24	in	*	O
+37	Miniatur-	miniatur-	_	TRUNC	_	_	_	_	_	276-285	w25	Miniatur-	*	O
+38	und	und	_	KON	_	_	_	_	_	286-289	w26	und	*	O
+39	theils	teils	_	ADV	_	_	_	_	_	290-296	w27	teils	*	O
+40	in	in	_	APPR	_	_	_	_	_	297-299	w28	in	*	O
+41	Naturgröße	Naturgröße	_	NN	_	_	_	_	_	300-310	w29	Naturgröße	*	O
+42	,	,	_	$,	_	_	_	_	_	311-312	w2a	,	*	O
+43	von	von	_	APPR	_	_	_	_	_	313-316	w2b	von	*	O
+44	Johann	Johann	_	NE	_	_	_	_	_	317-323	w2c	Johann	*	O
+45	Ludwig	Ludwig	_	NE	_	_	_	_	_	324-330	w2d	Ludwig	*	O
+46	Chriſt	Christ	_	NE	_	_	_	_	_	331-337	w2e	Christ	*	O
+47	,	,	_	$,	_	_	_	_	_	338-339	w2f	,	*	O
+48	Past.	Past.	_	NN	_	_	_	_	_	340-345	w30	Past.	*	O
+49	prim.	Prim.	_	ADJD	_	_	_	_	_	346-351	w31	prim.	*	O
+50	zu	zu	_	APPR	_	_	_	_	_	352-354	w32	zu	*	O
+51	Kronberg	Kronberg	_	NE	_	_	_	_	_	355-363	w33	Kronberg	*	O
+52	an	an	_	APPR	_	_	_	_	_	364-366	w34	an	*	O
+53	der	d	_	ART	_	_	_	_	_	367-370	w35	der	*	O
+54	Höhe	Höhe	_	NN	_	_	_	_	_	371-375	w36	Höhe	*	O
+55	bey	bei	_	APPR	_	_	_	_	_	376-379	w37	bei	*	O
+56	Frankf.	Frankf.	_	NE	_	_	_	_	_	380-387	w38	Frankf.	*	O
+57	a.	a.	_	APPRART	_	_	_	_	_	388-390	w39	a.	*	O
+58	M.	M.	_	NE	_	_	_	_	_	391-393	w3a	M.	*	O
+59	,	,	_	$,	_	_	_	_	_	394-395	w3b	,	*	O
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# TopFString = (VROOT(ART der)(ADJA königl.)(ADJA kurfürſtl.)(NN Land-<lb/>wirthſchaftsgeſellſch)(PUNKT .)(APPR zu)(NE Zelle)(ART der)(ADJA königl.)(ADJA preuß.)(ADJA ökon.)(NN Geſellſch.)(APPR zu)(NE Potsdam)(KOKOM wie)(ADV auch)(ART der)(ADJA ruſſiſch.)(ADJA kaiſ.)(ADJA Liefländ.)(ADJA ökon.)(NN Societät)(APPR in)(NE Riga)(ART der)(NN Geſellſch.)(ART des)(NN Ackerbaues)(KOMMA ,)(ART der)(NN Wiſſenſch.)(APPR u.)(NN Künſte)(ART des)(ADJA Niederrhein)(NN Depart)(PUNKT .)(APPR zu)(NE Straßburg)(ART der)(ADJA Wetterauiſchen)(NN Geſellſch.)(APPR für)(ART die)(ADJA geſammte)(NN Naturkunde)(APPR zu)(NE Hanau)(KOMMA ,)(KON u.)(ART der)(ADJA Altenburgiſchen)(ADJA pomolog.)(NN Geſellſch.)(NN Ehren-Mitgliede))
+# text = der königl. kurfürſtl. Land-<lb/>wirthſchaftsgeſellſch . zu Zelle : der königl. preuß. ökon. Geſellſch. zu Potsdam : wie auch der ruſſiſch. kaiſ. Liefländ. ökon. Societät in Riga : der Geſellſch. des Ackerbaues , der Wiſſenſch. u. Künſte des Niederrhein . Depart . zu Straßburg : der Wetterauiſchen Geſellſch. für die geſammte Naturkunde zu Hanau , u. der Altenburgiſchen pomolog. Geſellſch. Ehren-Mitgliede .
+1	der	d	_	ART	_	_	_	_	_	397-400	w3c	der	*	O
+2	königl.	Königl.	_	ADJA	_	_	_	_	_	401-408	w3d	königl.	*	O
+3	kurfürſtl.	Kurfürstl.	_	ADJA	_	_	_	_	_	409-419	w3e	kurfürstl.	*	O
+4	Land-<lb/>wirthſchaftsgeſellſch	Landwirthschaftsgesellsch	_	NN	_	_	_	_	_	420-451	w3f	Landwirthschaftsgesellsch	*	O
+5	.	.	_	$.	_	_	_	_	_	452-453	w40	.	*	O
+6	zu	zu	_	APPR	_	_	_	_	_	454-456	w41	zu	*	O
+7	Zelle	Zelle	_	NE	_	_	_	_	_	457-462	w42	Zelle	*	O
+8	:	:	_	$.	_	_	_	_	_	463-464	w43	:	*	O
+9	der	d	_	ART	_	_	_	_	_	465-468	w44	der	*	O
+10	königl.	Königl.	_	ADJA	_	_	_	_	_	469-476	w45	königl.	*	O
+11	preuß.	Preuß.	_	ADJA	_	_	_	_	_	477-483	w46	preuß.	*	O
+12	ökon.	Ökon.	_	ADJA	_	_	_	_	_	484-489	w47	ökon.	*	O
+13	Geſellſch.	Gesellsch.	_	NN	_	_	_	_	_	490-500	w48	Gesellsch.	*	O
+14	zu	zu	_	APPR	_	_	_	_	_	501-503	w49	zu	*	O
+15	Potsdam	Potsdam	_	NE	_	_	_	_	_	504-511	w4a	Potsdam	*	O
+16	:	:	_	$.	_	_	_	_	_	512-513	w4b	:	*	O
+17	wie	wie	_	KOKOM	_	_	_	_	_	514-517	w4c	wie	*	O
+18	auch	auch	_	ADV	_	_	_	_	_	518-522	w4d	auch	*	O
+19	der	d	_	ART	_	_	_	_	_	523-526	w4e	der	*	O
+20	ruſſiſch.	Russisch.	_	ADJA	_	_	_	_	_	527-536	w4f	russisch.	*	O
+21	kaiſ.	Kais.	_	ADJA	_	_	_	_	_	537-542	w50	kais.	*	O
+22	Liefländ.	Liefländ.	_	ADJA	_	_	_	_	_	543-552	w51	Liefländ.	*	O
+23	ökon.	Ökon.	_	ADJA	_	_	_	_	_	553-558	w52	ökon.	*	O
+24	Societät	Sozietät	_	NN	_	_	_	_	_	559-567	w53	Sozietät	*	O
+25	in	in	_	APPR	_	_	_	_	_	568-570	w54	in	*	O
+26	Riga	Riga	_	NE	_	_	_	_	_	571-575	w55	Riga	*	O
+27	:	:	_	$.	_	_	_	_	_	576-577	w56	:	*	O
+28	der	d	_	ART	_	_	_	_	_	578-581	w57	der	*	O
+29	Geſellſch.	Gesellsch.	_	NN	_	_	_	_	_	582-592	w58	Gesellsch.	*	O
+30	des	d	_	ART	_	_	_	_	_	593-596	w59	des	*	O
+31	Ackerbaues	Ackerbau	_	NN	_	_	_	_	_	597-607	w5a	Ackerbaues	*	O
+32	,	,	_	$,	_	_	_	_	_	608-609	w5b	,	*	O
+33	der	d	_	ART	_	_	_	_	_	610-613	w5c	der	*	O
+34	Wiſſenſch.	Wissensch.	_	NN	_	_	_	_	_	614-624	w5d	Wissensch.	*	O
+35	u.	u.	_	APPR	_	_	_	_	_	625-627	w5e	u.	*	O
+36	Künſte	Kunst	_	NN	_	_	_	_	_	628-634	w5f	Künste	*	O
+37	des	d	_	ART	_	_	_	_	_	635-638	w60	des	*	O
+38	Niederrhein	NiederRhein	_	ADJA	_	_	_	_	_	639-650	w61	Niederrhein	*	O
+39	.	.	_	$.	_	_	_	_	_	651-652	w62	.	*	O
+40	Depart	Depart	_	NN	_	_	_	_	_	653-659	w63	Depart	*	O
+41	.	.	_	$.	_	_	_	_	_	660-661	w64	.	*	O
+42	zu	zu	_	APPR	_	_	_	_	_	662-664	w65	zu	*	O
+43	Straßburg	Straßburg	_	NE	_	_	_	_	_	665-674	w66	Straßburg	*	O
+44	:	:	_	$.	_	_	_	_	_	675-676	w67	:	*	O
+45	der	d	_	ART	_	_	_	_	_	677-680	w68	der	*	O
+46	Wetterauiſchen	Wetterauischen	_	ADJA	_	_	_	_	_	681-695	w69	Wetterauischen	*	O
+47	Geſellſch.	Gesellsch.	_	NN	_	_	_	_	_	696-706	w6a	Gesellsch.	*	O
+48	für	für	_	APPR	_	_	_	_	_	707-710	w6b	für	*	O
+49	die	d	_	ART	_	_	_	_	_	711-714	w6c	die	*	O
+50	geſammte	gesamt	_	ADJA	_	_	_	_	_	715-723	w6d	gesamte	*	O
+51	Naturkunde	Naturkunde	_	NN	_	_	_	_	_	724-734	w6e	Naturkunde	*	O
+52	zu	zu	_	APPR	_	_	_	_	_	735-737	w6f	zu	*	O
+53	Hanau	Hanau	_	NE	_	_	_	_	_	738-743	w70	Hanau	*	O
+54	,	,	_	$,	_	_	_	_	_	744-745	w71	,	*	O
+55	u.	u.	_	KON	_	_	_	_	_	746-748	w72	u.	*	O
+56	der	d	_	ART	_	_	_	_	_	749-752	w73	der	*	O
+57	Altenburgiſchen	Altenburgischen	_	ADJA	_	_	_	_	_	753-768	w74	Altenburgischen	*	O
+58	pomolog.	Pomolog.	_	ADJA	_	_	_	_	_	769-777	w75	pomolog.	*	O
+59	Geſellſch.	Gesellsch.	_	NN	_	_	_	_	_	778-788	w76	Gesellsch.	*	O
+60	Ehren-Mitgliede	Ehren-Mitglied	_	NN	_	_	_	_	_	789-804	w77	Ehren-Mitgliede	*	O
+61	.	.	_	$.	_	_	_	_	_	805-806	w78	.	*	O
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# TopFString = (VROOT(ADJA Erſter)(NN Band)(KOMMA ,)(ART das)(NN Kernobſt))
+# text = Erſter Band , das Kernobſt .
+1	Erſter	Erster	_	ADJA	_	_	_	_	_	808-814	w79	Erster	*	O
+2	Band	Band	_	NN	_	_	_	_	_	815-819	w7a	Band	*	O
+3	,	,	_	$,	_	_	_	_	_	820-821	w7b	,	*	O
+4	das	d	_	ART	_	_	_	_	_	822-825	w7c	das	*	O
+5	Kernobſt	Kernobst	_	NN	_	_	_	_	_	826-834	w7d	Kernobst	*	O
+6	.	.	_	$.	_	_	_	_	_	835-836	w7e	.	*	O
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# TopFString = (VROOT(VF(APPR Mit)(CARD 26)(ADJA ausgemahlten)(NN Kupfern)(APPR nach)(ART dem)(APPR auf)(ADJA ⅓)(ADJA verjüngten)(NN Maasſtabe)(ART des)(ADJA Pariſer)(NN Fußes)(KLAMMER LBR)(MF(APPRART zum)(NN Vergrößerungsglas))(VC(VVPP geeignet)))(PUNKT :)(KLAMMER RBR)(MF(ART einer)(ADJA ausgemahlten)(NN Titel-Vignette)(KOMMA ,)(KON und)(ART einem)(ADJA ſchwarzen)(NN Kupfer)))
+# text = Mit 26 ausgemahlten Kupfern nach dem auf ⅓ verjüngten Maasſtabe des Pariſer Fußes ( zum Vergrößerungsglas geeignet : ) einer ausgemahlten Titel-Vignette , und einem ſchwarzen Kupfer .
+1	Mit	mit	_	APPR	_	_	_	_	_	838-841	w7f	Mit	*	B-VF
+2	26	26	_	CARD	_	_	_	_	_	842-844	w80	26	*	I-VF
+3	ausgemahlten	ausgemalt	_	ADJA	_	_	_	_	_	845-857	w81	ausgemalten	*	I-VF
+4	Kupfern	Kupfer	_	NN	_	_	_	_	_	858-865	w82	Kupfern	*	I-VF
+5	nach	nach	_	APPR	_	_	_	_	_	866-870	w83	nach	*	I-VF
+6	dem	d	_	ART	_	_	_	_	_	871-874	w84	dem	*	I-VF
+7	auf	auf	_	APPR	_	_	_	_	_	875-878	w85	auf	*	I-VF
+8	⅓	1/3	_	ADJA	_	_	_	_	_	879-880	w86	 1/3	*	I-VF
+9	verjüngten	verjüngt	_	ADJA	_	_	_	_	_	881-891	w87	verjüngten	*	I-VF
+10	Maasſtabe	Maßstab	_	NN	_	_	_	_	_	892-901	w88	Maßstabe	*	I-VF
+11	des	d	_	ART	_	_	_	_	_	902-905	w89	des	*	I-VF
+12	Pariſer	Pariser	_	ADJA	_	_	_	_	_	906-913	w8a,w8a_1,w8a_2	Pariser	*	I-VF
+13	Fußes	Fuß	_	NN	_	_	_	_	_	914-919	w8b	Fußes	*	I-VF
+14	(	(	_	$(	_	_	_	_	_	920-921	w8c	(	*	I-VF
+15	zum	zum	_	APPRART	_	_	_	_	_	922-925	w8d	zum	*	I-VF|B-MF
+16	Vergrößerungsglas	Vergrößerungsglas	_	NN	_	_	_	_	_	926-943	w8e	Vergrößerungsglas	*	I-VF|I-MF
+17	geeignet	eignen	_	VVPP	_	_	_	_	_	944-952	w8f	geeignet	*	I-VF|B-RK
+18	:	:	_	$.	_	_	_	_	_	953-954	w90	:	*	O
+19	)	)	_	$(	_	_	_	_	_	955-956	w91	)	*	O
+20	einer	eine	_	ART	_	_	_	_	_	957-962	w92	einer	*	B-MF
+21	ausgemahlten	ausgemalt	_	ADJA	_	_	_	_	_	963-975	w93	ausgemalten	*	I-MF
+22	Titel-Vignette	Titel-Vignette	_	NN	_	_	_	_	_	976-990	w94	Titel-Vignette	*	I-MF
+23	,	,	_	$,	_	_	_	_	_	991-992	w95	,	*	I-MF
+24	und	und	_	KON	_	_	_	_	_	993-996	w96	und	*	I-MF
+25	einem	eine	_	ART	_	_	_	_	_	997-1002	w97	einem	*	I-MF
+26	ſchwarzen	schwarz	_	ADJA	_	_	_	_	_	1003-1012	w98	schwarzen	*	I-MF
+27	Kupfer	Kupfer	_	NN	_	_	_	_	_	1013-1019	w99	Kupfer	*	I-MF
+28	.	.	_	$.	_	_	_	_	_	1020-1021	w9a	.	*	O
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# TopFString = (VROOT(NE Frankfurt)(APPRART am)(NE Mayn)(CARD 1809))
+# text = Frankfurt am Mayn 1809 .
+1	Frankfurt	Frankfurt	_	NE	_	_	_	_	_	1023-1032	w9b	Frankfurt	*	O
+2	am	am	_	APPRART	_	_	_	_	_	1033-1035	w9c	am	*	O
+3	Mayn	Main	_	NE	_	_	_	_	_	1036-1040	w9d	Main	*	O
+4	1809	1809	_	CARD	_	_	_	_	_	1041-1045	w9e	1809	*	O
+5	.	.	_	$.	_	_	_	_	_	1046-1047	w9f	.	*	O
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# TopFString = (VROOT(APPRART Im)(NN Verlage)(APPR bey)(NE Philipp)(NE Heinrich)(NE Guilhauman)(KON und)(APPR bey)(ART dem)(NN Verfaſſer))
+# text = Im Verlage bey Philipp Heinrich Guilhauman und bey dem Verfaſſer .
+1	Im	im	_	APPRART	_	_	_	_	_	1049-1051	wa0	Im	*	O
+2	Verlage	Verlag	_	NN	_	_	_	_	_	1052-1059	wa1	Verlage	*	O
+3	bey	bei	_	APPR	_	_	_	_	_	1060-1063	wa2	bei	*	O
+4	Philipp	Philipp	_	NE	_	_	_	_	_	1064-1071	wa3	Philipp	*	O
+5	Heinrich	Heinrich	_	NE	_	_	_	_	_	1072-1080	wa4	Heinrich	*	O
+6	Guilhauman	Guilhauman	_	NE	_	_	_	_	_	1081-1091	wa5	Guilhauman	*	O
+7	und	und	_	KON	_	_	_	_	_	1092-1095	wa6	und	*	O
+8	bey	bei	_	APPR	_	_	_	_	_	1096-1099	wa7	bei	*	O
+9	dem	d	_	ART	_	_	_	_	_	1100-1103	wa8	dem	*	O
+10	Verfaſſer	Verfasser	_	NN	_	_	_	_	_	1104-1113	wa9	Verfasser	*	O
+11	.	.	_	$.	_	_	_	_	_	1114-1115	waa	.	*	O
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# TopFString = (VROOT(VF(PPOSAT Ihrer)(ADJA Königlichen)(NN Majeſtät))(KOMMA ,)(MF(ART der)(NN Koͤnigin)(NE Friederike)(NE Wilhelmine)(NE Caroline)(APPR von)(NE Baiern)(ADV ꝛc.)(ADV ꝛc.)(PPOSAT meiner)(ADJA allergnädigſten)(NN Königin)(KON und)(NN Frau)(KOMMA ,)(NN Frau)(KOMMA ,)(APPR in)(ADJA tiefſter)(NN Ehrfurcht))(VC(VVPP gewidmet))(NF(APPR von)(ART dem)(NN Verfaſſer)))
+# text = Ihrer Königlichen Majeſtät , der Koͤnigin Friederike Wilhelmine Caroline von Baiern ꝛc. ꝛc. meiner allergnädigſten Königin und Frau , Frau , in tiefſter Ehrfurcht gewidmet von dem Verfaſſer .
+1	Ihrer	ihr	_	PPOSAT	_	_	_	_	_	1117-1122	wab	Ihrer	*	B-VF
+2	Königlichen	königlich	_	ADJA	_	_	_	_	_	1123-1134	wac	Königlichen	*	I-VF
+3	Majeſtät	Majestät	_	NN	_	_	_	_	_	1135-1143	wad	Majestät	*	I-VF
+4	,	,	_	$,	_	_	_	_	_	1144-1145	wae	,	*	O
+5	der	d	_	ART	_	_	_	_	_	1146-1149	waf	der	*	B-MF
+6	Koͤnigin	Königin	_	NN	_	_	_	_	_	1150-1158	wb0	Königin	*	I-MF
+7	Friederike	Friederike	_	NE	_	_	_	_	_	1159-1169	wb1	Friederike	*	I-MF
+8	Wilhelmine	Wilhelmine	_	NE	_	_	_	_	_	1170-1180	wb2	Wilhelmine	*	I-MF
+9	Caroline	Caroline	_	NE	_	_	_	_	_	1181-1189	wb3	Caroline	*	I-MF
+10	von	von	_	APPR	_	_	_	_	_	1190-1193	wb4	von	*	I-MF
+11	Baiern	Bayern	_	NE	_	_	_	_	_	1194-1200	wb5	Bayern	*	I-MF
+12	ꝛc.	etc.	_	ADV	_	_	_	_	_	1201-1204	wb6	etc.	*	I-MF
+13	ꝛc.	etc.	_	ADV	_	_	_	_	_	1205-1208	wb7	etc.	*	I-MF
+14	meiner	meine	_	PPOSAT	_	_	_	_	_	1209-1215	wb8	meiner	*	I-MF
+15	allergnädigſten	allergnädig	_	ADJA	_	_	_	_	_	1216-1231	wb9	allergnädigsten	*	I-MF
+16	Königin	Königin	_	NN	_	_	_	_	_	1232-1239	wba	Königin	*	I-MF
+17	und	und	_	KON	_	_	_	_	_	1240-1243	wbb	und	*	I-MF
+18	Frau	Frau	_	NN	_	_	_	_	_	1244-1248	wbc	Frau	*	I-MF
+19	,	,	_	$,	_	_	_	_	_	1249-1250	wbd	,	*	I-MF
+20	Frau	Frau	_	NN	_	_	_	_	_	1251-1255	wbe	Frau	*	I-MF
+21	,	,	_	$,	_	_	_	_	_	1256-1257	wbf	,	*	I-MF
+22	in	in	_	APPR	_	_	_	_	_	1258-1260	wc0	in	*	I-MF
+23	tiefſter	tief	_	ADJA	_	_	_	_	_	1261-1269	wc1	tiefster	*	I-MF
+24	Ehrfurcht	Ehrfurcht	_	NN	_	_	_	_	_	1270-1279	wc2	Ehrfurcht	*	I-MF
+25	gewidmet	widmen	_	VVPP	_	_	_	_	_	1280-1288	wc3	gewidmet	*	B-RK
+26	von	von	_	APPR	_	_	_	_	_	1289-1292	wc4	von	*	B-NF
+27	dem	d	_	ART	_	_	_	_	_	1293-1296	wc5	dem	*	I-NF
+28	Verfaſſer	Verfasser	_	NN	_	_	_	_	_	1297-1306	wc6	Verfasser	*	I-NF
+29	.	.	_	$.	_	_	_	_	_	1307-1308	wc7	.	*	O
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# TopFString = (VROOT(ADJA Allergnädigſte)(NN Königin))
+# text = Allergnädigſte Königin !
+1	Allergnädigſte	allergnädig	_	ADJA	_	_	_	_	_	1310-1324	w2648a	Allergnädigste	*	O
+2	Königin	Königin	_	NN	_	_	_	_	_	1325-1332	w2648b	Königin	*	O
+3	!	!	_	$.	_	_	_	_	_	1333-1334	w2648c	!	*	O
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# TopFString = (VROOT(VF(PPOSAT Euer)(ADJA Königliche)(NN Majeſtät))(LK(VVFIN genießen))(MF(ART das)(ADJA gött-<lb/>liche)(NN Vergnügen))(KOMMA ,)(NF(MF(ART eine)(NN Freundin)(KON und)(NN Kennerin)(ART der)(ADJA ſchönen)(NN Natur))(VC(PTKZU zu)(VAINF ſeyn))(KOMMA ,)(NF(C(APPR in)(PRELAT deren)(NN Tempel))(FKOORD(FKONJ(MF(PDS Aller-<lb/>höchſtdieſelben)(ADV ſo)(ADV gerne)(ART des)(NN Glanzes)(PDAT Allerhöchſt-<lb/>dero)(NN Thrones))(VC(VVFIN vergeſſen)))(KOMMA ,)(KON und)(FKONJ(MF(PPOSAT Ihr)(NN Herz)(APPR an)(ART den)(NN Wundern)(ART des)(ADJA allweiſen)(KON und)(ADJA gütigen)(NN Schöpfers)(APPRART im)(NN Reiche)(ART der)(NN Natur))(VC(VVFIN weiden)))))))
+# text = Euer Königliche Majeſtät genießen das gött-<lb/>liche Vergnügen , eine Freundin und Kennerin der ſchönen Natur zu ſeyn , in deren Tempel Aller-<lb/>höchſtdieſelben ſo gerne des Glanzes Allerhöchſt-<lb/>dero Thrones vergeſſen , und Ihr Herz an den Wundern des allweiſen und gütigen Schöpfers im Reiche der Natur weiden .
+1	Euer	euer	_	PPOSAT	_	_	_	_	_	1336-1340	wc8,wc8_1	Euer	*	B-VF
+2	Königliche	königlich	_	ADJA	_	_	_	_	_	1341-1351	wc9	Königliche	*	I-VF
+3	Majeſtät	Majestät	_	NN	_	_	_	_	_	1352-1360	wca	Majestät	*	I-VF
+4	genießen	genießen	_	VVFIN	_	_	_	_	_	1361-1369	wcb	genießen	*	B-LK
+5	das	d	_	ART	_	_	_	_	_	1370-1373	wcc	das	*	B-MF
+6	gött-<lb/>liche	göttlich	_	ADJA	_	_	_	_	_	1374-1389	wcd	göttliche	*	I-MF
+7	Vergnügen	Vergnügen	_	NN	_	_	_	_	_	1390-1399	wce	Vergnügen	*	I-MF
+8	,	,	_	$,	_	_	_	_	_	1400-1401	wcf	,	*	O
+9	eine	eine	_	ART	_	_	_	_	_	1402-1406	wd0	eine	*	B-NF|B-MF
+10	Freundin	Freundin	_	NN	_	_	_	_	_	1407-1415	wd1	Freundin	*	I-NF|I-MF
+11	und	und	_	KON	_	_	_	_	_	1416-1419	wd2	und	*	I-NF|I-MF
+12	Kennerin	Kennerin	_	NN	_	_	_	_	_	1420-1428	wd3	Kennerin	*	I-NF|I-MF
+13	der	d	_	ART	_	_	_	_	_	1429-1432	wd4	der	*	I-NF|I-MF
+14	ſchönen	schön	_	ADJA	_	_	_	_	_	1433-1440	wd5	schönen	*	I-NF|I-MF
+15	Natur	Natur	_	NN	_	_	_	_	_	1441-1446	wd6	Natur	*	I-NF|I-MF
+16	zu	zu	_	PTKZU	_	_	_	_	_	1447-1449	wd7	zu	*	I-NF|B-RK
+17	ſeyn	sein	_	VAINF	_	_	_	_	_	1450-1454	wd8	sein	*	I-NF|I-RK
+18	,	,	_	$,	_	_	_	_	_	1455-1456	wd9	,	*	I-NF
+19	in	in	_	APPR	_	_	_	_	_	1457-1459	wda	in	*	I-NF|B-NF|B-LK
+20	deren	die	_	PRELAT	_	_	_	_	_	1460-1465	wdb	deren	*	I-NF|I-NF|I-LK
+21	Tempel	Tempel	_	NN	_	_	_	_	_	1466-1472	wdc	Tempel	*	I-NF|I-NF|I-LK
+22	Aller-<lb/>höchſtdieſelben	allerhöchstdieselbe	_	PDS	_	_	_	_	_	1473-1499	wdd,wdd_1,wdd_2	Allerhöchstdieselben	*	I-NF|I-NF|B-MF
+23	ſo	so	_	ADV	_	_	_	_	_	1500-1502	wde	so	*	I-NF|I-NF|I-MF
+24	gerne	gerne	_	ADV	_	_	_	_	_	1503-1508	wdf	gerne	*	I-NF|I-NF|I-MF
+25	des	d	_	ART	_	_	_	_	_	1509-1512	we0	des	*	I-NF|I-NF|I-MF
+26	Glanzes	Glanz	_	NN	_	_	_	_	_	1513-1520	we1	Glanzes	*	I-NF|I-NF|I-MF
+27	Allerhöchſt-<lb/>dero	allerhöchstdie	_	PDAT	_	_	_	_	_	1521-1542	we2,we2_1,we2_2	Allerhöchstderen	*	I-NF|I-NF|I-MF
+28	Thrones	Thron	_	NN	_	_	_	_	_	1543-1550	we3	Thrones	*	I-NF|I-NF|I-MF
+29	vergeſſen	vergessen	_	VVFIN	_	_	_	_	_	1551-1560	we4	vergessen	*	I-NF|I-NF|B-RK
+30	,	,	_	$,	_	_	_	_	_	1561-1562	we5	,	*	I-NF|I-NF
+31	und	und	_	KON	_	_	_	_	_	1563-1566	we6	und	*	I-NF|I-NF|B-KOORD
+32	Ihr	ihr	_	PPOSAT	_	_	_	_	_	1567-1570	we7	Ihr	*	I-NF|I-NF|B-MF
+33	Herz	Herz	_	NN	_	_	_	_	_	1571-1575	we8	Herz	*	I-NF|I-NF|I-MF
+34	an	an	_	APPR	_	_	_	_	_	1576-1578	we9	an	*	I-NF|I-NF|I-MF
+35	den	d	_	ART	_	_	_	_	_	1579-1582	wea	den	*	I-NF|I-NF|I-MF
+36	Wundern	Wunder	_	NN	_	_	_	_	_	1583-1590	web	Wundern	*	I-NF|I-NF|I-MF
+37	des	d	_	ART	_	_	_	_	_	1591-1594	wec	des	*	I-NF|I-NF|I-MF
+38	allweiſen	allweis	_	ADJA	_	_	_	_	_	1595-1604	wed	allweisen	*	I-NF|I-NF|I-MF
+39	und	und	_	KON	_	_	_	_	_	1605-1608	wee	und	*	I-NF|I-NF|I-MF
+40	gütigen	gütig	_	ADJA	_	_	_	_	_	1609-1616	wef	gütigen	*	I-NF|I-NF|I-MF
+41	Schöpfers	Schöpfer	_	NN	_	_	_	_	_	1617-1626	wf0	Schöpfers	*	I-NF|I-NF|I-MF
+42	im	im	_	APPRART	_	_	_	_	_	1627-1629	wf1	im	*	I-NF|I-NF|I-MF
+43	Reiche	Reiche	_	NN	_	_	_	_	_	1630-1636	wf2	Reiche	*	I-NF|I-NF|I-MF
+44	der	d	_	ART	_	_	_	_	_	1637-1640	wf3	der	*	I-NF|I-NF|I-MF
+45	Natur	Natur	_	NN	_	_	_	_	_	1641-1646	wf4	Natur	*	I-NF|I-NF|I-MF
+46	weiden	weiden	_	VVFIN	_	_	_	_	_	1647-1653	wf5	weiden	*	I-NF|I-NF|B-RK
+47	.	.	_	$.	_	_	_	_	_	1654-1655	wf6	.	*	O
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# TopFString = (VROOT(VF(ART Der)(NN Ruhm)(PPOSAT Eurer)(ADJA Königlichen)(NN Majeſtät)(KOMMA ,)(KOKOM als)(ART einer)(NN Beſchützerin)(KON und)(NN Beförderin)(PIAT alles)(NN Schönen)(KON und)(NN Guten))(KOMMA ,)(LK(VVFIN floß))(MF(APPR aus)(PDAT dieſer)(ADJA edlen)(NN Quelle))(KOMMA ,)(KON und)(LK(VVFIN machte))(MF(PPER mich)(PTKA ſo)(ADJD dreiſte))(KOMMA ,)(NF(MF(PDAT dieſes)(PPOSAT mein)(ADJA pomologiſches)(NN Kupferwerk)(PPOSAT Eurer)(ADJA Königlichen)(NN Majeſtät)(ADJD allerunthänigſt))(VC(PTKZU zu)(VVINF widmen))(KON und)(VF(APPR durch)(NN Vor-<lb/>ſetzung)(PDAT Allerhöchſtdero)(ADJA weltberühmten)(NN Namens))(MF(PPER ihme)(ART einen)(NN Werth)(ADV mehr))(KOMMA ,)(NF(MF(APPR bey)(ART den)(NN Freunden)(ART der)(NN Na-<lb/>tur)(KON und)(ART der)(NN Gartenvergnügungen))(VC(VVIZU beyzulegen)))))
+# text = Der Ruhm Eurer Königlichen Majeſtät , als einer Beſchützerin und Beförderin alles Schönen und Guten , floß aus dieſer edlen Quelle , und machte mich ſo dreiſte , dieſes mein pomologiſches Kupferwerk Eurer Königlichen Majeſtät allerunthänigſt zu widmen und durch Vor-<lb/>ſetzung Allerhöchſtdero weltberühmten Namens ihme einen Werth mehr , bey den Freunden der Na-<lb/>tur und der Gartenvergnügungen beyzulegen .
+1	Der	d	_	ART	_	_	_	_	_	1657-1660	wf7	Der	*	B-VF
+2	Ruhm	Ruhm	_	NN	_	_	_	_	_	1661-1665	wf8	Ruhm	*	I-VF
+3	Eurer	euer	_	PPOSAT	_	_	_	_	_	1666-1671	wf9	Eurer	*	I-VF
+4	Königlichen	königlich	_	ADJA	_	_	_	_	_	1672-1683	wfa	Königlichen	*	I-VF
+5	Majeſtät	Majestät	_	NN	_	_	_	_	_	1684-1692	wfb	Majestät	*	I-VF
+6	,	,	_	$,	_	_	_	_	_	1693-1694	wfc	,	*	I-VF
+7	als	als	_	KOKOM	_	_	_	_	_	1695-1698	wfd	als	*	I-VF
+8	einer	eine	_	ART	_	_	_	_	_	1699-1704	wfe	einer	*	I-VF
+9	Beſchützerin	Beschützerin	_	NN	_	_	_	_	_	1705-1717	wff	Beschützerin	*	I-VF
+10	und	und	_	KON	_	_	_	_	_	1718-1721	w100	und	*	I-VF
+11	Beförderin	Beförderin	_	NN	_	_	_	_	_	1722-1732	w101	Beförderin	*	I-VF
+12	alles	alle	_	PIAT	_	_	_	_	_	1733-1738	w102	alles	*	I-VF
+13	Schönen	Schöne	_	NN	_	_	_	_	_	1739-1746	w103	Schönen	*	I-VF
+14	und	und	_	KON	_	_	_	_	_	1747-1750	w104	und	*	I-VF
+15	Guten	Gute	_	NN	_	_	_	_	_	1751-1756	w105	Guten	*	I-VF
+16	,	,	_	$,	_	_	_	_	_	1757-1758	w106	,	*	O
+17	floß	fließen	_	VVFIN	_	_	_	_	_	1759-1763	w107	floß	*	B-LK
+18	aus	aus	_	APPR	_	_	_	_	_	1764-1767	w108	aus	*	B-MF
+19	dieſer	diese	_	PDAT	_	_	_	_	_	1768-1774	w109	dieser	*	I-MF
+20	edlen	edel	_	ADJA	_	_	_	_	_	1775-1780	w10a	edlen	*	I-MF
+21	Quelle	Quelle	_	NN	_	_	_	_	_	1781-1787	w10b	Quelle	*	I-MF
+22	,	,	_	$,	_	_	_	_	_	1788-1789	w10c	,	*	O
+23	und	und	_	KON	_	_	_	_	_	1790-1793	w10d	und	*	O
+24	machte	machen	_	VVFIN	_	_	_	_	_	1794-1800	w10e	machte	*	B-LK
+25	mich	ich	_	PPER	_	_	_	_	_	1801-1805	w10f	mich	*	B-MF
+26	ſo	so	_	PTKA	_	_	_	_	_	1806-1808	w110	so	*	I-MF
+27	dreiſte	dreist	_	ADJD	_	_	_	_	_	1809-1816	w111	dreiste	*	I-MF
+28	,	,	_	$,	_	_	_	_	_	1817-1818	w112	,	*	O
+29	dieſes	diese	_	PDAT	_	_	_	_	_	1819-1825	w113	dieses	*	B-NF|B-MF
+30	mein	mein	_	PPOSAT	_	_	_	_	_	1826-1830	w114	mein	*	I-NF|I-MF
+31	pomologiſches	pomologisch	_	ADJA	_	_	_	_	_	1831-1844	w115	pomologisches	*	I-NF|I-MF
+32	Kupferwerk	Kupferwerk	_	NN	_	_	_	_	_	1845-1855	w116	Kupferwerk	*	I-NF|I-MF
+33	Eurer	euer	_	PPOSAT	_	_	_	_	_	1856-1861	w117	Eurer	*	I-NF|I-MF
+34	Königlichen	königlich	_	ADJA	_	_	_	_	_	1862-1873	w118	Königlichen	*	I-NF|I-MF
+35	Majeſtät	Majestät	_	NN	_	_	_	_	_	1874-1882	w119	Majestät	*	I-NF|I-MF
+36	allerunthänigſt	Allerunthänigst	_	ADJD	_	_	_	_	_	1883-1898	w11a	allerunthänigst	*	I-NF|I-MF
+37	zu	zu	_	PTKZU	_	_	_	_	_	1899-1901	w11b	zu	*	I-NF|B-RK
+38	widmen	widmen	_	VVINF	_	_	_	_	_	1902-1908	w11c	widmen	*	I-NF|I-RK
+39	und	und	_	KON	_	_	_	_	_	1909-1912	w11d	und	*	I-NF
+40	durch	durch	_	APPR	_	_	_	_	_	1913-1918	w11e	durch	*	I-NF|B-VF
+41	Vor-<lb/>ſetzung	Vorsetzung	_	NN	_	_	_	_	_	1919-1935	w11f,w11f_1	Vorsetzung	*	I-NF|I-VF
+42	Allerhöchſtdero	allerhöchstdie	_	PDAT	_	_	_	_	_	1936-1951	w120	Allerhöchstderen	*	I-NF|I-VF
+43	weltberühmten	weltberühmt	_	ADJA	_	_	_	_	_	1952-1965	w121	weltberühmten	*	I-NF|I-VF
+44	Namens	Name	_	NN	_	_	_	_	_	1966-1972	w122	Namens	*	I-NF|I-VF
+45	ihme	er	_	PPER	_	_	_	_	_	1973-1977	w123	ihm	*	I-NF|B-MF
+46	einen	eine	_	ART	_	_	_	_	_	1978-1983	w124	einen	*	I-NF|I-MF
+47	Werth	Wert	_	NN	_	_	_	_	_	1984-1989	w125	Wert	*	I-NF|I-MF
+48	mehr	mehr	_	ADV	_	_	_	_	_	1990-1994	w126	mehr	*	I-NF|I-MF
+49	,	,	_	$,	_	_	_	_	_	1995-1996	w127	,	*	I-NF
+50	bey	bei	_	APPR	_	_	_	_	_	1997-2000	w128	bei	*	I-NF|B-NF|B-MF
+51	den	d	_	ART	_	_	_	_	_	2001-2004	w129	den	*	I-NF|I-NF|I-MF
+52	Freunden	Freund	_	NN	_	_	_	_	_	2005-2013	w12a	Freunden	*	I-NF|I-NF|I-MF
+53	der	d	_	ART	_	_	_	_	_	2014-2017	w12b	der	*	I-NF|I-NF|I-MF
+54	Na-<lb/>tur	Natur	_	NN	_	_	_	_	_	2018-2029	w12c	Natur	*	I-NF|I-NF|I-MF
+55	und	und	_	KON	_	_	_	_	_	2030-2033	w12d	und	*	I-NF|I-NF|I-MF
+56	der	d	_	ART	_	_	_	_	_	2034-2037	w12e	der	*	I-NF|I-NF|I-MF
+57	Gartenvergnügungen	Gartenvergnügung	_	NN	_	_	_	_	_	2038-2056	w12f	Gartenvergnügungen	*	I-NF|I-NF|I-MF
+58	beyzulegen	beilegen	_	VVIZU	_	_	_	_	_	2057-2067	w130	beizulegen	*	I-NF|I-NF|B-RK
+59	.	.	_	$.	_	_	_	_	_	2068-2069	w131	.	*	O
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# TopFString = (VROOT(APPR Mit)(ADJA tiefſter)(NN Ehrfurcht))
+# text = Mit tiefſter Ehrfurcht
+1	Mit	mit	_	APPR	_	_	_	_	_	2071-2074	w132	Mit	*	O
+2	tiefſter	tief	_	ADJA	_	_	_	_	_	2075-2083	w133	tiefster	*	O
+3	Ehrfurcht	Ehrfurcht	_	NN	_	_	_	_	_	2084-2093	w134	Ehrfurcht	*	O
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# TopFString = (VROOT(PPOSAT Eurer)(ADJA Königlichen)(NN Majeſtät))
+# text = Eurer Königlichen Majeſtät
+1	Eurer	euer	_	PPOSAT	_	_	_	_	_	2095-2100	w135	Eurer	*	O
+2	Königlichen	königlich	_	ADJA	_	_	_	_	_	2101-2112	w136	Königlichen	*	O
+3	Majeſtät	Majestät	_	NN	_	_	_	_	_	2113-2121	w137	Majestät	*	O
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# TopFString = (VROOT(ADJD allerunterthänigſt)(ADJA gehorſamſter)(NE J.)(NE L.)(NE Chriſt)(KOMMA ,)(NN Oberpfarrer)(APPR zu)(NE Kronberg))
+# text = allerunterthänigſt gehorſamſter J. L. Chriſt , Oberpfarrer zu Kronberg .
+1	allerunterthänigſt	alleruntertänigst	_	ADJD	_	_	_	_	_	2123-2141	w138	alleruntertänigst	*	O
+2	gehorſamſter	gehorsam	_	ADJA	_	_	_	_	_	2142-2154	w139	gehorsamster	*	O
+3	J.	J.	_	NE	_	_	_	_	_	2155-2157	w13a	J.	*	O
+4	L.	L.	_	NE	_	_	_	_	_	2158-2160	w13b	L.	*	O
+5	Chriſt	Christ	_	NE	_	_	_	_	_	2161-2167	w13c	Christ	*	O
+6	,	,	_	$,	_	_	_	_	_	2168-2169	w13d	,	*	O
+7	Oberpfarrer	Oberpfarrer	_	NN	_	_	_	_	_	2170-2181	w13e	Oberpfarrer	*	O
+8	zu	zu	_	APPR	_	_	_	_	_	2182-2184	w13f	zu	*	O
+9	Kronberg	Kronberg	_	NE	_	_	_	_	_	2185-2193	w140	Kronberg	*	O
+10	.	.	_	$.	_	_	_	_	_	2194-2195	w141	.	*	O
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# TopFString = (VROOT(NN Liſte)(ADJA verſchiedener)(NN Gartenfreunde)(KOKOM als)(NN Subſcribenten))
+# text = Liſte verſchiedener Gartenfreunde , als Subſcribenten .
+1	Liſte	Liste	_	NN	_	_	_	_	_	2197-2202	w2648d	Liste	*	O
+2	verſchiedener	verschieden	_	ADJA	_	_	_	_	_	2203-2216	w2648e	verschiedener	*	O
+3	Gartenfreunde	Gartenfreund	_	NN	_	_	_	_	_	2217-2230	w2648f	Gartenfreunde	*	O
+4	,	,	_	$,	_	_	_	_	_	2231-2232	w26490	,	*	O
+5	als	als	_	KOKOM	_	_	_	_	_	2233-2236	w26491	als	*	O
+6	Subſcribenten	Subskribent	_	NN	_	_	_	_	_	2237-2250	w26492	Subskribenten	*	O
+7	.	.	_	$.	_	_	_	_	_	2251-2252	w26493	.	*	O
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# TopFString = (VROOT(PPOSAT Ihro)(NN Durchlaucht)(ART die)(ADJA verwittibte)(NN Frau)(NN Herzogin)(NE Fran-<lb/>ziska)(NE Thereſia)(APPR von)(NE Würtemberg))
+# text = Ihro Durchlaucht die verwittibte Frau Herzogin Fran-<lb/>ziska Thereſia von Würtemberg .
+1	Ihro	ihr	_	PPOSAT	_	_	_	_	_	2254-2258	w26494,w26494_1	Ihre	*	O
+2	Durchlaucht	Durchlaucht	_	NN	_	_	_	_	_	2259-2270	w26495	Durchlaucht	*	O
+3	die	d	_	ART	_	_	_	_	_	2271-2274	w26496	die	*	O
+4	verwittibte	verwitwet	_	ADJA	_	_	_	_	_	2275-2286	w26497	verwitwete	*	O
+5	Frau	Frau	_	NN	_	_	_	_	_	2287-2291	w26498	Frau	*	O
+6	Herzogin	Herzogin	_	NN	_	_	_	_	_	2292-2300	w26499	Herzogin	*	O
+7	Fran-<lb/>ziska	Franziska	_	NE	_	_	_	_	_	2301-2316	w2649a,w2649a_1,w2649a_2	Franziska	*	O
+8	Thereſia	Theresia	_	NE	_	_	_	_	_	2317-2325	w2649b	Theresia	*	O
+9	von	von	_	APPR	_	_	_	_	_	2326-2329	w2649c	von	*	O
+10	Würtemberg	Württemberg	_	NE	_	_	_	_	_	2330-2340	w2649d	Württemberg	*	O
+11	.	.	_	$.	_	_	_	_	_	2341-2342	w2649e	.	*	O
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# TopFString = (VROOT(NN Frau)(NE A.)(APPR von)(NE Münchhauſen)(KOMMA ,)(NN Aebtiſſin)(ART des)(NN Stifts)(APPR zu)(NE Fiſchbeck)(APPR ohnweit)(NE Hameln))
+# text = Frau A. von Münchhauſen , Aebtiſſin des Stifts zu Fiſchbeck , ohnweit Hameln .
+1	Frau	Frau	_	NN	_	_	_	_	_	2344-2348	w2649f	Frau	*	O
+2	A.	A.	_	NE	_	_	_	_	_	2349-2351	w264a0	A.	*	O
+3	von	von	_	APPR	_	_	_	_	_	2352-2355	w264a1	von	*	O
+4	Münchhauſen	Münchhausen	_	NE	_	_	_	_	_	2356-2367	w264a2	Münchhausen	*	O
+5	,	,	_	$,	_	_	_	_	_	2368-2369	w264a3	,	*	O
+6	Aebtiſſin	Äbtissin	_	NN	_	_	_	_	_	2370-2379	w264a4	Äbtissin	*	O
+7	des	d	_	ART	_	_	_	_	_	2380-2383	w264a5	des	*	O
+8	Stifts	Stift	_	NN	_	_	_	_	_	2384-2390	w264a6	Stifts	*	O
+9	zu	zu	_	APPR	_	_	_	_	_	2391-2393	w264a7	zu	*	O
+10	Fiſchbeck	Fischbeck	_	NE	_	_	_	_	_	2394-2403	w264a8	Fischbeck	*	O
+11	,	,	_	$,	_	_	_	_	_	2404-2405	w264a9	,	*	O
+12	ohnweit	unweit	_	APPR	_	_	_	_	_	2406-2413	w264aa	unweit	*	O
+13	Hameln	Hameln	_	NE	_	_	_	_	_	2414-2420	w264ab	Hameln	*	O
+14	.	.	_	$.	_	_	_	_	_	2421-2422	w264ac	.	*	O
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# TopFString = (VROOT(NN Herr)(NE Anreiter)(KOMMA ,)(NN Poſtmeiſter)(APPR zu)(NE Brixen)(APPR in)(NE Tirol))
+# text = Herr Anreiter , Poſtmeiſter zu Brixen in Tirol .
+1	Herr	Herr	_	NN	_	_	_	_	_	2424-2428	w264ad	Herr	*	O
+2	Anreiter	Anreiter	_	NE	_	_	_	_	_	2429-2437	w264ae	Anreiter	*	O
+3	,	,	_	$,	_	_	_	_	_	2438-2439	w264af	,	*	O
+4	Poſtmeiſter	Postmeister	_	NN	_	_	_	_	_	2440-2451	w264b0	Postmeister	*	O
+5	zu	zu	_	APPR	_	_	_	_	_	2452-2454	w264b1	zu	*	O
+6	Brixen	Brixen	_	NE	_	_	_	_	_	2455-2461	w264b2	Brixen	*	O
+7	in	in	_	APPR	_	_	_	_	_	2462-2464	w264b3	in	*	O
+8	Tirol	Tirol	_	NE	_	_	_	_	_	2465-2470	w264b4	Tirol	*	O
+9	.	.	_	$.	_	_	_	_	_	2471-2472	w264b5	.	*	O
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# TopFString = (VROOT(NE Amecke)(NN Landzoll-Commiſſär)(APPR in)(NE Arnsberg))
+# text = — Amecke , Landzoll-Commiſſär in Arnsberg .
+1	—	--	_	$(	_	_	_	_	_	2474-2475	w264b6	--	*	O
+2	Amecke	Amecke	_	NE	_	_	_	_	_	2476-2482	w264b7	Amecke	*	O
+3	,	,	_	$,	_	_	_	_	_	2483-2484	w264b8	,	*	O
+4	Landzoll-Commiſſär	Landzoll-Kommissär	_	NN	_	_	_	_	_	2485-2503	w264b9	Landzoll-Kommissär	*	O
+5	in	in	_	APPR	_	_	_	_	_	2504-2506	w264ba	in	*	O
+6	Arnsberg	Arnsberg	_	NE	_	_	_	_	_	2507-2515	w264bb	Arnsberg	*	O
+7	.	.	_	$.	_	_	_	_	_	2516-2517	w264bc	.	*	O
+
+# sent_id = 19
+# sent_id(TSV) = 19
+# TopFString = (VROOT(APPR von)(NE Bakoff)(KOMMA ,)(APPR auf)(NE Heukendorf)(APPR bey)(NE Altenburg))
+# text = — von Bakoff , auf Heukendorf bey Altenburg .
+1	—	--	_	$(	_	_	_	_	_	2519-2520	w264bd	--	*	O
+2	von	von	_	APPR	_	_	_	_	_	2521-2524	w264be	von	*	O
+3	Bakoff	Backoff	_	NE	_	_	_	_	_	2525-2531	w264bf	Backoff	*	O
+4	,	,	_	$,	_	_	_	_	_	2532-2533	w264c0	,	*	O
+5	auf	auf	_	APPR	_	_	_	_	_	2534-2537	w264c1	auf	*	O
+6	Heukendorf	Heukendorf	_	NE	_	_	_	_	_	2538-2548	w264c2	Heukendorf	*	O
+7	bey	bei	_	APPR	_	_	_	_	_	2549-2552	w264c3	bei	*	O
+8	Altenburg	Altenburg	_	NE	_	_	_	_	_	2553-2562	w264c4	Altenburg	*	O
+9	.	.	_	$.	_	_	_	_	_	2563-2564	w264c5	.	*	O

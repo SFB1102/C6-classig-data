@@ -1,0 +1,82 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS PHRASE POS SATZKLAMMER SATZSTATUS UEBERLIEFERUNGSTRAEGER VERLINKUNG
+# sent_id = 1
+# PTBstring = (VROOT(SIMPX(VF(NX(ART Der)(ADJX(ADJA v'nuͥnftíg))(NN wille)))(LK(VXFIN(VMFIN wolt)))(MF(ADVX(ADV wilLBR=RBRleklich)))(VC(VXINF(VVPP ſterbē)))(NF(PX(APPR vmb)(NX:HD(PPOSAT vͥnſer)(NN heil/))))))
+# text = Der v'nuͥnftíg wille wolt wil(=)leklich ſterbē vmb vͥnſer heil/
+1	Der	_	_	ART	_	_	_	_	_	NP	Der	290, 5	_	SUBJ	_	B-NP	DDA	_	MAINDECL	68va,23	_
+2	v'nuͥnftíg	_	_	ADJA	_	_	_	_	_	NP	v'nuͥnftíg	290, 5	_	SUBJ	_	I-NP	ADJ	_	MAINDECL	68vb,01 wil(=)-,	_
+3	wille	_	_	NN	_	_	_	_	_	NP	wille	290, 5	_	SUBJ	_	I-NP	NA	_	MAINDECL	68vb,01 wil(=)-,	_
+4	wolt	_	_	VMFIN	_	_	_	_	_	VP	wolt	290, 5	_	INF	_	O	VMFIN	LI	MAINDECL	68vb,01 wil(=)-,	_
+5	wil(=)leklich	_	_	ADV	_	_	_	_	_	ADVP	willeklich	290, 5	_	ADVB	_	B-ADVP	ADV	_	MAINDECL	68vb,02 - leklich	_
+6	ſterbē	_	_	VVPP	_	_	_	_	_	VP	ſterbē	290, 5	_	INF	_	O	VVPP	RE	MAINDECL	68vb,02 - leklich	_
+7	vmb	_	_	APPR	_	_	_	_	_	PP	vmb	290, 5	NF	PP-ADV	_	B-PP	APPR	_	MAINDECL	68vb,02 - leklich	UNLINK
+8	vͥnſer	_	_	PPOSAT	_	_	_	_	_	PP	vͥnſer	290, 5	NF	PP-ADV	ACC-SIT_	I-PP	DPOS	_	MAINDECL	68vb,02 - leklich	UNLINK
+9	heil/	_	_	NN	_	_	_	_	_	PP	heil/	290, 5	NF	PP-ADV	_ACC-ABSTR-UNUSED	I-PP	NA	_	MAINDECL	68vb,03	UNLINK
+
+# sent_id = 2
+# PTBstring = (VROOT(SIMPX(KOORD(KON vn̄))(VF(NX(ART d')(ADVX(ADV ſelb))(NN wille)))(LK(VXFIN(VAFIN hete)))(MF(ADVX(ADV vil))(ADJX(ADJD gerner))(NX(NN guͦt)))(VC(VXINF(VVPP gehebt)))(NF(NX(KOKOM dēne)(NN armuͦt))))(PUNKT .)(NX(NN êre)(NX(KOKOM dēne)(NN ſmacheít)))(PUNKT .))
+# text = vn̄ d' ſelb wille hete vil gerner guͦt gehebt dēne armuͦt. êre dēne ſmacheít.
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	290,09	_	_	_	O	KON	_	MAINDECL	ch-,68vb,11	_
+2	d'	_	_	ART	_	_	_	_	_	NP	d'	290,09	_	SUBJ	_	B-NP	DDA	_	MAINDECL	ch-,68vb,11	_
+3	ſelb	_	_	ADV	_	_	_	_	_	NP	ſelb	290,09	_	SUBJ	_	I-NP	ADV	_	MAINDECL	68vb,12	_
+4	wille	_	_	NN	_	_	_	_	_	NP	wille	290,10	_	SUBJ	_	I-NP	NA	_	MAINDECL	68vb,12	_
+5	hete	_	_	VAFIN	_	_	_	_	_	VP	hete	290,10	_	VFIN	_	O	VAFIN	LI	MAINDECL	68vb,12	_
+6	vil	_	_	ADV	_	_	_	_	_	ADVP	vil	290,10	_	ADVB	_	B-ADVP	ADV	_	MAINDECL	68vb,12	_
+7	gerner	_	_	ADJD	_	_	_	_	_	ADVP	gerner	290,10	_	ADVB	_	B-AP	ADV	_	MAINDECL	68vb,12	_
+8	guͦt	_	_	NN	_	_	_	_	_	NP	guͦt	290,10	_	DO	_	B-NP	NA	_	MAINDECL	68vb,13	_
+9	gehebt	_	_	VVPP	_	_	_	_	_	VP	gehebt	290,10	_	INF	_	O	VVPP	RE	MAINDECL	68vb,13	_
+10	dēne	_	_	KOKOM	_	_	_	_	_	NP	dēne	290,10	_	VGL	_	B-NP	KOKOM	_	MAINDECL	68vb,13	LINK_ASSYM
+11	armuͦt	_	_	NN	_	_	_	_	_	NP	armuͦt	290,10	CF	VGL	ACC-ABSTR-UNUSED_	I-NP	NA	_	MAINDECL	68vb,13	LINK_ASSYM
+12	.	_	_	$.	_	_	_	_	_	_	.	290,10	_	_	_	O	_	_	MAINDECL	68vb,13	_
+13	êre	_	_	NN	_	_	_	_	_	NP	êre	290,10	_	DO	_	B-NP	NA	_	MAINDECL	68vb,14	UNLINK
+14	dēne	_	_	KOKOM	_	_	_	_	_	NP	dēne	290,10	_	VGL	_	I-NP	KOKOM	_	MAINDECL	68vb,14	UNLINK
+15	ſmacheít	_	_	NN	_	_	_	_	_	NP	ſmacheít	290, 11	CF	VGL	_ACC-ABSTR-UNUSED	I-NP	NA	_	MAINDECL	68vb,14	UNLINK
+16	.	_	_	$.	_	_	_	_	_	_	.	290, 11	_	_	_	O	$_	_	MAINDECL	68vb,14	UNLINK
+
+# sent_id = 3
+# PTBstring = (VROOT(SIMPX(KOORD(KON vn̄))(LK(VXFIN(VAFIN hette)))(MF(ADVX(ADV víl))(ADJX(ADJD gerner)))(VC(VXINF(VVPP gehebt)))(NF(NX(NN líep)(NX(KOKOM dēn)(NN leít)))))(PUNKT .)(NX(NN gemach)(ADJX(ADJD lieb')(NX(KOKOM dēn)(NN vngeLBR=RBRmach))))(PUNKT .))
+# text = vn̄ hette víl gerner gehebt líep dēn leít. gemach lieb' dēn vnge(=)mach.
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	290, 11	_	_	_	O	KON	_	MAINDECL-ELLI	68vb,14	_
+2	hette	_	_	VAFIN	_	_	_	_	_	VP	hette	290, 11	_	VFIN	_	O	VAFIN	LI	MAINDECL-ELLI	68vb,14	_
+3	víl	_	_	ADV	_	_	_	_	_	ADVP	víl	290, 11	_	ADVB	_	B-ADVP	ADV	_	MAINDECL-ELLI	68vb,15	_
+4	gerner	_	_	ADJD	_	_	_	_	_	ADVP	gerner	290, 11	_	ADVB	_	B-AP	ADV	_	MAINDECL-ELLI	68vb,15	_
+5	gehebt	_	_	VVPP	_	_	_	_	_	VP	gehebt	290, 11	_	INF	_	O	VVPP	RE	MAINDECL-ELLI	68vb,15	_
+6	líep	_	_	NN	_	_	_	_	_	NP	líep	290, 11	CF_	DO	ACC-ABSTR-UNUSED_	B-NP	NA	_	MAINDECL-ELLI	68vb,15	UNLINK
+7	dēn	_	_	KOKOM	_	_	_	_	_	NP	dēn	290, 11	_	VGL	_	I-NP	KOKOM	_	MAINDECL-ELLI	68vb,15	UNLINK
+8	leít	_	_	NN	_	_	_	_	_	NP	leít	290, 11	CF_	VGL	_ACC-ABSTR-UNUSED_	I-NP	NA	_	MAINDECL-ELLI	68vb,16 vnge(=)-,	UNLINK
+9	.	_	_	$.	_	_	_	_	_	_	.	290, 11	_	_	_	O	_	_	MAINDECL-ELLI	68vb,16 vnge(=)-,	UNLINK
+10	gemach	_	_	NN	_	_	_	_	_	NP	gemach	290, 11	CF_	DO	_ACC-ABSTR-UNUSED_	B-NP	NA	_	MAINDECL-ELLI	68vb,16 vnge(=)-,	UNLINK
+11	lieb'	_	_	ADJD	_	_	_	_	_	ADVP	lieb'	290, 11	_	ADVB	_NA_	I-NP	ADV	_	MAINDECL-ELLI	68vb,16 vnge(=)-,	UNLINK
+12	dēn	_	_	KOKOM	_	_	_	_	_	NP	dēn	290, 12	_	VGL	_	I-NP	KOKOM	_	MAINDECL-ELLI	68vb,16 vnge(=)-,	UNLINK
+13	vnge(=)mach	_	_	NN	_	_	_	_	_	NP	vngemach	290, 12	CF_	VGL	_ACC-ABSTR-UNUSED	I-NP	NA	_	MAINDECL-ELLI	68vb,16 vnge(=)-,	UNLINK
+14	.	_	_	$.	_	_	_	_	_	_	.	290, 12	_	_	_	O	$_	_	MAINDECL-ELLI	68vb,17	UNLINK
+
+# sent_id = 4
+# PTBstring = (VROOT(DM(ITJ Ia))(SIMPX(VF(NX(PPER er)))(LK(VXFIN(VAFIN was))))(DM(ADVX(ADV alſo)))(SIMPX(VC(VXINF(VVPP v'eínet)))(NF(PX(APPR mit)(NX:HD(ART dem)(NN vatt'))))))
+# text = Ia er was alſo v'eínet mit dem vatt'
+1	Ia	_	_	ITJ	_	_	_	_	_	_	Ia	291,24	_	_	_	O	ITJ	_	MAINDECL	70rb,11	_
+2	er	_	_	PPER	_	_	_	_	_	NP	er	291,24	_	SUBJ	_	B-NP	PPER	_	MAINDECL	70rb,11	_
+3	was	_	_	VAFIN	_	_	_	_	_	VP	was	291,24	_	VFIN	_	O	VAFIN	LI	MAINDECL	70rb,11	_
+4	alſo	_	_	ADV	_	_	_	_	_	ADVP	alſo	291,24	_	ADVB	_	B-ADVP	ADV	_	MAINDECL	70rb,11	_
+5	v'eínet	_	_	VVPP	_	_	_	_	_	VP	v'eínet	291,24	_	INF	_	O	VVPP	RE	MAINDECL	70rb,11	_
+6	mit	_	_	APPR	_	_	_	_	_	PP	mit	291,24	BGR	PP-OBJ	_	B-PP	APPR	_	MAINDECL	70rb,11	UNLINK
+7	dem	_	_	ART	_	_	_	_	_	PP	dem	291,24	BGR	PP-OBJ	_	I-PP	DDA	_	MAINDECL	70rb,12	UNLINK
+8	vatt'	_	_	NN	_	_	_	_	_	PP	vatt'	291,24	BGR	PP-OBJ	ACC-UNI-USED-1	I-PP	NA	_	MAINDECL	70rb,12	UNLINK
+
+# sent_id = 5
+# PTBstring = (VROOT(SIMPX(VF(ADVX(ADV *LBRN*RBRu)))(LK(VXFIN(VMFIN ſuͥlē)))(MF(SIMPX:OS(VF(NX(PPER wir)))(LK(VXFIN(VVFIN lernē)))(VC(PTKVZ vf))))(VC(VXINF(VVINF klimē)))(NF(PX(APPR an)(NX:HD(ART daz)(NN kruͥze)(NX(NX:APP(PPOSAT mins)(NN liebē))(NX:APP(NX:APP(NN h'ren))(NX:APP(NE LBRJesRBRu)(NE LBRChristRBRi))))))))(PUNKT .))
+# text = *(N*)u ſuͥlē wir lernē vf klī́mē an daz kruͥze mins liebē h'ren (Jes)u (Christ)i.
+1	*(N*)u	_	_	ADV	_	_	_	_	_	ADVP	(N)u	293,14	_	ADVB	_	B-ADVP	ADV	_	MAINDECL	72ra,22	_
+2	ſuͥlē	_	_	VMFIN	_	_	_	_	_	VP	ſuͥlē	293,14	_	INF	_	O	VMFIN	LI	MAINDECL	72ra,23	_
+3	wir	_	_	PPER	_	_	_	_	_	NP	wir	293,14	_	SUBJ	_	B-NP	PPER	_	MAINDECL	72ra,23	_
+4	lernē	_	_	VVFIN	_	_	_	_	_	VP	lernē	293,14	_	INF	_	O	VVINF	RE	MAINDECL	72ra,23	_
+5	vf	_	_	PTKVZ	_	_	_	_	_	VP	vf	293,14	_	VZ_PTK	_	O	APPR	_	MAINDECL	72ra,23	UNLINK
+6	klī́mē	_	_	VVINF	_	_	_	_	_	VP	klī́mē	293,14	_	INF	_	O	VVINF	_	MAINDECL	72ra,23	UNLINK
+7	an	_	_	APPR	_	_	_	_	_	PP	an	293,14	NF	PP-DIR	_	B-PP	APPR	_	MAINDECL	72ra,24	UNLINK
+8	daz	_	_	ART	_	_	_	_	_	PP	daz	293,14	NF	PP-DIR	NEW_	I-PP	DDA	_	MAINDECL	72ra,24	UNLINK
+9	kruͥze	_	_	NN	_	_	_	_	_	PP	kruͥze	293,14	NF	PP-DIR	NEW_	I-PP	NA	_	MAINDECL	72ra,24	UNLINK
+10	mins	_	_	PPOSAT	_	_	_	_	_	PP	mins	293,14	NF	ATTR	_ACC-SIT_	I-PP	DPOS	_	MAINDECL	72ra,24	UNLINK
+11	liebē	_	_	NN	_	_	_	_	_	PP	liebē	293,14	NF	ATTR	_ACC-UNI-USED-1	I-PP	NA	_	MAINDECL	72ra,24	UNLINK
+12	h'ren	_	_	NN	_	_	_	_	_	PP	h'ren	293,15	NF	ATTR	_ACC-UNI-USED-1	I-PP	NA	_	MAINDECL	72ra,25	UNLINK
+13	(Jes)u	_	_	NE	_	_	_	_	_	PP	(Jes)u	293,15	NF	APPOS	_ACC-UNI-USED-1	I-PP	NE	_	MAINDECL	72ra,25	UNLINK
+14	(Christ)i	_	_	NE	_	_	_	_	_	PP	(Christ)i	293,15	NF	APPOS	_ACC-UNI-USED-1	I-PP	NE	_	MAINDECL	72ra,25	UNLINK
+15	.	_	_	$.	_	_	_	_	_	_	.	293,15	_	_	_	O	$_	_	MAINDECL	72ra,25	_

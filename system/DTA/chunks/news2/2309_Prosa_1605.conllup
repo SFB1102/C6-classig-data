@@ -1,0 +1,839 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CHUNK CharOffset DTA:ID DTA:NORM POS
+# sent_id = 1
+# sent_id(TSV) = 1
+# text = JOCO-SERIA Das iſt Schimpff vnd Ernſt / darin nicht allein nuͤtzliche vnd denckwuͤrdige / ſon-<lb/>dern auch anmuͤhtige vnnd luſtige Hiſtorien erzehlet vnd beſchrieben werden .
+1	JOCO-SERIA	joco-seria	_	NN	_	_	_	_	_	B-NC	0-10	w1	JOCO-SERIA	*
+2	Das	die	_	PDS	_	_	_	_	_	B-NC	11-14	w2	Das	*
+3	iſt	sein	_	VAFIN	_	_	_	_	_	O	15-18	w3	ist	*
+4	Schimpff	Schimpf	_	NN	_	_	_	_	_	B-NC	19-27	w4	Schimpf	*
+5	vnd	und	_	KON	_	_	_	_	_	O	28-31	w5	und	*
+6	Ernſt	Ernst	_	NN	_	_	_	_	_	B-NC	32-37	w6	Ernst	*
+7	/	/	_	$(	_	_	_	_	_	O	38-39	w7	/	*
+8	darin	darin	_	PAV	_	_	_	_	_	B-NC	40-45	w8	darin	*
+9	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVC	46-51	w9	nicht	*
+10	allein	allein	_	ADV	_	_	_	_	_	B-NC	52-58	wa	allein	*
+11	nuͤtzliche	nützlich	_	ADJA	_	_	_	_	_	I-NC	59-69	wb	nützliche	*
+12	vnd	und	_	KON	_	_	_	_	_	I-NC	70-73	wc	und	*
+13	denckwuͤrdige	denkwürdig	_	ADJA	_	_	_	_	_	I-NC	74-87	wd	denkwürdige	*
+14	/	/	_	$(	_	_	_	_	_	O	88-89	we	/	*
+15	ſon-<lb/>dern	sondern	_	KON	_	_	_	_	_	O	90-103	wf	sondern	*
+16	auch	auch	_	ADV	_	_	_	_	_	B-NC	104-108	w10	auch	*
+17	anmuͤhtige	anmutig	_	ADJA	_	_	_	_	_	I-NC	109-119	w11	anmutige	*
+18	vnnd	und	_	KON	_	_	_	_	_	I-NC	120-124	w12	und	*
+19	luſtige	lustig	_	ADJA	_	_	_	_	_	I-NC	125-132	w13	lustige	*
+20	Hiſtorien	Historie	_	NN	_	_	_	_	_	I-NC	133-142	w14	Historien	*
+21	erzehlet	erzählen	_	VVPP	_	_	_	_	_	O	143-151	w15	erzählt	*
+22	vnd	und	_	KON	_	_	_	_	_	O	152-155	w16	und	*
+23	beſchrieben	beschreiben	_	VVPP	_	_	_	_	_	O	156-167	w17	beschrieben	*
+24	werden	werden	_	VAINF	_	_	_	_	_	O	168-174	w18	werden	*
+25	.	.	_	$.	_	_	_	_	_	O	175-176	w19	.	*
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# text = Erſtlich in Lateiniſcher Sprach außgangen / durch Herꝛn D. Othonem Melandrum : Jetzo aber vf vieler ehrlicher Leut Begeren ins teutſch vberſetzet .
+1	Erſtlich	erstlich	_	ADV	_	_	_	_	_	B-ADVC	178-186	w1a	Erstlich	*
+2	in	in	_	APPR	_	_	_	_	_	B-PC	187-189	w1b	in	*
+3	Lateiniſcher	lateinisch	_	ADJA	_	_	_	_	_	I-PC	190-202	w1c	Lateinischer	*
+4	Sprach	Sprache	_	NN	_	_	_	_	_	I-PC	203-209	w1d	Sprache	*
+5	außgangen	ausgehen	_	VVPP	_	_	_	_	_	O	210-219	w1e	ausgegangen	*
+6	/	/	_	$(	_	_	_	_	_	O	220-221	w1f	/	*
+7	durch	durch	_	APPR	_	_	_	_	_	B-PC	222-227	w20	durch	*
+8	Herꝛn	Herr	_	NN	_	_	_	_	_	I-PC	228-233	w21	Herrn	*
+9	D.	D.	_	NN	_	_	_	_	_	B-NC	234-236	w22	D.	*
+10	Othonem	Othonem	_	NE	_	_	_	_	_	B-NC	237-244	w23	Othonem	*
+11	Melandrum	Melandrum	_	NE	_	_	_	_	_	I-NC	245-254	w24	Melandrum	*
+12	:	:	_	$.	_	_	_	_	_	O	255-256	w25	:	*
+13	Jetzo	jetzt	_	ADV	_	_	_	_	_	B-ADVC	257-262	w26	Jetzt	*
+14	aber	aber	_	ADV	_	_	_	_	_	B-ADVC	263-267	w27	aber	*
+15	vf	auf	_	APPR	_	_	_	_	_	B-PC	268-270	w28	auf	*
+16	vieler	viel	_	PIAT	_	_	_	_	_	I-PC	271-277	w29	vieler	*
+17	ehrlicher	ehrlich	_	ADJA	_	_	_	_	_	I-PC	278-287	w2a	ehrlicher	*
+18	Leut	Leute	_	NN	_	_	_	_	_	I-PC	288-292	w2b	Leute	*
+19	Begeren	Begehren	_	NN	_	_	_	_	_	B-NC	293-300	w2c	Begehren	*
+20	ins	ins	_	APPRART	_	_	_	_	_	B-PC	301-304	w2d	ins	*
+21	teutſch	deutsch	_	NN	_	_	_	_	_	I-PC	305-312	w2e	deutsch	*
+22	vberſetzet	übersetzen	_	VVPP	_	_	_	_	_	O	313-323	w2f	übersetzet	*
+23	.	.	_	$.	_	_	_	_	_	O	324-325	w30	.	*
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# text = Getruckt zu Lich / in der Graffſchafft Solms / durch Wolgang Kezeln .
+1	Getruckt	gedruckt	_	VVPP	_	_	_	_	_	O	327-335	w31	gedruckt	*
+2	zu	zu	_	APPR	_	_	_	_	_	B-PC	336-338	w32	zu	*
+3	Lich	Lich	_	NE	_	_	_	_	_	I-PC	339-343	w33	Lich	*
+4	/	/	_	$(	_	_	_	_	_	O	344-345	w34	/	*
+5	in	in	_	APPR	_	_	_	_	_	B-PC	346-348	w35	in	*
+6	der	d	_	ART	_	_	_	_	_	I-PC	349-352	w36	der	*
+7	Graffſchafft	Grafschaft	_	NN	_	_	_	_	_	I-PC	353-365	w37	Grafschaft	*
+8	Solms	Solms	_	NE	_	_	_	_	_	I-PC	366-371	w38	Solms	*
+9	/	/	_	$(	_	_	_	_	_	O	372-373	w39	/	*
+10	durch	durch	_	APPR	_	_	_	_	_	B-PC	374-379	w3a	durch	*
+11	Wolgang	Wohlgang	_	NE	_	_	_	_	_	I-PC	380-387	w3b	Wohlgang	*
+12	Kezeln	Kezeln	_	NE	_	_	_	_	_	I-PC	388-394	w3c	Kezeln	*
+13	.	.	_	$.	_	_	_	_	_	O	395-396	w3d	.	*
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# text = Anno M. DC. V .
+1	Anno	Anno	_	NN	_	_	_	_	_	B-NC	398-402	w3e	Anno	*
+2	M.	M.	_	CARD	_	_	_	_	_	B-NC	403-405	w3f	M.	*
+3	DC.	Dc.	_	CARD	_	_	_	_	_	I-NC	406-409	w40,w40_1	DC.	*
+4	V	v	_	CARD	_	_	_	_	_	I-NC	410-411	w41	V	*
+5	.	.	_	$.	_	_	_	_	_	O	412-413	w42	.	*
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# text = Dem Vornehmen Vor-<lb/>ſichtigen vnd Kunſtreichen Herꝛn Johann Berner / meinem inſonderß lie-<lb/>ben Gevattern / Fried vnnd heil von GOTT dem Allmech-<lb/>tigen .
+1	Dem	d	_	ART	_	_	_	_	_	B-NC	415-418	w458	Dem	*
+2	Vornehmen	vornehm	_	ADJA	_	_	_	_	_	I-NC	419-428	w459	Vornehmen	*
+3	Vor-<lb/>ſichtigen	Vorsichtige	_	ADJA	_	_	_	_	_	I-NC	429-447	w45a	Vorsichtigen	*
+4	vnd	und	_	KON	_	_	_	_	_	I-NC	448-451	w45b	und	*
+5	Kunſtreichen	kunstreich	_	ADJA	_	_	_	_	_	I-NC	452-464	w45c	Kunstreichen	*
+6	Herꝛn	Herr	_	NN	_	_	_	_	_	I-NC	465-470	w45d	Herrn	*
+7	Johann	Johann	_	NE	_	_	_	_	_	B-NC	471-477	w45e	Johann	*
+8	Berner	Berner	_	NE	_	_	_	_	_	I-NC	478-484	w45f	Berner	*
+9	/	/	_	$(	_	_	_	_	_	O	485-486	w460	/	*
+10	meinem	meine	_	PPOSAT	_	_	_	_	_	B-NC	487-493	w461	meinem	*
+11	inſonderß	insonders	_	ADV	_	_	_	_	_	I-NC	494-503	w462	insonders	*
+12	lie-<lb/>ben	lieb	_	ADJA	_	_	_	_	_	I-NC	504-516	w463	lieben	*
+13	Gevattern	Gevatter	_	NN	_	_	_	_	_	I-NC	517-526	w464	Gevattern	*
+14	/	/	_	$(	_	_	_	_	_	O	527-528	w465	/	*
+15	Fried	Frieden	_	NN	_	_	_	_	_	B-NC	529-534	w466	Frieden	*
+16	vnnd	und	_	KON	_	_	_	_	_	O	535-539	w467	und	*
+17	heil	heil	_	NN	_	_	_	_	_	B-NC	540-544	w468	heil	*
+18	von	von	_	APPR	_	_	_	_	_	B-PC	545-548	w469	von	*
+19	GOTT	Gott	_	NN	_	_	_	_	_	I-PC	549-553	w46a	GOTT	*
+20	dem	d	_	ART	_	_	_	_	_	B-NC	554-557	w46b	dem	*
+21	Allmech-<lb/>tigen	allmächtig	_	NN	_	_	_	_	_	I-NC	558-576	w46c	allmächtigen	*
+22	.	.	_	$.	_	_	_	_	_	O	577-578	w46d	.	*
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# text = ES hatt vorſichtiger Herꝛ / guter freundt / der gelehrte Mann / D. Otho Melander vor etlichen Jahren ein Buch colligiret vnd geſchrieben / wel-<lb/>ches er Joco-Seria intituliret hat / das iſt / Schimpff vnd Ernſt / welche er auch mir zu kommen laſſen vnnd per typos meos evulgirt vnd ahn tag kommen .
+1	ES	es	_	PPER	_	_	_	_	_	B-NC	580-582	w43,w43_1	Es	*
+2	hatt	haben	_	VAFIN	_	_	_	_	_	O	583-587	w44	hatte	*
+3	vorſichtiger	vorsichtig	_	ADJA	_	_	_	_	_	B-NC	588-600	w45	vorsichtiger	*
+4	Herꝛ	Herr	_	NN	_	_	_	_	_	I-NC	601-605	w46	Herr	*
+5	/	/	_	$(	_	_	_	_	_	O	606-607	w47	/	*
+6	guter	gut	_	ADJA	_	_	_	_	_	B-NC	608-613	w48	guter	*
+7	freundt	Freund	_	NN	_	_	_	_	_	I-NC	614-621	w49	Freund	*
+8	/	/	_	$(	_	_	_	_	_	O	622-623	w4a	/	*
+9	der	d	_	ART	_	_	_	_	_	B-NC	624-627	w4b	der	*
+10	gelehrte	gelehrt	_	ADJA	_	_	_	_	_	I-NC	628-636	w4c	gelehrte	*
+11	Mann	Mann	_	NN	_	_	_	_	_	I-NC	637-641	w4d	Mann	*
+12	/	/	_	$(	_	_	_	_	_	O	642-643	w4e	/	*
+13	D.	D.	_	NN	_	_	_	_	_	B-NC	644-646	w4f	D.	*
+14	Otho	Otho	_	NE	_	_	_	_	_	B-NC	647-651	w50	Otho	*
+15	Melander	Melander	_	NE	_	_	_	_	_	I-NC	652-660	w51	Melander	*
+16	vor	vor	_	APPR	_	_	_	_	_	B-PC	661-664	w52	vor	*
+17	etlichen	etlich	_	ADJA	_	_	_	_	_	I-PC	665-673	w53	etlichen	*
+18	Jahren	Jahr	_	NN	_	_	_	_	_	I-PC	674-680	w54	Jahren	*
+19	ein	eine	_	ART	_	_	_	_	_	B-NC	681-684	w55	ein	*
+20	Buch	Buch	_	NN	_	_	_	_	_	I-NC	685-689	w56	Buch	*
+21	colligiret	Colligiret	_	VVPP	_	_	_	_	_	O	690-700	w57	colligiret	*
+22	vnd	und	_	KON	_	_	_	_	_	O	701-704	w58	und	*
+23	geſchrieben	schreiben	_	VVPP	_	_	_	_	_	O	705-716	w59	geschrieben	*
+24	/	/	_	$(	_	_	_	_	_	O	717-718	w5a	/	*
+25	wel-<lb/>ches	welches	_	PRELS	_	_	_	_	_	B-NC	719-732	w5b	welches	*
+26	er	er	_	PPER	_	_	_	_	_	B-NC	733-735	w5c	er	*
+27	Joco-Seria	Joco-Seria	_	NN	_	_	_	_	_	B-NC	736-746	w5d	Joco-Seria	*
+28	intituliret	Intituliret	_	VVPP	_	_	_	_	_	O	747-758	w5e	intituliret	*
+29	hat	haben	_	VAFIN	_	_	_	_	_	O	759-762	w5f	hat	*
+30	/	/	_	$(	_	_	_	_	_	O	763-764	w60	/	*
+31	das	die	_	PDS	_	_	_	_	_	B-NC	765-768	w61	das	*
+32	iſt	sein	_	VAFIN	_	_	_	_	_	O	769-772	w62	ist	*
+33	/	/	_	$(	_	_	_	_	_	O	773-774	w63	/	*
+34	Schimpff	Schimpf	_	NN	_	_	_	_	_	B-NC	775-783	w64	Schimpf	*
+35	vnd	und	_	KON	_	_	_	_	_	O	784-787	w65	und	*
+36	Ernſt	Ernst	_	NN	_	_	_	_	_	B-NC	788-793	w66	Ernst	*
+37	/	/	_	$(	_	_	_	_	_	O	794-795	w67	/	*
+38	welche	welche	_	PRELS	_	_	_	_	_	B-NC	796-802	w68	welche	*
+39	er	er	_	PPER	_	_	_	_	_	B-NC	803-805	w69	er	*
+40	auch	auch	_	ADV	_	_	_	_	_	B-NC	806-810	w6a	auch	*
+41	mir	ich	_	PPER	_	_	_	_	_	I-NC	811-814	w6b	mir	*
+42	zu	zu	_	PTKVZ	_	_	_	_	_	O	815-817	w6c	zu	*
+43	kommen	kommen	_	VVINF	_	_	_	_	_	O	818-824	w6d	kommen	*
+44	laſſen	lassen	_	VVINF	_	_	_	_	_	O	825-831	w6e	lassen	*
+45	vnnd	und	_	KON	_	_	_	_	_	O	832-836	w6f	und	*
+46	per	per	_	FM	_	_	_	_	_	B-NC	837-840	w70	per	*
+47	typos	typos	_	FM	_	_	_	_	_	I-NC	841-846	w71	typos	*
+48	meos	meos	_	FM	_	_	_	_	_	I-NC	847-851	w72	meos	*
+49	evulgirt	evulgirt	_	VVPP	_	_	_	_	_	O	852-860	w73	evulgirt	*
+50	vnd	und	_	KON	_	_	_	_	_	O	861-864	w74	und	*
+51	ahn	ahn	_	APPR	_	_	_	_	_	B-PC	865-868	w75	ahn	*
+52	tag	Tag	_	NN	_	_	_	_	_	I-PC	869-872	w76	tag	*
+53	kommen	kommen	_	VVPP	_	_	_	_	_	O	873-879	w77	kommen	*
+54	.	.	_	$.	_	_	_	_	_	O	880-881	w78	.	*
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# text = Weil aber ſolches wercks viel exẽplaria ſind diſtrahi-<lb/>ret vnd ahn alle ort verkaufft worden / hab ich vrſach vnd anleitung bekommen / die-<lb/>ſelbe nicht ohn geringen koſten vnd muͤh zu vertiren vnd in Teutſche ſprach zu bringen laſſen / daß nicht allein gemeltes Buch den Gelehrten moͤge dienſtlich vnd angenehm ſein / ſondern auch den gemeinen layen / daß die auch etwas nutzliches daraus lernen moͤchten / vnd wo ſie ſehen wurden daß an-<lb/>dere Leuth etwas loͤbliches gethan vnd ver-<lb/>richt haben / ſie lerneten denſelben nach fol-<lb/>gẽ / oder wo jrgent gefehlet / ſie ein abſcheu-<lb/>wen moͤchten nehmen / ſolche ding nach zu thun .
+1	Weil	weil	_	KOUS	_	_	_	_	_	O	883-887	w79	Weil	*
+2	aber	aber	_	ADV	_	_	_	_	_	B-ADVC	888-892	w7a	aber	*
+3	ſolches	solch	_	PIAT	_	_	_	_	_	B-NC	893-900	w7b	solches	*
+4	wercks	Werk	_	NN	_	_	_	_	_	I-NC	901-907	w7c	Werks	*
+5	viel	viel	_	PIAT	_	_	_	_	_	B-NC	908-912	w7d	viel	*
+6	exẽplaria	Exenplaria	_	NN	_	_	_	_	_	I-NC	913-923	w7e	exenplaria	*
+7	ſind	sein	_	VAFIN	_	_	_	_	_	O	924-928	w7f	sind	*
+8	diſtrahi-<lb/>ret	distrahieren	_	VVPP	_	_	_	_	_	O	929-946	w80	distrahieret	*
+9	vnd	und	_	KON	_	_	_	_	_	O	947-950	w81	und	*
+10	ahn	ahnen	_	APPR	_	_	_	_	_	B-PC	951-954	w82	ahn	*
+11	alle	alle	_	PIAT	_	_	_	_	_	I-PC	955-959	w83	alle	*
+12	ort	Ort	_	NN	_	_	_	_	_	I-PC	960-963	w84	Ort	*
+13	verkaufft	verkaufen	_	VVPP	_	_	_	_	_	O	964-973	w85	verkauft	*
+14	worden	werden	_	VAPP	_	_	_	_	_	O	974-980	w86	worden	*
+15	/	/	_	$(	_	_	_	_	_	O	981-982	w87	/	*
+16	hab	haben	_	VAFIN	_	_	_	_	_	O	983-986	w88	habe	*
+17	ich	ich	_	PPER	_	_	_	_	_	B-NC	987-990	w89	ich	*
+18	vrſach	Ursache	_	NN	_	_	_	_	_	B-NC	991-997	w8a	Ursache	*
+19	vnd	und	_	KON	_	_	_	_	_	O	998-1001	w8b	und	*
+20	anleitung	Anleitung	_	NN	_	_	_	_	_	B-NC	1002-1011	w8c	Anleitung	*
+21	bekommen	bekommen	_	VVINF	_	_	_	_	_	O	1012-1020	w8d	bekommen	*
+22	/	/	_	$(	_	_	_	_	_	O	1021-1022	w8e	/	*
+23	die-<lb/>ſelbe	dieselbe	_	PDS	_	_	_	_	_	B-NC	1023-1037	w8f	dieselbe	*
+24	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVC	1038-1043	w90	nicht	*
+25	ohn	ohne	_	APPR	_	_	_	_	_	B-PC	1044-1047	w91	ohne	*
+26	geringen	gering	_	ADJA	_	_	_	_	_	I-PC	1048-1056	w92	geringen	*
+27	koſten	kosten	_	NN	_	_	_	_	_	I-PC	1057-1063	w93	kosten	*
+28	vnd	und	_	KON	_	_	_	_	_	O	1064-1067	w94	und	*
+29	muͤh	Mühe	_	NN	_	_	_	_	_	B-NC	1068-1072	w95	Mühe	*
+30	zu	zu	_	PTKZU	_	_	_	_	_	O	1073-1075	w96	zu	*
+31	vertiren	vertieren	_	VVINF	_	_	_	_	_	O	1076-1084	w97	vertieren	*
+32	vnd	und	_	KON	_	_	_	_	_	O	1085-1088	w98	und	*
+33	in	in	_	APPR	_	_	_	_	_	B-PC	1089-1091	w99	in	*
+34	Teutſche	Deutsche	_	ADJA	_	_	_	_	_	I-PC	1092-1100	w9a	Deutsche	*
+35	ſprach	sprechen	_	NN	_	_	_	_	_	I-PC	1101-1107	w9b	sprach	*
+36	zu	zu	_	PTKZU	_	_	_	_	_	O	1108-1110	w9c	zu	*
+37	bringen	bringen	_	VVINF	_	_	_	_	_	O	1111-1118	w9d	bringen	*
+38	laſſen	lassen	_	VVINF	_	_	_	_	_	O	1119-1125	w9e	lassen	*
+39	/	/	_	$(	_	_	_	_	_	O	1126-1127	w9f	/	*
+40	daß	daß	_	KOUS	_	_	_	_	_	O	1128-1131	wa0	daß	*
+41	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVC	1132-1137	wa1	nicht	*
+42	allein	allein	_	ADV	_	_	_	_	_	B-NC	1138-1144	wa2	allein	*
+43	gemeltes	gemeldet	_	ADJA	_	_	_	_	_	I-NC	1145-1153	wa3	gemeldetes	*
+44	Buch	Buch	_	NN	_	_	_	_	_	I-NC	1154-1158	wa4	Buch	*
+45	den	d	_	ART	_	_	_	_	_	B-NC	1159-1162	wa5	den	*
+46	Gelehrten	Gelehrte	_	NN	_	_	_	_	_	I-NC	1163-1172	wa6	Gelehrten	*
+47	moͤge	mögen	_	VMFIN	_	_	_	_	_	O	1173-1178	wa7	möge	*
+48	dienſtlich	dienstlich	_	ADJD	_	_	_	_	_	B-AC	1179-1189	wa8	dienstlich	*
+49	vnd	und	_	KON	_	_	_	_	_	O	1190-1193	wa9	und	*
+50	angenehm	angenehm	_	ADJD	_	_	_	_	_	B-AC	1194-1202	waa	angenehm	*
+51	ſein	sein	_	VAINF	_	_	_	_	_	O	1203-1207	wab	sein	*
+52	/	/	_	$(	_	_	_	_	_	O	1208-1209	wac	/	*
+53	ſondern	sondern	_	KON	_	_	_	_	_	O	1210-1217	wad	sondern	*
+54	auch	auch	_	ADV	_	_	_	_	_	B-NC	1218-1222	wae	auch	*
+55	den	d	_	ART	_	_	_	_	_	I-NC	1223-1226	waf	den	*
+56	gemeinen	gemein	_	ADJA	_	_	_	_	_	I-NC	1227-1235	wb0	gemeinen	*
+57	layen	Laie	_	NN	_	_	_	_	_	I-NC	1236-1241	wb1	Laien	*
+58	/	/	_	$(	_	_	_	_	_	O	1242-1243	wb2	/	*
+59	daß	daß	_	KOUS	_	_	_	_	_	O	1244-1247	wb3	daß	*
+60	die	d	_	PDS	_	_	_	_	_	B-NC	1248-1251	wb4	die	*
+61	auch	auch	_	ADV	_	_	_	_	_	B-NC	1252-1256	wb5	auch	*
+62	etwas	etwas	_	PIAT	_	_	_	_	_	I-NC	1257-1262	wb6	etwas	*
+63	nutzliches	nützlich	_	NN	_	_	_	_	_	I-NC	1263-1273	wb7	nützliches	*
+64	daraus	daraus	_	PAV	_	_	_	_	_	B-NC	1274-1280	wb8	daraus	*
+65	lernen	lernen	_	VVINF	_	_	_	_	_	O	1281-1287	wb9	lernen	*
+66	moͤchten	mögen	_	VMFIN	_	_	_	_	_	O	1288-1296	wba	möchten	*
+67	/	/	_	$(	_	_	_	_	_	O	1297-1298	wbb	/	*
+68	vnd	und	_	KON	_	_	_	_	_	O	1299-1302	wbc	und	*
+69	wo	wo	_	KOUS	_	_	_	_	_	O	1303-1305	wbd	wo	*
+70	ſie	sie	_	PPER	_	_	_	_	_	B-NC	1306-1309	wbe	sie	*
+71	ſehen	sehen	_	VVINF	_	_	_	_	_	O	1310-1315	wbf	sehen	*
+72	wurden	werden	_	VAFIN	_	_	_	_	_	O	1316-1322	wc0	wurden	*
+73	daß	daß	_	KOUS	_	_	_	_	_	O	1323-1326	wc1	daß	*
+74	an-<lb/>dere	ander	_	ADJA	_	_	_	_	_	B-NC	1327-1339	wc2	andere	*
+75	Leuth	Leute	_	NN	_	_	_	_	_	I-NC	1340-1345	wc3	Leute	*
+76	etwas	etwas	_	PIAT	_	_	_	_	_	B-NC	1346-1351	wc4	etwas	*
+77	loͤbliches	löblich	_	NN	_	_	_	_	_	I-NC	1352-1362	wc5	löbliches	*
+78	gethan	tun	_	VVPP	_	_	_	_	_	O	1363-1369	wc6	getan	*
+79	vnd	und	_	KON	_	_	_	_	_	O	1370-1373	wc7	und	*
+80	ver-<lb/>richt	verrichten	_	VVPP	_	_	_	_	_	O	1374-1388	wc8	verrichtete	*
+81	haben	haben	_	VAFIN	_	_	_	_	_	O	1389-1394	wc9	haben	*
+82	/	/	_	$(	_	_	_	_	_	O	1395-1396	wca	/	*
+83	ſie	sie	_	PPER	_	_	_	_	_	B-NC	1397-1400	wcb	sie	*
+84	lerneten	lernen	_	VVFIN	_	_	_	_	_	O	1401-1409	wcc	lernten	*
+85	denſelben	dieselbe	_	PDS	_	_	_	_	_	B-NC	1410-1419	wcd	denselben	*
+86	nach	nach	_	PTKVZ	_	_	_	_	_	O	1420-1424	wce	nach	*
+87	fol-<lb/>gẽ	folgen	_	VVINF	_	_	_	_	_	O	1425-1437	wcf	folgen	*
+88	/	/	_	$(	_	_	_	_	_	O	1438-1439	wd0	/	*
+89	oder	oder	_	KON	_	_	_	_	_	O	1440-1444	wd1	oder	*
+90	wo	wo	_	KOUS	_	_	_	_	_	O	1445-1447	wd2	wo	*
+91	jrgent	irgend	_	ADV	_	_	_	_	_	B-ADVC	1448-1454	wd3	irgend	*
+92	gefehlet	fehlen	_	VVPP	_	_	_	_	_	O	1455-1463	wd4	gefehlt	*
+93	/	/	_	$(	_	_	_	_	_	O	1464-1465	wd5	/	*
+94	ſie	sie	_	PPER	_	_	_	_	_	B-NC	1466-1469	wd6	sie	*
+95	ein	ein	_	ART	_	_	_	_	_	B-NC	1470-1473	wd7	ein	*
+96	abſcheu-<lb/>wen	abscheuern	_	NN	_	_	_	_	_	I-NC	1474-1490	wd8	abscheuern	*
+97	moͤchten	mögen	_	VMFIN	_	_	_	_	_	O	1491-1499	wd9	möchten	*
+98	nehmen	nehmen	_	VVINF	_	_	_	_	_	O	1500-1506	wda	nehmen	*
+99	/	/	_	$(	_	_	_	_	_	O	1507-1508	wdb	/	*
+100	ſolche	solch	_	PIAT	_	_	_	_	_	B-NC	1509-1515	wdc	solche	*
+101	ding	Ding	_	NN	_	_	_	_	_	I-NC	1516-1520	wdd	Ding	*
+102	nach	nach	_	PTKVZ	_	_	_	_	_	O	1521-1525	wde	nach	*
+103	zu	zu	_	PTKZU	_	_	_	_	_	O	1526-1528	wdf	zu	*
+104	thun	tun	_	VVINF	_	_	_	_	_	O	1529-1533	we0	tun	*
+105	.	.	_	$.	_	_	_	_	_	O	1534-1535	we1	.	*
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# text = Dan dieſe Hiſtorien ſind mit groſſer muͤh von dem Gelehrten Man durch taͤg-<lb/>liche erfahrung zuſam̃en geſchrieben / vnd auch auß vornehmer beruͤmpter leut Buͤ-<lb/>cher gezogẽ worden / hat auch nichts darin geſetzt noch ſetzen laſſen / daraus man nit et-<lb/>was nutzliches ſchoͤpffen koͤñe .
+1	Dan	dann	_	KON	_	_	_	_	_	O	1537-1540	we2	Dann	*
+2	dieſe	diese	_	PDAT	_	_	_	_	_	B-NC	1541-1546	we3	diese	*
+3	Hiſtorien	Historie	_	NN	_	_	_	_	_	I-NC	1547-1556	we4	Historien	*
+4	ſind	sein	_	VAFIN	_	_	_	_	_	O	1557-1561	we5	sind	*
+5	mit	mit	_	APPR	_	_	_	_	_	B-PC	1562-1565	we6	mit	*
+6	groſſer	groß	_	ADJA	_	_	_	_	_	I-PC	1566-1573	we7	großer	*
+7	muͤh	Mühe	_	NN	_	_	_	_	_	I-PC	1574-1578	we8	Mühe	*
+8	von	von	_	APPR	_	_	_	_	_	B-PC	1579-1582	we9	von	*
+9	dem	d	_	ART	_	_	_	_	_	I-PC	1583-1586	wea	dem	*
+10	Gelehrten	Gelehrte	_	ADJA	_	_	_	_	_	I-PC	1587-1596	web	Gelehrten	*
+11	Man	man	_	NN	_	_	_	_	_	I-PC	1597-1600	wec	Man	*
+12	durch	durch	_	APPR	_	_	_	_	_	B-PC	1601-1606	wed	durch	*
+13	taͤg-<lb/>liche	täglich	_	ADJA	_	_	_	_	_	I-PC	1607-1622	wee	tägliche	*
+14	erfahrung	Erfahrung	_	NN	_	_	_	_	_	I-PC	1623-1632	wef	Erfahrung	*
+15	zuſam̃en	zusammen	_	PTKVZ	_	_	_	_	_	O	1633-1641	wf0	zusammen	*
+16	geſchrieben	schreiben	_	VVPP	_	_	_	_	_	O	1642-1653	wf1	geschrieben	*
+17	/	/	_	$(	_	_	_	_	_	O	1654-1655	wf2	/	*
+18	vnd	und	_	KON	_	_	_	_	_	O	1656-1659	wf3	und	*
+19	auch	auch	_	ADV	_	_	_	_	_	B-PC	1660-1664	wf4	auch	*
+20	auß	aus	_	APPR	_	_	_	_	_	I-PC	1665-1668	wf5	aus	*
+21	vornehmer	vornehm	_	ADJA	_	_	_	_	_	I-PC	1669-1678	wf6	vornehmer	*
+22	beruͤmpter	berühmt	_	ADJA	_	_	_	_	_	I-PC	1679-1689	wf7	berühmter	*
+23	leut	Leut	_	NN	_	_	_	_	_	I-PC	1690-1694	wf8	Leut	*
+24	Buͤ-<lb/>cher	Buch	_	NN	_	_	_	_	_	I-PC	1695-1708	wf9	Bücher	*
+25	gezogẽ	ziehen	_	VVPP	_	_	_	_	_	O	1709-1716	wfa	gezogen	*
+26	worden	werden	_	VAPP	_	_	_	_	_	O	1717-1723	wfb	worden	*
+27	/	/	_	$(	_	_	_	_	_	O	1724-1725	wfc	/	*
+28	hat	haben	_	VAFIN	_	_	_	_	_	O	1726-1729	wfd	hat	*
+29	auch	auch	_	ADV	_	_	_	_	_	B-NC	1730-1734	wfe	auch	*
+30	nichts	nichts	_	PIS	_	_	_	_	_	I-NC	1735-1741	wff	nichts	*
+31	darin	darin	_	PAV	_	_	_	_	_	B-NC	1742-1747	w100	darin	*
+32	geſetzt	setzen	_	VVPP	_	_	_	_	_	O	1748-1755	w101	gesetzt	*
+33	noch	noch	_	KON	_	_	_	_	_	O	1756-1760	w102	noch	*
+34	ſetzen	setzen	_	VVINF	_	_	_	_	_	O	1761-1767	w103	setzen	*
+35	laſſen	lassen	_	VVINF	_	_	_	_	_	O	1768-1774	w104	lassen	*
+36	/	/	_	$(	_	_	_	_	_	O	1775-1776	w105	/	*
+37	daraus	daraus	_	PAV	_	_	_	_	_	B-NC	1777-1783	w106	daraus	*
+38	man	man	_	PIS	_	_	_	_	_	B-NC	1784-1787	w107	man	*
+39	nit	nicht	_	PTKNEG	_	_	_	_	_	B-NC	1788-1791	w108	nicht	*
+40	et-<lb/>was	etwas	_	PIAT	_	_	_	_	_	I-NC	1792-1803	w109	etwas	*
+41	nutzliches	nützlich	_	NN	_	_	_	_	_	I-NC	1804-1814	w10a	nützliches	*
+42	ſchoͤpffen	schöpfen	_	VVINF	_	_	_	_	_	O	1815-1825	w10b	schöpfen	*
+43	koͤñe	können	_	VMFIN	_	_	_	_	_	O	1826-1832	w10c	könne	*
+44	.	.	_	$.	_	_	_	_	_	O	1833-1834	w10d	.	*
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# text = Dieſes auch derentwegen / wen andere leut ſitzen Spie-<lb/>len freſſen vnd ſauffen / dardurch Gott ge-<lb/>leſtert vnnd die Seel verdampt wird / konte hergegen der fromme leſer etwas kurtzwei-<lb/>liges haben zu leſen / die zeit darmit hin zu bringen / vnd wird alſo ſein zeit nit vbel an-<lb/>gewendet haben / dan er wurde allzeit etwas haben entweder exempel des guten nach zu folgen / oder das boͤſe / wegen vermeidung zeitlicher vnd ewiger ſtraff / zu flihen .
+1	Dieſes	diese	_	PDS	_	_	_	_	_	B-NC	1836-1842	w10e	Dieses	*
+2	auch	auch	_	ADV	_	_	_	_	_	I-NC	1843-1847	w10f	auch	*
+3	derentwegen	derentwegen	_	PAV	_	_	_	_	_	I-NC	1848-1859	w110	derentwegen	*
+4	/	/	_	$(	_	_	_	_	_	O	1860-1861	w111	/	*
+5	wen	wen	_	KOUS	_	_	_	_	_	O	1862-1865	w112	wen	*
+6	andere	ander	_	ADJA	_	_	_	_	_	B-NC	1866-1872	w113	andere	*
+7	leut	Leut	_	NN	_	_	_	_	_	I-NC	1873-1877	w114	Leut	*
+8	ſitzen	sitzen	_	VVFIN	_	_	_	_	_	O	1878-1884	w115	sitzen	*
+9	Spie-<lb/>len	Spiel	_	VVFIN	_	_	_	_	_	O	1885-1898	w116	Spielen	*
+10	freſſen	fressen	_	VVFIN	_	_	_	_	_	O	1899-1906	w117	fressen	*
+11	vnd	und	_	KON	_	_	_	_	_	O	1907-1910	w118	und	*
+12	ſauffen	saufen	_	VVFIN	_	_	_	_	_	O	1911-1918	w119	saufen	*
+13	/	/	_	$(	_	_	_	_	_	O	1919-1920	w11a	/	*
+14	dardurch	dadurch	_	PAV	_	_	_	_	_	B-NC	1921-1929	w11b	dadurch	*
+15	Gott	Gott	_	NN	_	_	_	_	_	I-NC	1930-1934	w11c	Gott	*
+16	ge-<lb/>leſtert	lästern	_	VVPP	_	_	_	_	_	O	1935-1950	w11d	gelästert	*
+17	vnnd	und	_	KON	_	_	_	_	_	O	1951-1955	w11e	und	*
+18	die	d	_	ART	_	_	_	_	_	B-NC	1956-1959	w11f	die	*
+19	Seel	Seele	_	NN	_	_	_	_	_	I-NC	1960-1964	w120	Seele	*
+20	verdampt	verdammen	_	VVPP	_	_	_	_	_	O	1965-1973	w121	verdammt	*
+21	wird	werden	_	VAFIN	_	_	_	_	_	O	1974-1978	w122	wird	*
+22	/	/	_	$(	_	_	_	_	_	O	1979-1980	w123	/	*
+23	konte	können	_	VMFIN	_	_	_	_	_	O	1981-1986	w124	konnte	*
+24	hergegen	hingegen	_	PAV	_	_	_	_	_	B-NC	1987-1995	w125	hingegen	*
+25	der	d	_	ART	_	_	_	_	_	B-NC	1996-1999	w126	der	*
+26	fromme	fromm	_	ADJA	_	_	_	_	_	I-NC	2000-2006	w127	fromme	*
+27	leſer	Leser	_	NN	_	_	_	_	_	I-NC	2007-2012	w128	Leser	*
+28	etwas	etwas	_	PIAT	_	_	_	_	_	B-NC	2013-2018	w129	etwas	*
+29	kurtzwei-<lb/>liges	kurzweilig	_	NN	_	_	_	_	_	I-NC	2019-2038	w12a	kurzweiliges	*
+30	haben	haben	_	VAFIN	_	_	_	_	_	O	2039-2044	w12b	haben	*
+31	zu	zu	_	PTKZU	_	_	_	_	_	O	2045-2047	w12c	zu	*
+32	leſen	lesen	_	VVINF	_	_	_	_	_	O	2048-2053	w12d	lesen	*
+33	/	/	_	$(	_	_	_	_	_	O	2054-2055	w12e	/	*
+34	die	d	_	ART	_	_	_	_	_	B-NC	2056-2059	w12f	die	*
+35	zeit	Zeit	_	NN	_	_	_	_	_	I-NC	2060-2064	w130	Zeit	*
+36	darmit	damit	_	PAV	_	_	_	_	_	B-NC	2065-2071	w131	damit	*
+37	hin	hin	_	PTKVZ	_	_	_	_	_	O	2072-2075	w132	hin	*
+38	zu	zu	_	PTKZU	_	_	_	_	_	O	2076-2078	w133	zu	*
+39	bringen	bringen	_	VVINF	_	_	_	_	_	O	2079-2086	w134	bringen	*
+40	/	/	_	$(	_	_	_	_	_	O	2087-2088	w135	/	*
+41	vnd	und	_	KON	_	_	_	_	_	O	2089-2092	w136	und	*
+42	wird	werden	_	VAFIN	_	_	_	_	_	O	2093-2097	w137	wird	*
+43	alſo	also	_	ADV	_	_	_	_	_	B-ADVC	2098-2102	w138	also	*
+44	ſein	sein	_	PPOSAT	_	_	_	_	_	B-NC	2103-2107	w139	sein	*
+45	zeit	Zeit	_	NN	_	_	_	_	_	I-NC	2108-2112	w13a	Zeit	*
+46	nit	nicht	_	PTKNEG	_	_	_	_	_	B-AC	2113-2116	w13b	nicht	*
+47	vbel	übel	_	ADJD	_	_	_	_	_	I-AC	2117-2121	w13c	übel	*
+48	an-<lb/>gewendet	anwenden	_	VVPP	_	_	_	_	_	O	2122-2138	w13d	angewendet	*
+49	haben	haben	_	VAINF	_	_	_	_	_	O	2139-2144	w13e	haben	*
+50	/	/	_	$(	_	_	_	_	_	O	2145-2146	w13f	/	*
+51	dan	dann	_	KON	_	_	_	_	_	O	2147-2150	w140	dann	*
+52	er	er	_	PPER	_	_	_	_	_	B-NC	2151-2153	w141	er	*
+53	wurde	werden	_	VAFIN	_	_	_	_	_	O	2154-2159	w142	wurde	*
+54	allzeit	allzeit	_	ADV	_	_	_	_	_	B-ADVC	2160-2167	w143	allzeit	*
+55	etwas	etwas	_	PIS	_	_	_	_	_	B-NC	2168-2173	w144	etwas	*
+56	haben	haben	_	VAFIN	_	_	_	_	_	O	2174-2179	w145	haben	*
+57	entweder	entweder	_	KON	_	_	_	_	_	O	2180-2188	w146	entweder	*
+58	exempel	Exempel	_	NN	_	_	_	_	_	B-NC	2189-2196	w147	Exempel	*
+59	des	d	_	ART	_	_	_	_	_	B-NC	2197-2200	w148	des	*
+60	guten	gut	_	NN	_	_	_	_	_	I-NC	2201-2206	w149	guten	*
+61	nach	nach	_	PTKVZ	_	_	_	_	_	O	2207-2211	w14a	nach	*
+62	zu	zu	_	PTKZU	_	_	_	_	_	O	2212-2214	w14b	zu	*
+63	folgen	folgen	_	VVINF	_	_	_	_	_	O	2215-2221	w14c	folgen	*
+64	/	/	_	$(	_	_	_	_	_	O	2222-2223	w14d	/	*
+65	oder	oder	_	KON	_	_	_	_	_	O	2224-2228	w14e	oder	*
+66	das	d	_	ART	_	_	_	_	_	B-NC	2229-2232	w14f	das	*
+67	boͤſe	böse	_	NN	_	_	_	_	_	I-NC	2233-2238	w150	böse	*
+68	/	/	_	$(	_	_	_	_	_	O	2239-2240	w151	/	*
+69	wegen	wegen	_	APPR	_	_	_	_	_	B-PC	2241-2246	w152	wegen	*
+70	vermeidung	Vermeidung	_	NN	_	_	_	_	_	I-PC	2247-2257	w153	Vermeidung	*
+71	zeitlicher	zeitlich	_	ADJA	_	_	_	_	_	B-NC	2258-2268	w154	zeitlicher	*
+72	vnd	und	_	KON	_	_	_	_	_	I-NC	2269-2272	w155	und	*
+73	ewiger	ewig	_	ADJA	_	_	_	_	_	I-NC	2273-2279	w156	ewiger	*
+74	ſtraff	Strafe	_	NN	_	_	_	_	_	I-NC	2280-2286	w157	Strafe	*
+75	/	/	_	$(	_	_	_	_	_	O	2287-2288	w158	/	*
+76	zu	zu	_	PTKZU	_	_	_	_	_	O	2289-2291	w159	zu	*
+77	flihen	fliehen	_	VVINF	_	_	_	_	_	O	2292-2298	w15a	fliehen	*
+78	.	.	_	$.	_	_	_	_	_	O	2299-2300	w15b	.	*
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# text = Dar-<lb/>nach zum andern wird er auch anleitung haben in zuſamen kunfften / wen vielleicht etliche in froͤligkeiten verſamlet / mit exem-<lb/>peln zu erzehlẽ / das doch alzeit ehrlicher / als wen andere ſitzen vnd grobe zotten vnd boſ-<lb/>ſen reiſſen / dardurch alle beywohner geaͤr-<lb/>gert werden / vnd auch die Engel welche ſie-<lb/>tigs vmb die menſchen ſein / vertrieben wer-<lb/>den .
+1	Dar-<lb/>nach	danach	_	PAV	_	_	_	_	_	B-NC	2302-2315	w15c,w15c_1,w15c_2	Danach	*
+2	zum	zum	_	APPRART	_	_	_	_	_	B-PC	2316-2319	w15d	zum	*
+3	andern	ander	_	NN	_	_	_	_	_	I-PC	2320-2326	w15e	anderen	*
+4	wird	werden	_	VAFIN	_	_	_	_	_	O	2327-2331	w15f	wird	*
+5	er	er	_	PPER	_	_	_	_	_	B-NC	2332-2334	w160	er	*
+6	auch	auch	_	ADV	_	_	_	_	_	B-NC	2335-2339	w161	auch	*
+7	anleitung	Anleitung	_	NN	_	_	_	_	_	I-NC	2340-2349	w162	Anleitung	*
+8	haben	haben	_	VAFIN	_	_	_	_	_	O	2350-2355	w163	haben	*
+9	in	in	_	APPR	_	_	_	_	_	B-PC	2356-2358	w164	in	*
+10	zuſamen	zusamen	_	NN	_	_	_	_	_	I-PC	2359-2366	w165	zusamen	*
+11	kunfften	Kunfften	_	NN	_	_	_	_	_	B-NC	2367-2375	w166	kunfften	*
+12	/	/	_	$(	_	_	_	_	_	O	2376-2377	w167	/	*
+13	wen	wen	_	KOUS	_	_	_	_	_	O	2378-2381	w168	wen	*
+14	vielleicht	vielleicht	_	ADV	_	_	_	_	_	B-ADVC	2382-2392	w169	vielleicht	*
+15	etliche	etliche	_	PIS	_	_	_	_	_	B-NC	2393-2400	w16a	etliche	*
+16	in	in	_	APPR	_	_	_	_	_	B-PC	2401-2403	w16b	in	*
+17	froͤligkeiten	Fröhlichkeit	_	NN	_	_	_	_	_	I-PC	2404-2417	w16c	Fröhlichkeiten	*
+18	verſamlet	versammeln	_	VVPP	_	_	_	_	_	O	2418-2427	w16d	versammelt	*
+19	/	/	_	$(	_	_	_	_	_	O	2428-2429	w16e	/	*
+20	mit	mit	_	APPR	_	_	_	_	_	B-PC	2430-2433	w16f	mit	*
+21	exem-<lb/>peln	Exempel	_	NN	_	_	_	_	_	I-PC	2434-2448	w170	Exempeln	*
+22	zu	zu	_	PTKZU	_	_	_	_	_	O	2449-2451	w171	zu	*
+23	erzehlẽ	erzählen	_	VVINF	_	_	_	_	_	O	2452-2460	w172	erzählen	*
+24	/	/	_	$(	_	_	_	_	_	O	2461-2462	w173	/	*
+25	das	die	_	PDS	_	_	_	_	_	B-NC	2463-2466	w174	das	*
+26	doch	doch	_	ADV	_	_	_	_	_	B-ADVC	2467-2471	w175	doch	*
+27	alzeit	allzeit	_	ADV	_	_	_	_	_	B-ADVC	2472-2478	w176	allzeit	*
+28	ehrlicher	ehrlich	_	ADJD	_	_	_	_	_	B-AC	2479-2488	w177	ehrlicher	*
+29	/	/	_	$(	_	_	_	_	_	O	2489-2490	w178	/	*
+30	als	als	_	KOKOM	_	_	_	_	_	O	2491-2494	w179	als	*
+31	wen	wen	_	KOUS	_	_	_	_	_	O	2495-2498	w17a	wen	*
+32	andere	andere	_	PIS	_	_	_	_	_	B-NC	2499-2505	w17b	andere	*
+33	ſitzen	sitzen	_	VVINF	_	_	_	_	_	O	2506-2512	w17c	sitzen	*
+34	vnd	und	_	KON	_	_	_	_	_	O	2513-2516	w17d	und	*
+35	grobe	grob	_	ADJA	_	_	_	_	_	B-NC	2517-2522	w17e	grobe	*
+36	zotten	Zotte	_	NN	_	_	_	_	_	I-NC	2523-2529	w17f	Zotten	*
+37	vnd	und	_	KON	_	_	_	_	_	O	2530-2533	w180	und	*
+38	boſ-<lb/>ſen	böse	_	NN	_	_	_	_	_	B-NC	2534-2546	w181	bösen	*
+39	reiſſen	reissen	_	VVFIN	_	_	_	_	_	O	2547-2554	w182	reißen	*
+40	/	/	_	$(	_	_	_	_	_	O	2555-2556	w183	/	*
+41	dardurch	dadurch	_	PAV	_	_	_	_	_	B-NC	2557-2565	w184	dadurch	*
+42	alle	alle	_	PIAT	_	_	_	_	_	B-NC	2566-2570	w185	alle	*
+43	beywohner	Beiwohner	_	NN	_	_	_	_	_	I-NC	2571-2580	w186	Beiwohner	*
+44	geaͤr-<lb/>gert	ärgern	_	VVPP	_	_	_	_	_	O	2581-2596	w187	geärgert	*
+45	werden	werden	_	VAFIN	_	_	_	_	_	O	2597-2603	w188	werden	*
+46	/	/	_	$(	_	_	_	_	_	O	2604-2605	w189	/	*
+47	vnd	und	_	KON	_	_	_	_	_	O	2606-2609	w18a	und	*
+48	auch	auch	_	ADV	_	_	_	_	_	B-NC	2610-2614	w18b	auch	*
+49	die	d	_	ART	_	_	_	_	_	I-NC	2615-2618	w18c	die	*
+50	Engel	Engel	_	NN	_	_	_	_	_	I-NC	2619-2624	w18d	Engel	*
+51	welche	welche	_	PRELS	_	_	_	_	_	B-NC	2625-2631	w18e	welche	*
+52	ſie-<lb/>tigs	Sietigs	_	ADJD	_	_	_	_	_	B-AC	2632-2645	w18f	sietigs	*
+53	vmb	um	_	APPR	_	_	_	_	_	B-PC	2646-2649	w190	um	*
+54	die	d	_	ART	_	_	_	_	_	I-PC	2650-2653	w191	die	*
+55	menſchen	Mensch	_	NN	_	_	_	_	_	I-PC	2654-2662	w192	Menschen	*
+56	ſein	sein	_	VAFIN	_	_	_	_	_	O	2663-2667	w193	sein	*
+57	/	/	_	$(	_	_	_	_	_	O	2668-2669	w194	/	*
+58	vertrieben	vertreiben	_	VVPP	_	_	_	_	_	O	2670-2680	w195	vertrieben	*
+59	wer-<lb/>den	werden	_	VAFIN	_	_	_	_	_	O	2681-2693	w196	werden	*
+60	.	.	_	$.	_	_	_	_	_	O	2694-2695	w197	.	*
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# text = Endlich wen er dieſe Hiſtorien ſo wird erzehlen / werden alle leut allein auff jhn ſe-<lb/>hen / jhn vor gelehrt / vnd wol erfahren hal-<lb/>ten / wenn er ſolche exempel die doch noch Chriſtlich / wird erzehlen koͤnnen .
+1	Endlich	endlich	_	ADV	_	_	_	_	_	B-ADVC	2697-2704	w198	Endlich	*
+2	wen	wen	_	KOUS	_	_	_	_	_	O	2705-2708	w199	wen	*
+3	er	er	_	PPER	_	_	_	_	_	B-NC	2709-2711	w19a	er	*
+4	dieſe	diese	_	PDAT	_	_	_	_	_	B-NC	2712-2717	w19b	diese	*
+5	Hiſtorien	Historie	_	NN	_	_	_	_	_	I-NC	2718-2727	w19c	Historien	*
+6	ſo	so	_	ADV	_	_	_	_	_	B-ADVC	2728-2730	w19d	so	*
+7	wird	werden	_	VAFIN	_	_	_	_	_	O	2731-2735	w19e	wird	*
+8	erzehlen	erzählen	_	VVINF	_	_	_	_	_	O	2736-2744	w19f	erzählen	*
+9	/	/	_	$(	_	_	_	_	_	O	2745-2746	w1a0	/	*
+10	werden	werden	_	VAFIN	_	_	_	_	_	O	2747-2753	w1a1	werden	*
+11	alle	alle	_	PIAT	_	_	_	_	_	B-NC	2754-2758	w1a2	alle	*
+12	leut	Leut	_	NN	_	_	_	_	_	I-NC	2759-2763	w1a3	Leut	*
+13	allein	allein	_	ADV	_	_	_	_	_	B-PC	2764-2770	w1a4	allein	*
+14	auff	auf	_	APPR	_	_	_	_	_	I-PC	2771-2775	w1a5	auf	*
+15	jhn	er	_	PPER	_	_	_	_	_	I-PC	2776-2779	w1a6	ihn	*
+16	ſe-<lb/>hen	sehen	_	VVFIN	_	_	_	_	_	O	2780-2791	w1a7	sehen	*
+17	/	/	_	$(	_	_	_	_	_	O	2792-2793	w1a8	/	*
+18	jhn	er	_	PPER	_	_	_	_	_	B-NC	2794-2797	w1a9	ihn	*
+19	vor	vor	_	APPR	_	_	_	_	_	B-PC	2798-2801	w1aa	vor	*
+20	gelehrt	lehren	_	ADJD	_	_	_	_	_	I-PC	2802-2809	w1ab	gelehrt	*
+21	/	/	_	$(	_	_	_	_	_	O	2810-2811	w1ac	/	*
+22	vnd	und	_	KON	_	_	_	_	_	O	2812-2815	w1ad	und	*
+23	wol	wohl	_	ADV	_	_	_	_	_	B-AC	2816-2819	w1ae	wohl	*
+24	erfahren	erfahren	_	ADJD	_	_	_	_	_	I-AC	2820-2828	w1af	erfahren	*
+25	hal-<lb/>ten	halten	_	VVINF	_	_	_	_	_	O	2829-2841	w1b0	halten	*
+26	/	/	_	$(	_	_	_	_	_	O	2842-2843	w1b1	/	*
+27	wenn	wenn	_	KOUS	_	_	_	_	_	O	2844-2848	w1b2	wenn	*
+28	er	er	_	PPER	_	_	_	_	_	B-NC	2849-2851	w1b3	er	*
+29	ſolche	solch	_	PIAT	_	_	_	_	_	B-NC	2852-2858	w1b4	solche	*
+30	exempel	Exempel	_	NN	_	_	_	_	_	I-NC	2859-2866	w1b5	Exempel	*
+31	die	d	_	PRELS	_	_	_	_	_	B-NC	2867-2870	w1b6	die	*
+32	doch	doch	_	ADV	_	_	_	_	_	B-ADVC	2871-2875	w1b7	doch	*
+33	noch	noch	_	ADV	_	_	_	_	_	B-ADVC	2876-2880	w1b8	noch	*
+34	Chriſtlich	christlich	_	ADJD	_	_	_	_	_	B-AC	2881-2891	w1b9	Christlich	*
+35	/	/	_	$(	_	_	_	_	_	O	2892-2893	w1ba	/	*
+36	wird	werden	_	VAFIN	_	_	_	_	_	O	2894-2898	w1bb	wird	*
+37	erzehlen	erzählen	_	VVINF	_	_	_	_	_	O	2899-2907	w1bc	erzählen	*
+38	koͤnnen	können	_	VMINF	_	_	_	_	_	O	2908-2915	w1bd	können	*
+39	.	.	_	$.	_	_	_	_	_	O	2916-2917	w1be	.	*
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# text = Eſ hat doch der vornehme Man Lutherus ſeltſten in ſeinen Diſchreden gar viel vnd wunder-<lb/>liche Hiſtorien vnd geſchichten erzehlet / ge-<lb/>ſchrieben vnnd an tag bracht .
+1	Eſ	es	_	PPER	_	_	_	_	_	B-NC	2919-2921	w1bf,w1bf_1	Es	*
+2	hat	haben	_	VAFIN	_	_	_	_	_	O	2922-2925	w1c0	hat	*
+3	doch	doch	_	ADV	_	_	_	_	_	B-ADVC	2926-2930	w1c1	doch	*
+4	der	d	_	ART	_	_	_	_	_	B-NC	2931-2934	w1c2	der	*
+5	vornehme	vornehm	_	ADJA	_	_	_	_	_	I-NC	2935-2943	w1c3	vornehme	*
+6	Man	man	_	NN	_	_	_	_	_	I-NC	2944-2947	w1c4	Man	*
+7	Lutherus	Luther	_	NE	_	_	_	_	_	B-NC	2948-2956	w1c5	Luther	*
+8	ſeltſten	Seltsten	_	ADV	_	_	_	_	_	B-ADVC	2957-2965	w1c6	seltsten	*
+9	in	in	_	APPR	_	_	_	_	_	B-PC	2966-2968	w1c7	in	*
+10	ſeinen	seine	_	PPOSAT	_	_	_	_	_	I-PC	2969-2975	w1c8	seinen	*
+11	Diſchreden	Tischrede	_	NN	_	_	_	_	_	I-PC	2976-2986	w1c9	Tischreden	*
+12	gar	gar	_	ADV	_	_	_	_	_	B-NC	2987-2990	w1ca	gar	*
+13	viel	viel	_	PIAT	_	_	_	_	_	I-NC	2991-2995	w1cb	viel	*
+14	vnd	und	_	KON	_	_	_	_	_	I-NC	2996-2999	w1cc	und	*
+15	wunder-<lb/>liche	wunderlich	_	ADJA	_	_	_	_	_	I-NC	3000-3017	w1cd	wunderliche	*
+16	Hiſtorien	Historie	_	NN	_	_	_	_	_	I-NC	3018-3027	w1ce	Historien	*
+17	vnd	und	_	KON	_	_	_	_	_	O	3028-3031	w1cf	und	*
+18	geſchichten	Geschichte	_	NN	_	_	_	_	_	B-NC	3032-3043	w1d0	Geschichten	*
+19	erzehlet	erzählen	_	VVPP	_	_	_	_	_	O	3044-3052	w1d1,w1d1_1	erzählt	*
+20	/	/	_	$(	_	_	_	_	_	O	3053-3054	w1d2	/	*
+21	ge-<lb/>ſchrieben	schreiben	_	VVPP	_	_	_	_	_	O	3055-3072	w1d3	geschrieben	*
+22	vnnd	und	_	KON	_	_	_	_	_	O	3073-3077	w1d4	und	*
+23	an	an	_	APPR	_	_	_	_	_	B-PC	3078-3080	w1d5	an	*
+24	tag	Tag	_	NN	_	_	_	_	_	I-PC	3081-3084	w1d6	tag	*
+25	bracht	bringen	_	VVPP	_	_	_	_	_	O	3085-3091	w1d7	brachte	*
+26	.	.	_	$.	_	_	_	_	_	O	3092-3093	w1d8	.	*
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# text = Johannes Gaſtivs ein vornehmer Theologus vnnd Kirchen diener zu Baſel hat drey gantzer Tomos ſolcher ſchimpff vnd ſchertzreden vor die Gaͤſt geſchrieben .
+1	Johannes	Johannes	_	NE	_	_	_	_	_	B-NC	3095-3103	w1d9	Johannes	*
+2	Gaſtivs	Gastivs	_	NE	_	_	_	_	_	I-NC	3104-3111	w1da	Gastivs	*
+3	ein	eine	_	ART	_	_	_	_	_	B-NC	3112-3115	w1db	ein	*
+4	vornehmer	vornehm	_	ADJA	_	_	_	_	_	I-NC	3116-3125	w1dc	vornehmer	*
+5	Theologus	theologus	_	NN	_	_	_	_	_	I-NC	3126-3135	w1dd	Theologus	*
+6	vnnd	und	_	KON	_	_	_	_	_	O	3136-3140	w1de	und	*
+7	Kirchen	Kirche	_	NN	_	_	_	_	_	B-NC	3141-3148	w1df	Kirchen	*
+8	diener	Diener	_	NN	_	_	_	_	_	B-NC	3149-3155	w1e0	Diener	*
+9	zu	zu	_	APPR	_	_	_	_	_	B-PC	3156-3158	w1e1	zu	*
+10	Baſel	Basel	_	NE	_	_	_	_	_	I-PC	3159-3164	w1e2	Basel	*
+11	hat	haben	_	VAFIN	_	_	_	_	_	O	3165-3168	w1e3	hat	*
+12	drey	drei	_	CARD	_	_	_	_	_	B-NC	3169-3173	w1e4	drei	*
+13	gantzer	ganz	_	ADJA	_	_	_	_	_	I-NC	3174-3181	w1e5	ganzer	*
+14	Tomos	Tomos	_	NN	_	_	_	_	_	I-NC	3182-3187	w1e6	Tomos	*
+15	ſolcher	solch	_	PIAT	_	_	_	_	_	B-NC	3188-3195	w1e7	solcher	*
+16	ſchimpff	Schimpf	_	TRUNC	_	_	_	_	_	I-NC	3196-3204	w1e8	Schimpf	*
+17	vnd	und	_	KON	_	_	_	_	_	O	3205-3208	w1e9	und	*
+18	ſchertzreden	Scherzrede	_	NN	_	_	_	_	_	B-NC	3209-3221	w1ea	Scherzreden	*
+19	vor	vor	_	APPR	_	_	_	_	_	B-PC	3222-3225	w1eb	vor	*
+20	die	d	_	ART	_	_	_	_	_	I-PC	3226-3229	w1ec	die	*
+21	Gaͤſt	Gast	_	NN	_	_	_	_	_	I-PC	3230-3235	w1ed	Gäste	*
+22	geſchrieben	schreiben	_	VVPP	_	_	_	_	_	O	3236-3247	w1ee	geschrieben	*
+23	.	.	_	$.	_	_	_	_	_	O	3248-3249	w1ef	.	*
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# text = Es bezeuget noch vber das auch ein ge-<lb/>lehrter Man Johannes Poſthius : Er koͤn-<lb/>ne nit allzeit die Theologen leſen / ſo koͤnn er auch nicht allzeit den Juriſten / noch den Medicis obligen vnnd vorhaben / er muͤſſe noth halben / dz jm die zeit kuͤrtzete / vnd das gemuͤth erfriſchet wuͤrde auch ſchimpff vñ ſchertz rede mit ein vnd vndermengen .
+1	Es	es	_	PPER	_	_	_	_	_	B-NC	3251-3253	w1f0	Es	*
+2	bezeuget	bezeugen	_	VVFIN	_	_	_	_	_	O	3254-3262	w1f1	bezeuget	*
+3	noch	noch	_	ADV	_	_	_	_	_	B-PC	3263-3267	w1f2	noch	*
+4	vber	über	_	APPR	_	_	_	_	_	I-PC	3268-3272	w1f3	über	*
+5	das	d	_	PDS	_	_	_	_	_	I-PC	3273-3276	w1f4	das	*
+6	auch	auch	_	ADV	_	_	_	_	_	B-NC	3277-3281	w1f5	auch	*
+7	ein	eine	_	ART	_	_	_	_	_	I-NC	3282-3285	w1f6	ein	*
+8	ge-<lb/>lehrter	gelehrt	_	ADJA	_	_	_	_	_	I-NC	3286-3301	w1f7	gelehrter	*
+9	Man	man	_	NN	_	_	_	_	_	I-NC	3302-3305	w1f8	Man	*
+10	Johannes	Johannes	_	NE	_	_	_	_	_	B-NC	3306-3314	w1f9	Johannes	*
+11	Poſthius	Posthius	_	NE	_	_	_	_	_	I-NC	3315-3323	w1fa	Posthius	*
+12	:	:	_	$.	_	_	_	_	_	O	3324-3325	w1fb	:	*
+13	Er	er	_	PPER	_	_	_	_	_	B-NC	3326-3328	w1fc	Er	*
+14	koͤn-<lb/>ne	können	_	VMFIN	_	_	_	_	_	O	3329-3341	w1fd	könne	*
+15	nit	nicht	_	PTKNEG	_	_	_	_	_	B-ADVC	3342-3345	w1fe	nicht	*
+16	allzeit	allzeit	_	ADV	_	_	_	_	_	B-ADVC	3346-3353	w1ff	allzeit	*
+17	die	d	_	ART	_	_	_	_	_	B-NC	3354-3357	w200	die	*
+18	Theologen	Theologe	_	NN	_	_	_	_	_	I-NC	3358-3367	w201	Theologen	*
+19	leſen	lesen	_	VVINF	_	_	_	_	_	O	3368-3373	w202	lesen	*
+20	/	/	_	$(	_	_	_	_	_	O	3374-3375	w203	/	*
+21	ſo	so	_	ADV	_	_	_	_	_	B-ADVC	3376-3378	w204	so	*
+22	koͤnn	könn	_	VMFIN	_	_	_	_	_	O	3379-3384	w205	könn	*
+23	er	er	_	PPER	_	_	_	_	_	B-NC	3385-3387	w206	er	*
+24	auch	auch	_	ADV	_	_	_	_	_	B-ADVC	3388-3392	w207	auch	*
+25	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVC	3393-3398	w208	nicht	*
+26	allzeit	allzeit	_	ADV	_	_	_	_	_	I-ADVC	3399-3406	w209	allzeit	*
+27	den	d	_	ART	_	_	_	_	_	B-NC	3407-3410	w20a	den	*
+28	Juriſten	Jurist	_	NN	_	_	_	_	_	I-NC	3411-3419	w20b	Juristen	*
+29	/	/	_	$(	_	_	_	_	_	O	3420-3421	w20c	/	*
+30	noch	noch	_	KON	_	_	_	_	_	O	3422-3426	w20d	noch	*
+31	den	d	_	ART	_	_	_	_	_	B-NC	3427-3430	w20e	den	*
+32	Medicis	Medici	_	NN	_	_	_	_	_	I-NC	3431-3438	w20f	Medicis	*
+33	obligen	obliegen	_	VVINF	_	_	_	_	_	O	3439-3446	w210	obliegen	*
+34	vnnd	und	_	KON	_	_	_	_	_	O	3447-3451	w211	und	*
+35	vorhaben	vorhaben	_	VVINF	_	_	_	_	_	O	3452-3460	w212	vorhaben	*
+36	/	/	_	$(	_	_	_	_	_	O	3461-3462	w213	/	*
+37	er	er	_	PPER	_	_	_	_	_	B-NC	3463-3465	w214	er	*
+38	muͤſſe	müssen	_	VMFIN	_	_	_	_	_	O	3466-3472	w215	müsse	*
+39	noth	Not	_	NN	_	_	_	_	_	B-NC	3473-3477	w216	Not	*
+40	halben	halb	_	APPO	_	_	_	_	_	B-PC	3478-3484	w217	halben	*
+41	/	/	_	$(	_	_	_	_	_	O	3485-3486	w218	/	*
+42	dz	dass	_	KOUS	_	_	_	_	_	O	3487-3489	w219	dass	*
+43	jm	er	_	PPER	_	_	_	_	_	B-NC	3490-3492	w21a	ihm	*
+44	die	d	_	ART	_	_	_	_	_	B-NC	3493-3496	w21b	die	*
+45	zeit	Zeit	_	NN	_	_	_	_	_	I-NC	3497-3501	w21c	Zeit	*
+46	kuͤrtzete	kürzen	_	VVFIN	_	_	_	_	_	O	3502-3511	w21d	kürzte	*
+47	/	/	_	$(	_	_	_	_	_	O	3512-3513	w21e	/	*
+48	vnd	und	_	KON	_	_	_	_	_	O	3514-3517	w21f	und	*
+49	das	d	_	ART	_	_	_	_	_	B-NC	3518-3521	w220	das	*
+50	gemuͤth	Gemüt	_	NN	_	_	_	_	_	I-NC	3522-3529	w221	Gemüt	*
+51	erfriſchet	erfrischen	_	VVPP	_	_	_	_	_	O	3530-3540	w222	erfrischet	*
+52	wuͤrde	werden	_	VAFIN	_	_	_	_	_	O	3541-3547	w223	würde	*
+53	auch	auch	_	ADV	_	_	_	_	_	B-NC	3548-3552	w224	auch	*
+54	ſchimpff	Schimpf	_	TRUNC	_	_	_	_	_	I-NC	3553-3561	w225	Schimpf	*
+55	vñ	und	_	KON	_	_	_	_	_	I-NC	3562-3565	w226	und	*
+56	ſchertz	Scherz	_	NN	_	_	_	_	_	I-NC	3566-3573	w227	Scherz	*
+57	rede	reden	_	NN	_	_	_	_	_	B-NC	3574-3578	w228	rede	*
+58	mit	mit	_	ADV	_	_	_	_	_	B-NC	3579-3582	w229	mit	*
+59	ein	eine	_	TRUNC	_	_	_	_	_	I-NC	3583-3586	w22a	ein	*
+60	vnd	und	_	KON	_	_	_	_	_	O	3587-3590	w22b	und	*
+61	vndermengen	untermengen	_	VVINF	_	_	_	_	_	O	3591-3602	w22c	untermengen	*
+62	.	.	_	$.	_	_	_	_	_	O	3603-3604	w22d	.	*
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# text = Joh. Reiffenſtein ſchreibt alſo : Es werden die-<lb/>ſer zeit Leuth gefunden / welche nutzlicher vnd hochwichtiger dingen ſich vnderfangẽ
+1	Joh.	Joh.	_	NE	_	_	_	_	_	B-NC	3606-3610	w22e	Joh.	*
+2	Reiffenſtein	Reifenstein	_	NE	_	_	_	_	_	I-NC	3611-3623	w22f	Reifenstein	*
+3	ſchreibt	schreiben	_	VVFIN	_	_	_	_	_	O	3624-3632	w230	schreibt	*
+4	alſo	also	_	ADV	_	_	_	_	_	B-ADVC	3633-3637	w231	also	*
+5	:	:	_	$.	_	_	_	_	_	O	3638-3639	w232	:	*
+6	Es	es	_	PPER	_	_	_	_	_	B-NC	3640-3642	w233	Es	*
+7	werden	werden	_	VAFIN	_	_	_	_	_	O	3643-3649	w234	werden	*
+8	die-<lb/>ſer	diese	_	PDAT	_	_	_	_	_	B-NC	3650-3662	w235	dieser	*
+9	zeit	Zeit	_	NN	_	_	_	_	_	I-NC	3663-3667	w236	Zeit	*
+10	Leuth	Leute	_	NN	_	_	_	_	_	B-NC	3668-3673	w237	Leute	*
+11	gefunden	finden	_	VVPP	_	_	_	_	_	O	3674-3682	w238	gefunden	*
+12	/	/	_	$(	_	_	_	_	_	O	3683-3684	w239	/	*
+13	welche	welche	_	PRELS	_	_	_	_	_	B-NC	3685-3691	w23a	welche	*
+14	nutzlicher	nützlich	_	ADJA	_	_	_	_	_	B-NC	3692-3702	w23b	nützlicher	*
+15	vnd	und	_	KON	_	_	_	_	_	I-NC	3703-3706	w23c	und	*
+16	hochwichtiger	hochwichtig	_	ADJA	_	_	_	_	_	I-NC	3707-3720	w23d	hochwichtiger	*
+17	dingen	Ding	_	NN	_	_	_	_	_	I-NC	3721-3727	w23e	Dingen	*
+18	ſich	sich	_	PRF	_	_	_	_	_	B-NC	3728-3732	w23f	sich	*
+19	vnderfangẽ	unterfangen	_	VVFIN	_	_	_	_	_	O	3733-3744	w240	unterfangen	*
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# text = ich hielt es beſſer / dz man darvor etliche zeit zubraͤchte vnd leſe darvor Jocos / ſonder-<lb/>lich darauß man etwan nutzenſchaffẽ koͤn-<lb/>ne /
+1	ich	ich	_	PPER	_	_	_	_	_	B-NC	3746-3749	w241	ich	*
+2	hielt	halten	_	VVFIN	_	_	_	_	_	O	3750-3755	w242	hielt	*
+3	es	es	_	PPER	_	_	_	_	_	B-NC	3756-3758	w243	es	*
+4	beſſer	gut	_	ADJD	_	_	_	_	_	B-AC	3759-3765	w244	besser	*
+5	/	/	_	$(	_	_	_	_	_	O	3766-3767	w245	/	*
+6	dz	dass	_	KOUS	_	_	_	_	_	O	3768-3770	w246	dass	*
+7	man	man	_	PIS	_	_	_	_	_	B-NC	3771-3774	w247	man	*
+8	darvor	davor	_	PAV	_	_	_	_	_	B-NC	3775-3781	w248	davor	*
+9	etliche	etliche	_	PIAT	_	_	_	_	_	I-NC	3782-3789	w249	etliche	*
+10	zeit	Zeit	_	NN	_	_	_	_	_	I-NC	3790-3794	w24a	Zeit	*
+11	zubraͤchte	zubringen	_	VVFIN	_	_	_	_	_	O	3795-3805	w24b	zubrächte	*
+12	vnd	und	_	KON	_	_	_	_	_	O	3806-3809	w24c	und	*
+13	leſe	lesen	_	VVFIN	_	_	_	_	_	O	3810-3814	w24d	lese	*
+14	darvor	davor	_	PAV	_	_	_	_	_	B-NC	3815-3821	w24e	davor	*
+15	Jocos	jocos	_	NN	_	_	_	_	_	I-NC	3822-3827	w24f	Jocos	*
+16	/	/	_	$(	_	_	_	_	_	O	3828-3829	w250	/	*
+17	ſonder-<lb/>lich	sonderlich	_	ADJD	_	_	_	_	_	B-AC	3830-3846	w251	sonderlich	*
+18	darauß	daraus	_	PAV	_	_	_	_	_	I-AC	3847-3853	w252	daraus	*
+19	man	man	_	PIS	_	_	_	_	_	B-NC	3854-3857	w253	man	*
+20	etwan	etwan	_	ADV	_	_	_	_	_	B-ADVC	3858-3863	w254	etwan	*
+21	nutzenſchaffẽ	Nutzenschaffen	_	VVINF	_	_	_	_	_	O	3864-3878	w255	Nutzenschaffen	*
+22	koͤn-<lb/>ne	können	_	VMFIN	_	_	_	_	_	O	3879-3891	w256	könne	*
+23	/	/	_	$(	_	_	_	_	_	O	3892-3893	w257	/	*
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# text = die legten jre zeit beſſer an .
+1	die	die	_	PDS	_	_	_	_	_	B-NC	3895-3898	w258	die	*
+2	legten	legen	_	VVFIN	_	_	_	_	_	O	3899-3905	w259	legten	*
+3	jre	ihr	_	PPOSAT	_	_	_	_	_	B-NC	3906-3909	w25a	ihre	*
+4	zeit	Zeit	_	NN	_	_	_	_	_	I-NC	3910-3914	w25b	Zeit	*
+5	beſſer	gut	_	ADJD	_	_	_	_	_	B-AC	3915-3921	w25c	besser	*
+6	an	an	_	PTKVZ	_	_	_	_	_	O	3922-3924	w25d	an	*
+7	.	.	_	$.	_	_	_	_	_	O	3925-3926	w25e	.	*
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# text = Der Codrus wahre gefragt wordẽ / warumb er allzeit in ſeinem reden vnd ſchwetzẽ ſchweng mit ein braͤchte ?
+1	Der	d	_	ART	_	_	_	_	_	B-NC	3928-3931	w25f	Der	*
+2	Codrus	Codrus	_	NN	_	_	_	_	_	I-NC	3932-3938	w260	Codrus	*
+3	wahre	wahr	_	VAFIN	_	_	_	_	_	O	3939-3944	w261	wahre	*
+4	gefragt	fragen	_	VVPP	_	_	_	_	_	O	3945-3952	w262	gefragt	*
+5	wordẽ	werden	_	VAPP	_	_	_	_	_	O	3953-3959	w263	worden	*
+6	/	/	_	$(	_	_	_	_	_	O	3960-3961	w264	/	*
+7	warumb	warum	_	PWAV	_	_	_	_	_	O	3962-3968	w265	warum	*
+8	er	er	_	PPER	_	_	_	_	_	B-NC	3969-3971	w266	er	*
+9	allzeit	allzeit	_	ADV	_	_	_	_	_	B-ADVC	3972-3979	w267	allzeit	*
+10	in	in	_	APPR	_	_	_	_	_	B-PC	3980-3982	w268	in	*
+11	ſeinem	seine	_	PPOSAT	_	_	_	_	_	I-PC	3983-3989	w269	seinem	*
+12	reden	reden	_	NN	_	_	_	_	_	I-PC	3990-3995	w26a	reden	*
+13	vnd	und	_	KON	_	_	_	_	_	O	3996-3999	w26b	und	*
+14	ſchwetzẽ	schwätzen	_	NN	_	_	_	_	_	B-NC	4000-4009	w26c	schwätzen	*
+15	ſchweng	schwängen	_	NN	_	_	_	_	_	B-NC	4010-4017	w26d	schwäng	*
+16	mit	mit	_	ADV	_	_	_	_	_	B-ADVC	4018-4021	w26e	mit	*
+17	ein	eine	_	PTKVZ	_	_	_	_	_	O	4022-4025	w26f	ein	*
+18	braͤchte	bringen	_	VVFIN	_	_	_	_	_	O	4026-4034	w270	brächte	*
+19	?	?	_	$.	_	_	_	_	_	O	4035-4036	w271	?	*
+
+# sent_id = 19
+# sent_id(TSV) = 19
+# text = hat er geantwortet / daß die Natur die menſchen alſo beſchaffen daß ſie ſolten freundlich / hoͤfflich vnnd kurtzweilig ſein /
+1	hat	haben	_	VAFIN	_	_	_	_	_	O	4038-4041	w272	hat	*
+2	er	er	_	PPER	_	_	_	_	_	B-NC	4042-4044	w273	er	*
+3	geantwortet	antworten	_	VVPP	_	_	_	_	_	O	4045-4056	w274	geantwortet	*
+4	/	/	_	$(	_	_	_	_	_	O	4057-4058	w275	/	*
+5	daß	daß	_	KOUS	_	_	_	_	_	O	4059-4062	w276	daß	*
+6	die	d	_	ART	_	_	_	_	_	B-NC	4063-4066	w277	die	*
+7	Natur	Natur	_	NN	_	_	_	_	_	I-NC	4067-4072	w278	Natur	*
+8	die	d	_	ART	_	_	_	_	_	B-NC	4073-4076	w279	die	*
+9	menſchen	Mensch	_	NN	_	_	_	_	_	I-NC	4077-4085	w27a	Menschen	*
+10	alſo	also	_	ADV	_	_	_	_	_	B-ADVC	4086-4090	w27b	also	*
+11	beſchaffen	beschaffen	_	VVPP	_	_	_	_	_	O	4091-4101	w27c	beschaffen	*
+12	daß	daß	_	KOUS	_	_	_	_	_	O	4102-4105	w27d	daß	*
+13	ſie	sie	_	PPER	_	_	_	_	_	B-NC	4106-4109	w27e	sie	*
+14	ſolten	sollen	_	VMFIN	_	_	_	_	_	O	4110-4116	w27f	sollten	*
+15	freundlich	freundlich	_	ADJD	_	_	_	_	_	B-AC	4117-4127	w280	freundlich	*
+16	/	/	_	$(	_	_	_	_	_	O	4128-4129	w281	/	*
+17	hoͤfflich	höflich	_	ADJD	_	_	_	_	_	B-AC	4130-4139	w282	höflich	*
+18	vnnd	und	_	KON	_	_	_	_	_	O	4140-4144	w283	und	*
+19	kurtzweilig	kurzweilig	_	ADJD	_	_	_	_	_	B-AC	4145-4156	w284	kurzweilig	*
+20	ſein	sein	_	VAINF	_	_	_	_	_	O	4157-4161	w285	sein	*
+21	/	/	_	$(	_	_	_	_	_	O	4162-4163	w286	/	*
+
+# sent_id = 20
+# sent_id(TSV) = 20
+# text = der Author dieſes Schimpffs vnd Ernſts hat auch ſolches erklaͤret / ( daß wir ſollen kurtzweilig vnd froͤlich ſein in Ehren ) in dieſem Tetraſticho :
+1	der	d	_	ART	_	_	_	_	_	B-NC	4165-4168	w287	der	*
+2	Author	Autor	_	NN	_	_	_	_	_	I-NC	4169-4175	w288	Autor	*
+3	dieſes	diese	_	PDAT	_	_	_	_	_	B-NC	4176-4182	w289	dieses	*
+4	Schimpffs	Schimpf	_	NN	_	_	_	_	_	I-NC	4183-4192	w28a	Schimpfs	*
+5	vnd	und	_	KON	_	_	_	_	_	O	4193-4196	w28b	und	*
+6	Ernſts	Ernst	_	NN	_	_	_	_	_	B-NC	4197-4203	w28c	Ernsts	*
+7	hat	haben	_	VAFIN	_	_	_	_	_	O	4204-4207	w28d	hat	*
+8	auch	auch	_	ADV	_	_	_	_	_	B-NC	4208-4212	w28e	auch	*
+9	ſolches	solch	_	PIS	_	_	_	_	_	I-NC	4213-4220	w28f	solches	*
+10	erklaͤret	erklären	_	VVFIN	_	_	_	_	_	O	4221-4230	w290	erkläret	*
+11	/	/	_	$(	_	_	_	_	_	O	4231-4232	w291	/	*
+12	(	(	_	$(	_	_	_	_	_	O	4233-4234	w292	(	*
+13	daß	daß	_	KOUS	_	_	_	_	_	O	4235-4238	w293	daß	*
+14	wir	wir	_	PPER	_	_	_	_	_	B-NC	4239-4242	w294	wir	*
+15	ſollen	sollen	_	VMFIN	_	_	_	_	_	O	4243-4249	w295	sollen	*
+16	kurtzweilig	kurzweilig	_	ADJD	_	_	_	_	_	B-AC	4250-4261	w296	kurzweilig	*
+17	vnd	und	_	KON	_	_	_	_	_	O	4262-4265	w297	und	*
+18	froͤlich	fröhlich	_	ADJD	_	_	_	_	_	B-AC	4266-4274	w298	fröhlich	*
+19	ſein	sein	_	VAINF	_	_	_	_	_	O	4275-4279	w299	sein	*
+20	in	in	_	APPR	_	_	_	_	_	B-PC	4280-4282	w29a	in	*
+21	Ehren	Ehre	_	NN	_	_	_	_	_	I-PC	4283-4288	w29b	Ehren	*
+22	)	)	_	$(	_	_	_	_	_	O	4289-4290	w29c	)	*
+23	in	in	_	APPR	_	_	_	_	_	B-PC	4291-4293	w29d	in	*
+24	dieſem	diese	_	PDAT	_	_	_	_	_	I-PC	4294-4300	w29e	diesem	*
+25	Tetraſticho	Tetrasticho	_	NN	_	_	_	_	_	I-PC	4301-4312	w29f	Tetrasticho	*
+26	:	:	_	$.	_	_	_	_	_	O	4313-4314	w2a0	:	*
+
+# sent_id = 21
+# sent_id(TSV) = 21
+# text = Qui qtlandoque ſales non immiſcere facetos Novit , is indignus , qui voret ore ſalem , eſt .
+1	Qui	qui	_	FM	_	_	_	_	_	B-NC	4316-4319	w2a1	Qui	*
+2	qtlandoque	qtlandoque	_	FM	_	_	_	_	_	I-NC	4320-4330	w2a2	qtlandoque	*
+3	ſales	sales	_	FM	_	_	_	_	_	I-NC	4331-4336	w2a3	sales	*
+4	non	non	_	FM	_	_	_	_	_	O	4337-4340	w2a4	non	*
+5	immiſcere	immiscere	_	FM	_	_	_	_	_	B-NC	4341-4350	w2a5	immiscere	*
+6	facetos	facetos	_	FM	_	_	_	_	_	I-NC	4351-4358	w2a6	facetos	*
+7	Novit	novit	_	FM	_	_	_	_	_	I-NC	4359-4364	w2a7	Novit	*
+8	,	,	_	$,	_	_	_	_	_	O	4365-4366	w2a8	,	*
+9	is	is	_	FM	_	_	_	_	_	B-NC	4367-4369	w2a9	is	*
+10	indignus	indignus	_	FM	_	_	_	_	_	I-NC	4370-4378	w2aa	indignus	*
+11	,	,	_	$,	_	_	_	_	_	O	4379-4380	w2ab	,	*
+12	qui	qui	_	FM	_	_	_	_	_	B-NC	4381-4384	w2ac	qui	*
+13	voret	voret	_	FM	_	_	_	_	_	I-NC	4385-4390	w2ad	voret	*
+14	ore	ore	_	FM	_	_	_	_	_	I-NC	4391-4394	w2ae	ore	*
+15	ſalem	salem	_	FM	_	_	_	_	_	I-NC	4395-4400	w2af	salem	*
+16	,	,	_	$,	_	_	_	_	_	O	4401-4402	w2b0	,	*
+17	eſt	est	_	FM	_	_	_	_	_	O	4403-4406	w2b1	est	*
+18	.	.	_	$.	_	_	_	_	_	O	4407-4408	w2b2	.	*
+
+# sent_id = 22
+# sent_id(TSV) = 22
+# text = Quive recenſentem non vult audire lepores , Eſt lepus , atque animo non habet ille ſalem .
+1	Quive	quive	_	FM	_	_	_	_	_	B-NC	4410-4415	w2b3	Quive	*
+2	recenſentem	recensentem	_	FM	_	_	_	_	_	I-NC	4416-4427	w2b4	recensentem	*
+3	non	non	_	FM	_	_	_	_	_	I-NC	4428-4431	w2b5	non	*
+4	vult	vult	_	FM	_	_	_	_	_	I-NC	4432-4436	w2b6	vult	*
+5	audire	audire	_	FM	_	_	_	_	_	I-NC	4437-4443	w2b7	audire	*
+6	lepores	lepores	_	FM	_	_	_	_	_	I-NC	4444-4451	w2b8	lepores	*
+7	,	,	_	$,	_	_	_	_	_	O	4452-4453	w2b9	,	*
+8	Eſt	est	_	FM	_	_	_	_	_	B-NC	4454-4457	w2ba	Est	*
+9	lepus	lepus	_	FM	_	_	_	_	_	I-NC	4458-4463	w2bb	lepus	*
+10	,	,	_	$,	_	_	_	_	_	O	4464-4465	w2bc	,	*
+11	atque	atque	_	FM	_	_	_	_	_	B-NC	4466-4471	w2bd	atque	*
+12	animo	animo	_	FM	_	_	_	_	_	I-NC	4472-4477	w2be	animo	*
+13	non	non	_	FM	_	_	_	_	_	I-NC	4478-4481	w2bf	non	*
+14	habet	habet	_	FM	_	_	_	_	_	I-NC	4482-4487	w2c0	habet	*
+15	ille	ille	_	FM	_	_	_	_	_	I-NC	4488-4492	w2c1	ille	*
+16	ſalem	salem	_	FM	_	_	_	_	_	I-NC	4493-4498	w2c2	salem	*
+17	.	.	_	$.	_	_	_	_	_	O	4499-4500	w2c3	.	*
+
+# sent_id = 23
+# sent_id(TSV) = 23
+# text = Muſica vita Deo Grata eſt , hominumque catervæ , Exeat è mundo , qui joca docta fugit .
+1	Muſica	musik	_	FM	_	_	_	_	_	B-NC	4502-4508	w2c4	Musik	*
+2	vita	vita	_	FM	_	_	_	_	_	I-NC	4509-4513	w2c5	vita	*
+3	Deo	deo	_	FM	_	_	_	_	_	I-NC	4514-4517	w2c6	Deo	*
+4	Grata	grata	_	FM	_	_	_	_	_	I-NC	4518-4523	w2c7	Grata	*
+5	eſt	est	_	FM	_	_	_	_	_	I-NC	4524-4527	w2c8	est	*
+6	,	,	_	$,	_	_	_	_	_	O	4528-4529	w2c9	,	*
+7	hominumque	hominumque	_	FM	_	_	_	_	_	B-NC	4530-4540	w2ca	hominumque	*
+8	catervæ	catervae	_	FM	_	_	_	_	_	I-NC	4541-4548	w2cb	catervae	*
+9	,	,	_	$,	_	_	_	_	_	O	4549-4550	w2cc	,	*
+10	Exeat	exeat	_	FM	_	_	_	_	_	B-NC	4551-4556	w2cd	Exeat	*
+11	è	e	_	FM	_	_	_	_	_	I-NC	4557-4558	w2ce	e	*
+12	mundo	mundo	_	FM	_	_	_	_	_	I-NC	4559-4564	w2cf	mundo	*
+13	,	,	_	$,	_	_	_	_	_	O	4565-4566	w2d0	,	*
+14	qui	qui	_	FM	_	_	_	_	_	B-NC	4567-4570	w2d1	qui	*
+15	joca	joca	_	FM	_	_	_	_	_	I-NC	4571-4575	w2d2	joca	*
+16	docta	docta	_	FM	_	_	_	_	_	I-NC	4576-4581	w2d3	docta	*
+17	fugit	fugit	_	FM	_	_	_	_	_	I-NC	4582-4587	w2d4	fugit	*
+18	.	.	_	$.	_	_	_	_	_	O	4588-4589	w2d5	.	*

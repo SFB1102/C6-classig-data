@@ -1,0 +1,179 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN FOKUS GF IS MovElem PHRASE POS SATZKLAMMER SATZSTATUS Sprache TOPF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# PTBstring = (VROOT(SIMPX(VF(NX(PPER Wir)(NX(NN ſollen))))(LK(VXFIN(VVFIN jhm)))(MF(ADJX(ADJX(ADJD dancken))(ADJD für))(NX(ART die)(ADJX(ADJA groſſe))(NN Wolthat))))(KLAMMER /))
+# TopFString = (S(VF(PPER Wir))(LK(VMFIN ſollen))(MF(PPER jhm))(VC(VVINF dancken))(NF(APPR für)(ART die)(ADJA groſſe)(NN Wolthat))(KOMMA /))
+# text = Wir ſollen jhm dancken für die groſſe Wolthat /
+1	Wir	_	_	PPER	_	_	_	_	_	NP	Wir	_	SUBJ	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	_	B-VF	28,23	_	_
+2	ſollen	_	_	VMFIN	_	_	_	_	_	VP	ſollen	_	VFIN	_	I-NP|B-NP-insitu	I-NP	VMFIN	LI	MAINDECL	_	B-LK	28,24	_	_
+3	jhm	_	_	PPER	_	_	_	_	_	NP	jhm	_	IO-DAT	_	_	O	PPER	_	MAINDECL	_	B-MF	28,24	_	_
+4	dancken	_	_	VVINF	_	_	_	_	_	VP	dancken	_	INF	_	B-AP-insitu	B-AP	VVINF	RE	MAINDECL	_	B-RK	28,24	_	_
+5	für	_	_	APPR	_	_	_	_	_	PP	für	NF	PP-ADV	_	I-AP	I-AP	APPR	_	MAINDECL	_	B-NF	28,24	UNLINK	KOREF1
+6	die	_	_	ART	_	_	_	_	_	PP	die	NF	PP-ADV	ACC-ABSTR-UNUSED	B-NP-extrap	B-NP	DDA	_	MAINDECL	_	I-NF	28,24	UNLINK	KOREF1
+7	groſſe	_	_	ADJA	_	_	_	_	_	PP	groſſe	NF	PP-ADV	ACC-ABSTR-UNUSED	I-NP	I-NP	ADJ	_	MAINDECL	_	I-NF	28,24	UNLINK	KOREF1
+8	Wolthat	_	_	NN	_	_	_	_	_	PP	Wolthat	NF	PP-ADV	ACC-ABSTR-UNUSED	I-NP	I-NP	NA	_	MAINDECL	_	I-NF	28,24	UNLINK	KOREF1
+9	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	O	$_	_	MAINDECL	_	O	28,24	_	_
+
+# sent_id = 2
+# PTBstring = (VROOT(SIMPX(KOORD(KON vnnd))(VF(NX(PPER ich)))(LK(VXFIN(VMFIN will)))(MF(NX(PPER dich))(ADVX(ADV auch)))(VC(VXINF(VVPP erretten)))(NF(PX(APPR auß)(NX:HD(ART der)(NN Hand)(NX(ART der)(NN Boͤſen))))))(KLAMMER /))
+# TopFString = (S(KOORD(KON vnnd))(VF(PPER ich))(LK(VMFIN will))(MF(PPER dich)(ADV auch))(VC(VVINF erretten))(NF(APPR auß)(ART der)(NN Hand)(ART der)(NN Boͤſen))(KOMMA /))
+# text = vnnd ich will dich auch erretten auß der Hand der Boͤſen /
+1	vnnd	_	_	KON	_	_	_	_	_	_	vnnd	_	_	_	_	O	KON	_	MAINDECL	_	B-KOORD	30,02	_	_
+2	ich	_	_	PPER	_	_	_	_	_	NP	ich	_	SUBJ	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	_	B-VF	30,02	_	_
+3	will	_	_	VMFIN	_	_	_	_	_	VP	will	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	_	B-LK	30,02	_	_
+4	dich	_	_	PPER	_	_	_	_	_	NP	dich	_	DO	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	_	B-MF	30,03	_	_
+5	auch	_	_	ADV	_	_	_	_	_	ADVP	auch	_	ADVB	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	_	I-MF	30,03	_	_
+6	erretten	_	_	VVINF	_	_	_	_	_	VP	erretten	_	INF	_	_	O	VVINF	RE	MAINDECL	_	B-RK	30,03	_	_
+7	auß	_	_	APPR	_	_	_	_	_	PP	auß	_	PP-SIT	_	B-PP-extrap	B-PP	APPR	_	MAINDECL	_	B-NF	30,03	UNLINK	_
+8	der	_	_	ART	_	_	_	_	_	PP	der	CF	PP-SIT	_	I-PP	I-PP	DDA	_	MAINDECL	_	I-NF	30,03	UNLINK	_
+9	Hand	_	_	NN	_	_	_	_	_	PP	Hand	CF	PP-SIT	GIV-INACTIVE_	I-PP	I-PP	NA	_	MAINDECL	_	I-NF	30,03	UNLINK	_
+10	der	_	_	ART	_	_	_	_	_	PP	der	CF	ATTR	_ACC-ABSTR-UNUSED	I-PP	I-PP	DDA	_	MAINDECL	_	I-NF	30,03	UNLINK	_
+11	Boͤſen	_	_	NN	_	_	_	_	_	PP	Boͤſen	CF	ATTR	_ACC-ABSTR-UNUSED	I-PP	I-PP	NA	_	MAINDECL	_	I-NF	30,03	UNLINK	_
+12	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	O	$_	_	MAINDECL	_	O	30,03	_	_
+
+# sent_id = 3
+# PTBstring = (VROOT(SIMPX(KOORD(KON vnnd))(VC(VXINF(VVINF erloͤſen)))(NF(PX(APPR auß)(NX:HD(ART der)(NN hand)(NX(ART der)(NN Tyrannen))))))(PUNKT .))
+# TopFString = (S(KOORD(KON vnnd))(VF(VC(VVINF erloͤſen)))(MF(APPR auß)(ART der)(NN hand)(ART der)(NN Tyrannen))(PUNKT .))
+# text = vnnd erloͤſen auß der hand der Tyrannen.
+1	vnnd	_	_	KON	_	_	_	_	_	_	vnnd	_	_	_	_	O	KON	_	MAINDECL-ELLI	_	B-KOORD	30,03	_	_
+2	erloͤſen	_	_	VVINF	_	_	_	_	_	VP	erloͤſen	_	INF	_	_	O	VVINF	RE	MAINDECL-ELLI	_	B-VF|B-RK	30,03	_	_
+3	auß	_	_	APPR	_	_	_	_	_	PP	auß	_	PP-SIT	_	B-PP-insitu	B-PP	APPR	_	MAINDECL-ELLI	_	B-MF	30,03	UNLINK	_
+4	der	_	_	ART	_	_	_	_	_	PP	der	CF	PP-SIT	_	I-PP	I-PP	DDA	_	MAINDECL-ELLI	_	I-MF	30,04	UNLINK	_
+5	hand	_	_	NN	_	_	_	_	_	PP	hand	CF	PP-SIT	GIV-ACTIVE_	I-PP	I-PP	NA	_	MAINDECL-ELLI	_	I-MF	30,04	UNLINK	_
+6	der	_	_	ART	_	_	_	_	_	PP	der	CF	ATTR	_NEW	I-PP	I-PP	DDA	_	MAINDECL-ELLI	_	I-MF	30,04	UNLINK	_
+7	Tyrannen	_	_	NN	_	_	_	_	_	PP	Tyrannen	CF	ATTR	_NEW	I-PP	I-PP	NA	_	MAINDECL-ELLI	_	I-MF	30,04	UNLINK	_
+8	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	_	O	$_	_	MAINDECL-ELLI	_	O	30,04	_	_
+
+# sent_id = 4
+# PTBstring = (VROOT(SIMPX(VF(FKONJ(MF(NX(ADJX(ADJA Jr))(NN ſol-let))(ADVX(PTKNEG nicht)))(VC(VXINF(VVPP vnrecht)))))(LK(VXFIN(VVFIN handeln)))(MF(PX(APPRART am)(NX:HD(NN Gericht)))))(KLAMMER /))
+# TopFString = (S(VF(PPER Jr))(LK(VMFIN ſol-let))(MF(PTKNEG nicht)(ADJD vnrecht))(VC(VVINF handeln))(NF(APPR am)(NN Gericht))(KOMMA /))
+# text = Jr ſol-let nicht vnrecht handeln am Gericht /
+1	Jr	_	_	PPER	_	_	_	_	_	NP	Jr	_	SUBJ	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	_	B-VF	34,20; sol-	_	_
+2	ſol-let	_	_	VMFIN	_	_	_	_	_	VP	ſollet	_	VFIN	_	I-NP	I-NP	VMFIN	LI	MAINDECL	_	B-LK	34,20; sol-	_	_
+3	nicht	_	_	PTKNEG	_	_	_	_	_	_	nicht	_	_	_	B-ADVP-insitu	B-ADVP	PTKNEG	_	MAINDECL	_	B-MF	34,21; -let zie-	_	_
+4	vnrecht	_	_	ADJD	_	_	_	_	_	ADVP	vnrecht	_	ADVB	_	_	O	ADJD	_	MAINDECL	_	I-MF	34,21; -let zie-	_	_
+5	handeln	_	_	VVINF	_	_	_	_	_	VP	handeln	_	INF	_	_	O	VVINF	RE	MAINDECL	_	B-RK	34,21; -let zie-	_	_
+6	am	_	_	APPR	_	_	_	_	_	PP	am	_	PP-OBJ	_	B-PP-extrap	B-PP	APPR	_	MAINDECL	_	B-NF	34,21; -let zie-	UNLINK	_
+7	Gericht	_	_	NN	_	_	_	_	_	PP	Gericht	_	PP-OBJ	GIV-ACTIVE	I-PP	I-PP	NA	_	MAINDECL	_	I-NF	34,21; -let zie-	UNLINK	KOREF1
+8	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	O	$_	_	MAINDECL	_	O	34,21; -let zie-	_	_
+
+# sent_id = 5
+# PTBstring = (VROOT(NX(ADJX(ADJA vnnd))(NN ſolt)(NX(ADJX(ADVX(PTKNEG nicht))(ADJA für))(NN zie-hen))(NX(ART den)(NN Geringen)))(KLAMMER /))
+# TopFString = (S(KOORD(KON vnnd))(LK(VMFIN ſolt))(MF(PTKNEG nicht))(VC(PTKVZ für)(VVINF zie-hen))(ART den)(ADJA Geringen)(KOMMA /))
+# text = vnnd ſolt nicht für zie-hen den Geringen /
+1	vnnd	_	_	KON	_	_	_	_	_	_	vnnd	_	_	_	B-NP-insitu	B-NP	KON	_	MAINDECL-ELLI	_	B-KOORD	34,21; -let zie-	_	_
+2	ſolt	_	_	VMFIN	_	_	_	_	_	VP	ſolt	_	VFIN	_	I-NP	I-NP	VMFIN	LI	MAINDECL-ELLI	_	B-LK	34,21; -let zie-	_	_
+3	nicht	_	_	PTKNEG	_	_	_	_	_	_	nicht	_	_	_	I-NP|B-NP-insitu	I-NP	PTKNEG	_	MAINDECL-ELLI	_	B-MF	34,21; -let zie-	_	_
+4	für	_	_	PTKVZ	_	_	_	_	_	VP	für	_	VZ_PTK	_	I-NP|I-NP	I-NP	PTKVZ	_	MAINDECL-ELLI	_	B-RK	34,21; -let zie-	_	_
+5	zie-hen	_	_	VVINF	_	_	_	_	_	VP	ziehen	_	INF	_	I-NP|I-NP	I-NP	VVINF	RE	MAINDECL-ELLI	_	I-RK	34,21; -let zie-	_	_
+6	den	_	_	ART	_	_	_	_	_	NP	den	_	DO	NEW	I-NP	I-NP	DDA	_	MAINDECL-ELLI	_	O	34,22; -hen	UNLINK	_
+7	Geringen	_	_	ADJA	_	_	_	_	_	NP	Geringen	_	DO	NEW	I-NP	I-NP	ADJ	_	MAINDECL-ELLI	_	O	34,22; -hen	UNLINK	_
+8	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	O	$_	_	MAINDECL-ELLI	_	O	34,22; -hen	_	_
+
+# sent_id = 6
+# PTBstring = (VROOT(SIMPX(VF(ADVX(ADV Da)))(LK(VXFIN(VMFIN ſoll)))(MF(NX(PIS man))(NX(ART den)(NN Leüten))(NX(ADJX(ADJA gleiches))(NN Recht)))(VC(VXINF(VVPP widerfahren))(VXINF(VVINF laſſen))))(KLAMMER /)(NX(NX:KONJ(ART dem)(NN Armen)(NX(KOKOM wie)(ART dem)(NN Reichen)))(KLAMMER /)(NX:KONJ(ART dem)(NN Ge-ringſten)(NX(KOKOM wie)(ART dem)(NN Hoͤchſten))))(PUNKT .))
+# TopFString = (S(KOORD(KON Da))(VF(LK(VMFIN ſoll))(MF(PIS man)(ART den)(NN Leüten)(ADJA gleiches)(NN Recht))(VC(VVINF widerfahren)(VMINF laſſen)))(KOMMA /)(MF(ART dem)(NN Armen)(KOKOM wie)(ART dem)(NN Reichen)(KOMMA /)(ART dem)(NN Ge-ringſten)(KOKOM wie)(ART dem)(NN Hoͤchſten))(PUNKT .))
+# text = Da ſoll man den Leüten gleiches Recht widerfahren laſſen / dem Armen wie dem Reichen / dem Ge-ringſten wie dem Hoͤchſten.
+1	Da	_	_	KON	_	_	_	_	_	_	Da	_	_	_	B-ADVP-insitu	B-ADVP	KON	_	MAINDECL	_	B-KOORD	35,01	_	_
+2	ſoll	_	_	VMFIN	_	_	_	_	_	VP	ſoll	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	_	B-VF|B-LK	35,01	_	_
+3	man	_	_	PIS	_	_	_	_	_	NP	man	_	SUBJ	_	B-NP-insitu	B-NP	PI	_	MAINDECL	_	I-VF|B-MF	35,01	_	_
+4	den	_	_	ART	_	_	_	_	_	NP	den	_	IO-DAT	_	B-NP-insitu	B-NP	DDA	_	MAINDECL	_	I-VF|I-MF	35,01	_	_
+5	Leüten	_	_	NN	_	_	_	_	_	NP	Leüten	_	IO-DAT	_	I-NP	I-NP	NA	_	MAINDECL	_	I-VF|I-MF	35,01	_	_
+6	gleiches	_	_	ADJA	_	_	_	_	_	NP	gleiches	_	DO	_	B-NP-insitu	B-NP	ADJ	_	MAINDECL	_	I-VF|I-MF	35,01	_	_
+7	Recht	_	_	NN	_	_	_	_	_	NP	Recht	_	DO	_	I-NP	I-NP	NA	_	MAINDECL	_	I-VF|I-MF	35,01	_	_
+8	widerfahren	_	_	VVINF	_	_	_	_	_	VP	widerfahren	_	INF	_	_	O	VVINF	_	MAINDECL	_	I-VF|B-RK	35,02	_	_
+9	laſſen	_	_	VMINF	_	_	_	_	_	VP	laſſen	_	INF	_	_	O	VMINF	RE	MAINDECL	_	I-VF|I-RK	35,02	_	_
+10	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	O	$_	_	MAINDECL	_	O	35,02	_	_
+11	dem	_	_	ART	_	_	_	_	_	NP	dem	CF_	IO-DAT	NEW_	B-NP-insitu	B-NP	DDA	_	MAINDECL	_	B-MF	35,02	LINK_APPOS	_
+12	Armen	_	_	NN	_	_	_	_	_	NP	Armen	CF_	IO-DAT	NEW_	I-NP	I-NP	NA	_	MAINDECL	_	I-MF	35,02	LINK_APPOS	_
+13	wie	_	_	KOKOM	_	_	_	_	_	_	wie	_	VGL	_	I-NP	I-NP	KOKOM	_	MAINDECL	_	I-MF	35,02	LINK_APPOS	_
+14	dem	_	_	ART	_	_	_	_	_	NP	dem	CF_	VGL	_NEW	I-NP	I-NP	DDA	_	MAINDECL	_	I-MF	35,02	LINK_APPOS	_
+15	Reichen	_	_	NN	_	_	_	_	_	NP	Reichen	CF_	VGL	_NEW	I-NP	I-NP	NA	_	MAINDECL	_	I-MF	35,02	LINK_APPOS	_
+16	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	I-NP	I-NP	_	_	MAINDECL	_	I-MF	35,02	_	_
+17	dem	_	_	ART	_	_	_	_	_	NP	dem	CF_	IO-DAT	GIV-INACTIVE_	I-NP	I-NP	DDA	_	MAINDECL	_	I-MF	35,02	LINK_APPOS	_
+18	Ge-ringſten	_	_	NN	_	_	_	_	_	NP	Geringſten	CF_	IO-DAT	GIV-INACTIVE_	I-NP	I-NP	NA	_	MAINDECL	_	I-MF	35,02	LINK_APPOS	_
+19	wie	_	_	KOKOM	_	_	_	_	_	_	wie	_	VGL	_	I-NP	I-NP	KOKOM	_	MAINDECL	_	I-MF	35,03	LINK_APPOS	_
+20	dem	_	_	ART	_	_	_	_	_	NP	dem	CF_	VGL	_NEW	I-NP	I-NP	DDA	_	MAINDECL	_	I-MF	35,03	LINK_APPOS	_
+21	Hoͤchſten	_	_	NN	_	_	_	_	_	NP	Hoͤchſten	CF_	VGL	_NEW	I-NP	I-NP	NA	_	MAINDECL	_	I-MF	35,03	LINK_APPOS	_
+22	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	_	O	$_	_	MAINDECL	_	O	35,03	_	_
+
+# sent_id = 7
+# PTBstring = (VROOT(SIMPX(VF(PX(APPR Jn)(NX:HD(ART die)(NN Steürſtuben))))(LK(VXFIN(VVFIN wiſſen)))(MF(NX(PPER wir))(ADJX(PTKA zu)(ADJD diſem))(ADVX(ADV mal))(NX(PIS nichts)(ADVX(ADV beſſers))))(VC(VXINF(PTKZU zu)(VVINF |uerehren)))(NF(NX(KOKOM als)(ART die)(NN Zinßmüntz))))(KLAMMER /))
+# TopFString = (S(VF(APPR Jn)(ART die)(NN Steürſtuben))(LK(VVFIN wiſſen))(MF(PPER wir)(APPR zu)(PDAT diſem)(NN mal)(PIAT nichts)(NN beſſers))(VC(PTKZU zu)(VVINF |uerehren))(NF(KOKOM als)(ART die)(NN Zinßmüntz))(KOMMA /))
+# text = Jn die Steürſtuben wiſſen wir zu diſem mal nichts beſſers zu |uerehren als die Zinßmüntz /
+1	Jn	_	_	APPR	_	_	_	_	_	PP	Jn	_	PP-ADV	_	B-PP-insitu	B-PP	APPR	_	MAINDECL	_	B-VF	35,04	_	_
+2	die	_	_	ART	_	_	_	_	_	PP	die	_	PP-ADV	_	I-PP	I-PP	DDA	_	MAINDECL	_	I-VF	35,04	_	_
+3	Steürſtuben	_	_	NN	_	_	_	_	_	PP	Steürſtuben	_	PP-ADV	_	I-PP	I-PP	NA	_	MAINDECL	_	I-VF	35,04	_	_
+4	wiſſen	_	_	VVFIN	_	_	_	_	_	VP	wiſſen	_	VFIN	_	_	O	VVFIN	LI	MAINDECL	_	B-LK	35,04	_	_
+5	wir	_	_	PPER	_	_	_	_	_	NP	wir	_	SUBJ	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	_	B-MF	35,04	_	_
+6	zu	_	_	APPR	_	_	_	_	_	PP	zu	_	PP-ADV	_	B-AP-insitu	B-AP	APPR	_	MAINDECL	_	I-MF	35,04	_	_
+7	diſem	_	_	PDAT	_	_	_	_	_	PP	diſem	_	PP-ADV	_	I-AP	I-AP	DD	_	MAINDECL	_	I-MF	35,04	_	_
+8	mal	_	_	NN	_	_	_	_	_	PP	mal	_	PP-ADV	_	B-ADVP-insitu	B-ADVP	NA	_	MAINDECL	_	I-MF	35,04	_	_
+9	nichts	_	_	PIAT	_	_	_	_	_	_	nichts	_	_	_	B-NP-insitu	B-NP	PINEG	_	MAINDECL	_	I-MF	35,04	_	_
+10	beſſers	_	_	NN	_	_	_	_	_	NP	beſſers	_	DO	_	I-NP	I-NP	ADJS	_	MAINDECL	_	I-MF	35,05	_	_
+11	zu	_	_	PTKZU	_	_	_	_	_	VP	zu	_	INF	_	_	O	PTKZU	_	MAINDECL	_	B-RK	35,05	_	_
+12	|uerehren	_	_	VVINF	_	_	_	_	_	VP	uerehren	_	INF	_	_	O	VVINF	RE	MAINDECL	_	I-RK	35,05	_	_
+13	als	_	_	KOKOM	_	_	_	_	_	_	als	_	VGL	_	B-NP-extrap	B-NP	KOKOM	_	MAINDECL	_	B-NF	35,05	UNLINK	_
+14	die	_	_	ART	_	_	_	_	_	NP	die	NF	VGL	NEW	I-NP	I-NP	DDA	_	MAINDECL	_	I-NF	35,05	UNLINK	KOREF1
+15	Zinßmüntz	_	_	NN	_	_	_	_	_	NP	Zinßmüntz	NF	VGL	NEW	I-NP	I-NP	NA	_	MAINDECL	_	I-NF	35,05	UNLINK	KOREF1
+16	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	O	$_	_	MAINDECL	_	O	35,05	_	_
+
+# sent_id = 8
+# PTBstring = (VROOT(SIMPX(KOORD(KON aber))(VF(NX(ADJX(ADJA daß))(NN Volck)))(LK(VXFIN(VVFIN iſt)))(MF(NX(ADVX(ADV mehr))(ART einer)(NN Obrigkeit))(ADJX(ADJD benoͤttiget))))(KLAMMER /)(NX(KOKOM als)(ART die)(NN Obrigkeit)(NX(ART eines)(NN Volcks)))(PUNKT .))
+# TopFString = (S(KOORD(KON aber))(VF(ART daß)(NN Volck))(LK(VAFIN iſt))(MF(ADJD mehr)(ART einer)(NN Obrigkeit))(VC(VVPP benoͤttiget))(KOMMA /)(NF(KOKOM als)(ART die)(NN Obrigkeit)(ART eines)(NN Volcks))(PUNKT .))
+# text = aber daß Volck iſt mehr einer Obrigkeit benoͤttiget / als die Obrigkeit eines Volcks.
+1	aber	_	_	KON	_	_	_	_	_	_	aber	_	_	_	_	O	KON	_	MAINDECL	_	B-KOORD	39,03; -nes	_	_
+2	daß	_	_	ART	_	_	_	_	_	NP	daß	_	SUBJ	_	B-NP-insitu	B-NP	DDA	_	MAINDECL	_	B-VF	39,03; -nes	_	_
+3	Volck	_	_	NN	_	_	_	_	_	NP	Volck	NF	SUBJ	_	I-NP	I-NP	NA	_	MAINDECL	_	I-VF	39,03; -nes	_	_
+4	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	NF	VFIN	_	_	O	VAFIN	LI	MAINDECL	_	B-LK	39,03; -nes	_	_
+5	mehr	_	_	ADJD	_	_	_	_	_	ADVP	mehr	NF	ADVB	_	B-NP-insitu	B-NP	ADJD	_	MAINDECL	_	B-MF	39,03; -nes	_	_
+6	einer	_	_	ART	_	_	_	_	_	NP	einer	NF	IO-GEN	_	I-NP	I-NP	DIA	_	MAINDECL	_	I-MF	39,03; -nes	_	_
+7	Obrigkeit	_	_	NN	_	_	_	_	_	NP	Obrigkeit	NF	IO-GEN	_	I-NP	I-NP	NA	_	MAINDECL	_	I-MF	39,03; -nes	_	_
+8	benoͤttiget	_	_	VVPP	_	_	_	_	_	VP	benoͤttiget	NF	INF	_	B-AP-insitu	B-AP	VVPP	RE	MAINDECL	_	B-RK	39,03; -nes	_	_
+9	/	_	_	$,	_	_	_	_	_	_	/	NF	_	_	_	O	$_	_	MAINDECL	_	O	39,03; -nes	_	_
+10	als	_	_	KOKOM	_	_	_	_	_	_	als	NF	VGL	_	B-NP-extrap	B-NP	KOKOM	_	MAINDECL	_	B-NF	39,03; -nes	LINK_ASSYM	_
+11	die	_	_	ART	_	_	_	_	_	NP	die	NF	SUBJ	_	I-NP	I-NP	DDA	_	MAINDECL	_	I-NF	39,04	LINK_ASSYM	_
+12	Obrigkeit	_	_	NN	_	_	_	_	_	NP	Obrigkeit	NF	SUBJ	GIV-ACTIVE	I-NP	I-NP	NA	_	MAINDECL	_	I-NF	39,04	LINK_ASSYM	KOREF1
+13	eines	_	_	ART	_	_	_	_	_	NP	eines	NF	IO-GEN	_	I-NP	I-NP	DIA	_	MAINDECL	_	I-NF	39,04	LINK_ASSYM	_
+14	Volcks	_	_	NN	_	_	_	_	_	NP	Volcks	NF	IO-GEN	GIV-ACTIVE	I-NP	I-NP	NA	_	MAINDECL	_	I-NF	39,04	LINK_ASSYM	KOREF1
+15	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	_	O	$_	_	MAINDECL	_	O	39,04	_	_
+
+# sent_id = 9
+# PTBstring = (VROOT(NX(CARD I)(PUNKT .)(FX(FM Soll)(FM diſes)(FM Aug)(FM ſehen)(FM in)(FM Templum)(FM Domini)))(KLAMMER ,))
+# TopFString = (S(CARD I)(PUNKT .)(LK(VMFIN Soll))(MF(ART diſes)(NN Aug))(VC(VVINF ſehen))(NF(APPR in)(NN Templum)(NN Domini))(KOMMA ,))
+# text = I. Soll diſes Aug ſehen in Templum Domini,
+1	I	_	_	CARD	_	_	_	_	_	ADVP	I	_	ADVB	_	B-NP-insitu	B-NP	ADJOD	_	MAINDECL	_	O	39,16	_	_
+2	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	I-NP	I-NP	$_	_	MAINDECL	_	O	39,16	_	_
+3	Soll	_	_	VMFIN	_	_	_	_	_	VP	Soll	_	VFIN	_	I-NP	I-NP	VMFIN	LI	MAINDECL	_	B-LK	39,16	_	_
+4	diſes	_	_	ART	_	_	_	_	_	NP	diſes	_	SUBJ	_	I-NP	I-NP	DDA	_	MAINDECL	_	B-MF	39,16	_	_
+5	Aug	_	_	NN	_	_	_	_	_	NP	Aug	_	SUBJ	_	I-NP	I-NP	NA	_	MAINDECL	_	I-MF	39,16	_	_
+6	ſehen	_	_	VVINF	_	_	_	_	_	VP	ſehen	_	INF	_	I-NP	I-NP	VVINF	RE	MAINDECL	_	B-RK	39,16	_	_
+7	in	_	_	APPR	_	_	_	_	_	PP	in	NF	PP-SIT	_	I-NP	I-NP	APPR	_	MAINDECL	Latein	B-NF	39,16	UNLINK	_
+8	Templum	_	_	NN	_	_	_	_	_	PP	Templum	NF	PP-SIT	NEW	I-NP	I-NP	NA	_	MAINDECL	Latein	I-NF	39,16	UNLINK	_
+9	Domini	_	_	NN	_	_	_	_	_	PP	Domini	NF	ATTR	NEW	I-NP	I-NP	NA	_	MAINDECL	Latein	I-NF	39,16	UNLINK	_
+10	,	_	_	$,	_	_	_	_	_	_	,	_	_	_	_	O	$_	_	MAINDECL	_	O	39,16	_	_
+
+# sent_id = 10
+# PTBstring = (VROOT(NX(NN II))(PUNKT .)(NX(NN Sollen)(NX(ART der)(NN Obrigkeit)))(KLAMMER /)(NX(ADJX(PX(APPR mit)(NX:HD(PIDAT aller)(NN Reuerentz)))(ADJA vnd))(NN Ehrerbietung)(PX(APPR zu)(NX:HD(ADJX(ADJA gehoͤr))(NN ſtehen))))(KLAMMER /)(NX(ADJX(PX(APPR in)(NX:HD(PIDAT allen)(NN Gebotten)))(ADJA vnd))(NN Verbotten))(KLAMMER /))
+# TopFString = (S(CARD II)(PUNKT .)(LK(VMFIN Sollen))(MF(ART der)(NN Obrigkeit)(KOMMA /)(APPR mit)(PIAT aller)(NN Reuerentz)(KON vnd)(NN Ehrerbietung)(APPR zu)(NN gehoͤr))(VC(VVINF ſtehen))(KOMMA /)(NF(APPR in)(ADJA allen)(NN Gebotten)(KON vnd)(NN Verbotten))(KOMMA /))
+# text = II. Sollen der Obrigkeit / mit aller Reuerentz vnd Ehrerbietung zu gehoͤr ſtehen / in allen Gebotten vnd Verbotten /
+1	II	_	_	CARD	_	_	_	_	_	ADVP	II	_	ADVB	_	B-NP-insitu	B-NP	ADJOD	_	MAINDECL-ELLI	_	O	39,37	_	_
+2	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	_	O	$_	_	MAINDECL-ELLI	_	O	39,37	_	_
+3	Sollen	_	_	VMFIN	_	_	_	_	_	VP	Sollen	_	VFIN	_	B-NP-insitu	B-NP	VMFIN	LI	MAINDECL-ELLI	_	B-LK	39,37	_	_
+4	der	_	_	ART	_	_	_	_	_	NP	der	_	IO-DAT	_	I-NP|B-NP-insitu	I-NP	DDA	_	MAINDECL-ELLI	_	B-MF	39,37	_	_
+5	Obrigkeit	_	_	NN	_	_	_	_	_	NP	Obrigkeit	_	IO-DAT	_	I-NP|I-NP	I-NP	NA	_	MAINDECL-ELLI	_	I-MF	39,37	_	_
+6	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	O	$_	_	MAINDECL-ELLI	_	I-MF	39,37	_	_
+7	mit	_	_	APPR	_	_	_	_	_	PP	mit	_	PP-ADV	_	B-NP-insitu|B-AP-insitu	B-NP	APPR	_	MAINDECL-ELLI	_	I-MF	39,37	_	_
+8	aller	_	_	PIAT	_	_	_	_	_	PP	aller	_	PP-ADV	_	I-NP|I-AP	I-NP	ADJ	_	MAINDECL-ELLI	_	I-MF	39,37	_	_
+9	Reuerentz	_	_	NN	_	_	_	_	_	PP	Reuerentz	_	PP-ADV	_	I-NP|I-AP	I-NP	NA	_	MAINDECL-ELLI	_	I-MF	39,37	_	_
+10	vnd	_	_	KON	_	_	_	_	_	PP	vnd	_	PP-ADV	_	I-NP|I-AP	I-NP	KON	_	MAINDECL-ELLI	_	I-MF	39,37	_	_
+11	Ehrerbietung	_	_	NN	_	_	_	_	_	PP	Ehrerbietung	_	PP-ADV	_	I-NP	I-NP	NA	_	MAINDECL-ELLI	_	I-MF	39,37	_	_
+12	zu	_	_	APPR	_	_	_	_	_	PP	zu	_	PP-OBJ	_	I-NP|B-PP-insitu	I-NP	APPR	_	MAINDECL-ELLI	_	I-MF	39,37	_	_
+13	gehoͤr	_	_	NN	_	_	_	_	_	PP	gehoͤr	_	PP-OBJ	_	I-NP|I-PP	I-NP	NA	_	MAINDECL-ELLI	_	I-MF	40,01	_	_
+14	ſtehen	_	_	VVINF	_	_	_	_	_	VP	ſtehen	_	VFIN	_	I-NP|I-PP	I-NP	VVINF	RE	MAINDECL-ELLI	_	B-RK	40,01	_	_
+15	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	O	$_	_	MAINDECL-ELLI	_	O	40,01	_	_
+16	in	_	_	APPR	_	_	_	_	_	PP	in	NF	PP-ADV	_	B-NP-extrap	B-NP	APPR	_	MAINDECL-ELLI	_	B-NF	40,01	UNLINK	_
+17	allen	_	_	ADJA	_	_	_	_	_	PP	allen	NF	PP-ADV	ACC-ABSTR-UNUSED	I-NP	I-NP	ADJ	_	MAINDECL-ELLI	_	I-NF	40,01	UNLINK	KOREF1-REL
+18	Gebotten	_	_	NN	_	_	_	_	_	PP	Gebotten	NF	PP-ADV	ACC-ABSTR-UNUSED	I-NP	I-NP	NA	_	MAINDECL-ELLI	_	I-NF	40,01	UNLINK	KOREF1-REL
+19	vnd	_	_	KON	_	_	_	_	_	PP	vnd	NF	PP-ADV	ACC-ABSTR-UNUSED	I-NP	I-NP	KON	_	MAINDECL-ELLI	_	I-NF	40,01	UNLINK	KOREF1-REL
+20	Verbotten	_	_	NN	_	_	_	_	_	PP	Verbotten	NF	PP-ADV	ACC-ABSTR-UNUSED	I-NP	I-NP	NA	_	MAINDECL-ELLI	_	I-NF	40,01	UNLINK	KOREF1-REL
+21	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	O	$_	_	MAINDECL-ELLI	_	O	40,01	_	_

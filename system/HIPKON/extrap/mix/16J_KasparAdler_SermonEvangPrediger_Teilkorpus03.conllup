@@ -1,0 +1,36 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC Antec CAT CLEAN FOKUS GF IS MovElem PHRASE POS SATZKLAMMER SATZSTATUS TOPF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# PTBstring = (VROOT(S(AVP(ADV ſo))(VP(VAFIN wer=dn̄))(NP(PPER jr))(VP(PRF eüch)(VVINF verwūderen)(NP(ART der)(ADJA groſſen)(NN gnad)(NN gotes)))))
+# TopFString = (S(VF(ADV ſo))(LK(VAFIN wer=dn̄))(MF(PPER jr)(PRF eüch))(VC(VVINF verwūderen))(NF(ART der)(ADJA groſſen)(NN gnad))(NN gotes))
+# text = ſo wer=dn̄ jr eüch verwūderen der groſſen gnad gotes
+1	ſo	_	_	ADV	_	_	_	_	_	_	ADVP	ſo	_	ADVB	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	B-VF	14,01; wer=	_	_
+2	wer=dn̄	_	_	VAFIN	_	_	_	_	_	_	VP	werdn̄	_	VFIN	_	_	O	VAFIN	LI	MAINDECL	B-LK	14,01; wer=	_	_
+3	jr	_	_	PPER	_	_	_	_	_	_	NP	jr	_	SUBJ	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-MF	14,02; =dn̄	_	_
+4	eüch	_	_	PRF	_	_	_	_	_	_	NP	eüch	_	VZ_RFL	_	B-NP-insitu	B-NP	PRF	_	MAINDECL	I-MF	14,02; =dn̄	_	_
+5	verwūderen	_	_	VVINF	_	_	_	_	_	_	VP	verwūderen	NF	INF	_	_	O	VVINF	RE	MAINDECL	B-RK	14,02; =dn̄	_	_
+6	der	_	_	ART	_	_	_	_	_	_	NP	der	NF	IO-GEN	ACC-ABSTR-UNUSED_	B-NP-extrap	B-NP	DDA	_	MAINDECL	B-NF	14,02; =dn̄	UNLINK	_
+7	groſſen	_	_	ADJA	_	_	_	_	_	_	NP	groſſen	NF	IO-GEN	ACC-ABSTR-UNUSED_	I-NP	I-NP	ADJ	_	MAINDECL	I-NF	14,02; =dn̄	UNLINK	_
+8	gnad	_	_	NN	_	_	_	_	_	_	NP	gnad	NF	IO-GEN	ACC-ABSTR-UNUSED_	I-NP	I-NP	NA	_	MAINDECL	I-NF	14,02; =dn̄	UNLINK	_
+9	gotes	_	_	NN	_	_	_	_	_	_	NP	gotes	NF	ATTR	_ACC-UNI-UNUSED	I-NP	I-NP	NA	_	MAINDECL	O	14,02; =dn̄	UNLINK	KOREF1
+
+# sent_id = 2
+# PTBstring = (VROOT(S(AVP(ADV warlich))(NP(PPER wir))(VP(VMFIN derf=fen))(VP(PPER vnß)(PTKNEG nit)(VVINF wūderen)(KOMMA /))(NP(ART der)(ADJA erſchrocklichē)(NN Plag)(PUNKT .))(S:RC(NP(PRELS die))(NP(NE got))(PP(APPR zuͦ)(PPER vnß))(VP(VVFIN ſchicket))(KOMMA /))))
+# TopFString = (S(VF(ADV warlich)(PPER wir))(LK(VMFIN derf=fen))(MF(PPER vnß)(PTKNEG nit))(VC(VVINF wūderen))(KOMMA /)(NF(ART der)(ADJA erſchrocklichē)(NN Plag)(PUNKT .)(C(PRELS die))(MF(NE got)(APPR zuͦ)(PPER vnß))(VC(VVFIN ſchicket)))(KOMMA /))
+# text = warlich wir derf=fen vnß nit wūderen / der erſchrocklichē Plag. die got zuͦ vnß ſchicket /
+1	warlich	_	_	ADV	_	_	_	_	_	_	ADVP	warlich	_	VOVF	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	B-VF	14,07; derf-	_	_
+2	wir	_	_	PPER	_	_	_	_	_	_	NP	wir	_	SUBJ	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	I-VF	14,07; derf-	_	_
+3	derf=fen	_	_	VMFIN	_	_	_	_	_	_	VP	derffen	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	B-LK	14,07; derf-	_	_
+4	vnß	_	_	PPER	_	_	_	_	_	_	NP	vnß	_	VZ_RFL	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-MF	14,08; -fen	_	_
+5	nit	_	_	PTKNEG	_	_	_	_	_	_	_	nit	_	_	_	B-ADVP-insitu	B-ADVP	PTKNEG	_	MAINDECL	I-MF	14,08; -fen	_	_
+6	wūderen	_	_	VVINF	_	_	_	_	_	_	VP	wūderen	NF	INF	_	_	O	VVINF	RE	MAINDECL	B-RK	14,08; -fen	_	_
+7	/	_	_	$,	_	_	_	_	_	_	_	/	NF	_	_	_	O	$_	_	MAINDECL	O	14,08; -fen	_	_
+8	der	_	_	ART	_	_	_	_	_	B-Antec-1	NP	der	NF	IO-GEN	_	B-NP-extrap	B-NP	DDA	_	MAINDECL	B-NF	14,08; -fen	UNLINK	_
+9	erſchrocklichē	_	_	ADJA	_	_	_	_	_	I-Antec	NP	erſchrocklichē	NF	IO-GEN	_	I-NP	I-NP	ADJ	_	MAINDECL	I-NF	14,08; -fen	UNLINK	_
+10	Plag	_	_	NN	_	_	_	_	_	I-Antec-Head	NP	Plag	NF	IO-GEN	NEW	I-NP	I-NP	NA	_	MAINDECL	I-NF	14,08; -fen	UNLINK	KOREF1-REL
+11	.	_	_	$.	_	_	_	_	_	_	_	.	_	_	_	_	I-NP	$_	_	MAINDECL	I-NF	14,08; -fen	UNLINK	_
+12	die	_	_	PRELS	_	_	_	_	_	_	CP	die	_	ATTR	_	B-RELC-insitu-1|B-NP-insitu	B-NP	DDSREL	_	MAINDECL	I-NF|B-LK	14,08; -fen	UNLINK	KOREF2-REL
+13	got	_	_	NE	_	_	_	_	_	_	CP	got	_	ATTR	_	I-RELC|B-NP-insitu	B-NP	NE	_	MAINDECL	I-NF|B-MF	14,08; -fen	UNLINK	_
+14	zuͦ	_	_	APPR	_	_	_	_	_	_	CP	zuͦ	_	ATTR	_	I-RELC|B-PP-insitu	B-PP	APPR	_	MAINDECL	I-NF|I-MF	14,08; -fen	UNLINK	_
+15	vnß	_	_	PPER	_	_	_	_	_	_	CP	vnß	_	ATTR	_	I-RELC|I-PP	I-PP	PPER	_	MAINDECL	I-NF|I-MF	14,09	UNLINK	_
+16	ſchicket	_	_	VVFIN	_	_	_	_	_	_	CP	ſchicket	_	ATTR	_	I-RELC	O	VVFIN	_	MAINDECL	I-NF|B-RK	14,09	UNLINK	_
+17	/	_	_	$,	_	_	_	_	_	_	_	/	_	_	_	_	O	$_	_	MAINDECL	O	14,09	_	_

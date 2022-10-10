@@ -1,0 +1,77 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC Antec CAT CHUNK CLEAN EDITION FOKUS GF IS MovElem PHRASE POS SATZKLAMMER SATZSTATUS TOPF UEBERLIEFERUNGSTRAEGER VERLINKUNG
+# sent_id = 1
+# text = Der v'nuͥnftíg wille wolt wil(=)leklich ſterbē vmb vͥnſer heil/
+1	Der	_	_	ART	_	_	_	_	_	_	NP	B-NC	Der	290, 5	_	SUBJ	_	B-NP-insitu	B-NP	DDA	_	MAINDECL	B-VF	68va,23	_
+2	v'nuͥnftíg	_	_	ADJA	_	_	_	_	_	_	NP	I-NC	v'nuͥnftíg	290, 5	_	SUBJ	_	I-NP	I-NP	ADJ	_	MAINDECL	I-VF	68vb,01 wil(=)-,	_
+3	wille	_	_	NN	_	_	_	_	_	_	NP	I-NC	wille	290, 5	_	SUBJ	_	I-NP	I-NP	NA	_	MAINDECL	I-VF	68vb,01 wil(=)-,	_
+4	wolt	_	_	VMFIN	_	_	_	_	_	_	VP	O	wolt	290, 5	_	INF	_	_	O	VMFIN	LI	MAINDECL	B-LK	68vb,01 wil(=)-,	_
+5	wil(=)leklich	_	_	ADV	_	_	_	_	_	_	ADVP	B-ADVC	willeklich	290, 5	_	ADVB	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	B-MF	68vb,02 - leklich	_
+6	ſterbē	_	_	VVPP	_	_	_	_	_	_	VP	O	ſterbē	290, 5	_	INF	_	_	O	VVPP	RE	MAINDECL	B-RK	68vb,02 - leklich	_
+7	vmb	_	_	APPR	_	_	_	_	_	_	PP	B-PC	vmb	290, 5	NF	PP-ADV	_	B-PP-extrap	B-PP	APPR	_	MAINDECL	B-NF	68vb,02 - leklich	UNLINK
+8	vͥnſer	_	_	PPOSAT	_	_	_	_	_	_	PP	I-PC	vͥnſer	290, 5	NF	PP-ADV	ACC-SIT_	I-PP	I-PP	DPOS	_	MAINDECL	I-NF	68vb,02 - leklich	UNLINK
+9	heil/	_	_	NN	_	_	_	_	_	_	PP	I-PC	heil/	290, 5	NF	PP-ADV	_ACC-ABSTR-UNUSED	I-PP	I-PP	NA	_	MAINDECL	I-NF	68vb,03	UNLINK
+
+# sent_id = 2
+# text = vn̄ d' ſelb wille hete vil gerner guͦt gehebt dēne armuͦt. êre dēne ſmacheít.
+1	vn̄	_	_	KON	_	_	_	_	_	_	_	O	vn̄	290,09	_	_	_	_	O	KON	_	MAINDECL	B-KOORD	ch-,68vb,11	_
+2	d'	_	_	ART	_	_	_	_	_	_	NP	B-NC	d'	290,09	_	SUBJ	_	B-NP-insitu	B-NP	DDA	_	MAINDECL	B-VF	ch-,68vb,11	_
+3	ſelb	_	_	ADV	_	_	_	_	_	_	NP	I-NC	ſelb	290,09	_	SUBJ	_	I-NP	I-NP	ADV	_	MAINDECL	I-VF	68vb,12	_
+4	wille	_	_	NN	_	_	_	_	_	_	NP	I-NC	wille	290,10	_	SUBJ	_	I-NP	I-NP	NA	_	MAINDECL	I-VF	68vb,12	_
+5	hete	_	_	VAFIN	_	_	_	_	_	_	VP	O	hete	290,10	_	VFIN	_	_	O	VAFIN	LI	MAINDECL	B-LK	68vb,12	_
+6	vil	_	_	ADV	_	_	_	_	_	B-Antec-1|B-Antec-2	ADVP	B-ADVC	vil	290,10	_	ADVB	_	B-AP-insitu	B-ADVP	ADV	_	MAINDECL	B-MF	68vb,12	_
+7	gerner	_	_	ADJD	_	_	_	_	_	I-Antec-Head|I-Antec-Head	ADVP	I-ADVC	gerner	290,10	_	ADVB	_	I-AP	I-ADVP	ADV	_	MAINDECL	I-MF	68vb,12	_
+8	guͦt	_	_	NN	_	_	_	_	_	_	NP	B-NC	guͦt	290,10	_	DO	_	B-NP-insitu	B-NP	NA	_	MAINDECL	I-MF	68vb,13	_
+9	gehebt	_	_	VVPP	_	_	_	_	_	_	VP	O	gehebt	290,10	_	INF	_	_	O	VVPP	RE	MAINDECL	B-RK	68vb,13	_
+10	dēne	_	_	KOKOM	_	_	_	_	_	_	NP	B-NC	dēne	290,10	_	VGL	_	B-CMPP-extrap-1|B-NP-extrap	B-NP	KOKOM	_	MAINDECL	B-NF	68vb,13	LINK_ASSYM
+11	armuͦt	_	_	NN	_	_	_	_	_	_	NP	I-NC	armuͦt	290,10	CF	VGL	ACC-ABSTR-UNUSED_	I-CMPP|I-NP	I-NP	NA	_	MAINDECL	I-NF	68vb,13	LINK_ASSYM
+12	.	_	_	$.	_	_	_	_	_	_	_	O	.	290,10	_	_	_	_	O	_	_	MAINDECL	I-NF	68vb,13	_
+13	êre	_	_	NN	_	_	_	_	_	_	NP	B-NC	êre	290,10	_	DO	_	B-NP-extrap	B-NP	NA	_	MAINDECL	I-NF	68vb,14	UNLINK
+14	dēne	_	_	KOKOM	_	_	_	_	_	_	NP	B-NC	dēne	290,10	_	VGL	_	B-CMPP-extrap-2|B-NP-extrap	B-NP	KOKOM	_	MAINDECL	I-NF	68vb,14	UNLINK
+15	ſmacheít	_	_	NN	_	_	_	_	_	_	NP	I-NC	ſmacheít	290, 11	CF	VGL	_ACC-ABSTR-UNUSED	I-CMPP|I-NP	I-NP	NA	_	MAINDECL	I-NF	68vb,14	UNLINK
+16	.	_	_	$.	_	_	_	_	_	_	_	O	.	290, 11	_	_	_	_	O	$_	_	MAINDECL	O	68vb,14	UNLINK
+
+# sent_id = 3
+# text = vn̄ hette víl gerner gehebt líep dēn leít. gemach lieb' dēn vnge(=)mach.
+1	vn̄	_	_	KON	_	_	_	_	_	_	_	O	vn̄	290, 11	_	_	_	_	O	KON	_	MAINDECL-ELLI	B-KOORD	68vb,14	_
+2	hette	_	_	VAFIN	_	_	_	_	_	_	VP	O	hette	290, 11	_	VFIN	_	_	O	VAFIN	LI	MAINDECL-ELLI	B-LK	68vb,14	_
+3	víl	_	_	ADV	_	_	_	_	_	B-Antec-1	ADVP	B-ADVC	víl	290, 11	_	ADVB	_	B-AP-insitu	B-ADVP	ADV	_	MAINDECL-ELLI	B-MF	68vb,15	_
+4	gerner	_	_	ADJD	_	_	_	_	_	I-Antec-Head	ADVP	I-ADVC	gerner	290, 11	_	ADVB	_	I-AP	I-ADVP	ADV	_	MAINDECL-ELLI	I-MF	68vb,15	_
+5	gehebt	_	_	VVPP	_	_	_	_	_	_	VP	O	gehebt	290, 11	_	INF	_	_	O	VVPP	RE	MAINDECL-ELLI	B-RK	68vb,15	_
+6	líep	_	_	NN	_	_	_	_	_	_	NP	B-NC	líep	290, 11	CF_	DO	ACC-ABSTR-UNUSED_	B-NP-extrap	B-NP	NA	_	MAINDECL-ELLI	B-NF	68vb,15	UNLINK
+7	dēn	_	_	KOKOM	_	_	_	_	_	_	NP	B-NC	dēn	290, 11	_	VGL	_	B-CMPP-extrap-1|B-NP-extrap	B-NP	KOKOM	_	MAINDECL-ELLI	I-NF	68vb,15	UNLINK
+8	leít	_	_	NN	_	_	_	_	_	_	NP	I-NC	leít	290, 11	CF_	VGL	_ACC-ABSTR-UNUSED_	I-CMPP|I-NP	I-NP	NA	_	MAINDECL-ELLI	I-NF	68vb,16 vnge(=)-,	UNLINK
+9	.	_	_	$.	_	_	_	_	_	_	_	O	.	290, 11	_	_	_	_	O	_	_	MAINDECL-ELLI	I-NF	68vb,16 vnge(=)-,	UNLINK
+10	gemach	_	_	NN	_	_	_	_	_	_	NP	B-NC	gemach	290, 11	CF_	DO	_ACC-ABSTR-UNUSED_	B-NP-extrap	B-NP	NA	_	MAINDECL-ELLI	I-NF	68vb,16 vnge(=)-,	UNLINK
+11	lieb'	_	_	ADJD	_	_	_	_	_	B-Antec-2-Head	ADVP	B-AC	lieb'	290, 11	_	ADVB	_NA_	B-AP-extrap	B-AP	ADV	_	MAINDECL-ELLI	I-NF	68vb,16 vnge(=)-,	UNLINK
+12	dēn	_	_	KOKOM	_	_	_	_	_	_	NP	B-NC	dēn	290, 12	_	VGL	_	I-AP|B-CMPP-insitu-2	I-AP	KOKOM	_	MAINDECL-ELLI	I-NF	68vb,16 vnge(=)-,	UNLINK
+13	vnge(=)mach	_	_	NN	_	_	_	_	_	_	NP	I-NC	vngemach	290, 12	CF_	VGL	_ACC-ABSTR-UNUSED	I-AP|I-CMPP	I-AP	NA	_	MAINDECL-ELLI	I-NF	68vb,16 vnge(=)-,	UNLINK
+14	.	_	_	$.	_	_	_	_	_	_	_	O	.	290, 12	_	_	_	_	O	$_	_	MAINDECL-ELLI	O	68vb,17	UNLINK
+
+# sent_id = 4
+# text = Ia er was alſo v'eínet mit dem vatt'
+1	Ia	_	_	ITJ	_	_	_	_	_	_	_	O	Ia	291,24	_	_	_	_	O	ITJ	_	MAINDECL	B-LV	70rb,11	_
+2	er	_	_	PPER	_	_	_	_	_	_	NP	B-NC	er	291,24	_	SUBJ	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-VF	70rb,11	_
+3	was	_	_	VAFIN	_	_	_	_	_	_	VP	O	was	291,24	_	VFIN	_	_	O	VAFIN	LI	MAINDECL	B-LK	70rb,11	_
+4	alſo	_	_	ADV	_	_	_	_	_	_	ADVP	B-ADVC	alſo	291,24	_	ADVB	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	B-MF	70rb,11	_
+5	v'eínet	_	_	VVPP	_	_	_	_	_	_	VP	O	v'eínet	291,24	_	INF	_	_	O	VVPP	RE	MAINDECL	B-RK	70rb,11	_
+6	mit	_	_	APPR	_	_	_	_	_	_	PP	B-PC	mit	291,24	BGR	PP-OBJ	_	B-PP-extrap	B-PP	APPR	_	MAINDECL	B-NF	70rb,11	UNLINK
+7	dem	_	_	ART	_	_	_	_	_	_	PP	I-PC	dem	291,24	BGR	PP-OBJ	_	I-PP	I-PP	DDA	_	MAINDECL	I-NF	70rb,12	UNLINK
+8	vatt'	_	_	NN	_	_	_	_	_	_	PP	I-PC	vatt'	291,24	BGR	PP-OBJ	ACC-UNI-USED-1	I-PP	I-PP	NA	_	MAINDECL	I-NF	70rb,12	UNLINK
+
+# sent_id = 5
+# text = *(N*)u ſuͥlē wir lernē vf klī́mē an daz kruͥze mins liebē h'ren (Jes)u (Christ)i.
+1	*(N*)u	_	_	ADV	_	_	_	_	_	_	ADVP	B-ADVC	(N)u	293,14	_	ADVB	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	B-VF	72ra,22	_
+2	ſuͥlē	_	_	VMFIN	_	_	_	_	_	_	VP	O	ſuͥlē	293,14	_	INF	_	_	O	VMFIN	LI	MAINDECL	B-LK	72ra,23	_
+3	wir	_	_	PPER	_	_	_	_	_	_	NP	B-NC	wir	293,14	_	SUBJ	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-MF	72ra,23	_
+4	lernē	_	_	VVFIN	_	_	_	_	_	_	VP	O	lernē	293,14	_	INF	_	_	O	VVINF	RE	MAINDECL	B-RK	72ra,23	_
+5	vf	_	_	PTKVZ	_	_	_	_	_	_	VP	O	vf	293,14	_	VZ_PTK	_	_	O	APPR	_	MAINDECL	B-NF|B-RK	72ra,23	UNLINK
+6	klī́mē	_	_	VVINF	_	_	_	_	_	_	VP	O	klī́mē	293,14	_	INF	_	_	O	VVINF	_	MAINDECL	I-NF|I-RK	72ra,23	UNLINK
+7	an	_	_	APPR	_	_	_	_	_	_	PP	B-PC	an	293,14	NF	PP-DIR	_	B-PP-extrap	B-PP	APPR	_	MAINDECL	I-NF|B-NF	72ra,24	UNLINK
+8	daz	_	_	ART	_	_	_	_	_	_	PP	I-PC	daz	293,14	NF	PP-DIR	NEW_	I-PP	I-PP	DDA	_	MAINDECL	I-NF|I-NF	72ra,24	UNLINK
+9	kruͥze	_	_	NN	_	_	_	_	_	_	PP	I-PC	kruͥze	293,14	NF	PP-DIR	NEW_	I-PP	I-PP	NA	_	MAINDECL	I-NF|I-NF	72ra,24	UNLINK
+10	mins	_	_	PPOSAT	_	_	_	_	_	_	PP	B-NC	mins	293,14	NF	ATTR	_ACC-SIT_	I-PP	I-PP	DPOS	_	MAINDECL	I-NF|I-NF	72ra,24	UNLINK
+11	liebē	_	_	NN	_	_	_	_	_	_	PP	I-NC	liebē	293,14	NF	ATTR	_ACC-UNI-USED-1	I-PP	I-PP	NA	_	MAINDECL	I-NF|I-NF	72ra,24	UNLINK
+12	h'ren	_	_	NN	_	_	_	_	_	_	PP	I-NC	h'ren	293,15	NF	ATTR	_ACC-UNI-USED-1	I-PP	I-PP	NA	_	MAINDECL	I-NF|I-NF	72ra,25	UNLINK
+13	(Jes)u	_	_	NE	_	_	_	_	_	_	PP	B-NC	(Jes)u	293,15	NF	APPOS	_ACC-UNI-USED-1	I-PP	I-PP	NE	_	MAINDECL	I-NF|I-NF	72ra,25	UNLINK
+14	(Christ)i	_	_	NE	_	_	_	_	_	_	PP	I-NC	(Christ)i	293,15	NF	APPOS	_ACC-UNI-USED-1	I-PP	I-PP	NE	_	MAINDECL	I-NF|I-NF	72ra,25	UNLINK
+15	.	_	_	$.	_	_	_	_	_	_	_	O	.	293,15	_	_	_	_	O	$_	_	MAINDECL	O	72ra,25	_

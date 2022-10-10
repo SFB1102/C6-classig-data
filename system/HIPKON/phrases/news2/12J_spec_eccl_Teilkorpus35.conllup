@@ -1,0 +1,33 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS PHRASE POS SATZKLAMMER SATZSTATUS UEBERLIEFERUNGSTRAEGER VERLINKUNG
+# sent_id = 1
+# PTBstring = (VROOT(S(VP(VMFIN muͦſe))(NP(PPOSAT ſine)(NN lîpnare))(VP(VVINF werbin))(CPP(PP(APPR mit)(PPOSAT ſinen)(NN handin)(PUNKT .))(KON un̄)(PP(APPR mit)(ADJA andirme)(NN liſte)(PUNKT .)))))
+# text = muͦſe ſine lîpnare werbin mit ſinen handin. un̄ mit andirme liſte.
+1	muͦſe	_	_	VMFIN	_	_	_	_	_	VP	muͦſe	85,23; -schaft	_	VFIN	_	O	VMFIN	LI	MAINDECL-ELLI	79v,15	_
+2	ſine	_	_	PPOSAT	_	_	_	_	_	NP	ſine	85,24; Sanc-	_	DO	_	B-NP	DPOS	_	MAINDECL-ELLI	79v,15	_
+3	lîpnare	_	_	NN	_	_	_	_	_	NP	lîpnare	85,24; Sanc-	_	DO	_	I-NP	NA	_	MAINDECL-ELLI	79v,15	_
+4	werbin	_	_	VVINF	_	_	_	_	_	VP	werbin	85,24; Sanc-	_	INF	_	O	VVINF	RE	MAINDECL-ELLI	79v,15	_
+5	mit	_	_	APPR	_	_	_	_	_	PP	mit	85,24; Sanc-	NF_	PP-ADV	_	B-PP	APPR	_	MAINDECL-ELLI	79v,16	UNLINK
+6	ſinen	_	_	PPOSAT	_	_	_	_	_	PP	ſinen	85,24; Sanc-	NF_	PP-ADV	ACC-INF_	I-PP	DPOS	_	MAINDECL-ELLI	79v,16	UNLINK
+7	handin	_	_	NN	_	_	_	_	_	PP	handin	85,24; Sanc-	NF_	PP-ADV	_ACC-INF_	I-PP	NA	_	MAINDECL-ELLI	79v,16	UNLINK
+8	.	_	_	$.	_	_	_	_	_	_	.	85,24; Sanc-	_	_	_	I-PP	$_	_	MAINDECL-ELLI	79v,16	UNLINK
+9	un̄	_	_	KON	_	_	_	_	_	_	un̄	85,24; Sanc-	NF_	_	_	I-PP	KON	_	MAINDECL-ELLI	79v,16	UNLINK
+10	mit	_	_	APPR	_	_	_	_	_	PP	mit	85,24; Sanc-	NF_	PP-ADV	_	I-PP	APPR	_	MAINDECL-ELLI	79v,16	UNLINK
+11	andirme	_	_	ADJA	_	_	_	_	_	PP	andirme	85,24; Sanc-	NF_	PP-ADV	_ACC-ABSTR-UNUSED	I-PP	ADJ	_	MAINDECL-ELLI	79v,16	UNLINK
+12	liſte	_	_	NN	_	_	_	_	_	PP	liſte	85,24; Sanc-	NF_	PP-ADV	_ACC-ABSTR-UNUSED	I-PP	NA	_	MAINDECL-ELLI	79v,16	UNLINK
+13	.	_	_	$.	_	_	_	_	_	_	.	85,24; Sanc-	_	_	_	I-PP	$_	_	MAINDECL-ELLI	79v,16	_
+
+# sent_id = 2
+# PTBstring = (VROOT(S(NP(NE Pauluſ))(VP(VAFIN wart))(VP(ADV vleiſclichen)(VVPP geuvͦrit)(PP(APPR in)(PDAT diſim)(NN lebin)(PP(APPR in)(ART daz)(ADJA obriſte)(NN himelrich)(PUNKT .))))))
+# text = Pauluſ wart vleiſclichen geuvͦrit in diſim lebin in daz obriſte himelrich.
+1	Pauluſ	_	_	NE	_	_	_	_	_	NP	Pauluſ	86,01; himel-	_	SUBJ	_	B-NP	NE	_	MAINDECL	80r,10	_
+2	wart	_	_	VAFIN	_	_	_	_	_	VP	wart	86,01; himel-	_	VFIN	_	O	VAFIN	LI	MAINDECL	80r,10	_
+3	vleiſclichen	_	_	ADV	_	_	_	_	_	ADVP	vleiſclichen	86,01; himel-	_	ADVB	_	B-ADVP	ADV	_	MAINDECL	80r,10	_
+4	geuvͦrit	_	_	VVPP	_	_	_	_	_	VP	geuvͦrit	86,01; himel-	_	INF	_	O	VVPP	RE	MAINDECL	80r,10	_
+5	in	_	_	APPR	_	_	_	_	_	PP	in	86,01; himel-	NF_	PP-ADV	_	B-PP	APPR	_	MAINDECL	80r,10	UNLINK1
+6	diſim	_	_	PDAT	_	_	_	_	_	PP	diſim	86,01; himel-	NF_	PP-ADV	ACC-ABSTR-UNUSED	I-PP	DD	_	MAINDECL	80r,10	UNLINK1
+7	lebin	_	_	NN	_	_	_	_	_	PP	lebin	86,01; himel-	NF_	PP-ADV	ACC-ABSTR-UNUSED	I-PP	NA	_	MAINDECL	80r,10	UNLINK1
+8	in	_	_	APPR	_	_	_	_	_	PP	in	86,01; himel-	NF_	PP-DIR	_	I-PP	APPR	_	MAINDECL	80r,11	UNLINK2
+9	daz	_	_	ART	_	_	_	_	_	PP	daz	86,01; himel-	NF_	PP-DIR	ACC-UNI-UNUSED	I-PP	DDA	_	MAINDECL	80r,11	UNLINK2
+10	obriſte	_	_	ADJA	_	_	_	_	_	PP	obriſte	86,01; himel-	NF_	PP-DIR	ACC-UNI-UNUSED	I-PP	ADJ	_	MAINDECL	80r,11	UNLINK2
+11	himelrich	_	_	NN	_	_	_	_	_	PP	himelrich	86,01; himel-	NF_	PP-DIR	ACC-UNI-UNUSED	I-PP	NA	_	MAINDECL	80r,11	UNLINK2
+12	.	_	_	$.	_	_	_	_	_	_	.	86,02; -rich	_	_	_	I-PP	$_	_	MAINDECL	80r,11	_

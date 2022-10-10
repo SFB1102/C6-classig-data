@@ -1,0 +1,26 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN FOKUS GF IS PHRASE POS SATZKLAMMER SATZSTATUS UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# PTBstring = (VROOT(S(NP(ART ain)(ADJA ande-rer))(VP(VAFIN hat))(VP(VVPP gewallet)(PP(APPRART zuͦn)(NN hailigē)(KOMMA /)))))
+# text = ain ande-rer hat gewallet zuͦn hailigē /
+1	ain	_	_	ART	_	_	_	_	_	NP	ain	_	SUBJ	_	B-NP	DIA	_	MAINDECL	07,05; ande-	_	_
+2	ande-rer	_	_	ADJA	_	_	_	_	_	NP	anderer	_	SUBJ	_	I-NP	ADJS	_	MAINDECL	07,05; ande-	_	_
+3	hat	_	_	VAFIN	_	_	_	_	_	VP	hat	_	VFIN	_	O	VAFIN	LI	MAINDECL	07,06; -rer	_	_
+4	gewallet	_	_	VVPP	_	_	_	_	_	VP	gewallet	_	INF	_	O	VVPP	RE	MAINDECL	07,06; -rer	_	_
+5	zuͦn	_	_	APPRART	_	_	_	_	_	PP	zuͦn	NF	PP-ADV	_	B-PP	APPRART	_	MAINDECL	07,06; -rer	UNLINK	_
+6	hailigē	_	_	NN	_	_	_	_	_	PP	hailigē	NF	PP-ADV	NEW	I-PP	NA	_	MAINDECL	07,06; -rer	UNLINK	KOREF1
+7	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	I-PP	$_	_	MAINDECL	07,06; -rer	_	_
+
+# sent_id = 2
+# PTBstring = (VROOT(S(PP(APPR in)(PPER jnen))(VP(VAFIN iſt))(VP(ADV ſchon)(VVPP abgeſtorben))(NP(PIS alles)(KOMMA /)(S(NP(PRELS was))(NP(PPER ſie))(VP(VVFIN geluſtet))(KOMMA /)))))
+# text = in jnen iſt ſchon abgeſtorben alles / was ſie geluſtet /
+1	in	_	_	APPR	_	_	_	_	_	PP	in	_	PP-ADV	_	B-PP	APPR	_	MAINDECL	09,07; -$enhait	_	_
+2	jnen	_	_	PPER	_	_	_	_	_	PP	jnen	_	PP-ADV	_	I-PP	PPER	_	MAINDECL	09,07; -$enhait	_	_
+3	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	_	VFIN	_	O	VAFIN	LI	MAINDECL	09,07; -$enhait	_	_
+4	ſchon	_	_	ADV	_	_	_	_	_	ADVP	ſchon	_	ADVB	_	B-ADVP	ADV	_	MAINDECL	09,07; -$enhait	_	_
+5	abgeſtorben	_	_	VVPP	_	_	_	_	_	VP	abgeſtorben	NF	INF	_	O	VVPP	RE	MAINDECL	09,07; -$enhait	_	_
+6	alles	_	_	PIS	_	_	_	_	_	NP	alles	NF	SUBJ	NA	B-NP	DIS	_	MAINDECL	09,07; -$enhait	UNLINK	KOREF1-REL
+7	/	_	_	$,	_	_	_	_	_	_	/	NF	_	_	I-NP	$_	_	MAINDECL	09,07; -$enhait	UNLINK	_
+8	was	_	_	PRELS	_	_	_	_	_	CP	was	NF	ATTR	_	I-NP	PWREL	_	MAINDECL	09,07; -$enhait	UNLINK	KOREF2-REL
+9	ſie	_	_	PPER	_	_	_	_	_	CP	ſie	NF	ATTR	_	I-NP	PPER	_	MAINDECL	09,07; -$enhait	UNLINK	_
+10	geluſtet	_	_	VVFIN	_	_	_	_	_	CP	geluſtet	NF	ATTR	_	I-NP	VVFIN	_	MAINDECL	09,08	UNLINK	_
+11	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	I-NP	$_	_	MAINDECL	09,08	_	_

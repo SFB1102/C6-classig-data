@@ -1,0 +1,1046 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CharOffset DTA:ID DTA:NORM POS SentBrckt
+# sent_id = 1
+# sent_id(TSV) = 1
+# TopFString = (S(NN Untersuchungen)(APPR über)(ART die)(NN Aetiologie)(ART der)(NN Wundinfectionskrankheiten)(APPR von)(NN Dr.)(NE Robert)(NE Koch)(KOMMA ,)(NN Kreisphysikus)(APPR in)(NE Wollstein)(PUNKT .))
+# text = Untersuchungen über die Aetiologie der Wundinfectionskrankheiten von Dr. Robert Koch , Kreisphysikus in Wollstein .
+1	Untersuchungen	Untersuchung	_	NN	_	_	_	_	_	0-14	w1	Untersuchungen	*	O
+2	über	über	_	APPR	_	_	_	_	_	15-19	w2	über	*	O
+3	die	d	_	ART	_	_	_	_	_	20-23	w3	die	*	O
+4	Aetiologie	Ätiologie	_	NN	_	_	_	_	_	24-34	w4	Ätiologie	*	O
+5	der	d	_	ART	_	_	_	_	_	35-38	w5	der	*	O
+6	Wundinfectionskrankheiten	Wundeinfektionskrankheit	_	NN	_	_	_	_	_	39-64	w6	Wundinfektionskrankheiten	*	O
+7	von	von	_	APPR	_	_	_	_	_	65-68	w7	von	*	O
+8	Dr.	Dr.	_	NN	_	_	_	_	_	69-72	w8	Dr.	*	O
+9	Robert	Robert	_	NE	_	_	_	_	_	73-79	w9	Robert	*	O
+10	Koch	Koch	_	NE	_	_	_	_	_	80-84	wa	Koch	*	O
+11	,	,	_	$,	_	_	_	_	_	85-86	wb	,	*	O
+12	Kreisphysikus	Kreisphysikus	_	NN	_	_	_	_	_	87-100	wc	Kreisphysikus	*	O
+13	in	in	_	APPR	_	_	_	_	_	101-103	wd	in	*	O
+14	Wollstein	Wollstein	_	NE	_	_	_	_	_	104-113	we	Wollstein	*	O
+15	.	.	_	$.	_	_	_	_	_	114-115	wf	.	*	O
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# TopFString = (S(VF(APPR Mit)(CARD 5)(NN Tafeln))(MF(NN Abbildungen))(PUNKT .))
+# text = Mit 5 Tafeln Abbildungen .
+1	Mit	mit	_	APPR	_	_	_	_	_	117-120	w10	Mit	*	O
+2	5	5	_	CARD	_	_	_	_	_	121-122	w11	5	*	O
+3	Tafeln	Tafel	_	NN	_	_	_	_	_	123-129	w12	Tafeln	*	O
+4	Abbildungen	Abbildung	_	NN	_	_	_	_	_	130-141	w13	Abbildungen	*	O
+5	.	.	_	$.	_	_	_	_	_	142-143	w14	.	*	O
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# TopFString = (S(NE Leipzig)(KOMMA ,)(NN Verlag)(APPR von)(NE F.)(NE C.)(NE W.)(NE Vogel)(PUNKT .)(CARD 1878)(PUNKT .))
+# text = Leipzig , Verlag von F. C. W. Vogel . 1878 .
+1	Leipzig	Leipzig	_	NE	_	_	_	_	_	145-152	w15	Leipzig	*	O
+2	,	,	_	$,	_	_	_	_	_	153-154	w16	,	*	O
+3	Verlag	Verlag	_	NN	_	_	_	_	_	155-161	w17	Verlag	*	O
+4	von	von	_	APPR	_	_	_	_	_	162-165	w18	von	*	O
+5	F.	F.	_	NE	_	_	_	_	_	166-168	w19	F.	*	O
+6	C.	C.	_	NE	_	_	_	_	_	169-171	w1a	C.	*	O
+7	W.	W.	_	NE	_	_	_	_	_	172-174	w1b	W.	*	O
+8	Vogel	Vogel	_	NE	_	_	_	_	_	175-180	w1c	Vogel	*	O
+9	.	.	_	$.	_	_	_	_	_	181-182	w1d	.	*	O
+10	1878	1878	_	CARD	_	_	_	_	_	183-187	w1e	1878	*	O
+11	.	.	_	$.	_	_	_	_	_	188-189	w1f	.	*	O
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# TopFString = (S(NN Erklärung)(ART der)(NN Abbildungen)(CARD 1))
+# text = Erklärung der Abbildungen 1
+1	Erklärung	Erklärung	_	NN	_	_	_	_	_	191-200	w6345	Erklärung	*	O
+2	der	d	_	ART	_	_	_	_	_	201-204	w6346	der	*	O
+3	Abbildungen	Abbildung	_	NN	_	_	_	_	_	205-216	w6347	Abbildungen	*	O
+4	1	1	_	CARD	_	_	_	_	_	217-218	w6348	1	*	O
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# TopFString = (S(VF(NN Vorrede))(MF(CARD 3)))
+# text = Vorrede 3
+1	Vorrede	Vorrede	_	NN	_	_	_	_	_	220-227	w6349	Vorrede	*	O
+2	3	3	_	CARD	_	_	_	_	_	228-229	w634a	3	*	O
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# TopFString = (S(VF(NN Einleitung))(MF(CARD 5)))
+# text = Einleitung 5
+1	Einleitung	Einleitung	_	NN	_	_	_	_	_	231-241	w634b	Einleitung	*	O
+2	5	5	_	CARD	_	_	_	_	_	242-243	w634c	5	*	O
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# TopFString = (S(VF(ADJA Jetziger)(NN Stand))(MF(ART der)(NN Kenntnisse)(APPR über)(ART die)(NN Beziehungen)(ART der)(NN Mikro¬<lb/>organismen)(APPR zu)(ART den)(NN Wundinfectionskrankheiten))(CARD 8))
+# text = Jetziger Stand der Kenntnisse über die Beziehungen der Mikro¬<lb/>organismen zu den Wundinfectionskrankheiten 8
+1	Jetziger	jetzig	_	ADJA	_	_	_	_	_	245-253	w634d	Jetziger	*	O
+2	Stand	Stand	_	NN	_	_	_	_	_	254-259	w634e	Stand	*	O
+3	der	d	_	ART	_	_	_	_	_	260-263	w634f	der	*	O
+4	Kenntnisse	Kenntnis	_	NN	_	_	_	_	_	264-274	w6350	Kenntnisse	*	O
+5	über	über	_	APPR	_	_	_	_	_	275-279	w6351	über	*	O
+6	die	d	_	ART	_	_	_	_	_	280-283	w6352	die	*	O
+7	Beziehungen	Beziehung	_	NN	_	_	_	_	_	284-295	w6353	Beziehungen	*	O
+8	der	d	_	ART	_	_	_	_	_	296-299	w6354	der	*	O
+9	Mikro¬<lb/>organismen	Mikroorganismus	_	NN	_	_	_	_	_	300-321	w6355	Mikroorganismen	*	O
+10	zu	zu	_	APPR	_	_	_	_	_	322-324	w6356	zu	*	O
+11	den	d	_	ART	_	_	_	_	_	325-328	w6357	den	*	O
+12	Wundinfectionskrankheiten	Wundeinfektionskrankheit	_	NN	_	_	_	_	_	329-354	w6358	Wundinfektionskrankheiten	*	O
+13	8	8	_	CARD	_	_	_	_	_	355-356	w6359	8	*	O
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# TopFString = (S(CARD 1.)(ART Das)(NN Vorkommen)(ART der)(NN Mikroorganismen)(APPRART im)(ADJA erkrankten)(ADJA mensch¬<lb/>lichen)(NN Körper)(CARD 8))
+# text = 1. Das Vorkommen der Mikroorganismen im erkrankten mensch¬<lb/>lichen Körper 8
+1	1.	1.	_	CARD	_	_	_	_	_	358-360	w635a	1.	*	O
+2	Das	d	_	ART	_	_	_	_	_	361-364	w635b	Das	*	O
+3	Vorkommen	Vorkommen	_	NN	_	_	_	_	_	365-374	w635c	Vorkommen	*	O
+4	der	d	_	ART	_	_	_	_	_	375-378	w635d	der	*	O
+5	Mikroorganismen	Mikroorganismus	_	NN	_	_	_	_	_	379-394	w635e	Mikroorganismen	*	O
+6	im	im	_	APPRART	_	_	_	_	_	395-397	w635f	im	*	O
+7	erkrankten	erkranken	_	ADJA	_	_	_	_	_	398-408	w6360	erkrankten	*	O
+8	mensch¬<lb/>lichen	menschlich	_	ADJA	_	_	_	_	_	409-427	w6361	menschlichen	*	O
+9	Körper	Körper	_	NN	_	_	_	_	_	428-434	w6362	Körper	*	O
+10	8	8	_	CARD	_	_	_	_	_	435-436	w6363	8	*	O
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# TopFString = (S(VF(CARD 2.)(ADJD Experimentell)(ADJA nachgewiesene)(NN Beziehungen))(MF(ART der)(NN Mikroorganismen)(APPR zu)(ART den)(NN Wundinfectionskrankheiten))(CARD 14))
+# text = 2. Experimentell nachgewiesene Beziehungen der Mikroorganismen zu den Wundinfectionskrankheiten 14
+1	2.	2.	_	CARD	_	_	_	_	_	438-440	w6364	2.	*	O
+2	Experimentell	experimentell	_	ADJD	_	_	_	_	_	441-454	w6365	Experimentell	*	O
+3	nachgewiesene	nachgeweisen	_	ADJA	_	_	_	_	_	455-468	w6366	nachgewiesene	*	O
+4	Beziehungen	Beziehung	_	NN	_	_	_	_	_	469-480	w6367	Beziehungen	*	O
+5	der	d	_	ART	_	_	_	_	_	481-484	w6368	der	*	O
+6	Mikroorganismen	Mikroorganismus	_	NN	_	_	_	_	_	485-500	w6369	Mikroorganismen	*	O
+7	zu	zu	_	APPR	_	_	_	_	_	501-503	w636a	zu	*	O
+8	den	d	_	ART	_	_	_	_	_	504-507	w636b	den	*	O
+9	Wundinfectionskrankheiten	Wundeinfektionskrankheit	_	NN	_	_	_	_	_	508-533	w636c	Wundinfektionskrankheiten	*	O
+10	14	14	_	CARD	_	_	_	_	_	534-536	w636d	14	*	O
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# TopFString = (S(CARD 3.)(NN Einwendungen)(APPR gegen)(ART die)(NN Beweiskraft)(PDAT dieser)(NN Thatsachen)(CARD 19))
+# text = 3. Einwendungen gegen die Beweiskraft dieser Thatsachen 19
+1	3.	3.	_	CARD	_	_	_	_	_	538-540	w636e	3.	*	O
+2	Einwendungen	Einwendung	_	NN	_	_	_	_	_	541-553	w636f	Einwendungen	*	O
+3	gegen	gegen	_	APPR	_	_	_	_	_	554-559	w6370	gegen	*	O
+4	die	d	_	ART	_	_	_	_	_	560-563	w6371	die	*	O
+5	Beweiskraft	Beweiskraft	_	NN	_	_	_	_	_	564-575	w6372	Beweiskraft	*	O
+6	dieser	diese	_	PDAT	_	_	_	_	_	576-582	w6373	dieser	*	O
+7	Thatsachen	Tatsache	_	NN	_	_	_	_	_	583-593	w6374	Tatsachen	*	O
+8	19	19	_	CARD	_	_	_	_	_	594-596	w6375	19	*	O
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# TopFString = (S(NN Beschreibung)(ART der)(NN Untersuchungsmethode)(CARD 29))
+# text = Beschreibung der Untersuchungsmethode 29
+1	Beschreibung	Beschreibung	_	NN	_	_	_	_	_	598-610	w6376	Beschreibung	*	O
+2	der	d	_	ART	_	_	_	_	_	611-614	w6377	der	*	O
+3	Untersuchungsmethode	Untersuchungsmethode	_	NN	_	_	_	_	_	615-635	w6378	Untersuchungsmethode	*	O
+4	29	29	_	CARD	_	_	_	_	_	636-638	w6379	29	*	O
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# TopFString = (S(ADJA Künstliche)(NN Wundinfectionskrankheiten)(CARD 40))
+# text = Künstliche Wundinfectionskrankheiten 40
+1	Künstliche	künstlich	_	ADJA	_	_	_	_	_	640-650	w637a	Künstliche	*	O
+2	Wundinfectionskrankheiten	Wundeinfektionskrankheit	_	NN	_	_	_	_	_	651-676	w637b	Wundinfektionskrankheiten	*	O
+3	40	40	_	CARD	_	_	_	_	_	677-679	w637c	40	*	O
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# TopFString = (S(CARD 1.)(NN Septicämie)(APPR bei)(NN Mäusen)(CARD 40))
+# text = 1. Septicämie bei Mäusen 40
+1	1.	1.	_	CARD	_	_	_	_	_	681-683	w637d	1.	*	O
+2	Septicämie	Septicämie	_	NN	_	_	_	_	_	684-694	w637e	Septicämie	*	O
+3	bei	bei	_	APPR	_	_	_	_	_	695-698	w637f	bei	*	O
+4	Mäusen	Maus	_	NN	_	_	_	_	_	699-705	w6380	Mäusen	*	O
+5	40	40	_	CARD	_	_	_	_	_	706-708	w6381	40	*	O
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# TopFString = (S(CARD 2.)(NN Progressive)(NN Gewebsnekrose)(KLAMMER LBR)(NN Gangrän)(KLAMMER RBR)(APPR bei)(NN Mäusen)(CARD 47))
+# text = 2. Progressive Gewebsnekrose ( Gangrän ) bei Mäusen 47
+1	2.	2.	_	CARD	_	_	_	_	_	710-712	w6382	2.	*	O
+2	Progressive	Progressive	_	NN	_	_	_	_	_	713-724	w6383	Progressive	*	O
+3	Gewebsnekrose	Gewebesnekrose	_	NN	_	_	_	_	_	725-738	w6384	Gewebsnekrose	*	O
+4	(	(	_	$(	_	_	_	_	_	739-740	w6385	(	*	O
+5	Gangrän	Gangrän	_	NN	_	_	_	_	_	741-748	w6386	Gangrän	*	O
+6	)	)	_	$(	_	_	_	_	_	749-750	w6387	)	*	O
+7	bei	bei	_	APPR	_	_	_	_	_	751-754	w6388	bei	*	O
+8	Mäusen	Maus	_	NN	_	_	_	_	_	755-761	w6389	Mäusen	*	O
+9	47	47	_	CARD	_	_	_	_	_	762-764	w638a	47	*	O
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# TopFString = (S(CARD 3.)(NN Progressive)(NN Abscessbildung)(APPR bei)(NN Kaninchen)(CARD 50))
+# text = 3. Progressive Abscessbildung bei Kaninchen 50
+1	3.	3.	_	CARD	_	_	_	_	_	766-768	w638b	3.	*	O
+2	Progressive	Progressive	_	NN	_	_	_	_	_	769-780	w638c	Progressive	*	O
+3	Abscessbildung	Abszeßbildung	_	NN	_	_	_	_	_	781-795	w638d	Abszessbildung	*	O
+4	bei	bei	_	APPR	_	_	_	_	_	796-799	w638e	bei	*	O
+5	Kaninchen	Kaninchen	_	NN	_	_	_	_	_	800-809	w638f	Kaninchen	*	O
+6	50	50	_	CARD	_	_	_	_	_	810-812	w6390	50	*	O
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# TopFString = (S(CARD 4.)(NN Pyämie)(APPR bei)(NN Kaninchen)(CARD 54))
+# text = 4. Pyämie bei Kaninchen 54
+1	4.	4.	_	CARD	_	_	_	_	_	814-816	w6391	4.	*	O
+2	Pyämie	Pyämie	_	NN	_	_	_	_	_	817-823	w6392	Pyämie	*	O
+3	bei	bei	_	APPR	_	_	_	_	_	824-827	w6393	bei	*	O
+4	Kaninchen	Kaninchen	_	NN	_	_	_	_	_	828-837	w6394	Kaninchen	*	O
+5	54	54	_	CARD	_	_	_	_	_	838-840	w6395	54	*	O
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# TopFString = (S(CARD 5.)(NN Septicämie)(APPR bei)(NN Kaninchen)(CARD 59))
+# text = 5. Septicämie bei Kaninchen 59
+1	5.	5.	_	CARD	_	_	_	_	_	842-844	w6396	5.	*	O
+2	Septicämie	Septicämie	_	NN	_	_	_	_	_	845-855	w6397	Septicämie	*	O
+3	bei	bei	_	APPR	_	_	_	_	_	856-859	w6398	bei	*	O
+4	Kaninchen	Kaninchen	_	NN	_	_	_	_	_	860-869	w6399	Kaninchen	*	O
+5	59	59	_	CARD	_	_	_	_	_	870-872	w639a	59	*	O
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# TopFString = (S(CARD 6.)(ADJA Erysipelatöser)(NN Process)(APPRART beim)(NN Kaninchen)(CARD 62))
+# text = 6. Erysipelatöser Process beim Kaninchen 62
+1	6.	6.	_	CARD	_	_	_	_	_	874-876	w639b	6.	*	O
+2	Erysipelatöser	Erysipelatöser	_	ADJA	_	_	_	_	_	877-891	w639c	Erysipelatöser	*	O
+3	Process	Prozeß	_	NN	_	_	_	_	_	892-899	w639d	Prozess	*	O
+4	beim	beim	_	APPRART	_	_	_	_	_	900-904	w639e	beim	*	O
+5	Kaninchen	Kaninchen	_	NN	_	_	_	_	_	905-914	w639f	Kaninchen	*	O
+6	62	62	_	CARD	_	_	_	_	_	915-917	w63a0	62	*	O
+
+# sent_id = 19
+# sent_id(TSV) = 19
+# TopFString = (S(VF(ART Die)(ADJA vorliegende)(NN Arbeit))(LK(VVFIN gehört))(MF(ART einer)(NN Reihe)(APPR von)(NN Untersuchungen))(VC(PTKVZ an))(KOMMA ,)(NF(C(PRELS die))(FKOORD(FKONJ(MF(PPER ich)(APPR über)(ART die)(NN Aetiologie)(ART der)(NN Infectionskrankheiten)(ADV bereits))(VC(VVPP angestellt)(VAFIN habe)))(KON und)(FKONJ(MF(APPR in)(NN Zukunft)(ADV noch)(ADV weiter))(VC(VVIZU auszuführen)(VVFIN gedenke)))))(PUNKT .))
+# text = Die vorliegende Arbeit gehört einer Reihe von Untersuchungen an , die ich über die Aetiologie der Infectionskrankheiten bereits angestellt habe und in Zukunft noch weiter auszuführen gedenke .
+1	Die	d	_	ART	_	_	_	_	_	919-922	w3f	Die	*	O
+2	vorliegende	vorliegend	_	ADJA	_	_	_	_	_	923-934	w40	vorliegende	*	O
+3	Arbeit	Arbeit	_	NN	_	_	_	_	_	935-941	w41	Arbeit	*	O
+4	gehört	gehören	_	VVFIN	_	_	_	_	_	942-948	w42	gehört	*	B-LK
+5	einer	eine	_	ART	_	_	_	_	_	949-954	w43	einer	*	O
+6	Reihe	Reihe	_	NN	_	_	_	_	_	955-960	w44	Reihe	*	O
+7	von	von	_	APPR	_	_	_	_	_	961-964	w45	von	*	O
+8	Untersuchungen	Untersuchung	_	NN	_	_	_	_	_	965-979	w46	Untersuchungen	*	O
+9	an	an	_	PTKVZ	_	_	_	_	_	980-982	w47	an	*	B-RK
+10	,	,	_	$,	_	_	_	_	_	983-984	w48	,	*	O
+11	die	die	_	PRELS	_	_	_	_	_	985-988	w49	die	*	B-LK
+12	ich	ich	_	PPER	_	_	_	_	_	989-992	w4a	ich	*	O
+13	über	über	_	APPR	_	_	_	_	_	993-997	w4b	über	*	O
+14	die	d	_	ART	_	_	_	_	_	998-1001	w4c	die	*	O
+15	Aetiologie	Ätiologie	_	NN	_	_	_	_	_	1002-1012	w4d	Ätiologie	*	O
+16	der	d	_	ART	_	_	_	_	_	1013-1016	w4e	der	*	O
+17	Infectionskrankheiten	Infektionskrankheit	_	NN	_	_	_	_	_	1017-1038	w4f	Infektionskrankheiten	*	O
+18	bereits	bereits	_	ADV	_	_	_	_	_	1039-1046	w50	bereits	*	O
+19	angestellt	anstellen	_	VVPP	_	_	_	_	_	1047-1057	w51	angestellt	*	B-RK
+20	habe	haben	_	VAFIN	_	_	_	_	_	1058-1062	w52	habe	*	I-RK
+21	und	und	_	KON	_	_	_	_	_	1063-1066	w53	und	*	O
+22	in	in	_	APPR	_	_	_	_	_	1067-1069	w54	in	*	O
+23	Zukunft	Zukunft	_	NN	_	_	_	_	_	1070-1077	w55	Zukunft	*	O
+24	noch	noch	_	ADV	_	_	_	_	_	1078-1082	w56	noch	*	O
+25	weiter	weiter	_	ADV	_	_	_	_	_	1083-1089	w57	weiter	*	O
+26	auszuführen	ausführen	_	VVIZU	_	_	_	_	_	1090-1101	w58	auszuführen	*	B-RK
+27	gedenke	gedenken	_	VVFIN	_	_	_	_	_	1102-1109	w59	gedenke	*	I-RK
+28	.	.	_	$.	_	_	_	_	_	1110-1111	w5a	.	*	O
+
+# sent_id = 20
+# sent_id(TSV) = 20
+# TopFString = (S(VF(ART Die)(ADJA gestellte)(NN Aufgabe))(LK(VAFIN war))(PUNKT :)(NF(MF(NN Aufklärung)(PAV darüber))(VC(PTKZU zu)(VVINF gewinnen))(KOMMA ,)(NF(C(KOUS ob))(FKOORD(FKONJ(MF(ART die)(NN Wundinfectionskrankheiten)(ADJA parasitären)(NN Ursprungs))(VC(VAFIN sind)))(KON oder)(MF(PTKNEG nicht)))))(PUNKT .))
+# text = Die gestellte Aufgabe war : Aufklärung darüber zu gewinnen , ob die Wundinfectionskrankheiten parasitären Ursprungs sind oder nicht .
+1	Die	d	_	ART	_	_	_	_	_	1113-1116	w5b	Die	*	O
+2	gestellte	gestellt	_	ADJA	_	_	_	_	_	1117-1126	w5c	gestellte	*	O
+3	Aufgabe	Aufgabe	_	NN	_	_	_	_	_	1127-1134	w5d	Aufgabe	*	O
+4	war	sein	_	VAFIN	_	_	_	_	_	1135-1138	w5e	war	*	B-LK
+5	:	:	_	$.	_	_	_	_	_	1139-1140	w5f	:	*	O
+6	Aufklärung	Aufklärung	_	NN	_	_	_	_	_	1141-1151	w60	Aufklärung	*	O
+7	darüber	darüber	_	PAV	_	_	_	_	_	1152-1159	w61	darüber	*	O
+8	zu	zu	_	PTKZU	_	_	_	_	_	1160-1162	w62	zu	*	B-RK
+9	gewinnen	gewinnen	_	VVINF	_	_	_	_	_	1163-1171	w63	gewinnen	*	I-RK
+10	,	,	_	$,	_	_	_	_	_	1172-1173	w64	,	*	O
+11	ob	ob	_	KOUS	_	_	_	_	_	1174-1176	w65	ob	*	B-LK
+12	die	d	_	ART	_	_	_	_	_	1177-1180	w66	die	*	O
+13	Wundinfectionskrankheiten	Wundeinfektionskrankheit	_	NN	_	_	_	_	_	1181-1206	w67	Wundinfektionskrankheiten	*	O
+14	parasitären	parasitär	_	ADJA	_	_	_	_	_	1207-1218	w68	parasitären	*	O
+15	Ursprungs	Ursprung	_	NN	_	_	_	_	_	1219-1228	w69	Ursprungs	*	O
+16	sind	sein	_	VAFIN	_	_	_	_	_	1229-1233	w6a	sind	*	B-RK
+17	oder	oder	_	KON	_	_	_	_	_	1234-1238	w6b	oder	*	O
+18	nicht	nicht	_	PTKNEG	_	_	_	_	_	1239-1244	w6c	nicht	*	O
+19	.	.	_	$.	_	_	_	_	_	1245-1246	w6d	.	*	O
+
+# sent_id = 21
+# sent_id(TSV) = 21
+# TopFString = (S(VF(FKONJ(MF(APPR Durch)(ADJA äussere)(NN Verhältnisse))(VC(VVPP gezwungen))))(LK(VMFIN musste))(MF(PPER ich)(PRF mich)(ADV indessen)(ADV lediglich)(APPR auf)(NN Experimente)(APPR über)(ART die)(NN Wirkung)(ADJA putrider)(NN Stoffe)(APPR an)(NN Thieren))(VC(VVINF beschränken))(PUNKT .))
+# text = Durch äussere Verhältnisse gezwungen musste ich mich indessen lediglich auf Experimente über die Wirkung putrider Stoffe an Thieren beschränken .
+1	Durch	durch	_	APPR	_	_	_	_	_	1248-1253	w6e	Durch	*	O
+2	äussere	äußer	_	ADJA	_	_	_	_	_	1254-1261	w6f	äußere	*	O
+3	Verhältnisse	Verhältnis	_	NN	_	_	_	_	_	1262-1274	w70	Verhältnisse	*	O
+4	gezwungen	zwingen	_	VVPP	_	_	_	_	_	1275-1284	w71	gezwungen	*	B-RK
+5	musste	müssen	_	VMFIN	_	_	_	_	_	1285-1291	w72	musste	*	B-LK
+6	ich	ich	_	PPER	_	_	_	_	_	1292-1295	w73	ich	*	O
+7	mich	mich	_	PRF	_	_	_	_	_	1296-1300	w74	mich	*	O
+8	indessen	indessen	_	ADV	_	_	_	_	_	1301-1309	w75	indessen	*	O
+9	lediglich	lediglich	_	ADV	_	_	_	_	_	1310-1319	w76	lediglich	*	O
+10	auf	auf	_	APPR	_	_	_	_	_	1320-1323	w77	auf	*	O
+11	Experimente	Experiment	_	NN	_	_	_	_	_	1324-1335	w78	Experimente	*	O
+12	über	über	_	APPR	_	_	_	_	_	1336-1340	w79	über	*	O
+13	die	d	_	ART	_	_	_	_	_	1341-1344	w7a	die	*	O
+14	Wirkung	Wirkung	_	NN	_	_	_	_	_	1345-1352	w7b	Wirkung	*	O
+15	putrider	putrid	_	ADJA	_	_	_	_	_	1353-1361	w7c	putrider	*	O
+16	Stoffe	Stoff	_	NN	_	_	_	_	_	1362-1368	w7d	Stoffe	*	O
+17	an	an	_	APPR	_	_	_	_	_	1369-1371	w7e	an	*	O
+18	Thieren	Tier	_	NN	_	_	_	_	_	1372-1379	w7f	Tieren	*	O
+19	beschränken	beschränken	_	VVINF	_	_	_	_	_	1380-1391	w80	beschränken	*	B-RK
+20	.	.	_	$.	_	_	_	_	_	1392-1393	w81	.	*	O
+
+# sent_id = 22
+# sent_id(TSV) = 22
+# TopFString = (S(VF(PDS Diese))(LK(VAFIN haben))(MF(PPER mich)(APPR zu)(ADJA positiven)(KON und)(KOMMA ,)(C(KOUS wie))(MF(PPER mir))(VC(VVFIN scheint))(KOMMA ,)(PTKNEG nicht)(ADJA unwichtigen)(NN Ergebnissen))(VC(VVPP geführt))(KON und)(VF(PPER es))(LK(VAFIN wäre))(MF(APPRART zur)(ADJA vollständigen)(NN Beantwortung)(ART der)(ADJA gestellten)(NN Frage)(ADV nun)(ADV durchaus)(ADJD nothwendig))(VC(VAPP gewesen))(KOMMA ,)(NF(MF(ADJA weitere)(ADJA ähnliche)(NN Versuchsreihen)(APPR an)(NN Thieren)(APPR mit)(PIAT solchen)(NN Stoffen))(VC(VVIZU vorzunehmen))(KOMMA ,)(NF(C(PRELS welche))(MF(APPR an)(NN Wundin¬<lb/>fectionskrankheiten)(ADJA leidenden)(KON oder)(ADJA gestorbenen)(NN Menschen))(VC(VVPP entnom¬<lb/>men)(VAFIN wurden))(KOMMA ,)(KON und)(C(PWS was))(MF(PPER mir)(ART das)(NN Wichtigste))(VC(PTKZU zu)(VAINF sein)(VVFIN scheint))(KOMMA ,)(NF(MF(APPR nach)(ART der)(APPR bei)(PPOSAT meinen)(NN Versuchen)(VVPP bewährt)(ADJA gefundenen)(NN Methode)(ART die)(ADJA frag¬<lb/>lichen)(NN Mikroorganismen)(APPR in)(ADJA menschlichem)(ADJA pathologischen)(NN Material))(VC(VVIZU aufzusuchen)))))(PUNKT .))
+# text = Diese haben mich zu positiven und , wie mir scheint , nicht unwichtigen Ergebnissen geführt und es wäre zur vollständigen Beantwortung der gestellten Frage nun durchaus nothwendig gewesen , weitere ähnliche Versuchsreihen an Thieren mit solchen Stoffen vorzunehmen , welche an Wundin¬<lb/>fectionskrankheiten leidenden oder gestorbenen Menschen entnom¬<lb/>men wurden , und was mir das Wichtigste zu sein scheint , nach der bei meinen Versuchen bewährt gefundenen Methode die frag¬<lb/>lichen Mikroorganismen in menschlichem pathologischen Material aufzusuchen .
+1	Diese	diese	_	PDS	_	_	_	_	_	1395-1400	w82	Diese	*	O
+2	haben	haben	_	VAFIN	_	_	_	_	_	1401-1406	w83	haben	*	B-LK
+3	mich	ich	_	PPER	_	_	_	_	_	1407-1411	w84	mich	*	O
+4	zu	zu	_	APPR	_	_	_	_	_	1412-1414	w85	zu	*	O
+5	positiven	positiv	_	ADJA	_	_	_	_	_	1415-1424	w86	positiven	*	O
+6	und	und	_	KON	_	_	_	_	_	1425-1428	w87	und	*	O
+7	,	,	_	$,	_	_	_	_	_	1429-1430	w88	,	*	O
+8	wie	wie	_	KOUS	_	_	_	_	_	1431-1434	w89	wie	*	B-LK
+9	mir	ich	_	PPER	_	_	_	_	_	1435-1438	w8a	mir	*	O
+10	scheint	scheinen	_	VVFIN	_	_	_	_	_	1439-1446	w8b	scheint	*	B-RK
+11	,	,	_	$,	_	_	_	_	_	1447-1448	w8c	,	*	O
+12	nicht	nicht	_	PTKNEG	_	_	_	_	_	1449-1454	w8d	nicht	*	O
+13	unwichtigen	unwichtig	_	ADJA	_	_	_	_	_	1455-1466	w8e	unwichtigen	*	O
+14	Ergebnissen	Ergebnis	_	NN	_	_	_	_	_	1467-1478	w8f	Ergebnissen	*	O
+15	geführt	führen	_	VVPP	_	_	_	_	_	1479-1486	w90	geführt	*	B-RK
+16	und	und	_	KON	_	_	_	_	_	1487-1490	w91	und	*	O
+17	es	es	_	PPER	_	_	_	_	_	1491-1493	w92	es	*	O
+18	wäre	sein	_	VAFIN	_	_	_	_	_	1494-1498	w93	wäre	*	B-LK
+19	zur	zur	_	APPRART	_	_	_	_	_	1499-1502	w94	zur	*	O
+20	vollständigen	vollständig	_	ADJA	_	_	_	_	_	1503-1516	w95	vollständigen	*	O
+21	Beantwortung	Beantwortung	_	NN	_	_	_	_	_	1517-1529	w96	Beantwortung	*	O
+22	der	d	_	ART	_	_	_	_	_	1530-1533	w97	der	*	O
+23	gestellten	gestellt	_	ADJA	_	_	_	_	_	1534-1544	w98	gestellten	*	O
+24	Frage	Frage	_	NN	_	_	_	_	_	1545-1550	w99	Frage	*	O
+25	nun	nun	_	ADV	_	_	_	_	_	1551-1554	w9a	nun	*	O
+26	durchaus	durchaus	_	ADV	_	_	_	_	_	1555-1563	w9b	durchaus	*	O
+27	nothwendig	notwendig	_	ADJD	_	_	_	_	_	1564-1574	w9c	notwendig	*	O
+28	gewesen	sein	_	VAPP	_	_	_	_	_	1575-1582	w9d	gewesen	*	B-RK
+29	,	,	_	$,	_	_	_	_	_	1583-1584	w9e	,	*	O
+30	weitere	weit	_	ADJA	_	_	_	_	_	1585-1592	w9f	weitere	*	O
+31	ähnliche	ähnlich	_	ADJA	_	_	_	_	_	1593-1601	wa0	ähnliche	*	O
+32	Versuchsreihen	Versuchsreihe	_	NN	_	_	_	_	_	1602-1616	wa1	Versuchsreihen	*	O
+33	an	an	_	APPR	_	_	_	_	_	1617-1619	wa2	an	*	O
+34	Thieren	Tier	_	NN	_	_	_	_	_	1620-1627	wa3	Tieren	*	O
+35	mit	mit	_	APPR	_	_	_	_	_	1628-1631	wa4	mit	*	O
+36	solchen	solch	_	PIAT	_	_	_	_	_	1632-1639	wa5	solchen	*	O
+37	Stoffen	Stoff	_	NN	_	_	_	_	_	1640-1647	wa6	Stoffen	*	O
+38	vorzunehmen	vornehmen	_	VVIZU	_	_	_	_	_	1648-1659	wa7	vorzunehmen	*	B-RK
+39	,	,	_	$,	_	_	_	_	_	1660-1661	wa8	,	*	O
+40	welche	welche	_	PRELS	_	_	_	_	_	1662-1668	wa9	welche	*	B-LK
+41	an	an	_	APPR	_	_	_	_	_	1669-1671	waa	an	*	O
+42	Wundin¬<lb/>fectionskrankheiten	Wundeinfektionskrankheit	_	NN	_	_	_	_	_	1672-1703	wab	Wundinfektionskrankheiten	*	O
+43	leidenden	leidend	_	ADJA	_	_	_	_	_	1704-1713	wac	leidenden	*	O
+44	oder	oder	_	KON	_	_	_	_	_	1714-1718	wad	oder	*	O
+45	gestorbenen	gesterben	_	ADJA	_	_	_	_	_	1719-1730	wae	gestorbenen	*	O
+46	Menschen	Mensch	_	NN	_	_	_	_	_	1731-1739	waf	Menschen	*	O
+47	entnom¬<lb/>men	entnehmen	_	VVPP	_	_	_	_	_	1740-1755	wb0	entnommen	*	B-RK
+48	wurden	werden	_	VAFIN	_	_	_	_	_	1756-1762	wb1	wurden	*	I-RK
+49	,	,	_	$,	_	_	_	_	_	1763-1764	wb2	,	*	O
+50	und	und	_	KON	_	_	_	_	_	1765-1768	wb3	und	*	O
+51	was	was	_	PWS	_	_	_	_	_	1769-1772	wb4	was	*	B-LK
+52	mir	ich	_	PPER	_	_	_	_	_	1773-1776	wb5	mir	*	O
+53	das	d	_	ART	_	_	_	_	_	1777-1780	wb6	das	*	O
+54	Wichtigste	Wichtig	_	NN	_	_	_	_	_	1781-1791	wb7	Wichtigste	*	O
+55	zu	zu	_	PTKZU	_	_	_	_	_	1792-1794	wb8	zu	*	B-RK
+56	sein	sein	_	VAINF	_	_	_	_	_	1795-1799	wb9	sein	*	I-RK
+57	scheint	scheinen	_	VVFIN	_	_	_	_	_	1800-1807	wba	scheint	*	I-RK
+58	,	,	_	$,	_	_	_	_	_	1808-1809	wbb	,	*	O
+59	nach	nach	_	APPR	_	_	_	_	_	1810-1814	wbc	nach	*	O
+60	der	die	_	ART	_	_	_	_	_	1815-1818	wbd	der	*	O
+61	bei	bei	_	APPR	_	_	_	_	_	1819-1822	wbe	bei	*	O
+62	meinen	meine	_	PPOSAT	_	_	_	_	_	1823-1829	wbf	meinen	*	O
+63	Versuchen	Versuch	_	NN	_	_	_	_	_	1830-1839	wc0	Versuchen	*	O
+64	bewährt	bewähren	_	VVPP	_	_	_	_	_	1840-1847	wc1	bewährt	*	O
+65	gefundenen	gefinden	_	ADJA	_	_	_	_	_	1848-1858	wc2	gefundenen	*	O
+66	Methode	Methode	_	NN	_	_	_	_	_	1859-1866	wc3	Methode	*	O
+67	die	d	_	ART	_	_	_	_	_	1867-1870	wc4	die	*	O
+68	frag¬<lb/>lichen	fraglich	_	ADJA	_	_	_	_	_	1871-1887	wc5	fraglichen	*	O
+69	Mikroorganismen	Mikroorganismus	_	NN	_	_	_	_	_	1888-1903	wc6	Mikroorganismen	*	O
+70	in	in	_	APPR	_	_	_	_	_	1904-1906	wc7	in	*	O
+71	menschlichem	menschlich	_	ADJA	_	_	_	_	_	1907-1919	wc8	menschlichem	*	O
+72	pathologischen	pathologisch	_	ADJA	_	_	_	_	_	1920-1934	wc9	pathologischen	*	O
+73	Material	Material	_	NN	_	_	_	_	_	1935-1943	wca	Material	*	O
+74	aufzusuchen	aufsuchen	_	VVIZU	_	_	_	_	_	1944-1955	wcb	aufzusuchen	*	B-RK
+75	.	.	_	$.	_	_	_	_	_	1956-1957	wcc	.	*	O
+
+# sent_id = 23
+# sent_id(TSV) = 23
+# TopFString = (S(LV(C(KOUS Da))(MF(PPER mir)(ADV jedoch)(ART die)(NN Gelegenheit)(KOMMA ,)(MF(APPR nach)(PDAT dieser)(NN Richtung)(APPO hin)(PPOSAT meine)(NN Untersuchungen))(VC(PTKZU zu)(VVINF vervollkommnen)))(KOMMA ,)(VC(VVFIN fehlt)))(KOMMA ,)(VF(ADV so))(LK(VAFIN habe))(MF(PPER ich)(PRF mich)(PAV damit))(VC(VVPP begnügt))(KOMMA ,)(NF(MF(ADJD experimentell)(APPR an)(NN Thieren)(NN Krankheitsprocesse))(VC(PTKZU zu)(VVINF erzeugen))(KOMMA ,)(NF(C(PRELS welche))(FKOORD(FKONJ(MF(ART den)(APPRART beim)(NN Menschen)(ADJA beobachteten)(NN Wundinfections¬<lb/>krankheiten)(ADJD ähnlich))(VC(VAFIN sind)))(KON und)(FKONJ(MF(KOKOM als)(NN Beispiele)(APPR für)(PDS diese))(VC(VVINF dienen)(VMFIN können))))))(PUNKT .))
+# text = Da mir jedoch die Gelegenheit , nach dieser Richtung hin meine Untersuchungen zu vervollkommnen , fehlt , so habe ich mich damit begnügt , experimentell an Thieren Krankheitsprocesse zu erzeugen , welche den beim Menschen beobachteten Wundinfections¬<lb/>krankheiten ähnlich sind und als Beispiele für diese dienen können .
+1	Da	da	_	KOUS	_	_	_	_	_	1959-1961	wcd	Da	*	B-LK
+2	mir	ich	_	PPER	_	_	_	_	_	1962-1965	wce	mir	*	O
+3	jedoch	jedoch	_	ADV	_	_	_	_	_	1966-1972	wcf	jedoch	*	O
+4	die	d	_	ART	_	_	_	_	_	1973-1976	wd0	die	*	O
+5	Gelegenheit	Gelegenheit	_	NN	_	_	_	_	_	1977-1988	wd1	Gelegenheit	*	O
+6	,	,	_	$,	_	_	_	_	_	1989-1990	wd2	,	*	O
+7	nach	nach	_	APPR	_	_	_	_	_	1991-1995	wd3	nach	*	O
+8	dieser	diese	_	PDAT	_	_	_	_	_	1996-2002	wd4	dieser	*	O
+9	Richtung	Richtung	_	NN	_	_	_	_	_	2003-2011	wd5	Richtung	*	O
+10	hin	hin	_	APPO	_	_	_	_	_	2012-2015	wd6	hin	*	O
+11	meine	meine	_	PPOSAT	_	_	_	_	_	2016-2021	wd7	meine	*	O
+12	Untersuchungen	Untersuchung	_	NN	_	_	_	_	_	2022-2036	wd8	Untersuchungen	*	O
+13	zu	zu	_	PTKZU	_	_	_	_	_	2037-2039	wd9	zu	*	B-RK
+14	vervollkommnen	vervollkommnen	_	VVINF	_	_	_	_	_	2040-2054	wda	vervollkommnen	*	I-RK
+15	,	,	_	$,	_	_	_	_	_	2055-2056	wdb	,	*	O
+16	fehlt	fehlen	_	VVFIN	_	_	_	_	_	2057-2062	wdc	fehlt	*	B-RK
+17	,	,	_	$,	_	_	_	_	_	2063-2064	wdd	,	*	O
+18	so	so	_	ADV	_	_	_	_	_	2065-2067	wde	so	*	O
+19	habe	haben	_	VAFIN	_	_	_	_	_	2068-2072	wdf	habe	*	B-LK
+20	ich	ich	_	PPER	_	_	_	_	_	2073-2076	we0	ich	*	O
+21	mich	mich	_	PRF	_	_	_	_	_	2077-2081	we1	mich	*	O
+22	damit	damit	_	PAV	_	_	_	_	_	2082-2087	we2	damit	*	O
+23	begnügt	begnügen	_	VVPP	_	_	_	_	_	2088-2095	we3	begnügt	*	B-RK
+24	,	,	_	$,	_	_	_	_	_	2096-2097	we4	,	*	O
+25	experimentell	experimentell	_	ADJD	_	_	_	_	_	2098-2111	we5	experimentell	*	O
+26	an	an	_	APPR	_	_	_	_	_	2112-2114	we6	an	*	O
+27	Thieren	Tier	_	NN	_	_	_	_	_	2115-2122	we7	Tieren	*	O
+28	Krankheitsprocesse	Krankheitsprozeß	_	NN	_	_	_	_	_	2123-2141	we8	Krankheitsprozesse	*	O
+29	zu	zu	_	PTKZU	_	_	_	_	_	2142-2144	we9	zu	*	B-RK
+30	erzeugen	erzeugen	_	VVINF	_	_	_	_	_	2145-2153	wea	erzeugen	*	I-RK
+31	,	,	_	$,	_	_	_	_	_	2154-2155	web	,	*	O
+32	welche	welche	_	PRELS	_	_	_	_	_	2156-2162	wec	welche	*	B-LK
+33	den	d	_	ART	_	_	_	_	_	2163-2166	wed	den	*	O
+34	beim	beim	_	APPRART	_	_	_	_	_	2167-2171	wee	beim	*	O
+35	Menschen	Mensch	_	NN	_	_	_	_	_	2172-2180	wef	Menschen	*	O
+36	beobachteten	beobachten	_	ADJA	_	_	_	_	_	2181-2193	wf0	beobachteten	*	O
+37	Wundinfections¬<lb/>krankheiten	Wundeinfektionskrankheit	_	NN	_	_	_	_	_	2194-2225	wf1	Wundinfektionskrankheiten	*	O
+38	ähnlich	ähnlich	_	ADJD	_	_	_	_	_	2226-2233	wf2	ähnlich	*	O
+39	sind	sein	_	VAFIN	_	_	_	_	_	2234-2238	wf3	sind	*	B-RK
+40	und	und	_	KON	_	_	_	_	_	2239-2242	wf4	und	*	O
+41	als	als	_	KOKOM	_	_	_	_	_	2243-2246	wf5	als	*	O
+42	Beispiele	Beispiel	_	NN	_	_	_	_	_	2247-2256	wf6	Beispiele	*	O
+43	für	für	_	APPR	_	_	_	_	_	2257-2260	wf7	für	*	O
+44	diese	diese	_	PDS	_	_	_	_	_	2261-2266	wf8	diese	*	O
+45	dienen	dienen	_	VVINF	_	_	_	_	_	2267-2273	wf9	dienen	*	B-RK
+46	können	können	_	VMFIN	_	_	_	_	_	2274-2280	wfa	können	*	I-RK
+47	.	.	_	$.	_	_	_	_	_	2281-2282	wfb	.	*	O
+
+# sent_id = 24
+# sent_id(TSV) = 24
+# TopFString = (S(LV(C(KOUS Nachdem))(MF(PPER es)(PPER mir)(ADV dann))(VC(VVPP gelungen)(VAFIN ist))(KOMMA ,)(NF(MF(PDAT diese)(NN Sammlung)(APPR von)(ADJA künstlichen)(NN Krankheitsprocessen)(ADV so)(ADJD weit))(VC(PTKZU zu)(VVINF vervollständigen))(KOMMA ,)(NF(C(KOUS dass))(MF(PPER ich)(APPR für)(ART die)(ADJA wichtigsten)(NN Wundinfectionskrankheiten)(KOMMA ,)(ADV nämlich)(APPR für)(NN Septicämie)(KOMMA ,)(NN Pyämie)(KOMMA ,)(ADJA progressive)(NN Eiterung)(KOMMA ,)(NN Gangrän)(KON und)(NN Erysipelas)(NN Beispiele))(VC(VVINF aufweisen)(VMFIN kann)))))(KOMMA ,)(VF(ADV so))(LK(VVFIN glaube))(MF(PPER ich)(PPOSAT meine)(NN Aufgabe))(KOMMA ,)(NF(C(KOUS soweit))(MF(PPER sie)(PRF sich)(ADV nur)(APPR an)(NN Thieren))(VC(VVINF ausführen)(VVFIN lässt))(KOMMA ,)(NF(VC(VVPP gelöst)(PTKZU zu)(VAINF haben))(KON und)(NF(VF(PPER es))(LK(VVFIN scheint))(MF(PPER mir)(PAV deswegen)(ADJD nothwendig))(KOMMA ,)(NF(MF(ART die)(APPR bis)(ADV jetzt)(ADJA gewonnenen)(NN Re¬<lb/>sultate))(VC(PTKZU zu)(VVINF veröffentlichen))))))(PUNKT .))
+# text = Nachdem es mir dann gelungen ist , diese Sammlung von künstlichen Krankheitsprocessen so weit zu vervollständigen , dass ich für die wichtigsten Wundinfectionskrankheiten , nämlich für Septicämie , Pyämie , progressive Eiterung , Gangrän und Erysipelas Beispiele aufweisen kann , so glaube ich meine Aufgabe , soweit sie sich nur an Thieren ausführen lässt , gelöst zu haben und es scheint mir deswegen nothwendig , die bis jetzt gewonnenen Re¬<lb/>sultate zu veröffentlichen .
+1	Nachdem	nachdem	_	KOUS	_	_	_	_	_	2284-2291	wfc	Nachdem	*	B-LK
+2	es	es	_	PPER	_	_	_	_	_	2292-2294	wfd	es	*	O
+3	mir	ich	_	PPER	_	_	_	_	_	2295-2298	wfe	mir	*	O
+4	dann	dann	_	ADV	_	_	_	_	_	2299-2303	wff	dann	*	O
+5	gelungen	gelingen	_	VVPP	_	_	_	_	_	2304-2312	w100	gelungen	*	B-RK
+6	ist	sein	_	VAFIN	_	_	_	_	_	2313-2316	w101	ist	*	I-RK
+7	,	,	_	$,	_	_	_	_	_	2317-2318	w102	,	*	O
+8	diese	diese	_	PDAT	_	_	_	_	_	2319-2324	w103	diese	*	O
+9	Sammlung	Sammelung	_	NN	_	_	_	_	_	2325-2333	w104	Sammlung	*	O
+10	von	von	_	APPR	_	_	_	_	_	2334-2337	w105	von	*	O
+11	künstlichen	künstlich	_	ADJA	_	_	_	_	_	2338-2349	w106	künstlichen	*	O
+12	Krankheitsprocessen	Krankheitsprozeß	_	NN	_	_	_	_	_	2350-2369	w107	Krankheitsprozessen	*	O
+13	so	so	_	ADV	_	_	_	_	_	2370-2372	w108	so	*	O
+14	weit	weit	_	ADJD	_	_	_	_	_	2373-2377	w109	weit	*	O
+15	zu	zu	_	PTKZU	_	_	_	_	_	2378-2380	w10a	zu	*	B-RK
+16	vervollständigen	vervollständigen	_	VVINF	_	_	_	_	_	2381-2397	w10b	vervollständigen	*	I-RK
+17	,	,	_	$,	_	_	_	_	_	2398-2399	w10c	,	*	O
+18	dass	dass	_	KOUS	_	_	_	_	_	2400-2404	w10d	dass	*	B-LK
+19	ich	ich	_	PPER	_	_	_	_	_	2405-2408	w10e	ich	*	O
+20	für	für	_	APPR	_	_	_	_	_	2409-2412	w10f	für	*	O
+21	die	d	_	ART	_	_	_	_	_	2413-2416	w110	die	*	O
+22	wichtigsten	wichtig	_	ADJA	_	_	_	_	_	2417-2428	w111	wichtigsten	*	O
+23	Wundinfectionskrankheiten	Wundeinfektionskrankheit	_	NN	_	_	_	_	_	2429-2454	w112	Wundinfektionskrankheiten	*	O
+24	,	,	_	$,	_	_	_	_	_	2455-2456	w113	,	*	O
+25	nämlich	nämlich	_	ADV	_	_	_	_	_	2457-2464	w114	nämlich	*	O
+26	für	für	_	APPR	_	_	_	_	_	2465-2468	w115	für	*	O
+27	Septicämie	Septicämie	_	NN	_	_	_	_	_	2469-2479	w116	Septicämie	*	O
+28	,	,	_	$,	_	_	_	_	_	2480-2481	w117	,	*	O
+29	Pyämie	Pyämie	_	NN	_	_	_	_	_	2482-2488	w118	Pyämie	*	O
+30	,	,	_	$,	_	_	_	_	_	2489-2490	w119	,	*	O
+31	progressive	progressiv	_	ADJA	_	_	_	_	_	2491-2502	w11a	progressive	*	O
+32	Eiterung	Eiterung	_	NN	_	_	_	_	_	2503-2511	w11b	Eiterung	*	O
+33	,	,	_	$,	_	_	_	_	_	2512-2513	w11c	,	*	O
+34	Gangrän	Gangrän	_	NN	_	_	_	_	_	2514-2521	w11d	Gangrän	*	O
+35	und	und	_	KON	_	_	_	_	_	2522-2525	w11e	und	*	O
+36	Erysipelas	Erysipelas	_	NN	_	_	_	_	_	2526-2536	w11f	Erysipelas	*	O
+37	Beispiele	Beispiel	_	NN	_	_	_	_	_	2537-2546	w120	Beispiele	*	O
+38	aufweisen	aufweisen	_	VVINF	_	_	_	_	_	2547-2556	w121	aufweisen	*	B-RK
+39	kann	können	_	VMFIN	_	_	_	_	_	2557-2561	w122	kann	*	I-RK
+40	,	,	_	$,	_	_	_	_	_	2562-2563	w123	,	*	O
+41	so	so	_	ADV	_	_	_	_	_	2564-2566	w124	so	*	O
+42	glaube	glauben	_	VVFIN	_	_	_	_	_	2567-2573	w125	glaube	*	B-LK
+43	ich	ich	_	PPER	_	_	_	_	_	2574-2577	w126	ich	*	O
+44	meine	meine	_	PPOSAT	_	_	_	_	_	2578-2583	w127	meine	*	O
+45	Aufgabe	Aufgabe	_	NN	_	_	_	_	_	2584-2591	w128	Aufgabe	*	O
+46	,	,	_	$,	_	_	_	_	_	2592-2593	w129	,	*	O
+47	soweit	soweit	_	KOUS	_	_	_	_	_	2594-2600	w12a	soweit	*	B-LK
+48	sie	sie	_	PPER	_	_	_	_	_	2601-2604	w12b	sie	*	O
+49	sich	sich	_	PRF	_	_	_	_	_	2605-2609	w12c	sich	*	O
+50	nur	nur	_	ADV	_	_	_	_	_	2610-2613	w12d	nur	*	O
+51	an	an	_	APPR	_	_	_	_	_	2614-2616	w12e	an	*	O
+52	Thieren	Tier	_	NN	_	_	_	_	_	2617-2624	w12f	Tieren	*	O
+53	ausführen	ausführen	_	VVINF	_	_	_	_	_	2625-2634	w130	ausführen	*	B-RK
+54	lässt	lassen	_	VVFIN	_	_	_	_	_	2635-2640	w131	lässt	*	I-RK
+55	,	,	_	$,	_	_	_	_	_	2641-2642	w132	,	*	O
+56	gelöst	lösen	_	VVPP	_	_	_	_	_	2643-2649	w133	gelöst	*	B-RK
+57	zu	zu	_	PTKZU	_	_	_	_	_	2650-2652	w134	zu	*	I-RK
+58	haben	haben	_	VAINF	_	_	_	_	_	2653-2658	w135	haben	*	I-RK
+59	und	und	_	KON	_	_	_	_	_	2659-2662	w136	und	*	O
+60	es	es	_	PPER	_	_	_	_	_	2663-2665	w137	es	*	O
+61	scheint	scheinen	_	VVFIN	_	_	_	_	_	2666-2673	w138	scheint	*	B-LK
+62	mir	ich	_	PPER	_	_	_	_	_	2674-2677	w139	mir	*	O
+63	deswegen	deswegen	_	PAV	_	_	_	_	_	2678-2686	w13a	deswegen	*	O
+64	nothwendig	notwendig	_	ADJD	_	_	_	_	_	2687-2697	w13b	notwendig	*	O
+65	,	,	_	$,	_	_	_	_	_	2698-2699	w13c	,	*	O
+66	die	die	_	ART	_	_	_	_	_	2700-2703	w13d	die	*	O
+67	bis	bis	_	APPR	_	_	_	_	_	2704-2707	w13e	bis	*	O
+68	jetzt	jetzt	_	ADV	_	_	_	_	_	2708-2713	w13f	jetzt	*	O
+69	gewonnenen	gewinnen	_	ADJA	_	_	_	_	_	2714-2724	w140	gewonnenen	*	O
+70	Re¬<lb/>sultate	Resultat	_	NN	_	_	_	_	_	2725-2740	w141	Resultate	*	O
+71	zu	zu	_	PTKZU	_	_	_	_	_	2741-2743	w142	zu	*	B-RK
+72	veröffentlichen	veröffentlichen	_	VVINF	_	_	_	_	_	2744-2759	w143	veröffentlichen	*	I-RK
+73	.	.	_	$.	_	_	_	_	_	2760-2761	w144	.	*	O
+
+# sent_id = 25
+# sent_id(TSV) = 25
+# TopFString = (S(VF(APPR In)(NN Betreff)(ART der)(PDAT dieser)(NN Schrift)(ADJA beigegebenen)(NN Abbildungen))(LK(VAFIN habe))(MF(PPER ich)(ADV hier)(ADV noch)(ART eine)(NN Bemerkung))(VC(PTKZU zu)(VVINF machen))(PUNKT .))
+# text = In Betreff der dieser Schrift beigegebenen Abbildungen habe ich hier noch eine Bemerkung zu machen .
+1	In	in	_	APPR	_	_	_	_	_	2763-2765	w145	In	*	O
+2	Betreff	Betreff	_	NN	_	_	_	_	_	2766-2773	w146	Betreff	*	O
+3	der	d	_	ART	_	_	_	_	_	2774-2777	w147	der	*	O
+4	dieser	diese	_	PDAT	_	_	_	_	_	2778-2784	w148	dieser	*	O
+5	Schrift	Schrift	_	NN	_	_	_	_	_	2785-2792	w149	Schrift	*	O
+6	beigegebenen	beigegeben	_	ADJA	_	_	_	_	_	2793-2805	w14a	beigegebenen	*	O
+7	Abbildungen	Abbildung	_	NN	_	_	_	_	_	2806-2817	w14b	Abbildungen	*	O
+8	habe	haben	_	VAFIN	_	_	_	_	_	2818-2822	w14c	habe	*	B-LK
+9	ich	ich	_	PPER	_	_	_	_	_	2823-2826	w14d	ich	*	O
+10	hier	hier	_	ADV	_	_	_	_	_	2827-2831	w14e	hier	*	O
+11	noch	noch	_	ADV	_	_	_	_	_	2832-2836	w14f	noch	*	O
+12	eine	eine	_	ART	_	_	_	_	_	2837-2841	w150	eine	*	O
+13	Bemerkung	Bemerkung	_	NN	_	_	_	_	_	2842-2851	w151	Bemerkung	*	O
+14	zu	zu	_	PTKZU	_	_	_	_	_	2852-2854	w152	zu	*	B-RK
+15	machen	machen	_	VVINF	_	_	_	_	_	2855-2861	w153	machen	*	I-RK
+16	.	.	_	$.	_	_	_	_	_	2862-2863	w154	.	*	O
+
+# sent_id = 26
+# sent_id(TSV) = 26
+# TopFString = (S(VF(APPR In)(ART einem)(NN Aufsatze)(APPR über)(NN Untersuchung)(KON und)(NN Photographiren)(ART der)(NN Bakterien)(KLAMMER LBR)(NN Beiträge)(APPRART zur)(NN Biologie)(ART der)(NN Pflanzen)(KOMMA ,)(VC(VVPP herausgegeben))(NF(APPR von)(NE F.)(NE Cohn)(ADJA II.)(NN Bd.)(ADJA 3.)(NN Heft)))(KLAMMER RBR)(LK(VAFIN hatte))(MF(PPER ich)(ART den)(NN Wunsch))(VC(VVPP ausgesprochen))(KOMMA ,)(NF(C(KOUS dass))(KOMMA ,)(NF(C(KOUI um))(MF(ADV möglichst)(ADJA naturgetreue)(NN Abbildungen)(ART der)(ADJA pathogenen)(NN Bakterien))(VC(PTKZU zu)(VVINF erhalten)))(KOMMA ,)(MF(PDS dieselben))(VC(VVPP photographirt)(VAINF werden)(VMFIN möchten)))(PUNKT .))
+# text = In einem Aufsatze über Untersuchung und Photographiren der Bakterien ( Beiträge zur Biologie der Pflanzen , herausgegeben von F. Cohn II. Bd. 3. Heft ) hatte ich den Wunsch ausgesprochen , dass , um möglichst naturgetreue Abbildungen der pathogenen Bakterien zu erhalten , dieselben photographirt werden möchten .
+1	In	in	_	APPR	_	_	_	_	_	2865-2867	w155	In	*	O
+2	einem	eine	_	ART	_	_	_	_	_	2868-2873	w156	einem	*	O
+3	Aufsatze	Aufsatz	_	NN	_	_	_	_	_	2874-2882	w157	Aufsatze	*	O
+4	über	über	_	APPR	_	_	_	_	_	2883-2887	w158	über	*	O
+5	Untersuchung	Untersuchung	_	NN	_	_	_	_	_	2888-2900	w159	Untersuchung	*	O
+6	und	und	_	KON	_	_	_	_	_	2901-2904	w15a	und	*	O
+7	Photographiren	fotografieren	_	NN	_	_	_	_	_	2905-2919	w15b	fotografieren	*	O
+8	der	d	_	ART	_	_	_	_	_	2920-2923	w15c	der	*	O
+9	Bakterien	Bakterie	_	NN	_	_	_	_	_	2924-2933	w15d	Bakterien	*	O
+10	(	(	_	$(	_	_	_	_	_	2934-2935	w15e	(	*	O
+11	Beiträge	Beitrag	_	NN	_	_	_	_	_	2936-2944	w15f	Beiträge	*	O
+12	zur	zur	_	APPRART	_	_	_	_	_	2945-2948	w160	zur	*	O
+13	Biologie	Biologie	_	NN	_	_	_	_	_	2949-2957	w161	Biologie	*	O
+14	der	d	_	ART	_	_	_	_	_	2958-2961	w162	der	*	O
+15	Pflanzen	Pflanze	_	NN	_	_	_	_	_	2962-2970	w163	Pflanzen	*	O
+16	,	,	_	$,	_	_	_	_	_	2971-2972	w164	,	*	O
+17	herausgegeben	herausgeben	_	VVPP	_	_	_	_	_	2973-2986	w165	herausgegeben	*	B-RK
+18	von	von	_	APPR	_	_	_	_	_	2987-2990	w166	von	*	O
+19	F.	F.	_	NE	_	_	_	_	_	2991-2993	w167	F.	*	O
+20	Cohn	Cohn	_	NE	_	_	_	_	_	2994-2998	w168	Cohn	*	O
+21	II.	ii.	_	ADJA	_	_	_	_	_	2999-3002	w169	II.	*	O
+22	Bd.	Bd.	_	NN	_	_	_	_	_	3003-3006	w16a	Bd.	*	O
+23	3.	3.	_	ADJA	_	_	_	_	_	3007-3009	w16b	3.	*	O
+24	Heft	Heft	_	NN	_	_	_	_	_	3010-3014	w16c	Heft	*	O
+25	)	)	_	$(	_	_	_	_	_	3015-3016	w16d	)	*	O
+26	hatte	haben	_	VAFIN	_	_	_	_	_	3017-3022	w16e	hatte	*	B-LK
+27	ich	ich	_	PPER	_	_	_	_	_	3023-3026	w16f	ich	*	O
+28	den	d	_	ART	_	_	_	_	_	3027-3030	w170	den	*	O
+29	Wunsch	Wunsch	_	NN	_	_	_	_	_	3031-3037	w171	Wunsch	*	O
+30	ausgesprochen	aussprechen	_	VVPP	_	_	_	_	_	3038-3051	w172	ausgesprochen	*	B-RK
+31	,	,	_	$,	_	_	_	_	_	3052-3053	w173	,	*	O
+32	dass	dass	_	KOUS	_	_	_	_	_	3054-3058	w174	dass	*	B-LK
+33	,	,	_	$,	_	_	_	_	_	3059-3060	w175	,	*	O
+34	um	um	_	KOUI	_	_	_	_	_	3061-3063	w176	um	*	B-LK
+35	möglichst	möglichst	_	ADV	_	_	_	_	_	3064-3073	w177	möglichst	*	O
+36	naturgetreue	naturgetreu	_	ADJA	_	_	_	_	_	3074-3086	w178	naturgetreue	*	O
+37	Abbildungen	Abbildung	_	NN	_	_	_	_	_	3087-3098	w179	Abbildungen	*	O
+38	der	d	_	ART	_	_	_	_	_	3099-3102	w17a	der	*	O
+39	pathogenen	pathogen	_	ADJA	_	_	_	_	_	3103-3113	w17b	pathogenen	*	O
+40	Bakterien	Bakterie	_	NN	_	_	_	_	_	3114-3123	w17c	Bakterien	*	O
+41	zu	zu	_	PTKZU	_	_	_	_	_	3124-3126	w17d	zu	*	B-RK
+42	erhalten	erhalten	_	VVINF	_	_	_	_	_	3127-3135	w17e	erhalten	*	I-RK
+43	,	,	_	$,	_	_	_	_	_	3136-3137	w17f	,	*	O
+44	dieselben	dieselbe	_	PDS	_	_	_	_	_	3138-3147	w180	dieselben	*	O
+45	photographirt	photographieren	_	VVPP	_	_	_	_	_	3148-3161	w181	photographiert	*	B-RK
+46	werden	werden	_	VAINF	_	_	_	_	_	3162-3168	w182	werden	*	I-RK
+47	möchten	mögen	_	VMFIN	_	_	_	_	_	3169-3176	w183	möchten	*	I-RK
+48	.	.	_	$.	_	_	_	_	_	3177-3178	w184	.	*	O
+
+# sent_id = 27
+# sent_id(TSV) = 27
+# TopFString = (S(VF(ADV Um)(ADV so)(ADV mehr))(LK(VVFIN fühlte))(MF(PPER ich)(ART die)(NN Verpflichtung))(KOMMA ,)(NF(MF(ART die)(APPR bei)(ART den)(NN Wundinfectionskrankheiten)(APPR in)(ADJA thierischen)(NN Geweben)(ADJA aufgefundenen)(NN Bakterien)(ADJD photographisch))(VC(VVIZU ab¬<lb/>zubilden)))(KON und)(LK(VAFIN habe))(MF(PPER es)(APPR an)(NN Mühe))(KOMMA ,)(NF(MF(PDAT dieser)(NN Pflicht))(VC(VVIZU nachzukommen))(KOMMA ,)(MF(ADV auch)(PTKNEG nicht))(VC(VVINF fehlen)(VVINF lassen)))(PUNKT .))
+# text = Um so mehr fühlte ich die Verpflichtung , die bei den Wundinfectionskrankheiten in thierischen Geweben aufgefundenen Bakterien photographisch ab¬<lb/>zubilden und habe es an Mühe , dieser Pflicht nachzukommen , auch nicht fehlen lassen .
+1	Um	um	_	ADV	_	_	_	_	_	3180-3182	w185	Um	*	O
+2	so	so	_	ADV	_	_	_	_	_	3183-3185	w186	so	*	O
+3	mehr	mehr	_	ADV	_	_	_	_	_	3186-3190	w187	mehr	*	O
+4	fühlte	fühlen	_	VVFIN	_	_	_	_	_	3191-3197	w188	fühlte	*	B-LK
+5	ich	ich	_	PPER	_	_	_	_	_	3198-3201	w189	ich	*	O
+6	die	d	_	ART	_	_	_	_	_	3202-3205	w18a	die	*	O
+7	Verpflichtung	Verpflichtung	_	NN	_	_	_	_	_	3206-3219	w18b	Verpflichtung	*	O
+8	,	,	_	$,	_	_	_	_	_	3220-3221	w18c	,	*	O
+9	die	die	_	ART	_	_	_	_	_	3222-3225	w18d	die	*	O
+10	bei	bei	_	APPR	_	_	_	_	_	3226-3229	w18e	bei	*	O
+11	den	d	_	ART	_	_	_	_	_	3230-3233	w18f	den	*	O
+12	Wundinfectionskrankheiten	Wundeinfektionskrankheit	_	NN	_	_	_	_	_	3234-3259	w190	Wundinfektionskrankheiten	*	O
+13	in	in	_	APPR	_	_	_	_	_	3260-3262	w191	in	*	O
+14	thierischen	tierisch	_	ADJA	_	_	_	_	_	3263-3274	w192	tierischen	*	O
+15	Geweben	Gewebe	_	NN	_	_	_	_	_	3275-3282	w193	Geweben	*	O
+16	aufgefundenen	aufgefinden	_	ADJA	_	_	_	_	_	3283-3296	w194	aufgefundenen	*	O
+17	Bakterien	Bakterie	_	NN	_	_	_	_	_	3297-3306	w195	Bakterien	*	O
+18	photographisch	photographisch	_	ADJD	_	_	_	_	_	3307-3321	w196	photographisch	*	O
+19	ab¬<lb/>zubilden	abbilden	_	VVIZU	_	_	_	_	_	3322-3338	w197	abzubilden	*	B-RK
+20	und	und	_	KON	_	_	_	_	_	3339-3342	w198	und	*	O
+21	habe	haben	_	VAFIN	_	_	_	_	_	3343-3347	w199	habe	*	B-LK
+22	es	es	_	PPER	_	_	_	_	_	3348-3350	w19a	es	*	O
+23	an	an	_	APPR	_	_	_	_	_	3351-3353	w19b	an	*	O
+24	Mühe	Mühe	_	NN	_	_	_	_	_	3354-3358	w19c	Mühe	*	O
+25	,	,	_	$,	_	_	_	_	_	3359-3360	w19d	,	*	O
+26	dieser	diese	_	PDAT	_	_	_	_	_	3361-3367	w19e	dieser	*	O
+27	Pflicht	Pflicht	_	NN	_	_	_	_	_	3368-3375	w19f	Pflicht	*	O
+28	nachzukommen	nachkommen	_	VVIZU	_	_	_	_	_	3376-3388	w1a0	nachzukommen	*	B-RK
+29	,	,	_	$,	_	_	_	_	_	3389-3390	w1a1	,	*	O
+30	auch	auch	_	ADV	_	_	_	_	_	3391-3395	w1a2	auch	*	O
+31	nicht	nicht	_	PTKNEG	_	_	_	_	_	3396-3401	w1a3	nicht	*	O
+32	fehlen	fehlen	_	VVINF	_	_	_	_	_	3402-3408	w1a4	fehlen	*	B-RK
+33	lassen	lassen	_	VVINF	_	_	_	_	_	3409-3415	w1a5	lassen	*	I-RK
+34	.	.	_	$.	_	_	_	_	_	3416-3417	w1a6	.	*	O
+
+# sent_id = 28
+# sent_id(TSV) = 28
+# TopFString = (S(VF(ART Die)(ADJA kleinsten)(KON und)(ADV gerade)(ART die)(PTKA am)(ADJD meisten)(ADJA in¬<lb/>teressirenden)(NN Bakterien))(LK(VVFIN lassen))(MF(PRF sich)(ADV jedoch)(ADV nur)(APPR durch)(NN Färbung)(KON und)(NN Benutzung)(PPOSAT ihres)(NN Farbenbildes)(APPR in)(ADJA thierischen)(NN Geweben)(ADJD sichtbar))(VC(VVINF machen))(KON und)(VF(PPER es))(LK(VAFIN hat))(MF(APPR in)(PDAT diesem)(NN Falle)(ART die)(ADJA photographische)(NN Aufnahme)(APPR mit)(PDAT denselben)(NN Schwierigkeiten))(VC(PTKZU zu)(VVINF thun))(KOMMA ,)(VF(KOKOM wie)(APPR bei)(ART der)(NN Photographie)(ADJA makroskopischer)(ADJA gefärbter)(NN Objekte))(MF(APPRART z.)(NN B.)(ART eines)(ADJA farbigen)(NN Tapeten¬<lb/>musters))(PUNKT .))
+# text = Die kleinsten und gerade die am meisten in¬<lb/>teressirenden Bakterien lassen sich jedoch nur durch Färbung und Benutzung ihres Farbenbildes in thierischen Geweben sichtbar machen und es hat in diesem Falle die photographische Aufnahme mit denselben Schwierigkeiten zu thun , wie bei der Photographie makroskopischer gefärbter Objekte z. B. eines farbigen Tapeten¬<lb/>musters .
+1	Die	d	_	ART	_	_	_	_	_	3419-3422	w1a7	Die	*	O
+2	kleinsten	klein	_	ADJA	_	_	_	_	_	3423-3432	w1a8	kleinsten	*	O
+3	und	und	_	KON	_	_	_	_	_	3433-3436	w1a9	und	*	O
+4	gerade	gerade	_	ADV	_	_	_	_	_	3437-3443	w1aa	gerade	*	O
+5	die	d	_	ART	_	_	_	_	_	3444-3447	w1ab	die	*	O
+6	am	am	_	PTKA	_	_	_	_	_	3448-3450	w1ac	am	*	O
+7	meisten	meiste	_	ADJD	_	_	_	_	_	3451-3458	w1ad	meisten	*	O
+8	in¬<lb/>teressirenden	interessierend	_	ADJA	_	_	_	_	_	3459-3480	w1ae	interessierenden	*	O
+9	Bakterien	Bakterie	_	NN	_	_	_	_	_	3481-3490	w1af	Bakterien	*	O
+10	lassen	lassen	_	VVFIN	_	_	_	_	_	3491-3497	w1b0	lassen	*	B-LK
+11	sich	sich	_	PRF	_	_	_	_	_	3498-3502	w1b1	sich	*	O
+12	jedoch	jedoch	_	ADV	_	_	_	_	_	3503-3509	w1b2	jedoch	*	O
+13	nur	nur	_	ADV	_	_	_	_	_	3510-3513	w1b3	nur	*	O
+14	durch	durch	_	APPR	_	_	_	_	_	3514-3519	w1b4	durch	*	O
+15	Färbung	Färbung	_	NN	_	_	_	_	_	3520-3527	w1b5	Färbung	*	O
+16	und	und	_	KON	_	_	_	_	_	3528-3531	w1b6	und	*	O
+17	Benutzung	Benutzung	_	NN	_	_	_	_	_	3532-3541	w1b7	Benutzung	*	O
+18	ihres	ihr	_	PPOSAT	_	_	_	_	_	3542-3547	w1b8	ihres	*	O
+19	Farbenbildes	Farbenbild	_	NN	_	_	_	_	_	3548-3560	w1b9	Farbenbildes	*	O
+20	in	in	_	APPR	_	_	_	_	_	3561-3563	w1ba	in	*	O
+21	thierischen	tierisch	_	ADJA	_	_	_	_	_	3564-3575	w1bb	tierischen	*	O
+22	Geweben	Gewebe	_	NN	_	_	_	_	_	3576-3583	w1bc	Geweben	*	O
+23	sichtbar	sichtbar	_	ADJD	_	_	_	_	_	3584-3592	w1bd	sichtbar	*	O
+24	machen	machen	_	VVINF	_	_	_	_	_	3593-3599	w1be	machen	*	B-RK
+25	und	und	_	KON	_	_	_	_	_	3600-3603	w1bf	und	*	O
+26	es	es	_	PPER	_	_	_	_	_	3604-3606	w1c0	es	*	O
+27	hat	haben	_	VAFIN	_	_	_	_	_	3607-3610	w1c1	hat	*	B-LK
+28	in	in	_	APPR	_	_	_	_	_	3611-3613	w1c2	in	*	O
+29	diesem	diese	_	PDAT	_	_	_	_	_	3614-3620	w1c3	diesem	*	O
+30	Falle	Falle	_	NN	_	_	_	_	_	3621-3626	w1c4	Falle	*	O
+31	die	d	_	ART	_	_	_	_	_	3627-3630	w1c5	die	*	O
+32	photographische	photographisch	_	ADJA	_	_	_	_	_	3631-3646	w1c6	photographische	*	O
+33	Aufnahme	Aufnahme	_	NN	_	_	_	_	_	3647-3655	w1c7	Aufnahme	*	O
+34	mit	mit	_	APPR	_	_	_	_	_	3656-3659	w1c8	mit	*	O
+35	denselben	denselben	_	PDAT	_	_	_	_	_	3660-3669	w1c9	denselben	*	O
+36	Schwierigkeiten	Schwierigkeit	_	NN	_	_	_	_	_	3670-3685	w1ca	Schwierigkeiten	*	O
+37	zu	zu	_	PTKZU	_	_	_	_	_	3686-3688	w1cb	zu	*	B-RK
+38	thun	tun	_	VVINF	_	_	_	_	_	3689-3693	w1cc	tun	*	I-RK
+39	,	,	_	$,	_	_	_	_	_	3694-3695	w1cd	,	*	O
+40	wie	wie	_	KOKOM	_	_	_	_	_	3696-3699	w1ce	wie	*	O
+41	bei	bei	_	APPR	_	_	_	_	_	3700-3703	w1cf	bei	*	O
+42	der	d	_	ART	_	_	_	_	_	3704-3707	w1d0	der	*	O
+43	Photographie	Photographie	_	NN	_	_	_	_	_	3708-3720	w1d1	Photographie	*	O
+44	makroskopischer	makroskopisch	_	ADJA	_	_	_	_	_	3721-3736	w1d2	makroskopischer	*	O
+45	gefärbter	gefärbt	_	ADJA	_	_	_	_	_	3737-3746	w1d3	gefärbter	*	O
+46	Objekte	Objekt	_	NN	_	_	_	_	_	3747-3754	w1d4	Objekte	*	O
+47	z.	z.	_	APPRART	_	_	_	_	_	3755-3757	w1d5	z.	*	O
+48	B.	B.	_	NN	_	_	_	_	_	3758-3760	w1d6	B.	*	O
+49	eines	eine	_	ART	_	_	_	_	_	3761-3766	w1d7	eines	*	O
+50	farbigen	farbig	_	ADJA	_	_	_	_	_	3767-3775	w1d8	farbigen	*	O
+51	Tapeten¬<lb/>musters	Tapetenmuster	_	NN	_	_	_	_	_	3776-3796	w1d9	Tapetenmusters	*	O
+52	.	.	_	$.	_	_	_	_	_	3797-3798	w1da	.	*	O
+
+# sent_id = 29
+# sent_id(TSV) = 29
+# TopFString = (S(VF(ADV Bekanntlich))(LK(VAFIN hat))(MF(PIS man)(PDAT diese)(NN Aufgabe)(APPR mit)(NN Hülfe)(ADJA gefärbter)(NN Collodien))(VC(VVPP gelöst))(PUNKT .))
+# text = Bekanntlich hat man diese Aufgabe mit Hülfe gefärbter Collodien gelöst .
+1	Bekanntlich	bekanntlich	_	ADV	_	_	_	_	_	3800-3811	w1db	Bekanntlich	*	O
+2	hat	haben	_	VAFIN	_	_	_	_	_	3812-3815	w1dc	hat	*	B-LK
+3	man	man	_	PIS	_	_	_	_	_	3816-3819	w1dd	man	*	O
+4	diese	diese	_	PDAT	_	_	_	_	_	3820-3825	w1de	diese	*	O
+5	Aufgabe	Aufgabe	_	NN	_	_	_	_	_	3826-3833	w1df	Aufgabe	*	O
+6	mit	mit	_	APPR	_	_	_	_	_	3834-3837	w1e0	mit	*	O
+7	Hülfe	Hilfe	_	NN	_	_	_	_	_	3838-3843	w1e1	Hilfe	*	O
+8	gefärbter	gefärbt	_	ADJA	_	_	_	_	_	3844-3853	w1e2	gefärbter	*	O
+9	Collodien	Collodien	_	NN	_	_	_	_	_	3854-3863	w1e3	Collodien	*	O
+10	gelöst	lösen	_	VVPP	_	_	_	_	_	3864-3870	w1e4	gelöst	*	B-RK
+11	.	.	_	$.	_	_	_	_	_	3871-3872	w1e5	.	*	O
+
+# sent_id = 30
+# sent_id(TSV) = 30
+# TopFString = (S(VF(PDS Dies))(LK(VVFIN veranlasste))(MF(PPER mich))(KOMMA ,)(NF(MF(PDAT dasselbe)(NN Verfahren)(APPRART zum)(NN Photographiren)(ART der)(ADJA gefärbten)(NN Bakterien))(VC(PTKZU zu)(VVINF verwenden)))(KON und)(VF(PPER es))(LK(VAFIN ist))(MF(PPER mir)(APPR in)(ART der)(NN That))(VC(VVPP gelungen))(KOMMA ,)(NF(MF(APPR mit)(NN Eosincollodium)(KON und)(NN Abblendung)(ADJA einzelner)(NN Theile)(ART des)(NN Spektrums)(APPR durch)(ADJA farbige)(NN Gläser)(NN Bilder)(APPR von)(APPR mit)(ADJA blauer)(KON und)(ADJA rother)(NN Anilinfarbe)(ADJA gefärbten)(NN Bakterien))(VC(PTKZU zu)(VVINF erhalten)))(PUNKT .))
+# text = Dies veranlasste mich , dasselbe Verfahren zum Photographiren der gefärbten Bakterien zu verwenden und es ist mir in der That gelungen , mit Eosincollodium und Abblendung einzelner Theile des Spektrums durch farbige Gläser Bilder von mit blauer und rother Anilinfarbe gefärbten Bakterien zu erhalten .
+1	Dies	diese	_	PDS	_	_	_	_	_	3874-3878	w1e6	Dies	*	O
+2	veranlasste	veranlassen	_	VVFIN	_	_	_	_	_	3879-3890	w1e7	veranlasste	*	B-LK
+3	mich	ich	_	PPER	_	_	_	_	_	3891-3895	w1e8	mich	*	O
+4	,	,	_	$,	_	_	_	_	_	3896-3897	w1e9	,	*	O
+5	dasselbe	dasselbe	_	PDAT	_	_	_	_	_	3898-3906	w1ea	dasselbe	*	O
+6	Verfahren	Verfahren	_	NN	_	_	_	_	_	3907-3916	w1eb	Verfahren	*	O
+7	zum	zum	_	APPRART	_	_	_	_	_	3917-3920	w1ec	zum	*	O
+8	Photographiren	fotografieren	_	NN	_	_	_	_	_	3921-3935	w1ed	fotografieren	*	O
+9	der	d	_	ART	_	_	_	_	_	3936-3939	w1ee	der	*	O
+10	gefärbten	gefärbt	_	ADJA	_	_	_	_	_	3940-3949	w1ef	gefärbten	*	O
+11	Bakterien	Bakterie	_	NN	_	_	_	_	_	3950-3959	w1f0	Bakterien	*	O
+12	zu	zu	_	PTKZU	_	_	_	_	_	3960-3962	w1f1	zu	*	B-RK
+13	verwenden	verwenden	_	VVINF	_	_	_	_	_	3963-3972	w1f2	verwenden	*	I-RK
+14	und	und	_	KON	_	_	_	_	_	3973-3976	w1f3	und	*	O
+15	es	es	_	PPER	_	_	_	_	_	3977-3979	w1f4	es	*	O
+16	ist	sein	_	VAFIN	_	_	_	_	_	3980-3983	w1f5	ist	*	B-LK
+17	mir	ich	_	PPER	_	_	_	_	_	3984-3987	w1f6	mir	*	O
+18	in	in	_	APPR	_	_	_	_	_	3988-3990	w1f7	in	*	O
+19	der	d	_	ART	_	_	_	_	_	3991-3994	w1f8	der	*	O
+20	That	Tat	_	NN	_	_	_	_	_	3995-3999	w1f9	Tat	*	O
+21	gelungen	gelingen	_	VVPP	_	_	_	_	_	4000-4008	w1fa	gelungen	*	B-RK
+22	,	,	_	$,	_	_	_	_	_	4009-4010	w1fb	,	*	O
+23	mit	mit	_	APPR	_	_	_	_	_	4011-4014	w1fc	mit	*	O
+24	Eosincollodium	Eosincollodium	_	NN	_	_	_	_	_	4015-4029	w1fd	Eosincollodium	*	O
+25	und	und	_	KON	_	_	_	_	_	4030-4033	w1fe	und	*	O
+26	Abblendung	Abblendung	_	NN	_	_	_	_	_	4034-4044	w1ff	Abblendung	*	O
+27	einzelner	einzeln	_	ADJA	_	_	_	_	_	4045-4054	w200	einzelner	*	O
+28	Theile	Teil	_	NN	_	_	_	_	_	4055-4061	w201	Teile	*	O
+29	des	d	_	ART	_	_	_	_	_	4062-4065	w202	des	*	O
+30	Spektrums	Spektrum	_	NN	_	_	_	_	_	4066-4075	w203	Spektrums	*	O
+31	durch	durch	_	APPR	_	_	_	_	_	4076-4081	w204	durch	*	O
+32	farbige	farbig	_	ADJA	_	_	_	_	_	4082-4089	w205	farbige	*	O
+33	Gläser	Glas	_	NN	_	_	_	_	_	4090-4096	w206	Gläser	*	O
+34	Bilder	Bild	_	NN	_	_	_	_	_	4097-4103	w207	Bilder	*	O
+35	von	von	_	APPR	_	_	_	_	_	4104-4107	w208	von	*	O
+36	mit	mit	_	APPR	_	_	_	_	_	4108-4111	w209	mit	*	O
+37	blauer	blau	_	ADJA	_	_	_	_	_	4112-4118	w20a	blauer	*	O
+38	und	und	_	KON	_	_	_	_	_	4119-4122	w20b	und	*	O
+39	rother	rot	_	ADJA	_	_	_	_	_	4123-4129	w20c	roter	*	O
+40	Anilinfarbe	Anilinfarbe	_	NN	_	_	_	_	_	4130-4141	w20d	Anilinfarbe	*	O
+41	gefärbten	gefärbt	_	ADJA	_	_	_	_	_	4142-4151	w20e	gefärbten	*	O
+42	Bakterien	Bakterie	_	NN	_	_	_	_	_	4152-4161	w20f	Bakterien	*	O
+43	zu	zu	_	PTKZU	_	_	_	_	_	4162-4164	w210	zu	*	B-RK
+44	erhalten	erhalten	_	VVINF	_	_	_	_	_	4165-4173	w211	erhalten	*	I-RK
+45	.	.	_	$.	_	_	_	_	_	4174-4175	w212	.	*	O
+
+# sent_id = 31
+# sent_id(TSV) = 31
+# TopFString = (S(KOORD(KON Doch))(LK(VAFIN ist))(MF(ART eine)(ADV so)(ADJA lange)(NN Belichtungszeit)(ADJD erforderlich))(KOMMA ,)(NF(C(KOUS dass))(FKOORD(FKONJ(MF(ADJA störende)(NN Erschütterungen)(ART des)(NN Apparates)(ADV gar)(PTKNEG nicht))(VC(PTKZU zu)(VVINF vermeiden)(VAFIN sind)))(KON und)(FKONJ(MF(PAV deswegen)(ART das)(NN Bild)(ART der)(ADJA genügenden)(NN Schärfe))(VC(VVPP entbehrt))(KOMMA ,)(NF(C(KOUI um))(MF(PPER es)(PTKNEG nicht)(ADV allein)(KOKOM als)(NN Ersatz)(APPR für)(ART eine)(NN Zeichnung)(KOMMA ,)(KON sondern)(ADV auch)(KOKOM als)(NN Beweismittel)(APPR für)(ART das)(NN Gesehene))(VC(VVINF benutzen)(PTKZU zu)(VMINF können))))))(PUNKT .))
+# text = Doch ist eine so lange Belichtungszeit erforderlich , dass störende Erschütterungen des Apparates gar nicht zu vermeiden sind und deswegen das Bild der genügenden Schärfe entbehrt , um es nicht allein als Ersatz für eine Zeichnung , sondern auch als Beweismittel für das Gesehene benutzen zu können .
+1	Doch	doch	_	KON	_	_	_	_	_	4177-4181	w213	Doch	*	O
+2	ist	sein	_	VAFIN	_	_	_	_	_	4182-4185	w214	ist	*	B-LK
+3	eine	eine	_	ART	_	_	_	_	_	4186-4190	w215	eine	*	O
+4	so	so	_	ADV	_	_	_	_	_	4191-4193	w216	so	*	O
+5	lange	lang	_	ADJA	_	_	_	_	_	4194-4199	w217	lange	*	O
+6	Belichtungszeit	Belichtungszeit	_	NN	_	_	_	_	_	4200-4215	w218	Belichtungszeit	*	O
+7	erforderlich	erforderlich	_	ADJD	_	_	_	_	_	4216-4228	w219	erforderlich	*	O
+8	,	,	_	$,	_	_	_	_	_	4229-4230	w21a	,	*	O
+9	dass	dass	_	KOUS	_	_	_	_	_	4231-4235	w21b	dass	*	B-LK
+10	störende	störend	_	ADJA	_	_	_	_	_	4236-4244	w21c	störende	*	O
+11	Erschütterungen	Erschütterung	_	NN	_	_	_	_	_	4245-4260	w21d	Erschütterungen	*	O
+12	des	d	_	ART	_	_	_	_	_	4261-4264	w21e	des	*	O
+13	Apparates	Apparat	_	NN	_	_	_	_	_	4265-4274	w21f	Apparates	*	O
+14	gar	gar	_	ADV	_	_	_	_	_	4275-4278	w220	gar	*	O
+15	nicht	nicht	_	PTKNEG	_	_	_	_	_	4279-4284	w221	nicht	*	O
+16	zu	zu	_	PTKZU	_	_	_	_	_	4285-4287	w222	zu	*	B-RK
+17	vermeiden	vermeiden	_	VVINF	_	_	_	_	_	4288-4297	w223	vermeiden	*	I-RK
+18	sind	sein	_	VAFIN	_	_	_	_	_	4298-4302	w224	sind	*	I-RK
+19	und	und	_	KON	_	_	_	_	_	4303-4306	w225	und	*	O
+20	deswegen	deswegen	_	PAV	_	_	_	_	_	4307-4315	w226	deswegen	*	O
+21	das	d	_	ART	_	_	_	_	_	4316-4319	w227	das	*	O
+22	Bild	Bild	_	NN	_	_	_	_	_	4320-4324	w228	Bild	*	O
+23	der	d	_	ART	_	_	_	_	_	4325-4328	w229	der	*	O
+24	genügenden	genügend	_	ADJA	_	_	_	_	_	4329-4339	w22a	genügenden	*	O
+25	Schärfe	Schärfe	_	NN	_	_	_	_	_	4340-4347	w22b	Schärfe	*	O
+26	entbehrt	entbehren	_	VVPP	_	_	_	_	_	4348-4356	w22c	entbehrt	*	B-RK
+27	,	,	_	$,	_	_	_	_	_	4357-4358	w22d	,	*	O
+28	um	um	_	KOUI	_	_	_	_	_	4359-4361	w22e	um	*	B-LK
+29	es	es	_	PPER	_	_	_	_	_	4362-4364	w22f	es	*	O
+30	nicht	nicht	_	PTKNEG	_	_	_	_	_	4365-4370	w230	nicht	*	O
+31	allein	allein	_	ADV	_	_	_	_	_	4371-4377	w231	allein	*	O
+32	als	als	_	KOKOM	_	_	_	_	_	4378-4381	w232	als	*	O
+33	Ersatz	Ersatz	_	NN	_	_	_	_	_	4382-4388	w233	Ersatz	*	O
+34	für	für	_	APPR	_	_	_	_	_	4389-4392	w234	für	*	O
+35	eine	eine	_	ART	_	_	_	_	_	4393-4397	w235	eine	*	O
+36	Zeichnung	Zeichnung	_	NN	_	_	_	_	_	4398-4407	w236	Zeichnung	*	O
+37	,	,	_	$,	_	_	_	_	_	4408-4409	w237	,	*	O
+38	sondern	sondern	_	KON	_	_	_	_	_	4410-4417	w238	sondern	*	O
+39	auch	auch	_	ADV	_	_	_	_	_	4418-4422	w239	auch	*	O
+40	als	als	_	KOKOM	_	_	_	_	_	4423-4426	w23a	als	*	O
+41	Beweismittel	Beweismittel	_	NN	_	_	_	_	_	4427-4439	w23b	Beweismittel	*	O
+42	für	für	_	APPR	_	_	_	_	_	4440-4443	w23c	für	*	O
+43	das	d	_	ART	_	_	_	_	_	4444-4447	w23d	das	*	O
+44	Gesehene	Gesehene	_	NN	_	_	_	_	_	4448-4456	w23e	Gesehene	*	O
+45	benutzen	benutzen	_	VVINF	_	_	_	_	_	4457-4465	w23f	benutzen	*	B-RK
+46	zu	zu	_	PTKZU	_	_	_	_	_	4466-4468	w240	zu	*	I-RK
+47	können	können	_	VMINF	_	_	_	_	_	4469-4475	w241	können	*	I-RK
+48	.	.	_	$.	_	_	_	_	_	4476-4477	w242	.	*	O
+
+# sent_id = 32
+# sent_id(TSV) = 32
+# TopFString = (S(VF(VF(ADJD Vorläufig))(LK(VMFIN musste))(MF(PPER ich)(PAV da¬<lb/>her)(APPR auf)(ART die)(NN Veröffentlichung)(ADJA photographischer)(NN Abbildungen))(VC(VVINF ver¬<lb/>zichten)))(KOMMA ,)(LK(VVFIN hoffe))(MF(ADV aber)(ADV noch)(ADV später))(KOMMA ,)(NF(C(KOUS wenn))(MF(ADJA verbesserte)(NN Methoden)(ART eine)(ADJA kürzere)(NN Exposition))(VC(VVINF gestatten))(KOMMA ,)(NF(MF(PDAT diesen)(NN Mangel))(VC(VVINF ersetzen)(PTKZU zu)(VMINF können))))(PUNKT .))
+# text = Vorläufig musste ich da¬<lb/>her auf die Veröffentlichung photographischer Abbildungen ver¬<lb/>zichten , hoffe aber noch später , wenn verbesserte Methoden eine kürzere Exposition gestatten , diesen Mangel ersetzen zu können .
+1	Vorläufig	vorläufig	_	ADJD	_	_	_	_	_	4479-4488	w243	Vorläufig	*	O
+2	musste	müssen	_	VMFIN	_	_	_	_	_	4489-4495	w244	musste	*	B-LK
+3	ich	ich	_	PPER	_	_	_	_	_	4496-4499	w245	ich	*	O
+4	da¬<lb/>her	daher	_	PAV	_	_	_	_	_	4500-4511	w246	daher	*	O
+5	auf	auf	_	APPR	_	_	_	_	_	4512-4515	w247	auf	*	O
+6	die	d	_	ART	_	_	_	_	_	4516-4519	w248	die	*	O
+7	Veröffentlichung	Veröffentlichung	_	NN	_	_	_	_	_	4520-4536	w249	Veröffentlichung	*	O
+8	photographischer	photographisch	_	ADJA	_	_	_	_	_	4537-4553	w24a	photographischer	*	O
+9	Abbildungen	Abbildung	_	NN	_	_	_	_	_	4554-4565	w24b	Abbildungen	*	O
+10	ver¬<lb/>zichten	verzichten	_	VVINF	_	_	_	_	_	4566-4582	w24c	verzichten	*	B-RK
+11	,	,	_	$,	_	_	_	_	_	4583-4584	w24d	,	*	O
+12	hoffe	hoffen	_	VVFIN	_	_	_	_	_	4585-4590	w24e	hoffe	*	B-LK
+13	aber	aber	_	ADV	_	_	_	_	_	4591-4595	w24f	aber	*	O
+14	noch	noch	_	ADV	_	_	_	_	_	4596-4600	w250	noch	*	O
+15	später	spät	_	ADV	_	_	_	_	_	4601-4607	w251	später	*	O
+16	,	,	_	$,	_	_	_	_	_	4608-4609	w252	,	*	O
+17	wenn	wenn	_	KOUS	_	_	_	_	_	4610-4614	w253	wenn	*	B-LK
+18	verbesserte	verbessert	_	ADJA	_	_	_	_	_	4615-4626	w254	verbesserte	*	O
+19	Methoden	Methode	_	NN	_	_	_	_	_	4627-4635	w255	Methoden	*	O
+20	eine	eine	_	ART	_	_	_	_	_	4636-4640	w256	eine	*	O
+21	kürzere	kurz	_	ADJA	_	_	_	_	_	4641-4648	w257	kürzere	*	O
+22	Exposition	exposition	_	NN	_	_	_	_	_	4649-4659	w258	Exposition	*	O
+23	gestatten	gestatten	_	VVINF	_	_	_	_	_	4660-4669	w259	gestatten	*	B-RK
+24	,	,	_	$,	_	_	_	_	_	4670-4671	w25a	,	*	O
+25	diesen	diese	_	PDAT	_	_	_	_	_	4672-4678	w25b	diesen	*	O
+26	Mangel	Mangel	_	NN	_	_	_	_	_	4679-4685	w25c	Mangel	*	O
+27	ersetzen	ersetzen	_	VVINF	_	_	_	_	_	4686-4694	w25d	ersetzen	*	B-RK
+28	zu	zu	_	PTKZU	_	_	_	_	_	4695-4697	w25e	zu	*	I-RK
+29	können	können	_	VMINF	_	_	_	_	_	4698-4704	w25f	können	*	I-RK
+30	.	.	_	$.	_	_	_	_	_	4705-4706	w260	.	*	O
+
+# sent_id = 33
+# sent_id(TSV) = 33
+# TopFString = (S(VF(KOKOM Als)(NN Wundinfectionskrankheiten))(LK(VVFIN bezeichnet))(MF(PIS man)(ADV heutzutage)(ART eine)(NN Gruppe)(APPR von)(NN Krankheiten))(NF(C(PRELS die))(FKOORD(FKONJ(MF(PIS man)(ADJD früher)(ADJA perniciöses)(NN Wundfieber)(KOMMA ,)(ADJA purulente)(NN Infection)(KOMMA ,)(ADJA putride)(NN Infection)(KOMMA ,)(NN Septicämie)(KOMMA ,)(NN Pyämie))(VC(VVFIN nannte)))(KON oder)(FKONJ(MF(ADV auch))(KOMMA ,)(NF(C(KOUS als))(MF(PRF sich)(ART die)(NN Ansicht)(ADJD geltend))(VC(VVFIN machte))(KOMMA ,)(NF(C(KOUS dass))(FKOORD(FKONJ(MF(ADJA verschiedene)(ADJA ähnliche)(NN Krankheiten)(PAV hierhin))(VC(VVFIN gehören)))(KOMMA ,)(FKONJ(MF(APPR unter)(ART dem)(NN Ausdruck)(ADJA py¬<lb/>ämische)(KON oder)(ADJA septicämische)(NN Processe))(VC(VVFIN zusammenfasste)))))))))(PUNKT .))
+# text = Als Wundinfectionskrankheiten bezeichnet man heutzutage eine Gruppe von Krankheiten die man früher perniciöses Wundfieber , purulente Infection , putride Infection , Septicämie , Pyämie nannte oder auch , als sich die Ansicht geltend machte , dass verschiedene ähnliche Krankheiten hierhin gehören , unter dem Ausdruck py¬<lb/>ämische oder septicämische Processe zusammenfasste .
+1	Als	als	_	KOKOM	_	_	_	_	_	4708-4711	w261	Als	*	O
+2	Wundinfectionskrankheiten	Wundeinfektionskrankheit	_	NN	_	_	_	_	_	4712-4737	w262	Wundinfektionskrankheiten	*	O
+3	bezeichnet	bezeichnen	_	VVFIN	_	_	_	_	_	4738-4748	w263	bezeichnet	*	B-LK
+4	man	man	_	PIS	_	_	_	_	_	4749-4752	w264	man	*	O
+5	heutzutage	heutzutage	_	ADV	_	_	_	_	_	4753-4763	w265	heutzutage	*	O
+6	eine	eine	_	ART	_	_	_	_	_	4764-4768	w266	eine	*	O
+7	Gruppe	Gruppe	_	NN	_	_	_	_	_	4769-4775	w267	Gruppe	*	O
+8	von	von	_	APPR	_	_	_	_	_	4776-4779	w268	von	*	O
+9	Krankheiten	Krankheit	_	NN	_	_	_	_	_	4780-4791	w269	Krankheiten	*	O
+10	die	d	_	PRELS	_	_	_	_	_	4792-4795	w26a	die	*	B-LK
+11	man	man	_	PIS	_	_	_	_	_	4796-4799	w26b	man	*	O
+12	früher	früh	_	ADJD	_	_	_	_	_	4800-4806	w26c	früher	*	O
+13	perniciöses	perniziös	_	ADJA	_	_	_	_	_	4807-4818	w26d	perniziöses	*	O
+14	Wundfieber	Wundefieber	_	NN	_	_	_	_	_	4819-4829	w26e	Wundfieber	*	O
+15	,	,	_	$,	_	_	_	_	_	4830-4831	w26f	,	*	O
+16	purulente	purulent	_	ADJA	_	_	_	_	_	4832-4841	w270	purulente	*	O
+17	Infection	Infektion	_	NN	_	_	_	_	_	4842-4851	w271	Infektion	*	O
+18	,	,	_	$,	_	_	_	_	_	4852-4853	w272	,	*	O
+19	putride	putrid	_	ADJA	_	_	_	_	_	4854-4861	w273	putride	*	O
+20	Infection	Infektion	_	NN	_	_	_	_	_	4862-4871	w274	Infektion	*	O
+21	,	,	_	$,	_	_	_	_	_	4872-4873	w275	,	*	O
+22	Septicämie	Septicämie	_	NN	_	_	_	_	_	4874-4884	w276	Septicämie	*	O
+23	,	,	_	$,	_	_	_	_	_	4885-4886	w277	,	*	O
+24	Pyämie	Pyämie	_	NN	_	_	_	_	_	4887-4893	w278	Pyämie	*	O
+25	nannte	nennen	_	VVFIN	_	_	_	_	_	4894-4900	w279	nannte	*	B-RK
+26	oder	oder	_	KON	_	_	_	_	_	4901-4905	w27a	oder	*	O
+27	auch	auch	_	ADV	_	_	_	_	_	4906-4910	w27b	auch	*	O
+28	,	,	_	$,	_	_	_	_	_	4911-4912	w27c	,	*	O
+29	als	als	_	KOUS	_	_	_	_	_	4913-4916	w27d	als	*	B-LK
+30	sich	sich	_	PRF	_	_	_	_	_	4917-4921	w27e	sich	*	O
+31	die	d	_	ART	_	_	_	_	_	4922-4925	w27f	die	*	O
+32	Ansicht	Ansicht	_	NN	_	_	_	_	_	4926-4933	w280	Ansicht	*	O
+33	geltend	geltend	_	ADJD	_	_	_	_	_	4934-4941	w281	geltend	*	O
+34	machte	machen	_	VVFIN	_	_	_	_	_	4942-4948	w282	machte	*	B-RK
+35	,	,	_	$,	_	_	_	_	_	4949-4950	w283	,	*	O
+36	dass	dass	_	KOUS	_	_	_	_	_	4951-4955	w284	dass	*	B-LK
+37	verschiedene	verschieden	_	ADJA	_	_	_	_	_	4956-4968	w285	verschiedene	*	O
+38	ähnliche	ähnlich	_	ADJA	_	_	_	_	_	4969-4977	w286	ähnliche	*	O
+39	Krankheiten	Krankheit	_	NN	_	_	_	_	_	4978-4989	w287	Krankheiten	*	O
+40	hierhin	hierhin	_	PAV	_	_	_	_	_	4990-4997	w288	hierhin	*	O
+41	gehören	gehören	_	VVFIN	_	_	_	_	_	4998-5005	w289	gehören	*	B-RK
+42	,	,	_	$,	_	_	_	_	_	5006-5007	w28a	,	*	O
+43	unter	unter	_	APPR	_	_	_	_	_	5008-5013	w28b	unter	*	O
+44	dem	d	_	ART	_	_	_	_	_	5014-5017	w28c	dem	*	O
+45	Ausdruck	Ausdruck	_	NN	_	_	_	_	_	5018-5026	w28d	Ausdruck	*	O
+46	py¬<lb/>ämische	Pyämische	_	ADJA	_	_	_	_	_	5027-5042	w28e	pyämische	*	O
+47	oder	oder	_	KON	_	_	_	_	_	5043-5047	w28f	oder	*	O
+48	septicämische	Septikämische	_	ADJA	_	_	_	_	_	5048-5061	w290	septikämische	*	O
+49	Processe	Prozeß	_	NN	_	_	_	_	_	5062-5070	w291	Prozesse	*	O
+50	zusammenfasste	zusammenfassen	_	VVFIN	_	_	_	_	_	5071-5085	w292	zusammenfasste	*	B-RK
+51	.	.	_	$.	_	_	_	_	_	5086-5087	w293	.	*	O
+
+# sent_id = 34
+# sent_id(TSV) = 34
+# TopFString = (S(VF(MF(ADJD Streng))(VC(VVPP genommen)))(LK(VMFIN müsste))(MF(PIS man)(PAV dazu)(PIAT alle)(PDAT diejenigen)(NN Krank¬<lb/>heiten))(VC(VVINF rechnen))(KOMMA ,)(NF(C(PRELS welche))(MF(ART eine)(NN Folge)(APPR von)(NN Verwundungen)(KOMMA ,)(ADV selbst)(ART der)(ADJA kleinsten)(KOMMA ,)(APPRART z.)(NN B.)(NN Stichen)(ART einer)(NN Impfnadel))(VC(VAFIN sind))(KON und)(C(PRELAT deren)(NN An¬<lb/>steckungsfähigkeit))(MF(APPR durch)(ADJA klinische)(NN Beobachtung)(KON oder)(APPR durch)(ART das)(NN Experiment)(APPR mit)(NN Sicherheit))(VC(VVPP erwiesen)(VAFIN ist)))(PUNKT .))
+# text = Streng genommen müsste man dazu alle diejenigen Krank¬<lb/>heiten rechnen , welche eine Folge von Verwundungen , selbst der kleinsten , z. B. Stichen einer Impfnadel sind und deren An¬<lb/>steckungsfähigkeit durch klinische Beobachtung oder durch das Experiment mit Sicherheit erwiesen ist .
+1	Streng	streng	_	ADJD	_	_	_	_	_	5089-5095	w294	Streng	*	O
+2	genommen	nehmen	_	VVPP	_	_	_	_	_	5096-5104	w295	genommen	*	B-RK
+3	müsste	müssen	_	VMFIN	_	_	_	_	_	5105-5111	w296	müsste	*	B-LK
+4	man	man	_	PIS	_	_	_	_	_	5112-5115	w297	man	*	O
+5	dazu	dazu	_	PAV	_	_	_	_	_	5116-5120	w298	dazu	*	O
+6	alle	alle	_	PIAT	_	_	_	_	_	5121-5125	w299	alle	*	O
+7	diejenigen	diejenige	_	PDAT	_	_	_	_	_	5126-5136	w29a	diejenigen	*	O
+8	Krank¬<lb/>heiten	Krankheit	_	NN	_	_	_	_	_	5137-5154	w29b	Krankheiten	*	O
+9	rechnen	rechnen	_	VVINF	_	_	_	_	_	5155-5162	w29c	rechnen	*	B-RK
+10	,	,	_	$,	_	_	_	_	_	5163-5164	w29d	,	*	O
+11	welche	welche	_	PRELS	_	_	_	_	_	5165-5171	w29e	welche	*	B-LK
+12	eine	eine	_	ART	_	_	_	_	_	5172-5176	w29f	eine	*	O
+13	Folge	Folge	_	NN	_	_	_	_	_	5177-5182	w2a0	Folge	*	O
+14	von	von	_	APPR	_	_	_	_	_	5183-5186	w2a1	von	*	O
+15	Verwundungen	Verwundung	_	NN	_	_	_	_	_	5187-5199	w2a2	Verwundungen	*	O
+16	,	,	_	$,	_	_	_	_	_	5200-5201	w2a3	,	*	O
+17	selbst	selbst	_	ADV	_	_	_	_	_	5202-5208	w2a4	selbst	*	O
+18	der	d	_	ART	_	_	_	_	_	5209-5212	w2a5	der	*	O
+19	kleinsten	klein	_	ADJA	_	_	_	_	_	5213-5222	w2a6	kleinsten	*	O
+20	,	,	_	$,	_	_	_	_	_	5223-5224	w2a7	,	*	O
+21	z.	z.	_	APPRART	_	_	_	_	_	5225-5227	w2a8	z.	*	O
+22	B.	B.	_	NN	_	_	_	_	_	5228-5230	w2a9	B.	*	O
+23	Stichen	Stich	_	NN	_	_	_	_	_	5231-5238	w2aa	Stichen	*	O
+24	einer	eine	_	ART	_	_	_	_	_	5239-5244	w2ab	einer	*	O
+25	Impfnadel	Impfnadel	_	NN	_	_	_	_	_	5245-5254	w2ac	Impfnadel	*	O
+26	sind	sein	_	VAFIN	_	_	_	_	_	5255-5259	w2ad	sind	*	B-RK
+27	und	und	_	KON	_	_	_	_	_	5260-5263	w2ae	und	*	O
+28	deren	die	_	PRELAT	_	_	_	_	_	5264-5269	w2af	deren	*	B-LK
+29	An¬<lb/>steckungsfähigkeit	Ansteckungsfähigkeit	_	NN	_	_	_	_	_	5270-5296	w2b0	Ansteckungsfähigkeit	*	I-LK
+30	durch	durch	_	APPR	_	_	_	_	_	5297-5302	w2b1	durch	*	O
+31	klinische	klinisch	_	ADJA	_	_	_	_	_	5303-5312	w2b2	klinische	*	O
+32	Beobachtung	Beobachtung	_	NN	_	_	_	_	_	5313-5324	w2b3	Beobachtung	*	O
+33	oder	oder	_	KON	_	_	_	_	_	5325-5329	w2b4	oder	*	O
+34	durch	durch	_	APPR	_	_	_	_	_	5330-5335	w2b5	durch	*	O
+35	das	d	_	ART	_	_	_	_	_	5336-5339	w2b6	das	*	O
+36	Experiment	Experiment	_	NN	_	_	_	_	_	5340-5350	w2b7	Experiment	*	O
+37	mit	mit	_	APPR	_	_	_	_	_	5351-5354	w2b8	mit	*	O
+38	Sicherheit	Sicherheit	_	NN	_	_	_	_	_	5355-5365	w2b9	Sicherheit	*	O
+39	erwiesen	erweisen	_	VVPP	_	_	_	_	_	5366-5374	w2ba	erwiesen	*	B-RK
+40	ist	sein	_	VAFIN	_	_	_	_	_	5375-5378	w2bb	ist	*	I-RK
+41	.	.	_	$.	_	_	_	_	_	5379-5380	w2bc	.	*	O
+
+# sent_id = 35
+# sent_id(TSV) = 35
+# TopFString = (S(VF(ADV Beispielsweise))(LK(VAFIN würden))(MF(ADV also)(ART die)(ADJA geimpften)(NN Kuhpocken)(KOMMA ,)(NN Milzbrand)(KOMMA ,)(NN Rotz)(KOMMA ,)(ART die)(NN Hundswuth))(KOMMA ,)(NF(C(ADV selbst))(MF(ART die)(NN Syphilis)(APPR zu)(ART den)(NN Wundinfectionskrankheiten))(VC(VVPP gezählt)(VAINF wer¬<lb/>den)(VMFIN müssen)))(PUNKT .))
+# text = Beispielsweise würden also die geimpften Kuhpocken , Milzbrand , Rotz , die Hundswuth , selbst die Syphilis zu den Wundinfectionskrankheiten gezählt wer¬<lb/>den müssen .
+1	Beispielsweise	beispielsweise	_	ADV	_	_	_	_	_	5382-5396	w2bd	Beispielsweise	*	O
+2	würden	werden	_	VAFIN	_	_	_	_	_	5397-5403	w2be	würden	*	B-LK
+3	also	also	_	ADV	_	_	_	_	_	5404-5408	w2bf	also	*	O
+4	die	d	_	ART	_	_	_	_	_	5409-5412	w2c0	die	*	O
+5	geimpften	geimpft	_	ADJA	_	_	_	_	_	5413-5422	w2c1	geimpften	*	O
+6	Kuhpocken	Kuhpocken	_	NN	_	_	_	_	_	5423-5432	w2c2	Kuhpocken	*	O
+7	,	,	_	$,	_	_	_	_	_	5433-5434	w2c3	,	*	O
+8	Milzbrand	Milzbrand	_	NN	_	_	_	_	_	5435-5444	w2c4	Milzbrand	*	O
+9	,	,	_	$,	_	_	_	_	_	5445-5446	w2c5	,	*	O
+10	Rotz	Rotz	_	NN	_	_	_	_	_	5447-5451	w2c6	Rotz	*	O
+11	,	,	_	$,	_	_	_	_	_	5452-5453	w2c7	,	*	O
+12	die	d	_	ART	_	_	_	_	_	5454-5457	w2c8	die	*	O
+13	Hundswuth	Hundswut	_	NN	_	_	_	_	_	5458-5467	w2c9	Hundswut	*	O
+14	,	,	_	$,	_	_	_	_	_	5468-5469	w2ca	,	*	O
+15	selbst	selbst	_	ADV	_	_	_	_	_	5470-5476	w2cb	selbst	*	B-LK
+16	die	d	_	ART	_	_	_	_	_	5477-5480	w2cc	die	*	O
+17	Syphilis	Syphilis	_	NN	_	_	_	_	_	5481-5489	w2cd	Syphilis	*	O
+18	zu	zu	_	APPR	_	_	_	_	_	5490-5492	w2ce	zu	*	O
+19	den	d	_	ART	_	_	_	_	_	5493-5496	w2cf	den	*	O
+20	Wundinfectionskrankheiten	Wundeinfektionskrankheit	_	NN	_	_	_	_	_	5497-5522	w2d0	Wundinfektionskrankheiten	*	O
+21	gezählt	zählen	_	VVPP	_	_	_	_	_	5523-5530	w2d1	gezählt	*	B-RK
+22	wer¬<lb/>den	werden	_	VAINF	_	_	_	_	_	5531-5543	w2d2	werden	*	I-RK
+23	müssen	müssen	_	VMFIN	_	_	_	_	_	5544-5550	w2d3	müssen	*	I-RK
+24	.	.	_	$.	_	_	_	_	_	5551-5552	w2d4	.	*	O
+
+# sent_id = 36
+# sent_id(TSV) = 36
+# TopFString = (S(VF(ADV So)(ADJD weit))(FKOORD(FKONJ(LK(VVFIN dehnt))(MF(PIS man)(PDAT diese)(NN Bezeichnung)(ADV jedoch)(PTKNEG nicht))(VC(PTKVZ aus)))(KON und)(FKONJ(LK(VVFIN lässt))(MF(PPER sie)(ADJD gewöhnlich)(ADV nur)(APPR für)(ART die)(ART den)(NN Chirurgen)(ADJD speciell)(ADJA interessirenden)(NN Krankheitsprocesse))(KOMMA ,)(NF(C(PRELS welche))(MF(NN Verletzungen)(KON und)(NN Ope¬<lb/>rationswunden))(VC(PTKZU zu)(VVINF compliciren)(VVFIN pflegen))(KOMMA ,)(NF(MF(ADV also)(APPR für)(NN Septicämie)(KOMMA ,)(NN Pyämie)(KOMMA ,)(ADJA progressive)(NN Eiterung)(KON oder)(NN Phlegmone)(KON und)(NN Erysipelas))(VC(VVINF gelten))))))(PUNKT .))
+# text = So weit dehnt man diese Bezeichnung jedoch nicht aus und lässt sie gewöhnlich nur für die den Chirurgen speciell interessirenden Krankheitsprocesse , welche Verletzungen und Ope¬<lb/>rationswunden zu compliciren pflegen , also für Septicämie , Pyämie , progressive Eiterung oder Phlegmone und Erysipelas gelten .
+1	So	so	_	ADV	_	_	_	_	_	5554-5556	w2d5	So	*	O
+2	weit	weit	_	ADJD	_	_	_	_	_	5557-5561	w2d6	weit	*	O
+3	dehnt	dehnen	_	VVFIN	_	_	_	_	_	5562-5567	w2d7	dehnt	*	B-LK
+4	man	man	_	PIS	_	_	_	_	_	5568-5571	w2d8	man	*	O
+5	diese	diese	_	PDAT	_	_	_	_	_	5572-5577	w2d9	diese	*	O
+6	Bezeichnung	Bezeichnung	_	NN	_	_	_	_	_	5578-5589	w2da	Bezeichnung	*	O
+7	jedoch	jedoch	_	ADV	_	_	_	_	_	5590-5596	w2db	jedoch	*	O
+8	nicht	nicht	_	PTKNEG	_	_	_	_	_	5597-5602	w2dc	nicht	*	O
+9	aus	aus	_	PTKVZ	_	_	_	_	_	5603-5606	w2dd	aus	*	B-RK
+10	und	und	_	KON	_	_	_	_	_	5607-5610	w2de	und	*	O
+11	lässt	lassen	_	VVFIN	_	_	_	_	_	5611-5616	w2df	lässt	*	B-LK
+12	sie	sie	_	PPER	_	_	_	_	_	5617-5620	w2e0	sie	*	O
+13	gewöhnlich	gewöhnlich	_	ADJD	_	_	_	_	_	5621-5631	w2e1	gewöhnlich	*	O
+14	nur	nur	_	ADV	_	_	_	_	_	5632-5635	w2e2	nur	*	O
+15	für	für	_	APPR	_	_	_	_	_	5636-5639	w2e3	für	*	O
+16	die	d	_	ART	_	_	_	_	_	5640-5643	w2e4	die	*	O
+17	den	d	_	ART	_	_	_	_	_	5644-5647	w2e5	den	*	O
+18	Chirurgen	Chirurg	_	NN	_	_	_	_	_	5648-5657	w2e6	Chirurgen	*	O
+19	speciell	speziell	_	ADJD	_	_	_	_	_	5658-5666	w2e7	speziell	*	O
+20	interessirenden	interessierend	_	ADJA	_	_	_	_	_	5667-5682	w2e8	interessierenden	*	O
+21	Krankheitsprocesse	Krankheitsprozeß	_	NN	_	_	_	_	_	5683-5701	w2e9	Krankheitsprozesse	*	O
+22	,	,	_	$,	_	_	_	_	_	5702-5703	w2ea	,	*	O
+23	welche	welche	_	PRELS	_	_	_	_	_	5704-5710	w2eb	welche	*	B-LK
+24	Verletzungen	Verletzung	_	NN	_	_	_	_	_	5711-5723	w2ec	Verletzungen	*	O
+25	und	und	_	KON	_	_	_	_	_	5724-5727	w2ed	und	*	O
+26	Ope¬<lb/>rationswunden	Operationswunde	_	NN	_	_	_	_	_	5728-5750	w2ee	Operationswunden	*	O
+27	zu	zu	_	PTKZU	_	_	_	_	_	5751-5753	w2ef	zu	*	B-RK
+28	compliciren	komplizieren	_	VVINF	_	_	_	_	_	5754-5765	w2f0	komplizieren	*	I-RK
+29	pflegen	pflegen	_	VVFIN	_	_	_	_	_	5766-5773	w2f1	pflegen	*	I-RK
+30	,	,	_	$,	_	_	_	_	_	5774-5775	w2f2	,	*	O
+31	also	also	_	ADV	_	_	_	_	_	5776-5780	w2f3	also	*	O
+32	für	für	_	APPR	_	_	_	_	_	5781-5784	w2f4	für	*	O
+33	Septicämie	Septicämie	_	NN	_	_	_	_	_	5785-5795	w2f5	Septicämie	*	O
+34	,	,	_	$,	_	_	_	_	_	5796-5797	w2f6	,	*	O
+35	Pyämie	Pyämie	_	NN	_	_	_	_	_	5798-5804	w2f7	Pyämie	*	O
+36	,	,	_	$,	_	_	_	_	_	5805-5806	w2f8	,	*	O
+37	progressive	progressiv	_	ADJA	_	_	_	_	_	5807-5818	w2f9	progressive	*	O
+38	Eiterung	Eiterung	_	NN	_	_	_	_	_	5819-5827	w2fa	Eiterung	*	O
+39	oder	oder	_	KON	_	_	_	_	_	5828-5832	w2fb	oder	*	O
+40	Phlegmone	Phlegmone	_	NN	_	_	_	_	_	5833-5842	w2fc	Phlegmone	*	O
+41	und	und	_	KON	_	_	_	_	_	5843-5846	w2fd	und	*	O
+42	Erysipelas	Erysipelas	_	NN	_	_	_	_	_	5847-5857	w2fe	Erysipelas	*	O
+43	gelten	gelten	_	VVINF	_	_	_	_	_	5858-5864	w2ff	gelten	*	B-RK
+44	.	.	_	$.	_	_	_	_	_	5865-5866	w300	.	*	O
+
+# sent_id = 37
+# sent_id(TSV) = 37
+# TopFString = (S(VF(APPR In)(ADJA neuerer)(NN Zeit))(LK(VAFIN ist))(MF(PIS man)(ADV immer)(ADV mehr)(APPR zu)(ART der)(NN Ueberzeugung))(VC(VVPP gekom¬<lb/>men))(KOMMA ,)(NF(C(KOUS dass))(MF(ADV auch)(ART das)(NN Puerperalfieber)(KOKOM als)(ART eine)(APPR von)(ART der)(NN Placentar¬<lb/>wundstelle)(KON oder)(APPR von)(NN Verletzungen)(ART der)(NN Geburtswege)(ADJA ausgehende)(ADJA infectiöse)(NN Wundkrankheit))(VC(VVIZU anzusehen)(VAFIN ist)))(PUNKT .))
+# text = In neuerer Zeit ist man immer mehr zu der Ueberzeugung gekom¬<lb/>men , dass auch das Puerperalfieber als eine von der Placentar¬<lb/>wundstelle oder von Verletzungen der Geburtswege ausgehende infectiöse Wundkrankheit anzusehen ist .
+1	In	in	_	APPR	_	_	_	_	_	5868-5870	w301	In	*	O
+2	neuerer	neu	_	ADJA	_	_	_	_	_	5871-5878	w302	neuerer	*	O
+3	Zeit	Zeit	_	NN	_	_	_	_	_	5879-5883	w303	Zeit	*	O
+4	ist	sein	_	VAFIN	_	_	_	_	_	5884-5887	w304	ist	*	B-LK
+5	man	man	_	PIS	_	_	_	_	_	5888-5891	w305	man	*	O
+6	immer	immer	_	ADV	_	_	_	_	_	5892-5897	w306	immer	*	O
+7	mehr	mehr	_	ADV	_	_	_	_	_	5898-5902	w307	mehr	*	O
+8	zu	zu	_	APPR	_	_	_	_	_	5903-5905	w308	zu	*	O
+9	der	d	_	ART	_	_	_	_	_	5906-5909	w309	der	*	O
+10	Ueberzeugung	Überzeugung	_	NN	_	_	_	_	_	5910-5922	w30a	Überzeugung	*	O
+11	gekom¬<lb/>men	kommen	_	VVPP	_	_	_	_	_	5923-5937	w30b	gekommen	*	B-RK
+12	,	,	_	$,	_	_	_	_	_	5938-5939	w30c	,	*	O
+13	dass	dass	_	KOUS	_	_	_	_	_	5940-5944	w30d	dass	*	B-LK
+14	auch	auch	_	ADV	_	_	_	_	_	5945-5949	w30e	auch	*	O
+15	das	d	_	ART	_	_	_	_	_	5950-5953	w30f	das	*	O
+16	Puerperalfieber	Puerperalfieber	_	NN	_	_	_	_	_	5954-5969	w310	Puerperalfieber	*	O
+17	als	als	_	KOKOM	_	_	_	_	_	5970-5973	w311	als	*	O
+18	eine	eine	_	ART	_	_	_	_	_	5974-5978	w312	eine	*	O
+19	von	von	_	APPR	_	_	_	_	_	5979-5982	w313	von	*	O
+20	der	d	_	ART	_	_	_	_	_	5983-5986	w314	der	*	O
+21	Placentar¬<lb/>wundstelle	Placentarwundstelle	_	NN	_	_	_	_	_	5987-6012	w315	Placentarwundstelle	*	O
+22	oder	oder	_	KON	_	_	_	_	_	6013-6017	w316	oder	*	O
+23	von	von	_	APPR	_	_	_	_	_	6018-6021	w317	von	*	O
+24	Verletzungen	Verletzung	_	NN	_	_	_	_	_	6022-6034	w318	Verletzungen	*	O
+25	der	d	_	ART	_	_	_	_	_	6035-6038	w319	der	*	O
+26	Geburtswege	Geburtsweg	_	NN	_	_	_	_	_	6039-6050	w31a	Geburtswege	*	O
+27	ausgehende	ausgehend	_	ADJA	_	_	_	_	_	6051-6061	w31b	ausgehende	*	O
+28	infectiöse	infektiös	_	ADJA	_	_	_	_	_	6062-6072	w31c	infektiöse	*	O
+29	Wundkrankheit	Wundekrankheit	_	NN	_	_	_	_	_	6073-6086	w31d	Wundkrankheit	*	O
+30	anzusehen	ansehen	_	VVIZU	_	_	_	_	_	6087-6096	w31e	anzusehen	*	B-RK
+31	ist	sein	_	VAFIN	_	_	_	_	_	6097-6100	w31f	ist	*	I-RK
+32	.	.	_	$.	_	_	_	_	_	6101-6102	w320	.	*	O

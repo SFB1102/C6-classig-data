@@ -1,0 +1,35 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS MovElem PHRASE POS SATZKLAMMER SATZSTATUS TOPF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# PTBstring = (VROOT(SIMPX(VF(ADVX(ADV ſo)))(LK(VXFIN(VAFIN wirt)))(MF(NX(PPER er)))(VC(VXINF(VVPP geſetzet)))(NF(PX(APPR ī)(NX:HD(NN ruͦwe)(NX(ART eins)(ADJX(ADJA goͤtlíchen))(NN fríden)(NX(PIAT aller)(ADJX(ADJA vſſerlich'))(NN vͤbunge))))))))
+# TopFString = (S(VF(ADV ſo))(LK(VAFIN wirt))(MF(PPER er))(VC(VVPP geſetzet))(VF(APPR ī)(NN ruͦwe)(ART eins)(ADJA goͤtlíchen)(NN fríden))(MF(PIAT aller)(ADJA vſſerlich')(NN vͤbunge)))
+# text = ſo wirt er geſetzet ī ruͦwe eins goͤtlíchen fríden aller vſſerlich' vͤbunge
+1	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo 	300,23, fri-	_	ADVB	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	B-VF	79vb,01	_	_
+2	wirt	_	_	VAFIN	_	_	_	_	_	VP	wirt 	300,23, fri-	_	VFIN	_	_	O	VAFIN	LI	MAINDECL	B-LK	79vb,01	_	_
+3	er	_	_	PPER	_	_	_	_	_	NA	er 	300,23, fri-	_	SUBJ	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-MF	79vb,01	_	_
+4	geſetzet	_	_	VVPP	_	_	_	_	_	VP	geſetzet 	300,23, fri-	_	INF	_	_	O	VVPP	RE	MAINDECL	B-RK	79vb,01	_	_
+5	ī	_	_	APPR	_	_	_	_	_	PP	ī 	300,23, fri-	NF	PP-ADV	_	B-PP-insitu	B-PP	APPR	_	MAINDECL	B-VF	79vb,01	UNLINK	_
+6	ruͦwe	_	_	NN	_	_	_	_	_	PP	ruͦwe	300,23, fri-	NF	PP-ADV	ACC-ABSTR-USED-X_	I-PP	I-PP	NA	_	MAINDECL	I-VF	79vb,01	UNLINK	_
+7	eins	_	_	ART	_	_	_	_	_	PP	eins 	300,23, fri-	NF	ATTR	_ACC-ABSTR-UNUSED_	I-PP|B-NP-insitu	I-PP	DIA	_	MAINDECL	I-VF	79vb,02	UNLINK	_
+8	goͤtlíchen	_	_	ADJA	_	_	_	_	_	PP	goͤtlíchen 	300,23, fri-	NF	ATTR	_ACC-ABSTR-UNUSED_	I-PP|I-NP	I-PP	ADJ	_	MAINDECL	I-VF	79vb,02	UNLINK	_
+9	fríden	_	_	NN	_	_	_	_	_	PP	fríden 	300,23, fri-	NF	ATTR	_ACC-ABSTR-UNUSED_	I-PP|I-NP	I-PP	NA	_	MAINDECL	I-VF	79vb,02	UNLINK	_
+10	aller	_	_	PIAT	_	_	_	_	_	PP	aller	300,24	NF	ATTR	_ACC-ABSTR-UNUSED	I-PP|I-NP|B-NP-insitu	I-PP	DI	_	MAINDECL	B-MF	79vb,02	UNLINK	_
+11	vſſerlich'	_	_	ADJA	_	_	_	_	_	PP	vſſerlich' 	300,24	NF	ATTR	_ACC-ABSTR-UNUSED	I-PP|I-NP|I-NP	I-PP	ADJ	_	MAINDECL	I-MF	79vb,03	UNLINK	_
+12	vͤbunge	_	_	NN	_	_	_	_	_	PP	vͤbunge 	300,24	NF	ATTR	_ACC-ABSTR-UNUSED	I-PP|I-NP|I-NP	I-PP	NA	_	MAINDECL	I-MF	79vb,03	UNLINK	_
+
+# sent_id = 2
+# PTBstring = (VROOT(SIMPX(VF(NX(PPER Es)))(LK(VXFIN(VMFIN moht)))(MF(NX(ADJX(ADJA wol)))(PX(APPR ī)(NX:HD(ART des)(NN engels)))(NX(NN v'ſtentníſſe)))(VC(VXINF(VVPP geoffenbaret))(VXINF(VVINF w'den)))(NF(PX(APPR ín)(NX:HD(ADJX(CARD ſehs))(NN tagē)(ADJX(ADJD geíſtlíLBR=RBRch)))))))
+# TopFString = (S(VF(PPER Es))(LK(VMFIN moht))(MF(ADJA wol)(APPR ī)(ART des)(NN engels)(NN v'ſtentníſſe))(VC(VVPP geoffenbaret)(VVINF w'den))(NF(APPR ín)(CARD ſehs)(NN tagē))(ADJD geíſtlíLBR=RBRch))
+# text = Es moht wol ī des engels v'ſtentníſſe geoffenbaret w'den ín ſehs tagē geíſtlí(=)ch
+1	Es	_	_	PPER	_	_	_	_	_	NP	Es 	300,31, geoffen-	_	SUBJ	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-VF	79vb,19	_	_
+2	moht	_	_	VMFIN	_	_	_	_	_	VP	moht 	300,31, geoffen-	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	B-LK	79vb,19	_	_
+3	wol	_	_	ADJA	_	_	_	_	_	ADVP	wol 	300,31, geoffen-	_	ADVB	_	B-NP-insitu	B-NP	ADJ	_	MAINDECL	B-MF	79vb,19	_	_
+4	ī	_	_	APPR	_	_	_	_	_	PP	ī 	300,31, geoffen-	_	PP-ADV	_	B-PP-insitu	B-PP	APPR	_	MAINDECL	I-MF	79vb,19	_	_
+5	des	_	_	ART	_	_	_	_	_	PP	des 	300,31, geoffen-	_	PP-ADV	_	I-PP	I-PP	DDA	_	MAINDECL	I-MF	79vb,19	_	_
+6	engels	_	_	NN	_	_	_	_	_	PP	engels	300,31, geoffen-	_	PP-ADV	_	I-PP	I-PP	NA	_	MAINDECL	I-MF	79vb,19	_	_
+7	v'ſtentníſſe	_	_	NN	_	_	_	_	_	PP	v'ſtentníſſe 	300,31, geoffen-	_	PP-ADV	_	B-NP-insitu	B-NP	NA	_	MAINDECL	I-MF	79vb,20	_	_
+8	geoffenbaret	_	_	VVPP	_	_	_	_	_	VP	geoffenbaret	300,31, geoffen-	_	INF	_	_	O	VVPP	_	MAINDECL	B-RK	79vb,20	_	_
+9	w'den	_	_	VVINF	_	_	_	_	_	VP	w'den 	300,32; verknünftek-	_	INF	_	_	O	VVINF	RE	MAINDECL	I-RK	79vb,21; geí$tlí-	_	_
+10	ín	_	_	APPR	_	_	_	_	_	PP	ín 	300,32; verknünftek-	BGR_	PP-ADV	NA	B-PP-extrap	B-PP	APPR	_	MAINDECL	B-NF	79vb,21; geí$tlí-	UNLINK	KOREF1
+11	ſehs	_	_	CARD	_	_	_	_	_	PP	ſehs 	300,32; verknünftek-	BGR_	PP-ADV	NA	I-PP	I-PP	CARD	_	MAINDECL	I-NF	79vb,21; geí$tlí-	UNLINK	KOREF1
+12	tagē	_	_	NN	_	_	_	_	_	PP	tagē 	300,32; verknünftek-	BGR_	PP-ADV	NA	I-PP	I-PP	NA	_	MAINDECL	I-NF	79vb,21; geí$tlí-	UNLINK	KOREF1
+13	geíſtlí(=)ch	_	_	ADJD	_	_	_	_	_	ADVP	geíſtlích 	300,32; verknünftek-	BGR_	ADVB	_	I-PP	I-PP	ADV	_	MAINDECL	O	79vb,21; geí$tlí-	UNLINK	KOREF1

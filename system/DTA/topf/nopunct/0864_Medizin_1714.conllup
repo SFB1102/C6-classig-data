@@ -1,0 +1,875 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CharOffset DTA:ID DTA:NORM POS TOPF
+# sent_id = 1
+# sent_id(TSV) = 1
+# TopFString = (S(VF(NN Peſt-Buͤchlein))(LK(PUNKT :))(MF(KON Oder)(ADJA Kurtzer)(KLAMMER /)(ADV doch)(ADJA gruͤndlicher)(NN Unterricht)(APPR Von)(ART der)(ADV jetztmalen)(APPR uͤber)(NE Teutſchland)(ADJA ſchwebenden)(ADJA gefaͤhrlichen)(NN Seuche)(ART der)(NN Peſtilentz))(VC(PUNKT .)))
+# text = Peſt-Buͤchlein : Oder Kurtzer / doch gruͤndlicher Unterricht Von der jetztmalen uͤber Teutſchland ſchwebenden gefaͤhrlichen Seuche der Peſtilentz .
+1	Peſt-Buͤchlein	Pest-Büchlein	_	NN	_	_	_	_	_	0-14	w1	Pest-Büchlein	*	B-VF
+2	:	:	_	$.	_	_	_	_	_	15-16	w2	:	*	B-LK
+3	Oder	oder	_	KON	_	_	_	_	_	17-21	w3	Oder	*	B-MF
+4	Kurtzer	kurz	_	ADJA	_	_	_	_	_	22-29	w4	kurzer	*	I-MF
+5	/	/	_	$(	_	_	_	_	_	30-31	w5	/	*	I-MF
+6	doch	doch	_	ADV	_	_	_	_	_	32-36	w6	doch	*	I-MF
+7	gruͤndlicher	gründlich	_	ADJA	_	_	_	_	_	37-49	w7	gründlicher	*	I-MF
+8	Unterricht	Unterricht	_	NN	_	_	_	_	_	50-60	w8	Unterricht	*	I-MF
+9	Von	von	_	APPR	_	_	_	_	_	61-64	w9	Von	*	I-MF
+10	der	d	_	ART	_	_	_	_	_	65-68	wa	der	*	I-MF
+11	jetztmalen	Jetztmal	_	ADV	_	_	_	_	_	69-79	wb	Jetztmalen	*	I-MF
+12	uͤber	über	_	APPR	_	_	_	_	_	80-85	wc	über	*	I-MF
+13	Teutſchland	Deutschland	_	NE	_	_	_	_	_	86-97	wd	Deutschland	*	I-MF
+14	ſchwebenden	schwebend	_	ADJA	_	_	_	_	_	98-109	we	schwebenden	*	I-MF
+15	gefaͤhrlichen	gefährlich	_	ADJA	_	_	_	_	_	110-123	wf	gefährlichen	*	I-MF
+16	Seuche	Seuche	_	NN	_	_	_	_	_	124-130	w10	Seuche	*	I-MF
+17	der	d	_	ART	_	_	_	_	_	131-134	w11	der	*	I-MF
+18	Peſtilentz	Pestilenz	_	NN	_	_	_	_	_	135-145	w12	Pestilenz	*	I-MF
+19	.	.	_	$.	_	_	_	_	_	146-147	w13	.	*	B-RK
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# TopFString = (S(VF(C(APPR In)(PRELS welchem))(MF(ADJD wohlmeynend))(VC(VVPP gezeiget)(VAFIN wird)))(LK(KLAMMER /))(NF(C(PWAV Woher))(MF(PIS ſolche))(VC(VVFIN kommet)))(LK(KLAMMER /))(MF(PWAV wie)(PPER ſie)(ADJD anſteckend))(KON und)(VF(VC(VVPP fort-<lb/>gepflantzet)))(LK(KLAMMER /))(ADV auch)(C(PWAV wie))(MF(PRF ſich)(NN Pfarrherren)(LK(KLAMMER /))(NN Medici)(LK(KOMMA ,))(NN Wundaͤrtzte)(LK(KLAMMER /))(NN Apotheker))(VC(KLAMMER /))(KON und)(VF(PDS die))(LK(KLAMMER /))(NF(C(PRELS welche))(MF(APPR mit)(PIAT ſolchen)(ADJA Peſt-inficirten)(NN Patienten))(VC(VVINF umgehen)(VMFIN muͤſſen)))(LK(KLAMMER /))(MF(ADV auch)(ADV ſonſt)(PIS jederman)(PAV darbey))(VC(PTKZU zu)(VVINF verhalten))(LK(VAFIN habe))(VC(PUNKT :)))
+# text = In welchem wohlmeynend gezeiget wird / Woher ſolche kommet / wie ſie anſteckend und fort-<lb/>gepflantzet / auch wie ſich Pfarrherren / Medici , Wundaͤrtzte / Apotheker / und die / welche mit ſolchen Peſt-inficirten Patienten umgehen muͤſſen / auch ſonſt jederman darbey zu verhalten habe :
+1	In	in	_	APPR	_	_	_	_	_	149-151	w14	In	*	B-VF|B-LK
+2	welchem	welchem	_	PRELS	_	_	_	_	_	152-159	w15	welchem	*	I-VF|I-LK
+3	wohlmeynend	wohlmeinend	_	ADJD	_	_	_	_	_	160-171	w16	wohlmeinend	*	I-VF|B-MF
+4	gezeiget	zeigen	_	VVPP	_	_	_	_	_	172-180	w17	gezeigt	*	I-VF|B-RK
+5	wird	werden	_	VAFIN	_	_	_	_	_	181-185	w18	wird	*	I-VF|I-RK
+6	/	/	_	$(	_	_	_	_	_	186-187	w19	/	*	B-LK
+7	Woher	woher	_	PWAV	_	_	_	_	_	188-193	w1a	Woher	*	B-NF|B-LK
+8	ſolche	solch	_	PIS	_	_	_	_	_	194-200	w1b	solche	*	I-NF|B-MF
+9	kommet	kommen	_	VVFIN	_	_	_	_	_	201-207	w1c	kommet	*	I-NF|B-RK
+10	/	/	_	$(	_	_	_	_	_	208-209	w1d	/	*	B-LK
+11	wie	wie	_	PWAV	_	_	_	_	_	210-213	w1e	wie	*	B-MF
+12	ſie	sie	_	PPER	_	_	_	_	_	214-217	w1f	sie	*	I-MF
+13	anſteckend	ansteckend	_	ADJD	_	_	_	_	_	218-228	w20	ansteckend	*	I-MF
+14	und	und	_	KON	_	_	_	_	_	229-232	w21	und	*	O
+15	fort-<lb/>gepflantzet	fortgepflanzt	_	VVPP	_	_	_	_	_	233-254	w22,w22_1	fortgepflanzt	*	B-VF|B-RK
+16	/	/	_	$(	_	_	_	_	_	255-256	w23	/	*	B-LK
+17	auch	auch	_	ADV	_	_	_	_	_	257-261	w24	auch	*	O
+18	wie	wie	_	PWAV	_	_	_	_	_	262-265	w25	wie	*	B-LK
+19	ſich	sich	_	PRF	_	_	_	_	_	266-270	w26	sich	*	B-MF
+20	Pfarrherren	Pfarrherr	_	NN	_	_	_	_	_	271-282	w27	Pfarrherren	*	I-MF
+21	/	/	_	$(	_	_	_	_	_	283-284	w28	/	*	I-MF|B-LK
+22	Medici	Medici	_	NN	_	_	_	_	_	285-291	w29	Medici	*	I-MF
+23	,	,	_	$,	_	_	_	_	_	292-293	w2a	,	*	I-MF|B-LK
+24	Wundaͤrtzte	Wundearzt	_	NN	_	_	_	_	_	294-305	w2b	Wundärzte	*	I-MF
+25	/	/	_	$(	_	_	_	_	_	306-307	w2c	/	*	I-MF|B-LK
+26	Apotheker	Apotheker	_	NN	_	_	_	_	_	308-317	w2d	Apotheker	*	I-MF
+27	/	/	_	$(	_	_	_	_	_	318-319	w2e	/	*	B-RK
+28	und	und	_	KON	_	_	_	_	_	320-323	w2f	und	*	O
+29	die	d	_	PDS	_	_	_	_	_	324-327	w30	die	*	B-VF
+30	/	/	_	$(	_	_	_	_	_	328-329	w31	/	*	B-LK
+31	welche	welche	_	PRELS	_	_	_	_	_	330-336	w32	welche	*	B-NF|B-LK
+32	mit	mit	_	APPR	_	_	_	_	_	337-340	w33	mit	*	I-NF|B-MF
+33	ſolchen	solch	_	PIAT	_	_	_	_	_	341-348	w34	solchen	*	I-NF|I-MF
+34	Peſt-inficirten	pest-inficirten	_	ADJA	_	_	_	_	_	349-364	w35,w35_1,w35_2	Pest-inficirten	*	I-NF|I-MF
+35	Patienten	Patient	_	NN	_	_	_	_	_	365-374	w36	Patienten	*	I-NF|I-MF
+36	umgehen	umgehen	_	VVINF	_	_	_	_	_	375-382	w37	umgehen	*	I-NF|B-RK
+37	muͤſſen	müssen	_	VMFIN	_	_	_	_	_	383-390	w38	müssen	*	I-NF|I-RK
+38	/	/	_	$(	_	_	_	_	_	391-392	w39	/	*	B-LK
+39	auch	auch	_	ADV	_	_	_	_	_	393-397	w3a	auch	*	B-MF
+40	ſonſt	sonst	_	ADV	_	_	_	_	_	398-403	w3b	sonst	*	I-MF
+41	jederman	jedermann	_	PIS	_	_	_	_	_	404-412	w3c	jedermann	*	I-MF
+42	darbey	dabei	_	PAV	_	_	_	_	_	413-419	w3d	dabei	*	I-MF
+43	zu	zu	_	PTKZU	_	_	_	_	_	420-422	w3e	zu	*	B-RK
+44	verhalten	verhalten	_	VVINF	_	_	_	_	_	423-432	w3f	verhalten	*	I-RK
+45	habe	haben	_	VAFIN	_	_	_	_	_	433-437	w40	habe	*	B-LK
+46	:	:	_	$.	_	_	_	_	_	438-439	w41	:	*	B-RK
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# TopFString = (S(PTKNEG Nicht)(ADV weniger)(ADV auch)(KLAMMER /)(C(PWAV wie))(FKOORD(FKONJ(MF(PIS man)(PIAT ſolche)(NN Seuche)(APPR von)(PRF ſich)(APPR durch)(NN GOttes)(NN Gnade))(VC(VVINF abwenden)))(VC(KLAMMER /))(KON und)(FKONJ(MF(PAV darwider)(ADJD gluͤcklich))(VC(VVINF præſerviren)(KON und)(VVINF curiren)(VMFIN kan))))(PUNKT .))
+# text = Nicht weniger auch / wie man ſolche Seuche von ſich durch GOttes Gnade abwenden / und darwider gluͤcklich præſerviren und curiren kan .
+1	Nicht	nicht	_	PTKNEG	_	_	_	_	_	441-446	w42	Nicht	*	O
+2	weniger	wenige	_	ADV	_	_	_	_	_	447-454	w43	weniger	*	O
+3	auch	auch	_	ADV	_	_	_	_	_	455-459	w44	auch	*	O
+4	/	/	_	$(	_	_	_	_	_	460-461	w45	/	*	O
+5	wie	wie	_	PWAV	_	_	_	_	_	462-465	w46	wie	*	B-LK
+6	man	man	_	PIS	_	_	_	_	_	466-469	w47	man	*	B-MF
+7	ſolche	solch	_	PIAT	_	_	_	_	_	470-476	w48	solche	*	I-MF
+8	Seuche	Seuche	_	NN	_	_	_	_	_	477-483	w49	Seuche	*	I-MF
+9	von	von	_	APPR	_	_	_	_	_	484-487	w4a	von	*	I-MF
+10	ſich	sich	_	PRF	_	_	_	_	_	488-492	w4b	sich	*	I-MF
+11	durch	durch	_	APPR	_	_	_	_	_	493-498	w4c	durch	*	I-MF
+12	GOttes	Gott	_	NN	_	_	_	_	_	499-505	w4d	Gottes	*	I-MF
+13	Gnade	Gnade	_	NN	_	_	_	_	_	506-511	w4e	Gnade	*	I-MF
+14	abwenden	abwenden	_	VVINF	_	_	_	_	_	512-520	w4f	abwenden	*	B-RK
+15	/	/	_	$(	_	_	_	_	_	521-522	w50	/	*	B-RK
+16	und	und	_	KON	_	_	_	_	_	523-526	w51	und	*	B-KOORD
+17	darwider	dawider	_	PAV	_	_	_	_	_	527-535	w52	dawider	*	B-MF
+18	gluͤcklich	glücklich	_	ADJD	_	_	_	_	_	536-546	w53	glücklich	*	I-MF
+19	præſerviren	präservieren	_	VVINF	_	_	_	_	_	547-558	w54,w54_1	präservieren	*	B-RK
+20	und	und	_	KON	_	_	_	_	_	559-562	w55	und	*	I-RK
+21	curiren	kurieren	_	VVINF	_	_	_	_	_	563-570	w56	kurieren	*	I-RK
+22	kan	können	_	VMFIN	_	_	_	_	_	571-574	w57	kann	*	I-RK
+23	.	.	_	$.	_	_	_	_	_	575-576	w58	.	*	O
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# TopFString = (S(VF(PIS Alles)(APPR nach)(ART der)(ADJA ſichereſt)(KON und)(ADJA bewaͤhrteſten)(NN Methode)(APPR mit)(ADJA guten)(KON und)(ADJA approbirten)(NN Huͤlff-Mitteln))(LK(KLAMMER /))(FKOORD(FKONJ(MF(PTKNEG nicht)(ADV nur)(APPR aus)(ADJA zweymaliger)(ADJA eigener)(NN Erfahrung))(VC(KLAMMER /)))(KON ſondern)(FKONJ(MF(ADV auch)(APPR mit)(NN Beyhuͤlff)(ADJA gelehrter)(NN Medicorum)(NN Schrifften)(LK(KLAMMER /))(ADJD treulich))(VC(VVPP entworffen)(KLAMMER /)))(KON und)(FKONJ(MF(APPR zu)(PIAT jeder-<lb/>mans)(NN Nutzen)(KON und)(NN Gebrauch)(APPRART zum)(NN Druck))(VC(VVPP befoͤrdert))))(APPR Von)(NN D.)(NE Johann)(NE Jacob)(NE Braͤuner)(KLAMMER /)(NN Med.)(NN Pract.)(NE Franckfurt)(APPRART am)(NE Mayn)(KLAMMER /)(APPR In)(NN Verlegung)(NE Samuel)(NE Tobias)(NE Hockers)(PUNKT .))
+# text = Alles nach der ſichereſt und bewaͤhrteſten Methode mit guten und approbirten Huͤlff-Mitteln / nicht nur aus zweymaliger eigener Erfahrung / ſondern auch mit Beyhuͤlff gelehrter Medicorum Schrifften / treulich entworffen / und zu jeder-<lb/>mans Nutzen und Gebrauch zum Druck befoͤrdert Von D. Johann Jacob Braͤuner / Med. Pract. Franckfurt am Mayn / In Verlegung Samuel Tobias Hockers .
+1	Alles	alle	_	PIS	_	_	_	_	_	578-583	w59	Alles	*	B-VF
+2	nach	nach	_	APPR	_	_	_	_	_	584-588	w5a	nach	*	I-VF
+3	der	d	_	ART	_	_	_	_	_	589-592	w5b	der	*	I-VF
+4	ſichereſt	sicher	_	ADJA	_	_	_	_	_	593-602	w5c	sicherst	*	I-VF
+5	und	und	_	KON	_	_	_	_	_	603-606	w5d	und	*	I-VF
+6	bewaͤhrteſten	bewährt	_	ADJA	_	_	_	_	_	607-620	w5e	bewährtesten	*	I-VF
+7	Methode	Methode	_	NN	_	_	_	_	_	621-628	w5f	Methode	*	I-VF
+8	mit	mit	_	APPR	_	_	_	_	_	629-632	w60	mit	*	I-VF
+9	guten	gut	_	ADJA	_	_	_	_	_	633-638	w61	guten	*	I-VF
+10	und	und	_	KON	_	_	_	_	_	639-642	w62	und	*	I-VF
+11	approbirten	approbiert	_	ADJA	_	_	_	_	_	643-654	w63,w63_1	approbierten	*	I-VF
+12	Huͤlff-Mitteln	Hülfef-Mittel	_	NN	_	_	_	_	_	655-669	w64	Hülff-Mitteln	*	I-VF
+13	/	/	_	$(	_	_	_	_	_	670-671	w65	/	*	B-LK
+14	nicht	nicht	_	PTKNEG	_	_	_	_	_	672-677	w66	nicht	*	B-MF
+15	nur	nur	_	ADV	_	_	_	_	_	678-681	w67	nur	*	I-MF
+16	aus	aus	_	APPR	_	_	_	_	_	682-685	w68	aus	*	I-MF
+17	zweymaliger	zweimalig	_	ADJA	_	_	_	_	_	686-697	w69	zweimaliger	*	I-MF
+18	eigener	eigen	_	ADJA	_	_	_	_	_	698-705	w6a	eigener	*	I-MF
+19	Erfahrung	Erfahrung	_	NN	_	_	_	_	_	706-715	w6b	Erfahrung	*	I-MF
+20	/	/	_	$(	_	_	_	_	_	716-717	w6c	/	*	B-RK
+21	ſondern	sondern	_	KON	_	_	_	_	_	718-725	w6d	sondern	*	B-KOORD
+22	auch	auch	_	ADV	_	_	_	_	_	726-730	w6e	auch	*	B-MF
+23	mit	mit	_	APPR	_	_	_	_	_	731-734	w6f	mit	*	I-MF
+24	Beyhuͤlff	Beyhülff	_	NN	_	_	_	_	_	735-744	w70	Beyhülff	*	I-MF
+25	gelehrter	gelehrt	_	ADJA	_	_	_	_	_	745-754	w71	gelehrter	*	I-MF
+26	Medicorum	Medicorum	_	NN	_	_	_	_	_	755-764	w72	Medicorum	*	I-MF
+27	Schrifften	Schrift	_	NN	_	_	_	_	_	765-775	w73	Schriften	*	I-MF
+28	/	/	_	$(	_	_	_	_	_	776-777	w74	/	*	I-MF|B-LK
+29	treulich	treulich	_	ADJD	_	_	_	_	_	778-786	w75	treulich	*	I-MF
+30	entworffen	entwerfen	_	VVPP	_	_	_	_	_	787-797	w76	entworfen	*	B-RK
+31	/	/	_	$(	_	_	_	_	_	798-799	w77	/	*	I-RK
+32	und	und	_	KON	_	_	_	_	_	800-803	w78	und	*	B-KOORD
+33	zu	zu	_	APPR	_	_	_	_	_	804-806	w79	zu	*	B-MF
+34	jeder-<lb/>mans	jedermann	_	PIAT	_	_	_	_	_	807-822	w7a	jedermanns	*	I-MF
+35	Nutzen	Nutzen	_	NN	_	_	_	_	_	823-829	w7b	Nutzen	*	I-MF
+36	und	und	_	KON	_	_	_	_	_	830-833	w7c	und	*	I-MF
+37	Gebrauch	Gebrauch	_	NN	_	_	_	_	_	834-842	w7d	Gebrauch	*	I-MF
+38	zum	zum	_	APPRART	_	_	_	_	_	843-846	w7e	zum	*	I-MF
+39	Druck	Druck	_	NN	_	_	_	_	_	847-852	w7f	Druck	*	I-MF
+40	befoͤrdert	befördern	_	VVPP	_	_	_	_	_	853-863	w80	befördert	*	B-RK
+41	Von	von	_	APPR	_	_	_	_	_	864-867	w81	Von	*	O
+42	D.	D.	_	NN	_	_	_	_	_	868-870	w82	D.	*	O
+43	Johann	Johann	_	NE	_	_	_	_	_	871-877	w83	Johann	*	O
+44	Jacob	Jacob	_	NE	_	_	_	_	_	878-883	w84	Jacob	*	O
+45	Braͤuner	Bräuner	_	NE	_	_	_	_	_	884-892	w85	Bräuner	*	O
+46	/	/	_	$(	_	_	_	_	_	893-894	w86	/	*	O
+47	Med.	Med.	_	NN	_	_	_	_	_	895-899	w87	Med.	*	O
+48	Pract.	Pract.	_	NN	_	_	_	_	_	900-906	w88	Pract.	*	O
+49	Franckfurt	Frankfurt	_	NE	_	_	_	_	_	907-917	w89	Frankfurt	*	O
+50	am	am	_	APPRART	_	_	_	_	_	918-920	w8a	am	*	O
+51	Mayn	Main	_	NE	_	_	_	_	_	921-925	w8b	Main	*	O
+52	/	/	_	$(	_	_	_	_	_	926-927	w8c	/	*	O
+53	In	in	_	APPR	_	_	_	_	_	928-930	w8d	In	*	O
+54	Verlegung	Verlegung	_	NN	_	_	_	_	_	931-940	w8e	Verlegung	*	O
+55	Samuel	Samuel	_	NE	_	_	_	_	_	941-947	w8f	Samuel	*	O
+56	Tobias	Tobias	_	NE	_	_	_	_	_	948-954	w90	Tobias	*	O
+57	Hockers	Hocker	_	NE	_	_	_	_	_	955-962	w91	Hockers	*	O
+58	.	.	_	$.	_	_	_	_	_	963-964	w92	.	*	O
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# TopFString = (S(VF(VC(VVPP Gedruckt))(NF(APPR bey)(NE Matthias)(NE Andreaͤ)))(LK(PUNKT .))(MF(CARD 1714)(PUNKT .)))
+# text = Gedruckt bey Matthias Andreaͤ . 1714 .
+1	Gedruckt	drucken	_	VVPP	_	_	_	_	_	966-974	w93	Gedruckt	*	B-VF|B-RK
+2	bey	bei	_	APPR	_	_	_	_	_	975-978	w94	bei	*	I-VF|B-NF
+3	Matthias	Matthias	_	NE	_	_	_	_	_	979-987	w95	Matthias	*	I-VF|I-NF
+4	Andreaͤ	Andreä	_	NE	_	_	_	_	_	988-995	w96	Andreä	*	I-VF|I-NF
+5	.	.	_	$.	_	_	_	_	_	996-997	w97	.	*	B-LK
+6	1714	1714	_	CARD	_	_	_	_	_	998-1002	w98	1714	*	B-MF
+7	.	.	_	$.	_	_	_	_	_	1003-1004	w99	.	*	I-MF
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# TopFString = (S(VF(APPR Nach)(NN Standes)(NN Gebuͤhr)(ADJA Geſundheit-liebender)(KON und)(ADJA geneigter)(NN Leſer))(LK(PUNKT .)))
+# text = Nach Standes Gebuͤhr Geſundheit-liebender und geneigter Leſer .
+1	Nach	nach	_	APPR	_	_	_	_	_	1006-1010	w71f	Nach	*	B-VF
+2	Standes	Stand	_	NN	_	_	_	_	_	1011-1018	w720	Standes	*	I-VF
+3	Gebuͤhr	Gebühr	_	NN	_	_	_	_	_	1019-1026	w721	Gebühr	*	I-VF
+4	Geſundheit-liebender	Gesundheit-Liebender	_	ADJA	_	_	_	_	_	1027-1047	w722	Gesundheit-liebender	*	I-VF
+5	und	und	_	KON	_	_	_	_	_	1048-1051	w723	und	*	I-VF
+6	geneigter	geneigt	_	ADJA	_	_	_	_	_	1052-1061	w724	geneigter	*	I-VF
+7	Leſer	Leser	_	NN	_	_	_	_	_	1062-1067	w725	Leser	*	I-VF
+8	.	.	_	$.	_	_	_	_	_	1068-1069	w726	.	*	B-LK
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# TopFString = (S(C(KOUS NAchdem))(FKOORD(FKONJ(MF(ART der)(ADJA ge-<lb/>rechte)(NN GOTT)(PPOSAT un-<lb/>ſer)(ADJA geliebtes)(NN Vater-<lb/>land)(ADJA Teutſcher)(NN Na-<lb/>tion)(ADV abermahl)(ADV hin)(KON und)(ADV wieder)(KLAMMER /)(APPR um)(PPOSAT unſerer)(ADJA groſſen)(NN Suͤnden)(APZR willen)(KLAMMER /)(APPR mit)(PPOSAT ſeiner)(ADJA ge-<lb/>rechten)(NN Zorn-Ruthe))(VC(VVPP heimgeſu-<lb/>chet)))(VC(KLAMMER /))(KON und)(FKONJ(MF(ART die)(ADJA ſchwere)(NN Straff)(ART der)(NN Peſtilentz))(VC(VVPP zugeſchicket))))(KLAMMER /)(C(PRELS welche))(MF(ADV bereits)(PIAT viel)(CARD tauſend)(NN Menſchen))(VC(VVPP hingeraffet))(PUNKT ;)(VF(ADV So))(LK(VAFIN ſeynd))(MF(PAV deßwe-<lb/>gen)(PIAT alle)(ADJA umliegende)(NN Obrigkei-<lb/>ten)(PTKNEG nicht)(ADV nur)(ADJD ernſtlich))(VC(VVPP bemuͤhet))(FKOORD(FKONJ(LK(KLAMMER /))(MF(PPOSAT ihre)(NN Unterthanen)(APPR zu)(ADJA wahrer)(NN Buſſe)(KON und)(ADJA andaͤchtigem)(ADJA fleiſſi-<lb/>gen)(NN Gebet)(ADJD eifrigſt))(VC(VVIZU anzumahnen))(LK(KLAMMER /))(NF(MF(KON ſondern)(ADV auch)(ADJA gute)(NN Fuͤrſorge))(VC(PTKZU zu)(VVINF thun)))(LK(KLAMMER /))(NF(C(KOUS damit))(MF(PIAT ſolche)(ADJA anſteckende)(NN Seuche)(PTKNEG nicht)(ADJA muthwilliger)(KON und)(ADJA frevelender)(NN Weiſe)(APPR in)(ART die)(ADV noch)(ADJA reinen)(NN Oerter))(VC(VVPP getragen)(VAINF werden)(VMFIN moͤchte)))(LK(PUNKT :))(MF(APPR zu)(PIAT ſolchem)(NN Ende)(ADV auch)(ADJA wohlgefaſſete)(NN Collegia)(ADJD Sanitatis))(VC(VVPP verordnet)(KLAMMER /)))(KON und)(FKONJ(MF(APPR mit)(ADJA weiſen)(KLAMMER /)(ADJA ge-<lb/>lehrten)(KON und)(ADJA verſtaͤndigen)(NN Leuten))(VC(VVPP beſetzet))))(LK(KLAMMER /))(NF(C(PRELS welche))(MF(KON ſowol)(ART der)(ADJA reiſen-<lb/>den)(NN Perſonen)(KON als)(ADV auch)(ADJA uͤber-<lb/>ſchickter)(NN Kauffmañs-Guͤter)(APPO we-<lb/>gen)(KLAMMER /)(ADJA treue)(KON und)(ADJA gute)(NN Obſicht))(VC(VVFIN tra-<lb/>gen)))(LK(KLAMMER /))(MF(KON und)(PIS alles)(APPR nach)(NN Muͤglichkeit))(VC(VVINF verhuͤten))(LK(VVFIN helffen))(PUNKT .))
+# text = NAchdem der ge-<lb/>rechte GOTT un-<lb/>ſer geliebtes Vater-<lb/>land Teutſcher Na-<lb/>tion abermahl hin und wieder / um unſerer groſſen Suͤnden willen / mit ſeiner ge-<lb/>rechten Zorn-Ruthe heimgeſu-<lb/>chet / und die ſchwere Straff der Peſtilentz zugeſchicket / welche bereits viel tauſend Menſchen hingeraffet ; So ſeynd deßwe-<lb/>gen alle umliegende Obrigkei-<lb/>ten nicht nur ernſtlich bemuͤhet / ihre Unterthanen zu wahrer Buſſe und andaͤchtigem fleiſſi-<lb/>gen Gebet eifrigſt anzumahnen / ſondern auch gute Fuͤrſorge zu thun / damit ſolche anſteckende Seuche nicht muthwilliger und frevelender Weiſe in die noch reinen Oerter getragen werden moͤchte : zu ſolchem Ende auch wohlgefaſſete Collegia Sanitatis verordnet / und mit weiſen / ge-<lb/>lehrten und verſtaͤndigen Leuten beſetzet / welche ſowol der reiſen-<lb/>den Perſonen als auch uͤber-<lb/>ſchickter Kauffmañs-Guͤter we-<lb/>gen / treue und gute Obſicht tra-<lb/>gen / und alles nach Muͤglichkeit verhuͤten helffen .
+1	NAchdem	nachdem	_	KOUS	_	_	_	_	_	1071-1078	w9a,w9a_1	Nachdem	*	B-LK
+2	der	d	_	ART	_	_	_	_	_	1079-1082	w9b	der	*	B-MF
+3	ge-<lb/>rechte	gerecht	_	ADJA	_	_	_	_	_	1083-1097	w9c	gerechte	*	I-MF
+4	GOTT	Gott	_	NN	_	_	_	_	_	1098-1102	w9d	GOTT	*	I-MF
+5	un-<lb/>ſer	unsere	_	PPOSAT	_	_	_	_	_	1103-1114	w9e	unser	*	I-MF
+6	geliebtes	geliebt	_	ADJA	_	_	_	_	_	1115-1124	w9f	geliebtes	*	I-MF
+7	Vater-<lb/>land	Vaterland	_	NN	_	_	_	_	_	1125-1140	wa0	Vaterland	*	I-MF
+8	Teutſcher	deutsch	_	ADJA	_	_	_	_	_	1141-1150	wa1	Deutscher	*	I-MF
+9	Na-<lb/>tion	Nation	_	NN	_	_	_	_	_	1151-1163	wa2	Nation	*	I-MF
+10	abermahl	abermals	_	ADV	_	_	_	_	_	1164-1172	wa3	abermals	*	I-MF
+11	hin	hin	_	ADV	_	_	_	_	_	1173-1176	wa4	hin	*	I-MF
+12	und	und	_	KON	_	_	_	_	_	1177-1180	wa5	und	*	I-MF
+13	wieder	wieder	_	ADV	_	_	_	_	_	1181-1187	wa6	wieder	*	I-MF
+14	/	/	_	$(	_	_	_	_	_	1188-1189	wa7	/	*	I-MF
+15	um	um	_	APPR	_	_	_	_	_	1190-1192	wa8	um	*	I-MF
+16	unſerer	unsere	_	PPOSAT	_	_	_	_	_	1193-1200	wa9	unserer	*	I-MF
+17	groſſen	groß	_	ADJA	_	_	_	_	_	1201-1208	waa	großen	*	I-MF
+18	Suͤnden	Sünde	_	NN	_	_	_	_	_	1209-1216	wab	Sünden	*	I-MF
+19	willen	Willen	_	APZR	_	_	_	_	_	1217-1223	wac	Willen	*	I-MF
+20	/	/	_	$(	_	_	_	_	_	1224-1225	wad	/	*	I-MF
+21	mit	mit	_	APPR	_	_	_	_	_	1226-1229	wae	mit	*	I-MF
+22	ſeiner	seine	_	PPOSAT	_	_	_	_	_	1230-1236	waf	seiner	*	I-MF
+23	ge-<lb/>rechten	gerecht	_	ADJA	_	_	_	_	_	1237-1252	wb0	gerechten	*	I-MF
+24	Zorn-Ruthe	Zorn-Rute	_	NN	_	_	_	_	_	1253-1263	wb1	Zorn-Rute	*	I-MF
+25	heimgeſu-<lb/>chet	heimsuchen	_	VVPP	_	_	_	_	_	1264-1282	wb2	heimgesucht	*	B-RK
+26	/	/	_	$(	_	_	_	_	_	1283-1284	wb3	/	*	B-RK
+27	und	und	_	KON	_	_	_	_	_	1285-1288	wb4	und	*	B-KOORD
+28	die	d	_	ART	_	_	_	_	_	1289-1292	wb5	die	*	B-MF
+29	ſchwere	schwer	_	ADJA	_	_	_	_	_	1293-1300	wb6	schwere	*	I-MF
+30	Straff	Strafe	_	NN	_	_	_	_	_	1301-1307	wb7	Strafe	*	I-MF
+31	der	d	_	ART	_	_	_	_	_	1308-1311	wb8	der	*	I-MF
+32	Peſtilentz	Pestilenz	_	NN	_	_	_	_	_	1312-1322	wb9	Pestilenz	*	I-MF
+33	zugeſchicket	zuschicken	_	VVPP	_	_	_	_	_	1323-1335	wba	zugeschickt	*	B-RK
+34	/	/	_	$(	_	_	_	_	_	1336-1337	wbb	/	*	O
+35	welche	welche	_	PRELS	_	_	_	_	_	1338-1344	wbc	welche	*	B-LK
+36	bereits	bereits	_	ADV	_	_	_	_	_	1345-1352	wbd	bereits	*	B-MF
+37	viel	viel	_	PIAT	_	_	_	_	_	1353-1357	wbe	viel	*	I-MF
+38	tauſend	tausend	_	CARD	_	_	_	_	_	1358-1365	wbf	tausend	*	I-MF
+39	Menſchen	Mensch	_	NN	_	_	_	_	_	1366-1374	wc0	Menschen	*	I-MF
+40	hingeraffet	hinraffen	_	VVPP	_	_	_	_	_	1375-1386	wc1	hingerafft	*	B-RK
+41	;	;	_	$.	_	_	_	_	_	1387-1388	wc2	;	*	O
+42	So	so	_	ADV	_	_	_	_	_	1389-1391	wc3	So	*	B-VF
+43	ſeynd	sein	_	VAFIN	_	_	_	_	_	1392-1397	wc4	sind	*	B-LK
+44	deßwe-<lb/>gen	deswegen	_	PAV	_	_	_	_	_	1398-1412	wc5	deswegen	*	B-MF
+45	alle	alle	_	PIAT	_	_	_	_	_	1413-1417	wc6	alle	*	I-MF
+46	umliegende	umliegend	_	ADJA	_	_	_	_	_	1418-1428	wc7	umliegende	*	I-MF
+47	Obrigkei-<lb/>ten	Obrigkeit	_	NN	_	_	_	_	_	1429-1446	wc8,wc8_1,wc8_2,wc8_3	Obrigkeiten	*	I-MF
+48	nicht	nicht	_	PTKNEG	_	_	_	_	_	1447-1452	wc9	nicht	*	I-MF
+49	nur	nur	_	ADV	_	_	_	_	_	1453-1456	wca	nur	*	I-MF
+50	ernſtlich	ernstlich	_	ADJD	_	_	_	_	_	1457-1466	wcb	ernstlich	*	I-MF
+51	bemuͤhet	bemühen	_	VVPP	_	_	_	_	_	1467-1475	wcc	bemühet	*	B-RK
+52	/	/	_	$(	_	_	_	_	_	1476-1477	wcd	/	*	B-LK
+53	ihre	ihr	_	PPOSAT	_	_	_	_	_	1478-1482	wce	ihre	*	B-MF
+54	Unterthanen	Untertan	_	NN	_	_	_	_	_	1483-1494	wcf	Untertanen	*	I-MF
+55	zu	zu	_	APPR	_	_	_	_	_	1495-1497	wd0	zu	*	I-MF
+56	wahrer	wahr	_	ADJA	_	_	_	_	_	1498-1504	wd1	wahrer	*	I-MF
+57	Buſſe	Buße	_	NN	_	_	_	_	_	1505-1510	wd2	Buße	*	I-MF
+58	und	und	_	KON	_	_	_	_	_	1511-1514	wd3	und	*	I-MF
+59	andaͤchtigem	andächtig	_	ADJA	_	_	_	_	_	1515-1527	wd4	andächtigem	*	I-MF
+60	fleiſſi-<lb/>gen	fleißig	_	ADJA	_	_	_	_	_	1528-1544	wd5	fleißigen	*	I-MF
+61	Gebet	Gebet	_	NN	_	_	_	_	_	1545-1550	wd6	Gebet	*	I-MF
+62	eifrigſt	eifrig	_	ADJD	_	_	_	_	_	1551-1559	wd7	eifrigst	*	I-MF
+63	anzumahnen	anmahnen	_	VVIZU	_	_	_	_	_	1560-1570	wd8	anzumahnen	*	B-RK
+64	/	/	_	$(	_	_	_	_	_	1571-1572	wd9	/	*	B-LK
+65	ſondern	sondern	_	KON	_	_	_	_	_	1573-1580	wda	sondern	*	B-NF|B-MF
+66	auch	auch	_	ADV	_	_	_	_	_	1581-1585	wdb	auch	*	I-NF|I-MF
+67	gute	gut	_	ADJA	_	_	_	_	_	1586-1590	wdc	gute	*	I-NF|I-MF
+68	Fuͤrſorge	Fürsorge	_	NN	_	_	_	_	_	1591-1600	wdd	Fürsorge	*	I-NF|I-MF
+69	zu	zu	_	PTKZU	_	_	_	_	_	1601-1603	wde	zu	*	I-NF|B-RK
+70	thun	tun	_	VVINF	_	_	_	_	_	1604-1608	wdf	tun	*	I-NF|I-RK
+71	/	/	_	$(	_	_	_	_	_	1609-1610	we0	/	*	B-LK
+72	damit	damit	_	KOUS	_	_	_	_	_	1611-1616	we1	damit	*	B-NF|B-LK
+73	ſolche	solch	_	PIAT	_	_	_	_	_	1617-1623	we2	solche	*	I-NF|B-MF
+74	anſteckende	ansteckend	_	ADJA	_	_	_	_	_	1624-1635	we3	ansteckende	*	I-NF|I-MF
+75	Seuche	Seuche	_	NN	_	_	_	_	_	1636-1642	we4	Seuche	*	I-NF|I-MF
+76	nicht	nicht	_	PTKNEG	_	_	_	_	_	1643-1648	we5	nicht	*	I-NF|I-MF
+77	muthwilliger	mutwillig	_	ADJA	_	_	_	_	_	1649-1661	we6	mutwilliger	*	I-NF|I-MF
+78	und	und	_	KON	_	_	_	_	_	1662-1665	we7	und	*	I-NF|I-MF
+79	frevelender	frevelnd	_	ADJA	_	_	_	_	_	1666-1677	we8	frevelnder	*	I-NF|I-MF
+80	Weiſe	Weise	_	NN	_	_	_	_	_	1678-1683	we9	Weise	*	I-NF|I-MF
+81	in	in	_	APPR	_	_	_	_	_	1684-1686	wea	in	*	I-NF|I-MF
+82	die	d	_	ART	_	_	_	_	_	1687-1690	web	die	*	I-NF|I-MF
+83	noch	noch	_	ADV	_	_	_	_	_	1691-1695	wec	noch	*	I-NF|I-MF
+84	reinen	rein	_	ADJA	_	_	_	_	_	1696-1702	wed	reinen	*	I-NF|I-MF
+85	Oerter	Ort	_	NN	_	_	_	_	_	1703-1709	wee	Orte	*	I-NF|I-MF
+86	getragen	tragen	_	VVPP	_	_	_	_	_	1710-1718	wef	getragen	*	I-NF|B-RK
+87	werden	werden	_	VAINF	_	_	_	_	_	1719-1725	wf0	werden	*	I-NF|I-RK
+88	moͤchte	mögen	_	VMFIN	_	_	_	_	_	1726-1733	wf1	möchte	*	I-NF|I-RK
+89	:	:	_	$.	_	_	_	_	_	1734-1735	wf2	:	*	B-LK
+90	zu	zu	_	APPR	_	_	_	_	_	1736-1738	wf3	zu	*	B-MF
+91	ſolchem	solch	_	PIAT	_	_	_	_	_	1739-1746	wf4	solchem	*	I-MF
+92	Ende	Ende	_	NN	_	_	_	_	_	1747-1751	wf5	Ende	*	I-MF
+93	auch	auch	_	ADV	_	_	_	_	_	1752-1756	wf6	auch	*	I-MF
+94	wohlgefaſſete	wohlgefaßt	_	ADJA	_	_	_	_	_	1757-1770	wf7	wohlgefasste	*	I-MF
+95	Collegia	collegia	_	NN	_	_	_	_	_	1771-1779	wf8	Collegia	*	I-MF
+96	Sanitatis	sanitatis	_	ADJD	_	_	_	_	_	1780-1789	wf9	Sanitatis	*	I-MF
+97	verordnet	verordnen	_	VVPP	_	_	_	_	_	1790-1799	wfa	verordnet	*	B-RK
+98	/	/	_	$(	_	_	_	_	_	1800-1801	wfb	/	*	I-RK
+99	und	und	_	KON	_	_	_	_	_	1802-1805	wfc	und	*	B-KOORD
+100	mit	mit	_	APPR	_	_	_	_	_	1806-1809	wfd	mit	*	B-MF
+101	weiſen	weise	_	ADJA	_	_	_	_	_	1810-1816	wfe	weisen	*	I-MF
+102	/	/	_	$(	_	_	_	_	_	1817-1818	wff	/	*	I-MF
+103	ge-<lb/>lehrten	gelehrt	_	ADJA	_	_	_	_	_	1819-1834	w100	gelehrten	*	I-MF
+104	und	und	_	KON	_	_	_	_	_	1835-1838	w101	und	*	I-MF
+105	verſtaͤndigen	verständigen	_	ADJA	_	_	_	_	_	1839-1852	w102	verständigen	*	I-MF
+106	Leuten	Leute	_	NN	_	_	_	_	_	1853-1859	w103	Leuten	*	I-MF
+107	beſetzet	besetzen	_	VVPP	_	_	_	_	_	1860-1868	w104	besetzet	*	B-RK
+108	/	/	_	$(	_	_	_	_	_	1869-1870	w105	/	*	B-LK
+109	welche	welche	_	PRELS	_	_	_	_	_	1871-1877	w106	welche	*	B-NF|B-LK
+110	ſowol	sowohl	_	KON	_	_	_	_	_	1878-1883	w107	sowohl	*	I-NF|B-MF
+111	der	d	_	ART	_	_	_	_	_	1884-1887	w108	der	*	I-NF|I-MF
+112	reiſen-<lb/>den	reisend	_	ADJA	_	_	_	_	_	1888-1903	w109	reisenden	*	I-NF|I-MF
+113	Perſonen	Person	_	NN	_	_	_	_	_	1904-1912	w10a	Personen	*	I-NF|I-MF
+114	als	als	_	KON	_	_	_	_	_	1913-1916	w10b	als	*	I-NF|I-MF
+115	auch	auch	_	ADV	_	_	_	_	_	1917-1921	w10c	auch	*	I-NF|I-MF
+116	uͤber-<lb/>ſchickter	überschicken	_	ADJA	_	_	_	_	_	1922-1942	w10d	überschickte	*	I-NF|I-MF
+117	Kauffmañs-Guͤter	Kaufmanns-Gut	_	NN	_	_	_	_	_	1943-1960	w10e	Kaufmanns-Güter	*	I-NF|I-MF
+118	we-<lb/>gen	wegen	_	APPO	_	_	_	_	_	1961-1972	w10f	wegen	*	I-NF|I-MF
+119	/	/	_	$(	_	_	_	_	_	1973-1974	w110	/	*	I-NF|I-MF
+120	treue	treu	_	ADJA	_	_	_	_	_	1975-1980	w111	treue	*	I-NF|I-MF
+121	und	und	_	KON	_	_	_	_	_	1981-1984	w112	und	*	I-NF|I-MF
+122	gute	gut	_	ADJA	_	_	_	_	_	1985-1989	w113	gute	*	I-NF|I-MF
+123	Obſicht	Sicht	_	NN	_	_	_	_	_	1990-1997	w114	Sicht	*	I-NF|I-MF
+124	tra-<lb/>gen	tragen	_	VVFIN	_	_	_	_	_	1998-2010	w115	tragen	*	I-NF|B-RK
+125	/	/	_	$(	_	_	_	_	_	2011-2012	w116	/	*	B-LK
+126	und	und	_	KON	_	_	_	_	_	2013-2016	w117	und	*	B-MF
+127	alles	alle	_	PIS	_	_	_	_	_	2017-2022	w118	alles	*	I-MF
+128	nach	nach	_	APPR	_	_	_	_	_	2023-2027	w119	nach	*	I-MF
+129	Muͤglichkeit	Möglichkeit	_	NN	_	_	_	_	_	2028-2040	w11a	Möglichkeit	*	I-MF
+130	verhuͤten	verhüten	_	VVINF	_	_	_	_	_	2041-2050	w11b	verhüten	*	B-RK
+131	helffen	helfen	_	VVFIN	_	_	_	_	_	2051-2058	w11c	helfen	*	B-LK
+132	.	.	_	$.	_	_	_	_	_	2059-2060	w11d	.	*	O
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# TopFString = (S(VF(ADJA Ordentli-<lb/>che)(NN Fuͤr-<lb/>ſorge)(PUNKT .))(LK(VMFIN Will))(MF(PTKNEG nicht)(ADV allemal))(VC(VVINF helffen)(PUNKT .)))
+# text = Ordentli-<lb/>che Fuͤr-<lb/>ſorge . Will nicht allemal helffen .
+1	Ordentli-<lb/>che	ordentlich	_	ADJA	_	_	_	_	_	2062-2079	w727	Ordentliche	*	B-VF
+2	Fuͤr-<lb/>ſorge	Fürsorge	_	NN	_	_	_	_	_	2080-2095	w728	Fürsorge	*	I-VF
+3	.	.	_	$.	_	_	_	_	_	2096-2097	w729	.	*	I-VF
+4	Will	wollen	_	VMFIN	_	_	_	_	_	2098-2102	w72a	Will	*	B-LK
+5	nicht	nicht	_	PTKNEG	_	_	_	_	_	2103-2108	w72b	nicht	*	B-MF
+6	allemal	allemal	_	ADV	_	_	_	_	_	2109-2116	w72c	allemal	*	I-MF
+7	helffen	helfen	_	VVINF	_	_	_	_	_	2117-2124	w72d	helfen	*	B-RK
+8	.	.	_	$.	_	_	_	_	_	2125-2126	w72e	.	*	I-RK
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# TopFString = (S(VF(C(KOUS Ob))(FKOORD(FKONJ(MF(PDS dieſes)(ADV wol)(ART eine)(ADJA loͤbliche)(NN Sache)(LK(KLAMMER /))(MF(PWAV wordurch)(ADV vielmal)(PIAT ſolche)(NN Seuche))(VC(VVIZU abzuhalten)))(VC(KLAMMER /)))(KON und)(FKONJ(MF(ART ein)(KON oder)(ADJA anderer)(NN Ort)(APPR durch)(ART die)(NN Gna-<lb/>de)(NN GOttes))(VC(VVPP verſchonet)(VAINF werden)(VMFIN kan)))))(FKOORD(FKONJ(LK(PUNKT :))(MF(ADV So))(LK(VVFIN bezeuget))(MF(ADV doch)(ART die)(ADJA taͤg-<lb/>liche)(NN Erfahrung))(LK(KLAMMER /))(NF(C(KOUS daß))(FKOORD(FKONJ(MF(PIAT alle)(PPOSAT unſe-<lb/>re)(NN Fuͤrſorge)(LK(KLAMMER /))(MF(NN Muͤhe)(KON und)(NN Arbeit)(ADV vergebens))(LK(KLAMMER /))(NF(C(KOUS wann))(MF(NN GOtt)(APPR mit)(PPOSAT ſei-<lb/>ner)(NN Straff))(VC(VVINF kommen))))(VC(KLAMMER /)))(KON und)(FKONJ(MF(PPER uns)(PPOSAT ſeine)(ADJA boͤſe)(NN Kinder))(VC(VVINF zuͤchtigen)(VMFIN will)))))(LK(KLAMMER /))(NF(C(PWAV weßwegen))(MF(ADV auch)(ADV faſt)(PIS jederman)(APPR fuͤr)(PIAT ſolcher)(ADJA Peſtilentziſchen)(NN Kranckheit)(ADJD furchtſam))(VC(VAFIN iſt)))(LK(KLAMMER /))(MF(ADV auch)(NN Mittel)(KON und)(NN Wege))(LK(VVFIN ſuchet))(FKOORD(FKONJ(LK(KLAMMER /))(NF(MF(PDS der-<lb/>ſelben))(VC(PTKZU zu)(VVINF entfliehen))))(LK(KLAMMER /))(KON oder)(ADV aber)(FKONJ(MF(PRF ſich)(KON und)(ART die)(NN ſeinigen)(APPR mit)(ADJA dienli-<lb/>chen)(NN Præſervativ-Mitteln))(VC(PTKZU zu)(VVINF verſehen)))))(LK(PUNKT .))))
+# text = Ob dieſes wol eine loͤbliche Sache / wordurch vielmal ſolche Seuche abzuhalten / und ein oder anderer Ort durch die Gna-<lb/>de GOttes verſchonet werden kan : So bezeuget doch die taͤg-<lb/>liche Erfahrung / daß alle unſe-<lb/>re Fuͤrſorge / Muͤhe und Arbeit vergebens / wann GOtt mit ſei-<lb/>ner Straff kommen / und uns ſeine boͤſe Kinder zuͤchtigen will / weßwegen auch faſt jederman fuͤr ſolcher Peſtilentziſchen Kranckheit furchtſam iſt / auch Mittel und Wege ſuchet / der-<lb/>ſelben zu entfliehen / oder aber ſich und die ſeinigen mit dienli-<lb/>chen Præſervativ-Mitteln zu verſehen .
+1	Ob	ob	_	KOUS	_	_	_	_	_	2128-2130	w11e	Ob	*	B-VF|B-LK
+2	dieſes	diese	_	PDS	_	_	_	_	_	2131-2137	w11f	dieses	*	I-VF|B-MF
+3	wol	wohl	_	ADV	_	_	_	_	_	2138-2141	w120	wohl	*	I-VF|I-MF
+4	eine	eine	_	ART	_	_	_	_	_	2142-2146	w121	eine	*	I-VF|I-MF
+5	loͤbliche	löblich	_	ADJA	_	_	_	_	_	2147-2156	w122	löbliche	*	I-VF|I-MF
+6	Sache	Sache	_	NN	_	_	_	_	_	2157-2162	w123	Sache	*	I-VF|I-MF
+7	/	/	_	$(	_	_	_	_	_	2163-2164	w124	/	*	I-VF|I-MF|B-LK
+8	wordurch	wodurch	_	PWAV	_	_	_	_	_	2165-2173	w125	wodurch	*	I-VF|I-MF|B-MF
+9	vielmal	vielmal	_	ADV	_	_	_	_	_	2174-2181	w126	vielmal	*	I-VF|I-MF|I-MF
+10	ſolche	solch	_	PIAT	_	_	_	_	_	2182-2188	w127	solche	*	I-VF|I-MF|I-MF
+11	Seuche	Seuche	_	NN	_	_	_	_	_	2189-2195	w128	Seuche	*	I-VF|I-MF|I-MF
+12	abzuhalten	abhalten	_	VVIZU	_	_	_	_	_	2196-2206	w129	abzuhalten	*	I-VF|I-MF|B-RK
+13	/	/	_	$(	_	_	_	_	_	2207-2208	w12a	/	*	I-VF|B-RK
+14	und	und	_	KON	_	_	_	_	_	2209-2212	w12b	und	*	I-VF|B-KOORD
+15	ein	eine	_	ART	_	_	_	_	_	2213-2216	w12c	ein	*	I-VF|B-MF
+16	oder	oder	_	KON	_	_	_	_	_	2217-2221	w12d	oder	*	I-VF|I-MF
+17	anderer	ander	_	ADJA	_	_	_	_	_	2222-2229	w12e	anderer	*	I-VF|I-MF
+18	Ort	Ort	_	NN	_	_	_	_	_	2230-2233	w12f	Ort	*	I-VF|I-MF
+19	durch	durch	_	APPR	_	_	_	_	_	2234-2239	w130	durch	*	I-VF|I-MF
+20	die	d	_	ART	_	_	_	_	_	2240-2243	w131	die	*	I-VF|I-MF
+21	Gna-<lb/>de	Gnade	_	NN	_	_	_	_	_	2244-2255	w132	Gnade	*	I-VF|I-MF
+22	GOttes	Gott	_	NN	_	_	_	_	_	2256-2262	w133	Gottes	*	I-VF|I-MF
+23	verſchonet	verschonen	_	VVPP	_	_	_	_	_	2263-2273	w134	verschonet	*	I-VF|B-RK
+24	werden	werden	_	VAINF	_	_	_	_	_	2274-2280	w135	werden	*	I-VF|I-RK
+25	kan	können	_	VMFIN	_	_	_	_	_	2281-2284	w136	kann	*	I-VF|I-RK
+26	:	:	_	$.	_	_	_	_	_	2285-2286	w137	:	*	B-LK
+27	So	so	_	ADV	_	_	_	_	_	2287-2289	w138	So	*	B-MF
+28	bezeuget	bezeugen	_	VVFIN	_	_	_	_	_	2290-2298	w139	bezeuget	*	B-LK
+29	doch	doch	_	ADV	_	_	_	_	_	2299-2303	w13a	doch	*	B-MF
+30	die	d	_	ART	_	_	_	_	_	2304-2307	w13b	die	*	I-MF
+31	taͤg-<lb/>liche	täglich	_	ADJA	_	_	_	_	_	2308-2323	w13c	tägliche	*	I-MF
+32	Erfahrung	Erfahrung	_	NN	_	_	_	_	_	2324-2333	w13d	Erfahrung	*	I-MF
+33	/	/	_	$(	_	_	_	_	_	2334-2335	w13e	/	*	B-LK
+34	daß	daß	_	KOUS	_	_	_	_	_	2336-2339	w13f	daß	*	B-NF|B-LK
+35	alle	alle	_	PIAT	_	_	_	_	_	2340-2344	w140	alle	*	I-NF|B-MF
+36	unſe-<lb/>re	unsere	_	PPOSAT	_	_	_	_	_	2345-2357	w141	unsere	*	I-NF|I-MF
+37	Fuͤrſorge	Fürsorge	_	NN	_	_	_	_	_	2358-2367	w142	Fürsorge	*	I-NF|I-MF
+38	/	/	_	$(	_	_	_	_	_	2368-2369	w143	/	*	I-NF|I-MF|B-LK
+39	Muͤhe	Mühe	_	NN	_	_	_	_	_	2370-2375	w144	Mühe	*	I-NF|I-MF|B-MF
+40	und	und	_	KON	_	_	_	_	_	2376-2379	w145	und	*	I-NF|I-MF|I-MF
+41	Arbeit	Arbeit	_	NN	_	_	_	_	_	2380-2386	w146	Arbeit	*	I-NF|I-MF|I-MF
+42	vergebens	vergebens	_	ADV	_	_	_	_	_	2387-2396	w147	vergebens	*	I-NF|I-MF|I-MF
+43	/	/	_	$(	_	_	_	_	_	2397-2398	w148	/	*	I-NF|I-MF|B-LK
+44	wann	wann	_	KOUS	_	_	_	_	_	2399-2403	w149	wann	*	I-NF|I-MF|B-NF|B-LK
+45	GOtt	Gott	_	NN	_	_	_	_	_	2404-2408	w14a	Gott	*	I-NF|I-MF|I-NF|B-MF
+46	mit	mit	_	APPR	_	_	_	_	_	2409-2412	w14b	mit	*	I-NF|I-MF|I-NF|I-MF
+47	ſei-<lb/>ner	seine	_	PPOSAT	_	_	_	_	_	2413-2425	w14c	seiner	*	I-NF|I-MF|I-NF|I-MF
+48	Straff	Strafe	_	NN	_	_	_	_	_	2426-2432	w14d	Strafe	*	I-NF|I-MF|I-NF|I-MF
+49	kommen	kommen	_	VVINF	_	_	_	_	_	2433-2439	w14e	kommen	*	I-NF|I-MF|I-NF|B-RK
+50	/	/	_	$(	_	_	_	_	_	2440-2441	w14f	/	*	I-NF|B-RK
+51	und	und	_	KON	_	_	_	_	_	2442-2445	w150	und	*	I-NF|B-KOORD
+52	uns	wir	_	PPER	_	_	_	_	_	2446-2449	w151	uns	*	I-NF|B-MF
+53	ſeine	seine	_	PPOSAT	_	_	_	_	_	2450-2455	w152	seine	*	I-NF|I-MF
+54	boͤſe	böse	_	ADJA	_	_	_	_	_	2456-2461	w153	böse	*	I-NF|I-MF
+55	Kinder	Kind	_	NN	_	_	_	_	_	2462-2468	w154	Kinder	*	I-NF|I-MF
+56	zuͤchtigen	züchtig	_	VVINF	_	_	_	_	_	2469-2479	w155	züchtigen	*	I-NF|B-RK
+57	will	wollen	_	VMFIN	_	_	_	_	_	2480-2484	w156	will	*	I-NF|I-RK
+58	/	/	_	$(	_	_	_	_	_	2485-2486	w157	/	*	B-LK
+59	weßwegen	weswegen	_	PWAV	_	_	_	_	_	2487-2495	w158	weswegen	*	B-NF|B-LK
+60	auch	auch	_	ADV	_	_	_	_	_	2496-2500	w159	auch	*	I-NF|B-MF
+61	faſt	fast	_	ADV	_	_	_	_	_	2501-2505	w15a	fast	*	I-NF|I-MF
+62	jederman	jedermann	_	PIS	_	_	_	_	_	2506-2514	w15b	jedermann	*	I-NF|I-MF
+63	fuͤr	für	_	APPR	_	_	_	_	_	2515-2519	w15c	für	*	I-NF|I-MF
+64	ſolcher	solch	_	PIAT	_	_	_	_	_	2520-2527	w15d	solcher	*	I-NF|I-MF
+65	Peſtilentziſchen	pestilentzischen	_	ADJA	_	_	_	_	_	2528-2544	w15e	Pestilentzischen	*	I-NF|I-MF
+66	Kranckheit	Krankheit	_	NN	_	_	_	_	_	2545-2555	w15f	Krankheit	*	I-NF|I-MF
+67	furchtſam	furchtsam	_	ADJD	_	_	_	_	_	2556-2565	w160	furchtsam	*	I-NF|I-MF
+68	iſt	sein	_	VAFIN	_	_	_	_	_	2566-2569	w161	ist	*	I-NF|B-RK
+69	/	/	_	$(	_	_	_	_	_	2570-2571	w162	/	*	B-LK
+70	auch	auch	_	ADV	_	_	_	_	_	2572-2576	w163	auch	*	B-MF
+71	Mittel	Mittel	_	NN	_	_	_	_	_	2577-2583	w164	Mittel	*	I-MF
+72	und	und	_	KON	_	_	_	_	_	2584-2587	w165	und	*	I-MF
+73	Wege	Weg	_	NN	_	_	_	_	_	2588-2592	w166	Wege	*	I-MF
+74	ſuchet	suchen	_	VVFIN	_	_	_	_	_	2593-2599	w167	suchet	*	B-LK
+75	/	/	_	$(	_	_	_	_	_	2600-2601	w168	/	*	B-LK
+76	der-<lb/>ſelben	dieselbe	_	PDS	_	_	_	_	_	2602-2617	w169	derselben	*	B-NF|B-MF
+77	zu	zu	_	PTKZU	_	_	_	_	_	2618-2620	w16a	zu	*	I-NF|B-RK
+78	entfliehen	entfliehen	_	VVINF	_	_	_	_	_	2621-2631	w16b	entfliehen	*	I-NF|I-RK
+79	/	/	_	$(	_	_	_	_	_	2632-2633	w16c	/	*	B-LK
+80	oder	oder	_	KON	_	_	_	_	_	2634-2638	w16d	oder	*	B-KOORD
+81	aber	aber	_	ADV	_	_	_	_	_	2639-2643	w16e	aber	*	O
+82	ſich	sich	_	PRF	_	_	_	_	_	2644-2648	w16f	sich	*	B-MF
+83	und	und	_	KON	_	_	_	_	_	2649-2652	w170	und	*	I-MF
+84	die	d	_	ART	_	_	_	_	_	2653-2656	w171	die	*	I-MF
+85	ſeinigen	seinigen	_	NN	_	_	_	_	_	2657-2665	w172	seinigen	*	I-MF
+86	mit	mit	_	APPR	_	_	_	_	_	2666-2669	w173	mit	*	I-MF
+87	dienli-<lb/>chen	dienlich	_	ADJA	_	_	_	_	_	2670-2686	w174	dienlichen	*	I-MF
+88	Præſervativ-Mitteln	Präservativ-Mittel	_	NN	_	_	_	_	_	2687-2706	w175,w175_1	Präservativ-Mitteln	*	I-MF
+89	zu	zu	_	PTKZU	_	_	_	_	_	2707-2709	w176	zu	*	B-RK
+90	verſehen	versehen	_	VVINF	_	_	_	_	_	2710-2718	w177	versehen	*	I-RK
+91	.	.	_	$.	_	_	_	_	_	2719-2720	w178	.	*	B-LK
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# TopFString = (S(VF(VF(PPER Es))(LK(VMFIN wollen))(MF(ADV aber)(ADV gleichwol)(PIAT viel)(NN Leut)(LK(KLAMMER /))(MF(ADV auch)(ADJA gelehrte)(KON und)(ADJA beruͤhm-<lb/>te)(NN Medici)(ADV ſelbſt))(LK(KLAMMER /))(APPR auf)(PDAT dieſer)(NN Mey-<lb/>nung))(VC(VVINF beharren))(NF(LK(KLAMMER /))(NF(C(KOUS daß))(MF(PIS niemand)(ART die)(NN Peſtilentz))(VC(VVINF curiren)(VMFIN koͤnne)))))(LK(KLAMMER /))(MF(ADV noch)(ADV auch))(NF(C(KOUS daß))(MF(PIAT einiger)(NN Medicus)(ART ein)(ADJA ungezweiffelt)(NN Mittel)(APPR wider)(PIAT ſolche)(NN Peſtilentz-Kranckheit))(VCE(VAFIN ha-<lb/>be))(VC(KLAMMER /)(VVPP vorwendende)(PUNKT :))))
+# text = Es wollen aber gleichwol viel Leut / auch gelehrte und beruͤhm-<lb/>te Medici ſelbſt / auf dieſer Mey-<lb/>nung beharren / daß niemand die Peſtilentz curiren koͤnne / noch auch daß einiger Medicus ein ungezweiffelt Mittel wider ſolche Peſtilentz-Kranckheit ha-<lb/>be / vorwendende :
+1	Es	es	_	PPER	_	_	_	_	_	2722-2724	w179	Es	*	B-VF|B-VF
+2	wollen	wollen	_	VMFIN	_	_	_	_	_	2725-2731	w17a	wollen	*	I-VF|B-LK
+3	aber	aber	_	ADV	_	_	_	_	_	2732-2736	w17b	aber	*	I-VF|B-MF
+4	gleichwol	gleichwohl	_	ADV	_	_	_	_	_	2737-2746	w17c	gleichwohl	*	I-VF|I-MF
+5	viel	viel	_	PIAT	_	_	_	_	_	2747-2751	w17d	viel	*	I-VF|I-MF
+6	Leut	Leute	_	NN	_	_	_	_	_	2752-2756	w17e	Leute	*	I-VF|I-MF
+7	/	/	_	$(	_	_	_	_	_	2757-2758	w17f	/	*	I-VF|I-MF|B-LK
+8	auch	auch	_	ADV	_	_	_	_	_	2759-2763	w180	auch	*	I-VF|I-MF|B-MF
+9	gelehrte	gelehrt	_	ADJA	_	_	_	_	_	2764-2772	w181	gelehrte	*	I-VF|I-MF|I-MF
+10	und	und	_	KON	_	_	_	_	_	2773-2776	w182	und	*	I-VF|I-MF|I-MF
+11	beruͤhm-<lb/>te	berühmt	_	ADJA	_	_	_	_	_	2777-2792	w183	berühmte	*	I-VF|I-MF|I-MF
+12	Medici	Medici	_	NN	_	_	_	_	_	2793-2799	w184	Medici	*	I-VF|I-MF|I-MF
+13	ſelbſt	selbst	_	ADV	_	_	_	_	_	2800-2806	w185	selbst	*	I-VF|I-MF|I-MF
+14	/	/	_	$(	_	_	_	_	_	2807-2808	w186	/	*	I-VF|I-MF|B-LK
+15	auf	auf	_	APPR	_	_	_	_	_	2809-2812	w187	auf	*	I-VF|I-MF
+16	dieſer	diese	_	PDAT	_	_	_	_	_	2813-2819	w188	dieser	*	I-VF|I-MF
+17	Mey-<lb/>nung	Meinung	_	NN	_	_	_	_	_	2820-2833	w189	Meinung	*	I-VF|I-MF
+18	beharren	beharren	_	VVINF	_	_	_	_	_	2834-2842	w18a	beharren	*	I-VF|B-RK
+19	/	/	_	$(	_	_	_	_	_	2843-2844	w18b	/	*	I-VF|B-NF|B-LK
+20	daß	daß	_	KOUS	_	_	_	_	_	2845-2848	w18c	daß	*	I-VF|I-NF|B-NF|B-LK
+21	niemand	niemand	_	PIS	_	_	_	_	_	2849-2856	w18d	niemand	*	I-VF|I-NF|I-NF|B-MF
+22	die	d	_	ART	_	_	_	_	_	2857-2860	w18e	die	*	I-VF|I-NF|I-NF|I-MF
+23	Peſtilentz	Pestilenz	_	NN	_	_	_	_	_	2861-2871	w18f	Pestilenz	*	I-VF|I-NF|I-NF|I-MF
+24	curiren	kurieren	_	VVINF	_	_	_	_	_	2872-2879	w190	kurieren	*	I-VF|I-NF|I-NF|B-RK
+25	koͤnne	können	_	VMFIN	_	_	_	_	_	2880-2886	w191	könne	*	I-VF|I-NF|I-NF|I-RK
+26	/	/	_	$(	_	_	_	_	_	2887-2888	w192	/	*	B-LK
+27	noch	noch	_	ADV	_	_	_	_	_	2889-2893	w193	noch	*	B-MF
+28	auch	auch	_	ADV	_	_	_	_	_	2894-2898	w194	auch	*	I-MF
+29	daß	daß	_	KOUS	_	_	_	_	_	2899-2902	w195	daß	*	B-NF|B-LK
+30	einiger	einige	_	PIAT	_	_	_	_	_	2903-2910	w196	einiger	*	I-NF|B-MF
+31	Medicus	Medikus	_	NN	_	_	_	_	_	2911-2918	w197	Medikus	*	I-NF|I-MF
+32	ein	eine	_	ART	_	_	_	_	_	2919-2922	w198	ein	*	I-NF|I-MF
+33	ungezweiffelt	ungezweifelt	_	ADJA	_	_	_	_	_	2923-2936	w199	ungezweifelt	*	I-NF|I-MF
+34	Mittel	Mittel	_	NN	_	_	_	_	_	2937-2943	w19a	Mittel	*	I-NF|I-MF
+35	wider	wider	_	APPR	_	_	_	_	_	2944-2949	w19b	wider	*	I-NF|I-MF
+36	ſolche	solch	_	PIAT	_	_	_	_	_	2950-2956	w19c	solche	*	I-NF|I-MF
+37	Peſtilentz-Kranckheit	Pestilentz-Kranckheit	_	NN	_	_	_	_	_	2957-2978	w19d	Pestilentz-Kranckheit	*	I-NF|I-MF
+38	ha-<lb/>be	haben	_	VAFIN	_	_	_	_	_	2979-2989	w19e	habe	*	I-NF|B-RK
+39	/	/	_	$(	_	_	_	_	_	2990-2991	w19f	/	*	I-NF|B-RK
+40	vorwendende	vorwendend	_	VVPP	_	_	_	_	_	2992-3003	w1a0	vorwendende	*	I-NF|I-RK
+41	:	:	_	$.	_	_	_	_	_	3004-3005	w1a1	:	*	I-NF|I-RK
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# TopFString = (S(VF(NN Peſt))(LK(VAFIN wird))(MF(APPR von)(PIS vielen)(APPR fuͤr)(ADJD un-<lb/>muͤglich))(VC(PTKZU zu)(VVINF curiren)(VVPP gehalten)(PUNKT .)))
+# text = Peſt wird von vielen fuͤr un-<lb/>muͤglich zu curiren gehalten .
+1	Peſt	Pest	_	NN	_	_	_	_	_	3007-3011	w72f	Pest	*	B-VF
+2	wird	werden	_	VAFIN	_	_	_	_	_	3012-3016	w730	wird	*	B-LK
+3	von	von	_	APPR	_	_	_	_	_	3017-3020	w731	von	*	B-MF
+4	vielen	viel	_	PIS	_	_	_	_	_	3021-3027	w732	vielen	*	I-MF
+5	fuͤr	für	_	APPR	_	_	_	_	_	3028-3032	w733	für	*	I-MF
+6	un-<lb/>muͤglich	unmöglich	_	ADJD	_	_	_	_	_	3033-3049	w734	unmöglich	*	I-MF
+7	zu	zu	_	PTKZU	_	_	_	_	_	3050-3052	w735	zu	*	B-RK
+8	curiren	kurieren	_	VVINF	_	_	_	_	_	3053-3060	w736	kurieren	*	I-RK
+9	gehalten	halten	_	VVPP	_	_	_	_	_	3061-3069	w737	gehalten	*	I-RK
+10	.	.	_	$.	_	_	_	_	_	3070-3071	w738	.	*	I-RK
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# TopFString = (S(VF(PPER Es))(FKOORD(FKONJ(LK(VAFIN ſey))(MF(ART die)(NN Peſtilentz)(ART eine)(ADJA ſonderbare)(NN Straff)(KON und)(NN Heimſuchung)(NN Gottes))(VC(KLAMMER /)))(KON und)(FKONJ(LK(VMFIN ſolle))(MF(PIS man)(ADV nur)(PIAT alle)(NN Artzney-Mit-<lb/>tel))(VC(VVPP ungebrauchet)(VVINF laſſen))(LK(KLAMMER /))(NF(C(KOUS indeme))(MF(PIS man)(ADV ja))(VC(VVFIN ſehe)))(LK(KLAMMER /))(NF(C(KOUS wie))(MF(PIAT ſolche)(NN Seuche)(PIAT keiner)(NN Artzney))(VC(VVFIN weiche)))(LK(KLAMMER /))(MF(ADV ja)(ADV auch)(ART der)(ADJA meiſte)(NN Theil)(PIAT ſolcher)(NN Kran-<lb/>cken))(LK(KLAMMER /))(MF(ADV auch)(NN Pfarrherren))(LK(KLAMMER /))(MF(NN Medi-<lb/>cos))(LK(KOMMA ,))(MF(NN Barbirer)(ADV ꝛc.)(ADV ꝛc.)(ADV ſelbſt))(LK(KLAMMER /))(MF(ADV ja)(ADV offt)(APPRART am)(NN allererſten))(VC(PTKVZ weg))))(VF(VC(VVINF ſterben)))(LK(VMFIN muͤſten))(VC(PUNKT .)))
+# text = Es ſey die Peſtilentz eine ſonderbare Straff und Heimſuchung Gottes / und ſolle man nur alle Artzney-Mit-<lb/>tel ungebrauchet laſſen / indeme man ja ſehe / wie ſolche Seuche keiner Artzney weiche / ja auch der meiſte Theil ſolcher Kran-<lb/>cken / auch Pfarrherren / Medi-<lb/>cos , Barbirer ꝛc. ꝛc. ſelbſt / ja offt am allererſten weg ſterben muͤſten .
+1	Es	es	_	PPER	_	_	_	_	_	3073-3075	w1a2	Es	*	B-VF
+2	ſey	sein	_	VAFIN	_	_	_	_	_	3076-3079	w1a3	sei	*	B-LK
+3	die	d	_	ART	_	_	_	_	_	3080-3083	w1a4	die	*	B-MF
+4	Peſtilentz	Pestilenz	_	NN	_	_	_	_	_	3084-3094	w1a5	Pestilenz	*	I-MF
+5	eine	eine	_	ART	_	_	_	_	_	3095-3099	w1a6	eine	*	I-MF
+6	ſonderbare	sonderbar	_	ADJA	_	_	_	_	_	3100-3110	w1a7	sonderbare	*	I-MF
+7	Straff	Strafe	_	NN	_	_	_	_	_	3111-3117	w1a8	Strafe	*	I-MF
+8	und	und	_	KON	_	_	_	_	_	3118-3121	w1a9	und	*	I-MF
+9	Heimſuchung	Heimsuchung	_	NN	_	_	_	_	_	3122-3133	w1aa	Heimsuchung	*	I-MF
+10	Gottes	Gott	_	NN	_	_	_	_	_	3134-3140	w1ab	Gottes	*	I-MF
+11	/	/	_	$(	_	_	_	_	_	3141-3142	w1ac	/	*	B-RK
+12	und	und	_	KON	_	_	_	_	_	3143-3146	w1ad	und	*	B-KOORD
+13	ſolle	sollen	_	VMFIN	_	_	_	_	_	3147-3152	w1ae	solle	*	B-LK
+14	man	man	_	PIS	_	_	_	_	_	3153-3156	w1af	man	*	B-MF
+15	nur	nur	_	ADV	_	_	_	_	_	3157-3160	w1b0	nur	*	I-MF
+16	alle	alle	_	PIAT	_	_	_	_	_	3161-3165	w1b1	alle	*	I-MF
+17	Artzney-Mit-<lb/>tel	Arzneimittel	_	NN	_	_	_	_	_	3166-3186	w1b2	Arzneimittel	*	I-MF
+18	ungebrauchet	ungebraucht	_	VVPP	_	_	_	_	_	3187-3199	w1b3	ungebraucht	*	B-RK
+19	laſſen	lassen	_	VVINF	_	_	_	_	_	3200-3206	w1b4	lassen	*	I-RK
+20	/	/	_	$(	_	_	_	_	_	3207-3208	w1b5	/	*	B-LK
+21	indeme	indem	_	KOUS	_	_	_	_	_	3209-3215	w1b6	indem	*	B-NF|B-LK
+22	man	man	_	PIS	_	_	_	_	_	3216-3219	w1b7	man	*	I-NF|B-MF
+23	ja	ja	_	ADV	_	_	_	_	_	3220-3222	w1b8	ja	*	I-NF|I-MF
+24	ſehe	sehen	_	VVFIN	_	_	_	_	_	3223-3227	w1b9	sehe	*	I-NF|B-RK
+25	/	/	_	$(	_	_	_	_	_	3228-3229	w1ba	/	*	B-LK
+26	wie	wie	_	KOUS	_	_	_	_	_	3230-3233	w1bb	wie	*	B-NF|B-LK
+27	ſolche	solch	_	PIAT	_	_	_	_	_	3234-3240	w1bc	solche	*	I-NF|B-MF
+28	Seuche	Seuche	_	NN	_	_	_	_	_	3241-3247	w1bd	Seuche	*	I-NF|I-MF
+29	keiner	keine	_	PIAT	_	_	_	_	_	3248-3254	w1be	keiner	*	I-NF|I-MF
+30	Artzney	Arznei	_	NN	_	_	_	_	_	3255-3262	w1bf	Arznei	*	I-NF|I-MF
+31	weiche	weich	_	VVFIN	_	_	_	_	_	3263-3269	w1c0	weiche	*	I-NF|B-RK
+32	/	/	_	$(	_	_	_	_	_	3270-3271	w1c1	/	*	B-LK
+33	ja	ja	_	ADV	_	_	_	_	_	3272-3274	w1c2	ja	*	B-MF
+34	auch	auch	_	ADV	_	_	_	_	_	3275-3279	w1c3	auch	*	I-MF
+35	der	d	_	ART	_	_	_	_	_	3280-3283	w1c4	der	*	I-MF
+36	meiſte	meiste	_	ADJA	_	_	_	_	_	3284-3290	w1c5	meiste	*	I-MF
+37	Theil	Teil	_	NN	_	_	_	_	_	3291-3296	w1c6	Teil	*	I-MF
+38	ſolcher	solch	_	PIAT	_	_	_	_	_	3297-3304	w1c7	solcher	*	I-MF
+39	Kran-<lb/>cken	Kranke	_	NN	_	_	_	_	_	3305-3319	w1c8	Kranken	*	I-MF
+40	/	/	_	$(	_	_	_	_	_	3320-3321	w1c9	/	*	B-LK
+41	auch	auch	_	ADV	_	_	_	_	_	3322-3326	w1ca	auch	*	B-MF
+42	Pfarrherren	Pfarrherr	_	NN	_	_	_	_	_	3327-3338	w1cb	Pfarrherren	*	I-MF
+43	/	/	_	$(	_	_	_	_	_	3339-3340	w1cc	/	*	B-LK
+44	Medi-<lb/>cos	medicos	_	NN	_	_	_	_	_	3341-3354	w1cd	Medicos	*	B-MF
+45	,	,	_	$,	_	_	_	_	_	3355-3356	w1ce	,	*	B-LK
+46	Barbirer	barbirer	_	NN	_	_	_	_	_	3357-3365	w1cf	Barbirer	*	B-MF
+47	ꝛc.	etc.	_	ADV	_	_	_	_	_	3366-3369	w1d0	etc.	*	I-MF
+48	ꝛc.	etc.	_	ADV	_	_	_	_	_	3370-3373	w1d1	etc.	*	I-MF
+49	ſelbſt	selbst	_	ADV	_	_	_	_	_	3374-3380	w1d2	selbst	*	I-MF
+50	/	/	_	$(	_	_	_	_	_	3381-3382	w1d3	/	*	B-LK
+51	ja	ja	_	ADV	_	_	_	_	_	3383-3385	w1d4	ja	*	B-MF
+52	offt	oft	_	ADV	_	_	_	_	_	3386-3390	w1d5	oft	*	I-MF
+53	am	am	_	APPRART	_	_	_	_	_	3391-3393	w1d6	am	*	I-MF
+54	allererſten	allererst	_	NN	_	_	_	_	_	3394-3405	w1d7	allerersten	*	I-MF
+55	weg	weg	_	PTKVZ	_	_	_	_	_	3406-3409	w1d8	weg	*	B-RK
+56	ſterben	sterben	_	VVINF	_	_	_	_	_	3410-3417	w1d9	sterben	*	B-VF|B-RK
+57	muͤſten	müssen	_	VMFIN	_	_	_	_	_	3418-3425	w1da	müssten	*	B-LK
+58	.	.	_	$.	_	_	_	_	_	3426-3427	w1db	.	*	B-RK
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# TopFString = (S(VF(PWAT Welcher)(NN Meynung)(PIS andere))(LK(VVFIN beyfallen))(MF(PUNKT .)))
+# text = Welcher Meynung andere beyfallen .
+1	Welcher	welcher	_	PWAT	_	_	_	_	_	3429-3436	w739	Welcher	*	B-VF
+2	Meynung	Meinung	_	NN	_	_	_	_	_	3437-3444	w73a	Meinung	*	I-VF
+3	andere	andere	_	PIS	_	_	_	_	_	3445-3451	w73b	andere	*	I-VF
+4	beyfallen	beifallen	_	VVFIN	_	_	_	_	_	3452-3461	w73c	beifallen	*	B-LK
+5	.	.	_	$.	_	_	_	_	_	3462-3463	w73d	.	*	B-MF
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# TopFString = (S(VF(PIAT Solcher)(NN Meynung))(LK(VVFIN faͤllet))(MF(ADV auch))(VC(PTKVZ bey))(VF(NN M.)(NE Martin)(NE Hammer))(LK(KLAMMER /))(MF(ADJA Schoͤnburgiſcher)(NN Herꝛſchafft))(VF(NN Su-<lb/>perintendent))(LK(KOMMA ,))(MF(APPR in)(PPOSAT ſeiner)(ADJA 9.)(NN Peſti-<lb/>lentz-Predigt))(LK(KLAMMER /))(MF(APPR in)(ADJA folgenden)(NN Worten))(VC(PUNKT :))(NF(C(PWAV Wormit))(MF(PIS man)(PRF ſich)(APPR in)(PDAT dieſer)(NN Seuche))(VC(VVINF præſerviren)(KON und)(VVINF curiren)(VMFIN kan)))(VF(KLAMMER /))(LK(VMFIN muͤſſen))(FKOORD(FKONJ(MF(PPER wir)(PTKNEG nicht)(APPR ex)(NE Galeno)(LK(KOMMA ,))(FKOORD(FKONJ(MF(NE Hippocrate)(KOMMA ,)(NE Paracel-<lb/>ſo))(VC(KOMMA ,)))(KON und)(FKONJ(MF(ADJA andern)(ADJA fuͤrnehmen)(NN Me-<lb/>dicis))(VC(VVINF lernen)))))(VC(KLAMMER /)))(KON ſondern)(FKONJ(MF(APPR aus)(ADJA heili-<lb/>ger)(ADJA Goͤttlicher)(NN Schrifft))(VC(VVINF ſtudi-<lb/>ren)(PUNKT :)))))
+# text = Solcher Meynung faͤllet auch bey M. Martin Hammer / Schoͤnburgiſcher Herꝛſchafft Su-<lb/>perintendent , in ſeiner 9. Peſti-<lb/>lentz-Predigt / in folgenden Worten : Wormit man ſich in dieſer Seuche præſerviren und curiren kan / muͤſſen wir nicht ex Galeno , Hippocrate , Paracel-<lb/>ſo , und andern fuͤrnehmen Me-<lb/>dicis lernen / ſondern aus heili-<lb/>ger Goͤttlicher Schrifft ſtudi-<lb/>ren :
+1	Solcher	solch	_	PIAT	_	_	_	_	_	3465-3472	w1dc	Solcher	*	B-VF
+2	Meynung	Meinung	_	NN	_	_	_	_	_	3473-3480	w1dd	Meinung	*	I-VF
+3	faͤllet	fällen	_	VVFIN	_	_	_	_	_	3481-3488	w1de	fället	*	B-LK
+4	auch	auch	_	ADV	_	_	_	_	_	3489-3493	w1df	auch	*	B-MF
+5	bey	bei	_	PTKVZ	_	_	_	_	_	3494-3497	w1e0	bei	*	B-RK
+6	M.	M.	_	NN	_	_	_	_	_	3498-3500	w1e1	M.	*	B-VF
+7	Martin	Martin	_	NE	_	_	_	_	_	3501-3507	w1e2	Martin	*	I-VF
+8	Hammer	Hammer	_	NE	_	_	_	_	_	3508-3514	w1e3	Hammer	*	I-VF
+9	/	/	_	$(	_	_	_	_	_	3515-3516	w1e4	/	*	B-LK
+10	Schoͤnburgiſcher	Schönburgischer	_	ADJA	_	_	_	_	_	3517-3533	w1e5	Schönburgischer	*	B-MF
+11	Herꝛſchafft	Herrschaft	_	NN	_	_	_	_	_	3534-3545	w1e6	Herrschaft	*	I-MF
+12	Su-<lb/>perintendent	Superintendent	_	NN	_	_	_	_	_	3546-3566	w1e7	Superintendent	*	B-VF
+13	,	,	_	$,	_	_	_	_	_	3567-3568	w1e8	,	*	B-LK
+14	in	in	_	APPR	_	_	_	_	_	3569-3571	w1e9	in	*	B-MF
+15	ſeiner	seine	_	PPOSAT	_	_	_	_	_	3572-3578	w1ea	seiner	*	I-MF
+16	9.	9.	_	ADJA	_	_	_	_	_	3579-3581	w1eb	9.	*	I-MF
+17	Peſti-<lb/>lentz-Predigt	Pestilenz-Predigt	_	NN	_	_	_	_	_	3582-3606	w1ec	Pestilenz-Predigt	*	I-MF
+18	/	/	_	$(	_	_	_	_	_	3607-3608	w1ed	/	*	B-LK
+19	in	in	_	APPR	_	_	_	_	_	3609-3611	w1ee	in	*	B-MF
+20	folgenden	folgend	_	ADJA	_	_	_	_	_	3612-3621	w1ef	folgenden	*	I-MF
+21	Worten	Wort	_	NN	_	_	_	_	_	3622-3628	w1f0	Worten	*	I-MF
+22	:	:	_	$.	_	_	_	_	_	3629-3630	w1f1	:	*	B-RK
+23	Wormit	womit	_	PWAV	_	_	_	_	_	3631-3637	w1f2	Womit	*	B-NF|B-LK
+24	man	man	_	PIS	_	_	_	_	_	3638-3641	w1f3	man	*	I-NF|B-MF
+25	ſich	sich	_	PRF	_	_	_	_	_	3642-3646	w1f4	sich	*	I-NF|I-MF
+26	in	in	_	APPR	_	_	_	_	_	3647-3649	w1f5	in	*	I-NF|I-MF
+27	dieſer	diese	_	PDAT	_	_	_	_	_	3650-3656	w1f6	dieser	*	I-NF|I-MF
+28	Seuche	Seuche	_	NN	_	_	_	_	_	3657-3663	w1f7	Seuche	*	I-NF|I-MF
+29	præſerviren	präservieren	_	VVINF	_	_	_	_	_	3664-3675	w1f8,w1f8_1	präservieren	*	I-NF|B-RK
+30	und	und	_	KON	_	_	_	_	_	3676-3679	w1f9	und	*	I-NF|I-RK
+31	curiren	kurieren	_	VVINF	_	_	_	_	_	3680-3687	w1fa	kurieren	*	I-NF|I-RK
+32	kan	können	_	VMFIN	_	_	_	_	_	3688-3691	w1fb	kann	*	I-NF|I-RK
+33	/	/	_	$(	_	_	_	_	_	3692-3693	w1fc	/	*	B-VF
+34	muͤſſen	müssen	_	VMFIN	_	_	_	_	_	3694-3701	w1fd	müssen	*	B-LK
+35	wir	wir	_	PPER	_	_	_	_	_	3702-3705	w1fe	wir	*	B-MF
+36	nicht	nicht	_	PTKNEG	_	_	_	_	_	3706-3711	w1ff	nicht	*	I-MF
+37	ex	ex	_	APPR	_	_	_	_	_	3712-3714	w200	ex	*	I-MF
+38	Galeno	Galeno	_	NE	_	_	_	_	_	3715-3721	w201	Galeno	*	I-MF
+39	,	,	_	$,	_	_	_	_	_	3722-3723	w202	,	*	I-MF|B-LK
+40	Hippocrate	Hippokratt	_	NE	_	_	_	_	_	3724-3734	w203	Hippokratte	*	I-MF|B-MF
+41	,	,	_	$,	_	_	_	_	_	3735-3736	w204	,	*	I-MF|I-MF
+42	Paracel-<lb/>ſo	Paracelso	_	NE	_	_	_	_	_	3737-3752	w205	Paracelso	*	I-MF|I-MF
+43	,	,	_	$,	_	_	_	_	_	3753-3754	w206	,	*	I-MF|B-RK
+44	und	und	_	KON	_	_	_	_	_	3755-3758	w207	und	*	I-MF|B-KOORD
+45	andern	ander	_	ADJA	_	_	_	_	_	3759-3765	w208	anderen	*	I-MF|B-MF
+46	fuͤrnehmen	fürnehm	_	ADJA	_	_	_	_	_	3766-3776	w209	fürnehmen	*	I-MF|I-MF
+47	Me-<lb/>dicis	Medici	_	NN	_	_	_	_	_	3777-3790	w20a	Medicis	*	I-MF|I-MF
+48	lernen	lernen	_	VVINF	_	_	_	_	_	3791-3797	w20b	lernen	*	I-MF|B-RK
+49	/	/	_	$(	_	_	_	_	_	3798-3799	w20c	/	*	B-RK
+50	ſondern	sondern	_	KON	_	_	_	_	_	3800-3807	w20d	sondern	*	B-KOORD
+51	aus	aus	_	APPR	_	_	_	_	_	3808-3811	w20e	aus	*	B-MF
+52	heili-<lb/>ger	heilig	_	ADJA	_	_	_	_	_	3812-3826	w20f	heiliger	*	I-MF
+53	Goͤttlicher	Göttliche	_	ADJA	_	_	_	_	_	3827-3838	w210	Göttlicher	*	I-MF
+54	Schrifft	Schrift	_	NN	_	_	_	_	_	3839-3847	w211	Schrift	*	I-MF
+55	ſtudi-<lb/>ren	studieren	_	VVINF	_	_	_	_	_	3848-3862	w212	studieren	*	B-RK
+56	:	:	_	$.	_	_	_	_	_	3863-3864	w213	:	*	I-RK
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# TopFString = (S(KOORD(KON Denn))(VF(PPER es))(LK(VVFIN bezeugen))(MF(PIAT viel)(ADJA fuͤrtreffliche)(NN Medici)(KOMMA ,))(NF(C(KOUS daß))(FKOORD(FKONJ(LK(KLAMMER /))(NF(C(KOUS ob))(MF(PIS man)(ADV wol)(APPR bey)(PIAT allen)(ADJA gifftigen)(NN Kranckheiten)(NN Alexipharinaca))(VC(VAFIN ha-<lb/>be)))(LK(KLAMMER /))(NF(C(PWAV womit))(MF(ART dem)(NN Gifft))(VC(PTKZU zu)(VVINF begeg-<lb/>nen)))(LK(PUNKT ;))(MF(ADV ſo))(LK(VAFIN hat))(MF(PPER ihm)(ADV doch)(NN GOtt)(ART der)(NN HERR)(ADV allein)(ART das)(NN Alexiterion)(ADJD gleichſam))(VC(VVPP vorbehalten)(KLAMMER /)))(KON und)(FKONJ(MF(PPER uns)(NN Menſchen))(VC(VVPP verborgen)))))(KLAMMER /)(FM ut)(FM ma-<lb/>lum)(FM hoc)(FM peculiare)(FM DEI)(FM flagel-<lb/>lum)(FM eſſe)(FM agnoſcamus)(LK(KOMMA ,))(NF(C(KOUS daß))(MF(ADV nem-<lb/>lich)(PIS maͤnniglich))(VC(VVFIN ſpuͤre)))(LK(KLAMMER /))(VF(PPER es))(LK(VAFIN ſey))(MF(PDAT dieſe)(NN Seuche)(ART ein)(ADJA beſon-<lb/>dere)(NN Ruthe)(NN GOttes))(VC(KLAMMER /))(NF(C(KOUS damit))(MF(PPER er)(VC(KLAMMER /))(NF(C(KOUS wann))(MF(PPER es)(ART die)(NN Welt)(ADV wohl))(VC(VVFIN ver-<lb/>dienet)))(LK(KLAMMER /))(MF(APPR in)(ADJA groſſem)(NN Ernſt)(PPER ſie))(VC(PTKZU zu)(VVINF zuͤchtigen)))(VC(VVFIN pflege)))(LK(PUNKT ;))(MF(PAV dahero)(ADV auch)(KLAMMER /))(VC(KLAMMER LBR))(NF(C(KOUS wann))(MF(NN GOtt))(VC(VVINF ſtraffen)(VMFIN will)))(LK(KLAMMER RBR))(MF(ART die)(ADJA fuͤrnehmſten)(KON und)(ADJA beſten)(NN Experi-<lb/>menta)(ADV wenig)(KON oder)(ADV gar)(PIS nichts))(VC(VVINF helffen)(VMFIN muͤſſen))(VC(PUNKT .)))
+# text = Denn es bezeugen viel fuͤrtreffliche Medici , daß / ob man wol bey allen gifftigen Kranckheiten Alexipharinaca ha-<lb/>be / womit dem Gifft zu begeg-<lb/>nen ; ſo hat ihm doch GOtt der HERR allein das Alexiterion gleichſam vorbehalten / und uns Menſchen verborgen / ut ma-<lb/>lum hoc peculiare DEI flagel-<lb/>lum eſſe agnoſcamus , daß nem-<lb/>lich maͤnniglich ſpuͤre / es ſey dieſe Seuche ein beſon-<lb/>dere Ruthe GOttes / damit er / wann es die Welt wohl ver-<lb/>dienet / in groſſem Ernſt ſie zu zuͤchtigen pflege ; dahero auch / ( wann GOtt ſtraffen will ) die fuͤrnehmſten und beſten Experi-<lb/>menta wenig oder gar nichts helffen muͤſſen .
+1	Denn	denn	_	KON	_	_	_	_	_	3866-3870	w214	Denn	*	B-KOORD
+2	es	es	_	PPER	_	_	_	_	_	3871-3873	w215	es	*	B-VF
+3	bezeugen	bezeugen	_	VVFIN	_	_	_	_	_	3874-3882	w216	bezeugen	*	B-LK
+4	viel	viel	_	PIAT	_	_	_	_	_	3883-3887	w217	viel	*	B-MF
+5	fuͤrtreffliche	fürtrefflich	_	ADJA	_	_	_	_	_	3888-3902	w218	fürtreffliche	*	I-MF
+6	Medici	Medici	_	NN	_	_	_	_	_	3903-3909	w219	Medici	*	I-MF
+7	,	,	_	$,	_	_	_	_	_	3910-3911	w21a	,	*	I-MF
+8	daß	daß	_	KOUS	_	_	_	_	_	3912-3915	w21b	daß	*	B-NF|B-LK
+9	/	/	_	$(	_	_	_	_	_	3916-3917	w21c	/	*	I-NF|B-LK
+10	ob	ob	_	KOUS	_	_	_	_	_	3918-3920	w21d	ob	*	I-NF|B-NF|B-LK
+11	man	man	_	PIS	_	_	_	_	_	3921-3924	w21e	man	*	I-NF|I-NF|B-MF
+12	wol	wohl	_	ADV	_	_	_	_	_	3925-3928	w21f	wohl	*	I-NF|I-NF|I-MF
+13	bey	bei	_	APPR	_	_	_	_	_	3929-3932	w220	bei	*	I-NF|I-NF|I-MF
+14	allen	alle	_	PIAT	_	_	_	_	_	3933-3938	w221	allen	*	I-NF|I-NF|I-MF
+15	gifftigen	giftig	_	ADJA	_	_	_	_	_	3939-3948	w222	giftigen	*	I-NF|I-NF|I-MF
+16	Kranckheiten	Krankheit	_	NN	_	_	_	_	_	3949-3961	w223	Krankheiten	*	I-NF|I-NF|I-MF
+17	Alexipharinaca	Alexipharinaca	_	NN	_	_	_	_	_	3962-3976	w224	Alexipharinaca	*	I-NF|I-NF|I-MF
+18	ha-<lb/>be	haben	_	VAFIN	_	_	_	_	_	3977-3987	w225	habe	*	I-NF|I-NF|B-RK
+19	/	/	_	$(	_	_	_	_	_	3988-3989	w226	/	*	I-NF|B-LK
+20	womit	womit	_	PWAV	_	_	_	_	_	3990-3995	w227	womit	*	I-NF|B-NF|B-LK
+21	dem	d	_	ART	_	_	_	_	_	3996-3999	w228	dem	*	I-NF|I-NF|B-MF
+22	Gifft	Gift	_	NN	_	_	_	_	_	4000-4005	w229	Gift	*	I-NF|I-NF|I-MF
+23	zu	zu	_	PTKZU	_	_	_	_	_	4006-4008	w22a	zu	*	I-NF|I-NF|B-RK
+24	begeg-<lb/>nen	begegnen	_	VVINF	_	_	_	_	_	4009-4023	w22b	begegnen	*	I-NF|I-NF|I-RK
+25	;	;	_	$.	_	_	_	_	_	4024-4025	w22c	;	*	I-NF|B-LK
+26	ſo	so	_	ADV	_	_	_	_	_	4026-4028	w22d	so	*	I-NF|B-MF
+27	hat	haben	_	VAFIN	_	_	_	_	_	4029-4032	w22e	hat	*	I-NF|B-LK
+28	ihm	er	_	PPER	_	_	_	_	_	4033-4036	w22f	ihm	*	I-NF|B-MF
+29	doch	doch	_	ADV	_	_	_	_	_	4037-4041	w230	doch	*	I-NF|I-MF
+30	GOtt	Gott	_	NN	_	_	_	_	_	4042-4046	w231	Gott	*	I-NF|I-MF
+31	der	d	_	ART	_	_	_	_	_	4047-4050	w232	der	*	I-NF|I-MF
+32	HERR	Herr	_	NN	_	_	_	_	_	4051-4055	w233	Herr	*	I-NF|I-MF
+33	allein	allein	_	ADV	_	_	_	_	_	4056-4062	w234	allein	*	I-NF|I-MF
+34	das	d	_	ART	_	_	_	_	_	4063-4066	w235	das	*	I-NF|I-MF
+35	Alexiterion	Alexiterion	_	NN	_	_	_	_	_	4067-4078	w236	Alexiterion	*	I-NF|I-MF
+36	gleichſam	gleichsam	_	ADJD	_	_	_	_	_	4079-4088	w237	gleichsam	*	I-NF|I-MF
+37	vorbehalten	vorbehalten	_	VVPP	_	_	_	_	_	4089-4100	w238	vorbehalten	*	I-NF|B-RK
+38	/	/	_	$(	_	_	_	_	_	4101-4102	w239	/	*	I-NF|I-RK
+39	und	und	_	KON	_	_	_	_	_	4103-4106	w23a	und	*	I-NF|B-KOORD
+40	uns	wir	_	PPER	_	_	_	_	_	4107-4110	w23b	uns	*	I-NF|B-MF
+41	Menſchen	Mensch	_	NN	_	_	_	_	_	4111-4119	w23c	Menschen	*	I-NF|I-MF
+42	verborgen	verbergen	_	VVPP	_	_	_	_	_	4120-4129	w23d	verborgen	*	I-NF|B-RK
+43	/	/	_	$(	_	_	_	_	_	4130-4131	w23e	/	*	O
+44	ut	ut	_	FM	_	_	_	_	_	4132-4134	w23f	ut	*	O
+45	ma-<lb/>lum	malum	_	FM	_	_	_	_	_	4135-4146	w240	malum	*	O
+46	hoc	hoc	_	FM	_	_	_	_	_	4147-4150	w241	hoc	*	O
+47	peculiare	peculiare	_	FM	_	_	_	_	_	4151-4160	w242	peculiare	*	O
+48	DEI	dei	_	FM	_	_	_	_	_	4161-4164	w243	Dei	*	O
+49	flagel-<lb/>lum	flagellum	_	FM	_	_	_	_	_	4165-4180	w244	flagellum	*	O
+50	eſſe	essen	_	FM	_	_	_	_	_	4181-4185	w245	esse	*	O
+51	agnoſcamus	Agnoscamus	_	FM	_	_	_	_	_	4186-4196	w246	agnoscamus	*	O
+52	,	,	_	$,	_	_	_	_	_	4197-4198	w247	,	*	B-LK
+53	daß	daß	_	KOUS	_	_	_	_	_	4199-4202	w248	daß	*	B-NF|B-LK
+54	nem-<lb/>lich	nämlich	_	ADV	_	_	_	_	_	4203-4216	w249	nämlich	*	I-NF|B-MF
+55	maͤnniglich	männiglich	_	PIS	_	_	_	_	_	4217-4228	w24a	männiglich	*	I-NF|I-MF
+56	ſpuͤre	spüren	_	VVFIN	_	_	_	_	_	4229-4235	w24b	spüre	*	I-NF|B-RK
+57	/	/	_	$(	_	_	_	_	_	4236-4237	w24c	/	*	B-LK
+58	es	es	_	PPER	_	_	_	_	_	4238-4240	w24d	es	*	B-VF
+59	ſey	sein	_	VAFIN	_	_	_	_	_	4241-4244	w24e	sei	*	B-LK
+60	dieſe	diese	_	PDAT	_	_	_	_	_	4245-4250	w24f	diese	*	B-MF
+61	Seuche	Seuche	_	NN	_	_	_	_	_	4251-4257	w250	Seuche	*	I-MF
+62	ein	eine	_	ART	_	_	_	_	_	4258-4261	w251	ein	*	I-MF
+63	beſon-<lb/>dere	besondere	_	ADJA	_	_	_	_	_	4262-4277	w252	besondere	*	I-MF
+64	Ruthe	Rute	_	NN	_	_	_	_	_	4278-4283	w253	Rute	*	I-MF
+65	GOttes	Gott	_	NN	_	_	_	_	_	4284-4290	w254	Gottes	*	I-MF
+66	/	/	_	$(	_	_	_	_	_	4291-4292	w255	/	*	B-RK
+67	damit	damit	_	KOUS	_	_	_	_	_	4293-4298	w256	damit	*	B-NF|B-LK
+68	er	er	_	PPER	_	_	_	_	_	4299-4301	w257	er	*	I-NF|B-MF
+69	/	/	_	$(	_	_	_	_	_	4302-4303	w258	/	*	I-NF|I-MF|B-RK
+70	wann	wann	_	KOUS	_	_	_	_	_	4304-4308	w259	wann	*	I-NF|I-MF|B-NF|B-LK
+71	es	es	_	PPER	_	_	_	_	_	4309-4311	w25a	es	*	I-NF|I-MF|I-NF|B-MF
+72	die	d	_	ART	_	_	_	_	_	4312-4315	w25b	die	*	I-NF|I-MF|I-NF|I-MF
+73	Welt	Welt	_	NN	_	_	_	_	_	4316-4320	w25c	Welt	*	I-NF|I-MF|I-NF|I-MF
+74	wohl	wohl	_	ADV	_	_	_	_	_	4321-4325	w25d	wohl	*	I-NF|I-MF|I-NF|I-MF
+75	ver-<lb/>dienet	verdienen	_	VVFIN	_	_	_	_	_	4326-4341	w25e	verdienet	*	I-NF|I-MF|I-NF|B-RK
+76	/	/	_	$(	_	_	_	_	_	4342-4343	w25f	/	*	I-NF|I-MF|B-LK
+77	in	in	_	APPR	_	_	_	_	_	4344-4346	w260	in	*	I-NF|I-MF|B-MF
+78	groſſem	groß	_	ADJA	_	_	_	_	_	4347-4354	w261	großem	*	I-NF|I-MF|I-MF
+79	Ernſt	Ernst	_	NN	_	_	_	_	_	4355-4360	w262	Ernst	*	I-NF|I-MF|I-MF
+80	ſie	sie	_	PPER	_	_	_	_	_	4361-4364	w263	sie	*	I-NF|I-MF|I-MF
+81	zu	zu	_	PTKZU	_	_	_	_	_	4365-4367	w264	zu	*	I-NF|I-MF|B-RK
+82	zuͤchtigen	züchtig	_	VVINF	_	_	_	_	_	4368-4378	w265	züchtigen	*	I-NF|I-MF|I-RK
+83	pflege	pflegen	_	VVFIN	_	_	_	_	_	4379-4385	w266	pflege	*	I-NF|B-RK
+84	;	;	_	$.	_	_	_	_	_	4386-4387	w267	;	*	B-LK
+85	dahero	daher	_	PAV	_	_	_	_	_	4388-4394	w268	daher	*	B-MF
+86	auch	auch	_	ADV	_	_	_	_	_	4395-4399	w269	auch	*	I-MF
+87	/	/	_	$(	_	_	_	_	_	4400-4401	w26a	/	*	I-MF
+88	(	(	_	$(	_	_	_	_	_	4402-4403	w26b	(	*	B-RK
+89	wann	wann	_	KOUS	_	_	_	_	_	4404-4408	w26c	wann	*	B-NF|B-LK
+90	GOtt	Gott	_	NN	_	_	_	_	_	4409-4413	w26d	Gott	*	I-NF|B-MF
+91	ſtraffen	strafen	_	VVINF	_	_	_	_	_	4414-4422	w26e	strafen	*	I-NF|B-RK
+92	will	wollen	_	VMFIN	_	_	_	_	_	4423-4427	w26f	will	*	I-NF|I-RK
+93	)	)	_	$(	_	_	_	_	_	4428-4429	w270	)	*	B-LK
+94	die	d	_	ART	_	_	_	_	_	4430-4433	w271	die	*	B-MF
+95	fuͤrnehmſten	fürnehm	_	ADJA	_	_	_	_	_	4434-4446	w272	fürnehmsten	*	I-MF
+96	und	und	_	KON	_	_	_	_	_	4447-4450	w273	und	*	I-MF
+97	beſten	gut	_	ADJA	_	_	_	_	_	4451-4457	w274	besten	*	I-MF
+98	Experi-<lb/>menta	Experimentum	_	NN	_	_	_	_	_	4458-4475	w275	Experimenta	*	I-MF
+99	wenig	wenig	_	ADV	_	_	_	_	_	4476-4481	w276	wenig	*	I-MF
+100	oder	oder	_	KON	_	_	_	_	_	4482-4486	w277	oder	*	I-MF
+101	gar	gar	_	ADV	_	_	_	_	_	4487-4490	w278	gar	*	I-MF
+102	nichts	nichts	_	PIS	_	_	_	_	_	4491-4497	w279	nichts	*	I-MF
+103	helffen	helfen	_	VVINF	_	_	_	_	_	4498-4505	w27a	helfen	*	B-RK
+104	muͤſſen	müssen	_	VMFIN	_	_	_	_	_	4506-4513	w27b	müssen	*	I-RK
+105	.	.	_	$.	_	_	_	_	_	4514-4515	w27c	.	*	B-RK
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# TopFString = (S(VF(PDS Dieſem))(LK(VVFIN faͤllet))(MF(ADV noch))(VC(PTKVZ bey))(NE Cunradus)(NE Geſnerus)(CARD l.)(ADJA 1.)(NN Epiſt.)(FM ult.)(FM Remedia)(FM certa)(FM adver-<lb/>ſus)(FM peſtem)(FM nulla)(FM habemus)(PUNKT ;)(FM forte)(KLAMMER &)(FM non)(FM placet)(FM DEO)(KOMMA ,)(FM ut)(APPR contra)(FM flagellum)(FM ſuum)(KOMMA ,)(FM peccatis)(FM debi-<lb/>tum)(KOMMA ,)(FM ullum)(FM certum)(FM præſidium)(NE habeamus.))
+# text = Dieſem faͤllet noch bey Cunradus Geſnerus l. 1. Epiſt. ult. Remedia certa adver-<lb/>ſus peſtem nulla habemus ; forte & non placet DEO , ut contra flagellum ſuum , peccatis debi-<lb/>tum , ullum certum præſidium habeamus.
+1	Dieſem	diese	_	PDS	_	_	_	_	_	4517-4523	w27d	Diesem	*	B-VF
+2	faͤllet	fällen	_	VVFIN	_	_	_	_	_	4524-4531	w27e	fället	*	B-LK
+3	noch	noch	_	ADV	_	_	_	_	_	4532-4536	w27f	noch	*	B-MF
+4	bey	bei	_	PTKVZ	_	_	_	_	_	4537-4540	w280	bei	*	B-RK
+5	Cunradus	Cunradus	_	NE	_	_	_	_	_	4541-4549	w281	Cunradus	*	O
+6	Geſnerus	Gesnerus	_	NE	_	_	_	_	_	4550-4558	w282	Gesnerus	*	O
+7	l.	L.	_	CARD	_	_	_	_	_	4559-4561	w283	l.	*	O
+8	1.	1.	_	ADJA	_	_	_	_	_	4562-4564	w284	1.	*	O
+9	Epiſt.	epist.	_	NN	_	_	_	_	_	4565-4571	w285	Epist.	*	O
+10	ult.	ult.	_	FM	_	_	_	_	_	4572-4576	w286	ult.	*	O
+11	Remedia	remedia	_	FM	_	_	_	_	_	4577-4584	w287	Remedia	*	O
+12	certa	certa	_	FM	_	_	_	_	_	4585-4590	w288	certa	*	O
+13	adver-<lb/>ſus	adversus	_	FM	_	_	_	_	_	4591-4605	w289	adversus	*	O
+14	peſtem	pestem	_	FM	_	_	_	_	_	4606-4612	w28a	pestem	*	O
+15	nulla	nulla	_	FM	_	_	_	_	_	4613-4618	w28b	nulla	*	O
+16	habemus	habemus	_	FM	_	_	_	_	_	4619-4626	w28c	habemus	*	O
+17	;	;	_	$.	_	_	_	_	_	4627-4628	w28d	;	*	O
+18	forte	forte	_	FM	_	_	_	_	_	4629-4634	w28e	forte	*	O
+19	&	&	_	$(	_	_	_	_	_	4635-4636	w28f	&	*	O
+20	non	non	_	FM	_	_	_	_	_	4637-4640	w290	non	*	O
+21	placet	placet	_	FM	_	_	_	_	_	4641-4647	w291	placet	*	O
+22	DEO	deo	_	FM	_	_	_	_	_	4648-4651	w292	DEO	*	O
+23	,	,	_	$,	_	_	_	_	_	4652-4653	w293	,	*	O
+24	ut	ut	_	FM	_	_	_	_	_	4654-4656	w294	ut	*	O
+25	contra	contra	_	APPR	_	_	_	_	_	4657-4663	w295	contra	*	O
+26	flagellum	flagellum	_	FM	_	_	_	_	_	4664-4673	w296	flagellum	*	O
+27	ſuum	suum	_	FM	_	_	_	_	_	4674-4678	w297	suum	*	O
+28	,	,	_	$,	_	_	_	_	_	4679-4680	w298	,	*	O
+29	peccatis	peccatis	_	FM	_	_	_	_	_	4681-4689	w299	peccatis	*	O
+30	debi-<lb/>tum	debitum	_	FM	_	_	_	_	_	4690-4703	w29a	debitum	*	O
+31	,	,	_	$,	_	_	_	_	_	4704-4705	w29b	,	*	O
+32	ullum	ullum	_	FM	_	_	_	_	_	4706-4711	w29c	ullum	*	O
+33	certum	certum	_	FM	_	_	_	_	_	4712-4718	w29d	certum	*	O
+34	præſidium	praesidium	_	FM	_	_	_	_	_	4719-4728	w29e	praesidium	*	O
+35	habeamus.	Habeamus.	_	NE	_	_	_	_	_	4729-4738	w29f	habeamus.	*	O
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# TopFString = (S(VF(PDS i.))(LK(VAFIN e.))(VF(PPER Wir))(LK(VAFIN haben))(MF(APPR wider)(ART die)(NN Peſt)(PIAT keine)(ADJA gewiſ-<lb/>ſe)(NN Artzney))(VC(PUNKT :)))
+# text = i. e. Wir haben wider die Peſt keine gewiſ-<lb/>ſe Artzney :
+1	i.	I.	_	PDS	_	_	_	_	_	4740-4742	w2a0	i.	*	B-VF
+2	e.	e.	_	VAFIN	_	_	_	_	_	4743-4745	w2a1	e.	*	B-LK
+3	Wir	wir	_	PPER	_	_	_	_	_	4746-4749	w2a2	Wir	*	B-VF
+4	haben	haben	_	VAFIN	_	_	_	_	_	4750-4755	w2a3	haben	*	B-LK
+5	wider	wider	_	APPR	_	_	_	_	_	4756-4761	w2a4	wider	*	B-MF
+6	die	d	_	ART	_	_	_	_	_	4762-4765	w2a5	die	*	I-MF
+7	Peſt	Pest	_	NN	_	_	_	_	_	4766-4770	w2a6	Pest	*	I-MF
+8	keine	keine	_	PIAT	_	_	_	_	_	4771-4776	w2a7	keine	*	I-MF
+9	gewiſ-<lb/>ſe	gewiß	_	ADJA	_	_	_	_	_	4777-4790	w2a8	gewisse	*	I-MF
+10	Artzney	Arznei	_	NN	_	_	_	_	_	4791-4798	w2a9	Arznei	*	I-MF
+11	:	:	_	$.	_	_	_	_	_	4799-4800	w2aa	:	*	B-RK
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# TopFString = (S(VF(ADV vielleicht))(LK(VVFIN ge-<lb/>faͤllet))(MF(PPER es)(ADV auch)(NN GOtt)(ART dem)(NN HERRN)(PTKNEG nicht)(KLAMMER /))(NF(C(KOUS daß))(MF(PPER wir)(APPR wider)(PPOSAT ſeine)(KLAMMER /)(APPR auff)(PPOSAT unſere)(NN Suͤnde)(ADJA gehoͤrige)(NN Peitſche)(KON und)(NN Ruthe)(LK(KLAMMER /))(PIAT einige)(NN Huͤlff)(KON und)(NN Schutz))(VC(VAINF haben)(VMFIN ſollen)))(LK(PUNKT .)))
+# text = vielleicht ge-<lb/>faͤllet es auch GOtt dem HERRN nicht / daß wir wider ſeine / auff unſere Suͤnde gehoͤrige Peitſche und Ruthe / einige Huͤlff und Schutz haben ſollen .
+1	vielleicht	vielleicht	_	ADV	_	_	_	_	_	4802-4812	w2ab	vielleicht	*	B-VF
+2	ge-<lb/>faͤllet	gefallen	_	VVFIN	_	_	_	_	_	4813-4828	w2ac	gefällt	*	B-LK
+3	es	es	_	PPER	_	_	_	_	_	4829-4831	w2ad	es	*	B-MF
+4	auch	auch	_	ADV	_	_	_	_	_	4832-4836	w2ae	auch	*	I-MF
+5	GOtt	Gott	_	NN	_	_	_	_	_	4837-4841	w2af	Gott	*	I-MF
+6	dem	d	_	ART	_	_	_	_	_	4842-4845	w2b0	dem	*	I-MF
+7	HERRN	Herr	_	NN	_	_	_	_	_	4846-4851	w2b1	HERRN	*	I-MF
+8	nicht	nicht	_	PTKNEG	_	_	_	_	_	4852-4857	w2b2	nicht	*	I-MF
+9	/	/	_	$(	_	_	_	_	_	4858-4859	w2b3	/	*	I-MF
+10	daß	daß	_	KOUS	_	_	_	_	_	4860-4863	w2b4	daß	*	B-NF|B-LK
+11	wir	wir	_	PPER	_	_	_	_	_	4864-4867	w2b5	wir	*	I-NF|B-MF
+12	wider	wider	_	APPR	_	_	_	_	_	4868-4873	w2b6	wider	*	I-NF|I-MF
+13	ſeine	seine	_	PPOSAT	_	_	_	_	_	4874-4879	w2b7	seine	*	I-NF|I-MF
+14	/	/	_	$(	_	_	_	_	_	4880-4881	w2b8	/	*	I-NF|I-MF
+15	auff	auf	_	APPR	_	_	_	_	_	4882-4886	w2b9	auf	*	I-NF|I-MF
+16	unſere	unsere	_	PPOSAT	_	_	_	_	_	4887-4893	w2ba	unsere	*	I-NF|I-MF
+17	Suͤnde	Sünde	_	NN	_	_	_	_	_	4894-4900	w2bb	Sünde	*	I-NF|I-MF
+18	gehoͤrige	gehörig	_	ADJA	_	_	_	_	_	4901-4910	w2bc	gehörige	*	I-NF|I-MF
+19	Peitſche	Peitsche	_	NN	_	_	_	_	_	4911-4919	w2bd	Peitsche	*	I-NF|I-MF
+20	und	und	_	KON	_	_	_	_	_	4920-4923	w2be	und	*	I-NF|I-MF
+21	Ruthe	Rute	_	NN	_	_	_	_	_	4924-4929	w2bf	Rute	*	I-NF|I-MF
+22	/	/	_	$(	_	_	_	_	_	4930-4931	w2c0	/	*	I-NF|I-MF|B-LK
+23	einige	einige	_	PIAT	_	_	_	_	_	4932-4938	w2c1	einige	*	I-NF|I-MF
+24	Huͤlff	Hilfe	_	NN	_	_	_	_	_	4939-4945	w2c2	Hilfe	*	I-NF|I-MF
+25	und	und	_	KON	_	_	_	_	_	4946-4949	w2c3	und	*	I-NF|I-MF
+26	Schutz	Schutz	_	NN	_	_	_	_	_	4950-4956	w2c4	Schutz	*	I-NF|I-MF
+27	haben	haben	_	VAINF	_	_	_	_	_	4957-4962	w2c5	haben	*	I-NF|B-RK
+28	ſollen	sollen	_	VMFIN	_	_	_	_	_	4963-4969	w2c6	sollen	*	I-NF|I-RK
+29	.	.	_	$.	_	_	_	_	_	4970-4971	w2c7	.	*	B-LK
+
+# sent_id = 19
+# sent_id(TSV) = 19
+# TopFString = (S(KOORD(KON Und))(VF(NE Johann)(NE Crato)(APPR von)(NE Crafft-<lb/>heim)(NN Part.)(CARD II.)(PPOSAT ſeiner)(NN Ordnung)(ART der)(NN Præfation))(LK(VVFIN ſaget))(MF(ADV alſo)(PUNKT :))(VF(ADV Be-<lb/>ſchließlichen)(ADV aber))(LK(VMFIN ſoll))(FKOORD(FKONJ(MF(PPER ich))(VC(VVINF bekennen))(NF(LK(KLAMMER /))(NF(C(KOUS daß))(MF(ADV allein)(APPR bey)(NN GOTT)(ART dem)(NN Allmaͤchti-<lb/>gen)(FM vera)(FM Antidotus)(FM pe-<lb/>ſtilentialis)(FM contagionis))(VC(VAFIN iſt)))))(VC(KLAMMER /))(KON und)(FKONJ(MF(PIAT keinem)(NN Menſchen)(ADV recht)(ADJD bewuſt))(VC(PUNKT .)))))
+# text = Und Johann Crato von Crafft-<lb/>heim Part. II. ſeiner Ordnung der Præfation ſaget alſo : Be-<lb/>ſchließlichen aber ſoll ich bekennen / daß allein bey GOTT dem Allmaͤchti-<lb/>gen vera Antidotus pe-<lb/>ſtilentialis contagionis iſt / und keinem Menſchen recht bewuſt .
+1	Und	und	_	KON	_	_	_	_	_	4973-4976	w2c8	Und	*	B-KOORD
+2	Johann	Johann	_	NE	_	_	_	_	_	4977-4983	w2c9	Johann	*	B-VF
+3	Crato	Crato	_	NE	_	_	_	_	_	4984-4989	w2ca	Crato	*	I-VF
+4	von	von	_	APPR	_	_	_	_	_	4990-4993	w2cb	von	*	I-VF
+5	Crafft-<lb/>heim	Kraftheim	_	NE	_	_	_	_	_	4994-5010	w2cc,w2cc_1,w2cc_2	Kraftheim	*	I-VF
+6	Part.	Part.	_	NN	_	_	_	_	_	5011-5016	w2cd	Part.	*	I-VF
+7	II.	Ii.	_	CARD	_	_	_	_	_	5017-5020	w2ce	II.	*	I-VF
+8	ſeiner	seine	_	PPOSAT	_	_	_	_	_	5021-5027	w2cf	seiner	*	I-VF
+9	Ordnung	Ordnung	_	NN	_	_	_	_	_	5028-5035	w2d0	Ordnung	*	I-VF
+10	der	d	_	ART	_	_	_	_	_	5036-5039	w2d1	der	*	I-VF
+11	Præfation	Präfation	_	NN	_	_	_	_	_	5040-5049	w2d2	Präfation	*	I-VF
+12	ſaget	sagen	_	VVFIN	_	_	_	_	_	5050-5055	w2d3	sagt	*	B-LK
+13	alſo	also	_	ADV	_	_	_	_	_	5056-5060	w2d4	also	*	B-MF
+14	:	:	_	$.	_	_	_	_	_	5061-5062	w2d5	:	*	I-MF
+15	Be-<lb/>ſchließlichen	Beschließlichen	_	ADV	_	_	_	_	_	5063-5084	w2d6	Beschließlichen	*	B-VF
+16	aber	aber	_	ADV	_	_	_	_	_	5085-5089	w2d7	aber	*	I-VF
+17	ſoll	sollen	_	VMFIN	_	_	_	_	_	5090-5094	w2d8	soll	*	B-LK
+18	ich	ich	_	PPER	_	_	_	_	_	5095-5098	w2d9	ich	*	B-MF
+19	bekennen	bekennen	_	VVINF	_	_	_	_	_	5099-5107	w2da	bekennen	*	B-RK
+20	/	/	_	$(	_	_	_	_	_	5108-5109	w2db	/	*	B-NF|B-LK
+21	daß	daß	_	KOUS	_	_	_	_	_	5110-5113	w2dc	daß	*	I-NF|B-NF|B-LK
+22	allein	allein	_	ADV	_	_	_	_	_	5114-5120	w2dd	allein	*	I-NF|I-NF|B-MF
+23	bey	bei	_	APPR	_	_	_	_	_	5121-5124	w2de	bei	*	I-NF|I-NF|I-MF
+24	GOTT	Gott	_	NN	_	_	_	_	_	5125-5129	w2df	GOTT	*	I-NF|I-NF|I-MF
+25	dem	d	_	ART	_	_	_	_	_	5130-5133	w2e0	dem	*	I-NF|I-NF|I-MF
+26	Allmaͤchti-<lb/>gen	Allmächtige	_	NN	_	_	_	_	_	5134-5153	w2e1	Allmächtigen	*	I-NF|I-NF|I-MF
+27	vera	vera	_	FM	_	_	_	_	_	5154-5158	w2e2	vera	*	I-NF|I-NF|I-MF
+28	Antidotus	antidotus	_	FM	_	_	_	_	_	5159-5168	w2e3	Antidotus	*	I-NF|I-NF|I-MF
+29	pe-<lb/>ſtilentialis	pestilentialis	_	FM	_	_	_	_	_	5169-5189	w2e4	pestilentialis	*	I-NF|I-NF|I-MF
+30	contagionis	contagionis	_	FM	_	_	_	_	_	5190-5201	w2e5	contagionis	*	I-NF|I-NF|I-MF
+31	iſt	sein	_	VAFIN	_	_	_	_	_	5202-5205	w2e6	ist	*	I-NF|I-NF|B-RK
+32	/	/	_	$(	_	_	_	_	_	5206-5207	w2e7	/	*	B-RK
+33	und	und	_	KON	_	_	_	_	_	5208-5211	w2e8	und	*	B-KOORD
+34	keinem	keine	_	PIAT	_	_	_	_	_	5212-5218	w2e9	keinem	*	B-MF
+35	Menſchen	Mensch	_	NN	_	_	_	_	_	5219-5227	w2ea	Menschen	*	I-MF
+36	recht	recht	_	ADV	_	_	_	_	_	5228-5233	w2eb	recht	*	I-MF
+37	bewuſt	bewußt	_	ADJD	_	_	_	_	_	5234-5240	w2ec	bewusst	*	I-MF
+38	.	.	_	$.	_	_	_	_	_	5241-5242	w2ed	.	*	B-RK

@@ -1,0 +1,535 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CHUNK CharOffset DTA:ID DTA:NORM POS
+# sent_id = 1
+# sent_id(TSV) = 1
+# text = Repertorium für die Pharmacie .
+1	Repertorium	Repertorium	_	NN	_	_	_	_	_	B-NC	0-11	w1	Repertorium	*
+2	für	für	_	APPR	_	_	_	_	_	B-PC	12-15	w2	für	*
+3	die	d	_	ART	_	_	_	_	_	I-PC	16-19	w3	die	*
+4	Pharmacie	Pharmazie	_	NN	_	_	_	_	_	I-PC	20-29	w4	Pharmazie	*
+5	.	.	_	$.	_	_	_	_	_	O	30-31	w5	.	*
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# text = Unter Mitwirkung des Apotheker-Vereins in Baiern herausgegeben von Dr. Johann Andreas Buchner und Dr. C.W.G. Kastner .
+1	Unter	unter	_	APPR	_	_	_	_	_	B-PC	33-38	w6	Unter	*
+2	Mitwirkung	Mitwirkung	_	NN	_	_	_	_	_	I-PC	39-49	w7	Mitwirkung	*
+3	des	d	_	ART	_	_	_	_	_	B-NC	50-53	w8	des	*
+4	Apotheker-Vereins	Apotheker-Verein	_	NN	_	_	_	_	_	I-NC	54-71	w9	Apotheker-Vereins	*
+5	in	in	_	APPR	_	_	_	_	_	B-PC	72-74	wa	in	*
+6	Baiern	Bayern	_	NE	_	_	_	_	_	I-PC	75-81	wb	Bayern	*
+7	herausgegeben	herausgeben	_	VVPP	_	_	_	_	_	O	82-95	wc	herausgegeben	*
+8	von	von	_	APPR	_	_	_	_	_	B-PC	96-99	wd	von	*
+9	Dr.	Dr.	_	NN	_	_	_	_	_	I-PC	100-103	we	Dr.	*
+10	Johann	Johann	_	NE	_	_	_	_	_	B-NC	104-110	wf	Johann	*
+11	Andreas	Andreas	_	NE	_	_	_	_	_	I-NC	111-118	w10	Andreas	*
+12	Buchner	Buchner	_	NE	_	_	_	_	_	I-NC	119-126	w11	Buchner	*
+13	und	und	_	KON	_	_	_	_	_	O	127-130	w12	und	*
+14	Dr.	Dr.	_	NN	_	_	_	_	_	B-NC	131-134	w13	Dr.	*
+15	C.W.G.	C.W.G.	_	NE	_	_	_	_	_	B-NC	135-141	w14	C.W.G.	*
+16	Kastner	Kastner	_	NE	_	_	_	_	_	I-NC	142-149	w15	Kastner	*
+17	.	.	_	$.	_	_	_	_	_	O	150-151	w16	.	*
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# text = Zwölfter Band .
+1	Zwölfter	zwölft	_	ADJA	_	_	_	_	_	B-NC	153-161	w17	Zwölfter	*
+2	Band	Band	_	NN	_	_	_	_	_	I-NC	162-166	w18	Band	*
+3	.	.	_	$.	_	_	_	_	_	O	167-168	w19	.	*
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# text = Mit einer Steindrucktafel .
+1	Mit	mit	_	APPR	_	_	_	_	_	B-PC	170-173	w1a	Mit	*
+2	einer	eine	_	ART	_	_	_	_	_	I-PC	174-179	w1b	einer	*
+3	Steindrucktafel	Steindrucktafel	_	NN	_	_	_	_	_	I-PC	180-195	w1c	Steindrucktafel	*
+4	.	.	_	$.	_	_	_	_	_	O	196-197	w1d	.	*
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# text = Nürnberg , 1822 . bei Johann Leonhard Schrag .
+1	Nürnberg	Nürnberg	_	NE	_	_	_	_	_	B-NC	199-207	w1e	Nürnberg	*
+2	,	,	_	$,	_	_	_	_	_	O	208-209	w1f	,	*
+3	1822	1822	_	CARD	_	_	_	_	_	B-NC	210-214	w20	1822	*
+4	.	.	_	$.	_	_	_	_	_	O	215-216	w21	.	*
+5	bei	bei	_	APPR	_	_	_	_	_	B-PC	217-220	w22	bei	*
+6	Johann	Johann	_	NE	_	_	_	_	_	I-PC	221-227	w23	Johann	*
+7	Leonhard	Leonhard	_	NE	_	_	_	_	_	I-PC	228-236	w24	Leonhard	*
+8	Schrag	Schrag	_	NE	_	_	_	_	_	I-PC	237-243	w25	Schrag	*
+9	.	.	_	$.	_	_	_	_	_	O	244-245	w26	.	*
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# text = Einige Bemerkungen über die Berei-<lb/>tung und Zusammensetzung des Brugnatellischen und Howard-<lb/>schen Knallsilbers .
+1	Einige	einige	_	PIAT	_	_	_	_	_	B-NC	247-253	w6f5	Einige	*
+2	Bemerkungen	Bemerkung	_	NN	_	_	_	_	_	I-NC	254-265	w6f6	Bemerkungen	*
+3	über	über	_	APPR	_	_	_	_	_	B-PC	266-270	w6f7	über	*
+4	die	d	_	ART	_	_	_	_	_	I-PC	271-274	w6f8	die	*
+5	Berei-<lb/>tung	Bereitung	_	NN	_	_	_	_	_	I-PC	275-290	w6f9	Bereitung	*
+6	und	und	_	KON	_	_	_	_	_	O	291-294	w6fa	und	*
+7	Zusammensetzung	Zusammensetzung	_	NN	_	_	_	_	_	B-NC	295-310	w6fb	Zusammensetzung	*
+8	des	d	_	ART	_	_	_	_	_	B-NC	311-314	w6fc	des	*
+9	Brugnatellischen	Brugnatellischen	_	ADJA	_	_	_	_	_	I-NC	315-331	w6fd	Brugnatellischen	*
+10	und	und	_	KON	_	_	_	_	_	I-NC	332-335	w6fe	und	*
+11	Howard-<lb/>schen	Howardschen	_	ADJA	_	_	_	_	_	I-NC	336-353	w6ff	Howardschen	*
+12	Knallsilbers	Knallsilber	_	NN	_	_	_	_	_	I-NC	354-366	w700	Knallsilbers	*
+13	.	.	_	$.	_	_	_	_	_	O	367-368	w701	.	*
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# text = ( Vom Herrn Liebig , der Chemie Beflissenen aus Darmstadt ) .
+1	(	(	_	$(	_	_	_	_	_	O	370-371	w27	(	*
+2	Vom	vom	_	APPRART	_	_	_	_	_	B-PC	372-375	w28	Vom	*
+3	Herrn	Herr	_	NN	_	_	_	_	_	I-PC	376-381	w29	Herrn	*
+4	Liebig	Liebig	_	NE	_	_	_	_	_	B-NC	382-388	w2a	Liebig	*
+5	,	,	_	$,	_	_	_	_	_	O	389-390	w2b	,	*
+6	der	d	_	ART	_	_	_	_	_	B-NC	391-394	w2c	der	*
+7	Chemie	Chemie	_	NN	_	_	_	_	_	I-NC	395-401	w2d	Chemie	*
+8	Beflissenen	Beflissene	_	NN	_	_	_	_	_	B-NC	402-413	w2e	Beflissenen	*
+9	aus	aus	_	APPR	_	_	_	_	_	B-PC	414-417	w2f	aus	*
+10	Darmstadt	Darmstadt	_	NE	_	_	_	_	_	I-PC	418-427	w30	Darmstadt	*
+11	)	)	_	$(	_	_	_	_	_	O	428-429	w31	)	*
+12	.	.	_	$.	_	_	_	_	_	O	430-431	w32	.	*
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# text = Die Leser mögen diese erste Probe des experi-<lb/>mentellen Fleisses eines jungen Chemikers mit Nachsicht aufnehmen .
+1	Die	d	_	ART	_	_	_	_	_	B-NC	433-436	w702	Die	*
+2	Leser	Leser	_	NN	_	_	_	_	_	I-NC	437-442	w703	Leser	*
+3	mögen	mögen	_	VMFIN	_	_	_	_	_	O	443-448	w704	mögen	*
+4	diese	diese	_	PDAT	_	_	_	_	_	B-NC	449-454	w705	diese	*
+5	erste	erst	_	ADJA	_	_	_	_	_	I-NC	455-460	w706	erste	*
+6	Probe	Probe	_	NN	_	_	_	_	_	I-NC	461-466	w707	Probe	*
+7	des	d	_	ART	_	_	_	_	_	B-NC	467-470	w708	des	*
+8	experi-<lb/>mentellen	experimentell	_	ADJA	_	_	_	_	_	I-NC	471-492	w709	experimentellen	*
+9	Fleisses	Fleiß	_	NN	_	_	_	_	_	I-NC	493-501	w70a	Fleisses	*
+10	eines	eine	_	ART	_	_	_	_	_	B-NC	502-507	w70b	eines	*
+11	jungen	jung	_	ADJA	_	_	_	_	_	I-NC	508-514	w70c	jungen	*
+12	Chemikers	Chemiker	_	NN	_	_	_	_	_	I-NC	515-524	w70d	Chemikers	*
+13	mit	mit	_	APPR	_	_	_	_	_	B-PC	525-528	w70e	mit	*
+14	Nachsicht	Nachsicht	_	NN	_	_	_	_	_	I-PC	529-538	w70f	Nachsicht	*
+15	aufnehmen	aufnehmen	_	VVINF	_	_	_	_	_	O	539-548	w710	aufnehmen	*
+16	.	.	_	$.	_	_	_	_	_	O	549-550	w711	.	*
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# text = Der Hr. Verf. widmete sich der Chemie bereits in Bonnmit achtungs-<lb/>werthem Eifer und setzte hier seine Studien in gleichem Geiste fort . Kastner
+1	Der	d	_	ART	_	_	_	_	_	B-NC	552-555	w712	Der	*
+2	Hr.	Hr.	_	NN	_	_	_	_	_	I-NC	556-559	w713	Hr.	*
+3	Verf.	Verf.	_	NN	_	_	_	_	_	B-NC	560-565	w714	Verf.	*
+4	widmete	widmen	_	VVFIN	_	_	_	_	_	O	566-573	w715	widmete	*
+5	sich	sich	_	PRF	_	_	_	_	_	B-NC	574-578	w716	sich	*
+6	der	d	_	ART	_	_	_	_	_	B-NC	579-582	w717	der	*
+7	Chemie	Chemie	_	NN	_	_	_	_	_	I-NC	583-589	w718	Chemie	*
+8	bereits	bereits	_	ADV	_	_	_	_	_	B-ADVC	590-597	w719	bereits	*
+9	in	in	_	APPR	_	_	_	_	_	B-PC	598-600	w71a	in	*
+10	Bonnmit	Bonnmit	_	NE	_	_	_	_	_	I-PC	601-608	w71b,w71b_1	Bonnmit	*
+11	achtungs-<lb/>werthem	achtungswert	_	ADJA	_	_	_	_	_	I-PC	609-630	w71c	achtungswertem	*
+12	Eifer	Eifer	_	NN	_	_	_	_	_	I-PC	631-636	w71d	Eifer	*
+13	und	und	_	KON	_	_	_	_	_	O	637-640	w71e	und	*
+14	setzte	setzen	_	VVFIN	_	_	_	_	_	O	641-647	w71f	setzte	*
+15	hier	hier	_	ADV	_	_	_	_	_	B-ADVC	648-652	w720	hier	*
+16	seine	seine	_	PPOSAT	_	_	_	_	_	B-NC	653-658	w721	seine	*
+17	Studien	Studie	_	NN	_	_	_	_	_	I-NC	659-666	w722	Studien	*
+18	in	in	_	APPR	_	_	_	_	_	B-PC	667-669	w723	in	*
+19	gleichem	gleich	_	ADJA	_	_	_	_	_	I-PC	670-678	w724	gleichem	*
+20	Geiste	Geist	_	NN	_	_	_	_	_	I-PC	679-685	w725	Geiste	*
+21	fort	fort	_	PTKVZ	_	_	_	_	_	O	686-690	w726	fort	*
+22	.	.	_	$.	_	_	_	_	_	O	691-692	w727	.	*
+23	Kastner	Kastner	_	NE	_	_	_	_	_	B-NC	693-700	w728	Kastner	*
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# text = Es scheint vielleicht überflüssig , zu den vielen Vorschriften und Bereitungsarten die-<lb/>ses merkwürdigen Salzes noch eine neue hin-<lb/>zuzufügen ; allein die älteren Angaben sind mehr oder weniger unbestimmt und unsicher , so , dass wenn man darnach arbeitet , ohne be-<lb/>sondere Uebung das Präparat meistentheils misslingt .
+1	Es	es	_	PPER	_	_	_	_	_	B-NC	702-704	w33	Es	*
+2	scheint	scheinen	_	VVFIN	_	_	_	_	_	O	705-712	w34	scheint	*
+3	vielleicht	vielleicht	_	ADV	_	_	_	_	_	B-ADVC	713-723	w35	vielleicht	*
+4	überflüssig	überflüssig	_	ADJD	_	_	_	_	_	B-AC	724-735	w36	überflüssig	*
+5	,	,	_	$,	_	_	_	_	_	O	736-737	w37	,	*
+6	zu	zu	_	APPR	_	_	_	_	_	B-PC	738-740	w38	zu	*
+7	den	d	_	ART	_	_	_	_	_	I-PC	741-744	w39	den	*
+8	vielen	viel	_	PIAT	_	_	_	_	_	I-PC	745-751	w3a	vielen	*
+9	Vorschriften	Vorschrift	_	NN	_	_	_	_	_	I-PC	752-764	w3b	Vorschriften	*
+10	und	und	_	KON	_	_	_	_	_	O	765-768	w3c	und	*
+11	Bereitungsarten	Bereitungsart	_	NN	_	_	_	_	_	B-NC	769-784	w3d	Bereitungsarten	*
+12	die-<lb/>ses	diese	_	PDAT	_	_	_	_	_	B-NC	785-797	w3e	dieses	*
+13	merkwürdigen	merkwürdig	_	ADJA	_	_	_	_	_	I-NC	798-810	w3f	merkwürdigen	*
+14	Salzes	Salz	_	NN	_	_	_	_	_	I-NC	811-817	w40	Salzes	*
+15	noch	noch	_	ADV	_	_	_	_	_	B-ADVC	818-822	w41	noch	*
+16	eine	eine	_	ART	_	_	_	_	_	B-NC	823-827	w42	eine	*
+17	neue	neu	_	NN	_	_	_	_	_	I-NC	828-832	w43	neue	*
+18	hin-<lb/>zuzufügen	hinzufügen	_	VVIZU	_	_	_	_	_	O	833-851	w44	hinzuzufügen	*
+19	;	;	_	$.	_	_	_	_	_	O	852-853	w45	;	*
+20	allein	allein	_	ADV	_	_	_	_	_	B-ADVC	854-860	w46	allein	*
+21	die	d	_	ART	_	_	_	_	_	B-NC	861-864	w47	die	*
+22	älteren	alt	_	ADJA	_	_	_	_	_	I-NC	865-872	w48	älteren	*
+23	Angaben	Angabe	_	NN	_	_	_	_	_	I-NC	873-880	w49	Angaben	*
+24	sind	sein	_	VAFIN	_	_	_	_	_	O	881-885	w4a	sind	*
+25	mehr	mehr	_	ADV	_	_	_	_	_	B-ADVC	886-890	w4b	mehr	*
+26	oder	oder	_	KON	_	_	_	_	_	O	891-895	w4c	oder	*
+27	weniger	wenige	_	ADV	_	_	_	_	_	B-AC	896-903	w4d	weniger	*
+28	unbestimmt	unbestimmt	_	ADJD	_	_	_	_	_	I-AC	904-914	w4e	unbestimmt	*
+29	und	und	_	KON	_	_	_	_	_	O	915-918	w4f	und	*
+30	unsicher	unsicher	_	ADJD	_	_	_	_	_	B-AC	919-927	w50	unsicher	*
+31	,	,	_	$,	_	_	_	_	_	O	928-929	w51	,	*
+32	so	so	_	ADV	_	_	_	_	_	B-ADVC	930-932	w52	so	*
+33	,	,	_	$,	_	_	_	_	_	O	933-934	w53	,	*
+34	dass	dass	_	KOUS	_	_	_	_	_	O	935-939	w54	dass	*
+35	wenn	wenn	_	KOUS	_	_	_	_	_	O	940-944	w55	wenn	*
+36	man	man	_	PIS	_	_	_	_	_	B-NC	945-948	w56	man	*
+37	darnach	danach	_	PAV	_	_	_	_	_	B-NC	949-956	w57	danach	*
+38	arbeitet	arbeiten	_	VVFIN	_	_	_	_	_	O	957-965	w58	arbeitet	*
+39	,	,	_	$,	_	_	_	_	_	O	966-967	w59	,	*
+40	ohne	ohne	_	APPR	_	_	_	_	_	B-PC	968-972	w5a	ohne	*
+41	be-<lb/>sondere	besondere	_	ADJA	_	_	_	_	_	I-PC	973-988	w5b	besondere	*
+42	Uebung	Übung	_	NN	_	_	_	_	_	I-PC	989-995	w5c	Übung	*
+43	das	d	_	ART	_	_	_	_	_	B-NC	996-999	w5d	das	*
+44	Präparat	Präparat	_	NN	_	_	_	_	_	I-NC	1000-1008	w5e	Präparat	*
+45	meistentheils	meistenteils	_	ADV	_	_	_	_	_	B-ADVC	1009-1022	w5f	meistenteils	*
+46	misslingt	misslingen	_	VVFIN	_	_	_	_	_	O	1023-1032	w60	misslingt	*
+47	.	.	_	$.	_	_	_	_	_	O	1033-1034	w61	.	*
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# text = Schon seit 2 Jahren verfertige ich nach der unten gegebenen Vorschrift eine grosse Menge Knallsilbers , ohne dass es mir einmal missrathen wäre .
+1	Schon	schon	_	ADV	_	_	_	_	_	B-ADVC	1036-1041	w62	Schon	*
+2	seit	seit	_	APPR	_	_	_	_	_	B-PC	1042-1046	w63	seit	*
+3	2	2	_	CARD	_	_	_	_	_	I-PC	1047-1048	w64	2	*
+4	Jahren	Jahr	_	NN	_	_	_	_	_	I-PC	1049-1055	w65	Jahren	*
+5	verfertige	verfertigen	_	VVFIN	_	_	_	_	_	O	1056-1066	w66	verfertige	*
+6	ich	ich	_	PPER	_	_	_	_	_	B-NC	1067-1070	w67	ich	*
+7	nach	nach	_	APPR	_	_	_	_	_	B-PC	1071-1075	w68	nach	*
+8	der	d	_	ART	_	_	_	_	_	I-PC	1076-1079	w69	der	*
+9	unten	unten	_	ADV	_	_	_	_	_	I-PC	1080-1085	w6a	unten	*
+10	gegebenen	gegeben	_	ADJA	_	_	_	_	_	I-PC	1086-1095	w6b	gegebenen	*
+11	Vorschrift	Vorschrift	_	NN	_	_	_	_	_	I-PC	1096-1106	w6c	Vorschrift	*
+12	eine	eine	_	ART	_	_	_	_	_	B-NC	1107-1111	w6d	eine	*
+13	grosse	groß	_	ADJA	_	_	_	_	_	I-NC	1112-1118	w6e	große	*
+14	Menge	Menge	_	NN	_	_	_	_	_	I-NC	1119-1124	w6f	Menge	*
+15	Knallsilbers	Knallsilber	_	NN	_	_	_	_	_	B-NC	1125-1137	w70	Knallsilbers	*
+16	,	,	_	$,	_	_	_	_	_	O	1138-1139	w71	,	*
+17	ohne	ohne	_	KOUS	_	_	_	_	_	O	1140-1144	w72	ohne	*
+18	dass	dass	_	KOUS	_	_	_	_	_	O	1145-1149	w73	dass	*
+19	es	es	_	PPER	_	_	_	_	_	B-NC	1150-1152	w74	es	*
+20	mir	ich	_	PPER	_	_	_	_	_	B-NC	1153-1156	w75	mir	*
+21	einmal	einmal	_	ADV	_	_	_	_	_	B-ADVC	1157-1163	w76	einmal	*
+22	missrathen	missraten	_	VVPP	_	_	_	_	_	O	1164-1174	w77	missraten	*
+23	wäre	sein	_	VAFIN	_	_	_	_	_	O	1175-1179	w78	wäre	*
+24	.	.	_	$.	_	_	_	_	_	O	1180-1181	w79	.	*
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# text = Descotils löste Silber in Salpetersäure auf und goss , während die Auflösung vor sich gieng , Alkohol hinzu .
+1	Descotils	Descotils	_	NE	_	_	_	_	_	B-NC	1183-1192	w7a	Descotils	*
+2	löste	lösen	_	VVFIN	_	_	_	_	_	O	1193-1198	w7b	löste	*
+3	Silber	Silber	_	NN	_	_	_	_	_	B-NC	1199-1205	w7c	Silber	*
+4	in	in	_	APPR	_	_	_	_	_	B-PC	1206-1208	w7d	in	*
+5	Salpetersäure	Salpetersäure	_	NN	_	_	_	_	_	I-PC	1209-1222	w7e	Salpetersäure	*
+6	auf	auf	_	PTKVZ	_	_	_	_	_	O	1223-1226	w7f	auf	*
+7	und	und	_	KON	_	_	_	_	_	O	1227-1230	w80	und	*
+8	goss	gießen	_	VVFIN	_	_	_	_	_	O	1231-1235	w81	goss	*
+9	,	,	_	$,	_	_	_	_	_	O	1236-1237	w82	,	*
+10	während	während	_	KOUS	_	_	_	_	_	O	1238-1245	w83	während	*
+11	die	d	_	ART	_	_	_	_	_	B-NC	1246-1249	w84	die	*
+12	Auflösung	Auflösung	_	NN	_	_	_	_	_	I-NC	1250-1259	w85	Auflösung	*
+13	vor	vor	_	APPR	_	_	_	_	_	B-PC	1260-1263	w86	vor	*
+14	sich	sich	_	PRF	_	_	_	_	_	I-PC	1264-1268	w87	sich	*
+15	gieng	gehen	_	VVFIN	_	_	_	_	_	O	1269-1274	w88	ging	*
+16	,	,	_	$,	_	_	_	_	_	O	1275-1276	w89	,	*
+17	Alkohol	Alkohol	_	NN	_	_	_	_	_	B-NC	1277-1284	w8a	Alkohol	*
+18	hinzu	hinzu	_	PTKVZ	_	_	_	_	_	O	1285-1290	w8b	hinzu	*
+19	.	.	_	$.	_	_	_	_	_	O	1291-1292	w8c	.	*
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# text = Die Auflösung des Silbers in der Säure wird hiebei ausseror-<lb/>dentlich verlangsamt , und giesst man zuviel Alkohol hinzu , ganz verhindert ; die Menge des hiernach zu erhaltenden Knallsilbers ist sehr gering , und da weder die Menge noch die Concentration der Säure und des Alko-<lb/>hols bestimmt wird , so ist die Bereitung sehr unsicher .
+1	Die	d	_	ART	_	_	_	_	_	B-NC	1294-1297	w8d	Die	*
+2	Auflösung	Auflösung	_	NN	_	_	_	_	_	I-NC	1298-1307	w8e	Auflösung	*
+3	des	d	_	ART	_	_	_	_	_	B-NC	1308-1311	w8f	des	*
+4	Silbers	Silber	_	NN	_	_	_	_	_	I-NC	1312-1319	w90	Silbers	*
+5	in	in	_	APPR	_	_	_	_	_	B-PC	1320-1322	w91	in	*
+6	der	d	_	ART	_	_	_	_	_	I-PC	1323-1326	w92	der	*
+7	Säure	Säure	_	NN	_	_	_	_	_	I-PC	1327-1332	w93	Säure	*
+8	wird	werden	_	VAFIN	_	_	_	_	_	O	1333-1337	w94	wird	*
+9	hiebei	hierbei	_	PAV	_	_	_	_	_	B-AC	1338-1344	w95	hierbei	*
+10	ausseror-<lb/>dentlich	außerordentlich	_	ADJD	_	_	_	_	_	I-AC	1345-1367	w96	außerordentlich	*
+11	verlangsamt	verlangsamen	_	VVPP	_	_	_	_	_	O	1368-1379	w97	verlangsamt	*
+12	,	,	_	$,	_	_	_	_	_	O	1380-1381	w98	,	*
+13	und	und	_	KON	_	_	_	_	_	O	1382-1385	w99	und	*
+14	giesst	gießen	_	VVFIN	_	_	_	_	_	O	1386-1392	w9a	gießt	*
+15	man	man	_	PIS	_	_	_	_	_	B-NC	1393-1396	w9b	man	*
+16	zuviel	zuviel	_	PIAT	_	_	_	_	_	B-NC	1397-1403	w9c	zuviel	*
+17	Alkohol	Alkohol	_	NN	_	_	_	_	_	I-NC	1404-1411	w9d	Alkohol	*
+18	hinzu	hinzu	_	PTKVZ	_	_	_	_	_	O	1412-1417	w9e	hinzu	*
+19	,	,	_	$,	_	_	_	_	_	O	1418-1419	w9f	,	*
+20	ganz	ganz	_	ADV	_	_	_	_	_	B-ADVC	1420-1424	wa0	ganz	*
+21	verhindert	verhindern	_	VVPP	_	_	_	_	_	O	1425-1435	wa1	verhindert	*
+22	;	;	_	$.	_	_	_	_	_	O	1436-1437	wa2	;	*
+23	die	d	_	ART	_	_	_	_	_	B-NC	1438-1441	wa3	die	*
+24	Menge	Menge	_	NN	_	_	_	_	_	I-NC	1442-1447	wa4	Menge	*
+25	des	d	_	ART	_	_	_	_	_	B-NC	1448-1451	wa5	des	*
+26	hiernach	hiernach	_	PAV	_	_	_	_	_	I-NC	1452-1460	wa6	hiernach	*
+27	zu	zu	_	PTKZU	_	_	_	_	_	I-NC	1461-1463	wa7	zu	*
+28	erhaltenden	erhaltend	_	ADJA	_	_	_	_	_	I-NC	1464-1475	wa8	erhaltenden	*
+29	Knallsilbers	Knallsilber	_	NN	_	_	_	_	_	I-NC	1476-1488	wa9	Knallsilbers	*
+30	ist	sein	_	VAFIN	_	_	_	_	_	O	1489-1492	waa	ist	*
+31	sehr	sehr	_	ADV	_	_	_	_	_	B-AC	1493-1497	wab	sehr	*
+32	gering	gering	_	ADJD	_	_	_	_	_	I-AC	1498-1504	wac	gering	*
+33	,	,	_	$,	_	_	_	_	_	O	1505-1506	wad	,	*
+34	und	und	_	KON	_	_	_	_	_	O	1507-1510	wae	und	*
+35	da	da	_	KOUS	_	_	_	_	_	O	1511-1513	waf	da	*
+36	weder	weder	_	KON	_	_	_	_	_	O	1514-1519	wb0	weder	*
+37	die	d	_	ART	_	_	_	_	_	B-NC	1520-1523	wb1	die	*
+38	Menge	Menge	_	NN	_	_	_	_	_	I-NC	1524-1529	wb2	Menge	*
+39	noch	noch	_	KON	_	_	_	_	_	O	1530-1534	wb3	noch	*
+40	die	d	_	ART	_	_	_	_	_	B-NC	1535-1538	wb4	die	*
+41	Concentration	Konzentration	_	NN	_	_	_	_	_	I-NC	1539-1552	wb5	Konzentration	*
+42	der	d	_	ART	_	_	_	_	_	B-NC	1553-1556	wb6	der	*
+43	Säure	Säure	_	NN	_	_	_	_	_	I-NC	1557-1562	wb7	Säure	*
+44	und	und	_	KON	_	_	_	_	_	O	1563-1566	wb8	und	*
+45	des	d	_	ART	_	_	_	_	_	B-NC	1567-1570	wb9	des	*
+46	Alko-<lb/>hols	Alkohol	_	NN	_	_	_	_	_	I-NC	1571-1585	wba	Alkohols	*
+47	bestimmt	bestimmen	_	VVPP	_	_	_	_	_	O	1586-1594	wbb	bestimmt	*
+48	wird	werden	_	VAFIN	_	_	_	_	_	O	1595-1599	wbc	wird	*
+49	,	,	_	$,	_	_	_	_	_	O	1600-1601	wbd	,	*
+50	so	so	_	ADV	_	_	_	_	_	B-ADVC	1602-1604	wbe	so	*
+51	ist	sein	_	VAFIN	_	_	_	_	_	O	1605-1608	wbf	ist	*
+52	die	d	_	ART	_	_	_	_	_	B-NC	1609-1612	wc0	die	*
+53	Bereitung	Bereitung	_	NN	_	_	_	_	_	I-NC	1613-1622	wc1	Bereitung	*
+54	sehr	sehr	_	ADV	_	_	_	_	_	B-AC	1623-1627	wc2	sehr	*
+55	unsicher	unsicher	_	ADJD	_	_	_	_	_	I-AC	1628-1636	wc3	unsicher	*
+56	.	.	_	$.	_	_	_	_	_	O	1637-1638	wc4	.	*
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# text = Nach Wagenmann wird zu einer Auflö-<lb/>sung von einer Drachme Silbers in einer Unze Salpetersäure von 1,180 Eigengew . gegossen und dann zu der Mischung eine halbe Unze rauchende Salpetersäure von 1,480 ge-<lb/>tröpfelt .
+1	Nach	nach	_	APPR	_	_	_	_	_	B-PC	1640-1644	wc5	Nach	*
+2	Wagenmann	Wagenmann	_	NE	_	_	_	_	_	I-PC	1645-1654	wc6	Wagenmann	*
+3	wird	werden	_	VAFIN	_	_	_	_	_	O	1655-1659	wc7	wird	*
+4	zu	zu	_	APPR	_	_	_	_	_	B-PC	1660-1662	wc8	zu	*
+5	einer	eine	_	ART	_	_	_	_	_	I-PC	1663-1668	wc9	einer	*
+6	Auflö-<lb/>sung	Auflösung	_	NN	_	_	_	_	_	I-PC	1669-1684	wca	Auflösung	*
+7	von	von	_	APPR	_	_	_	_	_	B-PC	1685-1688	wcb	von	*
+8	einer	eine	_	ART	_	_	_	_	_	I-PC	1689-1694	wcc	einer	*
+9	Drachme	Drachme	_	NN	_	_	_	_	_	I-PC	1695-1702	wcd	Drachme	*
+10	Silbers	Silber	_	NN	_	_	_	_	_	B-NC	1703-1710	wce	Silbers	*
+11	in	in	_	APPR	_	_	_	_	_	B-PC	1711-1713	wcf	in	*
+12	einer	eine	_	ART	_	_	_	_	_	I-PC	1714-1719	wd0	einer	*
+13	Unze	Unze	_	NN	_	_	_	_	_	I-PC	1720-1724	wd1	Unze	*
+14	Salpetersäure	Salpetersäure	_	NN	_	_	_	_	_	B-NC	1725-1738	wd2	Salpetersäure	*
+15	von	von	_	APPR	_	_	_	_	_	B-PC	1739-1742	wd3	von	*
+16	1,180	1,180	_	CARD	_	_	_	_	_	I-PC	1743-1748	wd4	1,180	*
+17	Eigengew	Eigengew	_	NN	_	_	_	_	_	I-PC	1749-1757	wd5	Eigengew	*
+18	.	.	_	$.	_	_	_	_	_	O	1758-1759	wd6	.	*
+19	gegossen	gießen	_	VVPP	_	_	_	_	_	O	1760-1768	wd7	gegossen	*
+20	und	und	_	KON	_	_	_	_	_	O	1769-1772	wd8	und	*
+21	dann	dann	_	ADV	_	_	_	_	_	B-ADVC	1773-1777	wd9	dann	*
+22	zu	zu	_	APPR	_	_	_	_	_	B-PC	1778-1780	wda	zu	*
+23	der	d	_	ART	_	_	_	_	_	I-PC	1781-1784	wdb	der	*
+24	Mischung	Mischung	_	NN	_	_	_	_	_	I-PC	1785-1793	wdc	Mischung	*
+25	eine	eine	_	ART	_	_	_	_	_	B-NC	1794-1798	wdd	eine	*
+26	halbe	halb	_	ADJA	_	_	_	_	_	I-NC	1799-1804	wde	halbe	*
+27	Unze	Unze	_	NN	_	_	_	_	_	I-NC	1805-1809	wdf	Unze	*
+28	rauchende	rauchend	_	ADJA	_	_	_	_	_	B-NC	1810-1819	we0	rauchende	*
+29	Salpetersäure	Salpetersäure	_	NN	_	_	_	_	_	I-NC	1820-1833	we1	Salpetersäure	*
+30	von	von	_	APPR	_	_	_	_	_	B-PC	1834-1837	we2	von	*
+31	1,480	1,480	_	CARD	_	_	_	_	_	I-PC	1838-1843	we3	1,480	*
+32	ge-<lb/>tröpfelt	tröpfeln	_	VVPP	_	_	_	_	_	O	1844-1860	we4	getröpfelt	*
+33	.	.	_	$.	_	_	_	_	_	O	1861-1862	we5	.	*
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# text = Die Erhitzung ist so stark , dass die Bil-<lb/>dung des Salzes meistentheils verhindert , und wenn schon etwas sich erzeugt hat , die-<lb/>ses zum Theil wieder zersetzt wird , auch ist die Menge des Alkohols im Verhältnis zur Säure zu gering .
+1	Die	d	_	ART	_	_	_	_	_	B-NC	1864-1867	we6	Die	*
+2	Erhitzung	Erhitzung	_	NN	_	_	_	_	_	I-NC	1868-1877	we7	Erhitzung	*
+3	ist	sein	_	VAFIN	_	_	_	_	_	O	1878-1881	we8	ist	*
+4	so	so	_	ADV	_	_	_	_	_	B-AC	1882-1884	we9	so	*
+5	stark	stark	_	ADJD	_	_	_	_	_	I-AC	1885-1890	wea	stark	*
+6	,	,	_	$,	_	_	_	_	_	O	1891-1892	web	,	*
+7	dass	dass	_	KOUS	_	_	_	_	_	O	1893-1897	wec	dass	*
+8	die	d	_	ART	_	_	_	_	_	B-NC	1898-1901	wed	die	*
+9	Bil-<lb/>dung	Bildung	_	NN	_	_	_	_	_	I-NC	1902-1915	wee	Bildung	*
+10	des	d	_	ART	_	_	_	_	_	B-NC	1916-1919	wef	des	*
+11	Salzes	Salz	_	NN	_	_	_	_	_	I-NC	1920-1926	wf0	Salzes	*
+12	meistentheils	meistenteils	_	ADV	_	_	_	_	_	B-ADVC	1927-1940	wf1	meistenteils	*
+13	verhindert	verhindern	_	VVPP	_	_	_	_	_	O	1941-1951	wf2	verhindert	*
+14	,	,	_	$,	_	_	_	_	_	O	1952-1953	wf3	,	*
+15	und	und	_	KON	_	_	_	_	_	O	1954-1957	wf4	und	*
+16	wenn	wenn	_	KOUS	_	_	_	_	_	O	1958-1962	wf5	wenn	*
+17	schon	schon	_	ADV	_	_	_	_	_	B-ADVC	1963-1968	wf6	schon	*
+18	etwas	etwas	_	PIS	_	_	_	_	_	B-NC	1969-1974	wf7	etwas	*
+19	sich	sich	_	PRF	_	_	_	_	_	B-NC	1975-1979	wf8	sich	*
+20	erzeugt	erzeugen	_	VVPP	_	_	_	_	_	O	1980-1987	wf9	erzeugt	*
+21	hat	haben	_	VAFIN	_	_	_	_	_	O	1988-1991	wfa	hat	*
+22	,	,	_	$,	_	_	_	_	_	O	1992-1993	wfb	,	*
+23	die-<lb/>ses	diese	_	PDS	_	_	_	_	_	B-NC	1994-2006	wfc	dieses	*
+24	zum	zum	_	APPRART	_	_	_	_	_	B-PC	2007-2010	wfd	zum	*
+25	Theil	Teil	_	NN	_	_	_	_	_	I-PC	2011-2016	wfe	Teil	*
+26	wieder	wieder	_	ADV	_	_	_	_	_	B-ADVC	2017-2023	wff	wieder	*
+27	zersetzt	zersetzen	_	VVPP	_	_	_	_	_	O	2024-2032	w100	zersetzt	*
+28	wird	werden	_	VAFIN	_	_	_	_	_	O	2033-2037	w101	wird	*
+29	,	,	_	$,	_	_	_	_	_	O	2038-2039	w102	,	*
+30	auch	auch	_	ADV	_	_	_	_	_	B-ADVC	2040-2044	w103	auch	*
+31	ist	sein	_	VAFIN	_	_	_	_	_	O	2045-2048	w104	ist	*
+32	die	d	_	ART	_	_	_	_	_	B-NC	2049-2052	w105	die	*
+33	Menge	Menge	_	NN	_	_	_	_	_	I-NC	2053-2058	w106	Menge	*
+34	des	d	_	ART	_	_	_	_	_	B-NC	2059-2062	w107	des	*
+35	Alkohols	Alkohol	_	NN	_	_	_	_	_	I-NC	2063-2071	w108	Alkohols	*
+36	im	im	_	APPRART	_	_	_	_	_	B-PC	2072-2074	w109	im	*
+37	Verhältnis	Verhältnis	_	NN	_	_	_	_	_	I-PC	2075-2085	w10a	Verhältnis	*
+38	zur	zur	_	APPRART	_	_	_	_	_	B-PC	2086-2089	w10b	zur	*
+39	Säure	Säure	_	NN	_	_	_	_	_	I-PC	2090-2095	w10c	Säure	*
+40	zu	zu	_	PTKA	_	_	_	_	_	B-AC	2096-2098	w10d	zu	*
+41	gering	gering	_	ADJD	_	_	_	_	_	I-AC	2099-2105	w10e	gering	*
+42	.	.	_	$.	_	_	_	_	_	O	2106-2107	w10f	.	*
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# text = Cruikshankwandte 40 Theile Silber , 60 Th. Salpetersäure , mit gleichviel Wasser verdünnt , und 60 Th. Alkohol an .
+1	Cruikshankwandte	cruikshankwandte	_	VVFIN	_	_	_	_	_	O	2109-2125	w110,w110_1	Cruikshankwandte	*
+2	40	40	_	CARD	_	_	_	_	_	B-NC	2126-2128	w111	40	*
+3	Theile	Teil	_	NN	_	_	_	_	_	I-NC	2129-2135	w112	Teile	*
+4	Silber	Silber	_	NN	_	_	_	_	_	B-NC	2136-2142	w113	Silber	*
+5	,	,	_	$,	_	_	_	_	_	O	2143-2144	w114	,	*
+6	60	60	_	CARD	_	_	_	_	_	B-NC	2145-2147	w115	60	*
+7	Th.	Th.	_	NN	_	_	_	_	_	I-NC	2148-2151	w116	Th.	*
+8	Salpetersäure	Salpetersäure	_	NN	_	_	_	_	_	B-NC	2152-2165	w117	Salpetersäure	*
+9	,	,	_	$,	_	_	_	_	_	O	2166-2167	w118	,	*
+10	mit	mit	_	APPR	_	_	_	_	_	B-PC	2168-2171	w119	mit	*
+11	gleichviel	gleichviel	_	ADJA	_	_	_	_	_	I-PC	2172-2182	w11a	gleichviel	*
+12	Wasser	Wasser	_	NN	_	_	_	_	_	I-PC	2183-2189	w11b	Wasser	*
+13	verdünnt	verdünnen	_	ADJD	_	_	_	_	_	B-AC	2190-2198	w11c	verdünnt	*
+14	,	,	_	$,	_	_	_	_	_	O	2199-2200	w11d	,	*
+15	und	und	_	KON	_	_	_	_	_	O	2201-2204	w11e	und	*
+16	60	60	_	CARD	_	_	_	_	_	B-NC	2205-2207	w11f	60	*
+17	Th.	Th.	_	NN	_	_	_	_	_	I-NC	2208-2211	w120	Th.	*
+18	Alkohol	Alkohol	_	NN	_	_	_	_	_	B-NC	2212-2219	w121	Alkohol	*
+19	an	an	_	PTKVZ	_	_	_	_	_	O	2220-2222	w122	an	*
+20	.	.	_	$.	_	_	_	_	_	O	2223-2224	w123	.	*
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# text = Die Menge der Salpetersäure , so wie die Menge des Alkohols ist im Verhältnis zum Silber zu gering , um eine einigermassen ent-<lb/>sprechende Menge Knallsilber zu erhalten .
+1	Die	d	_	ART	_	_	_	_	_	B-NC	2226-2229	w124	Die	*
+2	Menge	Menge	_	NN	_	_	_	_	_	I-NC	2230-2235	w125	Menge	*
+3	der	d	_	ART	_	_	_	_	_	B-NC	2236-2239	w126	der	*
+4	Salpetersäure	Salpetersäure	_	NN	_	_	_	_	_	I-NC	2240-2253	w127	Salpetersäure	*
+5	,	,	_	$,	_	_	_	_	_	O	2254-2255	w128	,	*
+6	so	so	_	ADV	_	_	_	_	_	B-ADVC	2256-2258	w129	so	*
+7	wie	wie	_	KOKOM	_	_	_	_	_	O	2259-2262	w12a	wie	*
+8	die	d	_	ART	_	_	_	_	_	B-NC	2263-2266	w12b	die	*
+9	Menge	Menge	_	NN	_	_	_	_	_	I-NC	2267-2272	w12c	Menge	*
+10	des	d	_	ART	_	_	_	_	_	B-NC	2273-2276	w12d	des	*
+11	Alkohols	Alkohol	_	NN	_	_	_	_	_	I-NC	2277-2285	w12e	Alkohols	*
+12	ist	sein	_	VAFIN	_	_	_	_	_	O	2286-2289	w12f	ist	*
+13	im	im	_	APPRART	_	_	_	_	_	B-PC	2290-2292	w130	im	*
+14	Verhältnis	Verhältnis	_	NN	_	_	_	_	_	I-PC	2293-2303	w131	Verhältnis	*
+15	zum	zum	_	APPRART	_	_	_	_	_	B-PC	2304-2307	w132	zum	*
+16	Silber	Silber	_	NN	_	_	_	_	_	I-PC	2308-2314	w133	Silber	*
+17	zu	zu	_	PTKA	_	_	_	_	_	B-AC	2315-2317	w134	zu	*
+18	gering	gering	_	ADJD	_	_	_	_	_	I-AC	2318-2324	w135	gering	*
+19	,	,	_	$,	_	_	_	_	_	O	2325-2326	w136	,	*
+20	um	um	_	KOUI	_	_	_	_	_	O	2327-2329	w137	um	*
+21	eine	eine	_	ART	_	_	_	_	_	B-NC	2330-2334	w138	eine	*
+22	einigermassen	einigermaßen	_	ADV	_	_	_	_	_	I-NC	2335-2348	w139	einigermaßen	*
+23	ent-<lb/>sprechende	entsprechend	_	ADJA	_	_	_	_	_	I-NC	2349-2368	w13a	entsprechende	*
+24	Menge	Menge	_	NN	_	_	_	_	_	I-NC	2369-2374	w13b	Menge	*
+25	Knallsilber	Knallsilber	_	NN	_	_	_	_	_	B-NC	2375-2386	w13c	Knallsilber	*
+26	zu	zu	_	PTKZU	_	_	_	_	_	O	2387-2389	w13d	zu	*
+27	erhalten	erhalten	_	VVINF	_	_	_	_	_	O	2390-2398	w13e	erhalten	*
+28	.	.	_	$.	_	_	_	_	_	O	2399-2400	w13f	.	*
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# text = Mehrere dergleichen unvollständige An-<lb/>gaben fanden sich in den meisten Lehr- und Wörterbüchern der Chemie ; auch ist bei ei-<lb/>nigen Vorschriften der Zusatz von Terpentin-<lb/>öl zu dem Weingeiste , so wie auch die An-<lb/>wendung des geschmolzenen salpetersauren Silbers mit rauchender Salpetersäure und Al-<lb/>kohol , wie es mir scheint , nichts weniger als zweckmässig .
+1	Mehrere	mehrere	_	PIAT	_	_	_	_	_	B-NC	2402-2409	w140	Mehrere	*
+2	dergleichen	dergleichen	_	PIAT	_	_	_	_	_	I-NC	2410-2421	w141	dergleichen	*
+3	unvollständige	unvollständig	_	ADJA	_	_	_	_	_	I-NC	2422-2436	w142	unvollständige	*
+4	An-<lb/>gaben	Angabe	_	NN	_	_	_	_	_	I-NC	2437-2450	w143	Angaben	*
+5	fanden	finden	_	VVFIN	_	_	_	_	_	O	2451-2457	w144	fanden	*
+6	sich	sich	_	PRF	_	_	_	_	_	B-NC	2458-2462	w145	sich	*
+7	in	in	_	APPR	_	_	_	_	_	B-PC	2463-2465	w146	in	*
+8	den	d	_	ART	_	_	_	_	_	I-PC	2466-2469	w147	den	*
+9	meisten	meiste	_	PIAT	_	_	_	_	_	I-PC	2470-2477	w148	meisten	*
+10	Lehr-	lehr-	_	TRUNC	_	_	_	_	_	I-PC	2478-2483	w149	Lehr-	*
+11	und	und	_	KON	_	_	_	_	_	O	2484-2487	w14a	und	*
+12	Wörterbüchern	Wörterbuch	_	NN	_	_	_	_	_	B-NC	2488-2501	w14b	Wörterbüchern	*
+13	der	d	_	ART	_	_	_	_	_	B-NC	2502-2505	w14c	der	*
+14	Chemie	Chemie	_	NN	_	_	_	_	_	I-NC	2506-2512	w14d	Chemie	*
+15	;	;	_	$.	_	_	_	_	_	O	2513-2514	w14e	;	*
+16	auch	auch	_	ADV	_	_	_	_	_	B-ADVC	2515-2519	w14f	auch	*
+17	ist	sein	_	VAFIN	_	_	_	_	_	O	2520-2523	w150	ist	*
+18	bei	bei	_	APPR	_	_	_	_	_	B-PC	2524-2527	w151	bei	*
+19	ei-<lb/>nigen	einige	_	PIAT	_	_	_	_	_	I-PC	2528-2541	w152	einigen	*
+20	Vorschriften	Vorschrift	_	NN	_	_	_	_	_	I-PC	2542-2554	w153	Vorschriften	*
+21	der	d	_	ART	_	_	_	_	_	B-NC	2555-2558	w154	der	*
+22	Zusatz	Zusatz	_	NN	_	_	_	_	_	I-NC	2559-2565	w155	Zusatz	*
+23	von	von	_	APPR	_	_	_	_	_	B-PC	2566-2569	w156	von	*
+24	Terpentin-<lb/>öl	Terpentinöl	_	NN	_	_	_	_	_	I-PC	2570-2587	w157	Terpentinöl	*
+25	zu	zu	_	APPR	_	_	_	_	_	B-PC	2588-2590	w158	zu	*
+26	dem	d	_	ART	_	_	_	_	_	I-PC	2591-2594	w159	dem	*
+27	Weingeiste	Weingeist	_	NN	_	_	_	_	_	I-PC	2595-2605	w15a	Weingeiste	*
+28	,	,	_	$,	_	_	_	_	_	O	2606-2607	w15b	,	*
+29	so	so	_	ADV	_	_	_	_	_	B-ADVC	2608-2610	w15c	so	*
+30	wie	wie	_	KOKOM	_	_	_	_	_	O	2611-2614	w15d	wie	*
+31	auch	auch	_	ADV	_	_	_	_	_	B-ADVC	2615-2619	w15e	auch	*
+32	die	d	_	ART	_	_	_	_	_	B-NC	2620-2623	w15f	die	*
+33	An-<lb/>wendung	Anwendung	_	NN	_	_	_	_	_	I-NC	2624-2639	w160	Anwendung	*
+34	des	d	_	ART	_	_	_	_	_	B-NC	2640-2643	w161	des	*
+35	geschmolzenen	geschmelzen	_	ADJA	_	_	_	_	_	I-NC	2644-2657	w162	geschmolzenen	*
+36	salpetersauren	salpetersauer	_	ADJA	_	_	_	_	_	I-NC	2658-2672	w163	salpetersauren	*
+37	Silbers	Silber	_	NN	_	_	_	_	_	I-NC	2673-2680	w164	Silbers	*
+38	mit	mit	_	APPR	_	_	_	_	_	B-PC	2681-2684	w165	mit	*
+39	rauchender	rauchend	_	ADJA	_	_	_	_	_	I-PC	2685-2695	w166	rauchender	*
+40	Salpetersäure	Salpetersäure	_	NN	_	_	_	_	_	I-PC	2696-2709	w167	Salpetersäure	*
+41	und	und	_	KON	_	_	_	_	_	O	2710-2713	w168	und	*
+42	Al-<lb/>kohol	Alkohol	_	NN	_	_	_	_	_	B-NC	2714-2727	w169	Alkohol	*
+43	,	,	_	$,	_	_	_	_	_	O	2728-2729	w16a	,	*
+44	wie	wie	_	KOUS	_	_	_	_	_	O	2730-2733	w16b	wie	*
+45	es	es	_	PPER	_	_	_	_	_	B-NC	2734-2736	w16c	es	*
+46	mir	ich	_	PPER	_	_	_	_	_	B-NC	2737-2740	w16d	mir	*
+47	scheint	scheinen	_	VVFIN	_	_	_	_	_	O	2741-2748	w16e	scheint	*
+48	,	,	_	$,	_	_	_	_	_	O	2749-2750	w16f	,	*
+49	nichts	nichts	_	PIAT	_	_	_	_	_	B-NC	2751-2757	w170	nichts	*
+50	weniger	wenige	_	PIS	_	_	_	_	_	I-NC	2758-2765	w171	weniger	*
+51	als	als	_	KOKOM	_	_	_	_	_	B-AC	2766-2769	w172	als	*
+52	zweckmässig	zweckmässig	_	ADJD	_	_	_	_	_	I-AC	2770-2781	w173	zweckmässig	*
+53	.	.	_	$.	_	_	_	_	_	O	2782-2783	w174	.	*
+
+# sent_id = 19
+# sent_id(TSV) = 19
+# text = Ich kehre nun zur Bereitung dieses Salzes zurück und werde alle Umstände berücksich-<lb/>tigen , bei welchen das Gelingen des Präpa-<lb/>rates möglich ist , und mir ein paar Bemer-<lb/>kungen über die Natur desselben hinzuzufü-<lb/>gen erlauben .
+1	Ich	ich	_	PPER	_	_	_	_	_	B-NC	2785-2788	w175	Ich	*
+2	kehre	kehren	_	VVFIN	_	_	_	_	_	O	2789-2794	w176	kehre	*
+3	nun	nun	_	ADV	_	_	_	_	_	B-ADVC	2795-2798	w177	nun	*
+4	zur	zur	_	APPRART	_	_	_	_	_	B-PC	2799-2802	w178	zur	*
+5	Bereitung	Bereitung	_	NN	_	_	_	_	_	I-PC	2803-2812	w179	Bereitung	*
+6	dieses	diese	_	PDAT	_	_	_	_	_	B-NC	2813-2819	w17a	dieses	*
+7	Salzes	Salz	_	NN	_	_	_	_	_	I-NC	2820-2826	w17b	Salzes	*
+8	zurück	zurück	_	PTKVZ	_	_	_	_	_	O	2827-2833	w17c	zurück	*
+9	und	und	_	KON	_	_	_	_	_	O	2834-2837	w17d	und	*
+10	werde	werden	_	VAFIN	_	_	_	_	_	O	2838-2843	w17e	werde	*
+11	alle	alle	_	PIAT	_	_	_	_	_	B-NC	2844-2848	w17f	alle	*
+12	Umstände	Umstand	_	NN	_	_	_	_	_	I-NC	2849-2857	w180	Umstände	*
+13	berücksich-<lb/>tigen	berücksichtigen	_	VVINF	_	_	_	_	_	O	2858-2879	w181	berücksichtigen	*
+14	,	,	_	$,	_	_	_	_	_	O	2880-2881	w182	,	*
+15	bei	bei	_	APPR	_	_	_	_	_	B-PC	2882-2885	w183	bei	*
+16	welchen	welchen	_	PRELS	_	_	_	_	_	I-PC	2886-2893	w184	welchen	*
+17	das	d	_	ART	_	_	_	_	_	B-NC	2894-2897	w185	das	*
+18	Gelingen	Gelingen	_	NN	_	_	_	_	_	I-NC	2898-2906	w186	Gelingen	*
+19	des	d	_	ART	_	_	_	_	_	B-NC	2907-2910	w187	des	*
+20	Präpa-<lb/>rates	Präparat	_	NN	_	_	_	_	_	I-NC	2911-2927	w188	Präparates	*
+21	möglich	möglich	_	ADJD	_	_	_	_	_	B-AC	2928-2935	w189	möglich	*
+22	ist	sein	_	VAFIN	_	_	_	_	_	O	2936-2939	w18a	ist	*
+23	,	,	_	$,	_	_	_	_	_	O	2940-2941	w18b	,	*
+24	und	und	_	KON	_	_	_	_	_	O	2942-2945	w18c	und	*
+25	mir	ich	_	PPER	_	_	_	_	_	B-NC	2946-2949	w18d	mir	*
+26	ein	eine	_	ART	_	_	_	_	_	B-NC	2950-2953	w18e	ein	*
+27	paar	paar	_	PIAT	_	_	_	_	_	I-NC	2954-2958	w18f	paar	*
+28	Bemer-<lb/>kungen	Bemerkung	_	NN	_	_	_	_	_	I-NC	2959-2976	w190	Bemerkungen	*
+29	über	über	_	APPR	_	_	_	_	_	B-PC	2977-2981	w191	über	*
+30	die	d	_	ART	_	_	_	_	_	I-PC	2982-2985	w192	die	*
+31	Natur	Natur	_	NN	_	_	_	_	_	I-PC	2986-2991	w193	Natur	*
+32	desselben	dieselbe	_	PDS	_	_	_	_	_	B-NC	2992-3001	w194	desselben	*
+33	hinzuzufü-<lb/>gen	hinzufügen	_	VVIZU	_	_	_	_	_	O	3002-3020	w195	hinzuzufügen	*
+34	erlauben	erlauben	_	VVINF	_	_	_	_	_	O	3021-3029	w196	erlauben	*
+35	.	.	_	$.	_	_	_	_	_	O	3030-3031	w197	.	*

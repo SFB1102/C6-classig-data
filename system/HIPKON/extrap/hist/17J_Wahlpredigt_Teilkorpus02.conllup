@@ -1,0 +1,57 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN FOKUS GF IS MovElem PHRASE POS Rekonstruktion SATZKLAMMER SATZSTATUS Sprache TOPF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# PTBstring = (VROOT(S(NP(ART Das)(NN erſte))(VP(VAFIN iſt))(VP(VVPP geweſen)(KOMMA /)(CH(FM Iudicium)(FM Triumvirale)(KOMMA ,))(AS(PAV darinnen)(ADV nun)(NP(CARD drey)(NN Perſonen))(VP(VVPP geſeſſen)(KOMMA /))))))
+# TopFString = (S(VF(ART Das)(NN erſte))(LK(VAFIN iſt))(VC(VVPP geweſen))(KOMMA /)(NF(FM Iudicium)(FM Triumvirale)(KOMMA ,)(VF(PAV darinnen))(MF(ADV nun)(CARD drey)(NN Perſonen))(VC(VVPP geſeſſen)))(KOMMA /))
+# text = Das erſte iſt geweſen / Iudicium Triumvirale, darinnen nun drey Perſonen geſeſſen /
+1	Das	_	_	ART	_	_	_	_	_	NP	Das	_	SUBJ	_	B-NP-insitu	B-NP	DDA	_	_	MAINDECL	_	B-VF	15,01	_	_
+2	erſte	_	_	NN	_	_	_	_	_	NP	erſte	_	SUBJ	_	I-NP	I-NP	ADJOS	_	_	MAINDECL	_	I-VF	15,01	_	_
+3	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	_	VFIN	_	_	O	VAFIN	_	LI	MAINDECL	_	B-LK	15,01	_	_
+4	geweſen	_	_	VVPP	_	_	_	_	_	VP	geweſen	_	INF	_	_	O	VVPP	_	RE	MAINDECL	_	B-RK	15,01	_	_
+5	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	O	$_	_	_	MAINDECL	_	O	15,01	_	_
+6	Iudicium	_	_	FM	_	_	_	_	_	NP	Iuicium	NF	PRD	NEW	_	O	FM	Latein	_	MAINDECL	_	B-NF	15,01	UNLINK	KOREF1-REL
+7	Triumvirale	_	_	FM	_	_	_	_	_	NP	Triumvirale	NF	PRD	NEW	_	O	FM	Latein	_	MAINDECL	_	I-NF	15,01	UNLINK	KOREF1-REL
+8	,	_	_	$,	_	_	_	_	_	_	,	_	_	_	_	O	_	_	_	MAINDECL	_	I-NF	15,01	_	_
+9	darinnen	_	_	PAV	_	_	_	_	_	ADVP	darinnen	_	ADVB	_	B-PP-insitu	B-PP	ADV	_	_	MAINDECL	_	I-NF|B-VF	15,01	_	KOREF2-REL
+10	nun	_	_	ADV	_	_	_	_	_	_	nun	_	_	_	B-ADVP-insitu	B-ADVP	ADV	_	_	MAINDECL	_	I-NF|B-MF	_	_	_
+11	drey	_	_	CARD	_	_	_	_	_	_	drey	_	_	_	B-NP-insitu	B-NP	CARD	_	_	MAINDECL	_	I-NF|I-MF	_	_	_
+12	Perſonen	_	_	NN	_	_	_	_	_	_	Perſonen	_	_	_	I-NP	I-NP	NA	_	_	MAINDECL	_	I-NF|I-MF	_	_	_
+13	geſeſſen	_	_	VVPP	_	_	_	_	_	_	geſeſſen	_	_	_	_	O	VVPP	_	_	MAINDECL	_	I-NF|B-RK	_	_	_
+14	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	O	$_	_	_	MAINDECL	_	O	_	_	_
+
+# sent_id = 2
+# PTBstring = (VROOT(S(NP(ART Das)(NN ander))(VP(VAFIN iſt))(VP(VVPP geweſen)(CH(FM ſynedrium)(FM paruum)(PUNKT .)))(NP(ART daß)(ADJA kleine)(NN Ge=richt)(KOMMA /)(AS(PAV darinnen)(NP(CARD drey)(CNP(CARD vnd)(CARD zweinzig)))(VP(VVPP geſeſſen)(KOMMA /))))))
+# TopFString = (S(VF(ART Das)(NN ander))(LK(VAFIN iſt))(VC(VVPP geweſen))(NF(FM ſynedrium)(FM paruum)(PUNKT .)(ART daß)(ADJA kleine)(NN Ge=richt))(KOMMA /)(PAV darinnen)(CARD drey)(CARD vnd)(CARD zweinzig)(VC(VVPP geſeſſen))(KOMMA /))
+# text = Das ander iſt geweſen ſynedrium paruum. daß kleine Ge=richt / darinnen drey vnd zweinzig geſeſſen /
+1	Das	_	_	ART	_	_	_	_	_	NP	Das	_	SUBJ	_	B-NP-insitu	B-NP	DDA	_	_	MAINDECL	_	B-VF	15,06 Ge=	_	_
+2	ander	_	_	NN	_	_	_	_	_	NP	ander	_	SUBJ	_	I-NP	I-NP	ADJOS	_	_	MAINDECL	_	I-VF	15,06 Ge=	_	_
+3	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	_	VFIN	_	_	O	VAFIN	_	LI	MAINDECL	_	B-LK	15,06 Ge=	_	_
+4	geweſen	_	_	VVPP	_	_	_	_	_	VP	geweſen	_	INF	_	_	O	VVPP	_	RE	MAINDECL	_	B-RK	15,06 Ge=	_	_
+5	ſynedrium	_	_	FM	_	_	_	_	_	NP	ſynedrium	NF	PRD	_	_	O	FM	_	_	MAINDECL	Latein	B-NF	15,06 Ge=	UNLINK	_
+6	paruum	_	_	FM	_	_	_	_	_	NP	paruum	NF	PRD	_	_	O	FM	_	_	MAINDECL	Latein	I-NF	15,06 Ge=	UNLINK	_
+7	.	_	_	$.	_	_	_	_	_	NP	.	NF	PRD	_	_	O	$_	_	_	MAINDECL	_	I-NF	15,06 Ge=	UNLINK	_
+8	daß	_	_	ART	_	_	_	_	_	NP	daß	NF	APPOS	_	B-NP-extrap	B-NP	DDA	_	_	MAINDECL	_	I-NF	15,06 Ge=	UNLINK	KOREF1-REL
+9	kleine	_	_	ADJA	_	_	_	_	_	NP	kleine	NF	APPOS	_	I-NP	I-NP	ADJ	_	_	MAINDECL	_	I-NF	15,06 Ge=	UNLINK	KOREF1-REL
+10	Ge=richt	_	_	NN	_	_	_	_	_	NP	Gericht	NF	APPOS	GIV-INACTIVE	I-NP	I-NP	NA	_	_	MAINDECL	_	I-NF	15,06 Ge=	UNLINK	KOREF1-REL
+11	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	O	$_	_	_	MAINDECL	_	O	_	_	_
+12	darinnen	_	_	PAV	_	_	_	_	_	CP	darinnen	_	ADVB	_	_	B-PP	ADV	_	_	MAINDECL	_	O	15,07 Capital=	_	KOREF2-REL
+13	drey	_	_	CARD	_	_	_	_	_	CP	drey	_	ADVB	_	_	B-NP	CARD	_	_	MAINDECL	_	O	15,07 Capital=	_	_
+14	vnd	_	_	CARD	_	_	_	_	_	CP	vnd	_	ADVB	_	_	I-NP	CARD	_	_	MAINDECL	_	O	15,07 Capital=	_	_
+15	zweinzig	_	_	CARD	_	_	_	_	_	CP	zweinzig	_	ADVB	_	_	I-NP	CARD	_	_	MAINDECL	_	O	15,07 Capital=	_	_
+16	geſeſſen	_	_	VVPP	_	_	_	_	_	CP	geſeſſen	_	ADVB	_	_	O	VVPP	_	_	MAINDECL	_	B-RK	15,07 Capital=	_	_
+17	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	O	$_	_	_	MAINDECL	_	O	15,07 Capital=	_	_
+
+# sent_id = 3
+# PTBstring = (VROOT(S(NP(ART Das)(NN dritte))(VP(VAFIN iſt))(VP(VVPP geweſen))(CNP(CH(FM Synedrium)(FM Magnum)(KOMMA ,))(NP(ART das)(ADJA hoͤchſte)(NN Gericht)(KOMMA /)))))
+# TopFString = (S(VF(ART Das)(NN dritte))(LK(VAFIN iſt))(VC(VVPP geweſen))(NF(FM Synedrium)(FM Magnum)(KOMMA ,)(ART das)(ADJA hoͤchſte)(NN Gericht))(KOMMA /))
+# text = Das dritte iſt geweſen Synedrium Magnum, das hoͤchſte Gericht /
+1	Das	_	_	ART	_	_	_	_	_	NP	Das	_	SUBJ	_	B-NP-insitu	B-NP	DDA	_	_	MAINDECL	_	B-VF	15,10	_	_
+2	dritte	_	_	NN	_	_	_	_	_	NP	dritte	_	SUBJ	_	I-NP	I-NP	ADJOS	_	_	MAINDECL	_	I-VF	15,10	_	_
+3	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	_	VFIN	_	_	O	VAFIN	_	LI	MAINDECL	_	B-LK	15,10	_	_
+4	geweſen	_	_	VVPP	_	_	_	_	_	VP	geweſen	_	INF	_	_	O	VVPP	_	RE	MAINDECL	_	B-RK	15,10	_	_
+5	Synedrium	_	_	FM	_	_	_	_	_	NP	Synedrium	NF	PRD	_	_	O	FM	_	_	MAINDECL	Latein	B-NF	15,10	UNLINK	_
+6	Magnum	_	_	FM	_	_	_	_	_	NP	Magnum	NF	PRD	_	_	O	FM	_	_	MAINDECL	Latein	I-NF	15,10	UNLINK	_
+7	,	_	_	$,	_	_	_	_	_	NP	,	NF	_	_	_	O	_	_	_	MAINDECL	_	I-NF	15,10	UNLINK	_
+8	das	_	_	ART	_	_	_	_	_	NP	das	NF	APPOS	_	_	B-NP	DDA	_	_	MAINDECL	_	I-NF	15,10	UNLINK	_
+9	hoͤchſte	_	_	ADJA	_	_	_	_	_	NP	hoͤchſte	NF	APPOS	_	_	I-NP	ADJ	_	_	MAINDECL	_	I-NF	15,10	UNLINK	_
+10	Gericht	_	_	NN	_	_	_	_	_	NP	Gericht	NF	APPOS	GIV-ACTIVE	_	I-NP	NA	_	_	MAINDECL	_	I-NF	15,11	UNLINK	_
+11	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	I-NP	$_	_	_	MAINDECL	_	O	15,11	_	_

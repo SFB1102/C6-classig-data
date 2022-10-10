@@ -1,0 +1,46 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS Kommentar MovElem PHRASE POS SATZKLAMMER SATZSTATUS TOPF UEBERLIEFERUNGSTRAEGER VERLINKUNG
+# sent_id = 1
+# PTBstring = (VROOT(S(NP(ADJA guͦt)(NN luͥte))(VP(VMFIN muͦſſen))(NP(PPER ſí))(VP(PP(APPR vmb)(PPOSAT vͥnLBR=RBRſern)(NN h'rē))(VVINF erwerben)(NP(ART die)(ADJA ſelbē)(NN gnade)(PUNKT .)))))
+# TopFString = (S(VF(ADJA guͦt)(NN luͥte))(LK(VMFIN muͦſſen))(MF(PPER ſí)(APPR vmb)(PPOSAT vͥnLBR=RBRſern)(NN h'rē))(VC(VVINF erwerben))(NF(ART die)(ADJA ſelbē)(NN gnade))(PUNKT .))
+# text = guͦt luͥte muͦſſen ſí vmb vͥn(=)ſern h'rē erwerben die ſelbē gnade.
+1	guͦt	_	_	ADJA	_	_	_	_	_	NP	guͦt	276,24	_	SUBJ	_	_	B-NP-insitu	B-NP	ADJ	_	MAINDECL	B-VF	54rb,08	_
+2	luͥte	_	_	NN	_	_	_	_	_	NP	luͥte	276,24	_	SUBJ	_	_	I-NP	I-NP	NA	_	MAINDECL	I-VF	54rb,09; vͥn-	_
+3	muͦſſen	_	_	VMFIN	_	_	_	_	_	VP	muͦſſen	276,24	_	VFIN	_	_	_	O	VMFIN	LI	MAINDECL	B-LK	54rb,09; vͥn-	_
+4	ſí	_	_	PPER	_	_	_	_	_	NP	ſí	276,24	_	DO	_	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-MF	54rb,09; vͥn-	_
+5	vmb	_	_	APPR	_	_	_	_	_	PP	vmb	276,24	_	PP-ADV	_	CF	B-PP-insitu	B-PP	APPR	_	MAINDECL	I-MF	54rb,09; vͥn-	_
+6	vͥn(=)ſern	_	_	PPOSAT	_	_	_	_	_	PP	vͥnſern	276,24	_	PP-ADV	_	CF	I-PP	I-PP	DPOS	_	MAINDECL	I-MF	54rb,09; vͥn-	_
+7	h'rē	_	_	NN	_	_	_	_	_	PP	h'rē	276,25	_	PP-ADV	_	CF	I-PP	I-PP	NA	_	MAINDECL	I-MF	54rb,10; -ſern	_
+8	erwerben	_	_	VVINF	_	_	_	_	_	VP	erwerben	276,25	_	INF	_	_	_	O	VVINF	RE	MAINDECL	B-RK	54rb,10; -ſern	_
+9	die	_	_	ART	_	_	_	_	_	NP	die	276,25	BGR	APPOS	ACC-ABSTR-USED-1	_	B-NP-extrap	B-NP	DDA	_	MAINDECL	B-NF	54rb,10; -ſern	LINK_APPOS
+10	ſelbē	_	_	ADJA	_	_	_	_	_	NP	ſelbē	276,25	BGR	APPOS	ACC-ABSTR-USED-1	_	I-NP	I-NP	ADJ	_	MAINDECL	I-NF	54rb,11	LINK_APPOS
+11	gnade	_	_	NN	_	_	_	_	_	NP	gnade	276,25	BGR	APPOS	ACC-ABSTR-USED-1	_	I-NP	I-NP	NA	_	MAINDECL	I-NF	54rb,11	LINK_APPOS
+12	.	_	_	$.	_	_	_	_	_	_	.	276,25	_	_	_	_	_	I-NP	$_	_	MAINDECL	O	54rb,11	_
+
+# sent_id = 2
+# PTBstring = (VROOT(S(AVP(ADV ſo))(VP(VMFIN ſolt))(NP(PPER du))(AVP(ADV doch))(VP(VVINF gan)(PP(APPR an)(PIAT alle)(ART die)(NN ſtette)))))
+# TopFString = (S(VF(ADV ſo))(LK(VMFIN ſolt))(MF(PPER du)(ADV doch))(VC(VVINF gan))(NF(APPR an)(PIAT alle)(ART die)(NN ſtette)))
+# text = ſo ſolt du doch gan an alle die ſtette
+1	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo	277,16	_	ADVB	_	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	B-VF	55ra,17	_
+2	ſolt	_	_	VMFIN	_	_	_	_	_	VP	ſolt	277,16	_	VFIN	_	_	_	O	VMFIN	LI	MAINDECL	B-LK	55ra,17	_
+3	du	_	_	PPER	_	_	_	_	_	NP	du	277,16	_	SUBJ	_	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-MF	55ra,17	_
+4	doch	_	_	ADV	_	_	_	_	_	ADVP	doch	277,16	_	ADVB	_	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	I-MF	55ra,17	_
+5	gan	_	_	VVINF	_	_	_	_	_	VP	gan	277,16	_	INF	_	_	_	O	VVINF	RE	MAINDECL	B-RK	55ra,17	_
+6	an	_	_	APPR	_	_	_	_	_	PP	an	277,16	NF	PP-DIR	_	_	B-PP-extrap	B-PP	APPR	_	MAINDECL	B-NF	55ra,17	UNLINK
+7	alle	_	_	PIAT	_	_	_	_	_	PP	alle	277,16	NF	PP-DIR	_	_	I-PP	I-PP	ADJ	_	MAINDECL	I-NF	55ra,17	UNLINK
+8	die	_	_	ART	_	_	_	_	_	PP	die	277,16	NF	PP-DIR	_	_	I-PP	I-PP	DDA	_	MAINDECL	I-NF	55ra,18	UNLINK
+9	ſtette	_	_	NN	_	_	_	_	_	PP	ſtette	277,16	NF	PP-DIR	NEW	_	I-PP	I-PP	NA	_	MAINDECL	I-NF	55ra,18	UNLINK
+
+# sent_id = 3
+# PTBstring = (VROOT(S(NP(PPER es))(VP(VMFIN muͦz))(VP(VVPP v'golten)(VAINF werden)(PP(APPR vnz)(APPR vf)(ART daz)(ADJA iungſte)(NN ort)(PUNKT .)))))
+# TopFString = (S(VF(PPER es))(LK(VMFIN muͦz))(VC(VVPP v'golten)(VAINF werden))(NF(APPR vnz)(APPR vf)(ART daz)(ADJA iungſte)(NN ort))(PUNKT .))
+# text = es muͦz v'golten werden vnz vf daz iungſte ort.
+1	es	_	_	PPER	_	_	_	_	_	NP	es	278,02; ver-	_	SUBJ	_	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-VF	55vb,18	_
+2	muͦz	_	_	VMFIN	_	_	_	_	_	VP	muͦz	278,02; ver-	_	VFIN	_	_	_	O	VMFIN	LI	MAINDECL	B-LK	55vb,18	_
+3	v'golten	_	_	VVPP	_	_	_	_	_	VP	v'golten	278,02; ver-	_	INF	_	_	_	O	VVPP	_	MAINDECL	B-RK	55vb,18	_
+4	werden	_	_	VAINF	_	_	_	_	_	VP	werden	278,03; -golten	_	INF	_	_	_	O	VAINF	RE	MAINDECL	I-RK	55vb,18	_
+5	vnz	_	_	APPR	_	_	_	_	_	PP	vnz	278,03; -golten	NF	PP-ADV	_	_	B-PP-extrap	B-PP	APPR	_	MAINDECL	B-NF	55vb,19	UNLINK
+6	vf	_	_	APPR	_	_	_	_	_	PP	vf	278,03; -golten	NF	PP-ADV	_	_	I-PP	I-PP	APPR	_	MAINDECL	I-NF	55vb,19	UNLINK
+7	daz	_	_	ART	_	_	_	_	_	PP	daz	278,03; -golten	NF	PP-ADV	_	_	I-PP	I-PP	DDA	_	MAINDECL	I-NF	55vb,19	UNLINK
+8	iungſte	_	_	ADJA	_	_	_	_	_	PP	iungſte	278,03; -golten	NF	PP-ADV	NA	_	I-PP	I-PP	ADJ	_	MAINDECL	I-NF	55vb,19	UNLINK
+9	ort	_	_	NN	_	_	_	_	_	PP	ort	278,03; -golten	NF	PP-ADV	NA	_	I-PP	I-PP	NA	_	MAINDECL	I-NF	55vb,19	UNLINK
+10	.	_	_	$.	_	_	_	_	_	_	.	278,03; -golten	_	_	_	_	_	I-PP	$_	_	MAINDECL	O	55vb,19	_

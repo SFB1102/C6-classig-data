@@ -1,0 +1,32 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC Antec CAT CHUNK CLEAN FOKUS GF IS MovElem PHRASE POS SATZKLAMMER SATZSTATUS TOPF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = ſo wer=dn̄ jr eüch verwūderen der groſſen gnad gotes
+1	ſo	_	_	ADV	_	_	_	_	_	_	ADVP	B-ADVC	ſo	_	ADVB	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	B-VF	14,01; wer=	_	_
+2	wer=dn̄	_	_	VAFIN	_	_	_	_	_	_	VP	O	werdn̄	_	VFIN	_	_	O	VAFIN	LI	MAINDECL	B-LK	14,01; wer=	_	_
+3	jr	_	_	PPER	_	_	_	_	_	_	NP	B-NC	jr	_	SUBJ	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-MF	14,02; =dn̄	_	_
+4	eüch	_	_	PRF	_	_	_	_	_	_	NP	B-NC	eüch	_	VZ_RFL	_	I-NP	B-NP	PRF	_	MAINDECL	I-MF	14,02; =dn̄	_	_
+5	verwūderen	_	_	VVINF	_	_	_	_	_	_	VP	O	verwūderen	NF	INF	_	_	O	VVINF	RE	MAINDECL	B-RK	14,02; =dn̄	_	_
+6	der	_	_	ART	_	_	_	_	_	_	NP	B-NC	der	NF	IO-GEN	ACC-ABSTR-UNUSED_	B-NP-extrap	B-NP	DDA	_	MAINDECL	B-NF	14,02; =dn̄	UNLINK	_
+7	groſſen	_	_	ADJA	_	_	_	_	_	_	NP	I-NC	groſſen	NF	IO-GEN	ACC-ABSTR-UNUSED_	I-NP	I-NP	ADJ	_	MAINDECL	I-NF	14,02; =dn̄	UNLINK	_
+8	gnad	_	_	NN	_	_	_	_	_	_	NP	I-NC	gnad	NF	IO-GEN	ACC-ABSTR-UNUSED_	I-NP	I-NP	NA	_	MAINDECL	I-NF	14,02; =dn̄	UNLINK	_
+9	gotes	_	_	NN	_	_	_	_	_	_	NP	B-NC	gotes	NF	ATTR	_ACC-UNI-UNUSED	I-NP	I-NP	NA	_	MAINDECL	I-NF	14,02; =dn̄	UNLINK	KOREF1
+
+# sent_id = 2
+# text = warlich wir derf=fen vnß nit wūderen / der erſchrocklichē Plag. die got zuͦ vnß ſchicket /
+1	warlich	_	_	ADV	_	_	_	_	_	_	ADVP	B-ADVC	warlich	_	VOVF	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	B-LV	14,07; derf-	_	_
+2	wir	_	_	PPER	_	_	_	_	_	_	NP	B-NC	wir	_	SUBJ	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-VF	14,07; derf-	_	_
+3	derf=fen	_	_	VMFIN	_	_	_	_	_	_	VP	O	derffen	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	B-LK	14,07; derf-	_	_
+4	vnß	_	_	PPER	_	_	_	_	_	_	NP	B-NC	vnß	_	VZ_RFL	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-MF	14,08; -fen	_	_
+5	nit	_	_	PTKNEG	_	_	_	_	_	_	_	B-ADVC	nit	_	_	_	B-ADVP-insitu	B-ADVP	PTKNEG	_	MAINDECL	I-MF	14,08; -fen	_	_
+6	wūderen	_	_	VVINF	_	_	_	_	_	_	VP	O	wūderen	NF	INF	_	_	O	VVINF	RE	MAINDECL	B-RK	14,08; -fen	_	_
+7	/	_	_	$,	_	_	_	_	_	_	_	O	/	NF	_	_	_	O	$_	_	MAINDECL	O	14,08; -fen	_	_
+8	der	_	_	ART	_	_	_	_	_	B-Antec-1	NP	B-NC	der	NF	IO-GEN	_	B-NP-extrap	B-NP	DDA	_	MAINDECL	B-NF	14,08; -fen	UNLINK	_
+9	erſchrocklichē	_	_	ADJA	_	_	_	_	_	I-Antec	NP	I-NC	erſchrocklichē	NF	IO-GEN	_	I-NP	I-NP	ADJ	_	MAINDECL	I-NF	14,08; -fen	UNLINK	_
+10	Plag	_	_	NN	_	_	_	_	_	I-Antec-Head	NP	I-NC	Plag	NF	IO-GEN	NEW	I-NP	I-NP	NA	_	MAINDECL	I-NF	14,08; -fen	UNLINK	KOREF1-REL
+11	.	_	_	$.	_	_	_	_	_	_	_	O	.	_	_	_	I-NP	I-NP	$_	_	MAINDECL	I-NF	14,08; -fen	UNLINK	_
+12	die	_	_	PRELS	_	_	_	_	_	_	CP	B-NC	die	_	ATTR	_	I-NP|B-RELC-insitu-1|B-NP-insitu	I-NP	DDSREL	_	MAINDECL	I-NF|B-LK	14,08; -fen	UNLINK	KOREF2-REL
+13	got	_	_	NE	_	_	_	_	_	_	CP	B-NC	got	_	ATTR	_	I-NP|I-RELC|B-NP-insitu	I-NP	NE	_	MAINDECL	I-NF|B-MF	14,08; -fen	UNLINK	_
+14	zuͦ	_	_	APPR	_	_	_	_	_	_	CP	B-PC	zuͦ	_	ATTR	_	I-NP|I-RELC|B-PP-insitu	I-NP	APPR	_	MAINDECL	I-NF|I-MF	14,08; -fen	UNLINK	_
+15	vnß	_	_	PPER	_	_	_	_	_	_	CP	I-PC	vnß	_	ATTR	_	I-NP|I-RELC|I-PP	I-NP	PPER	_	MAINDECL	I-NF|I-MF	14,09	UNLINK	_
+16	ſchicket	_	_	VVFIN	_	_	_	_	_	_	CP	O	ſchicket	_	ATTR	_	I-NP|I-RELC	I-NP	VVFIN	_	MAINDECL	I-NF|B-RK	14,09	UNLINK	_
+17	/	_	_	$,	_	_	_	_	_	_	_	O	/	_	_	_	_	O	$_	_	MAINDECL	O	14,09	_	_

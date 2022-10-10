@@ -1,0 +1,542 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CHUNK CharOffset DTA:ID DTA:NORM POS
+# sent_id = 1
+# sent_id(TSV) = 1
+# text = EUROPÄISCHES VÖLKERRECHT . VON JOHANN LUDWIG KLÜBER. ZWEITER BAND .
+1	EUROPÄISCHES	europäisch	_	ADJA	_	_	_	_	_	B-NC	0-12	w1	EUROPÄISCHES	*
+2	VÖLKERRECHT	Völkerrecht	_	NN	_	_	_	_	_	I-NC	13-24	w2	VÖLKERRECHT	*
+3	.	.	_	$.	_	_	_	_	_	O	25-26	w3	.	*
+4	VON	VON	_	NN	_	_	_	_	_	B-NC	27-30	w4	VON	*
+5	JOHANN	Johann	_	NE	_	_	_	_	_	B-NC	31-37	w5	JOHANN	*
+6	LUDWIG	Ludwig	_	NE	_	_	_	_	_	I-NC	38-44	w6	LUDWIG	*
+7	KLÜBER.	KLÜBER.	_	NE	_	_	_	_	_	I-NC	45-52	w7,w7_1	KLÜBER.	*
+8	ZWEITER	zweit	_	ADJA	_	_	_	_	_	B-NC	53-60	w8	ZWEITER	*
+9	BAND	Band	_	NN	_	_	_	_	_	I-NC	61-65	w9	BAND	*
+10	.	.	_	$.	_	_	_	_	_	O	66-67	wa	.	*
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# text = MIT EINEM ANHANG , enthaltend EINE BIBLIOTHEK FÜR DAS VÖLKERRECHT. STUTTGART , in der J. G. Cotta’schen Buchhandlung . 1821 .
+1	MIT	Massachussetts_Institute_Of_Technology	_	APPR	_	_	_	_	_	B-PC	69-72	wb	MIT	*
+2	EINEM	eine	_	ART	_	_	_	_	_	I-PC	73-78	wc	EINEM	*
+3	ANHANG	Anhang	_	NN	_	_	_	_	_	I-PC	79-85	wd	ANHANG	*
+4	,	,	_	$,	_	_	_	_	_	O	86-87	we	,	*
+5	enthaltend	enthaltend	_	ADJD	_	_	_	_	_	B-AC	88-98	wf	enthaltend	*
+6	EINE	einen	_	ART	_	_	_	_	_	B-NC	99-103	w10	EINE	*
+7	BIBLIOTHEK	Bibliothek	_	NN	_	_	_	_	_	I-NC	104-114	w11	BIBLIOTHEK	*
+8	FÜR	für	_	APPR	_	_	_	_	_	B-PC	115-118	w12	Für	*
+9	DAS	d	_	ART	_	_	_	_	_	I-PC	119-122	w13	DAS	*
+10	VÖLKERRECHT.	VÖLKERRECHT.	_	NN	_	_	_	_	_	I-PC	123-135	w14	VÖLKERRECHT.	*
+11	STUTTGART	Stuttgart	_	NE	_	_	_	_	_	B-NC	136-145	w15	STUTTGART	*
+12	,	,	_	$,	_	_	_	_	_	O	146-147	w16	,	*
+13	in	in	_	APPR	_	_	_	_	_	B-PC	148-150	w17	in	*
+14	der	d	_	ART	_	_	_	_	_	I-PC	151-154	w18	der	*
+15	J.	J.	_	NE	_	_	_	_	_	I-PC	155-157	w19	J.	*
+16	G.	G.	_	NE	_	_	_	_	_	I-PC	158-160	w1a	G.	*
+17	Cotta’schen	Cotta'schen	_	ADJA	_	_	_	_	_	I-PC	161-172	w1b	Cotta'schen	*
+18	Buchhandlung	Buchhandlung	_	NN	_	_	_	_	_	I-PC	173-185	w1c	Buchhandlung	*
+19	.	.	_	$.	_	_	_	_	_	O	186-187	w1d	.	*
+20	1821	1821	_	CARD	_	_	_	_	_	B-NC	188-192	w1e	1821	*
+21	.	.	_	$.	_	_	_	_	_	O	193-194	w1f	.	*
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# text = ZWEITER ABSCHNITT. RECHTE DER STAATEN , IN ABSICHT AUF FEINDLICHE VERHÄLTNISSE .
+1	ZWEITER	zweit	_	ADJA	_	_	_	_	_	B-NC	196-203	w459a	ZWEITER	*
+2	ABSCHNITT.	ABSCHNITT.	_	NN	_	_	_	_	_	I-NC	204-214	w459b,w459b_1	ABSCHNITT.	*
+3	RECHTE	Recht	_	NN	_	_	_	_	_	B-NC	215-221	w459c	RECHTE	*
+4	DER	d	_	ART	_	_	_	_	_	B-NC	222-225	w459d	Der	*
+5	STAATEN	Staat	_	NN	_	_	_	_	_	I-NC	226-233	w459e	STAATEN	*
+6	,	,	_	$,	_	_	_	_	_	O	234-235	w459f	,	*
+7	IN	in	_	APPR	_	_	_	_	_	B-PC	236-238	w45a0	IN	*
+8	ABSICHT	Absicht	_	NN	_	_	_	_	_	I-PC	239-246	w45a1	ABSICHT	*
+9	AUF	auf	_	APPR	_	_	_	_	_	B-PC	247-250	w45a2	Auf	*
+10	FEINDLICHE	feindlich	_	ADJA	_	_	_	_	_	I-PC	251-261	w45a3	FEINDLICHE	*
+11	VERHÄLTNISSE	Verhältnis	_	NN	_	_	_	_	_	I-PC	262-274	w45a4	VERHÄLTNISSE	*
+12	.	.	_	$.	_	_	_	_	_	O	275-276	w45a5	.	*
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# text = ERSTES CAPITEL .
+1	ERSTES	erst	_	ADJA	_	_	_	_	_	B-NC	278-284	w45a6	ERSTES	*
+2	CAPITEL	Kapitel	_	NN	_	_	_	_	_	I-NC	285-292	w45a7	Kapitel	*
+3	.	.	_	$.	_	_	_	_	_	O	293-294	w45a8	.	*
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# text = RECHT DES KRIEGS .
+1	RECHT	recht	_	NN	_	_	_	_	_	B-NC	296-301	w45a9	RECHT	*
+2	DES	d	_	ART	_	_	_	_	_	B-NC	302-305	w45aa	Des	*
+3	KRIEGS	Krieg	_	NN	_	_	_	_	_	I-NC	306-312	w45ab	KRIEGS	*
+4	.	.	_	$.	_	_	_	_	_	O	313-314	w45ac	.	*
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# text = §. 231. Verletzung der Rechte eines Staates .
+1	§.	§.	_	NN	_	_	_	_	_	B-NC	316-318	w45ad	§.	*
+2	231.	231.	_	CARD	_	_	_	_	_	B-NC	319-323	w45ae	231.	*
+3	Verletzung	Verletzung	_	NN	_	_	_	_	_	I-NC	324-334	w45af	Verletzung	*
+4	der	d	_	ART	_	_	_	_	_	B-NC	335-338	w45b0	der	*
+5	Rechte	Rechte	_	NN	_	_	_	_	_	I-NC	339-345	w45b1	Rechte	*
+6	eines	eine	_	ART	_	_	_	_	_	B-NC	346-351	w45b2	eines	*
+7	Staates	Staat	_	NN	_	_	_	_	_	I-NC	352-359	w45b3	Staates	*
+8	.	.	_	$.	_	_	_	_	_	O	360-361	w45b4	.	*
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# text = Feindliche Verhältnisse unter Staaten , ent-<lb/>stehen durch Rechtsverletzungen , wirkliche oder drohende a ) .
+1	Feindliche	feindlich	_	ADJA	_	_	_	_	_	B-NC	363-373	w20	Feindliche	*
+2	Verhältnisse	Verhältnis	_	NN	_	_	_	_	_	I-NC	374-386	w21	Verhältnisse	*
+3	unter	unter	_	APPR	_	_	_	_	_	B-PC	387-392	w22	unter	*
+4	Staaten	Staat	_	NN	_	_	_	_	_	I-PC	393-400	w23	Staaten	*
+5	,	,	_	$,	_	_	_	_	_	O	401-402	w24	,	*
+6	ent-<lb/>stehen	entstehen	_	VVFIN	_	_	_	_	_	O	403-418	w25	entstehen	*
+7	durch	durch	_	APPR	_	_	_	_	_	B-PC	419-424	w26	durch	*
+8	Rechtsverletzungen	Rechtsverletzung	_	NN	_	_	_	_	_	I-PC	425-443	w27	Rechtsverletzungen	*
+9	,	,	_	$,	_	_	_	_	_	O	444-445	w28	,	*
+10	wirkliche	wirklich	_	ADJA	_	_	_	_	_	B-NC	446-455	w29	wirkliche	*
+11	oder	oder	_	KON	_	_	_	_	_	I-NC	456-460	w2a	oder	*
+12	drohende	drohend	_	ADJA	_	_	_	_	_	I-NC	461-469	w2b	drohende	*
+13	a	A	_	XY	_	_	_	_	_	I-NC	470-471	w2c	a	*
+14	)	)	_	$(	_	_	_	_	_	O	472-473	w2d	)	*
+15	.	.	_	$.	_	_	_	_	_	O	474-475	w2e	.	*
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# text = Die Rechte der Staaten werden verletzt auf dieselbe Art , wie die Rechte ein-<lb/>zelner Menschen .
+1	Die	d	_	ART	_	_	_	_	_	B-NC	477-480	w2f	Die	*
+2	Rechte	Rechte	_	NN	_	_	_	_	_	I-NC	481-487	w30	Rechte	*
+3	der	d	_	ART	_	_	_	_	_	B-NC	488-491	w31	der	*
+4	Staaten	Staat	_	NN	_	_	_	_	_	I-NC	492-499	w32	Staaten	*
+5	werden	werden	_	VAFIN	_	_	_	_	_	O	500-506	w33	werden	*
+6	verletzt	verletzen	_	VVPP	_	_	_	_	_	O	507-515	w34	verletzt	*
+7	auf	auf	_	APPR	_	_	_	_	_	B-PC	516-519	w35	auf	*
+8	dieselbe	dieselbe	_	PDAT	_	_	_	_	_	I-PC	520-528	w36	dieselbe	*
+9	Art	Art	_	NN	_	_	_	_	_	I-PC	529-532	w37	Art	*
+10	,	,	_	$,	_	_	_	_	_	O	533-534	w38	,	*
+11	wie	wie	_	KOKOM	_	_	_	_	_	B-NC	535-538	w39	wie	*
+12	die	d	_	ART	_	_	_	_	_	I-NC	539-542	w3a	die	*
+13	Rechte	Rechte	_	NN	_	_	_	_	_	I-NC	543-549	w3b	Rechte	*
+14	ein-<lb/>zelner	einzeln	_	ADJA	_	_	_	_	_	B-NC	550-565	w3c	einzelner	*
+15	Menschen	Mensch	_	NN	_	_	_	_	_	I-NC	566-574	w3d	Menschen	*
+16	.	.	_	$.	_	_	_	_	_	O	575-576	w3e	.	*
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# text = Verletzt werden sie entweder unmittelbar , oder mittelbar ; jenes , wenn die Beleidigung der Gesammtheit des Staates , die-<lb/>ses , wenn sie einzelnen Mitgliedern desselben zugefügt wird , von der Gesammtheit des andern Staates , oder von einzelnen Mitgliedern dessel-<lb/>ben , so fern hieran der gegenseitige Staat auf irgend eine Art Theil nimmt b ) .
+1	Verletzt	verletzen	_	VVPP	_	_	_	_	_	O	578-586	w3f	Verletzt	*
+2	werden	werden	_	VAFIN	_	_	_	_	_	O	587-593	w40	werden	*
+3	sie	sie	_	PPER	_	_	_	_	_	B-NC	594-597	w41	sie	*
+4	entweder	entweder	_	KON	_	_	_	_	_	O	598-606	w42	entweder	*
+5	unmittelbar	unmittelbar	_	ADJD	_	_	_	_	_	B-AC	607-618	w43	unmittelbar	*
+6	,	,	_	$,	_	_	_	_	_	O	619-620	w44	,	*
+7	oder	oder	_	KON	_	_	_	_	_	O	621-625	w45	oder	*
+8	mittelbar	mittelbar	_	ADJD	_	_	_	_	_	B-AC	626-635	w46	mittelbar	*
+9	;	;	_	$.	_	_	_	_	_	O	636-637	w47	;	*
+10	jenes	jene	_	PDS	_	_	_	_	_	B-NC	638-643	w48	jenes	*
+11	,	,	_	$,	_	_	_	_	_	O	644-645	w49	,	*
+12	wenn	wenn	_	KOUS	_	_	_	_	_	O	646-650	w4a	wenn	*
+13	die	d	_	ART	_	_	_	_	_	B-NC	651-654	w4b	die	*
+14	Beleidigung	Beleidigung	_	NN	_	_	_	_	_	I-NC	655-666	w4c	Beleidigung	*
+15	der	d	_	ART	_	_	_	_	_	B-NC	667-670	w4d	der	*
+16	Gesammtheit	Gesamtheit	_	NN	_	_	_	_	_	I-NC	671-682	w4e	Gesamtheit	*
+17	des	d	_	ART	_	_	_	_	_	B-NC	683-686	w4f	des	*
+18	Staates	Staat	_	NN	_	_	_	_	_	I-NC	687-694	w50	Staates	*
+19	,	,	_	$,	_	_	_	_	_	O	695-696	w51	,	*
+20	die-<lb/>ses	diese	_	PDS	_	_	_	_	_	B-NC	697-709	w52	dieses	*
+21	,	,	_	$,	_	_	_	_	_	O	710-711	w53	,	*
+22	wenn	wenn	_	KOUS	_	_	_	_	_	O	712-716	w54	wenn	*
+23	sie	sie	_	PPER	_	_	_	_	_	B-NC	717-720	w55	sie	*
+24	einzelnen	einzeln	_	ADJA	_	_	_	_	_	B-NC	721-730	w56	einzelnen	*
+25	Mitgliedern	Mitglied	_	NN	_	_	_	_	_	I-NC	731-742	w57	Mitgliedern	*
+26	desselben	dieselbe	_	PDS	_	_	_	_	_	B-NC	743-752	w58	desselben	*
+27	zugefügt	zufügen	_	VVPP	_	_	_	_	_	O	753-761	w59	zugefügt	*
+28	wird	werden	_	VAFIN	_	_	_	_	_	O	762-766	w5a	wird	*
+29	,	,	_	$,	_	_	_	_	_	O	767-768	w5b	,	*
+30	von	von	_	APPR	_	_	_	_	_	B-PC	769-772	w5c	von	*
+31	der	d	_	ART	_	_	_	_	_	I-PC	773-776	w5d	der	*
+32	Gesammtheit	Gesamtheit	_	NN	_	_	_	_	_	I-PC	777-788	w5e	Gesamtheit	*
+33	des	d	_	ART	_	_	_	_	_	B-NC	789-792	w5f	des	*
+34	andern	ander	_	ADJA	_	_	_	_	_	I-NC	793-799	w60	anderen	*
+35	Staates	Staat	_	NN	_	_	_	_	_	I-NC	800-807	w61	Staates	*
+36	,	,	_	$,	_	_	_	_	_	O	808-809	w62	,	*
+37	oder	oder	_	KON	_	_	_	_	_	O	810-814	w63	oder	*
+38	von	von	_	APPR	_	_	_	_	_	B-PC	815-818	w64	von	*
+39	einzelnen	einzeln	_	ADJA	_	_	_	_	_	I-PC	819-828	w65	einzelnen	*
+40	Mitgliedern	Mitglied	_	NN	_	_	_	_	_	I-PC	829-840	w66	Mitgliedern	*
+41	dessel-<lb/>ben	dieselbe	_	PDS	_	_	_	_	_	B-NC	841-856	w67	desselben	*
+42	,	,	_	$,	_	_	_	_	_	O	857-858	w68	,	*
+43	so	so	_	ADV	_	_	_	_	_	B-AC	859-861	w69	so	*
+44	fern	fern	_	ADJD	_	_	_	_	_	I-AC	862-866	w6a	fern	*
+45	hieran	hieran	_	PAV	_	_	_	_	_	O	867-873	w6b	hieran	*
+46	der	d	_	ART	_	_	_	_	_	B-NC	874-877	w6c	der	*
+47	gegenseitige	gegenseitig	_	ADJA	_	_	_	_	_	I-NC	878-890	w6d	gegenseitige	*
+48	Staat	Staat	_	NN	_	_	_	_	_	I-NC	891-896	w6e	Staat	*
+49	auf	auf	_	APPR	_	_	_	_	_	B-PC	897-900	w6f	auf	*
+50	irgend	irgend	_	ADV	_	_	_	_	_	I-PC	901-907	w70	irgend	*
+51	eine	eine	_	ART	_	_	_	_	_	I-PC	908-912	w71	eine	*
+52	Art	Art	_	NN	_	_	_	_	_	I-PC	913-916	w72	Art	*
+53	Theil	Teil	_	PTKVZ	_	_	_	_	_	O	917-922	w73	Teil	*
+54	nimmt	nehmen	_	VVFIN	_	_	_	_	_	O	923-928	w74	nimmt	*
+55	b	b	_	XY	_	_	_	_	_	B-NC	929-930	w75	b	*
+56	)	)	_	$(	_	_	_	_	_	O	931-932	w76	)	*
+57	.	.	_	$.	_	_	_	_	_	O	933-934	w77	.	*
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# text = In Absicht auf feindliche Verhältnisse , ist die Aufgabe : zu be-<lb/>stimmen das Recht der Staaten , zu dem Krieg , in dem Krieg , nach dem Krieg c ) .
+1	In	in	_	APPR	_	_	_	_	_	B-PC	936-938	w78	In	*
+2	Absicht	Absicht	_	NN	_	_	_	_	_	I-PC	939-946	w79	Absicht	*
+3	auf	auf	_	APPR	_	_	_	_	_	B-PC	947-950	w7a	auf	*
+4	feindliche	feindlich	_	ADJA	_	_	_	_	_	I-PC	951-961	w7b	feindliche	*
+5	Verhältnisse	Verhältnis	_	NN	_	_	_	_	_	I-PC	962-974	w7c	Verhältnisse	*
+6	,	,	_	$,	_	_	_	_	_	O	975-976	w7d	,	*
+7	ist	sein	_	VAFIN	_	_	_	_	_	O	977-980	w7e	ist	*
+8	die	d	_	ART	_	_	_	_	_	B-NC	981-984	w7f	die	*
+9	Aufgabe	Aufgabe	_	NN	_	_	_	_	_	I-NC	985-992	w80	Aufgabe	*
+10	:	:	_	$.	_	_	_	_	_	O	993-994	w81	:	*
+11	zu	zu	_	PTKZU	_	_	_	_	_	O	995-997	w82	zu	*
+12	be-<lb/>stimmen	bestimmen	_	VVINF	_	_	_	_	_	O	998-1013	w83	bestimmen	*
+13	das	d	_	ART	_	_	_	_	_	B-NC	1014-1017	w84	das	*
+14	Recht	Recht	_	NN	_	_	_	_	_	I-NC	1018-1023	w85	Recht	*
+15	der	d	_	ART	_	_	_	_	_	B-NC	1024-1027	w86	der	*
+16	Staaten	Staat	_	NN	_	_	_	_	_	I-NC	1028-1035	w87	Staaten	*
+17	,	,	_	$,	_	_	_	_	_	O	1036-1037	w88	,	*
+18	zu	zu	_	APPR	_	_	_	_	_	B-PC	1038-1040	w89	zu	*
+19	dem	d	_	ART	_	_	_	_	_	I-PC	1041-1044	w8a	dem	*
+20	Krieg	Krieg	_	NN	_	_	_	_	_	I-PC	1045-1050	w8b	Krieg	*
+21	,	,	_	$,	_	_	_	_	_	O	1051-1052	w8c	,	*
+22	in	in	_	APPR	_	_	_	_	_	B-PC	1053-1055	w8d	in	*
+23	dem	d	_	ART	_	_	_	_	_	I-PC	1056-1059	w8e	dem	*
+24	Krieg	Krieg	_	NN	_	_	_	_	_	I-PC	1060-1065	w8f	Krieg	*
+25	,	,	_	$,	_	_	_	_	_	O	1066-1067	w90	,	*
+26	nach	nach	_	APPR	_	_	_	_	_	B-PC	1068-1072	w91	nach	*
+27	dem	d	_	ART	_	_	_	_	_	I-PC	1073-1076	w92	dem	*
+28	Krieg	Krieg	_	NN	_	_	_	_	_	I-PC	1077-1082	w93	Krieg	*
+29	c	c	_	XY	_	_	_	_	_	B-NC	1083-1084	w94	c	*
+30	)	)	_	$(	_	_	_	_	_	O	1085-1086	w95	)	*
+31	.	.	_	$.	_	_	_	_	_	O	1087-1088	w96	.	*
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# text = Von Ansprüchen ( Prätensionen ) s. v. Ompteda’s Lit. II. 605. Neyron principes du droit des gens , §. 298. sqq. , und oben §. 25 , Note b .
+1	Von	von	_	APPR	_	_	_	_	_	B-PC	1090-1093	w45b5	Von	*
+2	Ansprüchen	Anspruch	_	NN	_	_	_	_	_	I-PC	1094-1104	w45b6	Ansprüchen	*
+3	(	(	_	$(	_	_	_	_	_	O	1105-1106	w45b7	(	*
+4	Prätensionen	Prätention	_	NN	_	_	_	_	_	B-NC	1107-1119	w45b8	Prätentionen	*
+5	)	)	_	$(	_	_	_	_	_	O	1120-1121	w45b9	)	*
+6	s.	s.	_	VVIMP	_	_	_	_	_	O	1122-1124	w45ba	s.	*
+7	v.	v.	_	APPR	_	_	_	_	_	B-PC	1125-1127	w45bb	v.	*
+8	Ompteda’s	Ompteda	_	NE	_	_	_	_	_	I-PC	1128-1137	w45bc,w45bc_1	Ompteda's	*
+9	Lit.	Lit.	_	NN	_	_	_	_	_	I-PC	1138-1142	w45bd	Lit.	*
+10	II.	Ii.	_	ADJA	_	_	_	_	_	B-NC	1143-1146	w45be	II.	*
+11	605.	605.	_	ADJA	_	_	_	_	_	I-NC	1147-1151	w45bf	605.	*
+12	Neyron	Neyron	_	FM	_	_	_	_	_	O	1152-1158	w45c0	Neyron	*
+13	principes	Principes	_	FM	_	_	_	_	_	O	1159-1168	w45c1	principes	*
+14	du	Du	_	FM	_	_	_	_	_	O	1169-1171	w45c2	du	*
+15	droit	Droit	_	FM	_	_	_	_	_	O	1172-1177	w45c3	droit	*
+16	des	d	_	FM	_	_	_	_	_	O	1178-1181	w45c4	des	*
+17	gens	Gens	_	FM	_	_	_	_	_	O	1182-1186	w45c5	gens	*
+18	,	,	_	$,	_	_	_	_	_	O	1187-1188	w45c6	,	*
+19	§.	§.	_	NN	_	_	_	_	_	B-NC	1189-1191	w45c7	§.	*
+20	298.	298.	_	CARD	_	_	_	_	_	B-NC	1192-1196	w45c8	298.	*
+21	sqq.	Sqq.	_	ADV	_	_	_	_	_	B-ADVC	1197-1201	w45c9	sqq.	*
+22	,	,	_	$,	_	_	_	_	_	O	1202-1203	w45ca	,	*
+23	und	und	_	KON	_	_	_	_	_	O	1204-1207	w45cb	und	*
+24	oben	oben	_	ADV	_	_	_	_	_	B-ADVC	1208-1212	w45cc	oben	*
+25	§.	§.	_	NN	_	_	_	_	_	B-NC	1213-1215	w45cd	§.	*
+26	25	25	_	CARD	_	_	_	_	_	B-NC	1216-1218	w45ce	25	*
+27	,	,	_	$,	_	_	_	_	_	O	1219-1220	w45cf	,	*
+28	Note	Note	_	NN	_	_	_	_	_	B-NC	1221-1225	w45d0	Note	*
+29	b	b	_	XY	_	_	_	_	_	B-NC	1226-1227	w45d1	b	*
+30	.	.	_	$.	_	_	_	_	_	O	1228-1229	w45d2	.	*
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# text = Z. B. durch Ermächtigung oder Anreizung zu der Rechts-<lb/>verletzung , durch widerrechtliche Verzögerung oder Verwei-<lb/>gerung der geforderten Genugthuung , insbesondere wenn seine Mitglieder Räubereien getrieben , wenn seine Caper oder FreiCorps Excesse gegen ein nicht feindliches Volk be-<lb/>gangen haben , wenn sein Regent als Privatperson den an-<lb/>dern Staat beleidigt hat. Schrodt syst. juris gent. p. 49. sqq. Jo. Pet. de Ludewig diss. de juris gentium laesione . Hal. 1741 . 4. Obss. select. Halens. T. VII. obs. 6. 7.
+1	Z.	Z.	_	APPRART	_	_	_	_	_	B-PC	1231-1233	w45d3	Z.	*
+2	B.	B.	_	NN	_	_	_	_	_	I-PC	1234-1236	w45d4	B.	*
+3	durch	durch	_	APPR	_	_	_	_	_	B-PC	1237-1242	w45d5	durch	*
+4	Ermächtigung	Ermächtigung	_	NN	_	_	_	_	_	I-PC	1243-1255	w45d6	Ermächtigung	*
+5	oder	oder	_	KON	_	_	_	_	_	O	1256-1260	w45d7	oder	*
+6	Anreizung	Anreizung	_	NN	_	_	_	_	_	B-NC	1261-1270	w45d8	Anreizung	*
+7	zu	zu	_	APPR	_	_	_	_	_	B-PC	1271-1273	w45d9	zu	*
+8	der	d	_	ART	_	_	_	_	_	I-PC	1274-1277	w45da	der	*
+9	Rechts-<lb/>verletzung	Rechtsverletzung	_	NN	_	_	_	_	_	I-PC	1278-1300	w45db	Rechtsverletzung	*
+10	,	,	_	$,	_	_	_	_	_	O	1301-1302	w45dc	,	*
+11	durch	durch	_	APPR	_	_	_	_	_	B-PC	1303-1308	w45dd	durch	*
+12	widerrechtliche	widerrechtlich	_	ADJA	_	_	_	_	_	I-PC	1309-1324	w45de	widerrechtliche	*
+13	Verzögerung	Verzögerung	_	NN	_	_	_	_	_	I-PC	1325-1336	w45df	Verzögerung	*
+14	oder	oder	_	KON	_	_	_	_	_	O	1337-1341	w45e0	oder	*
+15	Verwei-<lb/>gerung	Verweigerung	_	NN	_	_	_	_	_	B-NC	1342-1360	w45e1	Verweigerung	*
+16	der	d	_	ART	_	_	_	_	_	B-NC	1361-1364	w45e2	der	*
+17	geforderten	gefordert	_	ADJA	_	_	_	_	_	I-NC	1365-1376	w45e3	geforderten	*
+18	Genugthuung	Genugtuung	_	NN	_	_	_	_	_	I-NC	1377-1388	w45e4	Genugtuung	*
+19	,	,	_	$,	_	_	_	_	_	O	1389-1390	w45e5	,	*
+20	insbesondere	insbesondere	_	ADV	_	_	_	_	_	B-ADVC	1391-1403	w45e6	insbesondere	*
+21	wenn	wenn	_	KOUS	_	_	_	_	_	O	1404-1408	w45e7	wenn	*
+22	seine	seine	_	PPOSAT	_	_	_	_	_	B-NC	1409-1414	w45e8	seine	*
+23	Mitglieder	Mitglied	_	NN	_	_	_	_	_	I-NC	1415-1425	w45e9	Mitglieder	*
+24	Räubereien	Räuberei	_	NN	_	_	_	_	_	B-NC	1426-1436	w45ea	Räubereien	*
+25	getrieben	treiben	_	VVPP	_	_	_	_	_	O	1437-1446	w45eb	getrieben	*
+26	,	,	_	$,	_	_	_	_	_	O	1447-1448	w45ec	,	*
+27	wenn	wenn	_	KOUS	_	_	_	_	_	O	1449-1453	w45ed	wenn	*
+28	seine	seine	_	PPOSAT	_	_	_	_	_	B-NC	1454-1459	w45ee	seine	*
+29	Caper	Kaper	_	NN	_	_	_	_	_	I-NC	1460-1465	w45ef	Kaper	*
+30	oder	oder	_	KON	_	_	_	_	_	O	1466-1470	w45f0	oder	*
+31	FreiCorps	Freikorps	_	NN	_	_	_	_	_	B-NC	1471-1480	w45f1	Freikorps	*
+32	Excesse	Exzeß	_	NN	_	_	_	_	_	B-NC	1481-1488	w45f2	Exzesse	*
+33	gegen	gegen	_	APPR	_	_	_	_	_	B-PC	1489-1494	w45f3	gegen	*
+34	ein	eine	_	ART	_	_	_	_	_	I-PC	1495-1498	w45f4	ein	*
+35	nicht	nicht	_	PTKNEG	_	_	_	_	_	I-PC	1499-1504	w45f5	nicht	*
+36	feindliches	feindlich	_	ADJA	_	_	_	_	_	I-PC	1505-1516	w45f6	feindliches	*
+37	Volk	Volk	_	NN	_	_	_	_	_	I-PC	1517-1521	w45f7	Volk	*
+38	be-<lb/>gangen	begehen	_	VVPP	_	_	_	_	_	O	1522-1536	w45f8	begangen	*
+39	haben	haben	_	VAFIN	_	_	_	_	_	O	1537-1542	w45f9	haben	*
+40	,	,	_	$,	_	_	_	_	_	O	1543-1544	w45fa	,	*
+41	wenn	wenn	_	KOUS	_	_	_	_	_	O	1545-1549	w45fb	wenn	*
+42	sein	sein	_	PPOSAT	_	_	_	_	_	B-NC	1550-1554	w45fc	sein	*
+43	Regent	Regent	_	NN	_	_	_	_	_	I-NC	1555-1561	w45fd	Regent	*
+44	als	als	_	KOKOM	_	_	_	_	_	B-NC	1562-1565	w45fe	als	*
+45	Privatperson	Privatperson	_	NN	_	_	_	_	_	I-NC	1566-1578	w45ff	Privatperson	*
+46	den	d	_	ART	_	_	_	_	_	B-NC	1579-1582	w4600	den	*
+47	an-<lb/>dern	ander	_	ADJA	_	_	_	_	_	I-NC	1583-1595	w4601	anderen	*
+48	Staat	Staat	_	NN	_	_	_	_	_	I-NC	1596-1601	w4602	Staat	*
+49	beleidigt	beleidigt	_	VVPP	_	_	_	_	_	O	1602-1611	w4603	beleidigt	*
+50	hat.	hat.	_	VAFIN	_	_	_	_	_	O	1612-1616	w4604	hat.	*
+51	Schrodt	Schrot	_	NN	_	_	_	_	_	B-NC	1617-1624	w4605	Schrot	*
+52	syst.	Syst.	_	FM	_	_	_	_	_	O	1625-1630	w4606	syst.	*
+53	juris	Juris	_	FM	_	_	_	_	_	O	1631-1636	w4607	juris	*
+54	gent.	Gent.	_	FM	_	_	_	_	_	O	1637-1642	w4608	gent.	*
+55	p.	P.	_	FM	_	_	_	_	_	O	1643-1645	w4609	p.	*
+56	49.	49.	_	CARD	_	_	_	_	_	B-NC	1646-1649	w460a	49.	*
+57	sqq.	Sqq.	_	ADV	_	_	_	_	_	B-ADVC	1650-1654	w460b	sqq.	*
+58	Jo.	Jo.	_	NE	_	_	_	_	_	B-NC	1655-1658	w460c	Jo.	*
+59	Pet.	Pet.	_	NE	_	_	_	_	_	I-NC	1659-1663	w460d	Pet.	*
+60	de	De	_	APPR	_	_	_	_	_	B-PC	1664-1666	w460e	de	*
+61	Ludewig	Ludewig	_	NE	_	_	_	_	_	I-PC	1667-1674	w460f	Ludewig	*
+62	diss.	Diss.	_	FM	_	_	_	_	_	O	1675-1680	w4610	diss.	*
+63	de	de	_	FM	_	_	_	_	_	O	1681-1683	w4611	de	*
+64	juris	juris	_	FM	_	_	_	_	_	O	1684-1689	w4612	juris	*
+65	gentium	gentium	_	FM	_	_	_	_	_	O	1690-1697	w4613	gentium	*
+66	laesione	laesione	_	FM	_	_	_	_	_	O	1698-1706	w4614	laesione	*
+67	.	.	_	$.	_	_	_	_	_	O	1707-1708	w4615	.	*
+68	Hal.	Hal.	_	NN	_	_	_	_	_	B-NC	1709-1713	w4616	Hal.	*
+69	1741	1741	_	CARD	_	_	_	_	_	B-NC	1714-1718	w4617	1741	*
+70	.	.	_	$.	_	_	_	_	_	O	1719-1720	w4618	.	*
+71	4.	4.	_	ADJA	_	_	_	_	_	B-AC	1721-1723	w4619	4.	*
+72	Obss.	Obss.	_	FM	_	_	_	_	_	O	1724-1729	w461a	Obss.	*
+73	select.	Select.	_	FM	_	_	_	_	_	O	1730-1737	w461b	select.	*
+74	Halens.	Halens.	_	FM	_	_	_	_	_	O	1738-1745	w461c	Halens.	*
+75	T.	T.	_	CARD	_	_	_	_	_	O	1746-1748	w461d	T.	*
+76	VII.	Vii.	_	CARD	_	_	_	_	_	B-NC	1749-1753	w461e	VII.	*
+77	obs.	Obs.	_	FM	_	_	_	_	_	I-NC	1754-1758	w461f	obs.	*
+78	6.	6.	_	CARD	_	_	_	_	_	I-NC	1759-1761	w4620	6.	*
+79	7.	7.	_	CARD	_	_	_	_	_	B-NC	1762-1764	w4621	7.	*
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# text = Kant ’s metaphysische Anfangsgründe der Rechtslehre , S. 216 .
+1	Kant	Kant	_	NE	_	_	_	_	_	B-NC	1766-1770	w4622	Kant	*
+2	’s	es	_	NE	_	_	_	_	_	I-NC	1771-1773	w4623	es	*
+3	metaphysische	metaphysisch	_	ADJA	_	_	_	_	_	B-NC	1774-1787	w4624	metaphysische	*
+4	Anfangsgründe	Anfangsgrund	_	NN	_	_	_	_	_	I-NC	1788-1801	w4625	Anfangsgründe	*
+5	der	d	_	ART	_	_	_	_	_	B-NC	1802-1805	w4626	der	*
+6	Rechtslehre	Rechtslehre	_	NN	_	_	_	_	_	I-NC	1806-1817	w4627	Rechtslehre	*
+7	,	,	_	$,	_	_	_	_	_	O	1818-1819	w4628	,	*
+8	S.	S.	_	NN	_	_	_	_	_	B-NC	1820-1822	w4629	S.	*
+9	216	216	_	CARD	_	_	_	_	_	B-NC	1823-1826	w462a	216	*
+10	.	.	_	$.	_	_	_	_	_	O	1827-1828	w462b	.	*
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# text = §. 232. Befugniſs dagegen .
+1	§.	§.	_	NN	_	_	_	_	_	B-NC	1830-1832	w462c	§.	*
+2	232.	232.	_	CARD	_	_	_	_	_	B-NC	1833-1837	w462d	232.	*
+3	Befugniſs	Befugnis	_	NN	_	_	_	_	_	I-NC	1838-1847	w462e	Befugnis	*
+4	dagegen	dagegen	_	PAV	_	_	_	_	_	B-PC	1848-1855	w462f	dagegen	*
+5	.	.	_	$.	_	_	_	_	_	O	1856-1857	w4630	.	*
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# text = Wie jeder einzelne Mensch in dem Natur-<lb/>stand , so ist auch jeder Staat im Nothfall be-<lb/>fugt zu verhältniſsmäsiger Gewaltthätigkeit , ge-<lb/>gen drohende oder wirkliche Rechtsverletzungen , nicht nur zu Erhaltung und Vertheidigung sei-<lb/>ner Rechte , sondern auch zu Genugthuung we-<lb/>gen widerrechtlich erlittenen Schadens ( §. 43 ) .
+1	Wie	wie	_	KOKOM	_	_	_	_	_	B-NC	1859-1862	w97	Wie	*
+2	jeder	jede	_	PIAT	_	_	_	_	_	I-NC	1863-1868	w98	jeder	*
+3	einzelne	einzeln	_	ADJA	_	_	_	_	_	I-NC	1869-1877	w99	einzelne	*
+4	Mensch	Mensch	_	NN	_	_	_	_	_	I-NC	1878-1884	w9a	Mensch	*
+5	in	in	_	APPR	_	_	_	_	_	B-PC	1885-1887	w9b	in	*
+6	dem	d	_	ART	_	_	_	_	_	I-PC	1888-1891	w9c	dem	*
+7	Natur-<lb/>stand	Naturstand	_	NN	_	_	_	_	_	I-PC	1892-1908	w9d	Naturstand	*
+8	,	,	_	$,	_	_	_	_	_	O	1909-1910	w9e	,	*
+9	so	so	_	ADV	_	_	_	_	_	B-ADVC	1911-1913	w9f	so	*
+10	ist	sein	_	VAFIN	_	_	_	_	_	O	1914-1917	wa0	ist	*
+11	auch	auch	_	ADV	_	_	_	_	_	B-ADVC	1918-1922	wa1	auch	*
+12	jeder	jede	_	PIAT	_	_	_	_	_	B-NC	1923-1928	wa2	jeder	*
+13	Staat	Staat	_	NN	_	_	_	_	_	I-NC	1929-1934	wa3	Staat	*
+14	im	im	_	APPRART	_	_	_	_	_	B-PC	1935-1937	wa4	im	*
+15	Nothfall	Notfall	_	NN	_	_	_	_	_	I-PC	1938-1946	wa5	Notfall	*
+16	be-<lb/>fugt	befugt	_	VVPP	_	_	_	_	_	O	1947-1959	wa6	befugt	*
+17	zu	zu	_	APPR	_	_	_	_	_	B-PC	1960-1962	wa7	zu	*
+18	verhältniſsmäsiger	verhältnismäßig	_	ADJA	_	_	_	_	_	I-PC	1963-1981	wa8	verhältnismäßiger	*
+19	Gewaltthätigkeit	Gewalttätigkeit	_	NN	_	_	_	_	_	I-PC	1982-1998	wa9	Gewalttätigkeit	*
+20	,	,	_	$,	_	_	_	_	_	O	1999-2000	waa	,	*
+21	ge-<lb/>gen	gegen	_	APPR	_	_	_	_	_	B-PC	2001-2012	wab	gegen	*
+22	drohende	drohend	_	ADJA	_	_	_	_	_	I-PC	2013-2021	wac	drohende	*
+23	oder	oder	_	KON	_	_	_	_	_	I-PC	2022-2026	wad	oder	*
+24	wirkliche	wirklich	_	ADJA	_	_	_	_	_	I-PC	2027-2036	wae	wirkliche	*
+25	Rechtsverletzungen	Rechtsverletzung	_	NN	_	_	_	_	_	I-PC	2037-2055	waf	Rechtsverletzungen	*
+26	,	,	_	$,	_	_	_	_	_	O	2056-2057	wb0	,	*
+27	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVC	2058-2063	wb1	nicht	*
+28	nur	nur	_	ADV	_	_	_	_	_	B-ADVC	2064-2067	wb2	nur	*
+29	zu	zu	_	APPR	_	_	_	_	_	B-PC	2068-2070	wb3	zu	*
+30	Erhaltung	Erhaltung	_	NN	_	_	_	_	_	I-PC	2071-2080	wb4	Erhaltung	*
+31	und	und	_	KON	_	_	_	_	_	O	2081-2084	wb5	und	*
+32	Vertheidigung	Verteidigung	_	NN	_	_	_	_	_	B-NC	2085-2098	wb6	Verteidigung	*
+33	sei-<lb/>ner	seine	_	PPOSAT	_	_	_	_	_	B-NC	2099-2111	wb7	seiner	*
+34	Rechte	Rechte	_	NN	_	_	_	_	_	I-NC	2112-2118	wb8	Rechte	*
+35	,	,	_	$,	_	_	_	_	_	O	2119-2120	wb9	,	*
+36	sondern	sondern	_	KON	_	_	_	_	_	O	2121-2128	wba	sondern	*
+37	auch	auch	_	ADV	_	_	_	_	_	B-ADVC	2129-2133	wbb	auch	*
+38	zu	zu	_	APPR	_	_	_	_	_	B-PC	2134-2136	wbc	zu	*
+39	Genugthuung	Genugtuung	_	NN	_	_	_	_	_	I-PC	2137-2148	wbd	Genugtuung	*
+40	we-<lb/>gen	wegen	_	APPR	_	_	_	_	_	B-PC	2149-2160	wbe	wegen	*
+41	widerrechtlich	widerrechtlich	_	ADJD	_	_	_	_	_	I-PC	2161-2175	wbf	widerrechtlich	*
+42	erlittenen	erleiden	_	ADJA	_	_	_	_	_	I-PC	2176-2186	wc0	erlittenen	*
+43	Schadens	Schaden	_	NN	_	_	_	_	_	I-PC	2187-2195	wc1	Schadens	*
+44	(	(	_	$(	_	_	_	_	_	O	2196-2197	wc2	(	*
+45	§.	§.	_	NN	_	_	_	_	_	B-NC	2198-2200	wc3	§.	*
+46	43	43	_	CARD	_	_	_	_	_	B-NC	2201-2203	wc4	43	*
+47	)	)	_	$(	_	_	_	_	_	O	2204-2205	wc5	)	*
+48	.	.	_	$.	_	_	_	_	_	O	2206-2207	wc6	.	*
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# text = Die Gewaltthätigkeit findet statt , gegen die Ge-<lb/>sammtheit des beleidigenden Staates unmittelbar , aber auch wider einzelne , wenn gleich an der Rechtsverletzung persönlich unschuldige , Mit-<lb/>glieder desselben , weil sie Theile der Gesammt-<lb/>heit sind , und ihr Vermögen in dem Verhält-<lb/>niſs zu andern Staaten als Bestandtheil des Ver-<lb/>mögens ihres Staates zu betrachten ist a ) .
+1	Die	d	_	ART	_	_	_	_	_	B-NC	2209-2212	wc7	Die	*
+2	Gewaltthätigkeit	Gewalttätigkeit	_	NN	_	_	_	_	_	I-NC	2213-2229	wc8	Gewalttätigkeit	*
+3	findet	finden	_	VVFIN	_	_	_	_	_	O	2230-2236	wc9	findet	*
+4	statt	statt	_	PTKVZ	_	_	_	_	_	O	2237-2242	wca	statt	*
+5	,	,	_	$,	_	_	_	_	_	O	2243-2244	wcb	,	*
+6	gegen	gegen	_	APPR	_	_	_	_	_	B-PC	2245-2250	wcc	gegen	*
+7	die	d	_	ART	_	_	_	_	_	I-PC	2251-2254	wcd	die	*
+8	Ge-<lb/>sammtheit	Gesamtheit	_	NN	_	_	_	_	_	I-PC	2255-2272	wce	Gesamtheit	*
+9	des	d	_	ART	_	_	_	_	_	B-NC	2273-2276	wcf	des	*
+10	beleidigenden	beleidigend	_	ADJA	_	_	_	_	_	I-NC	2277-2290	wd0	beleidigenden	*
+11	Staates	Staat	_	NN	_	_	_	_	_	I-NC	2291-2298	wd1	Staates	*
+12	unmittelbar	unmittelbar	_	ADJD	_	_	_	_	_	B-AC	2299-2310	wd2	unmittelbar	*
+13	,	,	_	$,	_	_	_	_	_	O	2311-2312	wd3	,	*
+14	aber	aber	_	KON	_	_	_	_	_	O	2313-2317	wd4	aber	*
+15	auch	auch	_	ADV	_	_	_	_	_	B-ADVC	2318-2322	wd5	auch	*
+16	wider	wider	_	APPR	_	_	_	_	_	B-PC	2323-2328	wd6	wider	*
+17	einzelne	einzeln	_	PIAT	_	_	_	_	_	I-PC	2329-2337	wd7	einzelne	*
+18	,	,	_	$,	_	_	_	_	_	O	2338-2339	wd8	,	*
+19	wenn	wenn	_	KOUS	_	_	_	_	_	O	2340-2344	wd9	wenn	*
+20	gleich	gleich	_	ADV	_	_	_	_	_	B-ADVC	2345-2351	wda	gleich	*
+21	an	an	_	APPR	_	_	_	_	_	B-PC	2352-2354	wdb	an	*
+22	der	d	_	ART	_	_	_	_	_	I-PC	2355-2358	wdc	der	*
+23	Rechtsverletzung	Rechtsverletzung	_	NN	_	_	_	_	_	I-PC	2359-2375	wdd	Rechtsverletzung	*
+24	persönlich	persönlich	_	ADJD	_	_	_	_	_	B-AC	2376-2386	wde	persönlich	*
+25	unschuldige	unschuldig	_	ADJA	_	_	_	_	_	B-NC	2387-2398	wdf	unschuldige	*
+26	,	,	_	$,	_	_	_	_	_	I-NC	2399-2400	we0	,	*
+27	Mit-<lb/>glieder	Mitglied	_	NN	_	_	_	_	_	I-NC	2401-2417	we1	Mitglieder	*
+28	desselben	dieselbe	_	PDS	_	_	_	_	_	B-NC	2418-2427	we2	desselben	*
+29	,	,	_	$,	_	_	_	_	_	O	2428-2429	we3	,	*
+30	weil	weil	_	KOUS	_	_	_	_	_	O	2430-2434	we4	weil	*
+31	sie	sie	_	PPER	_	_	_	_	_	B-NC	2435-2438	we5	sie	*
+32	Theile	Teil	_	NN	_	_	_	_	_	B-NC	2439-2445	we6	Teile	*
+33	der	d	_	ART	_	_	_	_	_	B-NC	2446-2449	we7	der	*
+34	Gesammt-<lb/>heit	Gesamtheit	_	NN	_	_	_	_	_	I-NC	2450-2467	we8	Gesamtheit	*
+35	sind	sein	_	VAFIN	_	_	_	_	_	O	2468-2472	we9	sind	*
+36	,	,	_	$,	_	_	_	_	_	O	2473-2474	wea	,	*
+37	und	und	_	KON	_	_	_	_	_	O	2475-2478	web	und	*
+38	ihr	ihr	_	PPOSAT	_	_	_	_	_	B-NC	2479-2482	wec	ihr	*
+39	Vermögen	Vermögen	_	NN	_	_	_	_	_	I-NC	2483-2491	wed	Vermögen	*
+40	in	in	_	APPR	_	_	_	_	_	B-PC	2492-2494	wee	in	*
+41	dem	d	_	ART	_	_	_	_	_	I-PC	2495-2498	wef	dem	*
+42	Verhält-<lb/>niſs	Verhältnis	_	NN	_	_	_	_	_	I-PC	2499-2516	wf0	Verhältnis	*
+43	zu	zu	_	APPR	_	_	_	_	_	B-PC	2517-2519	wf1	zu	*
+44	andern	ander	_	ADJA	_	_	_	_	_	I-PC	2520-2526	wf2	anderen	*
+45	Staaten	Staat	_	NN	_	_	_	_	_	I-PC	2527-2534	wf3	Staaten	*
+46	als	als	_	KOKOM	_	_	_	_	_	B-NC	2535-2538	wf4	als	*
+47	Bestandtheil	Bestandteil	_	NN	_	_	_	_	_	I-NC	2539-2551	wf5	Bestandteil	*
+48	des	d	_	ART	_	_	_	_	_	B-NC	2552-2555	wf6	des	*
+49	Ver-<lb/>mögens	Vermögen	_	NN	_	_	_	_	_	I-NC	2556-2571	wf7	Vermögens	*
+50	ihres	ihr	_	PPOSAT	_	_	_	_	_	B-NC	2572-2577	wf8	ihres	*
+51	Staates	Staat	_	NN	_	_	_	_	_	I-NC	2578-2585	wf9	Staates	*
+52	zu	zu	_	PTKZU	_	_	_	_	_	O	2586-2588	wfa	zu	*
+53	betrachten	betrachten	_	VVINF	_	_	_	_	_	O	2589-2599	wfb	betrachten	*
+54	ist	sein	_	VAFIN	_	_	_	_	_	O	2600-2603	wfc	ist	*
+55	a	A	_	XY	_	_	_	_	_	B-NC	2604-2605	wfd	a	*
+56	)	)	_	$(	_	_	_	_	_	O	2606-2607	wfe	)	*
+57	.	.	_	$.	_	_	_	_	_	O	2608-2609	wff	.	*
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# text = Da über Staaten kein Richter gebietet , so ist jeder von ihnen befugt , selbst Gewalt zu gebrauchen gegen Beleidigungen , also zu Selbsthülfe b ) .
+1	Da	da	_	KOUS	_	_	_	_	_	O	2611-2613	w100	Da	*
+2	über	über	_	APPR	_	_	_	_	_	B-PC	2614-2618	w101	über	*
+3	Staaten	Staat	_	NN	_	_	_	_	_	I-PC	2619-2626	w102	Staaten	*
+4	kein	keine	_	PIAT	_	_	_	_	_	B-NC	2627-2631	w103	kein	*
+5	Richter	Richter	_	NN	_	_	_	_	_	I-NC	2632-2639	w104	Richter	*
+6	gebietet	gebieten	_	VVFIN	_	_	_	_	_	O	2640-2648	w105	gebietet	*
+7	,	,	_	$,	_	_	_	_	_	O	2649-2650	w106	,	*
+8	so	so	_	ADV	_	_	_	_	_	B-ADVC	2651-2653	w107	so	*
+9	ist	sein	_	VAFIN	_	_	_	_	_	O	2654-2657	w108	ist	*
+10	jeder	jede	_	PIS	_	_	_	_	_	B-NC	2658-2663	w109	jeder	*
+11	von	von	_	APPR	_	_	_	_	_	B-PC	2664-2667	w10a	von	*
+12	ihnen	sie	_	PPER	_	_	_	_	_	I-PC	2668-2673	w10b	ihnen	*
+13	befugt	befugen	_	VVPP	_	_	_	_	_	O	2674-2680	w10c	befugt	*
+14	,	,	_	$,	_	_	_	_	_	O	2681-2682	w10d	,	*
+15	selbst	selbst	_	ADV	_	_	_	_	_	B-ADVC	2683-2689	w10e	selbst	*
+16	Gewalt	Gewalt	_	NN	_	_	_	_	_	B-NC	2690-2696	w10f	Gewalt	*
+17	zu	zu	_	PTKZU	_	_	_	_	_	O	2697-2699	w110	zu	*
+18	gebrauchen	gebrauchen	_	VVINF	_	_	_	_	_	O	2700-2710	w111	gebrauchen	*
+19	gegen	gegen	_	APPR	_	_	_	_	_	B-PC	2711-2716	w112	gegen	*
+20	Beleidigungen	Beleidigung	_	NN	_	_	_	_	_	I-PC	2717-2730	w113	Beleidigungen	*
+21	,	,	_	$,	_	_	_	_	_	O	2731-2732	w114	,	*
+22	also	also	_	ADV	_	_	_	_	_	B-ADVC	2733-2737	w115	also	*
+23	zu	zu	_	APPR	_	_	_	_	_	B-PC	2738-2740	w116	zu	*
+24	Selbsthülfe	Selbsthülfe	_	NN	_	_	_	_	_	I-PC	2741-2752	w117	Selbsthülfe	*
+25	b	b	_	XY	_	_	_	_	_	B-NC	2753-2754	w118	b	*
+26	)	)	_	$(	_	_	_	_	_	O	2755-2756	w119	)	*
+27	.	.	_	$.	_	_	_	_	_	O	2757-2758	w11a	.	*
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# text = Grotius , lib. III. c. 2 . —
+1	Grotius	grotius	_	FM	_	_	_	_	_	O	2760-2767	w4631	Grotius	*
+2	,	,	_	$,	_	_	_	_	_	O	2768-2769	w4632	,	*
+3	lib.	lib.	_	FM	_	_	_	_	_	O	2770-2774	w4633	lib.	*
+4	III.	iii.	_	CARD	_	_	_	_	_	O	2775-2779	w4634	III.	*
+5	c.	c.	_	FM	_	_	_	_	_	O	2780-2782	w4635	c.	*
+6	2	2	_	CARD	_	_	_	_	_	B-NC	2783-2784	w4636	2	*
+7	.	.	_	$.	_	_	_	_	_	O	2785-2786	w4637	.	*
+8	—	--	_	$(	_	_	_	_	_	O	2787-2788	w4638	--	*
+
+# sent_id = 19
+# sent_id(TSV) = 19
+# text = Man s. jedoch unten , §. 246 , 251 f. , u. 256.
+1	Man	man	_	PIS	_	_	_	_	_	B-NC	2790-2793	w4639	Man	*
+2	s.	s.	_	VVIMP	_	_	_	_	_	O	2794-2796	w463a	s.	*
+3	jedoch	jedoch	_	ADV	_	_	_	_	_	B-ADVC	2797-2803	w463b	jedoch	*
+4	unten	unten	_	ADV	_	_	_	_	_	B-ADVC	2804-2809	w463c	unten	*
+5	,	,	_	$,	_	_	_	_	_	O	2810-2811	w463d	,	*
+6	§.	§.	_	NN	_	_	_	_	_	B-NC	2812-2814	w463e	§.	*
+7	246	246	_	CARD	_	_	_	_	_	B-NC	2815-2818	w463f	246	*
+8	,	,	_	$,	_	_	_	_	_	O	2819-2820	w4640	,	*
+9	251	251	_	CARD	_	_	_	_	_	B-NC	2821-2824	w4641	251	*
+10	f.	F.	_	NN	_	_	_	_	_	I-NC	2825-2827	w4642	f.	*
+11	,	,	_	$,	_	_	_	_	_	O	2828-2829	w4643	,	*
+12	u.	u.	_	KON	_	_	_	_	_	O	2830-2832	w4644	u.	*
+13	256.	256.	_	CARD	_	_	_	_	_	B-NC	2833-2837	w4645	256.	*
+
+# sent_id = 20
+# sent_id(TSV) = 20
+# text = Moser ’s Versuch , VIII. 480 ff .
+1	Moser	Moser	_	NE	_	_	_	_	_	B-NC	2839-2844	w4646	Moser	*
+2	’s	es	_	NE	_	_	_	_	_	I-NC	2845-2847	w4647	es	*
+3	Versuch	Versuch	_	NN	_	_	_	_	_	B-NC	2848-2855	w4648	Versuch	*
+4	,	,	_	$,	_	_	_	_	_	O	2856-2857	w4649	,	*
+5	VIII.	Viii.	_	CARD	_	_	_	_	_	B-NC	2858-2863	w464a	VIII.	*
+6	480	480	_	CARD	_	_	_	_	_	I-NC	2864-2867	w464b	480	*
+7	ff	Ff	_	NN	_	_	_	_	_	I-NC	2868-2870	w464c	ff	*
+8	.	.	_	$.	_	_	_	_	_	O	2871-2872	w464d	.	*

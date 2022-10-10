@@ -1,0 +1,203 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS Kommentar MovElem PHRASE POS SATZKLAMMER SATZSTATUS TOPF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# PTBstring = (VROOT(S(NP(PPER wir))(VP(VAFIN ſigē))(AVP(ADV híut))(VP(VVPP begênde))(NP(ART dē)(ADJA êrſtē)(NN ſunnētach)(NP(ART d')(PUNKT .)(ADJA LBRheiligenRBR)(PUNKT .)(NN zuͦkuͥmft)(NP(PPOSAT unſers)(NN h'rē)(PUNKT .))))))
+# TopFString = (S(VF(PPER wir))(LK(VAFIN ſigē))(MF(ADV híut))(VC(VVPP begênde))(NF(ART dē)(ADJA êrſtē)(NN ſunnētach)(ART d')(PUNKT .)(ADJA LBRheiligenRBR)(PUNKT .)(NN zuͦkuͥmft)(PPOSAT unſers)(NN h'rē))(PUNKT .))
+# text = wir ſigē híut begênde dē êrſtē ſunnētach d'. (heiligen). zuͦkuͥmft unſers h'rē.
+1	wir	_	_	PPER	_	_	_	_	_	NP	wir	155,23; -peretur | sunnen-	_	SUBJ	_	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-VF	125r,02	_	_
+2	ſigē	_	_	VAFIN	_	_	_	_	_	VP	ſigē	155,23; -peretur | sunnen-	_	VFIN	_	_	_	O	VAFIN	LI	MAINDECL	B-LK	125r,02	_	_
+3	híut	_	_	ADV	_	_	_	_	_	ADVP	híut	155,23; -peretur | sunnen-	_	ADVB	_	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	B-MF	125r,03	_	_
+4	begênde	_	_	VVPP	_	_	_	_	_	VP	begênde	155,23; -peretur | sunnen-	_	GERUND	_	_	_	O	VVPS	RE	MAINDECL	B-RK	125r,03	_	_
+5	dē	_	_	ART	_	_	_	_	_	NP	dē	155,23; -peretur | sunnen-	NF	DO	ACC-UNI-UNUSED_	_	B-NP-extrap	B-NP	DDA	_	MAINDECL	B-NF	125r,03	UNLINK	_
+6	êrſtē	_	_	ADJA	_	_	_	_	_	NP	êrſtē	155,23; -peretur | sunnen-	NF	DO	ACC-UNI-UNUSED_	_	I-NP	I-NP	ADJO	_	MAINDECL	I-NF	125r,03	UNLINK	_
+7	ſunnētach	_	_	NN	_	_	_	_	_	NP	ſunnētach	155,24; -tach	NF	DO	ACC-UNI-UNUSED_	_	I-NP	I-NP	NA	_	MAINDECL	I-NF	125r,03	UNLINK	_
+8	d'	_	_	ART	_	_	_	_	_	NP	d'	155,24; -tach	NF	ATTR	_	_	I-NP	I-NP	DDA	_	MAINDECL	I-NF	125r,03	UNLINK	_
+9	.	_	_	$.	_	_	_	_	_	NP	.	155,24; -tach	NF	ATTR	_	_	I-NP	I-NP	$_	_	MAINDECL	I-NF	125r,03	UNLINK	_
+10	(heiligen)	_	_	ADJA	_	_	_	_	_	NP	(heiligen)	155,24; -tach	NF	ATTR	_ACC-ABSTR-UNUSED_	_	I-NP	I-NP	ADJ	_	MAINDECL	I-NF	125r,03	UNLINK	_
+11	.	_	_	$.	_	_	_	_	_	NP	.	155,24; -tach	NF	ATTR	_ACC-ABSTR-UNUSED_	_	I-NP	I-NP	$_	_	MAINDECL	I-NF	125r,03	UNLINK	_
+12	zuͦkuͥmft	_	_	NN	_	_	_	_	_	NP	zuͦkuͥmft	155,24; -tach	NF	ATTR	_ACC-ABSTR-UNUSED_	_	I-NP	I-NP	NA	_	MAINDECL	I-NF	125r,03	UNLINK	_
+13	unſers	_	_	PPOSAT	_	_	_	_	_	NP	unſers	155,24; -tach	NF	ATTR	_ACC-SIT_	_	I-NP	I-NP	DPOS	_	MAINDECL	I-NF	125r,03	UNLINK	_
+14	h'rē	_	_	NN	_	_	_	_	_	NP	h'rē	155,24; -tach	NF	ATTR	_ACC-UNI-UNUSED	_	I-NP	I-NP	NA	_	MAINDECL	I-NF	125r,04	UNLINK	_
+15	.	_	_	$.	_	_	_	_	_	_	.	155,24; -tach	_	_	_	_	_	I-NP	$_	_	MAINDECL	O	125r,04	_	_
+
+# sent_id = 2
+# PTBstring = (VROOT(S(KON vn̄)(PP(APPR zvͦ)(PDS d'))(VP(VMFIN ſon))(NP(PPER wir))(VP(PRF unſ)(VVINF beLBRraiRBRtē)(CPP(PP(APPR mit)(ART ain')(ADJA lût')(NN bîhte)(PUNKT .))(KON vn̄)(PP(APPR mit)(AP(ADV and'en)(ADJA guͦtē))(NN w'chē)(PUNKT .))))))
+# TopFString = (S(KOORD(KON vn̄))(VF(APPR zvͦ)(PDS d'))(LK(VMFIN ſon))(MF(PPER wir)(PRF unſ))(VC(VVINF beLBRraiRBRtē))(NF(APPR mit)(ART ain')(ADJA lût')(NN bîhte)(PUNKT .)(KON vn̄)(APPR mit)(ADV and'en)(ADJA guͦtē)(NN w'chē))(PUNKT .))
+# text = vn̄ zvͦ d' ſon wir unſ be(rai)tē mit ain' lût' bîhte. vn̄ mit and'en guͦtē w'chē.
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	155,24; -tach	_	_	_	_	_	O	KON	_	MAINDECL	B-KOORD	125r,04	_	_
+2	zvͦ	_	_	APPR	_	_	_	_	_	PP	zvͦ	155,24; -tach	_	PP-OBJ	_	_	B-PP-insitu	B-PP	APPR	_	MAINDECL	B-VF	125r,04	_	_
+3	d'	_	_	PDS	_	_	_	_	_	PP	d'	155,24; -tach	_	PP-OBJ	_	_	I-PP	I-PP	DDA	_	MAINDECL	I-VF	125r,04	_	_
+4	ſon	_	_	VMFIN	_	_	_	_	_	VP	ſon	155,24; -tach	_	VFIN	_	_	_	O	VMFIN	LI	MAINDECL	B-LK	125r,04	_	_
+5	wir	_	_	PPER	_	_	_	_	_	NP	wir	155,24; -tach	_	SUBJ	_	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-MF	125r,04	_	_
+6	unſ	_	_	PRF	_	_	_	_	_	VP	unſ	155,24; -tach	_	DO	_	_	B-NP-insitu	B-NP	PRF	_	MAINDECL	I-MF	125r,04	_	_
+7	be(rai)tē	_	_	VVINF	_	_	_	_	_	VP	beraitē	155,25	_	INF	_	_	_	O	VVINF	RE	MAINDECL	B-RK	125r,04	_	_
+8	mit	_	_	APPR	_	_	_	_	_	PP	mit	155,25	NF_	PP-ADV	_	_	B-PP-extrap	B-PP	APPR	_	MAINDECL	B-NF	125r,04	UNLINK	_
+9	ain'	_	_	ART	_	_	_	_	_	PP	ain'	155,25	NF_	PP-ADV	ACC-ABSTR-UNUSED_	_	I-PP	I-PP	DIA	_	MAINDECL	I-NF	125r,04	UNLINK	_
+10	lût'	_	_	ADJA	_	_	_	_	_	PP	lût'	155,25	NF_	PP-ADV	ACC-ABSTR-UNUSED_	_	I-PP	I-PP	ADJ	_	MAINDECL	I-NF	125r,04	UNLINK	_
+11	bîhte	_	_	NN	_	_	_	_	_	PP	bîhte	155,25	NF_	PP-ADV	ACC-ABSTR-UNUSED_	_	I-PP	I-PP	NA	_	MAINDECL	I-NF	125r,04	UNLINK	_
+12	.	_	_	$.	_	_	_	_	_	_	.	155,25	_	_	_	_	I-PP	I-PP	$_	_	MAINDECL	I-NF	125r,04	UNLINK	_
+13	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	155,25	_	_	_	_	I-PP	I-PP	KON	_	MAINDECL	I-NF	125r,05	UNLINK	_
+14	mit	_	_	APPR	_	_	_	_	_	PP	mit	155,25	NF_	PP-ADV	_	_	I-PP	I-PP	APPR	_	MAINDECL	I-NF	125r,05	UNLINK	_
+15	and'en	_	_	ADV	_	_	_	_	_	PP	and'en	155,25	NF_	PP-ADV	_ACC-ABSTR-UNUSED	_	I-PP	I-PP	ADV	_	MAINDECL	I-NF	125r,05	UNLINK	_
+16	guͦtē	_	_	ADJA	_	_	_	_	_	PP	guͦtē	155,25	NF_	PP-ADV	_ACC-ABSTR-UNUSED	_	I-PP	I-PP	ADJ	_	MAINDECL	I-NF	125r,05	UNLINK	_
+17	w'chē	_	_	NN	_	_	_	_	_	PP	w'chē	155,25	NF_	PP-ADV	_ACC-ABSTR-UNUSED	_	I-PP	I-PP	NA	_	MAINDECL	I-NF	125r,05	UNLINK	_
+18	.	_	_	$.	_	_	_	_	_	_	.	155,25	_	_	_	_	_	I-PP	$_	_	MAINDECL	O	125r,05	_	_
+
+# sent_id = 3
+# PTBstring = (VROOT(S(AVP(ADV do))(VP(VAFIN wart))(NP(ART d')(ADJA ewige)(NN vat')(PP(APPR vo)(NN himel)))(VP(ADV ſo)(ADV ſêre)(VVPP erzuͥrnet)(PUNKT .)(PP(ADV hin)(APPR |z)(ADJA menſche=lichē)(NN kuͥnne)(PUNKT .)))))
+# TopFString = (S(VF(ADV do))(LK(VAFIN wart))(MF(ART d')(ADJA ewige)(NN vat')(APPR vō)(NN himel)(ADV ſo)(ADV ſêre))(VC(VVPP erzuͥrnet))(PUNKT .)(NF(ADV hin)(APPR |z)(ADJA menſche=lichē)(NN kuͥnne))(PUNKT .))
+# text = do wart d' ewige vat' vō himel ſo ſêre erzuͥrnet. hin |z menſche=lichē kuͥnne.
+1	do	_	_	ADV	_	_	_	_	_	ADVP	do	155,27	_	ADVB	_	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	B-VF	125r,06	_	_
+2	wart	_	_	VAFIN	_	_	_	_	_	VP	wart	155,27	_	VFIN	_	_	_	O	VAFIN	LI	MAINDECL	B-LK	125r,06	_	_
+3	d'	_	_	ART	_	_	_	_	_	NP	d'	155,27	_	SUBJ	_	_	B-NP-insitu	B-NP	DDA	_	MAINDECL	B-MF	125r,07; -menſche-	_	_
+4	ewige	_	_	ADJA	_	_	_	_	_	NP	ewige	155,27	_	SUBJ	_	_	I-NP	I-NP	ADJ	_	MAINDECL	I-MF	125r,07; -menſche-	_	_
+5	vat'	_	_	NN	_	_	_	_	_	NP	vat'	155,27	_	SUBJ	_	_	I-NP	I-NP	NA	_	MAINDECL	I-MF	125r,07; -menſche-	_	_
+6	vō	_	_	APPR	_	_	_	_	_	PP	vō	155,27	_	ATTR	_	_	I-NP	I-NP	APPR	_	MAINDECL	I-MF	125r,07; -menſche-	_	_
+7	himel	_	_	NN	_	_	_	_	_	PP	himel	155,27	_	ATTR	_	_	I-NP	I-NP	NA	_	MAINDECL	I-MF	125r,07; -menſche-	_	_
+8	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo	155,27	_	ADVB	_	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	I-MF	125r,07; -menſche-	_	_
+9	ſêre	_	_	ADV	_	_	_	_	_	ADVP	ſêre	155,27	_	ADVB	_	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	I-MF	125r,07; -menſche-	_	_
+10	erzuͥrnet	_	_	VVPP	_	_	_	_	_	VP	erzuͥrnet	155,28	_	INF	_	_	_	O	VVPP	RE	MAINDECL	B-RK	125r,07; -menſche-	_	_
+11	.	_	_	$.	_	_	_	_	_	_	.	155,28	_	_	_	_	_	O	$_	_	MAINDECL	O	125r,07; -menſche-	_	_
+12	hin	_	_	ADV	_	_	_	_	_	PP	hin	155,28	NF	PP-DIR	_	_	B-PP-extrap	B-PP	ADV	_	MAINDECL	B-NF	125r,07; -menſche-	UNLINK	KOREF1
+13	|z	_	_	APPR	_	_	_	_	_	PP	z	155,28	NF	PP-DIR	_	_	I-PP	I-PP	APPR	_	MAINDECL	I-NF	125r,07; -menſche-	UNLINK	KOREF1
+14	menſche=lichē	_	_	ADJA	_	_	_	_	_	PP	menſchelichē	155,28	NF	PP-DIR	ACC-ABSTR-UNUSED	_	I-PP	I-PP	ADJ	_	MAINDECL	I-NF	125r,07; -menſche-	UNLINK	KOREF1
+15	kuͥnne	_	_	NN	_	_	_	_	_	PP	kuͥnne	155,28	NF	PP-DIR	ACC-ABSTR-UNUSED	_	I-PP	I-PP	NA	_	MAINDECL	I-NF	125r,08; -liche	UNLINK	KOREF1
+16	.	_	_	$.	_	_	_	_	_	_	.	155,28	_	_	_	_	_	I-PP	$_	_	MAINDECL	O	125r,08; -liche	_	_
+
+# sent_id = 4
+# PTBstring = (VROOT(S(AVP(ADV nu))(VP(VAFIN haſt))(NP(PPER |u))(VP(VVPP gezuͥrnet)(AVP(ADV hin)(PP(APPR |z)(ADJA menſchLBR=RBRelichē)(NN kuͥnne)))(PP(APPR vmbe)(ART ain)(NN ungehorſami))(ADV mê)(NP(KOKOM et)(NM(CARD fiumf)(CARD tûſent))(NN iâr)(PUNKT .)))))
+# TopFString = (S(VF(ADV nu))(LK(VAFIN haſt))(MF(MF(PPER |u))(VC(VVPP gezuͥrnet))(ADV hin)(APPR |z)(ADJA menſchLBR=RBRelichē)(NN kuͥnne)(APPR vmbe)(ART ain)(NN ungehorſami)(ADV mê)(KOKOM et)(CARD fiumf)(CARD tûſent)(NN iâr))(PUNKT .))
+# text = nu haſt |u gezuͥrnet hin |z menſch(=)elichē kuͥnne vmbe ain ungehorſami mê et fiumf tûſent iâr.
+1	nu	_	_	ADV	_	_	_	_	_	ADVP	nu	156,06	_	ADVB	_	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	B-VF	125v,01; menſch-	_	_
+2	haſt	_	_	VAFIN	_	_	_	_	_	VP	haſt	156,06	_	VFIN	_	_	_	O	VAFIN	LI	MAINDECL	B-LK	125v,01; menſch-	_	_
+3	|u	_	_	PPER	_	_	_	_	_	NP	du	156,06	_	SUBJ	_	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-MF|B-MF	125v,01; menſch-	_	_
+4	gezuͥrnet	_	_	VVPP	_	_	_	_	_	VP	gezuͥrnet	156,06	_	INF	_	_	_	O	VVPP	RE	MAINDECL	I-MF|B-RK	125v,01; menſch-	_	_
+5	hin	_	_	ADV	_	_	_	_	_	PP	hin	156,07	NF_	PP-OBJ	_	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	I-MF	125v,01; menſch-	UNLINK1	_
+6	|z	_	_	APPR	_	_	_	_	_	PP	z	156,07	NF_	PP-OBJ	_	_	I-ADVP	I-ADVP	APPR	_	MAINDECL	I-MF	125v,01; menſch-	UNLINK1	_
+7	menſch(=)elichē	_	_	ADJA	_	_	_	_	_	PP	menſchelichē	156,07	NF_	PP-OBJ	GIV-INACTIVE	_	I-ADVP	I-ADVP	ADJ	_	MAINDECL	I-MF	125v,01; menſch-	UNLINK1	_
+8	kuͥnne	_	_	NN	_	_	_	_	_	PP	kuͥnne	156,07	NF_	PP-OBJ	GIV-INACTIVE	_	I-ADVP	I-ADVP	NA	_	MAINDECL	I-MF	125v,02; -eliche	UNLINK1	_
+9	vmbe	_	_	APPR	_	_	_	_	_	PP	vmbe	156,07	NF_	PP-ADV	_	aoR*	B-PP-insitu	B-PP	APPR	_	MAINDECL	I-MF	125v,02; -eliche	UNLINK2	_
+10	ain	_	_	ART	_	_	_	_	_	PP	ain	156,07	NF_	PP-ADV	ACC-ABSTR-USED-X	aoR*	I-PP	I-PP	DIA	_	MAINDECL	I-MF	125v,02; -eliche	UNLINK2	_
+11	ungehorſami	_	_	NN	_	_	_	_	_	PP	ungehorſami	156,07	NF_	PP-ADV	ACC-ABSTR-USED-X	aoR*	I-PP	I-PP	NA	_	MAINDECL	I-MF	125v,02; -eliche	UNLINK2	_
+12	mê	_	_	ADV	_	_	_	_	_	ADVP	mê	156,07	NF_	ADVB	_	_	B-ADVP-insitu	B-ADVP	KOKOM	_	MAINDECL	I-MF	125v,02; -eliche	UNLINK3	_
+13	et	_	_	KOKOM	_	_	_	_	_	ADVP	et	156,07	NF_	ADVB	_	_	B-NP-insitu	B-NP	AVD	_	MAINDECL	I-MF	125v,02; -eliche	UNLINK3	_
+14	fiumf	_	_	CARD	_	_	_	_	_	ADVP	fiumf	156,08	NF_	ADVB	ACC-ABSTR-USED-X	_	I-NP	I-NP	CARD	_	MAINDECL	I-MF	125v,02; -eliche	UNLINK3	_
+15	tûſent	_	_	CARD	_	_	_	_	_	ADVP	tûſent	156,08	NF_	ADVB	ACC-ABSTR-USED-X	_	I-NP	I-NP	CARD	_	MAINDECL	I-MF	125v,02; -eliche	UNLINK3	_
+16	iâr	_	_	NN	_	_	_	_	_	ADVP	iâr	156,08	NF_	ADVB	ACC-ABSTR-USED-X	_	I-NP	I-NP	NA	_	MAINDECL	I-MF	125v,02; -eliche	UNLINK3	_
+17	.	_	_	$.	_	_	_	_	_	_	.	156,08	_	_	_	_	_	I-NP	$_	_	MAINDECL	O	125v,02; -eliche	_	_
+
+# sent_id = 5
+# PTBstring = (VROOT(S(AVP(ADV *LBRN*RBRu))(VP(VMFIN ſon))(NP(PPER wir))(VP(VVINF m'chē)(NP(CARD vier)(NN ſache)(PUNKT .)))))
+# TopFString = (S(VF(ADV *LBRN*RBRu))(LK(VMFIN ſon))(MF(PPER wir))(VC(VVINF m'chē))(CARD vier)(NN ſache)(PUNKT .))
+# text = *(N*)u ſon wir m'chē vier ſache.
+1	*(N*)u	_	_	ADV	_	_	_	_	_	ADVP	Nu	156,10; mer-	_	ADVB	_	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	B-VF	125v,05	_	_
+2	ſon	_	_	VMFIN	_	_	_	_	_	VP	ſon	156,10; mer-	_	VFIN	_	_	_	O	VMFIN	LI	MAINDECL	B-LK	125v,05	_	_
+3	wir	_	_	PPER	_	_	_	_	_	NP	wir	156,10; mer-	_	SUBJ	_	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-MF	125v,05	_	_
+4	m'chē	_	_	VVINF	_	_	_	_	_	VP	m'chē	156,10; mer-	_	INF	_	_	_	O	VVINF	RE	MAINDECL	B-RK	125v,05	_	_
+5	vier	_	_	CARD	_	_	_	_	_	NP	vier	156,11; -chen	NF	DO	ACC-ABSTR-UNUSED	_	B-NP-insitu	B-NP	CARD	_	MAINDECL	O	125v,05	UNLINK	KOREF1
+6	ſache	_	_	NN	_	_	_	_	_	NP	ſache	156,11; -chen	NF	DO	ACC-ABSTR-UNUSED	_	I-NP	I-NP	NA	_	MAINDECL	O	125v,05	UNLINK	KOREF1
+7	.	_	_	$.	_	_	_	_	_	_	.	156,11; -chen	_	_	_	_	_	I-NP	$_	_	MAINDECL	O	125v,05	_	_
+
+# sent_id = 6
+# PTBstring = (VROOT(S(PP(APPRART Zem)(ADJA êrſtē)(NN mâl)(ADV ſo))(VP(VMFIN ſol))(NP(PPER er))(SVP(PTKVZ v̂z))(VP(VAINF w'dē)(VVPP geſendet))(AVP(ADV dar)(PP(APPO ūbe)))(S(KOUS dc)(NP(ART d')(ADJA goͤteliche)(NN zorn))(VP(VAFIN w'de))(CVP(VVPP gehuͥllet)(KON vn̄)(VVPP geſtillet)))))
+# TopFString = (S(VF(APPRART Zem)(ADJA êrſtē)(NN mâl)(ADV ſo))(LK(VMFIN ſol))(MF(PPER er)(VC(PTKVZ v̂z)(VAINF w'dē)))(VC(VVPP geſendet))(ADV dar)(APPO ūbe)(NF(C(KOUS dc))(MF(ART d')(ADJA goͤteliche)(NN zorn))(VCE(VAFIN w'de))(VC(VVPP gehuͥllet)(KON vn̄)(VVPP geſtillet))))
+# text = Zem êrſtē mâl ſo ſol er v̂z w'dē geſendet dar ūbe dc d' goͤteliche zorn w'de gehuͥllet vn̄ geſtillet
+1	Zem	_	_	APPRART	_	_	_	_	_	PP	Zem	156,12	_	VOVF	_	_	B-PP-insitu	B-PP	APPRART	_	MAINDECL	B-VF	125v,06	_	_
+2	êrſtē	_	_	ADJA	_	_	_	_	_	PP	êrſtē	156,12	_	VOVF	_	_	I-PP	I-PP	ADJO	_	MAINDECL	I-VF	125v,06	_	KOREF2
+3	mâl	_	_	NN	_	_	_	_	_	PP	mâl	156,12	_	VOVF	_	_	I-PP	I-PP	NA	_	MAINDECL	I-VF	125v,06	_	KOREF2
+4	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo	156,12	_	ADVB	_	_	I-PP	I-PP	ADV	_	MAINDECL	I-VF	125v,06	_	_
+5	ſol	_	_	VMFIN	_	_	_	_	_	VP	ſol	156,12	_	VFIN	_	_	_	O	VMFIN	LI	MAINDECL	B-LK	125v,06	_	_
+6	er	_	_	PPER	_	_	_	_	_	NP	er	156,12	_	SUBJ	_	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-MF	125v,06	_	_
+7	v̂z	_	_	PTKVZ	_	_	_	_	_	VP	v̂z	156,12	_	VZ_PTK	_	_	_	O	PTKVZ	_	MAINDECL	I-MF|B-RK	125v,06	_	_
+8	w'dē	_	_	VAINF	_	_	_	_	_	VP	w'dē	156,12	_	INF	_	_	_	O	VAINF	_	MAINDECL	I-MF|I-RK	125v,07	_	_
+9	geſendet	_	_	VVPP	_	_	_	_	_	VP	geſendet	156,12	_	INF	_	_	_	O	VVPP	RE	MAINDECL	B-RK	125v,07	_	_
+10	dar	_	_	ADV	_	_	_	_	_	ADVP	dar	156,12	NF	PP-ADV	NA	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	O	125v,07	UNLINK	KOREF1
+11	ūbe	_	_	APPO	_	_	_	_	_	ADVP	ūbe	156,12	NF	PP-ADV	NA	_	I-ADVP	I-ADVP	APPR	_	MAINDECL	O	125v,07	UNLINK	KOREF1
+12	dc	_	_	KOUS	_	_	_	_	_	CP	dc	156,12	NF	ADVB	NA	_	_	O	KOUS	_	MAINDECL	B-NF|B-LK	125v,07	UNLINK	KOREF2-SATZ
+13	d'	_	_	ART	_	_	_	_	_	CP	d'	156,12	NF	ADVB	NA	_	B-NP-insitu	B-NP	DDA	_	MAINDECL	I-NF|B-MF	125v,07	UNLINK	KOREF2-SATZ
+14	goͤteliche	_	_	ADJA	_	_	_	_	_	CP	goͤteliche	156,13	NF	ADVB	NA	_	I-NP	I-NP	ADJ	_	MAINDECL	I-NF|I-MF	125v,07	UNLINK	KOREF2-SATZ
+15	zorn	_	_	NN	_	_	_	_	_	CP	zorn	156,13	NF	ADVB	NA	_	I-NP	I-NP	NA	_	MAINDECL	I-NF|I-MF	125v,07	UNLINK	KOREF2-SATZ
+16	w'de	_	_	VAFIN	_	_	_	_	_	CP	w'de	156,13	NF	ADVB	NA	_	_	O	VAFIN	_	MAINDECL	I-NF|B-RK	125v,07	UNLINK	KOREF2-SATZ
+17	gehuͥllet	_	_	VVPP	_	_	_	_	_	CP	gehuͥllet	156,13	NF	ADVB	NA	_	_	O	VVPP	_	MAINDECL	I-NF|B-RK	125v,07	UNLINK	KOREF2-SATZ
+18	vn̄	_	_	KON	_	_	_	_	_	CP	vn̄	156,13	NF	ADVB	NA	_	_	O	KON	_	MAINDECL	I-NF|I-RK	125v,07	UNLINK	KOREF2-SATZ
+19	geſtillet	_	_	VVPP	_	_	_	_	_	CP	geſtillet	156,13	NF	ADVB	NA	_	_	O	VVPP	_	MAINDECL	I-NF|I-RK	125v,08	UNLINK	KOREF2-SATZ
+
+# sent_id = 7
+# PTBstring = (VROOT(S(KON vn̄)(AVP(ADV dc))(VP(VMFIN ſolt))(NP(PPER |'))(VP(VVINF giezē)(PP(APPR ūbe)(ART dē)(NN altêr))(AVP(ADV alle)(ADV ūbe))(CAVP(KON vn̄)(ADV ūbe)(PUNKT .)))))
+# TopFString = (S(KOORD(KON vn̄))(VF(ADV dc))(LK(VMFIN ſolt))(MF(PPER |'))(VC(VVINF giezē))(NF(APPR ūbe)(ART dē)(NN altêr)(ADV alle)(ADV ūbe)(KON vn̄)(ADV ūbe))(PUNKT .))
+# text = vn̄ dc ſolt |' giezē ūbe dē altêr alle ūbe vn̄ ūbe.
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	156,27	_	_	_	_	_	O	KON	_	MAINDECL	B-KOORD	125v,22	_	_
+2	dc	_	_	ADV	_	_	_	_	_	NP	dc	156,27	_	DO	_	_	B-ADVP-insitu	B-ADVP	DDS	_	MAINDECL	B-VF	125v,22	_	_
+3	ſolt	_	_	VMFIN	_	_	_	_	_	VP	ſolt	156,27	_	VFIN	_	_	_	O	VMFIN	LI	MAINDECL	B-LK	125v,22	_	_
+4	|'	_	_	PPER	_	_	_	_	_	NP	'	156,27	_	SUBJ	_	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-MF	125v,22	_	_
+5	giezē	_	_	VVINF	_	_	_	_	_	VP	giezē	156,27	_	INF	_	_	_	O	VVINF	RE	MAINDECL	B-RK	125v,22	_	_
+6	ūbe	_	_	APPR	_	_	_	_	_	PP	ūbe	156,27	NF_	PP-OBJ	_	_	B-PP-extrap	B-PP	APPR	_	MAINDECL	B-NF	125v,22	UNLINK	_
+7	dē	_	_	ART	_	_	_	_	_	PP	dē	156,27	NF_	PP-OBJ	GIV-ACTIVE	_	I-PP	I-PP	DDA	_	MAINDECL	I-NF	125v,22	UNLINK	_
+8	altêr	_	_	NN	_	_	_	_	_	PP	altêr	156,28	NF_	PP-OBJ	GIV-ACTIVE	_	I-PP	I-PP	NA	_	MAINDECL	I-NF	125v,22	UNLINK	_
+9	alle	_	_	ADV	_	_	_	_	_	ADVP	alle	156,28	NF_	ADVB	NA	_	B-ADVP-extrap	B-ADVP	ADV	_	MAINDECL	I-NF	125v,23	UNLINK	_
+10	ūbe	_	_	ADV	_	_	_	_	_	ADVP	ūbe	156,28	NF_	ADVB	NA	_	I-ADVP	I-ADVP	ADV	_	MAINDECL	I-NF	125v,23	UNLINK	_
+11	vn̄	_	_	KON	_	_	_	_	_	ADVP	vn̄	156,28	NF_	ADVB	NA	_	B-ADVP-extrap	B-ADVP	ADV	_	MAINDECL	I-NF	125v,23	UNLINK	_
+12	ūbe	_	_	ADV	_	_	_	_	_	ADVP	ūbe	156,28	NF_	ADVB	NA	_	I-ADVP	I-ADVP	ADV	_	MAINDECL	I-NF	125v,23	UNLINK	_
+13	.	_	_	$.	_	_	_	_	_	_	.	156,28	_	_	_	_	_	I-ADVP	$_	_	MAINDECL	O	125v,23	_	_
+
+# sent_id = 8
+# PTBstring = (VROOT(S(KON vn̄)(VP(VMFIN ſolte))(NP(PDS díu))(VP(VVINF leggē)(PP(APPR v̂f)(NN holze)(PUNKT .)))))
+# TopFString = (S(KOORD(KON vn̄))(LK(VMFIN ſolte))(MF(PDS díu))(VC(VVINF leggē))(NF(APPR v̂f)(NN holze))(PUNKT .))
+# text = vn̄ ſolte díu leggē v̂f holze.
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	156,29	_	_	_	_	_	O	KON	_	MAINDECL-ELLI	B-KOORD	125v,24	_	_
+2	ſolte	_	_	VMFIN	_	_	_	_	_	VP	ſolte	156,29	_	VFIN	_	_	_	O	VMFIN	LI	MAINDECL-ELLI	B-LK	125v,24	_	_
+3	díu	_	_	PDS	_	_	_	_	_	NP	díu	156,29	_	DO	_	_	B-NP-insitu	B-NP	DDS	_	MAINDECL-ELLI	B-MF	125v,24	_	_
+4	leggē	_	_	VVINF	_	_	_	_	_	VP	leggē	156,29	_	INF	_	_	_	O	VVINF	RE	MAINDECL-ELLI	B-RK	125v,24	_	_
+5	v̂f	_	_	APPR	_	_	_	_	_	PP	v̂f	156,29	NF	PP-DIR	_	_	B-PP-extrap	B-PP	APPR	_	MAINDECL-ELLI	B-NF	125v,24	UNLINK	_
+6	holze	_	_	NN	_	_	_	_	_	PP	holze	156,29	NF	PP-DIR	NEW	_	I-PP	I-PP	NA	_	MAINDECL-ELLI	I-NF	125v,24	UNLINK	KOREF1
+7	.	_	_	$.	_	_	_	_	_	_	.	156,29	_	_	_	_	_	I-PP	$_	_	MAINDECL-ELLI	O	125v,24	_	_
+
+# sent_id = 9
+# PTBstring = (VROOT(S(NP(PDS dc))(VP(VMFIN ſolt))(NP(PPER |u))(VP(ADV [t]aͤgelichē)(VVINF giezē)(PP(APPR v̂f)(ART dē)(NN altêr)(NP(PPOSAT dinez)(NN h'zē)(PUNKT .))))))
+# TopFString = (S(VF(PDS dc))(LK(VMFIN ſolt))(MF(PPER |u)(ADV [t]aͤgelichē))(VC(VVINF giezē))(NF(APPR v̂f)(ART dē)(NN altêr)(PPOSAT dinez)(NN h'zē))(PUNKT .))
+# text = dc ſolt |u [t]aͤgelichē giezē v̂f dē altêr dinez h'zē.
+1	dc	_	_	PDS	_	_	_	_	_	NP	dc	157,03	_	DO	_	_	B-NP-insitu	B-NP	DDS	_	MAINDECL	B-VF	126r,11	_	_
+2	ſolt	_	_	VMFIN	_	_	_	_	_	VP	ſolt	157,03	_	VFIN	_	_	_	O	VMFIN	LI	MAINDECL	B-LK	126r,11	_	_
+3	|u	_	_	PPER	_	_	_	_	_	NP	du	157,03	_	SUBJ	_	_	B-NP-insitu	B-NP	PPER	LI	MAINDECL	B-MF	126r,11	_	_
+4	[t]aͤgelichē	_	_	ADV	_	_	_	_	_	ADVP	taͤgelichē	157,03	_	ADVB	_	_	B-ADVP-insitu	B-ADVP	ADV	_	MAINDECL	I-MF	126r,12	_	_
+5	giezē	_	_	VVINF	_	_	_	_	_	VP	giezē	157,04	_	INF	_	_	_	O	VVINF	RE	MAINDECL	B-RK	126r,12	_	_
+6	v̂f	_	_	APPR	_	_	_	_	_	PP	v̂f	157,04	NF	PP-OBJ	_	_	B-PP-extrap	B-PP	APPR	_	MAINDECL	B-NF	126r,12	UNLINK	_
+7	dē	_	_	ART	_	_	_	_	_	PP	dē	157,04	NF	PP-OBJ	GIV-INACTIVE_	_	I-PP	I-PP	DDA	_	MAINDECL	I-NF	126r,12	UNLINK	_
+8	altêr	_	_	NN	_	_	_	_	_	PP	altêr	157,04	NF	PP-OBJ	GIV-INACTIVE_	_	I-PP	I-PP	NA	_	MAINDECL	I-NF	126r,12	UNLINK	_
+9	dinez	_	_	PPOSAT	_	_	_	_	_	PP	dinez	157,04	NF	ATTR	_ACC-SIT_	_	I-PP	I-PP	DPOS	_	MAINDECL	I-NF	126r,12	UNLINK	KOREF1
+10	h'zē	_	_	NN	_	_	_	_	_	PP	h'zē	157,04	NF	ATTR	_NEW	_	I-PP	I-PP	NA	_	MAINDECL	I-NF	126r,12	UNLINK	KOREF1
+11	.	_	_	$.	_	_	_	_	_	_	.	157,04	_	_	_	_	_	I-PP	$_	_	MAINDECL	O	126r,12	_	_
+
+# sent_id = 10
+# PTBstring = (VROOT(S(NP(NP(ADJA allíu)(PPOSAT míníu)(NN lid')(PP(APPR ī)(PPOSAT minē)(NN libe)(PUNKT .)))(PDS díu))(VP(VAFIN ſint))(NP(PPER mier))(CVP(VP(ADJD reht)(VVINF zerzogē))(KON vn̄)(VP(VVINF zerdēnet)(PP(APPR v̂z)(ART aín)(PIS and')(PUNKT .))))))
+# TopFString = (S(VF(ADJA allíu)(PPOSAT míníu)(NN lid')(APPR ī)(PPOSAT minē)(NN libe))(PUNKT .)(VF(PDS díu))(LK(VAFIN ſint))(FKOORD(FKONJ(MF(PPER mier)(ADJD reht))(VC(VVINF zerzogē)))(KON vn̄)(FKONJ(VC(VVINF zerdēnet))(NF(APPR v̂z)(ART aín)(PIS and'))))(PUNKT .))
+# text = allíu míníu lid' ī minē libe. díu ſint mier reht zerzogē vn̄ zerdēnet v̂z aín and'.
+1	allíu	_	_	ADJA	_	_	_	_	_	NP	allíu	157,17	_	VOVF	_	_	B-NP-insitu|B-NP-insitu	B-NP	ADJ	_	MAINDECL	B-VF	126v,04	_	_
+2	míníu	_	_	PPOSAT	_	_	_	_	_	NP	míníu	157,17	_	VOVF	_	_	I-NP|I-NP	I-NP	DPOS	_	MAINDECL	I-VF	126v,04	_	_
+3	lid'	_	_	NN	_	_	_	_	_	NP	lid'	157,17	_	VOVF	_	_	I-NP|I-NP	I-NP	NA	_	MAINDECL	I-VF	126v,04	_	_
+4	ī	_	_	APPR	_	_	_	_	_	PP	ī	157,17	_	VOVF	_	_	I-NP|I-NP	I-NP	APPR	_	MAINDECL	I-VF	126v,04	_	_
+5	minē	_	_	PPOSAT	_	_	_	_	_	PP	minē	157,17	_	VOVF	_	_	I-NP|I-NP	I-NP	DPOS	_	MAINDECL	I-VF	126v,04	_	_
+6	libe	_	_	NN	_	_	_	_	_	PP	libe	157,17	_	VOVF	_	_	I-NP|I-NP	I-NP	NA	_	MAINDECL	I-VF	126v,04	_	_
+7	.	_	_	$.	_	_	_	_	_	_	.	157,17	_	_	_	_	I-NP	I-NP	$_	_	MAINDECL	O	126v,04	_	_
+8	díu	_	_	PDS	_	_	_	_	_	NP	díu	157,17	_	SUBJ	_	_	I-NP	I-NP	DDS	_	MAINDECL	B-VF	126v,04	_	_
+9	ſint	_	_	VAFIN	_	_	_	_	_	VP	ſint	157,17	_	VFIN	_	_	_	O	VAFIN	LI	MAINDECL	B-LK	126v,04	_	_
+10	mier	_	_	PPER	_	_	_	_	_	NP	mier	157,17	_	IO-DAT	_	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-MF	126v,04	_	_
+11	reht	_	_	ADJD	_	_	_	_	_	ADVP	reht	157,17	_	ADVB	_	_	B-AP-insitu	B-AP	ADJD	_	MAINDECL	I-MF	126v,04	_	_
+12	zerzogē	_	_	VVINF	_	_	_	_	_	VP	zerzogē	157,17	BGR	INF	_	_	_	O	VVINF	RE	MAINDECL	B-RK	126v,05	_	_
+13	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	157.18	BGR	_	_	_	_	O	KON	RE	MAINDECL	B-KOORD	126v,05	_	_
+14	zerdēnet	_	_	VVINF	_	_	_	_	_	VP	zerdēnet	157.18	BGR	INF	_	_	_	O	VVINF	RE	MAINDECL	B-RK	126v,05	_	_
+15	v̂z	_	_	APPR	_	_	_	_	_	_	v̂z	157.18	BGR	ADVB	NA	_	B-PP-extrap	B-PP	PTKVZ	_	MAINDECL	B-NF	126v,05	UNLINK	_
+16	aín	_	_	ART	_	_	_	_	_	_	aín	157.18	BGR	ADVB	NA	_	I-PP	I-PP	PTKVZ	_	MAINDECL	I-NF	126v,05	UNLINK	_
+17	and'	_	_	PIS	_	_	_	_	_	_	and'	157.18	BGR	ADVB	NA	_	I-PP	I-PP	PTKVZ	_	MAINDECL	I-NF	126v,05	UNLINK	_
+18	.	_	_	$.	_	_	_	_	_	_	.	157.18	_	_	_	_	_	I-PP	$_	_	MAINDECL	O	126v,05	_	_
+
+# sent_id = 11
+# PTBstring = (VROOT(S(KON vn̄)(VP(VVFIN hiez))(NP(PPER in))(VP(VVINF eſſen)(NP(PPOSAT ſinez)(NN geiegedez)(PUNKT .)))))
+# TopFString = (S(KOORD(KON vn̄))(LK(VVFIN hiez))(MF(PPER in)(VVINF eſſen)(PPOSAT ſinez)(NN geiegedez))(PUNKT .))
+# text = vn̄ hiez in eſſen ſinez geiegedez.
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	159,07	_	_	_	_	_	O	KON	_	MAINDECL-ELLI	B-KOORD	128r,03	_	_
+2	hiez	_	_	VVFIN	_	_	_	_	_	VP	hiez	159,08	_	VFIN	_	_	_	O	VVFIN	LI	MAINDECL-ELLI	B-LK	128r,03	_	_
+3	in	_	_	PPER	_	_	_	_	_	NP	in	159,08	_	DO	_	_	B-NP-insitu	B-NP	PPER	_	MAINDECL-ELLI	B-MF	128r,03	_	_
+4	eſſen	_	_	VVINF	_	_	_	_	_	VP	eſſen	159,08	_	INF	_	_	_	O	VVINF	RE	MAINDECL-ELLI	I-MF	128r,03	_	_
+5	ſinez	_	_	PPOSAT	_	_	_	_	_	NP	ſinez	159,08	NF	IO-GEN	ACC-INF_	_	B-NP-insitu	B-NP	DPOS	_	MAINDECL-ELLI	I-MF	128r,03	UNLINK	_
+6	geiegedez	_	_	NN	_	_	_	_	_	NP	geiegedez	159,08	NF	IO-GEN	_NEW	_	I-NP	I-NP	NA	_	MAINDECL-ELLI	I-MF	128r,03	UNLINK	_
+7	.	_	_	$.	_	_	_	_	_	_	.	159,08	_	_	_	_	_	I-NP	$_	_	MAINDECL-ELLI	O	128r,03	_	_

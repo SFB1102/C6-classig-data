@@ -1,0 +1,3040 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CHUNK POS TigerID
+# sent_id = 1
+# sent_id(Tiger) = s5
+# text = Dann alß wir gemustert worden / (,) hat mich ein guter Freund gewahrnet / (,) ich solte mich dahin in solches kleine gesaehrliche Schiff nicht begeben / (,) sondern auff eine bessere gelegenheit warten : (;) dann bald ein Schiff / (,) so mit Meer-Mannen / (,) Volck vnd Geschütz besser versehen / (,) nach Angola / (,) einem Koenigreich in Congo (,) dem gewaltigen Koenigreich gelegen / (,) fahren werde / darauff ich auch gewartet / vnd in Gottes namen mich in dasselbige Schiff / (,) dessen Patron Johan Peter-sohn von Horn gewesen / (,) begeben . Welche Schiffart oder Raeiß bey 22 . Monat gewaehret / (,) dann wir nicht weiters / alß in das Koenigreich Congo begert / (,) welches Koenigreichs Eynwohner Christen seind / (,) aber auff Spanische vnd Portugallische weiß . (.)
+1	Dann	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s5_1
+2	alß	_	_	KOUS	_	_	_	_	_	O	KOUS	s5_2
+3	wir	_	_	PPER	_	_	_	_	_	B-NC	PPER	s5_3
+4	gemustert	_	_	VVPP	_	_	_	_	_	O	VVPP	s5_4
+5	worden	_	_	VAPP	_	_	_	_	_	O	VAPP	s5_5
+6	/	_	_	$,	_	_	_	_	_	O	$(	s5_6
+7	(,)	_	_	$,	_	_	_	_	_	O	$MK	s5_7
+8	hat	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s5_8
+9	mich	_	_	PPER	_	_	_	_	_	B-NC	PPER	s5_9
+10	ein	_	_	ART	_	_	_	_	_	B-NC	DARTU	s5_10
+11	guter	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s5_11
+12	Freund	_	_	NN	_	_	_	_	_	I-NC	NA	s5_12
+13	gewahrnet	_	_	VVPP	_	_	_	_	_	O	VVPP	s5_13
+14	/	_	_	$,	_	_	_	_	_	O	$(	s5_14
+15	(,)	_	_	$,	_	_	_	_	_	O	$MK	s5_15
+16	ich	_	_	PPER	_	_	_	_	_	B-NC	PPER	s5_16
+17	solte	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s5_17
+18	mich	_	_	PRF	_	_	_	_	_	B-NC	PRF	s5_18
+19	dahin	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s5_19
+20	in	_	_	APPR	_	_	_	_	_	B-PC	APPR	s5_20
+21	solches	_	_	PDAT	_	_	_	_	_	I-PC	DDEM	s5_21
+22	kleine	_	_	ADJA	_	_	_	_	_	I-PC	ADJA	s5_22
+23	gesaehrliche	_	_	ADJA	_	_	_	_	_	I-PC	ADJA	s5_23
+24	Schiff	_	_	NN	_	_	_	_	_	I-PC	NA	s5_24
+25	nicht	_	_	PTKNEG	_	_	_	_	_	B-ADVC	PTKNEG	s5_25
+26	begeben	_	_	VVINF	_	_	_	_	_	O	VVINF	s5_26
+27	/	_	_	$,	_	_	_	_	_	O	$(	s5_27
+28	(,)	_	_	$,	_	_	_	_	_	O	$MK	s5_28
+29	sondern	_	_	KON	_	_	_	_	_	O	KON	s5_29
+30	auff	_	_	APPR	_	_	_	_	_	B-PC	APPR	s5_30
+31	eine	_	_	ART	_	_	_	_	_	I-PC	DARTU	s5_31
+32	bessere	_	_	ADJA	_	_	_	_	_	I-PC	ADJA	s5_32
+33	gelegenheit	_	_	NN	_	_	_	_	_	I-PC	NA	s5_33
+34	warten	_	_	VVINF	_	_	_	_	_	O	VVINF	s5_34
+35	:	_	_	$.	_	_	_	_	_	O	$:	s5_35
+36	(;)	_	_	$.	_	_	_	_	_	O	$MSBI	s5_36
+37	dann	_	_	KOUS	_	_	_	_	_	O	KOUS	s5_37
+38	bald	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s5_38
+39	ein	_	_	ART	_	_	_	_	_	B-NC	DARTU	s5_39
+40	Schiff	_	_	NN	_	_	_	_	_	I-NC	NA	s5_40
+41	/	_	_	$,	_	_	_	_	_	O	$(	s5_41
+42	(,)	_	_	$,	_	_	_	_	_	O	$MK	s5_42
+43	so	_	_	ADV	_	_	_	_	_	B-ADVC	PTKREL	s5_43
+44	mit	_	_	APPR	_	_	_	_	_	B-PC	APPR	s5_44
+45	Meer-Mannen	_	_	NN	_	_	_	_	_	I-PC	NA	s5_45
+46	/	_	_	$,	_	_	_	_	_	O	$(	s5_46
+47	(,)	_	_	$,	_	_	_	_	_	O	$MK	s5_47
+48	Volck	_	_	NN	_	_	_	_	_	B-NC	NA	s5_48
+49	vnd	_	_	KON	_	_	_	_	_	O	KON	s5_49
+50	Geschütz	_	_	NN	_	_	_	_	_	B-NC	NA	s5_50
+51	besser	_	_	ADJD	_	_	_	_	_	B-AC	ADJV	s5_51
+52	versehen	_	_	ADJD	_	_	_	_	_	I-AC	VVPPD	s5_52
+53	/	_	_	$,	_	_	_	_	_	O	$(	s5_53
+54	(,)	_	_	$,	_	_	_	_	_	O	$MK	s5_54
+55	nach	_	_	APPR	_	_	_	_	_	B-PC	APPR	s5_55
+56	Angola	_	_	NE	_	_	_	_	_	I-PC	NE	s5_56
+57	/	_	_	$,	_	_	_	_	_	O	$(	s5_57
+58	(,)	_	_	$,	_	_	_	_	_	O	$MK	s5_58
+59	einem	_	_	ART	_	_	_	_	_	B-NC	DARTU	s5_59
+60	Koenigreich	_	_	NN	_	_	_	_	_	I-NC	NA	s5_60
+61	in	_	_	APPR	_	_	_	_	_	B-PC	APPR	s5_61
+62	Congo	_	_	NE	_	_	_	_	_	I-PC	NE	s5_62
+63	(,)	_	_	$,	_	_	_	_	_	O	$MK	s5_63
+64	dem	_	_	ART	_	_	_	_	_	B-NC	DARTB	s5_64
+65	gewaltigen	_	_	VVINF	_	_	_	_	_	O	VVINF	s5_65
+66	Koenigreich	_	_	NN	_	_	_	_	_	B-NC	NA	s5_66
+67	gelegen	_	_	VVPP	_	_	_	_	_	O	VVPPN	s5_67
+68	/	_	_	$,	_	_	_	_	_	O	$(	s5_68
+69	(,)	_	_	$,	_	_	_	_	_	O	$MK	s5_69
+70	fahren	_	_	VVINF	_	_	_	_	_	O	VVINF	s5_70
+71	werde	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s5_71
+72	/	_	_	$(	_	_	_	_	_	O	$(	s5_72
+73	darauff	_	_	PAV	_	_	_	_	_	O	PAVRELAP	s5_73
+74	ich	_	_	PPER	_	_	_	_	_	B-NC	PPER	s5_74
+75	auch	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s5_75
+76	gewartet	_	_	VVPP	_	_	_	_	_	O	VVPP	s5_76
+77	/	_	_	$(	_	_	_	_	_	O	$(	s5_77
+78	vnd	_	_	KON	_	_	_	_	_	O	KON	s5_78
+79	in	_	_	APPR	_	_	_	_	_	B-PC	APPR	s5_79
+80	Gottes	_	_	NN	_	_	_	_	_	I-PC	NA	s5_80
+81	namen	_	_	NN	_	_	_	_	_	B-NC	NA	s5_81
+82	mich	_	_	PRF	_	_	_	_	_	B-NC	PRF	s5_82
+83	in	_	_	APPR	_	_	_	_	_	B-PC	APPR	s5_83
+84	dasselbige	_	_	PDAT	_	_	_	_	_	I-PC	DDEM	s5_84
+85	Schiff	_	_	NN	_	_	_	_	_	I-PC	NA	s5_85
+86	/	_	_	$,	_	_	_	_	_	O	$(	s5_86
+87	(,)	_	_	$,	_	_	_	_	_	O	$MK	s5_87
+88	dessen	_	_	PRELAT	_	_	_	_	_	B-NC	PRELAT	s5_88
+89	Patron	_	_	NN	_	_	_	_	_	I-NC	NA	s5_89
+90	Johan	_	_	NE	_	_	_	_	_	B-NC	NE	s5_90
+91	Peter-sohn	_	_	NE	_	_	_	_	_	I-NC	NE	s5_91
+92	von	_	_	APPR	_	_	_	_	_	B-PC	APPR	s5_92
+93	Horn	_	_	NE	_	_	_	_	_	I-PC	NE	s5_93
+94	gewesen	_	_	VAPP	_	_	_	_	_	O	VAPP	s5_94
+95	/	_	_	$,	_	_	_	_	_	O	$(	s5_95
+96	(,)	_	_	$,	_	_	_	_	_	O	$MK	s5_96
+97	begeben	_	_	VVPP	_	_	_	_	_	O	VVPP	s5_97
+98	.	_	_	$.	_	_	_	_	_	O	$.	s5_98
+99	Welche	_	_	PRELAT	_	_	_	_	_	B-NC	PRELAT	s5_99
+100	Schiffart	_	_	NN	_	_	_	_	_	I-NC	NA	s5_100
+101	oder	_	_	KON	_	_	_	_	_	O	KON	s5_101
+102	Raeiß	_	_	NN	_	_	_	_	_	B-NC	NA	s5_102
+103	bey	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s5_103
+104	22	_	_	CARD	_	_	_	_	_	B-NC	CARD	s5_104
+105	.	_	_	$.	_	_	_	_	_	O	$.	s5_105
+106	Monat	_	_	NN	_	_	_	_	_	B-NC	NA	s5_106
+107	gewaehret	_	_	VVPP	_	_	_	_	_	O	VVPP	s5_107
+108	/	_	_	$,	_	_	_	_	_	O	$(	s5_108
+109	(,)	_	_	$,	_	_	_	_	_	O	$MK	s5_109
+110	dann	_	_	KOUS	_	_	_	_	_	O	KOUS	s5_110
+111	wir	_	_	PPER	_	_	_	_	_	B-NC	PPER	s5_111
+112	nicht	_	_	PTKNEG	_	_	_	_	_	B-ADVC	PTKNEG	s5_112
+113	weiters	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s5_113
+114	/	_	_	$(	_	_	_	_	_	O	$(	s5_114
+115	alß	_	_	KOKOM	_	_	_	_	_	O	KOKOM	s5_115
+116	in	_	_	APPR	_	_	_	_	_	B-PC	APPR	s5_116
+117	das	_	_	ART	_	_	_	_	_	I-PC	DARTB	s5_117
+118	Koenigreich	_	_	NN	_	_	_	_	_	I-PC	NA	s5_118
+119	Congo	_	_	NE	_	_	_	_	_	B-NC	NE	s5_119
+120	begert	_	_	VVPP	_	_	_	_	_	O	VVPP	s5_120
+121	/	_	_	$,	_	_	_	_	_	O	$(	s5_121
+122	(,)	_	_	$,	_	_	_	_	_	O	$MK	s5_122
+123	welches	_	_	PRELAT	_	_	_	_	_	B-NC	PRELAT	s5_123
+124	Koenigreichs	_	_	NN	_	_	_	_	_	I-NC	NA	s5_124
+125	Eynwohner	_	_	NN	_	_	_	_	_	B-NC	NA	s5_125
+126	Christen	_	_	NN	_	_	_	_	_	B-NC	NA	s5_126
+127	seind	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s5_127
+128	/	_	_	$,	_	_	_	_	_	O	$(	s5_128
+129	(,)	_	_	$,	_	_	_	_	_	O	$MK	s5_129
+130	aber	_	_	KON	_	_	_	_	_	O	KON	s5_130
+131	auff	_	_	APPR	_	_	_	_	_	B-PC	APPR	s5_131
+132	Spanische	_	_	ADJA	_	_	_	_	_	I-PC	ADJA	s5_132
+133	vnd	_	_	KON	_	_	_	_	_	I-PC	KON	s5_133
+134	Portugallische	_	_	ADJA	_	_	_	_	_	I-PC	ADJA	s5_134
+135	weiß	_	_	NN	_	_	_	_	_	I-PC	NA	s5_135
+136	.	_	_	$.	_	_	_	_	_	O	$.	s5_136
+137	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s5_137
+
+# sent_id = 2
+# sent_id(Tiger) = s7
+# text = Will also vor erzehlte Laender / (,) so ich selber / mit Gottes wunderbarer hülff / besucht vnd erkundiget / (,) kurtzlich vnd einfaeltig beschreiben . (.)
+1	Will	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s7_1
+2	also	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s7_2
+3	vor	_	_	PTKVZ	_	_	_	_	_	B-PC	PTKVZ	s7_3
+4	erzehlte	_	_	ADJA	_	_	_	_	_	I-PC	VVPPA	s7_4
+5	Laender	_	_	NN	_	_	_	_	_	I-PC	NA	s7_5
+6	/	_	_	$,	_	_	_	_	_	O	$(	s7_6
+7	(,)	_	_	$,	_	_	_	_	_	O	$MK	s7_7
+8	so	_	_	ADV	_	_	_	_	_	B-NC	PTKREL	s7_8
+9	ich	_	_	PPER	_	_	_	_	_	I-NC	PPER	s7_9
+10	selber	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s7_10
+11	/	_	_	$(	_	_	_	_	_	O	$(	s7_11
+12	mit	_	_	APPR	_	_	_	_	_	B-PC	APPR	s7_12
+13	Gottes	_	_	NN	_	_	_	_	_	I-PC	NA	s7_13
+14	wunderbarer	_	_	ADJA	_	_	_	_	_	B-NC	ADJA	s7_14
+15	hülff	_	_	NN	_	_	_	_	_	I-NC	NA	s7_15
+16	/	_	_	$(	_	_	_	_	_	O	$(	s7_16
+17	besucht	_	_	VVPP	_	_	_	_	_	O	VVPP	s7_17
+18	vnd	_	_	KON	_	_	_	_	_	O	KON	s7_18
+19	erkundiget	_	_	VVPP	_	_	_	_	_	O	VVPP	s7_19
+20	/	_	_	$,	_	_	_	_	_	O	$(	s7_20
+21	(,)	_	_	$,	_	_	_	_	_	O	$MK	s7_21
+22	kurtzlich	_	_	ADJD	_	_	_	_	_	B-AC	ADJV	s7_22
+23	vnd	_	_	KON	_	_	_	_	_	O	KON	s7_23
+24	einfaeltig	_	_	ADJD	_	_	_	_	_	B-AC	ADJV	s7_24
+25	beschreiben	_	_	VVINF	_	_	_	_	_	O	VVINF	s7_25
+26	.	_	_	$.	_	_	_	_	_	O	$.	s7_26
+27	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s7_27
+
+# sent_id = 3
+# sent_id(Tiger) = s45
+# text = Die Eynwohner (,) Mann und Weib / (,) jung vnd alt (,) lauffen gantz nackend daher / (.)
+1	Die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s45_1
+2	Eynwohner	_	_	NN	_	_	_	_	_	I-NC	NA	s45_2
+3	(,)	_	_	$,	_	_	_	_	_	O	$MK	s45_3
+4	Mann	_	_	NN	_	_	_	_	_	B-NC	NA	s45_4
+5	und	_	_	KON	_	_	_	_	_	O	KON	s45_5
+6	Weib	_	_	NN	_	_	_	_	_	B-NC	NA	s45_6
+7	/	_	_	$,	_	_	_	_	_	O	$(	s45_7
+8	(,)	_	_	$,	_	_	_	_	_	O	$MK	s45_8
+9	jung	_	_	ADJD	_	_	_	_	_	B-AC	ADJN	s45_9
+10	vnd	_	_	KON	_	_	_	_	_	O	KON	s45_10
+11	alt	_	_	ADJD	_	_	_	_	_	B-AC	ADJN	s45_11
+12	(,)	_	_	$,	_	_	_	_	_	O	$MK	s45_12
+13	lauffen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s45_13
+14	gantz	_	_	ADJD	_	_	_	_	_	B-AC	ADJV	s45_14
+15	nackend	_	_	ADJD	_	_	_	_	_	B-AC	ADJD	s45_15
+16	daher	_	_	PAV	_	_	_	_	_	I-AC	PAVDAP	s45_16
+17	/	_	_	$.	_	_	_	_	_	O	$(	s45_17
+18	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s45_18
+
+# sent_id = 4
+# sent_id(Tiger) = s49
+# text = Wan man den safft von diser noch gruenen Wurtzel (,) welchen sie wunderlich auß pressen (,) trincket : (,) so ist er so toedlich / (,) daß jhme kein Gifft mag verglichen werden . (.)
+1	Wan	_	_	KOUS	_	_	_	_	_	O	KOUS	s49_1
+2	man	_	_	PIS	_	_	_	_	_	B-NC	PINDEF	s49_2
+3	den	_	_	ART	_	_	_	_	_	B-NC	DARTB	s49_3
+4	safft	_	_	NN	_	_	_	_	_	I-NC	NA	s49_4
+5	von	_	_	APPR	_	_	_	_	_	B-PC	APPR	s49_5
+6	diser	_	_	PDAT	_	_	_	_	_	I-PC	DDEM	s49_6
+7	noch	_	_	ADV	_	_	_	_	_	I-PC	AVD	s49_7
+8	gruenen	_	_	ADJA	_	_	_	_	_	I-PC	ADJA	s49_8
+9	Wurtzel	_	_	NN	_	_	_	_	_	I-PC	NA	s49_9
+10	(,)	_	_	$,	_	_	_	_	_	O	$MK	s49_10
+11	welchen	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s49_11
+12	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s49_12
+13	wunderlich	_	_	ADJD	_	_	_	_	_	B-AC	ADJV	s49_13
+14	auß	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s49_14
+15	pressen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s49_15
+16	(,)	_	_	$,	_	_	_	_	_	O	$MK	s49_16
+17	trincket	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s49_17
+18	:	_	_	$,	_	_	_	_	_	O	$:	s49_18
+19	(,)	_	_	$,	_	_	_	_	_	O	$MK	s49_19
+20	so	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s49_20
+21	ist	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s49_21
+22	er	_	_	PPER	_	_	_	_	_	B-NC	PPER	s49_22
+23	so	_	_	ADV	_	_	_	_	_	B-AC	AVD	s49_23
+24	toedlich	_	_	ADJD	_	_	_	_	_	I-AC	ADJD	s49_24
+25	/	_	_	$,	_	_	_	_	_	O	$(	s49_25
+26	(,)	_	_	$,	_	_	_	_	_	O	$MK	s49_26
+27	daß	_	_	KOUS	_	_	_	_	_	O	KOUS	s49_27
+28	jhme	_	_	PPER	_	_	_	_	_	B-NC	PPER	s49_28
+29	kein	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s49_29
+30	Gifft	_	_	NN	_	_	_	_	_	I-NC	NA	s49_30
+31	mag	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s49_31
+32	verglichen	_	_	VVPP	_	_	_	_	_	O	VVPP	s49_32
+33	werden	_	_	VAINF	_	_	_	_	_	O	VAINF	s49_33
+34	.	_	_	$.	_	_	_	_	_	O	$.	s49_34
+35	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s49_35
+
+# sent_id = 5
+# sent_id(Tiger) = s69
+# text = Doch muß der Comes auß dem Schiff / dem Koenig ein verehrung thun / (,) wie wir dann auch jhme zwen Pfawen / (,) zwey weisse Hündlin / vnd ein Holaendische Trommel verehrt haben . (,) Welches man in des Koenigs hof fuer ein solch statlich Present gehalten / (,) alß wann einem grossen Herren vil tausend Ducaten verehrt weren worden . (,) Dann sie nie keine Pfawen / (,) noch weisse Hünd / oder Holaendische Trommel gesehen . (.)
+1	Doch	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s69_1
+2	muß	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s69_2
+3	der	_	_	ART	_	_	_	_	_	B-NC	DARTB	s69_3
+4	Comes	_	_	FM	_	_	_	_	_	I-NC	FM	s69_4
+5	auß	_	_	APPR	_	_	_	_	_	B-PC	APPR	s69_5
+6	dem	_	_	ART	_	_	_	_	_	I-PC	DARTB	s69_6
+7	Schiff	_	_	NN	_	_	_	_	_	I-PC	NA	s69_7
+8	/	_	_	$(	_	_	_	_	_	O	$(	s69_8
+9	dem	_	_	ART	_	_	_	_	_	B-NC	DARTB	s69_9
+10	Koenig	_	_	NN	_	_	_	_	_	I-NC	NA	s69_10
+11	ein	_	_	ART	_	_	_	_	_	B-NC	DARTU	s69_11
+12	verehrung	_	_	NN	_	_	_	_	_	I-NC	NA	s69_12
+13	thun	_	_	VVINF	_	_	_	_	_	O	VVINF	s69_13
+14	/	_	_	$,	_	_	_	_	_	O	$(	s69_14
+15	(,)	_	_	$,	_	_	_	_	_	O	$MK	s69_15
+16	wie	_	_	KOKOM	_	_	_	_	_	B-NC	KOKOM	s69_16
+17	wir	_	_	PPER	_	_	_	_	_	I-NC	PPER	s69_17
+18	dann	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s69_18
+19	auch	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s69_19
+20	jhme	_	_	PPER	_	_	_	_	_	B-NC	PPER	s69_20
+21	zwen	_	_	CARD	_	_	_	_	_	B-NC	CARD	s69_21
+22	Pfawen	_	_	NN	_	_	_	_	_	I-NC	NA	s69_22
+23	/	_	_	$,	_	_	_	_	_	O	$(	s69_23
+24	(,)	_	_	$,	_	_	_	_	_	O	$MK	s69_24
+25	zwey	_	_	CARD	_	_	_	_	_	B-NC	CARD	s69_25
+26	weisse	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s69_26
+27	Hündlin	_	_	NN	_	_	_	_	_	I-NC	NA	s69_27
+28	/	_	_	$(	_	_	_	_	_	O	$(	s69_28
+29	vnd	_	_	KON	_	_	_	_	_	O	KON	s69_29
+30	ein	_	_	ART	_	_	_	_	_	B-NC	DARTU	s69_30
+31	Holaendische	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s69_31
+32	Trommel	_	_	NN	_	_	_	_	_	I-NC	NA	s69_32
+33	verehrt	_	_	VVPP	_	_	_	_	_	O	VVPP	s69_33
+34	haben	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s69_34
+35	.	_	_	$,	_	_	_	_	_	O	$.	s69_35
+36	(,)	_	_	$,	_	_	_	_	_	O	$MK	s69_36
+37	Welches	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s69_37
+38	man	_	_	PIS	_	_	_	_	_	B-NC	PINDEF	s69_38
+39	in	_	_	APPR	_	_	_	_	_	B-PC	APPR	s69_39
+40	des	_	_	ART	_	_	_	_	_	I-PC	DARTB	s69_40
+41	Koenigs	_	_	NN	_	_	_	_	_	I-PC	NA	s69_41
+42	hof	_	_	NN	_	_	_	_	_	B-NC	NA	s69_42
+43	fuer	_	_	APPR	_	_	_	_	_	B-PC	APPR	s69_43
+44	ein	_	_	ART	_	_	_	_	_	I-PC	DARTU	s69_44
+45	solch	_	_	PDAT	_	_	_	_	_	I-PC	DDEM	s69_45
+46	statlich	_	_	ADJA	_	_	_	_	_	I-PC	ADJA	s69_46
+47	Present	_	_	NN	_	_	_	_	_	I-PC	NA	s69_47
+48	gehalten	_	_	VVPP	_	_	_	_	_	O	VVPP	s69_48
+49	/	_	_	$,	_	_	_	_	_	O	$(	s69_49
+50	(,)	_	_	$,	_	_	_	_	_	O	$MK	s69_50
+51	alß	_	_	KOKOM	_	_	_	_	_	O	KOKOM	s69_51
+52	wann	_	_	KOUS	_	_	_	_	_	O	KOUS	s69_52
+53	einem	_	_	ART	_	_	_	_	_	B-NC	DARTU	s69_53
+54	grossen	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s69_54
+55	Herren	_	_	NN	_	_	_	_	_	I-NC	NA	s69_55
+56	vil	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s69_56
+57	tausend	_	_	CARD	_	_	_	_	_	I-NC	CARD	s69_57
+58	Ducaten	_	_	NN	_	_	_	_	_	I-NC	NA	s69_58
+59	verehrt	_	_	VVPP	_	_	_	_	_	O	VVPP	s69_59
+60	weren	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s69_60
+61	worden	_	_	VAPP	_	_	_	_	_	O	VAPP	s69_61
+62	.	_	_	$,	_	_	_	_	_	O	$.	s69_62
+63	(,)	_	_	$,	_	_	_	_	_	O	$MK	s69_63
+64	Dann	_	_	KOUS	_	_	_	_	_	O	KOUS	s69_64
+65	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s69_65
+66	nie	_	_	ADV	_	_	_	_	_	B-ADVC	AVNEG	s69_66
+67	keine	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s69_67
+68	Pfawen	_	_	NN	_	_	_	_	_	I-NC	NA	s69_68
+69	/	_	_	$,	_	_	_	_	_	O	$(	s69_69
+70	(,)	_	_	$,	_	_	_	_	_	O	$MK	s69_70
+71	noch	_	_	KON	_	_	_	_	_	O	KON	s69_71
+72	weisse	_	_	ADJA	_	_	_	_	_	B-NC	ADJA	s69_72
+73	Hünd	_	_	NN	_	_	_	_	_	I-NC	NA	s69_73
+74	/	_	_	$(	_	_	_	_	_	O	$(	s69_74
+75	oder	_	_	KON	_	_	_	_	_	O	KON	s69_75
+76	Holaendische	_	_	ADJA	_	_	_	_	_	B-NC	ADJA	s69_76
+77	Trommel	_	_	NN	_	_	_	_	_	I-NC	NA	s69_77
+78	gesehen	_	_	VVPP	_	_	_	_	_	O	VVPP	s69_78
+79	.	_	_	$.	_	_	_	_	_	O	$.	s69_79
+80	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s69_80
+
+# sent_id = 6
+# sent_id(Tiger) = s72
+# text = Dann dieselbigen Koenig seind seine vnd seiner Schwester Kinder / (,) welchen man keinen anderen Namen gibt / (,) wann sie zur Regierung komen / alß Manna . (.)
+1	Dann	_	_	KON	_	_	_	_	_	O	KON	s72_1
+2	dieselbigen	_	_	PDAT	_	_	_	_	_	B-NC	DDEM	s72_2
+3	Koenig	_	_	NN	_	_	_	_	_	I-NC	NA	s72_3
+4	seind	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s72_4
+5	seine	_	_	PPOSAT	_	_	_	_	_	B-NC	DPOS	s72_5
+6	vnd	_	_	KON	_	_	_	_	_	O	KON	s72_6
+7	seiner	_	_	PPOSAT	_	_	_	_	_	B-NC	DPOS	s72_7
+8	Schwester	_	_	NN	_	_	_	_	_	I-NC	NA	s72_8
+9	Kinder	_	_	NN	_	_	_	_	_	B-NC	NA	s72_9
+10	/	_	_	$,	_	_	_	_	_	O	$(	s72_10
+11	(,)	_	_	$,	_	_	_	_	_	O	$MK	s72_11
+12	welchen	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s72_12
+13	man	_	_	PIS	_	_	_	_	_	B-NC	PINDEF	s72_13
+14	keinen	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s72_14
+15	anderen	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s72_15
+16	Namen	_	_	NN	_	_	_	_	_	I-NC	NA	s72_16
+17	gibt	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s72_17
+18	/	_	_	$,	_	_	_	_	_	O	$(	s72_18
+19	(,)	_	_	$,	_	_	_	_	_	O	$MK	s72_19
+20	wann	_	_	KOUS	_	_	_	_	_	O	KOUS	s72_20
+21	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s72_21
+22	zur	_	_	APPRART	_	_	_	_	_	B-PC	APPRDARTB	s72_22
+23	Regierung	_	_	NN	_	_	_	_	_	I-PC	NA	s72_23
+24	komen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s72_24
+25	/	_	_	$(	_	_	_	_	_	O	$(	s72_25
+26	alß	_	_	KOKOM	_	_	_	_	_	O	KOKOM	s72_26
+27	Manna	_	_	FM	_	_	_	_	_	O	FM	s72_27
+28	.	_	_	$.	_	_	_	_	_	O	$.	s72_28
+29	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s72_29
+
+# sent_id = 7
+# sent_id(Tiger) = s83
+# text = Wann aber auch kein Schwester-Sohn verhanden : (,) so wirdt alßdann ein grosser Krieg / (,) dann die anderen woellen Koenig seyn . (.)
+1	Wann	_	_	KOUS	_	_	_	_	_	O	KOUS	s83_1
+2	aber	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s83_2
+3	auch	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s83_3
+4	kein	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s83_4
+5	Schwester-Sohn	_	_	NN	_	_	_	_	_	I-NC	NA	s83_5
+6	verhanden	_	_	ADJD	_	_	_	_	_	B-AC	ADJD	s83_6
+7	:	_	_	$,	_	_	_	_	_	O	$:	s83_7
+8	(,)	_	_	$,	_	_	_	_	_	O	$MK	s83_8
+9	so	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s83_9
+10	wirdt	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s83_10
+11	alßdann	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s83_11
+12	ein	_	_	ART	_	_	_	_	_	B-NC	DARTU	s83_12
+13	grosser	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s83_13
+14	Krieg	_	_	NN	_	_	_	_	_	I-NC	NA	s83_14
+15	/	_	_	$,	_	_	_	_	_	O	$(	s83_15
+16	(,)	_	_	$,	_	_	_	_	_	O	$MK	s83_16
+17	dann	_	_	KON	_	_	_	_	_	O	KON	s83_17
+18	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s83_18
+19	anderen	_	_	PIS	_	_	_	_	_	I-NC	PINDEF	s83_19
+20	woellen	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s83_20
+21	Koenig	_	_	NN	_	_	_	_	_	B-NC	NA	s83_21
+22	seyn	_	_	VAINF	_	_	_	_	_	O	VAINF	s83_22
+23	.	_	_	$.	_	_	_	_	_	O	$.	s83_23
+24	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s83_24
+
+# sent_id = 8
+# sent_id(Tiger) = s101
+# text = Es gehet auch der Mannen kleidung von der waeiche biß auff die fueß / (,) der Frawen aber biß an die knie . (.)
+1	Es	_	_	PPER	_	_	_	_	_	B-NC	PPER	s101_1
+2	gehet	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s101_2
+3	auch	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s101_3
+4	der	_	_	ART	_	_	_	_	_	B-NC	DARTB	s101_4
+5	Mannen	_	_	NN	_	_	_	_	_	I-NC	NA	s101_5
+6	kleidung	_	_	NN	_	_	_	_	_	B-NC	NA	s101_6
+7	von	_	_	APPR	_	_	_	_	_	B-PC	APPR	s101_7
+8	der	_	_	ART	_	_	_	_	_	I-PC	DARTB	s101_8
+9	waeiche	_	_	NN	_	_	_	_	_	I-PC	NA	s101_9
+10	biß	_	_	APPR	_	_	_	_	_	B-PC	APPR	s101_10
+11	auff	_	_	APPR	_	_	_	_	_	I-PC	APPR	s101_11
+12	die	_	_	ART	_	_	_	_	_	I-PC	DARTB	s101_12
+13	fueß	_	_	NN	_	_	_	_	_	I-PC	NA	s101_13
+14	/	_	_	$,	_	_	_	_	_	O	$(	s101_14
+15	(,)	_	_	$,	_	_	_	_	_	O	$MK	s101_15
+16	der	_	_	ART	_	_	_	_	_	B-NC	DARTB	s101_16
+17	Frawen	_	_	NN	_	_	_	_	_	I-NC	NA	s101_17
+18	aber	_	_	KON	_	_	_	_	_	O	KON	s101_18
+19	biß	_	_	APPR	_	_	_	_	_	B-PC	APPR	s101_19
+20	an	_	_	APPR	_	_	_	_	_	I-PC	APPR	s101_20
+21	die	_	_	ART	_	_	_	_	_	I-PC	DARTB	s101_21
+22	knie	_	_	NN	_	_	_	_	_	I-PC	NA	s101_22
+23	.	_	_	$.	_	_	_	_	_	O	$.	s101_23
+24	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s101_24
+
+# sent_id = 9
+# sent_id(Tiger) = s118
+# text = Die Maenner aber / (,) damit sie nicht muessig gehen / (,) bawen vnd pflantzen die Weinbaeum / (,) wohnen am Meer / (,) seind gemeinlich alle Fischer . (.)
+1	Die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s118_1
+2	Maenner	_	_	NN	_	_	_	_	_	I-NC	NA	s118_2
+3	aber	_	_	KON	_	_	_	_	_	O	KON	s118_3
+4	/	_	_	$,	_	_	_	_	_	O	$(	s118_4
+5	(,)	_	_	$,	_	_	_	_	_	O	$MK	s118_5
+6	damit	_	_	KOUS	_	_	_	_	_	O	KOUS	s118_6
+7	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s118_7
+8	nicht	_	_	PTKNEG	_	_	_	_	_	B-ADVC	PTKNEG	s118_8
+9	muessig	_	_	ADJD	_	_	_	_	_	B-AC	ADJV	s118_9
+10	gehen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s118_10
+11	/	_	_	$,	_	_	_	_	_	O	$(	s118_11
+12	(,)	_	_	$,	_	_	_	_	_	O	$MK	s118_12
+13	bawen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s118_13
+14	vnd	_	_	KON	_	_	_	_	_	O	KON	s118_14
+15	pflantzen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s118_15
+16	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s118_16
+17	Weinbaeum	_	_	NN	_	_	_	_	_	I-NC	NA	s118_17
+18	/	_	_	$,	_	_	_	_	_	O	$(	s118_18
+19	(,)	_	_	$,	_	_	_	_	_	O	$MK	s118_19
+20	wohnen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s118_20
+21	am	_	_	APPRART	_	_	_	_	_	B-PC	APPRDARTB	s118_21
+22	Meer	_	_	NN	_	_	_	_	_	I-PC	NA	s118_22
+23	/	_	_	$,	_	_	_	_	_	O	$(	s118_23
+24	(,)	_	_	$,	_	_	_	_	_	O	$MK	s118_24
+25	seind	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s118_25
+26	gemeinlich	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s118_26
+27	alle	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s118_27
+28	Fischer	_	_	NN	_	_	_	_	_	I-NC	NA	s118_28
+29	.	_	_	$.	_	_	_	_	_	O	$.	s118_29
+30	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s118_30
+
+# sent_id = 10
+# sent_id(Tiger) = s128
+# text = Wann dan die Elephanten zum wasser gehen / (,) so fallen sie in das loch / (.)
+1	Wann	_	_	KOUS	_	_	_	_	_	O	KOUS	s128_1
+2	dan	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s128_2
+3	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s128_3
+4	Elephanten	_	_	NN	_	_	_	_	_	I-NC	NA	s128_4
+5	zum	_	_	APPRART	_	_	_	_	_	B-PC	APPRDARTB	s128_5
+6	wasser	_	_	NN	_	_	_	_	_	I-PC	NA	s128_6
+7	gehen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s128_7
+8	/	_	_	$,	_	_	_	_	_	O	$(	s128_8
+9	(,)	_	_	$,	_	_	_	_	_	O	$MK	s128_9
+10	so	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s128_10
+11	fallen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s128_11
+12	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s128_12
+13	in	_	_	APPR	_	_	_	_	_	B-PC	APPR	s128_13
+14	das	_	_	ART	_	_	_	_	_	I-PC	DARTB	s128_14
+15	loch	_	_	NN	_	_	_	_	_	I-PC	NA	s128_15
+16	/	_	_	$.	_	_	_	_	_	O	$(	s128_16
+17	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s128_17
+
+# sent_id = 11
+# sent_id(Tiger) = s130
+# text = hiemit bekommen sie das Helffen : oder Elephanten bein . (.)
+1	hiemit	_	_	PAV	_	_	_	_	_	B-AC	PAVDAP	s130_1
+2	bekommen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s130_2
+3	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s130_3
+4	das	_	_	ART	_	_	_	_	_	B-NC	DARTB	s130_4
+5	Helffen	_	_	TRUNC	_	_	_	_	_	I-NC	TRUNC	s130_5
+6	:	_	_	$.	_	_	_	_	_	O	$:	s130_6
+7	oder	_	_	KON	_	_	_	_	_	O	KON	s130_7
+8	Elephanten	_	_	TRUNC	_	_	_	_	_	B-NC	TRUNC	s130_8
+9	bein	_	_	NN	_	_	_	_	_	I-NC	NA	s130_9
+10	.	_	_	$.	_	_	_	_	_	O	$.	s130_10
+11	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s130_11
+
+# sent_id = 12
+# sent_id(Tiger) = s135
+# text = Dise Voelcker aber / oder sechs Koenigreich / (,) weil sie alle vnder einen Obersten gehoeren / (,) welcher Manna Loanga heißt / (,) haben auch einen Glauben / (,) wann es auch ein Glaub zu nennen ist . (.)
+1	Dise	_	_	PDAT	_	_	_	_	_	B-NC	DDEM	s135_1
+2	Voelcker	_	_	NN	_	_	_	_	_	I-NC	NA	s135_2
+3	aber	_	_	KON	_	_	_	_	_	O	KON	s135_3
+4	/	_	_	$(	_	_	_	_	_	O	$(	s135_4
+5	oder	_	_	KON	_	_	_	_	_	O	KON	s135_5
+6	sechs	_	_	CARD	_	_	_	_	_	B-NC	CARD	s135_6
+7	Koenigreich	_	_	NN	_	_	_	_	_	I-NC	NA	s135_7
+8	/	_	_	$,	_	_	_	_	_	O	$(	s135_8
+9	(,)	_	_	$,	_	_	_	_	_	O	$MK	s135_9
+10	weil	_	_	KOUS	_	_	_	_	_	O	KOUS	s135_10
+11	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s135_11
+12	alle	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s135_12
+13	vnder	_	_	APPR	_	_	_	_	_	B-PC	APPR	s135_13
+14	einen	_	_	CARD	_	_	_	_	_	I-PC	CARD	s135_14
+15	Obersten	_	_	ADJA	_	_	_	_	_	I-PC	ADJS	s135_15
+16	gehoeren	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s135_16
+17	/	_	_	$,	_	_	_	_	_	O	$(	s135_17
+18	(,)	_	_	$,	_	_	_	_	_	O	$MK	s135_18
+19	welcher	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s135_19
+20	Manna	_	_	FM	_	_	_	_	_	O	FM	s135_20
+21	Loanga	_	_	NE	_	_	_	_	_	B-NC	NE	s135_21
+22	heißt	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s135_22
+23	/	_	_	$,	_	_	_	_	_	O	$(	s135_23
+24	(,)	_	_	$,	_	_	_	_	_	O	$MK	s135_24
+25	haben	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s135_25
+26	auch	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s135_26
+27	einen	_	_	CARD	_	_	_	_	_	B-NC	CARD	s135_27
+28	Glauben	_	_	NN	_	_	_	_	_	I-NC	NA	s135_28
+29	/	_	_	$,	_	_	_	_	_	O	$(	s135_29
+30	(,)	_	_	$,	_	_	_	_	_	O	$MK	s135_30
+31	wann	_	_	KOUS	_	_	_	_	_	O	KOUS	s135_31
+32	es	_	_	PPER	_	_	_	_	_	B-NC	PPER	s135_32
+33	auch	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s135_33
+34	ein	_	_	ART	_	_	_	_	_	B-NC	DARTU	s135_34
+35	Glaub	_	_	NN	_	_	_	_	_	I-NC	NA	s135_35
+36	zu	_	_	PTKZU	_	_	_	_	_	O	PTKZU	s135_36
+37	nennen	_	_	VVINF	_	_	_	_	_	O	VVINF	s135_37
+38	ist	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s135_38
+39	.	_	_	$.	_	_	_	_	_	O	$.	s135_39
+40	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s135_40
+
+# sent_id = 13
+# sent_id(Tiger) = s145
+# text = Sie haben keine Baettler / (,) dann alle / (,) so bey jhnen gesund seind / (,) haben keinen mangel . (.)
+1	Sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s145_1
+2	haben	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s145_2
+3	keine	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s145_3
+4	Baettler	_	_	NN	_	_	_	_	_	I-NC	NA	s145_4
+5	/	_	_	$,	_	_	_	_	_	O	$(	s145_5
+6	(,)	_	_	$,	_	_	_	_	_	O	$MK	s145_6
+7	dann	_	_	KON	_	_	_	_	_	O	KON	s145_7
+8	alle	_	_	PIS	_	_	_	_	_	B-NC	PINDEF	s145_8
+9	/	_	_	$,	_	_	_	_	_	O	$(	s145_9
+10	(,)	_	_	$,	_	_	_	_	_	O	$MK	s145_10
+11	so	_	_	ADV	_	_	_	_	_	B-ADVC	PTKREL	s145_11
+12	bey	_	_	APPR	_	_	_	_	_	B-PC	APPR	s145_12
+13	jhnen	_	_	PPER	_	_	_	_	_	I-PC	PPER	s145_13
+14	gesund	_	_	ADJD	_	_	_	_	_	B-AC	ADJD	s145_14
+15	seind	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s145_15
+16	/	_	_	$,	_	_	_	_	_	O	$(	s145_16
+17	(,)	_	_	$,	_	_	_	_	_	O	$MK	s145_17
+18	haben	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s145_18
+19	keinen	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s145_19
+20	mangel	_	_	NN	_	_	_	_	_	I-NC	NA	s145_20
+21	.	_	_	$.	_	_	_	_	_	O	$.	s145_21
+22	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s145_22
+
+# sent_id = 14
+# sent_id(Tiger) = s156
+# text = Alßbald sie das hoeren / (,) fallen sie auff das angesicht nider / (,) biß er getruncken hat : (.)
+1	Alßbald	_	_	KOUS	_	_	_	_	_	O	KOUS	s156_1
+2	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s156_2
+3	das	_	_	PDS	_	_	_	_	_	B-NC	PDEM	s156_3
+4	hoeren	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s156_4
+5	/	_	_	$,	_	_	_	_	_	O	$(	s156_5
+6	(,)	_	_	$,	_	_	_	_	_	O	$MK	s156_6
+7	fallen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s156_7
+8	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s156_8
+9	auff	_	_	APPR	_	_	_	_	_	B-PC	APPR	s156_9
+10	das	_	_	ART	_	_	_	_	_	I-PC	DARTB	s156_10
+11	angesicht	_	_	NN	_	_	_	_	_	I-PC	NA	s156_11
+12	nider	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s156_12
+13	/	_	_	$,	_	_	_	_	_	O	$(	s156_13
+14	(,)	_	_	$,	_	_	_	_	_	O	$MK	s156_14
+15	biß	_	_	KOUS	_	_	_	_	_	O	KOUS	s156_15
+16	er	_	_	PPER	_	_	_	_	_	B-NC	PPER	s156_16
+17	getruncken	_	_	VVPP	_	_	_	_	_	O	VVPP	s156_17
+18	hat	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s156_18
+19	:	_	_	$.	_	_	_	_	_	O	$:	s156_19
+20	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s156_20
+
+# sent_id = 15
+# sent_id(Tiger) = s158
+# text = das ist( : Es frewet vns der Koenig in Loanga . (.)
+1	das	_	_	PDS	_	_	_	_	_	B-NC	PDEM	s158_1
+2	ist(	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s158_2
+3	:	_	_	$.	_	_	_	_	_	O	$:	s158_3
+4	Es	_	_	PPER	_	_	_	_	_	B-NC	PPER	s158_4
+5	frewet	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s158_5
+6	vns	_	_	PPER	_	_	_	_	_	B-NC	PPER	s158_6
+7	der	_	_	ART	_	_	_	_	_	B-NC	DARTB	s158_7
+8	Koenig	_	_	NN	_	_	_	_	_	I-NC	NA	s158_8
+9	in	_	_	APPR	_	_	_	_	_	B-PC	APPR	s158_9
+10	Loanga	_	_	NE	_	_	_	_	_	I-PC	NE	s158_10
+11	.	_	_	$.	_	_	_	_	_	O	$.	s158_11
+12	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s158_12
+
+# sent_id = 16
+# sent_id(Tiger) = s160
+# text = Wann aber einer ohnversehens den König sehe trincken / (,) so muß er alßbald sterben . Mit welches blut der Koenig gesalbet wirdt /
+1	Wann	_	_	KOUS	_	_	_	_	_	O	KOUS	s160_1
+2	aber	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s160_2
+3	einer	_	_	PIS	_	_	_	_	_	B-NC	PINDEF	s160_3
+4	ohnversehens	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s160_4
+5	den	_	_	ART	_	_	_	_	_	B-NC	DARTB	s160_5
+6	König	_	_	NN	_	_	_	_	_	I-NC	NA	s160_6
+7	sehe	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s160_7
+8	trincken	_	_	VVINF	_	_	_	_	_	O	VVINF	s160_8
+9	/	_	_	$,	_	_	_	_	_	O	$(	s160_9
+10	(,)	_	_	$,	_	_	_	_	_	O	$MK	s160_10
+11	so	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s160_11
+12	muß	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s160_12
+13	er	_	_	PPER	_	_	_	_	_	B-NC	PPER	s160_13
+14	alßbald	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s160_14
+15	sterben	_	_	VVINF	_	_	_	_	_	O	VVINF	s160_15
+16	.	_	_	$.	_	_	_	_	_	O	$.	s160_16
+17	Mit	_	_	APPR	_	_	_	_	_	B-PC	APPR	s160_17
+18	welches	_	_	PRELS	_	_	_	_	_	I-PC	PRELS	s160_18
+19	blut	_	_	NN	_	_	_	_	_	B-NC	NA	s160_19
+20	der	_	_	ART	_	_	_	_	_	B-NC	DARTB	s160_20
+21	Koenig	_	_	NN	_	_	_	_	_	I-NC	NA	s160_21
+22	gesalbet	_	_	VVPP	_	_	_	_	_	O	VVPP	s160_22
+23	wirdt	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s160_23
+24	/	_	_	$(	_	_	_	_	_	O	$(	s160_24
+
+# sent_id = 17
+# sent_id(Tiger) = s172
+# text = Sterben also zugleich von dem Tranck / (,) welches ein safft von Wurtzeln ist / (,) vnd seind auff der staette todt . (.)
+1	Sterben	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s172_1
+2	also	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s172_2
+3	zugleich	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s172_3
+4	von	_	_	APPR	_	_	_	_	_	B-PC	APPR	s172_4
+5	dem	_	_	ART	_	_	_	_	_	I-PC	DARTB	s172_5
+6	Tranck	_	_	NN	_	_	_	_	_	I-PC	NA	s172_6
+7	/	_	_	$,	_	_	_	_	_	O	$(	s172_7
+8	(,)	_	_	$,	_	_	_	_	_	O	$MK	s172_8
+9	welches	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s172_9
+10	ein	_	_	ART	_	_	_	_	_	B-NC	DARTU	s172_10
+11	safft	_	_	NN	_	_	_	_	_	I-NC	NA	s172_11
+12	von	_	_	APPR	_	_	_	_	_	B-PC	APPR	s172_12
+13	Wurtzeln	_	_	NN	_	_	_	_	_	I-PC	NA	s172_13
+14	ist	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s172_14
+15	/	_	_	$,	_	_	_	_	_	O	$(	s172_15
+16	(,)	_	_	$,	_	_	_	_	_	O	$MK	s172_16
+17	vnd	_	_	KON	_	_	_	_	_	O	KON	s172_17
+18	seind	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s172_18
+19	auff	_	_	APPR	_	_	_	_	_	B-PC	APPR	s172_19
+20	der	_	_	ART	_	_	_	_	_	I-PC	DARTB	s172_20
+21	staette	_	_	NN	_	_	_	_	_	I-PC	NA	s172_21
+22	todt	_	_	ADJD	_	_	_	_	_	B-AC	ADJD	s172_22
+23	.	_	_	$.	_	_	_	_	_	O	$.	s172_23
+24	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s172_24
+
+# sent_id = 18
+# sent_id(Tiger) = s180
+# text = Sie opfferen auch Menschen / der gestalten( : wann einer kranck wirdt / (,) so verspricht er dem Teuffel (,) einen seiner Sclaven zu verehren / (,) welches sie auch halten . Dann sie dieselbigen erstlich jaemerlich vmb bringen /
+1	Sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s180_1
+2	opfferen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s180_2
+3	auch	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s180_3
+4	Menschen	_	_	NN	_	_	_	_	_	B-NC	NA	s180_4
+5	/	_	_	$(	_	_	_	_	_	O	$(	s180_5
+6	der	_	_	ART	_	_	_	_	_	B-NC	DARTB	s180_6
+7	gestalten(	_	_	NN	_	_	_	_	_	I-NC	NA	s180_7
+8	:	_	_	$.	_	_	_	_	_	O	$:	s180_8
+9	wann	_	_	KOUS	_	_	_	_	_	O	KOUS	s180_9
+10	einer	_	_	PIS	_	_	_	_	_	B-NC	PINDEF	s180_10
+11	kranck	_	_	ADJD	_	_	_	_	_	B-AC	ADJD	s180_11
+12	wirdt	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s180_12
+13	/	_	_	$,	_	_	_	_	_	O	$(	s180_13
+14	(,)	_	_	$,	_	_	_	_	_	O	$MK	s180_14
+15	so	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s180_15
+16	verspricht	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s180_16
+17	er	_	_	PPER	_	_	_	_	_	B-NC	PPER	s180_17
+18	dem	_	_	ART	_	_	_	_	_	B-NC	DARTB	s180_18
+19	Teuffel	_	_	NN	_	_	_	_	_	I-NC	NA	s180_19
+20	(,)	_	_	$,	_	_	_	_	_	O	$MK	s180_20
+21	einen	_	_	PIS	_	_	_	_	_	B-NC	PINDEF	s180_21
+22	seiner	_	_	PPOSAT	_	_	_	_	_	B-NC	DPOS	s180_22
+23	Sclaven	_	_	NN	_	_	_	_	_	I-NC	NA	s180_23
+24	zu	_	_	PTKZU	_	_	_	_	_	O	PTKZU	s180_24
+25	verehren	_	_	VVINF	_	_	_	_	_	O	VVINF	s180_25
+26	/	_	_	$,	_	_	_	_	_	O	$(	s180_26
+27	(,)	_	_	$,	_	_	_	_	_	O	$MK	s180_27
+28	welches	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s180_28
+29	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s180_29
+30	auch	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s180_30
+31	halten	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s180_31
+32	.	_	_	$.	_	_	_	_	_	O	$.	s180_32
+33	Dann	_	_	KOUS	_	_	_	_	_	O	KOUS	s180_33
+34	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s180_34
+35	dieselbigen	_	_	PDS	_	_	_	_	_	B-NC	PDEM	s180_35
+36	erstlich	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s180_36
+37	jaemerlich	_	_	ADJD	_	_	_	_	_	B-AC	ADJV	s180_37
+38	vmb	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s180_38
+39	bringen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s180_39
+40	/	_	_	$(	_	_	_	_	_	O	$(	s180_40
+
+# sent_id = 19
+# sent_id(Tiger) = s182
+# text = Ven was sie sonst dem Satan versprechen / (,) das halten sie jhme gantz getrewlich . (.)
+1	Ven	_	_	KON	_	_	_	_	_	O	KON	s182_1
+2	was	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s182_2
+3	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s182_3
+4	sonst	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s182_4
+5	dem	_	_	ART	_	_	_	_	_	B-NC	DARTB	s182_5
+6	Satan	_	_	NN	_	_	_	_	_	I-NC	NA	s182_6
+7	versprechen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s182_7
+8	/	_	_	$,	_	_	_	_	_	O	$(	s182_8
+9	(,)	_	_	$,	_	_	_	_	_	O	$MK	s182_9
+10	das	_	_	PDS	_	_	_	_	_	B-NC	PDEM	s182_10
+11	halten	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s182_11
+12	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s182_12
+13	jhme	_	_	PPER	_	_	_	_	_	B-NC	PPER	s182_13
+14	gantz	_	_	ADJD	_	_	_	_	_	B-AC	ADJV	s182_14
+15	getrewlich	_	_	ADJD	_	_	_	_	_	I-AC	ADJV	s182_15
+16	.	_	_	$.	_	_	_	_	_	O	$.	s182_16
+17	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s182_17
+
+# sent_id = 20
+# sent_id(Tiger) = s196
+# text = Ven were gewißlich bald vmb vns geschehen gewesen / (,) weil wir beedes im Schiff / (,) so dann im Jacht / (,) sehr viel kranck Volck / vnd nur 25 . gesunder Maenner gehabt . (,) Vnd deßwegen die Spanier keinen starcken widerstand zu finden vermeint . (.)
+1	Ven	_	_	KON	_	_	_	_	_	O	KON	s196_1
+2	were	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s196_2
+3	gewißlich	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s196_3
+4	bald	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s196_4
+5	vmb	_	_	APPR	_	_	_	_	_	B-PC	APPR	s196_5
+6	vns	_	_	PPER	_	_	_	_	_	I-PC	PPER	s196_6
+7	geschehen	_	_	VVPP	_	_	_	_	_	O	VVPP	s196_7
+8	gewesen	_	_	VAPP	_	_	_	_	_	O	VAPP	s196_8
+9	/	_	_	$,	_	_	_	_	_	O	$(	s196_9
+10	(,)	_	_	$,	_	_	_	_	_	O	$MK	s196_10
+11	weil	_	_	KOUS	_	_	_	_	_	O	KOUS	s196_11
+12	wir	_	_	PPER	_	_	_	_	_	B-NC	PPER	s196_12
+13	beedes	_	_	PIS	_	_	_	_	_	B-NC	PINDEF	s196_13
+14	im	_	_	APPRART	_	_	_	_	_	B-PC	APPRDARTB	s196_14
+15	Schiff	_	_	NN	_	_	_	_	_	I-PC	NA	s196_15
+16	/	_	_	$,	_	_	_	_	_	O	$(	s196_16
+17	(,)	_	_	$,	_	_	_	_	_	O	$MK	s196_17
+18	so	_	_	KOKOM	_	_	_	_	_	B-ADVC	KOKOM	s196_18
+19	dann	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s196_19
+20	im	_	_	APPRART	_	_	_	_	_	B-PC	APPRDARTB	s196_20
+21	Jacht	_	_	NN	_	_	_	_	_	I-PC	NA	s196_21
+22	/	_	_	$,	_	_	_	_	_	O	$(	s196_22
+23	(,)	_	_	$,	_	_	_	_	_	O	$MK	s196_23
+24	sehr	_	_	ADV	_	_	_	_	_	B-NC	AVD	s196_24
+25	viel	_	_	PIAT	_	_	_	_	_	I-NC	DINDEF	s196_25
+26	kranck	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s196_26
+27	Volck	_	_	NN	_	_	_	_	_	I-NC	NA	s196_27
+28	/	_	_	$(	_	_	_	_	_	O	$(	s196_28
+29	vnd	_	_	KON	_	_	_	_	_	O	KON	s196_29
+30	nur	_	_	ADV	_	_	_	_	_	B-NC	AVD	s196_30
+31	25	_	_	CARD	_	_	_	_	_	I-NC	CARD	s196_31
+32	.	_	_	$.	_	_	_	_	_	I-NC	$.	s196_32
+33	gesunder	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s196_33
+34	Maenner	_	_	NN	_	_	_	_	_	I-NC	NA	s196_34
+35	gehabt	_	_	VAPP	_	_	_	_	_	O	VAPP	s196_35
+36	.	_	_	$,	_	_	_	_	_	O	$.	s196_36
+37	(,)	_	_	$,	_	_	_	_	_	O	$MK	s196_37
+38	Vnd	_	_	KON	_	_	_	_	_	O	KON	s196_38
+39	deßwegen	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s196_39
+40	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s196_40
+41	Spanier	_	_	NN	_	_	_	_	_	I-NC	NA	s196_41
+42	keinen	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s196_42
+43	starcken	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s196_43
+44	widerstand	_	_	NN	_	_	_	_	_	I-NC	NA	s196_44
+45	zu	_	_	PTKZU	_	_	_	_	_	O	PTKZU	s196_45
+46	finden	_	_	VVINF	_	_	_	_	_	O	VVINF	s196_46
+47	vermeint	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s196_47
+48	.	_	_	$.	_	_	_	_	_	O	$.	s196_48
+49	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s196_49
+
+# sent_id = 21
+# sent_id(Tiger) = s199
+# text = Vnd alß auff eine zeit eines der Spanischen Schiffen ohnversehener weiß zu vns kommen / (,) haben wir jhnen dz Pulfer / (,) Spanische Wein / (,) auch Marmalada / (,) so fuer krancke vnd gesunde gut ist / (,) ab genommen : (.)
+1	Vnd	_	_	KON	_	_	_	_	_	O	KON	s199_1
+2	alß	_	_	KOUS	_	_	_	_	_	O	KOUS	s199_2
+3	auff	_	_	APPR	_	_	_	_	_	B-PC	APPR	s199_3
+4	eine	_	_	ART	_	_	_	_	_	I-PC	DARTU	s199_4
+5	zeit	_	_	NN	_	_	_	_	_	I-PC	NA	s199_5
+6	eines	_	_	PIS	_	_	_	_	_	B-NC	PINDEF	s199_6
+7	der	_	_	ART	_	_	_	_	_	B-NC	DARTB	s199_7
+8	Spanischen	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s199_8
+9	Schiffen	_	_	NN	_	_	_	_	_	I-NC	NA	s199_9
+10	ohnversehener	_	_	ADJA	_	_	_	_	_	B-NC	ADJA	s199_10
+11	weiß	_	_	NN	_	_	_	_	_	I-NC	NA	s199_11
+12	zu	_	_	APPR	_	_	_	_	_	B-PC	APPR	s199_12
+13	vns	_	_	PPER	_	_	_	_	_	I-PC	PPER	s199_13
+14	kommen	_	_	VVPP	_	_	_	_	_	O	VVPP	s199_14
+15	/	_	_	$,	_	_	_	_	_	O	$(	s199_15
+16	(,)	_	_	$,	_	_	_	_	_	O	$MK	s199_16
+17	haben	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s199_17
+18	wir	_	_	PPER	_	_	_	_	_	B-NC	PPER	s199_18
+19	jhnen	_	_	PPER	_	_	_	_	_	B-NC	PPER	s199_19
+20	dz	_	_	ART	_	_	_	_	_	B-NC	DARTB	s199_20
+21	Pulfer	_	_	NN	_	_	_	_	_	I-NC	NA	s199_21
+22	/	_	_	$,	_	_	_	_	_	O	$(	s199_22
+23	(,)	_	_	$,	_	_	_	_	_	O	$MK	s199_23
+24	Spanische	_	_	ADJA	_	_	_	_	_	B-NC	ADJA	s199_24
+25	Wein	_	_	NN	_	_	_	_	_	I-NC	NA	s199_25
+26	/	_	_	$,	_	_	_	_	_	O	$(	s199_26
+27	(,)	_	_	$,	_	_	_	_	_	O	$MK	s199_27
+28	auch	_	_	KON	_	_	_	_	_	O	KON	s199_28
+29	Marmalada	_	_	NN	_	_	_	_	_	B-NC	NA	s199_29
+30	/	_	_	$,	_	_	_	_	_	O	$(	s199_30
+31	(,)	_	_	$,	_	_	_	_	_	O	$MK	s199_31
+32	so	_	_	ADV	_	_	_	_	_	B-ADVC	PTKREL	s199_32
+33	fuer	_	_	APPR	_	_	_	_	_	B-PC	APPR	s199_33
+34	krancke	_	_	ADJA	_	_	_	_	_	I-PC	ADJS	s199_34
+35	vnd	_	_	KON	_	_	_	_	_	O	KON	s199_35
+36	gesunde	_	_	ADJA	_	_	_	_	_	B-AC	ADJS	s199_36
+37	gut	_	_	ADJD	_	_	_	_	_	I-AC	ADJD	s199_37
+38	ist	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s199_38
+39	/	_	_	$,	_	_	_	_	_	O	$(	s199_39
+40	(,)	_	_	$,	_	_	_	_	_	O	$MK	s199_40
+41	ab	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s199_41
+42	genommen	_	_	VVPP	_	_	_	_	_	O	VVPP	s199_42
+43	:	_	_	$.	_	_	_	_	_	O	$:	s199_43
+44	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s199_44
+
+# sent_id = 22
+# sent_id(Tiger) = s205
+# text = Der Kopff ist so groß alß sonst drey Ross-koepff : (.)
+1	Der	_	_	ART	_	_	_	_	_	B-NC	DARTB	s205_1
+2	Kopff	_	_	NN	_	_	_	_	_	I-NC	NA	s205_2
+3	ist	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s205_3
+4	so	_	_	ADV	_	_	_	_	_	B-AC	AVD	s205_4
+5	groß	_	_	ADJD	_	_	_	_	_	I-AC	ADJD	s205_5
+6	alß	_	_	KOKOM	_	_	_	_	_	B-NC	KOKOM	s205_6
+7	sonst	_	_	ADV	_	_	_	_	_	I-NC	AVD	s205_7
+8	drey	_	_	CARD	_	_	_	_	_	I-NC	CARD	s205_8
+9	Ross-koepff	_	_	NN	_	_	_	_	_	I-NC	NA	s205_9
+10	:	_	_	$.	_	_	_	_	_	O	$:	s205_10
+11	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s205_11
+
+# sent_id = 23
+# sent_id(Tiger) = s214
+# text = Die einige hülff ist / (,) ein Lemonen spalten oder schellen / vnd also gantz in das fundament stecken . (.)
+1	Die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s214_1
+2	einige	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s214_2
+3	hülff	_	_	NN	_	_	_	_	_	I-NC	NA	s214_3
+4	ist	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s214_4
+5	/	_	_	$,	_	_	_	_	_	O	$(	s214_5
+6	(,)	_	_	$,	_	_	_	_	_	O	$MK	s214_6
+7	ein	_	_	ART	_	_	_	_	_	B-NC	DARTU	s214_7
+8	Lemonen	_	_	NN	_	_	_	_	_	I-NC	NA	s214_8
+9	spalten	_	_	VVINF	_	_	_	_	_	O	VVINF	s214_9
+10	oder	_	_	KON	_	_	_	_	_	O	KON	s214_10
+11	schellen	_	_	VVINF	_	_	_	_	_	O	VVINF	s214_11
+12	/	_	_	$(	_	_	_	_	_	O	$(	s214_12
+13	vnd	_	_	KON	_	_	_	_	_	O	KON	s214_13
+14	also	_	_	ADV	_	_	_	_	_	B-AC	AVD	s214_14
+15	gantz	_	_	ADJD	_	_	_	_	_	I-AC	ADJV	s214_15
+16	in	_	_	APPR	_	_	_	_	_	B-PC	APPR	s214_16
+17	das	_	_	ART	_	_	_	_	_	I-PC	DARTB	s214_17
+18	fundament	_	_	NN	_	_	_	_	_	I-PC	NA	s214_18
+19	stecken	_	_	VVINF	_	_	_	_	_	O	VVINF	s214_19
+20	.	_	_	$.	_	_	_	_	_	O	$.	s214_20
+21	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s214_21
+
+# sent_id = 24
+# sent_id(Tiger) = s232
+# text = Allein tragen des Graffen Kinder schoene haeublin / (,) welche gantz zierlich gemacht seind : doch der Adel tregt jetzund schwartze Huet . (.)
+1	Allein	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s232_1
+2	tragen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s232_2
+3	des	_	_	ART	_	_	_	_	_	B-NC	DARTB	s232_3
+4	Graffen	_	_	NN	_	_	_	_	_	I-NC	NA	s232_4
+5	Kinder	_	_	NN	_	_	_	_	_	B-NC	NA	s232_5
+6	schoene	_	_	ADJA	_	_	_	_	_	B-NC	ADJA	s232_6
+7	haeublin	_	_	NN	_	_	_	_	_	I-NC	NA	s232_7
+8	/	_	_	$,	_	_	_	_	_	O	$(	s232_8
+9	(,)	_	_	$,	_	_	_	_	_	O	$MK	s232_9
+10	welche	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s232_10
+11	gantz	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s232_11
+12	zierlich	_	_	ADJD	_	_	_	_	_	B-AC	ADJV	s232_12
+13	gemacht	_	_	ADJD	_	_	_	_	_	I-AC	VVPPD	s232_13
+14	seind	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s232_14
+15	:	_	_	$.	_	_	_	_	_	O	$:	s232_15
+16	doch	_	_	KON	_	_	_	_	_	O	KON	s232_16
+17	der	_	_	ART	_	_	_	_	_	B-NC	DARTB	s232_17
+18	Adel	_	_	NN	_	_	_	_	_	I-NC	NA	s232_18
+19	tregt	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s232_19
+20	jetzund	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s232_20
+21	schwartze	_	_	ADJA	_	_	_	_	_	B-NC	ADJA	s232_21
+22	Huet	_	_	NN	_	_	_	_	_	I-NC	NA	s232_22
+23	.	_	_	$.	_	_	_	_	_	O	$.	s232_23
+24	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s232_24
+
+# sent_id = 25
+# sent_id(Tiger) = s239
+# text = Jhr handel ist von Helffenbein / (,) dessen sie gar viel haben : (;) vnd Leoparden-haeut / (,) welches der handel ist in gantz Angolen . (.)
+1	Jhr	_	_	PPOSAT	_	_	_	_	_	B-NC	DPOS	s239_1
+2	handel	_	_	NN	_	_	_	_	_	I-NC	NA	s239_2
+3	ist	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s239_3
+4	von	_	_	APPR	_	_	_	_	_	B-PC	APPR	s239_4
+5	Helffenbein	_	_	NN	_	_	_	_	_	I-PC	NA	s239_5
+6	/	_	_	$,	_	_	_	_	_	O	$(	s239_6
+7	(,)	_	_	$,	_	_	_	_	_	O	$MK	s239_7
+8	dessen	_	_	PDS	_	_	_	_	_	B-NC	PDEM	s239_8
+9	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s239_9
+10	gar	_	_	ADV	_	_	_	_	_	B-NC	AVD	s239_10
+11	viel	_	_	PIS	_	_	_	_	_	I-NC	PINDEF	s239_11
+12	haben	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s239_12
+13	:	_	_	$.	_	_	_	_	_	O	$:	s239_13
+14	(;)	_	_	$.	_	_	_	_	_	O	$MSBI	s239_14
+15	vnd	_	_	KON	_	_	_	_	_	O	KON	s239_15
+16	Leoparden-haeut	_	_	NN	_	_	_	_	_	B-NC	NA	s239_16
+17	/	_	_	$,	_	_	_	_	_	O	$(	s239_17
+18	(,)	_	_	$,	_	_	_	_	_	O	$MK	s239_18
+19	welches	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s239_19
+20	der	_	_	ART	_	_	_	_	_	B-NC	DARTB	s239_20
+21	handel	_	_	NN	_	_	_	_	_	I-NC	NA	s239_21
+22	ist	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s239_22
+23	in	_	_	APPR	_	_	_	_	_	B-PC	APPR	s239_23
+24	gantz	_	_	ADJA	_	_	_	_	_	I-PC	ADJA	s239_24
+25	Angolen	_	_	NN	_	_	_	_	_	I-PC	NA	s239_25
+26	.	_	_	$.	_	_	_	_	_	O	$.	s239_26
+27	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s239_27
+
+# sent_id = 26
+# sent_id(Tiger) = s241
+# text = Jn gantz Angola hat man kein Pferd . (.)
+1	Jn	_	_	APPR	_	_	_	_	_	B-PC	APPR	s241_1
+2	gantz	_	_	ADJA	_	_	_	_	_	I-PC	ADJA	s241_2
+3	Angola	_	_	NE	_	_	_	_	_	I-PC	NE	s241_3
+4	hat	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s241_4
+5	man	_	_	PIS	_	_	_	_	_	B-NC	PINDEF	s241_5
+6	kein	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s241_6
+7	Pferd	_	_	NE	_	_	_	_	_	I-NC	NE	s241_7
+8	.	_	_	$.	_	_	_	_	_	O	$.	s241_8
+9	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s241_9
+
+# sent_id = 27
+# sent_id(Tiger) = s246
+# text = Dan dieweil selbige Voelcker kein gelt haben / (,) noch andere Reichthumb / (,) halten sie jhren starcken Leib für Reichthumb . (.)
+1	Dan	_	_	KON	_	_	_	_	_	O	KON	s246_1
+2	dieweil	_	_	KOUS	_	_	_	_	_	O	KOUS	s246_2
+3	selbige	_	_	PDAT	_	_	_	_	_	B-NC	DDEM	s246_3
+4	Voelcker	_	_	NN	_	_	_	_	_	I-NC	NA	s246_4
+5	kein	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s246_5
+6	gelt	_	_	NN	_	_	_	_	_	I-NC	NA	s246_6
+7	haben	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s246_7
+8	/	_	_	$,	_	_	_	_	_	O	$(	s246_8
+9	(,)	_	_	$,	_	_	_	_	_	O	$MK	s246_9
+10	noch	_	_	KON	_	_	_	_	_	O	KON	s246_10
+11	andere	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s246_11
+12	Reichthumb	_	_	NN	_	_	_	_	_	I-NC	NA	s246_12
+13	/	_	_	$,	_	_	_	_	_	O	$(	s246_13
+14	(,)	_	_	$,	_	_	_	_	_	O	$MK	s246_14
+15	halten	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s246_15
+16	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s246_16
+17	jhren	_	_	PPOSAT	_	_	_	_	_	B-NC	DPOS	s246_17
+18	starcken	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s246_18
+19	Leib	_	_	NN	_	_	_	_	_	I-NC	NA	s246_19
+20	für	_	_	APPR	_	_	_	_	_	B-PC	APPR	s246_20
+21	Reichthumb	_	_	NN	_	_	_	_	_	I-PC	NA	s246_21
+22	.	_	_	$.	_	_	_	_	_	O	$.	s246_22
+23	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s246_23
+
+# sent_id = 28
+# sent_id(Tiger) = s253
+# text = Jn disem Fluß Congo seind wir 7 . Monat verharret mit dem Schiff . (.)
+1	Jn	_	_	APPR	_	_	_	_	_	B-PC	APPR	s253_1
+2	disem	_	_	PDAT	_	_	_	_	_	I-PC	DDEM	s253_2
+3	Fluß	_	_	NN	_	_	_	_	_	I-PC	NA	s253_3
+4	Congo	_	_	NE	_	_	_	_	_	B-NC	NE	s253_4
+5	seind	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s253_5
+6	wir	_	_	PPER	_	_	_	_	_	B-NC	PPER	s253_6
+7	7	_	_	CARD	_	_	_	_	_	B-NC	CARD	s253_7
+8	.	_	_	$.	_	_	_	_	_	O	$.	s253_8
+9	Monat	_	_	NN	_	_	_	_	_	B-NC	NA	s253_9
+10	verharret	_	_	VVPP	_	_	_	_	_	O	VVPP	s253_10
+11	mit	_	_	APPR	_	_	_	_	_	B-PC	APPR	s253_11
+12	dem	_	_	ART	_	_	_	_	_	I-PC	DARTB	s253_12
+13	Schiff	_	_	NN	_	_	_	_	_	I-PC	NA	s253_13
+14	.	_	_	$.	_	_	_	_	_	O	$.	s253_14
+15	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s253_15
+
+# sent_id = 29
+# sent_id(Tiger) = s255
+# text = Ende der ersten Raeß . (.)
+1	Ende	_	_	NN	_	_	_	_	_	B-NC	NA	s255_1
+2	der	_	_	ART	_	_	_	_	_	B-NC	DARTB	s255_2
+3	ersten	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s255_3
+4	Raeß	_	_	NN	_	_	_	_	_	I-NC	NA	s255_4
+5	.	_	_	$.	_	_	_	_	_	O	$.	s255_5
+6	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s255_6
+
+# sent_id = 30
+# sent_id(Tiger) = s256
+# text = Die dritte Raeiß / Naher Genea / (,) auff die Festung Nassaw / (,) zu More in Genea des Koenigreichs Sabou . (.)
+1	Die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s256_1
+2	dritte	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s256_2
+3	Raeiß	_	_	NN	_	_	_	_	_	I-NC	NA	s256_3
+4	/	_	_	$(	_	_	_	_	_	O	$(	s256_4
+5	Naher	_	_	APPR	_	_	_	_	_	B-PC	APPR	s256_5
+6	Genea	_	_	NE	_	_	_	_	_	I-PC	NE	s256_6
+7	/	_	_	$,	_	_	_	_	_	O	$(	s256_7
+8	(,)	_	_	$,	_	_	_	_	_	O	$MK	s256_8
+9	auff	_	_	APPR	_	_	_	_	_	B-PC	APPR	s256_9
+10	die	_	_	ART	_	_	_	_	_	I-PC	DARTB	s256_10
+11	Festung	_	_	NN	_	_	_	_	_	I-PC	NA	s256_11
+12	Nassaw	_	_	NE	_	_	_	_	_	B-NC	NE	s256_12
+13	/	_	_	$,	_	_	_	_	_	O	$(	s256_13
+14	(,)	_	_	$,	_	_	_	_	_	O	$MK	s256_14
+15	zu	_	_	APPR	_	_	_	_	_	B-PC	APPR	s256_15
+16	More	_	_	NE	_	_	_	_	_	I-PC	NE	s256_16
+17	in	_	_	APPR	_	_	_	_	_	B-PC	APPR	s256_17
+18	Genea	_	_	NE	_	_	_	_	_	I-PC	NE	s256_18
+19	des	_	_	ART	_	_	_	_	_	B-NC	DARTB	s256_19
+20	Koenigreichs	_	_	NN	_	_	_	_	_	I-NC	NA	s256_20
+21	Sabou	_	_	FM	_	_	_	_	_	O	FM	s256_21
+22	.	_	_	$.	_	_	_	_	_	O	$.	s256_22
+23	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s256_23
+
+# sent_id = 31
+# sent_id(Tiger) = s259
+# text = Alßbald aber haben mich etliche bekandte an gesprochen / vnd gefragt / (,) ob ich den Herren Staden auff der Festung Nassaw zu dienen begere ? (.)
+1	Alßbald	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s259_1
+2	aber	_	_	KON	_	_	_	_	_	O	KON	s259_2
+3	haben	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s259_3
+4	mich	_	_	PPER	_	_	_	_	_	B-NC	PPER	s259_4
+5	etliche	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s259_5
+6	bekandte	_	_	ADJA	_	_	_	_	_	I-NC	ADJS	s259_6
+7	an	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s259_7
+8	gesprochen	_	_	VVPP	_	_	_	_	_	O	VVPP	s259_8
+9	/	_	_	$(	_	_	_	_	_	O	$(	s259_9
+10	vnd	_	_	KON	_	_	_	_	_	O	KON	s259_10
+11	gefragt	_	_	VVPP	_	_	_	_	_	O	VVPP	s259_11
+12	/	_	_	$,	_	_	_	_	_	O	$(	s259_12
+13	(,)	_	_	$,	_	_	_	_	_	O	$MK	s259_13
+14	ob	_	_	KOUS	_	_	_	_	_	O	KOUS	s259_14
+15	ich	_	_	PPER	_	_	_	_	_	B-NC	PPER	s259_15
+16	den	_	_	ART	_	_	_	_	_	B-NC	DARTB	s259_16
+17	Herren	_	_	NN	_	_	_	_	_	I-NC	NA	s259_17
+18	Staden	_	_	NE	_	_	_	_	_	B-NC	NE	s259_18
+19	auff	_	_	APPR	_	_	_	_	_	B-PC	APPR	s259_19
+20	der	_	_	ART	_	_	_	_	_	I-PC	DARTB	s259_20
+21	Festung	_	_	NN	_	_	_	_	_	I-PC	NA	s259_21
+22	Nassaw	_	_	NE	_	_	_	_	_	B-NC	NE	s259_22
+23	zu	_	_	PTKZU	_	_	_	_	_	O	PTKZU	s259_23
+24	dienen	_	_	VVINF	_	_	_	_	_	O	VVINF	s259_24
+25	begere	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s259_25
+26	?	_	_	$.	_	_	_	_	_	O	$?	s259_26
+27	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s259_27
+
+# sent_id = 32
+# sent_id(Tiger) = s270
+# text = Daselbsten haben wir einen anderen Wind bekommen mit einem Sturmwind / (,) also daß wir jnnerhalb 8 . tagen auff die hoechte von Capo Verdo komen / vnd auff 180 . meil gegen West / mit solcher grausamen vngestueme / (,) daß wir 28000 . gebachen stein haben muessen in das Meer werffen . (.)
+1	Daselbsten	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s270_1
+2	haben	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s270_2
+3	wir	_	_	PPER	_	_	_	_	_	B-NC	PPER	s270_3
+4	einen	_	_	ART	_	_	_	_	_	B-NC	DARTU	s270_4
+5	anderen	_	_	PIAT	_	_	_	_	_	I-NC	DINDEF	s270_5
+6	Wind	_	_	NN	_	_	_	_	_	I-NC	NA	s270_6
+7	bekommen	_	_	VVPP	_	_	_	_	_	O	VVPP	s270_7
+8	mit	_	_	APPR	_	_	_	_	_	B-PC	APPR	s270_8
+9	einem	_	_	ART	_	_	_	_	_	I-PC	DARTU	s270_9
+10	Sturmwind	_	_	NN	_	_	_	_	_	I-PC	NA	s270_10
+11	/	_	_	$,	_	_	_	_	_	O	$(	s270_11
+12	(,)	_	_	$,	_	_	_	_	_	O	$MK	s270_12
+13	also	_	_	KOUS	_	_	_	_	_	O	KOUS	s270_13
+14	daß	_	_	KOUS	_	_	_	_	_	O	KOUS	s270_14
+15	wir	_	_	PPER	_	_	_	_	_	B-NC	PPER	s270_15
+16	jnnerhalb	_	_	APPR	_	_	_	_	_	B-PC	APPR	s270_16
+17	8	_	_	CARD	_	_	_	_	_	I-PC	CARD	s270_17
+18	.	_	_	$.	_	_	_	_	_	O	$.	s270_18
+19	tagen	_	_	NN	_	_	_	_	_	B-NC	NA	s270_19
+20	auff	_	_	APPR	_	_	_	_	_	B-PC	APPR	s270_20
+21	die	_	_	ART	_	_	_	_	_	I-PC	DARTB	s270_21
+22	hoechte	_	_	NN	_	_	_	_	_	I-PC	NA	s270_22
+23	von	_	_	APPR	_	_	_	_	_	B-PC	APPR	s270_23
+24	Capo	_	_	NE	_	_	_	_	_	I-PC	NE	s270_24
+25	Verdo	_	_	NE	_	_	_	_	_	I-PC	NE	s270_25
+26	komen	_	_	VVPP	_	_	_	_	_	O	VVPP	s270_26
+27	/	_	_	$(	_	_	_	_	_	O	$(	s270_27
+28	vnd	_	_	KON	_	_	_	_	_	O	KON	s270_28
+29	auff	_	_	APPR	_	_	_	_	_	B-PC	APPR	s270_29
+30	180	_	_	CARD	_	_	_	_	_	I-PC	CARD	s270_30
+31	.	_	_	$.	_	_	_	_	_	O	$.	s270_31
+32	meil	_	_	NN	_	_	_	_	_	B-NC	NA	s270_32
+33	gegen	_	_	APPR	_	_	_	_	_	B-PC	APPR	s270_33
+34	West	_	_	NN	_	_	_	_	_	I-PC	NA	s270_34
+35	/	_	_	$(	_	_	_	_	_	O	$(	s270_35
+36	mit	_	_	APPR	_	_	_	_	_	B-PC	APPR	s270_36
+37	solcher	_	_	PDAT	_	_	_	_	_	I-PC	DDEM	s270_37
+38	grausamen	_	_	ADJA	_	_	_	_	_	I-PC	ADJA	s270_38
+39	vngestueme	_	_	NN	_	_	_	_	_	I-PC	NA	s270_39
+40	/	_	_	$,	_	_	_	_	_	O	$(	s270_40
+41	(,)	_	_	$,	_	_	_	_	_	O	$MK	s270_41
+42	daß	_	_	KOUS	_	_	_	_	_	O	KOUS	s270_42
+43	wir	_	_	PPER	_	_	_	_	_	B-NC	PPER	s270_43
+44	28000	_	_	CARD	_	_	_	_	_	B-NC	CARD	s270_44
+45	.	_	_	$.	_	_	_	_	_	O	$.	s270_45
+46	gebachen	_	_	ADJA	_	_	_	_	_	B-NC	VVPPA	s270_46
+47	stein	_	_	NN	_	_	_	_	_	I-NC	NA	s270_47
+48	haben	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s270_48
+49	muessen	_	_	VMINF	_	_	_	_	_	O	VMINF	s270_49
+50	in	_	_	APPR	_	_	_	_	_	B-PC	APPR	s270_50
+51	das	_	_	ART	_	_	_	_	_	I-PC	DARTB	s270_51
+52	Meer	_	_	NN	_	_	_	_	_	I-PC	NA	s270_52
+53	werffen	_	_	VVINF	_	_	_	_	_	O	VVINF	s270_53
+54	.	_	_	$.	_	_	_	_	_	O	$.	s270_54
+55	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s270_55
+
+# sent_id = 33
+# sent_id(Tiger) = s280
+# text = Drey tag hernach ist ein feiner guter Wind komen auß Osten mit einem dicken Naebel . (;) Vnd hat das Volck gesagt / (,) die schwartzen Teuffel haben die stein gemahlen vnd zerschlagen / (,) vns noch mehr verdrieß anzuthun . Dann vnser Schiff / vnd alles / (,) was darinnen war / (,) so roth worden / (,) alß wann es mit ziegelstein were an gestrichen worden . (.)
+1	Drey	_	_	CARD	_	_	_	_	_	B-NC	CARD	s280_1
+2	tag	_	_	NN	_	_	_	_	_	I-NC	NA	s280_2
+3	hernach	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s280_3
+4	ist	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s280_4
+5	ein	_	_	ART	_	_	_	_	_	B-NC	DARTU	s280_5
+6	feiner	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s280_6
+7	guter	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s280_7
+8	Wind	_	_	NN	_	_	_	_	_	I-NC	NA	s280_8
+9	komen	_	_	VVPP	_	_	_	_	_	O	VVPP	s280_9
+10	auß	_	_	APPR	_	_	_	_	_	B-PC	APPR	s280_10
+11	Osten	_	_	NN	_	_	_	_	_	I-PC	NA	s280_11
+12	mit	_	_	APPR	_	_	_	_	_	B-PC	APPR	s280_12
+13	einem	_	_	ART	_	_	_	_	_	I-PC	DARTU	s280_13
+14	dicken	_	_	ADJA	_	_	_	_	_	I-PC	ADJA	s280_14
+15	Naebel	_	_	NN	_	_	_	_	_	I-PC	NA	s280_15
+16	.	_	_	$.	_	_	_	_	_	O	$.	s280_16
+17	(;)	_	_	$.	_	_	_	_	_	O	$MSBI	s280_17
+18	Vnd	_	_	KON	_	_	_	_	_	O	KON	s280_18
+19	hat	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s280_19
+20	das	_	_	ART	_	_	_	_	_	B-NC	DARTB	s280_20
+21	Volck	_	_	NN	_	_	_	_	_	I-NC	NA	s280_21
+22	gesagt	_	_	VVPP	_	_	_	_	_	O	VVPP	s280_22
+23	/	_	_	$,	_	_	_	_	_	O	$(	s280_23
+24	(,)	_	_	$,	_	_	_	_	_	O	$MK	s280_24
+25	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s280_25
+26	schwartzen	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s280_26
+27	Teuffel	_	_	NN	_	_	_	_	_	I-NC	NA	s280_27
+28	haben	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s280_28
+29	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s280_29
+30	stein	_	_	NN	_	_	_	_	_	I-NC	NA	s280_30
+31	gemahlen	_	_	VVPP	_	_	_	_	_	O	VVPP	s280_31
+32	vnd	_	_	KON	_	_	_	_	_	O	KON	s280_32
+33	zerschlagen	_	_	VVPP	_	_	_	_	_	O	VVPP	s280_33
+34	/	_	_	$,	_	_	_	_	_	O	$(	s280_34
+35	(,)	_	_	$,	_	_	_	_	_	O	$MK	s280_35
+36	vns	_	_	PPER	_	_	_	_	_	B-NC	PPER	s280_36
+37	noch	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s280_37
+38	mehr	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s280_38
+39	verdrieß	_	_	NN	_	_	_	_	_	I-NC	NA	s280_39
+40	anzuthun	_	_	VVIZU	_	_	_	_	_	O	VVIZU	s280_40
+41	.	_	_	$.	_	_	_	_	_	O	$.	s280_41
+42	Dann	_	_	KOUS	_	_	_	_	_	O	KOUS	s280_42
+43	vnser	_	_	PPOSAT	_	_	_	_	_	B-NC	DPOS	s280_43
+44	Schiff	_	_	NN	_	_	_	_	_	I-NC	NA	s280_44
+45	/	_	_	$(	_	_	_	_	_	O	$(	s280_45
+46	vnd	_	_	KON	_	_	_	_	_	O	KON	s280_46
+47	alles	_	_	PIS	_	_	_	_	_	B-NC	PINDEF	s280_47
+48	/	_	_	$,	_	_	_	_	_	O	$(	s280_48
+49	(,)	_	_	$,	_	_	_	_	_	O	$MK	s280_49
+50	was	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s280_50
+51	darinnen	_	_	PAV	_	_	_	_	_	B-NC	PAVDAP	s280_51
+52	war	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s280_52
+53	/	_	_	$,	_	_	_	_	_	O	$(	s280_53
+54	(,)	_	_	$,	_	_	_	_	_	O	$MK	s280_54
+55	so	_	_	ADV	_	_	_	_	_	B-AC	AVD	s280_55
+56	roth	_	_	ADJD	_	_	_	_	_	I-AC	ADJD	s280_56
+57	worden	_	_	VAPP	_	_	_	_	_	O	VAPP	s280_57
+58	/	_	_	$,	_	_	_	_	_	O	$(	s280_58
+59	(,)	_	_	$,	_	_	_	_	_	O	$MK	s280_59
+60	alß	_	_	KOKOM	_	_	_	_	_	O	KOKOM	s280_60
+61	wann	_	_	KOUS	_	_	_	_	_	O	KOUS	s280_61
+62	es	_	_	PPER	_	_	_	_	_	B-NC	PPER	s280_62
+63	mit	_	_	APPR	_	_	_	_	_	B-PC	APPR	s280_63
+64	ziegelstein	_	_	NN	_	_	_	_	_	I-PC	NA	s280_64
+65	were	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s280_65
+66	an	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s280_66
+67	gestrichen	_	_	VVPP	_	_	_	_	_	O	VVPP	s280_67
+68	worden	_	_	VAPP	_	_	_	_	_	O	VAPP	s280_68
+69	.	_	_	$.	_	_	_	_	_	O	$.	s280_69
+70	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s280_70
+
+# sent_id = 34
+# sent_id(Tiger) = s292
+# text = Nachdem nun vnser Volck erfrischet worden / (,) haben wir die Ancker widerumb auff gezogen / vnd vnseren weg nach der Festung genommen . (;) Seind also Ost-waerts ein gesaeglet / (,) biß wir endtlich die Festung ersehen . Dafuer wir Gott gedanckt haben / (,) daß er vns so weit gebracht / vnd erhalten . (.)
+1	Nachdem	_	_	KOUS	_	_	_	_	_	O	KOUS	s292_1
+2	nun	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s292_2
+3	vnser	_	_	PPOSAT	_	_	_	_	_	B-NC	DPOS	s292_3
+4	Volck	_	_	NN	_	_	_	_	_	I-NC	NA	s292_4
+5	erfrischet	_	_	VVPP	_	_	_	_	_	O	VVPP	s292_5
+6	worden	_	_	VAPP	_	_	_	_	_	O	VAPP	s292_6
+7	/	_	_	$,	_	_	_	_	_	O	$(	s292_7
+8	(,)	_	_	$,	_	_	_	_	_	O	$MK	s292_8
+9	haben	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s292_9
+10	wir	_	_	PPER	_	_	_	_	_	B-NC	PPER	s292_10
+11	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s292_11
+12	Ancker	_	_	NN	_	_	_	_	_	I-NC	NA	s292_12
+13	widerumb	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s292_13
+14	auff	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s292_14
+15	gezogen	_	_	VVPP	_	_	_	_	_	O	VVPP	s292_15
+16	/	_	_	$(	_	_	_	_	_	O	$(	s292_16
+17	vnd	_	_	KON	_	_	_	_	_	O	KON	s292_17
+18	vnseren	_	_	PPOSAT	_	_	_	_	_	B-NC	DPOS	s292_18
+19	weg	_	_	NN	_	_	_	_	_	I-NC	NA	s292_19
+20	nach	_	_	APPR	_	_	_	_	_	B-PC	APPR	s292_20
+21	der	_	_	ART	_	_	_	_	_	I-PC	DARTB	s292_21
+22	Festung	_	_	NN	_	_	_	_	_	I-PC	NA	s292_22
+23	genommen	_	_	VVPP	_	_	_	_	_	O	VVPP	s292_23
+24	.	_	_	$.	_	_	_	_	_	O	$.	s292_24
+25	(;)	_	_	$.	_	_	_	_	_	O	$MSBI	s292_25
+26	Seind	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s292_26
+27	also	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s292_27
+28	Ost-waerts	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s292_28
+29	ein	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s292_29
+30	gesaeglet	_	_	VVPP	_	_	_	_	_	O	VVPP	s292_30
+31	/	_	_	$,	_	_	_	_	_	O	$(	s292_31
+32	(,)	_	_	$,	_	_	_	_	_	O	$MK	s292_32
+33	biß	_	_	KOUS	_	_	_	_	_	O	KOUS	s292_33
+34	wir	_	_	PPER	_	_	_	_	_	B-NC	PPER	s292_34
+35	endtlich	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s292_35
+36	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s292_36
+37	Festung	_	_	NN	_	_	_	_	_	I-NC	NA	s292_37
+38	ersehen	_	_	VVPP	_	_	_	_	_	O	VVPP	s292_38
+39	.	_	_	$.	_	_	_	_	_	O	$.	s292_39
+40	Dafuer	_	_	PAV	_	_	_	_	_	O	PAVRELAP	s292_40
+41	wir	_	_	PPER	_	_	_	_	_	B-NC	PPER	s292_41
+42	Gott	_	_	NN	_	_	_	_	_	B-NC	NA	s292_42
+43	gedanckt	_	_	VVPP	_	_	_	_	_	O	VVPP	s292_43
+44	haben	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s292_44
+45	/	_	_	$,	_	_	_	_	_	O	$(	s292_45
+46	(,)	_	_	$,	_	_	_	_	_	O	$MK	s292_46
+47	daß	_	_	KOUS	_	_	_	_	_	O	KOUS	s292_47
+48	er	_	_	PPER	_	_	_	_	_	B-NC	PPER	s292_48
+49	vns	_	_	PPER	_	_	_	_	_	B-NC	PPER	s292_49
+50	so	_	_	ADV	_	_	_	_	_	B-AC	AVD	s292_50
+51	weit	_	_	ADJD	_	_	_	_	_	I-AC	ADJV	s292_51
+52	gebracht	_	_	VVPP	_	_	_	_	_	O	VVPP	s292_52
+53	/	_	_	$(	_	_	_	_	_	O	$(	s292_53
+54	vnd	_	_	KON	_	_	_	_	_	O	KON	s292_54
+55	erhalten	_	_	VVPP	_	_	_	_	_	O	VVPP	s292_55
+56	.	_	_	$.	_	_	_	_	_	O	$.	s292_56
+57	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s292_57
+
+# sent_id = 35
+# sent_id(Tiger) = s296
+# text = Alß wir nun zu More vor der Festung an kommen / (,) haben vns alle andere Schiff / (,) so allda an gelangt / (,) mit Ehren- vnd Salve- schützen auß 160 . grossen stucken empfangen . (.)
+1	Alß	_	_	KOUS	_	_	_	_	_	O	KOUS	s296_1
+2	wir	_	_	PPER	_	_	_	_	_	B-NC	PPER	s296_2
+3	nun	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s296_3
+4	zu	_	_	APPR	_	_	_	_	_	B-PC	APPR	s296_4
+5	More	_	_	NE	_	_	_	_	_	I-PC	NE	s296_5
+6	vor	_	_	APPR	_	_	_	_	_	B-PC	APPR	s296_6
+7	der	_	_	ART	_	_	_	_	_	I-PC	DARTB	s296_7
+8	Festung	_	_	NN	_	_	_	_	_	I-PC	NA	s296_8
+9	an	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s296_9
+10	kommen	_	_	VVPP	_	_	_	_	_	O	VVPP	s296_10
+11	/	_	_	$,	_	_	_	_	_	O	$(	s296_11
+12	(,)	_	_	$,	_	_	_	_	_	O	$MK	s296_12
+13	haben	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s296_13
+14	vns	_	_	PPER	_	_	_	_	_	B-NC	PPER	s296_14
+15	alle	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s296_15
+16	andere	_	_	PIAT	_	_	_	_	_	I-NC	DINDEF	s296_16
+17	Schiff	_	_	NN	_	_	_	_	_	I-NC	NA	s296_17
+18	/	_	_	$,	_	_	_	_	_	O	$(	s296_18
+19	(,)	_	_	$,	_	_	_	_	_	O	$MK	s296_19
+20	so	_	_	ADV	_	_	_	_	_	B-ADVC	PTKREL	s296_20
+21	allda	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s296_21
+22	an	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s296_22
+23	gelangt	_	_	VVPP	_	_	_	_	_	O	VVPP	s296_23
+24	/	_	_	$,	_	_	_	_	_	O	$(	s296_24
+25	(,)	_	_	$,	_	_	_	_	_	O	$MK	s296_25
+26	mit	_	_	APPR	_	_	_	_	_	B-PC	APPR	s296_26
+27	Ehren-	_	_	TRUNC	_	_	_	_	_	I-PC	TRUNC	s296_27
+28	vnd	_	_	KON	_	_	_	_	_	O	KON	s296_28
+29	Salve-	_	_	TRUNC	_	_	_	_	_	B-NC	TRUNC	s296_29
+30	schützen	_	_	NN	_	_	_	_	_	B-NC	NA	s296_30
+31	auß	_	_	APPR	_	_	_	_	_	B-PC	APPR	s296_31
+32	160	_	_	CARD	_	_	_	_	_	I-PC	CARD	s296_32
+33	.	_	_	$.	_	_	_	_	_	I-PC	$.	s296_33
+34	grossen	_	_	ADJA	_	_	_	_	_	I-PC	ADJA	s296_34
+35	stucken	_	_	NN	_	_	_	_	_	I-PC	NA	s296_35
+36	empfangen	_	_	VVPP	_	_	_	_	_	O	VVPP	s296_36
+37	.	_	_	$.	_	_	_	_	_	O	$.	s296_37
+38	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s296_38
+
+# sent_id = 36
+# sent_id(Tiger) = s311
+# text = Neben dem / (,) daß ich einen guten Tisch hatte / (,) haben die Herren der Admiralitet alle Medicamenten / (,) welche ich gebraucht / (,) auß jhrem Seckel bezahlet . (.)
+1	Neben	_	_	APPR	_	_	_	_	_	B-PC	APPR	s311_1
+2	dem	_	_	PDS	_	_	_	_	_	I-PC	PDEM	s311_2
+3	/	_	_	$,	_	_	_	_	_	O	$(	s311_3
+4	(,)	_	_	$,	_	_	_	_	_	O	$MK	s311_4
+5	daß	_	_	KOUS	_	_	_	_	_	O	KOUS	s311_5
+6	ich	_	_	PPER	_	_	_	_	_	B-NC	PPER	s311_6
+7	einen	_	_	ART	_	_	_	_	_	B-NC	DARTU	s311_7
+8	guten	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s311_8
+9	Tisch	_	_	NN	_	_	_	_	_	I-NC	NA	s311_9
+10	hatte	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s311_10
+11	/	_	_	$,	_	_	_	_	_	O	$(	s311_11
+12	(,)	_	_	$,	_	_	_	_	_	O	$MK	s311_12
+13	haben	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s311_13
+14	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s311_14
+15	Herren	_	_	NN	_	_	_	_	_	I-NC	NA	s311_15
+16	der	_	_	ART	_	_	_	_	_	B-NC	DARTB	s311_16
+17	Admiralitet	_	_	NN	_	_	_	_	_	I-NC	NA	s311_17
+18	alle	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s311_18
+19	Medicamenten	_	_	NN	_	_	_	_	_	I-NC	NA	s311_19
+20	/	_	_	$,	_	_	_	_	_	O	$(	s311_20
+21	(,)	_	_	$,	_	_	_	_	_	O	$MK	s311_21
+22	welche	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s311_22
+23	ich	_	_	PPER	_	_	_	_	_	B-NC	PPER	s311_23
+24	gebraucht	_	_	VVPP	_	_	_	_	_	O	VVPP	s311_24
+25	/	_	_	$,	_	_	_	_	_	O	$(	s311_25
+26	(,)	_	_	$,	_	_	_	_	_	O	$MK	s311_26
+27	auß	_	_	APPR	_	_	_	_	_	B-PC	APPR	s311_27
+28	jhrem	_	_	PPOSAT	_	_	_	_	_	I-PC	DPOS	s311_28
+29	Seckel	_	_	NN	_	_	_	_	_	I-PC	NA	s311_29
+30	bezahlet	_	_	VVPP	_	_	_	_	_	O	VVPP	s311_30
+31	.	_	_	$.	_	_	_	_	_	O	$.	s311_31
+32	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s311_32
+
+# sent_id = 37
+# sent_id(Tiger) = s341
+# text = Das beste Gold wigt man mit stroma oder bonen auß / (,) welche blutroth seind . (;) Jst so viel alß ein Thaler . (.)
+1	Das	_	_	ART	_	_	_	_	_	B-NC	DARTB	s341_1
+2	beste	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s341_2
+3	Gold	_	_	NN	_	_	_	_	_	I-NC	NA	s341_3
+4	wigt	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s341_4
+5	man	_	_	PIS	_	_	_	_	_	B-NC	PINDEF	s341_5
+6	mit	_	_	APPR	_	_	_	_	_	B-PC	APPR	s341_6
+7	stroma	_	_	NN	_	_	_	_	_	I-PC	NA	s341_7
+8	oder	_	_	KON	_	_	_	_	_	O	KON	s341_8
+9	bonen	_	_	NN	_	_	_	_	_	B-NC	NA	s341_9
+10	auß	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s341_10
+11	/	_	_	$,	_	_	_	_	_	O	$(	s341_11
+12	(,)	_	_	$,	_	_	_	_	_	O	$MK	s341_12
+13	welche	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s341_13
+14	blutroth	_	_	ADJD	_	_	_	_	_	B-AC	ADJD	s341_14
+15	seind	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s341_15
+16	.	_	_	$,	_	_	_	_	_	O	$.	s341_16
+17	(;)	_	_	$,	_	_	_	_	_	O	$MK	s341_17
+18	Jst	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s341_18
+19	so	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s341_19
+20	viel	_	_	ADV	_	_	_	_	_	B-NC	AVD	s341_20
+21	alß	_	_	KOKOM	_	_	_	_	_	I-NC	KOKOM	s341_21
+22	ein	_	_	ART	_	_	_	_	_	I-NC	DARTU	s341_22
+23	Thaler	_	_	NN	_	_	_	_	_	I-NC	NA	s341_23
+24	.	_	_	$.	_	_	_	_	_	O	$.	s341_24
+25	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s341_25
+
+# sent_id = 38
+# sent_id(Tiger) = s344
+# text = Also haben die Portugaleser nicht lang bleiben koennen / (,) sondern in Portugal nach etlichen Schiffen vnd Volck geschickt / (,) welche die armen Swartzen bezwungen / (,) das Gold zu suchen . (,) Welches doch nicht lang gewaehret . Dann die Eynwohner also verbittert worden / (,) daß sie sich eh lassen zu tod schlagen / alß das Gold zu suchen . (.)
+1	Also	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s344_1
+2	haben	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s344_2
+3	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s344_3
+4	Portugaleser	_	_	NN	_	_	_	_	_	I-NC	NA	s344_4
+5	nicht	_	_	PTKNEG	_	_	_	_	_	B-ADVC	PTKNEG	s344_5
+6	lang	_	_	ADJD	_	_	_	_	_	B-AC	ADJV	s344_6
+7	bleiben	_	_	VVINF	_	_	_	_	_	O	VVINF	s344_7
+8	koennen	_	_	VMINF	_	_	_	_	_	O	VMINF	s344_8
+9	/	_	_	$,	_	_	_	_	_	O	$(	s344_9
+10	(,)	_	_	$,	_	_	_	_	_	O	$MK	s344_10
+11	sondern	_	_	KON	_	_	_	_	_	O	KON	s344_11
+12	in	_	_	APPR	_	_	_	_	_	B-PC	APPR	s344_12
+13	Portugal	_	_	NE	_	_	_	_	_	I-PC	NE	s344_13
+14	nach	_	_	APPR	_	_	_	_	_	B-PC	APPR	s344_14
+15	etlichen	_	_	PIAT	_	_	_	_	_	I-PC	DINDEF	s344_15
+16	Schiffen	_	_	NN	_	_	_	_	_	I-PC	NA	s344_16
+17	vnd	_	_	KON	_	_	_	_	_	O	KON	s344_17
+18	Volck	_	_	NN	_	_	_	_	_	B-NC	NA	s344_18
+19	geschickt	_	_	VVPP	_	_	_	_	_	O	VVPP	s344_19
+20	/	_	_	$,	_	_	_	_	_	O	$(	s344_20
+21	(,)	_	_	$,	_	_	_	_	_	O	$MK	s344_21
+22	welche	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s344_22
+23	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s344_23
+24	armen	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s344_24
+25	Swartzen	_	_	ADJA	_	_	_	_	_	I-NC	ADJS	s344_25
+26	bezwungen	_	_	VVPP	_	_	_	_	_	O	VVPP	s344_26
+27	/	_	_	$,	_	_	_	_	_	O	$(	s344_27
+28	(,)	_	_	$,	_	_	_	_	_	O	$MK	s344_28
+29	das	_	_	ART	_	_	_	_	_	B-NC	DARTB	s344_29
+30	Gold	_	_	NN	_	_	_	_	_	I-NC	NA	s344_30
+31	zu	_	_	PTKZU	_	_	_	_	_	O	PTKZU	s344_31
+32	suchen	_	_	VVINF	_	_	_	_	_	O	VVINF	s344_32
+33	.	_	_	$,	_	_	_	_	_	O	$.	s344_33
+34	(,)	_	_	$,	_	_	_	_	_	O	$MK	s344_34
+35	Welches	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s344_35
+36	doch	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s344_36
+37	nicht	_	_	PTKNEG	_	_	_	_	_	B-ADVC	PTKNEG	s344_37
+38	lang	_	_	ADJD	_	_	_	_	_	B-AC	ADJV	s344_38
+39	gewaehret	_	_	VVPP	_	_	_	_	_	O	VVPP	s344_39
+40	.	_	_	$.	_	_	_	_	_	O	$.	s344_40
+41	Dann	_	_	KOUS	_	_	_	_	_	O	KOUS	s344_41
+42	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s344_42
+43	Eynwohner	_	_	NN	_	_	_	_	_	I-NC	NA	s344_43
+44	also	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s344_44
+45	verbittert	_	_	ADJD	_	_	_	_	_	B-AC	VVPPD	s344_45
+46	worden	_	_	VAPP	_	_	_	_	_	O	VAPP	s344_46
+47	/	_	_	$,	_	_	_	_	_	O	$(	s344_47
+48	(,)	_	_	$,	_	_	_	_	_	O	$MK	s344_48
+49	daß	_	_	KOUS	_	_	_	_	_	O	KOUS	s344_49
+50	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s344_50
+51	sich	_	_	PRF	_	_	_	_	_	B-NC	PRF	s344_51
+52	eh	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s344_52
+53	lassen	_	_	VVINF	_	_	_	_	_	O	VVINF	s344_53
+54	zu	_	_	APPR	_	_	_	_	_	B-PC	APPR	s344_54
+55	tod	_	_	NN	_	_	_	_	_	I-PC	NA	s344_55
+56	schlagen	_	_	VVINF	_	_	_	_	_	O	VVINF	s344_56
+57	/	_	_	$(	_	_	_	_	_	O	$(	s344_57
+58	alß	_	_	KOKOM	_	_	_	_	_	O	KOKOM	s344_58
+59	das	_	_	ART	_	_	_	_	_	B-NC	DARTB	s344_59
+60	Gold	_	_	NN	_	_	_	_	_	I-NC	NA	s344_60
+61	zu	_	_	PTKZU	_	_	_	_	_	O	PTKZU	s344_61
+62	suchen	_	_	VVINF	_	_	_	_	_	O	VVINF	s344_62
+63	.	_	_	$.	_	_	_	_	_	O	$.	s344_63
+64	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s344_64
+
+# sent_id = 39
+# sent_id(Tiger) = s356
+# text = Die vbrigen / (,) so in der Festung geblieben / (,) hetten auch gleicher gestalt verdaerben muessen / (,) wann nicht ein Spanisch Schiff kommen were / (,) das sie entsetzet . (.)
+1	Die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s356_1
+2	vbrigen	_	_	ADJA	_	_	_	_	_	I-NC	ADJS	s356_2
+3	/	_	_	$,	_	_	_	_	_	O	$(	s356_3
+4	(,)	_	_	$,	_	_	_	_	_	O	$MK	s356_4
+5	so	_	_	ADV	_	_	_	_	_	B-ADVC	PTKREL	s356_5
+6	in	_	_	APPR	_	_	_	_	_	B-PC	APPR	s356_6
+7	der	_	_	ART	_	_	_	_	_	I-PC	DARTB	s356_7
+8	Festung	_	_	NN	_	_	_	_	_	I-PC	NA	s356_8
+9	geblieben	_	_	VVPP	_	_	_	_	_	O	VVPP	s356_9
+10	/	_	_	$,	_	_	_	_	_	O	$(	s356_10
+11	(,)	_	_	$,	_	_	_	_	_	O	$MK	s356_11
+12	hetten	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s356_12
+13	auch	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s356_13
+14	gleicher	_	_	ADJA	_	_	_	_	_	B-NC	ADJA	s356_14
+15	gestalt	_	_	NN	_	_	_	_	_	I-NC	NA	s356_15
+16	verdaerben	_	_	VVINF	_	_	_	_	_	O	VVINF	s356_16
+17	muessen	_	_	VMINF	_	_	_	_	_	O	VMINF	s356_17
+18	/	_	_	$,	_	_	_	_	_	O	$(	s356_18
+19	(,)	_	_	$,	_	_	_	_	_	O	$MK	s356_19
+20	wann	_	_	KOUS	_	_	_	_	_	O	KOUS	s356_20
+21	nicht	_	_	PTKNEG	_	_	_	_	_	B-ADVC	PTKNEG	s356_21
+22	ein	_	_	ART	_	_	_	_	_	B-NC	DARTU	s356_22
+23	Spanisch	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s356_23
+24	Schiff	_	_	NN	_	_	_	_	_	I-NC	NA	s356_24
+25	kommen	_	_	VVPP	_	_	_	_	_	O	VVPP	s356_25
+26	were	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s356_26
+27	/	_	_	$,	_	_	_	_	_	O	$(	s356_27
+28	(,)	_	_	$,	_	_	_	_	_	O	$MK	s356_28
+29	das	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s356_29
+30	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s356_30
+31	entsetzet	_	_	VVPP	_	_	_	_	_	O	VVPP	s356_31
+32	.	_	_	$.	_	_	_	_	_	O	$.	s356_32
+33	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s356_33
+
+# sent_id = 40
+# sent_id(Tiger) = s358
+# text = Die Goldhaendler wohnen 9 . oder 10 . meil im Land / alß namlich zu sabou / (,) Fontein / vnd anderstwa . Daselbsten alß an einem lustigen Ort die Koenige jhre wohnung haben / vnd allerley bey vns vnbekandte Gewaechs gefunden werden . (.)
+1	Die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s358_1
+2	Goldhaendler	_	_	NN	_	_	_	_	_	I-NC	NA	s358_2
+3	wohnen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s358_3
+4	9	_	_	CARD	_	_	_	_	_	B-NC	CARD	s358_4
+5	.	_	_	$.	_	_	_	_	_	O	$.	s358_5
+6	oder	_	_	KON	_	_	_	_	_	O	KON	s358_6
+7	10	_	_	CARD	_	_	_	_	_	B-NC	CARD	s358_7
+8	.	_	_	$.	_	_	_	_	_	O	$.	s358_8
+9	meil	_	_	NN	_	_	_	_	_	B-NC	NA	s358_9
+10	im	_	_	APPRART	_	_	_	_	_	B-PC	APPRDARTB	s358_10
+11	Land	_	_	NN	_	_	_	_	_	I-PC	NA	s358_11
+12	/	_	_	$(	_	_	_	_	_	O	$(	s358_12
+13	alß	_	_	KOKOM	_	_	_	_	_	B-ADVC	KOKOM	s358_13
+14	namlich	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s358_14
+15	zu	_	_	APPR	_	_	_	_	_	B-PC	APPR	s358_15
+16	sabou	_	_	NE	_	_	_	_	_	I-PC	NE	s358_16
+17	/	_	_	$,	_	_	_	_	_	O	$(	s358_17
+18	(,)	_	_	$,	_	_	_	_	_	O	$MK	s358_18
+19	Fontein	_	_	NE	_	_	_	_	_	B-NC	NE	s358_19
+20	/	_	_	$(	_	_	_	_	_	O	$(	s358_20
+21	vnd	_	_	KON	_	_	_	_	_	O	KON	s358_21
+22	anderstwa	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s358_22
+23	.	_	_	$.	_	_	_	_	_	O	$.	s358_23
+24	Daselbsten	_	_	ADV	_	_	_	_	_	B-ADVC	AVREL	s358_24
+25	alß	_	_	KOKOM	_	_	_	_	_	O	KOKOM	s358_25
+26	an	_	_	APPR	_	_	_	_	_	B-PC	APPR	s358_26
+27	einem	_	_	ART	_	_	_	_	_	I-PC	DARTU	s358_27
+28	lustigen	_	_	ADJA	_	_	_	_	_	I-PC	ADJA	s358_28
+29	Ort	_	_	NN	_	_	_	_	_	I-PC	NA	s358_29
+30	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s358_30
+31	Koenige	_	_	NN	_	_	_	_	_	I-NC	NA	s358_31
+32	jhre	_	_	PPOSAT	_	_	_	_	_	B-NC	DPOS	s358_32
+33	wohnung	_	_	NN	_	_	_	_	_	I-NC	NA	s358_33
+34	haben	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s358_34
+35	/	_	_	$(	_	_	_	_	_	O	$(	s358_35
+36	vnd	_	_	KON	_	_	_	_	_	O	KON	s358_36
+37	allerley	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s358_37
+38	bey	_	_	APPR	_	_	_	_	_	B-PC	APPR	s358_38
+39	vns	_	_	PPER	_	_	_	_	_	I-PC	PPER	s358_39
+40	vnbekandte	_	_	ADJA	_	_	_	_	_	B-NC	ADJA	s358_40
+41	Gewaechs	_	_	NN	_	_	_	_	_	I-NC	NA	s358_41
+42	gefunden	_	_	VVPP	_	_	_	_	_	O	VVPP	s358_42
+43	werden	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s358_43
+44	.	_	_	$.	_	_	_	_	_	O	$.	s358_44
+45	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s358_45
+
+# sent_id = 41
+# sent_id(Tiger) = s360
+# text = Alßdann zuenden sie dieselbigen an / (,) dadurch das gantze Land gesaeubert wirdt . Darauff es an fanget zu raegnen zu gewisser zeit / (,) welche jhnen durch die erfahrung bekandt ist . Dann es bey jhnen im jahr 3 . monat lang raegnet . (.)
+1	Alßdann	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s360_1
+2	zuenden	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s360_2
+3	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s360_3
+4	dieselbigen	_	_	PDS	_	_	_	_	_	B-NC	PDEM	s360_4
+5	an	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s360_5
+6	/	_	_	$,	_	_	_	_	_	O	$(	s360_6
+7	(,)	_	_	$,	_	_	_	_	_	O	$MK	s360_7
+8	dadurch	_	_	PAV	_	_	_	_	_	O	PAVRELAP	s360_8
+9	das	_	_	ART	_	_	_	_	_	B-NC	DARTB	s360_9
+10	gantze	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s360_10
+11	Land	_	_	NN	_	_	_	_	_	I-NC	NA	s360_11
+12	gesaeubert	_	_	VVPP	_	_	_	_	_	O	VVPP	s360_12
+13	wirdt	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s360_13
+14	.	_	_	$.	_	_	_	_	_	O	$.	s360_14
+15	Darauff	_	_	PAV	_	_	_	_	_	O	PAVRELAP	s360_15
+16	es	_	_	PPER	_	_	_	_	_	B-NC	PPER	s360_16
+17	an	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s360_17
+18	fanget	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s360_18
+19	zu	_	_	PTKZU	_	_	_	_	_	O	PTKZU	s360_19
+20	raegnen	_	_	VVINF	_	_	_	_	_	O	VVINF	s360_20
+21	zu	_	_	APPR	_	_	_	_	_	B-PC	APPR	s360_21
+22	gewisser	_	_	ADJA	_	_	_	_	_	I-PC	ADJA	s360_22
+23	zeit	_	_	NN	_	_	_	_	_	I-PC	NA	s360_23
+24	/	_	_	$,	_	_	_	_	_	O	$(	s360_24
+25	(,)	_	_	$,	_	_	_	_	_	O	$MK	s360_25
+26	welche	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s360_26
+27	jhnen	_	_	PPER	_	_	_	_	_	B-NC	PPER	s360_27
+28	durch	_	_	APPR	_	_	_	_	_	B-PC	APPR	s360_28
+29	die	_	_	ART	_	_	_	_	_	I-PC	DARTB	s360_29
+30	erfahrung	_	_	NN	_	_	_	_	_	I-PC	NA	s360_30
+31	bekandt	_	_	ADJD	_	_	_	_	_	B-AC	ADJD	s360_31
+32	ist	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s360_32
+33	.	_	_	$.	_	_	_	_	_	O	$.	s360_33
+34	Dann	_	_	KOUS	_	_	_	_	_	O	KOUS	s360_34
+35	es	_	_	PPER	_	_	_	_	_	B-NC	PPER	s360_35
+36	bey	_	_	APPR	_	_	_	_	_	B-PC	APPR	s360_36
+37	jhnen	_	_	PPER	_	_	_	_	_	I-PC	PPER	s360_37
+38	im	_	_	APPRART	_	_	_	_	_	B-PC	APPRDARTB	s360_38
+39	jahr	_	_	NN	_	_	_	_	_	I-PC	NA	s360_39
+40	3	_	_	CARD	_	_	_	_	_	B-NC	CARD	s360_40
+41	.	_	_	$.	_	_	_	_	_	O	$.	s360_41
+42	monat	_	_	NN	_	_	_	_	_	B-NC	NA	s360_42
+43	lang	_	_	ADJD	_	_	_	_	_	B-AC	ADJV	s360_43
+44	raegnet	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s360_44
+45	.	_	_	$.	_	_	_	_	_	O	$.	s360_45
+46	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s360_46
+
+# sent_id = 42
+# sent_id(Tiger) = s371
+# text = Wann sie es bachen woellen / (,) kochen sie es im wasser: (,) dann sie haben keine oefen: (,) machen einen Teig an sehr dünn mit wasser . (.)
+1	Wann	_	_	KOUS	_	_	_	_	_	O	KOUS	s371_1
+2	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s371_2
+3	es	_	_	PPER	_	_	_	_	_	B-NC	PPER	s371_3
+4	bachen	_	_	VVINF	_	_	_	_	_	O	VVINF	s371_4
+5	woellen	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s371_5
+6	/	_	_	$,	_	_	_	_	_	O	$(	s371_6
+7	(,)	_	_	$,	_	_	_	_	_	O	$MK	s371_7
+8	kochen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s371_8
+9	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s371_9
+10	es	_	_	PPER	_	_	_	_	_	B-NC	PPER	s371_10
+11	im	_	_	APPRART	_	_	_	_	_	B-PC	APPRDARTB	s371_11
+12	wasser:	_	_	NN	_	_	_	_	_	I-PC	NA	s371_12
+13	(,)	_	_	$,	_	_	_	_	_	O	$MK	s371_13
+14	dann	_	_	KON	_	_	_	_	_	O	KON	s371_14
+15	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s371_15
+16	haben	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s371_16
+17	keine	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s371_17
+18	oefen:	_	_	NN	_	_	_	_	_	I-NC	NA	s371_18
+19	(,)	_	_	$,	_	_	_	_	_	O	$MK	s371_19
+20	machen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s371_20
+21	einen	_	_	ART	_	_	_	_	_	B-NC	DARTU	s371_21
+22	Teig	_	_	NN	_	_	_	_	_	I-NC	NA	s371_22
+23	an	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s371_23
+24	sehr	_	_	ADV	_	_	_	_	_	B-AC	AVD	s371_24
+25	dünn	_	_	ADJD	_	_	_	_	_	I-AC	ADJD	s371_25
+26	mit	_	_	APPR	_	_	_	_	_	B-PC	APPR	s371_26
+27	wasser	_	_	NN	_	_	_	_	_	I-PC	NA	s371_27
+28	.	_	_	$.	_	_	_	_	_	O	$.	s371_28
+29	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s371_29
+
+# sent_id = 43
+# sent_id(Tiger) = s382
+# text = Dise komen etwan bey 200 . oder mehr zu marckt / vnd bringen anders nichts / dan Frucht vnd Wein . (.)
+1	Dise	_	_	PDS	_	_	_	_	_	B-NC	PDEM	s382_1
+2	komen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s382_2
+3	etwan	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s382_3
+4	bey	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s382_4
+5	200	_	_	CARD	_	_	_	_	_	B-NC	CARD	s382_5
+6	.	_	_	$.	_	_	_	_	_	O	$.	s382_6
+7	oder	_	_	KON	_	_	_	_	_	O	KON	s382_7
+8	mehr	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s382_8
+9	zu	_	_	APPR	_	_	_	_	_	B-PC	APPR	s382_9
+10	marckt	_	_	NN	_	_	_	_	_	I-PC	NA	s382_10
+11	/	_	_	$(	_	_	_	_	_	O	$(	s382_11
+12	vnd	_	_	KON	_	_	_	_	_	O	KON	s382_12
+13	bringen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s382_13
+14	anders	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s382_14
+15	nichts	_	_	PIS	_	_	_	_	_	I-NC	PINDEF	s382_15
+16	/	_	_	$(	_	_	_	_	_	O	$(	s382_16
+17	dan	_	_	KOKOM	_	_	_	_	_	B-NC	KOKOM	s382_17
+18	Frucht	_	_	NN	_	_	_	_	_	I-NC	NA	s382_18
+19	vnd	_	_	KON	_	_	_	_	_	O	KON	s382_19
+20	Wein	_	_	NN	_	_	_	_	_	B-NC	NA	s382_20
+21	.	_	_	$.	_	_	_	_	_	O	$.	s382_21
+22	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s382_22
+
+# sent_id = 44
+# sent_id(Tiger) = s385
+# text = Daselbsten wachset viel Zucker-riedt / vnd sehr wunderlich Obs / (,) so bey vns vnbekandt ist . (.)
+1	Daselbsten	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s385_1
+2	wachset	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s385_2
+3	viel	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s385_3
+4	Zucker-riedt	_	_	NN	_	_	_	_	_	I-NC	NA	s385_4
+5	/	_	_	$(	_	_	_	_	_	O	$(	s385_5
+6	vnd	_	_	KON	_	_	_	_	_	O	KON	s385_6
+7	sehr	_	_	ADV	_	_	_	_	_	B-NC	AVD	s385_7
+8	wunderlich	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s385_8
+9	Obs	_	_	NN	_	_	_	_	_	I-NC	NA	s385_9
+10	/	_	_	$,	_	_	_	_	_	O	$(	s385_10
+11	(,)	_	_	$,	_	_	_	_	_	O	$MK	s385_11
+12	so	_	_	ADV	_	_	_	_	_	B-ADVC	PTKREL	s385_12
+13	bey	_	_	APPR	_	_	_	_	_	B-PC	APPR	s385_13
+14	vns	_	_	PPER	_	_	_	_	_	I-PC	PPER	s385_14
+15	vnbekandt	_	_	ADJD	_	_	_	_	_	B-AC	ADJD	s385_15
+16	ist	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s385_16
+17	.	_	_	$.	_	_	_	_	_	O	$.	s385_17
+18	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s385_18
+
+# sent_id = 45
+# sent_id(Tiger) = s389
+# text = Sie haben wunderliche Huet / (,) die sie machen von geißhaut / (,) welche sie naß vber ein form spannen / (,) vnd wann sie ertrocknet (,) / ist es ein Huot . (.)
+1	Sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s389_1
+2	haben	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s389_2
+3	wunderliche	_	_	ADJA	_	_	_	_	_	B-NC	ADJA	s389_3
+4	Huet	_	_	NN	_	_	_	_	_	I-NC	NA	s389_4
+5	/	_	_	$,	_	_	_	_	_	O	$(	s389_5
+6	(,)	_	_	$,	_	_	_	_	_	O	$MK	s389_6
+7	die	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s389_7
+8	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s389_8
+9	machen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s389_9
+10	von	_	_	APPR	_	_	_	_	_	B-PC	APPR	s389_10
+11	geißhaut	_	_	NN	_	_	_	_	_	I-PC	NA	s389_11
+12	/	_	_	$,	_	_	_	_	_	O	$(	s389_12
+13	(,)	_	_	$,	_	_	_	_	_	O	$MK	s389_13
+14	welche	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s389_14
+15	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s389_15
+16	naß	_	_	ADJD	_	_	_	_	_	B-AC	ADJD	s389_16
+17	vber	_	_	APPR	_	_	_	_	_	B-PC	APPR	s389_17
+18	ein	_	_	ART	_	_	_	_	_	I-PC	DARTU	s389_18
+19	form	_	_	NN	_	_	_	_	_	I-PC	NA	s389_19
+20	spannen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s389_20
+21	/	_	_	$,	_	_	_	_	_	O	$(	s389_21
+22	(,)	_	_	$,	_	_	_	_	_	O	$MK	s389_22
+23	vnd	_	_	KON	_	_	_	_	_	O	KON	s389_23
+24	wann	_	_	KOUS	_	_	_	_	_	O	KOUS	s389_24
+25	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s389_25
+26	ertrocknet	_	_	ADJD	_	_	_	_	_	B-AC	VVPPD	s389_26
+27	(,)	_	_	$,	_	_	_	_	_	O	$MK	s389_27
+28	/	_	_	$(	_	_	_	_	_	O	$(	s389_28
+29	ist	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s389_29
+30	es	_	_	PPER	_	_	_	_	_	B-NC	PPER	s389_30
+31	ein	_	_	ART	_	_	_	_	_	B-NC	DARTU	s389_31
+32	Huot	_	_	NN	_	_	_	_	_	I-NC	NA	s389_32
+33	.	_	_	$.	_	_	_	_	_	O	$.	s389_33
+34	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s389_34
+
+# sent_id = 46
+# sent_id(Tiger) = s404
+# text = Vnd wann sie kranck werden / (,) versprechen sie jhme / (,) daß sie kein fleisch essen / oder kein wein trincken woellen . (.)
+1	Vnd	_	_	KON	_	_	_	_	_	O	KON	s404_1
+2	wann	_	_	KOUS	_	_	_	_	_	O	KOUS	s404_2
+3	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s404_3
+4	kranck	_	_	ADJD	_	_	_	_	_	B-AC	ADJD	s404_4
+5	werden	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s404_5
+6	/	_	_	$,	_	_	_	_	_	O	$(	s404_6
+7	(,)	_	_	$,	_	_	_	_	_	O	$MK	s404_7
+8	versprechen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s404_8
+9	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s404_9
+10	jhme	_	_	PPER	_	_	_	_	_	B-NC	PPER	s404_10
+11	/	_	_	$,	_	_	_	_	_	O	$(	s404_11
+12	(,)	_	_	$,	_	_	_	_	_	O	$MK	s404_12
+13	daß	_	_	KOUS	_	_	_	_	_	O	KOUS	s404_13
+14	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s404_14
+15	kein	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s404_15
+16	fleisch	_	_	NN	_	_	_	_	_	I-NC	NA	s404_16
+17	essen	_	_	VVINF	_	_	_	_	_	O	VVINF	s404_17
+18	/	_	_	$(	_	_	_	_	_	O	$(	s404_18
+19	oder	_	_	KON	_	_	_	_	_	O	KON	s404_19
+20	kein	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s404_20
+21	wein	_	_	NN	_	_	_	_	_	I-NC	NA	s404_21
+22	trincken	_	_	VVINF	_	_	_	_	_	O	VVINF	s404_22
+23	woellen	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s404_23
+24	.	_	_	$.	_	_	_	_	_	O	$.	s404_24
+25	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s404_25
+
+# sent_id = 47
+# sent_id(Tiger) = s407
+# text = Wann dann einer will Hochzeit halten / (,) so nimt die Braut alle Meidlin mit jhro auff den platz oder marckt / (,) allda jhr Mann auff sie vnd jhre Elteren wartet . (.)
+1	Wann	_	_	KOUS	_	_	_	_	_	O	KOUS	s407_1
+2	dann	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s407_2
+3	einer	_	_	PIS	_	_	_	_	_	B-NC	PINDEF	s407_3
+4	will	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s407_4
+5	Hochzeit	_	_	NN	_	_	_	_	_	B-NC	NA	s407_5
+6	halten	_	_	VVINF	_	_	_	_	_	O	VVINF	s407_6
+7	/	_	_	$,	_	_	_	_	_	O	$(	s407_7
+8	(,)	_	_	$,	_	_	_	_	_	O	$MK	s407_8
+9	so	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s407_9
+10	nimt	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s407_10
+11	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s407_11
+12	Braut	_	_	NN	_	_	_	_	_	I-NC	NA	s407_12
+13	alle	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s407_13
+14	Meidlin	_	_	NN	_	_	_	_	_	I-NC	NA	s407_14
+15	mit	_	_	APPR	_	_	_	_	_	B-PC	APPR	s407_15
+16	jhro	_	_	PRF	_	_	_	_	_	I-PC	PRF	s407_16
+17	auff	_	_	APPR	_	_	_	_	_	B-PC	APPR	s407_17
+18	den	_	_	ART	_	_	_	_	_	I-PC	DARTB	s407_18
+19	platz	_	_	NN	_	_	_	_	_	I-PC	NA	s407_19
+20	oder	_	_	KON	_	_	_	_	_	O	KON	s407_20
+21	marckt	_	_	NN	_	_	_	_	_	B-NC	NA	s407_21
+22	/	_	_	$,	_	_	_	_	_	O	$(	s407_22
+23	(,)	_	_	$,	_	_	_	_	_	O	$MK	s407_23
+24	allda	_	_	ADV	_	_	_	_	_	B-ADVC	AVREL	s407_24
+25	jhr	_	_	PPOSAT	_	_	_	_	_	B-NC	DPOS	s407_25
+26	Mann	_	_	NN	_	_	_	_	_	I-NC	NA	s407_26
+27	auff	_	_	APPR	_	_	_	_	_	B-PC	APPR	s407_27
+28	sie	_	_	PPER	_	_	_	_	_	I-PC	PPER	s407_28
+29	vnd	_	_	KON	_	_	_	_	_	O	KON	s407_29
+30	jhre	_	_	PPOSAT	_	_	_	_	_	B-NC	DPOS	s407_30
+31	Elteren	_	_	NN	_	_	_	_	_	I-NC	NA	s407_31
+32	wartet	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s407_32
+33	.	_	_	$.	_	_	_	_	_	O	$.	s407_33
+34	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s407_34
+
+# sent_id = 48
+# sent_id(Tiger) = s416
+# text = Wann dann der Braeutigam etwas vermoegen ist / (,) so haltet er ein koestliches Pancket vnd Fest / (,) welches sie Aura Jaba / vnd auff Portugalisch Die de Vitalgos , (,) das ist / einen Adels-tag (,) nenen . (.)
+1	Wann	_	_	KOUS	_	_	_	_	_	O	KOUS	s416_1
+2	dann	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s416_2
+3	der	_	_	ART	_	_	_	_	_	B-NC	DARTB	s416_3
+4	Braeutigam	_	_	NN	_	_	_	_	_	I-NC	NA	s416_4
+5	etwas	_	_	PIS	_	_	_	_	_	B-NC	PINDEF	s416_5
+6	vermoegen	_	_	ADJD	_	_	_	_	_	B-AC	VVPSD	s416_6
+7	ist	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s416_7
+8	/	_	_	$,	_	_	_	_	_	O	$(	s416_8
+9	(,)	_	_	$,	_	_	_	_	_	O	$MK	s416_9
+10	so	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s416_10
+11	haltet	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s416_11
+12	er	_	_	PPER	_	_	_	_	_	B-NC	PPER	s416_12
+13	ein	_	_	ART	_	_	_	_	_	B-NC	DARTU	s416_13
+14	koestliches	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s416_14
+15	Pancket	_	_	NN	_	_	_	_	_	I-NC	NA	s416_15
+16	vnd	_	_	KON	_	_	_	_	_	O	KON	s416_16
+17	Fest	_	_	NN	_	_	_	_	_	B-NC	NA	s416_17
+18	/	_	_	$,	_	_	_	_	_	O	$(	s416_18
+19	(,)	_	_	$,	_	_	_	_	_	O	$MK	s416_19
+20	welches	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s416_20
+21	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s416_21
+22	Aura	_	_	FM	_	_	_	_	_	O	FM	s416_22
+23	Jaba	_	_	FM	_	_	_	_	_	O	FM	s416_23
+24	/	_	_	$(	_	_	_	_	_	O	$(	s416_24
+25	vnd	_	_	KON	_	_	_	_	_	O	KON	s416_25
+26	auff	_	_	APPR	_	_	_	_	_	B-PC	APPR	s416_26
+27	Portugalisch	_	_	ADJA	_	_	_	_	_	I-PC	ADJS	s416_27
+28	Die	_	_	FM	_	_	_	_	_	I-PC	FM	s416_28
+29	de	_	_	FM	_	_	_	_	_	O	FM	s416_29
+30	Vitalgos	_	_	FM	_	_	_	_	_	O	FM	s416_30
+31	,	_	_	$,	_	_	_	_	_	O	$,	s416_31
+32	(,)	_	_	$,	_	_	_	_	_	O	$MK	s416_32
+33	das	_	_	PDS	_	_	_	_	_	B-NC	PDEM	s416_33
+34	ist	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s416_34
+35	/	_	_	$(	_	_	_	_	_	O	$(	s416_35
+36	einen	_	_	ART	_	_	_	_	_	B-NC	DARTU	s416_36
+37	Adels-tag	_	_	NN	_	_	_	_	_	I-NC	NA	s416_37
+38	(,)	_	_	$,	_	_	_	_	_	O	$MK	s416_38
+39	nenen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s416_39
+40	.	_	_	$.	_	_	_	_	_	O	$.	s416_40
+41	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s416_41
+
+# sent_id = 49
+# sent_id(Tiger) = s426
+# text = Wann er nun versuehnet ist / (,) zeucht alßdann die Mannschafft auff mit jhren Gewehren / (,) aber so erschrockenlich / (,) daß / (,) wann es bey vns wurde geschehen / (,) man vermeinen solte / (,) es seyen alle Teuffel vorhanden . (.)
+1	Wann	_	_	KOUS	_	_	_	_	_	O	KOUS	s426_1
+2	er	_	_	PPER	_	_	_	_	_	B-NC	PPER	s426_2
+3	nun	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s426_3
+4	versuehnet	_	_	ADJD	_	_	_	_	_	B-AC	VVPPD	s426_4
+5	ist	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s426_5
+6	/	_	_	$,	_	_	_	_	_	O	$(	s426_6
+7	(,)	_	_	$,	_	_	_	_	_	O	$MK	s426_7
+8	zeucht	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s426_8
+9	alßdann	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s426_9
+10	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s426_10
+11	Mannschafft	_	_	NN	_	_	_	_	_	I-NC	NA	s426_11
+12	auff	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s426_12
+13	mit	_	_	APPR	_	_	_	_	_	B-PC	APPR	s426_13
+14	jhren	_	_	PPOSAT	_	_	_	_	_	I-PC	DPOS	s426_14
+15	Gewehren	_	_	NN	_	_	_	_	_	I-PC	NA	s426_15
+16	/	_	_	$,	_	_	_	_	_	O	$(	s426_16
+17	(,)	_	_	$,	_	_	_	_	_	O	$MK	s426_17
+18	aber	_	_	KON	_	_	_	_	_	O	KON	s426_18
+19	so	_	_	ADV	_	_	_	_	_	B-AC	AVD	s426_19
+20	erschrockenlich	_	_	ADJD	_	_	_	_	_	I-AC	ADJV	s426_20
+21	/	_	_	$,	_	_	_	_	_	O	$(	s426_21
+22	(,)	_	_	$,	_	_	_	_	_	O	$MK	s426_22
+23	daß	_	_	KOUS	_	_	_	_	_	O	KOUS	s426_23
+24	/	_	_	$,	_	_	_	_	_	O	$(	s426_24
+25	(,)	_	_	$,	_	_	_	_	_	O	$MK	s426_25
+26	wann	_	_	KOUS	_	_	_	_	_	O	KOUS	s426_26
+27	es	_	_	PPER	_	_	_	_	_	B-NC	PPER	s426_27
+28	bey	_	_	APPR	_	_	_	_	_	B-PC	APPR	s426_28
+29	vns	_	_	PPER	_	_	_	_	_	I-PC	PPER	s426_29
+30	wurde	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s426_30
+31	geschehen	_	_	VVINF	_	_	_	_	_	O	VVINF	s426_31
+32	/	_	_	$,	_	_	_	_	_	O	$(	s426_32
+33	(,)	_	_	$,	_	_	_	_	_	O	$MK	s426_33
+34	man	_	_	PIS	_	_	_	_	_	B-NC	PINDEF	s426_34
+35	vermeinen	_	_	VVINF	_	_	_	_	_	O	VVINF	s426_35
+36	solte	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s426_36
+37	/	_	_	$,	_	_	_	_	_	O	$(	s426_37
+38	(,)	_	_	$,	_	_	_	_	_	O	$MK	s426_38
+39	es	_	_	PPER	_	_	_	_	_	B-NC	PPER	s426_39
+40	seyen	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s426_40
+41	alle	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s426_41
+42	Teuffel	_	_	NN	_	_	_	_	_	I-NC	NA	s426_42
+43	vorhanden	_	_	ADJD	_	_	_	_	_	B-AC	ADJD	s426_43
+44	.	_	_	$.	_	_	_	_	_	O	$.	s426_44
+45	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s426_45
+
+# sent_id = 50
+# sent_id(Tiger) = s439
+# text = Es bringt auch jeder sein Kallapassa oder Trinckgeschirr mit : (,) wie dann auch seinen schildt vnd schwaerdt . (.)
+1	Es	_	_	PPER	_	_	_	_	_	B-NC	PPER	s439_1
+2	bringt	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s439_2
+3	auch	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s439_3
+4	jeder	_	_	PIS	_	_	_	_	_	B-NC	PINDEF	s439_4
+5	sein	_	_	PPOSAT	_	_	_	_	_	B-NC	DPOS	s439_5
+6	Kallapassa	_	_	FM	_	_	_	_	_	I-NC	FM	s439_6
+7	oder	_	_	KON	_	_	_	_	_	I-NC	KON	s439_7
+8	Trinckgeschirr	_	_	NN	_	_	_	_	_	I-NC	NA	s439_8
+9	mit	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s439_9
+10	:	_	_	$,	_	_	_	_	_	O	$:	s439_10
+11	(,)	_	_	$,	_	_	_	_	_	O	$MK	s439_11
+12	wie	_	_	KON	_	_	_	_	_	O	KON	s439_12
+13	dann	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s439_13
+14	auch	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s439_14
+15	seinen	_	_	PPOSAT	_	_	_	_	_	B-NC	DPOS	s439_15
+16	schildt	_	_	NN	_	_	_	_	_	I-NC	NA	s439_16
+17	vnd	_	_	KON	_	_	_	_	_	O	KON	s439_17
+18	schwaerdt	_	_	NN	_	_	_	_	_	B-NC	NA	s439_18
+19	.	_	_	$.	_	_	_	_	_	O	$.	s439_19
+20	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s439_20
+
+# sent_id = 51
+# sent_id(Tiger) = s455
+# text = Vnd wan das faehlende Weib kinder hat / (,) mag der Mann jhro den gunst erzeigen / (,) daß sie jhre Kinder mit sich nimt . (,) Welches sie dann fuer ein grosse gutthat halten : (,) dan sie die Kinder vber die massen lieben . (.)
+1	Vnd	_	_	KON	_	_	_	_	_	O	KON	s455_1
+2	wan	_	_	KOUS	_	_	_	_	_	O	KOUS	s455_2
+3	das	_	_	ART	_	_	_	_	_	B-NC	DARTB	s455_3
+4	faehlende	_	_	ADJA	_	_	_	_	_	I-NC	VVPSA	s455_4
+5	Weib	_	_	NN	_	_	_	_	_	I-NC	NA	s455_5
+6	kinder	_	_	NN	_	_	_	_	_	B-NC	NA	s455_6
+7	hat	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s455_7
+8	/	_	_	$,	_	_	_	_	_	O	$(	s455_8
+9	(,)	_	_	$,	_	_	_	_	_	O	$MK	s455_9
+10	mag	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s455_10
+11	der	_	_	ART	_	_	_	_	_	B-NC	DARTB	s455_11
+12	Mann	_	_	NN	_	_	_	_	_	I-NC	NA	s455_12
+13	jhro	_	_	PPER	_	_	_	_	_	B-NC	PPER	s455_13
+14	den	_	_	ART	_	_	_	_	_	B-NC	DARTB	s455_14
+15	gunst	_	_	NN	_	_	_	_	_	I-NC	NA	s455_15
+16	erzeigen	_	_	VVINF	_	_	_	_	_	O	VVINF	s455_16
+17	/	_	_	$,	_	_	_	_	_	O	$(	s455_17
+18	(,)	_	_	$,	_	_	_	_	_	O	$MK	s455_18
+19	daß	_	_	KOUS	_	_	_	_	_	O	KOUS	s455_19
+20	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s455_20
+21	jhre	_	_	PPOSAT	_	_	_	_	_	B-NC	DPOS	s455_21
+22	Kinder	_	_	NN	_	_	_	_	_	I-NC	NA	s455_22
+23	mit	_	_	APPR	_	_	_	_	_	B-PC	APPR	s455_23
+24	sich	_	_	PRF	_	_	_	_	_	I-PC	PRF	s455_24
+25	nimt	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s455_25
+26	.	_	_	$,	_	_	_	_	_	O	$.	s455_26
+27	(,)	_	_	$,	_	_	_	_	_	O	$MK	s455_27
+28	Welches	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s455_28
+29	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s455_29
+30	dann	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s455_30
+31	fuer	_	_	APPR	_	_	_	_	_	B-PC	APPR	s455_31
+32	ein	_	_	ART	_	_	_	_	_	I-PC	DARTU	s455_32
+33	grosse	_	_	ADJA	_	_	_	_	_	I-PC	ADJA	s455_33
+34	gutthat	_	_	NN	_	_	_	_	_	I-PC	NA	s455_34
+35	halten	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s455_35
+36	:	_	_	$,	_	_	_	_	_	O	$:	s455_36
+37	(,)	_	_	$,	_	_	_	_	_	O	$MK	s455_37
+38	dan	_	_	KOUS	_	_	_	_	_	O	KOUS	s455_38
+39	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s455_39
+40	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s455_40
+41	Kinder	_	_	NN	_	_	_	_	_	I-NC	NA	s455_41
+42	vber	_	_	APPR	_	_	_	_	_	B-PC	APPR	s455_42
+43	die	_	_	ART	_	_	_	_	_	I-PC	DARTB	s455_43
+44	massen	_	_	NN	_	_	_	_	_	I-PC	NA	s455_44
+45	lieben	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s455_45
+46	.	_	_	$.	_	_	_	_	_	O	$.	s455_46
+47	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s455_47
+
+# sent_id = 52
+# sent_id(Tiger) = s464
+# text = Vnd wann sonderlich die Akanisten auff die Jmbally oder frontieren im Land kommen / (,) darff keiner weiters in das Land hineyn fahren : (,) sondern sie schicken einen Mann desselbigen Lands zum Koenig / (,) deme sie an zeigen lassen / (,) daß sie mit jhme handlen woellen mit Wahren vmb Gold . (.)
+1	Vnd	_	_	KON	_	_	_	_	_	O	KON	s464_1
+2	wann	_	_	KOUS	_	_	_	_	_	O	KOUS	s464_2
+3	sonderlich	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s464_3
+4	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s464_4
+5	Akanisten	_	_	NN	_	_	_	_	_	I-NC	NA	s464_5
+6	auff	_	_	APPR	_	_	_	_	_	B-PC	APPR	s464_6
+7	die	_	_	ART	_	_	_	_	_	I-PC	DARTB	s464_7
+8	Jmbally	_	_	FM	_	_	_	_	_	I-PC	FM	s464_8
+9	oder	_	_	KON	_	_	_	_	_	O	KON	s464_9
+10	frontieren	_	_	NN	_	_	_	_	_	B-NC	NA	s464_10
+11	im	_	_	APPRART	_	_	_	_	_	B-PC	APPRDARTB	s464_11
+12	Land	_	_	NN	_	_	_	_	_	I-PC	NA	s464_12
+13	kommen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s464_13
+14	/	_	_	$,	_	_	_	_	_	O	$(	s464_14
+15	(,)	_	_	$,	_	_	_	_	_	O	$MK	s464_15
+16	darff	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s464_16
+17	keiner	_	_	PIS	_	_	_	_	_	B-NC	PINDEF	s464_17
+18	weiters	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s464_18
+19	in	_	_	APPR	_	_	_	_	_	B-PC	APPR	s464_19
+20	das	_	_	ART	_	_	_	_	_	I-PC	DARTB	s464_20
+21	Land	_	_	NN	_	_	_	_	_	I-PC	NA	s464_21
+22	hineyn	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s464_22
+23	fahren	_	_	VVINF	_	_	_	_	_	O	VVINF	s464_23
+24	:	_	_	$,	_	_	_	_	_	O	$:	s464_24
+25	(,)	_	_	$,	_	_	_	_	_	O	$MK	s464_25
+26	sondern	_	_	KON	_	_	_	_	_	O	KON	s464_26
+27	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s464_27
+28	schicken	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s464_28
+29	einen	_	_	ART	_	_	_	_	_	B-NC	DARTU	s464_29
+30	Mann	_	_	NN	_	_	_	_	_	I-NC	NA	s464_30
+31	desselbigen	_	_	PDAT	_	_	_	_	_	B-NC	DDEM	s464_31
+32	Lands	_	_	NN	_	_	_	_	_	I-NC	NA	s464_32
+33	zum	_	_	APPRART	_	_	_	_	_	B-PC	APPRDARTB	s464_33
+34	Koenig	_	_	NN	_	_	_	_	_	I-PC	NA	s464_34
+35	/	_	_	$,	_	_	_	_	_	O	$(	s464_35
+36	(,)	_	_	$,	_	_	_	_	_	O	$MK	s464_36
+37	deme	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s464_37
+38	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s464_38
+39	an	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s464_39
+40	zeigen	_	_	VVINF	_	_	_	_	_	O	VVINF	s464_40
+41	lassen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s464_41
+42	/	_	_	$,	_	_	_	_	_	O	$(	s464_42
+43	(,)	_	_	$,	_	_	_	_	_	O	$MK	s464_43
+44	daß	_	_	KOUS	_	_	_	_	_	O	KOUS	s464_44
+45	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s464_45
+46	mit	_	_	APPR	_	_	_	_	_	B-PC	APPR	s464_46
+47	jhme	_	_	PPER	_	_	_	_	_	I-PC	PPER	s464_47
+48	handlen	_	_	VVINF	_	_	_	_	_	O	VVINF	s464_48
+49	woellen	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s464_49
+50	mit	_	_	APPR	_	_	_	_	_	B-PC	APPR	s464_50
+51	Wahren	_	_	NN	_	_	_	_	_	I-PC	NA	s464_51
+52	vmb	_	_	APPR	_	_	_	_	_	B-PC	APPR	s464_52
+53	Gold	_	_	NN	_	_	_	_	_	I-PC	NA	s464_53
+54	.	_	_	$.	_	_	_	_	_	O	$.	s464_54
+55	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s464_55
+
+# sent_id = 53
+# sent_id(Tiger) = s469
+# text = Dise Akanisten seind vor etlich Jahren auffrichtige Leuth gewesen / (,) aber sie fangen an (,) mit dem Gold betrug zu brauchen . Dann sie dasselbige artlich verfaelschen koennen . (.)
+1	Dise	_	_	PDAT	_	_	_	_	_	B-NC	DDEM	s469_1
+2	Akanisten	_	_	NN	_	_	_	_	_	I-NC	NA	s469_2
+3	seind	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s469_3
+4	vor	_	_	APPR	_	_	_	_	_	B-PC	APPR	s469_4
+5	etlich	_	_	PIAT	_	_	_	_	_	I-PC	DINDEF	s469_5
+6	Jahren	_	_	NN	_	_	_	_	_	I-PC	NA	s469_6
+7	auffrichtige	_	_	ADJA	_	_	_	_	_	B-NC	ADJA	s469_7
+8	Leuth	_	_	NN	_	_	_	_	_	I-NC	NA	s469_8
+9	gewesen	_	_	VAPP	_	_	_	_	_	O	VAPP	s469_9
+10	/	_	_	$,	_	_	_	_	_	O	$(	s469_10
+11	(,)	_	_	$,	_	_	_	_	_	O	$MK	s469_11
+12	aber	_	_	KON	_	_	_	_	_	O	KON	s469_12
+13	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s469_13
+14	fangen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s469_14
+15	an	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s469_15
+16	(,)	_	_	$,	_	_	_	_	_	O	$MK	s469_16
+17	mit	_	_	APPR	_	_	_	_	_	B-PC	APPR	s469_17
+18	dem	_	_	ART	_	_	_	_	_	I-PC	DARTB	s469_18
+19	Gold	_	_	NN	_	_	_	_	_	I-PC	NA	s469_19
+20	betrug	_	_	NN	_	_	_	_	_	B-NC	NA	s469_20
+21	zu	_	_	PTKZU	_	_	_	_	_	O	PTKZU	s469_21
+22	brauchen	_	_	VVINF	_	_	_	_	_	O	VVINF	s469_22
+23	.	_	_	$.	_	_	_	_	_	O	$.	s469_23
+24	Dann	_	_	KOUS	_	_	_	_	_	O	KOUS	s469_24
+25	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s469_25
+26	dasselbige	_	_	PDS	_	_	_	_	_	B-NC	PDEM	s469_26
+27	artlich	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s469_27
+28	verfaelschen	_	_	VVINF	_	_	_	_	_	O	VVINF	s469_28
+29	koennen	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s469_29
+30	.	_	_	$.	_	_	_	_	_	O	$.	s469_30
+31	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s469_31
+
+# sent_id = 54
+# sent_id(Tiger) = s480
+# text = Gleich wie aber die Goldsucht in disem Land sehr groß : (,) also regieren auch daselbsten sonderbare Leibs-kranckheiten vnd suechten . (,) Vnd ist sich zu verwunderen / (,) daß sich die kranckheiten nicht weiters erstrecken / alß das Goldland . (.)
+1	Gleich	_	_	ADJD	_	_	_	_	_	B-AC	ADJV	s480_1
+2	wie	_	_	KOKOM	_	_	_	_	_	B-NC	KOKOM	s480_2
+3	aber	_	_	ADV	_	_	_	_	_	I-NC	AVD	s480_3
+4	die	_	_	ART	_	_	_	_	_	I-NC	DARTB	s480_4
+5	Goldsucht	_	_	NN	_	_	_	_	_	I-NC	NA	s480_5
+6	in	_	_	APPR	_	_	_	_	_	B-PC	APPR	s480_6
+7	disem	_	_	PDAT	_	_	_	_	_	I-PC	DDEM	s480_7
+8	Land	_	_	NN	_	_	_	_	_	I-PC	NA	s480_8
+9	sehr	_	_	ADV	_	_	_	_	_	B-AC	AVD	s480_9
+10	groß	_	_	ADJD	_	_	_	_	_	I-AC	ADJD	s480_10
+11	:	_	_	$,	_	_	_	_	_	O	$:	s480_11
+12	(,)	_	_	$,	_	_	_	_	_	O	$MK	s480_12
+13	also	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s480_13
+14	regieren	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s480_14
+15	auch	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s480_15
+16	daselbsten	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s480_16
+17	sonderbare	_	_	ADJA	_	_	_	_	_	B-NC	ADJA	s480_17
+18	Leibs-kranckheiten	_	_	NN	_	_	_	_	_	I-NC	NA	s480_18
+19	vnd	_	_	KON	_	_	_	_	_	O	KON	s480_19
+20	suechten	_	_	NN	_	_	_	_	_	B-NC	NA	s480_20
+21	.	_	_	$,	_	_	_	_	_	O	$.	s480_21
+22	(,)	_	_	$,	_	_	_	_	_	O	$MK	s480_22
+23	Vnd	_	_	KON	_	_	_	_	_	O	KON	s480_23
+24	ist	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s480_24
+25	sich	_	_	PRF	_	_	_	_	_	B-NC	PRF	s480_25
+26	zu	_	_	PTKZU	_	_	_	_	_	O	PTKZU	s480_26
+27	verwunderen	_	_	VVINF	_	_	_	_	_	O	VVINF	s480_27
+28	/	_	_	$,	_	_	_	_	_	O	$(	s480_28
+29	(,)	_	_	$,	_	_	_	_	_	O	$MK	s480_29
+30	daß	_	_	KOUS	_	_	_	_	_	O	KOUS	s480_30
+31	sich	_	_	PRF	_	_	_	_	_	B-NC	PRF	s480_31
+32	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s480_32
+33	kranckheiten	_	_	NN	_	_	_	_	_	I-NC	NA	s480_33
+34	nicht	_	_	PTKNEG	_	_	_	_	_	B-ADVC	PTKNEG	s480_34
+35	weiters	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s480_35
+36	erstrecken	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s480_36
+37	/	_	_	$(	_	_	_	_	_	O	$(	s480_37
+38	alß	_	_	KOKOM	_	_	_	_	_	O	KOKOM	s480_38
+39	das	_	_	ART	_	_	_	_	_	B-NC	DARTB	s480_39
+40	Goldland	_	_	NN	_	_	_	_	_	I-NC	NA	s480_40
+41	.	_	_	$.	_	_	_	_	_	O	$.	s480_41
+42	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s480_42
+
+# sent_id = 55
+# sent_id(Tiger) = s498
+# text = Dann auß den ab gebrochenen Würmen laufft ein weisser gifftiger safft / wie auß dem kraut Teuffels-milch / (,) welcher hernach das fleisch desto mehr verderbt vnd entzündet . Deßwegen man sie sanfft auß ziehen muß . (.)
+1	Dann	_	_	KON	_	_	_	_	_	O	KON	s498_1
+2	auß	_	_	APPR	_	_	_	_	_	B-PC	APPR	s498_2
+3	den	_	_	ART	_	_	_	_	_	I-PC	DARTB	s498_3
+4	ab	_	_	PTKVZ	_	_	_	_	_	I-PC	PTKVZ	s498_4
+5	gebrochenen	_	_	ADJA	_	_	_	_	_	I-PC	VVPPA	s498_5
+6	Würmen	_	_	NN	_	_	_	_	_	I-PC	NA	s498_6
+7	laufft	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s498_7
+8	ein	_	_	ART	_	_	_	_	_	B-NC	DARTU	s498_8
+9	weisser	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s498_9
+10	gifftiger	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s498_10
+11	safft	_	_	NN	_	_	_	_	_	I-NC	NA	s498_11
+12	/	_	_	$(	_	_	_	_	_	O	$(	s498_12
+13	wie	_	_	KOKOM	_	_	_	_	_	B-PC	KOKOM	s498_13
+14	auß	_	_	APPR	_	_	_	_	_	I-PC	APPR	s498_14
+15	dem	_	_	ART	_	_	_	_	_	I-PC	DARTB	s498_15
+16	kraut	_	_	NN	_	_	_	_	_	I-PC	NA	s498_16
+17	Teuffels-milch	_	_	NE	_	_	_	_	_	B-NC	NE	s498_17
+18	/	_	_	$,	_	_	_	_	_	O	$(	s498_18
+19	(,)	_	_	$,	_	_	_	_	_	O	$MK	s498_19
+20	welcher	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s498_20
+21	hernach	_	_	PAV	_	_	_	_	_	O	PAVDAP	s498_21
+22	das	_	_	ART	_	_	_	_	_	B-NC	DARTB	s498_22
+23	fleisch	_	_	NN	_	_	_	_	_	I-NC	NA	s498_23
+24	desto	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s498_24
+25	mehr	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s498_25
+26	verderbt	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s498_26
+27	vnd	_	_	KON	_	_	_	_	_	O	KON	s498_27
+28	entzündet	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s498_28
+29	.	_	_	$.	_	_	_	_	_	O	$.	s498_29
+30	Deßwegen	_	_	ADV	_	_	_	_	_	B-ADVC	AVREL	s498_30
+31	man	_	_	PIS	_	_	_	_	_	B-NC	PINDEF	s498_31
+32	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s498_32
+33	sanfft	_	_	ADJD	_	_	_	_	_	B-AC	ADJV	s498_33
+34	auß	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s498_34
+35	ziehen	_	_	VVINF	_	_	_	_	_	O	VVINF	s498_35
+36	muß	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s498_36
+37	.	_	_	$.	_	_	_	_	_	O	$.	s498_37
+38	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s498_38
+
+# sent_id = 56
+# sent_id(Tiger) = s504
+# text = Auff solches ist bald auch der Streit entstanden zwischen dem Koenig von Caramandin / (,) Fontain / vnd Sabou . Dahero es sehr vnsicher worden zu raeisen . (.)
+1	Auff	_	_	APPR	_	_	_	_	_	B-PC	APPR	s504_1
+2	solches	_	_	PDS	_	_	_	_	_	I-PC	PDEM	s504_2
+3	ist	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s504_3
+4	bald	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s504_4
+5	auch	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s504_5
+6	der	_	_	ART	_	_	_	_	_	B-NC	DARTB	s504_6
+7	Streit	_	_	NN	_	_	_	_	_	I-NC	NA	s504_7
+8	entstanden	_	_	VVPP	_	_	_	_	_	O	VVPP	s504_8
+9	zwischen	_	_	APPR	_	_	_	_	_	B-PC	APPR	s504_9
+10	dem	_	_	ART	_	_	_	_	_	I-PC	DARTB	s504_10
+11	Koenig	_	_	NN	_	_	_	_	_	I-PC	NA	s504_11
+12	von	_	_	APPR	_	_	_	_	_	B-PC	APPR	s504_12
+13	Caramandin	_	_	NE	_	_	_	_	_	I-PC	NE	s504_13
+14	/	_	_	$,	_	_	_	_	_	O	$(	s504_14
+15	(,)	_	_	$,	_	_	_	_	_	O	$MK	s504_15
+16	Fontain	_	_	NE	_	_	_	_	_	B-NC	NE	s504_16
+17	/	_	_	$(	_	_	_	_	_	O	$(	s504_17
+18	vnd	_	_	KON	_	_	_	_	_	O	KON	s504_18
+19	Sabou	_	_	NE	_	_	_	_	_	B-NC	NE	s504_19
+20	.	_	_	$.	_	_	_	_	_	O	$.	s504_20
+21	Dahero	_	_	PAV	_	_	_	_	_	O	PAVRELAP	s504_21
+22	es	_	_	PPER	_	_	_	_	_	B-NC	PPER	s504_22
+23	sehr	_	_	ADV	_	_	_	_	_	B-AC	AVD	s504_23
+24	vnsicher	_	_	ADJD	_	_	_	_	_	I-AC	ADJD	s504_24
+25	worden	_	_	VAPP	_	_	_	_	_	O	VAPP	s504_25
+26	zu	_	_	PTKZU	_	_	_	_	_	O	PTKZU	s504_26
+27	raeisen	_	_	VVINF	_	_	_	_	_	O	VVINF	s504_27
+28	.	_	_	$.	_	_	_	_	_	O	$.	s504_28
+29	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s504_29
+
+# sent_id = 57
+# sent_id(Tiger) = s509
+# text = Dann es muß alles / (,) was streiten kan / (,) in Krieg . (.)
+1	Dann	_	_	KON	_	_	_	_	_	O	KON	s509_1
+2	es	_	_	PPER	_	_	_	_	_	B-NC	PPER	s509_2
+3	muß	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s509_3
+4	alles	_	_	PIS	_	_	_	_	_	B-NC	PINDEF	s509_4
+5	/	_	_	$,	_	_	_	_	_	O	$(	s509_5
+6	(,)	_	_	$,	_	_	_	_	_	O	$MK	s509_6
+7	was	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s509_7
+8	streiten	_	_	VVINF	_	_	_	_	_	O	VVINF	s509_8
+9	kan	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s509_9
+10	/	_	_	$,	_	_	_	_	_	O	$(	s509_10
+11	(,)	_	_	$,	_	_	_	_	_	O	$MK	s509_11
+12	in	_	_	APPR	_	_	_	_	_	B-PC	APPR	s509_12
+13	Krieg	_	_	NN	_	_	_	_	_	I-PC	NA	s509_13
+14	.	_	_	$.	_	_	_	_	_	O	$.	s509_14
+15	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s509_15
+
+# sent_id = 58
+# sent_id(Tiger) = s515
+# text = Mit solchen Messeren thund sie sehr starcke straeich . (.)
+1	Mit	_	_	APPR	_	_	_	_	_	B-PC	APPR	s515_1
+2	solchen	_	_	PDAT	_	_	_	_	_	I-PC	DDEM	s515_2
+3	Messeren	_	_	NN	_	_	_	_	_	I-PC	NA	s515_3
+4	thund	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s515_4
+5	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s515_5
+6	sehr	_	_	ADV	_	_	_	_	_	B-NC	AVD	s515_6
+7	starcke	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s515_7
+8	straeich	_	_	NN	_	_	_	_	_	I-NC	NA	s515_8
+9	.	_	_	$.	_	_	_	_	_	O	$.	s515_9
+10	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s515_10
+
+# sent_id = 59
+# sent_id(Tiger) = s524
+# text = Dann sie werden durch einen gluecklichen angriff sicher / vnd vermeinen / (,) sie haben den sieg schon in den haenden : (,) welchen sie bald verlieren . (.)
+1	Dann	_	_	KON	_	_	_	_	_	O	KON	s524_1
+2	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s524_2
+3	werden	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s524_3
+4	durch	_	_	APPR	_	_	_	_	_	B-PC	APPR	s524_4
+5	einen	_	_	ART	_	_	_	_	_	I-PC	DARTU	s524_5
+6	gluecklichen	_	_	ADJA	_	_	_	_	_	I-PC	ADJA	s524_6
+7	angriff	_	_	NN	_	_	_	_	_	I-PC	NA	s524_7
+8	sicher	_	_	ADJD	_	_	_	_	_	B-AC	ADJD	s524_8
+9	/	_	_	$(	_	_	_	_	_	O	$(	s524_9
+10	vnd	_	_	KON	_	_	_	_	_	O	KON	s524_10
+11	vermeinen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s524_11
+12	/	_	_	$,	_	_	_	_	_	O	$(	s524_12
+13	(,)	_	_	$,	_	_	_	_	_	O	$MK	s524_13
+14	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s524_14
+15	haben	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s524_15
+16	den	_	_	ART	_	_	_	_	_	B-NC	DARTB	s524_16
+17	sieg	_	_	NN	_	_	_	_	_	I-NC	NA	s524_17
+18	schon	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s524_18
+19	in	_	_	APPR	_	_	_	_	_	B-PC	APPR	s524_19
+20	den	_	_	ART	_	_	_	_	_	I-PC	DARTB	s524_20
+21	haenden	_	_	NN	_	_	_	_	_	I-PC	NA	s524_21
+22	:	_	_	$,	_	_	_	_	_	O	$:	s524_22
+23	(,)	_	_	$,	_	_	_	_	_	O	$MK	s524_23
+24	welchen	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s524_24
+25	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s524_25
+26	bald	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s524_26
+27	verlieren	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s524_27
+28	.	_	_	$.	_	_	_	_	_	O	$.	s524_28
+29	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s524_29
+
+# sent_id = 60
+# sent_id(Tiger) = s525
+# text = Wann sie aber den sieg erhalten / (,) hawen sie allen jhren Feinden die koepff ab / (,) sie seyen jung oder alt / (,) Weib oder Mann : (.)
+1	Wann	_	_	KOUS	_	_	_	_	_	O	KOUS	s525_1
+2	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s525_2
+3	aber	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s525_3
+4	den	_	_	ART	_	_	_	_	_	B-NC	DARTB	s525_4
+5	sieg	_	_	NN	_	_	_	_	_	I-NC	NA	s525_5
+6	erhalten	_	_	VVPP	_	_	_	_	_	O	VVPP	s525_6
+7	/	_	_	$,	_	_	_	_	_	O	$(	s525_7
+8	(,)	_	_	$,	_	_	_	_	_	O	$MK	s525_8
+9	hawen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s525_9
+10	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s525_10
+11	allen	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s525_11
+12	jhren	_	_	PPOSAT	_	_	_	_	_	I-NC	DPOS	s525_12
+13	Feinden	_	_	NN	_	_	_	_	_	I-NC	NA	s525_13
+14	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s525_14
+15	koepff	_	_	NN	_	_	_	_	_	I-NC	NA	s525_15
+16	ab	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s525_16
+17	/	_	_	$,	_	_	_	_	_	O	$(	s525_17
+18	(,)	_	_	$,	_	_	_	_	_	O	$MK	s525_18
+19	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s525_19
+20	seyen	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s525_20
+21	jung	_	_	ADJD	_	_	_	_	_	B-AC	ADJD	s525_21
+22	oder	_	_	KON	_	_	_	_	_	O	KON	s525_22
+23	alt	_	_	ADJD	_	_	_	_	_	B-AC	ADJD	s525_23
+24	/	_	_	$,	_	_	_	_	_	O	$(	s525_24
+25	(,)	_	_	$,	_	_	_	_	_	O	$MK	s525_25
+26	Weib	_	_	NN	_	_	_	_	_	B-NC	NA	s525_26
+27	oder	_	_	KON	_	_	_	_	_	O	KON	s525_27
+28	Mann	_	_	NN	_	_	_	_	_	B-NC	NA	s525_28
+29	:	_	_	$.	_	_	_	_	_	O	$:	s525_29
+30	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s525_30
+
+# sent_id = 61
+# sent_id(Tiger) = s560
+# text = Acht wochen nach disem Streit ist das Stadische Kriegsschiff Gelderlands zu More mit Proviant vnd Munition an komen . Welches vns die erste zeitung gebracht / (,) daß der Pfaltzgraff vnd Churfuerst zu Heydelberg seye Koenig in Boehem worden . (.)
+1	Acht	_	_	CARD	_	_	_	_	_	B-NC	CARD	s560_1
+2	wochen	_	_	NN	_	_	_	_	_	I-NC	NA	s560_2
+3	nach	_	_	APPR	_	_	_	_	_	B-PC	APPR	s560_3
+4	disem	_	_	PDAT	_	_	_	_	_	I-PC	DDEM	s560_4
+5	Streit	_	_	NN	_	_	_	_	_	I-PC	NA	s560_5
+6	ist	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s560_6
+7	das	_	_	ART	_	_	_	_	_	B-NC	DARTB	s560_7
+8	Stadische	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s560_8
+9	Kriegsschiff	_	_	NN	_	_	_	_	_	I-NC	NA	s560_9
+10	Gelderlands	_	_	NE	_	_	_	_	_	B-NC	NE	s560_10
+11	zu	_	_	APPR	_	_	_	_	_	B-PC	APPR	s560_11
+12	More	_	_	NE	_	_	_	_	_	I-PC	NE	s560_12
+13	mit	_	_	APPR	_	_	_	_	_	B-PC	APPR	s560_13
+14	Proviant	_	_	NN	_	_	_	_	_	I-PC	NA	s560_14
+15	vnd	_	_	KON	_	_	_	_	_	O	KON	s560_15
+16	Munition	_	_	NN	_	_	_	_	_	B-NC	NA	s560_16
+17	an	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s560_17
+18	komen	_	_	VVPP	_	_	_	_	_	O	VVPP	s560_18
+19	.	_	_	$.	_	_	_	_	_	O	$.	s560_19
+20	Welches	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s560_20
+21	vns	_	_	PPER	_	_	_	_	_	B-NC	PPER	s560_21
+22	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s560_22
+23	erste	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s560_23
+24	zeitung	_	_	NN	_	_	_	_	_	I-NC	NA	s560_24
+25	gebracht	_	_	VVPP	_	_	_	_	_	O	VVPP	s560_25
+26	/	_	_	$,	_	_	_	_	_	O	$(	s560_26
+27	(,)	_	_	$,	_	_	_	_	_	O	$MK	s560_27
+28	daß	_	_	KOUS	_	_	_	_	_	O	KOUS	s560_28
+29	der	_	_	ART	_	_	_	_	_	B-NC	DARTB	s560_29
+30	Pfaltzgraff	_	_	NN	_	_	_	_	_	I-NC	NA	s560_30
+31	vnd	_	_	KON	_	_	_	_	_	O	KON	s560_31
+32	Churfuerst	_	_	NN	_	_	_	_	_	B-NC	NA	s560_32
+33	zu	_	_	APPR	_	_	_	_	_	B-PC	APPR	s560_33
+34	Heydelberg	_	_	NE	_	_	_	_	_	I-PC	NE	s560_34
+35	seye	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s560_35
+36	Koenig	_	_	NN	_	_	_	_	_	B-NC	NA	s560_36
+37	in	_	_	APPR	_	_	_	_	_	B-PC	APPR	s560_37
+38	Boehem	_	_	NE	_	_	_	_	_	I-PC	NE	s560_38
+39	worden	_	_	VAPP	_	_	_	_	_	O	VAPP	s560_39
+40	.	_	_	$.	_	_	_	_	_	O	$.	s560_40
+41	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s560_41
+
+# sent_id = 62
+# sent_id(Tiger) = s561
+# text = Jn der nacht thaten wir so manchen schutz auff der Festung / wie auch auß allen Schiffen / (,) so allda gelegen / (,) daß die Spanier vermeint / (,) es seye ein newer Feind auff die grentzen komen . Deßhalben etliche Forgata auß geschickt wurden . (.)
+1	Jn	_	_	APPR	_	_	_	_	_	B-PC	APPR	s561_1
+2	der	_	_	ART	_	_	_	_	_	I-PC	DARTB	s561_2
+3	nacht	_	_	NN	_	_	_	_	_	I-PC	NA	s561_3
+4	thaten	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s561_4
+5	wir	_	_	PPER	_	_	_	_	_	B-NC	PPER	s561_5
+6	so	_	_	ADV	_	_	_	_	_	B-NC	AVD	s561_6
+7	manchen	_	_	PIAT	_	_	_	_	_	I-NC	DINDEF	s561_7
+8	schutz	_	_	NN	_	_	_	_	_	I-NC	NA	s561_8
+9	auff	_	_	APPR	_	_	_	_	_	B-PC	APPR	s561_9
+10	der	_	_	ART	_	_	_	_	_	I-PC	DARTB	s561_10
+11	Festung	_	_	NN	_	_	_	_	_	I-PC	NA	s561_11
+12	/	_	_	$(	_	_	_	_	_	O	$(	s561_12
+13	wie	_	_	KON	_	_	_	_	_	O	KON	s561_13
+14	auch	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s561_14
+15	auß	_	_	APPR	_	_	_	_	_	B-PC	APPR	s561_15
+16	allen	_	_	PIAT	_	_	_	_	_	I-PC	DINDEF	s561_16
+17	Schiffen	_	_	NN	_	_	_	_	_	I-PC	NA	s561_17
+18	/	_	_	$,	_	_	_	_	_	O	$(	s561_18
+19	(,)	_	_	$,	_	_	_	_	_	O	$MK	s561_19
+20	so	_	_	ADV	_	_	_	_	_	B-ADVC	PTKREL	s561_20
+21	allda	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s561_21
+22	gelegen	_	_	VVPP	_	_	_	_	_	O	VVPP	s561_22
+23	/	_	_	$,	_	_	_	_	_	O	$(	s561_23
+24	(,)	_	_	$,	_	_	_	_	_	O	$MK	s561_24
+25	daß	_	_	KOUS	_	_	_	_	_	O	KOUS	s561_25
+26	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s561_26
+27	Spanier	_	_	NN	_	_	_	_	_	I-NC	NA	s561_27
+28	vermeint	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s561_28
+29	/	_	_	$,	_	_	_	_	_	O	$(	s561_29
+30	(,)	_	_	$,	_	_	_	_	_	O	$MK	s561_30
+31	es	_	_	PPER	_	_	_	_	_	B-NC	PPER	s561_31
+32	seye	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s561_32
+33	ein	_	_	ART	_	_	_	_	_	B-NC	DARTU	s561_33
+34	newer	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s561_34
+35	Feind	_	_	NN	_	_	_	_	_	I-NC	NA	s561_35
+36	auff	_	_	APPR	_	_	_	_	_	B-PC	APPR	s561_36
+37	die	_	_	ART	_	_	_	_	_	I-PC	DARTB	s561_37
+38	grentzen	_	_	NN	_	_	_	_	_	I-PC	NA	s561_38
+39	komen	_	_	VVPP	_	_	_	_	_	O	VVPP	s561_39
+40	.	_	_	$.	_	_	_	_	_	O	$.	s561_40
+41	Deßhalben	_	_	ADV	_	_	_	_	_	B-ADVC	AVREL	s561_41
+42	etliche	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s561_42
+43	Forgata	_	_	NN	_	_	_	_	_	I-NC	NA	s561_43
+44	auß	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s561_44
+45	geschickt	_	_	VVPP	_	_	_	_	_	O	VVPP	s561_45
+46	wurden	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s561_46
+47	.	_	_	$.	_	_	_	_	_	O	$.	s561_47
+48	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s561_48
+
+# sent_id = 63
+# sent_id(Tiger) = s562
+# text = Weil es aber nahe war / vnd sie nicht doerffen in die Flotta kommen / (,) hiemit der tag an gebrochen / (,) haben sie wol gemercket / (,) daß es sonst etwas newes seyn muß . (.)
+1	Weil	_	_	KOUS	_	_	_	_	_	O	KOUS	s562_1
+2	es	_	_	PPER	_	_	_	_	_	B-NC	PPER	s562_2
+3	aber	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s562_3
+4	nahe	_	_	ADJD	_	_	_	_	_	B-AC	ADJD	s562_4
+5	war	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s562_5
+6	/	_	_	$(	_	_	_	_	_	O	$(	s562_6
+7	vnd	_	_	KON	_	_	_	_	_	O	KON	s562_7
+8	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s562_8
+9	nicht	_	_	PTKNEG	_	_	_	_	_	B-ADVC	PTKNEG	s562_9
+10	doerffen	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s562_10
+11	in	_	_	APPR	_	_	_	_	_	B-PC	APPR	s562_11
+12	die	_	_	ART	_	_	_	_	_	I-PC	DARTB	s562_12
+13	Flotta	_	_	FM	_	_	_	_	_	I-PC	FM	s562_13
+14	kommen	_	_	VVINF	_	_	_	_	_	O	VVINF	s562_14
+15	/	_	_	$,	_	_	_	_	_	O	$(	s562_15
+16	(,)	_	_	$,	_	_	_	_	_	O	$MK	s562_16
+17	hiemit	_	_	KOUS	_	_	_	_	_	O	KOUS	s562_17
+18	der	_	_	ART	_	_	_	_	_	B-NC	DARTB	s562_18
+19	tag	_	_	NN	_	_	_	_	_	I-NC	NA	s562_19
+20	an	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s562_20
+21	gebrochen	_	_	VVPP	_	_	_	_	_	O	VVPP	s562_21
+22	/	_	_	$,	_	_	_	_	_	O	$(	s562_22
+23	(,)	_	_	$,	_	_	_	_	_	O	$MK	s562_23
+24	haben	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s562_24
+25	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s562_25
+26	wol	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s562_26
+27	gemercket	_	_	VVPP	_	_	_	_	_	O	VVPP	s562_27
+28	/	_	_	$,	_	_	_	_	_	O	$(	s562_28
+29	(,)	_	_	$,	_	_	_	_	_	O	$MK	s562_29
+30	daß	_	_	KOUS	_	_	_	_	_	O	KOUS	s562_30
+31	es	_	_	PPER	_	_	_	_	_	B-NC	PPER	s562_31
+32	sonst	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s562_32
+33	etwas	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s562_33
+34	newes	_	_	ADJA	_	_	_	_	_	I-NC	ADJS	s562_34
+35	seyn	_	_	VAINF	_	_	_	_	_	O	VAINF	s562_35
+36	muß	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s562_36
+37	.	_	_	$.	_	_	_	_	_	O	$.	s562_37
+38	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s562_38
+
+# sent_id = 64
+# sent_id(Tiger) = s567
+# text = Die vbrigen seind entloffen . (.)
+1	Die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s567_1
+2	vbrigen	_	_	ADJA	_	_	_	_	_	I-NC	ADJS	s567_2
+3	seind	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s567_3
+4	entloffen	_	_	VVPP	_	_	_	_	_	O	VVPP	s567_4
+5	.	_	_	$.	_	_	_	_	_	O	$.	s567_5
+6	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s567_6
+
+# sent_id = 65
+# sent_id(Tiger) = s579
+# text = Dann es hat niemands jhrer warten woellen : (,) weil der Feind vermeint / (,) es seyen abermals Holaender bey jhnen / (,) wie zuvor auch beschehen . (,) Vor welchen sich die Schwartzen hefftig entsetzen . Dann dieselbigen mit einer kugel / (,) so in 8 . stück gespalten / (,) 6 . Mannen verwunden koennen . (.)
+1	Dann	_	_	KON	_	_	_	_	_	O	KON	s579_1
+2	es	_	_	PPER	_	_	_	_	_	B-NC	PPER	s579_2
+3	hat	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s579_3
+4	niemands	_	_	PIS	_	_	_	_	_	B-NC	PINDEF	s579_4
+5	jhrer	_	_	PPER	_	_	_	_	_	B-NC	PPER	s579_5
+6	warten	_	_	VVINF	_	_	_	_	_	O	VVINF	s579_6
+7	woellen	_	_	VMINF	_	_	_	_	_	O	VMINF	s579_7
+8	:	_	_	$,	_	_	_	_	_	O	$:	s579_8
+9	(,)	_	_	$,	_	_	_	_	_	O	$MK	s579_9
+10	weil	_	_	KOUS	_	_	_	_	_	O	KOUS	s579_10
+11	der	_	_	ART	_	_	_	_	_	B-NC	DARTB	s579_11
+12	Feind	_	_	NN	_	_	_	_	_	I-NC	NA	s579_12
+13	vermeint	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s579_13
+14	/	_	_	$,	_	_	_	_	_	O	$(	s579_14
+15	(,)	_	_	$,	_	_	_	_	_	O	$MK	s579_15
+16	es	_	_	PPER	_	_	_	_	_	B-NC	PPER	s579_16
+17	seyen	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s579_17
+18	abermals	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s579_18
+19	Holaender	_	_	NN	_	_	_	_	_	B-NC	NA	s579_19
+20	bey	_	_	APPR	_	_	_	_	_	B-PC	APPR	s579_20
+21	jhnen	_	_	PPER	_	_	_	_	_	I-PC	PPER	s579_21
+22	/	_	_	$,	_	_	_	_	_	O	$(	s579_22
+23	(,)	_	_	$,	_	_	_	_	_	O	$MK	s579_23
+24	wie	_	_	KOKOM	_	_	_	_	_	B-ADVC	KOKOM	s579_24
+25	zuvor	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s579_25
+26	auch	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s579_26
+27	beschehen	_	_	VVPP	_	_	_	_	_	O	VVPP	s579_27
+28	.	_	_	$,	_	_	_	_	_	O	$.	s579_28
+29	(,)	_	_	$,	_	_	_	_	_	O	$MK	s579_29
+30	Vor	_	_	APPR	_	_	_	_	_	B-PC	APPR	s579_30
+31	welchen	_	_	PRELS	_	_	_	_	_	I-PC	PRELS	s579_31
+32	sich	_	_	PRF	_	_	_	_	_	B-NC	PRF	s579_32
+33	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s579_33
+34	Schwartzen	_	_	ADJA	_	_	_	_	_	B-AC	ADJS	s579_34
+35	hefftig	_	_	ADJD	_	_	_	_	_	I-AC	ADJV	s579_35
+36	entsetzen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s579_36
+37	.	_	_	$.	_	_	_	_	_	O	$.	s579_37
+38	Dann	_	_	KOUS	_	_	_	_	_	O	KOUS	s579_38
+39	dieselbigen	_	_	PDS	_	_	_	_	_	B-NC	PDEM	s579_39
+40	mit	_	_	APPR	_	_	_	_	_	B-PC	APPR	s579_40
+41	einer	_	_	ART	_	_	_	_	_	I-PC	DARTU	s579_41
+42	kugel	_	_	NN	_	_	_	_	_	I-PC	NA	s579_42
+43	/	_	_	$,	_	_	_	_	_	O	$(	s579_43
+44	(,)	_	_	$,	_	_	_	_	_	O	$MK	s579_44
+45	so	_	_	ADV	_	_	_	_	_	B-ADVC	PTKREL	s579_45
+46	in	_	_	APPR	_	_	_	_	_	B-PC	APPR	s579_46
+47	8	_	_	CARD	_	_	_	_	_	I-PC	CARD	s579_47
+48	.	_	_	$.	_	_	_	_	_	O	$.	s579_48
+49	stück	_	_	NN	_	_	_	_	_	B-NC	NA	s579_49
+50	gespalten	_	_	ADJD	_	_	_	_	_	B-AC	VVPPD	s579_50
+51	/	_	_	$,	_	_	_	_	_	O	$(	s579_51
+52	(,)	_	_	$,	_	_	_	_	_	O	$MK	s579_52
+53	6	_	_	CARD	_	_	_	_	_	B-NC	CARD	s579_53
+54	.	_	_	$.	_	_	_	_	_	O	$.	s579_54
+55	Mannen	_	_	NN	_	_	_	_	_	B-NC	NA	s579_55
+56	verwunden	_	_	VVINF	_	_	_	_	_	O	VVINF	s579_56
+57	koennen	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s579_57
+58	.	_	_	$.	_	_	_	_	_	O	$.	s579_58
+59	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s579_59
+
+# sent_id = 66
+# sent_id(Tiger) = s580
+# text = Ende der dritten Raeiß . Schiffart / c . (,) welche an der zahl die fuenffte ist : (,) in der ordnung aber die dritte seyn soll . (.)
+1	Ende	_	_	NN	_	_	_	_	_	B-NC	NA	s580_1
+2	der	_	_	ART	_	_	_	_	_	B-NC	DARTB	s580_2
+3	dritten	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s580_3
+4	Raeiß	_	_	NN	_	_	_	_	_	I-NC	NA	s580_4
+5	.	_	_	$.	_	_	_	_	_	O	$.	s580_5
+6	Schiffart	_	_	NN	_	_	_	_	_	B-NC	NA	s580_6
+7	/	_	_	$(	_	_	_	_	_	O	$(	s580_7
+8	c	_	_	FM	_	_	_	_	_	O	FM	s580_8
+9	.	_	_	$,	_	_	_	_	_	O	$.	s580_9
+10	(,)	_	_	$,	_	_	_	_	_	O	$MK	s580_10
+11	welche	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s580_11
+12	an	_	_	APPR	_	_	_	_	_	B-PC	APPR	s580_12
+13	der	_	_	ART	_	_	_	_	_	I-PC	DARTB	s580_13
+14	zahl	_	_	NN	_	_	_	_	_	I-PC	NA	s580_14
+15	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s580_15
+16	fuenffte	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s580_16
+17	ist	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s580_17
+18	:	_	_	$,	_	_	_	_	_	O	$:	s580_18
+19	(,)	_	_	$,	_	_	_	_	_	O	$MK	s580_19
+20	in	_	_	APPR	_	_	_	_	_	B-PC	APPR	s580_20
+21	der	_	_	ART	_	_	_	_	_	I-PC	DARTB	s580_21
+22	ordnung	_	_	NN	_	_	_	_	_	I-PC	NA	s580_22
+23	aber	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s580_23
+24	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s580_24
+25	dritte	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s580_25
+26	seyn	_	_	VAINF	_	_	_	_	_	O	VAINF	s580_26
+27	soll	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s580_27
+28	.	_	_	$.	_	_	_	_	_	O	$.	s580_28
+29	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s580_29
+
+# sent_id = 67
+# sent_id(Tiger) = s585
+# text = Alßbald wir solches vernommen / (,) seind zween Orlogschiffs Hauptleuth / (,) namlich Ellard Thomas-son von Amsterdam / (,) vnd Jan Tis-son von Horn / (,) auff selbiges Raubschiff zu gefahren . (.)
+1	Alßbald	_	_	KOUS	_	_	_	_	_	O	KOUS	s585_1
+2	wir	_	_	PPER	_	_	_	_	_	B-NC	PPER	s585_2
+3	solches	_	_	PDS	_	_	_	_	_	B-NC	PDEM	s585_3
+4	vernommen	_	_	VVPP	_	_	_	_	_	O	VVPP	s585_4
+5	/	_	_	$,	_	_	_	_	_	O	$(	s585_5
+6	(,)	_	_	$,	_	_	_	_	_	O	$MK	s585_6
+7	seind	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s585_7
+8	zween	_	_	CARD	_	_	_	_	_	B-NC	CARD	s585_8
+9	Orlogschiffs	_	_	NN	_	_	_	_	_	I-NC	NA	s585_9
+10	Hauptleuth	_	_	NN	_	_	_	_	_	B-NC	NA	s585_10
+11	/	_	_	$,	_	_	_	_	_	O	$(	s585_11
+12	(,)	_	_	$,	_	_	_	_	_	O	$MK	s585_12
+13	namlich	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s585_13
+14	Ellard	_	_	NE	_	_	_	_	_	B-NC	NE	s585_14
+15	Thomas-son	_	_	NE	_	_	_	_	_	I-NC	NE	s585_15
+16	von	_	_	APPR	_	_	_	_	_	B-PC	APPR	s585_16
+17	Amsterdam	_	_	NE	_	_	_	_	_	I-PC	NE	s585_17
+18	/	_	_	$,	_	_	_	_	_	O	$(	s585_18
+19	(,)	_	_	$,	_	_	_	_	_	O	$MK	s585_19
+20	vnd	_	_	KON	_	_	_	_	_	O	KON	s585_20
+21	Jan	_	_	NE	_	_	_	_	_	B-NC	NE	s585_21
+22	Tis-son	_	_	NE	_	_	_	_	_	I-NC	NE	s585_22
+23	von	_	_	APPR	_	_	_	_	_	B-PC	APPR	s585_23
+24	Horn	_	_	NE	_	_	_	_	_	I-PC	NE	s585_24
+25	/	_	_	$,	_	_	_	_	_	O	$(	s585_25
+26	(,)	_	_	$,	_	_	_	_	_	O	$MK	s585_26
+27	auff	_	_	APPR	_	_	_	_	_	B-PC	APPR	s585_27
+28	selbiges	_	_	PDAT	_	_	_	_	_	I-PC	DDEM	s585_28
+29	Raubschiff	_	_	NN	_	_	_	_	_	I-PC	NA	s585_29
+30	zu	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s585_30
+31	gefahren	_	_	VVPP	_	_	_	_	_	O	VVPP	s585_31
+32	.	_	_	$.	_	_	_	_	_	O	$.	s585_32
+33	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s585_33
+
+# sent_id = 68
+# sent_id(Tiger) = s591
+# text = Vnd ich hab offt selbs erfahren / (,) daß 60 . Man auff einem Kauffmans-schiff im streiten sich besser gehalten haben / dann aber 100 . oder mehr auff Kriegsschiffen . (.)
+1	Vnd	_	_	KON	_	_	_	_	_	O	KON	s591_1
+2	ich	_	_	PPER	_	_	_	_	_	B-NC	PPER	s591_2
+3	hab	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s591_3
+4	offt	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s591_4
+5	selbs	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s591_5
+6	erfahren	_	_	VVPP	_	_	_	_	_	O	VVPP	s591_6
+7	/	_	_	$,	_	_	_	_	_	O	$(	s591_7
+8	(,)	_	_	$,	_	_	_	_	_	O	$MK	s591_8
+9	daß	_	_	KOUS	_	_	_	_	_	O	KOUS	s591_9
+10	60	_	_	CARD	_	_	_	_	_	B-NC	CARD	s591_10
+11	.	_	_	$.	_	_	_	_	_	O	$.	s591_11
+12	Man	_	_	NN	_	_	_	_	_	B-NC	NA	s591_12
+13	auff	_	_	APPR	_	_	_	_	_	B-PC	APPR	s591_13
+14	einem	_	_	ART	_	_	_	_	_	I-PC	DARTU	s591_14
+15	Kauffmans-schiff	_	_	NN	_	_	_	_	_	I-PC	NA	s591_15
+16	im	_	_	APPRART	_	_	_	_	_	B-PC	APPRDARTB	s591_16
+17	streiten	_	_	NN	_	_	_	_	_	I-PC	VVINFS	s591_17
+18	sich	_	_	PRF	_	_	_	_	_	B-NC	PRF	s591_18
+19	besser	_	_	ADJD	_	_	_	_	_	B-AC	ADJV	s591_19
+20	gehalten	_	_	VVPP	_	_	_	_	_	O	VVPP	s591_20
+21	haben	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s591_21
+22	/	_	_	$(	_	_	_	_	_	O	$(	s591_22
+23	dann	_	_	KOKOM	_	_	_	_	_	B-ADVC	KOKOM	s591_23
+24	aber	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s591_24
+25	100	_	_	CARD	_	_	_	_	_	B-NC	CARD	s591_25
+26	.	_	_	$.	_	_	_	_	_	O	$.	s591_26
+27	oder	_	_	KON	_	_	_	_	_	O	KON	s591_27
+28	mehr	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s591_28
+29	auff	_	_	APPR	_	_	_	_	_	B-PC	APPR	s591_29
+30	Kriegsschiffen	_	_	NN	_	_	_	_	_	I-PC	NA	s591_30
+31	.	_	_	$.	_	_	_	_	_	O	$.	s591_31
+32	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s591_32
+
+# sent_id = 69
+# sent_id(Tiger) = s611
+# text = Etliche begaben sich darvon / (,) in hoffnung / (,) sich mit schwimen an das Land zu salvieren . (.)
+1	Etliche	_	_	PIS	_	_	_	_	_	B-NC	PINDEF	s611_1
+2	begaben	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s611_2
+3	sich	_	_	PRF	_	_	_	_	_	B-NC	PRF	s611_3
+4	darvon	_	_	PAV	_	_	_	_	_	B-NC	PAVDAP	s611_4
+5	/	_	_	$,	_	_	_	_	_	O	$(	s611_5
+6	(,)	_	_	$,	_	_	_	_	_	O	$MK	s611_6
+7	in	_	_	APPR	_	_	_	_	_	B-PC	APPR	s611_7
+8	hoffnung	_	_	NN	_	_	_	_	_	I-PC	NA	s611_8
+9	/	_	_	$,	_	_	_	_	_	O	$(	s611_9
+10	(,)	_	_	$,	_	_	_	_	_	O	$MK	s611_10
+11	sich	_	_	PRF	_	_	_	_	_	B-NC	PRF	s611_11
+12	mit	_	_	APPR	_	_	_	_	_	B-PC	APPR	s611_12
+13	schwimen	_	_	NN	_	_	_	_	_	I-PC	VVINFS	s611_13
+14	an	_	_	APPR	_	_	_	_	_	B-PC	APPR	s611_14
+15	das	_	_	ART	_	_	_	_	_	I-PC	DARTB	s611_15
+16	Land	_	_	NN	_	_	_	_	_	I-PC	NA	s611_16
+17	zu	_	_	PTKZU	_	_	_	_	_	O	PTKZU	s611_17
+18	salvieren	_	_	VVINF	_	_	_	_	_	O	VVINF	s611_18
+19	.	_	_	$.	_	_	_	_	_	O	$.	s611_19
+20	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s611_20
+
+# sent_id = 70
+# sent_id(Tiger) = s612
+# text = Dadurch das Boot leichter worden . (.)
+1	Dadurch	_	_	PAV	_	_	_	_	_	O	PAVRELAP	s612_1
+2	das	_	_	ART	_	_	_	_	_	B-NC	DARTB	s612_2
+3	Boot	_	_	NN	_	_	_	_	_	I-NC	NA	s612_3
+4	leichter	_	_	ADJD	_	_	_	_	_	B-AC	ADJD	s612_4
+5	worden	_	_	VAPP	_	_	_	_	_	O	VAPP	s612_5
+6	.	_	_	$.	_	_	_	_	_	O	$.	s612_6
+7	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s612_7
+
+# sent_id = 71
+# sent_id(Tiger) = s631
+# text = Dieselbige Moladin fragte mich auch : (,) ob ich ein Christ were ? (.)
+1	Dieselbige	_	_	PDAT	_	_	_	_	_	B-NC	DDEM	s631_1
+2	Moladin	_	_	NE	_	_	_	_	_	I-NC	NE	s631_2
+3	fragte	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s631_3
+4	mich	_	_	PPER	_	_	_	_	_	B-NC	PPER	s631_4
+5	auch	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s631_5
+6	:	_	_	$,	_	_	_	_	_	O	$:	s631_6
+7	(,)	_	_	$,	_	_	_	_	_	O	$MK	s631_7
+8	ob	_	_	KOUS	_	_	_	_	_	O	KOUS	s631_8
+9	ich	_	_	PPER	_	_	_	_	_	B-NC	PPER	s631_9
+10	ein	_	_	ART	_	_	_	_	_	B-NC	DARTU	s631_10
+11	Christ	_	_	NN	_	_	_	_	_	I-NC	NA	s631_11
+12	were	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s631_12
+13	?	_	_	$.	_	_	_	_	_	O	$?	s631_13
+14	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s631_14
+
+# sent_id = 72
+# sent_id(Tiger) = s632
+# text = Vnd alß ich jhren / wie zuvor / geantwortet : (,) begerte sie an mich / (,) ich solte mit jhro heim gehen in jhr Hauß . (.)
+1	Vnd	_	_	KON	_	_	_	_	_	O	KON	s632_1
+2	alß	_	_	KOUS	_	_	_	_	_	O	KOUS	s632_2
+3	ich	_	_	PPER	_	_	_	_	_	B-NC	PPER	s632_3
+4	jhren	_	_	PPER	_	_	_	_	_	B-NC	PPER	s632_4
+5	/	_	_	$(	_	_	_	_	_	O	$(	s632_5
+6	wie	_	_	KOKOM	_	_	_	_	_	B-ADVC	KOKOM	s632_6
+7	zuvor	_	_	ADV	_	_	_	_	_	I-ADVC	AVD	s632_7
+8	/	_	_	$(	_	_	_	_	_	O	$(	s632_8
+9	geantwortet	_	_	VVPP	_	_	_	_	_	O	VVPP	s632_9
+10	:	_	_	$,	_	_	_	_	_	O	$:	s632_10
+11	(,)	_	_	$,	_	_	_	_	_	O	$MK	s632_11
+12	begerte	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s632_12
+13	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s632_13
+14	an	_	_	APPR	_	_	_	_	_	B-PC	APPR	s632_14
+15	mich	_	_	PPER	_	_	_	_	_	I-PC	PPER	s632_15
+16	/	_	_	$,	_	_	_	_	_	O	$(	s632_16
+17	(,)	_	_	$,	_	_	_	_	_	O	$MK	s632_17
+18	ich	_	_	PPER	_	_	_	_	_	B-NC	PPER	s632_18
+19	solte	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s632_19
+20	mit	_	_	APPR	_	_	_	_	_	B-PC	APPR	s632_20
+21	jhro	_	_	PPER	_	_	_	_	_	I-PC	PPER	s632_21
+22	heim	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s632_22
+23	gehen	_	_	VVINF	_	_	_	_	_	O	VVINF	s632_23
+24	in	_	_	APPR	_	_	_	_	_	B-PC	APPR	s632_24
+25	jhr	_	_	PPOSAT	_	_	_	_	_	I-PC	DPOS	s632_25
+26	Hauß	_	_	NN	_	_	_	_	_	I-PC	NA	s632_26
+27	.	_	_	$.	_	_	_	_	_	O	$.	s632_27
+28	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s632_28
+
+# sent_id = 73
+# sent_id(Tiger) = s656
+# text = Die anderen Kauffmanschiff muessen jhre Wahren vertauschen vmb andere Wahren . (.)
+1	Die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s656_1
+2	anderen	_	_	PIAT	_	_	_	_	_	I-NC	DINDEF	s656_2
+3	Kauffmanschiff	_	_	NN	_	_	_	_	_	I-NC	NA	s656_3
+4	muessen	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s656_4
+5	jhre	_	_	PPOSAT	_	_	_	_	_	B-NC	DPOS	s656_5
+6	Wahren	_	_	NN	_	_	_	_	_	I-NC	NA	s656_6
+7	vertauschen	_	_	VVINF	_	_	_	_	_	O	VVINF	s656_7
+8	vmb	_	_	APPR	_	_	_	_	_	B-PC	APPR	s656_8
+9	andere	_	_	PIAT	_	_	_	_	_	I-PC	DINDEF	s656_9
+10	Wahren	_	_	NN	_	_	_	_	_	I-PC	NA	s656_10
+11	.	_	_	$.	_	_	_	_	_	O	$.	s656_11
+12	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s656_12
+
+# sent_id = 74
+# sent_id(Tiger) = s665
+# text = Zu derselbigen zeit kamen 3 . grosse Schiff / (,) auff Portugalisch / Karackes genennt / (,) auß OstJndia / (,) welche etwan 900 . last groß seind / vnd gemeinlich 1000 . Menschen auff haben / (,) wann sie auß Portugal fahren . (.)
+1	Zu	_	_	APPR	_	_	_	_	_	B-PC	APPR	s665_1
+2	derselbigen	_	_	PDAT	_	_	_	_	_	I-PC	DDEM	s665_2
+3	zeit	_	_	NN	_	_	_	_	_	I-PC	NA	s665_3
+4	kamen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s665_4
+5	3	_	_	CARD	_	_	_	_	_	B-NC	CARD	s665_5
+6	.	_	_	$.	_	_	_	_	_	O	$.	s665_6
+7	grosse	_	_	ADJA	_	_	_	_	_	B-NC	ADJA	s665_7
+8	Schiff	_	_	NN	_	_	_	_	_	I-NC	NA	s665_8
+9	/	_	_	$,	_	_	_	_	_	O	$(	s665_9
+10	(,)	_	_	$,	_	_	_	_	_	O	$MK	s665_10
+11	auff	_	_	APPR	_	_	_	_	_	B-PC	APPR	s665_11
+12	Portugalisch	_	_	ADJA	_	_	_	_	_	I-PC	ADJS	s665_12
+13	/	_	_	$(	_	_	_	_	_	I-PC	$(	s665_13
+14	Karackes	_	_	NE	_	_	_	_	_	I-PC	NE	s665_14
+15	genennt	_	_	VVPP	_	_	_	_	_	O	VVPPN	s665_15
+16	/	_	_	$,	_	_	_	_	_	O	$(	s665_16
+17	(,)	_	_	$,	_	_	_	_	_	O	$MK	s665_17
+18	auß	_	_	APPR	_	_	_	_	_	B-PC	APPR	s665_18
+19	OstJndia	_	_	NE	_	_	_	_	_	I-PC	NE	s665_19
+20	/	_	_	$,	_	_	_	_	_	O	$(	s665_20
+21	(,)	_	_	$,	_	_	_	_	_	O	$MK	s665_21
+22	welche	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s665_22
+23	etwan	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s665_23
+24	900	_	_	CARD	_	_	_	_	_	B-NC	CARD	s665_24
+25	.	_	_	$.	_	_	_	_	_	O	$.	s665_25
+26	last	_	_	NN	_	_	_	_	_	B-NC	NA	s665_26
+27	groß	_	_	ADJD	_	_	_	_	_	B-AC	ADJD	s665_27
+28	seind	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s665_28
+29	/	_	_	$(	_	_	_	_	_	O	$(	s665_29
+30	vnd	_	_	KON	_	_	_	_	_	O	KON	s665_30
+31	gemeinlich	_	_	ADJD	_	_	_	_	_	B-AC	ADJV	s665_31
+32	1000	_	_	CARD	_	_	_	_	_	B-NC	CARD	s665_32
+33	.	_	_	$.	_	_	_	_	_	O	$.	s665_33
+34	Menschen	_	_	NN	_	_	_	_	_	B-NC	NA	s665_34
+35	auff	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s665_35
+36	haben	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s665_36
+37	/	_	_	$,	_	_	_	_	_	O	$(	s665_37
+38	(,)	_	_	$,	_	_	_	_	_	O	$MK	s665_38
+39	wann	_	_	KOUS	_	_	_	_	_	O	KOUS	s665_39
+40	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s665_40
+41	auß	_	_	APPR	_	_	_	_	_	B-PC	APPR	s665_41
+42	Portugal	_	_	NE	_	_	_	_	_	I-PC	NE	s665_42
+43	fahren	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s665_43
+44	.	_	_	$.	_	_	_	_	_	O	$.	s665_44
+45	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s665_45
+
+# sent_id = 75
+# sent_id(Tiger) = s688
+# text = Sie laufften streng auff vns . Derohalben der Admiral ein stuck looß geschossen . (,) Auff welches vnsere Schiff sich zusamen verfuegt : vnd fragte vnser Admiral / (,) was wir gesinnet weren ? (.)
+1	Sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s688_1
+2	laufften	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s688_2
+3	streng	_	_	ADJD	_	_	_	_	_	B-AC	ADJV	s688_3
+4	auff	_	_	APPR	_	_	_	_	_	B-PC	APPR	s688_4
+5	vns	_	_	PPER	_	_	_	_	_	I-PC	PPER	s688_5
+6	.	_	_	$.	_	_	_	_	_	O	$.	s688_6
+7	Derohalben	_	_	ADV	_	_	_	_	_	B-ADVC	AVREL	s688_7
+8	der	_	_	ART	_	_	_	_	_	B-NC	DARTB	s688_8
+9	Admiral	_	_	NN	_	_	_	_	_	I-NC	NA	s688_9
+10	ein	_	_	ART	_	_	_	_	_	B-NC	DARTU	s688_10
+11	stuck	_	_	NN	_	_	_	_	_	I-NC	NA	s688_11
+12	looß	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s688_12
+13	geschossen	_	_	VVPP	_	_	_	_	_	O	VVPP	s688_13
+14	.	_	_	$,	_	_	_	_	_	O	$.	s688_14
+15	(,)	_	_	$,	_	_	_	_	_	O	$MK	s688_15
+16	Auff	_	_	APPR	_	_	_	_	_	B-PC	APPR	s688_16
+17	welches	_	_	PRELS	_	_	_	_	_	I-PC	PRELS	s688_17
+18	vnsere	_	_	PPOSAT	_	_	_	_	_	B-NC	DPOS	s688_18
+19	Schiff	_	_	NN	_	_	_	_	_	I-NC	NA	s688_19
+20	sich	_	_	PRF	_	_	_	_	_	B-NC	PRF	s688_20
+21	zusamen	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s688_21
+22	verfuegt	_	_	VVPP	_	_	_	_	_	O	VVPP	s688_22
+23	:	_	_	$.	_	_	_	_	_	O	$:	s688_23
+24	vnd	_	_	KON	_	_	_	_	_	O	KON	s688_24
+25	fragte	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s688_25
+26	vnser	_	_	PPOSAT	_	_	_	_	_	B-NC	DPOS	s688_26
+27	Admiral	_	_	NN	_	_	_	_	_	I-NC	NA	s688_27
+28	/	_	_	$,	_	_	_	_	_	O	$(	s688_28
+29	(,)	_	_	$,	_	_	_	_	_	O	$MK	s688_29
+30	was	_	_	PWS	_	_	_	_	_	B-NC	PW	s688_30
+31	wir	_	_	PPER	_	_	_	_	_	B-NC	PPER	s688_31
+32	gesinnet	_	_	ADJD	_	_	_	_	_	B-AC	VVPPD	s688_32
+33	weren	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s688_33
+34	?	_	_	$.	_	_	_	_	_	O	$?	s688_34
+35	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s688_35
+
+# sent_id = 76
+# sent_id(Tiger) = s698
+# text = Dann wir hatten 2 . schoene Schiff / (,) welche jhnen gar wol gefallen . (.)
+1	Dann	_	_	KON	_	_	_	_	_	O	KON	s698_1
+2	wir	_	_	PPER	_	_	_	_	_	B-NC	PPER	s698_2
+3	hatten	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s698_3
+4	2	_	_	CARD	_	_	_	_	_	B-NC	CARD	s698_4
+5	.	_	_	$.	_	_	_	_	_	O	$.	s698_5
+6	schoene	_	_	ADJA	_	_	_	_	_	B-NC	ADJA	s698_6
+7	Schiff	_	_	NN	_	_	_	_	_	I-NC	NA	s698_7
+8	/	_	_	$,	_	_	_	_	_	O	$(	s698_8
+9	(,)	_	_	$,	_	_	_	_	_	O	$MK	s698_9
+10	welche	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s698_10
+11	jhnen	_	_	PPER	_	_	_	_	_	B-NC	PPER	s698_11
+12	gar	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s698_12
+13	wol	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s698_13
+14	gefallen	_	_	VVPP	_	_	_	_	_	O	VVPP	s698_14
+15	.	_	_	$.	_	_	_	_	_	O	$.	s698_15
+16	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s698_16
+
+# sent_id = 77
+# sent_id(Tiger) = s700
+# text = Aber vnser Admiral sagte : (,) Es were jhme nicht gegeben worden zu verkauffen / (,) sondern zu erhalten / (,) so lang es moeglich were : (,) mueßte auch noch manchen blutigen kopff kosten / (,) eh er es verkauffen wolte . (.)
+1	Aber	_	_	KON	_	_	_	_	_	O	KON	s700_1
+2	vnser	_	_	PPOSAT	_	_	_	_	_	B-NC	DPOS	s700_2
+3	Admiral	_	_	NN	_	_	_	_	_	I-NC	NA	s700_3
+4	sagte	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s700_4
+5	:	_	_	$,	_	_	_	_	_	O	$:	s700_5
+6	(,)	_	_	$,	_	_	_	_	_	O	$MK	s700_6
+7	Es	_	_	PPER	_	_	_	_	_	B-NC	PPER	s700_7
+8	were	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s700_8
+9	jhme	_	_	PPER	_	_	_	_	_	B-NC	PPER	s700_9
+10	nicht	_	_	PTKNEG	_	_	_	_	_	B-ADVC	PTKNEG	s700_10
+11	gegeben	_	_	VVPP	_	_	_	_	_	O	VVPP	s700_11
+12	worden	_	_	VAPP	_	_	_	_	_	O	VAPP	s700_12
+13	zu	_	_	PTKZU	_	_	_	_	_	O	PTKZU	s700_13
+14	verkauffen	_	_	VVINF	_	_	_	_	_	O	VVINF	s700_14
+15	/	_	_	$,	_	_	_	_	_	O	$(	s700_15
+16	(,)	_	_	$,	_	_	_	_	_	O	$MK	s700_16
+17	sondern	_	_	KON	_	_	_	_	_	O	KON	s700_17
+18	zu	_	_	PTKZU	_	_	_	_	_	O	PTKZU	s700_18
+19	erhalten	_	_	VVINF	_	_	_	_	_	O	VVINF	s700_19
+20	/	_	_	$,	_	_	_	_	_	O	$(	s700_20
+21	(,)	_	_	$,	_	_	_	_	_	O	$MK	s700_21
+22	so	_	_	KOUS	_	_	_	_	_	O	KOUS	s700_22
+23	lang	_	_	KOUS	_	_	_	_	_	O	KOUS	s700_23
+24	es	_	_	PPER	_	_	_	_	_	B-NC	PPER	s700_24
+25	moeglich	_	_	ADJD	_	_	_	_	_	B-AC	ADJD	s700_25
+26	were	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s700_26
+27	:	_	_	$,	_	_	_	_	_	O	$:	s700_27
+28	(,)	_	_	$,	_	_	_	_	_	O	$MK	s700_28
+29	mueßte	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s700_29
+30	auch	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s700_30
+31	noch	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s700_31
+32	manchen	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s700_32
+33	blutigen	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s700_33
+34	kopff	_	_	NN	_	_	_	_	_	I-NC	NA	s700_34
+35	kosten	_	_	VVINF	_	_	_	_	_	O	VVINF	s700_35
+36	/	_	_	$,	_	_	_	_	_	O	$(	s700_36
+37	(,)	_	_	$,	_	_	_	_	_	O	$MK	s700_37
+38	eh	_	_	KOUS	_	_	_	_	_	O	KOUS	s700_38
+39	er	_	_	PPER	_	_	_	_	_	B-NC	PPER	s700_39
+40	es	_	_	PPER	_	_	_	_	_	B-NC	PPER	s700_40
+41	verkauffen	_	_	VVINF	_	_	_	_	_	O	VVINF	s700_41
+42	wolte	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s700_42
+43	.	_	_	$.	_	_	_	_	_	O	$.	s700_43
+44	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s700_44
+
+# sent_id = 78
+# sent_id(Tiger) = s704
+# text = Wir 6 . alle aber hatten nur 225 . Mann / vnd gar wenig Geschuetz . (.)
+1	Wir	_	_	PPER	_	_	_	_	_	B-NC	PPER	s704_1
+2	6	_	_	CARD	_	_	_	_	_	B-NC	CARD	s704_2
+3	.	_	_	$.	_	_	_	_	_	O	$.	s704_3
+4	alle	_	_	PIAT	_	_	_	_	_	B-NC	DINDEF	s704_4
+5	aber	_	_	KON	_	_	_	_	_	O	KON	s704_5
+6	hatten	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s704_6
+7	nur	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s704_7
+8	225	_	_	CARD	_	_	_	_	_	B-NC	CARD	s704_8
+9	.	_	_	$.	_	_	_	_	_	O	$.	s704_9
+10	Mann	_	_	NN	_	_	_	_	_	B-NC	NA	s704_10
+11	/	_	_	$(	_	_	_	_	_	O	$(	s704_11
+12	vnd	_	_	KON	_	_	_	_	_	O	KON	s704_12
+13	gar	_	_	ADV	_	_	_	_	_	B-NC	AVD	s704_13
+14	wenig	_	_	PIAT	_	_	_	_	_	I-NC	DINDEF	s704_14
+15	Geschuetz	_	_	NN	_	_	_	_	_	I-NC	NA	s704_15
+16	.	_	_	$.	_	_	_	_	_	O	$.	s704_16
+17	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s704_17
+
+# sent_id = 79
+# sent_id(Tiger) = s705
+# text = Da nun der Streit etwas hart an gieng / (,) wichen die 2 . Portugaleser sampt den 2 . Engellaenderen hinden auß / (,) der meinung / (,) sich zu salvieren . (.)
+1	Da	_	_	KOUS	_	_	_	_	_	O	KOUS	s705_1
+2	nun	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s705_2
+3	der	_	_	ART	_	_	_	_	_	B-NC	DARTB	s705_3
+4	Streit	_	_	NN	_	_	_	_	_	I-NC	NA	s705_4
+5	etwas	_	_	ADV	_	_	_	_	_	B-AC	AVD	s705_5
+6	hart	_	_	ADJD	_	_	_	_	_	I-AC	ADJV	s705_6
+7	an	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s705_7
+8	gieng	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s705_8
+9	/	_	_	$,	_	_	_	_	_	O	$(	s705_9
+10	(,)	_	_	$,	_	_	_	_	_	O	$MK	s705_10
+11	wichen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s705_11
+12	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s705_12
+13	2	_	_	CARD	_	_	_	_	_	I-NC	CARD	s705_13
+14	.	_	_	$.	_	_	_	_	_	O	$.	s705_14
+15	Portugaleser	_	_	NN	_	_	_	_	_	B-NC	NA	s705_15
+16	sampt	_	_	APPR	_	_	_	_	_	B-PC	APPR	s705_16
+17	den	_	_	ART	_	_	_	_	_	I-PC	DARTB	s705_17
+18	2	_	_	CARD	_	_	_	_	_	I-PC	CARD	s705_18
+19	.	_	_	$.	_	_	_	_	_	O	$.	s705_19
+20	Engellaenderen	_	_	NN	_	_	_	_	_	B-NC	NA	s705_20
+21	hinden	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s705_21
+22	auß	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s705_22
+23	/	_	_	$,	_	_	_	_	_	O	$(	s705_23
+24	(,)	_	_	$,	_	_	_	_	_	O	$MK	s705_24
+25	der	_	_	ART	_	_	_	_	_	B-NC	DARTB	s705_25
+26	meinung	_	_	NN	_	_	_	_	_	I-NC	NA	s705_26
+27	/	_	_	$,	_	_	_	_	_	O	$(	s705_27
+28	(,)	_	_	$,	_	_	_	_	_	O	$MK	s705_28
+29	sich	_	_	PRF	_	_	_	_	_	B-NC	PRF	s705_29
+30	zu	_	_	PTKZU	_	_	_	_	_	O	PTKZU	s705_30
+31	salvieren	_	_	VVINF	_	_	_	_	_	O	VVINF	s705_31
+32	.	_	_	$.	_	_	_	_	_	O	$.	s705_32
+33	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s705_33
+
+# sent_id = 80
+# sent_id(Tiger) = s706
+# text = Aber es war vnser groß glueck (,) / daß dise 4 . Schiff von vns wichen . Dann jhnen 3 . Raubschiff nach gefolgt von morgen / (,) biß die Sonn Sud-west worden / (,) welches vmb die 3 . vhr war : (,) da sie dann die 4 . Schiff nach langem streit bekomen (.)
+1	Aber	_	_	KON	_	_	_	_	_	O	KON	s706_1
+2	es	_	_	PPER	_	_	_	_	_	B-NC	PPER	s706_2
+3	war	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s706_3
+4	vnser	_	_	PPOSAT	_	_	_	_	_	B-NC	DPOS	s706_4
+5	groß	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s706_5
+6	glueck	_	_	NN	_	_	_	_	_	I-NC	NA	s706_6
+7	(,)	_	_	$,	_	_	_	_	_	O	$MK	s706_7
+8	/	_	_	$(	_	_	_	_	_	O	$(	s706_8
+9	daß	_	_	KOUS	_	_	_	_	_	O	KOUS	s706_9
+10	dise	_	_	PDAT	_	_	_	_	_	B-NC	DDEM	s706_10
+11	4	_	_	CARD	_	_	_	_	_	I-NC	CARD	s706_11
+12	.	_	_	$.	_	_	_	_	_	O	$.	s706_12
+13	Schiff	_	_	NN	_	_	_	_	_	B-NC	NA	s706_13
+14	von	_	_	APPR	_	_	_	_	_	B-PC	APPR	s706_14
+15	vns	_	_	PPER	_	_	_	_	_	I-PC	PPER	s706_15
+16	wichen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s706_16
+17	.	_	_	$.	_	_	_	_	_	O	$.	s706_17
+18	Dann	_	_	KOUS	_	_	_	_	_	O	KOUS	s706_18
+19	jhnen	_	_	PPER	_	_	_	_	_	B-NC	PPER	s706_19
+20	3	_	_	CARD	_	_	_	_	_	B-NC	CARD	s706_20
+21	.	_	_	$.	_	_	_	_	_	O	$.	s706_21
+22	Raubschiff	_	_	NN	_	_	_	_	_	B-NC	NA	s706_22
+23	nach	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s706_23
+24	gefolgt	_	_	VVPP	_	_	_	_	_	O	VVPP	s706_24
+25	von	_	_	APPR	_	_	_	_	_	B-PC	APPR	s706_25
+26	morgen	_	_	NN	_	_	_	_	_	I-PC	NA	s706_26
+27	/	_	_	$,	_	_	_	_	_	O	$(	s706_27
+28	(,)	_	_	$,	_	_	_	_	_	O	$MK	s706_28
+29	biß	_	_	KOUS	_	_	_	_	_	O	KOUS	s706_29
+30	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s706_30
+31	Sonn	_	_	NN	_	_	_	_	_	I-NC	NA	s706_31
+32	Sud-west	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s706_32
+33	worden	_	_	VAPP	_	_	_	_	_	O	VAPP	s706_33
+34	/	_	_	$,	_	_	_	_	_	O	$(	s706_34
+35	(,)	_	_	$,	_	_	_	_	_	O	$MK	s706_35
+36	welches	_	_	PRELS	_	_	_	_	_	B-NC	PRELS	s706_36
+37	vmb	_	_	APPR	_	_	_	_	_	B-PC	APPR	s706_37
+38	die	_	_	ART	_	_	_	_	_	I-PC	DARTB	s706_38
+39	3	_	_	CARD	_	_	_	_	_	I-PC	CARD	s706_39
+40	.	_	_	$.	_	_	_	_	_	O	$.	s706_40
+41	vhr	_	_	NN	_	_	_	_	_	B-NC	NA	s706_41
+42	war	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s706_42
+43	:	_	_	$,	_	_	_	_	_	O	$:	s706_43
+44	(,)	_	_	$,	_	_	_	_	_	O	$MK	s706_44
+45	da	_	_	KOUS	_	_	_	_	_	O	KOUS	s706_45
+46	sie	_	_	PPER	_	_	_	_	_	B-NC	PPER	s706_46
+47	dann	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s706_47
+48	die	_	_	ART	_	_	_	_	_	B-NC	DARTB	s706_48
+49	4	_	_	CARD	_	_	_	_	_	I-NC	CARD	s706_49
+50	.	_	_	$.	_	_	_	_	_	O	$.	s706_50
+51	Schiff	_	_	NN	_	_	_	_	_	B-NC	NA	s706_51
+52	nach	_	_	APPR	_	_	_	_	_	B-PC	APPR	s706_52
+53	langem	_	_	ADJA	_	_	_	_	_	I-PC	ADJA	s706_53
+54	streit	_	_	NN	_	_	_	_	_	I-PC	NA	s706_54
+55	bekomen	_	_	VVPP	_	_	_	_	_	O	VVPP	s706_55
+56	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s706_56
+
+# sent_id = 81
+# sent_id(Tiger) = s718
+# text = Gemeldte Armada begibt sich endtlich auff das Meer . (.)
+1	Gemeldte	_	_	ADJA	_	_	_	_	_	B-NC	VVPPA	s718_1
+2	Armada	_	_	NN	_	_	_	_	_	I-NC	NA	s718_2
+3	begibt	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s718_3
+4	sich	_	_	PRF	_	_	_	_	_	B-NC	PRF	s718_4
+5	endtlich	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s718_5
+6	auff	_	_	APPR	_	_	_	_	_	B-PC	APPR	s718_6
+7	das	_	_	ART	_	_	_	_	_	I-PC	DARTB	s718_7
+8	Meer	_	_	NN	_	_	_	_	_	I-PC	NA	s718_8
+9	.	_	_	$.	_	_	_	_	_	O	$.	s718_9
+10	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s718_10
+
+# sent_id = 82
+# sent_id(Tiger) = s727
+# text = Doch gab der Schiff-Patron 4 . Realen fuer das Faß . (.)
+1	Doch	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s727_1
+2	gab	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s727_2
+3	der	_	_	ART	_	_	_	_	_	B-NC	DARTB	s727_3
+4	Schiff-Patron	_	_	NN	_	_	_	_	_	I-NC	NA	s727_4
+5	4	_	_	CARD	_	_	_	_	_	B-NC	CARD	s727_5
+6	.	_	_	$.	_	_	_	_	_	O	$.	s727_6
+7	Realen	_	_	NN	_	_	_	_	_	B-NC	NA	s727_7
+8	fuer	_	_	APPR	_	_	_	_	_	B-PC	APPR	s727_8
+9	das	_	_	ART	_	_	_	_	_	I-PC	DARTB	s727_9
+10	Faß	_	_	NN	_	_	_	_	_	I-PC	NA	s727_10
+11	.	_	_	$.	_	_	_	_	_	O	$.	s727_11
+12	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s727_12
+
+# sent_id = 83
+# sent_id(Tiger) = s750
+# text = Derselbigen Capitain ist gewesen Herr Warr (,) ein geborner Engellaender (,) ein gewaltiger Mann / (,) begerte an vns / (,) wir solten vns ergeben . (.)
+1	Derselbigen	_	_	PDS	_	_	_	_	_	B-NC	PDEM	s750_1
+2	Capitain	_	_	NN	_	_	_	_	_	B-NC	NA	s750_2
+3	ist	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s750_3
+4	gewesen	_	_	VAPP	_	_	_	_	_	O	VAPP	s750_4
+5	Herr	_	_	NN	_	_	_	_	_	B-NC	NA	s750_5
+6	Warr	_	_	NE	_	_	_	_	_	B-NC	NE	s750_6
+7	(,)	_	_	$,	_	_	_	_	_	O	$MK	s750_7
+8	ein	_	_	ART	_	_	_	_	_	B-NC	DARTU	s750_8
+9	geborner	_	_	ADJA	_	_	_	_	_	I-NC	VVPPA	s750_9
+10	Engellaender	_	_	NN	_	_	_	_	_	I-NC	NA	s750_10
+11	(,)	_	_	$,	_	_	_	_	_	O	$MK	s750_11
+12	ein	_	_	ART	_	_	_	_	_	B-NC	DARTU	s750_12
+13	gewaltiger	_	_	ADJA	_	_	_	_	_	I-NC	ADJA	s750_13
+14	Mann	_	_	NN	_	_	_	_	_	I-NC	NA	s750_14
+15	/	_	_	$,	_	_	_	_	_	O	$(	s750_15
+16	(,)	_	_	$,	_	_	_	_	_	O	$MK	s750_16
+17	begerte	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s750_17
+18	an	_	_	APPR	_	_	_	_	_	B-PC	APPR	s750_18
+19	vns	_	_	PPER	_	_	_	_	_	I-PC	PPER	s750_19
+20	/	_	_	$,	_	_	_	_	_	O	$(	s750_20
+21	(,)	_	_	$,	_	_	_	_	_	O	$MK	s750_21
+22	wir	_	_	PPER	_	_	_	_	_	B-NC	PPER	s750_22
+23	solten	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s750_23
+24	vns	_	_	PRF	_	_	_	_	_	B-NC	PRF	s750_24
+25	ergeben	_	_	VVINF	_	_	_	_	_	O	VVINF	s750_25
+26	.	_	_	$.	_	_	_	_	_	O	$.	s750_26
+27	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s750_27
+
+# sent_id = 84
+# sent_id(Tiger) = s764
+# text = Mußten also widerumb in Apulia zu Ottrunto laden / (,) namlich 300 . Potto mit Baumoel . Dann daselbsten gantze Waeld seind von lauter oelbaeumen / vnd sonsten ein vber die massen fruchtbar Land . (.)
+1	Mußten	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s764_1
+2	also	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s764_2
+3	widerumb	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s764_3
+4	in	_	_	APPR	_	_	_	_	_	B-PC	APPR	s764_4
+5	Apulia	_	_	NE	_	_	_	_	_	I-PC	NE	s764_5
+6	zu	_	_	APPR	_	_	_	_	_	B-PC	APPR	s764_6
+7	Ottrunto	_	_	NE	_	_	_	_	_	I-PC	NE	s764_7
+8	laden	_	_	VVINF	_	_	_	_	_	O	VVINF	s764_8
+9	/	_	_	$,	_	_	_	_	_	O	$(	s764_9
+10	(,)	_	_	$,	_	_	_	_	_	O	$MK	s764_10
+11	namlich	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s764_11
+12	300	_	_	CARD	_	_	_	_	_	B-NC	CARD	s764_12
+13	.	_	_	$.	_	_	_	_	_	O	$.	s764_13
+14	Potto	_	_	NN	_	_	_	_	_	B-NC	NA	s764_14
+15	mit	_	_	APPR	_	_	_	_	_	B-PC	APPR	s764_15
+16	Baumoel	_	_	NN	_	_	_	_	_	I-PC	NA	s764_16
+17	.	_	_	$.	_	_	_	_	_	O	$.	s764_17
+18	Dann	_	_	KOUS	_	_	_	_	_	O	KOUS	s764_18
+19	daselbsten	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s764_19
+20	gantze	_	_	ADJA	_	_	_	_	_	B-NC	ADJA	s764_20
+21	Waeld	_	_	NN	_	_	_	_	_	I-NC	NA	s764_21
+22	seind	_	_	VAFIN	_	_	_	_	_	O	VAFIN	s764_22
+23	von	_	_	APPR	_	_	_	_	_	B-PC	APPR	s764_23
+24	lauter	_	_	PIAT	_	_	_	_	_	I-PC	DINDEF	s764_24
+25	oelbaeumen	_	_	NN	_	_	_	_	_	I-PC	NA	s764_25
+26	/	_	_	$(	_	_	_	_	_	O	$(	s764_26
+27	vnd	_	_	KON	_	_	_	_	_	O	KON	s764_27
+28	sonsten	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s764_28
+29	ein	_	_	ART	_	_	_	_	_	B-sNC	DARTU	s764_29
+30	vber	_	_	APPR	_	_	_	_	_	B-PC	APPR	s764_30
+31	die	_	_	ART	_	_	_	_	_	I-PC	DARTB	s764_31
+32	massen	_	_	NN	_	_	_	_	_	I-PC	NA	s764_32
+33	fruchtbar	_	_	ADJA	_	_	_	_	_	B-NC	ADJA	s764_33
+34	Land	_	_	NN	_	_	_	_	_	I-NC	NA	s764_34
+35	.	_	_	$.	_	_	_	_	_	O	$.	s764_35
+36	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s764_36
+
+# sent_id = 85
+# sent_id(Tiger) = s771
+# text = Wir aber schwiegen still / vnd ruefften Gott fleissig an / (,) daß er vns bewahren woelte . (.)
+1	Wir	_	_	PPER	_	_	_	_	_	B-NC	PPER	s771_1
+2	aber	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s771_2
+3	schwiegen	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s771_3
+4	still	_	_	ADJD	_	_	_	_	_	B-AC	ADJV	s771_4
+5	/	_	_	$(	_	_	_	_	_	O	$(	s771_5
+6	vnd	_	_	KON	_	_	_	_	_	O	KON	s771_6
+7	ruefften	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s771_7
+8	Gott	_	_	NN	_	_	_	_	_	B-NC	NA	s771_8
+9	fleissig	_	_	ADJD	_	_	_	_	_	B-AC	ADJV	s771_9
+10	an	_	_	PTKVZ	_	_	_	_	_	O	PTKVZ	s771_10
+11	/	_	_	$,	_	_	_	_	_	O	$(	s771_11
+12	(,)	_	_	$,	_	_	_	_	_	O	$MK	s771_12
+13	daß	_	_	KOUS	_	_	_	_	_	O	KOUS	s771_13
+14	er	_	_	PPER	_	_	_	_	_	B-NC	PPER	s771_14
+15	vns	_	_	PPER	_	_	_	_	_	B-NC	PPER	s771_15
+16	bewahren	_	_	VVINF	_	_	_	_	_	O	VVINF	s771_16
+17	woelte	_	_	VMFIN	_	_	_	_	_	O	VMFIN	s771_17
+18	.	_	_	$.	_	_	_	_	_	O	$.	s771_18
+19	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s771_19
+
+# sent_id = 86
+# sent_id(Tiger) = s783
+# text = Wir aber fuhren hart neben disem felsen hinan . (.)
+1	Wir	_	_	PPER	_	_	_	_	_	B-NC	PPER	s783_1
+2	aber	_	_	KON	_	_	_	_	_	O	KON	s783_2
+3	fuhren	_	_	VVFIN	_	_	_	_	_	O	VVFIN	s783_3
+4	hart	_	_	ADJD	_	_	_	_	_	B-AC	ADJV	s783_4
+5	neben	_	_	APPR	_	_	_	_	_	B-PC	APPR	s783_5
+6	disem	_	_	PDAT	_	_	_	_	_	I-PC	DDEM	s783_6
+7	felsen	_	_	NN	_	_	_	_	_	I-PC	NA	s783_7
+8	hinan	_	_	ADV	_	_	_	_	_	B-ADVC	AVD	s783_8
+9	.	_	_	$.	_	_	_	_	_	O	$.	s783_9
+10	(.)	_	_	$.	_	_	_	_	_	O	$MSBI	s783_10

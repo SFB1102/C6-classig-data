@@ -1,0 +1,633 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CharOffset DTA:ID DTA:NORM PHRASE POS
+# sent_id = 1
+# sent_id(TSV) = 1
+# PTBstring = (VROOT(CNP(NP(ART Ein)(CAP(ADJA Einfaltiger)(KON Vnd)(ADJA Chriſtlicher))(CNP(NN Sermon)(KON oder)(NN Leichpre-<lb/>digt)(KLAMMER /))(PP(APPR bey)(ART der)(ADJA ehrlichen)(NN Begrebnis)(KLAMMER /)))(NP(ART Des)(ADJA wol-<lb/>gebornen)(KLAMMER /)(AP(PP(APPR in)(NE Chriſto))(ADJA verſchiedenen))(NN Herrn)(KLAMMER /))(NP(NN Herrn)(NE Eraſ-<lb/>mi)(KLAMMER /))(NP(NN Herren)(PP(APPR zu)(NE Starhenberg))(PUNKT .))))
+# text = Ein Einfaltiger Vnd Chriſtlicher Sermon oder Leichpre-<lb/>digt / bey der ehrlichen Begrebnis / Des wol-<lb/>gebornen / in Chriſto verſchiedenen Herrn / Herrn Eraſ-<lb/>mi / Herren zu Starhenberg .
+1	Ein	eine	_	ART	_	_	_	_	_	0-3	w1	Ein	B-NP	*
+2	Einfaltiger	Einfaltige	_	ADJA	_	_	_	_	_	4-15	w2	Einfaltiger	I-NP	*
+3	Vnd	und	_	KON	_	_	_	_	_	16-19	w3	Und	I-NP	*
+4	Chriſtlicher	christlich	_	ADJA	_	_	_	_	_	20-32	w4	Christlicher	I-NP	*
+5	Sermon	Sermon	_	NN	_	_	_	_	_	33-39	w5	Sermon	I-NP	*
+6	oder	oder	_	KON	_	_	_	_	_	40-44	w6	oder	I-NP	*
+7	Leichpre-<lb/>digt	Leichpredigt	_	NN	_	_	_	_	_	45-63	w7	Leichpredigt	I-NP	*
+8	/	/	_	$(	_	_	_	_	_	64-65	w8	/	I-NP	*
+9	bey	bei	_	APPR	_	_	_	_	_	66-69	w9	bei	I-NP	*
+10	der	d	_	ART	_	_	_	_	_	70-73	wa	der	I-NP	*
+11	ehrlichen	ehrlich	_	ADJA	_	_	_	_	_	74-83	wb	ehrlichen	I-NP	*
+12	Begrebnis	Begräbnis	_	NN	_	_	_	_	_	84-93	wc	Begräbnis	I-NP	*
+13	/	/	_	$(	_	_	_	_	_	94-95	wd	/	I-NP	*
+14	Des	d	_	ART	_	_	_	_	_	96-99	we	Des	B-NP	*
+15	wol-<lb/>gebornen	wohlgebären	_	ADJA	_	_	_	_	_	100-117	wf,wf_1,wf_2	wohlgeborenen	I-NP	*
+16	/	/	_	$(	_	_	_	_	_	118-119	w10	/	I-NP	*
+17	in	in	_	APPR	_	_	_	_	_	120-122	w11	in	I-NP	*
+18	Chriſto	Christo	_	NE	_	_	_	_	_	123-130	w12	Christo	I-NP	*
+19	verſchiedenen	verschieden	_	ADJA	_	_	_	_	_	131-144	w13	verschiedenen	I-NP	*
+20	Herrn	Herr	_	NN	_	_	_	_	_	145-150	w14	Herrn	I-NP	*
+21	/	/	_	$(	_	_	_	_	_	151-152	w15	/	I-NP	*
+22	Herrn	Herr	_	NN	_	_	_	_	_	153-158	w16	Herrn	B-NP	*
+23	Eraſ-<lb/>mi	Erasmi	_	NE	_	_	_	_	_	159-171	w17	Erasmi	I-NP	*
+24	/	/	_	$(	_	_	_	_	_	172-173	w18	/	I-NP	*
+25	Herren	Herr	_	NN	_	_	_	_	_	174-180	w19	Herren	B-NP	*
+26	zu	zu	_	APPR	_	_	_	_	_	181-183	w1a	zu	I-NP	*
+27	Starhenberg	Starhenberg	_	NE	_	_	_	_	_	184-195	w1b	Starhenberg	I-NP	*
+28	.	.	_	$.	_	_	_	_	_	196-197	w1c	.	I-NP	*
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# PTBstring = (VROOT(S(PP(APPR Durch)(ART den)(NN diener)(NP(ART des)(ADJA Göttlichen)(NN Worts)(KLAMMER /)(PN(NE Melchiorem)(NE Walther)(KLAMMER /))))(NP(NP(ART der)(NN zeit))(NN Prediger))(VP(PP(APPR bey)(ART der)(NN Pfarkirchen)(PP(APPR zu)(NE Wells)(KLAMMER /)))(PP(APPR in)(ART der)(NN Pfarkirchen)(PP(APPR zu)(NE Helmanſedt)(KLAMMER /)))(VVPP gepredigt)(PUNKT .))))
+# text = Durch den diener des Göttlichen Worts / Melchiorem Walther / der zeit Prediger bey der Pfarkirchen zu Wells / in der Pfarkirchen zu Helmanſedt / gepredigt .
+1	Durch	durch	_	APPR	_	_	_	_	_	199-204	w1d	Durch	B-PP	*
+2	den	d	_	ART	_	_	_	_	_	205-208	w1e	den	I-PP	*
+3	diener	Diener	_	NN	_	_	_	_	_	209-215	w1f	Diener	I-PP	*
+4	des	d	_	ART	_	_	_	_	_	216-219	w20	des	I-PP	*
+5	Göttlichen	Göttliche	_	ADJA	_	_	_	_	_	220-230	w21	Göttlichen	I-PP	*
+6	Worts	Wort	_	NN	_	_	_	_	_	231-236	w22	Worts	I-PP	*
+7	/	/	_	$(	_	_	_	_	_	237-238	w23	/	I-PP	*
+8	Melchiorem	Melchiorem	_	NE	_	_	_	_	_	239-249	w24	Melchiorem	I-PP	*
+9	Walther	Walther	_	NE	_	_	_	_	_	250-257	w25	Walther	I-PP	*
+10	/	/	_	$(	_	_	_	_	_	258-259	w26	/	I-PP	*
+11	der	d	_	ART	_	_	_	_	_	260-263	w27	der	B-NP	*
+12	zeit	Zeit	_	NN	_	_	_	_	_	264-268	w28	Zeit	I-NP	*
+13	Prediger	Prediger	_	NN	_	_	_	_	_	269-277	w29	Prediger	I-NP	*
+14	bey	bei	_	APPR	_	_	_	_	_	278-281	w2a	bei	B-PP	*
+15	der	d	_	ART	_	_	_	_	_	282-285	w2b	der	I-PP	*
+16	Pfarkirchen	Pfarrkirche	_	NN	_	_	_	_	_	286-297	w2c	Pfarrkirchen	I-PP	*
+17	zu	zu	_	APPR	_	_	_	_	_	298-300	w2d	zu	I-PP	*
+18	Wells	Wells	_	NE	_	_	_	_	_	301-306	w2e	Wells	I-PP	*
+19	/	/	_	$(	_	_	_	_	_	307-308	w2f	/	I-PP	*
+20	in	in	_	APPR	_	_	_	_	_	309-311	w30	in	B-PP	*
+21	der	d	_	ART	_	_	_	_	_	312-315	w31	der	I-PP	*
+22	Pfarkirchen	Pfarrkirche	_	NN	_	_	_	_	_	316-327	w32	Pfarrkirchen	I-PP	*
+23	zu	zu	_	APPR	_	_	_	_	_	328-330	w33	zu	I-PP	*
+24	Helmanſedt	Helmansedt	_	NE	_	_	_	_	_	331-341	w34	Helmansedt	I-PP	*
+25	/	/	_	$(	_	_	_	_	_	342-343	w35	/	I-PP	*
+26	gepredigt	predigen	_	VVPP	_	_	_	_	_	344-353	w36	gepredigt	O	*
+27	.	.	_	$.	_	_	_	_	_	354-355	w37	.	O	*
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# PTBstring = (VROOT(CO(ADV Erſtlichen)(KON vnd)(ADV fürnemlich)(KLAMMER /)(PP(APPR zu)(CNP(NN Lob)(KLAMMER /)(NN Ehr)(KON vnd)(NN preis))(CNP(NP(ART dem)(ADJA ewigen)(NN Gott)(PP(APPRART im)(NN Himel)(KLAMMER /)))(KON vnd)(NP(PPOSAT ſeinem)(NN Son)(NP(PPOSAT vnſerm)(NN HErrn)))))(KON vnd)(NP(NN Heiland)(PN(NE Jeſu)(NE Chriſto)(PUNKT .)))))
+# text = Erſtlichen vnd fürnemlich / zu Lob / Ehr vnd preis dem ewigen Gott im Himel / vnd ſeinem Son vnſerm HErrn vnd Heiland Jeſu Chriſto .
+1	Erſtlichen	Erstlichen	_	ADV	_	_	_	_	_	357-367	w38	Erstlichen	B-ADVP	*
+2	vnd	und	_	KON	_	_	_	_	_	368-371	w39	und	O	*
+3	fürnemlich	vornehmlich	_	ADV	_	_	_	_	_	372-382	w3a	vornehmlich	B-ADVP	*
+4	/	/	_	$(	_	_	_	_	_	383-384	w3b	/	O	*
+5	zu	zu	_	APPR	_	_	_	_	_	385-387	w3c	zu	B-PP	*
+6	Lob	Lob	_	NN	_	_	_	_	_	388-391	w3d	Lob	I-PP	*
+7	/	/	_	$(	_	_	_	_	_	392-393	w3e	/	I-PP	*
+8	Ehr	Ehre	_	NN	_	_	_	_	_	394-397	w3f	Ehre	I-PP	*
+9	vnd	und	_	KON	_	_	_	_	_	398-401	w40	und	I-PP	*
+10	preis	preis	_	NN	_	_	_	_	_	402-407	w41	preis	I-PP	*
+11	dem	d	_	ART	_	_	_	_	_	408-411	w42	dem	I-PP	*
+12	ewigen	ewig	_	ADJA	_	_	_	_	_	412-418	w43	ewigen	I-PP	*
+13	Gott	Gott	_	NN	_	_	_	_	_	419-423	w44	Gott	I-PP	*
+14	im	im	_	APPRART	_	_	_	_	_	424-426	w45	im	I-PP	*
+15	Himel	Himmel	_	NN	_	_	_	_	_	427-432	w46	Himmel	I-PP	*
+16	/	/	_	$(	_	_	_	_	_	433-434	w47	/	I-PP	*
+17	vnd	und	_	KON	_	_	_	_	_	435-438	w48	und	I-PP	*
+18	ſeinem	seine	_	PPOSAT	_	_	_	_	_	439-445	w49	seinem	I-PP	*
+19	Son	Son	_	NN	_	_	_	_	_	446-449	w4a	Son	I-PP	*
+20	vnſerm	unsere	_	PPOSAT	_	_	_	_	_	450-456	w4b	unserem	I-PP	*
+21	HErrn	Herr	_	NN	_	_	_	_	_	457-462	w4c	Herrn	I-PP	*
+22	vnd	und	_	KON	_	_	_	_	_	463-466	w4d	und	O	*
+23	Heiland	Heiland	_	NN	_	_	_	_	_	467-474	w4e	Heiland	B-NP	*
+24	Jeſu	Jesu	_	NE	_	_	_	_	_	475-479	w4f	Jesu	I-NP	*
+25	Chriſto	Christo	_	NE	_	_	_	_	_	480-487	w50	Christo	I-NP	*
+26	.	.	_	$.	_	_	_	_	_	488-489	w51	.	I-NP	*
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# PTBstring = (VROOT(S(PP(PAV Dar-<lb/>nach))(VP(PP(APPRART zur)(CNP(NP(ADJA löblichen)(NN Wirdigen))(KON vnd)(NP(ADJA ehrlichen)(NN Gedechtnis)))))(KLAMMER /)(NP(ADJA wolgemelts)(NN Herrn)(KLAMMER /)(NP(NN Herrn)(NE Eraſmi)(NP(NN Herrn)(PP(APPR von)(NE Starhen-<lb/>berg))))))(PUNKT .))
+# text = Dar-<lb/>nach zur löblichen Wirdigen vnd ehrlichen Gedechtnis / wolgemelts Herrn / Herrn Eraſmi Herrn von Starhen-<lb/>berg .
+1	Dar-<lb/>nach	danach	_	PAV	_	_	_	_	_	491-504	w52	Danach	B-PP	*
+2	zur	zur	_	APPRART	_	_	_	_	_	505-508	w53	zur	B-PP	*
+3	löblichen	löblich	_	ADJA	_	_	_	_	_	509-518	w54	löblichen	I-PP	*
+4	Wirdigen	Würdigen	_	NN	_	_	_	_	_	519-527	w55	Würdigen	I-PP	*
+5	vnd	und	_	KON	_	_	_	_	_	528-531	w56	und	I-PP	*
+6	ehrlichen	ehrlich	_	ADJA	_	_	_	_	_	532-541	w57	ehrlichen	I-PP	*
+7	Gedechtnis	Gedächtnis	_	NN	_	_	_	_	_	542-552	w58	Gedächtnis	I-PP	*
+8	/	/	_	$(	_	_	_	_	_	553-554	w59	/	O	*
+9	wolgemelts	Wolgemelts	_	ADJA	_	_	_	_	_	555-565	w5a	wolgemelts	B-NP	*
+10	Herrn	Herr	_	NN	_	_	_	_	_	566-571	w5b	Herrn	I-NP	*
+11	/	/	_	$(	_	_	_	_	_	572-573	w5c	/	I-NP	*
+12	Herrn	Herr	_	NN	_	_	_	_	_	574-579	w5d	Herrn	I-NP	*
+13	Eraſmi	erasmi	_	NE	_	_	_	_	_	580-586	w5e	Erasmi	I-NP	*
+14	Herrn	Herr	_	NN	_	_	_	_	_	587-592	w5f	Herrn	I-NP	*
+15	von	von	_	APPR	_	_	_	_	_	593-596	w60	von	I-NP	*
+16	Starhen-<lb/>berg	Starhenberg	_	NE	_	_	_	_	_	597-614	w61	Starhenberg	I-NP	*
+17	.	.	_	$.	_	_	_	_	_	615-616	w62	.	O	*
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# PTBstring = (VROOT(S(AVP(ADV Letzlich))(VP(PP(APPRART zum)(NN Exempel)))(CNP(NP(PIAT allen)(ADJA Chriſtlichen)(NN Herrn))(KON vñ)(NP(ART den)(NN gefreundten)(KLAMMER /)(AS(ADV So)(VP(ADV alda)(PP(APPR bey)(PIAT ſolcher)(NN Begrebnis))(ADJD gegen-<lb/>wertig)(VVPP erſchienen)(KLAMMER /)))))(VP(VVPP Geſchehen)(NP(ART den)(ADJA zehenden)(NN tag)(NP(ART des)(NN Monats)(NP(NN Septembris)(NP(ART des)(ADJA 1560)(PUNKT .)(NN jars)(PUNKT .))))))))
+# text = Letzlich zum Exempel allen Chriſtlichen Herrn vñ den gefreundten / So alda bey ſolcher Begrebnis gegen-<lb/>wertig erſchienen / Geſchehen den zehenden tag des Monats Septembris des 1560 . jars .
+1	Letzlich	letztlich	_	ADV	_	_	_	_	_	618-626	w63	Letztlich	B-ADVP	*
+2	zum	zum	_	APPRART	_	_	_	_	_	627-630	w64	zum	B-PP	*
+3	Exempel	Exempel	_	NN	_	_	_	_	_	631-638	w65	Exempel	I-PP	*
+4	allen	alle	_	PIAT	_	_	_	_	_	639-644	w66	allen	B-NP	*
+5	Chriſtlichen	christlich	_	ADJA	_	_	_	_	_	645-657	w67	Christlichen	I-NP	*
+6	Herrn	Herr	_	NN	_	_	_	_	_	658-663	w68	Herrn	I-NP	*
+7	vñ	und	_	KON	_	_	_	_	_	664-667	w69	und	O	*
+8	den	d	_	ART	_	_	_	_	_	668-671	w6a	den	B-NP	*
+9	gefreundten	gefreundet	_	NN	_	_	_	_	_	672-683	w6b	gefreundeten	I-NP	*
+10	/	/	_	$(	_	_	_	_	_	684-685	w6c	/	I-NP	*
+11	So	so	_	ADV	_	_	_	_	_	686-688	w6d	So	B-ADVP	*
+12	alda	allda	_	ADV	_	_	_	_	_	689-693	w6e	allda	B-ADVP	*
+13	bey	bei	_	APPR	_	_	_	_	_	694-697	w6f	bei	B-PP	*
+14	ſolcher	solch	_	PIAT	_	_	_	_	_	698-705	w70	solcher	I-PP	*
+15	Begrebnis	Begräbnis	_	NN	_	_	_	_	_	706-715	w71	Begräbnis	I-PP	*
+16	gegen-<lb/>wertig	gegenwärtig	_	ADJD	_	_	_	_	_	716-733	w72	gegenwärtig	B-AP	*
+17	erſchienen	erscheinen	_	VVPP	_	_	_	_	_	734-744	w73	erschienen	O	*
+18	/	/	_	$(	_	_	_	_	_	745-746	w74	/	O	*
+19	Geſchehen	Geschehen	_	VVPP	_	_	_	_	_	747-756	w75	Geschehen	O	*
+20	den	d	_	ART	_	_	_	_	_	757-760	w76	den	B-NP	*
+21	zehenden	zehnt	_	ADJA	_	_	_	_	_	761-769	w77	zehnten	I-NP	*
+22	tag	Tag	_	NN	_	_	_	_	_	770-773	w78	tag	I-NP	*
+23	des	d	_	ART	_	_	_	_	_	774-777	w79	des	I-NP	*
+24	Monats	Monat	_	NN	_	_	_	_	_	778-784	w7a	Monats	I-NP	*
+25	Septembris	Septembris	_	NN	_	_	_	_	_	785-795	w7b	Septembris	I-NP	*
+26	des	d	_	ART	_	_	_	_	_	796-799	w7c	des	I-NP	*
+27	1560	1560	_	ADJA	_	_	_	_	_	800-804	w7d	1560	I-NP	*
+28	.	.	_	$.	_	_	_	_	_	805-806	w7e	.	I-NP	*
+29	jars	Jahr	_	NN	_	_	_	_	_	807-811	w7f	Jahrs	I-NP	*
+30	.	.	_	$.	_	_	_	_	_	812-813	w80	.	I-NP	*
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# PTBstring = (VROOT(VP(VVPP Gedruckt)(PP(APPR zu)(NE Wittemberg))(PP(APPR durch)(NE Hans)(NP(NE Krafft)(PUNKT .)(CARD 1562)(PUNKT .)))))
+# text = Gedruckt zu Wittemberg durch Hans Krafft . 1562 .
+1	Gedruckt	drucken	_	VVPP	_	_	_	_	_	815-823	w81	Gedruckt	O	*
+2	zu	zu	_	APPR	_	_	_	_	_	824-826	w82	zu	B-PP	*
+3	Wittemberg	Wittemberg	_	NE	_	_	_	_	_	827-837	w83	Wittemberg	I-PP	*
+4	durch	durch	_	APPR	_	_	_	_	_	838-843	w84	durch	B-PP	*
+5	Hans	Hans	_	NE	_	_	_	_	_	844-848	w85	Hans	I-PP	*
+6	Krafft	Kraft	_	NE	_	_	_	_	_	849-855	w86	Kraft	I-PP	*
+7	.	.	_	$.	_	_	_	_	_	856-857	w87	.	I-PP	*
+8	1562	1562	_	CARD	_	_	_	_	_	858-862	w88	1562	I-PP	*
+9	.	.	_	$.	_	_	_	_	_	863-864	w89	.	I-PP	*
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# PTBstring = (VROOT(CH(FM ILLVSTRIS)(FM ET)(FM GENE-)(FM ROSVS)(FM DOMINVS)(KOMMA ,)(FM DOMI-<lb/>nvs)(FM Erasmvs)(FM Baro)(FM A)(FM Starhem-<lb/>bergk)(KLAMMER &)(FM c.)(FM Senior)(KOMMA ,)(FM moriturus)(FM ad)(FM Chri-<lb/>ſtum)(FM Filium)(FM Dei)(PUNKT .)))
+# text = ILLVSTRIS ET GENE- ROSVS DOMINVS , DOMI-<lb/>nvs Erasmvs Baro A Starhem-<lb/>bergk & c. Senior , moriturus ad Chri-<lb/>ſtum Filium Dei .
+1	ILLVSTRIS	illvstris	_	FM	_	_	_	_	_	866-875	w3fd3	ILLVSTRIS	O	*
+2	ET	et	_	FM	_	_	_	_	_	876-878	w3fd4	ET	O	*
+3	GENE-	gene-	_	FM	_	_	_	_	_	879-884	w3fd5	GENE-	O	*
+4	ROSVS	rosvs	_	FM	_	_	_	_	_	885-890	w3fd6	ROSVS	O	*
+5	DOMINVS	dominvs	_	FM	_	_	_	_	_	891-898	w3fd7	DOMINVS	O	*
+6	,	,	_	$,	_	_	_	_	_	899-900	w3fd8	,	O	*
+7	DOMI-<lb/>nvs	dominvs	_	FM	_	_	_	_	_	901-914	w3fd9,w3fd9_1,w3fd9_2	Dominus	O	*
+8	Erasmvs	erasmvs	_	FM	_	_	_	_	_	915-922	w3fda	Erasmvs	O	*
+9	Baro	baro	_	FM	_	_	_	_	_	923-927	w3fdb	Baro	O	*
+10	A	a	_	FM	_	_	_	_	_	928-929	w3fdc	A	O	*
+11	Starhem-<lb/>bergk	starhembergk	_	FM	_	_	_	_	_	930-948	w3fdd,w3fdd_1,w3fdd_2	Starhembergk	O	*
+12	&	&	_	$(	_	_	_	_	_	949-950	w3fde	&	O	*
+13	c.	c.	_	FM	_	_	_	_	_	951-953	w3fdf	c.	O	*
+14	Senior	senior	_	FM	_	_	_	_	_	954-960	w3fe0	Senior	O	*
+15	,	,	_	$,	_	_	_	_	_	961-962	w3fe1	,	O	*
+16	moriturus	moriturus	_	FM	_	_	_	_	_	963-972	w3fe2	moriturus	O	*
+17	ad	ad	_	FM	_	_	_	_	_	973-975	w3fe3	ad	O	*
+18	Chri-<lb/>ſtum	christus	_	FM	_	_	_	_	_	976-990	w3fe4	Christus	O	*
+19	Filium	filium	_	FM	_	_	_	_	_	991-997	w3fe5	Filium	O	*
+20	Dei	dei	_	FM	_	_	_	_	_	998-1001	w3fe6	Dei	O	*
+21	.	.	_	$.	_	_	_	_	_	1002-1003	w3fe7	.	O	*
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# PTBstring = (VROOT(CH(FM TV)(FM mihi)(FM quem)(FM dederas)(FM curſum)(FM iam)(FM Chriſte)(FM peregi)(KOMMA ,)(FM Suauiter)(FM in)(FM gremio)(FM nunc)(FM recubabo)(FM tuo)(PUNKT .)))
+# text = TV mihi quem dederas curſum iam Chriſte peregi , Suauiter in gremio nunc recubabo tuo .
+1	TV	tv	_	FM	_	_	_	_	_	1005-1007	w8a,w8a_1	TV	O	*
+2	mihi	mihi	_	FM	_	_	_	_	_	1008-1012	w8b	mihi	O	*
+3	quem	quem	_	FM	_	_	_	_	_	1013-1017	w8c	quem	O	*
+4	dederas	dederas	_	FM	_	_	_	_	_	1018-1025	w8d	dederas	O	*
+5	curſum	cursum	_	FM	_	_	_	_	_	1026-1032	w8e	cursum	O	*
+6	iam	iam	_	FM	_	_	_	_	_	1033-1036	w8f	iam	O	*
+7	Chriſte	christ	_	FM	_	_	_	_	_	1037-1044	w90	Christ	O	*
+8	peregi	peregi	_	FM	_	_	_	_	_	1045-1051	w91	peregi	O	*
+9	,	,	_	$,	_	_	_	_	_	1052-1053	w92	,	O	*
+10	Suauiter	suauiter	_	FM	_	_	_	_	_	1054-1062	w93	Suauiter	O	*
+11	in	in	_	FM	_	_	_	_	_	1063-1065	w94	in	O	*
+12	gremio	gremio	_	FM	_	_	_	_	_	1066-1072	w95	gremio	O	*
+13	nunc	nunc	_	FM	_	_	_	_	_	1073-1077	w96	nunc	O	*
+14	recubabo	recubabo	_	FM	_	_	_	_	_	1078-1086	w97	recubabo	O	*
+15	tuo	tuo	_	FM	_	_	_	_	_	1087-1090	w98	tuo	O	*
+16	.	.	_	$.	_	_	_	_	_	1091-1092	w99	.	O	*
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# PTBstring = (VROOT(CH(FM Ergo)(FM tuæ)(FM hanc)(FM animam)(FM trado)(KOMMA ,)(FM Pater)(FM optime)(KOMMA ,)(FM dextræ)(KOMMA ,)(FM Sanguine)(FM quæ)(FM viuit)(FM Chriſte)(FM redemta)(FM tuo)(PUNKT .)))
+# text = Ergo tuæ hanc animam trado , Pater optime , dextræ , Sanguine quæ viuit Chriſte redemta tuo .
+1	Ergo	ergo	_	FM	_	_	_	_	_	1094-1098	w9a	Ergo	O	*
+2	tuæ	tuae	_	FM	_	_	_	_	_	1099-1102	w9b	tuae	O	*
+3	hanc	hanc	_	FM	_	_	_	_	_	1103-1107	w9c	hanc	O	*
+4	animam	animam	_	FM	_	_	_	_	_	1108-1114	w9d	animam	O	*
+5	trado	trado	_	FM	_	_	_	_	_	1115-1120	w9e	trado	O	*
+6	,	,	_	$,	_	_	_	_	_	1121-1122	w9f	,	O	*
+7	Pater	pater	_	FM	_	_	_	_	_	1123-1128	wa0	Pater	O	*
+8	optime	optime	_	FM	_	_	_	_	_	1129-1135	wa1	optime	O	*
+9	,	,	_	$,	_	_	_	_	_	1136-1137	wa2	,	O	*
+10	dextræ	dextrae	_	FM	_	_	_	_	_	1138-1144	wa3	dextrae	O	*
+11	,	,	_	$,	_	_	_	_	_	1145-1146	wa4	,	O	*
+12	Sanguine	sanguine	_	FM	_	_	_	_	_	1147-1155	wa5	Sanguine	O	*
+13	quæ	quae	_	FM	_	_	_	_	_	1156-1159	wa6	quae	O	*
+14	viuit	viuit	_	FM	_	_	_	_	_	1160-1165	wa7	viuit	O	*
+15	Chriſte	christ	_	FM	_	_	_	_	_	1166-1173	wa8	Christ	O	*
+16	redemta	redemta	_	FM	_	_	_	_	_	1174-1181	wa9	redemta	O	*
+17	tuo	tuo	_	FM	_	_	_	_	_	1182-1185	waa	tuo	O	*
+18	.	.	_	$.	_	_	_	_	_	1186-1187	wab	.	O	*
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# PTBstring = (VROOT(CH(FM Tu)(FM ſolus)(FM verax)(KOMMA ,)(FM tu)(FM Spes)(FM mihi)(FM ſirma)(FM ſalutis)(KOMMA ,)(FM Tu)(FM decus)(KOMMA ,)(KLAMMER &)(FM capiti)(FM grata)(FM corona)(FM meo)(PUNKT .)))
+# text = Tu ſolus verax , tu Spes mihi ſirma ſalutis , Tu decus , & capiti grata corona meo .
+1	Tu	tu	_	FM	_	_	_	_	_	1189-1191	wac	Tu	O	*
+2	ſolus	solus	_	FM	_	_	_	_	_	1192-1197	wad	solus	O	*
+3	verax	verax	_	FM	_	_	_	_	_	1198-1203	wae	verax	O	*
+4	,	,	_	$,	_	_	_	_	_	1204-1205	waf	,	O	*
+5	tu	tu	_	FM	_	_	_	_	_	1206-1208	wb0	tu	O	*
+6	Spes	spes	_	FM	_	_	_	_	_	1209-1213	wb1	Spes	O	*
+7	mihi	mihi	_	FM	_	_	_	_	_	1214-1218	wb2	mihi	O	*
+8	ſirma	sirma	_	FM	_	_	_	_	_	1219-1224	wb3	sirma	O	*
+9	ſalutis	salutis	_	FM	_	_	_	_	_	1225-1232	wb4	salutis	O	*
+10	,	,	_	$,	_	_	_	_	_	1233-1234	wb5	,	O	*
+11	Tu	tu	_	FM	_	_	_	_	_	1235-1237	wb6	Tu	O	*
+12	decus	decus	_	FM	_	_	_	_	_	1238-1243	wb7	decus	O	*
+13	,	,	_	$,	_	_	_	_	_	1244-1245	wb8	,	O	*
+14	&	&	_	$(	_	_	_	_	_	1246-1247	wb9	&	O	*
+15	capiti	capiti	_	FM	_	_	_	_	_	1248-1254	wba	capiti	O	*
+16	grata	grata	_	FM	_	_	_	_	_	1255-1260	wbb	grata	O	*
+17	corona	corona	_	FM	_	_	_	_	_	1261-1267	wbc	corona	O	*
+18	meo	meo	_	FM	_	_	_	_	_	1268-1271	wbd	meo	O	*
+19	.	.	_	$.	_	_	_	_	_	1272-1273	wbe	.	O	*
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# PTBstring = (VROOT(CH(FM Nunc)(FM mihi)(FM perpetuò)(FM curret)(FM feliciter)(FM æuum)(KOMMA ,)(FM Et)(FM mea)(FM vita)(KOMMA ,)(FM ſalus)(KOMMA ,)(FM gloria)(FM Chriſtus)(FM erit.)(FM Quid)(FM melius)(FM tantisq)(FM bonis)(KOMMA ,)(KLAMMER &)(FM munere)(FM tanto)(PUNKT ?)))
+# text = Nunc mihi perpetuò curret feliciter æuum , Et mea vita , ſalus , gloria Chriſtus erit. Quid melius tantisꝙ́ bonis , & munere tanto ?
+1	Nunc	nunc	_	FM	_	_	_	_	_	1275-1279	wbf	Nunc	O	*
+2	mihi	mihi	_	FM	_	_	_	_	_	1280-1284	wc0	mihi	O	*
+3	perpetuò	perpetuo	_	FM	_	_	_	_	_	1285-1293	wc1	perpetuo	O	*
+4	curret	curret	_	FM	_	_	_	_	_	1294-1300	wc2	curret	O	*
+5	feliciter	feliciter	_	FM	_	_	_	_	_	1301-1310	wc3	feliciter	O	*
+6	æuum	aeuum	_	FM	_	_	_	_	_	1311-1315	wc4	aeuum	O	*
+7	,	,	_	$,	_	_	_	_	_	1316-1317	wc5	,	O	*
+8	Et	et	_	FM	_	_	_	_	_	1318-1320	wc6	Et	O	*
+9	mea	mea	_	FM	_	_	_	_	_	1321-1324	wc7	mea	O	*
+10	vita	vita	_	FM	_	_	_	_	_	1325-1329	wc8	vita	O	*
+11	,	,	_	$,	_	_	_	_	_	1330-1331	wc9	,	O	*
+12	ſalus	salus	_	FM	_	_	_	_	_	1332-1337	wca	salus	O	*
+13	,	,	_	$,	_	_	_	_	_	1338-1339	wcb	,	O	*
+14	gloria	gloria	_	FM	_	_	_	_	_	1340-1346	wcc	gloria	O	*
+15	Chriſtus	christus	_	FM	_	_	_	_	_	1347-1355	wcd	Christus	O	*
+16	erit.	erit.	_	FM	_	_	_	_	_	1356-1361	wce	erit.	O	*
+17	Quid	quid	_	FM	_	_	_	_	_	1362-1366	wcf	Quid	O	*
+18	melius	melius	_	FM	_	_	_	_	_	1367-1373	wd0	melius	O	*
+19	tantisꝙ́	tantis	_	FM	_	_	_	_	_	1374-1382	wd1	tantis	O	*
+20	bonis	bonis	_	FM	_	_	_	_	_	1383-1388	wd2	bonis	O	*
+21	,	,	_	$,	_	_	_	_	_	1389-1390	wd3	,	O	*
+22	&	&	_	$(	_	_	_	_	_	1391-1392	wd4	&	O	*
+23	munere	munere	_	FM	_	_	_	_	_	1393-1399	wd5	munere	O	*
+24	tanto	tanto	_	FM	_	_	_	_	_	1400-1405	wd6	tanto	O	*
+25	?	?	_	$.	_	_	_	_	_	1406-1407	wd7	?	O	*
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# PTBstring = (VROOT(CH(FM Nunc)(FM vale)(FM optandum)(FM quicquid)(FM hic)(FM orbis)(FM habet)(PUNKT .)))
+# text = Nunc vale optandum quicquid hic orbis habet .
+1	Nunc	nunc	_	FM	_	_	_	_	_	1409-1413	wd8	Nunc	O	*
+2	vale	vale	_	FM	_	_	_	_	_	1414-1418	wd9	vale	O	*
+3	optandum	optandum	_	FM	_	_	_	_	_	1419-1427	wda	optandum	O	*
+4	quicquid	quicquid	_	FM	_	_	_	_	_	1428-1436	wdb	quicquid	O	*
+5	hic	hic	_	FM	_	_	_	_	_	1437-1440	wdc	hic	O	*
+6	orbis	orbis	_	FM	_	_	_	_	_	1441-1446	wdd	orbis	O	*
+7	habet	habet	_	FM	_	_	_	_	_	1447-1452	wde	habet	O	*
+8	.	.	_	$.	_	_	_	_	_	1453-1454	wdf	.	O	*
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# PTBstring = (VROOT(NE Vitvs)(NP(NE VVinsemivs)(NN Senior))(PUNKT .))
+# text = Vitvs VVinsemivs Senior .
+1	Vitvs	Vitvs	_	NE	_	_	_	_	_	1456-1461	we0	Vitvs	B-NP	*
+2	VVinsemivs	Vvinsemivs	_	NE	_	_	_	_	_	1462-1472	we1	Vvinsemivs	B-NP	*
+3	Senior	Senior	_	NN	_	_	_	_	_	1473-1479	we2	Senior	I-NP	*
+4	.	.	_	$.	_	_	_	_	_	1480-1481	we3	.	O	*
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# PTBstring = (VROOT(S(AS(KOUS DJeweil)(PPER wir)(VP(PP(APPR in)(PDAT dieſer)(NN Pfarrkirchen))(PP(APPR bey)(ART ein)(PIS ander))(VVPP verſamlet)(KLAMMER /)(PP(APPR aus)(ART dem)(NN befelch)(CNP(NP(PPOSAT vnſers)(ADJA getrewen)(NN Herrn))(KON vñ)(NP(NN Seligmachers)(NE Jheſu)(NE Chriſti)(KLAMMER /))))(CVP(VP(NP(ART das)(ADJA heilig)(ADJA Götlich)(NN Wort))(VZ(PTKZU zu)(VVINF hören)))(KON vnd)(VZ(PTKZU zu)(VVINF lernen)(KLAMMER /)))))(VP(VMFIN Wil))(NP(PPER ich))(CVP(VP(NP(PIAT ſölch)(PPOSAT mein)(CNP(NN leer)(KON vnd)(NN Predigt)(KLAMMER /)))(PP(APPR auff)(ART das)(PIAT aller))(ADJD kürtzeſt)(KLAMMER /)(PP(ART der)(NN Materien)(APPO nach)))(VP(PP(APPR in)(CARD drey)(NN teil))(VVINF ſtellen)(PUNKT .)))))
+# text = DJeweil wir in dieſer Pfarrkirchen bey ein ander verſamlet / aus dem befelch vnſers getrewen Herrn vñ Seligmachers Jheſu Chriſti / das heilig Götlich Wort zu hören vnd zu lernen / Wil ich ſölch mein leer vnd Predigt / auff das aller kürtzeſt / der Materien nach in drey teil ſtellen .
+1	DJeweil	dieweil	_	KOUS	_	_	_	_	_	1483-1490	we4,we4_1	Dieweil	O	*
+2	wir	wir	_	PPER	_	_	_	_	_	1491-1494	we5	wir	B-NP	*
+3	in	in	_	APPR	_	_	_	_	_	1495-1497	we6	in	B-PP	*
+4	dieſer	diese	_	PDAT	_	_	_	_	_	1498-1504	we7	dieser	I-PP	*
+5	Pfarrkirchen	Pfarrkirche	_	NN	_	_	_	_	_	1505-1517	we8	Pfarrkirchen	I-PP	*
+6	bey	bei	_	APPR	_	_	_	_	_	1518-1521	we9	bei	B-PP	*
+7	ein	eine	_	ART	_	_	_	_	_	1522-1525	wea	ein	I-PP	*
+8	ander	ander	_	PIS	_	_	_	_	_	1526-1531	web	ander	I-PP	*
+9	verſamlet	versammeln	_	VVPP	_	_	_	_	_	1532-1541	wec	versammelt	O	*
+10	/	/	_	$(	_	_	_	_	_	1542-1543	wed	/	O	*
+11	aus	aus	_	APPR	_	_	_	_	_	1544-1547	wee	aus	B-PP	*
+12	dem	d	_	ART	_	_	_	_	_	1548-1551	wef	dem	I-PP	*
+13	befelch	Befehl	_	NN	_	_	_	_	_	1552-1559	wf0	Befehl	I-PP	*
+14	vnſers	unsere	_	PPOSAT	_	_	_	_	_	1560-1566	wf1	unseres	I-PP	*
+15	getrewen	getreu	_	ADJA	_	_	_	_	_	1567-1575	wf2	getreuen	I-PP	*
+16	Herrn	Herr	_	NN	_	_	_	_	_	1576-1581	wf3	Herrn	I-PP	*
+17	vñ	und	_	KON	_	_	_	_	_	1582-1585	wf4	und	I-PP	*
+18	Seligmachers	Seligmacher	_	NN	_	_	_	_	_	1586-1598	wf5	Seligmachers	I-PP	*
+19	Jheſu	Jesus	_	NE	_	_	_	_	_	1599-1604	wf6	Jesus	I-PP	*
+20	Chriſti	Christi	_	NE	_	_	_	_	_	1605-1612	wf7	Christi	I-PP	*
+21	/	/	_	$(	_	_	_	_	_	1613-1614	wf8	/	I-PP	*
+22	das	die	_	ART	_	_	_	_	_	1615-1618	wf9	das	B-NP	*
+23	heilig	heilig	_	ADJA	_	_	_	_	_	1619-1625	wfa	heilig	I-NP	*
+24	Götlich	göttlich	_	ADJA	_	_	_	_	_	1626-1633	wfb	Göttlich	I-NP	*
+25	Wort	Wort	_	NN	_	_	_	_	_	1634-1638	wfc	Wort	I-NP	*
+26	zu	zu	_	PTKZU	_	_	_	_	_	1639-1641	wfd	zu	O	*
+27	hören	hören	_	VVINF	_	_	_	_	_	1642-1647	wfe	hören	O	*
+28	vnd	und	_	KON	_	_	_	_	_	1648-1651	wff	und	O	*
+29	zu	zu	_	PTKZU	_	_	_	_	_	1652-1654	w100	zu	O	*
+30	lernen	lernen	_	VVINF	_	_	_	_	_	1655-1661	w101	lernen	O	*
+31	/	/	_	$(	_	_	_	_	_	1662-1663	w102	/	O	*
+32	Wil	wollen	_	VMFIN	_	_	_	_	_	1664-1667	w103	Will	O	*
+33	ich	ich	_	PPER	_	_	_	_	_	1668-1671	w104	ich	B-NP	*
+34	ſölch	solch	_	PIAT	_	_	_	_	_	1672-1677	w105	solch	B-NP	*
+35	mein	mein	_	PPOSAT	_	_	_	_	_	1678-1682	w106	mein	I-NP	*
+36	leer	leer	_	NN	_	_	_	_	_	1683-1687	w107	leer	I-NP	*
+37	vnd	und	_	KON	_	_	_	_	_	1688-1691	w108	und	I-NP	*
+38	Predigt	Predigt	_	NN	_	_	_	_	_	1692-1699	w109	Predigt	I-NP	*
+39	/	/	_	$(	_	_	_	_	_	1700-1701	w10a	/	I-NP	*
+40	auff	auf	_	APPR	_	_	_	_	_	1702-1706	w10b	auf	B-PP	*
+41	das	d	_	ART	_	_	_	_	_	1707-1710	w10c	das	I-PP	*
+42	aller	alle	_	PIAT	_	_	_	_	_	1711-1716	w10d	aller	I-PP	*
+43	kürtzeſt	kurz	_	ADJD	_	_	_	_	_	1717-1725	w10e	kürzest	B-AP	*
+44	/	/	_	$(	_	_	_	_	_	1726-1727	w10f	/	O	*
+45	der	d	_	ART	_	_	_	_	_	1728-1731	w110	der	B-PP	*
+46	Materien	Materie	_	NN	_	_	_	_	_	1732-1740	w111	Materien	I-PP	*
+47	nach	nach	_	APPO	_	_	_	_	_	1741-1745	w112	nach	I-PP	*
+48	in	in	_	APPR	_	_	_	_	_	1746-1748	w113	in	B-PP	*
+49	drey	drei	_	CARD	_	_	_	_	_	1749-1753	w114	drei	I-PP	*
+50	teil	Teil	_	NN	_	_	_	_	_	1754-1758	w115	Teil	I-PP	*
+51	ſtellen	stellen	_	VVINF	_	_	_	_	_	1759-1766	w116	stellen	O	*
+52	.	.	_	$.	_	_	_	_	_	1767-1768	w117	.	O	*
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# PTBstring = (VROOT(CO(ADV Erſtlich)(KLAMMER /)(S(VP(VMFIN wil))(NP(PPER ich))(VP(PPER euch)(NP(ART den)(ADJA kleglichen)(NN Text)(KLAMMER /)(S:RC(VP(ADV ſo)(VVPP beſchrieben))(VP(VAFIN iſt))(KLAMMER /)))(CNP(NP(NE Jeremiae)(PP(APPRART am)(ADJA 20.)(NN capitel)))(NP(PPOSAT ſeiner)(ADJA Prophe-<lb/>tiſchen)(NN Schrifften)(KLAMMER /)))(PP(APPR von)(NN wort))(PP(APPR zu)(NN wort))(VVPP verleſen)(PUNKT .)))))
+# text = Erſtlich / wil ich euch den kleglichen Text / ſo beſchrieben iſt / Jeremiae am 20. capitel ſeiner Prophe-<lb/>tiſchen Schrifften / von wort zu wort verleſen .
+1	Erſtlich	erstlich	_	ADV	_	_	_	_	_	1770-1778	w118	Erstlich	B-ADVP	*
+2	/	/	_	$(	_	_	_	_	_	1779-1780	w119	/	O	*
+3	wil	wollen	_	VMFIN	_	_	_	_	_	1781-1784	w11a	will	O	*
+4	ich	ich	_	PPER	_	_	_	_	_	1785-1788	w11b	ich	B-NP	*
+5	euch	euch	_	PPER	_	_	_	_	_	1789-1793	w11c	euch	B-NP	*
+6	den	d	_	ART	_	_	_	_	_	1794-1797	w11d	den	B-NP	*
+7	kleglichen	kläglich	_	ADJA	_	_	_	_	_	1798-1808	w11e	kläglichen	I-NP	*
+8	Text	Text	_	NN	_	_	_	_	_	1809-1813	w11f	Text	I-NP	*
+9	/	/	_	$(	_	_	_	_	_	1814-1815	w120	/	I-NP	*
+10	ſo	so	_	ADV	_	_	_	_	_	1816-1818	w121	so	B-ADVP	*
+11	beſchrieben	beschreiben	_	VVPP	_	_	_	_	_	1819-1830	w122	beschrieben	O	*
+12	iſt	sein	_	VAFIN	_	_	_	_	_	1831-1834	w123	ist	O	*
+13	/	/	_	$(	_	_	_	_	_	1835-1836	w124	/	O	*
+14	Jeremiae	Jeremiae	_	NE	_	_	_	_	_	1837-1845	w125	Jeremiae	B-NP	*
+15	am	am	_	APPRART	_	_	_	_	_	1846-1848	w126	am	I-NP	*
+16	20.	20.	_	ADJA	_	_	_	_	_	1849-1852	w127	20.	I-NP	*
+17	capitel	Kapiteln	_	NN	_	_	_	_	_	1853-1860	w128	kapitel	I-NP	*
+18	ſeiner	seine	_	PPOSAT	_	_	_	_	_	1861-1867	w129	seiner	B-NP	*
+19	Prophe-<lb/>tiſchen	prophetisch	_	ADJA	_	_	_	_	_	1868-1887	w12a	Prophetischen	I-NP	*
+20	Schrifften	Schrift	_	NN	_	_	_	_	_	1888-1898	w12b	Schriften	I-NP	*
+21	/	/	_	$(	_	_	_	_	_	1899-1900	w12c	/	I-NP	*
+22	von	von	_	APPR	_	_	_	_	_	1901-1904	w12d	von	B-PP	*
+23	wort	Wort	_	NN	_	_	_	_	_	1905-1909	w12e	Wort	I-PP	*
+24	zu	zu	_	APPR	_	_	_	_	_	1910-1912	w12f	zu	B-PP	*
+25	wort	Wort	_	NN	_	_	_	_	_	1913-1917	w130	Wort	I-PP	*
+26	verleſen	verlesen	_	VVPP	_	_	_	_	_	1918-1926	w131	verlesen	O	*
+27	.	.	_	$.	_	_	_	_	_	1927-1928	w132	.	O	*
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# PTBstring = (VROOT(S(PP(APPRART Zum)(PIS andern)(KLAMMER /)(PP(APPR zu)(ART einem)(NN eingang)(NP(ART der)(NN Pre-<lb/>dig)(KLAMMER /))))(VP(VMFIN wil))(NP(PPER ich))(VP(NP(ART einen)(ADJA kurtzen)(NN vnterricht))(VVINF thun)(KLAMMER /)(PP(APPR von)(ART dem)(ADJA elen-<lb/>den)(CAP(ADJA Jamerlichen)(KON vnd)(ADJA erbermlichen))(NN leben)(NP(ART des)(NN Menſchen)(PUNKT .))))))
+# text = Zum andern / zu einem eingang der Pre-<lb/>dig / wil ich einen kurtzen vnterricht thun / von dem elen-<lb/>den Jamerlichen vnd erbermlichen leben des Menſchen .
+1	Zum	zum	_	APPRART	_	_	_	_	_	1930-1933	w133	Zum	B-PP	*
+2	andern	ander	_	PIS	_	_	_	_	_	1934-1940	w134	anderen	I-PP	*
+3	/	/	_	$(	_	_	_	_	_	1941-1942	w135	/	I-PP	*
+4	zu	zu	_	APPR	_	_	_	_	_	1943-1945	w136	zu	I-PP	*
+5	einem	eine	_	ART	_	_	_	_	_	1946-1951	w137	einem	I-PP	*
+6	eingang	Eingang	_	NN	_	_	_	_	_	1952-1959	w138	Eingang	I-PP	*
+7	der	d	_	ART	_	_	_	_	_	1960-1963	w139	der	I-PP	*
+8	Pre-<lb/>dig	Predigen	_	NN	_	_	_	_	_	1964-1976	w13a	Predig	I-PP	*
+9	/	/	_	$(	_	_	_	_	_	1977-1978	w13b	/	I-PP	*
+10	wil	wollen	_	VMFIN	_	_	_	_	_	1979-1982	w13c	will	O	*
+11	ich	ich	_	PPER	_	_	_	_	_	1983-1986	w13d	ich	B-NP	*
+12	einen	eine	_	ART	_	_	_	_	_	1987-1992	w13e	einen	B-NP	*
+13	kurtzen	kurz	_	ADJA	_	_	_	_	_	1993-2000	w13f	kurzen	I-NP	*
+14	vnterricht	Unterricht	_	NN	_	_	_	_	_	2001-2011	w140	Unterricht	I-NP	*
+15	thun	tun	_	VVINF	_	_	_	_	_	2012-2016	w141	tun	O	*
+16	/	/	_	$(	_	_	_	_	_	2017-2018	w142	/	O	*
+17	von	von	_	APPR	_	_	_	_	_	2019-2022	w143	von	B-PP	*
+18	dem	d	_	ART	_	_	_	_	_	2023-2026	w144	dem	I-PP	*
+19	elen-<lb/>den	elend	_	ADJA	_	_	_	_	_	2027-2040	w145	elenden	I-PP	*
+20	Jamerlichen	Jammerlichen	_	ADJA	_	_	_	_	_	2041-2052	w146	Jammerlichen	I-PP	*
+21	vnd	und	_	KON	_	_	_	_	_	2053-2056	w147	und	I-PP	*
+22	erbermlichen	erbärmlich	_	ADJA	_	_	_	_	_	2057-2069	w148	erbärmlichen	I-PP	*
+23	leben	leben	_	NN	_	_	_	_	_	2070-2075	w149	leben	I-PP	*
+24	des	d	_	ART	_	_	_	_	_	2076-2079	w14a	des	I-PP	*
+25	Menſchen	Mensch	_	NN	_	_	_	_	_	2080-2088	w14b	Menschen	I-PP	*
+26	.	.	_	$.	_	_	_	_	_	2089-2090	w14c	.	I-PP	*
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# PTBstring = (VROOT(CS(S(PP(APPRART Zum)(NN dritten)(KLAMMER /))(VP(VMFIN Wil))(NP(PPER ich))(NP(PPER euch))(NP(ART das)(NN lob))(NP(PDAT dieſes)(ADJA Chriſtlichen)(KLAMMER /)(AP(PP(APPR in)(NN Gott))(ADJD ſanfft)(ADJA entſchlaffenen))(NN Herren)(KLAMMER /))(AP(KOKOM wie)(ADJD billich)(KLAMMER /)))(KON vnd)(S(NP(PPER er))(VP(ADV wol)(ADJD wirdig)(KLAMMER /)(VVINF anzeigen)(KLAMMER /)))))
+# text = Zum dritten / Wil ich euch das lob dieſes Chriſtlichen / in Gott ſanfft entſchlaffenen Herren / wie billich / vnd er wol wirdig / anzeigen /
+1	Zum	zum	_	APPRART	_	_	_	_	_	2092-2095	w14d	Zum	B-PP	*
+2	dritten	dritt	_	NN	_	_	_	_	_	2096-2103	w14e	dritten	I-PP	*
+3	/	/	_	$(	_	_	_	_	_	2104-2105	w14f	/	I-PP	*
+4	Wil	wollen	_	VMFIN	_	_	_	_	_	2106-2109	w150	Will	O	*
+5	ich	ich	_	PPER	_	_	_	_	_	2110-2113	w151	ich	B-NP	*
+6	euch	euch	_	PPER	_	_	_	_	_	2114-2118	w152	euch	B-NP	*
+7	das	d	_	ART	_	_	_	_	_	2119-2122	w153	das	B-NP	*
+8	lob	Lob	_	NN	_	_	_	_	_	2123-2126	w154	Lob	I-NP	*
+9	dieſes	diese	_	PDAT	_	_	_	_	_	2127-2133	w155	dieses	B-NP	*
+10	Chriſtlichen	christlich	_	ADJA	_	_	_	_	_	2134-2146	w156	Christlichen	I-NP	*
+11	/	/	_	$(	_	_	_	_	_	2147-2148	w157	/	I-NP	*
+12	in	in	_	APPR	_	_	_	_	_	2149-2151	w158	in	I-NP	*
+13	Gott	Gott	_	NN	_	_	_	_	_	2152-2156	w159	Gott	I-NP	*
+14	ſanfft	sanft	_	ADJD	_	_	_	_	_	2157-2163	w15a	sanft	I-NP	*
+15	entſchlaffenen	entschlafen	_	ADJA	_	_	_	_	_	2164-2178	w15b	Entschlafenen	I-NP	*
+16	Herren	Herr	_	NN	_	_	_	_	_	2179-2185	w15c	Herren	I-NP	*
+17	/	/	_	$(	_	_	_	_	_	2186-2187	w15d	/	I-NP	*
+18	wie	wie	_	KOKOM	_	_	_	_	_	2188-2191	w15e	wie	B-AP	*
+19	billich	billig	_	ADJD	_	_	_	_	_	2192-2199	w15f	billig	I-AP	*
+20	/	/	_	$(	_	_	_	_	_	2200-2201	w160	/	I-AP	*
+21	vnd	und	_	KON	_	_	_	_	_	2202-2205	w161	und	O	*
+22	er	er	_	PPER	_	_	_	_	_	2206-2208	w162	er	B-NP	*
+23	wol	wohl	_	ADV	_	_	_	_	_	2209-2212	w163	wohl	B-ADVP	*
+24	wirdig	würdig	_	ADJD	_	_	_	_	_	2213-2219	w164	würdig	B-AP	*
+25	/	/	_	$(	_	_	_	_	_	2220-2221	w165	/	O	*
+26	anzeigen	anzeigen	_	VVINF	_	_	_	_	_	2222-2230	w166	anzeigen	O	*
+27	/	/	_	$(	_	_	_	_	_	2231-2232	w167	/	O	*
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# PTBstring = (VROOT(S(AVP(PAV Darnach)(ADV ſo))(VP(VMFIN wil))(NP(PPER ich))(VP(PPER euch)(NP(NN Gott)(NP(ART dem)(NN Herren)))(VVINF befehlen)(PUNKT .))))
+# text = Darnach ſo wil ich euch Gott dem Herren befehlen .
+1	Darnach	danach	_	PAV	_	_	_	_	_	2234-2241	w168	Danach	B-ADVP	*
+2	ſo	so	_	ADV	_	_	_	_	_	2242-2244	w169	so	I-ADVP	*
+3	wil	wollen	_	VMFIN	_	_	_	_	_	2245-2248	w16a	will	O	*
+4	ich	ich	_	PPER	_	_	_	_	_	2249-2252	w16b	ich	B-NP	*
+5	euch	euch	_	PPER	_	_	_	_	_	2253-2257	w16c	euch	B-NP	*
+6	Gott	Gott	_	NN	_	_	_	_	_	2258-2262	w16d	Gott	B-NP	*
+7	dem	d	_	ART	_	_	_	_	_	2263-2266	w16e	dem	I-NP	*
+8	Herren	Herr	_	NN	_	_	_	_	_	2267-2273	w16f	Herren	I-NP	*
+9	befehlen	befehlen	_	VVINF	_	_	_	_	_	2274-2282	w170	befehlen	O	*
+10	.	.	_	$.	_	_	_	_	_	2283-2284	w171	.	O	*
+
+# sent_id = 19
+# sent_id(TSV) = 19
+# PTBstring = (VROOT(CS(S(AVP(ADV Nun))(VP(VVFIN ſtehet))(SVP(PTKVZ auff))(PP(APPR von)(PPOSAT ewrem)(ADJA ſündtlichen)(NN le-<lb/>ben)(KLAMMER /)))(S(VP(VVFIN thut))(NP(NN Buſſe)))(KON vnd)(S(VP(VVFIN beſſert))(NP(PDS daſſelbige))(KLAMMER /))(KON vnd)(S(VP(VVFIN höret))(SVP(PTKVZ an))(PP(APPR mit)(ADJA rechter)(NN andacht)(KLAMMER /))(NP(ART den)(ADJA Kleglichen)(NN Text)(NP(ART des)(ADJA heiligen)(NN Pro-<lb/>pheten)(NP(NE Jeremiae)(PP(APPRART am)(ADJA 20.)(NN Capitel))(PUNKT .)))))))
+# text = Nun ſtehet auff von ewrem ſündtlichen le-<lb/>ben / thut Buſſe vnd beſſert daſſelbige / vnd höret an mit rechter andacht / den Kleglichen Text des heiligen Pro-<lb/>pheten Jeremiae am 20. Capitel .
+1	Nun	nun	_	ADV	_	_	_	_	_	2286-2289	w172	Nun	B-ADVP	*
+2	ſtehet	stehen	_	VVFIN	_	_	_	_	_	2290-2296	w173	steht	O	*
+3	auff	auf	_	PTKVZ	_	_	_	_	_	2297-2301	w174	auf	O	*
+4	von	von	_	APPR	_	_	_	_	_	2302-2305	w175	von	B-PP	*
+5	ewrem	euer	_	PPOSAT	_	_	_	_	_	2306-2311	w176	eurem	I-PP	*
+6	ſündtlichen	sündlich	_	ADJA	_	_	_	_	_	2312-2323	w177	sündlichen	I-PP	*
+7	le-<lb/>ben	leben	_	NN	_	_	_	_	_	2324-2335	w178	leben	I-PP	*
+8	/	/	_	$(	_	_	_	_	_	2336-2337	w179	/	I-PP	*
+9	thut	tun	_	VVFIN	_	_	_	_	_	2338-2342	w17a	tut	O	*
+10	Buſſe	Buße	_	NN	_	_	_	_	_	2343-2348	w17b	Buße	B-NP	*
+11	vnd	und	_	KON	_	_	_	_	_	2349-2352	w17c	und	O	*
+12	beſſert	bessern	_	VVFIN	_	_	_	_	_	2353-2360	w17d	bessert	O	*
+13	daſſelbige	dasselbe	_	PDS	_	_	_	_	_	2361-2371	w17e	dasselbe	B-NP	*
+14	/	/	_	$(	_	_	_	_	_	2372-2373	w17f	/	O	*
+15	vnd	und	_	KON	_	_	_	_	_	2374-2377	w180	und	O	*
+16	höret	hören	_	VVFIN	_	_	_	_	_	2378-2383	w181	höret	O	*
+17	an	an	_	PTKVZ	_	_	_	_	_	2384-2386	w182	an	O	*
+18	mit	mit	_	APPR	_	_	_	_	_	2387-2390	w183	mit	B-PP	*
+19	rechter	recht	_	ADJA	_	_	_	_	_	2391-2398	w184	rechter	I-PP	*
+20	andacht	Andacht	_	NN	_	_	_	_	_	2399-2406	w185	Andacht	I-PP	*
+21	/	/	_	$(	_	_	_	_	_	2407-2408	w186	/	I-PP	*
+22	den	d	_	ART	_	_	_	_	_	2409-2412	w187	den	B-NP	*
+23	Kleglichen	kläglich	_	ADJA	_	_	_	_	_	2413-2423	w188	Kläglichen	I-NP	*
+24	Text	Text	_	NN	_	_	_	_	_	2424-2428	w189	Text	I-NP	*
+25	des	d	_	ART	_	_	_	_	_	2429-2432	w18a	des	I-NP	*
+26	heiligen	heilig	_	ADJA	_	_	_	_	_	2433-2441	w18b	heiligen	I-NP	*
+27	Pro-<lb/>pheten	Prophet	_	NN	_	_	_	_	_	2442-2457	w18c	Propheten	I-NP	*
+28	Jeremiae	Jeremiae	_	NE	_	_	_	_	_	2458-2466	w18d	Jeremiae	I-NP	*
+29	am	am	_	APPRART	_	_	_	_	_	2467-2469	w18e	am	I-NP	*
+30	20.	20.	_	ADJA	_	_	_	_	_	2470-2473	w18f	20.	I-NP	*
+31	Capitel	Kapitel	_	NN	_	_	_	_	_	2474-2481	w190	Kapitel	I-NP	*
+32	.	.	_	$.	_	_	_	_	_	2482-2483	w191	.	I-NP	*
+
+# sent_id = 20
+# sent_id(TSV) = 20
+# PTBstring = (VROOT(NP(NE Jerem.)(CARD XX)(PUNKT .)))
+# text = Jerem. XX .
+1	Jerem.	Jerem.	_	NE	_	_	_	_	_	2485-2491	w192	Jerem.	B-NP	*
+2	XX	Xx	_	CARD	_	_	_	_	_	2492-2494	w193	XX	I-NP	*
+3	.	.	_	$.	_	_	_	_	_	2495-2496	w194	.	I-NP	*
+
+# sent_id = 21
+# sent_id(TSV) = 21
+# PTBstring = (VROOT(S(VP(VVPP VErflucht))(VP(VAFIN ſey))(NP(ART der)(NN tag)(S:RC(PP(APPR an)(PRELS dem))(NP(PPER ich))(VP(VVPP geborn))(VP(VAFIN bin))(KLAMMER /)))))
+# text = VErflucht ſey der tag an dem ich geborn bin /
+1	VErflucht	verfluchen	_	VVPP	_	_	_	_	_	2498-2507	w195,w195_1	Verflucht	O	*
+2	ſey	sein	_	VAFIN	_	_	_	_	_	2508-2511	w196	sei	O	*
+3	der	d	_	ART	_	_	_	_	_	2512-2515	w197	der	B-NP	*
+4	tag	Tag	_	NN	_	_	_	_	_	2516-2519	w198	tag	I-NP	*
+5	an	an	_	APPR	_	_	_	_	_	2520-2522	w199	an	B-PP	*
+6	dem	die	_	PRELS	_	_	_	_	_	2523-2526	w19a	dem	I-PP	*
+7	ich	ich	_	PPER	_	_	_	_	_	2527-2530	w19b	ich	B-NP	*
+8	geborn	gebären	_	VVPP	_	_	_	_	_	2531-2537	w19c	geboren	O	*
+9	bin	sein	_	VAFIN	_	_	_	_	_	2538-2541	w19d	bin	O	*
+10	/	/	_	$(	_	_	_	_	_	2542-2543	w19e	/	O	*
+
+# sent_id = 22
+# sent_id(TSV) = 22
+# PTBstring = (VROOT(S(NP(NP(ART der)(NN tag)(S:RC(PP(APPR an)(PRELS dem))(NP(PPER mich))(NP(PPOSAT mein)(NN Mutter))(VP(VVPP bracht))(VP(VAFIN hat))(KLAMMER /)))(PDS der))(VP(VAFIN ſey))(AP(ADJD vnglückſelig))(KLAMMER /)))
+# text = der tag an dem mich mein Mutter bracht hat / der ſey vnglückſelig /
+1	der	d	_	ART	_	_	_	_	_	2545-2548	w19f	der	B-NP	*
+2	tag	Tag	_	NN	_	_	_	_	_	2549-2552	w1a0	tag	I-NP	*
+3	an	an	_	APPR	_	_	_	_	_	2553-2555	w1a1	an	I-NP	*
+4	dem	die	_	PRELS	_	_	_	_	_	2556-2559	w1a2	dem	I-NP	*
+5	mich	ich	_	PPER	_	_	_	_	_	2560-2564	w1a3	mich	I-NP	*
+6	mein	mein	_	PPOSAT	_	_	_	_	_	2565-2569	w1a4	mein	I-NP	*
+7	Mutter	Mutter	_	NN	_	_	_	_	_	2570-2576	w1a5	Mutter	I-NP	*
+8	bracht	bringen	_	VVPP	_	_	_	_	_	2577-2583	w1a6	brachte	I-NP	*
+9	hat	haben	_	VAFIN	_	_	_	_	_	2584-2587	w1a7	hat	I-NP	*
+10	/	/	_	$(	_	_	_	_	_	2588-2589	w1a8	/	I-NP	*
+11	der	d	_	PDS	_	_	_	_	_	2590-2593	w1a9	der	B-NP	*
+12	ſey	sein	_	VAFIN	_	_	_	_	_	2594-2597	w1aa	sei	O	*
+13	vnglückſelig	unglückselig	_	ADJD	_	_	_	_	_	2598-2610	w1ab	unglückselig	B-AP	*
+14	/	/	_	$(	_	_	_	_	_	2611-2612	w1ac	/	O	*
+
+# sent_id = 23
+# sent_id(TSV) = 23
+# PTBstring = (VROOT(S(VP(VVPP Ver-<lb/>flucht))(VP(VAFIN ſey))(NP(ART der)(NN Menſch)(KLAMMER /)(AS(PRELS der)(NP(PPOSAT mei-<lb/>nem)(NN Vater))(VP(NP(ART das)(NN botenbrot))(VVPP bracht)(KLAMMER /)(PPER jm)(PP(APPR zu)(ART einer)(NN Freud)(KLAMMER /))))(CS(S(KOUS da)(NP(PPER er))(VP(VVFIN ſprach))(KLAMMER /))(S(NP(PPER Dir))(VP(VAFIN iſt))(NP(ART ein)(NN Knab))(VP(VAPP worden))(KLAMMER /))))))
+# text = Ver-<lb/>flucht ſey der Menſch / der mei-<lb/>nem Vater das botenbrot bracht / jm zu einer Freud / da er ſprach / Dir iſt ein Knab worden /
+1	Ver-<lb/>flucht	verfluchen	_	VVPP	_	_	_	_	_	2614-2629	w1ad	Verflucht	O	*
+2	ſey	sein	_	VAFIN	_	_	_	_	_	2630-2633	w1ae	sei	O	*
+3	der	d	_	ART	_	_	_	_	_	2634-2637	w1af	der	B-NP	*
+4	Menſch	Mensch	_	NN	_	_	_	_	_	2638-2644	w1b0	Mensch	I-NP	*
+5	/	/	_	$(	_	_	_	_	_	2645-2646	w1b1	/	I-NP	*
+6	der	d	_	PRELS	_	_	_	_	_	2647-2650	w1b2	der	B-NP	*
+7	mei-<lb/>nem	meine	_	PPOSAT	_	_	_	_	_	2651-2663	w1b3	meinem	B-NP	*
+8	Vater	Vater	_	NN	_	_	_	_	_	2664-2669	w1b4	Vater	I-NP	*
+9	das	d	_	ART	_	_	_	_	_	2670-2673	w1b5	das	B-NP	*
+10	botenbrot	Botenbrot	_	NN	_	_	_	_	_	2674-2683	w1b6	Botenbrot	I-NP	*
+11	bracht	bringen	_	VVPP	_	_	_	_	_	2684-2690	w1b7	brachte	O	*
+12	/	/	_	$(	_	_	_	_	_	2691-2692	w1b8	/	O	*
+13	jm	er	_	PPER	_	_	_	_	_	2693-2695	w1b9	ihm	B-NP	*
+14	zu	zu	_	APPR	_	_	_	_	_	2696-2698	w1ba	zu	B-PP	*
+15	einer	eine	_	ART	_	_	_	_	_	2699-2704	w1bb	einer	I-PP	*
+16	Freud	Freude	_	NN	_	_	_	_	_	2705-2710	w1bc	Freude	I-PP	*
+17	/	/	_	$(	_	_	_	_	_	2711-2712	w1bd	/	I-PP	*
+18	da	da	_	KOUS	_	_	_	_	_	2713-2715	w1be	da	O	*
+19	er	er	_	PPER	_	_	_	_	_	2716-2718	w1bf	er	B-NP	*
+20	ſprach	sprechen	_	VVFIN	_	_	_	_	_	2719-2725	w1c0	sprach	O	*
+21	/	/	_	$(	_	_	_	_	_	2726-2727	w1c1	/	O	*
+22	Dir	du	_	PPER	_	_	_	_	_	2728-2731	w1c2	Dir	B-NP	*
+23	iſt	sein	_	VAFIN	_	_	_	_	_	2732-2735	w1c3	ist	O	*
+24	ein	eine	_	ART	_	_	_	_	_	2736-2739	w1c4	ein	B-NP	*
+25	Knab	Knabe	_	NN	_	_	_	_	_	2740-2744	w1c5	Knabe	I-NP	*
+26	worden	werden	_	VAPP	_	_	_	_	_	2745-2751	w1c6	worden	O	*
+27	/	/	_	$(	_	_	_	_	_	2752-2753	w1c7	/	O	*
+
+# sent_id = 24
+# sent_id(TSV) = 24
+# PTBstring = (VROOT(S(NP(PPER Es))(VP(VVFIN gehe))(NP(ART dem)(PDAT ſelben)(NN menſchen)(KLAMMER /)(S(KOUS wie)(NP(PPER es))(VP(NP(ART den)(NN Ste-<lb/>ten))(VVPP ergangen))(VP(VAFIN iſt))(KLAMMER /)(S:RC(NP(PRELS die))(NP(ART der)(NN HERR))(VP(PP(APPR one)(NN barm-<lb/>hertzigkeit))(VVPP vmbgekert))(VP(VAFIN hat))(PUNKT .))))))
+# text = Es gehe dem ſelben menſchen / wie es den Ste-<lb/>ten ergangen iſt / die der HERR one barm-<lb/>hertzigkeit vmbgekert hat .
+1	Es	es	_	PPER	_	_	_	_	_	2755-2757	w1c8	Es	B-NP	*
+2	gehe	gehen	_	VVFIN	_	_	_	_	_	2758-2762	w1c9	gehe	O	*
+3	dem	d	_	ART	_	_	_	_	_	2763-2766	w1ca	dem	B-NP	*
+4	ſelben	selb	_	PDAT	_	_	_	_	_	2767-2773	w1cb	selben	I-NP	*
+5	menſchen	Mensch	_	NN	_	_	_	_	_	2774-2782	w1cc	Menschen	I-NP	*
+6	/	/	_	$(	_	_	_	_	_	2783-2784	w1cd	/	I-NP	*
+7	wie	wie	_	KOUS	_	_	_	_	_	2785-2788	w1ce	wie	O	*
+8	es	es	_	PPER	_	_	_	_	_	2789-2791	w1cf	es	B-NP	*
+9	den	d	_	ART	_	_	_	_	_	2792-2795	w1d0	den	B-NP	*
+10	Ste-<lb/>ten	Stete	_	NN	_	_	_	_	_	2796-2808	w1d1	Steten	I-NP	*
+11	ergangen	ergehen	_	VVPP	_	_	_	_	_	2809-2817	w1d2	ergangen	O	*
+12	iſt	sein	_	VAFIN	_	_	_	_	_	2818-2821	w1d3	ist	O	*
+13	/	/	_	$(	_	_	_	_	_	2822-2823	w1d4	/	O	*
+14	die	d	_	PRELS	_	_	_	_	_	2824-2827	w1d5	die	B-NP	*
+15	der	d	_	ART	_	_	_	_	_	2828-2831	w1d6	der	B-NP	*
+16	HERR	Herr	_	NN	_	_	_	_	_	2832-2836	w1d7	Herr	I-NP	*
+17	one	ohne	_	APPR	_	_	_	_	_	2837-2840	w1d8	ohne	B-PP	*
+18	barm-<lb/>hertzigkeit	Barmherzigkeit	_	NN	_	_	_	_	_	2841-2862	w1d9	Barmherzigkeit	I-PP	*
+19	vmbgekert	umgekehrt	_	VVPP	_	_	_	_	_	2863-2872	w1da	umgekehrt	O	*
+20	hat	haben	_	VAFIN	_	_	_	_	_	2873-2876	w1db	hat	O	*
+21	.	.	_	$.	_	_	_	_	_	2877-2878	w1dc	.	O	*
+
+# sent_id = 25
+# sent_id(TSV) = 25
+# PTBstring = (VROOT(S(PWAV Warumb)(VP(VAFIN bin))(NP(PPER ich))(VP(PP(APPR aus)(NN Mutter)(NN leib))(PP(APPR auff)(PDAT dieſe)(NN erden))(VVPP komen)(PUNKT ?))))
+# text = Warumb bin ich aus Mutter leib auff dieſe erden komen ?
+1	Warumb	warum	_	PWAV	_	_	_	_	_	2880-2886	w204	Warum	O	*
+2	bin	sein	_	VAFIN	_	_	_	_	_	2887-2890	w205	bin	O	*
+3	ich	ich	_	PPER	_	_	_	_	_	2891-2894	w206	ich	B-NP	*
+4	aus	aus	_	APPR	_	_	_	_	_	2895-2898	w207	aus	B-PP	*
+5	Mutter	Mutter	_	NN	_	_	_	_	_	2899-2905	w208	Mutter	I-PP	*
+6	leib	Leib	_	NN	_	_	_	_	_	2906-2910	w209	Leib	I-PP	*
+7	auff	auf	_	APPR	_	_	_	_	_	2911-2915	w20a	auf	B-PP	*
+8	dieſe	diese	_	PDAT	_	_	_	_	_	2916-2921	w20b	diese	I-PP	*
+9	erden	Erde	_	NN	_	_	_	_	_	2922-2927	w20c	Erden	I-PP	*
+10	komen	kommen	_	VVPP	_	_	_	_	_	2928-2933	w20d	kommen	O	*
+11	?	?	_	$.	_	_	_	_	_	2934-2935	w20e	?	O	*

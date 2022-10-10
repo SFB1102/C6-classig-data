@@ -1,0 +1,943 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CharOffset DTA:ID DTA:NORM POS TOPF
+# sent_id = 1
+# sent_id(TSV) = 1
+# TopFString = (S(VF(NN Briefe)(ART eines)(NN Verſtorbenen))(LK(PUNKT .)))
+# text = Briefe eines Verſtorbenen .
+1	Briefe	Brief	_	NN	_	_	_	_	_	0-6	w1	Briefe	*	B-VF
+2	eines	eine	_	ART	_	_	_	_	_	7-12	w2	eines	*	I-VF
+3	Verſtorbenen	Verstorbene	_	NN	_	_	_	_	_	13-25	w3	Verstorbenen	*	I-VF
+4	.	.	_	$.	_	_	_	_	_	26-27	w4	.	*	B-LK
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# TopFString = (S(VF(ADJA Zweiter)(NN Theil))(LK(PUNKT .)))
+# text = Zweiter Theil .
+1	Zweiter	zweit	_	ADJA	_	_	_	_	_	29-36	w5	Zweiter	*	B-VF
+2	Theil	Teil	_	NN	_	_	_	_	_	37-42	w6	Teil	*	I-VF
+3	.	.	_	$.	_	_	_	_	_	43-44	w7	.	*	B-LK
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# TopFString = (S(VF(ADJA Folgende)(ADJA empfehlungswerthe)(NN Werke))(LK(VAFIN haben))(MF(ADV ſo)(ADV eben)(APPR bei)(NE F.)(NE G.)(NE Franckh)(APPR in)(NE München)(ART die)(NN Preſſe))(VC(VVINF verlaſſen)(PUNKT :)))
+# text = Folgende empfehlungswerthe Werke haben ſo eben bei F. G. Franckh in München die Preſſe verlaſſen :
+1	Folgende	folgend	_	ADJA	_	_	_	_	_	46-54	w8	Folgende	*	B-VF
+2	empfehlungswerthe	empfehlungswert	_	ADJA	_	_	_	_	_	55-72	w9	Empfehlungswerte	*	I-VF
+3	Werke	Werk	_	NN	_	_	_	_	_	73-78	wa	Werke	*	I-VF
+4	haben	haben	_	VAFIN	_	_	_	_	_	79-84	wb	haben	*	B-LK
+5	ſo	so	_	ADV	_	_	_	_	_	85-87	wc	so	*	B-MF
+6	eben	eben	_	ADV	_	_	_	_	_	88-92	wd	eben	*	I-MF
+7	bei	bei	_	APPR	_	_	_	_	_	93-96	we	bei	*	I-MF
+8	F.	F.	_	NE	_	_	_	_	_	97-99	wf	F.	*	I-MF
+9	G.	G.	_	NE	_	_	_	_	_	100-102	w10	G.	*	I-MF
+10	Franckh	Franckh	_	NE	_	_	_	_	_	103-110	w11	Franckh	*	I-MF
+11	in	in	_	APPR	_	_	_	_	_	111-113	w12	in	*	I-MF
+12	München	München	_	NE	_	_	_	_	_	114-121	w13	München	*	I-MF
+13	die	d	_	ART	_	_	_	_	_	122-125	w14	die	*	I-MF
+14	Preſſe	Presse	_	NN	_	_	_	_	_	126-132	w15	Presse	*	I-MF
+15	verlaſſen	verlassen	_	VVINF	_	_	_	_	_	133-142	w16	verlassen	*	B-RK
+16	:	:	_	$.	_	_	_	_	_	143-144	w17	:	*	I-RK
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# TopFString = (S(VF(ART Die)(ADJA deutſche)(NN Literatur))(LK(PUNKT .)))
+# text = Die deutſche Literatur .
+1	Die	d	_	ART	_	_	_	_	_	146-149	w18	Die	*	B-VF
+2	deutſche	deutsch	_	ADJA	_	_	_	_	_	150-158	w19	deutsche	*	I-VF
+3	Literatur	Literatur	_	NN	_	_	_	_	_	159-168	w1a	Literatur	*	I-VF
+4	.	.	_	$.	_	_	_	_	_	169-170	w1b	.	*	B-LK
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# TopFString = (S(APPR Von)(NN Dr.)(NE Wolfgang)(NE Menzel)(PUNKT .))
+# text = Von Dr. Wolfgang Menzel .
+1	Von	von	_	APPR	_	_	_	_	_	172-175	w1c	Von	*	O
+2	Dr.	Dr.	_	NN	_	_	_	_	_	176-179	w1d	Dr.	*	O
+3	Wolfgang	Wolfgang	_	NE	_	_	_	_	_	180-188	w1e	Wolfgang	*	O
+4	Menzel	Menzel	_	NE	_	_	_	_	_	189-195	w1f	Menzel	*	O
+5	.	.	_	$.	_	_	_	_	_	196-197	w20	.	*	O
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# TopFString = (S(CARD Zwei)(NN Bände)(MF(ADJD elegant))(VC(VVPP broſchirt))(PUNKT .))
+# text = Zwei Bände elegant broſchirt .
+1	Zwei	zwei	_	CARD	_	_	_	_	_	199-203	w21	Zwei	*	O
+2	Bände	Band	_	NN	_	_	_	_	_	204-209	w22	Bände	*	O
+3	elegant	elegant	_	ADJD	_	_	_	_	_	210-217	w23	elegant	*	B-MF
+4	broſchirt	broschieren	_	VVPP	_	_	_	_	_	218-227	w24	broschiert	*	B-RK
+5	.	.	_	$.	_	_	_	_	_	228-229	w25	.	*	O
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# TopFString = (S(VF(ART Der)(NN Patriot))(LK(PUNKT .)))
+# text = Der Patriot .
+1	Der	d	_	ART	_	_	_	_	_	231-234	w26	Der	*	B-VF
+2	Patriot	Patriot	_	NN	_	_	_	_	_	235-242	w27	Patriot	*	I-VF
+3	.	.	_	$.	_	_	_	_	_	243-244	w28	.	*	B-LK
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# TopFString = (S(ADJA Komiſcher)(NN Roman)(APPR von)(NE Friedrich)(NE Seybold.)(NN gr.)(CARD 12.)(ADJD elegant)(VC(VVPP broſchirt))(VC(PUNKT .)))
+# text = Komiſcher Roman von Friedrich Seybold. gr. 12. elegant broſchirt .
+1	Komiſcher	komisch	_	ADJA	_	_	_	_	_	246-255	w29	Komischer	*	O
+2	Roman	Roman	_	NN	_	_	_	_	_	256-261	w2a	Roman	*	O
+3	von	von	_	APPR	_	_	_	_	_	262-265	w2b	von	*	O
+4	Friedrich	Friedrich	_	NE	_	_	_	_	_	266-275	w2c	Friedrich	*	O
+5	Seybold.	Seybold.	_	NE	_	_	_	_	_	276-284	w2d,w2d_1	Seybold.	*	O
+6	gr.	Gr.	_	NN	_	_	_	_	_	285-288	w2e	gr.	*	O
+7	12.	12.	_	CARD	_	_	_	_	_	289-292	w2f	12.	*	O
+8	elegant	elegant	_	ADJD	_	_	_	_	_	293-300	w30	elegant	*	O
+9	broſchirt	broschieren	_	VVPP	_	_	_	_	_	301-310	w31	broschiert	*	B-RK
+10	.	.	_	$.	_	_	_	_	_	311-312	w32	.	*	B-RK
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# TopFString = (S(VF(NE Oeſtreichs)(NN Einfluß)(APPR auf)(NE Deutſchland))(LK(PUNKT .)))
+# text = Oeſtreichs Einfluß auf Deutſchland .
+1	Oeſtreichs	Österreich	_	NE	_	_	_	_	_	314-324	w33	Österreichs	*	B-VF
+2	Einfluß	Einfluß	_	NN	_	_	_	_	_	325-332	w34	Einfluß	*	I-VF
+3	auf	auf	_	APPR	_	_	_	_	_	333-336	w35	auf	*	I-VF
+4	Deutſchland	Deutschland	_	NE	_	_	_	_	_	337-348	w36	Deutschland	*	I-VF
+5	.	.	_	$.	_	_	_	_	_	349-350	w37	.	*	B-LK
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# TopFString = (S(MF(APPR Von)(ART der)(NN Reformation)(APPR bis)(APPR zu)(ART den)(NN Revolutionen)(PPOSAT unſerer)(NN Zeit))(VC(PUNKT .)))
+# text = Von der Reformation bis zu den Revolutionen unſerer Zeit .
+1	Von	von	_	APPR	_	_	_	_	_	352-355	w38	Von	*	B-MF
+2	der	d	_	ART	_	_	_	_	_	356-359	w39	der	*	I-MF
+3	Reformation	Reformation	_	NN	_	_	_	_	_	360-371	w3a	Reformation	*	I-MF
+4	bis	bis	_	APPR	_	_	_	_	_	372-375	w3b	bis	*	I-MF
+5	zu	zu	_	APPR	_	_	_	_	_	376-378	w3c	zu	*	I-MF
+6	den	d	_	ART	_	_	_	_	_	379-382	w3d	den	*	I-MF
+7	Revolutionen	Revolution	_	NN	_	_	_	_	_	383-395	w3e	Revolutionen	*	I-MF
+8	unſerer	unsere	_	PPOSAT	_	_	_	_	_	396-403	w3f	unserer	*	I-MF
+9	Zeit	Zeit	_	NN	_	_	_	_	_	404-408	w40	Zeit	*	I-MF
+10	.	.	_	$.	_	_	_	_	_	409-410	w41	.	*	B-RK
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# TopFString = (S(VF(APPR Von)(NN Dr.)(NE J.)(NE F.)(NE B.)(NE Schneller))(LK(KOMMA ,))(MF(ADJA ordl.)(ADJA öffentl.)(NN Prof.)(ART der)(NN Philoſophie)(KON u.)(NN Geſchichte)(APPR zu)(NE Freiburg)(PUNKT .)))
+# text = Von Dr. J. F. B. Schneller , ordl. öffentl. Prof. der Philoſophie u. Geſchichte zu Freiburg .
+1	Von	von	_	APPR	_	_	_	_	_	412-415	w42	Von	*	B-VF
+2	Dr.	Dr.	_	NN	_	_	_	_	_	416-419	w43	Dr.	*	I-VF
+3	J.	J.	_	NE	_	_	_	_	_	420-422	w44	J.	*	I-VF
+4	F.	F.	_	NE	_	_	_	_	_	423-425	w45	F.	*	I-VF
+5	B.	B.	_	NE	_	_	_	_	_	426-428	w46	B.	*	I-VF
+6	Schneller	schnell	_	NE	_	_	_	_	_	429-438	w47	Schneller	*	I-VF
+7	,	,	_	$,	_	_	_	_	_	439-440	w48	,	*	B-LK
+8	ordl.	Ordl.	_	ADJA	_	_	_	_	_	441-446	w49	ordl.	*	B-MF
+9	öffentl.	Öffentl.	_	ADJA	_	_	_	_	_	447-455	w4a	öffentl.	*	I-MF
+10	Prof.	Prof.	_	NN	_	_	_	_	_	456-461	w4b	Prof.	*	I-MF
+11	der	d	_	ART	_	_	_	_	_	462-465	w4c	der	*	I-MF
+12	Philoſophie	Philosophie	_	NN	_	_	_	_	_	466-477	w4d	Philosophie	*	I-MF
+13	u.	u.	_	KON	_	_	_	_	_	478-480	w4e	u.	*	I-MF
+14	Geſchichte	Geschichte	_	NN	_	_	_	_	_	481-491	w4f	Geschichte	*	I-MF
+15	zu	zu	_	APPR	_	_	_	_	_	492-494	w50	zu	*	I-MF
+16	Freiburg	Freiburg	_	NE	_	_	_	_	_	495-503	w51	Freiburg	*	I-MF
+17	.	.	_	$.	_	_	_	_	_	504-505	w52	.	*	I-MF
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# TopFString = (S(VF(CARD Zwei)(NN Bände))(LK(PUNKT ;))(MF(NN gr.)(CARD 8.))(VC(VVPP geheftet)(PUNKT .)))
+# text = Zwei Bände ; gr. 8. geheftet .
+1	Zwei	zwei	_	CARD	_	_	_	_	_	507-511	w53	Zwei	*	B-VF
+2	Bände	Band	_	NN	_	_	_	_	_	512-517	w54	Bände	*	I-VF
+3	;	;	_	$.	_	_	_	_	_	518-519	w55	;	*	B-LK
+4	gr.	Gr.	_	NN	_	_	_	_	_	520-523	w56	gr.	*	B-MF
+5	8.	8.	_	CARD	_	_	_	_	_	524-526	w57	8.	*	I-MF
+6	geheftet	heften	_	VVPP	_	_	_	_	_	527-535	w58	geheftet	*	B-RK
+7	.	.	_	$.	_	_	_	_	_	536-537	w59	.	*	I-RK
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# TopFString = (S(VF(NN Briefe)(ART eines)(NN Verſtorbenen))(LK(PUNKT .)))
+# text = Briefe eines Verſtorbenen .
+1	Briefe	Brief	_	NN	_	_	_	_	_	539-545	w5a	Briefe	*	B-VF
+2	eines	eine	_	ART	_	_	_	_	_	546-551	w5b	eines	*	I-VF
+3	Verſtorbenen	Verstorbene	_	NN	_	_	_	_	_	552-564	w5c	Verstorbenen	*	I-VF
+4	.	.	_	$.	_	_	_	_	_	565-566	w5d	.	*	B-LK
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# TopFString = (S(VF(ART Ein)(ADJA fragmentariſches)(NN Tagebuch)(APPR aus)(NE England)(KOMMA ,)(NE Wales))(LK(KOMMA ,))(MF(NE Irland)(KON und)(NE Frankreich)(LK(KOMMA ,))(VC(VVPP geſchrieben))(APPR in)(ART den)(NN Jahren)(CARD 1828)(KON und)(CARD 1829)(PUNKT .)))
+# text = Ein fragmentariſches Tagebuch aus England , Wales , Irland und Frankreich , geſchrieben in den Jahren 1828 und 1829 .
+1	Ein	eine	_	ART	_	_	_	_	_	568-571	w5e	Ein	*	B-VF
+2	fragmentariſches	fragmentarisch	_	ADJA	_	_	_	_	_	572-588	w5f	fragmentarisches	*	I-VF
+3	Tagebuch	Tagebuch	_	NN	_	_	_	_	_	589-597	w60	Tagebuch	*	I-VF
+4	aus	aus	_	APPR	_	_	_	_	_	598-601	w61	aus	*	I-VF
+5	England	England	_	NE	_	_	_	_	_	602-609	w62	England	*	I-VF
+6	,	,	_	$,	_	_	_	_	_	610-611	w63	,	*	I-VF
+7	Wales	Wales	_	NE	_	_	_	_	_	612-617	w64	Wales	*	I-VF
+8	,	,	_	$,	_	_	_	_	_	618-619	w65	,	*	B-LK
+9	Irland	Irland	_	NE	_	_	_	_	_	620-626	w66	Irland	*	B-MF
+10	und	und	_	KON	_	_	_	_	_	627-630	w67	und	*	I-MF
+11	Frankreich	Frankreich	_	NE	_	_	_	_	_	631-641	w68	Frankreich	*	I-MF
+12	,	,	_	$,	_	_	_	_	_	642-643	w69	,	*	I-MF|B-LK
+13	geſchrieben	schreiben	_	VVPP	_	_	_	_	_	644-655	w6a	geschrieben	*	I-MF|B-RK
+14	in	in	_	APPR	_	_	_	_	_	656-658	w6b	in	*	I-MF
+15	den	d	_	ART	_	_	_	_	_	659-662	w6c	den	*	I-MF
+16	Jahren	Jahr	_	NN	_	_	_	_	_	663-669	w6d	Jahren	*	I-MF
+17	1828	1828	_	CARD	_	_	_	_	_	670-674	w6e	1828	*	I-MF
+18	und	und	_	KON	_	_	_	_	_	675-678	w6f	und	*	I-MF
+19	1829	1829	_	CARD	_	_	_	_	_	679-683	w70	1829	*	I-MF
+20	.	.	_	$.	_	_	_	_	_	684-685	w71	.	*	I-MF
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# TopFString = (S(VF(ADJA Zweiter)(NN Theil))(LK(PUNKT .)))
+# text = Zweiter Theil .
+1	Zweiter	zweit	_	ADJA	_	_	_	_	_	687-694	w72	Zweiter	*	B-VF
+2	Theil	Teil	_	NN	_	_	_	_	_	695-700	w73	Teil	*	I-VF
+3	.	.	_	$.	_	_	_	_	_	701-702	w74	.	*	B-LK
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# TopFString = (S(NE Muͤnchen)(PUNKT .)(NE F.)(NE G.)(NE Franckh)(PUNKT .)(CARD 1830)(PUNKT .))
+# text = Muͤnchen . F. G. Franckh . 1830 .
+1	Muͤnchen	München	_	NE	_	_	_	_	_	704-712	w75	München	*	O
+2	.	.	_	$.	_	_	_	_	_	713-714	w76	.	*	O
+3	F.	F.	_	NE	_	_	_	_	_	715-717	w77	F.	*	O
+4	G.	G.	_	NE	_	_	_	_	_	718-720	w78	G.	*	O
+5	Franckh	Franckh	_	NE	_	_	_	_	_	721-728	w79	Franckh	*	O
+6	.	.	_	$.	_	_	_	_	_	729-730	w7a	.	*	O
+7	1830	1830	_	CARD	_	_	_	_	_	731-735	w7b	1830	*	O
+8	.	.	_	$.	_	_	_	_	_	736-737	w7c	.	*	O
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# TopFString = (S(VF(NN Inhaltsverzeichniß)(ART des)(ADJA zweiten)(NN Theils))(LK(PUNKT .)))
+# text = Inhaltsverzeichniß des zweiten Theils .
+1	Inhaltsverzeichniß	Inhaltsverzeichnis	_	NN	_	_	_	_	_	739-757	w613	Inhaltsverzeichnis	*	B-VF
+2	des	d	_	ART	_	_	_	_	_	758-761	w614	des	*	I-VF
+3	zweiten	zweit	_	ADJA	_	_	_	_	_	762-769	w615	zweiten	*	I-VF
+4	Theils	Teil	_	NN	_	_	_	_	_	770-776	w616	Teils	*	I-VF
+5	.	.	_	$.	_	_	_	_	_	777-778	w617	.	*	B-LK
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# TopFString = (S(NN Brief)(CARD XXXIV)(PUNKT .))
+# text = Brief XXXIV .
+1	Brief	Brief	_	NN	_	_	_	_	_	780-785	w618	Brief	*	O
+2	XXXIV	xxxiv	_	CARD	_	_	_	_	_	786-791	w619	XXXIV	*	O
+3	.	.	_	$.	_	_	_	_	_	792-793	w61a	.	*	O
+
+# sent_id = 19
+# sent_id(TSV) = 19
+# TopFString = (S(VF(C(PWS Wer))(MF(NE Samiel)(ADV eigentlich))(VC(VAFIN war)))(LK(PUNKT .)))
+# text = Wer Samiel eigentlich war .
+1	Wer	wer	_	PWS	_	_	_	_	_	795-798	w7d	Wer	*	B-VF|B-LK
+2	Samiel	Samiel	_	NE	_	_	_	_	_	799-805	w7e	Samiel	*	I-VF|B-MF
+3	eigentlich	eigentlich	_	ADV	_	_	_	_	_	806-816	w7f	eigentlich	*	I-VF|I-MF
+4	war	sein	_	VAFIN	_	_	_	_	_	817-820	w80	war	*	I-VF|B-RK
+5	.	.	_	$.	_	_	_	_	_	821-822	w81	.	*	B-LK
+
+# sent_id = 20
+# sent_id(TSV) = 20
+# TopFString = (S(NN Rückwanderung)(APPR nach)(NE Ken-<lb/>mare)(PUNKT .))
+# text = Rückwanderung nach Ken-<lb/>mare .
+1	Rückwanderung	Rückwanderung	_	NN	_	_	_	_	_	824-837	w82	Rückwanderung	*	O
+2	nach	nach	_	APPR	_	_	_	_	_	838-842	w83	nach	*	O
+3	Ken-<lb/>mare	Kenmare	_	NE	_	_	_	_	_	843-856	w84	Kenmare	*	O
+4	.	.	_	$.	_	_	_	_	_	857-858	w85	.	*	O
+
+# sent_id = 21
+# sent_id(TSV) = 21
+# TopFString = (S(VF(NE Kenmare))(LK(KOMMA ,))(MF(ART den)(ADJA 28ſten)(NN September)(CARD 1828)(PUNKT .)))
+# text = Kenmare , den 28ſten September 1828 .
+1	Kenmare	Kenmare	_	NE	_	_	_	_	_	860-867	w645	Kenmare	*	B-VF
+2	,	,	_	$,	_	_	_	_	_	868-869	w646	,	*	B-LK
+3	den	d	_	ART	_	_	_	_	_	870-873	w647	den	*	B-MF
+4	28ſten	28sten	_	ADJA	_	_	_	_	_	874-880	w648,w648_1	28sten	*	I-MF
+5	September	September	_	NN	_	_	_	_	_	881-890	w649	September	*	I-MF
+6	1828	1828	_	CARD	_	_	_	_	_	891-895	w64a	1828	*	I-MF
+7	.	.	_	$.	_	_	_	_	_	896-897	w64b	.	*	I-MF
+
+# sent_id = 22
+# sent_id(TSV) = 22
+# TopFString = (S(VF(ADJA Geliebte)(NN Freundin))(LK(PUNKT !)))
+# text = Geliebte Freundin !
+1	Geliebte	geliebt	_	ADJA	_	_	_	_	_	899-907	w64c	Geliebte	*	B-VF
+2	Freundin	Freundin	_	NN	_	_	_	_	_	908-916	w64d	Freundin	*	I-VF
+3	!	!	_	$.	_	_	_	_	_	917-918	w64e	!	*	B-LK
+
+# sent_id = 23
+# sent_id(TSV) = 23
+# TopFString = (S(VF(LK(VAFIN War))(MF(PPER es)(ADV alſo)(ART der)(NN Teufel)(KON oder)(PTKNEG nicht))(VC(PUNKT ?)))(LK(VVFIN fragſt))(MF(PPER Du)(PUNKT .)))
+# text = War es alſo der Teufel oder nicht ? fragſt Du .
+1	War	sein	_	VAFIN	_	_	_	_	_	920-923	w64f	War	*	B-VF|B-LK
+2	es	es	_	PPER	_	_	_	_	_	924-926	w650	es	*	I-VF|B-MF
+3	alſo	also	_	ADV	_	_	_	_	_	927-931	w651	also	*	I-VF|I-MF
+4	der	d	_	ART	_	_	_	_	_	932-935	w652	der	*	I-VF|I-MF
+5	Teufel	Teufel	_	NN	_	_	_	_	_	936-942	w653	Teufel	*	I-VF|I-MF
+6	oder	oder	_	KON	_	_	_	_	_	943-947	w654	oder	*	I-VF|I-MF
+7	nicht	nicht	_	PTKNEG	_	_	_	_	_	948-953	w655	nicht	*	I-VF|I-MF
+8	?	?	_	$.	_	_	_	_	_	954-955	w656	?	*	I-VF|B-RK
+9	fragſt	fragen	_	VVFIN	_	_	_	_	_	956-962	w657	fragst	*	B-LK
+10	Du	du	_	PPER	_	_	_	_	_	963-965	w658	Du	*	B-MF
+11	.	.	_	$.	_	_	_	_	_	966-967	w659	.	*	I-MF
+
+# sent_id = 24
+# sent_id(TSV) = 24
+# TopFString = (S(FM Ma)(FM foi)(KOMMA ,)(FM je)(FM n’)(FM en)(FM sais)(FM rien)(VC(PUNKT .)))
+# text = Ma foi , je n’ en sais rien .
+1	Ma	ma	_	FM	_	_	_	_	_	969-971	w65a	Ma	*	O
+2	foi	foi	_	FM	_	_	_	_	_	972-975	w65b	foi	*	O
+3	,	,	_	$,	_	_	_	_	_	976-977	w65c	,	*	O
+4	je	je	_	FM	_	_	_	_	_	978-980	w65d	je	*	O
+5	n’	n'	_	FM	_	_	_	_	_	981-983	w65e	n'	*	O
+6	en	en	_	FM	_	_	_	_	_	984-986	w65f	en	*	O
+7	sais	sais	_	FM	_	_	_	_	_	987-991	w660	sais	*	O
+8	rien	rien	_	FM	_	_	_	_	_	992-996	w661	rien	*	O
+9	.	.	_	$.	_	_	_	_	_	997-998	w662	.	*	B-RK
+
+# sent_id = 25
+# sent_id(TSV) = 25
+# TopFString = (S(VF(ADV Jedenfalls))(FKOORD(FKONJ(LK(VAFIN hatte))(MF(PPER er)(APPR in)(ART dem)(ADJA erwähnten)(NN Augenblick)(ART eine)(ADV ſehr)(ADJA recommendable)(KOMMA ,)(C(KOUS wenn))(MF(ADV gleich)(ADJA gefährliche)(KOMMA ,))(NN Geſtalt))(VC(VVPP erwählt))(LK(KOMMA ,))(MF(ADV nämlich)(PDS die)(ART eines)(ADJA hübſchen)(NN Mädchens))(LK(KOMMA ,))(NF(C(PRELS die))(FKOORD(FKONJ(MF(APPR in)(PPOSAT ihrem)(ADJA dunkelblauen)(KOMMA ,)(APPRART vom)(NN Regen)(ADV noch)(ADJD ſchwärzer)(ADJA gemachten)(KOMMA ,)(ADJA langen)(NN Man-<lb/>tel))(VC(VVPP eingehüllt)))(VC(KOMMA ,))(KON und)(FKONJ(MF(ART der)(ADJA rothen)(NN Mütze)(APPR von)(NE Kerry)(APPR auf)(ART dem)(NN Kopfe)(LK(KOMMA ,))(MF(ADJD barfuß))(LK(KOMMA ,))(KON und)(APPR vor)(NN Kälte)(ADJD ſchauernd)(KOMMA ,)(APPR bei)(PPER mir))(VC(VVINF vorbeigehen)(VMFIN wollte)))))(LK(KOMMA ,))(NF(C(KOUS als))(MF(PPER ich)(PPER ſie))(VC(VVFIN anhielt))))(LK(KOMMA ,))(KON und)(FKONJ(LK(VVFIN frug))(MF(KOMMA ,))(NF(C(PWAV warum))(MF(PPER ſie))(VC(VVFIN hinke)))))(LK(KOMMA ,))(KON und)(C(PWAV wie))(MF(PPER ſie)(APPR in)(PDAT dieſem)(NN Wetter)(ADV hier)(ADV ſo)(ADV allein))(VC(PTKVZ umher))(LK(VVFIN irre))(MF(PUNKT ?)))
+# text = Jedenfalls hatte er in dem erwähnten Augenblick eine ſehr recommendable , wenn gleich gefährliche , Geſtalt erwählt , nämlich die eines hübſchen Mädchens , die in ihrem dunkelblauen , vom Regen noch ſchwärzer gemachten , langen Man-<lb/>tel eingehüllt , und der rothen Mütze von Kerry auf dem Kopfe , barfuß , und vor Kälte ſchauernd , bei mir vorbeigehen wollte , als ich ſie anhielt , und frug , warum ſie hinke , und wie ſie in dieſem Wetter hier ſo allein umher irre ?
+1	Jedenfalls	jedenfalls	_	ADV	_	_	_	_	_	1000-1010	w663	Jedenfalls	*	B-VF
+2	hatte	haben	_	VAFIN	_	_	_	_	_	1011-1016	w664	hatte	*	B-LK
+3	er	er	_	PPER	_	_	_	_	_	1017-1019	w665	er	*	B-MF
+4	in	in	_	APPR	_	_	_	_	_	1020-1022	w666	in	*	I-MF
+5	dem	d	_	ART	_	_	_	_	_	1023-1026	w667	dem	*	I-MF
+6	erwähnten	erwähnt	_	ADJA	_	_	_	_	_	1027-1036	w668	erwähnten	*	I-MF
+7	Augenblick	Augenblick	_	NN	_	_	_	_	_	1037-1047	w669	Augenblick	*	I-MF
+8	eine	eine	_	ART	_	_	_	_	_	1048-1052	w66a	eine	*	I-MF
+9	ſehr	sehr	_	ADV	_	_	_	_	_	1053-1057	w66b	sehr	*	I-MF
+10	recommendable	Recommendable	_	ADJA	_	_	_	_	_	1058-1071	w66c	recommendable	*	I-MF
+11	,	,	_	$,	_	_	_	_	_	1072-1073	w66d	,	*	I-MF
+12	wenn	wenn	_	KOUS	_	_	_	_	_	1074-1078	w66e	wenn	*	I-MF|B-LK
+13	gleich	gleich	_	ADV	_	_	_	_	_	1079-1085	w66f	gleich	*	I-MF|B-MF
+14	gefährliche	gefährlich	_	ADJA	_	_	_	_	_	1086-1097	w670	gefährliche	*	I-MF|I-MF
+15	,	,	_	$,	_	_	_	_	_	1098-1099	w671	,	*	I-MF|I-MF
+16	Geſtalt	Gestalt	_	NN	_	_	_	_	_	1100-1107	w672	Gestalt	*	I-MF
+17	erwählt	erwählen	_	VVPP	_	_	_	_	_	1108-1115	w673	erwählt	*	B-RK
+18	,	,	_	$,	_	_	_	_	_	1116-1117	w674	,	*	B-LK
+19	nämlich	nämlich	_	ADV	_	_	_	_	_	1118-1125	w675	nämlich	*	B-MF
+20	die	d	_	PDS	_	_	_	_	_	1126-1129	w676	die	*	I-MF
+21	eines	eine	_	ART	_	_	_	_	_	1130-1135	w677	eines	*	I-MF
+22	hübſchen	hübsch	_	ADJA	_	_	_	_	_	1136-1144	w678	hübschen	*	I-MF
+23	Mädchens	Mädchen	_	NN	_	_	_	_	_	1145-1153	w679	Mädchens	*	I-MF
+24	,	,	_	$,	_	_	_	_	_	1154-1155	w67a	,	*	B-LK
+25	die	die	_	PRELS	_	_	_	_	_	1156-1159	w67b	die	*	B-NF|B-LK
+26	in	in	_	APPR	_	_	_	_	_	1160-1162	w67c	in	*	I-NF|B-MF
+27	ihrem	ihr	_	PPOSAT	_	_	_	_	_	1163-1168	w67d	ihrem	*	I-NF|I-MF
+28	dunkelblauen	dunkelblau	_	ADJA	_	_	_	_	_	1169-1181	w67e	dunkelblauen	*	I-NF|I-MF
+29	,	,	_	$,	_	_	_	_	_	1182-1183	w67f	,	*	I-NF|I-MF
+30	vom	vom	_	APPRART	_	_	_	_	_	1184-1187	w680	vom	*	I-NF|I-MF
+31	Regen	Regen	_	NN	_	_	_	_	_	1188-1193	w681	Regen	*	I-NF|I-MF
+32	noch	noch	_	ADV	_	_	_	_	_	1194-1198	w682	noch	*	I-NF|I-MF
+33	ſchwärzer	schwarz	_	ADJD	_	_	_	_	_	1199-1208	w683	schwärzer	*	I-NF|I-MF
+34	gemachten	gemacht	_	ADJA	_	_	_	_	_	1209-1218	w684	gemachten	*	I-NF|I-MF
+35	,	,	_	$,	_	_	_	_	_	1219-1220	w685	,	*	I-NF|I-MF
+36	langen	lang	_	ADJA	_	_	_	_	_	1221-1227	w686	langen	*	I-NF|I-MF
+37	Man-<lb/>tel	Mantel	_	NN	_	_	_	_	_	1228-1240	w687	Mantel	*	I-NF|I-MF
+38	eingehüllt	einhüllen	_	VVPP	_	_	_	_	_	1241-1251	w688	eingehüllt	*	I-NF|B-RK
+39	,	,	_	$,	_	_	_	_	_	1252-1253	w689	,	*	I-NF|B-RK
+40	und	und	_	KON	_	_	_	_	_	1254-1257	w68a	und	*	I-NF|B-KOORD
+41	der	d	_	ART	_	_	_	_	_	1258-1261	w68b	der	*	I-NF|B-MF
+42	rothen	rot	_	ADJA	_	_	_	_	_	1262-1268	w68c	roten	*	I-NF|I-MF
+43	Mütze	Mütze	_	NN	_	_	_	_	_	1269-1274	w68d	Mütze	*	I-NF|I-MF
+44	von	von	_	APPR	_	_	_	_	_	1275-1278	w68e	von	*	I-NF|I-MF
+45	Kerry	Kerry	_	NE	_	_	_	_	_	1279-1284	w68f	Kerry	*	I-NF|I-MF
+46	auf	auf	_	APPR	_	_	_	_	_	1285-1288	w690	auf	*	I-NF|I-MF
+47	dem	d	_	ART	_	_	_	_	_	1289-1292	w691	dem	*	I-NF|I-MF
+48	Kopfe	Kopf	_	NN	_	_	_	_	_	1293-1298	w692	Kopfe	*	I-NF|I-MF
+49	,	,	_	$,	_	_	_	_	_	1299-1300	w693	,	*	I-NF|I-MF|B-LK
+50	barfuß	barfuß	_	ADJD	_	_	_	_	_	1301-1307	w694	barfuß	*	I-NF|I-MF|B-MF
+51	,	,	_	$,	_	_	_	_	_	1308-1309	w695	,	*	I-NF|I-MF|B-LK
+52	und	und	_	KON	_	_	_	_	_	1310-1313	w696	und	*	I-NF|I-MF
+53	vor	vor	_	APPR	_	_	_	_	_	1314-1317	w697	vor	*	I-NF|I-MF
+54	Kälte	Kälte	_	NN	_	_	_	_	_	1318-1323	w698	Kälte	*	I-NF|I-MF
+55	ſchauernd	schauern	_	ADJD	_	_	_	_	_	1324-1333	w699	schauernd	*	I-NF|I-MF
+56	,	,	_	$,	_	_	_	_	_	1334-1335	w69a	,	*	I-NF|I-MF
+57	bei	bei	_	APPR	_	_	_	_	_	1336-1339	w69b	bei	*	I-NF|I-MF
+58	mir	ich	_	PPER	_	_	_	_	_	1340-1343	w69c	mir	*	I-NF|I-MF
+59	vorbeigehen	vorbeigehen	_	VVINF	_	_	_	_	_	1344-1355	w69d	vorbeigehen	*	I-NF|B-RK
+60	wollte	wollen	_	VMFIN	_	_	_	_	_	1356-1362	w69e	wollte	*	I-NF|I-RK
+61	,	,	_	$,	_	_	_	_	_	1363-1364	w69f	,	*	B-LK
+62	als	als	_	KOUS	_	_	_	_	_	1365-1368	w6a0	als	*	B-NF|B-LK
+63	ich	ich	_	PPER	_	_	_	_	_	1369-1372	w6a1	ich	*	I-NF|B-MF
+64	ſie	sie	_	PPER	_	_	_	_	_	1373-1376	w6a2	sie	*	I-NF|I-MF
+65	anhielt	anhalten	_	VVFIN	_	_	_	_	_	1377-1384	w6a3	anhielt	*	I-NF|B-RK
+66	,	,	_	$,	_	_	_	_	_	1385-1386	w6a4	,	*	B-LK
+67	und	und	_	KON	_	_	_	_	_	1387-1390	w6a5	und	*	B-KOORD
+68	frug	fragen	_	VVFIN	_	_	_	_	_	1391-1395	w6a6	fragte	*	B-LK
+69	,	,	_	$,	_	_	_	_	_	1396-1397	w6a7	,	*	B-MF
+70	warum	warum	_	PWAV	_	_	_	_	_	1398-1403	w6a8	warum	*	B-NF|B-LK
+71	ſie	sie	_	PPER	_	_	_	_	_	1404-1407	w6a9	sie	*	I-NF|B-MF
+72	hinke	hinken	_	VVFIN	_	_	_	_	_	1408-1413	w6aa	hinke	*	I-NF|B-RK
+73	,	,	_	$,	_	_	_	_	_	1414-1415	w6ab	,	*	B-LK
+74	und	und	_	KON	_	_	_	_	_	1416-1419	w6ac	und	*	O
+75	wie	wie	_	PWAV	_	_	_	_	_	1420-1423	w6ad	wie	*	B-LK
+76	ſie	sie	_	PPER	_	_	_	_	_	1424-1427	w6ae	sie	*	B-MF
+77	in	in	_	APPR	_	_	_	_	_	1428-1430	w6af	in	*	I-MF
+78	dieſem	diese	_	PDAT	_	_	_	_	_	1431-1437	w6b0	diesem	*	I-MF
+79	Wetter	Wetter	_	NN	_	_	_	_	_	1438-1444	w6b1	Wetter	*	I-MF
+80	hier	hier	_	ADV	_	_	_	_	_	1445-1449	w6b2	hier	*	I-MF
+81	ſo	so	_	ADV	_	_	_	_	_	1450-1452	w6b3	so	*	I-MF
+82	allein	allein	_	ADV	_	_	_	_	_	1453-1459	w6b4	allein	*	I-MF
+83	umher	umher	_	PTKVZ	_	_	_	_	_	1460-1465	w6b5	umher	*	B-RK
+84	irre	irre	_	VVFIN	_	_	_	_	_	1466-1470	w6b6	irre	*	B-LK
+85	?	?	_	$.	_	_	_	_	_	1471-1472	w6b7	?	*	B-MF
+
+# sent_id = 26
+# sent_id(TSV) = 26
+# TopFString = (S(ITJ Ach)(VF(KOMMA ,))(LK(VVFIN rief))(MF(PPER ſie)(KOMMA ,)(APPR in)(ADJD halb)(ADJA verſtänd-<lb/>lichem)(NN patois))(LK(KOMMA ,))(MF(APPR auf)(PPOSAT ihren)(ADJA verbundenen)(NN Fuß)(ADJD zeigend))(VF(PPER ich))(LK(VVFIN gehe))(MF(ADV blos)(APPR nach)(ART dem)(ADJA nächſten)(NN Dorfe))(VF(KOMMA ,))(LK(VAFIN habe))(MF(PRF mich))(VC(VVPP verſpätet))(VF(KOMMA ,))(LK(VAFIN bin))(MF(APPR bei)(ART dem)(ADJA abſcheulichen)(NN Wetter))(VC(VVPP gefallen))(LK(KOMMA ,))(KON und)(LK(VAFIN habe))(MF(PRF mir)(ADV recht))(VC(PTKVZ wehe)(VVPP gethan)(PUNKT !)))
+# text = Ach , rief ſie , in halb verſtänd-<lb/>lichem patois , auf ihren verbundenen Fuß zeigend ich gehe blos nach dem nächſten Dorfe , habe mich verſpätet , bin bei dem abſcheulichen Wetter gefallen , und habe mir recht wehe gethan !
+1	Ach	ach	_	ITJ	_	_	_	_	_	1474-1477	w6b8	Ach	*	O
+2	,	,	_	$,	_	_	_	_	_	1478-1479	w6b9	,	*	B-VF
+3	rief	rufen	_	VVFIN	_	_	_	_	_	1480-1484	w6ba	rief	*	B-LK
+4	ſie	sie	_	PPER	_	_	_	_	_	1485-1488	w6bb	sie	*	B-MF
+5	,	,	_	$,	_	_	_	_	_	1489-1490	w6bc	,	*	I-MF
+6	in	in	_	APPR	_	_	_	_	_	1491-1493	w6bd	in	*	I-MF
+7	halb	halb	_	ADJD	_	_	_	_	_	1494-1498	w6be	halb	*	I-MF
+8	verſtänd-<lb/>lichem	verständlich	_	ADJA	_	_	_	_	_	1499-1519	w6bf	verständlichem	*	I-MF
+9	patois	Patois	_	NN	_	_	_	_	_	1520-1526	w6c0	Patois	*	I-MF
+10	,	,	_	$,	_	_	_	_	_	1527-1528	w6c1	,	*	B-LK
+11	auf	auf	_	APPR	_	_	_	_	_	1529-1532	w6c2	auf	*	B-MF
+12	ihren	ihr	_	PPOSAT	_	_	_	_	_	1533-1538	w6c3	ihren	*	I-MF
+13	verbundenen	verbinden	_	ADJA	_	_	_	_	_	1539-1550	w6c4	verbundenen	*	I-MF
+14	Fuß	Fuß	_	NN	_	_	_	_	_	1551-1554	w6c5	Fuß	*	I-MF
+15	zeigend	zeigen	_	ADJD	_	_	_	_	_	1555-1562	w6c6	zeigend	*	I-MF
+16	ich	ich	_	PPER	_	_	_	_	_	1563-1566	w6c7	ich	*	B-VF
+17	gehe	gehen	_	VVFIN	_	_	_	_	_	1567-1571	w6c8	gehe	*	B-LK
+18	blos	bloß	_	ADV	_	_	_	_	_	1572-1576	w6c9	bloß	*	B-MF
+19	nach	nach	_	APPR	_	_	_	_	_	1577-1581	w6ca	nach	*	I-MF
+20	dem	d	_	ART	_	_	_	_	_	1582-1585	w6cb	dem	*	I-MF
+21	nächſten	nächst	_	ADJA	_	_	_	_	_	1586-1594	w6cc	nächsten	*	I-MF
+22	Dorfe	Dorf	_	NN	_	_	_	_	_	1595-1600	w6cd	Dorfe	*	I-MF
+23	,	,	_	$,	_	_	_	_	_	1601-1602	w6ce	,	*	B-VF
+24	habe	haben	_	VAFIN	_	_	_	_	_	1603-1607	w6cf	habe	*	B-LK
+25	mich	ich	_	PRF	_	_	_	_	_	1608-1612	w6d0	mich	*	B-MF
+26	verſpätet	verspätet	_	VVPP	_	_	_	_	_	1613-1622	w6d1	verspätet	*	B-RK
+27	,	,	_	$,	_	_	_	_	_	1623-1624	w6d2	,	*	B-VF
+28	bin	sein	_	VAFIN	_	_	_	_	_	1625-1628	w6d3	bin	*	B-LK
+29	bei	bei	_	APPR	_	_	_	_	_	1629-1632	w6d4	bei	*	B-MF
+30	dem	d	_	ART	_	_	_	_	_	1633-1636	w6d5	dem	*	I-MF
+31	abſcheulichen	abscheulich	_	ADJA	_	_	_	_	_	1637-1650	w6d6	abscheulichen	*	I-MF
+32	Wetter	Wetter	_	NN	_	_	_	_	_	1651-1657	w6d7	Wetter	*	I-MF
+33	gefallen	gefallen	_	VVPP	_	_	_	_	_	1658-1666	w6d8	gefallen	*	B-RK
+34	,	,	_	$,	_	_	_	_	_	1667-1668	w6d9	,	*	B-LK
+35	und	und	_	KON	_	_	_	_	_	1669-1672	w6da	und	*	O
+36	habe	haben	_	VAFIN	_	_	_	_	_	1673-1677	w6db	habe	*	B-LK
+37	mir	ich	_	PRF	_	_	_	_	_	1678-1681	w6dc	mir	*	B-MF
+38	recht	recht	_	ADV	_	_	_	_	_	1682-1687	w6dd	recht	*	I-MF
+39	wehe	weh	_	PTKVZ	_	_	_	_	_	1688-1692	w6de	wehe	*	B-RK
+40	gethan	tun	_	VVPP	_	_	_	_	_	1693-1699	w6df	getan	*	I-RK
+41	!	!	_	$.	_	_	_	_	_	1700-1701	w6e0	!	*	I-RK
+
+# sent_id = 27
+# sent_id(TSV) = 27
+# TopFString = (S(VF(PAV Hierbei))(FKOORD(FKONJ(LK(VVFIN ſah))(MF(PPER ſie)(ADV ganz)(ADJD ſchalkhaft)(KON und)(ADJD loſe))(VC(PTKVZ aus))(LK(KLAMMER LBR))(MF(APPRART am)(NN Ende))(LK(VAFIN war))(MF(ADV doch)(PIAT etwas)(PTKNEG nicht)(ADV ganz)(NN Geheures))(VC(PTKVZ dabei)))(LK(KLAMMER RBR))(KON und)(FKONJ(LK(VVFIN zeigte))(MF(ADV ſo)(PIS viel)(APPR von)(ART dem)(ADJD ſchön)(ADJA gerundeten)(KOMMA ,)(ADJA verwundeten)(NN Bein))(VC(KOMMA ,))(NF(C(KOUS daß))(MF(PPOSAT meine)(NN Laune)(ADV abermals))(VC(VVFIN wechſelte)))))(KOMMA ,)(FM et)(FM je)(FM crois)(FM que)(FM le)(FM diable)(FM n’y)(FM perdit)(FM rien)(LK(PUNKT .))(MF(KLAMMER —)))
+# text = Hierbei ſah ſie ganz ſchalkhaft und loſe aus ( am Ende war doch etwas nicht ganz Geheures dabei ) und zeigte ſo viel von dem ſchön gerundeten , verwundeten Bein , daß meine Laune abermals wechſelte , et je crois que le diable n’y perdit rien . —
+1	Hierbei	hierbei	_	PAV	_	_	_	_	_	1703-1710	w6e1	Hierbei	*	B-VF
+2	ſah	sehen	_	VVFIN	_	_	_	_	_	1711-1714	w6e2	sah	*	B-LK
+3	ſie	sie	_	PPER	_	_	_	_	_	1715-1718	w6e3	sie	*	B-MF
+4	ganz	ganz	_	ADV	_	_	_	_	_	1719-1723	w6e4	ganz	*	I-MF
+5	ſchalkhaft	schalkhaft	_	ADJD	_	_	_	_	_	1724-1734	w6e5	schalkhaft	*	I-MF
+6	und	und	_	KON	_	_	_	_	_	1735-1738	w6e6	und	*	I-MF
+7	loſe	lose	_	ADJD	_	_	_	_	_	1739-1743	w6e7	lose	*	I-MF
+8	aus	aus	_	PTKVZ	_	_	_	_	_	1744-1747	w6e8	aus	*	B-RK
+9	(	(	_	$(	_	_	_	_	_	1748-1749	w6e9	(	*	B-LK
+10	am	am	_	APPRART	_	_	_	_	_	1750-1752	w6ea	am	*	B-MF
+11	Ende	Ende	_	NN	_	_	_	_	_	1753-1757	w6eb	Ende	*	I-MF
+12	war	sein	_	VAFIN	_	_	_	_	_	1758-1761	w6ec	war	*	B-LK
+13	doch	doch	_	ADV	_	_	_	_	_	1762-1766	w6ed	doch	*	B-MF
+14	etwas	etwas	_	PIAT	_	_	_	_	_	1767-1772	w6ee	etwas	*	I-MF
+15	nicht	nicht	_	PTKNEG	_	_	_	_	_	1773-1778	w6ef	nicht	*	I-MF
+16	ganz	ganz	_	ADV	_	_	_	_	_	1779-1783	w6f0	ganz	*	I-MF
+17	Geheures	Geheur	_	NN	_	_	_	_	_	1784-1792	w6f1	Geheures	*	I-MF
+18	dabei	dabei	_	PTKVZ	_	_	_	_	_	1793-1798	w6f2	dabei	*	B-RK
+19	)	)	_	$(	_	_	_	_	_	1799-1800	w6f3	)	*	B-LK
+20	und	und	_	KON	_	_	_	_	_	1801-1804	w6f4	und	*	B-KOORD
+21	zeigte	zeigen	_	VVFIN	_	_	_	_	_	1805-1811	w6f5	zeigte	*	B-LK
+22	ſo	so	_	ADV	_	_	_	_	_	1812-1814	w6f6	so	*	B-MF
+23	viel	viel	_	PIS	_	_	_	_	_	1815-1819	w6f7	viel	*	I-MF
+24	von	von	_	APPR	_	_	_	_	_	1820-1823	w6f8	von	*	I-MF
+25	dem	d	_	ART	_	_	_	_	_	1824-1827	w6f9	dem	*	I-MF
+26	ſchön	schön	_	ADJD	_	_	_	_	_	1828-1833	w6fa	schön	*	I-MF
+27	gerundeten	gerundet	_	ADJA	_	_	_	_	_	1834-1844	w6fb	gerundeten	*	I-MF
+28	,	,	_	$,	_	_	_	_	_	1845-1846	w6fc	,	*	I-MF
+29	verwundeten	verwundet	_	ADJA	_	_	_	_	_	1847-1858	w6fd	verwundeten	*	I-MF
+30	Bein	Bein	_	NN	_	_	_	_	_	1859-1863	w6fe	Bein	*	I-MF
+31	,	,	_	$,	_	_	_	_	_	1864-1865	w6ff	,	*	B-RK
+32	daß	daß	_	KOUS	_	_	_	_	_	1866-1869	w700	daß	*	B-NF|B-LK
+33	meine	meine	_	PPOSAT	_	_	_	_	_	1870-1875	w701	meine	*	I-NF|B-MF
+34	Laune	Laune	_	NN	_	_	_	_	_	1876-1881	w702	Laune	*	I-NF|I-MF
+35	abermals	abermals	_	ADV	_	_	_	_	_	1882-1890	w703	abermals	*	I-NF|I-MF
+36	wechſelte	wechseln	_	VVFIN	_	_	_	_	_	1891-1900	w704	wechselte	*	I-NF|B-RK
+37	,	,	_	$,	_	_	_	_	_	1901-1902	w705	,	*	O
+38	et	Et	_	FM	_	_	_	_	_	1903-1905	w706	et	*	O
+39	je	je	_	FM	_	_	_	_	_	1906-1908	w707	je	*	O
+40	crois	crois	_	FM	_	_	_	_	_	1909-1914	w708	crois	*	O
+41	que	que	_	FM	_	_	_	_	_	1915-1918	w709	que	*	O
+42	le	le	_	FM	_	_	_	_	_	1919-1921	w70a	le	*	O
+43	diable	diable	_	FM	_	_	_	_	_	1922-1928	w70b	diable	*	O
+44	n’y	n'y	_	FM	_	_	_	_	_	1929-1932	w70c	n'y	*	O
+45	perdit	perdit	_	FM	_	_	_	_	_	1933-1939	w70d	perdit	*	O
+46	rien	rien	_	FM	_	_	_	_	_	1940-1944	w70e	rien	*	O
+47	.	.	_	$.	_	_	_	_	_	1945-1946	w70f	.	*	B-LK
+48	—	--	_	$(	_	_	_	_	_	1947-1948	w710	--	*	B-MF
+
+# sent_id = 28
+# sent_id(TSV) = 28
+# TopFString = (S(VF(PPER Wir))(LK(VVFIN theilten))(MF(APPR von)(ADV nun)(APZR an)(ART die)(NN Beſchwerden)(ART des)(NN Wegs))(VF(KOMMA ,))(FKOORD(FKONJ(LK(VVFIN halfen))(MF(PPER uns)(ADJD gegenſei-<lb/>tig)(KOMMA ,)))(KON und)(FKONJ(LK(VVFIN fanden))(MF(ADV endlich)(APPRART im)(NN Thal))(LK(KOMMA ,))(MF(ADV zuerſt)(ADJA beſſeres)(NN Wetter))(LK(KOMMA ,))(FKOORD(FKONJ(MF(ADV dann)(ART ein)(ADJA erholendes)(NN Obdach))(VC(KOMMA ,)))(KON und)(FKONJ(MF(ADV endlich)(ART einen)(ADJA labenden)(NN Trunk)(ADJA friſcher)(NN Milch))(VC(PUNKT .)))))))
+# text = Wir theilten von nun an die Beſchwerden des Wegs , halfen uns gegenſei-<lb/>tig , und fanden endlich im Thal , zuerſt beſſeres Wetter , dann ein erholendes Obdach , und endlich einen labenden Trunk friſcher Milch .
+1	Wir	wir	_	PPER	_	_	_	_	_	1950-1953	w711	Wir	*	B-VF
+2	theilten	teilen	_	VVFIN	_	_	_	_	_	1954-1962	w712	teilten	*	B-LK
+3	von	von	_	APPR	_	_	_	_	_	1963-1966	w713	von	*	B-MF
+4	nun	nun	_	ADV	_	_	_	_	_	1967-1970	w714	nun	*	I-MF
+5	an	an	_	APZR	_	_	_	_	_	1971-1973	w715	an	*	I-MF
+6	die	d	_	ART	_	_	_	_	_	1974-1977	w716	die	*	I-MF
+7	Beſchwerden	Beschwerde	_	NN	_	_	_	_	_	1978-1989	w717	Beschwerden	*	I-MF
+8	des	d	_	ART	_	_	_	_	_	1990-1993	w718	des	*	I-MF
+9	Wegs	Weg	_	NN	_	_	_	_	_	1994-1998	w719	Wegs	*	I-MF
+10	,	,	_	$,	_	_	_	_	_	1999-2000	w71a	,	*	B-VF
+11	halfen	helfen	_	VVFIN	_	_	_	_	_	2001-2007	w71b	halfen	*	B-LK
+12	uns	wir	_	PPER	_	_	_	_	_	2008-2011	w71c	uns	*	B-MF
+13	gegenſei-<lb/>tig	gegenseitig	_	ADJD	_	_	_	_	_	2012-2029	w71d	gegenseitig	*	I-MF
+14	,	,	_	$,	_	_	_	_	_	2030-2031	w71e	,	*	I-MF
+15	und	und	_	KON	_	_	_	_	_	2032-2035	w71f	und	*	B-KOORD
+16	fanden	finden	_	VVFIN	_	_	_	_	_	2036-2042	w720	fanden	*	B-LK
+17	endlich	endlich	_	ADV	_	_	_	_	_	2043-2050	w721	endlich	*	B-MF
+18	im	im	_	APPRART	_	_	_	_	_	2051-2053	w722	im	*	I-MF
+19	Thal	Tal	_	NN	_	_	_	_	_	2054-2058	w723	Tal	*	I-MF
+20	,	,	_	$,	_	_	_	_	_	2059-2060	w724	,	*	B-LK
+21	zuerſt	zuerst	_	ADV	_	_	_	_	_	2061-2067	w725	zuerst	*	B-MF
+22	beſſeres	gut	_	ADJA	_	_	_	_	_	2068-2076	w726	besseres	*	I-MF
+23	Wetter	Wetter	_	NN	_	_	_	_	_	2077-2083	w727	Wetter	*	I-MF
+24	,	,	_	$,	_	_	_	_	_	2084-2085	w728	,	*	B-LK
+25	dann	dann	_	ADV	_	_	_	_	_	2086-2090	w729	dann	*	B-MF
+26	ein	eine	_	ART	_	_	_	_	_	2091-2094	w72a	ein	*	I-MF
+27	erholendes	erholend	_	ADJA	_	_	_	_	_	2095-2105	w72b	erholendes	*	I-MF
+28	Obdach	Obdach	_	NN	_	_	_	_	_	2106-2112	w72c	Obdach	*	I-MF
+29	,	,	_	$,	_	_	_	_	_	2113-2114	w72d	,	*	B-RK
+30	und	und	_	KON	_	_	_	_	_	2115-2118	w72e	und	*	B-KOORD
+31	endlich	endlich	_	ADV	_	_	_	_	_	2119-2126	w72f	endlich	*	B-MF
+32	einen	eine	_	ART	_	_	_	_	_	2127-2132	w730	einen	*	I-MF
+33	labenden	labend	_	ADJA	_	_	_	_	_	2133-2141	w731	labenden	*	I-MF
+34	Trunk	Trunk	_	NN	_	_	_	_	_	2142-2147	w732	Trunk	*	I-MF
+35	friſcher	frisch	_	ADJA	_	_	_	_	_	2148-2156	w733	frischer	*	I-MF
+36	Milch	Milch	_	NN	_	_	_	_	_	2157-2162	w734	Milch	*	I-MF
+37	.	.	_	$.	_	_	_	_	_	2163-2164	w735	.	*	B-RK
+
+# sent_id = 29
+# sent_id(TSV) = 29
+# TopFString = (S(VF(ADJD Neu)(ADJD geſtärkt))(LK(VVFIN wanderte))(MF(PPER ich)(APPR in)(ART der)(NN Nacht)(ADV weiter)(KOMMA ,))(KON und)(LV(C(KOUS als))(MF(PPER ich)(APPR in)(NE Kenmare))(VC(VVFIN anlangte)))(VF(KOMMA ,))(LK(VAFIN hatte))(MF(PPER ich)(ART die)(CARD vier)(ADJA deutſchen)(NN Meilen)(APPR in)(PIS etwas)(APPR über)(CARD 6)(NN Stunden))(VC(VVPP zurückge-<lb/>legt)(PUNKT .)))
+# text = Neu geſtärkt wanderte ich in der Nacht weiter , und als ich in Kenmare anlangte , hatte ich die vier deutſchen Meilen in etwas über 6 Stunden zurückge-<lb/>legt .
+1	Neu	neu	_	ADJD	_	_	_	_	_	2166-2169	w736	Neu	*	B-VF
+2	geſtärkt	stärken	_	ADJD	_	_	_	_	_	2170-2178	w737	gestärkt	*	I-VF
+3	wanderte	wandern	_	VVFIN	_	_	_	_	_	2179-2187	w738	wanderte	*	B-LK
+4	ich	ich	_	PPER	_	_	_	_	_	2188-2191	w739	ich	*	B-MF
+5	in	in	_	APPR	_	_	_	_	_	2192-2194	w73a	in	*	I-MF
+6	der	d	_	ART	_	_	_	_	_	2195-2198	w73b	der	*	I-MF
+7	Nacht	Nacht	_	NN	_	_	_	_	_	2199-2204	w73c	Nacht	*	I-MF
+8	weiter	weiter	_	ADV	_	_	_	_	_	2205-2211	w73d	weiter	*	I-MF
+9	,	,	_	$,	_	_	_	_	_	2212-2213	w73e	,	*	I-MF
+10	und	und	_	KON	_	_	_	_	_	2214-2217	w73f	und	*	O
+11	als	als	_	KOUS	_	_	_	_	_	2218-2221	w740	als	*	B-LV|B-LK
+12	ich	ich	_	PPER	_	_	_	_	_	2222-2225	w741	ich	*	I-LV|B-MF
+13	in	in	_	APPR	_	_	_	_	_	2226-2228	w742	in	*	I-LV|I-MF
+14	Kenmare	Kenmare	_	NE	_	_	_	_	_	2229-2236	w743	Kenmare	*	I-LV|I-MF
+15	anlangte	anlangen	_	VVFIN	_	_	_	_	_	2237-2245	w744	anlangte	*	I-LV|B-RK
+16	,	,	_	$,	_	_	_	_	_	2246-2247	w745	,	*	B-VF
+17	hatte	haben	_	VAFIN	_	_	_	_	_	2248-2253	w746	hatte	*	B-LK
+18	ich	ich	_	PPER	_	_	_	_	_	2254-2257	w747	ich	*	B-MF
+19	die	d	_	ART	_	_	_	_	_	2258-2261	w748	die	*	I-MF
+20	vier	vier	_	CARD	_	_	_	_	_	2262-2266	w749	vier	*	I-MF
+21	deutſchen	deutsch	_	ADJA	_	_	_	_	_	2267-2276	w74a	deutschen	*	I-MF
+22	Meilen	Meile	_	NN	_	_	_	_	_	2277-2283	w74b	Meilen	*	I-MF
+23	in	in	_	APPR	_	_	_	_	_	2284-2286	w74c	in	*	I-MF
+24	etwas	etwas	_	PIS	_	_	_	_	_	2287-2292	w74d	etwas	*	I-MF
+25	über	über	_	APPR	_	_	_	_	_	2293-2297	w74e	über	*	I-MF
+26	6	6	_	CARD	_	_	_	_	_	2298-2299	w74f	6	*	I-MF
+27	Stunden	Stunde	_	NN	_	_	_	_	_	2300-2307	w750	Stunden	*	I-MF
+28	zurückge-<lb/>legt	zurücklegen	_	VVPP	_	_	_	_	_	2308-2326	w751	zurückgelegt	*	B-RK
+29	.	.	_	$.	_	_	_	_	_	2327-2328	w752	.	*	I-RK
+
+# sent_id = 30
+# sent_id(TSV) = 30
+# TopFString = (S(KOORD(KON Aber))(VF(PPER ich))(LK(VAFIN war))(MF(ADV auch)(ADJD herzlich)(ADJD müde))(VC(KOMMA ,))(KON und)(LV(C(KOUS ſobald))(MF(PPER ich)(APPR in)(PPOSAT mein)(NN Schlafzimmer))(VC(VVFIN trat)))(VF(KOMMA ,))(LK(VVFIN ſprach))(MF(PPER ich)(APPR mit)(NN Pathos))(VC(KOMMA ,))(KON und)(VF(NE Wallenſtein))(LK(PUNKT :))(VF(PPER Ich))(LK(VVFIN denke))(MF(ART einen)(ADJA langen)(NN Schlaf))(VC(PTKZU zu)(VVINF thun))(VC(PUNKT !)))
+# text = Aber ich war auch herzlich müde , und ſobald ich in mein Schlafzimmer trat , ſprach ich mit Pathos , und Wallenſtein : Ich denke einen langen Schlaf zu thun !
+1	Aber	aber	_	KON	_	_	_	_	_	2330-2334	w753	Aber	*	B-KOORD
+2	ich	ich	_	PPER	_	_	_	_	_	2335-2338	w754	ich	*	B-VF
+3	war	sein	_	VAFIN	_	_	_	_	_	2339-2342	w755	war	*	B-LK
+4	auch	auch	_	ADV	_	_	_	_	_	2343-2347	w756	auch	*	B-MF
+5	herzlich	herzlich	_	ADJD	_	_	_	_	_	2348-2356	w757	herzlich	*	I-MF
+6	müde	müde	_	ADJD	_	_	_	_	_	2357-2361	w758	müde	*	I-MF
+7	,	,	_	$,	_	_	_	_	_	2362-2363	w759	,	*	B-RK
+8	und	und	_	KON	_	_	_	_	_	2364-2367	w75a	und	*	O
+9	ſobald	sobald	_	KOUS	_	_	_	_	_	2368-2374	w75b	sobald	*	B-LV|B-LK
+10	ich	ich	_	PPER	_	_	_	_	_	2375-2378	w75c	ich	*	I-LV|B-MF
+11	in	in	_	APPR	_	_	_	_	_	2379-2381	w75d	in	*	I-LV|I-MF
+12	mein	mein	_	PPOSAT	_	_	_	_	_	2382-2386	w75e	mein	*	I-LV|I-MF
+13	Schlafzimmer	Schlafzimmer	_	NN	_	_	_	_	_	2387-2399	w75f	Schlafzimmer	*	I-LV|I-MF
+14	trat	treten	_	VVFIN	_	_	_	_	_	2400-2404	w760	trat	*	I-LV|B-RK
+15	,	,	_	$,	_	_	_	_	_	2405-2406	w761	,	*	B-VF
+16	ſprach	sprechen	_	VVFIN	_	_	_	_	_	2407-2413	w762	sprach	*	B-LK
+17	ich	ich	_	PPER	_	_	_	_	_	2414-2417	w763	ich	*	B-MF
+18	mit	mit	_	APPR	_	_	_	_	_	2418-2421	w764	mit	*	I-MF
+19	Pathos	Pathos	_	NN	_	_	_	_	_	2422-2428	w765	Pathos	*	I-MF
+20	,	,	_	$,	_	_	_	_	_	2429-2430	w766	,	*	B-RK
+21	und	und	_	KON	_	_	_	_	_	2431-2434	w767	und	*	O
+22	Wallenſtein	Wallenstein	_	NE	_	_	_	_	_	2435-2446	w768	Wallenstein	*	B-VF
+23	:	:	_	$.	_	_	_	_	_	2447-2448	w769	:	*	B-LK
+24	Ich	ich	_	PPER	_	_	_	_	_	2449-2452	w76a	Ich	*	B-VF
+25	denke	denken	_	VVFIN	_	_	_	_	_	2453-2458	w76b	denke	*	B-LK
+26	einen	eine	_	ART	_	_	_	_	_	2459-2464	w76c	einen	*	B-MF
+27	langen	lang	_	ADJA	_	_	_	_	_	2465-2471	w76d	langen	*	I-MF
+28	Schlaf	Schlaf	_	NN	_	_	_	_	_	2472-2478	w76e	Schlaf	*	I-MF
+29	zu	zu	_	PTKZU	_	_	_	_	_	2479-2481	w76f	zu	*	B-RK
+30	thun	tun	_	VVINF	_	_	_	_	_	2482-2486	w770	tun	*	I-RK
+31	!	!	_	$.	_	_	_	_	_	2487-2488	w771	!	*	B-RK
+
+# sent_id = 31
+# sent_id(TSV) = 31
+# TopFString = (S(VF(NE Derrinane)(NE Abbey))(LK(KOMMA ,))(MF(ART den)(NN 29ſten)(PUNKT .)))
+# text = Derrinane Abbey , den 29ſten .
+1	Derrinane	Derrinane	_	NE	_	_	_	_	_	2490-2499	w772	Derrinane	*	B-VF
+2	Abbey	Abbey	_	NE	_	_	_	_	_	2500-2505	w773	Abbey	*	I-VF
+3	,	,	_	$,	_	_	_	_	_	2506-2507	w774	,	*	B-LK
+4	den	d	_	ART	_	_	_	_	_	2508-2511	w775	den	*	B-MF
+5	29ſten	29sten	_	NN	_	_	_	_	_	2512-2518	w776,w776_1	29sten	*	I-MF
+6	.	.	_	$.	_	_	_	_	_	2519-2520	w777	.	*	I-MF
+
+# sent_id = 32
+# sent_id(TSV) = 32
+# TopFString = (S(VF(PDS Dies))(LK(VVFIN geſchah))(MF(ADV denn)(ADV auch)(KOMMA ,))(KON und)(VF(PPER ich))(LK(VAFIN hatte))(MF(NN Zeit)(PAV dazu))(VC(KOMMA ,))(KON denn)(VF(ART das)(NN Wetter))(LK(VAFIN war))(MF(ADV ſo)(ADJD abſcheulich))(VC(KOMMA ,))(NF(C(KOUS daß))(MF(PPER ich)(APPR bis)(CARD 3)(NN Uhr)(ADV Nachmittags)(APPR auf)(ADJA beſſeres))(VC(VVFIN wartete)))(KOMMA ,)(KON aber)(ADV leider)(ADV vergebens)(PUNKT .))
+# text = Dies geſchah denn auch , und ich hatte Zeit dazu , denn das Wetter war ſo abſcheulich , daß ich bis 3 Uhr Nachmittags auf beſſeres wartete , aber leider vergebens .
+1	Dies	diese	_	PDS	_	_	_	_	_	2522-2526	w778	Dies	*	B-VF
+2	geſchah	geschehen	_	VVFIN	_	_	_	_	_	2527-2534	w779	geschah	*	B-LK
+3	denn	denn	_	ADV	_	_	_	_	_	2535-2539	w77a	denn	*	B-MF
+4	auch	auch	_	ADV	_	_	_	_	_	2540-2544	w77b	auch	*	I-MF
+5	,	,	_	$,	_	_	_	_	_	2545-2546	w77c	,	*	I-MF
+6	und	und	_	KON	_	_	_	_	_	2547-2550	w77d	und	*	O
+7	ich	ich	_	PPER	_	_	_	_	_	2551-2554	w77e	ich	*	B-VF
+8	hatte	haben	_	VAFIN	_	_	_	_	_	2555-2560	w77f	hatte	*	B-LK
+9	Zeit	Zeit	_	NN	_	_	_	_	_	2561-2565	w780	Zeit	*	B-MF
+10	dazu	dazu	_	PAV	_	_	_	_	_	2566-2570	w781	dazu	*	I-MF
+11	,	,	_	$,	_	_	_	_	_	2571-2572	w782	,	*	B-RK
+12	denn	denn	_	KON	_	_	_	_	_	2573-2577	w783	denn	*	O
+13	das	d	_	ART	_	_	_	_	_	2578-2581	w784	das	*	B-VF
+14	Wetter	Wetter	_	NN	_	_	_	_	_	2582-2588	w785	Wetter	*	I-VF
+15	war	sein	_	VAFIN	_	_	_	_	_	2589-2592	w786	war	*	B-LK
+16	ſo	so	_	ADV	_	_	_	_	_	2593-2595	w787	so	*	B-MF
+17	abſcheulich	abscheulich	_	ADJD	_	_	_	_	_	2596-2607	w788	abscheulich	*	I-MF
+18	,	,	_	$,	_	_	_	_	_	2608-2609	w789	,	*	B-RK
+19	daß	daß	_	KOUS	_	_	_	_	_	2610-2613	w78a	daß	*	B-NF|B-LK
+20	ich	ich	_	PPER	_	_	_	_	_	2614-2617	w78b	ich	*	I-NF|B-MF
+21	bis	bis	_	APPR	_	_	_	_	_	2618-2621	w78c	bis	*	I-NF|I-MF
+22	3	3	_	CARD	_	_	_	_	_	2622-2623	w78d	3	*	I-NF|I-MF
+23	Uhr	Uhr	_	NN	_	_	_	_	_	2624-2627	w78e	Uhr	*	I-NF|I-MF
+24	Nachmittags	nachmittags	_	ADV	_	_	_	_	_	2628-2639	w78f	Nachmittags	*	I-NF|I-MF
+25	auf	auf	_	APPR	_	_	_	_	_	2640-2643	w790	auf	*	I-NF|I-MF
+26	beſſeres	gut	_	ADJA	_	_	_	_	_	2644-2652	w791	besseres	*	I-NF|I-MF
+27	wartete	warten	_	VVFIN	_	_	_	_	_	2653-2660	w792	wartete	*	I-NF|B-RK
+28	,	,	_	$,	_	_	_	_	_	2661-2662	w793	,	*	O
+29	aber	aber	_	KON	_	_	_	_	_	2663-2667	w794	aber	*	O
+30	leider	leider	_	ADV	_	_	_	_	_	2668-2674	w795	leider	*	O
+31	vergebens	vergebens	_	ADV	_	_	_	_	_	2675-2684	w796	vergebens	*	O
+32	.	.	_	$.	_	_	_	_	_	2685-2686	w797	.	*	O
+
+# sent_id = 33
+# sent_id(TSV) = 33
+# TopFString = (S(VF(PPER Ich))(LK(VAFIN hatte))(FKOORD(FKONJ(LK(KOMMA ,))(MF(ART den)(NN Abend)(ADV vorher)(ART den)(APPR zu)(NN Herrn)(NE O’)(NE Connel)(ADJA abgeſchickten)(KOMMA ,)(KON und)(ADJA unbeſonnener)(NN Weiſe))(LK(KOMMA ,))(MF(ADJA vorausbezahlten)(NN Boten)))(LK(KOMMA ,))(MF(APPR ohne)(NN Antwort))(KON und)(FKONJ(MF(APPR mit)(ADJA zerbrochenem)(NN Schlüſſelbein)(APPRART im)(NN Gaſthof)(ADV wieder))(VC(VVPP vorgefunden))))(KOMMA ,)(KON denn)(VF(C(KOUS da))(MF(PPER er)(NN Geld)(APPR in)(PPOSAT ſeiner)(NN Taſche))(VC(VVPP ge-<lb/>fühlt)(KOMMA ,))(VF(ADV ſo))(LK(VAFIN hatte))(MF(PPER er)(ADV auch)(ART dem)(NN Whiskey)(PTKNEG nicht)(ADJD länger))(VC(VVINF widerſtehen)(VMINF können)))(LK(KOMMA ,))(MF(APPR in)(NN Folge)(C(PDS deſſen))(MF(PPER er)(APPR mit)(PPOSAT ſeinem)(NN Pferde)(APPR in)(ART der)(NN Nacht)(ART einen)(NN Felſen))(VC(VVPP herabgeſtürzt)(VAFIN war))(PUNKT !)))
+# text = Ich hatte , den Abend vorher den zu Herrn O’ Connel abgeſchickten , und unbeſonnener Weiſe , vorausbezahlten Boten , ohne Antwort und mit zerbrochenem Schlüſſelbein im Gaſthof wieder vorgefunden , denn da er Geld in ſeiner Taſche ge-<lb/>fühlt , ſo hatte er auch dem Whiskey nicht länger widerſtehen können , in Folge deſſen er mit ſeinem Pferde in der Nacht einen Felſen herabgeſtürzt war !
+1	Ich	ich	_	PPER	_	_	_	_	_	2688-2691	w798	Ich	*	B-VF
+2	hatte	haben	_	VAFIN	_	_	_	_	_	2692-2697	w799	hatte	*	B-LK
+3	,	,	_	$,	_	_	_	_	_	2698-2699	w79a	,	*	B-LK
+4	den	d	_	ART	_	_	_	_	_	2700-2703	w79b	den	*	B-MF
+5	Abend	Abend	_	NN	_	_	_	_	_	2704-2709	w79c	Abend	*	I-MF
+6	vorher	vorher	_	ADV	_	_	_	_	_	2710-2716	w79d	vorher	*	I-MF
+7	den	d	_	ART	_	_	_	_	_	2717-2720	w79e	den	*	I-MF
+8	zu	zu	_	APPR	_	_	_	_	_	2721-2723	w79f	zu	*	I-MF
+9	Herrn	Herr	_	NN	_	_	_	_	_	2724-2729	w7a0	Herrn	*	I-MF
+10	O’	O'	_	NE	_	_	_	_	_	2730-2732	w7a1	O'	*	I-MF
+11	Connel	Connel	_	NE	_	_	_	_	_	2733-2739	w7a2	Connel	*	I-MF
+12	abgeſchickten	abgeschickt	_	ADJA	_	_	_	_	_	2740-2753	w7a3	abgeschickten	*	I-MF
+13	,	,	_	$,	_	_	_	_	_	2754-2755	w7a4	,	*	I-MF
+14	und	und	_	KON	_	_	_	_	_	2756-2759	w7a5	und	*	I-MF
+15	unbeſonnener	unbesinnen	_	ADJA	_	_	_	_	_	2760-2772	w7a6	unbesonnener	*	I-MF
+16	Weiſe	Weise	_	NN	_	_	_	_	_	2773-2778	w7a7	Weise	*	I-MF
+17	,	,	_	$,	_	_	_	_	_	2779-2780	w7a8	,	*	B-LK
+18	vorausbezahlten	vorausbezahlt	_	ADJA	_	_	_	_	_	2781-2796	w7a9	vorausbezahlten	*	B-MF
+19	Boten	Bote	_	NN	_	_	_	_	_	2797-2802	w7aa	Boten	*	I-MF
+20	,	,	_	$,	_	_	_	_	_	2803-2804	w7ab	,	*	B-LK
+21	ohne	ohne	_	APPR	_	_	_	_	_	2805-2809	w7ac	ohne	*	B-MF
+22	Antwort	Antwort	_	NN	_	_	_	_	_	2810-2817	w7ad	Antwort	*	I-MF
+23	und	und	_	KON	_	_	_	_	_	2818-2821	w7ae	und	*	B-KOORD
+24	mit	mit	_	APPR	_	_	_	_	_	2822-2825	w7af	mit	*	B-MF
+25	zerbrochenem	zerbrechen	_	ADJA	_	_	_	_	_	2826-2838	w7b0	zerbrochenem	*	I-MF
+26	Schlüſſelbein	Schlüsselbein	_	NN	_	_	_	_	_	2839-2852	w7b1	Schlüsselbein	*	I-MF
+27	im	im	_	APPRART	_	_	_	_	_	2853-2855	w7b2	im	*	I-MF
+28	Gaſthof	Gasthof	_	NN	_	_	_	_	_	2856-2863	w7b3	Gasthof	*	I-MF
+29	wieder	wieder	_	ADV	_	_	_	_	_	2864-2870	w7b4	wieder	*	I-MF
+30	vorgefunden	vorfinden	_	VVPP	_	_	_	_	_	2871-2882	w7b5	vorgefunden	*	B-RK
+31	,	,	_	$,	_	_	_	_	_	2883-2884	w7b6	,	*	O
+32	denn	denn	_	KON	_	_	_	_	_	2885-2889	w7b7	denn	*	O
+33	da	da	_	KOUS	_	_	_	_	_	2890-2892	w7b8	da	*	B-VF|B-LK
+34	er	er	_	PPER	_	_	_	_	_	2893-2895	w7b9	er	*	I-VF|B-MF
+35	Geld	Geld	_	NN	_	_	_	_	_	2896-2900	w7ba	Geld	*	I-VF|I-MF
+36	in	in	_	APPR	_	_	_	_	_	2901-2903	w7bb	in	*	I-VF|I-MF
+37	ſeiner	seine	_	PPOSAT	_	_	_	_	_	2904-2910	w7bc	seiner	*	I-VF|I-MF
+38	Taſche	Tasche	_	NN	_	_	_	_	_	2911-2917	w7bd	Tasche	*	I-VF|I-MF
+39	ge-<lb/>fühlt	fühlen	_	VVPP	_	_	_	_	_	2918-2931	w7be	gefühlt	*	I-VF|B-RK
+40	,	,	_	$,	_	_	_	_	_	2932-2933	w7bf	,	*	I-VF|I-RK
+41	ſo	so	_	ADV	_	_	_	_	_	2934-2936	w7c0	so	*	I-VF|B-VF
+42	hatte	haben	_	VAFIN	_	_	_	_	_	2937-2942	w7c1	hatte	*	I-VF|B-LK
+43	er	er	_	PPER	_	_	_	_	_	2943-2945	w7c2	er	*	I-VF|B-MF
+44	auch	auch	_	ADV	_	_	_	_	_	2946-2950	w7c3	auch	*	I-VF|I-MF
+45	dem	d	_	ART	_	_	_	_	_	2951-2954	w7c4	dem	*	I-VF|I-MF
+46	Whiskey	Whiskey	_	NN	_	_	_	_	_	2955-2962	w7c5	Whiskey	*	I-VF|I-MF
+47	nicht	nicht	_	PTKNEG	_	_	_	_	_	2963-2968	w7c6	nicht	*	I-VF|I-MF
+48	länger	lang	_	ADJD	_	_	_	_	_	2969-2975	w7c7	länger	*	I-VF|I-MF
+49	widerſtehen	widerstehen	_	VVINF	_	_	_	_	_	2976-2987	w7c8	widerstehen	*	I-VF|B-RK
+50	können	können	_	VMINF	_	_	_	_	_	2988-2994	w7c9	können	*	I-VF|I-RK
+51	,	,	_	$,	_	_	_	_	_	2995-2996	w7ca	,	*	B-LK
+52	in	in	_	APPR	_	_	_	_	_	2997-2999	w7cb	in	*	B-MF
+53	Folge	Folge	_	NN	_	_	_	_	_	3000-3005	w7cc	Folge	*	I-MF
+54	deſſen	die	_	PDS	_	_	_	_	_	3006-3012	w7cd	dessen	*	I-MF|B-LK
+55	er	er	_	PPER	_	_	_	_	_	3013-3015	w7ce	er	*	I-MF|B-MF
+56	mit	mit	_	APPR	_	_	_	_	_	3016-3019	w7cf	mit	*	I-MF|I-MF
+57	ſeinem	seine	_	PPOSAT	_	_	_	_	_	3020-3026	w7d0	seinem	*	I-MF|I-MF
+58	Pferde	Pferd	_	NN	_	_	_	_	_	3027-3033	w7d1	Pferde	*	I-MF|I-MF
+59	in	in	_	APPR	_	_	_	_	_	3034-3036	w7d2	in	*	I-MF|I-MF
+60	der	d	_	ART	_	_	_	_	_	3037-3040	w7d3	der	*	I-MF|I-MF
+61	Nacht	Nacht	_	NN	_	_	_	_	_	3041-3046	w7d4	Nacht	*	I-MF|I-MF
+62	einen	eine	_	ART	_	_	_	_	_	3047-3052	w7d5	einen	*	I-MF|I-MF
+63	Felſen	Felsen	_	NN	_	_	_	_	_	3053-3059	w7d6	Felsen	*	I-MF|I-MF
+64	herabgeſtürzt	herabstürzen	_	VVPP	_	_	_	_	_	3060-3073	w7d7	herabgestürzt	*	I-MF|B-RK
+65	war	sein	_	VAFIN	_	_	_	_	_	3074-3077	w7d8	war	*	I-MF|I-RK
+66	!	!	_	$.	_	_	_	_	_	3078-3079	w7d9	!	*	I-MF
+
+# sent_id = 34
+# sent_id(TSV) = 34
+# TopFString = (S(VF(VF(PPER Er))(LK(VAFIN hatte))(MF(ADV indeß)(ADV doch)(ART den)(ADJA verſtändigen)(NN Einfall))(VC(VAPP gehabt)))(LK(KOMMA ,))(MF(ART einen)(ADJA guten)(NN Freund)(ADV unterwegs)(ADV weiter))(VC(PTKZU zu)(VVINF expediren))(LK(KOMMA ,))(KON und)(VF(APPR bei)(PPOSAT meinem)(NN Erwachen)(KOMMA ,))(LK(VVFIN fand))(MF(PPER ich)(PAV daher)(ART eine)(ADV ſehr)(ADJA artige)(NN Einladung)(ART des)(ADJA großen)(NN Agitator’s)(ADJD glücklich))(VC(PTKVZ vor))(VC(PUNKT .)))
+# text = Er hatte indeß doch den verſtändigen Einfall gehabt , einen guten Freund unterwegs weiter zu expediren , und bei meinem Erwachen , fand ich daher eine ſehr artige Einladung des großen Agitator’s glücklich vor .
+1	Er	er	_	PPER	_	_	_	_	_	3081-3083	w7da	Er	*	B-VF|B-VF
+2	hatte	haben	_	VAFIN	_	_	_	_	_	3084-3089	w7db	hatte	*	I-VF|B-LK
+3	indeß	indes	_	ADV	_	_	_	_	_	3090-3095	w7dc	indes	*	I-VF|B-MF
+4	doch	doch	_	ADV	_	_	_	_	_	3096-3100	w7dd	doch	*	I-VF|I-MF
+5	den	d	_	ART	_	_	_	_	_	3101-3104	w7de	den	*	I-VF|I-MF
+6	verſtändigen	verständigen	_	ADJA	_	_	_	_	_	3105-3117	w7df	verständigen	*	I-VF|I-MF
+7	Einfall	Einfall	_	NN	_	_	_	_	_	3118-3125	w7e0	Einfall	*	I-VF|I-MF
+8	gehabt	haben	_	VAPP	_	_	_	_	_	3126-3132	w7e1	gehabt	*	I-VF|B-RK
+9	,	,	_	$,	_	_	_	_	_	3133-3134	w7e2	,	*	B-LK
+10	einen	eine	_	ART	_	_	_	_	_	3135-3140	w7e3	einen	*	B-MF
+11	guten	gut	_	ADJA	_	_	_	_	_	3141-3146	w7e4	guten	*	I-MF
+12	Freund	Freund	_	NN	_	_	_	_	_	3147-3153	w7e5	Freund	*	I-MF
+13	unterwegs	unterwegs	_	ADV	_	_	_	_	_	3154-3163	w7e6	unterwegs	*	I-MF
+14	weiter	weiter	_	ADV	_	_	_	_	_	3164-3170	w7e7	weiter	*	I-MF
+15	zu	zu	_	PTKZU	_	_	_	_	_	3171-3173	w7e8	zu	*	B-RK
+16	expediren	expedieren	_	VVINF	_	_	_	_	_	3174-3183	w7e9	expedieren	*	I-RK
+17	,	,	_	$,	_	_	_	_	_	3184-3185	w7ea	,	*	B-LK
+18	und	und	_	KON	_	_	_	_	_	3186-3189	w7eb	und	*	O
+19	bei	bei	_	APPR	_	_	_	_	_	3190-3193	w7ec	bei	*	B-VF
+20	meinem	meine	_	PPOSAT	_	_	_	_	_	3194-3200	w7ed	meinem	*	I-VF
+21	Erwachen	Erwachen	_	NN	_	_	_	_	_	3201-3209	w7ee	Erwachen	*	I-VF
+22	,	,	_	$,	_	_	_	_	_	3210-3211	w7ef	,	*	I-VF
+23	fand	finden	_	VVFIN	_	_	_	_	_	3212-3216	w7f0	fand	*	B-LK
+24	ich	ich	_	PPER	_	_	_	_	_	3217-3220	w7f1	ich	*	B-MF
+25	daher	daher	_	PAV	_	_	_	_	_	3221-3226	w7f2	daher	*	I-MF
+26	eine	eine	_	ART	_	_	_	_	_	3227-3231	w7f3	eine	*	I-MF
+27	ſehr	sehr	_	ADV	_	_	_	_	_	3232-3236	w7f4	sehr	*	I-MF
+28	artige	artig	_	ADJA	_	_	_	_	_	3237-3243	w7f5	artige	*	I-MF
+29	Einladung	Einladung	_	NN	_	_	_	_	_	3244-3253	w7f6	Einladung	*	I-MF
+30	des	d	_	ART	_	_	_	_	_	3254-3257	w7f7	des	*	I-MF
+31	großen	groß	_	ADJA	_	_	_	_	_	3258-3264	w7f8	großen	*	I-MF
+32	Agitator’s	Agitator	_	NN	_	_	_	_	_	3265-3275	w7f9	Agitator's	*	I-MF
+33	glücklich	glücklich	_	ADJD	_	_	_	_	_	3276-3285	w7fa	glücklich	*	I-MF
+34	vor	vor	_	PTKVZ	_	_	_	_	_	3286-3289	w7fb	vor	*	B-RK
+35	.	.	_	$.	_	_	_	_	_	3290-3291	w7fc	.	*	B-RK
+
+# sent_id = 35
+# sent_id(TSV) = 35
+# TopFString = (S(VF(PPER Ich))(LK(VAFIN habe))(MF(ADV bereits))(VC(VVPP geſagt))(LK(KOMMA ,))(NF(C(KOUS daß))(MF(PPER ich)(PRF mich)(ADV erſt)(APPR um)(CARD drei)(NN Uhr)(APPR auf)(ART den)(NN Weg))(VC(VVFIN machte)))(LK(KOMMA ,))(KON und)(VF(C(KOUS obgleich))(MF(PPER ich)(CARD ſieben)(NN Stunden)(ADJD lang)(APPRART im)(ADJA heftigſten)(NN Regen)(LK(KOMMA ,))(APPR mit)(ART dem)(NN Winde)(APPRART im)(NN Geſicht)(KOMMA ,))(VC(VVINF reiten)(VMFIN mußte)))(LK(KOMMA ,))(KON und)(VF(APPR in)(PDAT dieſer)(NN Wüſte))(LK(KOMMA ,))(NF(C(PWAV wo))(MF(PTKNEG nicht)(ADV einmal)(ART das)(NN Obdach)(ART eines)(NN Baumes))(VC(VVIZU anzutreffen)(VAFIN iſt)))(LK(KOMMA ,))(MF(APPR nach)(ART der)(ADJA erſten)(ADJA halben)(NN Stunden)(ADV ſchon)(PIAT kein)(NN Faden)(PPOSAT meiner)(NN Kleidung))(VF(ADV mehr)(ADJD trocken))(LK(VAFIN war))(VC(KLAMMER —))(VF(ADV ſo))(LK(VMFIN möchte))(MF(PPER ich)(ADV doch)(APPR um)(PIS vieles)(PTKNEG nicht)(ART den)(ADJA heutigen)(KOMMA ,)(ADV ſo)(ADJA beſchwerlichen)(NN Tag)(KOMMA ,)(APPR in)(PPOSAT meinem)(NN Lebensbuche))(VC(VVINF miſſen)(PUNKT .)))
+# text = Ich habe bereits geſagt , daß ich mich erſt um drei Uhr auf den Weg machte , und obgleich ich ſieben Stunden lang im heftigſten Regen , mit dem Winde im Geſicht , reiten mußte , und in dieſer Wüſte , wo nicht einmal das Obdach eines Baumes anzutreffen iſt , nach der erſten halben Stunden ſchon kein Faden meiner Kleidung mehr trocken war — ſo möchte ich doch um vieles nicht den heutigen , ſo beſchwerlichen Tag , in meinem Lebensbuche miſſen .
+1	Ich	ich	_	PPER	_	_	_	_	_	3293-3296	w7fd	Ich	*	B-VF
+2	habe	haben	_	VAFIN	_	_	_	_	_	3297-3301	w7fe	habe	*	B-LK
+3	bereits	bereits	_	ADV	_	_	_	_	_	3302-3309	w7ff	bereits	*	B-MF
+4	geſagt	sagen	_	VVPP	_	_	_	_	_	3310-3316	w800	gesagt	*	B-RK
+5	,	,	_	$,	_	_	_	_	_	3317-3318	w801	,	*	B-LK
+6	daß	daß	_	KOUS	_	_	_	_	_	3319-3322	w802	daß	*	B-NF|B-LK
+7	ich	ich	_	PPER	_	_	_	_	_	3323-3326	w803	ich	*	I-NF|B-MF
+8	mich	mich	_	PRF	_	_	_	_	_	3327-3331	w804	mich	*	I-NF|I-MF
+9	erſt	erst	_	ADV	_	_	_	_	_	3332-3336	w805	erst	*	I-NF|I-MF
+10	um	um	_	APPR	_	_	_	_	_	3337-3339	w806	um	*	I-NF|I-MF
+11	drei	drei	_	CARD	_	_	_	_	_	3340-3344	w807	drei	*	I-NF|I-MF
+12	Uhr	Uhr	_	NN	_	_	_	_	_	3345-3348	w808	Uhr	*	I-NF|I-MF
+13	auf	auf	_	APPR	_	_	_	_	_	3349-3352	w809	auf	*	I-NF|I-MF
+14	den	d	_	ART	_	_	_	_	_	3353-3356	w80a	den	*	I-NF|I-MF
+15	Weg	Weg	_	NN	_	_	_	_	_	3357-3360	w80b	Weg	*	I-NF|I-MF
+16	machte	machen	_	VVFIN	_	_	_	_	_	3361-3367	w80c	machte	*	I-NF|B-RK
+17	,	,	_	$,	_	_	_	_	_	3368-3369	w80d	,	*	B-LK
+18	und	und	_	KON	_	_	_	_	_	3370-3373	w80e	und	*	O
+19	obgleich	obgleich	_	KOUS	_	_	_	_	_	3374-3382	w80f	obgleich	*	B-VF|B-LK
+20	ich	ich	_	PPER	_	_	_	_	_	3383-3386	w810	ich	*	I-VF|B-MF
+21	ſieben	sieben	_	CARD	_	_	_	_	_	3387-3393	w811	sieben	*	I-VF|I-MF
+22	Stunden	Stunde	_	NN	_	_	_	_	_	3394-3401	w812	Stunden	*	I-VF|I-MF
+23	lang	lang	_	ADJD	_	_	_	_	_	3402-3406	w813	lang	*	I-VF|I-MF
+24	im	im	_	APPRART	_	_	_	_	_	3407-3409	w814	im	*	I-VF|I-MF
+25	heftigſten	heftig	_	ADJA	_	_	_	_	_	3410-3420	w815	heftigsten	*	I-VF|I-MF
+26	Regen	Regen	_	NN	_	_	_	_	_	3421-3426	w816	Regen	*	I-VF|I-MF
+27	,	,	_	$,	_	_	_	_	_	3427-3428	w817	,	*	I-VF|I-MF|B-LK
+28	mit	mit	_	APPR	_	_	_	_	_	3429-3432	w818	mit	*	I-VF|I-MF
+29	dem	d	_	ART	_	_	_	_	_	3433-3436	w819	dem	*	I-VF|I-MF
+30	Winde	Winde	_	NN	_	_	_	_	_	3437-3442	w81a	Winde	*	I-VF|I-MF
+31	im	im	_	APPRART	_	_	_	_	_	3443-3445	w81b	im	*	I-VF|I-MF
+32	Geſicht	Gesicht	_	NN	_	_	_	_	_	3446-3453	w81c	Gesicht	*	I-VF|I-MF
+33	,	,	_	$,	_	_	_	_	_	3454-3455	w81d	,	*	I-VF|I-MF
+34	reiten	reiten	_	VVINF	_	_	_	_	_	3456-3462	w81e	reiten	*	I-VF|B-RK
+35	mußte	müssen	_	VMFIN	_	_	_	_	_	3463-3468	w81f	mußte	*	I-VF|I-RK
+36	,	,	_	$,	_	_	_	_	_	3469-3470	w820	,	*	B-LK
+37	und	und	_	KON	_	_	_	_	_	3471-3474	w821	und	*	O
+38	in	in	_	APPR	_	_	_	_	_	3475-3477	w822	in	*	B-VF
+39	dieſer	diese	_	PDAT	_	_	_	_	_	3478-3484	w823	dieser	*	I-VF
+40	Wüſte	Wüste	_	NN	_	_	_	_	_	3485-3490	w824	Wüste	*	I-VF
+41	,	,	_	$,	_	_	_	_	_	3491-3492	w825	,	*	B-LK
+42	wo	wo	_	PWAV	_	_	_	_	_	3493-3495	w826	wo	*	B-NF|B-LK
+43	nicht	nicht	_	PTKNEG	_	_	_	_	_	3496-3501	w827	nicht	*	I-NF|B-MF
+44	einmal	einmal	_	ADV	_	_	_	_	_	3502-3508	w828	einmal	*	I-NF|I-MF
+45	das	d	_	ART	_	_	_	_	_	3509-3512	w829	das	*	I-NF|I-MF
+46	Obdach	Obdach	_	NN	_	_	_	_	_	3513-3519	w82a	Obdach	*	I-NF|I-MF
+47	eines	eine	_	ART	_	_	_	_	_	3520-3525	w82b	eines	*	I-NF|I-MF
+48	Baumes	Baum	_	NN	_	_	_	_	_	3526-3532	w82c	Baumes	*	I-NF|I-MF
+49	anzutreffen	antreffen	_	VVIZU	_	_	_	_	_	3533-3544	w82d	anzutreffen	*	I-NF|B-RK
+50	iſt	sein	_	VAFIN	_	_	_	_	_	3545-3548	w82e	ist	*	I-NF|I-RK
+51	,	,	_	$,	_	_	_	_	_	3549-3550	w82f	,	*	B-LK
+52	nach	nach	_	APPR	_	_	_	_	_	3551-3555	w830	nach	*	B-MF
+53	der	d	_	ART	_	_	_	_	_	3556-3559	w831	der	*	I-MF
+54	erſten	erst	_	ADJA	_	_	_	_	_	3560-3566	w832	ersten	*	I-MF
+55	halben	halb	_	ADJA	_	_	_	_	_	3567-3573	w833	halben	*	I-MF
+56	Stunden	Stunde	_	NN	_	_	_	_	_	3574-3581	w834	Stunden	*	I-MF
+57	ſchon	schon	_	ADV	_	_	_	_	_	3582-3587	w835	schon	*	I-MF
+58	kein	keine	_	PIAT	_	_	_	_	_	3588-3592	w836	kein	*	I-MF
+59	Faden	Faden	_	NN	_	_	_	_	_	3593-3598	w837	Faden	*	I-MF
+60	meiner	meine	_	PPOSAT	_	_	_	_	_	3599-3605	w838	meiner	*	I-MF
+61	Kleidung	Kleidung	_	NN	_	_	_	_	_	3606-3614	w839	Kleidung	*	I-MF
+62	mehr	mehr	_	ADV	_	_	_	_	_	3615-3619	w83a	mehr	*	B-VF
+63	trocken	trocken	_	ADJD	_	_	_	_	_	3620-3627	w83b	trocken	*	I-VF
+64	war	sein	_	VAFIN	_	_	_	_	_	3628-3631	w83c	war	*	B-LK
+65	—	--	_	$(	_	_	_	_	_	3632-3633	w83d	--	*	B-RK
+66	ſo	so	_	ADV	_	_	_	_	_	3634-3636	w83e	so	*	B-VF
+67	möchte	mögen	_	VMFIN	_	_	_	_	_	3637-3643	w83f	möchte	*	B-LK
+68	ich	ich	_	PPER	_	_	_	_	_	3644-3647	w840	ich	*	B-MF
+69	doch	doch	_	ADV	_	_	_	_	_	3648-3652	w841	doch	*	I-MF
+70	um	um	_	APPR	_	_	_	_	_	3653-3655	w842	um	*	I-MF
+71	vieles	vieles	_	PIS	_	_	_	_	_	3656-3662	w843	vieles	*	I-MF
+72	nicht	nicht	_	PTKNEG	_	_	_	_	_	3663-3668	w844	nicht	*	I-MF
+73	den	d	_	ART	_	_	_	_	_	3669-3672	w845	den	*	I-MF
+74	heutigen	heutig	_	ADJA	_	_	_	_	_	3673-3681	w846	heutigen	*	I-MF
+75	,	,	_	$,	_	_	_	_	_	3682-3683	w847	,	*	I-MF
+76	ſo	so	_	ADV	_	_	_	_	_	3684-3686	w848	so	*	I-MF
+77	beſchwerlichen	beschwerlich	_	ADJA	_	_	_	_	_	3687-3701	w849	beschwerlichen	*	I-MF
+78	Tag	Tag	_	NN	_	_	_	_	_	3702-3705	w84a	Tag	*	I-MF
+79	,	,	_	$,	_	_	_	_	_	3706-3707	w84b	,	*	I-MF
+80	in	in	_	APPR	_	_	_	_	_	3708-3710	w84c	in	*	I-MF
+81	meinem	meine	_	PPOSAT	_	_	_	_	_	3711-3717	w84d	meinem	*	I-MF
+82	Lebensbuche	Lebensbuche	_	NN	_	_	_	_	_	3718-3729	w84e	Lebensbuche	*	I-MF
+83	miſſen	missen	_	VVINF	_	_	_	_	_	3730-3736	w84f	missen	*	B-RK
+84	.	.	_	$.	_	_	_	_	_	3737-3738	w850	.	*	I-RK
+
+# sent_id = 36
+# sent_id(TSV) = 36
+# TopFString = (S(VF(ART Der)(NN Anfang))(LK(VAFIN war))(MF(ADV allerdings)(ADJD ſchwer))(VC(PUNKT .)))
+# text = Der Anfang war allerdings ſchwer .
+1	Der	d	_	ART	_	_	_	_	_	3740-3743	w851	Der	*	B-VF
+2	Anfang	Anfang	_	NN	_	_	_	_	_	3744-3750	w852	Anfang	*	I-VF
+3	war	sein	_	VAFIN	_	_	_	_	_	3751-3754	w853	war	*	B-LK
+4	allerdings	allerdings	_	ADV	_	_	_	_	_	3755-3765	w854	allerdings	*	B-MF
+5	ſchwer	schwer	_	ADJD	_	_	_	_	_	3766-3772	w855	schwer	*	I-MF
+6	.	.	_	$.	_	_	_	_	_	3773-3774	w856	.	*	B-RK
+
+# sent_id = 37
+# sent_id(TSV) = 37
+# TopFString = (S(VF(VF(ADV Zuerſt))(LK(VMFIN konnte))(MF(PPER ich)(ADV lange)(PIAT keine)(NN Pferde))(VC(VVINF bekommen)))(LK(KOMMA ,))(MF(KON denn)(ART das)(APPR nach)(NE Glengariff)(NN gebrauchte))(VF(KOMMA ,))(LK(VAFIN hatte))(MF(PRF ſich)(ART den)(NN Fuß))(VC(VVPP verſtaucht)(PUNKT .)))
+# text = Zuerſt konnte ich lange keine Pferde bekommen , denn das nach Glengariff gebrauchte , hatte ſich den Fuß verſtaucht .
+1	Zuerſt	zuerst	_	ADV	_	_	_	_	_	3776-3782	w857	Zuerst	*	B-VF|B-VF
+2	konnte	können	_	VMFIN	_	_	_	_	_	3783-3789	w858	konnte	*	I-VF|B-LK
+3	ich	ich	_	PPER	_	_	_	_	_	3790-3793	w859	ich	*	I-VF|B-MF
+4	lange	lange	_	ADV	_	_	_	_	_	3794-3799	w85a	lange	*	I-VF|I-MF
+5	keine	keine	_	PIAT	_	_	_	_	_	3800-3805	w85b	keine	*	I-VF|I-MF
+6	Pferde	Pferd	_	NN	_	_	_	_	_	3806-3812	w85c	Pferde	*	I-VF|I-MF
+7	bekommen	bekommen	_	VVINF	_	_	_	_	_	3813-3821	w85d	bekommen	*	I-VF|B-RK
+8	,	,	_	$,	_	_	_	_	_	3822-3823	w85e	,	*	B-LK
+9	denn	denn	_	KON	_	_	_	_	_	3824-3828	w85f	denn	*	B-MF
+10	das	die	_	ART	_	_	_	_	_	3829-3832	w860	das	*	I-MF
+11	nach	nach	_	APPR	_	_	_	_	_	3833-3837	w861	nach	*	I-MF
+12	Glengariff	Glengariff	_	NE	_	_	_	_	_	3838-3848	w862	Glengariff	*	I-MF
+13	gebrauchte	gebrauchen	_	NN	_	_	_	_	_	3849-3859	w863	gebrauchte	*	I-MF
+14	,	,	_	$,	_	_	_	_	_	3860-3861	w864	,	*	B-VF
+15	hatte	haben	_	VAFIN	_	_	_	_	_	3862-3867	w865	hatte	*	B-LK
+16	ſich	sich	_	PRF	_	_	_	_	_	3868-3872	w866	sich	*	B-MF
+17	den	d	_	ART	_	_	_	_	_	3873-3876	w867	den	*	I-MF
+18	Fuß	Fuß	_	NN	_	_	_	_	_	3877-3880	w868	Fuß	*	I-MF
+19	verſtaucht	verstauchen	_	VVPP	_	_	_	_	_	3881-3891	w869	verstaucht	*	B-RK
+20	.	.	_	$.	_	_	_	_	_	3892-3893	w86a	.	*	I-RK
+
+# sent_id = 38
+# sent_id(TSV) = 38
+# TopFString = (S(VF(ADV Endlich))(FKOORD(FKONJ(LK(VVFIN erſchien))(MF(ART ein)(ADJA alter)(ADJA ſchwarzer)(NN Karrengaul))(LK(KOMMA ,))(NF(C(PRELS der))(MF(APPR für)(PPER mich))(VC(VVPP beſtimmt)(VAFIN war)))(LK(KOMMA ,))(MF(KON und)(ART ein)(ADJA Katzenartiges)(NN Thier-<lb/>chen)(KOMMA ,))(NF(C(PRELS das))(MF(ART der)(NN Führer))(VC(VVFIN beſtieg)))))(VC(PUNKT .)))
+# text = Endlich erſchien ein alter ſchwarzer Karrengaul , der für mich beſtimmt war , und ein Katzenartiges Thier-<lb/>chen , das der Führer beſtieg .
+1	Endlich	endlich	_	ADV	_	_	_	_	_	3895-3902	w86b	Endlich	*	B-VF
+2	erſchien	erscheinen	_	VVFIN	_	_	_	_	_	3903-3911	w86c	erschien	*	B-LK
+3	ein	eine	_	ART	_	_	_	_	_	3912-3915	w86d	ein	*	B-MF
+4	alter	alt	_	ADJA	_	_	_	_	_	3916-3921	w86e	alter	*	I-MF
+5	ſchwarzer	schwarz	_	ADJA	_	_	_	_	_	3922-3931	w86f	schwarzer	*	I-MF
+6	Karrengaul	Karrengaul	_	NN	_	_	_	_	_	3932-3942	w870	Karrengaul	*	I-MF
+7	,	,	_	$,	_	_	_	_	_	3943-3944	w871	,	*	B-LK
+8	der	die	_	PRELS	_	_	_	_	_	3945-3948	w872	der	*	B-NF|B-LK
+9	für	für	_	APPR	_	_	_	_	_	3949-3952	w873	für	*	I-NF|B-MF
+10	mich	ich	_	PPER	_	_	_	_	_	3953-3957	w874	mich	*	I-NF|I-MF
+11	beſtimmt	bestimmen	_	VVPP	_	_	_	_	_	3958-3966	w875	bestimmt	*	I-NF|B-RK
+12	war	sein	_	VAFIN	_	_	_	_	_	3967-3970	w876	war	*	I-NF|I-RK
+13	,	,	_	$,	_	_	_	_	_	3971-3972	w877	,	*	B-LK
+14	und	und	_	KON	_	_	_	_	_	3973-3976	w878	und	*	B-MF
+15	ein	eine	_	ART	_	_	_	_	_	3977-3980	w879	ein	*	I-MF
+16	Katzenartiges	katzenartig	_	ADJA	_	_	_	_	_	3981-3994	w87a	Katzenartiges	*	I-MF
+17	Thier-<lb/>chen	Tierchen	_	NN	_	_	_	_	_	3995-4010	w87b	Tierchen	*	I-MF
+18	,	,	_	$,	_	_	_	_	_	4011-4012	w87c	,	*	I-MF
+19	das	die	_	PRELS	_	_	_	_	_	4013-4016	w87d	das	*	B-NF|B-LK
+20	der	d	_	ART	_	_	_	_	_	4017-4020	w87e	der	*	I-NF|B-MF
+21	Führer	Führer	_	NN	_	_	_	_	_	4021-4027	w87f	Führer	*	I-NF|I-MF
+22	beſtieg	besteigen	_	VVFIN	_	_	_	_	_	4028-4035	w880	bestieg	*	I-NF|B-RK
+23	.	.	_	$.	_	_	_	_	_	4036-4037	w881	.	*	B-RK
+
+# sent_id = 39
+# sent_id(TSV) = 39
+# TopFString = (S(VF(ADV Auch)(APPR mit)(PPOSAT meiner)(NN Toi-<lb/>lette))(LK(VAFIN war))(MF(PPER ich))(VC(VVPP brouillirt)(PUNKT .)))
+# text = Auch mit meiner Toi-<lb/>lette war ich brouillirt .
+1	Auch	auch	_	ADV	_	_	_	_	_	4039-4043	w882	Auch	*	B-VF
+2	mit	mit	_	APPR	_	_	_	_	_	4044-4047	w883	mit	*	I-VF
+3	meiner	meine	_	PPOSAT	_	_	_	_	_	4048-4054	w884	meiner	*	I-VF
+4	Toi-<lb/>lette	Toilette	_	NN	_	_	_	_	_	4055-4069	w885	Toilette	*	I-VF
+5	war	sein	_	VAFIN	_	_	_	_	_	4070-4073	w886	war	*	B-LK
+6	ich	ich	_	PPER	_	_	_	_	_	4074-4077	w887	ich	*	B-MF
+7	brouillirt	brouillieren	_	VVPP	_	_	_	_	_	4078-4088	w888	brouilliert	*	B-RK
+8	.	.	_	$.	_	_	_	_	_	4089-4090	w889	.	*	I-RK
+
+# sent_id = 40
+# sent_id(TSV) = 40
+# TopFString = (S(VF(ART Die)(ADJA entwichene)(NN Galloſche))(LK(VAFIN war))(FKOORD(FKONJ(MF(PTKNEG nicht))(VC(PTKVZ wieder)(VVPP gefunden)(VAPP worden)(KOMMA ,)))(KON und)(FKONJ(MF(ART der)(NN Regen-<lb/>ſchirm)(ADV ſchon)(APPR auf)(ART dem)(NN Hexenberge)(APPR aus)(PPOSAT ſeinen)(NN Fugen))(VC(VVPP gewichen)(PUNKT .)))))
+# text = Die entwichene Galloſche war nicht wieder gefunden worden , und der Regen-<lb/>ſchirm ſchon auf dem Hexenberge aus ſeinen Fugen gewichen .
+1	Die	d	_	ART	_	_	_	_	_	4092-4095	w88a	Die	*	B-VF
+2	entwichene	entweichen	_	ADJA	_	_	_	_	_	4096-4106	w88b	entwichene	*	I-VF
+3	Galloſche	Galosche	_	NN	_	_	_	_	_	4107-4116	w88c	Galosche	*	I-VF
+4	war	sein	_	VAFIN	_	_	_	_	_	4117-4120	w88d	war	*	B-LK
+5	nicht	nicht	_	PTKNEG	_	_	_	_	_	4121-4126	w88e	nicht	*	B-MF
+6	wieder	wieder	_	PTKVZ	_	_	_	_	_	4127-4133	w88f	wieder	*	B-RK
+7	gefunden	finden	_	VVPP	_	_	_	_	_	4134-4142	w890	gefunden	*	I-RK
+8	worden	werden	_	VAPP	_	_	_	_	_	4143-4149	w891	worden	*	I-RK
+9	,	,	_	$,	_	_	_	_	_	4150-4151	w892	,	*	I-RK
+10	und	und	_	KON	_	_	_	_	_	4152-4155	w893	und	*	B-KOORD
+11	der	d	_	ART	_	_	_	_	_	4156-4159	w894	der	*	B-MF
+12	Regen-<lb/>ſchirm	Regenschirm	_	NN	_	_	_	_	_	4160-4177	w895	Regenschirm	*	I-MF
+13	ſchon	schon	_	ADV	_	_	_	_	_	4178-4183	w896	schon	*	I-MF
+14	auf	auf	_	APPR	_	_	_	_	_	4184-4187	w897	auf	*	I-MF
+15	dem	d	_	ART	_	_	_	_	_	4188-4191	w898	dem	*	I-MF
+16	Hexenberge	Hexenberg	_	NN	_	_	_	_	_	4192-4202	w899	Hexenberge	*	I-MF
+17	aus	aus	_	APPR	_	_	_	_	_	4203-4206	w89a	aus	*	I-MF
+18	ſeinen	seine	_	PPOSAT	_	_	_	_	_	4207-4213	w89b	seinen	*	I-MF
+19	Fugen	Fuge	_	NN	_	_	_	_	_	4214-4219	w89c	Fugen	*	I-MF
+20	gewichen	weichen	_	VVPP	_	_	_	_	_	4220-4228	w89d	gewichen	*	B-RK
+21	.	.	_	$.	_	_	_	_	_	4229-4230	w89e	.	*	I-RK

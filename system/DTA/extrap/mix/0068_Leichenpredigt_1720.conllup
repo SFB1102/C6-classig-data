@@ -1,0 +1,662 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC Antec CharOffset DTA:ID DTA:NORM MovElem PHRASE POS TOPF
+# sent_id = 1
+# sent_id(TSV) = 1
+# PTBstring = (VROOT(S(NP(ADJA Chriſtliches)(NN Denckmaal)(KOMMA ,)(AS(PRELS Welches)(NP(PPOSAT Seinem)(ADJA Seligen)(NN Herrn)(NP(NE Eydam)(KOMMA ,)(CNP(NP(NN HERRN)(PN(NE M)(PUNKT .)(NE Georg)(NE Joh.)(NE Hencken)(KLAMMER /)))(NP(ADJA Treugeweſenen)(NN Diacono)(PP(APPR in)(NE Glaucha)(KOMMA ,))(PP(APPR Durch)(NN Edirung)(NP(ART Der)(AP(PPER Jhm)(ADJA gehaltenen))(NN Leichen-)(NN Predigt)(KOMMA ,))))(NP(PDAT deſſen)(NN Lebens-Laufes)(KOMMA ,))(NP(KOKOM wie)(ADV auch)(PIAT einiger)(NN Leichen-Carminum)(NP(ADJA guter)(CNP(NN Goͤnner)(KON und)(NN Freunde)(KOMMA ,)))))))(VP(PP(APPR Aus)(ADJA Treuer)(NN Liebe))(PP(APPR gegen)(PDS Denſelben))(VVPP aufgerichtet))))(NP(PN(NE M.)(NE Joh.)(NE Hieronymus)(NE Wiegleb)(KOMMA ,))(NP(NN PASTOR)(PP(APPR in)(NE Glaucha))(PP(APPR an)(NE Halle)(PUNKT .))))))
+# TopFString = (S(ADJA Chriſtliches)(NN Denckmaal)(KOMMA ,)(C(PRELS Welches))(MF(PPOSAT Seinem)(ADJA Seligen)(NN Herrn))(NE Eydam)(KOMMA ,)(NN HERRN)(NE M)(PUNKT .)(NE Georg)(NE Joh.)(NE Hencken)(KLAMMER /)(ADJA Treugeweſenen)(NN Diacono)(APPR in)(NE Glaucha)(KOMMA ,)(APPR Durch)(NN Edirung)(ART Der)(PPER Jhm)(ADJA gehaltenen)(NN Leichen-)(NN Predigt)(KOMMA ,)(PDAT deſſen)(NN Lebens-Laufes)(KOMMA ,)(KOKOM wie)(ADV auch)(PIAT einiger)(NN Leichen-Carminum)(ADJA guter)(NN Goͤnner)(KON und)(NN Freunde)(KOMMA ,)(MF(APPR Aus)(ADJA Treuer)(NN Liebe)(APPR gegen)(PDS Denſelben))(VC(VVPP aufgerichtet))(NF(NE M.)(NE Joh.)(NE Hieronymus)(NE Wiegleb)(KOMMA ,)(NN PASTOR)(APPR in)(NE Glaucha)(APPR an)(NE Halle))(PUNKT .))
+# text = Chriſtliches Denckmaal , Welches Seinem Seligen Herrn Eydam , HERRN M . Georg Joh. Hencken / Treugeweſenen Diacono in Glaucha , Durch Edirung Der Jhm gehaltenen Leichen- Predigt , deſſen Lebens-Laufes , wie auch einiger Leichen-Carminum guter Goͤnner und Freunde , Aus Treuer Liebe gegen Denſelben aufgerichtet M. Joh. Hieronymus Wiegleb , PASTOR in Glaucha an Halle .
+1	Chriſtliches	christlich	_	ADJA	_	_	_	_	_	B-Antec-1	0-12	w1	Christliches	B-NP-insitu	B-NP	*	O
+2	Denckmaal	Denkmal	_	NN	_	_	_	_	_	I-Antec-Head	13-22	w2	Denkmal	I-NP	I-NP	*	O
+3	,	,	_	$,	_	_	_	_	_	_	23-24	w3	,	I-NP	I-NP	*	O
+4	Welches	welches	_	PRELS	_	_	_	_	_	_	25-32	w4	Welches	I-NP|B-RELC-insitu-1|B-NP-insitu	I-NP	*	B-LK
+5	Seinem	seine	_	PPOSAT	_	_	_	_	_	_	33-39	w5	Seinem	I-NP|I-RELC|B-NP-insitu	I-NP	*	B-MF
+6	Seligen	selig	_	ADJA	_	_	_	_	_	_	40-47	w6	Seligen	I-NP|I-RELC|I-NP	I-NP	*	I-MF
+7	Herrn	Herr	_	NN	_	_	_	_	_	_	48-53	w7	Herrn	I-NP|I-RELC|I-NP	I-NP	*	I-MF
+8	Eydam	Eidam	_	NE	_	_	_	_	_	_	54-59	w8	Eidam	I-NP|I-RELC|I-NP	I-NP	*	O
+9	,	,	_	$,	_	_	_	_	_	_	60-61	w9	,	I-NP|I-RELC|I-NP	I-NP	*	O
+10	HERRN	Herr	_	NN	_	_	_	_	_	_	62-67	wa	HERRN	I-NP|I-RELC|I-NP	I-NP	*	O
+11	M	M	_	NE	_	_	_	_	_	_	68-69	wb	M	I-NP|I-RELC|I-NP	I-NP	*	O
+12	.	.	_	$.	_	_	_	_	_	_	70-71	wc	.	I-NP|I-RELC|I-NP	I-NP	*	O
+13	Georg	Georg	_	NE	_	_	_	_	_	_	72-77	wd,wd_1	Georg	I-NP|I-RELC|I-NP	I-NP	*	O
+14	Joh.	Joh.	_	NE	_	_	_	_	_	_	78-82	we,we_1	Joh.	I-NP|I-RELC|I-NP	I-NP	*	O
+15	Hencken	Henken	_	NE	_	_	_	_	_	_	83-90	wf,wf_1	Henken	I-NP|I-RELC|I-NP	I-NP	*	O
+16	/	/	_	$(	_	_	_	_	_	_	91-92	w10	/	I-NP|I-RELC|I-NP	I-NP	*	O
+17	Treugeweſenen	Treugewesene	_	ADJA	_	_	_	_	_	_	93-106	w11	Treugewesenen	I-NP|I-RELC|I-NP	I-NP	*	O
+18	Diacono	Diacono	_	NN	_	_	_	_	_	_	107-114	w12	Diacono	I-NP|I-RELC|I-NP	I-NP	*	O
+19	in	in	_	APPR	_	_	_	_	_	_	115-117	w13	in	I-NP|I-RELC|I-NP	I-NP	*	O
+20	Glaucha	Glaucha	_	NE	_	_	_	_	_	_	118-125	w14	Glaucha	I-NP|I-RELC|I-NP	I-NP	*	O
+21	,	,	_	$,	_	_	_	_	_	_	126-127	w15	,	I-NP|I-RELC|I-NP	I-NP	*	O
+22	Durch	durch	_	APPR	_	_	_	_	_	_	128-133	w16	Durch	I-NP|I-RELC|I-NP	I-NP	*	O
+23	Edirung	Edierung	_	NN	_	_	_	_	_	_	134-141	w17,w17_1	Edierung	I-NP|I-RELC|I-NP	I-NP	*	O
+24	Der	d	_	ART	_	_	_	_	_	_	142-145	w18	Der	I-NP|I-RELC|I-NP	I-NP	*	O
+25	Jhm	er	_	PPER	_	_	_	_	_	_	146-149	w19	Ihm	I-NP|I-RELC|I-NP	I-NP	*	O
+26	gehaltenen	gehalten	_	ADJA	_	_	_	_	_	_	150-160	w1a	gehaltenen	I-NP|I-RELC|I-NP	I-NP	*	O
+27	Leichen-	leichen-	_	NN	_	_	_	_	_	_	161-169	w1b	Leichen-	I-NP|I-RELC|I-NP	I-NP	*	O
+28	Predigt	Predigt	_	NN	_	_	_	_	_	_	170-177	w1c	Predigt	I-NP|I-RELC|I-NP	I-NP	*	O
+29	,	,	_	$,	_	_	_	_	_	_	178-179	w1d	,	I-NP|I-RELC|I-NP	I-NP	*	O
+30	deſſen	die	_	PDAT	_	_	_	_	_	_	180-186	w1e	dessen	I-NP|I-RELC|I-NP	I-NP	*	O
+31	Lebens-Laufes	Lebens-Lauf	_	NN	_	_	_	_	_	_	187-200	w1f	Lebens-Laufes	I-NP|I-RELC|I-NP	I-NP	*	O
+32	,	,	_	$,	_	_	_	_	_	_	201-202	w20	,	I-NP|I-RELC|I-NP	I-NP	*	O
+33	wie	wie	_	KOKOM	_	_	_	_	_	_	203-206	w21	wie	I-NP|I-RELC|I-NP	I-NP	*	O
+34	auch	auch	_	ADV	_	_	_	_	_	_	207-211	w22	auch	I-NP|I-RELC|I-NP	I-NP	*	O
+35	einiger	einige	_	PIAT	_	_	_	_	_	_	212-219	w23	einiger	I-NP|I-RELC|I-NP	I-NP	*	O
+36	Leichen-Carminum	Leichen-Carminum	_	NN	_	_	_	_	_	_	220-236	w24,w24_1	Leichen-Carminum	I-NP|I-RELC|I-NP	I-NP	*	O
+37	guter	gut	_	ADJA	_	_	_	_	_	_	237-242	w25	guter	I-NP|I-RELC|I-NP	I-NP	*	O
+38	Goͤnner	Gönner	_	NN	_	_	_	_	_	_	243-250	w26	Gönner	I-NP|I-RELC|I-NP	I-NP	*	O
+39	und	und	_	KON	_	_	_	_	_	_	251-254	w27	und	I-NP|I-RELC|I-NP	I-NP	*	O
+40	Freunde	Freund	_	NN	_	_	_	_	_	_	255-262	w28	Freunde	I-NP|I-RELC|I-NP	I-NP	*	O
+41	,	,	_	$,	_	_	_	_	_	_	263-264	w29	,	I-NP|I-RELC	I-NP	*	O
+42	Aus	aus	_	APPR	_	_	_	_	_	_	265-268	w2a	Aus	I-NP|I-RELC|B-PP-insitu	I-NP	*	B-MF
+43	Treuer	treu	_	ADJA	_	_	_	_	_	_	269-275	w2b	Treuer	I-NP|I-RELC|I-PP	I-NP	*	I-MF
+44	Liebe	Liebe	_	NN	_	_	_	_	_	_	276-281	w2c	Liebe	I-NP|I-RELC|I-PP	I-NP	*	I-MF
+45	gegen	gegen	_	APPR	_	_	_	_	_	_	282-287	w2d	gegen	I-NP|I-RELC|B-PP-insitu	I-NP	*	I-MF
+46	Denſelben	denselben	_	PDS	_	_	_	_	_	_	288-297	w2e	Denselben	I-NP|I-RELC|I-PP	I-NP	*	I-MF
+47	aufgerichtet	aufrichten	_	VVPP	_	_	_	_	_	_	298-310	w2f	aufgerichtet	I-NP|I-RELC	I-NP	*	B-RK
+48	M.	M.	_	NE	_	_	_	_	_	_	311-313	w30	M.	B-NP-extrap	B-NP	*	B-NF
+49	Joh.	Joh.	_	NE	_	_	_	_	_	_	314-318	w31	Joh.	I-NP	I-NP	*	I-NF
+50	Hieronymus	Hieronymus	_	NE	_	_	_	_	_	_	319-329	w32	Hieronymus	I-NP	I-NP	*	I-NF
+51	Wiegleb	Wiegleb	_	NE	_	_	_	_	_	_	330-337	w33	Wiegleb	I-NP	I-NP	*	I-NF
+52	,	,	_	$,	_	_	_	_	_	_	338-339	w34	,	I-NP	I-NP	*	I-NF
+53	PASTOR	Pastor	_	NN	_	_	_	_	_	_	340-346	w35	PASTOR	I-NP	I-NP	*	I-NF
+54	in	in	_	APPR	_	_	_	_	_	_	347-349	w36	in	I-NP	I-NP	*	I-NF
+55	Glaucha	Glaucha	_	NE	_	_	_	_	_	_	350-357	w37	Glaucha	I-NP	I-NP	*	I-NF
+56	an	an	_	APPR	_	_	_	_	_	_	358-360	w38	an	I-NP	I-NP	*	I-NF
+57	Halle	Halle	_	NE	_	_	_	_	_	_	361-366	w39	Halle	I-NP	I-NP	*	I-NF
+58	.	.	_	$.	_	_	_	_	_	_	367-368	w3a	.	_	I-NP	*	O
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# PTBstring = (VROOT(NP(NE HALLE)(KOMMA ,)(VP(VZ(PTKZU Zu)(VVINF finden))(PP(APPRART im)(NN Waͤyſenhauſe.)(CARD MDCCXX.)))))
+# TopFString = (S(NE HALLE)(KOMMA ,)(VF(VC(PTKZU Zu)(VVINF finden)))(MF(APPRART im)(NN Waͤyſenhauſe.))(CARD MDCCXX.))
+# text = HALLE , Zu finden im Waͤyſenhauſe. MDCCXX.
+1	HALLE	Hall	_	NE	_	_	_	_	_	_	370-375	w3b	HALLE	B-NP-insitu	B-NP	*	O
+2	,	,	_	$,	_	_	_	_	_	_	376-377	w3c	,	I-NP	I-NP	*	O
+3	Zu	zu	_	PTKZU	_	_	_	_	_	_	378-380	w3d	Zu	I-NP	I-NP	*	B-VF|B-RK
+4	finden	finden	_	VVINF	_	_	_	_	_	_	381-387	w3e	finden	I-NP	I-NP	*	I-VF|I-RK
+5	im	im	_	APPRART	_	_	_	_	_	_	388-390	w3f	im	I-NP|B-PP-insitu	I-NP	*	B-MF
+6	Waͤyſenhauſe.	Wäysenhause.	_	NN	_	_	_	_	_	_	391-404	w40,w40_1,w40_2	Wäysenhause.	I-NP|I-PP	I-NP	*	I-MF
+7	MDCCXX.	Mdccxx.	_	CARD	_	_	_	_	_	_	405-412	w41,w41_1	MDCCXX.	I-NP|I-PP	I-NP	*	O
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# PTBstring = (VROOT(NP(CNP(TRUNC Traur-)(KON und)(NN Troſt-Predigt)(KOMMA ,))(PP(APPR Aus)(ADJA 1.)(NN Cor.)(CARD XV)(KOMMA ,))(NM(CARD 42.)(CARD 43)(PUNKT .))))
+# TopFString = (S(VF(TRUNC Traur-)(KON und)(NN Troſt-Predigt))(KOMMA ,)(APPR Aus)(ADJA 1.)(NN Cor.)(CARD XV)(KOMMA ,)(CARD 42.)(CARD 43)(PUNKT .))
+# text = Traur- und Troſt-Predigt , Aus 1. Cor. XV , 42. 43 .
+1	Traur-	traur-	_	TRUNC	_	_	_	_	_	_	414-420	w50,w50_1	Traur-	B-NP-insitu	B-NP	*	B-VF
+2	und	und	_	KON	_	_	_	_	_	_	421-424	w51	und	I-NP	I-NP	*	I-VF
+3	Troſt-Predigt	Trost-Predigt	_	NN	_	_	_	_	_	_	425-438	w52,w52_1,w52_2,w52_3	Trost-Predigt	I-NP	I-NP	*	I-VF
+4	,	,	_	$,	_	_	_	_	_	_	439-440	w53	,	I-NP	I-NP	*	O
+5	Aus	aus	_	APPR	_	_	_	_	_	_	441-444	w54	Aus	I-NP	I-NP	*	O
+6	1.	1.	_	ADJA	_	_	_	_	_	_	445-447	w55	1.	I-NP	I-NP	*	O
+7	Cor.	Cor.	_	NN	_	_	_	_	_	_	448-452	w56	Cor.	I-NP	I-NP	*	O
+8	XV	xv	_	CARD	_	_	_	_	_	_	453-455	w57	XV	I-NP	I-NP	*	O
+9	,	,	_	$,	_	_	_	_	_	_	456-457	w58	,	I-NP	I-NP	*	O
+10	42.	42.	_	CARD	_	_	_	_	_	_	458-461	w59	42.	I-NP	I-NP	*	O
+11	43	43	_	CARD	_	_	_	_	_	_	462-464	w5a	43	I-NP	I-NP	*	O
+12	.	.	_	$.	_	_	_	_	_	_	465-466	w5b	.	_	I-NP	*	O
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# PTBstring = (VROOT(PP(APPRART Zum)(ADJA Chriſtlichen)(NN Gedaͤchtniß)(NP(ART Des)(AP(ADV Weiland)(CAP(ADJA Wohl-Ehrwuͤrdigen)(KOMMA ,)(ADJA Andaͤchtigen)(KON und)(ADJA Wohl-<lb/>gelahrten)))(NN Herrn))(KOMMA ,)(CNP(NP(NN HERRN)(PN(NE M)(PUNKT .)(NE Georg)(NE Joh.)(NE Henckens)(KLAMMER /)))(NP(ADJA Treuverdienten)(NN DIACONI)(PP(APPR zu)(NE Glau-<lb/>cha))(PP(APPR an)(NE Halle)(KOMMA ,))(VP(PP(APPR Jn)(ART der)(ADJA St.)(NN Georgen-Kirche))(PAV daſelbſt)(PP(APPRART Am)(NN Sonntage)(NP(NN Cantate)(NP(ADJA jetztlauffen-<lb/>den)(ADJA 1720ſten)(NN Jahrs))))(VVPP gehalten)(PP(APPR von)(CNP(PN(NE Ioh.)(NE Anastas)(PUNKT .))(NE Freylinghauſen)(KOMMA ,)))))(NP(NN Paſtore)(NE Adjuncto)(PP(APPR zu)(PN(ADJA St.)(NE Ulrich)))(PP(APPR in)(NE Halle)(PUNKT .))))))
+# TopFString = (S(VF(APPRART Zum)(ADJA Chriſtlichen)(NN Gedaͤchtniß)(ART Des)(ADV Weiland)(ADJA Wohl-Ehrwuͤrdigen)(KOMMA ,)(ADJA Andaͤchtigen)(KON und)(ADJA Wohl-<lb/>gelahrten)(NN Herrn))(KOMMA ,)(NN HERRN)(NE M)(PUNKT .)(NE Georg)(NE Joh.)(NE Henckens)(KLAMMER /)(ADJA Treuverdienten)(NN DIACONI)(APPR zu)(NE Glau-<lb/>cha)(APPR an)(NE Halle)(KOMMA ,)(MF(APPR Jn)(ART der)(ADJA St.)(NN Georgen-Kirche)(PAV daſelbſt)(APPRART Am)(NN Sonntage)(NN Cantate)(ADJA jetztlauffen-<lb/>den)(ADJA 1720ſten)(NN Jahrs))(VC(VVPP gehalten))(NF(APPR von)(NE Ioh.)(NE Anastas)(PUNKT .)(NE Freylinghauſen)(KOMMA ,)(NN Paſtore)(NE Adjuncto)(APPR zu)(ADJA St.)(NE Ulrich)(APPR in)(NE Halle))(PUNKT .))
+# text = Zum Chriſtlichen Gedaͤchtniß Des Weiland Wohl-Ehrwuͤrdigen , Andaͤchtigen und Wohl-<lb/>gelahrten Herrn , HERRN M . Georg Joh. Henckens / Treuverdienten DIACONI zu Glau-<lb/>cha an Halle , Jn der St. Georgen-Kirche daſelbſt Am Sonntage Cantate jetztlauffen-<lb/>den 1720ſten Jahrs gehalten von Ioh. Anastas . Freylinghauſen , Paſtore Adjuncto zu St. Ulrich in Halle .
+1	Zum	zum	_	APPRART	_	_	_	_	_	_	468-471	w5c	Zum	B-PP-insitu	B-PP	*	B-VF
+2	Chriſtlichen	christlich	_	ADJA	_	_	_	_	_	_	472-484	w5d	Christlichen	I-PP	I-PP	*	I-VF
+3	Gedaͤchtniß	Gedächtnis	_	NN	_	_	_	_	_	_	485-496	w5e	Gedächtnis	I-PP	I-PP	*	I-VF
+4	Des	d	_	ART	_	_	_	_	_	_	497-500	w5f	Des	I-PP|B-NP-insitu	I-PP	*	I-VF
+5	Weiland	weiland	_	ADV	_	_	_	_	_	_	501-508	w60	Weiland	I-PP|I-NP	I-PP	*	I-VF
+6	Wohl-Ehrwuͤrdigen	wohl-ehrewürdig	_	ADJA	_	_	_	_	_	_	509-526	w61	Wohl-Ehrwürdigen	I-PP|I-NP	I-PP	*	I-VF
+7	,	,	_	$,	_	_	_	_	_	_	527-528	w62	,	I-PP|I-NP	I-PP	*	I-VF
+8	Andaͤchtigen	andächtig	_	ADJA	_	_	_	_	_	_	529-541	w63	Andächtigen	I-PP|I-NP	I-PP	*	I-VF
+9	und	und	_	KON	_	_	_	_	_	_	542-545	w64	und	I-PP|I-NP	I-PP	*	I-VF
+10	Wohl-<lb/>gelahrten	wohlgelahrt	_	ADJA	_	_	_	_	_	_	546-565	w65	Wohlgelahrten	I-PP|I-NP	I-PP	*	I-VF
+11	Herrn	Herr	_	NN	_	_	_	_	_	_	566-571	w66	Herrn	I-PP|I-NP	I-PP	*	I-VF
+12	,	,	_	$,	_	_	_	_	_	_	572-573	w67	,	I-PP	I-PP	*	O
+13	HERRN	Herr	_	NN	_	_	_	_	_	_	574-579	w68	HERRN	I-PP	I-PP	*	O
+14	M	M	_	NE	_	_	_	_	_	_	580-581	w69	M	I-PP	I-PP	*	O
+15	.	.	_	$.	_	_	_	_	_	_	582-583	w6a	.	I-PP	I-PP	*	O
+16	Georg	Georg	_	NE	_	_	_	_	_	_	584-589	w6b,w6b_1	Georg	I-PP	I-PP	*	O
+17	Joh.	Joh.	_	NE	_	_	_	_	_	_	590-594	w6c,w6c_1	Joh.	I-PP	I-PP	*	O
+18	Henckens	Henkens	_	NE	_	_	_	_	_	_	595-603	w6d,w6d_1	Henkens	I-PP	I-PP	*	O
+19	/	/	_	$(	_	_	_	_	_	_	604-605	w6e	/	I-PP	I-PP	*	O
+20	Treuverdienten	treuverdient	_	ADJA	_	_	_	_	_	_	606-620	w6f	Treuverdienten	I-PP	I-PP	*	O
+21	DIACONI	Diaconus	_	NN	_	_	_	_	_	_	621-628	w70	DIACONI	I-PP	I-PP	*	O
+22	zu	zu	_	APPR	_	_	_	_	_	_	629-631	w71	zu	I-PP	I-PP	*	O
+23	Glau-<lb/>cha	Glaucha	_	NE	_	_	_	_	_	_	632-645	w72	Glaucha	I-PP	I-PP	*	O
+24	an	an	_	APPR	_	_	_	_	_	_	646-648	w73	an	I-PP	I-PP	*	O
+25	Halle	Halle	_	NE	_	_	_	_	_	_	649-654	w74	Halle	I-PP	I-PP	*	O
+26	,	,	_	$,	_	_	_	_	_	_	655-656	w75	,	I-PP	I-PP	*	O
+27	Jn	in	_	APPR	_	_	_	_	_	_	657-659	w76	In	I-PP|B-PP-insitu	I-PP	*	B-MF
+28	der	d	_	ART	_	_	_	_	_	_	660-663	w77	der	I-PP|I-PP	I-PP	*	I-MF
+29	St.	St.	_	ADJA	_	_	_	_	_	_	664-667	w78	St.	I-PP|I-PP	I-PP	*	I-MF
+30	Georgen-Kirche	Georgen-Kirche	_	NN	_	_	_	_	_	_	668-682	w79	Georgen-Kirche	I-PP|I-PP	I-PP	*	I-MF
+31	daſelbſt	daselbst	_	PAV	_	_	_	_	_	_	683-691	w7a	daselbst	I-PP|B-PP-insitu	I-PP	*	I-MF
+32	Am	am	_	APPRART	_	_	_	_	_	_	692-694	w7b	Am	I-PP|B-PP-insitu	I-PP	*	I-MF
+33	Sonntage	Sonntag	_	NN	_	_	_	_	_	_	695-703	w7c	Sonntage	I-PP|I-PP	I-PP	*	I-MF
+34	Cantate	Kantate	_	NN	_	_	_	_	_	_	704-711	w7d	Kantate	I-PP|I-PP	I-PP	*	I-MF
+35	jetztlauffen-<lb/>den	jetztlaufend	_	ADJA	_	_	_	_	_	_	712-733	w7e	jetztlaufenden	I-PP|I-PP	I-PP	*	I-MF
+36	1720ſten	1720sten	_	ADJA	_	_	_	_	_	_	734-742	w7f	1720sten	I-PP|I-PP	I-PP	*	I-MF
+37	Jahrs	Jahr	_	NN	_	_	_	_	_	_	743-748	w80	Jahrs	I-PP|I-PP	I-PP	*	I-MF
+38	gehalten	halten	_	VVPP	_	_	_	_	_	_	749-757	w81	gehalten	I-PP	I-PP	*	B-RK
+39	von	von	_	APPR	_	_	_	_	_	_	758-761	w42	von	I-PP|B-PP-extrap	I-PP	*	B-NF
+40	Ioh.	Ioh.	_	NE	_	_	_	_	_	_	762-766	w43	Ioh.	I-PP|I-PP	I-PP	*	I-NF
+41	Anastas	Anastas	_	NE	_	_	_	_	_	_	767-774	w44,w44_1	Anastas	I-PP|I-PP	I-PP	*	I-NF
+42	.	.	_	$.	_	_	_	_	_	_	775-776	w45	.	I-PP|I-PP	I-PP	*	I-NF
+43	Freylinghauſen	Freylinghausen	_	NE	_	_	_	_	_	_	777-791	w46	Freylinghausen	I-PP|I-PP	I-PP	*	I-NF
+44	,	,	_	$,	_	_	_	_	_	_	792-793	w47	,	I-PP	I-PP	*	I-NF
+45	Paſtore	Pastore	_	NN	_	_	_	_	_	_	794-801	w48	Pastore	I-PP|B-NP-extrap	I-PP	*	I-NF
+46	Adjuncto	Adjuncto	_	NE	_	_	_	_	_	_	802-810	w49	Adjuncto	I-PP|I-NP	I-PP	*	I-NF
+47	zu	zu	_	APPR	_	_	_	_	_	_	811-813	w4a	zu	I-PP|I-NP	I-PP	*	I-NF
+48	St.	St.	_	ADJA	_	_	_	_	_	_	814-817	w4b	St.	I-PP|I-NP	I-PP	*	I-NF
+49	Ulrich	Ulrich	_	NE	_	_	_	_	_	_	818-824	w4c	Ulrich	I-PP|I-NP	I-PP	*	I-NF
+50	in	in	_	APPR	_	_	_	_	_	_	825-827	w4d	in	I-PP|I-NP	I-PP	*	I-NF
+51	Halle	Halle	_	NE	_	_	_	_	_	_	828-833	w4e	Halle	I-PP|I-NP	I-PP	*	I-NF
+52	.	.	_	$.	_	_	_	_	_	_	834-835	w4f	.	_	I-PP	*	O
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# PTBstring = (VROOT(CS(S(NP(PN(NE CHriſtus)(NE JEſus)(KOMMA ,))(NP(PRELS welcher)))(VP(VAFIN iſt))(CNP(NP(ART die)(NN Auferſtehung))(KON und)(NP(ART das)(NN Leben)(PUNKT ;)))(S:RC(NP(PRELS der))(CVP(VP(PP(APPR durch)(PPOSAT ſeinen)(NN Tod))(NP(ART dem)(NN Tode))(NP(ART die)(NN Macht))(VVPP genommen)(KOMMA ,))(KON und)(VP(CNP(NP(ART das)(NN Leben))(KON und)(NP(ART ein)(ADJA un-<lb/>vergaͤnglich)(NN Weſen)))(PP(APPRART ans)(NN Licht))(VVPP gebracht)))(VP(VAFIN hat))(PP(APPRART durchs)(NN Evangelium)(KOMMA ,))))(S(VP(VVIMP laſſe))(NP(PPER uns))(AVP(ADV al-<lb/>leſamt))(CNP(NP(PIAT ſolcher)(ADJA ſeligen)(NN Frucht)(NP(PPOSAT ſeines)(NN To-<lb/>des)))(KON und)(NP(PPOSAT ſeiner)(NN Auferſtehung)))(AVP(ADV hier))(PP(APPRART im)(NN Glauben)(KOMMA ,)))(KON und)(S(VP(ADV dort)(PP(APPRART im)(NN Schauen))(ADJD theil-<lb/>haftig)(VAINF werden)(KOMMA ,)(PP(APPRART zum)(NN Lobe)(NP(PPOSAT ſeines)(ADJA heili-<lb/>gen)(NN Namens)(KOMMA ,))))(NP(NN Amen))(PUNKT !))))
+# TopFString = (S(VF(NE CHriſtus)(NE JEſus)(KOMMA ,)(C(PRELS welcher))(FKOORD(FKONJ(LK(VAFIN iſt))(MF(ART die)(NN Auferſtehung)(KON und)(ART das)(NN Leben))(PUNKT ;)(NF(C(PRELS der))(MF(APPR durch)(PPOSAT ſeinen)(NN Tod)(ART dem)(NN Tode)(ART die)(NN Macht))(VC(VVPP genommen))))(KOMMA ,)(KON und)(FKONJ(MF(ART das)(NN Leben)(KON und)(ART ein)(ADJA un-<lb/>vergaͤnglich)(NN Weſen)(APPRART ans)(NN Licht))(VC(VVPP gebracht)(VAFIN hat))))(NF(APPRART durchs)(NN Evangelium)))(KOMMA ,)(LK(VVIMP laſſe))(MF(PPER uns)(ADV al-<lb/>leſamt)(PIAT ſolcher)(ADJA ſeligen)(NN Frucht)(PPOSAT ſeines)(NN To-<lb/>des)(KON und)(PPOSAT ſeiner)(NN Auferſtehung)(ADV hier)(APPRART im)(NN Glauben))(KOMMA ,)(KON und)(MF(ADV dort)(APPRART im)(NN Schauen)(ADJD theil-<lb/>haftig))(VC(VAINF werden))(KOMMA ,)(NF(APPRART zum)(NN Lobe)(PPOSAT ſeines)(ADJA heili-<lb/>gen)(NN Namens)(KOMMA ,)(NN Amen))(PUNKT !))
+# text = CHriſtus JEſus , welcher iſt die Auferſtehung und das Leben ; der durch ſeinen Tod dem Tode die Macht genommen , und das Leben und ein un-<lb/>vergaͤnglich Weſen ans Licht gebracht hat durchs Evangelium , laſſe uns al-<lb/>leſamt ſolcher ſeligen Frucht ſeines To-<lb/>des und ſeiner Auferſtehung hier im Glauben , und dort im Schauen theil-<lb/>haftig werden , zum Lobe ſeines heili-<lb/>gen Namens , Amen !
+1	CHriſtus	Christus	_	NE	_	_	_	_	_	_	837-845	w82	Christus	B-NP-insitu	B-NP	*	B-VF
+2	JEſus	Jesus	_	NE	_	_	_	_	_	_	846-851	w83	Jesus	I-NP	I-NP	*	I-VF
+3	,	,	_	$,	_	_	_	_	_	_	852-853	w84	,	I-NP	I-NP	*	I-VF
+4	welcher	welche	_	PRELS	_	_	_	_	_	_	854-861	w85	welcher	I-NP|B-NP-insitu	I-NP	*	I-VF|B-LK
+5	iſt	sein	_	VAFIN	_	_	_	_	_	_	862-865	w86	ist	_	O	*	I-VF|B-LK
+6	die	d	_	ART	_	_	_	_	_	B-Antec-1	866-869	w87	die	B-NP-insitu	B-NP	*	I-VF|B-MF
+7	Auferſtehung	Auferstehung	_	NN	_	_	_	_	_	I-Antec	870-882	w88	Auferstehung	I-NP	I-NP	*	I-VF|I-MF
+8	und	und	_	KON	_	_	_	_	_	I-Antec	883-886	w89	und	I-NP	I-NP	*	I-VF|I-MF
+9	das	d	_	ART	_	_	_	_	_	I-Antec	887-890	w8a	das	I-NP	I-NP	*	I-VF|I-MF
+10	Leben	Leben	_	NN	_	_	_	_	_	I-Antec-Head	891-896	w8b	Leben	I-NP	I-NP	*	I-VF|I-MF
+11	;	;	_	$.	_	_	_	_	_	_	897-898	w8c	;	_	I-NP	*	I-VF
+12	der	d	_	PRELS	_	_	_	_	_	_	899-902	w8d	der	B-RELC-insitu-1|B-NP-insitu	B-NP	*	I-VF|B-NF|B-LK
+13	durch	durch	_	APPR	_	_	_	_	_	_	903-908	w8e	durch	I-RELC|B-PP-insitu	B-PP	*	I-VF|I-NF|B-MF
+14	ſeinen	seine	_	PPOSAT	_	_	_	_	_	_	909-915	w8f	seinen	I-RELC|I-PP	I-PP	*	I-VF|I-NF|I-MF
+15	Tod	Tod	_	NN	_	_	_	_	_	_	916-919	w90	Tod	I-RELC|I-PP	I-PP	*	I-VF|I-NF|I-MF
+16	dem	d	_	ART	_	_	_	_	_	_	920-923	w91	dem	I-RELC|B-NP-insitu	B-NP	*	I-VF|I-NF|I-MF
+17	Tode	Tod	_	NN	_	_	_	_	_	_	924-928	w92	Tode	I-RELC|I-NP	I-NP	*	I-VF|I-NF|I-MF
+18	die	d	_	ART	_	_	_	_	_	_	929-932	w93	die	I-RELC|B-NP-insitu	B-NP	*	I-VF|I-NF|I-MF
+19	Macht	Macht	_	NN	_	_	_	_	_	_	933-938	w94	Macht	I-RELC|I-NP	I-NP	*	I-VF|I-NF|I-MF
+20	genommen	nehmen	_	VVPP	_	_	_	_	_	_	939-947	w95	genommen	I-RELC	O	*	I-VF|I-NF|B-RK
+21	,	,	_	$,	_	_	_	_	_	_	948-949	w96	,	I-RELC	O	*	I-VF
+22	und	und	_	KON	_	_	_	_	_	_	950-953	w97	und	I-RELC	O	*	I-VF|B-KOORD
+23	das	d	_	ART	_	_	_	_	_	_	954-957	w98	das	I-RELC|B-NP-insitu	B-NP	*	I-VF|B-MF
+24	Leben	Leben	_	NN	_	_	_	_	_	_	958-963	w99	Leben	I-RELC|I-NP	I-NP	*	I-VF|I-MF
+25	und	und	_	KON	_	_	_	_	_	_	964-967	w9a	und	I-RELC|I-NP	I-NP	*	I-VF|I-MF
+26	ein	eine	_	ART	_	_	_	_	_	_	968-971	w9b	ein	I-RELC|I-NP	I-NP	*	I-VF|I-MF
+27	un-<lb/>vergaͤnglich	unvergänglich	_	ADJA	_	_	_	_	_	_	972-992	w9c	unvergänglich	I-RELC|I-NP	I-NP	*	I-VF|I-MF
+28	Weſen	Wesen	_	NN	_	_	_	_	_	_	993-998	w9d	Wesen	I-RELC|I-NP	I-NP	*	I-VF|I-MF
+29	ans	ans	_	APPRART	_	_	_	_	_	_	999-1002	w9e	ans	I-RELC|B-PP-insitu	B-PP	*	I-VF|I-MF
+30	Licht	Licht	_	NN	_	_	_	_	_	_	1003-1008	w9f	Licht	I-RELC|I-PP	I-PP	*	I-VF|I-MF
+31	gebracht	bringen	_	VVPP	_	_	_	_	_	_	1009-1017	wa0	gebracht	I-RELC	O	*	I-VF|B-RK
+32	hat	haben	_	VAFIN	_	_	_	_	_	_	1018-1021	wa1	hat	I-RELC	O	*	I-VF|I-RK
+33	durchs	durchs	_	APPRART	_	_	_	_	_	_	1022-1028	wa2	durchs	I-RELC|B-PP-extrap	B-PP	*	I-VF|B-NF
+34	Evangelium	Evangelium	_	NN	_	_	_	_	_	_	1029-1039	wa3	Evangelium	I-RELC|I-PP	I-PP	*	I-VF|I-NF
+35	,	,	_	$,	_	_	_	_	_	_	1040-1041	wa4	,	_	I-PP	*	O
+36	laſſe	lassen	_	VVIMP	_	_	_	_	_	_	1042-1047	wa5	lasse	_	O	*	B-LK
+37	uns	wir	_	PPER	_	_	_	_	_	_	1048-1051	wa6	uns	B-NP-insitu	B-NP	*	B-MF
+38	al-<lb/>leſamt	allesamt	_	ADV	_	_	_	_	_	_	1052-1066	wa7	allesamt	B-ADVP-insitu	B-ADVP	*	I-MF
+39	ſolcher	solch	_	PIAT	_	_	_	_	_	_	1067-1074	wa8	solcher	B-NP-insitu	B-NP	*	I-MF
+40	ſeligen	selig	_	ADJA	_	_	_	_	_	_	1075-1082	wa9	seligen	I-NP	I-NP	*	I-MF
+41	Frucht	Frucht	_	NN	_	_	_	_	_	_	1083-1089	waa	Frucht	I-NP	I-NP	*	I-MF
+42	ſeines	seine	_	PPOSAT	_	_	_	_	_	_	1090-1096	wab	seines	I-NP	I-NP	*	I-MF
+43	To-<lb/>des	Tod	_	NN	_	_	_	_	_	_	1097-1108	wac	Todes	I-NP	I-NP	*	I-MF
+44	und	und	_	KON	_	_	_	_	_	_	1109-1112	wad	und	I-NP	I-NP	*	I-MF
+45	ſeiner	seine	_	PPOSAT	_	_	_	_	_	_	1113-1119	wae	seiner	I-NP	I-NP	*	I-MF
+46	Auferſtehung	Auferstehung	_	NN	_	_	_	_	_	_	1120-1132	waf	Auferstehung	I-NP	I-NP	*	I-MF
+47	hier	hier	_	ADV	_	_	_	_	_	_	1133-1137	wb0	hier	B-ADVP-insitu	B-ADVP	*	I-MF
+48	im	im	_	APPRART	_	_	_	_	_	_	1138-1140	wb1	im	B-PP-insitu	B-PP	*	I-MF
+49	Glauben	Glauben	_	NN	_	_	_	_	_	_	1141-1148	wb2	Glauben	I-PP	I-PP	*	I-MF
+50	,	,	_	$,	_	_	_	_	_	_	1149-1150	wb3	,	_	I-PP	*	O
+51	und	und	_	KON	_	_	_	_	_	_	1151-1154	wb4	und	_	O	*	O
+52	dort	dort	_	ADV	_	_	_	_	_	_	1155-1159	wb5	dort	B-ADVP-insitu	B-ADVP	*	B-MF
+53	im	im	_	APPRART	_	_	_	_	_	_	1160-1162	wb6	im	B-PP-insitu	B-PP	*	I-MF
+54	Schauen	Schau	_	NN	_	_	_	_	_	_	1163-1170	wb7	Schauen	I-PP	I-PP	*	I-MF
+55	theil-<lb/>haftig	teilhaftig	_	ADJD	_	_	_	_	_	_	1171-1188	wb8	teilhaftig	B-AP-insitu	B-AP	*	I-MF
+56	werden	werden	_	VAINF	_	_	_	_	_	_	1189-1195	wb9	werden	_	O	*	B-RK
+57	,	,	_	$,	_	_	_	_	_	_	1196-1197	wba	,	_	O	*	O
+58	zum	zum	_	APPRART	_	_	_	_	_	_	1198-1201	wbb	zum	B-PP-extrap	B-PP	*	B-NF
+59	Lobe	Lob	_	NN	_	_	_	_	_	_	1202-1206	wbc	Lobe	I-PP	I-PP	*	I-NF
+60	ſeines	seine	_	PPOSAT	_	_	_	_	_	_	1207-1213	wbd	seines	I-PP	I-PP	*	I-NF
+61	heili-<lb/>gen	heilig	_	ADJA	_	_	_	_	_	_	1214-1228	wbe	heiligen	I-PP	I-PP	*	I-NF
+62	Namens	Name	_	NN	_	_	_	_	_	_	1229-1235	wbf	Namens	I-PP	I-PP	*	I-NF
+63	,	,	_	$,	_	_	_	_	_	_	1236-1237	wc0	,	_	I-PP	*	I-NF
+64	Amen	Amen	_	NN	_	_	_	_	_	_	1238-1242	wc1	Amen	B-NP-extrap	B-NP	*	I-NF
+65	!	!	_	$.	_	_	_	_	_	_	1243-1244	wc2	!	_	O	*	O
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# PTBstring = (VROOT(S(NP(NN GEliebte)(PP(APPR in)(NE CHriſto)))(NP(PN(NE JE-)(NE SU)(KOMMA ,))(NP(PPOSAT unſerm)(NN HErrn)(PUNKT !)))))
+# TopFString = (S(NN GEliebte)(APPR in)(NE CHriſto)(NE JE-)(NE SU)(KOMMA ,)(PPOSAT unſerm)(NN HErrn)(PUNKT !))
+# text = GEliebte in CHriſto JE- SU , unſerm HErrn !
+1	GEliebte	Geliebte	_	NN	_	_	_	_	_	_	1246-1254	wc3,wc3_1	Geliebte	B-NP-insitu	B-NP	*	O
+2	in	in	_	APPR	_	_	_	_	_	_	1255-1257	wc4	in	I-NP	I-NP	*	O
+3	CHriſto	Christo	_	NE	_	_	_	_	_	_	1258-1265	wc5	Christo	I-NP	I-NP	*	O
+4	JE-	Je-	_	NE	_	_	_	_	_	_	1266-1269	wc6	JE-	B-NP-insitu	B-NP	*	O
+5	SU	Su	_	NE	_	_	_	_	_	_	1270-1272	wc7	SU	I-NP	I-NP	*	O
+6	,	,	_	$,	_	_	_	_	_	_	1273-1274	wc8	,	I-NP	I-NP	*	O
+7	unſerm	unsere	_	PPOSAT	_	_	_	_	_	_	1275-1281	wc9	unserem	I-NP	I-NP	*	O
+8	HErrn	Herr	_	NN	_	_	_	_	_	_	1282-1287	wca	Herrn	I-NP	I-NP	*	O
+9	!	!	_	$.	_	_	_	_	_	_	1288-1289	wcb	!	_	I-NP	*	O
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# PTBstring = (VROOT(S(KOUS Gleichwie)(CNP(NP(ADJA glaͤubige)(NN Chriſten))(KON und)(NN Kinder))(NP(NN GOttes)(PP(APPR von)(AP(ADV bloß)(ADJA natuͤrlichen))(NN Menſchen)))(VP(PP(APPR nach)(PIAT mehreren)(NN Stuͤcken))(VVPP unter-<lb/>ſchieden))(VP(VAFIN ſind))(PUNKT :)(S(AVP(ADV Alſo))(VP(VVFIN findet))(NP(PRF ſich))(NP(ADV auch)(ART ein)(NN Unterſcheid)(PP(PP(APPR zwiſchen)(PIS beyden))(APPR in)(NN Anſe-<lb/>hung)))(NP(PDAT derſelben)(ADJA ſeligen)(NN Hoffnung)(KOMMA ,)(S:RC(NP(PRELS welche))(NP(PPER es))(PP(APPR mit)(ART den)(CAP(ADJA zukuͤnftigen)(KOMMA ,)(ADJA himmliſchen)(KON und)(ADJA ewigen))(NN Guͤ-<lb/>tern))(VZ(PTKZU zu)(VVINF thun))(VP(VAFIN hat))(PUNKT .))))))
+# TopFString = (S(LV(C(KOUS Gleichwie))(MF(ADJA glaͤubige)(NN Chriſten)(KON und)(NN Kinder)(NN GOttes)(APPR von)(ADV bloß)(ADJA natuͤrlichen)(NN Menſchen)(APPR nach)(PIAT mehreren)(NN Stuͤcken))(VC(VVPP unter-<lb/>ſchieden)(VAFIN ſind)))(PUNKT :)(VF(ADV Alſo))(LK(VVFIN findet))(MF(PRF ſich)(ADV auch)(ART ein)(NN Unterſcheid)(APPR zwiſchen)(PIS beyden)(APPR in)(NN Anſe-<lb/>hung)(PDAT derſelben)(ADJA ſeligen)(NN Hoffnung))(KOMMA ,)(NF(C(PRELS welche))(MF(PPER es)(APPR mit)(ART den)(ADJA zukuͤnftigen)(KOMMA ,)(ADJA himmliſchen)(KON und)(ADJA ewigen)(NN Guͤ-<lb/>tern))(VC(PTKZU zu)(VVINF thun)(VAFIN hat)))(PUNKT .))
+# text = Gleichwie glaͤubige Chriſten und Kinder GOttes von bloß natuͤrlichen Menſchen nach mehreren Stuͤcken unter-<lb/>ſchieden ſind : Alſo findet ſich auch ein Unterſcheid zwiſchen beyden in Anſe-<lb/>hung derſelben ſeligen Hoffnung , welche es mit den zukuͤnftigen , himmliſchen und ewigen Guͤ-<lb/>tern zu thun hat .
+1	Gleichwie	gleichwie	_	KOUS	_	_	_	_	_	_	1291-1300	wcc	Gleichwie	_	O	*	B-LV|B-LK
+2	glaͤubige	gläubig	_	ADJA	_	_	_	_	_	_	1301-1310	wcd	gläubige	B-NP-insitu	B-NP	*	I-LV|B-MF
+3	Chriſten	Christ	_	NN	_	_	_	_	_	_	1311-1319	wce	Christen	I-NP	I-NP	*	I-LV|I-MF
+4	und	und	_	KON	_	_	_	_	_	_	1320-1323	wcf	und	I-NP	I-NP	*	I-LV|I-MF
+5	Kinder	Kind	_	NN	_	_	_	_	_	_	1324-1330	wd0	Kinder	I-NP	I-NP	*	I-LV|I-MF
+6	GOttes	Gott	_	NN	_	_	_	_	_	_	1331-1337	wd1	Gottes	B-NP-insitu	B-NP	*	I-LV|I-MF
+7	von	von	_	APPR	_	_	_	_	_	_	1338-1341	wd2	von	I-NP	I-NP	*	I-LV|I-MF
+8	bloß	bloß	_	ADV	_	_	_	_	_	_	1342-1346	wd3	bloß	I-NP	I-NP	*	I-LV|I-MF
+9	natuͤrlichen	natürlich	_	ADJA	_	_	_	_	_	_	1347-1359	wd4	natürlichen	I-NP	I-NP	*	I-LV|I-MF
+10	Menſchen	Mensch	_	NN	_	_	_	_	_	_	1360-1368	wd5	Menschen	I-NP	I-NP	*	I-LV|I-MF
+11	nach	nach	_	APPR	_	_	_	_	_	_	1369-1373	wd6	nach	B-PP-insitu	B-PP	*	I-LV|I-MF
+12	mehreren	mehrere	_	PIAT	_	_	_	_	_	_	1374-1382	wd7	mehreren	I-PP	I-PP	*	I-LV|I-MF
+13	Stuͤcken	Stück	_	NN	_	_	_	_	_	_	1383-1391	wd8	Stücken	I-PP	I-PP	*	I-LV|I-MF
+14	unter-<lb/>ſchieden	unterscheiden	_	VVPP	_	_	_	_	_	_	1392-1411	wd9	unterschieden	_	O	*	I-LV|B-RK
+15	ſind	sein	_	VAFIN	_	_	_	_	_	_	1412-1416	wda	sind	_	O	*	I-LV|I-RK
+16	:	:	_	$.	_	_	_	_	_	_	1417-1418	wdb	:	_	O	*	O
+17	Alſo	also	_	ADV	_	_	_	_	_	_	1419-1423	wdc	Also	B-ADVP-insitu	B-ADVP	*	B-VF
+18	findet	finden	_	VVFIN	_	_	_	_	_	_	1424-1430	wdd	findet	_	O	*	B-LK
+19	ſich	sich	_	PRF	_	_	_	_	_	_	1431-1435	wde	sich	B-NP-insitu	B-NP	*	B-MF
+20	auch	auch	_	ADV	_	_	_	_	_	_	1436-1440	wdf	auch	B-NP-insitu	B-NP	*	I-MF
+21	ein	eine	_	ART	_	_	_	_	_	_	1441-1444	we0	ein	I-NP	I-NP	*	I-MF
+22	Unterſcheid	Unterschied	_	NN	_	_	_	_	_	_	1445-1456	we1	Unterschied	I-NP	I-NP	*	I-MF
+23	zwiſchen	zwischen	_	APPR	_	_	_	_	_	_	1457-1465	we2	zwischen	I-NP	I-NP	*	I-MF
+24	beyden	beide	_	PIS	_	_	_	_	_	_	1466-1472	we3	beiden	I-NP	I-NP	*	I-MF
+25	in	in	_	APPR	_	_	_	_	_	_	1473-1475	we4	in	I-NP	I-NP	*	I-MF
+26	Anſe-<lb/>hung	Ansehung	_	NN	_	_	_	_	_	_	1476-1490	we5	Ansehung	I-NP	I-NP	*	I-MF
+27	derſelben	dieselbe	_	PDAT	_	_	_	_	_	B-Antec-1	1491-1500	we6	derselben	B-NP-insitu	B-NP	*	I-MF
+28	ſeligen	selig	_	ADJA	_	_	_	_	_	I-Antec	1501-1508	we7	seligen	I-NP	I-NP	*	I-MF
+29	Hoffnung	Hoffnung	_	NN	_	_	_	_	_	I-Antec-Head	1509-1517	we8	Hoffnung	I-NP	I-NP	*	I-MF
+30	,	,	_	$,	_	_	_	_	_	_	1518-1519	we9	,	_	O	*	O
+31	welche	welche	_	PRELS	_	_	_	_	_	_	1520-1526	wea	welche	B-RELC-ambig-1|B-NP-insitu	B-NP	*	B-NF|B-LK
+32	es	es	_	PPER	_	_	_	_	_	_	1527-1529	web	es	I-RELC|B-NP-insitu	B-NP	*	I-NF|B-MF
+33	mit	mit	_	APPR	_	_	_	_	_	_	1530-1533	wec	mit	I-RELC|B-PP-insitu	B-PP	*	I-NF|I-MF
+34	den	d	_	ART	_	_	_	_	_	_	1534-1537	wed	den	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+35	zukuͤnftigen	zukünftig	_	ADJA	_	_	_	_	_	_	1538-1550	wee	zukünftigen	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+36	,	,	_	$,	_	_	_	_	_	_	1551-1552	wef	,	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+37	himmliſchen	himmlisch	_	ADJA	_	_	_	_	_	_	1553-1564	wf0	himmlischen	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+38	und	und	_	KON	_	_	_	_	_	_	1565-1568	wf1	und	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+39	ewigen	ewig	_	ADJA	_	_	_	_	_	_	1569-1575	wf2	ewigen	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+40	Guͤ-<lb/>tern	Gut	_	NN	_	_	_	_	_	_	1576-1589	wf3	Gütern	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+41	zu	zu	_	PTKZU	_	_	_	_	_	_	1590-1592	wf4	zu	I-RELC	O	*	I-NF|B-RK
+42	thun	tun	_	VVINF	_	_	_	_	_	_	1593-1597	wf5	tun	I-RELC	O	*	I-NF|I-RK
+43	hat	haben	_	VAFIN	_	_	_	_	_	_	1598-1601	wf6	hat	I-RELC	O	*	I-NF|I-RK
+44	.	.	_	$.	_	_	_	_	_	_	1602-1603	wf7	.	_	O	*	O
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# PTBstring = (VROOT(S(KON Denn)(AVP(CS(S(KOUS da)(NP(ART die)(NN Kinder))(CNP(NP(PDAT dieſer)(NN Welt))(KON entweder)(NP(CAP(AP(ADV gar)(PIAT keine)(KOMMA ,))(KON oder)(AP(ADV doch)(ADV nur)(ART eine)(CAP(ADJA todte)(KOMMA ,)(ADJA unfruchtba-<lb/>re)(KOMMA ,)(ADJA ungegruͤndete)(KON und)(ADJA betriegliche))))(NN Hoffnung)(PAV davon)))(VP(VAFIN haben))(KOMMA ,))(KON und)(S(VP(VAINF haben))(VP(VMFIN koͤnnen))(PUNKT :)(KLAMMER LBR)(CNP(NP(NN Eph.)(CARD II)(KOMMA ,))(NP(ADJA 12.)(ADJA 1.)(CNP(NP(NN Theſſ.)(CARD IV)(KOMMA ,))(NP(ADJA 13.)(ADJA 1.)(CNP(NP(NN Corinth.)(CARD XV)(KOMMA ,))(NP(ADJA 32.)(NN Weish.)(CARD II)(KOMMA ,))))))(NP(ADJA 22.)(NE Hiob)(NP(CARD VIII)(KOMMA ,)(CARD 13.)(KLAMMER RBR))))))(ADV ſo))(VP(VAFIN iſt))(AVP(ADV hingegen))(NP(ART die)(NN Hoff-<lb/>nung)(KOMMA ,)(CS(S(NP(PRELS die))(CAP(ADJD lebendig)(KON und)(ADJD gewiß))(VP(VAFIN iſt))(KOMMA ,))(KON und)(S(VP(PTKNEG nicht)(PP(APPR zu)(NN Schanden))(VAINF werden))(VP(VVFIN laͤſſet))(KOMMA ,)(CNP(NP(ART ein)(NN recht)(NP(CAP(TRUNC Haupt-)(KON und)(ADJA weſentlich))(NN Stuͤck)(KOMMA ,)))(NP(ADV mithin)(ART ein)(AP(ADV ſehr)(ADJA herrlich))(CNP(NN Pri-<lb/>vilegium)(KON und)(NN Vorrecht)(KOMMA ,))(S:RC(NP(PRELS das))(CVP(VP(NP(ADJA glaͤubigen)(NN Kin-<lb/>dern)(NN GOTTES))(PP(APPR in)(ADJA Heil)(PUNKT .)(NN Schrift))(VVPP zugeeignet))(KON und)(VVPP beygeleget))(VP(VAFIN wird))(PUNKT .)))))))))
+# TopFString = (S(KOORD(KON Denn))(LV(C(KOUS da))(FKOORD(FKONJ(MF(ART die)(NN Kinder)(PDAT dieſer)(NN Welt)(KON entweder)(ADV gar)(PIAT keine)(KOMMA ,)(KON oder)(ADV doch)(ADV nur)(ART eine)(ADJA todte)(KOMMA ,)(ADJA unfruchtba-<lb/>re)(KOMMA ,)(ADJA ungegruͤndete)(KON und)(ADJA betriegliche)(NN Hoffnung)(PAV davon))(VC(VAFIN haben)))(KOMMA ,)(KON und)(VC(VAINF haben)(VMFIN koͤnnen))))(PUNKT :)(KLAMMER LBR)(NN Eph.)(CARD II)(KOMMA ,)(ADJA 12.)(ADJA 1.)(NN Theſſ.)(CARD IV)(KOMMA ,)(ADJA 13.)(ADJA 1.)(NN Corinth.)(CARD XV)(KOMMA ,)(ADJA 32.)(NN Weish.)(CARD II)(KOMMA ,)(ADJA 22.)(NE Hiob)(CARD VIII)(KOMMA ,)(CARD 13.)(KLAMMER RBR)(VF(ADV ſo))(LK(VAFIN iſt))(MF(ADV hingegen)(ART die)(NN Hoff-<lb/>nung)(KOMMA ,)(C(PRELS die))(FKOORD(FKONJ(MF(ADJD lebendig)(KON und)(ADJD gewiß))(VC(VAFIN iſt)))(KOMMA ,)(KON und)(FKONJ(MF(PTKNEG nicht)(APPR zu)(NN Schanden))(VC(VAINF werden)(VVFIN laͤſſet))))(KOMMA ,)(ART ein)(NN recht)(TRUNC Haupt-)(KON und)(ADJA weſentlich)(NN Stuͤck))(KOMMA ,)(ADV mithin)(ART ein)(ADV ſehr)(ADJA herrlich)(NN Pri-<lb/>vilegium)(KON und)(NN Vorrecht)(KOMMA ,)(C(PRELS das))(MF(ADJA glaͤubigen)(NN Kin-<lb/>dern)(NN GOTTES)(APPR in)(ADJA Heil)(PUNKT .)(NN Schrift))(VC(VVPP zugeeignet)(KON und)(VVPP beygeleget)(VAFIN wird))(PUNKT .))
+# text = Denn da die Kinder dieſer Welt entweder gar keine , oder doch nur eine todte , unfruchtba-<lb/>re , ungegruͤndete und betriegliche Hoffnung davon haben , und haben koͤnnen : ( Eph. II , 12. 1. Theſſ. IV , 13. 1. Corinth. XV , 32. Weish. II , 22. Hiob VIII , 13. ) ſo iſt hingegen die Hoff-<lb/>nung , die lebendig und gewiß iſt , und nicht zu Schanden werden laͤſſet , ein recht Haupt- und weſentlich Stuͤck , mithin ein ſehr herrlich Pri-<lb/>vilegium und Vorrecht , das glaͤubigen Kin-<lb/>dern GOTTES in Heil . Schrift zugeeignet und beygeleget wird .
+1	Denn	denn	_	KON	_	_	_	_	_	_	1605-1609	wf8	Denn	_	O	*	B-KOORD
+2	da	da	_	KOUS	_	_	_	_	_	_	1610-1612	wf9	da	B-ADVP-insitu	B-ADVP	*	B-LV|B-LK
+3	die	d	_	ART	_	_	_	_	_	_	1613-1616	wfa	die	I-ADVP|B-NP-insitu	I-ADVP	*	I-LV|B-MF
+4	Kinder	Kind	_	NN	_	_	_	_	_	_	1617-1623	wfb	Kinder	I-ADVP|I-NP	I-ADVP	*	I-LV|I-MF
+5	dieſer	diese	_	PDAT	_	_	_	_	_	_	1624-1630	wfc	dieser	I-ADVP|B-NP-insitu	I-ADVP	*	I-LV|I-MF
+6	Welt	Welt	_	NN	_	_	_	_	_	_	1631-1635	wfd	Welt	I-ADVP|I-NP	I-ADVP	*	I-LV|I-MF
+7	entweder	entweder	_	KON	_	_	_	_	_	_	1636-1644	wfe	entweder	I-ADVP|I-NP	I-ADVP	*	I-LV|I-MF
+8	gar	gar	_	ADV	_	_	_	_	_	_	1645-1648	wff	gar	I-ADVP|I-NP	I-ADVP	*	I-LV|I-MF
+9	keine	keine	_	PIAT	_	_	_	_	_	_	1649-1654	w100	keine	I-ADVP|I-NP	I-ADVP	*	I-LV|I-MF
+10	,	,	_	$,	_	_	_	_	_	_	1655-1656	w101	,	I-ADVP|I-NP	I-ADVP	*	I-LV|I-MF
+11	oder	oder	_	KON	_	_	_	_	_	_	1657-1661	w102	oder	I-ADVP|I-NP	I-ADVP	*	I-LV|I-MF
+12	doch	doch	_	ADV	_	_	_	_	_	_	1662-1666	w103	doch	I-ADVP|I-NP	I-ADVP	*	I-LV|I-MF
+13	nur	nur	_	ADV	_	_	_	_	_	_	1667-1670	w104	nur	I-ADVP|I-NP	I-ADVP	*	I-LV|I-MF
+14	eine	eine	_	ART	_	_	_	_	_	_	1671-1675	w105	eine	I-ADVP|I-NP	I-ADVP	*	I-LV|I-MF
+15	todte	tot	_	ADJA	_	_	_	_	_	_	1676-1681	w106	tote	I-ADVP|I-NP	I-ADVP	*	I-LV|I-MF
+16	,	,	_	$,	_	_	_	_	_	_	1682-1683	w107	,	I-ADVP|I-NP	I-ADVP	*	I-LV|I-MF
+17	unfruchtba-<lb/>re	unfruchtbar	_	ADJA	_	_	_	_	_	_	1684-1702	w108	unfruchtbare	I-ADVP|I-NP	I-ADVP	*	I-LV|I-MF
+18	,	,	_	$,	_	_	_	_	_	_	1703-1704	w109	,	I-ADVP|I-NP	I-ADVP	*	I-LV|I-MF
+19	ungegruͤndete	ungegründet	_	ADJA	_	_	_	_	_	_	1705-1718	w10a	ungegründete	I-ADVP|I-NP	I-ADVP	*	I-LV|I-MF
+20	und	und	_	KON	_	_	_	_	_	_	1719-1722	w10b	und	I-ADVP|I-NP	I-ADVP	*	I-LV|I-MF
+21	betriegliche	betrüglich	_	ADJA	_	_	_	_	_	_	1723-1735	w10c	betrügliche	I-ADVP|I-NP	I-ADVP	*	I-LV|I-MF
+22	Hoffnung	Hoffnung	_	NN	_	_	_	_	_	_	1736-1744	w10d	Hoffnung	I-ADVP|I-NP	I-ADVP	*	I-LV|I-MF
+23	davon	davon	_	PAV	_	_	_	_	_	_	1745-1750	w10e	davon	I-ADVP|I-NP	I-ADVP	*	I-LV|I-MF
+24	haben	haben	_	VAFIN	_	_	_	_	_	_	1751-1756	w10f	haben	I-ADVP	I-ADVP	*	I-LV|B-RK
+25	,	,	_	$,	_	_	_	_	_	_	1757-1758	w110	,	I-ADVP	I-ADVP	*	I-LV
+26	und	und	_	KON	_	_	_	_	_	_	1759-1762	w111	und	I-ADVP	I-ADVP	*	I-LV|B-KOORD
+27	haben	haben	_	VAINF	_	_	_	_	_	_	1763-1768	w112	haben	I-ADVP	I-ADVP	*	I-LV|B-RK
+28	koͤnnen	können	_	VMFIN	_	_	_	_	_	_	1769-1776	w113	können	I-ADVP	I-ADVP	*	I-LV|I-RK
+29	:	:	_	$.	_	_	_	_	_	_	1777-1778	w114	:	I-ADVP	I-ADVP	*	O
+30	(	(	_	$(	_	_	_	_	_	_	1779-1780	w115	(	I-ADVP	I-ADVP	*	O
+31	Eph.	Eph.	_	NN	_	_	_	_	_	_	1781-1785	w116	Eph.	I-ADVP	I-ADVP	*	O
+32	II	Ii	_	CARD	_	_	_	_	_	_	1786-1788	w117	II	I-ADVP	I-ADVP	*	O
+33	,	,	_	$,	_	_	_	_	_	_	1789-1790	w118	,	I-ADVP	I-ADVP	*	O
+34	12.	12.	_	ADJA	_	_	_	_	_	_	1791-1794	w119	12.	I-ADVP	I-ADVP	*	O
+35	1.	1.	_	ADJA	_	_	_	_	_	_	1795-1797	w11a	1.	I-ADVP	I-ADVP	*	O
+36	Theſſ.	Thess.	_	NN	_	_	_	_	_	_	1798-1804	w11b	Thess.	I-ADVP	I-ADVP	*	O
+37	IV	iv	_	CARD	_	_	_	_	_	_	1805-1807	w11c	IV	I-ADVP	I-ADVP	*	O
+38	,	,	_	$,	_	_	_	_	_	_	1808-1809	w11d	,	I-ADVP	I-ADVP	*	O
+39	13.	13.	_	ADJA	_	_	_	_	_	_	1810-1813	w11e	13.	I-ADVP	I-ADVP	*	O
+40	1.	1.	_	ADJA	_	_	_	_	_	_	1814-1816	w11f	1.	I-ADVP	I-ADVP	*	O
+41	Corinth.	Corinth.	_	NN	_	_	_	_	_	_	1817-1825	w120	Corinth.	I-ADVP	I-ADVP	*	O
+42	XV	xv	_	CARD	_	_	_	_	_	_	1826-1828	w121	XV	I-ADVP	I-ADVP	*	O
+43	,	,	_	$,	_	_	_	_	_	_	1829-1830	w122	,	I-ADVP	I-ADVP	*	O
+44	32.	32.	_	ADJA	_	_	_	_	_	_	1831-1834	w123	32.	I-ADVP	I-ADVP	*	O
+45	Weish.	Weish.	_	NN	_	_	_	_	_	_	1835-1841	w124	Weish.	I-ADVP	I-ADVP	*	O
+46	II	Ii	_	CARD	_	_	_	_	_	_	1842-1844	w125	II	I-ADVP	I-ADVP	*	O
+47	,	,	_	$,	_	_	_	_	_	_	1845-1846	w126	,	I-ADVP	I-ADVP	*	O
+48	22.	22.	_	ADJA	_	_	_	_	_	_	1847-1850	w127	22.	I-ADVP	I-ADVP	*	O
+49	Hiob	Hiob	_	NE	_	_	_	_	_	_	1851-1855	w128	Hiob	I-ADVP	I-ADVP	*	O
+50	VIII	viii	_	CARD	_	_	_	_	_	_	1856-1860	w129	VIII	I-ADVP	I-ADVP	*	O
+51	,	,	_	$,	_	_	_	_	_	_	1861-1862	w12a	,	I-ADVP	I-ADVP	*	O
+52	13.	13.	_	CARD	_	_	_	_	_	_	1863-1866	w12b	13.	I-ADVP	I-ADVP	*	O
+53	)	)	_	$(	_	_	_	_	_	_	1867-1868	w12c	)	I-ADVP	I-ADVP	*	O
+54	ſo	so	_	ADV	_	_	_	_	_	_	1869-1871	w12d	so	I-ADVP	I-ADVP	*	B-VF
+55	iſt	sein	_	VAFIN	_	_	_	_	_	_	1872-1875	w12e	ist	_	O	*	B-LK
+56	hingegen	hingegen	_	ADV	_	_	_	_	_	_	1876-1884	w12f	hingegen	B-ADVP-insitu	B-ADVP	*	B-MF
+57	die	d	_	ART	_	_	_	_	_	B-Antec-1	1885-1888	w130	die	B-NP-insitu	B-NP	*	I-MF
+58	Hoff-<lb/>nung	Hoffnung	_	NN	_	_	_	_	_	I-Antec-Head	1889-1903	w131	Hoffnung	I-NP	I-NP	*	I-MF
+59	,	,	_	$,	_	_	_	_	_	_	1904-1905	w132	,	_	I-NP	*	I-MF
+60	die	die	_	PRELS	_	_	_	_	_	_	1906-1909	w133	die	B-RELC-insitu-1|B-NP-insitu	B-NP	*	I-MF|B-LK
+61	lebendig	lebendig	_	ADJD	_	_	_	_	_	_	1910-1918	w134	lebendig	I-RELC|B-AP-insitu	B-AP	*	I-MF|B-MF
+62	und	und	_	KON	_	_	_	_	_	_	1919-1922	w135	und	I-RELC|I-AP	I-AP	*	I-MF|I-MF
+63	gewiß	gewiß	_	ADJD	_	_	_	_	_	_	1923-1928	w136	gewiß	I-RELC|I-AP	I-AP	*	I-MF|I-MF
+64	iſt	sein	_	VAFIN	_	_	_	_	_	_	1929-1932	w137	ist	I-RELC	O	*	I-MF|B-RK
+65	,	,	_	$,	_	_	_	_	_	_	1933-1934	w138	,	_	O	*	I-MF
+66	und	und	_	KON	_	_	_	_	_	_	1935-1938	w139	und	_	O	*	I-MF|B-KOORD
+67	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	1939-1944	w13a	nicht	B-ADVP-insitu	B-ADVP	*	I-MF|B-MF
+68	zu	zu	_	APPR	_	_	_	_	_	_	1945-1947	w13b	zu	B-PP-insitu	B-PP	*	I-MF|I-MF
+69	Schanden	Schande	_	NN	_	_	_	_	_	_	1948-1956	w13c	Schanden	I-PP	I-PP	*	I-MF|I-MF
+70	werden	werden	_	VAINF	_	_	_	_	_	_	1957-1963	w13d	werden	_	O	*	I-MF|B-RK
+71	laͤſſet	lassen	_	VVFIN	_	_	_	_	_	_	1964-1971	w13e	lässt	_	O	*	I-MF|I-RK
+72	,	,	_	$,	_	_	_	_	_	_	1972-1973	w13f	,	_	O	*	I-MF
+73	ein	eine	_	ART	_	_	_	_	_	_	1974-1977	w140	ein	_	O	*	I-MF
+74	recht	Recht	_	NN	_	_	_	_	_	_	1978-1983	w141	recht	_	O	*	I-MF
+75	Haupt-	haupt-	_	TRUNC	_	_	_	_	_	_	1984-1990	w142	Haupt-	_	O	*	I-MF
+76	und	und	_	KON	_	_	_	_	_	_	1991-1994	w143	und	_	O	*	I-MF
+77	weſentlich	wesentlich	_	ADJA	_	_	_	_	_	_	1995-2005	w144	wesentlich	_	O	*	I-MF
+78	Stuͤck	Stück	_	NN	_	_	_	_	_	_	2006-2012	w145	Stück	_	O	*	I-MF
+79	,	,	_	$,	_	_	_	_	_	_	2013-2014	w146	,	_	O	*	O
+80	mithin	mithin	_	ADV	_	_	_	_	_	B-Antec-2	2015-2021	w147	mithin	_	B-NP	*	O
+81	ein	eine	_	ART	_	_	_	_	_	I-Antec	2022-2025	w148	ein	_	I-NP	*	O
+82	ſehr	sehr	_	ADV	_	_	_	_	_	I-Antec	2026-2030	w149	sehr	_	I-NP	*	O
+83	herrlich	herrlich	_	ADJA	_	_	_	_	_	I-Antec	2031-2039	w14a	herrlich	_	I-NP	*	O
+84	Pri-<lb/>vilegium	Privilegium	_	NN	_	_	_	_	_	I-Antec	2040-2057	w14b	Privilegium	_	I-NP	*	O
+85	und	und	_	KON	_	_	_	_	_	I-Antec	2058-2061	w14c	und	_	I-NP	*	O
+86	Vorrecht	Vorrecht	_	NN	_	_	_	_	_	I-Antec	2062-2070	w14d	Vorrecht	_	I-NP	*	O
+87	,	,	_	$,	_	_	_	_	_	_	2071-2072	w14e	,	_	I-NP	*	O
+88	das	d	_	PRELS	_	_	_	_	_	_	2073-2076	w14f	das	B-RELC-insitu-2|B-NP-insitu	I-NP	*	B-LK
+89	glaͤubigen	gläubig	_	ADJA	_	_	_	_	_	_	2077-2087	w150	gläubigen	I-RELC|B-NP-insitu	I-NP	*	B-MF
+90	Kin-<lb/>dern	Kind	_	NN	_	_	_	_	_	_	2088-2101	w151	Kindern	I-RELC|I-NP	I-NP	*	I-MF
+91	GOTTES	Gott	_	NN	_	_	_	_	_	_	2102-2108	w152	GOTTES	I-RELC|I-NP	I-NP	*	I-MF
+92	in	in	_	APPR	_	_	_	_	_	_	2109-2111	w153	in	I-RELC|B-PP-insitu	I-NP	*	I-MF
+93	Heil	Heil	_	ADJA	_	_	_	_	_	_	2112-2116	w154	Heil	I-RELC|I-PP	I-NP	*	I-MF
+94	.	.	_	$.	_	_	_	_	_	_	2117-2118	w155	.	I-RELC|I-PP	I-NP	*	I-MF
+95	Schrift	Schrift	_	NN	_	_	_	_	_	_	2119-2126	w156	Schrift	I-RELC|I-PP	I-NP	*	I-MF
+96	zugeeignet	zueignen	_	VVPP	_	_	_	_	_	_	2127-2137	w157	zugeeignet	I-RELC	I-NP	*	B-RK
+97	und	und	_	KON	_	_	_	_	_	_	2138-2141	w158	und	I-RELC	I-NP	*	I-RK
+98	beygeleget	beilegen	_	VVPP	_	_	_	_	_	_	2142-2152	w159	beigelegt	I-RELC	I-NP	*	I-RK
+99	wird	werden	_	VAFIN	_	_	_	_	_	_	2153-2157	w15a	wird	I-RELC	I-NP	*	I-RK
+100	.	.	_	$.	_	_	_	_	_	_	2158-2159	w15b	.	_	I-NP	*	O
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# PTBstring = (VROOT(S(PP(APPR Unter)(PIS andern))(VP(VVFIN zeuget))(PP(PAV davon))(AP(ADV gar)(CAP(ADJD ſchoͤn)(KON und)(ADJD nachdruͤcklich)))(NP(ART der)(NN Apoſtel)(NE Petrus)(KOMMA ,))(S(KOUS wenn)(NP(PPER er))(KOMMA ,)(PP(APPR in)(NP(CAP(PPOSAT ſeinem)(KON und)(ADJA anderer))(NN Glaͤubigen))(NN Namen)(KOMMA ,))(AVP(ADV alſo))(VP(VVFIN ſchreibet))(PUNKT :)(S(VP(VVPP Gelobet))(VP(VAFIN ſey))(CNP(NN GOTT)(KON und)(NP(ART der)(NN Va-<lb/>ter)(NP(PPOSAT unſers)(NN HERRN)(PN(NE JESU)(NE CHRI-)(NE STI)(KOMMA ,)))(S:RC(NP(PRELS der))(VP(PPER uns)(PP(APPR nach)(PPOSAT ſeiner)(ADJA groſſen)(NN Barm-<lb/>hertzigkeit))(VVPP wiedergebohren))(VP(VAFIN hat))(CPP(PP(APPR zu)(ART einer)(ADJA le-<lb/>bendigen)(NN Hoffnung)(PP(APPR durch)(ART die)(NN Auferſte-<lb/>hung)(PN(NE JESU)(NE CHRJSTJ)))(PP(APPR von)(ART den)(NN Todten)(KOMMA ,)))(PP(APPR zu)(ART einem)(CAP(ADJA unvergaͤnglichen)(KOMMA ,)(ADJA un-<lb/>befleckten)(KON und)(ADJA unverwelcklichen))(NN Erbe)(KOMMA ,)(S:RC(NP(PRELS das))(VP(VVPP behalten))(VP(VAFIN wird))(PP(APPRART im)(NN Himmel)(KOMMA ,)))(NP(PPER euch)(KOMMA ,)(S:RC(NP(PRELS die))(VP(PPER ihr)(PP(APPR aus)(NN GOTTES))(NP(NN Macht)(PP(APPR durch)(ART den)(NN Glauben)))(VVPP bewahret))(VP(VAFIN werdet))(PP(APPRART zur)(NN Seligkeit)(KOMMA ,)(S:RC(NP(PRELS welche))(VP(VVPP zubereitet))(VP(VAFIN iſt))(KOMMA ,)(S(KOUS daß)(NP(PPER ſie))(AP(ADJD offenbar))(VP(VAFIN wer-<lb/>de))(PP(APPR zu)(ART der)(ADJA letzten)(NN Zeit)(PUNKT .))))))))))))))))
+# TopFString = (S(VF(APPR Unter)(PIS andern))(LK(VVFIN zeuget))(MF(PAV davon)(ADV gar)(ADJD ſchoͤn)(KON und)(ADJD nachdruͤcklich)(ART der)(NN Apoſtel)(NE Petrus))(KOMMA ,)(NF(C(KOUS wenn))(MF(PPER er)(KOMMA ,)(APPR in)(PPOSAT ſeinem)(KON und)(ADJA anderer)(NN Glaͤubigen)(NN Namen)(KOMMA ,)(ADV alſo))(VC(VVFIN ſchreibet)))(PUNKT :)(VF(VC(VVPP Gelobet)))(LK(VAFIN ſey))(MF(NN GOTT)(KON und)(ART der)(NN Va-<lb/>ter)(PPOSAT unſers)(NN HERRN)(NE JESU)(NE CHRI-)(NE STI)(KOMMA ,)(C(PRELS der))(MF(PPER uns)(APPR nach)(PPOSAT ſeiner)(ADJA groſſen)(NN Barm-<lb/>hertzigkeit))(VC(VVPP wiedergebohren)(VAFIN hat))(APPR zu)(ART einer)(ADJA le-<lb/>bendigen)(NN Hoffnung)(APPR durch)(ART die)(NN Auferſte-<lb/>hung)(NE JESU)(NE CHRJSTJ)(APPR von)(ART den)(NN Todten)(KOMMA ,)(APPR zu)(ART einem)(ADJA unvergaͤnglichen)(KOMMA ,)(ADJA un-<lb/>befleckten)(KON und)(ADJA unverwelcklichen)(NN Erbe))(KOMMA ,)(NF(C(PRELS das))(VC(VVPP behalten)(VAFIN wird))(NF(APPRART im)(NN Himmel)(KOMMA ,)(PPER euch)(KOMMA ,)(C(PRELS die))(FKOORD(FKONJ(MF(PPER ihr)(APPR aus)(NN GOTTES)(NN Macht)(APPR durch)(ART den)(NN Glauben))(VC(VVPP bewahret)(VAFIN werdet)))(APPRART zur)(FKONJ(MF(NN Seligkeit))(KOMMA ,)(NF(C(PRELS welche))(VC(VVPP zubereitet)(VAFIN iſt))(KOMMA ,)(NF(C(KOUS daß))(MF(PPER ſie)(ADJD offenbar))(VC(VAFIN wer-<lb/>de))(NF(APPR zu)(ART der)(ADJA letzten)(NN Zeit))))))))(PUNKT .))
+# text = Unter andern zeuget davon gar ſchoͤn und nachdruͤcklich der Apoſtel Petrus , wenn er , in ſeinem und anderer Glaͤubigen Namen , alſo ſchreibet : Gelobet ſey GOTT und der Va-<lb/>ter unſers HERRN JESU CHRI- STI , der uns nach ſeiner groſſen Barm-<lb/>hertzigkeit wiedergebohren hat zu einer le-<lb/>bendigen Hoffnung durch die Auferſte-<lb/>hung JESU CHRJSTJ von den Todten , zu einem unvergaͤnglichen , un-<lb/>befleckten und unverwelcklichen Erbe , das behalten wird im Himmel , euch , die ihr aus GOTTES Macht durch den Glauben bewahret werdet zur Seligkeit , welche zubereitet iſt , daß ſie offenbar wer-<lb/>de zu der letzten Zeit .
+1	Unter	unter	_	APPR	_	_	_	_	_	_	2161-2166	w15c	Unter	B-PP-insitu	B-PP	*	B-VF
+2	andern	andere	_	PIS	_	_	_	_	_	_	2167-2173	w15d	anderen	I-PP	I-PP	*	I-VF
+3	zeuget	zeugen	_	VVFIN	_	_	_	_	_	_	2174-2180	w15e	zeuget	_	O	*	B-LK
+4	davon	davon	_	PAV	_	_	_	_	_	_	2181-2186	w15f	davon	B-PP-insitu	B-PP	*	B-MF
+5	gar	gar	_	ADV	_	_	_	_	_	_	2187-2190	w160	gar	B-ADVP-insitu	B-ADVP	*	I-MF
+6	ſchoͤn	schön	_	ADJD	_	_	_	_	_	_	2191-2197	w161	schön	_	B-AP	*	I-MF
+7	und	und	_	KON	_	_	_	_	_	_	2198-2201	w162	und	_	I-AP	*	I-MF
+8	nachdruͤcklich	nachdrücklich	_	ADJD	_	_	_	_	_	_	2202-2216	w163	nachdrücklich	_	I-AP	*	I-MF
+9	der	d	_	ART	_	_	_	_	_	_	2217-2220	w164	der	B-NP-insitu	B-NP	*	I-MF
+10	Apoſtel	Apostel	_	NN	_	_	_	_	_	_	2221-2228	w165	Apostel	I-NP	I-NP	*	I-MF
+11	Petrus	petrus	_	NE	_	_	_	_	_	_	2229-2235	w166	Petrus	I-NP	I-NP	*	I-MF
+12	,	,	_	$,	_	_	_	_	_	_	2236-2237	w167	,	_	I-NP	*	O
+13	wenn	wenn	_	KOUS	_	_	_	_	_	_	2238-2242	w168	wenn	_	O	*	B-NF|B-LK
+14	er	er	_	PPER	_	_	_	_	_	_	2243-2245	w169	er	B-NP-insitu	B-NP	*	I-NF|B-MF
+15	,	,	_	$,	_	_	_	_	_	_	2246-2247	w16a	,	_	O	*	I-NF|I-MF
+16	in	in	_	APPR	_	_	_	_	_	_	2248-2250	w16b	in	B-PP-insitu	B-PP	*	I-NF|I-MF
+17	ſeinem	seine	_	PPOSAT	_	_	_	_	_	_	2251-2257	w16c	seinem	I-PP	I-PP	*	I-NF|I-MF
+18	und	und	_	KON	_	_	_	_	_	_	2258-2261	w16d	und	I-PP	I-PP	*	I-NF|I-MF
+19	anderer	ander	_	ADJA	_	_	_	_	_	_	2262-2269	w16e	anderer	I-PP	I-PP	*	I-NF|I-MF
+20	Glaͤubigen	Gläubige	_	NN	_	_	_	_	_	_	2270-2280	w16f	Gläubigen	I-PP	I-PP	*	I-NF|I-MF
+21	Namen	Name	_	NN	_	_	_	_	_	_	2281-2286	w170	Namen	I-PP	I-PP	*	I-NF|I-MF
+22	,	,	_	$,	_	_	_	_	_	_	2287-2288	w171	,	_	I-PP	*	I-NF|I-MF
+23	alſo	also	_	ADV	_	_	_	_	_	_	2289-2293	w172	also	B-ADVP-insitu	B-ADVP	*	I-NF|I-MF
+24	ſchreibet	schreiben	_	VVFIN	_	_	_	_	_	_	2294-2303	w173	schreibet	_	O	*	I-NF|B-RK
+25	:	:	_	$.	_	_	_	_	_	_	2304-2305	w174	:	_	O	*	O
+26	Gelobet	geloben	_	VVPP	_	_	_	_	_	_	2306-2313	w175	Gelobet	_	O	*	B-VF|B-RK
+27	ſey	sein	_	VAFIN	_	_	_	_	_	_	2314-2317	w176	sei	_	O	*	B-LK
+28	GOTT	Gott	_	NN	_	_	_	_	_	_	2318-2322	w177	GOTT	B-NP-insitu|B-NP-insitu	B-NP	*	B-MF
+29	und	und	_	KON	_	_	_	_	_	_	2323-2326	w178	und	I-NP	I-NP	*	I-MF
+30	der	d	_	ART	_	_	_	_	_	B-Antec-1	2327-2330	w179	der	I-NP|B-NP-insitu	I-NP	*	I-MF
+31	Va-<lb/>ter	Vater	_	NN	_	_	_	_	_	I-Antec-Head	2331-2342	w17a	Vater	I-NP|I-NP	I-NP	*	I-MF
+32	unſers	unsere	_	PPOSAT	_	_	_	_	_	I-Antec	2343-2349	w17b	unseres	I-NP|I-NP|B-NP-insitu	I-NP	*	I-MF
+33	HERRN	Herr	_	NN	_	_	_	_	_	I-Antec	2350-2355	w17c	HERRN	I-NP|I-NP|I-NP	I-NP	*	I-MF
+34	JESU	Jesu	_	NE	_	_	_	_	_	I-Antec	2356-2360	w17d	Jesu	I-NP|I-NP|I-NP	I-NP	*	I-MF
+35	CHRI-	Chri-	_	NE	_	_	_	_	_	I-Antec	2361-2366	w17e	CHRI-	I-NP|I-NP|I-NP	I-NP	*	I-MF
+36	STI	STI	_	NE	_	_	_	_	_	I-Antec	2367-2370	w17f	STI	I-NP|I-NP|I-NP	I-NP	*	I-MF
+37	,	,	_	$,	_	_	_	_	_	_	2371-2372	w180	,	I-NP|I-NP	I-NP	*	I-MF
+38	der	die	_	PRELS	_	_	_	_	_	_	2373-2376	w181	der	I-NP|I-NP|B-RELC-insitu-1|B-NP-insitu	I-NP	*	I-MF|B-LK
+39	uns	wir	_	PPER	_	_	_	_	_	_	2377-2380	w182	uns	I-NP|I-NP|I-RELC|B-NP-insitu	I-NP	*	I-MF|B-MF
+40	nach	nach	_	APPR	_	_	_	_	_	_	2381-2385	w183	nach	I-NP|I-NP|I-RELC|B-PP-insitu	I-NP	*	I-MF|I-MF
+41	ſeiner	seine	_	PPOSAT	_	_	_	_	_	_	2386-2392	w184	seiner	I-NP|I-NP|I-RELC|I-PP	I-NP	*	I-MF|I-MF
+42	groſſen	groß	_	ADJA	_	_	_	_	_	_	2393-2400	w185	großen	I-NP|I-NP|I-RELC|I-PP	I-NP	*	I-MF|I-MF
+43	Barm-<lb/>hertzigkeit	Barmherzigkeit	_	NN	_	_	_	_	_	_	2401-2422	w186	Barmherzigkeit	I-NP|I-NP|I-RELC|I-PP	I-NP	*	I-MF|I-MF
+44	wiedergebohren	wiedergebären	_	VVPP	_	_	_	_	_	_	2423-2437	w187	wiedergeboren	I-NP|I-NP|I-RELC	I-NP	*	I-MF|B-RK
+45	hat	haben	_	VAFIN	_	_	_	_	_	_	2438-2441	w188	hat	I-NP|I-NP|I-RELC	I-NP	*	I-MF|I-RK
+46	zu	zu	_	APPR	_	_	_	_	_	_	2442-2444	w189	zu	I-NP|I-NP|I-RELC|B-PP-insitu	I-NP	*	I-MF
+47	einer	eine	_	ART	_	_	_	_	_	_	2445-2450	w18a	einer	I-NP|I-NP|I-RELC|I-PP	I-NP	*	I-MF
+48	le-<lb/>bendigen	lebendig	_	ADJA	_	_	_	_	_	_	2451-2467	w18b	lebendigen	I-NP|I-NP|I-RELC|I-PP	I-NP	*	I-MF
+49	Hoffnung	Hoffnung	_	NN	_	_	_	_	_	_	2468-2476	w18c	Hoffnung	I-NP|I-NP|I-RELC|I-PP	I-NP	*	I-MF
+50	durch	durch	_	APPR	_	_	_	_	_	_	2477-2482	w18d	durch	I-NP|I-NP|I-RELC|I-PP	I-NP	*	I-MF
+51	die	d	_	ART	_	_	_	_	_	_	2483-2486	w18e	die	I-NP|I-NP|I-RELC|I-PP	I-NP	*	I-MF
+52	Auferſte-<lb/>hung	Auferstehung	_	NN	_	_	_	_	_	_	2487-2505	w18f	Auferstehung	I-NP|I-NP|I-RELC|I-PP	I-NP	*	I-MF
+53	JESU	Jesu	_	NE	_	_	_	_	_	_	2506-2510	w190	Jesu	I-NP|I-NP|I-RELC|I-PP	I-NP	*	I-MF
+54	CHRJSTJ	Christi	_	NE	_	_	_	_	_	_	2511-2518	w191	Christi	I-NP|I-NP|I-RELC|I-PP	I-NP	*	I-MF
+55	von	von	_	APPR	_	_	_	_	_	_	2519-2522	w192	von	I-NP|I-NP|I-RELC|I-PP	I-NP	*	I-MF
+56	den	d	_	ART	_	_	_	_	_	_	2523-2526	w193	den	I-NP|I-NP|I-RELC|I-PP	I-NP	*	I-MF
+57	Todten	Tote	_	NN	_	_	_	_	_	_	2527-2533	w194	Toten	I-NP|I-NP|I-RELC|I-PP	I-NP	*	I-MF
+58	,	,	_	$,	_	_	_	_	_	_	2534-2535	w195	,	I-NP|I-NP|I-RELC	I-NP	*	I-MF
+59	zu	zu	_	APPR	_	_	_	_	_	B-Antec-2	2536-2538	w196	zu	I-NP|I-NP|I-RELC|B-PP-insitu	I-NP	*	I-MF
+60	einem	eine	_	ART	_	_	_	_	_	I-Antec	2539-2544	w197	einem	I-NP|I-NP|I-RELC|I-PP	I-NP	*	I-MF
+61	unvergaͤnglichen	unvergänglich	_	ADJA	_	_	_	_	_	I-Antec	2545-2561	w198	unvergänglichen	I-NP|I-NP|I-RELC|I-PP	I-NP	*	I-MF
+62	,	,	_	$,	_	_	_	_	_	I-Antec	2562-2563	w199	,	I-NP|I-NP|I-RELC|I-PP	I-NP	*	I-MF
+63	un-<lb/>befleckten	unbefleckt	_	ADJA	_	_	_	_	_	I-Antec	2564-2582	w19a	unbefleckten	I-NP|I-NP|I-RELC|I-PP	I-NP	*	I-MF
+64	und	und	_	KON	_	_	_	_	_	I-Antec	2583-2586	w19b	und	I-NP|I-NP|I-RELC|I-PP	I-NP	*	I-MF
+65	unverwelcklichen	unverwelklich	_	ADJA	_	_	_	_	_	I-Antec	2587-2603	w19c	unverwelklichen	I-NP|I-NP|I-RELC|I-PP	I-NP	*	I-MF
+66	Erbe	Erbe	_	NN	_	_	_	_	_	I-Antec-Head	2604-2608	w19d	Erbe	I-NP|I-NP|I-RELC|I-PP	I-NP	*	I-MF
+67	,	,	_	$,	_	_	_	_	_	_	2609-2610	w19e	,	I-NP|I-NP|I-RELC|I-PP	I-NP	*	O
+68	das	die	_	PRELS	_	_	_	_	_	_	2611-2614	w19f	das	I-NP|I-NP|I-RELC|I-PP|B-RELC-ambig-2|B-NP-insitu	I-NP	*	B-NF|B-LK
+69	behalten	behalten	_	VVPP	_	_	_	_	_	_	2615-2623	w1a0	behalten	I-NP|I-NP|I-RELC|I-PP|I-RELC	I-NP	*	I-NF|B-RK
+70	wird	werden	_	VAFIN	_	_	_	_	_	_	2624-2628	w1a1	wird	I-NP|I-NP|I-RELC|I-PP|I-RELC	I-NP	*	I-NF|I-RK
+71	im	im	_	APPRART	_	_	_	_	_	_	2629-2631	w1a2	im	I-NP|I-NP|I-RELC|I-PP|I-RELC|B-PP-extrap	I-NP	*	I-NF|B-NF
+72	Himmel	Himmel	_	NN	_	_	_	_	_	_	2632-2638	w1a3	Himmel	I-NP|I-NP|I-RELC|I-PP|I-RELC|I-PP	I-NP	*	I-NF|I-NF
+73	,	,	_	$,	_	_	_	_	_	_	2639-2640	w1a4	,	I-NP|I-NP|I-RELC|I-PP	I-NP	*	I-NF|I-NF
+74	euch	ihr	_	PPER	_	_	_	_	_	B-Antec-3-Head	2641-2645	w1a5	euch	I-NP|I-NP|I-RELC|I-PP|B-NP-extrap	I-NP	*	I-NF|I-NF
+75	,	,	_	$,	_	_	_	_	_	_	2646-2647	w1a6	,	I-NP|I-NP|I-RELC|I-PP|I-NP	I-NP	*	I-NF|I-NF
+76	die	die	_	PRELS	_	_	_	_	_	_	2648-2651	w1a7	die	I-NP|I-NP|I-RELC|I-PP|I-NP|B-RELC-insitu-3|B-NP-insitu	I-NP	*	I-NF|I-NF|B-LK
+77	ihr	sie	_	PPER	_	_	_	_	_	_	2652-2655	w1a8	ihr	I-NP|I-NP|I-RELC|I-PP|I-NP|I-RELC|B-NP-insitu	I-NP	*	I-NF|I-NF|B-MF
+78	aus	aus	_	APPR	_	_	_	_	_	_	2656-2659	w1a9	aus	I-NP|I-NP|I-RELC|I-PP|I-NP|I-RELC|B-PP-insitu	I-NP	*	I-NF|I-NF|I-MF
+79	GOTTES	gott	_	NN	_	_	_	_	_	_	2660-2666	w1aa	GOTTES	I-NP|I-NP|I-RELC|I-PP|I-NP|I-RELC|I-PP	I-NP	*	I-NF|I-NF|I-MF
+80	Macht	Macht	_	NN	_	_	_	_	_	_	2667-2672	w1ab	Macht	I-NP|I-NP|I-RELC|I-PP|I-NP|I-RELC|B-NP-insitu	I-NP	*	I-NF|I-NF|I-MF
+81	durch	durch	_	APPR	_	_	_	_	_	_	2673-2678	w1ac	durch	I-NP|I-NP|I-RELC|I-PP|I-NP|I-RELC|I-NP	I-NP	*	I-NF|I-NF|I-MF
+82	den	d	_	ART	_	_	_	_	_	_	2679-2682	w1ad	den	I-NP|I-NP|I-RELC|I-PP|I-NP|I-RELC|I-NP	I-NP	*	I-NF|I-NF|I-MF
+83	Glauben	Glauben	_	NN	_	_	_	_	_	_	2683-2690	w1ae	Glauben	I-NP|I-NP|I-RELC|I-PP|I-NP|I-RELC|I-NP	I-NP	*	I-NF|I-NF|I-MF
+84	bewahret	bewahren	_	VVPP	_	_	_	_	_	_	2691-2699	w1af	bewahret	I-NP|I-NP|I-RELC|I-PP|I-NP|I-RELC	I-NP	*	I-NF|I-NF|B-RK
+85	werdet	werden	_	VAFIN	_	_	_	_	_	_	2700-2706	w1b0	werdet	I-NP|I-NP|I-RELC|I-PP|I-NP|I-RELC	I-NP	*	I-NF|I-NF|I-RK
+86	zur	zur	_	APPRART	_	_	_	_	_	B-Antec-4	2707-2710	w1b1	zur	I-NP|I-NP|I-RELC|I-PP|I-NP|I-RELC|B-PP-insitu	I-NP	*	I-NF|I-NF
+87	Seligkeit	Seligkeit	_	NN	_	_	_	_	_	I-Antec-Head	2711-2720	w1b2	Seligkeit	I-NP|I-NP|I-RELC|I-PP|I-NP|I-RELC|I-PP	I-NP	*	I-NF|I-NF|B-MF
+88	,	,	_	$,	_	_	_	_	_	_	2721-2722	w1b3	,	I-NP|I-NP|I-RELC|I-PP|I-NP|I-RELC|I-PP	I-NP	*	I-NF|I-NF
+89	welche	welche	_	PRELS	_	_	_	_	_	_	2723-2729	w1b4	welche	I-NP|I-NP|I-RELC|I-PP|I-NP|I-RELC|I-PP|B-RELC-ambig-4|B-NP-insitu	I-NP	*	I-NF|I-NF|B-NF|B-LK
+90	zubereitet	zubereiten	_	VVPP	_	_	_	_	_	_	2730-2740	w1b5	zubereitet	I-NP|I-NP|I-RELC|I-PP|I-NP|I-RELC|I-PP|I-RELC	I-NP	*	I-NF|I-NF|I-NF|B-RK
+91	iſt	sein	_	VAFIN	_	_	_	_	_	_	2741-2744	w1b6	ist	I-NP|I-NP|I-RELC|I-PP|I-NP|I-RELC|I-PP|I-RELC	I-NP	*	I-NF|I-NF|I-NF|I-RK
+92	,	,	_	$,	_	_	_	_	_	_	2745-2746	w1b7	,	I-NP|I-NP|I-RELC|I-PP|I-NP|I-RELC|I-PP|I-RELC	I-NP	*	I-NF|I-NF|I-NF
+93	daß	daß	_	KOUS	_	_	_	_	_	_	2747-2750	w1b8	daß	I-NP|I-NP|I-RELC|I-PP|I-NP|I-RELC|I-PP|I-RELC	I-NP	*	I-NF|I-NF|I-NF|B-NF|B-LK
+94	ſie	sie	_	PPER	_	_	_	_	_	_	2751-2754	w1b9	sie	I-NP|I-NP|I-RELC|I-PP|I-NP|I-RELC|I-PP|I-RELC|B-NP-insitu	I-NP	*	I-NF|I-NF|I-NF|I-NF|B-MF
+95	offenbar	offenbar	_	ADJD	_	_	_	_	_	_	2755-2763	w1ba	offenbar	I-NP|I-NP|I-RELC|I-PP|I-NP|I-RELC|I-PP|I-RELC|B-AP-insitu	I-NP	*	I-NF|I-NF|I-NF|I-NF|I-MF
+96	wer-<lb/>de	werden	_	VAFIN	_	_	_	_	_	_	2764-2775	w1bb	werde	I-NP|I-NP|I-RELC|I-PP|I-NP|I-RELC|I-PP|I-RELC	I-NP	*	I-NF|I-NF|I-NF|I-NF|B-RK
+97	zu	zu	_	APPR	_	_	_	_	_	_	2776-2778	w1bc	zu	I-NP|I-NP|I-RELC|I-PP|I-NP|I-RELC|I-PP|I-RELC|B-PP-extrap	I-NP	*	I-NF|I-NF|I-NF|I-NF|B-NF
+98	der	d	_	ART	_	_	_	_	_	_	2779-2782	w1bd	der	I-NP|I-NP|I-RELC|I-PP|I-NP|I-RELC|I-PP|I-RELC|I-PP	I-NP	*	I-NF|I-NF|I-NF|I-NF|I-NF
+99	letzten	letzte	_	ADJA	_	_	_	_	_	_	2783-2790	w1be	letzten	I-NP|I-NP|I-RELC|I-PP|I-NP|I-RELC|I-PP|I-RELC|I-PP	I-NP	*	I-NF|I-NF|I-NF|I-NF|I-NF
+100	Zeit	Zeit	_	NN	_	_	_	_	_	_	2791-2795	w1bf	Zeit	I-NP|I-NP|I-RELC|I-PP|I-NP|I-RELC|I-PP|I-RELC|I-PP	I-NP	*	I-NF|I-NF|I-NF|I-NF|I-NF
+101	.	.	_	$.	_	_	_	_	_	_	2796-2797	w1c0	.	_	I-NP	*	O
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# PTBstring = (VROOT(S(NP(NE Petr.))(NP(CARD I)(KOMMA ,)(NM(CARD 3.)(CARD 4.)(CARD 5.)))))
+# TopFString = (S(NE Petr.)(CARD I)(KOMMA ,)(CARD 3.)(CARD 4.)(CARD 5.))
+# text = Petr. I , 3. 4. 5.
+1	Petr.	Petr.	_	NE	_	_	_	_	_	_	2799-2804	w1c2	Petr.	B-NP-insitu	B-NP	*	O
+2	I	I	_	CARD	_	_	_	_	_	_	2805-2806	w1c3	I	B-NP-insitu	B-NP	*	O
+3	,	,	_	$,	_	_	_	_	_	_	2807-2808	w1c4	,	I-NP	I-NP	*	O
+4	3.	3.	_	CARD	_	_	_	_	_	_	2809-2811	w1c5	3.	I-NP	I-NP	*	O
+5	4.	4.	_	CARD	_	_	_	_	_	_	2812-2814	w1c6	4.	I-NP	I-NP	*	O
+6	5.	5.	_	CARD	_	_	_	_	_	_	2815-2817	w1c7	5.	I-NP	I-NP	*	O
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# PTBstring = (VROOT(S(NP(PPER Es))(VP(VAFIN iſt))(NP(ADV nemlich)(ART der)(NN Grund)(NP(ART der)(AP(ADV hier)(ADJA beſchrie-<lb/>benen))(NN Hoffnung)(KOMMA ,)(S:RC(KOUS wie)(NP(PPER wir))(VP(VVFIN hoͤren))(KOMMA ,)(CNP(NP(ART die)(NN Wieder-<lb/>geburt)(KOMMA ,))(KON oder)(NP(NP(PDAT dasjenige)(ADJA goͤttliche)(NN Gnaden-))(NN Werck)(KOMMA ,)(CS(AS(PAV dadurch)(PP(APPR in)(ART dem)(NN Menſchen))(NP(ART der)(NN Glaube))(VP(PP(APPR an)(NE CHriſtum))(VVPP entzuͤndet)(KOMMA ,)))(KON und)(CS(S(NP(PPER er))(PP(APPR aus)(ART dem)(NN Stande)(CNP(NP(ART der)(NN Suͤnde))(KON und)(NP(ART des)(NN Zorns)(KOMMA ,)(S:RC(PWAV worin)(NP(PPER er))(NP(PRF ſich))(PP(APPR von)(NN Natur))(VP(VVFIN befindet))(KOMMA ,)))))(PP(APPR in)(ART den)(NN Gnaden-Stand))(VP(VVFIN verſetzet))(KOMMA ,))(KON und)(S(VP(PP(APPR von)(NN GOTT)(PP(APPR zu)(PPOSAT ſeinem)(NN Kinde)))(CVP(TRUNC auf-)(KON und)(VVPP angenommen)))(VP(VAFIN wird))(PUNKT .)))))))))))
+# TopFString = (S(VF(PPER Es))(LK(VAFIN iſt))(MF(ADV nemlich)(ART der)(NN Grund)(ART der)(ADV hier)(ADJA beſchrie-<lb/>benen)(NN Hoffnung)(KOMMA ,)(C(KOUS wie))(MF(PPER wir))(VC(VVFIN hoͤren))(KOMMA ,)(ART die)(NN Wieder-<lb/>geburt))(KOMMA ,)(KON oder)(VF(PDAT dasjenige)(ADJA goͤttliche)(NN Gnaden-)(NN Werck)(KOMMA ,)(MF(PAV dadurch)(APPR in)(ART dem)(NN Menſchen)(ART der)(NN Glaube)(APPR an)(NE CHriſtum))(VC(VVPP entzuͤndet)))(KOMMA ,)(LK(KON und))(MF(PPER er)(APPR aus)(ART dem)(NN Stande)(ART der)(NN Suͤnde)(KON und)(ART des)(NN Zorns))(KOMMA ,)(NF(C(PWAV worin))(FKOORD(FKONJ(MF(PPER er)(PRF ſich)(APPR von)(NN Natur))(VC(VVFIN befindet)))(KOMMA ,)(FKONJ(MF(APPR in)(ART den)(NN Gnaden-Stand))(VC(VVFIN verſetzet)))(KOMMA ,)(KON und)(FKONJ(MF(APPR von)(NN GOTT)(APPR zu)(PPOSAT ſeinem)(NN Kinde))(VC(TRUNC auf-)(KON und)(VVPP angenommen)(VAFIN wird)))))(PUNKT .))
+# text = Es iſt nemlich der Grund der hier beſchrie-<lb/>benen Hoffnung , wie wir hoͤren , die Wieder-<lb/>geburt , oder dasjenige goͤttliche Gnaden- Werck , dadurch in dem Menſchen der Glaube an CHriſtum entzuͤndet , und er aus dem Stande der Suͤnde und des Zorns , worin er ſich von Natur befindet , in den Gnaden-Stand verſetzet , und von GOTT zu ſeinem Kinde auf- und angenommen wird .
+1	Es	es	_	PPER	_	_	_	_	_	_	2819-2821	w1c8	Es	B-NP-insitu	B-NP	*	B-VF
+2	iſt	sein	_	VAFIN	_	_	_	_	_	_	2822-2825	w1c9	ist	_	O	*	B-LK
+3	nemlich	nämlich	_	ADV	_	_	_	_	_	_	2826-2833	w1ca	nämlich	B-NP-insitu	B-NP	*	B-MF
+4	der	d	_	ART	_	_	_	_	_	_	2834-2837	w1cb	der	I-NP	I-NP	*	I-MF
+5	Grund	Grund	_	NN	_	_	_	_	_	_	2838-2843	w1cc	Grund	I-NP	I-NP	*	I-MF
+6	der	d	_	ART	_	_	_	_	_	_	2844-2847	w1cd	der	I-NP|B-NP-insitu	I-NP	*	I-MF
+7	hier	hier	_	ADV	_	_	_	_	_	_	2848-2852	w1ce	hier	I-NP|I-NP|B-ADVP-insitu	I-NP	*	I-MF
+8	beſchrie-<lb/>benen	beschreiben	_	ADJA	_	_	_	_	_	_	2853-2872	w1cf	beschriebenen	I-NP|I-NP	I-NP	*	I-MF
+9	Hoffnung	Hoffnung	_	NN	_	_	_	_	_	_	2873-2881	w1d0	Hoffnung	I-NP|I-NP	I-NP	*	I-MF
+10	,	,	_	$,	_	_	_	_	_	_	2882-2883	w1d1	,	I-NP|I-NP	I-NP	*	I-MF
+11	wie	wie	_	KOUS	_	_	_	_	_	_	2884-2887	w1d2	wie	I-NP|I-NP	I-NP	*	I-MF|B-LK
+12	wir	wir	_	PPER	_	_	_	_	_	_	2888-2891	w1d3	wir	I-NP|I-NP|B-NP-insitu	I-NP	*	I-MF|B-MF
+13	hoͤren	hören	_	VVFIN	_	_	_	_	_	_	2892-2898	w1d4	hören	I-NP|I-NP	I-NP	*	I-MF|B-RK
+14	,	,	_	$,	_	_	_	_	_	_	2899-2900	w1d5	,	I-NP|I-NP	I-NP	*	I-MF
+15	die	d	_	ART	_	_	_	_	_	_	2901-2904	w1d6	die	I-NP|I-NP|B-NP-insitu|B-NP-insitu	I-NP	*	I-MF
+16	Wieder-<lb/>geburt	Wiedergeburt	_	NN	_	_	_	_	_	_	2905-2923	w1d7	Wiedergeburt	I-NP|I-NP|I-NP|I-NP	I-NP	*	I-MF
+17	,	,	_	$,	_	_	_	_	_	_	2924-2925	w1d8	,	I-NP|I-NP|I-NP	I-NP	*	O
+18	oder	oder	_	KON	_	_	_	_	_	_	2926-2930	w1d9	oder	I-NP|I-NP|I-NP	I-NP	*	O
+19	dasjenige	dasjenig	_	PDAT	_	_	_	_	_	_	2931-2940	w1da	dasjenige	I-NP|I-NP|I-NP|B-NP-insitu|B-NP-insitu	I-NP	*	B-VF
+20	goͤttliche	göttlich	_	ADJA	_	_	_	_	_	_	2941-2951	w1db	göttliche	I-NP|I-NP|I-NP|I-NP|I-NP	I-NP	*	I-VF
+21	Gnaden-	gnaden-	_	NN	_	_	_	_	_	_	2952-2959	w1dc	Gnaden-	I-NP|I-NP|I-NP|I-NP|I-NP	I-NP	*	I-VF
+22	Werck	Werk	_	NN	_	_	_	_	_	_	2960-2965	w1dd	Werk	I-NP|I-NP|I-NP|I-NP	I-NP	*	I-VF
+23	,	,	_	$,	_	_	_	_	_	_	2966-2967	w1de	,	I-NP|I-NP|I-NP|I-NP	I-NP	*	I-VF
+24	dadurch	dadurch	_	PAV	_	_	_	_	_	_	2968-2975	w1df	dadurch	I-NP|I-NP|I-NP|I-NP|B-PP-insitu	I-NP	*	I-VF|B-MF
+25	in	in	_	APPR	_	_	_	_	_	_	2976-2978	w1e0	in	I-NP|I-NP|I-NP|I-NP|B-PP-insitu	I-NP	*	I-VF|I-MF
+26	dem	d	_	ART	_	_	_	_	_	_	2979-2982	w1e1	dem	I-NP|I-NP|I-NP|I-NP|I-PP	I-NP	*	I-VF|I-MF
+27	Menſchen	Mensch	_	NN	_	_	_	_	_	_	2983-2991	w1e2	Menschen	I-NP|I-NP|I-NP|I-NP|I-PP	I-NP	*	I-VF|I-MF
+28	der	d	_	ART	_	_	_	_	_	_	2992-2995	w1e3	der	I-NP|I-NP|I-NP|I-NP|B-NP-insitu	I-NP	*	I-VF|I-MF
+29	Glaube	Glaube	_	NN	_	_	_	_	_	_	2996-3002	w1e4	Glaube	I-NP|I-NP|I-NP|I-NP|I-NP	I-NP	*	I-VF|I-MF
+30	an	an	_	APPR	_	_	_	_	_	_	3003-3005	w1e5	an	I-NP|I-NP|I-NP|I-NP|B-PP-insitu	I-NP	*	I-VF|I-MF
+31	CHriſtum	Christum	_	NE	_	_	_	_	_	_	3006-3014	w1e6	Christum	I-NP|I-NP|I-NP|I-NP|I-PP	I-NP	*	I-VF|I-MF
+32	entzuͤndet	entzünden	_	VVPP	_	_	_	_	_	_	3015-3025	w1e7	entzündet	I-NP|I-NP|I-NP|I-NP	I-NP	*	I-VF|B-RK
+33	,	,	_	$,	_	_	_	_	_	_	3026-3027	w1e8	,	I-NP|I-NP|I-NP|I-NP	I-NP	*	O
+34	und	und	_	KON	_	_	_	_	_	_	3028-3031	w1e9	und	I-NP|I-NP|I-NP|I-NP	I-NP	*	B-LK
+35	er	er	_	PPER	_	_	_	_	_	_	3032-3034	w1ea	er	I-NP|I-NP|I-NP|I-NP|B-NP-insitu	I-NP	*	B-MF
+36	aus	aus	_	APPR	_	_	_	_	_	_	3035-3038	w1eb	aus	I-NP|I-NP|I-NP|I-NP|B-PP-insitu	I-NP	*	I-MF
+37	dem	d	_	ART	_	_	_	_	_	_	3039-3042	w1ec	dem	I-NP|I-NP|I-NP|I-NP|I-PP	I-NP	*	I-MF
+38	Stande	Stand	_	NN	_	_	_	_	_	_	3043-3049	w1ed	Stande	I-NP|I-NP|I-NP|I-NP|I-PP	I-NP	*	I-MF
+39	der	d	_	ART	_	_	_	_	_	_	3050-3053	w1ee	der	I-NP|I-NP|I-NP|I-NP|I-PP|B-NP-insitu|B-NP-insitu	I-NP	*	I-MF
+40	Suͤnde	Sünde	_	NN	_	_	_	_	_	_	3054-3060	w1ef	Sünde	I-NP|I-NP|I-NP|I-NP|I-PP|I-NP|I-NP	I-NP	*	I-MF
+41	und	und	_	KON	_	_	_	_	_	_	3061-3064	w1f0	und	I-NP|I-NP|I-NP|I-NP|I-PP|I-NP	I-NP	*	I-MF
+42	des	d	_	ART	_	_	_	_	_	_	3065-3068	w1f1	des	I-NP|I-NP|I-NP|I-NP|I-PP|I-NP|B-NP-insitu	I-NP	*	I-MF
+43	Zorns	Zorn	_	NN	_	_	_	_	_	_	3069-3074	w1f2	Zorns	I-NP|I-NP|I-NP|I-NP|I-PP|I-NP|I-NP	I-NP	*	I-MF
+44	,	,	_	$,	_	_	_	_	_	_	3075-3076	w1f3	,	I-NP|I-NP|I-NP|I-NP|I-PP|I-NP|I-NP	I-NP	*	O
+45	worin	worin	_	PWAV	_	_	_	_	_	_	3077-3082	w1f4	worin	I-NP|I-NP|I-NP|I-NP|I-PP|I-NP|I-NP	I-NP	*	B-NF|B-LK
+46	er	er	_	PPER	_	_	_	_	_	_	3083-3085	w1f5	er	I-NP|I-NP|I-NP|I-NP|I-PP|I-NP|I-NP|B-NP-insitu	I-NP	*	I-NF|B-MF
+47	ſich	sich	_	PRF	_	_	_	_	_	_	3086-3090	w1f6	sich	I-NP|I-NP|I-NP|I-NP|I-PP|I-NP|I-NP|B-NP-insitu	I-NP	*	I-NF|I-MF
+48	von	von	_	APPR	_	_	_	_	_	_	3091-3094	w1f7	von	I-NP|I-NP|I-NP|I-NP|I-PP|I-NP|I-NP|B-PP-insitu	I-NP	*	I-NF|I-MF
+49	Natur	Natur	_	NN	_	_	_	_	_	_	3095-3100	w1f8	Natur	I-NP|I-NP|I-NP|I-NP|I-PP|I-NP|I-NP|I-PP	I-NP	*	I-NF|I-MF
+50	befindet	befinden	_	VVFIN	_	_	_	_	_	_	3101-3109	w1f9	befindet	I-NP|I-NP|I-NP|I-NP|I-PP|I-NP|I-NP	I-NP	*	I-NF|B-RK
+51	,	,	_	$,	_	_	_	_	_	_	3110-3111	w1fa	,	I-NP|I-NP|I-NP|I-NP	I-NP	*	I-NF
+52	in	in	_	APPR	_	_	_	_	_	_	3112-3114	w1fb	in	I-NP|I-NP|I-NP|I-NP|B-PP-insitu	I-NP	*	I-NF|B-MF
+53	den	d	_	ART	_	_	_	_	_	_	3115-3118	w1fc	den	I-NP|I-NP|I-NP|I-NP|I-PP	I-NP	*	I-NF|I-MF
+54	Gnaden-Stand	Gnaden-Stand	_	NN	_	_	_	_	_	_	3119-3131	w1fd	Gnaden-Stand	I-NP|I-NP|I-NP|I-NP|I-PP	I-NP	*	I-NF|I-MF
+55	verſetzet	versetzen	_	VVFIN	_	_	_	_	_	_	3132-3141	w1fe	versetzet	I-NP|I-NP|I-NP|I-NP	I-NP	*	I-NF|B-RK
+56	,	,	_	$,	_	_	_	_	_	_	3142-3143	w1ff	,	I-NP|I-NP|I-NP|I-NP	I-NP	*	I-NF
+57	und	und	_	KON	_	_	_	_	_	_	3144-3147	w200	und	I-NP|I-NP|I-NP|I-NP	I-NP	*	I-NF|B-KOORD
+58	von	von	_	APPR	_	_	_	_	_	_	3148-3151	w201	von	I-NP|I-NP|I-NP|I-NP|B-PP-insitu	I-NP	*	I-NF|B-MF
+59	GOTT	Gott	_	NN	_	_	_	_	_	_	3152-3156	w202	GOTT	I-NP|I-NP|I-NP|I-NP|I-PP	I-NP	*	I-NF|I-MF
+60	zu	zu	_	APPR	_	_	_	_	_	_	3157-3159	w203	zu	I-NP|I-NP|I-NP|I-NP|I-PP	I-NP	*	I-NF|I-MF
+61	ſeinem	seine	_	PPOSAT	_	_	_	_	_	_	3160-3166	w204	seinem	I-NP|I-NP|I-NP|I-NP|I-PP	I-NP	*	I-NF|I-MF
+62	Kinde	Kind	_	NN	_	_	_	_	_	_	3167-3172	w205	Kinde	I-NP|I-NP|I-NP|I-NP|I-PP	I-NP	*	I-NF|I-MF
+63	auf-	auf-	_	TRUNC	_	_	_	_	_	_	3173-3177	w206	auf-	I-NP|I-NP|I-NP|I-NP	I-NP	*	I-NF|B-RK
+64	und	und	_	KON	_	_	_	_	_	_	3178-3181	w207	und	I-NP|I-NP|I-NP|I-NP	I-NP	*	I-NF|I-RK
+65	angenommen	annehmen	_	VVPP	_	_	_	_	_	_	3182-3192	w208	angenommen	I-NP|I-NP|I-NP|I-NP	I-NP	*	I-NF|I-RK
+66	wird	werden	_	VAFIN	_	_	_	_	_	_	3193-3197	w209	wird	I-NP|I-NP|I-NP|I-NP	I-NP	*	I-NF|I-RK
+67	.	.	_	$.	_	_	_	_	_	_	3198-3199	w20a	.	_	I-NP	*	O
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# PTBstring = (VROOT(S(PP(APPR Ohne)(PDAT dieſe)(ADJA neue)(NN Ge-<lb/>burt))(VP(VMFIN kan))(NP(PIS niemand))(VP(NP(PDAT dieſe)(NN Hoffnung))(VVINF erlangen)(KOMMA ,)(S(KOUS wie)(NP(PIS ſolches))(NP(PPOSAT unſer)(NN Heyland))(NP(ART dem)(NE Nicodemo))(PP(APPR mit)(ADJA groſſem)(NN Nachdruck))(VP(VVFIN bezeugete))(KOMMA ,)(S(KOUS da)(NP(PPER er))(VP(VVFIN ſprach))(PUNKT :)(S(AVP(AVP(ADV Wahrlich)(KOMMA ,)(S(AVP(ADV wahrlich))(KOMMA ,)(NP(PPER ich))(VP(VVFIN ſage))(NP(PPER dir))(PUNKT :)(CS(S(NP(PPER Es))(VP(VAFIN ſey))(AVP(ADV denn))(KOMMA ,)(S(S(KOUS daß)(NP(PIS iemand))(VP(PP(APPR von)(NN neuen))(VVPP gebohren))(VP(VAFIN werde))(KOMMA ,))(VP(VMFIN kan))(NP(PPER er))(VP(NP(ART das)(NN Reich)(NN GOTTES))(PTKNEG nicht)(VVINF ſehen)(KOMMA ,))))(S(NP(NE Johann))(PUNKT .)(NM(CARD III)(KOMMA ,)(CARD 3.))))))(ADV folglich))(VP(VMFIN kan))(NP(PPER er))(AVP(ADV auch))(VP(NP(PAV da-<lb/>zu)(PIAT keine)(NN Hoffnung)(PP(APPR in)(PPOSAT ſeinem)(NN Hertzen)))(VAINF haben)(PUNKT .))))))))
+# TopFString = (S(VF(APPR Ohne)(PDAT dieſe)(ADJA neue)(NN Ge-<lb/>burt))(LK(VMFIN kan))(MF(PIS niemand)(PDAT dieſe)(NN Hoffnung))(VC(VVINF erlangen))(KOMMA ,)(NF(C(KOUS wie))(MF(PIS ſolches)(PPOSAT unſer)(NN Heyland)(ART dem)(NE Nicodemo)(APPR mit)(ADJA groſſem)(NN Nachdruck))(VC(VVFIN bezeugete))(KOMMA ,)(NF(C(KOUS da))(MF(PPER er))(VC(VVFIN ſprach))))(PUNKT :)(ADV Wahrlich)(KOMMA ,)(ADV wahrlich)(KOMMA ,)(VF(PPER ich))(LK(VVFIN ſage))(MF(PPER dir))(PUNKT :)(VF(PPER Es))(LK(VAFIN ſey))(MF(ADV denn))(KOMMA ,)(VF(C(KOUS daß))(MF(PIS iemand)(APPR von)(NN neuen))(VC(VVPP gebohren)(VAFIN werde)))(KOMMA ,)(LK(VMFIN kan))(MF(PPER er)(ART das)(NN Reich)(NN GOTTES)(PTKNEG nicht))(VC(VVINF ſehen))(KOMMA ,)(NE Johann)(PUNKT .)(CARD III)(KOMMA ,)(CARD 3.)(VF(ADV folglich))(LK(VMFIN kan))(MF(PPER er)(ADV auch)(PAV da-<lb/>zu)(PIAT keine)(NN Hoffnung)(APPR in)(PPOSAT ſeinem)(NN Hertzen))(VC(VAINF haben))(PUNKT .))
+# text = Ohne dieſe neue Ge-<lb/>burt kan niemand dieſe Hoffnung erlangen , wie ſolches unſer Heyland dem Nicodemo mit groſſem Nachdruck bezeugete , da er ſprach : Wahrlich , wahrlich , ich ſage dir : Es ſey denn , daß iemand von neuen gebohren werde , kan er das Reich GOTTES nicht ſehen , Johann . III , 3. folglich kan er auch da-<lb/>zu keine Hoffnung in ſeinem Hertzen haben .
+1	Ohne	ohne	_	APPR	_	_	_	_	_	_	3201-3205	w20b	Ohne	B-PP-insitu	B-PP	*	B-VF
+2	dieſe	diese	_	PDAT	_	_	_	_	_	_	3206-3211	w20c	diese	I-PP	I-PP	*	I-VF
+3	neue	neu	_	ADJA	_	_	_	_	_	_	3212-3216	w20d	neue	I-PP	I-PP	*	I-VF
+4	Ge-<lb/>burt	Geburt	_	NN	_	_	_	_	_	_	3217-3229	w20e	Geburt	I-PP	I-PP	*	I-VF
+5	kan	können	_	VMFIN	_	_	_	_	_	_	3230-3233	w20f	kann	_	O	*	B-LK
+6	niemand	niemand	_	PIS	_	_	_	_	_	_	3234-3241	w210	niemand	B-NP-insitu	B-NP	*	B-MF
+7	dieſe	diese	_	PDAT	_	_	_	_	_	_	3242-3247	w211	diese	B-NP-insitu	B-NP	*	I-MF
+8	Hoffnung	Hoffnung	_	NN	_	_	_	_	_	_	3248-3256	w212	Hoffnung	I-NP	I-NP	*	I-MF
+9	erlangen	erlangen	_	VVINF	_	_	_	_	_	_	3257-3265	w213	erlangen	_	O	*	B-RK
+10	,	,	_	$,	_	_	_	_	_	_	3266-3267	w214	,	_	O	*	O
+11	wie	wie	_	KOUS	_	_	_	_	_	_	3268-3271	w215	wie	_	O	*	B-NF|B-LK
+12	ſolches	solch	_	PIS	_	_	_	_	_	_	3272-3279	w216	solches	B-NP-insitu	B-NP	*	I-NF|B-MF
+13	unſer	unsere	_	PPOSAT	_	_	_	_	_	_	3280-3285	w217	unser	B-NP-insitu	B-NP	*	I-NF|I-MF
+14	Heyland	Heiland	_	NN	_	_	_	_	_	_	3286-3293	w218	Heiland	I-NP	I-NP	*	I-NF|I-MF
+15	dem	d	_	ART	_	_	_	_	_	_	3294-3297	w219	dem	B-NP-insitu	B-NP	*	I-NF|I-MF
+16	Nicodemo	Nicodemo	_	NE	_	_	_	_	_	_	3298-3306	w21a	Nicodemo	I-NP	I-NP	*	I-NF|I-MF
+17	mit	mit	_	APPR	_	_	_	_	_	_	3307-3310	w21b	mit	B-PP-insitu	B-PP	*	I-NF|I-MF
+18	groſſem	groß	_	ADJA	_	_	_	_	_	_	3311-3318	w21c	großem	I-PP	I-PP	*	I-NF|I-MF
+19	Nachdruck	Nachdruck	_	NN	_	_	_	_	_	_	3319-3328	w21d	Nachdruck	I-PP	I-PP	*	I-NF|I-MF
+20	bezeugete	bezeugen	_	VVFIN	_	_	_	_	_	_	3329-3338	w21e	bezeugte	_	O	*	I-NF|B-RK
+21	,	,	_	$,	_	_	_	_	_	_	3339-3340	w21f	,	_	O	*	I-NF
+22	da	da	_	KOUS	_	_	_	_	_	_	3341-3343	w220	da	_	O	*	I-NF|B-NF|B-LK
+23	er	er	_	PPER	_	_	_	_	_	_	3344-3346	w221	er	B-NP-insitu	B-NP	*	I-NF|I-NF|B-MF
+24	ſprach	sprechen	_	VVFIN	_	_	_	_	_	_	3347-3353	w222	sprach	_	O	*	I-NF|I-NF|B-RK
+25	:	:	_	$.	_	_	_	_	_	_	3354-3355	w223	:	_	O	*	O
+26	Wahrlich	wahrlich	_	ADV	_	_	_	_	_	_	3356-3364	w224	Wahrlich	B-ADVP-insitu	B-ADVP	*	O
+27	,	,	_	$,	_	_	_	_	_	_	3365-3366	w225	,	I-ADVP	I-ADVP	*	O
+28	wahrlich	wahrlich	_	ADV	_	_	_	_	_	_	3367-3375	w226	wahrlich	I-ADVP	I-ADVP	*	O
+29	,	,	_	$,	_	_	_	_	_	_	3376-3377	w227	,	I-ADVP	I-ADVP	*	O
+30	ich	ich	_	PPER	_	_	_	_	_	_	3378-3381	w228	ich	I-ADVP|B-NP-insitu	I-ADVP	*	B-VF
+31	ſage	sagen	_	VVFIN	_	_	_	_	_	_	3382-3386	w229	sage	I-ADVP	I-ADVP	*	B-LK
+32	dir	du	_	PPER	_	_	_	_	_	_	3387-3390	w22a	dir	I-ADVP|B-NP-insitu	I-ADVP	*	B-MF
+33	:	:	_	$.	_	_	_	_	_	_	3391-3392	w22b	:	I-ADVP	I-ADVP	*	O
+34	Es	es	_	PPER	_	_	_	_	_	_	3393-3395	w22c	Es	I-ADVP|B-NP-insitu	I-ADVP	*	B-VF
+35	ſey	sein	_	VAFIN	_	_	_	_	_	_	3396-3399	w22d	sei	I-ADVP	I-ADVP	*	B-LK
+36	denn	denn	_	ADV	_	_	_	_	_	_	3400-3404	w22e	denn	I-ADVP|B-ADVP-insitu	I-ADVP	*	B-MF
+37	,	,	_	$,	_	_	_	_	_	_	3405-3406	w22f	,	I-ADVP	I-ADVP	*	O
+38	daß	daß	_	KOUS	_	_	_	_	_	_	3407-3410	w230	daß	I-ADVP	I-ADVP	*	B-VF|B-LK
+39	iemand	jemand	_	PIS	_	_	_	_	_	_	3411-3417	w231	jemand	I-ADVP|B-NP-insitu	I-ADVP	*	I-VF|B-MF
+40	von	von	_	APPR	_	_	_	_	_	_	3418-3421	w232	von	I-ADVP|B-PP-insitu	I-ADVP	*	I-VF|I-MF
+41	neuen	neu	_	NN	_	_	_	_	_	_	3422-3427	w233	neuen	I-ADVP|I-PP	I-ADVP	*	I-VF|I-MF
+42	gebohren	gebären	_	VVPP	_	_	_	_	_	_	3428-3436	w234	geboren	I-ADVP	I-ADVP	*	I-VF|B-RK
+43	werde	werden	_	VAFIN	_	_	_	_	_	_	3437-3442	w235	werde	I-ADVP	I-ADVP	*	I-VF|I-RK
+44	,	,	_	$,	_	_	_	_	_	_	3443-3444	w236	,	I-ADVP	I-ADVP	*	O
+45	kan	können	_	VMFIN	_	_	_	_	_	_	3445-3448	w237	kann	I-ADVP	I-ADVP	*	B-LK
+46	er	er	_	PPER	_	_	_	_	_	_	3449-3451	w238	er	I-ADVP|B-NP-insitu	I-ADVP	*	B-MF
+47	das	d	_	ART	_	_	_	_	_	_	3452-3455	w239	das	I-ADVP|B-NP-insitu	I-ADVP	*	I-MF
+48	Reich	Reich	_	NN	_	_	_	_	_	_	3456-3461	w23a	Reich	I-ADVP|I-NP	I-ADVP	*	I-MF
+49	GOTTES	Gotte	_	NN	_	_	_	_	_	_	3462-3468	w23b	GOTTES	I-ADVP|I-NP	I-ADVP	*	I-MF
+50	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	3469-3474	w23c	nicht	I-ADVP|B-ADVP-insitu	I-ADVP	*	I-MF
+51	ſehen	sehen	_	VVINF	_	_	_	_	_	_	3475-3480	w23d	sehen	I-ADVP	I-ADVP	*	B-RK
+52	,	,	_	$,	_	_	_	_	_	_	3481-3482	w23e	,	I-ADVP	I-ADVP	*	O
+53	Johann	Johann	_	NE	_	_	_	_	_	_	3483-3489	w23f	Johann	I-ADVP	I-ADVP	*	O
+54	.	.	_	$.	_	_	_	_	_	_	3490-3491	w240	.	I-ADVP	I-ADVP	*	O
+55	III	iii	_	CARD	_	_	_	_	_	_	3492-3495	w241	III	I-ADVP	I-ADVP	*	O
+56	,	,	_	$,	_	_	_	_	_	_	3496-3497	w242	,	I-ADVP	I-ADVP	*	O
+57	3.	3.	_	CARD	_	_	_	_	_	_	3498-3500	w243	3.	I-ADVP	I-ADVP	*	O
+58	folglich	folglich	_	ADV	_	_	_	_	_	_	3501-3509	w244	folglich	I-ADVP	I-ADVP	*	B-VF
+59	kan	können	_	VMFIN	_	_	_	_	_	_	3510-3513	w245	kann	_	O	*	B-LK
+60	er	er	_	PPER	_	_	_	_	_	_	3514-3516	w246	er	B-NP-insitu	B-NP	*	B-MF
+61	auch	auch	_	ADV	_	_	_	_	_	_	3517-3521	w247	auch	B-ADVP-insitu	B-ADVP	*	I-MF
+62	da-<lb/>zu	dazu	_	PAV	_	_	_	_	_	_	3522-3532	w248	dazu	B-NP-insitu	B-NP	*	I-MF
+63	keine	keine	_	PIAT	_	_	_	_	_	_	3533-3538	w249	keine	I-NP	I-NP	*	I-MF
+64	Hoffnung	Hoffnung	_	NN	_	_	_	_	_	_	3539-3547	w24a	Hoffnung	I-NP	I-NP	*	I-MF
+65	in	in	_	APPR	_	_	_	_	_	_	3548-3550	w24b	in	I-NP	I-NP	*	I-MF
+66	ſeinem	seine	_	PPOSAT	_	_	_	_	_	_	3551-3557	w24c	seinem	I-NP	I-NP	*	I-MF
+67	Hertzen	Herz	_	NN	_	_	_	_	_	_	3558-3565	w24d	Herzen	I-NP	I-NP	*	I-MF
+68	haben	haben	_	VAINF	_	_	_	_	_	_	3566-3571	w24e	haben	_	O	*	B-RK
+69	.	.	_	$.	_	_	_	_	_	_	3572-3573	w24f	.	_	O	*	O

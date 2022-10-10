@@ -1,0 +1,691 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CHUNK CharOffset DTA:ID DTA:NORM POS
+# sent_id = 1
+# sent_id(TSV) = 1
+# text = Achtzig erlaͤuterte Grund-Fragen / in welchen Die Lehre der Evangeliſch-Lutheri-<lb/>ſchen Kirche von dem Mittler-Ampt JEſu Chriſti und deſſen Einfluß zu einem heili-<lb/>gen Leben wider ihre Feinde uͤberhaupt , inſonderheit aber wider den beruffenen Johann Conrad Dippel , der ſich zum Beweiß ſeiner wunderlichen Gemuͤhts- Neigung bishero Chriſtianum Democritum genannt / ſolchergeſtalt befeſtiget / daß die dahin gehoͤrige Warheiten nach Vernunft und Schrift ausein-<lb/>ander hergeleitet / folglich in einer nohtwendi-<lb/>gen Verbindung und unuͤberwindlichen Gewißheit dargeſtellet werden / Denen / die mit dergleichen ſchaͤdlichen Lehren zum Argen verſuchet worden / zur Warnung ; ſchwachen Seelen zur Befeſtigung und neu-angehenden Predi-<lb/>gern / um denen heutigen Zweiffelmachern deſto gruͤndlicher begegnen zu koͤnnen / zu mehrerm Nachſinnen mitgetheilet von PETRO HANSSEN , Hochfuͤrſtl. Schleßwig-Holſteiniſchen Conſiſtorial- Raht / Superintendenten und Hof-Predigern .
+1	Achtzig	achtzig	_	CARD	_	_	_	_	_	B-NC	0-7	w1	Achtzig	*
+2	erlaͤuterte	erläutern	_	ADJA	_	_	_	_	_	I-NC	8-19	w2	erläuterte	*
+3	Grund-Fragen	Grund-Frage	_	NN	_	_	_	_	_	I-NC	20-32	w3	Grund-Fragen	*
+4	/	/	_	$(	_	_	_	_	_	O	33-34	w4	/	*
+5	in	in	_	APPR	_	_	_	_	_	B-PC	35-37	w5	in	*
+6	welchen	welchen	_	PRELS	_	_	_	_	_	I-PC	38-45	w6	welchen	*
+7	Die	d	_	ART	_	_	_	_	_	B-NC	46-49	w7	Die	*
+8	Lehre	Lehre	_	NN	_	_	_	_	_	I-NC	50-55	w8	Lehre	*
+9	der	d	_	ART	_	_	_	_	_	B-NC	56-59	w9	der	*
+10	Evangeliſch-Lutheri-<lb/>ſchen	evangelisch-lutherisch	_	ADJA	_	_	_	_	_	I-NC	60-90	wa,wa_1	Evangelisch-Lutherischen	*
+11	Kirche	Kirche	_	NN	_	_	_	_	_	I-NC	91-97	wb	Kirche	*
+12	von	von	_	APPR	_	_	_	_	_	B-PC	98-101	wc	von	*
+13	dem	d	_	ART	_	_	_	_	_	I-PC	102-105	wd	dem	*
+14	Mittler-Ampt	Mittler-Ampt	_	NN	_	_	_	_	_	I-PC	106-118	we	Mittler-Ampt	*
+15	JEſu	Jesu	_	NE	_	_	_	_	_	B-NC	119-123	wf	Jesu	*
+16	Chriſti	Christi	_	NE	_	_	_	_	_	I-NC	124-131	w10	Christi	*
+17	und	und	_	KON	_	_	_	_	_	O	132-135	w11	und	*
+18	deſſen	die	_	PDAT	_	_	_	_	_	B-NC	136-142	w12	dessen	*
+19	Einfluß	Einfluß	_	NN	_	_	_	_	_	I-NC	143-150	w13	Einfluß	*
+20	zu	zu	_	APPR	_	_	_	_	_	B-PC	151-153	w14	zu	*
+21	einem	eine	_	ART	_	_	_	_	_	I-PC	154-159	w15	einem	*
+22	heili-<lb/>gen	heilig	_	ADJA	_	_	_	_	_	I-PC	160-174	w16	heiligen	*
+23	Leben	Leben	_	NN	_	_	_	_	_	I-PC	175-180	w17	Leben	*
+24	wider	wider	_	APPR	_	_	_	_	_	B-PC	181-186	w18	wider	*
+25	ihre	ihr	_	PPOSAT	_	_	_	_	_	I-PC	187-191	w19	ihre	*
+26	Feinde	Feind	_	NN	_	_	_	_	_	I-PC	192-198	w1a	Feinde	*
+27	uͤberhaupt	überhaupt	_	ADV	_	_	_	_	_	B-ADVC	199-209	w1b	überhaupt	*
+28	,	,	_	$,	_	_	_	_	_	O	210-211	w1c	,	*
+29	inſonderheit	insonderheit	_	ADV	_	_	_	_	_	B-ADVC	212-224	w1d	insonderheit	*
+30	aber	aber	_	ADV	_	_	_	_	_	I-ADVC	225-229	w1e	aber	*
+31	wider	wider	_	APPR	_	_	_	_	_	B-PC	230-235	w1f	wider	*
+32	den	d	_	ART	_	_	_	_	_	I-PC	236-239	w20	den	*
+33	beruffenen	berufen	_	ADJA	_	_	_	_	_	I-PC	240-250	w21	berufenen	*
+34	Johann	Johann	_	NE	_	_	_	_	_	I-PC	251-257	w22	Johann	*
+35	Conrad	Conrad	_	NE	_	_	_	_	_	B-NC	258-264	w23	Conrad	*
+36	Dippel	Dippel	_	NE	_	_	_	_	_	I-NC	265-271	w24	Dippel	*
+37	,	,	_	$,	_	_	_	_	_	O	272-273	w25	,	*
+38	der	die	_	PRELS	_	_	_	_	_	B-NC	274-277	w26	der	*
+39	ſich	sich	_	PRF	_	_	_	_	_	B-NC	278-282	w27	sich	*
+40	zum	zum	_	APPRART	_	_	_	_	_	B-PC	283-286	w28	zum	*
+41	Beweiß	Beweis	_	NN	_	_	_	_	_	I-PC	287-293	w29	Beweis	*
+42	ſeiner	seine	_	PPOSAT	_	_	_	_	_	B-NC	294-300	w2a	seiner	*
+43	wunderlichen	wunderlich	_	ADJA	_	_	_	_	_	I-NC	301-313	w2b	wunderlichen	*
+44	Gemuͤhts-	gemühts-	_	NN	_	_	_	_	_	I-NC	314-323	w2c	Gemühts-	*
+45	Neigung	Neigung	_	NN	_	_	_	_	_	B-NC	324-331	w2d	Neigung	*
+46	bishero	bisher	_	ADV	_	_	_	_	_	B-ADVC	332-339	w2e	bisher	*
+47	Chriſtianum	Christianum	_	NE	_	_	_	_	_	B-NC	340-351	w2f	Christianum	*
+48	Democritum	Democritum	_	NE	_	_	_	_	_	I-NC	352-362	w30	Democritum	*
+49	genannt	nennen	_	VVPP	_	_	_	_	_	O	363-370	w31	genannt	*
+50	/	/	_	$(	_	_	_	_	_	O	371-372	w32	/	*
+51	ſolchergeſtalt	solchergestalt	_	ADV	_	_	_	_	_	B-ADVC	373-387	w33	solchergestalt	*
+52	befeſtiget	befestigen	_	VVFIN	_	_	_	_	_	O	388-398	w34	befestiget	*
+53	/	/	_	$(	_	_	_	_	_	O	399-400	w35	/	*
+54	daß	daß	_	KOUS	_	_	_	_	_	O	401-404	w36	daß	*
+55	die	d	_	ART	_	_	_	_	_	B-NC	405-408	w37	die	*
+56	dahin	dahin	_	PAV	_	_	_	_	_	I-NC	409-414	w38	dahin	*
+57	gehoͤrige	gehörig	_	ADJA	_	_	_	_	_	I-NC	415-424	w39	gehörige	*
+58	Warheiten	Wahrheit	_	NN	_	_	_	_	_	I-NC	425-434	w3a	Wahrheiten	*
+59	nach	nach	_	APPR	_	_	_	_	_	B-PC	435-439	w3b	nach	*
+60	Vernunft	Vernunft	_	NN	_	_	_	_	_	I-PC	440-448	w3c	Vernunft	*
+61	und	und	_	KON	_	_	_	_	_	O	449-452	w3d	und	*
+62	Schrift	Schrift	_	NN	_	_	_	_	_	B-NC	453-460	w3e	Schrift	*
+63	ausein-<lb/>ander	auseinander	_	ADV	_	_	_	_	_	B-ADVC	461-478	w3f	auseinander	*
+64	hergeleitet	herleiten	_	VVPP	_	_	_	_	_	O	479-490	w40	hergeleitet	*
+65	/	/	_	$(	_	_	_	_	_	O	491-492	w41	/	*
+66	folglich	folglich	_	ADV	_	_	_	_	_	B-ADVC	493-501	w42	folglich	*
+67	in	in	_	APPR	_	_	_	_	_	B-PC	502-504	w43	in	*
+68	einer	eine	_	ART	_	_	_	_	_	I-PC	505-510	w44	einer	*
+69	nohtwendi-<lb/>gen	notwendig	_	ADJA	_	_	_	_	_	I-PC	511-529	w45	notwendigen	*
+70	Verbindung	Verbindung	_	NN	_	_	_	_	_	I-PC	530-540	w46	Verbindung	*
+71	und	und	_	KON	_	_	_	_	_	O	541-544	w47	und	*
+72	unuͤberwindlichen	unüberwindlich	_	ADJA	_	_	_	_	_	B-NC	545-562	w48	unüberwindlichen	*
+73	Gewißheit	Gewißheit	_	NN	_	_	_	_	_	I-NC	563-572	w49	Gewißheit	*
+74	dargeſtellet	darstellen	_	VVPP	_	_	_	_	_	O	573-585	w4a	dargestellt	*
+75	werden	werden	_	VAINF	_	_	_	_	_	O	586-592	w4b	werden	*
+76	/	/	_	$(	_	_	_	_	_	O	593-594	w4c	/	*
+77	Denen	die	_	PDS	_	_	_	_	_	B-NC	595-600	w4d	Denen	*
+78	/	/	_	$(	_	_	_	_	_	O	601-602	w4e	/	*
+79	die	d	_	PRELS	_	_	_	_	_	B-NC	603-606	w4f	die	*
+80	mit	mit	_	APPR	_	_	_	_	_	B-PC	607-610	w50	mit	*
+81	dergleichen	dergleichen	_	PIS	_	_	_	_	_	I-PC	611-622	w51	dergleichen	*
+82	ſchaͤdlichen	schädlich	_	ADJA	_	_	_	_	_	B-NC	623-635	w52	schädlichen	*
+83	Lehren	Lehre	_	NN	_	_	_	_	_	I-NC	636-642	w53	Lehren	*
+84	zum	zum	_	APPRART	_	_	_	_	_	B-PC	643-646	w54	zum	*
+85	Argen	Arge	_	NN	_	_	_	_	_	I-PC	647-652	w55	Argen	*
+86	verſuchet	versuchen	_	VVPP	_	_	_	_	_	O	653-662	w56	versucht	*
+87	worden	werden	_	VAPP	_	_	_	_	_	O	663-669	w57	worden	*
+88	/	/	_	$(	_	_	_	_	_	O	670-671	w58	/	*
+89	zur	zur	_	APPRART	_	_	_	_	_	B-PC	672-675	w59	zur	*
+90	Warnung	Warnung	_	NN	_	_	_	_	_	I-PC	676-683	w5a	Warnung	*
+91	;	;	_	$.	_	_	_	_	_	O	684-685	w5b	;	*
+92	ſchwachen	schwach	_	ADJA	_	_	_	_	_	B-NC	686-695	w5c	schwachen	*
+93	Seelen	Seele	_	NN	_	_	_	_	_	I-NC	696-702	w5d	Seelen	*
+94	zur	zur	_	APPRART	_	_	_	_	_	B-PC	703-706	w5e	zur	*
+95	Befeſtigung	Befestigung	_	NN	_	_	_	_	_	I-PC	707-718	w5f	Befestigung	*
+96	und	und	_	KON	_	_	_	_	_	O	719-722	w60	und	*
+97	neu-angehenden	neu-angehend	_	ADJA	_	_	_	_	_	B-NC	723-737	w61	neu-angehenden	*
+98	Predi-<lb/>gern	Prediger	_	NN	_	_	_	_	_	I-NC	738-753	w62	Predigern	*
+99	/	/	_	$(	_	_	_	_	_	O	754-755	w63	/	*
+100	um	um	_	KOUI	_	_	_	_	_	O	756-758	w64	um	*
+101	denen	die	_	PDAT	_	_	_	_	_	B-NC	759-764	w65	denen	*
+102	heutigen	heutig	_	ADJA	_	_	_	_	_	I-NC	765-773	w66	heutigen	*
+103	Zweiffelmachern	Zweifelmacher	_	NN	_	_	_	_	_	I-NC	774-789	w67	Zweifelmachern	*
+104	deſto	desto	_	ADV	_	_	_	_	_	B-ADVC	790-795	w68	desto	*
+105	gruͤndlicher	gründlich	_	ADJD	_	_	_	_	_	B-AC	796-808	w69	gründlicher	*
+106	begegnen	begegnen	_	VVINF	_	_	_	_	_	O	809-817	w6a	begegnen	*
+107	zu	zu	_	PTKZU	_	_	_	_	_	O	818-820	w6b	zu	*
+108	koͤnnen	können	_	VMINF	_	_	_	_	_	O	821-828	w6c	können	*
+109	/	/	_	$(	_	_	_	_	_	O	829-830	w6d	/	*
+110	zu	zu	_	APPR	_	_	_	_	_	B-PC	831-833	w6e	zu	*
+111	mehrerm	mehrere	_	PIAT	_	_	_	_	_	I-PC	834-841	w6f	mehrerem	*
+112	Nachſinnen	Nachsinnen	_	NN	_	_	_	_	_	I-PC	842-852	w70	Nachsinnen	*
+113	mitgetheilet	mitteilen	_	VVPP	_	_	_	_	_	O	853-865	w71	mitgeteilt	*
+114	von	von	_	APPR	_	_	_	_	_	B-PC	866-869	w72	von	*
+115	PETRO	Petro	_	NE	_	_	_	_	_	I-PC	870-875	w73	PETRO	*
+116	HANSSEN	Hansen	_	NE	_	_	_	_	_	I-PC	876-883	w74	Hansen	*
+117	,	,	_	$,	_	_	_	_	_	O	884-885	w75	,	*
+118	Hochfuͤrſtl.	Hochfürstl.	_	ADJA	_	_	_	_	_	B-NC	886-898	w76	Hochfürstl.	*
+119	Schleßwig-Holſteiniſchen	schleswig-holsteinisch	_	ADJA	_	_	_	_	_	I-NC	899-923	w77	schleswig-holsteinischen	*
+120	Conſiſtorial-	consistorial-	_	NN	_	_	_	_	_	I-NC	924-937	w78	Consistorial-	*
+121	Raht	Rat	_	NN	_	_	_	_	_	B-NC	938-942	w79	Rat	*
+122	/	/	_	$(	_	_	_	_	_	O	943-944	w7a	/	*
+123	Superintendenten	Superintendent	_	NN	_	_	_	_	_	B-NC	945-961	w7b,w7b_1	Superintendenten	*
+124	und	und	_	KON	_	_	_	_	_	O	962-965	w7c	und	*
+125	Hof-Predigern	Hof-Prediger	_	NN	_	_	_	_	_	B-NC	966-979	w7d	Hof-Predigern	*
+126	.	.	_	$.	_	_	_	_	_	O	980-981	w7e	.	*
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# text = Zu finden Luͤbeck und Hamburg .
+1	Zu	zu	_	PTKZU	_	_	_	_	_	O	983-985	w7f	Zu	*
+2	finden	finden	_	VVINF	_	_	_	_	_	O	986-992	w80	finden	*
+3	Luͤbeck	Lübeck	_	NE	_	_	_	_	_	B-NC	993-1000	w81	Lübeck	*
+4	und	und	_	KON	_	_	_	_	_	O	1001-1004	w82	und	*
+5	Hamburg	Hamburg	_	NE	_	_	_	_	_	B-NC	1005-1012	w83	Hamburg	*
+6	.	.	_	$.	_	_	_	_	_	O	1013-1014	w84	.	*
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# text = Dem Hochwuͤrdigen und Hochwol-<lb/>gebohrnen Herrn / HERRN Elaus Reventlow / Des Koͤniglichen Daͤniſchen Or-<lb/>dens vom Dannebrog Rittern / Jhro zu Daͤnnemarck Norwegen glorwuͤrdigſt-regierenden Koͤnigl. Majeſtaͤt hochanſehnlichem Cam-<lb/>mer-Herrn und Hochbetrautem Stifts-Amtmann uͤber Aalborg / Wie auch Des hohen Stifts zu Luͤbeck wuͤr-<lb/>digſtem CANONICO , Meinem hoͤchſtgeneigten Herrn und vorneh-<lb/>men Hohen Goͤnner .
+1	Dem	d	_	ART	_	_	_	_	_	B-NC	1016-1019	w1b9c	Dem	*
+2	Hochwuͤrdigen	hochwürdig	_	ADJA	_	_	_	_	_	I-NC	1020-1033	w1b9d	Hochwürdigen	*
+3	und	und	_	KON	_	_	_	_	_	I-NC	1034-1037	w1b9e	und	*
+4	Hochwol-<lb/>gebohrnen	hochwohlgeboren	_	ADJA	_	_	_	_	_	I-NC	1038-1060	w1b9f	Hochwohlgeborenen	*
+5	Herrn	Herr	_	NN	_	_	_	_	_	I-NC	1061-1066	w1ba0	Herrn	*
+6	/	/	_	$(	_	_	_	_	_	O	1067-1068	w1ba1	/	*
+7	HERRN	Herr	_	NN	_	_	_	_	_	B-NC	1069-1074	w1ba2	HERRN	*
+8	Elaus	Elaus	_	NE	_	_	_	_	_	B-NC	1075-1080	w1ba3,w1ba3_1	Elaus	*
+9	Reventlow	Reventlow	_	NE	_	_	_	_	_	I-NC	1081-1090	w1ba4,w1ba4_1	Reventlow	*
+10	/	/	_	$(	_	_	_	_	_	O	1091-1092	w1ba5	/	*
+11	Des	d	_	ART	_	_	_	_	_	B-NC	1093-1096	w1ba6	Des	*
+12	Koͤniglichen	königlich	_	ADJA	_	_	_	_	_	I-NC	1097-1109	w1ba7	Königlichen	*
+13	Daͤniſchen	dänisch	_	ADJA	_	_	_	_	_	I-NC	1110-1120	w1ba8	Dänischen	*
+14	Or-<lb/>dens	Orden	_	NN	_	_	_	_	_	I-NC	1121-1133	w1ba9	Ordens	*
+15	vom	vom	_	APPRART	_	_	_	_	_	B-PC	1134-1137	w1baa	vom	*
+16	Dannebrog	Danebrog	_	NE	_	_	_	_	_	I-PC	1138-1147	w1bab	Danebrog	*
+17	Rittern	Ritter	_	NN	_	_	_	_	_	I-PC	1148-1155	w1bac	Rittern	*
+18	/	/	_	$(	_	_	_	_	_	O	1156-1157	w1bad	/	*
+19	Jhro	ihr	_	PPOSAT	_	_	_	_	_	B-sNC	1158-1162	w1bae	Ihrer	*
+20	zu	zu	_	APPR	_	_	_	_	_	B-PC	1163-1165	w1baf	zu	*
+21	Daͤnnemarck	Dänemark	_	NE	_	_	_	_	_	I-PC	1166-1177	w1bb0	Dänemark	*
+22	Norwegen	Norwegen	_	NE	_	_	_	_	_	I-PC	1178-1186	w1bb1	Norwegen	*
+23	glorwuͤrdigſt-regierenden	Glorwürdigst-Regierenden	_	ADJA	_	_	_	_	_	B-NC	1187-1212	w1bb2	glorwürdigst-regierenden	*
+24	Koͤnigl.	Königl.	_	ADJA	_	_	_	_	_	I-NC	1213-1221	w1bb3	Königl.	*
+25	Majeſtaͤt	Majestät	_	NN	_	_	_	_	_	I-NC	1222-1231	w1bb4	Majestät	*
+26	hochanſehnlichem	hochansehnlich	_	ADJA	_	_	_	_	_	B-NC	1232-1248	w1bb5	hochansehnlichem	*
+27	Cam-<lb/>mer-Herrn	Kammer-Herr	_	NN	_	_	_	_	_	I-NC	1249-1267	w1bb6	Kammer-Herrn	*
+28	und	und	_	KON	_	_	_	_	_	O	1268-1271	w1bb7	und	*
+29	Hochbetrautem	hochbetraut	_	ADJA	_	_	_	_	_	B-NC	1272-1285	w1bb8	Hochbetrautem	*
+30	Stifts-Amtmann	Stifts-Amtmann	_	NN	_	_	_	_	_	I-NC	1286-1300	w1bb9	Stifts-Amtmann	*
+31	uͤber	über	_	APPR	_	_	_	_	_	B-PC	1301-1306	w1bba	über	*
+32	Aalborg	Aalborg	_	NE	_	_	_	_	_	I-PC	1307-1314	w1bbb	Aalborg	*
+33	/	/	_	$(	_	_	_	_	_	O	1315-1316	w1bbc	/	*
+34	Wie	wie	_	KON	_	_	_	_	_	O	1317-1320	w1bbd	Wie	*
+35	auch	auch	_	ADV	_	_	_	_	_	B-NC	1321-1325	w1bbe	auch	*
+36	Des	d	_	ART	_	_	_	_	_	I-NC	1326-1329	w1bbf	Des	*
+37	hohen	hoch	_	ADJA	_	_	_	_	_	I-NC	1330-1335	w1bc0	hohen	*
+38	Stifts	Stift	_	NN	_	_	_	_	_	I-NC	1336-1342	w1bc1	Stifts	*
+39	zu	zu	_	APPR	_	_	_	_	_	B-PC	1343-1345	w1bc2	zu	*
+40	Luͤbeck	Lübeck	_	NE	_	_	_	_	_	I-PC	1346-1353	w1bc3	Lübeck	*
+41	wuͤr-<lb/>digſtem	würdig	_	ADJA	_	_	_	_	_	B-NC	1354-1371	w1bc4	würdigstem	*
+42	CANONICO	Canonico	_	NE	_	_	_	_	_	I-NC	1372-1380	w1bc5	CANONICO	*
+43	,	,	_	$,	_	_	_	_	_	O	1381-1382	w1bc6	,	*
+44	Meinem	meine	_	PPOSAT	_	_	_	_	_	B-NC	1383-1389	w1bc7	Meinem	*
+45	hoͤchſtgeneigten	höchstgeneigt	_	ADJA	_	_	_	_	_	I-NC	1390-1406	w1bc8	höchstgeneigten	*
+46	Herrn	Herr	_	NN	_	_	_	_	_	I-NC	1407-1412	w1bc9	Herrn	*
+47	und	und	_	KON	_	_	_	_	_	O	1413-1416	w1bca	und	*
+48	vorneh-<lb/>men	vornehm	_	ADJA	_	_	_	_	_	B-NC	1417-1432	w1bcb	vornehmen	*
+49	Hohen	hoch	_	ADJA	_	_	_	_	_	I-NC	1433-1438	w1bcc	Hohen	*
+50	Goͤnner	Gönner	_	NN	_	_	_	_	_	I-NC	1439-1446	w1bcd	Gönner	*
+51	.	.	_	$.	_	_	_	_	_	O	1447-1448	w1bce	.	*
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# text = Hochwuͤrdiger und Hochwolge-<lb/>bohrner Hr. Stifts-Amtmann / hoͤchſtgeneigter Herr !
+1	Hochwuͤrdiger	Hochwürdiger	_	NN	_	_	_	_	_	B-NC	1450-1463	w85	Hochwürdiger	*
+2	und	und	_	KON	_	_	_	_	_	O	1464-1467	w86	und	*
+3	Hochwolge-<lb/>bohrner	hochwohlgeboren	_	ADJA	_	_	_	_	_	B-NC	1468-1490	w87	Hochwohlgeborener	*
+4	Hr.	Hr.	_	NN	_	_	_	_	_	I-NC	1491-1494	w88	Hr.	*
+5	Stifts-Amtmann	Stifts-Amtmann	_	NN	_	_	_	_	_	B-NC	1495-1509	w89	Stifts-Amtmann	*
+6	/	/	_	$(	_	_	_	_	_	O	1510-1511	w8a	/	*
+7	hoͤchſtgeneigter	höchstgeneigt	_	ADJA	_	_	_	_	_	B-NC	1512-1528	w8b	höchstgeneigter	*
+8	Herr	Herr	_	NN	_	_	_	_	_	I-NC	1529-1533	w8c	Herr	*
+9	!	!	_	$.	_	_	_	_	_	O	1534-1535	w8d	!	*
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# text = EW . Excellence uͤberreiche ich nach der unter denen Gelehrten an-<lb/>genommenen Gewohnheit ge-<lb/>genwaͤrtige Schrift , als einen Beweiß meiner gegen Deroſelben tragenden Hochachtung und nie auszuloͤſchen-<lb/>den Liebe und Zuneigung .
+1	EW	EW	_	PPOSAT	_	_	_	_	_	B-NC	1537-1539	w8e,w8e_1	EW	*
+2	.	.	_	$.	_	_	_	_	_	I-NC	1540-1541	w8f	.	*
+3	Excellence	Excellence	_	NN	_	_	_	_	_	I-NC	1542-1552	w90	Excellence	*
+4	uͤberreiche	überreichen	_	VVFIN	_	_	_	_	_	O	1553-1564	w91	überreiche	*
+5	ich	ich	_	PPER	_	_	_	_	_	B-NC	1565-1568	w92	ich	*
+6	nach	nach	_	APPR	_	_	_	_	_	B-sPC	1569-1573	w93	nach	*
+7	der	d	_	ART	_	_	_	_	_	I-sPC	1574-1577	w94	der	*
+8	unter	unter	_	APPR	_	_	_	_	_	B-PC	1578-1583	w95	unter	*
+9	denen	die	_	PDAT	_	_	_	_	_	I-PC	1584-1589	w96	denen	*
+10	Gelehrten	Gelehrte	_	NN	_	_	_	_	_	I-PC	1590-1599	w97	Gelehrten	*
+11	an-<lb/>genommenen	angenehmen	_	ADJA	_	_	_	_	_	B-NC	1600-1618	w98	angenommenen	*
+12	Gewohnheit	Gewohnheit	_	NN	_	_	_	_	_	I-NC	1619-1629	w99	Gewohnheit	*
+13	ge-<lb/>genwaͤrtige	gegenwärtig	_	ADJA	_	_	_	_	_	B-NC	1630-1649	w9a	gegenwärtige	*
+14	Schrift	Schrift	_	NN	_	_	_	_	_	I-NC	1650-1657	w9b	Schrift	*
+15	,	,	_	$,	_	_	_	_	_	O	1658-1659	w9c	,	*
+16	als	als	_	KOKOM	_	_	_	_	_	B-NC	1660-1663	w9d	als	*
+17	einen	eine	_	ART	_	_	_	_	_	I-NC	1664-1669	w9e	einen	*
+18	Beweiß	Beweis	_	NN	_	_	_	_	_	I-NC	1670-1676	w9f	Beweis	*
+19	meiner	meine	_	PPOSAT	_	_	_	_	_	B-sNC	1677-1683	wa0	meiner	*
+20	gegen	gegen	_	APPR	_	_	_	_	_	B-PC	1684-1689	wa1	gegen	*
+21	Deroſelben	dieselbe	_	PDAT	_	_	_	_	_	I-PC	1690-1700	wa2	Derselben	*
+22	tragenden	tragend	_	ADJA	_	_	_	_	_	I-PC	1701-1710	wa3	tragenden	*
+23	Hochachtung	Hochachtung	_	NN	_	_	_	_	_	I-PC	1711-1722	wa4	Hochachtung	*
+24	und	und	_	KON	_	_	_	_	_	O	1723-1726	wa5	und	*
+25	nie	nie	_	ADV	_	_	_	_	_	B-ADVC	1727-1730	wa6	nie	*
+26	auszuloͤſchen-<lb/>den	auszulöschend	_	ADJA	_	_	_	_	_	B-NC	1731-1753	wa7	auszulöschenden	*
+27	Liebe	Liebe	_	NN	_	_	_	_	_	I-NC	1754-1759	wa8	Liebe	*
+28	und	und	_	KON	_	_	_	_	_	O	1760-1763	wa9	und	*
+29	Zuneigung	Zuneigung	_	NN	_	_	_	_	_	B-NC	1764-1773	waa	Zuneigung	*
+30	.	.	_	$.	_	_	_	_	_	O	1774-1775	wab	.	*
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# text = Jch habe ſelbige verfertiget , um die wichtigſten Glaubens-Lehren unſerer Evangeli-<lb/>ſchen Kirchen gegen einem zur Genuͤ-<lb/>ge bekannten , heftigen Verfolger der-<lb/>ſelben zu verthaͤdigen und meyne alſo eine gute Sache fuͤr mir zu haben .
+1	Jch	ich	_	PPER	_	_	_	_	_	B-NC	1777-1780	wac	Ich	*
+2	habe	haben	_	VAFIN	_	_	_	_	_	O	1781-1785	wad	habe	*
+3	ſelbige	selbig	_	PDS	_	_	_	_	_	B-NC	1786-1793	wae	selbige	*
+4	verfertiget	verfertigen	_	VVPP	_	_	_	_	_	O	1794-1805	waf	verfertiget	*
+5	,	,	_	$,	_	_	_	_	_	O	1806-1807	wb0	,	*
+6	um	um	_	KOUI	_	_	_	_	_	O	1808-1810	wb1	um	*
+7	die	d	_	ART	_	_	_	_	_	B-NC	1811-1814	wb2	die	*
+8	wichtigſten	wichtig	_	ADJA	_	_	_	_	_	I-NC	1815-1826	wb3	wichtigsten	*
+9	Glaubens-Lehren	Glaubens-Lehre	_	NN	_	_	_	_	_	I-NC	1827-1842	wb4	Glaubens-Lehren	*
+10	unſerer	unsere	_	PPOSAT	_	_	_	_	_	B-NC	1843-1850	wb5	unserer	*
+11	Evangeli-<lb/>ſchen	evangelisch	_	ADJA	_	_	_	_	_	I-NC	1851-1870	wb6	Evangelischen	*
+12	Kirchen	Kirche	_	NN	_	_	_	_	_	I-NC	1871-1878	wb7	Kirchen	*
+13	gegen	gegen	_	APPR	_	_	_	_	_	B-sPC	1879-1884	wb8	gegen	*
+14	einem	eine	_	ART	_	_	_	_	_	I-sPC	1885-1890	wb9	einem	*
+15	zur	zur	_	APPRART	_	_	_	_	_	B-PC	1891-1894	wba	zur	*
+16	Genuͤ-<lb/>ge	Genüge	_	NN	_	_	_	_	_	I-PC	1895-1908	wbb	Genüge	*
+17	bekannten	bekannt	_	ADJA	_	_	_	_	_	B-PC	1909-1918	wbc	bekannten	*
+18	,	,	_	$,	_	_	_	_	_	I-PC	1919-1920	wbd	,	*
+19	heftigen	heftig	_	ADJA	_	_	_	_	_	I-PC	1921-1929	wbe	heftigen	*
+20	Verfolger	Verfolger	_	NN	_	_	_	_	_	I-PC	1930-1939	wbf	Verfolger	*
+21	der-<lb/>ſelben	dieselbe	_	PDS	_	_	_	_	_	B-NC	1940-1955	wc0	derselben	*
+22	zu	zu	_	PTKZU	_	_	_	_	_	O	1956-1958	wc1	zu	*
+23	verthaͤdigen	tätig	_	VVINF	_	_	_	_	_	O	1959-1971	wc2	tätigen	*
+24	und	und	_	KON	_	_	_	_	_	O	1972-1975	wc3	und	*
+25	meyne	meinen	_	VVFIN	_	_	_	_	_	O	1976-1981	wc4	meine	*
+26	alſo	also	_	ADV	_	_	_	_	_	B-ADVC	1982-1986	wc5	also	*
+27	eine	eine	_	ART	_	_	_	_	_	B-NC	1987-1991	wc6	eine	*
+28	gute	gut	_	ADJA	_	_	_	_	_	I-NC	1992-1996	wc7	gute	*
+29	Sache	Sache	_	NN	_	_	_	_	_	I-NC	1997-2002	wc8	Sache	*
+30	fuͤr	für	_	APPR	_	_	_	_	_	B-PC	2003-2007	wc9	für	*
+31	mir	ich	_	PPER	_	_	_	_	_	I-PC	2008-2011	wca	mir	*
+32	zu	zu	_	PTKZU	_	_	_	_	_	O	2012-2014	wcb	zu	*
+33	haben	haben	_	VAINF	_	_	_	_	_	O	2015-2020	wcc	haben	*
+34	.	.	_	$.	_	_	_	_	_	O	2021-2022	wcd	.	*
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# text = Es iſt angenehm in dergleichen Zwi-<lb/>ſtigkeiten alſobald einen Schieds- Mann und Richter zu kennen , und ich bin uͤberfuͤhrt , daß Ew. Excellence hiezu eine vollenkommene Faͤhigkeit beſitzen .
+1	Es	es	_	PPER	_	_	_	_	_	B-NC	2024-2026	wce	Es	*
+2	iſt	sein	_	VAFIN	_	_	_	_	_	O	2027-2030	wcf	ist	*
+3	angenehm	angenehm	_	ADJD	_	_	_	_	_	B-AC	2031-2039	wd0	angenehm	*
+4	in	in	_	APPR	_	_	_	_	_	B-PC	2040-2042	wd1	in	*
+5	dergleichen	dergleichen	_	PDAT	_	_	_	_	_	I-PC	2043-2054	wd2	dergleichen	*
+6	Zwi-<lb/>ſtigkeiten	Zwistigkeit	_	NN	_	_	_	_	_	I-PC	2055-2074	wd3	Zwistigkeiten	*
+7	alſobald	alsobald	_	ADV	_	_	_	_	_	B-ADVC	2075-2083	wd4	alsobald	*
+8	einen	eine	_	ART	_	_	_	_	_	B-NC	2084-2089	wd5	einen	*
+9	Schieds-	schieds-	_	NN	_	_	_	_	_	I-NC	2090-2098	wd6	Schieds-	*
+10	Mann	Mann	_	NN	_	_	_	_	_	B-NC	2099-2103	wd7	Mann	*
+11	und	und	_	KON	_	_	_	_	_	O	2104-2107	wd8	und	*
+12	Richter	Richter	_	NN	_	_	_	_	_	B-NC	2108-2115	wd9	Richter	*
+13	zu	zu	_	PTKZU	_	_	_	_	_	O	2116-2118	wda	zu	*
+14	kennen	kennen	_	VVINF	_	_	_	_	_	O	2119-2125	wdb	kennen	*
+15	,	,	_	$,	_	_	_	_	_	O	2126-2127	wdc	,	*
+16	und	und	_	KON	_	_	_	_	_	O	2128-2131	wdd	und	*
+17	ich	ich	_	PPER	_	_	_	_	_	B-NC	2132-2135	wde	ich	*
+18	bin	sein	_	VAFIN	_	_	_	_	_	O	2136-2139	wdf	bin	*
+19	uͤberfuͤhrt	überführen	_	VVPP	_	_	_	_	_	O	2140-2151	we0	überführt	*
+20	,	,	_	$,	_	_	_	_	_	O	2152-2153	we1	,	*
+21	daß	daß	_	KOUS	_	_	_	_	_	O	2154-2157	we2	daß	*
+22	Ew.	Ew.	_	PPOSAT	_	_	_	_	_	B-NC	2158-2161	we3	Ew.	*
+23	Excellence	Excellence	_	NN	_	_	_	_	_	I-NC	2162-2172	we4	Excellence	*
+24	hiezu	hierzu	_	PAV	_	_	_	_	_	B-NC	2173-2178	we5	hierzu	*
+25	eine	eine	_	ART	_	_	_	_	_	B-NC	2179-2183	we6	eine	*
+26	vollenkommene	vollkommen	_	ADJA	_	_	_	_	_	I-NC	2184-2197	we7	vollkommene	*
+27	Faͤhigkeit	Fähigkeit	_	NN	_	_	_	_	_	I-NC	2198-2208	we8	Fähigkeit	*
+28	beſitzen	besitzen	_	VVINF	_	_	_	_	_	O	2209-2217	we9	besitzen	*
+29	.	.	_	$.	_	_	_	_	_	O	2218-2219	wea	.	*
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# text = Jch trete der Warheit in keine Wege zu nahe , weñ ich oͤffentlich bekenne , daß man Dero Urtheil weder partheyiſch noch ungegruͤndet wuͤrde finden .
+1	Jch	ich	_	PPER	_	_	_	_	_	B-NC	2221-2224	web	Ich	*
+2	trete	treten	_	VVFIN	_	_	_	_	_	O	2225-2230	wec	trete	*
+3	der	d	_	ART	_	_	_	_	_	B-NC	2231-2234	wed	der	*
+4	Warheit	Wahrheit	_	NN	_	_	_	_	_	I-NC	2235-2242	wee	Wahrheit	*
+5	in	in	_	APPR	_	_	_	_	_	B-PC	2243-2245	wef	in	*
+6	keine	keine	_	PIAT	_	_	_	_	_	I-PC	2246-2251	wf0	keine	*
+7	Wege	Weg	_	NN	_	_	_	_	_	I-PC	2252-2256	wf1	Wege	*
+8	zu	zu	_	PTKA	_	_	_	_	_	B-AC	2257-2259	wf2	zu	*
+9	nahe	nahe	_	ADJD	_	_	_	_	_	I-AC	2260-2264	wf3	nahe	*
+10	,	,	_	$,	_	_	_	_	_	O	2265-2266	wf4	,	*
+11	weñ	wenn	_	KOUS	_	_	_	_	_	O	2267-2271	wf5	wenn	*
+12	ich	ich	_	PPER	_	_	_	_	_	B-NC	2272-2275	wf6	ich	*
+13	oͤffentlich	öffentlich	_	ADJD	_	_	_	_	_	B-AC	2276-2287	wf7	öffentlich	*
+14	bekenne	bekennen	_	VVFIN	_	_	_	_	_	O	2288-2295	wf8	bekenne	*
+15	,	,	_	$,	_	_	_	_	_	O	2296-2297	wf9	,	*
+16	daß	daß	_	KOUS	_	_	_	_	_	O	2298-2301	wfa	daß	*
+17	man	man	_	PIS	_	_	_	_	_	B-NC	2302-2305	wfb	man	*
+18	Dero	die	_	PDAT	_	_	_	_	_	B-NC	2306-2310	wfc	Deren	*
+19	Urtheil	Urteil	_	NN	_	_	_	_	_	I-NC	2311-2318	wfd	Urteil	*
+20	weder	weder	_	KON	_	_	_	_	_	O	2319-2324	wfe	weder	*
+21	partheyiſch	parteiisch	_	ADJD	_	_	_	_	_	B-AC	2325-2336	wff	parteiisch	*
+22	noch	noch	_	KON	_	_	_	_	_	O	2337-2341	w100	noch	*
+23	ungegruͤndet	ungegründet	_	ADJD	_	_	_	_	_	B-AC	2342-2354	w101	ungegründet	*
+24	wuͤrde	werden	_	VAFIN	_	_	_	_	_	O	2355-2361	w102	würde	*
+25	finden	finden	_	VVINF	_	_	_	_	_	O	2362-2368	w103	finden	*
+26	.	.	_	$.	_	_	_	_	_	O	2369-2370	w104	.	*
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# text = Die-<lb/>ſe Urſache koͤnte ſchon mein Unterneh-<lb/>men , da ich dieſe geringe Arbeit Ew. Excellence zueigne , fuͤr ſich rechtfertigen .
+1	Die-<lb/>ſe	diese	_	PDAT	_	_	_	_	_	B-NC	2372-2383	w105	Diese	*
+2	Urſache	Ursache	_	NN	_	_	_	_	_	I-NC	2384-2391	w106	Ursache	*
+3	koͤnte	können	_	VMFIN	_	_	_	_	_	O	2392-2398	w107	könnte	*
+4	ſchon	schon	_	ADV	_	_	_	_	_	B-ADVC	2399-2404	w108	schon	*
+5	mein	mein	_	PPOSAT	_	_	_	_	_	B-NC	2405-2409	w109	mein	*
+6	Unterneh-<lb/>men	Unternehmen	_	NN	_	_	_	_	_	I-NC	2410-2427	w10a	Unternehmen	*
+7	,	,	_	$,	_	_	_	_	_	O	2428-2429	w10b	,	*
+8	da	da	_	KOUS	_	_	_	_	_	O	2430-2432	w10c	da	*
+9	ich	ich	_	PPER	_	_	_	_	_	B-NC	2433-2436	w10d	ich	*
+10	dieſe	diese	_	PDAT	_	_	_	_	_	B-NC	2437-2442	w10e	diese	*
+11	geringe	gering	_	ADJA	_	_	_	_	_	I-NC	2443-2450	w10f	geringe	*
+12	Arbeit	Arbeit	_	NN	_	_	_	_	_	I-NC	2451-2457	w110	Arbeit	*
+13	Ew.	Ew.	_	PPOSAT	_	_	_	_	_	B-NC	2458-2461	w111	Ew.	*
+14	Excellence	Excellence	_	NN	_	_	_	_	_	I-NC	2462-2472	w112	Excellence	*
+15	zueigne	zueignen	_	VVFIN	_	_	_	_	_	O	2473-2480	w113	zueigne	*
+16	,	,	_	$,	_	_	_	_	_	O	2481-2482	w114	,	*
+17	fuͤr	für	_	APPR	_	_	_	_	_	B-PC	2483-2487	w115	für	*
+18	ſich	sich	_	PRF	_	_	_	_	_	I-PC	2488-2492	w116	sich	*
+19	rechtfertigen	rechtfertigen	_	VVINF	_	_	_	_	_	O	2493-2506	w117	rechtfertigen	*
+20	.	.	_	$.	_	_	_	_	_	O	2507-2508	w118	.	*
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# text = Sie iſt es aber nicht allein .
+1	Sie	sie	_	PPER	_	_	_	_	_	B-NC	2510-2513	w119	Sie	*
+2	iſt	sein	_	VAFIN	_	_	_	_	_	O	2514-2517	w11a	ist	*
+3	es	es	_	PPER	_	_	_	_	_	B-NC	2518-2520	w11b	es	*
+4	aber	aber	_	ADV	_	_	_	_	_	B-ADVC	2521-2525	w11c	aber	*
+5	nicht	nicht	_	PTKNEG	_	_	_	_	_	B-ADVC	2526-2531	w11d	nicht	*
+6	allein	allein	_	ADV	_	_	_	_	_	I-ADVC	2532-2538	w11e	allein	*
+7	.	.	_	$.	_	_	_	_	_	O	2539-2540	w11f	.	*
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# text = Der kraͤf-<lb/>tigſte Bewegungs-Grund nimmt ſei-<lb/>nen Urſprung aus einer zaͤrtlichen Leydenſchaft meines Gemuͤhts .
+1	Der	d	_	ART	_	_	_	_	_	B-NC	2542-2545	w120	Der	*
+2	kraͤf-<lb/>tigſte	kräftig	_	ADJA	_	_	_	_	_	I-NC	2546-2563	w121	kräftigste	*
+3	Bewegungs-Grund	Bewegungs-Grund	_	NN	_	_	_	_	_	I-NC	2564-2579	w122	Bewegungs-Grund	*
+4	nimmt	nehmen	_	VVFIN	_	_	_	_	_	O	2580-2585	w123	nimmt	*
+5	ſei-<lb/>nen	seine	_	PPOSAT	_	_	_	_	_	B-NC	2586-2598	w124	seinen	*
+6	Urſprung	Ursprung	_	NN	_	_	_	_	_	I-NC	2599-2607	w125	Ursprung	*
+7	aus	aus	_	APPR	_	_	_	_	_	B-PC	2608-2611	w126	aus	*
+8	einer	eine	_	ART	_	_	_	_	_	I-PC	2612-2617	w127	einer	*
+9	zaͤrtlichen	zärtlich	_	ADJA	_	_	_	_	_	I-PC	2618-2629	w128	zärtlichen	*
+10	Leydenſchaft	Leidenschaft	_	NN	_	_	_	_	_	I-PC	2630-2642	w129	Leidenschaft	*
+11	meines	meine	_	PPOSAT	_	_	_	_	_	B-NC	2643-2649	w12a	meines	*
+12	Gemuͤhts	Gemüt	_	NN	_	_	_	_	_	I-NC	2650-2658	w12b	Gemüts	*
+13	.	.	_	$.	_	_	_	_	_	O	2659-2660	w12c	.	*
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# text = Die Empfindung von Ew. Excellence lieb-<lb/>reichen Zuneigung gegen meine Per-<lb/>ſon und wuͤrcklich genoſſenen Wohl-<lb/>thaten lieget mir ſo tieff im Hertzen , daß die Entlegenheit des Orts Dero Auffenthalts ſelbige ſo wenig auszu-<lb/>loͤſchen vermag ; als wenig der Ablauf der Zeiten ſolche hat hinweg nehmen koͤnnen .
+1	Die	d	_	ART	_	_	_	_	_	B-NC	2662-2665	w12d	Die	*
+2	Empfindung	Empfindung	_	NN	_	_	_	_	_	I-NC	2666-2676	w12e	Empfindung	*
+3	von	von	_	APPR	_	_	_	_	_	B-PC	2677-2680	w12f	von	*
+4	Ew.	Ew.	_	PPOSAT	_	_	_	_	_	I-PC	2681-2684	w130	Ew.	*
+5	Excellence	Excellence	_	NN	_	_	_	_	_	I-PC	2685-2695	w131	Excellence	*
+6	lieb-<lb/>reichen	liebreich	_	ADJA	_	_	_	_	_	B-NC	2696-2713	w132	liebreichen	*
+7	Zuneigung	Zuneigung	_	NN	_	_	_	_	_	I-NC	2714-2723	w133	Zuneigung	*
+8	gegen	gegen	_	APPR	_	_	_	_	_	B-PC	2724-2729	w134	gegen	*
+9	meine	meine	_	PPOSAT	_	_	_	_	_	I-PC	2730-2735	w135	meine	*
+10	Per-<lb/>ſon	Person	_	NN	_	_	_	_	_	I-PC	2736-2748	w136	Person	*
+11	und	und	_	KON	_	_	_	_	_	O	2749-2752	w137	und	*
+12	wuͤrcklich	wirklich	_	ADJD	_	_	_	_	_	B-NC	2753-2763	w138	wirklich	*
+13	genoſſenen	genießen	_	ADJA	_	_	_	_	_	I-NC	2764-2774	w139	genossenen	*
+14	Wohl-<lb/>thaten	Wohltat	_	NN	_	_	_	_	_	I-NC	2775-2791	w13a	Wohltaten	*
+15	lieget	liegen	_	VVFIN	_	_	_	_	_	O	2792-2798	w13b	liegt	*
+16	mir	ich	_	PPER	_	_	_	_	_	B-NC	2799-2802	w13c	mir	*
+17	ſo	so	_	ADV	_	_	_	_	_	B-ADVC	2803-2805	w13d	so	*
+18	tieff	tief	_	ADJD	_	_	_	_	_	B-AC	2806-2811	w13e	tief	*
+19	im	im	_	APPRART	_	_	_	_	_	B-PC	2812-2814	w13f	im	*
+20	Hertzen	Herz	_	NN	_	_	_	_	_	I-PC	2815-2822	w140	Herzen	*
+21	,	,	_	$,	_	_	_	_	_	O	2823-2824	w141	,	*
+22	daß	daß	_	KOUS	_	_	_	_	_	O	2825-2828	w142	daß	*
+23	die	d	_	ART	_	_	_	_	_	B-NC	2829-2832	w143	die	*
+24	Entlegenheit	Entlegenheit	_	NN	_	_	_	_	_	I-NC	2833-2845	w144	Entlegenheit	*
+25	des	d	_	ART	_	_	_	_	_	B-NC	2846-2849	w145	des	*
+26	Orts	Ort	_	NN	_	_	_	_	_	I-NC	2850-2854	w146	Orts	*
+27	Dero	die	_	PDAT	_	_	_	_	_	B-NC	2855-2859	w147	Deren	*
+28	Auffenthalts	Aufenthalt	_	NN	_	_	_	_	_	I-NC	2860-2872	w148	Aufenthalts	*
+29	ſelbige	selbig	_	PDS	_	_	_	_	_	B-NC	2873-2880	w149	selbige	*
+30	ſo	so	_	ADV	_	_	_	_	_	B-ADVC	2881-2883	w14a	so	*
+31	wenig	wenig	_	ADJD	_	_	_	_	_	B-AC	2884-2889	w14b	wenig	*
+32	auszu-<lb/>loͤſchen	auslöschen	_	VVIZU	_	_	_	_	_	O	2890-2909	w14c	auszulöschen	*
+33	vermag	vermögen	_	VVFIN	_	_	_	_	_	O	2910-2916	w14d	vermag	*
+34	;	;	_	$.	_	_	_	_	_	O	2917-2918	w14e	;	*
+35	als	als	_	KOKOM	_	_	_	_	_	B-AC	2919-2922	w14f	als	*
+36	wenig	wenig	_	ADJD	_	_	_	_	_	I-AC	2923-2928	w150	wenig	*
+37	der	d	_	ART	_	_	_	_	_	B-NC	2929-2932	w151	der	*
+38	Ablauf	Ablauf	_	NN	_	_	_	_	_	I-NC	2933-2939	w152	Ablauf	*
+39	der	d	_	ART	_	_	_	_	_	B-NC	2940-2943	w153	der	*
+40	Zeiten	Zeit	_	NN	_	_	_	_	_	I-NC	2944-2950	w154	Zeiten	*
+41	ſolche	solch	_	PIS	_	_	_	_	_	B-NC	2951-2957	w155	solche	*
+42	hat	haben	_	VAFIN	_	_	_	_	_	O	2958-2961	w156	hat	*
+43	hinweg	hinweg	_	PTKVZ	_	_	_	_	_	O	2962-2968	w157	hinweg	*
+44	nehmen	nehmen	_	VVINF	_	_	_	_	_	O	2969-2975	w158	nehmen	*
+45	koͤnnen	können	_	VMINF	_	_	_	_	_	O	2976-2983	w159	können	*
+46	.	.	_	$.	_	_	_	_	_	O	2984-2985	w15a	.	*
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# text = Es geben ſich jezuweilen gluͤckliche Umſtaͤnde in unſerm Leben an , welche in den gantzen Uberreſt deſ-<lb/>ſelben einen Einfluß haben : wenig-<lb/>ſtens ſich von denen uͤbrigen Bege-<lb/>gnuͤſſen mercklich unterſcheiden .
+1	Es	es	_	PPER	_	_	_	_	_	B-NC	2987-2989	w15b	Es	*
+2	geben	geben	_	VVFIN	_	_	_	_	_	O	2990-2995	w15c	geben	*
+3	ſich	sich	_	PRF	_	_	_	_	_	B-NC	2996-3000	w15d	sich	*
+4	jezuweilen	jezuweilen	_	ADV	_	_	_	_	_	B-ADVC	3001-3011	w15e	jezuweilen	*
+5	gluͤckliche	glücklich	_	ADJA	_	_	_	_	_	B-NC	3012-3023	w15f	glückliche	*
+6	Umſtaͤnde	Umstand	_	NN	_	_	_	_	_	I-NC	3024-3033	w160	Umstände	*
+7	in	in	_	APPR	_	_	_	_	_	B-PC	3034-3036	w161	in	*
+8	unſerm	unsere	_	PPOSAT	_	_	_	_	_	I-PC	3037-3043	w162	unserem	*
+9	Leben	Leben	_	NN	_	_	_	_	_	I-PC	3044-3049	w163	Leben	*
+10	an	an	_	PTKVZ	_	_	_	_	_	O	3050-3052	w164	an	*
+11	,	,	_	$,	_	_	_	_	_	O	3053-3054	w165	,	*
+12	welche	welche	_	PRELS	_	_	_	_	_	B-NC	3055-3061	w166	welche	*
+13	in	in	_	APPR	_	_	_	_	_	B-PC	3062-3064	w167	in	*
+14	den	d	_	ART	_	_	_	_	_	I-PC	3065-3068	w168	den	*
+15	gantzen	ganz	_	ADJA	_	_	_	_	_	I-PC	3069-3076	w169	ganzen	*
+16	Uberreſt	Überrest	_	NN	_	_	_	_	_	I-PC	3077-3085	w16a	Überrest	*
+17	deſ-<lb/>ſelben	dieselbe	_	PDS	_	_	_	_	_	B-NC	3086-3101	w16b,w16b_1,w16b_2,w16b_3,w16b_4	desselben	*
+18	einen	eine	_	ART	_	_	_	_	_	B-NC	3102-3107	w16c	einen	*
+19	Einfluß	Einfluß	_	NN	_	_	_	_	_	I-NC	3108-3115	w16d	Einfluß	*
+20	haben	haben	_	VAFIN	_	_	_	_	_	O	3116-3121	w16e	haben	*
+21	:	:	_	$.	_	_	_	_	_	O	3122-3123	w16f	:	*
+22	wenig-<lb/>ſtens	wenigstens	_	ADV	_	_	_	_	_	B-ADVC	3124-3140	w170	wenigstens	*
+23	ſich	sich	_	PRF	_	_	_	_	_	B-NC	3141-3145	w171	sich	*
+24	von	von	_	APPR	_	_	_	_	_	B-PC	3146-3149	w172	von	*
+25	denen	die	_	PDAT	_	_	_	_	_	I-PC	3150-3155	w173	denen	*
+26	uͤbrigen	übrig	_	ADJA	_	_	_	_	_	I-PC	3156-3164	w174	übrigen	*
+27	Bege-<lb/>gnuͤſſen	Begegnüssen	_	NN	_	_	_	_	_	I-PC	3165-3183	w175	Begegnüssen	*
+28	mercklich	merklich	_	ADJD	_	_	_	_	_	B-AC	3184-3193	w176	merklich	*
+29	unterſcheiden	unterscheiden	_	VVINF	_	_	_	_	_	O	3194-3207	w177	unterscheiden	*
+30	.	.	_	$.	_	_	_	_	_	O	3208-3209	w178	.	*
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# text = Mir iſt die Gelegenheit , da ich Ew. Excellence zuerſt bekannt geworden , allezeit als die Vortheilhaftſte , die ich in der Welt gehabt , vorgekommen :
+1	Mir	ich	_	PPER	_	_	_	_	_	B-NC	3211-3214	w179	Mir	*
+2	iſt	sein	_	VAFIN	_	_	_	_	_	O	3215-3218	w17a	ist	*
+3	die	d	_	ART	_	_	_	_	_	B-NC	3219-3222	w17b	die	*
+4	Gelegenheit	Gelegenheit	_	NN	_	_	_	_	_	I-NC	3223-3234	w17c	Gelegenheit	*
+5	,	,	_	$,	_	_	_	_	_	O	3235-3236	w17d	,	*
+6	da	da	_	KOUS	_	_	_	_	_	O	3237-3239	w17e	da	*
+7	ich	ich	_	PPER	_	_	_	_	_	B-NC	3240-3243	w17f	ich	*
+8	Ew.	Ew.	_	PPOSAT	_	_	_	_	_	B-NC	3244-3247	w180	Ew.	*
+9	Excellence	Excellence	_	NN	_	_	_	_	_	I-NC	3248-3258	w181	Excellence	*
+10	zuerſt	zuerst	_	ADV	_	_	_	_	_	B-ADVC	3259-3265	w182	zuerst	*
+11	bekannt	bekannt	_	ADJD	_	_	_	_	_	B-AC	3266-3273	w183	bekannt	*
+12	geworden	werden	_	VAPP	_	_	_	_	_	O	3274-3282	w184	geworden	*
+13	,	,	_	$,	_	_	_	_	_	O	3283-3284	w185	,	*
+14	allezeit	allezeit	_	ADV	_	_	_	_	_	B-ADVC	3285-3293	w186	allezeit	*
+15	als	als	_	KOKOM	_	_	_	_	_	B-NC	3294-3297	w187	als	*
+16	die	d	_	ART	_	_	_	_	_	I-NC	3298-3301	w188	die	*
+17	Vortheilhaftſte	vorteilhaft	_	NN	_	_	_	_	_	I-NC	3302-3317	w189	Vorteilhaftste	*
+18	,	,	_	$,	_	_	_	_	_	O	3318-3319	w18a	,	*
+19	die	die	_	PRELS	_	_	_	_	_	B-NC	3320-3323	w18b	die	*
+20	ich	ich	_	PPER	_	_	_	_	_	B-NC	3324-3327	w18c	ich	*
+21	in	in	_	APPR	_	_	_	_	_	B-PC	3328-3330	w18d	in	*
+22	der	d	_	ART	_	_	_	_	_	I-PC	3331-3334	w18e	der	*
+23	Welt	Welt	_	NN	_	_	_	_	_	I-PC	3335-3339	w18f	Welt	*
+24	gehabt	haben	_	VAPP	_	_	_	_	_	O	3340-3346	w190	gehabt	*
+25	,	,	_	$,	_	_	_	_	_	O	3347-3348	w191	,	*
+26	vorgekommen	vorkommen	_	VVPP	_	_	_	_	_	O	3349-3360	w192	vorgekommen	*
+27	:	:	_	$.	_	_	_	_	_	O	3361-3362	w193	:	*
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# text = wenigſtens kan ich ruͤhmen , daß ſolche zu mei-<lb/>nen zeitlichen Wohlſeyn einen merckli-<lb/>chen Grund gelegt .
+1	wenigſtens	wenigstens	_	ADV	_	_	_	_	_	B-ADVC	3364-3374	w194	wenigstens	*
+2	kan	können	_	VMFIN	_	_	_	_	_	O	3375-3378	w195	kann	*
+3	ich	ich	_	PPER	_	_	_	_	_	B-NC	3379-3382	w196	ich	*
+4	ruͤhmen	rühmen	_	VVINF	_	_	_	_	_	O	3383-3390	w197	rühmen	*
+5	,	,	_	$,	_	_	_	_	_	O	3391-3392	w198	,	*
+6	daß	daß	_	KOUS	_	_	_	_	_	O	3393-3396	w199	daß	*
+7	ſolche	solch	_	PIS	_	_	_	_	_	B-NC	3397-3403	w19a	solche	*
+8	zu	zu	_	APPR	_	_	_	_	_	B-PC	3404-3406	w19b	zu	*
+9	mei-<lb/>nen	meine	_	PPOSAT	_	_	_	_	_	I-PC	3407-3419	w19c	meinen	*
+10	zeitlichen	zeitlich	_	ADJA	_	_	_	_	_	I-PC	3420-3430	w19d	zeitlichen	*
+11	Wohlſeyn	Wohlsein	_	NN	_	_	_	_	_	I-PC	3431-3439	w19e	Wohlsein	*
+12	einen	eine	_	ART	_	_	_	_	_	B-NC	3440-3445	w19f	einen	*
+13	merckli-<lb/>chen	merklich	_	ADJA	_	_	_	_	_	I-NC	3446-3463	w1a0	merklichen	*
+14	Grund	Grund	_	NN	_	_	_	_	_	I-NC	3464-3469	w1a1	Grund	*
+15	gelegt	legen	_	VVPP	_	_	_	_	_	O	3470-3476	w1a2	gelegt	*
+16	.	.	_	$.	_	_	_	_	_	O	3477-3478	w1a3	.	*
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# text = Die Weißheit , ſo alle menſchliche Dinge nach heiligen Geſetzen regieret , hat es gefuͤget , daß eben zu der Zeit , da ich meine Academi-<lb/>ſchen Studia auf der wehrten Kieliſchen Univerſitaͤt , die Gott im Segen erhalte ! geendiget , und um eine Gelegenheit , wie bey meinen wenigen Mitteln der-<lb/>ſelben Wachsthum ferner moͤgte be-<lb/>fordert werden , bekuͤmmert war , Ew. Excellence unvermuhtet meiner Unterweiſung und Aufſicht anbefoh-<lb/>len wurden .
+1	Die	d	_	ART	_	_	_	_	_	B-NC	3480-3483	w1a4	Die	*
+2	Weißheit	Weisheit	_	NN	_	_	_	_	_	I-NC	3484-3492	w1a5	Weisheit	*
+3	,	,	_	$,	_	_	_	_	_	O	3493-3494	w1a6	,	*
+4	ſo	so	_	PRELS	_	_	_	_	_	B-NC	3495-3497	w1a7	so	*
+5	alle	alle	_	PIAT	_	_	_	_	_	B-NC	3498-3502	w1a8	alle	*
+6	menſchliche	menschlich	_	ADJA	_	_	_	_	_	I-NC	3503-3514	w1a9	menschliche	*
+7	Dinge	Ding	_	NN	_	_	_	_	_	I-NC	3515-3520	w1aa	Dinge	*
+8	nach	nach	_	APPR	_	_	_	_	_	B-PC	3521-3525	w1ab	nach	*
+9	heiligen	heilig	_	ADJA	_	_	_	_	_	I-PC	3526-3534	w1ac	heiligen	*
+10	Geſetzen	Gesetz	_	NN	_	_	_	_	_	I-PC	3535-3543	w1ad	Gesetzen	*
+11	regieret	regieren	_	VVFIN	_	_	_	_	_	O	3544-3552	w1ae	regieret	*
+12	,	,	_	$,	_	_	_	_	_	O	3553-3554	w1af	,	*
+13	hat	haben	_	VAFIN	_	_	_	_	_	O	3555-3558	w1b0	hat	*
+14	es	es	_	PPER	_	_	_	_	_	B-NC	3559-3561	w1b1	es	*
+15	gefuͤget	fügen	_	VVPP	_	_	_	_	_	O	3562-3570	w1b2	gefügt	*
+16	,	,	_	$,	_	_	_	_	_	O	3571-3572	w1b3	,	*
+17	daß	daß	_	KOUS	_	_	_	_	_	O	3573-3576	w1b4	daß	*
+18	eben	eben	_	ADV	_	_	_	_	_	B-ADVC	3577-3581	w1b5	eben	*
+19	zu	zu	_	APPR	_	_	_	_	_	B-PC	3582-3584	w1b6	zu	*
+20	der	d	_	ART	_	_	_	_	_	I-PC	3585-3588	w1b7	der	*
+21	Zeit	Zeit	_	NN	_	_	_	_	_	I-PC	3589-3593	w1b8	Zeit	*
+22	,	,	_	$,	_	_	_	_	_	O	3594-3595	w1b9	,	*
+23	da	da	_	KOUS	_	_	_	_	_	O	3596-3598	w1ba	da	*
+24	ich	ich	_	PPER	_	_	_	_	_	B-NC	3599-3602	w1bb	ich	*
+25	meine	meine	_	PPOSAT	_	_	_	_	_	B-NC	3603-3608	w1bc	meine	*
+26	Academi-<lb/>ſchen	akademisch	_	ADJA	_	_	_	_	_	I-NC	3609-3627	w1bd,w1bd_1,w1bd_2	akademischen	*
+27	Studia	Studia	_	NN	_	_	_	_	_	I-NC	3628-3634	w1be	Studia	*
+28	auf	auf	_	APPR	_	_	_	_	_	B-PC	3635-3638	w1bf	auf	*
+29	der	d	_	ART	_	_	_	_	_	I-PC	3639-3642	w1c0	der	*
+30	wehrten	wehren	_	ADJA	_	_	_	_	_	I-PC	3643-3650	w1c1	wehrten	*
+31	Kieliſchen	Kielischen	_	ADJA	_	_	_	_	_	I-PC	3651-3661	w1c2	Kielischen	*
+32	Univerſitaͤt	Universität	_	NN	_	_	_	_	_	I-PC	3662-3674	w1c3,w1c3_1	Universität	*
+33	,	,	_	$,	_	_	_	_	_	O	3675-3676	w1c4	,	*
+34	die	d	_	PRELS	_	_	_	_	_	B-NC	3677-3680	w1c5	die	*
+35	Gott	Gott	_	NN	_	_	_	_	_	B-NC	3681-3685	w1c6	Gott	*
+36	im	im	_	APPRART	_	_	_	_	_	B-PC	3686-3688	w1c7	im	*
+37	Segen	Segen	_	NN	_	_	_	_	_	I-PC	3689-3694	w1c8	Segen	*
+38	erhalte	erhalten	_	VVFIN	_	_	_	_	_	O	3695-3702	w1c9	erhalte	*
+39	!	!	_	$.	_	_	_	_	_	O	3703-3704	w1ca	!	*
+40	geendiget	endigen	_	VVPP	_	_	_	_	_	O	3705-3714	w1cb	geendigt	*
+41	,	,	_	$,	_	_	_	_	_	O	3715-3716	w1cc	,	*
+42	und	und	_	KON	_	_	_	_	_	O	3717-3720	w1cd	und	*
+43	um	um	_	APPR	_	_	_	_	_	B-PC	3721-3723	w1ce	um	*
+44	eine	eine	_	ART	_	_	_	_	_	I-PC	3724-3728	w1cf	eine	*
+45	Gelegenheit	Gelegenheit	_	NN	_	_	_	_	_	I-PC	3729-3740	w1d0	Gelegenheit	*
+46	,	,	_	$,	_	_	_	_	_	O	3741-3742	w1d1	,	*
+47	wie	wie	_	KOUS	_	_	_	_	_	O	3743-3746	w1d2	wie	*
+48	bey	bei	_	APPR	_	_	_	_	_	B-PC	3747-3750	w1d3	bei	*
+49	meinen	meine	_	PPOSAT	_	_	_	_	_	I-PC	3751-3757	w1d4	meinen	*
+50	wenigen	wenige	_	PIAT	_	_	_	_	_	I-PC	3758-3765	w1d5	wenigen	*
+51	Mitteln	Mittel	_	NN	_	_	_	_	_	I-PC	3766-3773	w1d6	Mitteln	*
+52	der-<lb/>ſelben	dieselbe	_	PDS	_	_	_	_	_	B-NC	3774-3789	w1d7	derselben	*
+53	Wachsthum	Wachstum	_	NN	_	_	_	_	_	B-NC	3790-3799	w1d8	Wachstum	*
+54	ferner	ferner	_	ADV	_	_	_	_	_	B-ADVC	3800-3806	w1d9	ferner	*
+55	moͤgte	mögen	_	VMFIN	_	_	_	_	_	O	3807-3813	w1da	möchte	*
+56	be-<lb/>fordert	befördern	_	VVPP	_	_	_	_	_	O	3814-3829	w1db	befördert	*
+57	werden	werden	_	VAINF	_	_	_	_	_	O	3830-3836	w1dc	werden	*
+58	,	,	_	$,	_	_	_	_	_	O	3837-3838	w1dd	,	*
+59	bekuͤmmert	bekümmern	_	VVPP	_	_	_	_	_	O	3839-3849	w1de	bekümmert	*
+60	war	sein	_	VAFIN	_	_	_	_	_	O	3850-3853	w1df	war	*
+61	,	,	_	$,	_	_	_	_	_	O	3854-3855	w1e0	,	*
+62	Ew.	Ew.	_	PPOSAT	_	_	_	_	_	B-NC	3856-3859	w1e1	Ew.	*
+63	Excellence	Excellence	_	NN	_	_	_	_	_	I-NC	3860-3870	w1e2	Excellence	*
+64	unvermuhtet	unvermutet	_	ADJD	_	_	_	_	_	B-AC	3871-3882	w1e3	unvermutet	*
+65	meiner	meine	_	PPOSAT	_	_	_	_	_	B-NC	3883-3889	w1e4	meiner	*
+66	Unterweiſung	Unterweisung	_	NN	_	_	_	_	_	I-NC	3890-3902	w1e5	Unterweisung	*
+67	und	und	_	KON	_	_	_	_	_	O	3903-3906	w1e6	und	*
+68	Aufſicht	Aufsicht	_	NN	_	_	_	_	_	B-NC	3907-3915	w1e7	Aufsicht	*
+69	anbefoh-<lb/>len	anbefehlen	_	VVPP	_	_	_	_	_	O	3916-3932	w1e8	anbefohlen	*
+70	wurden	werden	_	VAFIN	_	_	_	_	_	O	3933-3939	w1e9	wurden	*
+71	.	.	_	$.	_	_	_	_	_	O	3940-3941	w1ea	.	*
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# text = Andern gereicht derglei-<lb/>chen Bedienung zur Muͤhe und Laſt .
+1	Andern	ander	_	NN	_	_	_	_	_	B-NC	3943-3949	w1eb	Anderen	*
+2	gereicht	gereichen	_	VVFIN	_	_	_	_	_	O	3950-3958	w1ec	gereicht	*
+3	derglei-<lb/>chen	dergleichen	_	PDAT	_	_	_	_	_	B-NC	3959-3976	w1ed	dergleichen	*
+4	Bedienung	Bedienung	_	NN	_	_	_	_	_	I-NC	3977-3986	w1ee	Bedienung	*
+5	zur	zur	_	APPRART	_	_	_	_	_	B-PC	3987-3990	w1ef	zur	*
+6	Muͤhe	Mühe	_	NN	_	_	_	_	_	I-PC	3991-3996	w1f0	Mühe	*
+7	und	und	_	KON	_	_	_	_	_	O	3997-4000	w1f1	und	*
+8	Laſt	Last	_	NN	_	_	_	_	_	B-NC	4001-4005	w1f2	Last	*
+9	.	.	_	$.	_	_	_	_	_	O	4006-4007	w1f3	.	*
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# text = Sie laͤſt unterweilen weder Zeit noch Luſt uͤbrig , fuͤr ſich an dem Schatz der Wiſſenſchaften etwas zu gewiñen .
+1	Sie	sie	_	PPER	_	_	_	_	_	B-NC	4009-4012	w1f4	Sie	*
+2	laͤſt	lassen	_	VVFIN	_	_	_	_	_	O	4013-4018	w1f5	lässt	*
+3	unterweilen	unterweilen	_	ADV	_	_	_	_	_	B-ADVC	4019-4030	w1f6	unterweilen	*
+4	weder	weder	_	KON	_	_	_	_	_	O	4031-4036	w1f7	weder	*
+5	Zeit	Zeit	_	NN	_	_	_	_	_	B-NC	4037-4041	w1f8	Zeit	*
+6	noch	noch	_	KON	_	_	_	_	_	O	4042-4046	w1f9	noch	*
+7	Luſt	Lust	_	NN	_	_	_	_	_	B-NC	4047-4051	w1fa	Lust	*
+8	uͤbrig	übrig	_	PTKVZ	_	_	_	_	_	O	4052-4058	w1fb	übrig	*
+9	,	,	_	$,	_	_	_	_	_	O	4059-4060	w1fc	,	*
+10	fuͤr	für	_	APPR	_	_	_	_	_	B-PC	4061-4065	w1fd	für	*
+11	ſich	sich	_	PRF	_	_	_	_	_	I-PC	4066-4070	w1fe	sich	*
+12	an	an	_	APPR	_	_	_	_	_	B-PC	4071-4073	w1ff	an	*
+13	dem	d	_	ART	_	_	_	_	_	I-PC	4074-4077	w200	dem	*
+14	Schatz	Schatz	_	NN	_	_	_	_	_	I-PC	4078-4084	w201	Schatz	*
+15	der	d	_	ART	_	_	_	_	_	B-NC	4085-4088	w202	der	*
+16	Wiſſenſchaften	Wissenschaft	_	NN	_	_	_	_	_	I-NC	4089-4103	w203	Wissenschaften	*
+17	etwas	etwas	_	PIS	_	_	_	_	_	B-NC	4104-4109	w204	etwas	*
+18	zu	zu	_	PTKZU	_	_	_	_	_	O	4110-4112	w205	zu	*
+19	gewiñen	gewinnen	_	VVINF	_	_	_	_	_	O	4113-4121	w206	gewinnen	*
+20	.	.	_	$.	_	_	_	_	_	O	4122-4123	w207	.	*
+
+# sent_id = 19
+# sent_id(TSV) = 19
+# text = Jch im Gegentheilhabe aus derſelben Ver-<lb/>gnuͤgen und Vortheile geſchoͤpfft .
+1	Jch	ich	_	PPER	_	_	_	_	_	B-NC	4125-4128	w208	Ich	*
+2	im	im	_	APPRART	_	_	_	_	_	B-PC	4129-4131	w209	im	*
+3	Gegentheilhabe	Gegenteilhabe	_	VAFIN	_	_	_	_	_	O	4132-4146	w20a	Gegenteilhabe	*
+4	aus	aus	_	APPR	_	_	_	_	_	B-PC	4147-4150	w20b	aus	*
+5	derſelben	dieselbe	_	PDS	_	_	_	_	_	I-PC	4151-4160	w20c	derselben	*
+6	Ver-<lb/>gnuͤgen	Vergnügen	_	NN	_	_	_	_	_	B-NC	4161-4177	w20d	Vergnügen	*
+7	und	und	_	KON	_	_	_	_	_	O	4178-4181	w20e	und	*
+8	Vortheile	Vorteil	_	NN	_	_	_	_	_	B-NC	4182-4191	w20f	Vorteile	*
+9	geſchoͤpfft	schöpfen	_	VVPP	_	_	_	_	_	O	4192-4203	w210	geschöpft	*
+10	.	.	_	$.	_	_	_	_	_	O	4204-4205	w211	.	*
+
+# sent_id = 20
+# sent_id(TSV) = 20
+# text = Jch bin im Zweiffel , ob Ew. Excellence mehr durch meinen Unterricht , als ich durch Dero bey denen Jahren ungewoͤhnli-<lb/>che Begierde zum Wiſſen und natuͤr-<lb/>liche Scharffſinnigkeit bin erbauet worden .
+1	Jch	ich	_	PPER	_	_	_	_	_	B-NC	4207-4210	w212	Ich	*
+2	bin	sein	_	VAFIN	_	_	_	_	_	O	4211-4214	w213	bin	*
+3	im	im	_	APPRART	_	_	_	_	_	B-PC	4215-4217	w214	im	*
+4	Zweiffel	Zweifel	_	NN	_	_	_	_	_	I-PC	4218-4226	w215	Zweifel	*
+5	,	,	_	$,	_	_	_	_	_	O	4227-4228	w216	,	*
+6	ob	ob	_	KOUS	_	_	_	_	_	O	4229-4231	w217	ob	*
+7	Ew.	Ew.	_	PPOSAT	_	_	_	_	_	B-NC	4232-4235	w218	Ew.	*
+8	Excellence	Excellence	_	NN	_	_	_	_	_	I-NC	4236-4246	w219	Excellence	*
+9	mehr	mehr	_	ADV	_	_	_	_	_	B-ADVC	4247-4251	w21a	mehr	*
+10	durch	durch	_	APPR	_	_	_	_	_	B-PC	4252-4257	w21b	durch	*
+11	meinen	meine	_	PPOSAT	_	_	_	_	_	I-PC	4258-4264	w21c	meinen	*
+12	Unterricht	Unterricht	_	NN	_	_	_	_	_	I-PC	4265-4275	w21d	Unterricht	*
+13	,	,	_	$,	_	_	_	_	_	O	4276-4277	w21e	,	*
+14	als	als	_	KOUS	_	_	_	_	_	O	4278-4281	w21f	als	*
+15	ich	ich	_	PPER	_	_	_	_	_	B-NC	4282-4285	w220	ich	*
+16	durch	durch	_	APPR	_	_	_	_	_	B-PC	4286-4291	w221	durch	*
+17	Dero	die	_	PDAT	_	_	_	_	_	I-PC	4292-4296	w222	Deren	*
+18	bey	bei	_	APPR	_	_	_	_	_	I-PC	4297-4300	w223	bei	*
+19	denen	die	_	PDAT	_	_	_	_	_	I-PC	4301-4306	w224	denen	*
+20	Jahren	Jahr	_	NN	_	_	_	_	_	I-PC	4307-4313	w225	Jahren	*
+21	ungewoͤhnli-<lb/>che	ungewöhnlich	_	ADJA	_	_	_	_	_	B-NC	4314-4334	w226	ungewöhnliche	*
+22	Begierde	Begierde	_	NN	_	_	_	_	_	I-NC	4335-4343	w227	Begierde	*
+23	zum	zum	_	APPRART	_	_	_	_	_	B-PC	4344-4347	w228	zum	*
+24	Wiſſen	Wissen	_	NN	_	_	_	_	_	I-PC	4348-4354	w229	Wissen	*
+25	und	und	_	KON	_	_	_	_	_	O	4355-4358	w22a	und	*
+26	natuͤr-<lb/>liche	natürlich	_	ADJA	_	_	_	_	_	B-NC	4359-4376	w22b	natürliche	*
+27	Scharffſinnigkeit	Scharfsinnigkeit	_	NN	_	_	_	_	_	I-NC	4377-4394	w22c	Scharfsinnigkeit	*
+28	bin	sein	_	VAFIN	_	_	_	_	_	O	4395-4398	w22d	bin	*
+29	erbauet	erbauen	_	VVPP	_	_	_	_	_	O	4399-4406	w22e	erbauet	*
+30	worden	werden	_	VAPP	_	_	_	_	_	O	4407-4413	w22f	worden	*
+31	.	.	_	$.	_	_	_	_	_	O	4414-4415	w230	.	*

@@ -1,0 +1,739 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CharOffset DTA:ID DTA:NORM PHRASE POS
+# sent_id = 1
+# sent_id(TSV) = 1
+# PTBstring = (VROOT(CNP(CH(FM FURNI)(FM NOVI)(FM PHILOSOPHICI))(KON Oder)(NP(NN Beſchreibung)(NP(ART einer)(ADJA New-erfundenen)(NN Diſtillir-Kunſt)(PUNKT :)))))
+# text = FURNI NOVI PHILOSOPHICI Oder Beſchreibung einer New-erfundenen Diſtillir-Kunſt :
+1	FURNI	furni	_	FM	_	_	_	_	_	0-5	w1	FURNI	O	*
+2	NOVI	novi	_	FM	_	_	_	_	_	6-10	w2	NOVI	O	*
+3	PHILOSOPHICI	philosophici	_	FM	_	_	_	_	_	11-23	w3	PHILOSOPHICI	O	*
+4	Oder	oder	_	KON	_	_	_	_	_	24-28	w4	Oder	O	*
+5	Beſchreibung	Beschreibung	_	NN	_	_	_	_	_	29-41	w5	Beschreibung	B-NP	*
+6	einer	eine	_	ART	_	_	_	_	_	42-47	w6	einer	I-NP	*
+7	New-erfundenen	neu-erfinden	_	ADJA	_	_	_	_	_	48-62	w7	Neu-erfundenen	I-NP	*
+8	Diſtillir-Kunſt	Distillir-Kunst	_	NN	_	_	_	_	_	63-78	w8	Distillir-Kunst	I-NP	*
+9	:	:	_	$.	_	_	_	_	_	79-80	w9	:	I-NP	*
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# PTBstring = (VROOT(S(AVP(ADV Auch))(NP(PWS was))(PP(APPR fuͤr)(CNP(NN Spiritus)(KOMMA ,)(NN Olea)(KOMMA ,)(NN Flores)(KOMMA ,)(KON vnd)(PIAT andere)))(NP(PDAT dergleichen)(ADJA Vegetabiliſche)(KLAMMER /)(CAP(ADJA Anima-<lb/>liſche)(KLAMMER /)(KON vnd)(ADJA Mineraliſche))(NN Medicamenten)(KLAMMER /))(AP(PP(PAV damit))(PP(APPR auff)(ART eine)(ADJA ſonderbahre)(NN weiſe))(ADV gantz)(ADJD leichtlich)(PP(APPR mit)(ADJA groſſem)(NN Nutzen)))(VP(VMFIN koͤnnen))(VP(CVP(VVPP zugericht)(KON vnd)(VP(VVPP bereitet)))(VAINF werden)(PUNKT .))))
+# text = Auch was fuͤr Spiritus , Olea , Flores , vnd andere dergleichen Vegetabiliſche / Anima-<lb/>liſche / vnd Mineraliſche Medicamenten / damit auff eine ſonderbahre weiſe gantz leichtlich mit groſſem Nutzen koͤnnen zugericht vnd bereitet werden .
+1	Auch	auch	_	ADV	_	_	_	_	_	82-86	wa	Auch	B-ADVP	*
+2	was	was	_	PWS	_	_	_	_	_	87-90	wb	was	B-NP	*
+3	fuͤr	für	_	APPR	_	_	_	_	_	91-95	wc	für	B-PP	*
+4	Spiritus	Spiritus	_	NN	_	_	_	_	_	96-104	wd	Spiritus	I-PP	*
+5	,	,	_	$,	_	_	_	_	_	105-106	we	,	I-PP	*
+6	Olea	Olea	_	NN	_	_	_	_	_	107-111	wf	Olea	I-PP	*
+7	,	,	_	$,	_	_	_	_	_	112-113	w10	,	I-PP	*
+8	Flores	Flores	_	NN	_	_	_	_	_	114-120	w11	Flores	I-PP	*
+9	,	,	_	$,	_	_	_	_	_	121-122	w12	,	I-PP	*
+10	vnd	und	_	KON	_	_	_	_	_	123-126	w13	und	I-PP	*
+11	andere	andere	_	PIAT	_	_	_	_	_	127-133	w14	andere	I-PP	*
+12	dergleichen	dergleichen	_	PDAT	_	_	_	_	_	134-145	w15	dergleichen	B-NP	*
+13	Vegetabiliſche	Vegetabilische	_	ADJA	_	_	_	_	_	146-160	w16,w16_1	Vegetabilische	I-NP	*
+14	/	/	_	$(	_	_	_	_	_	161-162	w17	/	I-NP	*
+15	Anima-<lb/>liſche	Animalische	_	ADJA	_	_	_	_	_	163-180	w18,w18_1	Animalische	I-NP	*
+16	/	/	_	$(	_	_	_	_	_	181-182	w19	/	I-NP	*
+17	vnd	und	_	KON	_	_	_	_	_	183-186	w1a	und	I-NP	*
+18	Mineraliſche	mineralisch	_	ADJA	_	_	_	_	_	187-199	w1b,w1b_1	Mineralische	I-NP	*
+19	Medicamenten	Medikament	_	NN	_	_	_	_	_	200-212	w1c,w1c_1	Medikamenten	I-NP	*
+20	/	/	_	$(	_	_	_	_	_	213-214	w1d	/	I-NP	*
+21	damit	damit	_	PAV	_	_	_	_	_	215-220	w1e	damit	B-AP	*
+22	auff	auf	_	APPR	_	_	_	_	_	221-225	w1f	auf	I-AP	*
+23	eine	eine	_	ART	_	_	_	_	_	226-230	w20	eine	I-AP	*
+24	ſonderbahre	sonderbar	_	ADJA	_	_	_	_	_	231-242	w21	sonderbare	I-AP	*
+25	weiſe	weisen	_	NN	_	_	_	_	_	243-248	w22	weise	I-AP	*
+26	gantz	ganz	_	ADV	_	_	_	_	_	249-254	w23	ganz	I-AP	*
+27	leichtlich	leichtlich	_	ADJD	_	_	_	_	_	255-265	w24	leichtlich	I-AP	*
+28	mit	mit	_	APPR	_	_	_	_	_	266-269	w25	mit	I-AP	*
+29	groſſem	groß	_	ADJA	_	_	_	_	_	270-277	w26	großem	I-AP	*
+30	Nutzen	Nutzen	_	NN	_	_	_	_	_	278-284	w27	Nutzen	I-AP	*
+31	koͤnnen	können	_	VMFIN	_	_	_	_	_	285-292	w28	können	O	*
+32	zugericht	zurichten	_	VVPP	_	_	_	_	_	293-302	w29	zugerichtet	O	*
+33	vnd	und	_	KON	_	_	_	_	_	303-306	w2a	und	O	*
+34	bereitet	bereiten	_	VVPP	_	_	_	_	_	307-315	w2b	bereitet	O	*
+35	werden	werden	_	VAINF	_	_	_	_	_	316-322	w2c	werden	O	*
+36	.	.	_	$.	_	_	_	_	_	323-324	w2d	.	O	*
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# PTBstring = (VROOT(AVP(ADV Auch)(CS(S(PWAV wozu)(NP(PIS ſolche))(VP(VVINF dienen)(KLAMMER /)))(KON vnd)(S(PP(APPR in)(CNP(NN Medicina)(KOMMA ,)(NN Alchimia)(KOMMA ,)(KON vnd)(NP(AP(ADJA anderen))(NN Kuͤnſten))))(VP(VMFIN koͤnnen))(VP(VVPP gebraucht)(VAINF werden)(PUNKT .))))))
+# text = Auch wozu ſolche dienen / vnd in Medicina , Alchimia , vnd anderen Kuͤnſten koͤnnen gebraucht werden .
+1	Auch	auch	_	ADV	_	_	_	_	_	326-330	w2e	Auch	B-ADVP	*
+2	wozu	wozu	_	PWAV	_	_	_	_	_	331-335	w2f	wozu	I-ADVP	*
+3	ſolche	solch	_	PIS	_	_	_	_	_	336-342	w30	solche	I-ADVP	*
+4	dienen	dienen	_	VVINF	_	_	_	_	_	343-349	w31	dienen	I-ADVP	*
+5	/	/	_	$(	_	_	_	_	_	350-351	w32	/	I-ADVP	*
+6	vnd	und	_	KON	_	_	_	_	_	352-355	w33	und	I-ADVP	*
+7	in	in	_	APPR	_	_	_	_	_	356-358	w34	in	I-ADVP	*
+8	Medicina	Medicina	_	NN	_	_	_	_	_	359-367	w35	Medicina	I-ADVP	*
+9	,	,	_	$,	_	_	_	_	_	368-369	w36	,	I-ADVP	*
+10	Alchimia	Alchimie	_	NN	_	_	_	_	_	370-378	w37	Alchimie	I-ADVP	*
+11	,	,	_	$,	_	_	_	_	_	379-380	w38	,	I-ADVP	*
+12	vnd	und	_	KON	_	_	_	_	_	381-384	w39	und	I-ADVP	*
+13	anderen	ander	_	ADJA	_	_	_	_	_	385-392	w3a	anderen	I-ADVP	*
+14	Kuͤnſten	Kunst	_	NN	_	_	_	_	_	393-401	w3b	Künsten	I-ADVP	*
+15	koͤnnen	können	_	VMFIN	_	_	_	_	_	402-409	w3c	können	I-ADVP	*
+16	gebraucht	gebrauchen	_	VVPP	_	_	_	_	_	410-419	w3d	gebraucht	I-ADVP	*
+17	werden	werden	_	VAINF	_	_	_	_	_	420-426	w3e	werden	I-ADVP	*
+18	.	.	_	$.	_	_	_	_	_	427-428	w3f	.	I-ADVP	*
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# PTBstring = (VROOT(VP(NP(PIAT Allen)(NN Liebhabern))(VP(CNP(NP(ART der)(NN Warheit)(KLAMMER /))(KON vnd)(NP(ADJA Spagyriſchen)(NN Kunſt)))(VZ(PTKZU zu)(VVINF gefallen)))(PP(APPR an)(NN Tag))(VVPP gegeben)(PP(APPR Durch)(PN(NE Johannem)(NE Rudolphum)(NE Glauberum)(PUNKT .)))))
+# text = Allen Liebhabern der Warheit / vnd Spagyriſchen Kunſt zu gefallen an Tag gegeben Durch Johannem Rudolphum Glauberum .
+1	Allen	alle	_	PIAT	_	_	_	_	_	430-435	w40	Allen	B-NP	*
+2	Liebhabern	Liebhaber	_	NN	_	_	_	_	_	436-446	w41	Liebhabern	I-NP	*
+3	der	d	_	ART	_	_	_	_	_	447-450	w42	der	B-NP	*
+4	Warheit	Wahrheit	_	NN	_	_	_	_	_	451-458	w43	Wahrheit	I-NP	*
+5	/	/	_	$(	_	_	_	_	_	459-460	w44	/	I-NP	*
+6	vnd	und	_	KON	_	_	_	_	_	461-464	w45	und	I-NP	*
+7	Spagyriſchen	spagirisch	_	ADJA	_	_	_	_	_	465-477	w46	Spagirischen	I-NP	*
+8	Kunſt	Kunst	_	NN	_	_	_	_	_	478-483	w47	Kunst	I-NP	*
+9	zu	zu	_	PTKZU	_	_	_	_	_	484-486	w48	zu	O	*
+10	gefallen	gefallen	_	VVINF	_	_	_	_	_	487-495	w49	gefallen	O	*
+11	an	an	_	APPR	_	_	_	_	_	496-498	w4a	an	B-PP	*
+12	Tag	Tag	_	NN	_	_	_	_	_	499-502	w4b	Tag	I-PP	*
+13	gegeben	geben	_	VVPP	_	_	_	_	_	503-510	w4c	gegeben	O	*
+14	Durch	durch	_	APPR	_	_	_	_	_	511-516	w4d	Durch	B-PP	*
+15	Johannem	Johannes	_	NE	_	_	_	_	_	517-525	w4e	Johannes	I-PP	*
+16	Rudolphum	Rudolphum	_	NE	_	_	_	_	_	526-535	w4f	Rudolphum	I-PP	*
+17	Glauberum	Glauberum	_	NE	_	_	_	_	_	536-545	w50	Glauberum	I-PP	*
+18	.	.	_	$.	_	_	_	_	_	546-547	w51	.	I-PP	*
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# PTBstring = (VROOT(CO(NE Amſterdam)(KLAMMER /)(VP(VVPP Gedruckt)(PP(APPR bey)(NE Johann))(NP(NE Fabeln)(PUNKT .)(CARD 1648)(PUNKT .)))))
+# text = Amſterdam / Gedruckt bey Johann Fabeln . 1648 .
+1	Amſterdam	Amsterdam	_	NE	_	_	_	_	_	549-558	w52	Amsterdam	B-NP	*
+2	/	/	_	$(	_	_	_	_	_	559-560	w53	/	O	*
+3	Gedruckt	drucken	_	VVPP	_	_	_	_	_	561-569	w54	Gedruckt	O	*
+4	bey	bei	_	APPR	_	_	_	_	_	570-573	w55	bei	B-PP	*
+5	Johann	Johann	_	NE	_	_	_	_	_	574-580	w56	Johann	I-PP	*
+6	Fabeln	Fabel	_	NE	_	_	_	_	_	581-587	w57	Fabeln	B-NP	*
+7	.	.	_	$.	_	_	_	_	_	588-589	w58	.	I-NP	*
+8	1648	1648	_	CARD	_	_	_	_	_	590-594	w59	1648	I-NP	*
+9	.	.	_	$.	_	_	_	_	_	595-596	w5a	.	I-NP	*
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# PTBstring = (VROOT(NP(NN Vorrede)(PP(APPR An)(ART den)(ADJA guͤnſtigen)(NN Leſer))(PUNKT .)))
+# text = Vorrede An den guͤnſtigen Leſer .
+1	Vorrede	Vorrede	_	NN	_	_	_	_	_	598-605	w434	Vorrede	B-NP	*
+2	An	an	_	APPR	_	_	_	_	_	606-608	w435	An	I-NP	*
+3	den	d	_	ART	_	_	_	_	_	609-612	w436	den	I-NP	*
+4	guͤnſtigen	günstig	_	ADJA	_	_	_	_	_	613-623	w437	günstigen	I-NP	*
+5	Leſer	Leser	_	NN	_	_	_	_	_	624-629	w438	Leser	I-NP	*
+6	.	.	_	$.	_	_	_	_	_	630-631	w439	.	I-NP	*
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# PTBstring = (VROOT(S(AVP(S(PP(APPR NAch)(PDS dem))(NP(PPER ich))(VP(PP(APPR vor)(ADJA etlichen)(NN Jahren)(KLAMMER /))(PP(APPR durch)(CAP(ADJA embſige)(KON vnd)(ADJA fleiß-<lb/>ſige))(CNP(NN Speculation)(KON vnd)(NN Suchen)(KLAMMER /)))(NP(PIAT etliche)(ADJA ſonderliche)(ADJA compendio-<lb/>ſe)(CNP(NN Oefen)(KON vnd)(NN Modos)))(ADJD diſtillan-<lb/>di)(VVPP erfunden)(KLAMMER /)(S:RC(PP(APPR mit)(PRELS welchen))(NP(PIS man))(VP(NP(ADJA viel)(ADJA groſſe)(NN Din-<lb/>ge)(KLAMMER /)(AS(PRELS die)(VP(ADV ſonſten)(AP(PP(APPR durch)(ART die)(CAP(ADJA gemeine)(KON vnd)(ADJA bekandte))(NN Diſtillir-Kunſt))(ADJD vnmůglich))(VVINF zuthun)(KLAMMER /))))(VVINF verrich-<lb/>ten))(VP(VMFIN kan))(PUNKT .))))(ADV Alſo))(VP(VAFIN hab))(NP(PPER ich))(VP(NP(PIAT ſolche)(ADJA herrliche)(NN Invention))(ADV biß-<lb/>hero)(ADV alzeit)(PP(APPR in)(ADJD geheim))(VVPP gehalten)(PUNKT .))))
+# text = NAch dem ich vor etlichen Jahren / durch embſige vnd fleiß-<lb/>ſige Speculation vnd Suchen / etliche ſonderliche compendio-<lb/>ſe Oefen vnd Modos diſtillan-<lb/>di erfunden / mit welchen man viel groſſe Din-<lb/>ge / die ſonſten durch die gemeine vnd bekandte Diſtillir-Kunſt vnmůglich zuthun / verrich-<lb/>ten kan . Alſo hab ich ſolche herrliche Invention biß-<lb/>hero alzeit in geheim gehalten .
+1	NAch	nach	_	APPR	_	_	_	_	_	633-637	w5b,w5b_1	Nach	B-ADVP	*
+2	dem	die	_	PDS	_	_	_	_	_	638-641	w5c	dem	I-ADVP	*
+3	ich	ich	_	PPER	_	_	_	_	_	642-645	w5d	ich	I-ADVP	*
+4	vor	vor	_	APPR	_	_	_	_	_	646-649	w5e	vor	I-ADVP	*
+5	etlichen	etlich	_	ADJA	_	_	_	_	_	650-658	w5f	etlichen	I-ADVP	*
+6	Jahren	Jahr	_	NN	_	_	_	_	_	659-665	w60	Jahren	I-ADVP	*
+7	/	/	_	$(	_	_	_	_	_	666-667	w61	/	I-ADVP	*
+8	durch	durch	_	APPR	_	_	_	_	_	668-673	w62	durch	I-ADVP	*
+9	embſige	emsig	_	ADJA	_	_	_	_	_	674-681	w63	emsige	I-ADVP	*
+10	vnd	und	_	KON	_	_	_	_	_	682-685	w64	und	I-ADVP	*
+11	fleiß-<lb/>ſige	fleißige	_	ADJA	_	_	_	_	_	686-701	w65	Fleissige	I-ADVP	*
+12	Speculation	Spekulation	_	NN	_	_	_	_	_	702-713	w66	Spekulation	I-ADVP	*
+13	vnd	und	_	KON	_	_	_	_	_	714-717	w67	und	I-ADVP	*
+14	Suchen	Suche	_	NN	_	_	_	_	_	718-724	w68	Suchen	I-ADVP	*
+15	/	/	_	$(	_	_	_	_	_	725-726	w69	/	I-ADVP	*
+16	etliche	etliche	_	PIAT	_	_	_	_	_	727-734	w6a	etliche	I-ADVP	*
+17	ſonderliche	sonderlich	_	ADJA	_	_	_	_	_	735-746	w6b	sonderliche	I-ADVP	*
+18	compendio-<lb/>ſe	compendiose	_	ADJA	_	_	_	_	_	747-764	w6c,w6c_1	compendiose	I-ADVP	*
+19	Oefen	Ofen	_	NN	_	_	_	_	_	765-770	w6d	Öfen	I-ADVP	*
+20	vnd	und	_	KON	_	_	_	_	_	771-774	w6e	und	I-ADVP	*
+21	Modos	Modo	_	NN	_	_	_	_	_	775-780	w6f	Modos	I-ADVP	*
+22	diſtillan-<lb/>di	Distillandi	_	ADJD	_	_	_	_	_	781-798	w70	distillandi	I-ADVP	*
+23	erfunden	erfinden	_	VVPP	_	_	_	_	_	799-807	w71	erfunden	I-ADVP	*
+24	/	/	_	$(	_	_	_	_	_	808-809	w72	/	I-ADVP	*
+25	mit	mit	_	APPR	_	_	_	_	_	810-813	w73	mit	I-ADVP	*
+26	welchen	welchen	_	PRELS	_	_	_	_	_	814-821	w74	welchen	I-ADVP	*
+27	man	man	_	PIS	_	_	_	_	_	822-825	w75	man	I-ADVP	*
+28	viel	viel	_	ADJA	_	_	_	_	_	826-830	w76	viel	I-ADVP	*
+29	groſſe	groß	_	ADJA	_	_	_	_	_	831-837	w77	große	I-ADVP	*
+30	Din-<lb/>ge	Ding	_	NN	_	_	_	_	_	838-849	w78	Dinge	I-ADVP	*
+31	/	/	_	$(	_	_	_	_	_	850-851	w79	/	I-ADVP	*
+32	die	die	_	PRELS	_	_	_	_	_	852-855	w7a	die	I-ADVP	*
+33	ſonſten	sonsten	_	ADV	_	_	_	_	_	856-863	w7b	sonsten	I-ADVP	*
+34	durch	durch	_	APPR	_	_	_	_	_	864-869	w7c	durch	I-ADVP	*
+35	die	d	_	ART	_	_	_	_	_	870-873	w7d	die	I-ADVP	*
+36	gemeine	gemein	_	ADJA	_	_	_	_	_	874-881	w7e	gemeine	I-ADVP	*
+37	vnd	und	_	KON	_	_	_	_	_	882-885	w7f	und	I-ADVP	*
+38	bekandte	bekannt	_	ADJA	_	_	_	_	_	886-894	w80	bekannte	I-ADVP	*
+39	Diſtillir-Kunſt	Distillir-Kunst	_	NN	_	_	_	_	_	895-910	w81	Distillir-Kunst	I-ADVP	*
+40	vnmůglich	unmöglich	_	ADJD	_	_	_	_	_	911-920	w82	unmöglich	I-ADVP	*
+41	zuthun	zutuen	_	VVINF	_	_	_	_	_	921-927	w83	zutun	I-ADVP	*
+42	/	/	_	$(	_	_	_	_	_	928-929	w84	/	I-ADVP	*
+43	verrich-<lb/>ten	verrichten	_	VVINF	_	_	_	_	_	930-946	w85	verrichten	I-ADVP	*
+44	kan	können	_	VMFIN	_	_	_	_	_	947-950	w86	kann	I-ADVP	*
+45	.	.	_	$.	_	_	_	_	_	951-952	w87	.	I-ADVP	*
+46	Alſo	also	_	ADV	_	_	_	_	_	953-957	w88	Also	I-ADVP	*
+47	hab	haben	_	VAFIN	_	_	_	_	_	958-961	w89	habe	O	*
+48	ich	ich	_	PPER	_	_	_	_	_	962-965	w8a	ich	B-NP	*
+49	ſolche	solch	_	PIAT	_	_	_	_	_	966-972	w8b	solche	B-NP	*
+50	herrliche	herrlich	_	ADJA	_	_	_	_	_	973-982	w8c	herrliche	I-NP	*
+51	Invention	Invention	_	NN	_	_	_	_	_	983-992	w8d	Invention	I-NP	*
+52	biß-<lb/>hero	bisher	_	ADV	_	_	_	_	_	993-1006	w8e	bisher	B-ADVP	*
+53	alzeit	allzeit	_	ADV	_	_	_	_	_	1007-1013	w8f	allzeit	B-ADVP	*
+54	in	in	_	APPR	_	_	_	_	_	1014-1016	w90	in	B-PP	*
+55	geheim	geheim	_	ADJD	_	_	_	_	_	1017-1023	w91	geheim	I-PP	*
+56	gehalten	halten	_	VVPP	_	_	_	_	_	1024-1032	w92	gehalten	O	*
+57	.	.	_	$.	_	_	_	_	_	1033-1034	w93	.	O	*
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# PTBstring = (VROOT(CS(S(AS(PP(APPR Nach)(PDS deme))(PPER ich)(ADV aber)(VP(VVPP betrachtet)(KLAMMER /)(S:OC(KOUS daß)(NP(PIAT ſolche)(ADJA Edle)(NN Kunſt))(VP(NP(PIAT vielen)(ADJA gebrechlichen)(NN Menſchen))(PP(APPR zu)(CNP(NN Dienſt)(KON vnd)(NN Nutzen)))(VVINF gereichen))(VP(VMFIN koͤnte))(KLAMMER /))))(VP(VAFIN hab))(NP(PPER ich))(VP(VP(NP(PIS ſolche)(PP(APPR wegen)(ADJA Chriſtli-<lb/>cher)(NN Liebe))(PP(APPR gegen)(PPOSAT meinen)(NN Naͤchſten)(KLAMMER /)))(PTKNEG nicht)(ADJD laͤnger)(VVINF verhalten))(VMINF wollen)(PUNKT ;)))(S(VP(VAFIN Bin))(VP(VP(ADV alſo)(VVPP bewogen))(VAPP worden)(KLAMMER /)(VP(PDS dieſelbe)(VVINF zubeſchreiben)(CVP(KON vnd)(VP(PP(APPR an)(NN Tag))(VVINF zugeben)(KLAMMER /))))(S(KOUS da-<lb/>mit)(NP(PIAT alle)(ART die)(PIS jenigen)(KLAMMER /)(S:RC(NP(PRELS welche))(VP(PP(APPR in)(NN Arte)(NN Spagyrica))(PIS etwas)(VVINF thun))(VP(VMFIN wollen))(KLAMMER /)))(VP(NP(CAP(ADJA guten)(KON vnd)(ADJA grůndtlichen))(NN Be-<lb/>richt))(PP(APPR in)(PDAT dieſer)(ADJA New-erfundenen)(NN Diſtillir-Kunſt))(VAINF haben))(VP(VMFIN moͤchten))(KLAMMER /)(CS(S(KOUS damit)(NP(PPER ſie))(AVP(PTKNEG nicht))(NP(PPOSAT jhre)(CNP(NN Zeit)(KON vnd)(NN Koſten)))(PP(APPR in)(CAP(ADJA langwirigen)(KON vnd)(ADJA muͤhſeligen))(NN labori-<lb/>bus))(VP(VVFIN zubraͤchten))(KLAMMER /))(KON ſondern)(S(VP(PP(APPR auff)(CAP(ADJA naͤhere)(KON vnd)(ADJA beſſere))(NN Wege))(NP(PIAT viel)(NN gutes)(PP(APPR mit)(PDAT dieſen)(PPOSAT meinen)(NN Oefen)))(VVINF ver-<lb/>richten))(VP(VMFIN koͤnten))(PUNKT .))))))))
+# text = Nach deme ich aber betrachtet / daß ſolche Edle Kunſt vielen gebrechlichen Menſchen zu Dienſt vnd Nutzen gereichen koͤnte / hab ich ſolche wegen Chriſtli-<lb/>cher Liebe gegen meinen Naͤchſten / nicht laͤnger verhalten wollen ; Bin alſo bewogen worden / dieſelbe zubeſchreiben vnd an Tag zugeben / da-<lb/>mit alle die jenigen / welche in Arte Spagyrica etwas thun wollen / guten vnd grůndtlichen Be-<lb/>richt in dieſer New-erfundenen Diſtillir-Kunſt haben moͤchten / damit ſie nicht jhre Zeit vnd Koſten in langwirigen vnd muͤhſeligen labori-<lb/>bus zubraͤchten / ſondern auff naͤhere vnd beſſere Wege viel gutes mit dieſen meinen Oefen ver-<lb/>richten koͤnten .
+1	Nach	nach	_	APPR	_	_	_	_	_	1036-1040	w94	Nach	B-PP	*
+2	deme	die	_	PDS	_	_	_	_	_	1041-1045	w95	dem	I-PP	*
+3	ich	ich	_	PPER	_	_	_	_	_	1046-1049	w96	ich	B-NP	*
+4	aber	aber	_	ADV	_	_	_	_	_	1050-1054	w97	aber	B-ADVP	*
+5	betrachtet	betrachten	_	VVPP	_	_	_	_	_	1055-1065	w98	betrachtet	O	*
+6	/	/	_	$(	_	_	_	_	_	1066-1067	w99	/	O	*
+7	daß	daß	_	KOUS	_	_	_	_	_	1068-1071	w9a	daß	O	*
+8	ſolche	solch	_	PIAT	_	_	_	_	_	1072-1078	w9b	solche	B-NP	*
+9	Edle	edel	_	ADJA	_	_	_	_	_	1079-1083	w9c	Edle	I-NP	*
+10	Kunſt	Kunst	_	NN	_	_	_	_	_	1084-1089	w9d	Kunst	I-NP	*
+11	vielen	viel	_	PIAT	_	_	_	_	_	1090-1096	w9e	vielen	B-NP	*
+12	gebrechlichen	gebrechlich	_	ADJA	_	_	_	_	_	1097-1110	w9f	gebrechlichen	I-NP	*
+13	Menſchen	Mensch	_	NN	_	_	_	_	_	1111-1119	wa0	Menschen	I-NP	*
+14	zu	zu	_	APPR	_	_	_	_	_	1120-1122	wa1	zu	B-PP	*
+15	Dienſt	Dienst	_	NN	_	_	_	_	_	1123-1129	wa2	Dienst	I-PP	*
+16	vnd	und	_	KON	_	_	_	_	_	1130-1133	wa3	und	I-PP	*
+17	Nutzen	Nutzen	_	NN	_	_	_	_	_	1134-1140	wa4	Nutzen	I-PP	*
+18	gereichen	gereichen	_	VVINF	_	_	_	_	_	1141-1150	wa5	gereichen	O	*
+19	koͤnte	können	_	VMFIN	_	_	_	_	_	1151-1157	wa6	könnte	O	*
+20	/	/	_	$(	_	_	_	_	_	1158-1159	wa7	/	O	*
+21	hab	haben	_	VAFIN	_	_	_	_	_	1160-1163	wa8	habe	O	*
+22	ich	ich	_	PPER	_	_	_	_	_	1164-1167	wa9	ich	B-NP	*
+23	ſolche	solch	_	PIS	_	_	_	_	_	1168-1174	waa	solche	B-NP	*
+24	wegen	wegen	_	APPR	_	_	_	_	_	1175-1180	wab	wegen	I-NP	*
+25	Chriſtli-<lb/>cher	christlich	_	ADJA	_	_	_	_	_	1181-1199	wac	Christlicher	I-NP	*
+26	Liebe	Liebe	_	NN	_	_	_	_	_	1200-1205	wad	Liebe	I-NP	*
+27	gegen	gegen	_	APPR	_	_	_	_	_	1206-1211	wae	gegen	I-NP	*
+28	meinen	meine	_	PPOSAT	_	_	_	_	_	1212-1218	waf	meinen	I-NP	*
+29	Naͤchſten	Nächste	_	NN	_	_	_	_	_	1219-1228	wb0	Nächsten	I-NP	*
+30	/	/	_	$(	_	_	_	_	_	1229-1230	wb1	/	I-NP	*
+31	nicht	nicht	_	PTKNEG	_	_	_	_	_	1231-1236	wb2	nicht	B-ADVP	*
+32	laͤnger	lang	_	ADJD	_	_	_	_	_	1237-1244	wb3	länger	B-AP	*
+33	verhalten	verhalten	_	VVINF	_	_	_	_	_	1245-1254	wb4	verhalten	O	*
+34	wollen	wollen	_	VMINF	_	_	_	_	_	1255-1261	wb5	wollen	O	*
+35	;	;	_	$.	_	_	_	_	_	1262-1263	wb6	;	O	*
+36	Bin	sein	_	VAFIN	_	_	_	_	_	1264-1267	wb7	Bin	O	*
+37	alſo	also	_	ADV	_	_	_	_	_	1268-1272	wb8	also	B-ADVP	*
+38	bewogen	bewegen	_	VVPP	_	_	_	_	_	1273-1280	wb9	bewogen	O	*
+39	worden	werden	_	VAPP	_	_	_	_	_	1281-1287	wba	worden	O	*
+40	/	/	_	$(	_	_	_	_	_	1288-1289	wbb	/	O	*
+41	dieſelbe	dieselbe	_	PDS	_	_	_	_	_	1290-1298	wbc	dieselbe	B-NP	*
+42	zubeſchreiben	zubeschreiben	_	VVINF	_	_	_	_	_	1299-1312	wbd	zubeschreiben	O	*
+43	vnd	und	_	KON	_	_	_	_	_	1313-1316	wbe	und	O	*
+44	an	an	_	APPR	_	_	_	_	_	1317-1319	wbf	an	B-PP	*
+45	Tag	Tag	_	NN	_	_	_	_	_	1320-1323	wc0	Tag	I-PP	*
+46	zugeben	zugeben	_	VVINF	_	_	_	_	_	1324-1331	wc1	zugeben	O	*
+47	/	/	_	$(	_	_	_	_	_	1332-1333	wc2	/	O	*
+48	da-<lb/>mit	damit	_	KOUS	_	_	_	_	_	1334-1345	wc3	damit	O	*
+49	alle	alle	_	PIAT	_	_	_	_	_	1346-1350	wc4	alle	B-NP	*
+50	die	d	_	ART	_	_	_	_	_	1351-1354	wc5	die	I-NP	*
+51	jenigen	jenige	_	PIS	_	_	_	_	_	1355-1362	wc6	jenigen	I-NP	*
+52	/	/	_	$(	_	_	_	_	_	1363-1364	wc7	/	I-NP	*
+53	welche	welche	_	PRELS	_	_	_	_	_	1365-1371	wc8	welche	I-NP	*
+54	in	in	_	APPR	_	_	_	_	_	1372-1374	wc9	in	I-NP	*
+55	Arte	Association_Relative_À_La_Télévision_Européenne	_	NN	_	_	_	_	_	1375-1379	wca	Arte	I-NP	*
+56	Spagyrica	Spagyrica	_	NN	_	_	_	_	_	1380-1389	wcb	Spagyrica	I-NP	*
+57	etwas	etwas	_	PIS	_	_	_	_	_	1390-1395	wcc	etwas	I-NP	*
+58	thun	tun	_	VVINF	_	_	_	_	_	1396-1400	wcd	tun	I-NP	*
+59	wollen	wollen	_	VMFIN	_	_	_	_	_	1401-1407	wce	wollen	I-NP	*
+60	/	/	_	$(	_	_	_	_	_	1408-1409	wcf	/	I-NP	*
+61	guten	gut	_	ADJA	_	_	_	_	_	1410-1415	wd0	guten	B-NP	*
+62	vnd	und	_	KON	_	_	_	_	_	1416-1419	wd1	und	I-NP	*
+63	grůndtlichen	grundlich	_	ADJA	_	_	_	_	_	1420-1432	wd2	grundlichen	I-NP	*
+64	Be-<lb/>richt	Bericht	_	NN	_	_	_	_	_	1433-1446	wd3	Bericht	I-NP	*
+65	in	in	_	APPR	_	_	_	_	_	1447-1449	wd4	in	B-PP	*
+66	dieſer	diese	_	PDAT	_	_	_	_	_	1450-1456	wd5	dieser	I-PP	*
+67	New-erfundenen	neu-erfinden	_	ADJA	_	_	_	_	_	1457-1471	wd6	Neu-erfundenen	I-PP	*
+68	Diſtillir-Kunſt	Distillir-Kunst	_	NN	_	_	_	_	_	1472-1487	wd7	Distillir-Kunst	I-PP	*
+69	haben	haben	_	VAINF	_	_	_	_	_	1488-1493	wd8	haben	O	*
+70	moͤchten	mögen	_	VMFIN	_	_	_	_	_	1494-1502	wd9	möchten	O	*
+71	/	/	_	$(	_	_	_	_	_	1503-1504	wda	/	O	*
+72	damit	damit	_	KOUS	_	_	_	_	_	1505-1510	wdb	damit	O	*
+73	ſie	sie	_	PPER	_	_	_	_	_	1511-1514	wdc	sie	B-NP	*
+74	nicht	nicht	_	PTKNEG	_	_	_	_	_	1515-1520	wdd	nicht	B-ADVP	*
+75	jhre	ihr	_	PPOSAT	_	_	_	_	_	1521-1525	wde	ihre	B-NP	*
+76	Zeit	Zeit	_	NN	_	_	_	_	_	1526-1530	wdf	Zeit	I-NP	*
+77	vnd	und	_	KON	_	_	_	_	_	1531-1534	we0	und	I-NP	*
+78	Koſten	Kosten	_	NN	_	_	_	_	_	1535-1541	we1	Kosten	I-NP	*
+79	in	in	_	APPR	_	_	_	_	_	1542-1544	we2	in	B-PP	*
+80	langwirigen	langwierig	_	ADJA	_	_	_	_	_	1545-1556	we3	langwierigen	I-PP	*
+81	vnd	und	_	KON	_	_	_	_	_	1557-1560	we4	und	I-PP	*
+82	muͤhſeligen	mühselig	_	ADJA	_	_	_	_	_	1561-1572	we5	mühseligen	I-PP	*
+83	labori-<lb/>bus	Laboribus	_	NN	_	_	_	_	_	1573-1588	we6	laboribus	I-PP	*
+84	zubraͤchten	zubringen	_	VVFIN	_	_	_	_	_	1589-1600	we7	zubrächten	O	*
+85	/	/	_	$(	_	_	_	_	_	1601-1602	we8	/	O	*
+86	ſondern	sondern	_	KON	_	_	_	_	_	1603-1610	we9	sondern	O	*
+87	auff	auf	_	APPR	_	_	_	_	_	1611-1615	wea	auf	B-PP	*
+88	naͤhere	nah	_	ADJA	_	_	_	_	_	1616-1623	web	nähere	I-PP	*
+89	vnd	und	_	KON	_	_	_	_	_	1624-1627	wec	und	I-PP	*
+90	beſſere	gut	_	ADJA	_	_	_	_	_	1628-1635	wed	bessere	I-PP	*
+91	Wege	Weg	_	NN	_	_	_	_	_	1636-1640	wee	Wege	I-PP	*
+92	viel	viel	_	PIAT	_	_	_	_	_	1641-1645	wef	viel	B-NP	*
+93	gutes	gut	_	NN	_	_	_	_	_	1646-1651	wf0	gutes	I-NP	*
+94	mit	mit	_	APPR	_	_	_	_	_	1652-1655	wf1	mit	I-NP	*
+95	dieſen	diese	_	PDAT	_	_	_	_	_	1656-1662	wf2	diesen	I-NP	*
+96	meinen	meine	_	PPOSAT	_	_	_	_	_	1663-1669	wf3	meinen	I-NP	*
+97	Oefen	Ofen	_	NN	_	_	_	_	_	1670-1675	wf4	Öfen	I-NP	*
+98	ver-<lb/>richten	verrichten	_	VVINF	_	_	_	_	_	1676-1692	wf5,wf5_1,wf5_2	verrichten	O	*
+99	koͤnten	können	_	VMFIN	_	_	_	_	_	1693-1700	wf6	könnten	O	*
+100	.	.	_	$.	_	_	_	_	_	1701-1702	wf7	.	O	*
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# PTBstring = (VROOT(S(KON Vnd)(VP(VMFIN ſol))(NP(PDAT dieſes)(NN Buch))(VP(VP(PP(APPR in)(CARD 5.)(NN Theile))(VVPP getheilet))(VAINF werden)(PUNKT .))))
+# text = Vnd ſol dieſes Buch in 5. Theile getheilet werden .
+1	Vnd	und	_	KON	_	_	_	_	_	1704-1707	wf8	Und	O	*
+2	ſol	sollen	_	VMFIN	_	_	_	_	_	1708-1711	wf9	soll	O	*
+3	dieſes	diese	_	PDAT	_	_	_	_	_	1712-1718	wfa	dieses	B-NP	*
+4	Buch	Buch	_	NN	_	_	_	_	_	1719-1723	wfb	Buch	I-NP	*
+5	in	in	_	APPR	_	_	_	_	_	1724-1726	wfc	in	B-PP	*
+6	5.	5.	_	CARD	_	_	_	_	_	1727-1729	wfd	5.	I-PP	*
+7	Theile	Teil	_	NN	_	_	_	_	_	1730-1736	wfe	Teile	I-PP	*
+8	getheilet	teilen	_	VVPP	_	_	_	_	_	1737-1746	wff	geteilt	O	*
+9	werden	werden	_	VAINF	_	_	_	_	_	1747-1753	w100	werden	O	*
+10	.	.	_	$.	_	_	_	_	_	1754-1755	w101	.	O	*
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# PTBstring = (VROOT(S(PP(APPRART Im)(ADJA Erſten)(NN Theil))(VP(VAFIN wird))(VP(VVPP gelehret))(NP(ART ein)(NN Ofen))(VP(VVINF zu-<lb/>bawen)(KLAMMER /))(S:RC(PP(APPR in)(PRELS welchem))(NP(PIAT ſolche)(NN dinge))(VP(VMFIN ſollen))(CVP(VVPP diſtilliret)(KON oder)(VP(VVPP ſublimirt)(VAINF werden)(KLAMMER /)))(AS(NP(PRELS welcher)(NN Spiritus))(VP(CVP(VP(PP(APPRART im)(NN Feuer))(PTKNEG nicht)(VVINF verbreñen)(KLAMMER /))(KON vnd)(VP(PP(APPR durch)(CNP(NN Retorten)(KON oder)(NP(ADJA ande-<lb/>re)(ADJA bekandte)(NN Diſtillir-Zeug))))(PTKNEG nicht)(VMINF koͤnnen)(VVPP gethan)))(VAINF werden)(PUNKT .))))))
+# text = Im Erſten Theil wird gelehret ein Ofen zu-<lb/>bawen / in welchem ſolche dinge ſollen diſtilliret oder ſublimirt werden / welcher Spiritus im Feuer nicht verbreñen / vnd durch Retorten oder ande-<lb/>re bekandte Diſtillir-Zeug nicht koͤnnen gethan werden .
+1	Im	im	_	APPRART	_	_	_	_	_	1757-1759	w102	Im	B-PP	*
+2	Erſten	erst	_	ADJA	_	_	_	_	_	1760-1766	w103	Ersten	I-PP	*
+3	Theil	Teil	_	NN	_	_	_	_	_	1767-1772	w104	Teil	I-PP	*
+4	wird	werden	_	VAFIN	_	_	_	_	_	1773-1777	w105	wird	O	*
+5	gelehret	lehren	_	VVPP	_	_	_	_	_	1778-1786	w106	gelehrt	O	*
+6	ein	eine	_	ART	_	_	_	_	_	1787-1790	w107	ein	B-NP	*
+7	Ofen	Ofen	_	NN	_	_	_	_	_	1791-1795	w108	Ofen	I-NP	*
+8	zu-<lb/>bawen	zubauen	_	VVINF	_	_	_	_	_	1796-1809	w109	zubauen	O	*
+9	/	/	_	$(	_	_	_	_	_	1810-1811	w10a	/	O	*
+10	in	in	_	APPR	_	_	_	_	_	1812-1814	w10b	in	B-PP	*
+11	welchem	welchem	_	PRELS	_	_	_	_	_	1815-1822	w10c	welchem	I-PP	*
+12	ſolche	solch	_	PIAT	_	_	_	_	_	1823-1829	w10d	solche	B-NP	*
+13	dinge	Ding	_	NN	_	_	_	_	_	1830-1835	w10e	Dinge	I-NP	*
+14	ſollen	sollen	_	VMFIN	_	_	_	_	_	1836-1842	w10f	sollen	O	*
+15	diſtilliret	destillieren	_	VVPP	_	_	_	_	_	1843-1854	w110	destillieret	O	*
+16	oder	oder	_	KON	_	_	_	_	_	1855-1859	w111	oder	O	*
+17	ſublimirt	sublimieren	_	VVPP	_	_	_	_	_	1860-1869	w112	sublimiert	O	*
+18	werden	werden	_	VAINF	_	_	_	_	_	1870-1876	w113	werden	O	*
+19	/	/	_	$(	_	_	_	_	_	1877-1878	w114	/	O	*
+20	welcher	welcher	_	PRELS	_	_	_	_	_	1879-1886	w115	welcher	B-NP	*
+21	Spiritus	Spiritus	_	NN	_	_	_	_	_	1887-1895	w116	Spiritus	I-NP	*
+22	im	im	_	APPRART	_	_	_	_	_	1896-1898	w117	im	B-PP	*
+23	Feuer	Feuer	_	NN	_	_	_	_	_	1899-1904	w118	Feuer	I-PP	*
+24	nicht	nicht	_	PTKNEG	_	_	_	_	_	1905-1910	w119	nicht	B-ADVP	*
+25	verbreñen	verbrennen	_	VVINF	_	_	_	_	_	1911-1921	w11a	verbrennen	O	*
+26	/	/	_	$(	_	_	_	_	_	1922-1923	w11b	/	O	*
+27	vnd	und	_	KON	_	_	_	_	_	1924-1927	w11c	und	O	*
+28	durch	durch	_	APPR	_	_	_	_	_	1928-1933	w11d	durch	B-PP	*
+29	Retorten	Retorte	_	NN	_	_	_	_	_	1934-1942	w11e	Retorten	I-PP	*
+30	oder	oder	_	KON	_	_	_	_	_	1943-1947	w11f	oder	I-PP	*
+31	ande-<lb/>re	ander	_	ADJA	_	_	_	_	_	1948-1960	w120	andere	I-PP	*
+32	bekandte	bekannt	_	ADJA	_	_	_	_	_	1961-1969	w121	bekannte	I-PP	*
+33	Diſtillir-Zeug	Distillir-Zeug	_	NN	_	_	_	_	_	1970-1984	w122	Distillir-Zeug	I-PP	*
+34	nicht	nicht	_	PTKNEG	_	_	_	_	_	1985-1990	w123	nicht	B-ADVP	*
+35	koͤnnen	können	_	VMINF	_	_	_	_	_	1991-1998	w124	können	O	*
+36	gethan	tun	_	VVPP	_	_	_	_	_	1999-2005	w125	getan	O	*
+37	werden	werden	_	VAINF	_	_	_	_	_	2006-2012	w126	werden	O	*
+38	.	.	_	$.	_	_	_	_	_	2013-2014	w127	.	O	*
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# PTBstring = (VROOT(CS(S(NP(ART Die)(CNP(NN Mineralia)(KON vnd)(NN Metalla)))(VP(PP(PAV dadurch))(PP(APPR in)(CNP(NN Spiritus)(KOMMA ,)(NN Flores)(KON vnd)(NN Olea)))(VVINF zubereiten)(KLAMMER /)))(KON vnd)(S(PWAV wor-<lb/>zu)(NP(PIS ſolche))(VP(VVINF dienen))(PUNKT .))))
+# text = Die Mineralia vnd Metalla dadurch in Spiritus , Flores vnd Olea zubereiten / vnd wor-<lb/>zu ſolche dienen .
+1	Die	d	_	ART	_	_	_	_	_	2016-2019	w128	Die	B-NP	*
+2	Mineralia	Mineralia	_	NN	_	_	_	_	_	2020-2029	w129	Mineralia	B-NP	*
+3	vnd	und	_	KON	_	_	_	_	_	2030-2033	w12a	und	O	*
+4	Metalla	Metalla	_	NN	_	_	_	_	_	2034-2041	w12b	Metalla	B-NP	*
+5	dadurch	dadurch	_	PAV	_	_	_	_	_	2042-2049	w12c	dadurch	B-PP	*
+6	in	in	_	APPR	_	_	_	_	_	2050-2052	w12d	in	B-PP	*
+7	Spiritus	Spiritus	_	NN	_	_	_	_	_	2053-2061	w12e	Spiritus	I-PP	*
+8	,	,	_	$,	_	_	_	_	_	2062-2063	w12f	,	I-PP	*
+9	Flores	Flores	_	NN	_	_	_	_	_	2064-2070	w130	Flores	I-PP	*
+10	vnd	und	_	KON	_	_	_	_	_	2071-2074	w131	und	I-PP	*
+11	Olea	Oleum	_	NN	_	_	_	_	_	2075-2079	w132	Olea	I-PP	*
+12	zubereiten	zubereiten	_	VVINF	_	_	_	_	_	2080-2090	w133	zubereiten	O	*
+13	/	/	_	$(	_	_	_	_	_	2091-2092	w134	/	O	*
+14	vnd	und	_	KON	_	_	_	_	_	2093-2096	w135	und	O	*
+15	wor-<lb/>zu	wozu	_	PWAV	_	_	_	_	_	2097-2108	w136	wozu	O	*
+16	ſolche	solch	_	PIS	_	_	_	_	_	2109-2115	w137	solche	B-NP	*
+17	dienen	dienen	_	VVINF	_	_	_	_	_	2116-2122	w138	dienen	O	*
+18	.	.	_	$.	_	_	_	_	_	2123-2124	w139	.	O	*
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# PTBstring = (VROOT(S(PP(APPRART Im)(ADJA zweitten)(NN Theil))(VP(VAFIN wird))(NP(ART ein)(ADJA anderer)(NN Ofen))(VP(VZ(PTKZU zu)(VVINF machen))(VVPP gelehret)(KLAMMER /)(AS(PP(APPR in)(PRELS welchem))(NP(PIAT alle)(ADJA verbrennliche)(CNP(NN Vegetabilia)(KOMMA ,)(NN Animalia)(KON vnd)(NN Mineralia)))(CVP(VP(VVPP diſtilli-<lb/>ret)(KLAMMER /))(KON vnd)(VP(VP(PP(APPR in)(ART die)(ADJA hoͤchſte)(NN Subtilitaͤt))(VVPP gebracht))(VAINF wer-<lb/>den)(KLAMMER /)(S:RC(PP(PAV dardurch))(NP(PIAT viel)(CAP(ADJA fuͤrtrefliche)(KON vnd)(ADJA koͤſtliche))(NN Me-<lb/>dicamenta))(PP(APPR zu)(NN abwendung)(NP(PIAT vieler)(CAP(ADJA ſchweren)(ADJA ver-<lb/>laſſenen)(KLAMMER /)(KON vnd)(AP(AP(ADV gantz)(ADJD vnheilbar))(ADJA geachteten)))(CNP(NN Zufaͤl-<lb/>len)(KON vnd)(NN Gebrechen))(NP(ART des)(NN Menſchen))))(VP(VMFIN koͤnnen))(VP(VVPP zuge-<lb/>richtet)(VAINF werden)(PUNKT .)))))))))
+# text = Im zweitten Theil wird ein anderer Ofen zu machen gelehret / in welchem alle verbrennliche Vegetabilia , Animalia vnd Mineralia diſtilli-<lb/>ret / vnd in die hoͤchſte Subtilitaͤt gebracht wer-<lb/>den / dardurch viel fuͤrtrefliche vnd koͤſtliche Me-<lb/>dicamenta zu abwendung vieler ſchweren ver-<lb/>laſſenen / vnd gantz vnheilbar geachteten Zufaͤl-<lb/>len vnd Gebrechen des Menſchen koͤnnen zuge-<lb/>richtet werden .
+1	Im	im	_	APPRART	_	_	_	_	_	2126-2128	w13a	Im	B-PP	*
+2	zweitten	zweit	_	ADJA	_	_	_	_	_	2129-2137	w13b	zweiten	I-PP	*
+3	Theil	Teil	_	NN	_	_	_	_	_	2138-2143	w13c	Teil	I-PP	*
+4	wird	werden	_	VAFIN	_	_	_	_	_	2144-2148	w13d	wird	O	*
+5	ein	eine	_	ART	_	_	_	_	_	2149-2152	w13e	ein	B-NP	*
+6	anderer	ander	_	ADJA	_	_	_	_	_	2153-2160	w13f	anderer	I-NP	*
+7	Ofen	Ofen	_	NN	_	_	_	_	_	2161-2165	w140	Ofen	I-NP	*
+8	zu	zu	_	PTKZU	_	_	_	_	_	2166-2168	w141	zu	O	*
+9	machen	machen	_	VVINF	_	_	_	_	_	2169-2175	w142	machen	O	*
+10	gelehret	lehren	_	VVPP	_	_	_	_	_	2176-2184	w143	gelehrt	O	*
+11	/	/	_	$(	_	_	_	_	_	2185-2186	w144	/	O	*
+12	in	in	_	APPR	_	_	_	_	_	2187-2189	w145	in	B-PP	*
+13	welchem	welchem	_	PRELS	_	_	_	_	_	2190-2197	w146	welchem	I-PP	*
+14	alle	alle	_	PIAT	_	_	_	_	_	2198-2202	w147	alle	B-NP	*
+15	verbrennliche	verbrennliche	_	ADJA	_	_	_	_	_	2203-2216	w148	verbrennliche	I-NP	*
+16	Vegetabilia	vegetabilia	_	NN	_	_	_	_	_	2217-2228	w149	Vegetabilia	I-NP	*
+17	,	,	_	$,	_	_	_	_	_	2229-2230	w14a	,	I-NP	*
+18	Animalia	animalia	_	NN	_	_	_	_	_	2231-2239	w14b	Animalia	I-NP	*
+19	vnd	und	_	KON	_	_	_	_	_	2240-2243	w14c	und	I-NP	*
+20	Mineralia	mineralia	_	NN	_	_	_	_	_	2244-2253	w14d	Mineralia	I-NP	*
+21	diſtilli-<lb/>ret	distilliret	_	VVPP	_	_	_	_	_	2254-2271	w14e	distilliret	O	*
+22	/	/	_	$(	_	_	_	_	_	2272-2273	w14f	/	O	*
+23	vnd	und	_	KON	_	_	_	_	_	2274-2277	w150	und	O	*
+24	in	in	_	APPR	_	_	_	_	_	2278-2280	w151	in	B-PP	*
+25	die	d	_	ART	_	_	_	_	_	2281-2284	w152	die	I-PP	*
+26	hoͤchſte	hoch	_	ADJA	_	_	_	_	_	2285-2293	w153	höchste	I-PP	*
+27	Subtilitaͤt	Subtilität	_	NN	_	_	_	_	_	2294-2305	w154,w154_1	Subtilität	I-PP	*
+28	gebracht	bringen	_	VVPP	_	_	_	_	_	2306-2314	w155	gebracht	O	*
+29	wer-<lb/>den	werden	_	VAINF	_	_	_	_	_	2315-2327	w156	werden	O	*
+30	/	/	_	$(	_	_	_	_	_	2328-2329	w157	/	O	*
+31	dardurch	dadurch	_	PAV	_	_	_	_	_	2330-2338	w158	dadurch	B-PP	*
+32	viel	viel	_	PIAT	_	_	_	_	_	2339-2343	w159	viel	B-NP	*
+33	fuͤrtrefliche	fürtrefflich	_	ADJA	_	_	_	_	_	2344-2357	w15a	fürtreffliche	I-NP	*
+34	vnd	und	_	KON	_	_	_	_	_	2358-2361	w15b	und	I-NP	*
+35	koͤſtliche	köstlich	_	ADJA	_	_	_	_	_	2362-2372	w15c	köstliche	I-NP	*
+36	Me-<lb/>dicamenta	Medicamentum	_	NN	_	_	_	_	_	2373-2390	w15d	Medicamenta	I-NP	*
+37	zu	zu	_	APPR	_	_	_	_	_	2391-2393	w15e	zu	B-PP	*
+38	abwendung	Abwendung	_	NN	_	_	_	_	_	2394-2403	w15f	Abwendung	I-PP	*
+39	vieler	viel	_	PIAT	_	_	_	_	_	2404-2410	w160	vieler	I-PP	*
+40	ſchweren	schwer	_	ADJA	_	_	_	_	_	2411-2419	w161	schweren	I-PP	*
+41	ver-<lb/>laſſenen	verlaßen	_	ADJA	_	_	_	_	_	2420-2437	w162	verlassenen	I-PP	*
+42	/	/	_	$(	_	_	_	_	_	2438-2439	w163	/	I-PP	*
+43	vnd	und	_	KON	_	_	_	_	_	2440-2443	w164	und	I-PP	*
+44	gantz	ganz	_	ADV	_	_	_	_	_	2444-2449	w165	ganz	I-PP	*
+45	vnheilbar	unheilbar	_	ADJD	_	_	_	_	_	2450-2459	w166	unheilbar	I-PP	*
+46	geachteten	geachtet	_	ADJA	_	_	_	_	_	2460-2470	w167	geachteten	I-PP	*
+47	Zufaͤl-<lb/>len	Zufall	_	NN	_	_	_	_	_	2471-2486	w168	Zufällen	I-PP	*
+48	vnd	und	_	KON	_	_	_	_	_	2487-2490	w169	und	I-PP	*
+49	Gebrechen	Gebrechen	_	NN	_	_	_	_	_	2491-2500	w16a	Gebrechen	I-PP	*
+50	des	d	_	ART	_	_	_	_	_	2501-2504	w16b	des	I-PP	*
+51	Menſchen	Mensch	_	NN	_	_	_	_	_	2505-2513	w16c	Menschen	I-PP	*
+52	koͤnnen	können	_	VMFIN	_	_	_	_	_	2514-2521	w16d	können	O	*
+53	zuge-<lb/>richtet	zurichten	_	VVPP	_	_	_	_	_	2522-2539	w16e	zugerichtet	O	*
+54	werden	werden	_	VAINF	_	_	_	_	_	2540-2546	w16f	werden	O	*
+55	.	.	_	$.	_	_	_	_	_	2547-2548	w170	.	O	*
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# PTBstring = (VROOT(S(PP(APPRART Im)(ADJA dritten)(NN Theil))(VP(VAFIN wird))(NP(ART ein)(ADJA kuͤnſtliche)(NN Inven-<lb/>tion)(KOMMA ,)(AS(PRELS die)(AP(ADV noch)(ADV bißhero)(PTKNEG nicht)(ADJD bekant)(KLAMMER /))))(VP(PP(APPR an)(NN Tag))(VVINF ge-<lb/>ben)(KLAMMER /)(S:RC(PP(PAV dadurch))(NP(PIS man))(AP(NP(PIAT allerhand)(NN Spiritus))(ADJA ardentes))(PP(APPR von)(CNP(NN Wein)(KLAMMER /)(NN Korn)(KLAMMER /)(NN Frůchten)(KLAMMER /)(NN Blumen)(KLAMMER /)(NN Kraͤu-<lb/>tern)(KLAMMER /)(KON vnd)(NN Wurtzeln)(KLAMMER /)(KON wie)(NP(ADV auch)(ADJA gemeine)(NN Waſ-<lb/>ſer)(KLAMMER /))))(PP(APPR aus)(PIAT allen)(CAP(ADJA Vegetabiliſchen)(KON vnd)(ADJA Animali-<lb/>ſchen))(NN dingen))(PP(APPR in)(ADJA groſſer)(NN maͤnge))(PP(APPR mit)(ADJA kleinem)(NN Ko-<lb/>ſten)(KLAMMER /))(CNP(NP(ADJA kurtzer)(NN Zeit))(KON vnd)(NP(PIAT wenig)(NN Kolen)(KLAMMER /)))(VP(ADV ſehr)(ADJD com-<lb/>pendiosè)(VVINF diſtilliren))(VP(VMFIN kan))(PUNKT .)))))
+# text = Im dritten Theil wird ein kuͤnſtliche Inven-<lb/>tion , die noch bißhero nicht bekant / an Tag ge-<lb/>ben / dadurch man allerhand Spiritus ardentes von Wein / Korn / Frůchten / Blumen / Kraͤu-<lb/>tern / vnd Wurtzeln / wie auch gemeine Waſ-<lb/>ſer / aus allen Vegetabiliſchen vnd Animali-<lb/>ſchen dingen in groſſer maͤnge mit kleinem Ko-<lb/>ſten / kurtzer Zeit vnd wenig Kolen / ſehr com-<lb/>pendiosè diſtilliren kan .
+1	Im	im	_	APPRART	_	_	_	_	_	2550-2552	w171	Im	B-PP	*
+2	dritten	dritt	_	ADJA	_	_	_	_	_	2553-2560	w172	dritten	I-PP	*
+3	Theil	Teil	_	NN	_	_	_	_	_	2561-2566	w173	Teil	I-PP	*
+4	wird	werden	_	VAFIN	_	_	_	_	_	2567-2571	w174	wird	O	*
+5	ein	eine	_	ART	_	_	_	_	_	2572-2575	w175	ein	B-NP	*
+6	kuͤnſtliche	künstlich	_	ADJA	_	_	_	_	_	2576-2587	w176	künstliche	I-NP	*
+7	Inven-<lb/>tion	Invention	_	NN	_	_	_	_	_	2588-2603	w177	Invention	I-NP	*
+8	,	,	_	$,	_	_	_	_	_	2604-2605	w178	,	I-NP	*
+9	die	die	_	PRELS	_	_	_	_	_	2606-2609	w179	die	B-NP	*
+10	noch	noch	_	ADV	_	_	_	_	_	2610-2614	w17a	noch	B-AP	*
+11	bißhero	bisher	_	ADV	_	_	_	_	_	2615-2622	w17b	bisher	I-AP	*
+12	nicht	nicht	_	PTKNEG	_	_	_	_	_	2623-2628	w17c	nicht	I-AP	*
+13	bekant	bekannt	_	ADJD	_	_	_	_	_	2629-2635	w17d	bekannt	I-AP	*
+14	/	/	_	$(	_	_	_	_	_	2636-2637	w17e	/	I-AP	*
+15	an	an	_	APPR	_	_	_	_	_	2638-2640	w17f	an	B-PP	*
+16	Tag	Tag	_	NN	_	_	_	_	_	2641-2644	w180	Tag	I-PP	*
+17	ge-<lb/>ben	geben	_	VVINF	_	_	_	_	_	2645-2656	w181	geben	O	*
+18	/	/	_	$(	_	_	_	_	_	2657-2658	w182	/	O	*
+19	dadurch	dadurch	_	PAV	_	_	_	_	_	2659-2666	w183	dadurch	B-PP	*
+20	man	man	_	PIS	_	_	_	_	_	2667-2670	w184	man	B-NP	*
+21	allerhand	allerhand	_	PIAT	_	_	_	_	_	2671-2680	w185	allerhand	B-AP	*
+22	Spiritus	Spiritus	_	NN	_	_	_	_	_	2681-2689	w186	Spiritus	I-AP	*
+23	ardentes	Ardentes	_	ADJA	_	_	_	_	_	2690-2698	w187	ardentes	I-AP	*
+24	von	von	_	APPR	_	_	_	_	_	2699-2702	w188	von	B-PP	*
+25	Wein	Wein	_	NN	_	_	_	_	_	2703-2707	w189	Wein	I-PP	*
+26	/	/	_	$(	_	_	_	_	_	2708-2709	w18a	/	I-PP	*
+27	Korn	Korn	_	NN	_	_	_	_	_	2710-2714	w18b	Korn	I-PP	*
+28	/	/	_	$(	_	_	_	_	_	2715-2716	w18c	/	I-PP	*
+29	Frůchten	Fruchten	_	NN	_	_	_	_	_	2717-2725	w18d	Fruchten	I-PP	*
+30	/	/	_	$(	_	_	_	_	_	2726-2727	w18e	/	I-PP	*
+31	Blumen	Blume	_	NN	_	_	_	_	_	2728-2734	w18f	Blumen	I-PP	*
+32	/	/	_	$(	_	_	_	_	_	2735-2736	w190	/	I-PP	*
+33	Kraͤu-<lb/>tern	Kraut	_	NN	_	_	_	_	_	2737-2752	w191	Kräutern	I-PP	*
+34	/	/	_	$(	_	_	_	_	_	2753-2754	w192	/	I-PP	*
+35	vnd	und	_	KON	_	_	_	_	_	2755-2758	w193	und	I-PP	*
+36	Wurtzeln	Wurzel	_	NN	_	_	_	_	_	2759-2767	w194	Wurzeln	I-PP	*
+37	/	/	_	$(	_	_	_	_	_	2768-2769	w195	/	I-PP	*
+38	wie	wie	_	KON	_	_	_	_	_	2770-2773	w196	wie	I-PP	*
+39	auch	auch	_	ADV	_	_	_	_	_	2774-2778	w197	auch	I-PP	*
+40	gemeine	gemein	_	ADJA	_	_	_	_	_	2779-2786	w198	gemeine	I-PP	*
+41	Waſ-<lb/>ſer	Wasser	_	NN	_	_	_	_	_	2787-2799	w199	Wasser	I-PP	*
+42	/	/	_	$(	_	_	_	_	_	2800-2801	w19a	/	I-PP	*
+43	aus	aus	_	APPR	_	_	_	_	_	2802-2805	w19b	aus	B-PP	*
+44	allen	alle	_	PIAT	_	_	_	_	_	2806-2811	w19c	allen	I-PP	*
+45	Vegetabiliſchen	Vegetabilische	_	ADJA	_	_	_	_	_	2812-2827	w19d,w19d_1	Vegetabilischen	I-PP	*
+46	vnd	und	_	KON	_	_	_	_	_	2828-2831	w19e	und	I-PP	*
+47	Animali-<lb/>ſchen	animalisch	_	ADJA	_	_	_	_	_	2832-2850	w19f,w19f_1	Animalischen	I-PP	*
+48	dingen	Ding	_	NN	_	_	_	_	_	2851-2857	w1a0	Dingen	I-PP	*
+49	in	in	_	APPR	_	_	_	_	_	2858-2860	w1a1	in	B-PP	*
+50	groſſer	groß	_	ADJA	_	_	_	_	_	2861-2868	w1a2	großer	I-PP	*
+51	maͤnge	Menge	_	NN	_	_	_	_	_	2869-2875	w1a3	Menge	I-PP	*
+52	mit	mit	_	APPR	_	_	_	_	_	2876-2879	w1a4	mit	B-PP	*
+53	kleinem	klein	_	ADJA	_	_	_	_	_	2880-2887	w1a5	kleinem	I-PP	*
+54	Ko-<lb/>ſten	Kosten	_	NN	_	_	_	_	_	2888-2900	w1a6,w1a6_1,w1a6_2	Kosten	I-PP	*
+55	/	/	_	$(	_	_	_	_	_	2901-2902	w1a7	/	I-PP	*
+56	kurtzer	kurz	_	ADJA	_	_	_	_	_	2903-2910	w1a8	kurzer	B-NP	*
+57	Zeit	Zeit	_	NN	_	_	_	_	_	2911-2915	w1a9	Zeit	I-NP	*
+58	vnd	und	_	KON	_	_	_	_	_	2916-2919	w1aa	und	I-NP	*
+59	wenig	wenig	_	PIAT	_	_	_	_	_	2920-2925	w1ab	wenig	I-NP	*
+60	Kolen	Kohle	_	NN	_	_	_	_	_	2926-2931	w1ac	Kohlen	I-NP	*
+61	/	/	_	$(	_	_	_	_	_	2932-2933	w1ad	/	I-NP	*
+62	ſehr	sehr	_	ADV	_	_	_	_	_	2934-2938	w1ae	sehr	B-ADVP	*
+63	com-<lb/>pendiosè	Compendiose	_	ADJD	_	_	_	_	_	2939-2956	w1af	compendiose	B-AP	*
+64	diſtilliren	destillieren	_	VVINF	_	_	_	_	_	2957-2968	w1b0	destillieren	O	*
+65	kan	können	_	VMFIN	_	_	_	_	_	2969-2972	w1b1	kann	O	*
+66	.	.	_	$.	_	_	_	_	_	2973-2974	w1b2	.	O	*
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# PTBstring = (VROOT(VP(ADV Deßgleichen)(VVINF Bierbrawen)(KLAMMER /)(VP(CVP(VP(CNP(NN Meeth)(KON vnd)(NN Wein))(VVINF machen)(KLAMMER /))(KON vnd)(NP(PIAT alle)(ADJA andere)(NN Arbeit))(KLAMMER /)(S:RC(NP(PRELS welche))(AVP(ADV ſonſten))(PP(APPR in)(CAP(ADJA groſſen)(ADJA kůpffernen)(KON oder)(ADJA eiſernen))(NN Keſſeln))(VP(VMFIN muß))(VP(VVINF geſchehen)(KLAMMER /))))(S:RC(PP(ADV alhier)(ADV nur))(NP(PP(APPR in)(ADJD hoͤltzern))(NN Gefaͤſſen)(KLAMMER /))(PP(APPR durch)(NN huͤlffe)(NP(ART eines)(CAP(ADJA kleinen)(ADJA kuͤpffernen)(KON oder)(ADJA eiſernen))(NN In-<lb/>ſtruments)(KLAMMER /)(S:RC(NP(PRELS welches))(NP(AP(ADV kaum)(CAP(CARD 2.)(KON oder)(CARD 3.)))(NN Pfund))(VP(VVFIN wie-<lb/>get))(KLAMMER /))))(PP(APPR ohne)(NN Oefen))(AP(ADJD leichtlich))(VP(VMFIN kan))(VP(VVPP gethan)(VAINF werden)(PUNKT .))))))
+# text = Deßgleichen Bierbrawen / Meeth vnd Wein machen / vnd alle andere Arbeit / welche ſonſten in groſſen kůpffernen oder eiſernen Keſſeln muß geſchehen / alhier nur in hoͤltzern Gefaͤſſen / durch huͤlffe eines kleinen kuͤpffernen oder eiſernen In-<lb/>ſtruments / welches kaum 2. oder 3. Pfund wie-<lb/>get / ohne Oefen leichtlich kan gethan werden .
+1	Deßgleichen	desgleichen	_	ADV	_	_	_	_	_	2976-2987	w1b3	Desgleichen	B-ADVP	*
+2	Bierbrawen	bierberau	_	VVINF	_	_	_	_	_	2988-2998	w1b4	Bierbrauen	O	*
+3	/	/	_	$(	_	_	_	_	_	2999-3000	w1b5	/	O	*
+4	Meeth	Met	_	NN	_	_	_	_	_	3001-3006	w1b6	Met	B-NP	*
+5	vnd	und	_	KON	_	_	_	_	_	3007-3010	w1b7	und	I-NP	*
+6	Wein	Wein	_	NN	_	_	_	_	_	3011-3015	w1b8	Wein	I-NP	*
+7	machen	machen	_	VVINF	_	_	_	_	_	3016-3022	w1b9	machen	O	*
+8	/	/	_	$(	_	_	_	_	_	3023-3024	w1ba	/	O	*
+9	vnd	und	_	KON	_	_	_	_	_	3025-3028	w1bb	und	O	*
+10	alle	alle	_	PIAT	_	_	_	_	_	3029-3033	w1bc	alle	B-NP	*
+11	andere	ander	_	ADJA	_	_	_	_	_	3034-3040	w1bd	andere	I-NP	*
+12	Arbeit	Arbeit	_	NN	_	_	_	_	_	3041-3047	w1be	Arbeit	I-NP	*
+13	/	/	_	$(	_	_	_	_	_	3048-3049	w1bf	/	O	*
+14	welche	welche	_	PRELS	_	_	_	_	_	3050-3056	w1c0	welche	B-NP	*
+15	ſonſten	sonsten	_	ADV	_	_	_	_	_	3057-3064	w1c1	sonsten	B-ADVP	*
+16	in	in	_	APPR	_	_	_	_	_	3065-3067	w1c2	in	B-PP	*
+17	groſſen	groß	_	ADJA	_	_	_	_	_	3068-3075	w1c3	großen	I-PP	*
+18	kůpffernen	kupfern	_	ADJA	_	_	_	_	_	3076-3086	w1c4	kupfernen	I-PP	*
+19	oder	oder	_	KON	_	_	_	_	_	3087-3091	w1c5	oder	I-PP	*
+20	eiſernen	eisern	_	ADJA	_	_	_	_	_	3092-3100	w1c6	eisernen	I-PP	*
+21	Keſſeln	Kessel	_	NN	_	_	_	_	_	3101-3108	w1c7	Kesseln	I-PP	*
+22	muß	müssen	_	VMFIN	_	_	_	_	_	3109-3112	w1c8	muß	O	*
+23	geſchehen	geschehen	_	VVINF	_	_	_	_	_	3113-3122	w1c9	geschehen	O	*
+24	/	/	_	$(	_	_	_	_	_	3123-3124	w1ca	/	O	*
+25	alhier	allhier	_	ADV	_	_	_	_	_	3125-3131	w1cb	allhier	B-PP	*
+26	nur	nur	_	ADV	_	_	_	_	_	3132-3135	w1cc	nur	I-PP	*
+27	in	in	_	APPR	_	_	_	_	_	3136-3138	w1cd	in	B-NP	*
+28	hoͤltzern	hölzern	_	ADJD	_	_	_	_	_	3139-3148	w1ce	hölzern	I-NP	*
+29	Gefaͤſſen	Gefäß	_	NN	_	_	_	_	_	3149-3158	w1cf	Gefäßen	I-NP	*
+30	/	/	_	$(	_	_	_	_	_	3159-3160	w1d0	/	I-NP	*
+31	durch	durch	_	APPR	_	_	_	_	_	3161-3166	w1d1	durch	B-PP	*
+32	huͤlffe	Hilfe	_	NN	_	_	_	_	_	3167-3174	w1d2	Hilfe	I-PP	*
+33	eines	eine	_	ART	_	_	_	_	_	3175-3180	w1d3	eines	I-PP	*
+34	kleinen	klein	_	ADJA	_	_	_	_	_	3181-3188	w1d4	kleinen	I-PP	*
+35	kuͤpffernen	kupfern	_	ADJA	_	_	_	_	_	3189-3200	w1d5	kupfernen	I-PP	*
+36	oder	oder	_	KON	_	_	_	_	_	3201-3205	w1d6	oder	I-PP	*
+37	eiſernen	eisern	_	ADJA	_	_	_	_	_	3206-3214	w1d7	eisernen	I-PP	*
+38	In-<lb/>ſtruments	Instrument	_	NN	_	_	_	_	_	3215-3232	w1d8	Instruments	I-PP	*
+39	/	/	_	$(	_	_	_	_	_	3233-3234	w1d9	/	I-PP	*
+40	welches	welche	_	PRELS	_	_	_	_	_	3235-3242	w1da	welches	I-PP	*
+41	kaum	kaum	_	ADV	_	_	_	_	_	3243-3247	w1db	kaum	I-PP	*
+42	2.	2.	_	CARD	_	_	_	_	_	3248-3250	w1dc	2.	I-PP	*
+43	oder	oder	_	KON	_	_	_	_	_	3251-3255	w1dd	oder	I-PP	*
+44	3.	3.	_	CARD	_	_	_	_	_	3256-3258	w1de	3.	I-PP	*
+45	Pfund	Pfund	_	NN	_	_	_	_	_	3259-3264	w1df	Pfund	I-PP	*
+46	wie-<lb/>get	wiegen	_	VVFIN	_	_	_	_	_	3265-3277	w1e0	wieget	I-PP	*
+47	/	/	_	$(	_	_	_	_	_	3278-3279	w1e1	/	I-PP	*
+48	ohne	ohne	_	APPR	_	_	_	_	_	3280-3284	w1e2	ohne	B-PP	*
+49	Oefen	Ofen	_	NN	_	_	_	_	_	3285-3290	w1e3	Öfen	I-PP	*
+50	leichtlich	leichtlich	_	ADJD	_	_	_	_	_	3291-3301	w1e4	leichtlich	B-AP	*
+51	kan	können	_	VMFIN	_	_	_	_	_	3302-3305	w1e5	kann	O	*
+52	gethan	tun	_	VVPP	_	_	_	_	_	3306-3312	w1e6	getan	O	*
+53	werden	werden	_	VAINF	_	_	_	_	_	3313-3319	w1e7	werden	O	*
+54	.	.	_	$.	_	_	_	_	_	3320-3321	w1e8	.	O	*
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# PTBstring = (VROOT(S(AVP(ADV Auch))(CNP(NP(CAP(ADJA vnterſchiedene)(ADJA Chymiſche))(NN labores)(KOMMA ,)(VP(KOKOM als)(CVP(CVP(VVINF pu-<lb/>trificiren)(KOMMA ,)(VVINF digeriren)(KOMMA ,))(CVP(VP(VVINF circuliren)(KOMMA ,))(VP(VVINF extrahiren)(KOMMA ,))(VP(VVINF abſtra-<lb/>hiren)(KOMMA ,)))(VP(VVINF cohobiren)(KOMMA ,))(VVINF figiren))))(KON vnd)(PIS dergleichen))(AVP(ADV ſehr))(AP(ADJD fuͤglichen)(PAV damit))(VP(VMFIN koͤnnen))(VP(VVPP gethan)(VAINF werden)(PUNKT .))))
+# text = Auch vnterſchiedene Chymiſche labores , als pu-<lb/>trificiren , digeriren , circuliren , extrahiren , abſtra-<lb/>hiren , cohobiren , figiren vnd dergleichen ſehr fuͤglichen damit koͤnnen gethan werden .
+1	Auch	auch	_	ADV	_	_	_	_	_	3323-3327	w1e9	Auch	B-ADVP	*
+2	vnterſchiedene	unterscheiden	_	ADJA	_	_	_	_	_	3328-3342	w1ea	unterschiedene	O	*
+3	Chymiſche	chemisch	_	ADJA	_	_	_	_	_	3343-3352	w1eb	Chemische	O	*
+4	labores	labores	_	NN	_	_	_	_	_	3353-3360	w1ec	labores	O	*
+5	,	,	_	$,	_	_	_	_	_	3361-3362	w1ed	,	O	*
+6	als	als	_	KOKOM	_	_	_	_	_	3363-3366	w1ee	als	O	*
+7	pu-<lb/>trificiren	Putrificiren	_	VVINF	_	_	_	_	_	3367-3385	w1ef,w1ef_1	putrificiren	O	*
+8	,	,	_	$,	_	_	_	_	_	3386-3387	w1f0	,	O	*
+9	digeriren	digerieren	_	VVINF	_	_	_	_	_	3388-3397	w1f1,w1f1_1	digerieren	O	*
+10	,	,	_	$,	_	_	_	_	_	3398-3399	w1f2	,	O	*
+11	circuliren	zirkulieren	_	VVINF	_	_	_	_	_	3400-3410	w1f3,w1f3_1	zirkulieren	O	*
+12	,	,	_	$,	_	_	_	_	_	3411-3412	w1f4	,	O	*
+13	extrahiren	extrahieren	_	VVINF	_	_	_	_	_	3413-3423	w1f5,w1f5_1	extrahieren	O	*
+14	,	,	_	$,	_	_	_	_	_	3424-3425	w1f6	,	O	*
+15	abſtra-<lb/>hiren	abstrahieren	_	VVINF	_	_	_	_	_	3426-3443	w1f7	abstrahieren	O	*
+16	,	,	_	$,	_	_	_	_	_	3444-3445	w1f8	,	O	*
+17	cohobiren	Cohobiren	_	VVINF	_	_	_	_	_	3446-3455	w1f9	cohobiren	O	*
+18	,	,	_	$,	_	_	_	_	_	3456-3457	w1fa	,	O	*
+19	figiren	figieren	_	VVINF	_	_	_	_	_	3458-3465	w1fb	figieren	O	*
+20	vnd	und	_	KON	_	_	_	_	_	3466-3469	w1fc	und	O	*
+21	dergleichen	dergleichen	_	PIS	_	_	_	_	_	3470-3481	w1fd	dergleichen	B-NP	*
+22	ſehr	sehr	_	ADV	_	_	_	_	_	3482-3486	w1fe	sehr	B-ADVP	*
+23	fuͤglichen	füglich	_	ADJD	_	_	_	_	_	3487-3497	w1ff	füglichen	B-AP	*
+24	damit	damit	_	PAV	_	_	_	_	_	3498-3503	w200	damit	I-AP	*
+25	koͤnnen	können	_	VMFIN	_	_	_	_	_	3504-3511	w201	können	O	*
+26	gethan	tun	_	VVPP	_	_	_	_	_	3512-3518	w202	getan	O	*
+27	werden	werden	_	VAINF	_	_	_	_	_	3519-3525	w203	werden	O	*
+28	.	.	_	$.	_	_	_	_	_	3526-3527	w204	.	O	*
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# PTBstring = (VROOT(S(AVP(ADV Sehr)(ADJD dienſtlich))(NP(PIAT allen)(CAP(ADJA jungen)(ADJA anfangenden))(CNP(NN Chymicis)(KON vnd)(NN Laboranten)))(PUNKT :)(CS(S(KOUS Dann)(NP(PPER ſie))(VP(KOUI zu)(CNP(NP(PPOSAT jhrem)(NN Branten-<lb/>wein)(KLAMMER /))(NN Kraͤuter-Waſſer)(KLAMMER /)(NN Extracta)(KON vnd)(NN Medi-<lb/>camenta))(VZ(PTKZU zu)(VVINF machen)(KLAMMER /)))(NP(PTKNEG nit)(NP(AP(ADV ſo)(PIAT viel))(NN Oefen)(KLAMMER /))(CAP(ADJA kůpferne)(KLAMMER /)(ADJA eiſerne)(KLAMMER /)(ADJA zinnerne)(KLAMMER /)(ADJA erdene)(KLAMMER /)(KON vnd)(ADJA glaͤſerne))(NN Inſtru-<lb/>menten)(PP(APPR von)(NN noͤthen)))(VP(VAFIN haben))(KLAMMER /))(KON ſondern)(S(VP(VP(ADV alhier)(VVPP ge-<lb/>lehret))(VAINF werden)(KLAMMER /))(KOUS wie)(NP(PPER ſie))(VP(AVP(NP(PIAT alle)(ADJA oberzehlte)(NN labores))(ADV nur))(NP(PP(APPR durch)(ART ein)(PIAT einiges)(AP(ADJD klein)(PP(APPR von)(CNP(NN Kupfer)(KON oder)(NN Eiſen)))(ADJA gemachtes))(NN Inſtrument)(KOMMA ,)(AP(PP(APPR mit)(NN zuthun))(ADJD hoͤltzeren)))(NN Ge-<lb/>ſchirren))(AVP(ADV eben)(ADV ſo))(ADV wol)(VVINF thun))(VP(VMFIN koͤnnen))(KLAMMER /)(PP(KOKOM alß)(APPR durch)(CNP(NP(PIAT viel)(ADJA vnterſchiedene)(NN Keſſel)(KLAMMER /))(NN Blaſen)(KLAMMER /)(KON vnd)(NP(ADJA andere)(NN Ge-<lb/>faͤſſe)(PUNKT .))))))))
+# text = Sehr dienſtlich allen jungen anfangenden Chymicis vnd Laboranten : Dann ſie zu jhrem Branten-<lb/>wein / Kraͤuter-Waſſer / Extracta vnd Medi-<lb/>camenta zu machen / nit ſo viel Oefen / kůpferne / eiſerne / zinnerne / erdene / vnd glaͤſerne Inſtru-<lb/>menten von noͤthen haben / ſondern alhier ge-<lb/>lehret werden / wie ſie alle oberzehlte labores nur durch ein einiges klein von Kupfer oder Eiſen gemachtes Inſtrument , mit zuthun hoͤltzeren Ge-<lb/>ſchirren eben ſo wol thun koͤnnen / alß durch viel vnterſchiedene Keſſel / Blaſen / vnd andere Ge-<lb/>faͤſſe .
+1	Sehr	sehr	_	ADV	_	_	_	_	_	3529-3533	w205	Sehr	B-ADVP	*
+2	dienſtlich	dienstlich	_	ADJD	_	_	_	_	_	3534-3544	w206	dienstlich	I-ADVP	*
+3	allen	alle	_	PIAT	_	_	_	_	_	3545-3550	w207	allen	B-NP	*
+4	jungen	jung	_	ADJA	_	_	_	_	_	3551-3557	w208	jungen	I-NP	*
+5	anfangenden	anfangend	_	ADJA	_	_	_	_	_	3558-3569	w209	anfangenden	I-NP	*
+6	Chymicis	Chymicis	_	NN	_	_	_	_	_	3570-3578	w20a	Chymicis	I-NP	*
+7	vnd	und	_	KON	_	_	_	_	_	3579-3582	w20b	und	I-NP	*
+8	Laboranten	Laborant	_	NN	_	_	_	_	_	3583-3593	w20c	Laboranten	I-NP	*
+9	:	:	_	$.	_	_	_	_	_	3594-3595	w20d	:	O	*
+10	Dann	dann	_	KOUS	_	_	_	_	_	3596-3600	w20e	Dann	O	*
+11	ſie	sie	_	PPER	_	_	_	_	_	3601-3604	w20f	sie	B-NP	*
+12	zu	zu	_	KOUI	_	_	_	_	_	3605-3607	w210	zu	O	*
+13	jhrem	ihr	_	PPOSAT	_	_	_	_	_	3608-3613	w211	ihrem	B-NP	*
+14	Branten-<lb/>wein	Brantenwein	_	NN	_	_	_	_	_	3614-3631	w212	Brantenwein	I-NP	*
+15	/	/	_	$(	_	_	_	_	_	3632-3633	w213	/	I-NP	*
+16	Kraͤuter-Waſſer	Kräuter-Wasser	_	NN	_	_	_	_	_	3634-3649	w214	Kräuter-Wasser	I-NP	*
+17	/	/	_	$(	_	_	_	_	_	3650-3651	w215	/	I-NP	*
+18	Extracta	Extracta	_	NN	_	_	_	_	_	3652-3660	w216	Extracta	I-NP	*
+19	vnd	und	_	KON	_	_	_	_	_	3661-3664	w217	und	I-NP	*
+20	Medi-<lb/>camenta	Medicamentum	_	NN	_	_	_	_	_	3665-3682	w218	Medicamenta	I-NP	*
+21	zu	zu	_	PTKZU	_	_	_	_	_	3683-3685	w219	zu	O	*
+22	machen	machen	_	VVINF	_	_	_	_	_	3686-3692	w21a	machen	O	*
+23	/	/	_	$(	_	_	_	_	_	3693-3694	w21b	/	O	*
+24	nit	nicht	_	PTKNEG	_	_	_	_	_	3695-3698	w21c	nicht	B-NP	*
+25	ſo	so	_	ADV	_	_	_	_	_	3699-3701	w21d	so	I-NP	*
+26	viel	viel	_	PIAT	_	_	_	_	_	3702-3706	w21e	viel	I-NP	*
+27	Oefen	Ofen	_	NN	_	_	_	_	_	3707-3712	w21f	Öfen	I-NP	*
+28	/	/	_	$(	_	_	_	_	_	3713-3714	w220	/	I-NP	*
+29	kůpferne	kupfern	_	ADJA	_	_	_	_	_	3715-3723	w221	kupferne	I-NP	*
+30	/	/	_	$(	_	_	_	_	_	3724-3725	w222	/	I-NP	*
+31	eiſerne	eisern	_	ADJA	_	_	_	_	_	3726-3733	w223	eiserne	I-NP	*
+32	/	/	_	$(	_	_	_	_	_	3734-3735	w224	/	I-NP	*
+33	zinnerne	zinnern	_	ADJA	_	_	_	_	_	3736-3744	w225	zinnerne	I-NP	*
+34	/	/	_	$(	_	_	_	_	_	3745-3746	w226	/	I-NP	*
+35	erdene	erden	_	ADJA	_	_	_	_	_	3747-3753	w227	erdene	I-NP	*
+36	/	/	_	$(	_	_	_	_	_	3754-3755	w228	/	I-NP	*
+37	vnd	und	_	KON	_	_	_	_	_	3756-3759	w229	und	I-NP	*
+38	glaͤſerne	gläsern	_	ADJA	_	_	_	_	_	3760-3769	w22a	gläserne	I-NP	*
+39	Inſtru-<lb/>menten	Instrument	_	NN	_	_	_	_	_	3770-3788	w22b	Instrumenten	I-NP	*
+40	von	von	_	APPR	_	_	_	_	_	3789-3792	w22c	von	I-NP	*
+41	noͤthen	Not	_	NN	_	_	_	_	_	3793-3800	w22d	Nöten	I-NP	*
+42	haben	haben	_	VAFIN	_	_	_	_	_	3801-3806	w22e	haben	O	*
+43	/	/	_	$(	_	_	_	_	_	3807-3808	w22f	/	O	*
+44	ſondern	sondern	_	KON	_	_	_	_	_	3809-3816	w230	sondern	O	*
+45	alhier	allhier	_	ADV	_	_	_	_	_	3817-3823	w231	allhier	B-ADVP	*
+46	ge-<lb/>lehret	lehren	_	VVPP	_	_	_	_	_	3824-3838	w232	gelehrt	O	*
+47	werden	werden	_	VAINF	_	_	_	_	_	3839-3845	w233	werden	O	*
+48	/	/	_	$(	_	_	_	_	_	3846-3847	w234	/	O	*
+49	wie	wie	_	KOUS	_	_	_	_	_	3848-3851	w235	wie	O	*
+50	ſie	sie	_	PPER	_	_	_	_	_	3852-3855	w236	sie	B-NP	*
+51	alle	alle	_	PIAT	_	_	_	_	_	3856-3860	w237	alle	B-ADVP	*
+52	oberzehlte	oberzählt	_	ADJA	_	_	_	_	_	3861-3871	w238	oberzählte	I-ADVP	*
+53	labores	Labores	_	NN	_	_	_	_	_	3872-3879	w239	labores	I-ADVP	*
+54	nur	nur	_	ADV	_	_	_	_	_	3880-3883	w23a	nur	I-ADVP	*
+55	durch	durch	_	APPR	_	_	_	_	_	3884-3889	w23b	durch	B-NP	*
+56	ein	eine	_	ART	_	_	_	_	_	3890-3893	w23c	ein	I-NP	*
+57	einiges	einiges	_	PIAT	_	_	_	_	_	3894-3901	w23d	einiges	I-NP	*
+58	klein	klein	_	ADJD	_	_	_	_	_	3902-3907	w23e	klein	I-NP	*
+59	von	von	_	APPR	_	_	_	_	_	3908-3911	w23f	von	I-NP	*
+60	Kupfer	Kupfer	_	NN	_	_	_	_	_	3912-3918	w240	Kupfer	I-NP	*
+61	oder	oder	_	KON	_	_	_	_	_	3919-3923	w241	oder	I-NP	*
+62	Eiſen	Eisen	_	NN	_	_	_	_	_	3924-3929	w242	Eisen	I-NP	*
+63	gemachtes	gemacht	_	ADJA	_	_	_	_	_	3930-3939	w243	gemachtes	I-NP	*
+64	Inſtrument	Instrument	_	NN	_	_	_	_	_	3940-3950	w244	Instrument	I-NP	*
+65	,	,	_	$,	_	_	_	_	_	3951-3952	w245	,	I-NP	*
+66	mit	mit	_	APPR	_	_	_	_	_	3953-3956	w246	mit	I-NP	*
+67	zuthun	zutuen	_	NN	_	_	_	_	_	3957-3963	w247	zutun	I-NP	*
+68	hoͤltzeren	hölzern	_	ADJD	_	_	_	_	_	3964-3974	w248	hölzern	I-NP	*
+69	Ge-<lb/>ſchirren	Geschirr	_	NN	_	_	_	_	_	3975-3991	w249	Geschirren	I-NP	*
+70	eben	eben	_	ADV	_	_	_	_	_	3992-3996	w24a	eben	B-ADVP	*
+71	ſo	so	_	ADV	_	_	_	_	_	3997-3999	w24b	so	I-ADVP	*
+72	wol	wohl	_	ADV	_	_	_	_	_	4000-4003	w24c	wohl	B-ADVP	*
+73	thun	tun	_	VVINF	_	_	_	_	_	4004-4008	w24d	tun	O	*
+74	koͤnnen	können	_	VMFIN	_	_	_	_	_	4009-4016	w24e	können	O	*
+75	/	/	_	$(	_	_	_	_	_	4017-4018	w24f	/	O	*
+76	alß	als	_	KOKOM	_	_	_	_	_	4019-4022	w250	als	B-PP	*
+77	durch	durch	_	APPR	_	_	_	_	_	4023-4028	w251	durch	I-PP	*
+78	viel	viel	_	PIAT	_	_	_	_	_	4029-4033	w252	viel	I-PP	*
+79	vnterſchiedene	unterscheiden	_	ADJA	_	_	_	_	_	4034-4048	w253	unterschiedene	I-PP	*
+80	Keſſel	Kessel	_	NN	_	_	_	_	_	4049-4055	w254	Kessel	I-PP	*
+81	/	/	_	$(	_	_	_	_	_	4056-4057	w255	/	I-PP	*
+82	Blaſen	Blasen	_	NN	_	_	_	_	_	4058-4064	w256	Blasen	I-PP	*
+83	/	/	_	$(	_	_	_	_	_	4065-4066	w257	/	I-PP	*
+84	vnd	und	_	KON	_	_	_	_	_	4067-4070	w258	und	I-PP	*
+85	andere	ander	_	ADJA	_	_	_	_	_	4071-4077	w259	andere	I-PP	*
+86	Ge-<lb/>faͤſſe	Gefäß	_	NN	_	_	_	_	_	4078-4092	w25a	Gefäße	I-PP	*
+87	.	.	_	$.	_	_	_	_	_	4093-4094	w25b	.	I-PP	*
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# PTBstring = (VROOT(S(PP(PAV Dadurch))(NP(PIAT viel)(NN Gelt))(VP(VVPP erſparet))(VP(VAFIN wird))(KLAMMER /)(S:RC(NP(PRELS welches))(NP(PIS man))(VP(ADV ſonſten)(PP(APPR an)(CNP(NP(ADJA kuͤpfferne)(NN Keſſel))(KON vnd)(NP(ADJA andern)(NN Di-<lb/>ſtillir-Zeug))))(VVINF wenden))(VP(VMFIN muß))(PUNKT .))))
+# text = Dadurch viel Gelt erſparet wird / welches man ſonſten an kuͤpfferne Keſſel vnd andern Di-<lb/>ſtillir-Zeug wenden muß .
+1	Dadurch	dadurch	_	PAV	_	_	_	_	_	4096-4103	w25c	Dadurch	B-PP	*
+2	viel	viel	_	PIAT	_	_	_	_	_	4104-4108	w25d	viel	B-NP	*
+3	Gelt	Geld	_	NN	_	_	_	_	_	4109-4113	w25e	Geld	I-NP	*
+4	erſparet	ersparen	_	VVPP	_	_	_	_	_	4114-4122	w25f	ersparet	O	*
+5	wird	werden	_	VAFIN	_	_	_	_	_	4123-4127	w260	wird	O	*
+6	/	/	_	$(	_	_	_	_	_	4128-4129	w261	/	O	*
+7	welches	welches	_	PRELS	_	_	_	_	_	4130-4137	w262	welches	B-NP	*
+8	man	man	_	PIS	_	_	_	_	_	4138-4141	w263	man	B-NP	*
+9	ſonſten	sonsten	_	ADV	_	_	_	_	_	4142-4149	w264	sonsten	B-ADVP	*
+10	an	an	_	APPR	_	_	_	_	_	4150-4152	w265	an	B-PP	*
+11	kuͤpfferne	kupfern	_	ADJA	_	_	_	_	_	4153-4163	w266	kupferne	I-PP	*
+12	Keſſel	Kessel	_	NN	_	_	_	_	_	4164-4170	w267	Kessel	I-PP	*
+13	vnd	und	_	KON	_	_	_	_	_	4171-4174	w268	und	I-PP	*
+14	andern	ander	_	ADJA	_	_	_	_	_	4175-4181	w269	anderen	I-PP	*
+15	Di-<lb/>ſtillir-Zeug	Distillir-Zeug	_	NN	_	_	_	_	_	4182-4202	w26a	Distillir-Zeug	I-PP	*
+16	wenden	wenden	_	VVINF	_	_	_	_	_	4203-4209	w26b	wenden	O	*
+17	muß	müssen	_	VMFIN	_	_	_	_	_	4210-4213	w26c	muß	O	*
+18	.	.	_	$.	_	_	_	_	_	4214-4215	w26d	.	O	*
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# PTBstring = (VROOT(PP(APPRART Im)(ADJA Vierten)(NN Theil)(KLAMMER /)(NP(ART ein)(ADJA ſonderlicher)(NP(ADV auch)(AP(ADV bißhero)(ADJA vnbekandter))(NN Ofen)(KLAMMER /)))(S:RC(PP(APPR in)(PRELS welchem))(NP(PIS man))(VP(NP(PIAT alle)(ADJA Chymiſche)(NN labores))(AVP(ADV gar)(ADJD leichtlich))(VVINF thun))(VP(VMFIN kan))(PUNKT .))))
+# text = Im Vierten Theil / ein ſonderlicher auch bißhero vnbekandter Ofen / in welchem man alle Chymiſche labores gar leichtlich thun kan .
+1	Im	im	_	APPRART	_	_	_	_	_	4217-4219	w26e	Im	B-PP	*
+2	Vierten	viert	_	ADJA	_	_	_	_	_	4220-4227	w26f	Vierten	I-PP	*
+3	Theil	Teil	_	NN	_	_	_	_	_	4228-4233	w270	Teil	I-PP	*
+4	/	/	_	$(	_	_	_	_	_	4234-4235	w271	/	I-PP	*
+5	ein	eine	_	ART	_	_	_	_	_	4236-4239	w272	ein	I-PP	*
+6	ſonderlicher	sonderlich	_	ADJA	_	_	_	_	_	4240-4252	w273	sonderlicher	I-PP	*
+7	auch	auch	_	ADV	_	_	_	_	_	4253-4257	w274	auch	I-PP	*
+8	bißhero	bisher	_	ADV	_	_	_	_	_	4258-4265	w275	bisher	I-PP	*
+9	vnbekandter	unbekannt	_	ADJA	_	_	_	_	_	4266-4277	w276	unbekannter	I-PP	*
+10	Ofen	Ofen	_	NN	_	_	_	_	_	4278-4282	w277	Ofen	I-PP	*
+11	/	/	_	$(	_	_	_	_	_	4283-4284	w278	/	I-PP	*
+12	in	in	_	APPR	_	_	_	_	_	4285-4287	w279	in	I-PP	*
+13	welchem	welche	_	PRELS	_	_	_	_	_	4288-4295	w27a	welchem	I-PP	*
+14	man	man	_	PIS	_	_	_	_	_	4296-4299	w27b	man	I-PP	*
+15	alle	alle	_	PIAT	_	_	_	_	_	4300-4304	w27c	alle	I-PP	*
+16	Chymiſche	chemisch	_	ADJA	_	_	_	_	_	4305-4314	w27d	Chemische	I-PP	*
+17	labores	labores	_	NN	_	_	_	_	_	4315-4322	w27e	labores	I-PP	*
+18	gar	gar	_	ADV	_	_	_	_	_	4323-4326	w27f	gar	I-PP	*
+19	leichtlich	leichtlich	_	ADJD	_	_	_	_	_	4327-4337	w280	leichtlich	I-PP	*
+20	thun	tun	_	VVINF	_	_	_	_	_	4338-4342	w281	tun	I-PP	*
+21	kan	können	_	VMFIN	_	_	_	_	_	4343-4346	w282	kann	I-PP	*
+22	.	.	_	$.	_	_	_	_	_	4347-4348	w283	.	I-PP	*

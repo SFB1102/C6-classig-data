@@ -1,0 +1,25 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN FOKUS GF IS PHRASE POS SATZKLAMMER SATZSTATUS UEBERLIEFERUNGSTRAEGER VERLINKUNG
+# sent_id = 1
+# PTBstring = (VROOT(SIMPX(VF(NX(PPER ich)))(LK(VXFIN(VAFIN bin)))(VC(VXINF(VVPP verdor=ben)))(NF(PX(APPR mit)(NX:HD(ART dem)(ADJX(ADJA selbigen))(NX:KONJ(NN gut))))))(PUNKT .))
+# text = ich bin verdor=ben mit dem selbigen gut.
+1	ich	_	_	PPER	_	_	_	_	_	NP	ich	_	SUBJ	_	B-NP	PPER	_	MAINDECL	26,06 ,verdor-	_
+2	bin	_	_	VAFIN	_	_	_	_	_	VP	bin	_	VFIN	_	O	VAFIN	LI	MAINDECL	26,06 ,verdor-	_
+3	verdor=ben	_	_	VVPP	_	_	_	_	_	VP	verdorben	_	INF	_	O	VVPP	RE	MAINDECL	26,06 ,verdor-	_
+4	mit	_	_	APPR	_	_	_	_	_	PP	mit	BGR	PP-ADV	_	B-PP	APPR	_	MAINDECL	26,07-ben	UNLINK
+5	dem	_	_	ART	_	_	_	_	_	PP	dem	BGR	PP-ADV	_	I-PP	DDA	_	MAINDECL	26,07-ben	UNLINK
+6	selbigen	_	_	ADJA	_	_	_	_	_	PP	selbigen	BGR	PP-ADV	GIV-ACTIVE	I-PP	ADJ	_	MAINDECL	26,07-ben	UNLINK
+7	gut	_	_	NN	_	_	_	_	_	PP	gut	BGR	PP-ADV	GIV-ACTIVE	I-PP	NA	_	MAINDECL	26,07-ben	UNLINK
+8	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	O	$_	_	MAINDECL	26,07-ben	_
+
+# sent_id = 2
+# PTBstring = (VROOT(SIMPX(VF(ADVX(ADV so)))(LK(VXFIN(VAFIN wirst)))(LK(VXFIN(VVFIN |u)))(MF(NX(PPER es))(NX(ADJX(ADJX(ADJD fin=den))(ADJD auff))(ADJX(ADJA lange))(NN zeit))))(KLAMMER /))
+# text = so wirst |u es fin=den auff lange zeit /
+1	so	_	_	ADV	_	_	_	_	_	ADVP	so	_	ADVB	_	B-ADVP	ADV	_	MAINDECL	30,07, fin-	_
+2	wirst	_	_	VAFIN	_	_	_	_	_	VP	wirst	_	VFIN	_	O	VAFIN	LI	MAINDECL	30,07, fin-	_
+3	|u	_	_	PPER	_	_	_	_	_	NP	du	_	SUBJ	_	O	PPER	LI	MAINDECL	30,07, fin-	_
+4	es	_	_	PPER	_	_	_	_	_	NP	es	_	DO	_	B-NP	PPER	_	MAINDECL	30,07, fin-	_
+5	fin=den	_	_	VVINF	_	_	_	_	_	VP	finden	NF	INF	_	B-NP	VVINF	RE	MAINDECL	30,07, fin-	_
+6	auff	_	_	APPR	_	_	_	_	_	PP	auff	NF	PP-ADV	_	I-NP	APPR	_	MAINDECL	30,08, -den	UNLINK
+7	lange	_	_	ADJA	_	_	_	_	_	PP	lange	NF	PP-ADV	NA	I-NP	ADJ	_	MAINDECL	30,08, -den	UNLINK
+8	zeit	_	_	NN	_	_	_	_	_	PP	zeit	NF	PP-ADV	NA	I-NP	NA	_	MAINDECL	30,08, -den	UNLINK
+9	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	O	$_	_	MAINDECL	30,08, -den	_

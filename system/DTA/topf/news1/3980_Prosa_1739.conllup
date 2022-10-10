@@ -1,0 +1,808 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CharOffset DTA:ID DTA:NORM POS TOPF
+# sent_id = 1
+# sent_id(TSV) = 1
+# TopFString = (VROOT(ADJA Wunderliche)(NN FATA)(PIAT einiger)(NN See-Fahrer)(KOMMA ,)(ADJA Dritter)(NN Theil)(KON oder)(ADJA fortgeſetzte)(NN Geſchichts-Beſchreibung)(NE ALBERTI)(NE JULII)(KOMMA ,)(ART eines)(ADJA gebohrnen)(NN Sachſens)(PPOSAT ſeines)(APPRART im)(NN Jahr)(CARD 1730)(ADJA erfolgten)(NN Todes)(KOMMA ,)(KON und)(PPOSAT ſeiner)(APPR auf)(ART der)(NN Jnſul)(NE Felſenburg)(KLAMMER LBR)(C(PWAV allwo))(MF(PPER er)(APPR in)(PPOSAT ſeinem)(CARD 103ten)(NN Lebens-Jahre))(VC(VVPP beerdiget)(VAPP worden))(KLAMMER RBR)(APPR in)(ADJA vollkommenen)(NN Stand)(ADJA gebrachten)(NN Colonien)(KOMMA ,)(VC(VVPP entworffen))(NF(APPR von)(ART des)(NN Bruders-Sohnes-Sohnes-Sohne))(NN Monſ)(NE Eberhard)(NE Julio)(ADJA Curieuſen)(NN Leſern)(ADV aber)(APPRART zum)(ADJA vermuthlichen)(NN Gemuͤths)(MF(NN Vergnuͤgen))(VC(VVPP ausgefertiget))(KOMMA ,)(MF(ADV auch)(APPR par)(NN Commiſſion)(ART dem)(NN Druck))(VC(VVPP uͤbergeben))(NF(APPR von)(NE GISANDERN.)))
+# text = Wunderliche FATA einiger See-Fahrer , Dritter Theil , oder : fortgeſetzte Geſchichts-Beſchreibung ALBERTI JULII , eines gebohrnen Sachſens , ſeines , im Jahr 1730 . erfolgten Todes , und ſeiner auf der Jnſul Felſenburg ( allwo er in ſeinem 103ten Lebens-Jahre beerdiget worden ) in vollkommenen Stand gebrachten Colonien , entworffen von des Bruders-Sohnes-Sohnes-Sohne , Monſ . Eberhard Julio , Curieuſen Leſern aber zum vermuthlichen Gemuͤths . Vergnuͤgen ausgefertiget , auch par Commiſſion dem Druck uͤbergeben von GISANDERN.
+1	Wunderliche	wunderlich	_	ADJA	_	_	_	_	_	0-11	w1	Wunderliche	*	O
+2	FATA	Fatum	_	NN	_	_	_	_	_	12-16	w2	FATA	*	O
+3	einiger	einige	_	PIAT	_	_	_	_	_	17-24	w3	einiger	*	O
+4	See-Fahrer	See-Fahrer	_	NN	_	_	_	_	_	25-35	w4	See-Fahrer	*	O
+5	,	,	_	$,	_	_	_	_	_	36-37	w5	,	*	O
+6	Dritter	dritt	_	ADJA	_	_	_	_	_	38-45	w6	Dritter	*	O
+7	Theil	Teil	_	NN	_	_	_	_	_	46-51	w7	Teil	*	O
+8	,	,	_	$,	_	_	_	_	_	52-53	w8	,	*	O
+9	oder	oder	_	KON	_	_	_	_	_	54-58	w9	oder	*	O
+10	:	:	_	$.	_	_	_	_	_	59-60	wa	:	*	O
+11	fortgeſetzte	fortgesetzt	_	ADJA	_	_	_	_	_	61-73	wb	fortgesetzte	*	O
+12	Geſchichts-Beſchreibung	Geschichtes-Beschreibung	_	NN	_	_	_	_	_	74-97	wc	Geschichts-Beschreibung	*	O
+13	ALBERTI	Alberti	_	NE	_	_	_	_	_	98-105	wd	ALBERTI	*	O
+14	JULII	Julii	_	NE	_	_	_	_	_	106-111	we	JULII	*	O
+15	,	,	_	$,	_	_	_	_	_	112-113	wf	,	*	O
+16	eines	eine	_	ART	_	_	_	_	_	114-119	w10	eines	*	O
+17	gebohrnen	gebären	_	ADJA	_	_	_	_	_	120-129	w11	geborenen	*	O
+18	Sachſens	Sachsen	_	NN	_	_	_	_	_	130-138	w12	Sachsens	*	O
+19	,	,	_	$,	_	_	_	_	_	139-140	w13	,	*	O
+20	ſeines	seine	_	PPOSAT	_	_	_	_	_	141-147	w14	seines	*	O
+21	,	,	_	$,	_	_	_	_	_	148-149	w15	,	*	O
+22	im	im	_	APPRART	_	_	_	_	_	150-152	w16	im	*	O
+23	Jahr	Jahr	_	NN	_	_	_	_	_	153-157	w17	Jahr	*	O
+24	1730	1730	_	CARD	_	_	_	_	_	158-162	w18	1730	*	O
+25	.	.	_	$.	_	_	_	_	_	163-164	w19	.	*	O
+26	erfolgten	erfolgt	_	ADJA	_	_	_	_	_	165-174	w1a	erfolgten	*	O
+27	Todes	Tod	_	NN	_	_	_	_	_	175-180	w1b	Todes	*	O
+28	,	,	_	$,	_	_	_	_	_	181-182	w1c	,	*	O
+29	und	und	_	KON	_	_	_	_	_	183-186	w1d	und	*	O
+30	ſeiner	seine	_	PPOSAT	_	_	_	_	_	187-193	w1e	seiner	*	O
+31	auf	auf	_	APPR	_	_	_	_	_	194-197	w1f	auf	*	O
+32	der	d	_	ART	_	_	_	_	_	198-201	w20	der	*	O
+33	Jnſul	Insel	_	NN	_	_	_	_	_	202-207	w21,w21_1,w21_2	Insel	*	O
+34	Felſenburg	Felsenburg	_	NE	_	_	_	_	_	208-218	w22	Felsenburg	*	O
+35	(	(	_	$(	_	_	_	_	_	219-220	w23	(	*	O
+36	allwo	wo	_	PWAV	_	_	_	_	_	221-226	w24	wo	*	B-LK
+37	er	er	_	PPER	_	_	_	_	_	227-229	w25	er	*	B-MF
+38	in	in	_	APPR	_	_	_	_	_	230-232	w26	in	*	I-MF
+39	ſeinem	seine	_	PPOSAT	_	_	_	_	_	233-239	w27	seinem	*	I-MF
+40	103ten	103ten	_	CARD	_	_	_	_	_	240-246	w28	103ten	*	I-MF
+41	Lebens-Jahre	Lebens-Jahr	_	NN	_	_	_	_	_	247-259	w29	Lebens-Jahre	*	I-MF
+42	beerdiget	beerdigen	_	VVPP	_	_	_	_	_	260-269	w2a	beerdiget	*	B-RK
+43	worden	werden	_	VAPP	_	_	_	_	_	270-276	w2b	worden	*	I-RK
+44	)	)	_	$(	_	_	_	_	_	277-278	w2c	)	*	O
+45	in	in	_	APPR	_	_	_	_	_	279-281	w2d	in	*	O
+46	vollkommenen	vollkommen	_	ADJA	_	_	_	_	_	282-294	w2e	vollkommenen	*	O
+47	Stand	Stand	_	NN	_	_	_	_	_	295-300	w2f	Stand	*	O
+48	gebrachten	gebringt	_	ADJA	_	_	_	_	_	301-311	w30	gebrachten	*	O
+49	Colonien	Kolonie	_	NN	_	_	_	_	_	312-320	w31,w31_1	Kolonien	*	O
+50	,	,	_	$,	_	_	_	_	_	321-322	w32	,	*	O
+51	entworffen	entwerfen	_	VVPP	_	_	_	_	_	323-333	w33	entworfen	*	B-RK
+52	von	von	_	APPR	_	_	_	_	_	334-337	w34	von	*	B-NF
+53	des	d	_	ART	_	_	_	_	_	338-341	w35	des	*	I-NF
+54	Bruders-Sohnes-Sohnes-Sohne	Bruders-Sohnes-Sohnes-Sohn	_	NN	_	_	_	_	_	342-369	w36	Bruders-Sohnes-Sohnes-Sohne	*	I-NF
+55	,	,	_	$,	_	_	_	_	_	370-371	w37	,	*	O
+56	Monſ	Mons	_	NN	_	_	_	_	_	372-376	w38	Mons	*	O
+57	.	.	_	$.	_	_	_	_	_	377-378	w39	.	*	O
+58	Eberhard	Eberhard	_	NE	_	_	_	_	_	379-387	w3a	Eberhard	*	O
+59	Julio	Julio	_	NE	_	_	_	_	_	388-393	w3b	Julio	*	O
+60	,	,	_	$,	_	_	_	_	_	394-395	w3c	,	*	O
+61	Curieuſen	curieusen	_	ADJA	_	_	_	_	_	396-405	w3d,w3d_1	Curieusen	*	O
+62	Leſern	Leser	_	NN	_	_	_	_	_	406-412	w3e	Lesern	*	O
+63	aber	aber	_	ADV	_	_	_	_	_	413-417	w3f	aber	*	O
+64	zum	zum	_	APPRART	_	_	_	_	_	418-421	w40	zum	*	O
+65	vermuthlichen	vermutlich	_	ADJA	_	_	_	_	_	422-435	w41	vermutlichen	*	O
+66	Gemuͤths	Gemüt	_	NN	_	_	_	_	_	436-444	w42	Gemüts	*	O
+67	.	.	_	$.	_	_	_	_	_	445-446	w43	.	*	O
+68	Vergnuͤgen	Vergnügen	_	NN	_	_	_	_	_	447-457	w44	Vergnügen	*	B-MF
+69	ausgefertiget	ausfertigen	_	VVPP	_	_	_	_	_	458-471	w45	ausgefertigt	*	B-RK
+70	,	,	_	$,	_	_	_	_	_	472-473	w46	,	*	O
+71	auch	auch	_	ADV	_	_	_	_	_	474-478	w47	auch	*	B-MF
+72	par	par	_	APPR	_	_	_	_	_	479-482	w48	par	*	I-MF
+73	Commiſſion	Kommission	_	NN	_	_	_	_	_	483-493	w49	Kommission	*	I-MF
+74	dem	d	_	ART	_	_	_	_	_	494-497	w4a	dem	*	I-MF
+75	Druck	Druck	_	NN	_	_	_	_	_	498-503	w4b	Druck	*	I-MF
+76	uͤbergeben	übergeben	_	VVPP	_	_	_	_	_	504-514	w4c	übergeben	*	B-RK
+77	von	von	_	APPR	_	_	_	_	_	515-518	w4d	von	*	B-NF
+78	GISANDERN.	GISANDERN.	_	NE	_	_	_	_	_	519-529	w4e	GISANDERN.	*	I-NF
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# TopFString = (VROOT(NE NORDHAUSEN)(APPR bey)(NE Joh.)(NE Heinrich)(NE Groß)(ADJA privil)(NN Buchhaͤndler)(NN Anno)(CARD 1739))
+# text = NORDHAUSEN , bey Joh. Heinrich Groß , privil . Buchhaͤndler Anno 1739 .
+1	NORDHAUSEN	Nordhausen	_	NE	_	_	_	_	_	531-541	w4f	NORDHAUSEN	*	O
+2	,	,	_	$,	_	_	_	_	_	542-543	w50	,	*	O
+3	bey	bei	_	APPR	_	_	_	_	_	544-547	w51	bei	*	O
+4	Joh.	Joh.	_	NE	_	_	_	_	_	548-552	w52	Joh.	*	O
+5	Heinrich	Heinrich	_	NE	_	_	_	_	_	553-561	w53	Heinrich	*	O
+6	Groß	Groß	_	NE	_	_	_	_	_	562-566	w54	Groß	*	O
+7	,	,	_	$,	_	_	_	_	_	567-568	w55	,	*	O
+8	privil	Privil	_	ADJA	_	_	_	_	_	569-575	w56	privil	*	O
+9	.	.	_	$.	_	_	_	_	_	576-577	w57	.	*	O
+10	Buchhaͤndler	Buchhändler	_	NN	_	_	_	_	_	578-590	w58	Buchhändler	*	O
+11	Anno	Anno	_	NN	_	_	_	_	_	591-595	w59	Anno	*	O
+12	1739	1739	_	CARD	_	_	_	_	_	596-600	w5a	1739	*	O
+13	.	.	_	$.	_	_	_	_	_	601-602	w5b	.	*	O
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# TopFString = (VROOT(FM Sat)(FM citò)(KOMMA ,)(FM ſi)(FM ſat)(FM bene))
+# text = Sat citò , ſi ſat bene .
+1	Sat	satt	_	FM	_	_	_	_	_	604-607	w393	Satt	*	O
+2	citò	cito	_	FM	_	_	_	_	_	608-612	w394	cito	*	O
+3	,	,	_	$,	_	_	_	_	_	613-614	w395	,	*	O
+4	ſi	sie	_	FM	_	_	_	_	_	615-617	w396	sie	*	O
+5	ſat	satt	_	FM	_	_	_	_	_	618-621	w397	satt	*	O
+6	bene	bene	_	FM	_	_	_	_	_	622-626	w398	bene	*	O
+7	.	.	_	$.	_	_	_	_	_	627-628	w399	.	*	O
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# TopFString = (VROOT(VF(ART Ein)(PIDAT jedes)(ADJA gutes)(NN Ding))(LK(VMFIN will))(MF(NN Zeit))(KON und)(VF(NN Weile))(LK(VAFIN haben))(KOMMA ,)(NF(PDS Den)(KOMMA ,)(C(PRELS der))(MF(PPER ihm)(ADJD guͤnſtig))(VC(VAFIN iſt))(KOMMA ,)(NF(C(KOUI um))(MF(ADV deſto)(ADV mehr))(VC(PTKZU zu)(VVINF laben)))))
+# text = Ein jedes gutes Ding will Zeit und Weile haben , Den , der ihm guͤnſtig iſt , um deſto mehr zu laben .
+1	Ein	eine	_	ART	_	_	_	_	_	630-633	w39a	Ein	*	B-VF
+2	jedes	jede	_	PIDAT	_	_	_	_	_	634-639	w39b	jedes	*	I-VF
+3	gutes	gut	_	ADJA	_	_	_	_	_	640-645	w39c	gutes	*	I-VF
+4	Ding	Ding	_	NN	_	_	_	_	_	646-650	w39d	Ding	*	I-VF
+5	will	wollen	_	VMFIN	_	_	_	_	_	651-655	w39e	will	*	B-LK
+6	Zeit	Zeit	_	NN	_	_	_	_	_	656-660	w39f	Zeit	*	B-MF
+7	und	und	_	KON	_	_	_	_	_	661-664	w3a0	und	*	O
+8	Weile	Weile	_	NN	_	_	_	_	_	665-670	w3a1	Weile	*	B-VF
+9	haben	haben	_	VAFIN	_	_	_	_	_	671-676	w3a2	haben	*	B-LK
+10	,	,	_	$,	_	_	_	_	_	677-678	w3a3	,	*	O
+11	Den	D	_	PDS	_	_	_	_	_	679-682	w3a4	Den	*	B-NF
+12	,	,	_	$,	_	_	_	_	_	683-684	w3a5	,	*	I-NF
+13	der	die	_	PRELS	_	_	_	_	_	685-688	w3a6	der	*	I-NF|B-LK
+14	ihm	er	_	PPER	_	_	_	_	_	689-692	w3a7	ihm	*	I-NF|B-MF
+15	guͤnſtig	günstig	_	ADJD	_	_	_	_	_	693-701	w3a8	günstig	*	I-NF|I-MF
+16	iſt	sein	_	VAFIN	_	_	_	_	_	702-705	w3a9	ist	*	I-NF|B-RK
+17	,	,	_	$,	_	_	_	_	_	706-707	w3aa	,	*	I-NF
+18	um	um	_	KOUI	_	_	_	_	_	708-710	w3ab	um	*	I-NF|B-NF|B-LK
+19	deſto	desto	_	ADV	_	_	_	_	_	711-716	w3ac	desto	*	I-NF|I-NF|B-MF
+20	mehr	mehr	_	ADV	_	_	_	_	_	717-721	w3ad	mehr	*	I-NF|I-NF|I-MF
+21	zu	zu	_	PTKZU	_	_	_	_	_	722-724	w3ae	zu	*	I-NF|I-NF|B-RK
+22	laben	laben	_	VVINF	_	_	_	_	_	725-730	w3af	laben	*	I-NF|I-NF|I-RK
+23	.	.	_	$.	_	_	_	_	_	731-732	w3b0	.	*	O
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# TopFString = (VROOT(ADJA Geneigter)(NN Leſer))
+# text = Geneigter Leſer !
+1	Geneigter	geneigt	_	ADJA	_	_	_	_	_	734-743	w5c	Geneigter	*	O
+2	Leſer	Leser	_	NN	_	_	_	_	_	744-749	w5d	Leser	*	O
+3	!	!	_	$.	_	_	_	_	_	750-751	w5e	!	*	O
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# TopFString = (VROOT(VF(APPR Wit)(PDAT dieſem)(ADJA uralten)(NN Spruͤch-<lb/>worte))(KOMMA ,)(LK(VVFIN uͤberreiche))(MF(PPER ich)(PPER dir)(PAV hier-<lb/>mit)(KOMMA ,)(APPR pro)(ADV nunc)(KOMMA ,)(ART den)(ADJA dritten)(KON und)(ADJA letzten)(NN Theil)(ART der)(ADJA Felſen-<lb/>burgiſchen)(NN Geſchichte))(KOMMA ,)(KON und)(LK(VVFIN bringe))(MF(PDS denſelben))(KOMMA ,)(NF(KOKOM als)(C(KOUS ob))(MF(PPER ich)(KOMMA ,)(APPR wegen)(ART des)(ADJA langen)(NN Auſſenbleibens)(KOMMA ,)(MF(PPER mich))(VC(PTKZU zu)(VVINF ſchaͤmen))(NN Urſach))(VC(VAFIN haͤt-<lb/>te))(KOMMA ,)(NF(PTKNEG nicht)(ADV etwa)(APPR unter)(ART dem)(NN Mantel)))(KOMMA ,)(KON ſondern)(MF(ADJD frey)(KON und)(ADJD oͤffentlich))(VC(VVPP hergetragen)))
+# text = Wit dieſem uralten Spruͤch-<lb/>worte , uͤberreiche ich dir hier-<lb/>mit , pro nunc , den dritten und letzten Theil der Felſen-<lb/>burgiſchen Geſchichte , und bringe denſelben , als ob ich , wegen des langen Auſſenbleibens , mich zu ſchaͤmen Urſach haͤt-<lb/>te , nicht etwa unter dem Mantel , ſondern frey und oͤffentlich hergetragen .
+1	Wit	mit	_	APPR	_	_	_	_	_	753-756	w5f,w5f_1	Mit	*	B-VF
+2	dieſem	diese	_	PDAT	_	_	_	_	_	757-763	w60	diesem	*	I-VF
+3	uralten	uralt	_	ADJA	_	_	_	_	_	764-771	w61	uralten	*	I-VF
+4	Spruͤch-<lb/>worte	Spruchwort	_	NN	_	_	_	_	_	772-790	w62	Sprüchworte	*	I-VF
+5	,	,	_	$,	_	_	_	_	_	791-792	w63	,	*	O
+6	uͤberreiche	überreichen	_	VVFIN	_	_	_	_	_	793-804	w64	überreiche	*	B-LK
+7	ich	ich	_	PPER	_	_	_	_	_	805-808	w65	ich	*	B-MF
+8	dir	du	_	PPER	_	_	_	_	_	809-812	w66	dir	*	I-MF
+9	hier-<lb/>mit	hiermit	_	PAV	_	_	_	_	_	813-826	w67	hiermit	*	I-MF
+10	,	,	_	$,	_	_	_	_	_	827-828	w68	,	*	I-MF
+11	pro	pro	_	APPR	_	_	_	_	_	829-832	w69	pro	*	I-MF
+12	nunc	Nunc	_	ADV	_	_	_	_	_	833-837	w6a,w6a_1,w6a_2	nunc	*	I-MF
+13	,	,	_	$,	_	_	_	_	_	838-839	w6b	,	*	I-MF
+14	den	d	_	ART	_	_	_	_	_	840-843	w6c	den	*	I-MF
+15	dritten	dritt	_	ADJA	_	_	_	_	_	844-851	w6d	dritten	*	I-MF
+16	und	und	_	KON	_	_	_	_	_	852-855	w6e	und	*	I-MF
+17	letzten	letzte	_	ADJA	_	_	_	_	_	856-863	w6f	letzten	*	I-MF
+18	Theil	Teil	_	NN	_	_	_	_	_	864-869	w70	Teil	*	I-MF
+19	der	d	_	ART	_	_	_	_	_	870-873	w71	der	*	I-MF
+20	Felſen-<lb/>burgiſchen	Felsenburgischen	_	ADJA	_	_	_	_	_	874-896	w72	Felsenburgischen	*	I-MF
+21	Geſchichte	Geschichte	_	NN	_	_	_	_	_	897-907	w73	Geschichte	*	I-MF
+22	,	,	_	$,	_	_	_	_	_	908-909	w74	,	*	O
+23	und	und	_	KON	_	_	_	_	_	910-913	w75	und	*	O
+24	bringe	bringen	_	VVFIN	_	_	_	_	_	914-920	w76	bringe	*	B-LK
+25	denſelben	dieselbe	_	PDS	_	_	_	_	_	921-930	w77	denselben	*	B-MF
+26	,	,	_	$,	_	_	_	_	_	931-932	w78	,	*	O
+27	als	als	_	KOKOM	_	_	_	_	_	933-936	w79	als	*	B-NF
+28	ob	ob	_	KOUS	_	_	_	_	_	937-939	w7a	ob	*	I-NF|B-LK
+29	ich	ich	_	PPER	_	_	_	_	_	940-943	w7b	ich	*	I-NF|B-MF
+30	,	,	_	$,	_	_	_	_	_	944-945	w7c	,	*	I-NF|I-MF
+31	wegen	wegen	_	APPR	_	_	_	_	_	946-951	w7d	wegen	*	I-NF|I-MF
+32	des	d	_	ART	_	_	_	_	_	952-955	w7e	des	*	I-NF|I-MF
+33	langen	lang	_	ADJA	_	_	_	_	_	956-962	w7f	langen	*	I-NF|I-MF
+34	Auſſenbleibens	Außenbleiben	_	NN	_	_	_	_	_	963-977	w80	Außenbleibens	*	I-NF|I-MF
+35	,	,	_	$,	_	_	_	_	_	978-979	w81	,	*	I-NF|I-MF
+36	mich	ich	_	PPER	_	_	_	_	_	980-984	w82	mich	*	I-NF|I-MF|B-MF
+37	zu	zu	_	PTKZU	_	_	_	_	_	985-987	w83	zu	*	I-NF|I-MF|B-RK
+38	ſchaͤmen	schämen	_	VVINF	_	_	_	_	_	988-996	w84	schämen	*	I-NF|I-MF|I-RK
+39	Urſach	Ursache	_	NN	_	_	_	_	_	997-1003	w85	Ursache	*	I-NF|I-MF
+40	haͤt-<lb/>te	haben	_	VAFIN	_	_	_	_	_	1004-1016	w86	hätte	*	I-NF|B-RK
+41	,	,	_	$,	_	_	_	_	_	1017-1018	w87	,	*	I-NF
+42	nicht	nicht	_	PTKNEG	_	_	_	_	_	1019-1024	w88	nicht	*	I-NF|B-NF
+43	etwa	etwa	_	ADV	_	_	_	_	_	1025-1029	w89	etwa	*	I-NF|I-NF
+44	unter	unter	_	APPR	_	_	_	_	_	1030-1035	w8a	unter	*	I-NF|I-NF
+45	dem	d	_	ART	_	_	_	_	_	1036-1039	w8b	dem	*	I-NF|I-NF
+46	Mantel	Mantel	_	NN	_	_	_	_	_	1040-1046	w8c	Mantel	*	I-NF|I-NF
+47	,	,	_	$,	_	_	_	_	_	1047-1048	w8d	,	*	O
+48	ſondern	sondern	_	KON	_	_	_	_	_	1049-1056	w8e	sondern	*	O
+49	frey	frei	_	ADJD	_	_	_	_	_	1057-1061	w8f	frei	*	B-MF
+50	und	und	_	KON	_	_	_	_	_	1062-1065	w90	und	*	I-MF
+51	oͤffentlich	öffentlich	_	ADJD	_	_	_	_	_	1066-1077	w91	öffentlich	*	I-MF
+52	hergetragen	hertragen	_	VVPP	_	_	_	_	_	1078-1089	w92	hergetragen	*	B-RK
+53	.	.	_	$.	_	_	_	_	_	1090-1091	w93	.	*	O
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# TopFString = (VROOT(LV(LK(VAIMP Sey))(MF(ADV ſo)(ADJD guͤ-<lb/>tig))(KOMMA ,)(NF(MF(PDS denſelhen)(ADV erſtlich)(APPR mit)(PIAT ſolcher)(NN Aufmerck-<lb/>ſamkeit)(KOMMA ,)(KOKOM als)(ART die)(NN vorigen))(KOMMA ,)(VC(VVIZU durchzuleſen))))(KOMMA ,)(VF(ADV ſo))(LK(VAFIN wirſt))(MF(PPER du)(PRF mich)(PAV hernach)(APPR ohne)(PIAT allen)(NN Zweiffel))(VC(VVPP entſchuldiget)(VVINF halten))(KOMMA ,)(NF(C(KOUS daß))(MF(PPER ich)(PTKNEG nicht)(ADV ehe)(PAV damit))(VC(VVPP erſchienen)(VAFIN bin))))
+# text = Sey ſo guͤ-<lb/>tig , denſelhen erſtlich mit ſolcher Aufmerck-<lb/>ſamkeit , als die vorigen , durchzuleſen , ſo wirſt du mich hernach ohne allen Zweiffel entſchuldiget halten , daß ich nicht ehe damit erſchienen bin .
+1	Sey	sein	_	VAIMP	_	_	_	_	_	1093-1096	w94	Sei	*	B-LV|B-LK
+2	ſo	so	_	ADV	_	_	_	_	_	1097-1099	w95	so	*	I-LV|B-MF
+3	guͤ-<lb/>tig	gütig	_	ADJD	_	_	_	_	_	1100-1112	w96	gütig	*	I-LV|I-MF
+4	,	,	_	$,	_	_	_	_	_	1113-1114	w97	,	*	I-LV
+5	denſelhen	Denselhen	_	PDS	_	_	_	_	_	1115-1124	w98	denselhen	*	I-LV|B-NF|B-MF
+6	erſtlich	erstlich	_	ADV	_	_	_	_	_	1125-1133	w99	erstlich	*	I-LV|I-NF|I-MF
+7	mit	mit	_	APPR	_	_	_	_	_	1134-1137	w9a	mit	*	I-LV|I-NF|I-MF
+8	ſolcher	solch	_	PIAT	_	_	_	_	_	1138-1145	w9b	solcher	*	I-LV|I-NF|I-MF
+9	Aufmerck-<lb/>ſamkeit	Aufmerksamkeit	_	NN	_	_	_	_	_	1146-1167	w9c	Aufmerksamkeit	*	I-LV|I-NF|I-MF
+10	,	,	_	$,	_	_	_	_	_	1168-1169	w9d	,	*	I-LV|I-NF|I-MF
+11	als	als	_	KOKOM	_	_	_	_	_	1170-1173	w9e	als	*	I-LV|I-NF|I-MF
+12	die	d	_	ART	_	_	_	_	_	1174-1177	w9f	die	*	I-LV|I-NF|I-MF
+13	vorigen	vorig	_	NN	_	_	_	_	_	1178-1185	wa0	vorigen	*	I-LV|I-NF|I-MF
+14	,	,	_	$,	_	_	_	_	_	1186-1187	wa1	,	*	I-LV|I-NF
+15	durchzuleſen	durchlesen	_	VVIZU	_	_	_	_	_	1188-1200	wa2	durchzulesen	*	I-LV|I-NF|B-RK
+16	,	,	_	$,	_	_	_	_	_	1201-1202	wa3	,	*	O
+17	ſo	so	_	ADV	_	_	_	_	_	1203-1205	wa4	so	*	B-VF
+18	wirſt	werden	_	VAFIN	_	_	_	_	_	1206-1211	wa5	wirst	*	B-LK
+19	du	du	_	PPER	_	_	_	_	_	1212-1214	wa6	du	*	B-MF
+20	mich	mich	_	PRF	_	_	_	_	_	1215-1219	wa7	mich	*	I-MF
+21	hernach	hernach	_	PAV	_	_	_	_	_	1220-1227	wa8	hernach	*	I-MF
+22	ohne	ohne	_	APPR	_	_	_	_	_	1228-1232	wa9	ohne	*	I-MF
+23	allen	alle	_	PIAT	_	_	_	_	_	1233-1238	waa	allen	*	I-MF
+24	Zweiffel	Zweifel	_	NN	_	_	_	_	_	1239-1247	wab	Zweifel	*	I-MF
+25	entſchuldiget	entschuldigen	_	VVPP	_	_	_	_	_	1248-1261	wac	entschuldiget	*	B-RK
+26	halten	halten	_	VVINF	_	_	_	_	_	1262-1268	wad	halten	*	I-RK
+27	,	,	_	$,	_	_	_	_	_	1269-1270	wae	,	*	O
+28	daß	daß	_	KOUS	_	_	_	_	_	1271-1274	waf	daß	*	B-NF|B-LK
+29	ich	ich	_	PPER	_	_	_	_	_	1275-1278	wb0	ich	*	I-NF|B-MF
+30	nicht	nicht	_	PTKNEG	_	_	_	_	_	1279-1284	wb1	nicht	*	I-NF|I-MF
+31	ehe	ehe	_	ADV	_	_	_	_	_	1285-1288	wb2	ehe	*	I-NF|I-MF
+32	damit	damit	_	PAV	_	_	_	_	_	1289-1294	wb3	damit	*	I-NF|I-MF
+33	erſchienen	erscheinen	_	VVPP	_	_	_	_	_	1295-1305	wb4	erschienen	*	I-NF|B-RK
+34	bin	sein	_	VAFIN	_	_	_	_	_	1306-1309	wb5	bin	*	I-NF|I-RK
+35	.	.	_	$.	_	_	_	_	_	1310-1311	wb6	.	*	O
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# TopFString = (VROOT(VF(ADJD Bekandt))(LK(VAFIN iſts))(KOMMA ,)(KON und)(VF(PPER ich))(FKOORD(FKONJ(LK(VAFIN haͤtte))(KOMMA ,)(NF(C(KOUS wenn))(MF(PPER ich)(PTKNEG nicht)(ART eines)(ADJA demuͤthigen)(NN Geiſtes))(VC(VAFIN waͤ-<lb/>re))(KOMMA ,)(NF(FKOORD(MF(ADV faſt)(NN Urſach))(KOMMA ,)(MF(ART die)(NN Backen)(ART ein)(PIS wenig)))(VC(VVIZU aufzu-<lb/>blaſen))(KOMMA ,)(NF(C(KOUS daß))(FKOORD(FKONJ(MF(PDAT dieſer)(ADJA dritte)(NN Theil)(KOMMA ,)(KON oder)(ART die)(ADJA ferner-<lb/>weitige)(NN Fortſetzung)(ART der)(ADJA Felſenburgiſchen)(NN Geſchichte)(KOMMA ,)(APPR von)(PIS vielen)(ADV ſchon)(APPR vor)(CARD 2.)(ADV bis)(CARD 4.)(NN Jah-<lb/>ren)(ADJD inſtaͤndigſt))(VC(VVPP verlanget)(VAPP worden)))(KOMMA ,)(FKONJ(MF(PIS man)(PPER ih-<lb/>nen)(ADV aber)(ADV zwar)(NN Hoffnung)(PAV darzu))(VC(VVINF machen)))(KOMMA ,)(KON je-<lb/>doch)(FKONJ(MF(ADV ſo)(ADV gleich)(PTKNEG nicht)(PAV damit))(VC(VVINF aufwarten)(VMINF koͤnnen))))))))(KOMMA ,)(KON und)(FKONJ(LK(VVFIN nimmt))(MF(PRF ſich)(PIAT kein)(NN Bedencken))(KOMMA ,)(NF(MF(ADV nunmehro)(ADJD oͤffentlich))(VC(PTKZU zu)(VVINF geſtehen))(KOMMA ,)(NF(C(KOUS daß))(FKOORD(FKONJ(MF(PIS man)(APPR durch)(ADJA falſche)(NN Nachrichten)(KOMMA ,)(KOKOM als)(C(KOUS ob))(MF(ART der)(NN Capitain)(NE Horn)(ADV be-<lb/>reits))(VC(VVPP angekommen)(VAFIN waͤre))(KOMMA ,)(ADV ſchon)(ADV zweymahl))(VC(VVPP be-<lb/>trogen)))(KOMMA ,)(FKONJ(MF(ADV mithin))(VC(VVPP angereitzt)(VAPP worden)))(KOMMA ,)(FKONJ(MF(ADJA bemeld-<lb/>ten)(ADJA dritten)(NN Theil)(APPR in)(ART der)(ADJA naͤchſten)(ADJA Leipziger-)(NN Meſſe))(VC(PTKVZ heraus))))(VC(PTKZU zu)(VVINF ſchaffen)))))))
+# text = Bekandt iſts , und ich haͤtte , wenn ich nicht eines demuͤthigen Geiſtes waͤ-<lb/>re , faſt Urſach , die Backen ein wenig aufzu-<lb/>blaſen , daß dieſer dritte Theil , oder die ferner-<lb/>weitige Fortſetzung der Felſenburgiſchen Geſchichte , von vielen ſchon vor 2. bis 4. Jah-<lb/>ren inſtaͤndigſt verlanget worden , man ih-<lb/>nen aber zwar Hoffnung darzu machen , je-<lb/>doch ſo gleich nicht damit aufwarten koͤnnen , und nimmt ſich kein Bedencken , nunmehro oͤffentlich zu geſtehen , daß man durch falſche Nachrichten , als ob der Capitain Horn be-<lb/>reits angekommen waͤre , ſchon zweymahl be-<lb/>trogen , mithin angereitzt worden , bemeld-<lb/>ten dritten Theil in der naͤchſten Leipziger- Meſſe heraus zu ſchaffen .
+1	Bekandt	bekannt	_	ADJD	_	_	_	_	_	1313-1320	wb7	bekannt	*	B-VF
+2	iſts	sein_es	_	VAFIN	_	_	_	_	_	1321-1325	wb8	ist_es	*	B-LK
+3	,	,	_	$,	_	_	_	_	_	1326-1327	wb9	,	*	O
+4	und	und	_	KON	_	_	_	_	_	1328-1331	wba	und	*	O
+5	ich	ich	_	PPER	_	_	_	_	_	1332-1335	wbb	ich	*	B-VF
+6	haͤtte	haben	_	VAFIN	_	_	_	_	_	1336-1342	wbc	hätte	*	B-LK
+7	,	,	_	$,	_	_	_	_	_	1343-1344	wbd	,	*	O
+8	wenn	wenn	_	KOUS	_	_	_	_	_	1345-1349	wbe	wenn	*	B-NF|B-LK
+9	ich	ich	_	PPER	_	_	_	_	_	1350-1353	wbf	ich	*	I-NF|B-MF
+10	nicht	nicht	_	PTKNEG	_	_	_	_	_	1354-1359	wc0	nicht	*	I-NF|I-MF
+11	eines	eine	_	ART	_	_	_	_	_	1360-1365	wc1	eines	*	I-NF|I-MF
+12	demuͤthigen	demütigen	_	ADJA	_	_	_	_	_	1366-1377	wc2	demütigen	*	I-NF|I-MF
+13	Geiſtes	Geist	_	NN	_	_	_	_	_	1378-1385	wc3	Geistes	*	I-NF|I-MF
+14	waͤ-<lb/>re	sein	_	VAFIN	_	_	_	_	_	1386-1397	wc4	wäre	*	I-NF|B-RK
+15	,	,	_	$,	_	_	_	_	_	1398-1399	wc5	,	*	I-NF
+16	faſt	fast	_	ADV	_	_	_	_	_	1400-1404	wc6	fast	*	I-NF|B-NF|B-MF
+17	Urſach	Ursache	_	NN	_	_	_	_	_	1405-1411	wc7,wc7_1	Ursache	*	I-NF|I-NF|I-MF
+18	,	,	_	$,	_	_	_	_	_	1412-1413	wc8	,	*	I-NF|I-NF
+19	die	d	_	ART	_	_	_	_	_	1414-1417	wc9	die	*	I-NF|I-NF|B-MF
+20	Backen	Backe	_	NN	_	_	_	_	_	1418-1424	wca	Backen	*	I-NF|I-NF|I-MF
+21	ein	eine	_	ART	_	_	_	_	_	1425-1428	wcb	ein	*	I-NF|I-NF|I-MF
+22	wenig	wenig	_	PIS	_	_	_	_	_	1429-1434	wcc	wenig	*	I-NF|I-NF|I-MF
+23	aufzu-<lb/>blaſen	aufblasen	_	VVIZU	_	_	_	_	_	1435-1452	wcd	aufzublasen	*	I-NF|I-NF|B-RK
+24	,	,	_	$,	_	_	_	_	_	1453-1454	wce	,	*	I-NF|I-NF
+25	daß	daß	_	KOUS	_	_	_	_	_	1455-1458	wcf	daß	*	I-NF|I-NF|B-NF|B-LK
+26	dieſer	diese	_	PDAT	_	_	_	_	_	1459-1465	wd0	dieser	*	I-NF|I-NF|I-NF|B-MF
+27	dritte	dritt	_	ADJA	_	_	_	_	_	1466-1472	wd1	dritte	*	I-NF|I-NF|I-NF|I-MF
+28	Theil	Teil	_	NN	_	_	_	_	_	1473-1478	wd2	Teil	*	I-NF|I-NF|I-NF|I-MF
+29	,	,	_	$,	_	_	_	_	_	1479-1480	wd3	,	*	I-NF|I-NF|I-NF|I-MF
+30	oder	oder	_	KON	_	_	_	_	_	1481-1485	wd4	oder	*	I-NF|I-NF|I-NF|I-MF
+31	die	d	_	ART	_	_	_	_	_	1486-1489	wd5	die	*	I-NF|I-NF|I-NF|I-MF
+32	ferner-<lb/>weitige	fernerweitige	_	ADJA	_	_	_	_	_	1490-1509	wd6	fernerweitige	*	I-NF|I-NF|I-NF|I-MF
+33	Fortſetzung	Fortsetzung	_	NN	_	_	_	_	_	1510-1521	wd7	Fortsetzung	*	I-NF|I-NF|I-NF|I-MF
+34	der	d	_	ART	_	_	_	_	_	1522-1525	wd8	der	*	I-NF|I-NF|I-NF|I-MF
+35	Felſenburgiſchen	Felsenburgischen	_	ADJA	_	_	_	_	_	1526-1542	wd9	Felsenburgischen	*	I-NF|I-NF|I-NF|I-MF
+36	Geſchichte	Geschichte	_	NN	_	_	_	_	_	1543-1553	wda	Geschichte	*	I-NF|I-NF|I-NF|I-MF
+37	,	,	_	$,	_	_	_	_	_	1554-1555	wdb	,	*	I-NF|I-NF|I-NF|I-MF
+38	von	von	_	APPR	_	_	_	_	_	1556-1559	wdc	von	*	I-NF|I-NF|I-NF|I-MF
+39	vielen	viel	_	PIS	_	_	_	_	_	1560-1566	wdd	vielen	*	I-NF|I-NF|I-NF|I-MF
+40	ſchon	schon	_	ADV	_	_	_	_	_	1567-1572	wde	schon	*	I-NF|I-NF|I-NF|I-MF
+41	vor	vor	_	APPR	_	_	_	_	_	1573-1576	wdf	vor	*	I-NF|I-NF|I-NF|I-MF
+42	2.	2.	_	CARD	_	_	_	_	_	1577-1579	we0	2.	*	I-NF|I-NF|I-NF|I-MF
+43	bis	bis	_	ADV	_	_	_	_	_	1580-1583	we1	bis	*	I-NF|I-NF|I-NF|I-MF
+44	4.	4.	_	CARD	_	_	_	_	_	1584-1586	we2	4.	*	I-NF|I-NF|I-NF|I-MF
+45	Jah-<lb/>ren	Jahr	_	NN	_	_	_	_	_	1587-1599	we3	Jahren	*	I-NF|I-NF|I-NF|I-MF
+46	inſtaͤndigſt	inständig	_	ADJD	_	_	_	_	_	1600-1612	we4	inständigst	*	I-NF|I-NF|I-NF|I-MF
+47	verlanget	verlangen	_	VVPP	_	_	_	_	_	1613-1622	we5	verlanget	*	I-NF|I-NF|I-NF|B-RK
+48	worden	werden	_	VAPP	_	_	_	_	_	1623-1629	we6	worden	*	I-NF|I-NF|I-NF|I-RK
+49	,	,	_	$,	_	_	_	_	_	1630-1631	we7	,	*	I-NF|I-NF|I-NF
+50	man	man	_	PIS	_	_	_	_	_	1632-1635	we8	man	*	I-NF|I-NF|I-NF|B-MF
+51	ih-<lb/>nen	sie	_	PPER	_	_	_	_	_	1636-1647	we9	ihnen	*	I-NF|I-NF|I-NF|I-MF
+52	aber	aber	_	ADV	_	_	_	_	_	1648-1652	wea	aber	*	I-NF|I-NF|I-NF|I-MF
+53	zwar	zwar	_	ADV	_	_	_	_	_	1653-1657	web	zwar	*	I-NF|I-NF|I-NF|I-MF
+54	Hoffnung	Hoffnung	_	NN	_	_	_	_	_	1658-1666	wec	Hoffnung	*	I-NF|I-NF|I-NF|I-MF
+55	darzu	dazu	_	PAV	_	_	_	_	_	1667-1672	wed	dazu	*	I-NF|I-NF|I-NF|I-MF
+56	machen	machen	_	VVINF	_	_	_	_	_	1673-1679	wee	machen	*	I-NF|I-NF|I-NF|B-RK
+57	,	,	_	$,	_	_	_	_	_	1680-1681	wef	,	*	I-NF|I-NF|I-NF
+58	je-<lb/>doch	jedoch	_	KON	_	_	_	_	_	1682-1694	wf0	jedoch	*	I-NF|I-NF|I-NF|B-KOORD
+59	ſo	so	_	ADV	_	_	_	_	_	1695-1697	wf1	so	*	I-NF|I-NF|I-NF|B-MF
+60	gleich	gleich	_	ADV	_	_	_	_	_	1698-1704	wf2	gleich	*	I-NF|I-NF|I-NF|I-MF
+61	nicht	nicht	_	PTKNEG	_	_	_	_	_	1705-1710	wf3	nicht	*	I-NF|I-NF|I-NF|I-MF
+62	damit	damit	_	PAV	_	_	_	_	_	1711-1716	wf4	damit	*	I-NF|I-NF|I-NF|I-MF
+63	aufwarten	aufwarten	_	VVINF	_	_	_	_	_	1717-1726	wf5	aufwarten	*	I-NF|I-NF|I-NF|B-RK
+64	koͤnnen	können	_	VMINF	_	_	_	_	_	1727-1734	wf6	können	*	I-NF|I-NF|I-NF|I-RK
+65	,	,	_	$,	_	_	_	_	_	1735-1736	wf7	,	*	O
+66	und	und	_	KON	_	_	_	_	_	1737-1740	wf8	und	*	B-KOORD
+67	nimmt	nehmen	_	VVFIN	_	_	_	_	_	1741-1746	wf9	nimmt	*	B-LK
+68	ſich	sich	_	PRF	_	_	_	_	_	1747-1751	wfa	sich	*	B-MF
+69	kein	keine	_	PIAT	_	_	_	_	_	1752-1756	wfb	kein	*	I-MF
+70	Bedencken	Bedenken	_	NN	_	_	_	_	_	1757-1766	wfc	Bedenken	*	I-MF
+71	,	,	_	$,	_	_	_	_	_	1767-1768	wfd	,	*	O
+72	nunmehro	nunmehr	_	ADV	_	_	_	_	_	1769-1777	wfe	nunmehr	*	B-NF|B-MF
+73	oͤffentlich	öffentlich	_	ADJD	_	_	_	_	_	1778-1789	wff	öffentlich	*	I-NF|I-MF
+74	zu	zu	_	PTKZU	_	_	_	_	_	1790-1792	w100	zu	*	I-NF|B-RK
+75	geſtehen	gestehen	_	VVINF	_	_	_	_	_	1793-1801	w101	gestehen	*	I-NF|I-RK
+76	,	,	_	$,	_	_	_	_	_	1802-1803	w102	,	*	I-NF
+77	daß	daß	_	KOUS	_	_	_	_	_	1804-1807	w103	daß	*	I-NF|B-NF|B-LK
+78	man	man	_	PIS	_	_	_	_	_	1808-1811	w104	man	*	I-NF|I-NF|B-MF
+79	durch	durch	_	APPR	_	_	_	_	_	1812-1817	w105	durch	*	I-NF|I-NF|I-MF
+80	falſche	falsch	_	ADJA	_	_	_	_	_	1818-1825	w106	falsche	*	I-NF|I-NF|I-MF
+81	Nachrichten	Nachricht	_	NN	_	_	_	_	_	1826-1837	w107	Nachrichten	*	I-NF|I-NF|I-MF
+82	,	,	_	$,	_	_	_	_	_	1838-1839	w108	,	*	I-NF|I-NF|I-MF
+83	als	als	_	KOKOM	_	_	_	_	_	1840-1843	w109	als	*	I-NF|I-NF|I-MF
+84	ob	ob	_	KOUS	_	_	_	_	_	1844-1846	w10a	ob	*	I-NF|I-NF|I-MF|B-LK
+85	der	d	_	ART	_	_	_	_	_	1847-1850	w10b	der	*	I-NF|I-NF|I-MF|B-MF
+86	Capitain	Kapitän	_	NN	_	_	_	_	_	1851-1859	w10c	Kapitän	*	I-NF|I-NF|I-MF|I-MF
+87	Horn	Horn	_	NE	_	_	_	_	_	1860-1864	w10d	Horn	*	I-NF|I-NF|I-MF|I-MF
+88	be-<lb/>reits	bereits	_	ADV	_	_	_	_	_	1865-1878	w10e	bereits	*	I-NF|I-NF|I-MF|I-MF
+89	angekommen	ankommen	_	VVPP	_	_	_	_	_	1879-1889	w10f	angekommen	*	I-NF|I-NF|I-MF|B-RK
+90	waͤre	sein	_	VAFIN	_	_	_	_	_	1890-1895	w110	wäre	*	I-NF|I-NF|I-MF|I-RK
+91	,	,	_	$,	_	_	_	_	_	1896-1897	w111	,	*	I-NF|I-NF|I-MF
+92	ſchon	schon	_	ADV	_	_	_	_	_	1898-1903	w112	schon	*	I-NF|I-NF|I-MF
+93	zweymahl	zweimal	_	ADV	_	_	_	_	_	1904-1912	w113	zweimal	*	I-NF|I-NF|I-MF
+94	be-<lb/>trogen	betrügen	_	VVPP	_	_	_	_	_	1913-1927	w114	betrogen	*	I-NF|I-NF|B-RK
+95	,	,	_	$,	_	_	_	_	_	1928-1929	w115	,	*	I-NF|I-NF
+96	mithin	mithin	_	ADV	_	_	_	_	_	1930-1936	w116	mithin	*	I-NF|I-NF|B-MF
+97	angereitzt	anreizen	_	VVPP	_	_	_	_	_	1937-1947	w117	angereizt	*	I-NF|I-NF|B-RK
+98	worden	werden	_	VAPP	_	_	_	_	_	1948-1954	w118	worden	*	I-NF|I-NF|I-RK
+99	,	,	_	$,	_	_	_	_	_	1955-1956	w119	,	*	I-NF|I-NF
+100	bemeld-<lb/>ten	bemehlen	_	ADJA	_	_	_	_	_	1957-1972	w11a	bemehlten	*	I-NF|I-NF|B-MF
+101	dritten	dritt	_	ADJA	_	_	_	_	_	1973-1980	w11b	dritten	*	I-NF|I-NF|I-MF
+102	Theil	Teil	_	NN	_	_	_	_	_	1981-1986	w11c	Teil	*	I-NF|I-NF|I-MF
+103	in	in	_	APPR	_	_	_	_	_	1987-1989	w11d	in	*	I-NF|I-NF|I-MF
+104	der	d	_	ART	_	_	_	_	_	1990-1993	w11e	der	*	I-NF|I-NF|I-MF
+105	naͤchſten	nächst	_	ADJA	_	_	_	_	_	1994-2003	w11f	nächsten	*	I-NF|I-NF|I-MF
+106	Leipziger-	leipziger-	_	ADJA	_	_	_	_	_	2004-2014	w120	Leipziger-	*	I-NF|I-NF|I-MF
+107	Meſſe	Messe	_	NN	_	_	_	_	_	2015-2020	w121	Messe	*	I-NF|I-NF|I-MF
+108	heraus	heraus	_	PTKVZ	_	_	_	_	_	2021-2027	w122	heraus	*	I-NF|I-NF|B-RK
+109	zu	zu	_	PTKZU	_	_	_	_	_	2028-2030	w123	zu	*	I-NF|I-NF|B-RK
+110	ſchaffen	schaffen	_	VVINF	_	_	_	_	_	2031-2039	w124	schaffen	*	I-NF|I-NF|I-RK
+111	.	.	_	$.	_	_	_	_	_	2040-2041	w125	.	*	O
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# TopFString = (VROOT(ADV Jedoch)(FM Sit)(FM ut)(FM ſit))
+# text = Jedoch Sit ut ſit .
+1	Jedoch	jedoch	_	ADV	_	_	_	_	_	2043-2049	w126	Jedoch	*	O
+2	Sit	sit	_	FM	_	_	_	_	_	2050-2053	w127	Sit	*	O
+3	ut	ut	_	FM	_	_	_	_	_	2054-2056	w128	ut	*	O
+4	ſit	sit	_	FM	_	_	_	_	_	2057-2060	w129	sit	*	O
+5	.	.	_	$.	_	_	_	_	_	2061-2062	w12a	.	*	O
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# TopFString = (VROOT(FM Accidit)(FM in)(FM anno)(KOMMA ,)(FM quod)(FM non)(FM ſperatur)(FM in)(FM puncto))
+# text = Accidit in anno , quod non ſperatur in puncto .
+1	Accidit	accidit	_	FM	_	_	_	_	_	2064-2071	w12b	Accidit	*	O
+2	in	in	_	FM	_	_	_	_	_	2072-2074	w12c	in	*	O
+3	anno	anno	_	FM	_	_	_	_	_	2075-2079	w12d	anno	*	O
+4	,	,	_	$,	_	_	_	_	_	2080-2081	w12e	,	*	O
+5	quod	quod	_	FM	_	_	_	_	_	2082-2086	w12f	quod	*	O
+6	non	non	_	FM	_	_	_	_	_	2087-2090	w130	non	*	O
+7	ſperatur	speratur	_	FM	_	_	_	_	_	2091-2099	w131	speratur	*	O
+8	in	in	_	FM	_	_	_	_	_	2100-2102	w132	in	*	O
+9	puncto	puncto	_	FM	_	_	_	_	_	2103-2109	w133	puncto	*	O
+10	.	.	_	$.	_	_	_	_	_	2110-2111	w134	.	*	O
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# TopFString = (VROOT(VF(ADV Nun))(LK(VAFIN iſt))(MF(PPER er)(ADV ja)(ADV doch)(ADV da))(KOMMA ,)(KON und)(LK(VMFIN kan))(MF(PIDAT allen)(PDS denenjenigen)(ART die)(NN Maͤuler))(VC(VVINF ſtopfen))(KOMMA ,)(NF(C(PRELS welche))(VC(VVPP ju-<lb/>dicirt)(VAFIN haben))))
+# text = Nun iſt er ja doch da , und kan allen denenjenigen die Maͤuler ſtopfen , welche ju-<lb/>dicirt haben :
+1	Nun	nun	_	ADV	_	_	_	_	_	2113-2116	w135	Nun	*	B-VF
+2	iſt	sein	_	VAFIN	_	_	_	_	_	2117-2120	w136	ist	*	B-LK
+3	er	er	_	PPER	_	_	_	_	_	2121-2123	w137	er	*	B-MF
+4	ja	ja	_	ADV	_	_	_	_	_	2124-2126	w138	ja	*	I-MF
+5	doch	doch	_	ADV	_	_	_	_	_	2127-2131	w139	doch	*	I-MF
+6	da	da	_	ADV	_	_	_	_	_	2132-2134	w13a	da	*	I-MF
+7	,	,	_	$,	_	_	_	_	_	2135-2136	w13b	,	*	O
+8	und	und	_	KON	_	_	_	_	_	2137-2140	w13c	und	*	O
+9	kan	können	_	VMFIN	_	_	_	_	_	2141-2144	w13d	kann	*	B-LK
+10	allen	alle	_	PIDAT	_	_	_	_	_	2145-2150	w13e	allen	*	B-MF
+11	denenjenigen	diejenige	_	PDS	_	_	_	_	_	2151-2163	w13f	denjenigen	*	I-MF
+12	die	d	_	ART	_	_	_	_	_	2164-2167	w140	die	*	I-MF
+13	Maͤuler	Maul	_	NN	_	_	_	_	_	2168-2175	w141	Mäuler	*	I-MF
+14	ſtopfen	stopfen	_	VVINF	_	_	_	_	_	2176-2183	w142	stopfen	*	B-RK
+15	,	,	_	$,	_	_	_	_	_	2184-2185	w143	,	*	O
+16	welche	welche	_	PRELS	_	_	_	_	_	2186-2192	w144	welche	*	B-NF|B-LK
+17	ju-<lb/>dicirt	judizieren	_	VVPP	_	_	_	_	_	2193-2207	w145,w145_1	judiziert	*	I-NF|B-RK
+18	haben	haben	_	VAFIN	_	_	_	_	_	2208-2213	w146	haben	*	I-NF|I-RK
+19	:	:	_	$.	_	_	_	_	_	2214-2215	w147	:	*	O
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# TopFString = (VROOT(VF(NE Giſander))(LK(VMFIN wolte)(KOMMA ,)(VMFIN moͤchte)(KOMMA ,)(VMFIN koͤn-<lb/>te))(KON und)(VF(ADV NB))(PUNKT .)(LK(VMFIN duͤrffte))(MF(ADV auch)(ADV wohl)(PTKNEG nicht))(KOMMA ,)(MF(PRF ſich))(VC(VVINF un-<lb/>terſtehen))(KOMMA ,)(NF(MF(PDS denſelben)(APPRART ans)(NN Tages-Licht))(VC(PTKZU zu)(VVINF bringen))))
+# text = Giſander wolte , moͤchte , koͤn-<lb/>te und NB . duͤrffte auch wohl nicht , ſich un-<lb/>terſtehen , denſelben ans Tages-Licht zu bringen .
+1	Giſander	Gisander	_	NE	_	_	_	_	_	2217-2225	w148	Gisander	*	B-VF
+2	wolte	wollen	_	VMFIN	_	_	_	_	_	2226-2231	w149	wollte	*	B-LK
+3	,	,	_	$,	_	_	_	_	_	2232-2233	w14a	,	*	I-LK
+4	moͤchte	mögen	_	VMFIN	_	_	_	_	_	2234-2241	w14b	möchte	*	I-LK
+5	,	,	_	$,	_	_	_	_	_	2242-2243	w14c	,	*	I-LK
+6	koͤn-<lb/>te	können	_	VMFIN	_	_	_	_	_	2244-2256	w14d	könnte	*	I-LK
+7	und	und	_	KON	_	_	_	_	_	2257-2260	w14e	und	*	O
+8	NB	NB	_	ADV	_	_	_	_	_	2261-2263	w14f	NB	*	B-VF
+9	.	.	_	$.	_	_	_	_	_	2264-2265	w150	.	*	O
+10	duͤrffte	dürfen	_	VMFIN	_	_	_	_	_	2266-2274	w151	dürfte	*	B-LK
+11	auch	auch	_	ADV	_	_	_	_	_	2275-2279	w152	auch	*	B-MF
+12	wohl	wohl	_	ADV	_	_	_	_	_	2280-2284	w153	wohl	*	I-MF
+13	nicht	nicht	_	PTKNEG	_	_	_	_	_	2285-2290	w154	nicht	*	I-MF
+14	,	,	_	$,	_	_	_	_	_	2291-2292	w155	,	*	O
+15	ſich	sich	_	PRF	_	_	_	_	_	2293-2297	w156	sich	*	B-MF
+16	un-<lb/>terſtehen	unterstehen	_	VVINF	_	_	_	_	_	2298-2315	w157	unterstehen	*	B-RK
+17	,	,	_	$,	_	_	_	_	_	2316-2317	w158	,	*	O
+18	denſelben	dieselbe	_	PDS	_	_	_	_	_	2318-2327	w159	denselben	*	B-NF|B-MF
+19	ans	ans	_	APPRART	_	_	_	_	_	2328-2331	w15a	ans	*	I-NF|I-MF
+20	Tages-Licht	Tages-Licht	_	NN	_	_	_	_	_	2332-2343	w15b	Tages-Licht	*	I-NF|I-MF
+21	zu	zu	_	PTKZU	_	_	_	_	_	2344-2346	w15c	zu	*	I-NF|B-RK
+22	bringen	bringen	_	VVINF	_	_	_	_	_	2347-2354	w15d	bringen	*	I-NF|I-RK
+23	.	.	_	$.	_	_	_	_	_	2355-2356	w15e	.	*	O
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# TopFString = (VROOT(VF(ADJD Laͤcherlich))(LK(VAFIN iſt))(MF(PPER mirs))(VC(VVPP vorgekommen))(KOMMA ,)(NF(C(KOUS daß))(MF(ART einem)(ADJA Deutſchen)(NN Longobarden)(ART die)(NN Zeit)(KOMMA ,)(MF(PIS ſelbigen))(VC(PTKZU zu)(VVINF ſehen))(KOMMA ,)(ADV gar)(PTKA zu)(ADJD lang))(VC(VAINF wer-<lb/>den)(VMFIN wollen))(KOMMA ,)(NF(C(PWAV weßwegen))(FKOORD(FKONJ(MF(PPER er)(KOMMA ,)(APPR uͤber)(ADV ſchon)(ADJA ge-<lb/>dachte)(NN Muthmaſſungen))(KOMMA ,)(VC(VVPP ausgeſprengt))(KOMMA ,)(NF(VF(NE Giſander))(LK(VAFIN waͤre))(VC(VVPP geſtorben))))(KOMMA ,)(KON und)(FKONJ(LK(VAFIN haͤtte))(KOMMA ,)(FKOORD(FKONJ(MF(ADV viel-<lb/>leicht)(APPR aus)(NN Neid)(KOMMA ,)(NN Monſ)(PUNKT .)(NE Eberhard)(NE Julii)(NN Ma-<lb/>nuſcript)(APPR in)(PPOSAT ſeinen)(NN Sarg))(VC(VVINF legen)))(KON und)(FKONJ(MF(APPR mit)(PRF ſich))(VC(VVINF begraben)(VVINF laſſen))))))))(KOMMA ,)(VF(ADV wannenhero)(KOMMA ,)(C(KOUI um))(MF(ART die)(ADJA cu-<lb/>rieuſe)(NN Welt))(VC(PTKZU zu)(VVINF vergnuͤgen))(KOMMA ,)(NF(MF(PPOSAT ſeiner)(NN Schuldig-<lb/>keit)(ADJD gemaͤß))(VC(PTKZU zu)(VAINF ſeyn))))(KOMMA ,)(LK(VVFIN erachtet))(KOMMA ,)(NF(MF(PIS ſelbigen))(VC(VVIZU aus-<lb/>zugraben)))(KOMMA ,)(KON oder)(KOMMA ,)(NF(MF(PWS welches)(ADV faſt)(ADV eher))(VC(PTKZU zu)(VVINF glau-<lb/>ben))(KOMMA ,)(NF(MF(ART einen)(ADJA dritten)(NN Theil)(FM ex)(FM Koppo))(VC(PTKZU zu)(VVINF fingi-<lb/>ren)))(KOMMA ,)(KON und)(MF(APPR vor)(ADJD rechtmaͤßig))(VC(VVIZU auszugeben))))
+# text = Laͤcherlich iſt mirs vorgekommen , daß einem Deutſchen Longobarden die Zeit , ſelbigen zu ſehen , gar zu lang wer-<lb/>den wollen , weßwegen er , uͤber ſchon ge-<lb/>dachte Muthmaſſungen , ausgeſprengt , Giſander waͤre geſtorben , und haͤtte , viel-<lb/>leicht aus Neid , Monſ . Eberhard Julii Ma-<lb/>nuſcript in ſeinen Sarg legen und mit ſich begraben laſſen , wannenhero , um die cu-<lb/>rieuſe Welt zu vergnuͤgen , ſeiner Schuldig-<lb/>keit gemaͤß zu ſeyn , erachtet , ſelbigen aus-<lb/>zugraben , oder , welches faſt eher zu glau-<lb/>ben , einen dritten Theil ex Koppo zu fingi-<lb/>ren , und vor rechtmaͤßig auszugeben .
+1	Laͤcherlich	lächerlich	_	ADJD	_	_	_	_	_	2358-2369	w15f	Lächerlich	*	B-VF
+2	iſt	sein	_	VAFIN	_	_	_	_	_	2370-2373	w160	ist	*	B-LK
+3	mirs	Mir_Es	_	PPER	_	_	_	_	_	2374-2378	w161	mir_es	*	B-MF
+4	vorgekommen	vorkommen	_	VVPP	_	_	_	_	_	2379-2390	w162	vorgekommen	*	B-RK
+5	,	,	_	$,	_	_	_	_	_	2391-2392	w163	,	*	O
+6	daß	daß	_	KOUS	_	_	_	_	_	2393-2396	w164	daß	*	B-NF|B-LK
+7	einem	eine	_	ART	_	_	_	_	_	2397-2402	w165	einem	*	I-NF|B-MF
+8	Deutſchen	deutsch	_	ADJA	_	_	_	_	_	2403-2412	w166	Deutschen	*	I-NF|I-MF
+9	Longobarden	Langobarde	_	NN	_	_	_	_	_	2413-2424	w167	Langobarden	*	I-NF|I-MF
+10	die	d	_	ART	_	_	_	_	_	2425-2428	w168	die	*	I-NF|I-MF
+11	Zeit	Zeit	_	NN	_	_	_	_	_	2429-2433	w169	Zeit	*	I-NF|I-MF
+12	,	,	_	$,	_	_	_	_	_	2434-2435	w16a	,	*	I-NF|I-MF
+13	ſelbigen	selbig	_	PIS	_	_	_	_	_	2436-2444	w16b	selbigen	*	I-NF|I-MF|B-MF
+14	zu	zu	_	PTKZU	_	_	_	_	_	2445-2447	w16c	zu	*	I-NF|I-MF|B-RK
+15	ſehen	sehen	_	VVINF	_	_	_	_	_	2448-2453	w16d	sehen	*	I-NF|I-MF|I-RK
+16	,	,	_	$,	_	_	_	_	_	2454-2455	w16e	,	*	I-NF|I-MF
+17	gar	gar	_	ADV	_	_	_	_	_	2456-2459	w16f	gar	*	I-NF|I-MF
+18	zu	zu	_	PTKA	_	_	_	_	_	2460-2462	w170	zu	*	I-NF|I-MF
+19	lang	lang	_	ADJD	_	_	_	_	_	2463-2467	w171	lang	*	I-NF|I-MF
+20	wer-<lb/>den	werden	_	VAINF	_	_	_	_	_	2468-2480	w172	werden	*	I-NF|B-RK
+21	wollen	wollen	_	VMFIN	_	_	_	_	_	2481-2487	w173	wollen	*	I-NF|I-RK
+22	,	,	_	$,	_	_	_	_	_	2488-2489	w174	,	*	I-NF
+23	weßwegen	weswegen	_	PWAV	_	_	_	_	_	2490-2498	w175	weswegen	*	I-NF|B-NF|B-LK
+24	er	er	_	PPER	_	_	_	_	_	2499-2501	w176	er	*	I-NF|I-NF|B-MF
+25	,	,	_	$,	_	_	_	_	_	2502-2503	w177	,	*	I-NF|I-NF|I-MF
+26	uͤber	über	_	APPR	_	_	_	_	_	2504-2509	w178	über	*	I-NF|I-NF|I-MF
+27	ſchon	schon	_	ADV	_	_	_	_	_	2510-2515	w179	schon	*	I-NF|I-NF|I-MF
+28	ge-<lb/>dachte	gedenkt	_	ADJA	_	_	_	_	_	2516-2530	w17a	gedachte	*	I-NF|I-NF|I-MF
+29	Muthmaſſungen	Mutmaßung	_	NN	_	_	_	_	_	2531-2544	w17b	Mutmassungen	*	I-NF|I-NF|I-MF
+30	,	,	_	$,	_	_	_	_	_	2545-2546	w17c	,	*	I-NF|I-NF
+31	ausgeſprengt	aussprengen	_	VVPP	_	_	_	_	_	2547-2559	w17d	ausgesprengt	*	I-NF|I-NF|B-RK
+32	,	,	_	$,	_	_	_	_	_	2560-2561	w17e	,	*	I-NF|I-NF
+33	Giſander	Gisander	_	NE	_	_	_	_	_	2562-2570	w17f	Gisander	*	I-NF|I-NF|B-NF|B-VF
+34	waͤre	sein	_	VAFIN	_	_	_	_	_	2571-2576	w180	wäre	*	I-NF|I-NF|I-NF|B-LK
+35	geſtorben	sterben	_	VVPP	_	_	_	_	_	2577-2586	w181	gestorben	*	I-NF|I-NF|I-NF|B-RK
+36	,	,	_	$,	_	_	_	_	_	2587-2588	w182	,	*	I-NF|I-NF
+37	und	und	_	KON	_	_	_	_	_	2589-2592	w183	und	*	I-NF|I-NF|B-KOORD
+38	haͤtte	haben	_	VAFIN	_	_	_	_	_	2593-2599	w184	hätte	*	I-NF|I-NF|B-LK
+39	,	,	_	$,	_	_	_	_	_	2600-2601	w185	,	*	I-NF|I-NF
+40	viel-<lb/>leicht	vielleicht	_	ADV	_	_	_	_	_	2602-2618	w186	vielleicht	*	I-NF|I-NF|B-MF
+41	aus	aus	_	APPR	_	_	_	_	_	2619-2622	w187	aus	*	I-NF|I-NF|I-MF
+42	Neid	Neid	_	NN	_	_	_	_	_	2623-2627	w188	Neid	*	I-NF|I-NF|I-MF
+43	,	,	_	$,	_	_	_	_	_	2628-2629	w189	,	*	I-NF|I-NF|I-MF
+44	Monſ	Mons	_	NN	_	_	_	_	_	2630-2634	w18a	Mons	*	I-NF|I-NF|I-MF
+45	.	.	_	$.	_	_	_	_	_	2635-2636	w18b	.	*	I-NF|I-NF|I-MF
+46	Eberhard	Eberhard	_	NE	_	_	_	_	_	2637-2645	w18c	Eberhard	*	I-NF|I-NF|I-MF
+47	Julii	Julii	_	NE	_	_	_	_	_	2646-2651	w18d	Julii	*	I-NF|I-NF|I-MF
+48	Ma-<lb/>nuſcript	Manuskript	_	NN	_	_	_	_	_	2652-2668	w18e	Manuskript	*	I-NF|I-NF|I-MF
+49	in	in	_	APPR	_	_	_	_	_	2669-2671	w18f	in	*	I-NF|I-NF|I-MF
+50	ſeinen	seine	_	PPOSAT	_	_	_	_	_	2672-2678	w190	seinen	*	I-NF|I-NF|I-MF
+51	Sarg	Sarg	_	NN	_	_	_	_	_	2679-2683	w191	Sarg	*	I-NF|I-NF|I-MF
+52	legen	legen	_	VVINF	_	_	_	_	_	2684-2689	w192	legen	*	I-NF|I-NF|B-RK
+53	und	und	_	KON	_	_	_	_	_	2690-2693	w193	und	*	I-NF|I-NF|B-KOORD
+54	mit	mit	_	APPR	_	_	_	_	_	2694-2697	w194	mit	*	I-NF|I-NF|B-MF
+55	ſich	sich	_	PRF	_	_	_	_	_	2698-2702	w195	sich	*	I-NF|I-NF|I-MF
+56	begraben	begraben	_	VVINF	_	_	_	_	_	2703-2711	w196	begraben	*	I-NF|I-NF|B-RK
+57	laſſen	lassen	_	VVINF	_	_	_	_	_	2712-2718	w197	lassen	*	I-NF|I-NF|I-RK
+58	,	,	_	$,	_	_	_	_	_	2719-2720	w198	,	*	O
+59	wannenhero	Wannenhero	_	ADV	_	_	_	_	_	2721-2731	w199	wannenhero	*	B-VF
+60	,	,	_	$,	_	_	_	_	_	2732-2733	w19a	,	*	I-VF
+61	um	um	_	KOUI	_	_	_	_	_	2734-2736	w19b	um	*	I-VF|B-LK
+62	die	d	_	ART	_	_	_	_	_	2737-2740	w19c	die	*	I-VF|B-MF
+63	cu-<lb/>rieuſe	curieuse	_	ADJA	_	_	_	_	_	2741-2755	w19d	curieuse	*	I-VF|I-MF
+64	Welt	Welt	_	NN	_	_	_	_	_	2756-2760	w19e	Welt	*	I-VF|I-MF
+65	zu	zu	_	PTKZU	_	_	_	_	_	2761-2763	w19f	zu	*	I-VF|B-RK
+66	vergnuͤgen	vergnügen	_	VVINF	_	_	_	_	_	2764-2774	w1a0	vergnügen	*	I-VF|I-RK
+67	,	,	_	$,	_	_	_	_	_	2775-2776	w1a1	,	*	I-VF
+68	ſeiner	seine	_	PPOSAT	_	_	_	_	_	2777-2783	w1a2	seiner	*	I-VF|B-NF|B-MF
+69	Schuldig-<lb/>keit	Schuldigkeit	_	NN	_	_	_	_	_	2784-2802	w1a3	Schuldigkeit	*	I-VF|I-NF|I-MF
+70	gemaͤß	gemäß	_	ADJD	_	_	_	_	_	2803-2809	w1a4	gemäß	*	I-VF|I-NF|I-MF
+71	zu	zu	_	PTKZU	_	_	_	_	_	2810-2812	w1a5	zu	*	I-VF|I-NF|B-RK
+72	ſeyn	sein	_	VAINF	_	_	_	_	_	2813-2817	w1a6	sein	*	I-VF|I-NF|I-RK
+73	,	,	_	$,	_	_	_	_	_	2818-2819	w1a7	,	*	O
+74	erachtet	erachten	_	VVFIN	_	_	_	_	_	2820-2828	w1a8	erachtet	*	B-LK
+75	,	,	_	$,	_	_	_	_	_	2829-2830	w1a9	,	*	O
+76	ſelbigen	selbig	_	PIS	_	_	_	_	_	2831-2839	w1aa	selbigen	*	B-NF|B-MF
+77	aus-<lb/>zugraben	ausgraben	_	VVIZU	_	_	_	_	_	2840-2857	w1ab	auszugraben	*	I-NF|B-RK
+78	,	,	_	$,	_	_	_	_	_	2858-2859	w1ac	,	*	O
+79	oder	oder	_	KON	_	_	_	_	_	2860-2864	w1ad	oder	*	O
+80	,	,	_	$,	_	_	_	_	_	2865-2866	w1ae	,	*	O
+81	welches	welche	_	PWS	_	_	_	_	_	2867-2874	w1af	welches	*	B-NF|B-MF
+82	faſt	fast	_	ADV	_	_	_	_	_	2875-2879	w1b0	fast	*	I-NF|I-MF
+83	eher	eher	_	ADV	_	_	_	_	_	2880-2884	w1b1	eher	*	I-NF|I-MF
+84	zu	zu	_	PTKZU	_	_	_	_	_	2885-2887	w1b2	zu	*	I-NF|B-RK
+85	glau-<lb/>ben	glauben	_	VVINF	_	_	_	_	_	2888-2901	w1b3,w1b3_1,w1b3_2	glauben	*	I-NF|I-RK
+86	,	,	_	$,	_	_	_	_	_	2902-2903	w1b4	,	*	I-NF
+87	einen	eine	_	ART	_	_	_	_	_	2904-2909	w1b5	einen	*	I-NF|B-NF|B-MF
+88	dritten	dritt	_	ADJA	_	_	_	_	_	2910-2917	w1b6	dritten	*	I-NF|I-NF|I-MF
+89	Theil	Teil	_	NN	_	_	_	_	_	2918-2923	w1b7	Teil	*	I-NF|I-NF|I-MF
+90	ex	ex	_	FM	_	_	_	_	_	2924-2926	w1b8	ex	*	I-NF|I-NF|I-MF
+91	Koppo	koppo	_	FM	_	_	_	_	_	2927-2932	w1b9	Koppo	*	I-NF|I-NF|I-MF
+92	zu	zu	_	PTKZU	_	_	_	_	_	2933-2935	w1ba	zu	*	I-NF|I-NF|B-RK
+93	fingi-<lb/>ren	fingieren	_	VVINF	_	_	_	_	_	2936-2950	w1bb,w1bb_1	fingieren	*	I-NF|I-NF|I-RK
+94	,	,	_	$,	_	_	_	_	_	2951-2952	w1bc	,	*	I-NF
+95	und	und	_	KON	_	_	_	_	_	2953-2956	w1bd	und	*	I-NF
+96	vor	vor	_	APPR	_	_	_	_	_	2957-2960	w1be	vor	*	I-NF|B-MF
+97	rechtmaͤßig	rechtmäßig	_	ADJD	_	_	_	_	_	2961-2972	w1bf	rechtmäßig	*	I-NF|I-MF
+98	auszugeben	ausgeben	_	VVIZU	_	_	_	_	_	2973-2983	w1c0	auszugeben	*	I-NF|B-RK
+99	.	.	_	$.	_	_	_	_	_	2984-2985	w1c1	.	*	O
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# TopFString = (VROOT(ADV Al-<lb/>lein)(VF(NE Giſander))(LK(VVFIN lebet))(MF(ADV noch))(KOMMA ,)(KON und)(LK(VVFIN ſchreibt))(MF(ADV faſt)(PIAT alle)(NN Tage))(KOMMA ,)(NF(KOORD(KON und))(VF(C(KOUS weil))(MF(PPER er)(APPR unter)(PPOSAT ſeinen)(NN Kindern)(ADV noch)(APPRART zur)(NN Zeit)(PIAT keinen)(NN Spurium))(VC(VVINF leiden)(VMFIN will)))(KOMMA ,)(LK(VAFIN haͤtte))(MF(PPER er)(ADV zwar)(PDAT deſſen)(NN Geſtalt)(ADV gerne))(VC(VVINF ſehen)(KON und)(VVINF belachen)(VMFIN moͤgen))(KOMMA ,)(LK(VAFIN wuͤrde))(MF(ADV aber)(PDS denſelben)(ADJD ohn-<lb/>gebrandtmarckt)(PTKNEG nicht)(APPR von)(PRF ſich))(VC(VVPP gelaſſen)(VAFIN ha-<lb/>ben))))
+# text = Al-<lb/>lein , Giſander lebet noch , und ſchreibt faſt alle Tage , und weil er unter ſeinen Kindern noch zur Zeit keinen Spurium leiden will , haͤtte er zwar deſſen Geſtalt gerne ſehen und belachen moͤgen , wuͤrde aber denſelben ohn-<lb/>gebrandtmarckt nicht von ſich gelaſſen ha-<lb/>ben .
+1	Al-<lb/>lein	allein	_	ADV	_	_	_	_	_	2987-2999	w1c2	Allein	*	O
+2	,	,	_	$,	_	_	_	_	_	3000-3001	w1c3	,	*	O
+3	Giſander	Gisander	_	NE	_	_	_	_	_	3002-3010	w1c4	Gisander	*	B-VF
+4	lebet	leben	_	VVFIN	_	_	_	_	_	3011-3016	w1c5	lebet	*	B-LK
+5	noch	noch	_	ADV	_	_	_	_	_	3017-3021	w1c6	noch	*	B-MF
+6	,	,	_	$,	_	_	_	_	_	3022-3023	w1c7	,	*	O
+7	und	und	_	KON	_	_	_	_	_	3024-3027	w1c8	und	*	O
+8	ſchreibt	schreiben	_	VVFIN	_	_	_	_	_	3028-3036	w1c9	schreibt	*	B-LK
+9	faſt	fast	_	ADV	_	_	_	_	_	3037-3041	w1ca	fast	*	B-MF
+10	alle	alle	_	PIAT	_	_	_	_	_	3042-3046	w1cb	alle	*	I-MF
+11	Tage	Tag	_	NN	_	_	_	_	_	3047-3051	w1cc	Tage	*	I-MF
+12	,	,	_	$,	_	_	_	_	_	3052-3053	w1cd	,	*	O
+13	und	und	_	KON	_	_	_	_	_	3054-3057	w1ce	und	*	B-NF|B-KOORD
+14	weil	weil	_	KOUS	_	_	_	_	_	3058-3062	w1cf	weil	*	I-NF|B-VF|B-LK
+15	er	er	_	PPER	_	_	_	_	_	3063-3065	w1d0	er	*	I-NF|I-VF|B-MF
+16	unter	unter	_	APPR	_	_	_	_	_	3066-3071	w1d1	unter	*	I-NF|I-VF|I-MF
+17	ſeinen	seine	_	PPOSAT	_	_	_	_	_	3072-3078	w1d2	seinen	*	I-NF|I-VF|I-MF
+18	Kindern	Kind	_	NN	_	_	_	_	_	3079-3086	w1d3	Kindern	*	I-NF|I-VF|I-MF
+19	noch	noch	_	ADV	_	_	_	_	_	3087-3091	w1d4	noch	*	I-NF|I-VF|I-MF
+20	zur	zur	_	APPRART	_	_	_	_	_	3092-3095	w1d5	zur	*	I-NF|I-VF|I-MF
+21	Zeit	Zeit	_	NN	_	_	_	_	_	3096-3100	w1d6	Zeit	*	I-NF|I-VF|I-MF
+22	keinen	keine	_	PIAT	_	_	_	_	_	3101-3107	w1d7	keinen	*	I-NF|I-VF|I-MF
+23	Spurium	Spurium	_	NN	_	_	_	_	_	3108-3115	w1d8	Spurium	*	I-NF|I-VF|I-MF
+24	leiden	leiden	_	VVINF	_	_	_	_	_	3116-3122	w1d9	leiden	*	I-NF|I-VF|B-RK
+25	will	wollen	_	VMFIN	_	_	_	_	_	3123-3127	w1da	will	*	I-NF|I-VF|I-RK
+26	,	,	_	$,	_	_	_	_	_	3128-3129	w1db	,	*	I-NF
+27	haͤtte	haben	_	VAFIN	_	_	_	_	_	3130-3136	w1dc	hätte	*	I-NF|B-LK
+28	er	er	_	PPER	_	_	_	_	_	3137-3139	w1dd	er	*	I-NF|B-MF
+29	zwar	zwar	_	ADV	_	_	_	_	_	3140-3144	w1de	zwar	*	I-NF|I-MF
+30	deſſen	die	_	PDAT	_	_	_	_	_	3145-3151	w1df	dessen	*	I-NF|I-MF
+31	Geſtalt	Gestalt	_	NN	_	_	_	_	_	3152-3159	w1e0	Gestalt	*	I-NF|I-MF
+32	gerne	gerne	_	ADV	_	_	_	_	_	3160-3165	w1e1	gerne	*	I-NF|I-MF
+33	ſehen	sehen	_	VVINF	_	_	_	_	_	3166-3171	w1e2	sehen	*	I-NF|B-RK
+34	und	und	_	KON	_	_	_	_	_	3172-3175	w1e3	und	*	I-NF|I-RK
+35	belachen	belachen	_	VVINF	_	_	_	_	_	3176-3184	w1e4	belachen	*	I-NF|I-RK
+36	moͤgen	mögen	_	VMFIN	_	_	_	_	_	3185-3191	w1e5	mögen	*	I-NF|I-RK
+37	,	,	_	$,	_	_	_	_	_	3192-3193	w1e6	,	*	I-NF
+38	wuͤrde	werden	_	VAFIN	_	_	_	_	_	3194-3200	w1e7	würde	*	I-NF|B-LK
+39	aber	aber	_	ADV	_	_	_	_	_	3201-3205	w1e8	aber	*	I-NF|B-MF
+40	denſelben	denselben	_	PDS	_	_	_	_	_	3206-3215	w1e9	denselben	*	I-NF|I-MF
+41	ohn-<lb/>gebrandtmarckt	ungebrandmarkt	_	ADJD	_	_	_	_	_	3216-3239	w1ea	ungebrandmarkt	*	I-NF|I-MF
+42	nicht	nicht	_	PTKNEG	_	_	_	_	_	3240-3245	w1eb	nicht	*	I-NF|I-MF
+43	von	von	_	APPR	_	_	_	_	_	3246-3249	w1ec	von	*	I-NF|I-MF
+44	ſich	sich	_	PRF	_	_	_	_	_	3250-3254	w1ed	sich	*	I-NF|I-MF
+45	gelaſſen	lassen	_	VVPP	_	_	_	_	_	3255-3263	w1ee	gelassen	*	I-NF|B-RK
+46	ha-<lb/>ben	haben	_	VAFIN	_	_	_	_	_	3264-3275	w1ef	haben	*	I-NF|I-RK
+47	.	.	_	$.	_	_	_	_	_	3276-3277	w1f0	.	*	O
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# TopFString = (VROOT(LV(LK(VMFIN Will))(MF(NN Herr)(NE Longobardus)(PIS etwas))(VC(VVINF ſchrei-<lb/>ben)))(KOMMA ,)(VF(ADV ſo))(LK(VVFIN hielte))(MF(PAV dovor))(KOMMA ,)(VF(PPER er))(LK(VVFIN thaͤte))(MF(ADJD beſſer))(KOMMA ,)(NF(C(KOUS wenn))(FKOORD(FKONJ(MF(PPER er)(PRF ſich)(ADV ſonſt)(C(PWAV woran)))(VC(VVFIN machte)))(KOMMA ,)(KON oder)(FKONJ(MF(ADV immerhin)(PIS et-<lb/>was))(VC(VVFIN fingirte))(KOMMA ,)(NF(C(KOUI um))(MF(ART der)(NN Welt))(VC(PTKZU zu)(VVINF zeigen))(KOMMA ,)(NF(C(KOUS daß))(MF(PPER er)(PIAT keinen)(ADJA zugemauerten)(NN Kopf))(VC(VAFIN habe))(KOMMA ,)(NF(MF(ADJA anderer)(NN Leute)(ADJA angefangene)(NN Arbeit)(ADV aber)(KOMMA ,)(C(KOUS ehe))(MF(PPER er)(PAV dar-<lb/>zu))(VC(VVPP berufen)(VAFIN wird))(KOMMA ,)(ADJD ungehudelt))(VC(PTKZU zu)(VVINF laſſen))))))))(KOMMA ,)(KON denn)(VF(PPER es))(LK(VVFIN faͤllt))(MF(ADV ja)(KOMMA ,)(ART dem)(ADJA gemeinen)(NN Spruͤchworte)(APPO nach)(KOMMA ,)(PTKNEG nicht)(ADV einmahl)(ART ein)(NN Sch-eerenſchleiffer))(KOMMA ,)(VF(ART dem)(PIS andern))(MF(ADV gerne)(APPRART ins)(NN Handwerck)))
+# text = Will Herr Longobardus etwas ſchrei-<lb/>ben , ſo hielte dovor , er thaͤte beſſer , wenn er ſich ſonſt woran machte , oder immerhin et-<lb/>was fingirte , um der Welt zu zeigen , daß er keinen zugemauerten Kopf habe , anderer Leute angefangene Arbeit aber , ehe er dar-<lb/>zu berufen wird , ungehudelt zu laſſen , denn es faͤllt ja , dem gemeinen Spruͤchworte nach , nicht einmahl ein Sch-eerenſchleiffer , dem andern gerne ins Handwerck .
+1	Will	Will	_	VMFIN	_	_	_	_	_	3279-3283	w1f1	Will	*	B-LV|B-LK
+2	Herr	Herr	_	NN	_	_	_	_	_	3284-3288	w1f2	Herr	*	I-LV|B-MF
+3	Longobardus	Longobardus	_	NE	_	_	_	_	_	3289-3300	w1f3	Longobardus	*	I-LV|I-MF
+4	etwas	etwas	_	PIS	_	_	_	_	_	3301-3306	w1f4	etwas	*	I-LV|I-MF
+5	ſchrei-<lb/>ben	schreiben	_	VVINF	_	_	_	_	_	3307-3322	w1f5	schreiben	*	I-LV|B-RK
+6	,	,	_	$,	_	_	_	_	_	3323-3324	w1f6	,	*	O
+7	ſo	so	_	ADV	_	_	_	_	_	3325-3327	w1f7	so	*	B-VF
+8	hielte	halten	_	VVFIN	_	_	_	_	_	3328-3334	w1f8	hielte	*	B-LK
+9	dovor	davor	_	PAV	_	_	_	_	_	3335-3340	w1f9	davor	*	B-MF
+10	,	,	_	$,	_	_	_	_	_	3341-3342	w1fa	,	*	O
+11	er	er	_	PPER	_	_	_	_	_	3343-3345	w1fb	er	*	B-VF
+12	thaͤte	tun	_	VVFIN	_	_	_	_	_	3346-3352	w1fc	täte	*	B-LK
+13	beſſer	gut	_	ADJD	_	_	_	_	_	3353-3359	w1fd	besser	*	B-MF
+14	,	,	_	$,	_	_	_	_	_	3360-3361	w1fe	,	*	O
+15	wenn	wenn	_	KOUS	_	_	_	_	_	3362-3366	w1ff	wenn	*	B-NF|B-LK
+16	er	er	_	PPER	_	_	_	_	_	3367-3369	w200	er	*	I-NF|B-MF
+17	ſich	sich	_	PRF	_	_	_	_	_	3370-3374	w201	sich	*	I-NF|I-MF
+18	ſonſt	sonst	_	ADV	_	_	_	_	_	3375-3380	w202	sonst	*	I-NF|I-MF
+19	woran	woran	_	PWAV	_	_	_	_	_	3381-3386	w203	woran	*	I-NF|I-MF|B-LK
+20	machte	machen	_	VVFIN	_	_	_	_	_	3387-3393	w204	machte	*	I-NF|B-RK
+21	,	,	_	$,	_	_	_	_	_	3394-3395	w205	,	*	I-NF
+22	oder	oder	_	KON	_	_	_	_	_	3396-3400	w206	oder	*	I-NF|B-KOORD
+23	immerhin	immerhin	_	ADV	_	_	_	_	_	3401-3409	w207	immerhin	*	I-NF|B-MF
+24	et-<lb/>was	etwas	_	PIS	_	_	_	_	_	3410-3421	w208	etwas	*	I-NF|I-MF
+25	fingirte	fingiert	_	VVFIN	_	_	_	_	_	3422-3430	w209,w209_1	fingierte	*	I-NF|B-RK
+26	,	,	_	$,	_	_	_	_	_	3431-3432	w20a	,	*	I-NF
+27	um	um	_	KOUI	_	_	_	_	_	3433-3435	w20b	um	*	I-NF|B-NF|B-LK
+28	der	d	_	ART	_	_	_	_	_	3436-3439	w20c	der	*	I-NF|I-NF|B-MF
+29	Welt	Welt	_	NN	_	_	_	_	_	3440-3444	w20d	Welt	*	I-NF|I-NF|I-MF
+30	zu	zu	_	PTKZU	_	_	_	_	_	3445-3447	w20e	zu	*	I-NF|I-NF|B-RK
+31	zeigen	zeigen	_	VVINF	_	_	_	_	_	3448-3454	w20f	zeigen	*	I-NF|I-NF|I-RK
+32	,	,	_	$,	_	_	_	_	_	3455-3456	w210	,	*	I-NF|I-NF
+33	daß	daß	_	KOUS	_	_	_	_	_	3457-3460	w211	daß	*	I-NF|I-NF|B-NF|B-LK
+34	er	er	_	PPER	_	_	_	_	_	3461-3463	w212	er	*	I-NF|I-NF|I-NF|B-MF
+35	keinen	keine	_	PIAT	_	_	_	_	_	3464-3470	w213	keinen	*	I-NF|I-NF|I-NF|I-MF
+36	zugemauerten	zugemauert	_	ADJA	_	_	_	_	_	3471-3483	w214	zugemauerten	*	I-NF|I-NF|I-NF|I-MF
+37	Kopf	Kopf	_	NN	_	_	_	_	_	3484-3488	w215	Kopf	*	I-NF|I-NF|I-NF|I-MF
+38	habe	haben	_	VAFIN	_	_	_	_	_	3489-3493	w216	habe	*	I-NF|I-NF|I-NF|B-RK
+39	,	,	_	$,	_	_	_	_	_	3494-3495	w217	,	*	I-NF|I-NF|I-NF
+40	anderer	ander	_	ADJA	_	_	_	_	_	3496-3503	w218	anderer	*	I-NF|I-NF|I-NF|B-NF|B-MF
+41	Leute	Leute	_	NN	_	_	_	_	_	3504-3509	w219	Leute	*	I-NF|I-NF|I-NF|I-NF|I-MF
+42	angefangene	angefangen	_	ADJA	_	_	_	_	_	3510-3521	w21a	angefangene	*	I-NF|I-NF|I-NF|I-NF|I-MF
+43	Arbeit	Arbeit	_	NN	_	_	_	_	_	3522-3528	w21b	Arbeit	*	I-NF|I-NF|I-NF|I-NF|I-MF
+44	aber	aber	_	ADV	_	_	_	_	_	3529-3533	w21c	aber	*	I-NF|I-NF|I-NF|I-NF|I-MF
+45	,	,	_	$,	_	_	_	_	_	3534-3535	w21d	,	*	I-NF|I-NF|I-NF|I-NF|I-MF
+46	ehe	ehe	_	KOUS	_	_	_	_	_	3536-3539	w21e	ehe	*	I-NF|I-NF|I-NF|I-NF|I-MF|B-LK
+47	er	er	_	PPER	_	_	_	_	_	3540-3542	w21f	er	*	I-NF|I-NF|I-NF|I-NF|I-MF|B-MF
+48	dar-<lb/>zu	dazu	_	PAV	_	_	_	_	_	3543-3554	w220	dazu	*	I-NF|I-NF|I-NF|I-NF|I-MF|I-MF
+49	berufen	berufen	_	VVPP	_	_	_	_	_	3555-3562	w221	berufen	*	I-NF|I-NF|I-NF|I-NF|I-MF|B-RK
+50	wird	werden	_	VAFIN	_	_	_	_	_	3563-3567	w222	wird	*	I-NF|I-NF|I-NF|I-NF|I-MF|I-RK
+51	,	,	_	$,	_	_	_	_	_	3568-3569	w223	,	*	I-NF|I-NF|I-NF|I-NF|I-MF
+52	ungehudelt	ungehudelt	_	ADJD	_	_	_	_	_	3570-3580	w224	ungehudelt	*	I-NF|I-NF|I-NF|I-NF|I-MF
+53	zu	zu	_	PTKZU	_	_	_	_	_	3581-3583	w225	zu	*	I-NF|I-NF|I-NF|I-NF|B-RK
+54	laſſen	lassen	_	VVINF	_	_	_	_	_	3584-3590	w226	lassen	*	I-NF|I-NF|I-NF|I-NF|I-RK
+55	,	,	_	$,	_	_	_	_	_	3591-3592	w227	,	*	O
+56	denn	denn	_	KON	_	_	_	_	_	3593-3597	w228	denn	*	O
+57	es	es	_	PPER	_	_	_	_	_	3598-3600	w229	es	*	B-VF
+58	faͤllt	fällen	_	VVFIN	_	_	_	_	_	3601-3607	w22a	fällt	*	B-LK
+59	ja	ja	_	ADV	_	_	_	_	_	3608-3610	w22b	ja	*	B-MF
+60	,	,	_	$,	_	_	_	_	_	3611-3612	w22c	,	*	I-MF
+61	dem	d	_	ART	_	_	_	_	_	3613-3616	w22d	dem	*	I-MF
+62	gemeinen	gemein	_	ADJA	_	_	_	_	_	3617-3625	w22e	gemeinen	*	I-MF
+63	Spruͤchworte	Spruchwort	_	NN	_	_	_	_	_	3626-3638	w22f	Sprüchworte	*	I-MF
+64	nach	nach	_	APPO	_	_	_	_	_	3639-3643	w230	nach	*	I-MF
+65	,	,	_	$,	_	_	_	_	_	3644-3645	w231	,	*	I-MF
+66	nicht	nicht	_	PTKNEG	_	_	_	_	_	3646-3651	w232	nicht	*	I-MF
+67	einmahl	einmal	_	ADV	_	_	_	_	_	3652-3659	w233	einmal	*	I-MF
+68	ein	eine	_	ART	_	_	_	_	_	3660-3663	w234	ein	*	I-MF
+69	Sch-eerenſchleiffer	Scherenschleifer	_	NN	_	_	_	_	_	3664-3683	w235	Scherenschleifer	*	I-MF
+70	,	,	_	$,	_	_	_	_	_	3684-3685	w236	,	*	O
+71	dem	die	_	ART	_	_	_	_	_	3686-3689	w237	dem	*	B-VF
+72	andern	andere	_	PIS	_	_	_	_	_	3690-3696	w238	anderen	*	I-VF
+73	gerne	gerne	_	ADV	_	_	_	_	_	3697-3702	w239	gerne	*	B-MF
+74	ins	ins	_	APPRART	_	_	_	_	_	3703-3706	w23a	ins	*	I-MF
+75	Handwerck	Handwerk	_	NN	_	_	_	_	_	3707-3716	w23b	Handwerk	*	I-MF
+76	.	.	_	$.	_	_	_	_	_	3717-3718	w23c	.	*	O
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# TopFString = (VROOT(VF(ADV Sonſten))(LK(VAFIN hat))(FKOORD(FKONJ(MF(ADV auch)(PIS jemand))(KOMMA ,)(NF(C(PRELS welcher))(KOMMA ,)(C(KOUS weil))(FKOORD(FKONJ(MF(PPER er)(APPR mit)(ART ei-<lb/>nem)(ADJA ſchlechten)(NN Kahne)(ADV gar)(ADV bald)(APPR in)(ART die)(ADJA offenbare)(NN See))(VC(VVINF rudern)(VMFIN kan)))(KOMMA ,)(KLAMMER LBR)(FKONJ(MF(PRF ſich)(PAV derowegen)(ADV etwa)(PIAT kein)(NN Bedencken))(VC(VVFIN nimmt))(KOMMA ,)(NF(MF(ADV auch)(ADV zuweilen)(APPR von)(ADJA hohen)(NN Perſonen)(KOMMA ,)(ADJD freyer)(KOMMA ,)(C(KOUS als))(MF(PPER es))(VC(VVPP erlaubt)(VAFIN iſt)))(KOMMA ,)(VC(PTKZU zu)(VVINF ſprechen)))))(KLAMMER RBR)(NF(ART den)(ADJA zweydeutigen)(NN Ur-<lb/>theils-Spruch)(KOMMA ,)(APPR uͤber)(NE Giſandern))))(KON und)(FKONJ(MF(PRELAT deſſen)(PAV heraus)(ADJA gekommene)(CARD 2.)(NN Theile)(ART der)(ADJA Felſenburgiſchen)(NN Geſchich-<lb/>te))(KOMMA ,)(VC(VVPP gefaͤllet))))(VF(FM Ex)(FM ungue)(FM leonem))(PUNKT ;)(MF(ADV auch)(ADV ſonſten)(PAV davon)(APPR in)(ART die)(NN Welt))(VC(VVPP geſchrieben))(KOMMA ,)(NF(C(PWS was))(MF(PPER ihm)(ADV eben)(APPR in)(ART den)(NN Kopf))(VC(VVPP gekommen))))
+# text = Sonſten hat auch jemand , welcher , weil er mit ei-<lb/>nem ſchlechten Kahne gar bald in die offenbare See rudern kan , ( ſich derowegen etwa kein Bedencken nimmt , auch zuweilen von hohen Perſonen , freyer , als es erlaubt iſt , zu ſprechen ) den zweydeutigen Ur-<lb/>theils-Spruch , uͤber Giſandern und deſſen heraus gekommene 2. Theile der Felſenburgiſchen Geſchich-<lb/>te , gefaͤllet : Ex ungue leonem ; auch ſonſten davon in die Welt geſchrieben , was ihm eben in den Kopf gekommen ;
+1	Sonſten	sonsten	_	ADV	_	_	_	_	_	3720-3727	w23d	Sonsten	*	B-VF
+2	hat	haben	_	VAFIN	_	_	_	_	_	3728-3731	w23e	hat	*	B-LK
+3	auch	auch	_	ADV	_	_	_	_	_	3732-3736	w23f	auch	*	B-MF
+4	jemand	jemand	_	PIS	_	_	_	_	_	3737-3743	w240	jemand	*	I-MF
+5	,	,	_	$,	_	_	_	_	_	3744-3745	w241	,	*	O
+6	welcher	welche	_	PRELS	_	_	_	_	_	3746-3753	w242	welcher	*	B-NF|B-LK
+7	,	,	_	$,	_	_	_	_	_	3754-3755	w243	,	*	I-NF
+8	weil	weil	_	KOUS	_	_	_	_	_	3756-3760	w244	weil	*	I-NF|B-LK
+9	er	er	_	PPER	_	_	_	_	_	3761-3763	w245	er	*	I-NF|B-MF
+10	mit	mit	_	APPR	_	_	_	_	_	3764-3767	w246	mit	*	I-NF|I-MF
+11	ei-<lb/>nem	eine	_	ART	_	_	_	_	_	3768-3779	w247	einem	*	I-NF|I-MF
+12	ſchlechten	schlecht	_	ADJA	_	_	_	_	_	3780-3790	w248	schlechten	*	I-NF|I-MF
+13	Kahne	Kahn	_	NN	_	_	_	_	_	3791-3796	w249	Kahne	*	I-NF|I-MF
+14	gar	gar	_	ADV	_	_	_	_	_	3797-3800	w24a	gar	*	I-NF|I-MF
+15	bald	bald	_	ADV	_	_	_	_	_	3801-3805	w24b	bald	*	I-NF|I-MF
+16	in	in	_	APPR	_	_	_	_	_	3806-3808	w24c	in	*	I-NF|I-MF
+17	die	d	_	ART	_	_	_	_	_	3809-3812	w24d	die	*	I-NF|I-MF
+18	offenbare	offenbaren	_	ADJA	_	_	_	_	_	3813-3822	w24e	offenbare	*	I-NF|I-MF
+19	See	See	_	NN	_	_	_	_	_	3823-3826	w24f	See	*	I-NF|I-MF
+20	rudern	rudern	_	VVINF	_	_	_	_	_	3827-3833	w250	rudern	*	I-NF|B-RK
+21	kan	können	_	VMFIN	_	_	_	_	_	3834-3837	w251	kann	*	I-NF|I-RK
+22	,	,	_	$,	_	_	_	_	_	3838-3839	w252	,	*	I-NF
+23	(	(	_	$(	_	_	_	_	_	3840-3841	w253	(	*	I-NF
+24	ſich	sich	_	PRF	_	_	_	_	_	3842-3846	w254	sich	*	I-NF|B-MF
+25	derowegen	derowegen	_	PAV	_	_	_	_	_	3847-3856	w255	derowegen	*	I-NF|I-MF
+26	etwa	etwa	_	ADV	_	_	_	_	_	3857-3861	w256	etwa	*	I-NF|I-MF
+27	kein	keine	_	PIAT	_	_	_	_	_	3862-3866	w257	kein	*	I-NF|I-MF
+28	Bedencken	Bedenken	_	NN	_	_	_	_	_	3867-3876	w258	Bedenken	*	I-NF|I-MF
+29	nimmt	nehmen	_	VVFIN	_	_	_	_	_	3877-3882	w259	nimmt	*	I-NF|B-RK
+30	,	,	_	$,	_	_	_	_	_	3883-3884	w25a	,	*	I-NF
+31	auch	auch	_	ADV	_	_	_	_	_	3885-3889	w25b	auch	*	I-NF|B-NF|B-MF
+32	zuweilen	zuweilen	_	ADV	_	_	_	_	_	3890-3898	w25c	zuweilen	*	I-NF|I-NF|I-MF
+33	von	von	_	APPR	_	_	_	_	_	3899-3902	w25d	von	*	I-NF|I-NF|I-MF
+34	hohen	hoch	_	ADJA	_	_	_	_	_	3903-3908	w25e	hohen	*	I-NF|I-NF|I-MF
+35	Perſonen	Person	_	NN	_	_	_	_	_	3909-3917	w25f	Personen	*	I-NF|I-NF|I-MF
+36	,	,	_	$,	_	_	_	_	_	3918-3919	w260	,	*	I-NF|I-NF|I-MF
+37	freyer	frei	_	ADJD	_	_	_	_	_	3920-3926	w261	freier	*	I-NF|I-NF|I-MF
+38	,	,	_	$,	_	_	_	_	_	3927-3928	w262	,	*	I-NF|I-NF|I-MF
+39	als	als	_	KOUS	_	_	_	_	_	3929-3932	w263	als	*	I-NF|I-NF|I-MF|B-LK
+40	es	es	_	PPER	_	_	_	_	_	3933-3935	w264	es	*	I-NF|I-NF|I-MF|B-MF
+41	erlaubt	erlauben	_	VVPP	_	_	_	_	_	3936-3943	w265	erlaubt	*	I-NF|I-NF|I-MF|B-RK
+42	iſt	sein	_	VAFIN	_	_	_	_	_	3944-3947	w266	ist	*	I-NF|I-NF|I-MF|I-RK
+43	,	,	_	$,	_	_	_	_	_	3948-3949	w267	,	*	I-NF|I-NF
+44	zu	zu	_	PTKZU	_	_	_	_	_	3950-3952	w268	zu	*	I-NF|I-NF|B-RK
+45	ſprechen	sprechen	_	VVINF	_	_	_	_	_	3953-3961	w269	sprechen	*	I-NF|I-NF|I-RK
+46	)	)	_	$(	_	_	_	_	_	3962-3963	w26a	)	*	I-NF
+47	den	d	_	ART	_	_	_	_	_	3964-3967	w26b	den	*	I-NF|B-NF
+48	zweydeutigen	zweideutig	_	ADJA	_	_	_	_	_	3968-3980	w26c	zweideutigen	*	I-NF|I-NF
+49	Ur-<lb/>theils-Spruch	Urteils-Spruch	_	NN	_	_	_	_	_	3981-4002	w26d	Urteils-Spruch	*	I-NF|I-NF
+50	,	,	_	$,	_	_	_	_	_	4003-4004	w26e	,	*	I-NF|I-NF
+51	uͤber	über	_	APPR	_	_	_	_	_	4005-4010	w26f	über	*	I-NF|I-NF
+52	Giſandern	Gisandern	_	NE	_	_	_	_	_	4011-4020	w270	Gisandern	*	I-NF|I-NF
+53	und	und	_	KON	_	_	_	_	_	4021-4024	w271	und	*	B-KOORD
+54	deſſen	die	_	PRELAT	_	_	_	_	_	4025-4031	w272	dessen	*	B-MF
+55	heraus	heraus	_	PAV	_	_	_	_	_	4032-4038	w273	heraus	*	I-MF
+56	gekommene	gekommen	_	ADJA	_	_	_	_	_	4039-4048	w274	gekommene	*	I-MF
+57	2.	2.	_	CARD	_	_	_	_	_	4049-4051	w275	2.	*	I-MF
+58	Theile	Teil	_	NN	_	_	_	_	_	4052-4058	w276	Teile	*	I-MF
+59	der	d	_	ART	_	_	_	_	_	4059-4062	w277	der	*	I-MF
+60	Felſenburgiſchen	Felsenburgischen	_	ADJA	_	_	_	_	_	4063-4079	w278	Felsenburgischen	*	I-MF
+61	Geſchich-<lb/>te	Geschichte	_	NN	_	_	_	_	_	4080-4096	w279	Geschichte	*	I-MF
+62	,	,	_	$,	_	_	_	_	_	4097-4098	w27a	,	*	O
+63	gefaͤllet	fällen	_	VVPP	_	_	_	_	_	4099-4108	w27b	gefällt	*	B-RK
+64	:	:	_	$.	_	_	_	_	_	4109-4110	w27c	:	*	O
+65	Ex	ex	_	FM	_	_	_	_	_	4111-4113	w27d	Ex	*	B-VF
+66	ungue	ungue	_	FM	_	_	_	_	_	4114-4119	w27e	ungue	*	I-VF
+67	leonem	leonem	_	FM	_	_	_	_	_	4120-4126	w27f	leonem	*	I-VF
+68	;	;	_	$.	_	_	_	_	_	4127-4128	w280	;	*	O
+69	auch	auch	_	ADV	_	_	_	_	_	4129-4133	w281	auch	*	B-MF
+70	ſonſten	sonsten	_	ADV	_	_	_	_	_	4134-4141	w282	sonsten	*	I-MF
+71	davon	davon	_	PAV	_	_	_	_	_	4142-4147	w283	davon	*	I-MF
+72	in	in	_	APPR	_	_	_	_	_	4148-4150	w284	in	*	I-MF
+73	die	d	_	ART	_	_	_	_	_	4151-4154	w285	die	*	I-MF
+74	Welt	Welt	_	NN	_	_	_	_	_	4155-4159	w286	Welt	*	I-MF
+75	geſchrieben	schreiben	_	VVPP	_	_	_	_	_	4160-4171	w287	geschrieben	*	B-RK
+76	,	,	_	$,	_	_	_	_	_	4172-4173	w288	,	*	O
+77	was	was	_	PWS	_	_	_	_	_	4174-4177	w289	was	*	B-NF|B-LK
+78	ihm	er	_	PPER	_	_	_	_	_	4178-4181	w28a	ihm	*	I-NF|B-MF
+79	eben	eben	_	ADV	_	_	_	_	_	4182-4186	w28b	eben	*	I-NF|I-MF
+80	in	in	_	APPR	_	_	_	_	_	4187-4189	w28c	in	*	I-NF|I-MF
+81	den	d	_	ART	_	_	_	_	_	4190-4193	w28d	den	*	I-NF|I-MF
+82	Kopf	Kopf	_	NN	_	_	_	_	_	4194-4198	w28e	Kopf	*	I-NF|I-MF
+83	gekommen	kommen	_	VVPP	_	_	_	_	_	4199-4207	w28f	gekommen	*	I-NF|B-RK
+84	;	;	_	$.	_	_	_	_	_	4208-4209	w290	;	*	O
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# TopFString = (VROOT(ADV allein)(VF(PWS was))(LK(VAFIN iſt))(MF(PAV daraus))(VC(PTKZU zu)(VVINF machen))(KOMMA ,)(VF(PIS man))(LK(VMFIN koͤnte))(MF(APPR gegen)(PDS dieſes)(KOMMA ,)(C(ART den)(NN Leuten))(MF(ADV auch)(NN Spruͤchwoͤrter))(VC(VVIZU aufzurathen)(VVFIN geben))(KOMMA ,)(NN e.)(NN g.))(NF(FM Afinus)(FM apud)(FM Cumanos))(C(KOUS wenn))(MF(ADV nur)(NE Lucianus)(PDS dieſes)(PTKNEG nicht)(ADV ſo)(ADV gar)(ADJD deutlich))(VC(VVPP er-<lb/>klaͤret)(VAFIN haͤtte)))
+# text = allein , was iſt daraus zu machen , man koͤnte gegen dieſes , den Leuten auch Spruͤchwoͤrter aufzurathen geben , e. g. Afinus apud Cumanos ; wenn nur Lucianus dieſes nicht ſo gar deutlich er-<lb/>klaͤret haͤtte .
+1	allein	allein	_	ADV	_	_	_	_	_	4211-4217	w291	allein	*	O
+2	,	,	_	$,	_	_	_	_	_	4218-4219	w292	,	*	O
+3	was	was	_	PWS	_	_	_	_	_	4220-4223	w293	was	*	B-VF
+4	iſt	sein	_	VAFIN	_	_	_	_	_	4224-4227	w294	ist	*	B-LK
+5	daraus	daraus	_	PAV	_	_	_	_	_	4228-4234	w295	daraus	*	B-MF
+6	zu	zu	_	PTKZU	_	_	_	_	_	4235-4237	w296	zu	*	B-RK
+7	machen	machen	_	VVINF	_	_	_	_	_	4238-4244	w297	machen	*	I-RK
+8	,	,	_	$,	_	_	_	_	_	4245-4246	w298	,	*	O
+9	man	man	_	PIS	_	_	_	_	_	4247-4250	w299	man	*	B-VF
+10	koͤnte	können	_	VMFIN	_	_	_	_	_	4251-4257	w29a	könnte	*	B-LK
+11	gegen	gegen	_	APPR	_	_	_	_	_	4258-4263	w29b	gegen	*	B-MF
+12	dieſes	diese	_	PDS	_	_	_	_	_	4264-4270	w29c	dieses	*	I-MF
+13	,	,	_	$,	_	_	_	_	_	4271-4272	w29d	,	*	I-MF
+14	den	d	_	ART	_	_	_	_	_	4273-4276	w29e	den	*	I-MF|B-LK
+15	Leuten	Leute	_	NN	_	_	_	_	_	4277-4283	w29f	Leuten	*	I-MF|I-LK
+16	auch	auch	_	ADV	_	_	_	_	_	4284-4288	w2a0	auch	*	I-MF|B-MF
+17	Spruͤchwoͤrter	Spruchwort	_	NN	_	_	_	_	_	4289-4303	w2a1	Sprüchwörter	*	I-MF|I-MF
+18	aufzurathen	aufraten	_	VVIZU	_	_	_	_	_	4304-4315	w2a2	aufzuraten	*	I-MF|B-RK
+19	geben	geben	_	VVFIN	_	_	_	_	_	4316-4321	w2a3	geben	*	I-MF|I-RK
+20	,	,	_	$,	_	_	_	_	_	4322-4323	w2a4	,	*	I-MF
+21	e.	e.	_	NN	_	_	_	_	_	4324-4326	w2a5	e.	*	I-MF
+22	g.	G.	_	NN	_	_	_	_	_	4327-4329	w2a6	g.	*	I-MF
+23	Afinus	afinus	_	FM	_	_	_	_	_	4330-4336	w2a7	Afinus	*	B-NF
+24	apud	apud	_	FM	_	_	_	_	_	4337-4341	w2a8	apud	*	I-NF
+25	Cumanos	cumanos	_	FM	_	_	_	_	_	4342-4349	w2a9	Cumanos	*	I-NF
+26	;	;	_	$.	_	_	_	_	_	4350-4351	w2aa	;	*	O
+27	wenn	wenn	_	KOUS	_	_	_	_	_	4352-4356	w2ab	wenn	*	B-LK
+28	nur	nur	_	ADV	_	_	_	_	_	4357-4360	w2ac	nur	*	B-MF
+29	Lucianus	Lucianus	_	NE	_	_	_	_	_	4361-4369	w2ad	Lucianus	*	I-MF
+30	dieſes	diese	_	PDS	_	_	_	_	_	4370-4376	w2ae	dieses	*	I-MF
+31	nicht	nicht	_	PTKNEG	_	_	_	_	_	4377-4382	w2af	nicht	*	I-MF
+32	ſo	so	_	ADV	_	_	_	_	_	4383-4385	w2b0	so	*	I-MF
+33	gar	gar	_	ADV	_	_	_	_	_	4386-4389	w2b1	gar	*	I-MF
+34	deutlich	deutlich	_	ADJD	_	_	_	_	_	4390-4398	w2b2	deutlich	*	I-MF
+35	er-<lb/>klaͤret	erklären	_	VVPP	_	_	_	_	_	4399-4414	w2b3	erkläret	*	B-RK
+36	haͤtte	haben	_	VAFIN	_	_	_	_	_	4415-4421	w2b4	hätte	*	I-RK
+37	.	.	_	$.	_	_	_	_	_	4422-4423	w2b5	.	*	O

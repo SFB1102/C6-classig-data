@@ -1,0 +1,828 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC Antec CharOffset DTA:ID DTA:NORM MovElem PHRASE POS TOPF
+# sent_id = 1
+# sent_id(TSV) = 1
+# PTBstring = (VROOT(NX(NX:KONJ(ART Die)(ADJX(ADJA Darwinsche))(NN Theorie))(KON und)(NX:KONJ(ART die)(NN Sprachwissenschaft)))(PUNKT .))
+# TopFString = (S(VF(ART Die)(ADJA Darwinsche)(NN Theorie))(LK(KON und))(MF(ART die)(NN Sprachwissenschaft))(PUNKT .))
+# text = Die Darwinsche Theorie und die Sprachwissenschaft .
+1	Die	d	_	ART	_	_	_	_	_	_	0-3	w1	Die	B-NP-insitu|B-NP-insitu	B-NP	*	B-VF
+2	Darwinsche	darwinsch	_	ADJA	_	_	_	_	_	_	4-14	w2	Darwinsche	I-NP|I-NP	I-NP	*	I-VF
+3	Theorie	Theorie	_	NN	_	_	_	_	_	_	15-22	w3	Theorie	I-NP|I-NP	I-NP	*	I-VF
+4	und	und	_	KON	_	_	_	_	_	_	23-26	w4	und	I-NP	I-NP	*	B-LK
+5	die	d	_	ART	_	_	_	_	_	_	27-30	w5	die	I-NP|B-NP-insitu	I-NP	*	B-MF
+6	Sprachwissenschaft	Sprachewissenschaft	_	NN	_	_	_	_	_	_	31-49	w6	Sprachwissenschaft	I-NP|I-NP	I-NP	*	I-MF
+7	.	.	_	$.	_	_	_	_	_	_	50-51	w7	.	_	O	*	O
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# PTBstring = (VROOT(NX(ADJX(ADJA Offenes))(NN Sendschreiben)(PX(APPR an)(NX:HD(NX:APP(NN Herrn))(NX:APP(NX:APP(NN Dr.))(NX:APP(NE Ernst)(NE Häckel)))(KOMMA ,)(PX(APPRART a.)(NX:HD(ADJX(ADJA o.))(NN Pro-<lb/>fessor)(NX(ART der)(NX:KONJ(NN Zoologie))(KON und)(NX:KONJ(NN Director))(NX(ART des)(ADJX(ADJA zoologischen))(NN Museums)))(PX(APPR an)(NX:HD(ART der)(NN Universität)(NX(NE Jena))(PX(APPR von)(NX:HD(NE Aug.)(NE Schleicher))))))))))(PUNKT .))
+# TopFString = (S(ADJA Offenes)(NN Sendschreiben)(APPR an)(NN Herrn)(NN Dr.)(NE Ernst)(NE Häckel)(KOMMA ,)(APPRART a.)(ADJA o.)(NN Pro-<lb/>fessor)(ART der)(NN Zoologie)(KON und)(NN Director)(ART des)(ADJA zoologischen)(NN Museums)(APPR an)(ART der)(NN Universität)(NE Jena)(APPR von)(NE Aug.)(NE Schleicher)(PUNKT .))
+# text = Offenes Sendschreiben an Herrn Dr. Ernst Häckel , a. o. Pro-<lb/>fessor der Zoologie und Director des zoologischen Museums an der Universität Jena von Aug. Schleicher .
+1	Offenes	offen	_	ADJA	_	_	_	_	_	_	53-60	w8	Offenes	B-NP-insitu	B-NP	*	O
+2	Sendschreiben	Sendschreiben	_	NN	_	_	_	_	_	_	61-74	w9	Sendschreiben	I-NP	I-NP	*	O
+3	an	an	_	APPR	_	_	_	_	_	_	75-77	wa	an	I-NP	I-NP	*	O
+4	Herrn	Herr	_	NN	_	_	_	_	_	_	78-83	wb	Herrn	I-NP	I-NP	*	O
+5	Dr.	Dr.	_	NN	_	_	_	_	_	_	84-87	wc	Dr.	I-NP	I-NP	*	O
+6	Ernst	Ernst	_	NE	_	_	_	_	_	_	88-93	wd	Ernst	I-NP	I-NP	*	O
+7	Häckel	Häckel	_	NE	_	_	_	_	_	_	94-100	we	Häckel	I-NP	I-NP	*	O
+8	,	,	_	$,	_	_	_	_	_	_	101-102	wf	,	I-NP	I-NP	*	O
+9	a.	a.	_	APPRART	_	_	_	_	_	_	103-105	w10	a.	I-NP	I-NP	*	O
+10	o.	o.	_	ADJA	_	_	_	_	_	_	106-108	w11	o.	I-NP	I-NP	*	O
+11	Pro-<lb/>fessor	Professor	_	NN	_	_	_	_	_	_	109-124	w12	Professor	I-NP	I-NP	*	O
+12	der	d	_	ART	_	_	_	_	_	_	125-128	w13	der	I-NP	I-NP	*	O
+13	Zoologie	Zoologie	_	NN	_	_	_	_	_	_	129-137	w14	Zoologie	I-NP	I-NP	*	O
+14	und	und	_	KON	_	_	_	_	_	_	138-141	w15	und	I-NP	I-NP	*	O
+15	Director	Direktor	_	NN	_	_	_	_	_	_	142-150	w16	Direktor	I-NP	I-NP	*	O
+16	des	d	_	ART	_	_	_	_	_	_	151-154	w17	des	I-NP	I-NP	*	O
+17	zoologischen	zoologisch	_	ADJA	_	_	_	_	_	_	155-167	w18	zoologischen	I-NP	I-NP	*	O
+18	Museums	Museum	_	NN	_	_	_	_	_	_	168-175	w19	Museums	I-NP	I-NP	*	O
+19	an	an	_	APPR	_	_	_	_	_	_	176-178	w1a	an	I-NP	I-NP	*	O
+20	der	d	_	ART	_	_	_	_	_	_	179-182	w1b	der	I-NP	I-NP	*	O
+21	Universität	Universität	_	NN	_	_	_	_	_	_	183-194	w1c	Universität	I-NP	I-NP	*	O
+22	Jena	Jena	_	NE	_	_	_	_	_	_	195-199	w1d	Jena	I-NP	I-NP	*	O
+23	von	von	_	APPR	_	_	_	_	_	_	200-203	w1e	von	I-NP	I-NP	*	O
+24	Aug.	Aug.	_	NE	_	_	_	_	_	_	204-208	w1f	Aug.	I-NP	I-NP	*	O
+25	Schleicher	Schleicher	_	NE	_	_	_	_	_	_	209-219	w20	Schleicher	I-NP	I-NP	*	O
+26	.	.	_	$.	_	_	_	_	_	_	220-221	w21	.	_	O	*	O
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# PTBstring = (VROOT(NX(NE Weimar)(NE Hermann))(NX(NE Böhlau))(NX(CARD 1863))(PUNKT .))
+# TopFString = (S(NE Weimar)(NE Hermann)(NE Böhlau)(CARD 1863)(PUNKT .))
+# text = Weimar Hermann Böhlau 1863 .
+1	Weimar	Weimar	_	NE	_	_	_	_	_	_	223-229	w22	Weimar	B-NP-insitu	B-NP	*	O
+2	Hermann	Hermann	_	NE	_	_	_	_	_	_	230-237	w23	Hermann	I-NP	I-NP	*	O
+3	Böhlau	Böhlau	_	NE	_	_	_	_	_	_	238-244	w24	Böhlau	B-NP-insitu	B-NP	*	O
+4	1863	1863	_	CARD	_	_	_	_	_	_	245-249	w25	1863	B-NP-insitu	B-NP	*	O
+5	.	.	_	$.	_	_	_	_	_	_	250-251	w26	.	_	O	*	O
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# PTBstring = (VROOT(SIMPX(VF(NX(PPER Du)))(LK(VXFIN(VAFIN hast)))(MF(NX(PPER mir))(KOMMA ,)(NX(ADJX(ADJA lieber))(NX:KONJ(NN Freund))(KON und)(NX:KONJ(NN College)))(KOMMA ,)(ADVX(PTKNEG nicht))(ADVX(ADV eher))(NX(NN Ruhe)))(VC(VXINF(VVPP gelassen)))(KOMMA ,)(NF(SIMPX(C(KOUS als)(KOUS bis))(MF(NX(PPER ich))(NX(NX(NE Darwins))(ADJX(ADVX(ADV viel))(ADJA besprochenes))(NN Werk))(PX(APPR über)(NX:HD(ART die)(NN Entstehung)(NX(ART der)(NN Arten))(PX(APPRART im)(NX:HD(NX:KONJ(TRUNC Thier-))(KON und)(NX:KONJ(NN Pflanzenreich))(PX(APPR durch)(NX:HD(NX:KONJ(ADJX(ADJA natürliche))(NN Züchtung))(KON oder)(NX:KONJ(NN Erhaltung))(NX(ART der)(ADJX(ADJA vervollkomm-<lb/>neten))(NN Rassen))(PX(APPRART im)(NX:HD(NN Kampfe)(PX(APPRART ums)(NX:HD(NN Dasein)))))))(KOMMA ,)(SIMPX(MF(PX(APPR nach)(NX:HD(ART der)(ADJX(ADJA zweiten))(NN Auflage))))(VC(VXINF(VVPP übersetzt))))))))(PX(APPR von)(NX:HD(NX:KONJ(NE Bronn))(KOMMA ,)(NX:KONJ(NE Stuttgart)(NX(CARD 1860))))))(KOMMA ,)(VC(VXINF(VVPP gelesen))(VXFIN(VAFIN hatte))))))(PUNKT .))
+# TopFString = (S(VF(PPER Du))(LK(VAFIN hast))(MF(PPER mir)(KOMMA ,)(ADJA lieber)(NN Freund)(KON und)(NN College)(KOMMA ,)(PTKNEG nicht)(ADV eher)(NN Ruhe))(VC(VVPP gelassen))(KOMMA ,)(NF(C(KOUS als)(KOUS bis))(MF(PPER ich)(NE Darwins)(ADV viel)(ADJA besprochenes)(NN Werk)(APPR über)(ART die)(NN Entstehung)(ART der)(NN Arten)(APPRART im)(TRUNC Thier-)(KON und)(NN Pflanzenreich)(APPR durch)(ADJA natürliche)(NN Züchtung)(KON oder)(NN Erhaltung)(ART der)(ADJA vervollkomm-<lb/>neten)(NN Rassen)(APPRART im)(NN Kampfe)(APPRART ums)(NN Dasein)(KOMMA ,)(MF(APPR nach)(ART der)(ADJA zweiten)(NN Auflage))(VC(VVPP übersetzt))(APPR von)(NE Bronn)(KOMMA ,)(NE Stuttgart)(CARD 1860))(KOMMA ,)(VC(VVPP gelesen)(VAFIN hatte)))(PUNKT .))
+# text = Du hast mir , lieber Freund und College , nicht eher Ruhe gelassen , als bis ich Darwins viel besprochenes Werk über die Entstehung der Arten im Thier- und Pflanzenreich durch natürliche Züchtung oder Erhaltung der vervollkomm-<lb/>neten Rassen im Kampfe ums Dasein , nach der zweiten Auflage übersetzt von Bronn , Stuttgart 1860 , gelesen hatte .
+1	Du	du	_	PPER	_	_	_	_	_	_	253-255	w27,w27_1	Du	B-NP-insitu	B-NP	*	B-VF
+2	hast	haben	_	VAFIN	_	_	_	_	_	_	256-260	w28	hast	_	O	*	B-LK
+3	mir	ich	_	PPER	_	_	_	_	_	_	261-264	w29	mir	B-NP-insitu	B-NP	*	B-MF
+4	,	,	_	$,	_	_	_	_	_	_	265-266	w2a	,	_	O	*	I-MF
+5	lieber	lieber	_	ADJA	_	_	_	_	_	_	267-273	w2b	lieber	B-NP-insitu	B-NP	*	I-MF
+6	Freund	Freund	_	NN	_	_	_	_	_	_	274-280	w2c	Freund	I-NP	I-NP	*	I-MF
+7	und	und	_	KON	_	_	_	_	_	_	281-284	w2d	und	I-NP	I-NP	*	I-MF
+8	College	Kollege	_	NN	_	_	_	_	_	_	285-292	w2e	Kollege	I-NP	I-NP	*	I-MF
+9	,	,	_	$,	_	_	_	_	_	_	293-294	w2f	,	_	O	*	I-MF
+10	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	295-300	w30	nicht	B-ADVP-insitu	B-ADVP	*	I-MF
+11	eher	eher	_	ADV	_	_	_	_	_	_	301-305	w31	eher	B-ADVP-insitu	B-ADVP	*	I-MF
+12	Ruhe	Ruhe	_	NN	_	_	_	_	_	_	306-310	w32	Ruhe	B-NP-insitu	B-NP	*	I-MF
+13	gelassen	lassen	_	VVPP	_	_	_	_	_	_	311-319	w33	gelassen	_	O	*	B-RK
+14	,	,	_	$,	_	_	_	_	_	_	320-321	w34	,	_	O	*	O
+15	als	als	_	KOUS	_	_	_	_	_	_	322-325	w35	als	_	O	*	B-NF|B-LK
+16	bis	bis	_	KOUS	_	_	_	_	_	_	326-329	w36	bis	_	O	*	I-NF|I-LK
+17	ich	ich	_	PPER	_	_	_	_	_	_	330-333	w37	ich	B-NP-insitu	B-NP	*	I-NF|B-MF
+18	Darwins	Darwin	_	NE	_	_	_	_	_	_	334-341	w38	Darwins	B-NP-insitu	B-NP	*	I-NF|I-MF
+19	viel	viel	_	ADV	_	_	_	_	_	_	342-346	w39	viel	I-NP	I-NP	*	I-NF|I-MF
+20	besprochenes	besprechen	_	ADJA	_	_	_	_	_	_	347-359	w3a	besprochenes	I-NP	I-NP	*	I-NF|I-MF
+21	Werk	Werk	_	NN	_	_	_	_	_	_	360-364	w3b	Werk	I-NP	I-NP	*	I-NF|I-MF
+22	über	über	_	APPR	_	_	_	_	_	_	365-369	w3c	über	B-PP-insitu	B-PP	*	I-NF|I-MF
+23	die	d	_	ART	_	_	_	_	_	_	370-373	w3d	die	I-PP	I-PP	*	I-NF|I-MF
+24	Entstehung	Entstehung	_	NN	_	_	_	_	_	_	374-384	w3e	Entstehung	I-PP	I-PP	*	I-NF|I-MF
+25	der	d	_	ART	_	_	_	_	_	_	385-388	w3f	der	I-PP	I-PP	*	I-NF|I-MF
+26	Arten	Art	_	NN	_	_	_	_	_	_	389-394	w40	Arten	I-PP	I-PP	*	I-NF|I-MF
+27	im	im	_	APPRART	_	_	_	_	_	_	395-397	w41	im	I-PP	I-PP	*	I-NF|I-MF
+28	Thier-	thier-	_	TRUNC	_	_	_	_	_	_	398-404	w42	Thier-	I-PP	I-PP	*	I-NF|I-MF
+29	und	und	_	KON	_	_	_	_	_	_	405-408	w43	und	I-PP	I-PP	*	I-NF|I-MF
+30	Pflanzenreich	Pflanzenreich	_	NN	_	_	_	_	_	_	409-422	w44	Pflanzenreich	I-PP	I-PP	*	I-NF|I-MF
+31	durch	durch	_	APPR	_	_	_	_	_	_	423-428	w45	durch	I-PP	I-PP	*	I-NF|I-MF
+32	natürliche	natürlich	_	ADJA	_	_	_	_	_	_	429-439	w46	natürliche	I-PP	I-PP	*	I-NF|I-MF
+33	Züchtung	Züchtung	_	NN	_	_	_	_	_	_	440-448	w47	Züchtung	I-PP	I-PP	*	I-NF|I-MF
+34	oder	oder	_	KON	_	_	_	_	_	_	449-453	w48	oder	I-PP	I-PP	*	I-NF|I-MF
+35	Erhaltung	Erhaltung	_	NN	_	_	_	_	_	_	454-463	w49	Erhaltung	I-PP	I-PP	*	I-NF|I-MF
+36	der	d	_	ART	_	_	_	_	_	_	464-467	w4a	der	I-PP	I-PP	*	I-NF|I-MF
+37	vervollkomm-<lb/>neten	vervollkommnet	_	ADJA	_	_	_	_	_	_	468-490	w4b	vervollkommneten	I-PP	I-PP	*	I-NF|I-MF
+38	Rassen	Rasse	_	NN	_	_	_	_	_	_	491-497	w4c	Rassen	I-PP	I-PP	*	I-NF|I-MF
+39	im	im	_	APPRART	_	_	_	_	_	_	498-500	w4d	im	I-PP	I-PP	*	I-NF|I-MF
+40	Kampfe	Kampf	_	NN	_	_	_	_	_	_	501-507	w4e	Kampfe	I-PP	I-PP	*	I-NF|I-MF
+41	ums	ums	_	APPRART	_	_	_	_	_	_	508-511	w4f	ums	I-PP	I-PP	*	I-NF|I-MF
+42	Dasein	Dasein	_	NN	_	_	_	_	_	_	512-518	w50	Dasein	I-PP	I-PP	*	I-NF|I-MF
+43	,	,	_	$,	_	_	_	_	_	_	519-520	w51	,	I-PP	I-PP	*	I-NF|I-MF
+44	nach	nach	_	APPR	_	_	_	_	_	_	521-525	w52	nach	I-PP|B-PP-insitu	I-PP	*	I-NF|I-MF|B-MF
+45	der	d	_	ART	_	_	_	_	_	_	526-529	w53	der	I-PP|I-PP	I-PP	*	I-NF|I-MF|I-MF
+46	zweiten	zweit	_	ADJA	_	_	_	_	_	_	530-537	w54	zweiten	I-PP|I-PP	I-PP	*	I-NF|I-MF|I-MF
+47	Auflage	Auflage	_	NN	_	_	_	_	_	_	538-545	w55	Auflage	I-PP|I-PP	I-PP	*	I-NF|I-MF|I-MF
+48	übersetzt	übersetzen	_	VVPP	_	_	_	_	_	_	546-555	w56	übersetzt	I-PP	I-PP	*	I-NF|I-MF|B-RK
+49	von	von	_	APPR	_	_	_	_	_	_	556-559	w57	von	B-PP-insitu	B-PP	*	I-NF|I-MF
+50	Bronn	Bronn	_	NE	_	_	_	_	_	_	560-565	w58	Bronn	I-PP	I-PP	*	I-NF|I-MF
+51	,	,	_	$,	_	_	_	_	_	_	566-567	w59	,	I-PP	I-PP	*	I-NF|I-MF
+52	Stuttgart	Stuttgart	_	NE	_	_	_	_	_	_	568-577	w5a	Stuttgart	I-PP	I-PP	*	I-NF|I-MF
+53	1860	1860	_	CARD	_	_	_	_	_	_	578-582	w5b	1860	I-PP	I-PP	*	I-NF|I-MF
+54	,	,	_	$,	_	_	_	_	_	_	583-584	w5c	,	_	O	*	I-NF
+55	gelesen	lesen	_	VVPP	_	_	_	_	_	_	585-592	w5d	gelesen	_	O	*	I-NF|B-RK
+56	hatte	haben	_	VAFIN	_	_	_	_	_	_	593-598	w5e	hatte	_	O	*	I-NF|I-RK
+57	.	.	_	$.	_	_	_	_	_	_	599-600	w5f	.	_	O	*	O
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# PTBstring = (VROOT(SIMPX(SIMPX:KONJ(VF(NX(PPER Ich)))(LK(VXFIN(VAFIN habe)))(FKOORD(FKONJ:KONJ(MF(NX(PPOSAT Deinen)(NN Willen)))(VC(VXINF(VVPP gethan))))(KON und)(FKONJ:KONJ(MF(NX(PRF mich))(PX(APPR durch)(NX:HD(ART das)(ADJX(ADJX:KONJ(NX(PIAT einiger)(NN Maassen))(ADJX(ADJD unbeholfen))(ADJX:KONJ(ADJA angeordnete))(KON und)(ADJX:KONJ(ADJX(ADJD schwerfällig))(ADJA geschriebene)))(KON und)(ADJX:KONJ(ADVX(ADV theilweise))(PX(APPR in)(NX:HD(ADJX(ADJA kurioses))(NN Deutsch)))(ADJA übersetzte)))(NN Buch)(PX(PX:KONJ(APPR von)(NX:HD(NN Anfang)))(PX:KONJ(APPR bis)(PX:HD(APPR zu)(NX:HD(NN Ende)))))))(ADVX(ADV hindurch)))(VC(VXINF(VVPP gearbeitet))))))(PUNKT ;)(SIMPX:KONJ(VF(NX(ART die)(ADJX(PIAT meisten))(NN Theile)(NX(ART des)(NN Werks))))(LK(VXFIN(VVFIN reizten)))(MF(PX(APPR zu)(NX:HD(ADJX(ADJA wiederholtem))(NN Lesen))))))(PUNKT .))
+# TopFString = (S(VF(PPER Ich))(LK(VAFIN habe))(FKOORD(FKONJ(MF(PPOSAT Deinen)(NN Willen))(VC(VVPP gethan)))(KON und)(FKONJ(MF(PRF mich)(APPR durch)(ART das)(PIAT einiger)(NN Maassen)(ADJD unbeholfen)(ADJA angeordnete)(KON und)(ADJD schwerfällig)(ADJA geschriebene)(KON und)(ADV theilweise)(APPR in)(ADJA kurioses)(NN Deutsch)(ADJA übersetzte)(NN Buch)(APPR von)(NN Anfang)(APPR bis)(APPR zu)(NN Ende)(ADV hindurch))(VC(VVPP gearbeitet))))(PUNKT ;)(VF(ART die)(PIAT meisten)(NN Theile)(ART des)(NN Werks))(LK(VVFIN reizten))(MF(APPR zu)(ADJA wiederholtem)(NN Lesen))(PUNKT .))
+# text = Ich habe Deinen Willen gethan und mich durch das einiger Maassen unbeholfen angeordnete und schwerfällig geschriebene und theilweise in kurioses Deutsch übersetzte Buch von Anfang bis zu Ende hindurch gearbeitet ; die meisten Theile des Werks reizten zu wiederholtem Lesen .
+1	Ich	ich	_	PPER	_	_	_	_	_	_	602-605	w60	Ich	B-NP-insitu	B-NP	*	B-VF
+2	habe	haben	_	VAFIN	_	_	_	_	_	_	606-610	w61	habe	_	O	*	B-LK
+3	Deinen	deine	_	PPOSAT	_	_	_	_	_	_	611-617	w62	Deinen	B-NP-insitu	B-NP	*	B-MF
+4	Willen	Willen	_	NN	_	_	_	_	_	_	618-624	w63	Willen	I-NP	I-NP	*	I-MF
+5	gethan	tun	_	VVPP	_	_	_	_	_	_	625-631	w64	getan	_	O	*	B-RK
+6	und	und	_	KON	_	_	_	_	_	_	632-635	w65	und	_	O	*	B-KOORD
+7	mich	mich	_	PRF	_	_	_	_	_	_	636-640	w66	mich	B-NP-insitu	B-NP	*	B-MF
+8	durch	durch	_	APPR	_	_	_	_	_	_	641-646	w67	durch	B-PP-insitu	B-PP	*	I-MF
+9	das	d	_	ART	_	_	_	_	_	_	647-650	w68	das	I-PP	I-PP	*	I-MF
+10	einiger	einige	_	PIAT	_	_	_	_	_	_	651-658	w69	einiger	I-PP	I-PP	*	I-MF
+11	Maassen	Maß	_	NN	_	_	_	_	_	_	659-666	w6a	Maßen	I-PP	I-PP	*	I-MF
+12	unbeholfen	unbeholfen	_	ADJD	_	_	_	_	_	_	667-677	w6b	unbeholfen	I-PP	I-PP	*	I-MF
+13	angeordnete	angeordnet	_	ADJA	_	_	_	_	_	_	678-689	w6c	angeordnete	I-PP	I-PP	*	I-MF
+14	und	und	_	KON	_	_	_	_	_	_	690-693	w6d	und	I-PP	I-PP	*	I-MF
+15	schwerfällig	schwerfällig	_	ADJD	_	_	_	_	_	_	694-706	w6e	schwerfällig	I-PP	I-PP	*	I-MF
+16	geschriebene	geschreiben	_	ADJA	_	_	_	_	_	_	707-719	w6f	geschriebene	I-PP	I-PP	*	I-MF
+17	und	und	_	KON	_	_	_	_	_	_	720-723	w70	und	I-PP	I-PP	*	I-MF
+18	theilweise	teilweise	_	ADV	_	_	_	_	_	_	724-734	w71	teilweise	I-PP	I-PP	*	I-MF
+19	in	in	_	APPR	_	_	_	_	_	_	735-737	w72	in	I-PP	I-PP	*	I-MF
+20	kurioses	kurios	_	ADJA	_	_	_	_	_	_	738-746	w73	kurioses	I-PP	I-PP	*	I-MF
+21	Deutsch	Deutsch	_	NN	_	_	_	_	_	_	747-754	w74	Deutsch	I-PP	I-PP	*	I-MF
+22	übersetzte	übersetzen	_	ADJA	_	_	_	_	_	_	755-765	w75	übersetzte	I-PP	I-PP	*	I-MF
+23	Buch	Buch	_	NN	_	_	_	_	_	_	766-770	w76	Buch	I-PP	I-PP	*	I-MF
+24	von	von	_	APPR	_	_	_	_	_	_	771-774	w77	von	I-PP	I-PP	*	I-MF
+25	Anfang	Anfang	_	NN	_	_	_	_	_	_	775-781	w78	Anfang	I-PP	I-PP	*	I-MF
+26	bis	bis	_	APPR	_	_	_	_	_	_	782-785	w79	bis	I-PP	I-PP	*	I-MF
+27	zu	zu	_	APPR	_	_	_	_	_	_	786-788	w7a	zu	I-PP	I-PP	*	I-MF
+28	Ende	Ende	_	NN	_	_	_	_	_	_	789-793	w7b	Ende	I-PP	I-PP	*	I-MF
+29	hindurch	hindurch	_	ADV	_	_	_	_	_	_	794-802	w7c	hindurch	B-ADVP-insitu	B-ADVP	*	I-MF
+30	gearbeitet	arbeiten	_	VVPP	_	_	_	_	_	_	803-813	w7d	gearbeitet	_	O	*	B-RK
+31	;	;	_	$.	_	_	_	_	_	_	814-815	w7e	;	_	O	*	O
+32	die	d	_	ART	_	_	_	_	_	_	816-819	w7f	die	B-NP-insitu	B-NP	*	B-VF
+33	meisten	meiste	_	PIAT	_	_	_	_	_	_	820-827	w80	meisten	I-NP	I-NP	*	I-VF
+34	Theile	Teil	_	NN	_	_	_	_	_	_	828-834	w81	Teile	I-NP	I-NP	*	I-VF
+35	des	d	_	ART	_	_	_	_	_	_	835-838	w82	des	I-NP	I-NP	*	I-VF
+36	Werks	Werk	_	NN	_	_	_	_	_	_	839-844	w83	Werks	I-NP	I-NP	*	I-VF
+37	reizten	reizen	_	VVFIN	_	_	_	_	_	_	845-852	w84	reizten	_	O	*	B-LK
+38	zu	zu	_	APPR	_	_	_	_	_	_	853-855	w85	zu	B-PP-insitu	B-PP	*	B-MF
+39	wiederholtem	wiederholt	_	ADJA	_	_	_	_	_	_	856-868	w86	wiederholtem	I-PP	I-PP	*	I-MF
+40	Lesen	Lesen	_	NN	_	_	_	_	_	_	869-874	w87	Lesen	I-PP	I-PP	*	I-MF
+41	.	.	_	$.	_	_	_	_	_	_	875-876	w88	.	_	O	*	O
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# PTBstring = (VROOT(SIMPX(VF(PX(APPR Vor)(NX:HD(PIS allem))))(LK(VXFIN(VVFIN danke)))(MF(NX(PPER ich))(NX(PPER Dir))(PX(APPR für)(NX:HD(ART die)(ADJX(ADJA ausdauernden))(NN Bemühungen))))(KOMMA ,)(NF(R(C(NX(PRELS denen)))(MF(NX(PPER es))(ADVX(ADV endlich)))(VC(VXFIN(VVFIN glückte)))(KOMMA ,)(NF(SIMPX:OS(MF(NX(PPER mich))(PX(APPRART zum)(NX:HD(NN Studium)(NX(PDAT dieses)(ADJX(PX(APPR ohne)(NX:HD(NN Zweifel)))(ADJA be-<lb/>deutenden))(NN Buches)))))(VC(VXINF(PTKZU zu)(VVINF bewegen))))))))(PUNKT .))
+# TopFString = (S(VF(APPR Vor)(PIS allem))(LK(VVFIN danke))(MF(PPER ich)(PPER Dir)(APPR für)(ART die)(ADJA ausdauernden)(NN Bemühungen))(KOMMA ,)(NF(C(PRELS denen))(MF(PPER es)(ADV endlich))(VC(VVFIN glückte))(KOMMA ,)(NF(MF(PPER mich)(APPRART zum)(NN Studium)(PDAT dieses)(APPR ohne)(NN Zweifel)(ADJA be-<lb/>deutenden)(NN Buches))(VC(PTKZU zu)(VVINF bewegen))))(PUNKT .))
+# text = Vor allem danke ich Dir für die ausdauernden Bemühungen , denen es endlich glückte , mich zum Studium dieses ohne Zweifel be-<lb/>deutenden Buches zu bewegen .
+1	Vor	vor	_	APPR	_	_	_	_	_	_	878-881	w89	Vor	B-PP-insitu	B-PP	*	B-VF
+2	allem	alle	_	PIS	_	_	_	_	_	_	882-887	w8a	allem	I-PP	I-PP	*	I-VF
+3	danke	danken	_	VVFIN	_	_	_	_	_	_	888-893	w8b	danke	_	O	*	B-LK
+4	ich	ich	_	PPER	_	_	_	_	_	_	894-897	w8c	ich	B-NP-insitu	B-NP	*	B-MF
+5	Dir	du	_	PPER	_	_	_	_	_	_	898-901	w8d	Dir	B-NP-insitu	B-NP	*	I-MF
+6	für	für	_	APPR	_	_	_	_	_	B-Antec-1	902-905	w8e	für	B-PP-insitu	B-PP	*	I-MF
+7	die	d	_	ART	_	_	_	_	_	I-Antec	906-909	w8f	die	I-PP	I-PP	*	I-MF
+8	ausdauernden	ausdauernd	_	ADJA	_	_	_	_	_	I-Antec	910-922	w90	ausdauernden	I-PP	I-PP	*	I-MF
+9	Bemühungen	Bemühung	_	NN	_	_	_	_	_	I-Antec-Head	923-933	w91	Bemühungen	I-PP	I-PP	*	I-MF
+10	,	,	_	$,	_	_	_	_	_	_	934-935	w92	,	_	O	*	O
+11	denen	die	_	PRELS	_	_	_	_	_	_	936-941	w93	denen	B-RELC-ambig-1|B-NP-insitu	B-NP	*	B-NF|B-LK
+12	es	es	_	PPER	_	_	_	_	_	_	942-944	w94	es	I-RELC|B-NP-insitu	B-NP	*	I-NF|B-MF
+13	endlich	endlich	_	ADV	_	_	_	_	_	_	945-952	w95	endlich	I-RELC|B-ADVP-insitu	B-ADVP	*	I-NF|I-MF
+14	glückte	glücken	_	VVFIN	_	_	_	_	_	_	953-960	w96	glückte	I-RELC	O	*	I-NF|B-RK
+15	,	,	_	$,	_	_	_	_	_	_	961-962	w97	,	I-RELC	O	*	I-NF
+16	mich	ich	_	PPER	_	_	_	_	_	_	963-967	w98	mich	I-RELC|B-NP-insitu	B-NP	*	I-NF|B-NF|B-MF
+17	zum	zum	_	APPRART	_	_	_	_	_	_	968-971	w99	zum	I-RELC|B-PP-insitu	B-PP	*	I-NF|I-NF|I-MF
+18	Studium	Studium	_	NN	_	_	_	_	_	_	972-979	w9a	Studium	I-RELC|I-PP	I-PP	*	I-NF|I-NF|I-MF
+19	dieses	diese	_	PDAT	_	_	_	_	_	_	980-986	w9b	dieses	I-RELC|I-PP	I-PP	*	I-NF|I-NF|I-MF
+20	ohne	ohne	_	APPR	_	_	_	_	_	_	987-991	w9c	ohne	I-RELC|I-PP	I-PP	*	I-NF|I-NF|I-MF
+21	Zweifel	Zweifel	_	NN	_	_	_	_	_	_	992-999	w9d	Zweifel	I-RELC|I-PP	I-PP	*	I-NF|I-NF|I-MF
+22	be-<lb/>deutenden	bedeutend	_	ADJA	_	_	_	_	_	_	1000-1017	w9e	bedeutenden	I-RELC|I-PP	I-PP	*	I-NF|I-NF|I-MF
+23	Buches	Buch	_	NN	_	_	_	_	_	_	1018-1024	w9f	Buches	I-RELC|I-PP	I-PP	*	I-NF|I-NF|I-MF
+24	zu	zu	_	PTKZU	_	_	_	_	_	_	1025-1027	wa0	zu	I-RELC	O	*	I-NF|I-NF|B-RK
+25	bewegen	bewegen	_	VVINF	_	_	_	_	_	_	1028-1035	wa1	bewegen	I-RELC	O	*	I-NF|I-NF|I-RK
+26	.	.	_	$.	_	_	_	_	_	_	1036-1037	wa2	.	_	O	*	O
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# PTBstring = (VROOT(SIMPX(SIMPX:KONJ(VF(SIMPX(C(KOUS Dass))(MF(NX(PPER mich))(NX(ART die)(NN Schrift)))(VC(VXINF(VVINF an-<lb/>sprechen))(VXFIN(VAFIN würde)))))(KOMMA ,)(LK(VXFIN(VVFIN schienst)))(MF(NX(PPER Du))(PX(APPR mit)(NX:HD(NN Bestimmtheit))))(VC(PTKVZ voraus))(NF(VC(VXINF(PTKZU zu)(VVINF setzen)))))(PUNKT ;)(SIMPX:KONJ(VF(ADVX(ADV freilich)))(LK(VXFIN(VVFIN dachtest)))(MF(NX(PPER Du))(ADVX(ADV zunächst))(PX(APPR an)(NX:HD(PPOSAT meine)(ADJX(ADJX:KONJ(ADJA gärtnerischen))(KON und)(ADJX:KONJ(ADJA botanischen)))(NN Liebhabereien))))))(PUNKT .))
+# TopFString = (S(VF(C(KOUS Dass))(MF(PPER mich)(ART die)(NN Schrift))(VC(VVINF an-<lb/>sprechen)(VAFIN würde)))(KOMMA ,)(LK(VVFIN schienst))(MF(PPER Du)(APPR mit)(NN Bestimmtheit))(VC(PTKVZ voraus))(NF(VC(PTKZU zu)(VVINF setzen)))(PUNKT ;)(VF(ADV freilich))(LK(VVFIN dachtest))(MF(PPER Du)(ADV zunächst)(APPR an)(PPOSAT meine)(ADJA gärtnerischen)(KON und)(ADJA botanischen)(NN Liebhabereien))(PUNKT .))
+# text = Dass mich die Schrift an-<lb/>sprechen würde , schienst Du mit Bestimmtheit voraus zu setzen ; freilich dachtest Du zunächst an meine gärtnerischen und botanischen Liebhabereien .
+1	Dass	dass	_	KOUS	_	_	_	_	_	_	1039-1043	wa3	Dass	_	O	*	B-VF|B-LK
+2	mich	ich	_	PPER	_	_	_	_	_	_	1044-1048	wa4	mich	B-NP-insitu	B-NP	*	I-VF|B-MF
+3	die	d	_	ART	_	_	_	_	_	_	1049-1052	wa5	die	B-NP-insitu	B-NP	*	I-VF|I-MF
+4	Schrift	Schrift	_	NN	_	_	_	_	_	_	1053-1060	wa6	Schrift	I-NP	I-NP	*	I-VF|I-MF
+5	an-<lb/>sprechen	ansprechen	_	VVINF	_	_	_	_	_	_	1061-1077	wa7	ansprechen	_	O	*	I-VF|B-RK
+6	würde	werden	_	VAFIN	_	_	_	_	_	_	1078-1083	wa8	würde	_	O	*	I-VF|I-RK
+7	,	,	_	$,	_	_	_	_	_	_	1084-1085	wa9	,	_	O	*	O
+8	schienst	schienen	_	VVFIN	_	_	_	_	_	_	1086-1094	waa	schienst	_	O	*	B-LK
+9	Du	du	_	PPER	_	_	_	_	_	_	1095-1097	wab	Du	B-NP-insitu	B-NP	*	B-MF
+10	mit	mit	_	APPR	_	_	_	_	_	_	1098-1101	wac	mit	B-PP-insitu	B-PP	*	I-MF
+11	Bestimmtheit	Bestimmtheit	_	NN	_	_	_	_	_	_	1102-1114	wad	Bestimmtheit	I-PP	I-PP	*	I-MF
+12	voraus	voraus	_	PTKVZ	_	_	_	_	_	_	1115-1121	wae	voraus	_	O	*	B-RK
+13	zu	zu	_	PTKZU	_	_	_	_	_	_	1122-1124	waf	zu	_	O	*	B-NF|B-RK
+14	setzen	setzen	_	VVINF	_	_	_	_	_	_	1125-1131	wb0	setzen	_	O	*	I-NF|I-RK
+15	;	;	_	$.	_	_	_	_	_	_	1132-1133	wb1	;	_	O	*	O
+16	freilich	freilich	_	ADV	_	_	_	_	_	_	1134-1142	wb2	freilich	B-ADVP-insitu	B-ADVP	*	B-VF
+17	dachtest	denken	_	VVFIN	_	_	_	_	_	_	1143-1151	wb3	dachtest	_	O	*	B-LK
+18	Du	du	_	PPER	_	_	_	_	_	_	1152-1154	wb4	Du	B-NP-insitu	B-NP	*	B-MF
+19	zunächst	zunächst	_	ADV	_	_	_	_	_	_	1155-1163	wb5	zunächst	B-ADVP-insitu	B-ADVP	*	I-MF
+20	an	an	_	APPR	_	_	_	_	_	_	1164-1166	wb6	an	B-PP-insitu	B-PP	*	I-MF
+21	meine	meine	_	PPOSAT	_	_	_	_	_	_	1167-1172	wb7	meine	I-PP	I-PP	*	I-MF
+22	gärtnerischen	gärtnerisch	_	ADJA	_	_	_	_	_	_	1173-1186	wb8	gärtnerischen	I-PP	I-PP	*	I-MF
+23	und	und	_	KON	_	_	_	_	_	_	1187-1190	wb9	und	I-PP	I-PP	*	I-MF
+24	botanischen	botanisch	_	ADJA	_	_	_	_	_	_	1191-1202	wba	botanischen	I-PP	I-PP	*	I-MF
+25	Liebhabereien	Liebhaberei	_	NN	_	_	_	_	_	_	1203-1216	wbb	Liebhabereien	I-PP	I-PP	*	I-MF
+26	.	.	_	$.	_	_	_	_	_	_	1217-1218	wbc	.	_	O	*	O
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# PTBstring = (VROOT(SIMPX(VF(ADVX(ADV Allerdings)))(LK(VXFIN(VVFIN bietet)))(MF(NX(ART die)(NN Gärt-<lb/>nerei))(NX(DP(ADVX(ADV gar))(PIAT manche))(NN Gelegenheit)(PX(APPRART z.)(NX:HD(NN B.))))(NX(ART den)(KLAMMER ‘)(NN Kampf)(PX(APPRART ums)(NX:HD(NN Dasein)))))(KLAMMER ’)(VC(VXINF(PTKZU zu)(VVINF beobachten)))(KOMMA ,)(NF(R(C(NX(PRELS den)))(MF(NX(PIS man))(PX(APPR zu)(NX:HD(NN Gunsten)(NX(ART der)(ADJX(ADJA auserwählten))(NN Lieblinge)))))(VC(VXINF(PTKZU zu)(VVINF entscheiden))(VXFIN(VVFIN pflegt))))(KOMMA ,)(NX(ART eine)(NN Tätigkeit)(KOMMA ,)(R(C(NX(PRELS welche)))(MF(PX(APPR in)(NX:HD(ART der)(NN Sprache)(NX(ART des)(ADJX(ADJA gewöhnlichen))(NN Lebens)))))(KLAMMER ‘)(VXINF(VVINF jäten))(KLAMMER ’)(VC(VXINF(VVPP genannt))(VXFIN(VAFIN wird)))))))(PUNKT ;))
+# TopFString = (S(VF(ADV Allerdings))(LK(VVFIN bietet))(MF(ART die)(NN Gärt-<lb/>nerei)(ADV gar)(PIAT manche)(NN Gelegenheit)(APPRART z.)(NN B.)(ART den)(KLAMMER ‘)(NN Kampf)(APPRART ums)(NN Dasein))(KLAMMER ’)(VC(PTKZU zu)(VVINF beobachten))(KOMMA ,)(NF(C(PRELS den))(MF(PIS man)(APPR zu)(NN Gunsten)(ART der)(ADJA auserwählten)(NN Lieblinge))(VC(PTKZU zu)(VVINF entscheiden)(VVFIN pflegt))(KOMMA ,)(NF(ART eine)(NN Tätigkeit)(KOMMA ,)(C(PRELS welche))(MF(APPR in)(ART der)(NN Sprache)(ART des)(ADJA gewöhnlichen)(NN Lebens))(KLAMMER ‘)(VC(VVINF jäten)(KLAMMER ’)(VVPP genannt)(VAFIN wird))))(PUNKT ;))
+# text = Allerdings bietet die Gärt-<lb/>nerei gar manche Gelegenheit z. B. den ‘ Kampf ums Dasein ’ zu beobachten , den man zu Gunsten der auserwählten Lieblinge zu entscheiden pflegt , eine Tätigkeit , welche in der Sprache des gewöhnlichen Lebens ‘ jäten ’ genannt wird ;
+1	Allerdings	allerdings	_	ADV	_	_	_	_	_	_	1220-1230	wbd	Allerdings	B-ADVP-insitu	B-ADVP	*	B-VF
+2	bietet	bieten	_	VVFIN	_	_	_	_	_	_	1231-1237	wbe	bietet	_	O	*	B-LK
+3	die	d	_	ART	_	_	_	_	_	_	1238-1241	wbf	die	B-NP-insitu	B-NP	*	B-MF
+4	Gärt-<lb/>nerei	Gärtnerei	_	NN	_	_	_	_	_	_	1242-1257	wc0	Gärtnerei	I-NP	I-NP	*	I-MF
+5	gar	gar	_	ADV	_	_	_	_	_	_	1258-1261	wc1	gar	B-NP-insitu	B-NP	*	I-MF
+6	manche	manche	_	PIAT	_	_	_	_	_	_	1262-1268	wc2	manche	I-NP	I-NP	*	I-MF
+7	Gelegenheit	Gelegenheit	_	NN	_	_	_	_	_	_	1269-1280	wc3	Gelegenheit	I-NP	I-NP	*	I-MF
+8	z.	z.	_	APPRART	_	_	_	_	_	_	1281-1283	wc4	z.	I-NP	I-NP	*	I-MF
+9	B.	B.	_	NN	_	_	_	_	_	_	1284-1286	wc5	B.	I-NP	I-NP	*	I-MF
+10	den	d	_	ART	_	_	_	_	_	B-Antec-1	1287-1290	wc6	den	B-NP-insitu	B-NP	*	I-MF
+11	‘	'	_	$(	_	_	_	_	_	I-Antec	1291-1292	wc7	'	I-NP	I-NP	*	I-MF
+12	Kampf	Kampf	_	NN	_	_	_	_	_	I-Antec-Head	1293-1298	wc8	Kampf	I-NP	I-NP	*	I-MF
+13	ums	ums	_	APPRART	_	_	_	_	_	I-Antec	1299-1302	wc9	ums	I-NP	I-NP	*	I-MF
+14	Dasein	Dasein	_	NN	_	_	_	_	_	I-Antec	1303-1309	wca	Dasein	I-NP	I-NP	*	I-MF
+15	’	'	_	$(	_	_	_	_	_	_	1310-1311	wcb	'	_	O	*	O
+16	zu	zu	_	PTKZU	_	_	_	_	_	_	1312-1314	wcc	zu	_	O	*	B-RK
+17	beobachten	beobachten	_	VVINF	_	_	_	_	_	_	1315-1325	wcd	beobachten	_	O	*	I-RK
+18	,	,	_	$,	_	_	_	_	_	_	1326-1327	wce	,	_	O	*	O
+19	den	die	_	PRELS	_	_	_	_	_	_	1328-1331	wcf	den	B-RELC-extrap-1|B-NP-insitu	B-NP	*	B-NF|B-LK
+20	man	man	_	PIS	_	_	_	_	_	_	1332-1335	wd0	man	I-RELC|B-NP-insitu	B-NP	*	I-NF|B-MF
+21	zu	zu	_	APPR	_	_	_	_	_	_	1336-1338	wd1	zu	I-RELC|B-PP-insitu	B-PP	*	I-NF|I-MF
+22	Gunsten	Gunst	_	NN	_	_	_	_	_	_	1339-1346	wd2	Gunsten	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+23	der	d	_	ART	_	_	_	_	_	_	1347-1350	wd3	der	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+24	auserwählten	auserwählt	_	ADJA	_	_	_	_	_	_	1351-1363	wd4	auserwählten	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+25	Lieblinge	Liebling	_	NN	_	_	_	_	_	_	1364-1373	wd5	Lieblinge	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+26	zu	zu	_	PTKZU	_	_	_	_	_	_	1374-1376	wd6	zu	I-RELC	O	*	I-NF|B-RK
+27	entscheiden	entscheiden	_	VVINF	_	_	_	_	_	_	1377-1388	wd7	entscheiden	I-RELC	O	*	I-NF|I-RK
+28	pflegt	pflegen	_	VVFIN	_	_	_	_	_	_	1389-1395	wd8	pflegt	I-RELC	O	*	I-NF|I-RK
+29	,	,	_	$,	_	_	_	_	_	_	1396-1397	wd9	,	_	O	*	I-NF
+30	eine	eine	_	ART	_	_	_	_	_	B-Antec-2	1398-1402	wda	eine	B-NP-extrap	B-NP	*	I-NF|B-NF
+31	Tätigkeit	Tätigkeit	_	NN	_	_	_	_	_	I-Antec-Head	1403-1412	wdb	Tätigkeit	I-NP	I-NP	*	I-NF|I-NF
+32	,	,	_	$,	_	_	_	_	_	_	1413-1414	wdc	,	I-NP	I-NP	*	I-NF|I-NF
+33	welche	welche	_	PRELS	_	_	_	_	_	_	1415-1421	wdd	welche	I-NP|B-RELC-insitu-2|B-NP-insitu	I-NP	*	I-NF|I-NF|B-LK
+34	in	in	_	APPR	_	_	_	_	_	_	1422-1424	wde	in	I-NP|I-RELC|B-PP-insitu	I-NP	*	I-NF|I-NF|B-MF
+35	der	d	_	ART	_	_	_	_	_	_	1425-1428	wdf	der	I-NP|I-RELC|I-PP	I-NP	*	I-NF|I-NF|I-MF
+36	Sprache	Sprache	_	NN	_	_	_	_	_	_	1429-1436	we0	Sprache	I-NP|I-RELC|I-PP	I-NP	*	I-NF|I-NF|I-MF
+37	des	d	_	ART	_	_	_	_	_	_	1437-1440	we1	des	I-NP|I-RELC|I-PP	I-NP	*	I-NF|I-NF|I-MF
+38	gewöhnlichen	gewöhnlich	_	ADJA	_	_	_	_	_	_	1441-1453	we2	gewöhnlichen	I-NP|I-RELC|I-PP	I-NP	*	I-NF|I-NF|I-MF
+39	Lebens	Leben	_	NN	_	_	_	_	_	_	1454-1460	we3	Lebens	I-NP|I-RELC|I-PP	I-NP	*	I-NF|I-NF|I-MF
+40	‘	'	_	$(	_	_	_	_	_	_	1461-1462	we4	'	I-NP|I-RELC	I-NP	*	I-NF|I-NF
+41	jäten	jäten	_	VVINF	_	_	_	_	_	_	1463-1468	we5	jäten	I-NP|I-RELC	I-NP	*	I-NF|I-NF|B-RK
+42	’	'	_	$(	_	_	_	_	_	_	1469-1470	we6	'	I-NP|I-RELC	I-NP	*	I-NF|I-NF|I-RK
+43	genannt	nennen	_	VVPP	_	_	_	_	_	_	1471-1478	we7	genannt	I-NP|I-RELC	I-NP	*	I-NF|I-NF|I-RK
+44	wird	werden	_	VAFIN	_	_	_	_	_	_	1479-1483	we8	wird	I-NP|I-RELC	I-NP	*	I-NF|I-NF|I-RK
+45	;	;	_	$.	_	_	_	_	_	_	1484-1485	we9	;	_	O	*	O
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# PTBstring = (VROOT(SIMPX(LV(SIMPX(C(NX(PWAT welcher)(NN Verbreitung)))(MF(NX(ART eine)(ADJX(ADJA einzige))(NN Pflanze)))(VC(VXINF(VVPP fähig))(VXFIN(VAFIN ist)))(KOMMA ,)(NF(SIMPX(C(KOUS wenn))(MF(NX(PPER sie))(NX(NX:KONJ(NN Raum))(KON und)(NX:KONJ(ADJX(ADVX(ADV sonst))(ADJA günstige))(NN Verhältnisse)))(PX(PAV dazu)))(VC(VXFIN(VVFIN findet)))))))(KOMMA ,)(VF(NX(PDS das)))(LK(VXFIN(VVFIN erlebt)))(MF(NX(ART der)(NN Gärtner))(ADVX(ADV auch))(ADVX(ADV manchmal))(ADVX(ADV mehr)(SIMPX(C(KOUS als))(FKOORD(FKONJ:KONJ(MF(NX(PPER ihm))(ADJX(ADJD lieb)))(VC(VXFIN(VAFIN ist))))(PUNKT ;)(KON und)(FKONJ:KONJ(MF(NX(PWS was)(NX(ART die)(NN Veränderlichkeit)(NX(ART der)(NN Arten)))(KOMMA ,)(R(C(NX(PWS was)))(MF(NX(NE Erblichkeit)(KOMMA ,)(ADJX(ADJD kurz))(KOMMA ,)(R(C(NX(PWS was)))(MF(NX(ADJX(ADJA ‘))(NN Züchtung)))(VC(VXFIN(VVFIN ’))))))(VC(VXFIN(VVFIN betrifft)))))(KOMMA ,)(ADVX(ADV nun))(PX(PAV darin)))(VC(VXFIN(VVFIN macht)))(NF(NX(PIS einer)(KOMMA ,)(R(C(NX(PRELS der)))(MF(PX(APPR seit)(NX:HD(NN Jahren)))(NX(ART das)(NN Steckenpferd)))(VC(VXFIN(VVFIN reitet))))))))))(NX(PIS eine)(NX(PPOSAT unserer)(ADJX(ADJA abänder-<lb/>ungsfähigsten))(NN Zierblumen)))(ADVX(PX(APPR nach)(NX:HD(ADJX(ADJA bestimmten))(NN Richtungen)))(ADV hin)))(VC(VXINF(PTKZU zu)(VVINF vervollkommnen)))(KOMMA ,)(NF(NX(PIAT manche)(NX:KONJ(NN Erfahrung))(KON und)(NX:KONJ(NN Beobachtung)))))(PUNKT .))
+# TopFString = (S(LV(C(PRELAT welcher)(NN Verbreitung))(MF(ART eine)(ADJA einzige)(NN Pflanze)(ADJD fähig))(VC(VAFIN ist))(KOMMA ,)(NF(C(KOUS wenn))(MF(PPER sie)(NN Raum)(KON und)(ADV sonst)(ADJA günstige)(NN Verhältnisse)(PAV dazu))(VC(VVFIN findet))))(KOMMA ,)(VF(PDS das))(LK(VVFIN erlebt))(MF(ART der)(NN Gärtner)(ADV auch)(ADV manchmal)(ADV mehr))(NF(C(KOUS als))(MF(PPER ihm)(ADJD lieb))(VC(VAFIN ist)))(PUNKT ;)(KON und)(VF(C(PWS was))(MF(ART die)(NN Veränderlichkeit)(ART der)(NN Arten)(KOMMA ,)(C(PWS was))(MF(NN Erblichkeit)(KOMMA ,)(ADJD kurz)(KOMMA ,)(PWS was)(KLAMMER ‘)(NN Züchtung))(KLAMMER ’)(VC(VVFIN betrifft))(KOMMA ,)(ADV nun)(PAV darin))(VC(VVFIN macht)))(MF(PIS einer))(KOMMA ,)(NF(C(PRELS der))(MF(APPR seit)(NN Jahren)(ART das)(NN Steckenpferd))(VC(VVFIN reitet))(NF(MF(PIS eine)(PPOSAT unserer)(ADJA abänder-<lb/>ungsfähigsten)(NN Zierblumen)(APPR nach)(ADJA bestimmten)(NN Richtungen)(APZR hin))(VC(PTKZU zu)(VVINF vervollkommnen))(KOMMA ,)(PIAT manche)(NN Erfahrung)(KON und)(NN Beobachtung)))(PUNKT .))
+# text = welcher Verbreitung eine einzige Pflanze fähig ist , wenn sie Raum und sonst günstige Verhältnisse dazu findet , das erlebt der Gärtner auch manchmal mehr als ihm lieb ist ; und was die Veränderlichkeit der Arten , was Erblichkeit , kurz , was ‘ Züchtung ’ betrifft , nun darin macht einer , der seit Jahren das Steckenpferd reitet eine unserer abänder-<lb/>ungsfähigsten Zierblumen nach bestimmten Richtungen hin zu vervollkommnen , manche Erfahrung und Beobachtung .
+1	welcher	welcher	_	PRELAT	_	_	_	_	_	_	1487-1494	wea	welcher	B-NP-insitu	B-NP	*	B-LV|B-LK
+2	Verbreitung	Verbreitung	_	NN	_	_	_	_	_	_	1495-1506	web	Verbreitung	I-NP	I-NP	*	I-LV|I-LK
+3	eine	eine	_	ART	_	_	_	_	_	_	1507-1511	wec	eine	B-NP-insitu	B-NP	*	I-LV|B-MF
+4	einzige	einzig	_	ADJA	_	_	_	_	_	_	1512-1519	wed	einzige	I-NP	I-NP	*	I-LV|I-MF
+5	Pflanze	Pflanze	_	NN	_	_	_	_	_	_	1520-1527	wee	Pflanze	I-NP	I-NP	*	I-LV|I-MF
+6	fähig	fähig	_	ADJD	_	_	_	_	_	_	1528-1533	wef	fähig	_	O	*	I-LV|I-MF
+7	ist	sein	_	VAFIN	_	_	_	_	_	_	1534-1537	wf0	ist	_	O	*	I-LV|B-RK
+8	,	,	_	$,	_	_	_	_	_	_	1538-1539	wf1	,	_	O	*	I-LV
+9	wenn	wenn	_	KOUS	_	_	_	_	_	_	1540-1544	wf2	wenn	_	O	*	I-LV|B-NF|B-LK
+10	sie	sie	_	PPER	_	_	_	_	_	_	1545-1548	wf3	sie	B-NP-insitu	B-NP	*	I-LV|I-NF|B-MF
+11	Raum	Raum	_	NN	_	_	_	_	_	_	1549-1553	wf4	Raum	B-NP-insitu	B-NP	*	I-LV|I-NF|I-MF
+12	und	und	_	KON	_	_	_	_	_	_	1554-1557	wf5	und	I-NP	I-NP	*	I-LV|I-NF|I-MF
+13	sonst	sonst	_	ADV	_	_	_	_	_	_	1558-1563	wf6	sonst	I-NP	I-NP	*	I-LV|I-NF|I-MF
+14	günstige	günstig	_	ADJA	_	_	_	_	_	_	1564-1572	wf7	günstige	I-NP	I-NP	*	I-LV|I-NF|I-MF
+15	Verhältnisse	Verhältnis	_	NN	_	_	_	_	_	_	1573-1585	wf8	Verhältnisse	I-NP	I-NP	*	I-LV|I-NF|I-MF
+16	dazu	dazu	_	PAV	_	_	_	_	_	_	1586-1590	wf9	dazu	B-PP-insitu	B-PP	*	I-LV|I-NF|I-MF
+17	findet	finden	_	VVFIN	_	_	_	_	_	_	1591-1597	wfa	findet	_	O	*	I-LV|I-NF|B-RK
+18	,	,	_	$,	_	_	_	_	_	_	1598-1599	wfb	,	_	O	*	O
+19	das	die	_	PDS	_	_	_	_	_	_	1600-1603	wfc	das	B-NP-insitu	B-NP	*	B-VF
+20	erlebt	erleben	_	VVFIN	_	_	_	_	_	_	1604-1610	wfd	erlebt	_	O	*	B-LK
+21	der	d	_	ART	_	_	_	_	_	_	1611-1614	wfe	der	B-NP-insitu	B-NP	*	B-MF
+22	Gärtner	Gärtner	_	NN	_	_	_	_	_	_	1615-1622	wff	Gärtner	I-NP	I-NP	*	I-MF
+23	auch	auch	_	ADV	_	_	_	_	_	_	1623-1627	w100	auch	B-ADVP-insitu	B-ADVP	*	I-MF
+24	manchmal	manchmal	_	ADV	_	_	_	_	_	_	1628-1636	w101	manchmal	B-ADVP-insitu	B-ADVP	*	I-MF
+25	mehr	mehr	_	ADV	_	_	_	_	_	_	1637-1641	w102	mehr	B-ADVP-insitu	B-ADVP	*	I-MF
+26	als	als	_	KOUS	_	_	_	_	_	_	1642-1645	w103	als	I-ADVP	I-ADVP	*	B-NF|B-LK
+27	ihm	er	_	PPER	_	_	_	_	_	_	1646-1649	w104	ihm	I-ADVP|B-NP-insitu	I-ADVP	*	I-NF|B-MF
+28	lieb	lieb	_	ADJD	_	_	_	_	_	_	1650-1654	w105	lieb	I-ADVP	I-ADVP	*	I-NF|I-MF
+29	ist	sein	_	VAFIN	_	_	_	_	_	_	1655-1658	w106	ist	I-ADVP	I-ADVP	*	I-NF|B-RK
+30	;	;	_	$.	_	_	_	_	_	_	1659-1660	w107	;	I-ADVP	I-ADVP	*	O
+31	und	und	_	KON	_	_	_	_	_	_	1661-1664	w108	und	I-ADVP	I-ADVP	*	O
+32	was	was	_	PWS	_	_	_	_	_	_	1665-1668	w109	was	I-ADVP|B-NP-insitu	I-ADVP	*	B-VF|B-LK
+33	die	d	_	ART	_	_	_	_	_	_	1669-1672	w10a	die	I-ADVP|I-NP|B-NP-insitu	I-ADVP	*	I-VF|B-MF
+34	Veränderlichkeit	Veränderlichkeit	_	NN	_	_	_	_	_	_	1673-1689	w10b	Veränderlichkeit	I-ADVP|I-NP|I-NP	I-ADVP	*	I-VF|I-MF
+35	der	d	_	ART	_	_	_	_	_	_	1690-1693	w10c	der	I-ADVP|I-NP|I-NP	I-ADVP	*	I-VF|I-MF
+36	Arten	Art	_	NN	_	_	_	_	_	_	1694-1699	w10d	Arten	I-ADVP|I-NP|I-NP	I-ADVP	*	I-VF|I-MF
+37	,	,	_	$,	_	_	_	_	_	_	1700-1701	w10e	,	I-ADVP|I-NP	I-ADVP	*	I-VF|I-MF
+38	was	was	_	PWS	_	_	_	_	_	_	1702-1705	w10f	was	I-ADVP|I-NP|B-NP-insitu	I-ADVP	*	I-VF|I-MF|B-LK
+39	Erblichkeit	Erblichkeit	_	NN	_	_	_	_	_	_	1706-1717	w110	Erblichkeit	I-ADVP|I-NP|B-NP-insitu	I-ADVP	*	I-VF|I-MF|B-MF
+40	,	,	_	$,	_	_	_	_	_	_	1718-1719	w111	,	I-ADVP|I-NP|I-NP	I-ADVP	*	I-VF|I-MF|I-MF
+41	kurz	kurz	_	ADJD	_	_	_	_	_	_	1720-1724	w112	kurz	I-ADVP|I-NP|I-NP	I-ADVP	*	I-VF|I-MF|I-MF
+42	,	,	_	$,	_	_	_	_	_	_	1725-1726	w113	,	I-ADVP|I-NP|I-NP	I-ADVP	*	I-VF|I-MF|I-MF
+43	was	was	_	PWS	_	_	_	_	_	_	1727-1730	w114	was	I-ADVP|I-NP|I-NP	I-ADVP	*	I-VF|I-MF|I-MF
+44	‘	'	_	$(	_	_	_	_	_	_	1731-1732	w115	'	I-ADVP|I-NP|I-NP	I-ADVP	*	I-VF|I-MF|I-MF
+45	Züchtung	Züchtung	_	NN	_	_	_	_	_	_	1733-1741	w116	Züchtung	I-ADVP|I-NP|I-NP	I-ADVP	*	I-VF|I-MF|I-MF
+46	’	'	_	$(	_	_	_	_	_	_	1742-1743	w117	'	I-ADVP|I-NP	I-ADVP	*	I-VF|I-MF
+47	betrifft	betreffen	_	VVFIN	_	_	_	_	_	_	1744-1752	w118	betrifft	I-ADVP|I-NP	I-ADVP	*	I-VF|I-MF|B-RK
+48	,	,	_	$,	_	_	_	_	_	_	1753-1754	w119	,	I-ADVP	I-ADVP	*	I-VF|I-MF
+49	nun	nun	_	ADV	_	_	_	_	_	_	1755-1758	w11a	nun	I-ADVP|B-ADVP-insitu	I-ADVP	*	I-VF|I-MF
+50	darin	darin	_	PAV	_	_	_	_	_	_	1759-1764	w11b	darin	I-ADVP|B-PP-insitu	I-ADVP	*	I-VF|I-MF
+51	macht	machen	_	VVFIN	_	_	_	_	_	_	1765-1770	w11c	macht	I-ADVP	I-ADVP	*	I-VF|B-RK
+52	einer	eine	_	PIS	_	_	_	_	_	B-Antec-1-Head	1771-1776	w11d	einer	I-ADVP|B-NP-insitu	I-ADVP	*	B-MF
+53	,	,	_	$,	_	_	_	_	_	_	1777-1778	w11e	,	I-ADVP|I-NP	I-ADVP	*	O
+54	der	die	_	PRELS	_	_	_	_	_	_	1779-1782	w11f	der	I-ADVP|I-NP|B-RELC-ambig-1|B-NP-insitu	I-ADVP	*	B-NF|B-LK
+55	seit	seit	_	APPR	_	_	_	_	_	_	1783-1787	w120	seit	I-ADVP|I-NP|I-RELC|B-PP-insitu	I-ADVP	*	I-NF|B-MF
+56	Jahren	Jahr	_	NN	_	_	_	_	_	_	1788-1794	w121	Jahren	I-ADVP|I-NP|I-RELC|I-PP	I-ADVP	*	I-NF|I-MF
+57	das	d	_	ART	_	_	_	_	_	_	1795-1798	w122	das	I-ADVP|I-NP|I-RELC|B-NP-insitu	I-ADVP	*	I-NF|I-MF
+58	Steckenpferd	Steckenpferd	_	NN	_	_	_	_	_	_	1799-1811	w123	Steckenpferd	I-ADVP|I-NP|I-RELC|I-NP	I-ADVP	*	I-NF|I-MF
+59	reitet	reiten	_	VVFIN	_	_	_	_	_	_	1812-1818	w124	reitet	I-ADVP|I-NP|I-RELC	I-ADVP	*	I-NF|B-RK
+60	eine	eine	_	PIS	_	_	_	_	_	_	1819-1823	w125	eine	B-NP-insitu	B-NP	*	I-NF|B-NF|B-MF
+61	unserer	unsere	_	PPOSAT	_	_	_	_	_	_	1824-1831	w126	unserer	I-NP	I-NP	*	I-NF|I-NF|I-MF
+62	abänder-<lb/>ungsfähigsten	abänderungsfähig	_	ADJA	_	_	_	_	_	_	1832-1858	w127	abänderungsfähigsten	I-NP	I-NP	*	I-NF|I-NF|I-MF
+63	Zierblumen	Zierblume	_	NN	_	_	_	_	_	_	1859-1869	w128	Zierblumen	I-NP	I-NP	*	I-NF|I-NF|I-MF
+64	nach	nach	_	APPR	_	_	_	_	_	_	1870-1874	w129	nach	B-ADVP-insitu	B-ADVP	*	I-NF|I-NF|I-MF
+65	bestimmten	bestimmt	_	ADJA	_	_	_	_	_	_	1875-1885	w12a	bestimmten	I-ADVP	I-ADVP	*	I-NF|I-NF|I-MF
+66	Richtungen	Richtung	_	NN	_	_	_	_	_	_	1886-1896	w12b	Richtungen	I-ADVP	I-ADVP	*	I-NF|I-NF|I-MF
+67	hin	hin	_	APZR	_	_	_	_	_	_	1897-1900	w12c	hin	I-ADVP	I-ADVP	*	I-NF|I-NF|I-MF
+68	zu	zu	_	PTKZU	_	_	_	_	_	_	1901-1903	w12d	zu	_	O	*	I-NF|I-NF|B-RK
+69	vervollkommnen	vervollkommnen	_	VVINF	_	_	_	_	_	_	1904-1918	w12e	vervollkommnen	_	O	*	I-NF|I-NF|I-RK
+70	,	,	_	$,	_	_	_	_	_	_	1919-1920	w12f	,	_	O	*	I-NF|I-NF
+71	manche	manche	_	PIAT	_	_	_	_	_	_	1921-1927	w130	manche	B-NP-extrap	B-NP	*	I-NF|I-NF
+72	Erfahrung	Erfahrung	_	NN	_	_	_	_	_	_	1928-1937	w131	Erfahrung	I-NP	I-NP	*	I-NF|I-NF
+73	und	und	_	KON	_	_	_	_	_	_	1938-1941	w132	und	I-NP	I-NP	*	I-NF|I-NF
+74	Beobachtung	Beobachtung	_	NN	_	_	_	_	_	_	1942-1953	w133	Beobachtung	I-NP	I-NP	*	I-NF|I-NF
+75	.	.	_	$.	_	_	_	_	_	_	1954-1955	w134	.	_	O	*	O
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# PTBstring = (VROOT(SIMPX(VF(ADVX(ADV Dennoch)))(LK(VXFIN(VAFIN warst)))(MF(NX(PPER du))(KOMMA ,)(DM(NX(ADJX(ADJA lieber))(NN Freund)))(KOMMA ,)(ADVX(PTKNEG nicht))(ADVX(ADV ganz))(PX(APPR auf)(NX:HD(ART der)(ADJX(ADJA richtigen))(NN Fährte))))(KOMMA ,)(NF(SIMPX(C(KOUS als))(MF(NX(PPER Du))(NX(PRF mich))(ADJX(ADJD vorzüglich))(PX(APPR wegen)(NX:HD(PPOSAT meiner)(NN Gartenleidenschaft)))(PX(APPR mit)(NX:HD(ART dem)(ADJX(ADJA genannten))(ADJX(ADJA merkwürdigen))(NN Buche))))(VC(VXINF(VVINF zusammenbringen))(VXFIN(VMFIN wolltest))))))(PUNKT .))
+# TopFString = (S(VF(ADV Dennoch))(LK(VAFIN warst))(MF(PPER du)(KOMMA ,)(ADJA lieber)(NN Freund)(KOMMA ,)(PTKNEG nicht)(ADV ganz)(APPR auf)(ART der)(ADJA richtigen)(NN Fährte))(KOMMA ,)(NF(C(KOUS als))(MF(PPER Du)(PRF mich)(ADJD vorzüglich)(APPR wegen)(PPOSAT meiner)(NN Gartenleidenschaft)(APPR mit)(ART dem)(ADJA genannten)(ADJA merkwürdigen)(NN Buche))(VC(VVINF zusammenbringen)(VMFIN wolltest)))(PUNKT .))
+# text = Dennoch warst du , lieber Freund , nicht ganz auf der richtigen Fährte , als Du mich vorzüglich wegen meiner Gartenleidenschaft mit dem genannten merkwürdigen Buche zusammenbringen wolltest .
+1	Dennoch	dennoch	_	ADV	_	_	_	_	_	_	1957-1964	w135	Dennoch	B-ADVP-insitu	B-ADVP	*	B-VF
+2	warst	sein	_	VAFIN	_	_	_	_	_	_	1965-1970	w136	warst	_	O	*	B-LK
+3	du	du	_	PPER	_	_	_	_	_	_	1971-1973	w137	du	B-NP-insitu	B-NP	*	B-MF
+4	,	,	_	$,	_	_	_	_	_	_	1974-1975	w138	,	_	O	*	I-MF
+5	lieber	lieber	_	ADJA	_	_	_	_	_	_	1976-1982	w139	lieber	B-NP-insitu	B-NP	*	I-MF
+6	Freund	Freund	_	NN	_	_	_	_	_	_	1983-1989	w13a	Freund	I-NP	I-NP	*	I-MF
+7	,	,	_	$,	_	_	_	_	_	_	1990-1991	w13b	,	_	O	*	I-MF
+8	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	1992-1997	w13c	nicht	B-ADVP-insitu	B-ADVP	*	I-MF
+9	ganz	ganz	_	ADV	_	_	_	_	_	_	1998-2002	w13d	ganz	B-ADVP-insitu	B-ADVP	*	I-MF
+10	auf	auf	_	APPR	_	_	_	_	_	_	2003-2006	w13e	auf	B-PP-insitu	B-PP	*	I-MF
+11	der	d	_	ART	_	_	_	_	_	_	2007-2010	w13f	der	I-PP	I-PP	*	I-MF
+12	richtigen	richtig	_	ADJA	_	_	_	_	_	_	2011-2020	w140	richtigen	I-PP	I-PP	*	I-MF
+13	Fährte	Fährte	_	NN	_	_	_	_	_	_	2021-2027	w141	Fährte	I-PP	I-PP	*	I-MF
+14	,	,	_	$,	_	_	_	_	_	_	2028-2029	w142	,	_	O	*	O
+15	als	als	_	KOUS	_	_	_	_	_	_	2030-2033	w143	als	_	O	*	B-NF|B-LK
+16	Du	du	_	PPER	_	_	_	_	_	_	2034-2036	w144	Du	B-NP-insitu	B-NP	*	I-NF|B-MF
+17	mich	mich	_	PRF	_	_	_	_	_	_	2037-2041	w145	mich	B-NP-insitu	B-NP	*	I-NF|I-MF
+18	vorzüglich	vorzüglich	_	ADJD	_	_	_	_	_	_	2042-2052	w146	vorzüglich	B-AP-insitu	B-AP	*	I-NF|I-MF
+19	wegen	wegen	_	APPR	_	_	_	_	_	_	2053-2058	w147	wegen	B-PP-insitu	B-PP	*	I-NF|I-MF
+20	meiner	meine	_	PPOSAT	_	_	_	_	_	_	2059-2065	w148	meiner	I-PP	I-PP	*	I-NF|I-MF
+21	Gartenleidenschaft	Gartenleidenschaft	_	NN	_	_	_	_	_	_	2066-2084	w149	Gartenleidenschaft	I-PP	I-PP	*	I-NF|I-MF
+22	mit	mit	_	APPR	_	_	_	_	_	_	2085-2088	w14a	mit	B-PP-insitu	B-PP	*	I-NF|I-MF
+23	dem	d	_	ART	_	_	_	_	_	_	2089-2092	w14b	dem	I-PP	I-PP	*	I-NF|I-MF
+24	genannten	genennt	_	ADJA	_	_	_	_	_	_	2093-2102	w14c	genannten	I-PP	I-PP	*	I-NF|I-MF
+25	merkwürdigen	merkwürdig	_	ADJA	_	_	_	_	_	_	2103-2115	w14d	merkwürdigen	I-PP	I-PP	*	I-NF|I-MF
+26	Buche	Buche	_	NN	_	_	_	_	_	_	2116-2121	w14e	Buche	I-PP	I-PP	*	I-NF|I-MF
+27	zusammenbringen	zusammenbringen	_	VVINF	_	_	_	_	_	_	2122-2137	w14f	zusammenbringen	_	O	*	I-NF|B-RK
+28	wolltest	wollen	_	VMFIN	_	_	_	_	_	_	2138-2146	w150	wolltest	_	O	*	I-NF|I-RK
+29	.	.	_	$.	_	_	_	_	_	_	2147-2148	w151	.	_	O	*	O
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# PTBstring = (VROOT(SIMPX(VF(PX(APPR In)(NX:HD(ADJX(ADVX(ADV noch))(ADJA höherem))(NN Grade))))(LK(VXFIN(VVFIN wirkten)))(MF(ADVX(ADV nämlich))(NX(NX(NE Darwins))(NX:KONJ(NN Darlegungen))(KON und)(NX:KONJ(NN Ansichten)))(PX(APPR auf)(NX:HD(PPER mich))))(NF(SIMPX:OS(C(PX(APPR in)(ADVX:HD(ADV so)(ADVX(ADV ferne)))))(MF(NX(PPER ich))(NX(PPER sie))(PX(APPR in)(NX:HD(NN Verbindung))))(VC(VXFIN(VVFIN brachte)))(NF(PX(APPR mit)(NX:HD(ART der)(NN Sprach-<lb/>wissenschaft)))))))(PUNKT .))
+# TopFString = (S(VF(APPR In)(ADV noch)(ADJA höherem)(NN Grade))(LK(VVFIN wirkten))(MF(ADV nämlich)(NE Darwins)(NN Darlegungen))(KON und)(VF(NN Ansichten)(APPR auf)(PPER mich)(APPR in)(ADV so)(ADV ferne)(PPER ich)(PPER sie)(APPR in)(NN Verbindung))(LK(VVFIN brachte))(MF(APPR mit)(ART der)(NN Sprach-<lb/>wissenschaft))(PUNKT .))
+# text = In noch höherem Grade wirkten nämlich Darwins Darlegungen und Ansichten auf mich in so ferne ich sie in Verbindung brachte mit der Sprach-<lb/>wissenschaft .
+1	In	in	_	APPR	_	_	_	_	_	_	2150-2152	w152	In	B-PP-insitu	B-PP	*	B-VF
+2	noch	noch	_	ADV	_	_	_	_	_	_	2153-2157	w153	noch	I-PP	I-PP	*	I-VF
+3	höherem	hoch	_	ADJA	_	_	_	_	_	_	2158-2165	w154	höherem	I-PP	I-PP	*	I-VF
+4	Grade	Grad	_	NN	_	_	_	_	_	_	2166-2171	w155	Grade	I-PP	I-PP	*	I-VF
+5	wirkten	wirken	_	VVFIN	_	_	_	_	_	_	2172-2179	w156	wirkten	_	O	*	B-LK
+6	nämlich	nämlich	_	ADV	_	_	_	_	_	_	2180-2187	w157	nämlich	B-ADVP-insitu	B-ADVP	*	B-MF
+7	Darwins	Darwin	_	NE	_	_	_	_	_	_	2188-2195	w158	Darwins	B-NP-insitu|B-NP-insitu	B-NP	*	I-MF
+8	Darlegungen	Darlegung	_	NN	_	_	_	_	_	_	2196-2207	w159	Darlegungen	I-NP|B-NP-insitu	I-NP	*	I-MF
+9	und	und	_	KON	_	_	_	_	_	_	2208-2211	w15a	und	I-NP	I-NP	*	O
+10	Ansichten	Ansicht	_	NN	_	_	_	_	_	_	2212-2221	w15b	Ansichten	I-NP|B-NP-insitu	I-NP	*	B-VF
+11	auf	auf	_	APPR	_	_	_	_	_	_	2222-2225	w15c	auf	B-PP-insitu	B-PP	*	I-VF
+12	mich	ich	_	PPER	_	_	_	_	_	_	2226-2230	w15d	mich	I-PP	I-PP	*	I-VF
+13	in	in	_	APPR	_	_	_	_	_	_	2231-2233	w15e	in	B-PP-insitu	B-PP	*	I-VF
+14	so	so	_	ADV	_	_	_	_	_	_	2234-2236	w15f	so	I-PP	I-PP	*	I-VF
+15	ferne	ferne	_	ADV	_	_	_	_	_	_	2237-2242	w160	ferne	I-PP	I-PP	*	I-VF
+16	ich	ich	_	PPER	_	_	_	_	_	_	2243-2246	w161	ich	B-NP-insitu	B-NP	*	I-VF
+17	sie	sie	_	PPER	_	_	_	_	_	_	2247-2250	w162	sie	B-NP-insitu	B-NP	*	I-VF
+18	in	in	_	APPR	_	_	_	_	_	_	2251-2253	w163	in	B-PP-insitu	B-PP	*	I-VF
+19	Verbindung	Verbindung	_	NN	_	_	_	_	_	_	2254-2264	w164	Verbindung	I-PP	I-PP	*	I-VF
+20	brachte	bringen	_	VVFIN	_	_	_	_	_	_	2265-2272	w165	brachte	_	O	*	B-LK
+21	mit	mit	_	APPR	_	_	_	_	_	_	2273-2276	w166	mit	B-PP-insitu	B-PP	*	B-MF
+22	der	d	_	ART	_	_	_	_	_	_	2277-2280	w167	der	I-PP	I-PP	*	I-MF
+23	Sprach-<lb/>wissenschaft	Sprachewissenschaft	_	NN	_	_	_	_	_	_	2281-2305	w168	Sprachwissenschaft	I-PP	I-PP	*	I-MF
+24	.	.	_	$.	_	_	_	_	_	_	2306-2307	w169	.	_	O	*	O
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# PTBstring = (VROOT(SIMPX(VF(PX(APPR Von)(NX:HD(ART den)(ADJX(ADJA sprachlichen))(NN Organismen))))(LK(VXFIN(VVFIN gelten)))(MF(ADVX(ADV nämlich))(NX(ADJX(ADJA ähnliche))(NN Ansichten)))(KOMMA ,)(NF(SIMPX(C(KOUS wie))(MF(NX(PPER sie))(NX(NE Darwin))(PX(APPR von)(NX:HD(ART den)(ADJX(ADJA lebenden))(NN Wesen)))(ADVX(ADV über-<lb/>haupt)))(VC(VXFIN(VVFIN ausspricht)))(KOMMA ,)(NF(ADJX(ADVX(ADV theils))(ADVX(ADV fast))(ADJD allgemein)(KOMMA ,)(SIMPX(VF(ADVX(ADV theils)))(LK(VXFIN(VAFIN habe)))(MF(NX(PPER ich))(ADJX(ADJD zu-<lb/>fällig))(PX(APPRART im)(NX:HD(NX:APP(NN Jahre))(NX:APP(CARD 1860)))))(KOMMA ,)(NF(ADVX(ADV also))(PX(APPR in)(NX:HD(PDAT demselben)(NN Jahre)(KOMMA ,)(R(C(PX(APPR in)(NX:HD(PRELS welchem))))(MF(NX(ART die)(ADJX(ADJA deutsche))(NN Uebersetzung)(PX(APPR von)(NX:HD(NX(NE Darwins))(NN Werk)))))(VC(VXFIN(VVFIN erschien)))(KOMMA ,)(NF(SIMPX(MF(PX(PX:KONJ(APPR über)(NX:HD(ART den)(KLAMMER ‘)(NN Kampf)(PX(APPRART ums)(NX:HD(NN Dasein)))))(KLAMMER ’)(KOMMA ,)(PX:KONJ(APPR über)(NX:HD(ART das)(NN Erlöschen)(NX(ADJX(ADJA alter))(NN Formen))))(KOMMA ,)(PX:KONJ(PX(APPR über)(NX:HD(ART die)(ADJX(ADJA grosse))(NX:KONJ(NN Ausbreitung))(KON und)(NX:KONJ(NN Differenzierung)(NX(ADJX(ADJA einzelner))(NN Arten)))))(APPR auf)(NX:HD(ADJX(ADJA sprachlichem))(NN Gebiete))))(NX(PRF mich))(PX(APPR in)(NX:HD(ART einer)(NN Weise))))(VC(VXINF(VVPP aus-<lb/>gesprochen)))(KOMMA ,)(NF(R(C(NX(PRELS welche)))(KOMMA ,)(FKOORD(FKONJ:KONJ(MF(NX(ART den)(NN Ausdruck)))(VC(VXINF(VVPP abgerechnet))))(KOMMA ,)(FKONJ:KONJ(MF(PX(APPR mit)(NX:HD(NX(NE Dar-<lb/>wins))(NN Ansichten)))(PX(APPR in)(NX:HD(ADJX(ADJA auffälliger))(NN Weise)))(ADVX(ADV zusammen)))(VC(VXFIN(VVFIN stimmt)))))))))))))))))))(PUNKT .))
+# TopFString = (S(VF(APPR Von)(ART den)(ADJA sprachlichen)(NN Organismen))(LK(VVFIN gelten))(MF(ADV nämlich)(ADJA ähnliche)(NN Ansichten)(KOMMA ,)(C(KOUS wie))(MF(PPER sie)(NE Darwin)(APPR von)(ART den)(ADJA lebenden)(NN Wesen)(ADV über-<lb/>haupt))(VC(VVFIN ausspricht))(KOMMA ,)(ADV theils)(ADV fast)(ADJD allgemein))(KOMMA ,)(VF(ADV theils))(LK(VAFIN habe))(MF(PPER ich)(ADJD zu-<lb/>fällig)(APPRART im)(NN Jahre)(CARD 1860)(KOMMA ,)(ADV also)(APPR in)(PDAT demselben)(NN Jahre)(KOMMA ,)(C(APPR in)(PRELS welchem))(MF(ART die)(ADJA deutsche)(NN Uebersetzung)(APPR von)(NE Darwins)(NN Werk))(VC(VVFIN erschien))(KOMMA ,)(APPR über)(ART den)(KLAMMER ‘)(NN Kampf)(APPRART ums)(NN Dasein)(KLAMMER ’)(KOMMA ,)(APPR über)(ART das)(NN Erlöschen)(ADJA alter)(NN Formen)(KOMMA ,)(APPR über)(ART die)(ADJA grosse)(NN Ausbreitung)(KON und)(NN Differenzierung)(ADJA einzelner)(NN Arten)(APPR auf)(ADJA sprachlichem)(NN Gebiete)(PRF mich)(APPR in)(ART einer)(NN Weise))(VC(VVPP aus-<lb/>gesprochen))(KOMMA ,)(NF(C(PRELS welche))(KOMMA ,)(MF(ART den)(NN Ausdruck))(VC(VVPP abgerechnet))(KOMMA ,)(MF(APPR mit)(NE Dar-<lb/>wins)(NN Ansichten)(APPR in)(ADJA auffälliger)(NN Weise)(ADV zusammen))(VC(VVFIN stimmt)))(PUNKT .))
+# text = Von den sprachlichen Organismen gelten nämlich ähnliche Ansichten , wie sie Darwin von den lebenden Wesen über-<lb/>haupt ausspricht , theils fast allgemein , theils habe ich zu-<lb/>fällig im Jahre 1860 , also in demselben Jahre , in welchem die deutsche Uebersetzung von Darwins Werk erschien , über den ‘ Kampf ums Dasein ’ , über das Erlöschen alter Formen , über die grosse Ausbreitung und Differenzierung einzelner Arten auf sprachlichem Gebiete mich in einer Weise aus-<lb/>gesprochen , welche , den Ausdruck abgerechnet , mit Dar-<lb/>wins Ansichten in auffälliger Weise zusammen stimmt .
+1	Von	von	_	APPR	_	_	_	_	_	_	2309-2312	w16a	Von	B-PP-insitu	B-PP	*	B-VF
+2	den	d	_	ART	_	_	_	_	_	_	2313-2316	w16b	den	I-PP	I-PP	*	I-VF
+3	sprachlichen	sprachlich	_	ADJA	_	_	_	_	_	_	2317-2329	w16c	sprachlichen	I-PP	I-PP	*	I-VF
+4	Organismen	Organismus	_	NN	_	_	_	_	_	_	2330-2340	w16d	Organismen	I-PP	I-PP	*	I-VF
+5	gelten	gelten	_	VVFIN	_	_	_	_	_	_	2341-2347	w16e	gelten	_	O	*	B-LK
+6	nämlich	nämlich	_	ADV	_	_	_	_	_	_	2348-2355	w16f	nämlich	B-ADVP-insitu	B-ADVP	*	B-MF
+7	ähnliche	ähnlich	_	ADJA	_	_	_	_	_	_	2356-2364	w170	ähnliche	B-NP-insitu	B-NP	*	I-MF
+8	Ansichten	Ansicht	_	NN	_	_	_	_	_	_	2365-2374	w171	Ansichten	I-NP	I-NP	*	I-MF
+9	,	,	_	$,	_	_	_	_	_	_	2375-2376	w172	,	_	O	*	I-MF
+10	wie	wie	_	KOUS	_	_	_	_	_	_	2377-2380	w173	wie	_	O	*	I-MF|B-LK
+11	sie	sie	_	PPER	_	_	_	_	_	_	2381-2384	w174	sie	B-NP-insitu	B-NP	*	I-MF|B-MF
+12	Darwin	Darwin	_	NE	_	_	_	_	_	_	2385-2391	w175	Darwin	B-NP-insitu	B-NP	*	I-MF|I-MF
+13	von	von	_	APPR	_	_	_	_	_	_	2392-2395	w176	von	B-PP-insitu	B-PP	*	I-MF|I-MF
+14	den	d	_	ART	_	_	_	_	_	_	2396-2399	w177	den	I-PP	I-PP	*	I-MF|I-MF
+15	lebenden	lebend	_	ADJA	_	_	_	_	_	_	2400-2408	w178	lebenden	I-PP	I-PP	*	I-MF|I-MF
+16	Wesen	Wesen	_	NN	_	_	_	_	_	_	2409-2414	w179	Wesen	I-PP	I-PP	*	I-MF|I-MF
+17	über-<lb/>haupt	überhaupt	_	ADV	_	_	_	_	_	_	2415-2430	w17a	überhaupt	B-ADVP-insitu	B-ADVP	*	I-MF|I-MF
+18	ausspricht	aussprechen	_	VVFIN	_	_	_	_	_	_	2431-2441	w17b	ausspricht	_	O	*	I-MF|B-RK
+19	,	,	_	$,	_	_	_	_	_	_	2442-2443	w17c	,	_	O	*	I-MF
+20	theils	teils	_	ADV	_	_	_	_	_	_	2444-2450	w17d	teils	B-AP-insitu|B-ADVP-insitu	B-AP	*	I-MF
+21	fast	fast	_	ADV	_	_	_	_	_	_	2451-2455	w17e	fast	I-AP|B-ADVP-insitu	I-AP	*	I-MF
+22	allgemein	allgemein	_	ADJD	_	_	_	_	_	_	2456-2465	w17f	allgemein	I-AP	I-AP	*	I-MF
+23	,	,	_	$,	_	_	_	_	_	_	2466-2467	w180	,	I-AP	I-AP	*	O
+24	theils	teils	_	ADV	_	_	_	_	_	_	2468-2474	w181	teils	I-AP|B-ADVP-insitu	I-AP	*	B-VF
+25	habe	haben	_	VAFIN	_	_	_	_	_	_	2475-2479	w182	habe	I-AP	I-AP	*	B-LK
+26	ich	ich	_	PPER	_	_	_	_	_	_	2480-2483	w183	ich	I-AP|B-NP-insitu	I-AP	*	B-MF
+27	zu-<lb/>fällig	zufällig	_	ADJD	_	_	_	_	_	_	2484-2498	w184	zufällig	I-AP|B-AP-insitu	I-AP	*	I-MF
+28	im	im	_	APPRART	_	_	_	_	_	_	2499-2501	w185	im	I-AP|B-PP-insitu	I-AP	*	I-MF
+29	Jahre	Jahr	_	NN	_	_	_	_	_	_	2502-2507	w186	Jahre	I-AP|I-PP	I-AP	*	I-MF
+30	1860	1860	_	CARD	_	_	_	_	_	_	2508-2512	w187	1860	I-AP|I-PP	I-AP	*	I-MF
+31	,	,	_	$,	_	_	_	_	_	_	2513-2514	w188	,	I-AP	I-AP	*	I-MF
+32	also	also	_	ADV	_	_	_	_	_	_	2515-2519	w189	also	I-AP|B-ADVP-insitu	I-AP	*	I-MF
+33	in	in	_	APPR	_	_	_	_	_	B-Antec-2|B-Antec-1	2520-2522	w18a	in	I-AP|B-PP-insitu	I-AP	*	I-MF
+34	demselben	demselben	_	PDAT	_	_	_	_	_	I-Antec|I-Antec	2523-2532	w18b	demselben	I-AP|I-PP	I-AP	*	I-MF
+35	Jahre	Jahr	_	NN	_	_	_	_	_	I-Antec-Head|I-Antec-Head	2533-2538	w18c	Jahre	I-AP|I-PP	I-AP	*	I-MF
+36	,	,	_	$,	_	_	_	_	_	I-Antec	2539-2540	w18d	,	I-AP|I-PP	I-AP	*	I-MF
+37	in	in	_	APPR	_	_	_	_	_	I-Antec	2541-2543	w18e	in	I-AP|I-PP|B-RELC-insitu-1|B-PP-insitu	I-AP	*	I-MF|B-LK
+38	welchem	welche	_	PRELS	_	_	_	_	_	I-Antec	2544-2551	w18f	welchem	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF|I-LK
+39	die	d	_	ART	_	_	_	_	_	I-Antec	2552-2555	w190	die	I-AP|I-PP|I-RELC|B-NP-insitu	I-AP	*	I-MF|B-MF
+40	deutsche	deutsch	_	ADJA	_	_	_	_	_	I-Antec	2556-2564	w191	deutsche	I-AP|I-PP|I-RELC|I-NP	I-AP	*	I-MF|I-MF
+41	Uebersetzung	Übersetzung	_	NN	_	_	_	_	_	I-Antec	2565-2577	w192	Übersetzung	I-AP|I-PP|I-RELC|I-NP	I-AP	*	I-MF|I-MF
+42	von	von	_	APPR	_	_	_	_	_	I-Antec	2578-2581	w193	von	I-AP|I-PP|I-RELC|I-NP	I-AP	*	I-MF|I-MF
+43	Darwins	Darwin	_	NE	_	_	_	_	_	I-Antec	2582-2589	w194	Darwins	I-AP|I-PP|I-RELC|I-NP	I-AP	*	I-MF|I-MF
+44	Werk	Werk	_	NN	_	_	_	_	_	I-Antec	2590-2594	w195	Werk	I-AP|I-PP|I-RELC|I-NP	I-AP	*	I-MF|I-MF
+45	erschien	erscheinen	_	VVFIN	_	_	_	_	_	I-Antec	2595-2603	w196	erschien	I-AP|I-PP|I-RELC	I-AP	*	I-MF|B-RK
+46	,	,	_	$,	_	_	_	_	_	I-Antec	2604-2605	w197	,	I-AP|I-PP|I-RELC	I-AP	*	I-MF
+47	über	über	_	APPR	_	_	_	_	_	I-Antec	2606-2610	w198	über	I-AP|I-PP|I-RELC|B-PP-insitu	I-AP	*	I-MF
+48	den	d	_	ART	_	_	_	_	_	I-Antec	2611-2614	w199	den	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF
+49	‘	'	_	$(	_	_	_	_	_	I-Antec	2615-2616	w19a	'	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF
+50	Kampf	Kampf	_	NN	_	_	_	_	_	I-Antec	2617-2622	w19b	Kampf	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF
+51	ums	ums	_	APPRART	_	_	_	_	_	I-Antec	2623-2626	w19c	ums	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF
+52	Dasein	Dasein	_	NN	_	_	_	_	_	I-Antec	2627-2633	w19d	Dasein	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF
+53	’	'	_	$(	_	_	_	_	_	I-Antec	2634-2635	w19e	'	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF
+54	,	,	_	$,	_	_	_	_	_	I-Antec	2636-2637	w19f	,	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF
+55	über	über	_	APPR	_	_	_	_	_	I-Antec	2638-2642	w1a0	über	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF
+56	das	d	_	ART	_	_	_	_	_	I-Antec	2643-2646	w1a1	das	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF
+57	Erlöschen	Erlöschen	_	NN	_	_	_	_	_	I-Antec	2647-2656	w1a2	Erlöschen	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF
+58	alter	alt	_	ADJA	_	_	_	_	_	I-Antec	2657-2662	w1a3	alter	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF
+59	Formen	Form	_	NN	_	_	_	_	_	I-Antec	2663-2669	w1a4	Formen	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF
+60	,	,	_	$,	_	_	_	_	_	I-Antec	2670-2671	w1a5	,	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF
+61	über	über	_	APPR	_	_	_	_	_	I-Antec	2672-2676	w1a6	über	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF
+62	die	d	_	ART	_	_	_	_	_	I-Antec	2677-2680	w1a7	die	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF
+63	grosse	groß	_	ADJA	_	_	_	_	_	I-Antec	2681-2687	w1a8	große	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF
+64	Ausbreitung	Ausbreitung	_	NN	_	_	_	_	_	I-Antec	2688-2699	w1a9	Ausbreitung	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF
+65	und	und	_	KON	_	_	_	_	_	I-Antec	2700-2703	w1aa	und	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF
+66	Differenzierung	Differenzierung	_	NN	_	_	_	_	_	I-Antec	2704-2719	w1ab	Differenzierung	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF
+67	einzelner	einzeln	_	ADJA	_	_	_	_	_	I-Antec	2720-2729	w1ac	einzelner	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF
+68	Arten	Art	_	NN	_	_	_	_	_	I-Antec	2730-2735	w1ad	Arten	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF
+69	auf	auf	_	APPR	_	_	_	_	_	I-Antec	2736-2739	w1ae	auf	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF
+70	sprachlichem	sprachlich	_	ADJA	_	_	_	_	_	I-Antec	2740-2752	w1af	sprachlichem	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF
+71	Gebiete	Gebiet	_	NN	_	_	_	_	_	I-Antec	2753-2760	w1b0	Gebiete	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF
+72	mich	ich	_	PRF	_	_	_	_	_	I-Antec	2761-2765	w1b1	mich	I-AP|I-PP|I-RELC|B-NP-insitu	I-AP	*	I-MF
+73	in	in	_	APPR	_	_	_	_	_	I-Antec	2766-2768	w1b2	in	I-AP|I-PP|I-RELC|B-PP-insitu	I-AP	*	I-MF
+74	einer	eine	_	ART	_	_	_	_	_	I-Antec	2769-2774	w1b3	einer	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF
+75	Weise	Weise	_	NN	_	_	_	_	_	I-Antec	2775-2780	w1b4	Weise	I-AP|I-PP|I-RELC|I-PP	I-AP	*	I-MF
+76	aus-<lb/>gesprochen	aussprechen	_	VVPP	_	_	_	_	_	I-Antec	2781-2800	w1b5	ausgesprochen	I-AP|I-PP|I-RELC	I-AP	*	B-RK
+77	,	,	_	$,	_	_	_	_	_	_	2801-2802	w1b6	,	I-AP|I-PP|I-RELC	I-AP	*	O
+78	welche	welche	_	PRELS	_	_	_	_	_	_	2803-2809	w1b7	welche	I-AP|I-PP|I-RELC|B-RELC-extrap-2|B-NP-insitu	I-AP	*	B-NF|B-LK
+79	,	,	_	$,	_	_	_	_	_	_	2810-2811	w1b8	,	I-AP|I-PP|I-RELC|I-RELC	I-AP	*	I-NF
+80	den	d	_	ART	_	_	_	_	_	_	2812-2815	w1b9	den	I-AP|I-PP|I-RELC|I-RELC|B-NP-insitu	I-AP	*	I-NF|B-MF
+81	Ausdruck	Ausdruck	_	NN	_	_	_	_	_	_	2816-2824	w1ba	Ausdruck	I-AP|I-PP|I-RELC|I-RELC|I-NP	I-AP	*	I-NF|I-MF
+82	abgerechnet	abrechnen	_	VVPP	_	_	_	_	_	_	2825-2836	w1bb	abgerechnet	I-AP|I-PP|I-RELC|I-RELC	I-AP	*	I-NF|B-RK
+83	,	,	_	$,	_	_	_	_	_	_	2837-2838	w1bc	,	I-AP|I-PP|I-RELC|I-RELC	I-AP	*	I-NF
+84	mit	mit	_	APPR	_	_	_	_	_	_	2839-2842	w1bd	mit	I-AP|I-PP|I-RELC|I-RELC|B-PP-insitu	I-AP	*	I-NF|B-MF
+85	Dar-<lb/>wins	Darwin	_	NE	_	_	_	_	_	_	2843-2856	w1be	Darwins	I-AP|I-PP|I-RELC|I-RELC|I-PP	I-AP	*	I-NF|I-MF
+86	Ansichten	Ansicht	_	NN	_	_	_	_	_	_	2857-2866	w1bf	Ansichten	I-AP|I-PP|I-RELC|I-RELC|I-PP	I-AP	*	I-NF|I-MF
+87	in	in	_	APPR	_	_	_	_	_	_	2867-2869	w1c0	in	I-AP|I-PP|I-RELC|I-RELC|B-PP-insitu	I-AP	*	I-NF|I-MF
+88	auffälliger	auffällig	_	ADJA	_	_	_	_	_	_	2870-2881	w1c1	auffälliger	I-AP|I-PP|I-RELC|I-RELC|I-PP	I-AP	*	I-NF|I-MF
+89	Weise	Weise	_	NN	_	_	_	_	_	_	2882-2887	w1c2	Weise	I-AP|I-PP|I-RELC|I-RELC|I-PP	I-AP	*	I-NF|I-MF
+90	zusammen	zusammen	_	ADV	_	_	_	_	_	_	2888-2896	w1c3	zusammen	I-AP|I-PP|I-RELC|I-RELC|B-ADVP-insitu	I-AP	*	I-NF|I-MF
+91	stimmt	stimmen	_	VVFIN	_	_	_	_	_	_	2897-2903	w1c4	stimmt	I-AP|I-PP|I-RELC|I-RELC	I-AP	*	I-NF|B-RK
+92	.	.	_	$.	_	_	_	_	_	_	2904-2905	w1c5	.	_	O	*	O
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# PTBstring = (VROOT(SIMPX(VF(NX(ART Das)(ADJX(ADJA englische))(NN Original)))(LK(VXFIN(VAFIN ward)))(MF(PX(APPR in)(NX:HD(ADJX(ADJA erster))(NN Ausgabe)))(PX(APPRART im)(NX:HD(NN November)(NX(NX:APP(ART des)(NN Jahres))(NX:APP(CARD 1859))))))(VC(VXINF(VVPP veröffentlicht))))(KLAMMER LBR)(NX(NN Seite)(NX(CARD 6))(NX(ART der)(NN Uebersetzung)))(KLAMMER RBR)(PUNKT .))
+# TopFString = (S(VF(ART Das)(ADJA englische)(NN Original))(LK(VAFIN ward))(MF(APPR in)(ADJA erster)(NN Ausgabe)(APPRART im)(NN November)(ART des)(NN Jahres)(CARD 1859))(VC(VVPP veröffentlicht))(KLAMMER LBR)(NN Seite)(CARD 6)(ART der)(NN Uebersetzung)(KLAMMER RBR)(PUNKT .))
+# text = Das englische Original ward in erster Ausgabe im November des Jahres 1859 veröffentlicht ( Seite 6 der Uebersetzung ) .
+1	Das	d	_	ART	_	_	_	_	_	_	2907-2910	w1ae9	Das	B-NP-insitu	B-NP	*	B-VF
+2	englische	englisch	_	ADJA	_	_	_	_	_	_	2911-2920	w1aea	englische	I-NP	I-NP	*	I-VF
+3	Original	Original	_	NN	_	_	_	_	_	_	2921-2929	w1aeb	Original	I-NP	I-NP	*	I-VF
+4	ward	werden	_	VAFIN	_	_	_	_	_	_	2930-2934	w1aec	wurde	_	O	*	B-LK
+5	in	in	_	APPR	_	_	_	_	_	_	2935-2937	w1aed	in	B-PP-insitu	B-PP	*	B-MF
+6	erster	erst	_	ADJA	_	_	_	_	_	_	2938-2944	w1aee	erster	I-PP	I-PP	*	I-MF
+7	Ausgabe	Ausgabe	_	NN	_	_	_	_	_	_	2945-2952	w1aef	Ausgabe	I-PP	I-PP	*	I-MF
+8	im	im	_	APPRART	_	_	_	_	_	_	2953-2955	w1af0	im	B-PP-insitu	B-PP	*	I-MF
+9	November	November	_	NN	_	_	_	_	_	_	2956-2964	w1af1	November	I-PP	I-PP	*	I-MF
+10	des	d	_	ART	_	_	_	_	_	_	2965-2968	w1af2	des	I-PP	I-PP	*	I-MF
+11	Jahres	Jahr	_	NN	_	_	_	_	_	_	2969-2975	w1af3	Jahres	I-PP	I-PP	*	I-MF
+12	1859	1859	_	CARD	_	_	_	_	_	_	2976-2980	w1af4	1859	I-PP	I-PP	*	I-MF
+13	veröffentlicht	veröffentlichen	_	VVPP	_	_	_	_	_	_	2981-2995	w1af5	veröffentlicht	_	O	*	B-RK
+14	(	(	_	$(	_	_	_	_	_	_	2996-2997	w1af6	(	_	O	*	O
+15	Seite	Seite	_	NN	_	_	_	_	_	_	2998-3003	w1af7	Seite	B-NP-insitu	B-NP	*	O
+16	6	6	_	CARD	_	_	_	_	_	_	3004-3005	w1af8	6	I-NP	I-NP	*	O
+17	der	d	_	ART	_	_	_	_	_	_	3006-3009	w1af9	der	I-NP	I-NP	*	O
+18	Uebersetzung	Übersetzung	_	NN	_	_	_	_	_	_	3010-3022	w1afa	Übersetzung	I-NP	I-NP	*	O
+19	)	)	_	$(	_	_	_	_	_	_	3023-3024	w1afb	)	_	O	*	O
+20	.	.	_	$.	_	_	_	_	_	_	3025-3026	w1afc	.	_	O	*	O
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# PTBstring = (VROOT(SIMPX(VF(NX(PPER Es)))(LK(VXFIN(VVFIN blieb)))(MF(NX(PPER mir))(ADJX(ADJD unbekannt))))(PUNKT .))
+# TopFString = (S(VF(PPER Es))(LK(VVFIN blieb))(MF(PPER mir)(ADJD unbekannt))(PUNKT .))
+# text = Es blieb mir unbekannt .
+1	Es	es	_	PPER	_	_	_	_	_	_	3028-3030	w1afd	Es	B-NP-insitu	B-NP	*	B-VF
+2	blieb	bleiben	_	VVFIN	_	_	_	_	_	_	3031-3036	w1afe	blieb	_	O	*	B-LK
+3	mir	ich	_	PPER	_	_	_	_	_	_	3037-3040	w1aff	mir	B-NP-insitu	B-NP	*	B-MF
+4	unbekannt	unbekannt	_	ADJD	_	_	_	_	_	_	3041-3050	w1b00	unbekannt	B-AP-insitu	B-AP	*	I-MF
+5	.	.	_	$.	_	_	_	_	_	_	3051-3052	w1b01	.	_	O	*	O
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# PTBstring = (VROOT(NX(ART Die)(ADJX(ADJA deutsche))(NN Sprache))(KOMMA ,)(NX(NE Stuttgart))(NX(ADJX(CARD 1860))(NN S.))(NX(ADJX(CARD 43))(NN ﬂg))(PUNKT .)(PUNKT ;)(ADVX(ADV besonders)(NX(NN S.)(NX(CARD 44))(PX(APPR zu)(NX:HD(NN Anfang)))))(PUNKT .))
+# TopFString = (S(ART Die)(ADJA deutsche)(NN Sprache)(KOMMA ,)(NE Stuttgart)(CARD 1860)(NN S.)(CARD 43)(NN ﬂg)(PUNKT .)(PUNKT ;)(ADV besonders)(NN S.)(CARD 44)(APPR zu)(NN Anfang)(PUNKT .))
+# text = Die deutsche Sprache , Stuttgart 1860 S. 43 ﬂg . ; besonders S. 44 zu Anfang .
+1	Die	d	_	ART	_	_	_	_	_	_	3054-3057	w1b02	Die	B-NP-insitu	B-NP	*	O
+2	deutsche	deutsch	_	ADJA	_	_	_	_	_	_	3058-3066	w1b03	deutsche	I-NP	I-NP	*	O
+3	Sprache	Sprache	_	NN	_	_	_	_	_	_	3067-3074	w1b04	Sprache	I-NP	I-NP	*	O
+4	,	,	_	$,	_	_	_	_	_	_	3075-3076	w1b05	,	_	O	*	O
+5	Stuttgart	Stuttgart	_	NE	_	_	_	_	_	_	3077-3086	w1b06	Stuttgart	B-NP-insitu	B-NP	*	O
+6	1860	1860	_	CARD	_	_	_	_	_	_	3087-3091	w1b07	1860	B-NP-insitu	B-NP	*	O
+7	S.	S.	_	NN	_	_	_	_	_	_	3092-3094	w1b08	S.	I-NP	I-NP	*	O
+8	43	43	_	CARD	_	_	_	_	_	_	3095-3097	w1b09	43	B-NP-insitu	B-NP	*	O
+9	ﬂg	Flg	_	NN	_	_	_	_	_	_	3098-3100	w1b0a	flg	I-NP	I-NP	*	O
+10	.	.	_	$.	_	_	_	_	_	_	3101-3102	w1b0b	.	_	O	*	O
+11	;	;	_	$.	_	_	_	_	_	_	3103-3104	w1b0c	;	_	O	*	O
+12	besonders	besonders	_	ADV	_	_	_	_	_	_	3105-3114	w1b0d	besonders	B-ADVP-insitu	B-ADVP	*	O
+13	S.	S.	_	NN	_	_	_	_	_	_	3115-3117	w1b0e	S.	I-ADVP	I-ADVP	*	O
+14	44	44	_	CARD	_	_	_	_	_	_	3118-3120	w1b0f	44	I-ADVP	I-ADVP	*	O
+15	zu	zu	_	APPR	_	_	_	_	_	_	3121-3123	w1b10	zu	I-ADVP	I-ADVP	*	O
+16	Anfang	Anfang	_	NN	_	_	_	_	_	_	3124-3130	w1b11	Anfang	I-ADVP	I-ADVP	*	O
+17	.	.	_	$.	_	_	_	_	_	_	3131-3132	w1b12	.	_	O	*	O
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# PTBstring = (VROOT(SIMPX(MF(NX(PIAT Kein)(NN Wunder))(ADVX(ADV also)))(KOMMA ,)(NF(SIMPX(C(KOUS dass))(MF(NX(PDS diese))(NX(PRF mich))(ADJX(ADJD lebhaft)))(VC(VXFIN(VVFIN ansprachen))))))(PUNKT .))
+# TopFString = (S(PIAT Kein)(NN Wunder)(ADV also)(KOMMA ,)(C(KOUS dass))(MF(PDS diese)(PRF mich)(ADJD lebhaft))(VC(VVFIN ansprachen))(PUNKT .))
+# text = Kein Wunder also , dass diese mich lebhaft ansprachen .
+1	Kein	Kein	_	PIAT	_	_	_	_	_	_	3134-3138	w1c6	Kein	B-NP-insitu	B-NP	*	O
+2	Wunder	Wunder	_	NN	_	_	_	_	_	_	3139-3145	w1c7	Wunder	I-NP	I-NP	*	O
+3	also	also	_	ADV	_	_	_	_	_	_	3146-3150	w1c8	also	B-ADVP-insitu	B-ADVP	*	O
+4	,	,	_	$,	_	_	_	_	_	_	3151-3152	w1c9	,	_	O	*	O
+5	dass	dass	_	KOUS	_	_	_	_	_	_	3153-3157	w1ca	dass	_	O	*	B-LK
+6	diese	diese	_	PDS	_	_	_	_	_	_	3158-3163	w1cb	diese	B-NP-insitu	B-NP	*	B-MF
+7	mich	mich	_	PRF	_	_	_	_	_	_	3164-3168	w1cc	mich	B-NP-insitu	B-NP	*	I-MF
+8	lebhaft	lebhaft	_	ADJD	_	_	_	_	_	_	3169-3176	w1cd	lebhaft	B-AP-insitu	B-AP	*	I-MF
+9	ansprachen	ansprechen	_	VVFIN	_	_	_	_	_	_	3177-3187	w1ce	ansprachen	_	O	*	B-RK
+10	.	.	_	$.	_	_	_	_	_	_	3188-3189	w1cf	.	_	O	*	O
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# PTBstring = (VROOT(SIMPX(LV(SIMPX(C(KOUS Wenn))(MF(NX(PPER Du))(ADVX(ADV nunmehr)))(VC(VXINF(VVINF wissen))(VXFIN(VMFIN willst)))(KOMMA ,)(NF(R(C(NX(PWAT welche)(NN Wirkung)))(MF(NX(NX(NE Dar-<lb/>wins))(NN Buch))(PX(APPR auf)(NX:HD(PPER mich))))(VC(VXINF(VVPP geäussert))(VXFIN(VAFIN hat)))))))(KOMMA ,)(VF(ADVX(ADV so)))(LK(VXFIN(VMFIN will)))(FKOORD(FKONJ:KONJ(MF(NX(PPER ich))(SIMPX:OS(MF(NX(PPER Dir))(NX(PDS das))(ADVX(ADVX(ADV recht))(ADV gerne)))(VC(PTKVZ auseinander))))(VC(VXINF(VVINF setzen))))(KON und)(FKONJ:KONJ(MF(ADVX(ADV noch))(PX(PAV dazu)))(NF(PX(APPR vor)(NX:HD(PIAT aller)(NN Welt)))))))(PUNKT .))
+# TopFString = (S(LV(C(KOUS Wenn))(MF(PPER Du)(ADV nunmehr))(VC(VVINF wissen)(VMFIN willst))(KOMMA ,)(NF(C(PWAT welche)(NN Wirkung))(MF(NE Dar-<lb/>wins)(NN Buch)(APPR auf)(PPER mich))(VC(VVPP geäussert)(VAFIN hat))))(KOMMA ,)(VF(ADV so))(LK(VMFIN will))(MF(PPER ich)(PPER Dir)(PDS das)(ADV recht)(ADV gerne))(VC(PTKVZ auseinander)(VVINF setzen))(NF(KON und)(ADV noch)(PAV dazu)(APPR vor)(PIAT aller)(NN Welt))(PUNKT .))
+# text = Wenn Du nunmehr wissen willst , welche Wirkung Dar-<lb/>wins Buch auf mich geäussert hat , so will ich Dir das recht gerne auseinander setzen und noch dazu vor aller Welt .
+1	Wenn	wenn	_	KOUS	_	_	_	_	_	_	3191-3195	w1d0	Wenn	_	O	*	B-LV|B-LK
+2	Du	du	_	PPER	_	_	_	_	_	_	3196-3198	w1d1	Du	B-NP-insitu	B-NP	*	I-LV|B-MF
+3	nunmehr	nunmehr	_	ADV	_	_	_	_	_	_	3199-3206	w1d2	nunmehr	B-ADVP-insitu	B-ADVP	*	I-LV|I-MF
+4	wissen	wissen	_	VVINF	_	_	_	_	_	_	3207-3213	w1d3	wissen	_	O	*	I-LV|B-RK
+5	willst	wollen	_	VMFIN	_	_	_	_	_	_	3214-3220	w1d4	willst	_	O	*	I-LV|I-RK
+6	,	,	_	$,	_	_	_	_	_	_	3221-3222	w1d5	,	_	O	*	I-LV
+7	welche	welche	_	PWAT	_	_	_	_	_	_	3223-3229	w1d6	welche	B-NP-insitu	B-NP	*	I-LV|B-NF|B-LK
+8	Wirkung	Wirkung	_	NN	_	_	_	_	_	_	3230-3237	w1d7	Wirkung	I-NP	I-NP	*	I-LV|I-NF|I-LK
+9	Dar-<lb/>wins	Darwin	_	NE	_	_	_	_	_	_	3238-3251	w1d8	Darwins	B-NP-insitu	B-NP	*	I-LV|I-NF|B-MF
+10	Buch	Buch	_	NN	_	_	_	_	_	_	3252-3256	w1d9	Buch	I-NP	I-NP	*	I-LV|I-NF|I-MF
+11	auf	auf	_	APPR	_	_	_	_	_	_	3257-3260	w1da	auf	B-PP-insitu	B-PP	*	I-LV|I-NF|I-MF
+12	mich	ich	_	PPER	_	_	_	_	_	_	3261-3265	w1db	mich	I-PP	I-PP	*	I-LV|I-NF|I-MF
+13	geäussert	äußern	_	VVPP	_	_	_	_	_	_	3266-3275	w1dc	geäußert	_	O	*	I-LV|I-NF|B-RK
+14	hat	haben	_	VAFIN	_	_	_	_	_	_	3276-3279	w1dd	hat	_	O	*	I-LV|I-NF|I-RK
+15	,	,	_	$,	_	_	_	_	_	_	3280-3281	w1de	,	_	O	*	O
+16	so	so	_	ADV	_	_	_	_	_	_	3282-3284	w1df	so	B-ADVP-insitu	B-ADVP	*	B-VF
+17	will	wollen	_	VMFIN	_	_	_	_	_	_	3285-3289	w1e0	will	_	O	*	B-LK
+18	ich	ich	_	PPER	_	_	_	_	_	_	3290-3293	w1e1	ich	B-NP-insitu	B-NP	*	B-MF
+19	Dir	du	_	PPER	_	_	_	_	_	_	3294-3297	w1e2	Dir	B-NP-insitu	B-NP	*	I-MF
+20	das	die	_	PDS	_	_	_	_	_	_	3298-3301	w1e3	das	B-NP-insitu	B-NP	*	I-MF
+21	recht	recht	_	ADV	_	_	_	_	_	_	3302-3307	w1e4	recht	B-ADVP-insitu	B-ADVP	*	I-MF
+22	gerne	gerne	_	ADV	_	_	_	_	_	_	3308-3313	w1e5	gerne	I-ADVP	I-ADVP	*	I-MF
+23	auseinander	auseinander	_	PTKVZ	_	_	_	_	_	_	3314-3325	w1e6	auseinander	_	O	*	B-RK
+24	setzen	setzen	_	VVINF	_	_	_	_	_	_	3326-3332	w1e7	setzen	_	O	*	I-RK
+25	und	und	_	KON	_	_	_	_	_	_	3333-3336	w1e8	und	_	O	*	B-NF
+26	noch	noch	_	ADV	_	_	_	_	_	_	3337-3341	w1e9	noch	B-ADVP-extrap	B-ADVP	*	I-NF
+27	dazu	dazu	_	PAV	_	_	_	_	_	_	3342-3346	w1ea	dazu	B-PP-extrap	B-PP	*	I-NF
+28	vor	vor	_	APPR	_	_	_	_	_	_	3347-3350	w1eb	vor	B-PP-extrap	B-PP	*	I-NF
+29	aller	alle	_	PIAT	_	_	_	_	_	_	3351-3356	w1ec	aller	I-PP	I-PP	*	I-NF
+30	Welt	Welt	_	NN	_	_	_	_	_	_	3357-3361	w1ed	Welt	I-PP	I-PP	*	I-NF
+31	.	.	_	$.	_	_	_	_	_	_	3362-3363	w1ee	.	_	O	*	O
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# PTBstring = (VROOT(SIMPX(VF(NX(PPER Ich)))(LK(VXFIN(VVFIN hoffe)))(KOMMA ,)(NF(SIMPX(C(KOUS dass))(MF(NX(ART der)(NN Nachweis))(KOMMA ,)(SIMPX(C(KOUS wie))(FKOORD(FKONJ:KONJ(MF(NX(ART die)(NN Hauptzüge)(NX(ART der)(ADJX(ADJA Dar-<lb/>winschen))(NN Lehre)(PX(APPR auf)(NX:HD(ART das)(NN Leben)(NX(ART der)(NN Sprachen))))))(NX(NN Anwendung)))(VC(VXFIN(VVFIN finden))))(KON oder)(FKONJ:KONJ(MF(ADVX(ADV vielmehr))(KOMMA ,)(SIMPX(C(KOUS wenn))(MF(NX(PIS man))(ADVX(ADV so)))(VC(VXINF(VVINF sagen))(VXFIN(VMFIN darf))))(KOMMA ,)(NX(ADJX(ADJA unbewuster))(NN Weise))(ADVX(ADV bereits)))(VC(VXFIN(VVFIN fanden))))))(KOMMA ,)(NX(NX:APP(PPER Dir))(KOMMA ,)(NX:APP(ART dem)(ADJX(ADJA eifrigen))(NN Verfechter)(NX(ADJX(ADJA Darwinscher))(NN Grundsätze))))(KOMMA ,)(ADVX(PTKNEG nicht))(ADJX(ADVX(ADV ganz))(ADJD unwillkommen)))(VC(VXINF(VAINF sein))(VXFIN(VAFIN werde))))))(PUNKT .))
+# TopFString = (S(VF(PPER Ich))(LK(VVFIN hoffe))(KOMMA ,)(NF(C(KOUS dass))(MF(ART der)(NN Nachweis)(KOMMA ,)(C(KOUS wie))(FKOORD(FKONJ(MF(ART die)(NN Hauptzüge)(ART der)(ADJA Dar-<lb/>winschen)(NN Lehre)(APPR auf)(ART das)(NN Leben)(ART der)(NN Sprachen)(NN Anwendung))(VC(VVFIN finden)))(KON oder)(FKONJ(MF(ADV vielmehr))(KOMMA ,)(NF(C(KOUS wenn))(MF(PIS man)(ADV so))(VC(VVINF sagen)(VMFIN darf))))(KOMMA ,)(FKONJ(MF(ADJA unbewuster)(NN Weise)(ADV bereits))(VC(VVFIN fanden)))(KOMMA ,)(MF(PPER Dir)(KOMMA ,)(ART dem)(ADJA eifrigen)(NN Verfechter)(ADJA Darwinscher)(NN Grundsätze)))(KOMMA ,)(PTKNEG nicht)(ADV ganz)(ADJD unwillkommen))(VC(VAINF sein)(VAFIN werde)))(PUNKT .))
+# text = Ich hoffe , dass der Nachweis , wie die Hauptzüge der Dar-<lb/>winschen Lehre auf das Leben der Sprachen Anwendung finden oder vielmehr , wenn man so sagen darf , unbewuster Weise bereits fanden , Dir , dem eifrigen Verfechter Darwinscher Grundsätze , nicht ganz unwillkommen sein werde .
+1	Ich	ich	_	PPER	_	_	_	_	_	_	3365-3368	w1ef	Ich	B-NP-insitu	B-NP	*	B-VF
+2	hoffe	hoffen	_	VVFIN	_	_	_	_	_	_	3369-3374	w1f0	hoffe	_	O	*	B-LK
+3	,	,	_	$,	_	_	_	_	_	_	3375-3376	w1f1	,	_	O	*	O
+4	dass	dass	_	KOUS	_	_	_	_	_	_	3377-3381	w1f2	dass	_	O	*	B-NF|B-LK
+5	der	d	_	ART	_	_	_	_	_	_	3382-3385	w1f3	der	B-NP-insitu	B-NP	*	I-NF|B-MF
+6	Nachweis	Nachweis	_	NN	_	_	_	_	_	_	3386-3394	w1f4	Nachweis	I-NP	I-NP	*	I-NF|I-MF
+7	,	,	_	$,	_	_	_	_	_	_	3395-3396	w1f5	,	_	O	*	I-NF|I-MF
+8	wie	wie	_	KOUS	_	_	_	_	_	_	3397-3400	w1f6	wie	_	O	*	I-NF|I-MF|B-LK
+9	die	d	_	ART	_	_	_	_	_	_	3401-3404	w1f7	die	B-NP-insitu	B-NP	*	I-NF|I-MF|B-MF
+10	Hauptzüge	Hauptzug	_	NN	_	_	_	_	_	_	3405-3414	w1f8	Hauptzüge	I-NP	I-NP	*	I-NF|I-MF|I-MF
+11	der	d	_	ART	_	_	_	_	_	_	3415-3418	w1f9	der	I-NP	I-NP	*	I-NF|I-MF|I-MF
+12	Dar-<lb/>winschen	darwinsch	_	ADJA	_	_	_	_	_	_	3419-3436	w1fa	Darwinschen	I-NP	I-NP	*	I-NF|I-MF|I-MF
+13	Lehre	Lehre	_	NN	_	_	_	_	_	_	3437-3442	w1fb	Lehre	I-NP	I-NP	*	I-NF|I-MF|I-MF
+14	auf	auf	_	APPR	_	_	_	_	_	_	3443-3446	w1fc	auf	I-NP	I-NP	*	I-NF|I-MF|I-MF
+15	das	d	_	ART	_	_	_	_	_	_	3447-3450	w1fd	das	I-NP	I-NP	*	I-NF|I-MF|I-MF
+16	Leben	Leben	_	NN	_	_	_	_	_	_	3451-3456	w1fe	Leben	I-NP	I-NP	*	I-NF|I-MF|I-MF
+17	der	d	_	ART	_	_	_	_	_	_	3457-3460	w1ff	der	I-NP	I-NP	*	I-NF|I-MF|I-MF
+18	Sprachen	Sprache	_	NN	_	_	_	_	_	_	3461-3469	w200	Sprachen	I-NP	I-NP	*	I-NF|I-MF|I-MF
+19	Anwendung	Anwendung	_	NN	_	_	_	_	_	_	3470-3479	w201	Anwendung	B-NP-insitu	B-NP	*	I-NF|I-MF|I-MF
+20	finden	finden	_	VVFIN	_	_	_	_	_	_	3480-3486	w202	finden	_	O	*	I-NF|I-MF|B-RK
+21	oder	oder	_	KON	_	_	_	_	_	_	3487-3491	w203	oder	_	O	*	I-NF|I-MF|B-KOORD
+22	vielmehr	vielmehr	_	ADV	_	_	_	_	_	_	3492-3500	w204	vielmehr	B-ADVP-insitu	B-ADVP	*	I-NF|I-MF|B-MF
+23	,	,	_	$,	_	_	_	_	_	_	3501-3502	w205	,	_	O	*	I-NF|I-MF
+24	wenn	wenn	_	KOUS	_	_	_	_	_	_	3503-3507	w206	wenn	_	O	*	I-NF|I-MF|B-NF|B-LK
+25	man	man	_	PIS	_	_	_	_	_	_	3508-3511	w207	man	B-NP-insitu	B-NP	*	I-NF|I-MF|I-NF|B-MF
+26	so	so	_	ADV	_	_	_	_	_	_	3512-3514	w208	so	B-ADVP-insitu	B-ADVP	*	I-NF|I-MF|I-NF|I-MF
+27	sagen	sagen	_	VVINF	_	_	_	_	_	_	3515-3520	w209	sagen	_	O	*	I-NF|I-MF|I-NF|B-RK
+28	darf	dürfen	_	VMFIN	_	_	_	_	_	_	3521-3525	w20a	darf	_	O	*	I-NF|I-MF|I-NF|I-RK
+29	,	,	_	$,	_	_	_	_	_	_	3526-3527	w20b	,	_	O	*	I-NF|I-MF
+30	unbewuster	unbewußt	_	ADJA	_	_	_	_	_	_	3528-3538	w20c	unbewusster	B-NP-insitu	B-NP	*	I-NF|I-MF|B-MF
+31	Weise	Weise	_	NN	_	_	_	_	_	_	3539-3544	w20d	Weise	I-NP	I-NP	*	I-NF|I-MF|I-MF
+32	bereits	bereits	_	ADV	_	_	_	_	_	_	3545-3552	w20e	bereits	B-ADVP-insitu	B-ADVP	*	I-NF|I-MF|I-MF
+33	fanden	finden	_	VVFIN	_	_	_	_	_	_	3553-3559	w20f	fanden	_	O	*	I-NF|I-MF|B-RK
+34	,	,	_	$,	_	_	_	_	_	_	3560-3561	w210	,	_	O	*	I-NF|I-MF
+35	Dir	du	_	PPER	_	_	_	_	_	_	3562-3565	w211	Dir	B-NP-insitu	B-NP	*	I-NF|I-MF|B-MF
+36	,	,	_	$,	_	_	_	_	_	_	3566-3567	w212	,	I-NP	I-NP	*	I-NF|I-MF|I-MF
+37	dem	d	_	ART	_	_	_	_	_	_	3568-3571	w213	dem	I-NP	I-NP	*	I-NF|I-MF|I-MF
+38	eifrigen	eifrig	_	ADJA	_	_	_	_	_	_	3572-3580	w214	eifrigen	I-NP	I-NP	*	I-NF|I-MF|I-MF
+39	Verfechter	Verfechter	_	NN	_	_	_	_	_	_	3581-3591	w215	Verfechter	I-NP	I-NP	*	I-NF|I-MF|I-MF
+40	Darwinscher	darwinsch	_	ADJA	_	_	_	_	_	_	3592-3603	w216	Darwinscher	I-NP	I-NP	*	I-NF|I-MF|I-MF
+41	Grundsätze	Grundsatz	_	NN	_	_	_	_	_	_	3604-3614	w217	Grundsätze	I-NP	I-NP	*	I-NF|I-MF|I-MF
+42	,	,	_	$,	_	_	_	_	_	_	3615-3616	w218	,	_	O	*	I-NF|I-MF
+43	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	3617-3622	w219	nicht	B-ADVP-insitu	B-ADVP	*	I-NF|I-MF
+44	ganz	ganz	_	ADV	_	_	_	_	_	_	3623-3627	w21a	ganz	B-AP-insitu	B-AP	*	I-NF|I-MF
+45	unwillkommen	unwillkommen	_	ADJD	_	_	_	_	_	_	3628-3640	w21b	unwillkommen	I-AP	I-AP	*	I-NF|I-MF
+46	sein	sein	_	VAINF	_	_	_	_	_	_	3641-3645	w21c	sein	_	O	*	I-NF|B-RK
+47	werde	werden	_	VAFIN	_	_	_	_	_	_	3646-3651	w21d	werde	_	O	*	I-NF|I-RK
+48	.	.	_	$.	_	_	_	_	_	_	3652-3653	w21e	.	_	O	*	O
+
+# sent_id = 19
+# sent_id(TSV) = 19
+# PTBstring = (VROOT(SIMPX(VF(ADVX(ADV Auch)))(LK(VXFIN(VVFIN denke)))(MF(NX(PPER ich)))(KOMMA ,)(NF(SIMPX(C(KOUS dass))(MF(NX(ART die)(NN Dinge)(KOMMA ,)(R(C(NX(PRELS die)))(MF(NX(PPER ich))(NX(PPER Dir)))(VC(VXINF(VVINF mittheilen))(VXFIN(VMFIN möchte)))))(KOMMA ,)(ADVX(ADV auch))(PX(APPR für)(NX:HD(PIS andere)))(ADVX(PTKNEG nicht))(PX(APPR ohne)(NX:HD(PIAT alles)(NN Interesse))))(VC(VXINF(VAINF sein))(VXFIN(VMFIN dürften))))))(PUNKT .))
+# TopFString = (S(VF(ADV Auch))(LK(VVFIN denke))(MF(PPER ich))(KOMMA ,)(NF(C(KOUS dass))(MF(ART die)(NN Dinge)(KOMMA ,)(C(PRELS die))(MF(PPER ich)(PPER Dir))(VC(VVINF mittheilen)(VMFIN möchte))(KOMMA ,)(ADV auch)(APPR für)(PIS andere)(PTKNEG nicht)(APPR ohne)(PIAT alles)(NN Interesse))(VC(VAINF sein)(VMFIN dürften)))(PUNKT .))
+# text = Auch denke ich , dass die Dinge , die ich Dir mittheilen möchte , auch für andere nicht ohne alles Interesse sein dürften .
+1	Auch	auch	_	ADV	_	_	_	_	_	_	3655-3659	w21f	Auch	B-ADVP-insitu	B-ADVP	*	B-VF
+2	denke	denken	_	VVFIN	_	_	_	_	_	_	3660-3665	w220	denke	_	O	*	B-LK
+3	ich	ich	_	PPER	_	_	_	_	_	_	3666-3669	w221	ich	B-NP-insitu	B-NP	*	B-MF
+4	,	,	_	$,	_	_	_	_	_	_	3670-3671	w222	,	_	O	*	O
+5	dass	dass	_	KOUS	_	_	_	_	_	_	3672-3676	w223	dass	_	O	*	B-NF|B-LK
+6	die	d	_	ART	_	_	_	_	_	B-Antec-1	3677-3680	w224	die	B-NP-insitu	B-NP	*	I-NF|B-MF
+7	Dinge	Ding	_	NN	_	_	_	_	_	I-Antec-Head	3681-3686	w225	Dinge	I-NP	I-NP	*	I-NF|I-MF
+8	,	,	_	$,	_	_	_	_	_	_	3687-3688	w226	,	I-NP	I-NP	*	I-NF|I-MF
+9	die	die	_	PRELS	_	_	_	_	_	_	3689-3692	w227	die	I-NP|B-RELC-insitu-1|B-NP-insitu	I-NP	*	I-NF|I-MF|B-LK
+10	ich	ich	_	PPER	_	_	_	_	_	_	3693-3696	w228	ich	I-NP|I-RELC|B-NP-insitu	I-NP	*	I-NF|I-MF|B-MF
+11	Dir	du	_	PPER	_	_	_	_	_	_	3697-3700	w229	Dir	I-NP|I-RELC|B-NP-insitu	I-NP	*	I-NF|I-MF|I-MF
+12	mittheilen	mitteilen	_	VVINF	_	_	_	_	_	_	3701-3711	w22a	mitteilen	I-NP|I-RELC	I-NP	*	I-NF|I-MF|B-RK
+13	möchte	mögen	_	VMFIN	_	_	_	_	_	_	3712-3718	w22b	möchte	I-NP|I-RELC	I-NP	*	I-NF|I-MF|I-RK
+14	,	,	_	$,	_	_	_	_	_	_	3719-3720	w22c	,	_	O	*	I-NF|I-MF
+15	auch	auch	_	ADV	_	_	_	_	_	_	3721-3725	w22d	auch	B-ADVP-insitu	B-ADVP	*	I-NF|I-MF
+16	für	für	_	APPR	_	_	_	_	_	_	3726-3729	w22e	für	B-PP-insitu	B-PP	*	I-NF|I-MF
+17	andere	andere	_	PIS	_	_	_	_	_	_	3730-3736	w22f	andere	I-PP	I-PP	*	I-NF|I-MF
+18	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	3737-3742	w230	nicht	B-ADVP-insitu	B-ADVP	*	I-NF|I-MF
+19	ohne	ohne	_	APPR	_	_	_	_	_	_	3743-3747	w231	ohne	B-PP-insitu	B-PP	*	I-NF|I-MF
+20	alles	alle	_	PIAT	_	_	_	_	_	_	3748-3753	w232	alles	I-PP	I-PP	*	I-NF|I-MF
+21	Interesse	Interesse	_	NN	_	_	_	_	_	_	3754-3763	w233	Interesse	I-PP	I-PP	*	I-NF|I-MF
+22	sein	sein	_	VAINF	_	_	_	_	_	_	3764-3768	w234	sein	_	O	*	I-NF|B-RK
+23	dürften	dürfen	_	VMFIN	_	_	_	_	_	_	3769-3776	w235	dürften	_	O	*	I-NF|I-RK
+24	.	.	_	$.	_	_	_	_	_	_	3777-3778	w236	.	_	O	*	O
+
+# sent_id = 20
+# sent_id(TSV) = 20
+# PTBstring = (VROOT(SIMPX(VF(SIMPX(C(KOUS Indem))(FKOORD(FKONJ:KONJ(MF(NX(PPER ich))(NX(PRF mich))(ADVX(ADV zunächst))(PX(APPR an)(NX:HD(PPER Dich))))(VC(VXFIN(VVFIN wende))))(KON und)(FKONJ:KONJ(MF(NX(PPER mir))(NX(ART das)(ADJX(ADJA harmlose))(NN Ver-<lb/>gnügen)))(VC(VXFIN(VVFIN mache)))(NF(SIMPX:OS(MF(NX(PPER Dich))(PX(APPR mit)(NX:HD(ART einem)(ADJX(ADJA offenen))(NN Briefe))))(VC(VXINF(PTKZU zu)(VVINF überraschen)))))))))(KOMMA ,)(LK(VXFIN(VVFIN rede)))(MF(NX(PPER ich))(PX(APPR vor)(NX:HD(PIS allem)))(PX(APPR zu)(NX:HD(ART den)(NN Naturforschern))))(KOMMA ,)(NF(R(C(PX(APPR von)(NX:HD(PRELS denen))))(MF(NX(PPER ich)))(VC(VXFIN(VVFIN wünsche)))(KOMMA ,)(NF(SIMPX(C(KOUS dass))(MF(NX(PPER sie))(NX(PIAT mehr)(NN Notiz)(PX(APPR von)(NX:HD(ART den)(NN Sprachen)))))(VC(VXINF(VVINF nehmen))(VXFIN(VMFIN mögen)))(KOMMA ,)(NF(SIMPX(C(KOUS als))(MF(NX(PDS diess))(ADVX(ADV bisher)))(VC(VXINF(VVPP geschehen))(VXFIN(VAFIN ist))))))))))(PUNKT .))
+# TopFString = (S(VF(C(KOUS Indem))(FKOORD(FKONJ(MF(PPER ich)(PRF mich)(ADV zunächst)(APPR an)(PPER Dich))(VC(VVFIN wende)))(KON und)(FKONJ(MF(PPER mir)(ART das)(ADJA harmlose)(NN Ver-<lb/>gnügen))(VC(VVFIN mache))(NF(MF(PPER Dich)(APPR mit)(ART einem)(ADJA offenen)(NN Briefe))(VC(PTKZU zu)(VVINF überraschen))))))(KOMMA ,)(LK(VVFIN rede))(MF(PPER ich)(APPR vor)(PIS allem)(APPR zu)(ART den)(NN Naturforschern))(KOMMA ,)(NF(C(APPR von)(PRELS denen))(MF(PPER ich))(VC(VVFIN wünsche))(KOMMA ,)(NF(C(KOUS dass))(MF(PPER sie)(PIAT mehr)(NN Notiz)(APPR von)(ART den)(NN Sprachen))(VC(VVINF nehmen)(VMFIN mögen))(KOMMA ,)(NF(C(KOUS als))(MF(PDS diess)(ADV bisher))(VC(VVPP geschehen)(VAFIN ist)))))(PUNKT .))
+# text = Indem ich mich zunächst an Dich wende und mir das harmlose Ver-<lb/>gnügen mache Dich mit einem offenen Briefe zu überraschen , rede ich vor allem zu den Naturforschern , von denen ich wünsche , dass sie mehr Notiz von den Sprachen nehmen mögen , als diess bisher geschehen ist .
+1	Indem	indem	_	KOUS	_	_	_	_	_	_	3780-3785	w237	Indem	_	O	*	B-VF|B-LK
+2	ich	ich	_	PPER	_	_	_	_	_	_	3786-3789	w238	ich	B-NP-insitu	B-NP	*	I-VF|B-MF
+3	mich	mich	_	PRF	_	_	_	_	_	_	3790-3794	w239	mich	B-NP-insitu	B-NP	*	I-VF|I-MF
+4	zunächst	zunächst	_	ADV	_	_	_	_	_	_	3795-3803	w23a	zunächst	B-ADVP-insitu	B-ADVP	*	I-VF|I-MF
+5	an	an	_	APPR	_	_	_	_	_	_	3804-3806	w23b	an	B-PP-insitu	B-PP	*	I-VF|I-MF
+6	Dich	du	_	PPER	_	_	_	_	_	_	3807-3811	w23c	Dich	I-PP	I-PP	*	I-VF|I-MF
+7	wende	wenden	_	VVFIN	_	_	_	_	_	_	3812-3817	w23d	wende	_	O	*	I-VF|B-RK
+8	und	und	_	KON	_	_	_	_	_	_	3818-3821	w23e	und	_	O	*	I-VF|B-KOORD
+9	mir	ich	_	PPER	_	_	_	_	_	_	3822-3825	w23f	mir	B-NP-insitu	B-NP	*	I-VF|B-MF
+10	das	d	_	ART	_	_	_	_	_	_	3826-3829	w240	das	B-NP-insitu	B-NP	*	I-VF|I-MF
+11	harmlose	harmlos	_	ADJA	_	_	_	_	_	_	3830-3838	w241	harmlose	I-NP	I-NP	*	I-VF|I-MF
+12	Ver-<lb/>gnügen	Vergnügen	_	NN	_	_	_	_	_	_	3839-3854	w242	Vergnügen	I-NP	I-NP	*	I-VF|I-MF
+13	mache	machen	_	VVFIN	_	_	_	_	_	_	3855-3860	w243	mache	_	O	*	I-VF|B-RK
+14	Dich	du	_	PPER	_	_	_	_	_	_	3861-3865	w244	Dich	B-NP-insitu	B-NP	*	I-VF|B-NF|B-MF
+15	mit	mit	_	APPR	_	_	_	_	_	_	3866-3869	w245	mit	B-PP-insitu	B-PP	*	I-VF|I-NF|I-MF
+16	einem	eine	_	ART	_	_	_	_	_	_	3870-3875	w246	einem	I-PP	I-PP	*	I-VF|I-NF|I-MF
+17	offenen	offen	_	ADJA	_	_	_	_	_	_	3876-3883	w247	offenen	I-PP	I-PP	*	I-VF|I-NF|I-MF
+18	Briefe	Brief	_	NN	_	_	_	_	_	_	3884-3890	w248	Briefe	I-PP	I-PP	*	I-VF|I-NF|I-MF
+19	zu	zu	_	PTKZU	_	_	_	_	_	_	3891-3893	w249	zu	_	O	*	I-VF|I-NF|B-RK
+20	überraschen	überraschen	_	VVINF	_	_	_	_	_	_	3894-3905	w24a	überraschen	_	O	*	I-VF|I-NF|I-RK
+21	,	,	_	$,	_	_	_	_	_	_	3906-3907	w24b	,	_	O	*	O
+22	rede	reden	_	VVFIN	_	_	_	_	_	_	3908-3912	w24c	rede	_	O	*	B-LK
+23	ich	ich	_	PPER	_	_	_	_	_	_	3913-3916	w24d	ich	B-NP-insitu	B-NP	*	B-MF
+24	vor	vor	_	APPR	_	_	_	_	_	_	3917-3920	w24e	vor	B-PP-insitu	B-PP	*	I-MF
+25	allem	alle	_	PIS	_	_	_	_	_	_	3921-3926	w24f	allem	I-PP	I-PP	*	I-MF
+26	zu	zu	_	APPR	_	_	_	_	_	B-Antec-1	3927-3929	w250	zu	B-PP-insitu	B-PP	*	I-MF
+27	den	d	_	ART	_	_	_	_	_	I-Antec	3930-3933	w251	den	I-PP	I-PP	*	I-MF
+28	Naturforschern	Naturforscher	_	NN	_	_	_	_	_	I-Antec-Head	3934-3948	w252	Naturforschern	I-PP	I-PP	*	I-MF
+29	,	,	_	$,	_	_	_	_	_	_	3949-3950	w253	,	_	O	*	O
+30	von	von	_	APPR	_	_	_	_	_	_	3951-3954	w254	von	B-RELC-ambig-1|B-PP-insitu	B-PP	*	B-NF|B-LK
+31	denen	die	_	PRELS	_	_	_	_	_	_	3955-3960	w255	denen	I-RELC|I-PP	I-PP	*	I-NF|I-LK
+32	ich	ich	_	PPER	_	_	_	_	_	_	3961-3964	w256	ich	I-RELC|B-NP-insitu	B-NP	*	I-NF|B-MF
+33	wünsche	wünschen	_	VVFIN	_	_	_	_	_	_	3965-3972	w257	wünsche	I-RELC	O	*	I-NF|B-RK
+34	,	,	_	$,	_	_	_	_	_	_	3973-3974	w258	,	I-RELC	O	*	I-NF
+35	dass	dass	_	KOUS	_	_	_	_	_	_	3975-3979	w259	dass	I-RELC	O	*	I-NF|B-NF|B-LK
+36	sie	sie	_	PPER	_	_	_	_	_	_	3980-3983	w25a	sie	I-RELC|B-NP-insitu	B-NP	*	I-NF|I-NF|B-MF
+37	mehr	mehr	_	PIAT	_	_	_	_	_	_	3984-3988	w25b	mehr	I-RELC|B-NP-insitu	B-NP	*	I-NF|I-NF|I-MF
+38	Notiz	Notiz	_	NN	_	_	_	_	_	_	3989-3994	w25c	Notiz	I-RELC|I-NP	I-NP	*	I-NF|I-NF|I-MF
+39	von	von	_	APPR	_	_	_	_	_	_	3995-3998	w25d	von	I-RELC|I-NP	I-NP	*	I-NF|I-NF|I-MF
+40	den	d	_	ART	_	_	_	_	_	_	3999-4002	w25e	den	I-RELC|I-NP	I-NP	*	I-NF|I-NF|I-MF
+41	Sprachen	Sprache	_	NN	_	_	_	_	_	_	4003-4011	w25f	Sprachen	I-RELC|I-NP	I-NP	*	I-NF|I-NF|I-MF
+42	nehmen	nehmen	_	VVINF	_	_	_	_	_	_	4012-4018	w260	nehmen	I-RELC	O	*	I-NF|I-NF|B-RK
+43	mögen	mögen	_	VMFIN	_	_	_	_	_	_	4019-4024	w261	mögen	I-RELC	O	*	I-NF|I-NF|I-RK
+44	,	,	_	$,	_	_	_	_	_	_	4025-4026	w262	,	I-RELC	O	*	I-NF|I-NF
+45	als	als	_	KOUS	_	_	_	_	_	_	4027-4030	w263	als	I-RELC	O	*	I-NF|I-NF|B-NF|B-LK
+46	diess	diese	_	PDS	_	_	_	_	_	_	4031-4036	w264	dies	I-RELC|B-NP-insitu	B-NP	*	I-NF|I-NF|I-NF|B-MF
+47	bisher	bisher	_	ADV	_	_	_	_	_	_	4037-4043	w265	bisher	I-RELC|B-ADVP-insitu	B-ADVP	*	I-NF|I-NF|I-NF|I-MF
+48	geschehen	geschehen	_	VVPP	_	_	_	_	_	_	4044-4053	w266	geschehen	I-RELC	O	*	I-NF|I-NF|I-NF|B-RK
+49	ist	sein	_	VAFIN	_	_	_	_	_	_	4054-4057	w267	ist	I-RELC	O	*	I-NF|I-NF|I-NF|I-RK
+50	.	.	_	$.	_	_	_	_	_	_	4058-4059	w268	.	_	O	*	O
+
+# sent_id = 21
+# sent_id(TSV) = 21
+# PTBstring = (VROOT(SIMPX(VF(ADVX(KON Und)(ADV zwar)))(LK(VXFIN(VVFIN denke)))(MF(NX(PPER ich))(PX(PAV hierbei))(PX(ADVX(PTKNEG nicht))(ADVX(ADV nur))(PX:KONJ(APPR an)(NX:HD(ART die)(ADJX(ADJA physiologische))(NN Erforschung)(NX(ART der)(NN Sprachlaute))(KOMMA ,)(R(C(NX(PRELS welche)))(MF(PX(APPR in)(NX:HD(ADJX(ADJA neuerer))(NN Zeit)))(NX(ADJX(ADVX(ADV so))(ADJA ausgezeichnete))(NN Fortschritte)))(VC(VXINF(VVPP gemacht))(VXFIN(VAFIN hat))))))(KOMMA ,)(KON sondern)(ADVX(ADV auch))(PX:KONJ(APPR an)(NX:HD(ART die)(NX:KONJ(NN Beachtung))(KON und)(NX:KONJ(NN Betrachtung))(NX(ART der)(ADJX(ADJA sprachlichen))(NN Unterschiede))(PX(APPR in)(NX:HD(PPOSAT ihrer)(NN Bedeutung)(PX(APPR für)(NX:HD(ART die)(NN Naturgeschichte)(NX(ART des)(NX(NN Genus))(NN Homo)))))))))))(PUNKT .))
+# TopFString = (S(KOORD(KON Und))(VF(ADV zwar))(LK(VVFIN denke))(MF(PPER ich)(PAV hierbei)(PTKNEG nicht)(ADV nur)(APPR an)(ART die)(ADJA physiologische)(NN Erforschung)(ART der)(NN Sprachlaute)(KOMMA ,)(C(PRELS welche))(MF(APPR in)(ADJA neuerer)(NN Zeit)(ADV so)(ADJA ausgezeichnete)(NN Fortschritte))(VC(VVPP gemacht)(VAFIN hat))(KOMMA ,)(KON sondern)(ADV auch)(APPR an)(ART die)(NN Beachtung)(KON und)(NN Betrachtung)(ART der)(ADJA sprachlichen)(NN Unterschiede)(APPR in)(PPOSAT ihrer)(NN Bedeutung)(APPR für)(ART die)(NN Naturgeschichte)(ART des)(NN Genus)(NN Homo))(PUNKT .))
+# text = Und zwar denke ich hierbei nicht nur an die physiologische Erforschung der Sprachlaute , welche in neuerer Zeit so ausgezeichnete Fortschritte gemacht hat , sondern auch an die Beachtung und Betrachtung der sprachlichen Unterschiede in ihrer Bedeutung für die Naturgeschichte des Genus Homo .
+1	Und	und	_	KON	_	_	_	_	_	_	4061-4064	w269	Und	B-ADVP-insitu	B-ADVP	*	B-KOORD
+2	zwar	zwar	_	ADV	_	_	_	_	_	_	4065-4069	w26a	zwar	I-ADVP	I-ADVP	*	B-VF
+3	denke	denken	_	VVFIN	_	_	_	_	_	_	4070-4075	w26b	denke	_	O	*	B-LK
+4	ich	ich	_	PPER	_	_	_	_	_	_	4076-4079	w26c	ich	B-NP-insitu	B-NP	*	B-MF
+5	hierbei	hierbei	_	PAV	_	_	_	_	_	_	4080-4087	w26d	hierbei	B-PP-insitu	B-PP	*	I-MF
+6	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	4088-4093	w26e	nicht	B-PP-insitu	B-PP	*	I-MF
+7	nur	nur	_	ADV	_	_	_	_	_	_	4094-4097	w26f	nur	I-PP	I-PP	*	I-MF
+8	an	an	_	APPR	_	_	_	_	_	B-Antec-1	4098-4100	w270	an	I-PP	I-PP	*	I-MF
+9	die	d	_	ART	_	_	_	_	_	I-Antec	4101-4104	w271	die	I-PP	I-PP	*	I-MF
+10	physiologische	physiologisch	_	ADJA	_	_	_	_	_	I-Antec	4105-4119	w272	physiologische	I-PP	I-PP	*	I-MF
+11	Erforschung	Erforschung	_	NN	_	_	_	_	_	I-Antec-Head	4120-4131	w273	Erforschung	I-PP	I-PP	*	I-MF
+12	der	d	_	ART	_	_	_	_	_	I-Antec	4132-4135	w274	der	I-PP	I-PP	*	I-MF
+13	Sprachlaute	Sprachelaute	_	NN	_	_	_	_	_	I-Antec	4136-4147	w275	Sprachlaute	I-PP	I-PP	*	I-MF
+14	,	,	_	$,	_	_	_	_	_	_	4148-4149	w276	,	I-PP	I-PP	*	I-MF
+15	welche	welche	_	PRELS	_	_	_	_	_	_	4150-4156	w277	welche	I-PP|B-RELC-insitu-1|B-NP-insitu	I-PP	*	I-MF|B-LK
+16	in	in	_	APPR	_	_	_	_	_	_	4157-4159	w278	in	I-PP|I-RELC|B-PP-insitu	I-PP	*	I-MF|B-MF
+17	neuerer	neu	_	ADJA	_	_	_	_	_	_	4160-4167	w279	neuerer	I-PP|I-RELC|I-PP	I-PP	*	I-MF|I-MF
+18	Zeit	Zeit	_	NN	_	_	_	_	_	_	4168-4172	w27a	Zeit	I-PP|I-RELC|I-PP	I-PP	*	I-MF|I-MF
+19	so	so	_	ADV	_	_	_	_	_	_	4173-4175	w27b	so	I-PP|I-RELC|B-NP-insitu	I-PP	*	I-MF|I-MF
+20	ausgezeichnete	ausgezeichnet	_	ADJA	_	_	_	_	_	_	4176-4190	w27c	ausgezeichnete	I-PP|I-RELC|I-NP	I-PP	*	I-MF|I-MF
+21	Fortschritte	Fortschritt	_	NN	_	_	_	_	_	_	4191-4203	w27d	Fortschritte	I-PP|I-RELC|I-NP	I-PP	*	I-MF|I-MF
+22	gemacht	machen	_	VVPP	_	_	_	_	_	_	4204-4211	w27e	gemacht	I-PP|I-RELC	I-PP	*	I-MF|B-RK
+23	hat	haben	_	VAFIN	_	_	_	_	_	_	4212-4215	w27f	hat	I-PP|I-RELC	I-PP	*	I-MF|I-RK
+24	,	,	_	$,	_	_	_	_	_	_	4216-4217	w280	,	I-PP	I-PP	*	I-MF
+25	sondern	sondern	_	KON	_	_	_	_	_	_	4218-4225	w281	sondern	I-PP	I-PP	*	I-MF
+26	auch	auch	_	ADV	_	_	_	_	_	_	4226-4230	w282	auch	I-PP	I-PP	*	I-MF
+27	an	an	_	APPR	_	_	_	_	_	_	4231-4233	w283	an	I-PP	I-PP	*	I-MF
+28	die	d	_	ART	_	_	_	_	_	_	4234-4237	w284	die	I-PP	I-PP	*	I-MF
+29	Beachtung	Beachtung	_	NN	_	_	_	_	_	_	4238-4247	w285	Beachtung	I-PP	I-PP	*	I-MF
+30	und	und	_	KON	_	_	_	_	_	_	4248-4251	w286	und	I-PP	I-PP	*	I-MF
+31	Betrachtung	Betrachtung	_	NN	_	_	_	_	_	_	4252-4263	w287	Betrachtung	I-PP	I-PP	*	I-MF
+32	der	d	_	ART	_	_	_	_	_	_	4264-4267	w288	der	I-PP	I-PP	*	I-MF
+33	sprachlichen	sprachlich	_	ADJA	_	_	_	_	_	_	4268-4280	w289	sprachlichen	I-PP	I-PP	*	I-MF
+34	Unterschiede	Unterschied	_	NN	_	_	_	_	_	_	4281-4293	w28a	Unterschiede	I-PP	I-PP	*	I-MF
+35	in	in	_	APPR	_	_	_	_	_	_	4294-4296	w28b	in	I-PP	I-PP	*	I-MF
+36	ihrer	ihr	_	PPOSAT	_	_	_	_	_	_	4297-4302	w28c	ihrer	I-PP	I-PP	*	I-MF
+37	Bedeutung	Bedeutung	_	NN	_	_	_	_	_	_	4303-4312	w28d	Bedeutung	I-PP	I-PP	*	I-MF
+38	für	für	_	APPR	_	_	_	_	_	_	4313-4316	w28e	für	I-PP	I-PP	*	I-MF
+39	die	d	_	ART	_	_	_	_	_	_	4317-4320	w28f	die	I-PP	I-PP	*	I-MF
+40	Naturgeschichte	Naturgeschichte	_	NN	_	_	_	_	_	_	4321-4336	w290	Naturgeschichte	I-PP	I-PP	*	I-MF
+41	des	d	_	ART	_	_	_	_	_	_	4337-4340	w291	des	I-PP	I-PP	*	I-MF
+42	Genus	genus	_	NN	_	_	_	_	_	_	4341-4346	w292	Genus	I-PP	I-PP	*	I-MF
+43	Homo	homo	_	NN	_	_	_	_	_	_	4347-4351	w293	Homo	I-PP	I-PP	*	I-MF
+44	.	.	_	$.	_	_	_	_	_	_	4352-4353	w294	.	_	O	*	O

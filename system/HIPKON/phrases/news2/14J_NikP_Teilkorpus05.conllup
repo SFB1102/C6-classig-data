@@ -1,0 +1,121 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS Kommentar PHRASE POS SATZKLAMMER SATZSTATUS UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# PTBstring = (VROOT(S(NP(PPER *{I*}ch))(VP(VAFIN habe))(NP(ART eín)(NN *Cwoͤrtlín))(VP(VVPP genomen)(PP(APPR vo)(ART dem)(ADJA v'lornē)(NN ſune)(PP(APPR vs)(ART dem)(NE Ewagelio))))))
+# text = *{I*}ch habe eín *Cwoͤrtlín genomen vō dem v'lornē ſune vs dem Ewāgelio
+1	*{I*}ch	_	_	PPER	_	_	_	_	_	NP	Ich	271,36	_	SUBJ	_	_	B-NP	PPER	_	MAINDECL	49rb,08	_	_
+2	habe	_	_	VAFIN	_	_	_	_	_	VP	habe	271,36	_	VFIN	_	_	O	VAFIN	LI	MAINDECL	49rb,08	_	_
+3	eín	_	_	ART	_	_	_	_	_	NP	eín	271,36	_	DO	_	_	B-NP	DIA	_	MAINDECL	49rb,08	_	_
+4	*Cwoͤrtlín	_	_	NN	_	_	_	_	_	NP	*Cwoͤrtlín	271,36	_	DO	_	Alinea steht am Ende der vorigen Zeile	I-NP	NA	_	MAINDECL	49rb,09	_	_
+5	genomen	_	_	VVPP	_	_	_	_	_	VP	genomen	271,36	_	INF	_	_	O	VVPP	RE	MAINDECL	49rb,09	_	_
+6	vō	_	_	APPR	_	_	_	_	_	PP	vō	271,36	NF_	PP-ADV	_	_	B-PP	APPR	_	MAINDECL	49rb,09	UNLINK	_
+7	dem	_	_	ART	_	_	_	_	_	PP	dem	271,36	NF_	PP-ADV	NEW_	_	I-PP	DDA	_	MAINDECL	49rb,10	UNLINK	KOREF1-REL
+8	v'lornē	_	_	ADJA	_	_	_	_	_	PP	v'lornē	271,36	NF_	PP-ADV	NEW_	_	I-PP	ADJ	_	MAINDECL	49rb,10	UNLINK	KOREF1-REL
+9	ſune	_	_	NN	_	_	_	_	_	PP	ſune	271,36	NF_	PP-ADV	NEW_	_	I-PP	NA	_	MAINDECL	49rb,10	UNLINK	KOREF1-REL
+10	vs	_	_	APPR	_	_	_	_	_	PP	vs	271,36	BGR_	PP-ADV	_	_	I-PP	APPR	_	MAINDECL	49rb,10	UNLINK	_
+11	dem	_	_	ART	_	_	_	_	_	PP	dem	271,36	BGR_	PP-ADV	_ACC-UNI-UNUSED	_	I-PP	DDA	_	MAINDECL	49rb,10	UNLINK	_
+12	Ewāgelio	_	_	NE	_	_	_	_	_	PP	Ewāgelio	271,37; ge-	BGR_	PP-ADV	_ACC-UNI-UNUSED	_	I-PP	NE	_	MAINDECL	49rb,11; boz-	UNLINK	_
+
+# sent_id = 2
+# PTBstring = (VROOT(S(KON vn̄)(VP(VAFIN woͤlte))(CVP(VP(VVINF gan)(PP(APPR zuͦ)(PPOSAT ſínem)(NN vatt')))(KON vnd)(VVINF ſprechē)))(PUNKT .))
+# text = vn̄ woͤlte gan zuͦ ſínem vatt' vnd ſprechē.
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	272,01; -dâhte	_	_	_	_	O	KON	_	MAINDECL-ELLI	49rb,14	_	_
+2	woͤlte	_	_	VAFIN	_	_	_	_	_	VP	woͤlte	272,01; -dâhte	_	VFIN	_	_	O	VAFIN	LI	MAINDECL-ELLI	49rb,14	_	_
+3	gan	_	_	VVINF	_	_	_	_	_	VP	gan	272,01; -dâhte	_	INF	_	_	O	VVINF	RE	MAINDECL-ELLI	49rb,15	_	_
+4	zuͦ	_	_	APPR	_	_	_	_	_	PP	zuͦ	272,01; -dâhte	NF	PP-DIR	_	_	B-PP	APPR	_	MAINDECL-ELLI	49rb,15	UNLINK	_
+5	ſínem	_	_	PPOSAT	_	_	_	_	_	PP	ſínem	272,01; -dâhte	NF	PP-DIR	ACC-INF_	_	I-PP	DPOS	_	MAINDECL-ELLI	49rb,15	UNLINK	KOREF1
+6	vatt'	_	_	NN	_	_	_	_	_	PP	vatt'	272,01; -dâhte	NF	PP-DIR	_NEW	_	I-PP	NA	_	MAINDECL-ELLI	49rb,15	UNLINK	KOREF1
+7	vnd	_	_	KON	_	_	_	_	_	_	vnd	272,01; -dâhte	_	_	_	_	O	KON	_	MAINDECL-ELLI	49rb,15	UNLINK	_
+8	ſprechē	_	_	VVINF	_	_	_	_	_	VP	ſprechē	272,02	_	INF	_	_	O	VVINF	_	MAINDECL-ELLI	49rb,16; ge-	UNLINK	_
+9	.	_	_	$.	_	_	_	_	_	_	.	272,02	_	_	_	_	O	$_	_	MAINDECL-ELLI	49rb,16; ge-	_	_
+
+# sent_id = 3
+# PTBstring = (VROOT(S(NP(NN vatt'))(NP(PPER ich))(VP(VAFIN hab))(VP(VVPP geLBR=RBRſuͥndet)(CPP(PP(APPR wid')(PPER dich))(KON vn̄)(PP(APPR ín)(ART den)(NN himel)))))(PUNKT .))
+# text = vatt' ich hab ge(=)ſuͥndet wid' dich vn̄ ín den himel.
+1	vatt'	_	_	NN	_	_	_	_	_	NP	vatt'	272,02	_	VOVF	_	_	B-NP	NA	_	MAINDECL	49rb,16; ge-	_	KOREF2
+2	ich	_	_	PPER	_	_	_	_	_	NP	ich	272,02	_	SUBJ	_	_	B-NP	PPER	_	MAINDECL	49rb,16; ge-	_	_
+3	hab	_	_	VAFIN	_	_	_	_	_	VP	hab	272,02	_	VFIN	_	_	O	VAFIN	LI	MAINDECL	49rb,16; ge-	_	_
+4	ge(=)ſuͥndet	_	_	VVPP	_	_	_	_	_	VP	geſuͥndet	272,02	_	INF	_	_	O	VVPP	RE	MAINDECL	49rb,16; ge-	_	_
+5	wid'	_	_	APPR	_	_	_	_	_	PP	wid'	272,02	NF_	PP-OBJ	_	_	B-PP	APPR	_	MAINDECL	49rb,17; -ſuͥndet	UNLINK	_
+6	dich	_	_	PPER	_	_	_	_	_	PP	dich	272,02	NF_	PP-OBJ	ACC-SIT_	_	I-PP	PPER	_	MAINDECL	49rb,17; -ſuͥndet	UNLINK	KOREF2
+7	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	272,02	_	_	_	_	I-PP	KON	_	MAINDECL	49rb,17; -ſuͥndet	UNLINK	_
+8	ín	_	_	APPR	_	_	_	_	_	PP	ín	272,02	NF_	PP-ADV	_	_	I-PP	APPR	_	MAINDECL	49rb,17; -ſuͥndet	UNLINK	_
+9	den	_	_	ART	_	_	_	_	_	PP	den	272,02	NF_	PP-ADV	_ACC-UNI-UNUSED	_	I-PP	DDA	_	MAINDECL	49rb,18	UNLINK	_
+10	himel	_	_	NN	_	_	_	_	_	PP	himel	272,03	NF_	PP-ADV	_ACC-UNI-UNUSED	_	I-PP	NA	_	MAINDECL	49rb,18	UNLINK	_
+11	.	_	_	$.	_	_	_	_	_	_	.	272,03	_	_	_	_	O	$_	_	MAINDECL	49rb,18	_	_
+
+# sent_id = 4
+# PTBstring = (VROOT(S(NP(PPER ich))(VP(VAFIN han))(VP(VVINF geſuͥndet))(CPP(PP(APPR wid')(PPER dich))(KON vn̄)(PP(APPR in)(ART den)(NN hímel)(PUNKT .)))))
+# text = ich han geſuͥndet wid' dich vn̄ in den hímel.
+1	ich	_	_	PPER	_	_	_	_	_	NP	ich	272,10	_	SUBJ	_	_	B-NP	PPER	_	MAINDECL	49va,15	_	_
+2	han	_	_	VAFIN	_	_	_	_	_	VP	han	272,10	_	VFIN	_	_	O	VAFIN	LI	MAINDECL	49va,15	_	_
+3	geſuͥndet	_	_	VVINF	_	_	_	_	_	VP	geſuͥndet	272,10	_	INF	_	_	O	VVINF	RE	MAINDECL	49va,15	_	_
+4	wid'	_	_	APPR	_	_	_	_	_	PP	wid'	272,10	NF_	PP-OBJ	_	_	B-PP	APPR	_	MAINDECL	49va,15	UNLINK	_
+5	dich	_	_	PPER	_	_	_	_	_	PP	dich	272,11	NF_	PP-OBJ	ACC-SIT_	_	I-PP	PPER	_	MAINDECL	49va,16	UNLINK	_
+6	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	272,11	_	_	_	_	I-PP	KON	_	MAINDECL	49va,16	UNLINK	_
+7	in	_	_	APPR	_	_	_	_	_	PP	in	272,11	NF_	PP-ADV	_	_	I-PP	APPR	_	MAINDECL	49va,16	UNLINK	_
+8	den	_	_	ART	_	_	_	_	_	PP	den	272,11	NF_	PP-ADV	_ACC-UNI-USED-X	_	I-PP	DDA	_	MAINDECL	49va,16	UNLINK	_
+9	hímel	_	_	NN	_	_	_	_	_	PP	hímel	272,11	NF_	PP-ADV	_ACC-UNI-USED-X	_	I-PP	NA	_	MAINDECL	49va,16	UNLINK	_
+10	.	_	_	$.	_	_	_	_	_	_	.	272,11	_	_	_	_	I-PP	$_	_	MAINDECL	49va,16	_	_
+
+# sent_id = 5
+# PTBstring = (VROOT(S(KON vn̄)(VP(VAFIN han))(VP(VVINF v'lorn)(NP(ART das)(NN erbe)(NP(ART des)(ADJA ewígē)(NN lebens/))))))
+# text = vn̄ han v'lorn das erbe des ewígē lebens/
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	272,11	_	_	_	_	O	KON	_	MAINDECL-ELLI	49va,16	_	_
+2	han	_	_	VAFIN	_	_	_	_	_	VP	han	272,11	_	VFIN	_	_	O	VAFIN	LI	MAINDECL-ELLI	49va,17	_	_
+3	v'lorn	_	_	VVINF	_	_	_	_	_	VP	v'lorn	272,11	_	INF	_	_	O	VVINF	RE	MAINDECL-ELLI	49va,17	_	_
+4	das	_	_	ART	_	_	_	_	_	NP	das	272,11	NF	DO	ACC-ABSTR-UNUSED_	_	B-NP	DDA	_	MAINDECL-ELLI	49va,17	UNLINK	_
+5	erbe	_	_	NN	_	_	_	_	_	NP	erbe	272,11	NF	DO	ACC-ABSTR-UNUSED_	_	I-NP	NA	_	MAINDECL-ELLI	49va,17	UNLINK	_
+6	des	_	_	ART	_	_	_	_	_	NP	des	272,11	NF	ATTR	_ACC-UNI-UNUSED	_	I-NP	DDA	_	MAINDECL-ELLI	49va,17	UNLINK	_
+7	ewígē	_	_	ADJA	_	_	_	_	_	NP	ewígē	272,11	NF	ATTR	_ACC-UNI-UNUSED	_	I-NP	ADJ	_	MAINDECL-ELLI	49va,18	UNLINK	_
+8	lebens/	_	_	NN	_	_	_	_	_	NP	lebens/	272,11	NF	ATTR	_ACC-UNI-UNUSED	_	I-NP	NA	_	MAINDECL-ELLI	49va,18	UNLINK	_
+
+# sent_id = 6
+# PTBstring = (VROOT(S(NP(PDS die))(VP(VAFIN w'LBR=RBRdent))(VP(ADV nu)(ADV alſo)(CVP(VVPP erluͥhtet)(KON vn̄)(VVPP erfuͥllet))(NP(ART d')(NN gnadē)(NP(ART des)(ADJA ínrē)(NN menſchē))))))
+# text = die w'(=)dent nu alſo erluͥhtet vn̄ erfuͥllet d' gnadē des ínrē menſchē
+1	die	_	_	PDS	_	_	_	_	_	NP	die	272,28	_	SUBJ	_	_	B-NP	DDS	_	MAINDECL	50ra,13; w'-	_	_
+2	w'(=)dent	_	_	VAFIN	_	_	_	_	_	VP	w'dent	272,28	_	VFIN	_	_	O	VAFIN	LI	MAINDECL	50ra,13; w'-	_	_
+3	nu	_	_	ADV	_	_	_	_	_	ADVP	nu	272,28	_	ADVB	_	_	B-ADVP	ADV	_	MAINDECL	50ra,14; -dent	_	_
+4	alſo	_	_	ADV	_	_	_	_	_	ADVP	alſo	272,29	_	ADVB	_	_	B-ADVP	ADV	_	MAINDECL	50ra,14; -dent	_	_
+5	erluͥhtet	_	_	VVPP	_	_	_	_	_	VP	erluͥhtet	272,29	_	INF	_	_	O	VVPP	_	MAINDECL	50ra,14; -dent	_	_
+6	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	272,29	_	_	_	_	O	KON	_	MAINDECL	50ra,14; -dent	_	_
+7	erfuͥllet	_	_	VVPP	_	_	_	_	_	VP	erfuͥllet	272,29	_	INF	_	_	O	VVPP	RE	MAINDECL	50ra,15	_	_
+8	d'	_	_	ART	_	_	_	_	_	NP	d'	272,29	NF	IO-GEN	ACC-ABSTR-USED-X_	_	B-NP	DDA	_	MAINDECL	50ra,15	UNLINK	_
+9	gnadē	_	_	NN	_	_	_	_	_	NP	gnadē	272,29	NF	IO-GEN	ACC-ABSTR-USED-X_	_	I-NP	NA	_	MAINDECL	50ra,15	UNLINK	_
+10	des	_	_	ART	_	_	_	_	_	NP	des	272,29	NF	ATTR	_NEW	_	I-NP	DDA	_	MAINDECL	50ra,15	UNLINK	KOREF1
+11	ínrē	_	_	ADJA	_	_	_	_	_	NP	ínrē	272,29	NF	ATTR	_NEW	_	I-NP	ADJ	_	MAINDECL	50ra,15	UNLINK	KOREF1
+12	menſchē	_	_	NN	_	_	_	_	_	NP	menſchē	272,29	NF	ATTR	_NEW	_	I-NP	NA	_	MAINDECL	50ra,16	UNLINK	KOREF1
+
+# sent_id = 7
+# PTBstring = (VROOT(S(NP(PDS díe))(VP(VAFIN w'dent))(NP(PIS alle))(VP(VVPP betrogē)(PP(APPR an)(PPOSAT vͥnſers)(NN h'ren)(NN fronlícha=men/))(PP(APPR ane)(ADV alleín)(ART duͥ)(NN ge=hoͤrde)(PUNKT .)))))
+# text = díe w'dent alle betrogē an vͥnſers h'ren fronlícha=men/ ane alleín duͥ ge=hoͤrde.
+1	díe	_	_	PDS	_	_	_	_	_	NP	díe	272,38	_	SUBJ	_	_	B-NP	DDS	_	MAINDECL	50rb,14	_	_
+2	w'dent	_	_	VAFIN	_	_	_	_	_	VP	w'dent	272,38	_	VFIN	_	_	O	VAFIN	LI	MAINDECL	50rb,14	_	_
+3	alle	_	_	PIS	_	_	_	_	_	NP	alle	272,38	_	SUBJ	_	_	B-NP	DIS	_	MAINDECL	50rb,14	_	_
+4	betrogē	_	_	VVPP	_	_	_	_	_	VP	betrogē	272,38	_	INF	_	_	O	VVPP	RE	MAINDECL	50rb,14	_	_
+5	an	_	_	APPR	_	_	_	_	_	PP	an	272,38	NF	PP-OBJ	_	_	B-PP	APPR	_	MAINDECL	50rb,15	UNLINK1	_
+6	vͥnſers	_	_	PPOSAT	_	_	_	_	_	PP	vͥnſers	272,38	NF	PP-OBJ	ACC-SIT_	_	I-PP	DPOS	_	MAINDECL	50rb,15	UNLINK1	KOREF1
+7	h'ren	_	_	NN	_	_	_	_	_	PP	h'ren	272,38	NF	PP-OBJ	_GIV-INACTIVE	_	I-PP	NA	_	MAINDECL	50rb,15	UNLINK1	KOREF1
+8	fronlícha=men/	_	_	NN	_	_	_	_	_	PP	fronlíchamen/	272,38	NF	PP-OBJ	_NEW	_	I-PP	NA	_	MAINDECL	50rb,15	UNLINK1	KOREF1
+9	ane	_	_	APPR	_	_	_	_	_	PP	ane	_	_	PP-ADV	_	steht nicht in der Edition	B-PP	APPR	_	MAINDECL	50rb,16 ge=	UNLINK2	_
+10	alleín	_	_	ADV	_	_	_	_	_	PP	alleín	_	_	PP-ADV	_	steht nicht in der Edition	I-PP	ADV	_	MAINDECL	50rb,16 ge=	UNLINK2	KOREF1
+11	duͥ	_	_	ART	_	_	_	_	_	PP	duͥ	_	_	PP-ADV	_	steht nicht in der Edition	I-PP	DDS	_	MAINDECL	50rb,16 ge=	UNLINK2	KOREF1
+12	ge=hoͤrde	_	_	NN	_	_	_	_	_	PP	gehoͤrde	_	_	PP-ADV	ACC-INF	steht nicht in der Edition	I-PP	NA	_	MAINDECL	50rb,16 ge=	UNLINK2	KOREF1
+13	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	_	_	I-PP	_	_	MAINDECL	_	_	_
+
+# sent_id = 8
+# PTBstring = (VROOT(S(NP(PPER er))(VP(VMFIN wíl))(NP(PPER ín))(AVP(ADV nûwa))(VP(VVINF pínígē)(PP(APPR vmb)(ART die)(NN einen)(S:RC(PP(APPR vmb)(PRELS díe))(NP(PPER er))(AVP(ADV da))(VP(VVFIN iſt))(PUNKT .))))))
+# text = er wíl ín nûwā pínígē vmb die einen vmb díe er da iſt.
+1	er	_	_	PPER	_	_	_	_	_	NP	er	275,01	_	SUBJ	_	_	B-NP	PPER	_	MAINDECL	52vb,02	_	_
+2	wíl	_	_	VMFIN	_	_	_	_	_	VP	wíl	275,01	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	52vb,02	_	_
+3	ín	_	_	PPER	_	_	_	_	_	NP	ín	275,01	_	DO	_	_	B-NP	PPER	_	MAINDECL	52vb,02	_	_
+4	nûwā	_	_	ADV	_	_	_	_	_	ADVP	nûwā	275,01	_	ADVB	_	_	B-ADVP	ADV	_	MAINDECL	52vb,02	_	_
+5	pínígē	_	_	VVINF	_	_	_	_	_	VP	pínígē	275,01	BGR	INF	_	_	O	VVINF	RE	MAINDECL	52vb,02	_	_
+6	vmb	_	_	APPR	_	_	_	_	_	PP	vmb	275,01	BGR	PP-ADV	_	_	B-PP	APPR	_	MAINDECL	52vb,03	UNLINK	_
+7	die	_	_	ART	_	_	_	_	_	PP	die	275,01	BGR	PP-ADV	NA	_	I-PP	DDA	_	MAINDECL	52vb,03	UNLINK	_
+8	einen	_	_	NN	_	_	_	_	_	PP	einen	275,01	BGR	PP-ADV	NA	_	I-PP	ADJS	_	MAINDECL	52vb,03	UNLINK	KOREF1-REL
+9	vmb	_	_	APPR	_	_	_	_	_	CP	vmb	275,01	_	ATTR	_	_	I-PP	APPR	_	MAINDECL	52vb,03	UNLINK	_
+10	díe	_	_	PRELS	_	_	_	_	_	CP	díe	275,02; pini-	_	ATTR	_	_	I-PP	DDREL	_	MAINDECL	52vb,03	UNLINK	KOREF2-REL
+11	er	_	_	PPER	_	_	_	_	_	CP	er	275,02; pini-	_	ATTR	_	_	I-PP	PPER	_	MAINDECL	52vb,04	UNLINK	_
+12	da	_	_	ADV	_	_	_	_	_	CP	da	275,02; pini-	_	ATTR	_	_	I-PP	ADV	_	MAINDECL	52vb,04	UNLINK	_
+13	iſt	_	_	VVFIN	_	_	_	_	_	CP	iſt	275,02; pini-	_	ATTR	_	_	I-PP	VVFIN	_	MAINDECL	52vb,04	UNLINK	_
+14	.	_	_	$.	_	_	_	_	_	_	.	275,02; pini-	_	_	_	_	I-PP	$_	_	MAINDECL	52vb,04	_	_

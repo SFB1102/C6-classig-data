@@ -1,0 +1,68 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN FOKUS GF IS MovElem PHRASE POS SATZKLAMMER SATZSTATUS TOPF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# PTBstring = (VROOT(S(NP(AP(ADJD laßt)(ADJA vns))(NN Oſtern))(VP(VVFIN halten))(KLAMMER /)(AVP(PTKNEG nicht))(PP(APPRART im)(ADJA alten)(NN ſauerteig)(KLAMMER /)(S(AVP(ADV auch))(AVP(PTKNEG nicht))(PP(APPRART im)(NN Saur=teig)(NP(ART der)(NN Boßheit)(KLAMMER /)(NP(ADJA vnnd)(NN Schalckheit)(KLAMMER /))(NE ſondern)))(PP(APPRART im)(NN Suͤſteig)(NP(ART der)(NN Lauterkeit)))(NP(ADJA vnd)(NN Warheit)(PUNKT .))))))
+# TopFString = (S(LK(VMFIN laßt))(MF(PRF vns)(NE Oſtern))(VC(VVINF halten))(KOMMA /)(PTKNEG nicht)(APPRART im)(ADJA alten)(NN ſauerteig)(KOMMA /)(KON auch)(PTKNEG nicht)(APPRART im)(NN Saur=teig)(ART der)(NN Boßheit)(KOMMA /)(KON vnnd)(NN Schalckheit)(KOMMA /)(KON ſondern)(APPRART im)(NN Suͤſteig)(ART der)(NN Lauterkeit)(KON vnd)(NN Warheit)(PUNKT .))
+# text = laßt vns Oſtern halten / nicht im alten ſauerteig / auch nicht im Saur=teig der Boßheit / vnnd Schalckheit / ſondern im Suͤſteig der Lauterkeit vnd Warheit.
+1	laßt	_	_	VMFIN	_	_	_	_	_	VP	laßt	_	VFIN	_	_	O	VMFIN	LI	MAINIMPER	B-LK	08,07	_	_
+2	vns	_	_	PRF	_	_	_	_	_	VP	vns	_	VZ_RFL	_	B-NP-insitu	B-NP	PRF	_	MAINIMPER	B-MF	08,07	_	_
+3	Oſtern	_	_	NE	_	_	_	_	_	NP	Oſtern	_	DO	_	I-NP	I-NP	NE	_	MAINIMPER	I-MF	08,08 ſauer=	_	_
+4	halten	_	_	VVINF	_	_	_	_	_	VP	halten	_	INF	_	_	O	VVINF	RE	MAINIMPER	B-RK	08,08 ſauer=	_	_
+5	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	O	$_	_	MAINIMPER	O	08,08 ſauer=	_	_
+6	nicht	_	_	PTKNEG	_	_	_	_	_	_	nicht	_	_	_	B-ADVP-insitu	B-ADVP	PTKNEG	_	MAINIMPER	O	08,08 ſauer=	UNLINK1	_
+7	im	_	_	APPRART	_	_	_	_	_	PP	im	CF_	PP-ADV	_	B-PP-insitu	B-PP	APPRART	_	MAINIMPER	O	08,08 ſauer=	UNLINK1	_
+8	alten	_	_	ADJA	_	_	_	_	_	PP	alten	CF_	PP-ADV	_	I-PP	I-PP	ADJ	_	MAINIMPER	O	08,08 ſauer=	UNLINK1	_
+9	ſauerteig	_	_	NN	_	_	_	_	_	PP	ſauerteig	CF_	PP-ADV	GIV-ACTIVE	I-PP	I-PP	NA	_	MAINIMPER	O	08,08 ſauer=	UNLINK1	_
+10	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	I-PP	I-PP	$_	_	MAINIMPER	O	08,08 ſauer=	_	_
+11	auch	_	_	KON	_	_	_	_	_	_	auch	_	_	_	I-PP	I-PP	KON	_	MAINIMPER	O	08,08 ſauer=	UNLINK2	_
+12	nicht	_	_	PTKNEG	_	_	_	_	_	_	nicht	_	_	_	I-PP	I-PP	PTKNEG	_	MAINIMPER	O	08,08 ſauer=	UNLINK2	_
+13	im	_	_	APPRART	_	_	_	_	_	PP	im	CF_	PP-ADV	_	I-PP	I-PP	APPRART	_	MAINIMPER	O	08,08 ſauer=	UNLINK2	_
+14	Saur=teig	_	_	NN	_	_	_	_	_	PP	Saurteig	CF_	PP-ADV	GIV-ACTIVE_	I-PP	I-PP	NA	_	MAINIMPER	O	08,08 ſauer=	UNLINK2	_
+15	der	_	_	ART	_	_	_	_	_	PP	der	CF_	ATTR	_	I-PP	I-PP	DDA	_	MAINIMPER	O	08,09 =teig	UNLINK2	_
+16	Boßheit	_	_	NN	_	_	_	_	_	PP	Boßheit	CF_	ATTR	_ACC-ABSTR-UNUSED_	I-PP	I-PP	NA	_	MAINIMPER	O	08,09 =teig	UNLINK2	_
+17	/	_	_	$,	_	_	_	_	_	PP	/	CF_	ATTR	_	I-PP	I-PP	$_	_	MAINIMPER	O	08,09 =teig	UNLINK2	_
+18	vnnd	_	_	KON	_	_	_	_	_	PP	vnnd	CF_	ATTR	_	I-PP	I-PP	KON	_	MAINIMPER	O	08,09 =teig	UNLINK2	_
+19	Schalckheit	_	_	NN	_	_	_	_	_	PP	Schalckheit	CF_	ATTR	_ACC-ABSTR-UNUSED	I-PP	I-PP	NA	_	MAINIMPER	O	08,09 =teig	UNLINK2	_
+20	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	I-PP	I-PP	$_	_	MAINIMPER	O	08,09 =teig	_	_
+21	ſondern	_	_	KON	_	_	_	_	_	_	ſondern	_	_	_	I-PP	I-PP	KON	_	MAINIMPER	O	08,09 =teig	UNLINK3	_
+22	im	_	_	APPRART	_	_	_	_	_	PP	im	CF_	PP-ADV	_	I-PP	I-PP	APPRART	_	MAINIMPER	O	08,09 =teig	UNLINK3	_
+23	Suͤſteig	_	_	NN	_	_	_	_	_	PP	Suͤſteig	CF_	PP-ADV	GIV-ACTIVE_	I-PP	I-PP	NA	_	MAINIMPER	O	08,09 =teig	UNLINK3	_
+24	der	_	_	ART	_	_	_	_	_	PP	der	CF_	ATTR	_	I-PP	I-PP	DDA	_	MAINIMPER	O	08,09 =teig	UNLINK3	_
+25	Lauterkeit	_	_	NN	_	_	_	_	_	PP	Lauterkeit	CF_	ATTR	_ACC-ABSTR-UNUSED_	I-PP	I-PP	NA	_	MAINIMPER	O	08,10	UNLINK3	_
+26	vnd	_	_	KON	_	_	_	_	_	PP	vnd	CF_	ATTR	_	I-PP	I-PP	KON	_	MAINIMPER	O	08,10	UNLINK3	_
+27	Warheit	_	_	NN	_	_	_	_	_	PP	Warheit	CF_	ATTR	_ACC-ABSTR-UNUSED	I-PP	I-PP	NA	_	MAINIMPER	O	08,10	UNLINK3	_
+28	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	_	I-PP	$_	_	MAINIMPER	O	_	_	_
+
+# sent_id = 2
+# PTBstring = (VROOT(S(NP(NN Richter))(VP(VVFIN vnd))(NP(PN(NE Ampt=Leuth)(NE ſolt)(NE du)(NE dir)(NE ſetzen)(KLAMMER /))(PP(APPR in)(PIAT allen)(ADJA deinen)(NN Thoren))))(KLAMMER /))
+# TopFString = (S(VF(NN Richter)(KON vnd)(NN Ampt=Leuth))(LK(VMFIN ſolt))(MF(PPER du)(PRF dir))(VC(VVINF ſetzen))(KOMMA /)(NF(APPR in)(PIAT allen)(PPOSAT deinen)(NN Thoren))(KOMMA /))
+# text = Richter vnd Ampt=Leuth ſolt du dir ſetzen / in allen deinen Thoren /
+1	Richter	_	_	NN	_	_	_	_	_	NP	Richter	_	DO	_	B-NP-insitu	B-NP	NA	_	MAINDECL	B-VF	09,02 =chen	_	_
+2	vnd	_	_	KON	_	_	_	_	_	NP	vnd	_	DO	_	_	O	KON	_	MAINDECL	I-VF	09,02 =chen	_	_
+3	Ampt=Leuth	_	_	NN	_	_	_	_	_	NP	AmptLeuth	_	DO	_	B-NP-insitu	B-NP	NA	_	MAINDECL	I-VF	09,02 =chen	_	_
+4	ſolt	_	_	VMFIN	_	_	_	_	_	VP	ſolt	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	B-LK	09,03 =Leuch	_	_
+5	du	_	_	PPER	_	_	_	_	_	NP	du	_	SUBJ	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	B-MF	09,03 =Leuch	_	_
+6	dir	_	_	PRF	_	_	_	_	_	VP	dir	_	VZ_RFL	_	I-NP	I-NP	PRF	_	MAINDECL	I-MF	09,03 =Leuch	_	_
+7	ſetzen	_	_	VVINF	_	_	_	_	_	VP	ſetzen	_	INF	_	_	O	VVINF	RE	MAINDECL	B-RK	09,03 =Leuch	_	_
+8	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	O	$_	_	MAINDECL	O	09,03 =Leuch	_	_
+9	in	_	_	APPR	_	_	_	_	_	PP	in	NF	PP-SIT	_	B-PP-extrap	B-PP	APPR	_	MAINDECL	B-NF	09,03 =Leuch	UNLINK	KOREF1-REL
+10	allen	_	_	PIAT	_	_	_	_	_	PP	allen	NF	PP-SIT	_	I-PP	I-PP	DIS	_	MAINDECL	I-NF	09,03 =Leuch	UNLINK	KOREF1-REL
+11	deinen	_	_	PPOSAT	_	_	_	_	_	PP	deinen	NF	PP-SIT	ACC-SIT_	I-PP	I-PP	DPOS	_	MAINDECL	I-NF	09,03 =Leuch	UNLINK	KOREF1-REL
+12	Thoren	_	_	NN	_	_	_	_	_	PP	Thoren	NF	PP-SIT	_NEW	I-PP	I-PP	NA	_	MAINDECL	I-NF	09,03 =Leuch	UNLINK	KOREF1-REL
+13	/	_	_	$,	_	_	_	_	_	_	/	NF	_	_	_	O	$_	_	MAINDECL	O	09,03 =Leuch	_	_
+
+# sent_id = 3
+# PTBstring = (VROOT(S(NP(NN Richter))(VP(VVFIN vnd))(NP(PN(NE Amptleuth)(NE ſoltu))(PN(NP(ADJA dir)(NN ſetzen)(KLAMMER /)))(PP(APPR in)(PIAT allen)(ADJA deinen)(NN Thoren))))(KLAMMER /))
+# TopFString = (S(VF(NN Richter)(KON vnd)(NN Amptleuth))(LK(VMFIN ſoltu))(MF(PRF dir))(VC(VVFIN ſetzen))(KOMMA /)(NF(APPR in)(PIAT allen)(PPOSAT deinen)(NN Thoren))(KOMMA /))
+# text = Richter vnd Amptleuth ſoltu dir ſetzen / in allen deinen Thoren /
+1	Richter	_	_	NN	_	_	_	_	_	NP	Richter	_	DO	_	B-NP-insitu	B-NP	NA	_	MAINDECL	B-VF	10,02 =ten	_	_
+2	vnd	_	_	KON	_	_	_	_	_	NP	vnd	_	DO	_	_	O	KON	_	MAINDECL	I-VF	10,02 =ten	_	_
+3	Amptleuth	_	_	NN	_	_	_	_	_	NP	Amptleuth	_	DO	_	B-NP-insitu	B-NP	NA	_	MAINDECL	I-VF	10,02 =ten	_	_
+4	ſoltu	_	_	VMFIN	_	_	_	_	_	VP	ſoltu	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	B-LK	10,02 =ten	_	_
+5	dir	_	_	PRF	_	_	_	_	_	VP	dir	_	VZ_RFL	_	B-NP-insitu	B-NP	PRF	_	MAINDECL	B-MF	10,02 =ten	_	_
+6	ſetzen	_	_	VVFIN	_	_	_	_	_	VP	ſetzen	_	INF	_	_	O	VVFIN	RE	MAINDECL	B-RK	10,03	_	_
+7	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	O	_	_	MAINDECL	O	10,03	_	_
+8	in	_	_	APPR	_	_	_	_	_	PP	in	NF	PP-SIT	_	B-PP-extrap	B-PP	APPR	_	MAINDECL	B-NF	10,03	UNLINK	KOREF1-REL
+9	allen	_	_	PIAT	_	_	_	_	_	PP	allen	NF	PP-SIT	_	I-PP	I-PP	DIS	_	MAINDECL	I-NF	10,03	UNLINK	KOREF1-REL
+10	deinen	_	_	PPOSAT	_	_	_	_	_	PP	deinen	NF	PP-SIT	ACC-SIT_	I-PP	I-PP	DPOS	_	MAINDECL	I-NF	10,03	UNLINK	KOREF1-REL
+11	Thoren	_	_	NN	_	_	_	_	_	PP	Thoren	NF	PP-SIT	_GIV-INACTIVE	I-PP	I-PP	NA	_	MAINDECL	I-NF	10,03	UNLINK	KOREF1-REL
+12	/	_	_	$,	_	_	_	_	_	_	/	NF	_	_	_	O	_	_	MAINDECL	O	10,03	_	_

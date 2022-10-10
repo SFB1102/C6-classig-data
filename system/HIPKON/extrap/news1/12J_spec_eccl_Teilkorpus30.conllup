@@ -1,0 +1,14 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS MovElem PHRASE POS SATZKLAMMER SATZSTATUS Sprache TOPF UEBERLIEFERUNGSTRAEGER VERLINKUNG
+# sent_id = 1
+# PTBstring = (VROOT(SIMPX(VF(NX(PPER Wir)))(LK(VXFIN(VMFIN ſchulin)))(MF(NX(NN got))(ADVX(ADV mere)))(VC(VXINF(VVINF gehorſamin)))(NF(NX(KOKOM denni)(ART den)(NN menniſchin))))(PUNKT .))
+# TopFString = (S(VF(PPER Wir))(LK(VMFIN ſchulin))(MF(NN got)(ADV mere))(VC(VVINF gehorſamin))(NF(KOKOM denni)(ART den)(NN menniſchin))(PUNKT .))
+# text = Wir ſchulin got mere gehorſamin denni den menniſchin.
+1	Wir	_	_	PPER	_	_	_	_	_	NP	Wir	78,30	_	SUBJ	_	B-NP-insitu	B-NP	PPER	_	MAINDECL	Übersetzung	B-VF	73r,14; -tet	_
+2	ſchulin	_	_	VMFIN	_	_	_	_	_	VP	ſchulin	78,30	_	VFIN	_	_	O	VMFIN	LI	MAINDECL	Übersetzung	B-LK	73r,14; -tet	_
+3	got	_	_	NN	_	_	_	_	_	NP	got	78,30	_	IO-DAT	_	B-NP-insitu	B-NP	NA	_	MAINDECL	Übersetzung	B-MF	73r,14; -tet	_
+4	mere	_	_	ADV	_	_	_	_	_	AP	mere	78,30	NF	ADVB	_	B-ADVP-insitu	B-ADVP	ADJ	_	MAINDECL	Übersetzung	I-MF	73r,15	_
+5	gehorſamin	_	_	VVINF	_	_	_	_	_	VP	gehorſamin	78,30	NF	INF	_	_	O	VVINF	RE	MAINDECL	Übersetzung	B-RK	73r,15	_
+6	denni	_	_	KOKOM	_	_	_	_	_	PP	denni	78,30	NF	VGL	_	B-NP-extrap	B-NP	ADV	_	MAINDECL	Übersetzung	B-NF	73r,15	LINK_ASSYM
+7	den	_	_	ART	_	_	_	_	_	PP	den	78,30	NF	VGL	ACC-GEN-UNUSED	I-NP	I-NP	DDA	_	MAINDECL	Übersetzung	I-NF	73r,15	LINK_ASSYM
+8	menniſchin	_	_	NN	_	_	_	_	_	PP	menniſchin	78,30	NF	VGL	ACC-GEN-UNUSED	I-NP	I-NP	NA	_	MAINDECL	Übersetzung	I-NF	73r,15	LINK_ASSYM
+9	.	_	_	$.	_	_	_	_	_	_	.	78,30	_	_	_	_	O	$_	_	MAINDECL	Übersetzung	O	73r,15	_

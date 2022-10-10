@@ -1,0 +1,617 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC Antec CharOffset DTA:ID DTA:NORM MovElem PHRASE POS TOPF
+# sent_id = 1
+# sent_id(TSV) = 1
+# PTBstring = (VROOT(DL(NP(ADJA WöchentlicheHistorische)(NN Nachricht)(KOMMA ,))(DL(KON Oder)(PUNKT :)(DL(NP(ART Der)(ADJA Europäischen)(CNP(TRUNC Welt-)(KON und)(NN Staats-Geschichte)))(NP(ADJA II.)(NN Theil)(PUNKT .))))))
+# TopFString = (S(ADJA WöchentlicheHistorische)(NN Nachricht)(KOMMA ,)(KON Oder)(PUNKT :)(ART Der)(ADJA Europäischen)(TRUNC Welt-)(KON und)(NN Staats-Geschichte)(ADJA II.)(NN Theil)(PUNKT .))
+# text = WöchentlicheHistorische Nachricht , Oder : Der Europäischen Welt- und Staats-Geschichte II. Theil .
+1	WöchentlicheHistorische	wöchentlichhistorisch	_	ADJA	_	_	_	_	_	_	0-23	w1,w1_1	Wöchentlichhistorische	B-NP-insitu	B-NP	*	O
+2	Nachricht	Nachricht	_	NN	_	_	_	_	_	_	24-33	w2	Nachricht	I-NP	I-NP	*	O
+3	,	,	_	$,	_	_	_	_	_	_	34-35	w3	,	_	I-NP	*	O
+4	Oder	oder	_	KON	_	_	_	_	_	_	36-40	w4	Oder	_	O	*	O
+5	:	:	_	$.	_	_	_	_	_	_	41-42	w5	:	_	O	*	O
+6	Der	d	_	ART	_	_	_	_	_	_	43-46	w6	Der	B-NP-insitu	B-NP	*	O
+7	Europäischen	europäisch	_	ADJA	_	_	_	_	_	_	47-59	w7	Europäischen	I-NP	I-NP	*	O
+8	Welt-	welt-	_	TRUNC	_	_	_	_	_	_	60-65	w8	Welt-	I-NP	I-NP	*	O
+9	und	und	_	KON	_	_	_	_	_	_	66-69	w9	und	I-NP	I-NP	*	O
+10	Staats-Geschichte	Staats-Geschichte	_	NN	_	_	_	_	_	_	70-87	wa	Staats-Geschichte	I-NP	I-NP	*	O
+11	II.	ii.	_	ADJA	_	_	_	_	_	_	88-91	wb,wb_1	II.	B-NP-insitu	B-NP	*	O
+12	Theil	Teil	_	NN	_	_	_	_	_	_	92-97	wc	Teil	I-NP	I-NP	*	O
+13	.	.	_	$.	_	_	_	_	_	_	98-99	wd	.	_	I-NP	*	O
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# PTBstring = (VROOT(S(NP(NN No.))(NP(CARD LXXII.)(ADJA 37.)(NN Woche)))(PUNKT .))
+# TopFString = (S(NN No.)(CARD LXXII.)(ADJA 37.)(NN Woche)(PUNKT .))
+# text = No. LXXII. 37. Woche .
+1	No.	No.	_	NN	_	_	_	_	_	_	101-104	we	No.	B-NP-insitu	B-NP	*	O
+2	LXXII.	Lxxii.	_	CARD	_	_	_	_	_	_	105-111	wf	LXXII.	B-NP-insitu	B-NP	*	O
+3	37.	37.	_	ADJA	_	_	_	_	_	_	112-115	w10	37.	I-NP	I-NP	*	O
+4	Woche	Woche	_	NN	_	_	_	_	_	_	116-121	w11	Woche	I-NP	I-NP	*	O
+5	.	.	_	$.	_	_	_	_	_	_	122-123	w12	.	_	O	*	O
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# PTBstring = (VROOT(S(AVP(ADV Freytags))(NP(ART den)(ADJA 11.)(NN September)(KOMMA ,)(CARD MDCCXLIV)(PUNKT .))))
+# TopFString = (S(ADV Freytags)(ART den)(ADJA 11.)(NN September)(KOMMA ,)(CARD MDCCXLIV)(PUNKT .))
+# text = Freytags den 11. September , MDCCXLIV .
+1	Freytags	freitags	_	ADV	_	_	_	_	_	_	125-133	w13	freitags	B-ADVP-insitu	B-ADVP	*	O
+2	den	d	_	ART	_	_	_	_	_	_	134-137	w14	den	B-NP-insitu	B-NP	*	O
+3	11.	11.	_	ADJA	_	_	_	_	_	_	138-141	w15	11.	I-NP	I-NP	*	O
+4	September	September	_	NN	_	_	_	_	_	_	142-151	w16	September	I-NP	I-NP	*	O
+5	,	,	_	$,	_	_	_	_	_	_	152-153	w17	,	I-NP	I-NP	*	O
+6	MDCCXLIV	mdccxliv	_	CARD	_	_	_	_	_	_	154-162	w18	MDCCXLIV	I-NP	I-NP	*	O
+7	.	.	_	$.	_	_	_	_	_	_	163-164	w19	.	_	I-NP	*	O
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# PTBstring = (VROOT(S(NP(PPER ES))(VP(VAFIN ist))(AVP(ADV bishero))(NP(ADV sehr)(PIS vieles))(VP(CVP(VP(PP(APPR von)(ART der)(NN Unpäßlichkeit))(NP(ART des)(NN Kö-<lb/>nigs)(PP(APPR von)(NE Franckreich)(KOMMA ,))))(KON und)(VP(NP(ART der)(NN Bestürtzung)(KOMMA ,)(AS(PP(APPR in)(PRELS welche))(NP(ART die)(NN Unterthanen))(VP(PAV darüber)(VVPP gerathen)(KOMMA ,))))(VVPP geschrieben)))(VAPP worden)(PUNKT ;))(S(NP(PPER sie))(VP(VAFIN ist))(VP(AP(AP(ADV fast)(ADJD unglaublich))(ADJD groß))(VAPP gewesen)(PUNKT .)))))
+# TopFString = (S(VF(PPER ES))(LK(VAFIN ist))(MF(ADV bishero)(ADV sehr)(PIS vieles)(APPR von)(ART der)(NN Unpäßlichkeit)(ART des)(NN Kö-<lb/>nigs)(APPR von)(NE Franckreich)(KOMMA ,)(KON und)(ART der)(NN Bestürtzung))(KOMMA ,)(NF(C(APPR in)(PRELS welche))(MF(ART die)(NN Unterthanen)(PAV darüber))(VC(VVPP gerathen)(KOMMA ,)(VVPP geschrieben)(VAPP worden)))(PUNKT ;)(VF(PPER sie))(LK(VAFIN ist))(MF(ADV fast)(ADJD unglaublich)(ADJD groß))(VC(VAPP gewesen))(PUNKT .))
+# text = ES ist bishero sehr vieles von der Unpäßlichkeit des Kö-<lb/>nigs von Franckreich , und der Bestürtzung , in welche die Unterthanen darüber gerathen , geschrieben worden ; sie ist fast unglaublich groß gewesen .
+1	ES	es	_	PPER	_	_	_	_	_	_	166-168	w1a,w1a_1	Es	B-NP-insitu	B-NP	*	B-VF
+2	ist	sein	_	VAFIN	_	_	_	_	_	_	169-172	w1b	ist	_	O	*	B-LK
+3	bishero	bisher	_	ADV	_	_	_	_	_	_	173-180	w1c	bisher	B-ADVP-insitu	B-ADVP	*	B-MF
+4	sehr	sehr	_	ADV	_	_	_	_	_	_	181-185	w1d	sehr	B-NP-insitu	B-NP	*	I-MF
+5	vieles	vieles	_	PIS	_	_	_	_	_	_	186-192	w1e	vieles	I-NP	I-NP	*	I-MF
+6	von	von	_	APPR	_	_	_	_	_	_	193-196	w1f	von	B-PP-insitu	B-PP	*	I-MF
+7	der	d	_	ART	_	_	_	_	_	_	197-200	w20	der	I-PP	I-PP	*	I-MF
+8	Unpäßlichkeit	Unpäßlichkeit	_	NN	_	_	_	_	_	_	201-214	w21	Unpäßlichkeit	I-PP	I-PP	*	I-MF
+9	des	d	_	ART	_	_	_	_	_	_	215-218	w22	des	B-NP-insitu	B-NP	*	I-MF
+10	Kö-<lb/>nigs	König	_	NN	_	_	_	_	_	_	219-231	w23	Königs	I-NP	I-NP	*	I-MF
+11	von	von	_	APPR	_	_	_	_	_	_	232-235	w24	von	I-NP	I-NP	*	I-MF
+12	Franckreich	Frankreich	_	NE	_	_	_	_	_	_	236-247	w25	Frankreich	I-NP	I-NP	*	I-MF
+13	,	,	_	$,	_	_	_	_	_	_	248-249	w26	,	_	I-NP	*	I-MF
+14	und	und	_	KON	_	_	_	_	_	_	250-253	w27	und	_	O	*	I-MF
+15	der	d	_	ART	_	_	_	_	_	B-Antec-1	254-257	w28	der	B-NP-insitu	B-NP	*	I-MF
+16	Bestürtzung	Bestürzung	_	NN	_	_	_	_	_	I-Antec-Head	258-269	w29	Bestürzung	I-NP	I-NP	*	I-MF
+17	,	,	_	$,	_	_	_	_	_	_	270-271	w2a	,	_	O	*	O
+18	in	in	_	APPR	_	_	_	_	_	_	272-274	w2b	in	B-RELC-ambig-1|B-PP-insitu	B-PP	*	B-NF|B-LK
+19	welche	welche	_	PRELS	_	_	_	_	_	_	275-281	w2c	welche	I-RELC|I-PP	I-PP	*	I-NF|I-LK
+20	die	d	_	ART	_	_	_	_	_	_	282-285	w2d	die	I-RELC|B-NP-insitu	B-NP	*	I-NF|B-MF
+21	Unterthanen	Untertan	_	NN	_	_	_	_	_	_	286-297	w2e	Untertanen	I-RELC|I-NP	I-NP	*	I-NF|I-MF
+22	darüber	darüber	_	PAV	_	_	_	_	_	_	298-305	w2f	darüber	I-RELC|B-PP-insitu	B-PP	*	I-NF|I-MF
+23	gerathen	geraten	_	VVPP	_	_	_	_	_	_	306-314	w30	geraten	I-RELC	O	*	I-NF|B-RK
+24	,	,	_	$,	_	_	_	_	_	_	315-316	w31	,	_	O	*	I-NF|I-RK
+25	geschrieben	schreiben	_	VVPP	_	_	_	_	_	_	317-328	w32	geschrieben	_	O	*	I-NF|I-RK
+26	worden	werden	_	VAPP	_	_	_	_	_	_	329-335	w33	worden	_	O	*	I-NF|I-RK
+27	;	;	_	$.	_	_	_	_	_	_	336-337	w34	;	_	O	*	O
+28	sie	sie	_	PPER	_	_	_	_	_	_	338-341	w35	sie	B-NP-insitu	B-NP	*	B-VF
+29	ist	sein	_	VAFIN	_	_	_	_	_	_	342-345	w36	ist	_	O	*	B-LK
+30	fast	fast	_	ADV	_	_	_	_	_	_	346-350	w37	fast	B-AP-insitu	B-AP	*	B-MF
+31	unglaublich	unglaublich	_	ADJD	_	_	_	_	_	_	351-362	w38	unglaublich	I-AP	I-AP	*	I-MF
+32	groß	groß	_	ADJD	_	_	_	_	_	_	363-367	w39	groß	I-AP	I-AP	*	I-MF
+33	gewesen	sein	_	VAPP	_	_	_	_	_	_	368-375	w3a	gewesen	_	O	*	B-RK
+34	.	.	_	$.	_	_	_	_	_	_	376-377	w3b	.	_	O	*	O
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# PTBstring = (VROOT(S(NP(PWS Was))(VP(VAFIN würde))(NP(PIS man))(VP(VP(ADV aber)(PTKNEG nicht)(ADV noch)(PP(APPR von)(PPOSAT ihren)(NN Bezeigen))(VVPP vernommen))(VAINF haben)(KOMMA ,)(S(KOUS wenn)(NP(ART das)(NN Ableben)(NP(ART des)(NN Königs)))(VP(ADJD würcklich)(VVPP erfolget))(VP(VAFIN wäre))(PUNKT ?)))))
+# TopFString = (S(VF(PWS Was))(LK(VAFIN würde))(MF(PIS man)(ADV aber)(PTKNEG nicht)(ADV noch)(APPR von)(PPOSAT ihren)(NN Bezeigen))(VC(VVPP vernommen)(VAINF haben))(KOMMA ,)(NF(C(KOUS wenn))(MF(ART das)(NN Ableben)(ART des)(NN Königs)(ADJD würcklich))(VC(VVPP erfolget)(VAFIN wäre)))(PUNKT ?))
+# text = Was würde man aber nicht noch von ihren Bezeigen vernommen haben , wenn das Ableben des Königs würcklich erfolget wäre ?
+1	Was	was	_	PWS	_	_	_	_	_	_	379-382	w3c	Was	B-NP-insitu	B-NP	*	B-VF
+2	würde	werden	_	VAFIN	_	_	_	_	_	_	383-388	w3d	würde	_	O	*	B-LK
+3	man	man	_	PIS	_	_	_	_	_	_	389-392	w3e	man	B-NP-insitu	B-NP	*	B-MF
+4	aber	aber	_	ADV	_	_	_	_	_	_	393-397	w3f	aber	B-ADVP-insitu	B-ADVP	*	I-MF
+5	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	398-403	w40	nicht	B-ADVP-insitu	B-ADVP	*	I-MF
+6	noch	noch	_	ADV	_	_	_	_	_	_	404-408	w41	noch	B-ADVP-insitu	B-ADVP	*	I-MF
+7	von	von	_	APPR	_	_	_	_	_	_	409-412	w42	von	B-PP-insitu	B-PP	*	I-MF
+8	ihren	ihr	_	PPOSAT	_	_	_	_	_	_	413-418	w43	ihren	I-PP	I-PP	*	I-MF
+9	Bezeigen	Bezeigen	_	NN	_	_	_	_	_	_	419-427	w44	Bezeigen	I-PP	I-PP	*	I-MF
+10	vernommen	vernehmen	_	VVPP	_	_	_	_	_	_	428-437	w45	vernommen	_	O	*	B-RK
+11	haben	haben	_	VAINF	_	_	_	_	_	_	438-443	w46	haben	_	O	*	I-RK
+12	,	,	_	$,	_	_	_	_	_	_	444-445	w47	,	_	O	*	O
+13	wenn	wenn	_	KOUS	_	_	_	_	_	_	446-450	w48	wenn	_	O	*	B-NF|B-LK
+14	das	d	_	ART	_	_	_	_	_	_	451-454	w49	das	B-NP-insitu	B-NP	*	I-NF|B-MF
+15	Ableben	Ableben	_	NN	_	_	_	_	_	_	455-462	w4a	Ableben	I-NP	I-NP	*	I-NF|I-MF
+16	des	d	_	ART	_	_	_	_	_	_	463-466	w4b	des	I-NP	I-NP	*	I-NF|I-MF
+17	Königs	König	_	NN	_	_	_	_	_	_	467-473	w4c	Königs	I-NP	I-NP	*	I-NF|I-MF
+18	würcklich	wirklich	_	ADJD	_	_	_	_	_	_	474-483	w4d	wirklich	B-AP-insitu	B-AP	*	I-NF|I-MF
+19	erfolget	erfolgen	_	VVPP	_	_	_	_	_	_	484-492	w4e	erfolget	_	O	*	I-NF|B-RK
+20	wäre	sein	_	VAFIN	_	_	_	_	_	_	493-497	w4f	wäre	_	O	*	I-NF|I-RK
+21	?	?	_	$.	_	_	_	_	_	_	498-499	w50	?	_	O	*	O
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# PTBstring = (VROOT(S(PP(APPR von)(PDS dem)(AS(PRELS was)(VP(PRF sich)(NP(AP(ADV schon)(ADJA ersten))(NN Falls))(PP(APPR in)(NE Paris))(VVPP zugetragen)(KOMMA ,))))(VP(VVFIN giebet))(NP(PPER uns))(NP(ADV wohl)(ADJA folgender)(NN Extract)(NP(ART eines)(NN Schreibens)(NP(ART einer)(NN Dame)(PP(APPR aus)(NE Paris)))))(PP(APPRART vom)(ADJA 18.)(NN August))(NP(ART die)(ADJA mehreste)(NN Nachricht)))(PUNKT :))
+# TopFString = (S(VF(APPR von)(PDS dem)(C(PRELS was))(MF(PRF sich)(ADV schon)(ADJA ersten)(NN Falls)(APPR in)(NE Paris))(VC(VVPP zugetragen)))(KOMMA ,)(LK(VVFIN giebet))(MF(PPER uns)(ADV wohl)(ADJA folgender)(NN Extract)(ART eines)(NN Schreibens)(ART einer)(NN Dame)(APPR aus)(NE Paris)(APPRART vom)(ADJA 18.)(NN August)(ART die)(ADJA mehreste)(NN Nachricht))(PUNKT :))
+# text = von dem was sich schon ersten Falls in Paris zugetragen , giebet uns wohl folgender Extract eines Schreibens einer Dame aus Paris vom 18. August die mehreste Nachricht :
+1	von	von	_	APPR	_	_	_	_	_	B-Antec-1	500-503	w51	von	B-PP-insitu	B-PP	*	B-VF
+2	dem	d	_	PDS	_	_	_	_	_	I-Antec-Head	504-507	w52	dem	I-PP	I-PP	*	I-VF
+3	was	was	_	PRELS	_	_	_	_	_	_	508-511	w53	was	I-PP|B-RELC-insitu-1|B-NP-insitu	I-PP	*	I-VF|B-LK
+4	sich	sich	_	PRF	_	_	_	_	_	_	512-516	w54	sich	I-PP|I-RELC|B-NP-insitu	I-PP	*	I-VF|B-MF
+5	schon	schon	_	ADV	_	_	_	_	_	_	517-522	w55	schon	I-PP|I-RELC|B-NP-insitu	I-PP	*	I-VF|I-MF
+6	ersten	erst	_	ADJA	_	_	_	_	_	_	523-529	w56	ersten	I-PP|I-RELC|I-NP	I-PP	*	I-VF|I-MF
+7	Falls	Fall	_	NN	_	_	_	_	_	_	530-535	w57	Falls	I-PP|I-RELC|I-NP	I-PP	*	I-VF|I-MF
+8	in	in	_	APPR	_	_	_	_	_	_	536-538	w58	in	I-PP|I-RELC|B-PP-insitu	I-PP	*	I-VF|I-MF
+9	Paris	Paris	_	NE	_	_	_	_	_	_	539-544	w59	Paris	I-PP|I-RELC|I-PP	I-PP	*	I-VF|I-MF
+10	zugetragen	zutragen	_	VVPP	_	_	_	_	_	_	545-555	w5a	zugetragen	I-PP|I-RELC	I-PP	*	I-VF|B-RK
+11	,	,	_	$,	_	_	_	_	_	_	556-557	w5b	,	_	I-PP	*	O
+12	giebet	geben	_	VVFIN	_	_	_	_	_	_	558-564	w5c	gibt	_	O	*	B-LK
+13	uns	wir	_	PPER	_	_	_	_	_	_	565-568	w5d	uns	B-NP-insitu	B-NP	*	B-MF
+14	wohl	wohl	_	ADV	_	_	_	_	_	_	569-573	w5e	wohl	B-NP-insitu	B-NP	*	I-MF
+15	folgender	folgend	_	ADJA	_	_	_	_	_	_	574-583	w5f	folgender	I-NP	I-NP	*	I-MF
+16	Extract	Extrakt	_	NN	_	_	_	_	_	_	584-591	w60	Extrakt	I-NP	I-NP	*	I-MF
+17	eines	eine	_	ART	_	_	_	_	_	_	592-597	w61	eines	I-NP	I-NP	*	I-MF
+18	Schreibens	Schreiben	_	NN	_	_	_	_	_	_	598-608	w62	Schreibens	I-NP	I-NP	*	I-MF
+19	einer	eine	_	ART	_	_	_	_	_	_	609-614	w63	einer	I-NP	I-NP	*	I-MF
+20	Dame	Dame	_	NN	_	_	_	_	_	_	615-619	w64	Dame	I-NP	I-NP	*	I-MF
+21	aus	aus	_	APPR	_	_	_	_	_	_	620-623	w65	aus	I-NP	I-NP	*	I-MF
+22	Paris	Paris	_	NE	_	_	_	_	_	_	624-629	w66	Paris	I-NP	I-NP	*	I-MF
+23	vom	vom	_	APPRART	_	_	_	_	_	_	630-633	w67	vom	B-PP-insitu	B-PP	*	I-MF
+24	18.	18.	_	ADJA	_	_	_	_	_	_	634-637	w68	18.	I-PP	I-PP	*	I-MF
+25	August	August	_	NN	_	_	_	_	_	_	638-644	w69	August	I-PP	I-PP	*	I-MF
+26	die	d	_	ART	_	_	_	_	_	_	645-648	w6a	die	B-NP-insitu	B-NP	*	I-MF
+27	mehreste	meiste	_	ADJA	_	_	_	_	_	_	649-657	w6b	meiste	I-NP	I-NP	*	I-MF
+28	Nachricht	Nachricht	_	NN	_	_	_	_	_	_	658-667	w6c	Nachricht	I-NP	I-NP	*	I-MF
+29	:	:	_	$.	_	_	_	_	_	_	668-669	w6d	:	_	O	*	O
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# PTBstring = (VROOT(S(NP(PPER Es))(VP(VAFIN ist))(AVP(ADV jetzt))(AVP(PTKNEG nicht)(ADV mehr))(NP(ART die)(NN Frage)(PUNKT :))(S(S(NP(PWS Was))(NP(PIS man))(NP(NN neues)(PP(APPRART vom)(NN Kriege)))(VP(VAFIN habe))(KOMMA ,))(VP(VMFIN wolte))(NP(NN GOtt))(PUNKT !)(S:OC(NP(PPER ich))(VP(VAFIN hätte))(PP(PAV davon))(VP(VP(PPER ihnen)(ADV niemahls)(PIS etwas)(VZ(PTKZU zu)(VVINF berichten)))(VAPP gehabt)(PUNKT :))))))
+# TopFString = (S(VF(PPER Es))(LK(VAFIN ist))(MF(ADV jetzt)(PTKNEG nicht)(ADV mehr)(ART die)(NN Frage))(PUNKT :)(VF(C(PWS Was))(MF(PIS man)(NN neues)(APPRART vom)(NN Kriege))(VC(VAFIN habe)))(KOMMA ,)(LK(VMFIN wolte))(MF(NN GOtt))(PUNKT !)(VF(PPER ich))(LK(VAFIN hätte))(MF(PAV davon)(PPER ihnen)(ADV niemahls)(PIS etwas))(VC(PTKZU zu)(VVINF berichten)(VAPP gehabt))(PUNKT :))
+# text = Es ist jetzt nicht mehr die Frage : Was man neues vom Kriege habe , wolte GOtt ! ich hätte davon ihnen niemahls etwas zu berichten gehabt :
+1	Es	es	_	PPER	_	_	_	_	_	_	671-673	w6e	Es	B-NP-insitu	B-NP	*	B-VF
+2	ist	sein	_	VAFIN	_	_	_	_	_	_	674-677	w6f	ist	_	O	*	B-LK
+3	jetzt	jetzt	_	ADV	_	_	_	_	_	_	678-683	w70	jetzt	B-ADVP-insitu	B-ADVP	*	B-MF
+4	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	684-689	w71	nicht	B-ADVP-insitu	B-ADVP	*	I-MF
+5	mehr	mehr	_	ADV	_	_	_	_	_	_	690-694	w72	mehr	I-ADVP	I-ADVP	*	I-MF
+6	die	d	_	ART	_	_	_	_	_	_	695-698	w73	die	B-NP-insitu	B-NP	*	I-MF
+7	Frage	Frage	_	NN	_	_	_	_	_	_	699-704	w74	Frage	I-NP	I-NP	*	I-MF
+8	:	:	_	$.	_	_	_	_	_	_	705-706	w75	:	_	I-NP	*	O
+9	Was	was	_	PWS	_	_	_	_	_	_	707-710	w76	Was	B-NP-insitu	B-NP	*	B-VF|B-LK
+10	man	man	_	PIS	_	_	_	_	_	_	711-714	w77	man	B-NP-insitu	B-NP	*	I-VF|B-MF
+11	neues	neu	_	NN	_	_	_	_	_	_	715-720	w78	neues	B-NP-insitu	B-NP	*	I-VF|I-MF
+12	vom	vom	_	APPRART	_	_	_	_	_	_	721-724	w79	vom	I-NP	I-NP	*	I-VF|I-MF
+13	Kriege	Krieg	_	NN	_	_	_	_	_	_	725-731	w7a	Kriege	I-NP	I-NP	*	I-VF|I-MF
+14	habe	haben	_	VAFIN	_	_	_	_	_	_	732-736	w7b	habe	_	O	*	I-VF|B-RK
+15	,	,	_	$,	_	_	_	_	_	_	737-738	w7c	,	_	O	*	O
+16	wolte	wollen	_	VMFIN	_	_	_	_	_	_	739-744	w7d	wollte	_	O	*	B-LK
+17	GOtt	Gott	_	NN	_	_	_	_	_	_	745-749	w7e	Gott	B-NP-insitu	B-NP	*	B-MF
+18	!	!	_	$.	_	_	_	_	_	_	750-751	w7f	!	_	O	*	O
+19	ich	ich	_	PPER	_	_	_	_	_	_	752-755	w80	ich	B-NP-insitu	B-NP	*	B-VF
+20	hätte	haben	_	VAFIN	_	_	_	_	_	_	756-761	w81	hätte	_	O	*	B-LK
+21	davon	davon	_	PAV	_	_	_	_	_	_	762-767	w82	davon	B-PP-insitu	B-PP	*	B-MF
+22	ihnen	sie	_	PPER	_	_	_	_	_	_	768-773	w83	ihnen	B-NP-insitu	B-NP	*	I-MF
+23	niemahls	niemals	_	ADV	_	_	_	_	_	_	774-782	w84	niemals	B-ADVP-insitu	B-ADVP	*	I-MF
+24	etwas	etwas	_	PIS	_	_	_	_	_	_	783-788	w85	etwas	B-NP-insitu	B-NP	*	I-MF
+25	zu	zu	_	PTKZU	_	_	_	_	_	_	789-791	w86	zu	_	O	*	B-RK
+26	berichten	berichten	_	VVINF	_	_	_	_	_	_	792-801	w87	berichten	_	O	*	I-RK
+27	gehabt	haben	_	VAPP	_	_	_	_	_	_	802-808	w88	gehabt	_	O	*	I-RK
+28	:	:	_	$.	_	_	_	_	_	_	809-810	w89	:	_	O	*	O
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# PTBstring = (VROOT(S(AVP(ADV Vielleicht))(VP(VVFIN fänden))(NP(PPER wir))(NP(PRF uns))(AVP(ADV je-<lb/>tzund))(AVP(PTKNEG nicht))(PP(APPR in)(PIAT solcher)(CNP(NN Conſternation)(KON und)(NN Schrecken)(KOMMA ,))(S:RC(PWAV worein)(NP(PPER uns))(NP(ART die)(NN Maladie)(NP(ART des)(NN Königs)))(VP(VVPP gesetzet)(PUNKT .))))))
+# TopFString = (S(VF(ADV Vielleicht))(LK(VVFIN fänden))(MF(PPER wir)(PRF uns)(ADV je-<lb/>tzund)(PTKNEG nicht)(APPR in)(PIAT solcher)(NN Conſternation)(KON und)(NN Schrecken))(KOMMA ,)(NF(C(PWAV worein))(MF(PPER uns)(ART die)(NN Maladie)(ART des)(NN Königs))(VC(VVPP gesetzet)))(PUNKT .))
+# text = Vielleicht fänden wir uns je-<lb/>tzund nicht in solcher Conſternation und Schrecken , worein uns die Maladie des Königs gesetzet .
+1	Vielleicht	vielleicht	_	ADV	_	_	_	_	_	_	812-822	w8a	Vielleicht	B-ADVP-insitu	B-ADVP	*	B-VF
+2	fänden	finden	_	VVFIN	_	_	_	_	_	_	823-829	w8b	fänden	_	O	*	B-LK
+3	wir	wir	_	PPER	_	_	_	_	_	_	830-833	w8c	wir	B-NP-insitu	B-NP	*	B-MF
+4	uns	uns	_	PRF	_	_	_	_	_	_	834-837	w8d	uns	B-NP-insitu	B-NP	*	I-MF
+5	je-<lb/>tzund	jetzund	_	ADV	_	_	_	_	_	_	838-851	w8e	jetzund	B-ADVP-insitu	B-ADVP	*	I-MF
+6	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	852-857	w8f	nicht	B-ADVP-insitu	B-ADVP	*	I-MF
+7	in	in	_	APPR	_	_	_	_	_	_	858-860	w90	in	B-PP-insitu	B-PP	*	I-MF
+8	solcher	solch	_	PIAT	_	_	_	_	_	_	861-868	w91	solcher	I-PP	I-PP	*	I-MF
+9	Conſternation	Consternation	_	NN	_	_	_	_	_	_	869-882	w92	Consternation	_	O	*	I-MF
+10	und	und	_	KON	_	_	_	_	_	_	883-886	w93	und	_	O	*	I-MF
+11	Schrecken	Schrecken	_	NN	_	_	_	_	_	_	887-896	w94	Schrecken	_	O	*	I-MF
+12	,	,	_	$,	_	_	_	_	_	_	897-898	w95	,	_	O	*	O
+13	worein	worein	_	PWAV	_	_	_	_	_	_	899-905	w96	worein	_	O	*	B-NF|B-LK
+14	uns	wir	_	PPER	_	_	_	_	_	_	906-909	w97	uns	B-NP-insitu	B-NP	*	I-NF|B-MF
+15	die	d	_	ART	_	_	_	_	_	_	910-913	w98	die	B-NP-insitu	B-NP	*	I-NF|I-MF
+16	Maladie	Maladie	_	NN	_	_	_	_	_	_	914-921	w99	Maladie	I-NP	I-NP	*	I-NF|I-MF
+17	des	d	_	ART	_	_	_	_	_	_	922-925	w9a	des	I-NP	I-NP	*	I-NF|I-MF
+18	Königs	König	_	NN	_	_	_	_	_	_	926-932	w9b	Königs	I-NP	I-NP	*	I-NF|I-MF
+19	gesetzet	setzen	_	VVPP	_	_	_	_	_	_	933-941	w9c	gesetzt	_	O	*	I-NF|B-RK
+20	.	.	_	$.	_	_	_	_	_	_	942-943	w9d	.	_	O	*	O
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# PTBstring = (VROOT(CS(S(NP(PPER Es))(VP(VAFIN ist))(NP(ART ein)(ADJA hitziges)(NN Fieber)(PUNKT ;)))(KON und)(S(NP(PPER wir))(VP(VAFIN haben))(NP(PPER es))(AVP(PTKNEG nicht)(ADV eher)(KOMMA ,)(S(KOKOM als)(VP(NP(ART den)(NN 15.))(ADJD recht)(VVINF erfahren)(PUNKT .)))))))
+# TopFString = (S(VF(PPER Es))(LK(VAFIN ist))(MF(ART ein)(ADJA hitziges)(NN Fieber))(PUNKT ;)(KON und)(VF(PPER wir))(LK(VAFIN haben))(MF(PPER es)(PTKNEG nicht)(ADV eher)(KOMMA ,)(KOKOM als)(ART den)(NN 15.)(ADJD recht))(VC(VVINF erfahren))(PUNKT .))
+# text = Es ist ein hitziges Fieber ; und wir haben es nicht eher , als den 15. recht erfahren .
+1	Es	es	_	PPER	_	_	_	_	_	_	945-947	w9e	Es	B-NP-insitu	B-NP	*	B-VF
+2	ist	sein	_	VAFIN	_	_	_	_	_	_	948-951	w9f	ist	_	O	*	B-LK
+3	ein	eine	_	ART	_	_	_	_	_	_	952-955	wa0	ein	B-NP-insitu	B-NP	*	B-MF
+4	hitziges	hitzig	_	ADJA	_	_	_	_	_	_	956-964	wa1	hitziges	I-NP	I-NP	*	I-MF
+5	Fieber	Fieber	_	NN	_	_	_	_	_	_	965-971	wa2	Fieber	I-NP	I-NP	*	I-MF
+6	;	;	_	$.	_	_	_	_	_	_	972-973	wa3	;	_	I-NP	*	O
+7	und	und	_	KON	_	_	_	_	_	_	974-977	wa4	und	_	O	*	O
+8	wir	wir	_	PPER	_	_	_	_	_	_	978-981	wa5	wir	B-NP-insitu	B-NP	*	B-VF
+9	haben	haben	_	VAFIN	_	_	_	_	_	_	982-987	wa6	haben	_	O	*	B-LK
+10	es	es	_	PPER	_	_	_	_	_	_	988-990	wa7	es	B-NP-insitu	B-NP	*	B-MF
+11	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	991-996	wa8	nicht	B-ADVP-insitu	B-ADVP	*	I-MF
+12	eher	eher	_	ADV	_	_	_	_	_	_	997-1001	wa9	eher	I-ADVP	I-ADVP	*	I-MF
+13	,	,	_	$,	_	_	_	_	_	_	1002-1003	waa	,	I-ADVP	I-ADVP	*	I-MF
+14	als	als	_	KOKOM	_	_	_	_	_	_	1004-1007	wab	als	I-ADVP	I-ADVP	*	I-MF
+15	den	d	_	ART	_	_	_	_	_	_	1008-1011	wac	den	B-NP-insitu	B-NP	*	I-MF
+16	15.	15.	_	NN	_	_	_	_	_	_	1012-1015	wad	15.	I-NP	I-NP	*	I-MF
+17	recht	Recht	_	ADJD	_	_	_	_	_	_	1016-1021	wae	recht	B-AP-insitu	B-AP	*	I-MF
+18	erfahren	erfahren	_	VVINF	_	_	_	_	_	_	1022-1030	waf	erfahren	_	O	*	B-RK
+19	.	.	_	$.	_	_	_	_	_	_	1031-1032	wb0	.	_	O	*	O
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# PTBstring = (VROOT(S(PP(APPR Jn)(PDAT derselben)(NN Nacht))(VP(VAFIN sind))(PP(APPR auf)(CARD 7.)(NN Courier))(NP(PIS einer))(VP(PP(APPR nach)(ART den)(NN andern))(VVPP angelanget)(PUNKT .))))
+# TopFString = (S(VF(APPR Jn)(PDAT derselben)(NN Nacht))(LK(VAFIN sind))(MF(APPR auf)(CARD 7.)(NN Courier)(PIS einer)(APPR nach)(ART den)(NN andern))(VC(VVPP angelanget))(PUNKT .))
+# text = Jn derselben Nacht sind auf 7. Courier einer nach den andern angelanget .
+1	Jn	in	_	APPR	_	_	_	_	_	_	1034-1036	wb1	In	B-PP-insitu	B-PP	*	B-VF
+2	derselben	dieselbe	_	PDAT	_	_	_	_	_	_	1037-1046	wb2	derselben	I-PP	I-PP	*	I-VF
+3	Nacht	Nacht	_	NN	_	_	_	_	_	_	1047-1052	wb3	Nacht	I-PP	I-PP	*	I-VF
+4	sind	sein	_	VAFIN	_	_	_	_	_	_	1053-1057	wb4	sind	_	O	*	B-LK
+5	auf	auf	_	APPR	_	_	_	_	_	_	1058-1061	wb5	auf	B-PP-insitu	B-PP	*	B-MF
+6	7.	7.	_	CARD	_	_	_	_	_	_	1062-1064	wb6	7.	I-PP	I-PP	*	I-MF
+7	Courier	Kurier	_	NN	_	_	_	_	_	_	1065-1072	wb7	Kurier	I-PP	I-PP	*	I-MF
+8	einer	eine	_	PIS	_	_	_	_	_	_	1073-1078	wb8	einer	B-NP-insitu	B-NP	*	I-MF
+9	nach	nach	_	APPR	_	_	_	_	_	_	1079-1083	wb9	nach	B-PP-insitu	B-PP	*	I-MF
+10	den	d	_	ART	_	_	_	_	_	_	1084-1087	wba	den	I-PP	I-PP	*	I-MF
+11	andern	ander	_	NN	_	_	_	_	_	_	1088-1094	wbb	anderen	I-PP	I-PP	*	I-MF
+12	angelanget	angelangen	_	VVPP	_	_	_	_	_	_	1095-1105	wbc	angelanget	_	O	*	B-RK
+13	.	.	_	$.	_	_	_	_	_	_	1106-1107	wbd	.	_	O	*	O
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# PTBstring = (VROOT(S(PP(APPR Auf)(ART die)(AP(PP(APPR mit)(ART dem)(NN letzten)(KOMMA ,)(AS(PRELS welcher)(VP(PP(APPR um)(CARD 4.)(NN Uhr)(NP(ART des)(NN Morgens)))(PP(APPR auf)(ART den)(NN Schlos-<lb/>se))(VVPP abgestiegen)(KOMMA ,))))(ADJA eingelauffene))(NN Depechen))(VP(VAFIN ist))(NP(ART die)(NN Königin))(CVP(VP(NP(CARD 2.)(NN Stunden))(PP(PAV darnach)(PP(APPR in)(CARD 3.)(AP(PP(APPR mit)(CARD 8.)(NN Pferden))(ADJA bespannten))(NN Carossen)(KOMMA ,))))(KON und)(VP(NP(ART einer)(AP(ADV eben)(AP(PTKNEG nicht)(ADJD sonderlich))(ADJA grossen))(NN Suite))(PP(APPR nach)(NE Metz))(VVPP aufgebrochen)(PUNKT .)))))
+# TopFString = (S(APPR Auf)(ART die)(APPR mit)(ART dem)(NN letzten)(KOMMA ,)(C(PRELS welcher))(MF(APPR um)(CARD 4.)(NN Uhr)(ART des)(NN Morgens)(APPR auf)(ART den)(NN Schlos-<lb/>se))(VC(VVPP abgestiegen))(KOMMA ,)(VF(ADJA eingelauffene)(NN Depechen))(LK(VAFIN ist))(MF(ART die)(NN Königin)(CARD 2.)(NN Stunden)(PAV darnach)(APPR in)(CARD 3.)(APPR mit)(CARD 8.)(NN Pferden)(ADJA bespannten)(NN Carossen)(KOMMA ,)(KON und)(ART einer)(ADV eben)(PTKNEG nicht)(ADJD sonderlich)(ADJA grossen)(NN Suite)(APPR nach)(NE Metz))(VC(VVPP aufgebrochen))(PUNKT .))
+# text = Auf die mit dem letzten , welcher um 4. Uhr des Morgens auf den Schlos-<lb/>se abgestiegen , eingelauffene Depechen ist die Königin 2. Stunden darnach in 3. mit 8. Pferden bespannten Carossen , und einer eben nicht sonderlich grossen Suite nach Metz aufgebrochen .
+1	Auf	auf	_	APPR	_	_	_	_	_	_	1109-1112	wbe	Auf	B-PP-insitu	B-PP	*	O
+2	die	d	_	ART	_	_	_	_	_	_	1113-1116	wbf	die	I-PP	I-PP	*	O
+3	mit	mit	_	APPR	_	_	_	_	_	B-Antec-1	1117-1120	wc0	mit	I-PP	I-PP	*	O
+4	dem	d	_	ART	_	_	_	_	_	I-Antec	1121-1124	wc1	dem	I-PP	I-PP	*	O
+5	letzten	letzte	_	NN	_	_	_	_	_	I-Antec-Head	1125-1132	wc2	letzten	I-PP	I-PP	*	O
+6	,	,	_	$,	_	_	_	_	_	_	1133-1134	wc3	,	I-PP	I-PP	*	O
+7	welcher	welche	_	PRELS	_	_	_	_	_	_	1135-1142	wc4	welcher	I-PP|B-RELC-insitu-1|B-NP-insitu	I-PP	*	B-LK
+8	um	um	_	APPR	_	_	_	_	_	_	1143-1145	wc5	um	I-PP|I-RELC|B-PP-insitu	I-PP	*	B-MF
+9	4.	4.	_	CARD	_	_	_	_	_	_	1146-1148	wc6	4.	I-PP|I-RELC|I-PP	I-PP	*	I-MF
+10	Uhr	Uhr	_	NN	_	_	_	_	_	_	1149-1152	wc7	Uhr	I-PP|I-RELC|I-PP	I-PP	*	I-MF
+11	des	d	_	ART	_	_	_	_	_	_	1153-1156	wc8	des	I-PP|I-RELC|I-PP	I-PP	*	I-MF
+12	Morgens	morgens	_	NN	_	_	_	_	_	_	1157-1164	wc9	Morgens	I-PP|I-RELC|I-PP	I-PP	*	I-MF
+13	auf	auf	_	APPR	_	_	_	_	_	_	1165-1168	wca	auf	I-PP|I-RELC|B-PP-insitu	I-PP	*	I-MF
+14	den	d	_	ART	_	_	_	_	_	_	1169-1172	wcb	den	I-PP|I-RELC|I-PP	I-PP	*	I-MF
+15	Schlos-<lb/>se	Schloße	_	NN	_	_	_	_	_	_	1173-1187	wcc	Schlosse	I-PP|I-RELC|I-PP	I-PP	*	I-MF
+16	abgestiegen	absteigen	_	VVPP	_	_	_	_	_	_	1188-1199	wcd	abgestiegen	I-PP|I-RELC	I-PP	*	B-RK
+17	,	,	_	$,	_	_	_	_	_	_	1200-1201	wce	,	I-PP	I-PP	*	O
+18	eingelauffene	eingelaufen	_	ADJA	_	_	_	_	_	_	1202-1215	wcf	eingelaufene	I-PP	I-PP	*	B-VF
+19	Depechen	Depesche	_	NN	_	_	_	_	_	_	1216-1224	wd0,wd0_1	Depeschen	I-PP	I-PP	*	I-VF
+20	ist	sein	_	VAFIN	_	_	_	_	_	_	1225-1228	wd1	ist	_	O	*	B-LK
+21	die	d	_	ART	_	_	_	_	_	_	1229-1232	wd2	die	B-NP-insitu	B-NP	*	B-MF
+22	Königin	Königin	_	NN	_	_	_	_	_	_	1233-1240	wd3	Königin	I-NP	I-NP	*	I-MF
+23	2.	2.	_	CARD	_	_	_	_	_	_	1241-1243	wd4	2.	B-NP-insitu	B-NP	*	I-MF
+24	Stunden	Stunde	_	NN	_	_	_	_	_	_	1244-1251	wd5	Stunden	I-NP	I-NP	*	I-MF
+25	darnach	danach	_	PAV	_	_	_	_	_	_	1252-1259	wd6	danach	B-PP-insitu	B-PP	*	I-MF
+26	in	in	_	APPR	_	_	_	_	_	_	1260-1262	wd7	in	I-PP	I-PP	*	I-MF
+27	3.	3.	_	CARD	_	_	_	_	_	_	1263-1265	wd8	3.	I-PP	I-PP	*	I-MF
+28	mit	mit	_	APPR	_	_	_	_	_	_	1266-1269	wd9	mit	I-PP	I-PP	*	I-MF
+29	8.	8.	_	CARD	_	_	_	_	_	_	1270-1272	wda	8.	I-PP	I-PP	*	I-MF
+30	Pferden	Pferd	_	NN	_	_	_	_	_	_	1273-1280	wdb	Pferden	I-PP	I-PP	*	I-MF
+31	bespannten	bespannt	_	ADJA	_	_	_	_	_	_	1281-1291	wdc	bespannten	I-PP	I-PP	*	I-MF
+32	Carossen	Karosse	_	NN	_	_	_	_	_	_	1292-1300	wdd	Karossen	I-PP	I-PP	*	I-MF
+33	,	,	_	$,	_	_	_	_	_	_	1301-1302	wde	,	_	I-PP	*	I-MF
+34	und	und	_	KON	_	_	_	_	_	_	1303-1306	wdf	und	_	O	*	I-MF
+35	einer	eine	_	ART	_	_	_	_	_	_	1307-1312	we0	einer	B-NP-insitu	B-NP	*	I-MF
+36	eben	eben	_	ADV	_	_	_	_	_	_	1313-1317	we1	eben	I-NP	I-NP	*	I-MF
+37	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	1318-1323	we2	nicht	I-NP	I-NP	*	I-MF
+38	sonderlich	sonderlich	_	ADJD	_	_	_	_	_	_	1324-1334	we3	sonderlich	I-NP	I-NP	*	I-MF
+39	grossen	groß	_	ADJA	_	_	_	_	_	_	1335-1342	we4	großen	I-NP	I-NP	*	I-MF
+40	Suite	Suite	_	NN	_	_	_	_	_	_	1343-1348	we5	Suite	I-NP	I-NP	*	I-MF
+41	nach	nach	_	APPR	_	_	_	_	_	_	1349-1353	we6	nach	B-PP-insitu	B-PP	*	I-MF
+42	Metz	Metz	_	NE	_	_	_	_	_	_	1354-1358	we7	Metz	I-PP	I-PP	*	I-MF
+43	aufgebrochen	aufbrechen	_	VVPP	_	_	_	_	_	_	1359-1371	we8	aufgebrochen	_	O	*	B-RK
+44	.	.	_	$.	_	_	_	_	_	_	1372-1373	we9	.	_	O	*	O
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# PTBstring = (VROOT(S(NP(ART Der)(NN Dau-<lb/>phin))(VP(VVFIN folgte))(PP(APPR um)(CARD 1.)(NN Uhr))(CNP(NP(ADV eben)(PDAT desselbigen)(NN Tages)(KOMMA ,))(KON und)(NP(ART die)(NN Printzeßinnen)(PP(APPR um)(CARD 5.)(NN Uhr))))(SVP(PTKVZ nach)))(PUNKT .))
+# TopFString = (S(VF(ART Der)(NN Dau-<lb/>phin))(LK(VVFIN folgte))(MF(APPR um)(CARD 1.)(NN Uhr)(ADV eben)(PDAT desselbigen)(NN Tages)(KOMMA ,)(KON und)(ART die)(NN Printzeßinnen)(APPR um)(CARD 5.)(NN Uhr))(VC(PTKVZ nach))(PUNKT .))
+# text = Der Dau-<lb/>phin folgte um 1. Uhr eben desselbigen Tages , und die Printzeßinnen um 5. Uhr nach .
+1	Der	d	_	ART	_	_	_	_	_	_	1375-1378	wea	Der	B-NP-insitu	B-NP	*	B-VF
+2	Dau-<lb/>phin	Dauphin	_	NN	_	_	_	_	_	_	1379-1392	web	Dauphin	I-NP	I-NP	*	I-VF
+3	folgte	folgen	_	VVFIN	_	_	_	_	_	_	1393-1399	wec	folgte	_	O	*	B-LK
+4	um	um	_	APPR	_	_	_	_	_	_	1400-1402	wed	um	B-PP-insitu	B-PP	*	B-MF
+5	1.	1.	_	CARD	_	_	_	_	_	_	1403-1405	wee	1.	I-PP	I-PP	*	I-MF
+6	Uhr	Uhr	_	NN	_	_	_	_	_	_	1406-1409	wef	Uhr	I-PP	I-PP	*	I-MF
+7	eben	eben	_	ADV	_	_	_	_	_	_	1410-1414	wf0	eben	B-NP-insitu	B-NP	*	I-MF
+8	desselbigen	dieselbige	_	PDAT	_	_	_	_	_	_	1415-1426	wf1	desselbigen	I-NP	I-NP	*	I-MF
+9	Tages	Tag	_	NN	_	_	_	_	_	_	1427-1432	wf2	Tages	I-NP	I-NP	*	I-MF
+10	,	,	_	$,	_	_	_	_	_	_	1433-1434	wf3	,	I-NP	I-NP	*	I-MF
+11	und	und	_	KON	_	_	_	_	_	_	1435-1438	wf4	und	I-NP	I-NP	*	I-MF
+12	die	d	_	ART	_	_	_	_	_	_	1439-1442	wf5	die	I-NP	I-NP	*	I-MF
+13	Printzeßinnen	Prinzessin	_	NN	_	_	_	_	_	_	1443-1456	wf6	Prinzessinnen	I-NP	I-NP	*	I-MF
+14	um	um	_	APPR	_	_	_	_	_	_	1457-1459	wf7	um	I-NP	I-NP	*	I-MF
+15	5.	5.	_	CARD	_	_	_	_	_	_	1460-1462	wf8	5.	I-NP	I-NP	*	I-MF
+16	Uhr	Uhr	_	NN	_	_	_	_	_	_	1463-1466	wf9	Uhr	I-NP	I-NP	*	I-MF
+17	nach	nach	_	PTKVZ	_	_	_	_	_	_	1467-1471	wfa	nach	_	O	*	B-RK
+18	.	.	_	$.	_	_	_	_	_	_	1472-1473	wfb	.	_	O	*	O
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# PTBstring = (VROOT(S(NP(PPER Es))(VP(VVFIN geschahe))(NP(PDAT dieses))(NP(PIS alles))(PP(APPR auf)(NP(ART des)(NN Königs))(CNP(NN Beruf)(KON und)(NN Verlangen)(KOMMA ,))(AS(PRELS welcher)(ADV gerne)(VP(VP(CNP(NP(ART die)(NN Königin))(KON und)(NP(ADJA Königliche)(NN Familie)))(VVINF sehen))(VMINF wollen)(PUNKT .))))))
+# TopFString = (S(VF(PPER Es))(LK(VVFIN geschahe))(MF(PDAT dieses)(PIS alles)(APPR auf)(ART des)(NN Königs)(NN Beruf)(KON und)(NN Verlangen))(KOMMA ,)(NF(C(PRELS welcher))(MF(ADV gerne)(ART die)(NN Königin)(KON und)(ADJA Königliche)(NN Familie))(VC(VVINF sehen)(VMINF wollen)))(PUNKT .))
+# text = Es geschahe dieses alles auf des Königs Beruf und Verlangen , welcher gerne die Königin und Königliche Familie sehen wollen .
+1	Es	es	_	PPER	_	_	_	_	_	_	1475-1477	wfc	Es	B-NP-insitu	B-NP	*	B-VF
+2	geschahe	geschehen	_	VVFIN	_	_	_	_	_	_	1478-1486	wfd	geschah	_	O	*	B-LK
+3	dieses	diese	_	PDAT	_	_	_	_	_	_	1487-1493	wfe	dieses	B-NP-insitu	B-NP	*	B-MF
+4	alles	alle	_	PIS	_	_	_	_	_	_	1494-1499	wff	alles	B-NP-insitu	B-NP	*	I-MF
+5	auf	auf	_	APPR	_	_	_	_	_	B-Antec-1	1500-1503	w100	auf	B-PP-insitu	B-PP	*	I-MF
+6	des	d	_	ART	_	_	_	_	_	I-Antec	1504-1507	w101	des	B-NP-insitu	B-NP	*	I-MF
+7	Königs	König	_	NN	_	_	_	_	_	I-Antec	1508-1514	w102	Königs	I-NP	I-NP	*	I-MF
+8	Beruf	Beruf	_	NN	_	_	_	_	_	I-Antec	1515-1520	w103	Beruf	_	O	*	I-MF
+9	und	und	_	KON	_	_	_	_	_	I-Antec	1521-1524	w104	und	_	O	*	I-MF
+10	Verlangen	Verlangen	_	NN	_	_	_	_	_	I-Antec	1525-1534	w105	Verlangen	_	O	*	I-MF
+11	,	,	_	$,	_	_	_	_	_	_	1535-1536	w106	,	_	O	*	O
+12	welcher	welche	_	PRELS	_	_	_	_	_	_	1537-1544	w107	welcher	B-RELC-ambig-1|B-NP-insitu	B-NP	*	B-NF|B-LK
+13	gerne	gerne	_	ADV	_	_	_	_	_	_	1545-1550	w108	gerne	I-RELC|B-ADVP-insitu	B-ADVP	*	I-NF|B-MF
+14	die	d	_	ART	_	_	_	_	_	_	1551-1554	w109	die	I-RELC|B-NP-insitu	B-NP	*	I-NF|I-MF
+15	Königin	Königin	_	NN	_	_	_	_	_	_	1555-1562	w10a	Königin	I-RELC|I-NP	I-NP	*	I-NF|I-MF
+16	und	und	_	KON	_	_	_	_	_	_	1563-1566	w10b	und	I-RELC|I-NP	I-NP	*	I-NF|I-MF
+17	Königliche	königlich	_	ADJA	_	_	_	_	_	_	1567-1577	w10c	Königliche	I-RELC|I-NP	I-NP	*	I-NF|I-MF
+18	Familie	Familie	_	NN	_	_	_	_	_	_	1578-1585	w10d	Familie	I-RELC|I-NP	I-NP	*	I-NF|I-MF
+19	sehen	sehen	_	VVINF	_	_	_	_	_	_	1586-1591	w10e	sehen	I-RELC	O	*	I-NF|B-RK
+20	wollen	wollen	_	VMINF	_	_	_	_	_	_	1592-1598	w10f	wollen	I-RELC	O	*	I-NF|I-RK
+21	.	.	_	$.	_	_	_	_	_	_	1599-1600	w110	.	_	O	*	O
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# PTBstring = (VROOT(S(NP(NN Se.)(NN Majest.))(VP(VAFIN hatten))(VP(ADV schon)(NP(ART die)(NN Sacramenta)(NP(ART der)(ADJA heili-<lb/>gen)(NN Kirche)))(VVPP begehret)(KOMMA ,)(S(NP(PRELS welche))(NP(PPER Jhnen))(VP(ADV auch)(NP(ART der)(NN Bischof)(PP(APPR von)(NE Soissons)))(VVPP gereichet))(PUNKT .)))))
+# TopFString = (S(VF(NN Se.)(NN Majest.))(LK(VAFIN hatten))(MF(ADV schon)(ART die)(NN Sacramenta)(ART der)(ADJA heili-<lb/>gen)(NN Kirche))(VC(VVPP begehret))(KOMMA ,)(NF(C(PRELS welche))(MF(PPER Jhnen)(ADV auch)(ART der)(NN Bischof)(APPR von)(NE Soissons))(VC(VVPP gereichet)))(PUNKT .))
+# text = Se. Majest. hatten schon die Sacramenta der heili-<lb/>gen Kirche begehret , welche Jhnen auch der Bischof von Soissons gereichet .
+1	Se.	Se.	_	NN	_	_	_	_	_	_	1602-1605	w111	Se.	B-NP-insitu	B-NP	*	B-VF
+2	Majest.	Majest.	_	NN	_	_	_	_	_	_	1606-1613	w112	Majest.	I-NP	I-NP	*	I-VF
+3	hatten	haben	_	VAFIN	_	_	_	_	_	_	1614-1620	w113	hatten	_	O	*	B-LK
+4	schon	schon	_	ADV	_	_	_	_	_	_	1621-1626	w114	schon	B-ADVP-insitu	B-ADVP	*	B-MF
+5	die	d	_	ART	_	_	_	_	_	B-Antec-1	1627-1630	w115	die	B-NP-insitu	B-NP	*	I-MF
+6	Sacramenta	Sacramenta	_	NN	_	_	_	_	_	I-Antec-Head	1631-1641	w116	Sacramenta	I-NP	I-NP	*	I-MF
+7	der	d	_	ART	_	_	_	_	_	I-Antec	1642-1645	w117	der	I-NP	I-NP	*	I-MF
+8	heili-<lb/>gen	heilig	_	ADJA	_	_	_	_	_	I-Antec	1646-1660	w118	heiligen	I-NP	I-NP	*	I-MF
+9	Kirche	Kirche	_	NN	_	_	_	_	_	I-Antec	1661-1667	w119	Kirche	I-NP	I-NP	*	I-MF
+10	begehret	begehren	_	VVPP	_	_	_	_	_	_	1668-1676	w11a	begehret	_	O	*	B-RK
+11	,	,	_	$,	_	_	_	_	_	_	1677-1678	w11b	,	_	O	*	O
+12	welche	welche	_	PRELS	_	_	_	_	_	_	1679-1685	w11c	welche	B-RELC-extrap-1|B-NP-insitu	B-NP	*	B-NF|B-LK
+13	Jhnen	sie	_	PPER	_	_	_	_	_	_	1686-1691	w11d	Ihnen	I-RELC|B-NP-insitu	B-NP	*	I-NF|B-MF
+14	auch	auch	_	ADV	_	_	_	_	_	_	1692-1696	w11e	auch	I-RELC|B-ADVP-insitu	B-ADVP	*	I-NF|I-MF
+15	der	d	_	ART	_	_	_	_	_	_	1697-1700	w11f	der	I-RELC|B-NP-insitu	B-NP	*	I-NF|I-MF
+16	Bischof	Bischof	_	NN	_	_	_	_	_	_	1701-1708	w120	Bischof	I-RELC|I-NP	I-NP	*	I-NF|I-MF
+17	von	von	_	APPR	_	_	_	_	_	_	1709-1712	w121	von	I-RELC|I-NP	I-NP	*	I-NF|I-MF
+18	Soissons	Soissons	_	NE	_	_	_	_	_	_	1713-1721	w122	Soissons	I-RELC|I-NP	I-NP	*	I-NF|I-MF
+19	gereichet	gereichen	_	VVPP	_	_	_	_	_	_	1722-1731	w123	gereichet	I-RELC	O	*	I-NF|B-RK
+20	.	.	_	$.	_	_	_	_	_	_	1732-1733	w124	.	_	O	*	O
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# PTBstring = (VROOT(S(NP(PPER Jch))(VP(VVFIN weiß))(NP(PPER ihnen))(CNP(NP(ART die)(AP(ADV gantz)(ADJA ausserordentliche))(NN Betrübtniß))(KON und)(NP(ART das)(ADJA niedergeschlagene)(NN Wesen)(KOMMA ,)(S:RC(NP(PRELS welches))(NP(PIS man))(VP(PP(APPR durch)(ADV gantz)(NE Paris))(NP(PIS jedermann)(ADV recht))(ADJD deutlich)(PP(APPR an)(ART der)(NN Stirn))(VVINF lesen))(VP(VMFIN können))(KOMMA ,))))(VP(AP(PTKNEG nicht)(ADJD genungsam))(VZ(PTKZU zu)(VVINF beschreiben)(PUNKT .)))))
+# TopFString = (S(VF(PPER Jch))(LK(VVFIN weiß))(MF(PPER ihnen)(ART die)(ADV gantz)(ADJA ausserordentliche)(NN Betrübtniß)(KON und)(ART das)(ADJA niedergeschlagene)(NN Wesen))(KOMMA ,)(NF(C(PRELS welches))(MF(PIS man)(APPR durch)(ADV gantz)(NE Paris)(PIS jedermann)(ADV recht)(ADJD deutlich)(APPR an)(ART der)(NN Stirn))(VC(VVINF lesen)(VMFIN können))(KOMMA ,)(NF(MF(PTKNEG nicht)(ADJD genungsam))(VC(PTKZU zu)(VVINF beschreiben))))(PUNKT .))
+# text = Jch weiß ihnen die gantz ausserordentliche Betrübtniß und das niedergeschlagene Wesen , welches man durch gantz Paris jedermann recht deutlich an der Stirn lesen können , nicht genungsam zu beschreiben .
+1	Jch	ich	_	PPER	_	_	_	_	_	_	1735-1738	w125	Ich	B-NP-insitu	B-NP	*	B-VF
+2	weiß	wissen	_	VVFIN	_	_	_	_	_	_	1739-1743	w126	weiß	_	O	*	B-LK
+3	ihnen	sie	_	PPER	_	_	_	_	_	_	1744-1749	w127	ihnen	B-NP-insitu	B-NP	*	B-MF
+4	die	d	_	ART	_	_	_	_	_	_	1750-1753	w128	die	B-NP-insitu	B-NP	*	I-MF
+5	gantz	ganz	_	ADV	_	_	_	_	_	_	1754-1759	w129	ganz	I-NP	I-NP	*	I-MF
+6	ausserordentliche	außerordentlich	_	ADJA	_	_	_	_	_	_	1760-1777	w12a	außerordentliche	I-NP	I-NP	*	I-MF
+7	Betrübtniß	Betrübtniß	_	NN	_	_	_	_	_	_	1778-1788	w12b	Betrübtniß	I-NP	I-NP	*	I-MF
+8	und	und	_	KON	_	_	_	_	_	_	1789-1792	w12c	und	_	O	*	I-MF
+9	das	d	_	ART	_	_	_	_	_	B-Antec-1	1793-1796	w12d	das	_	O	*	I-MF
+10	niedergeschlagene	niedergeschlagen	_	ADJA	_	_	_	_	_	I-Antec	1797-1814	w12e	niedergeschlagene	_	O	*	I-MF
+11	Wesen	Wesen	_	NN	_	_	_	_	_	I-Antec-Head	1815-1820	w12f	Wesen	_	O	*	I-MF
+12	,	,	_	$,	_	_	_	_	_	_	1821-1822	w130	,	_	O	*	O
+13	welches	welche	_	PRELS	_	_	_	_	_	_	1823-1830	w131	welches	B-RELC-ambig-1	O	*	B-NF|B-LK
+14	man	man	_	PIS	_	_	_	_	_	_	1831-1834	w132	man	I-RELC	O	*	I-NF|B-MF
+15	durch	durch	_	APPR	_	_	_	_	_	_	1835-1840	w133	durch	I-RELC	O	*	I-NF|I-MF
+16	gantz	ganz	_	ADV	_	_	_	_	_	_	1841-1846	w134	ganz	I-RELC	O	*	I-NF|I-MF
+17	Paris	Paris	_	NE	_	_	_	_	_	_	1847-1852	w135	Paris	I-RELC	O	*	I-NF|I-MF
+18	jedermann	jedermann	_	PIS	_	_	_	_	_	_	1853-1862	w136	jedermann	I-RELC	O	*	I-NF|I-MF
+19	recht	recht	_	ADV	_	_	_	_	_	_	1863-1868	w137	recht	I-RELC	O	*	I-NF|I-MF
+20	deutlich	deutlich	_	ADJD	_	_	_	_	_	_	1869-1877	w138	deutlich	I-RELC	O	*	I-NF|I-MF
+21	an	an	_	APPR	_	_	_	_	_	_	1878-1880	w139	an	I-RELC	O	*	I-NF|I-MF
+22	der	d	_	ART	_	_	_	_	_	_	1881-1884	w13a	der	I-RELC	O	*	I-NF|I-MF
+23	Stirn	Stirn	_	NN	_	_	_	_	_	_	1885-1890	w13b	Stirn	I-RELC	O	*	I-NF|I-MF
+24	lesen	lesen	_	VVINF	_	_	_	_	_	_	1891-1896	w13c	lesen	I-RELC	O	*	I-NF|B-RK
+25	können	können	_	VMFIN	_	_	_	_	_	_	1897-1903	w13d	können	I-RELC	O	*	I-NF|I-RK
+26	,	,	_	$,	_	_	_	_	_	_	1904-1905	w13e	,	_	O	*	I-NF
+27	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	1906-1911	w13f	nicht	B-AP-insitu	B-AP	*	I-NF|B-NF|B-MF
+28	genungsam	genugsam	_	ADJD	_	_	_	_	_	_	1912-1921	w140	genugsam	I-AP	I-AP	*	I-NF|I-NF|I-MF
+29	zu	zu	_	PTKZU	_	_	_	_	_	_	1922-1924	w141	zu	_	O	*	I-NF|I-NF|B-RK
+30	beschreiben	beschreiben	_	VVINF	_	_	_	_	_	_	1925-1936	w142	beschreiben	_	O	*	I-NF|I-NF|I-RK
+31	.	.	_	$.	_	_	_	_	_	_	1937-1938	w143	.	_	O	*	O
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# PTBstring = (VROOT(CS(S(NP(ART Die)(NN Liebe)(NP(ART der)(NN Unterthanen))(PP(APPR gegen)(PPOSAT ihren)(NN König)))(VP(VVFIN über-<lb/>steiget))(NP(PIS alles)(CS(S(NP(PRELS was))(NP(PIS man))(NP(PRF sich))(PP(PAV davon))(VP(ADV nur)(VVINF einbilden))(VP(VMFIN mag))(KOMMA ,))(S(NP(PIS man))(VP(VVFIN erblickte)))(KON und)(S(VP(VVFIN hörte))(AVP(ADV überall))(KOMMA ,)(S:RC(PWAV wo)(NP(PIS man))(AVP(ADV nur))(VP(VVFIN hinsahe))(KOMMA ,))))))(S(NP(PIS nichts)(NP(KOKOM als)(CNP(NN Seuffzer)(KOMMA ,)(NN Thränen)(KOMMA ,)(NN Weinen)(KON und)(NN Wehklagen))))(PP(APPR in)(PIAT allen)(NN Departements)(NP(ART des)(NN Staats)(PUNKT .))))))
+# TopFString = (S(VF(ART Die)(NN Liebe)(ART der)(NN Unterthanen)(APPR gegen)(PPOSAT ihren)(NN König))(LK(VVFIN über-<lb/>steiget))(MF(PIS alles))(NF(C(PRELS was))(FKOORD(FKONJ(MF(PIS man)(PRF sich)(PAV davon)(ADV nur))(VC(VVINF einbilden)(VMFIN mag)))(KOMMA ,)(FKONJ(MF(PIS man))(VC(VVFIN erblickte)))(KON und)(FKONJ(LK(VVFIN hörte))(MF(ADV überall)(KOMMA ,)(C(PWAV wo))(MF(PIS man)(ADV nur))(VC(VVFIN hinsahe))(KOMMA ,)(PIS nichts)(KOKOM als)(NN Seuffzer)(KOMMA ,)(NN Thränen)(KOMMA ,)(NN Weinen)(KON und)(NN Wehklagen)(APPR in)(PIAT allen)(NN Departements)(ART des)(NN Staats)))))(PUNKT .))
+# text = Die Liebe der Unterthanen gegen ihren König über-<lb/>steiget alles was man sich davon nur einbilden mag , man erblickte und hörte überall , wo man nur hinsahe , nichts als Seuffzer , Thränen , Weinen und Wehklagen in allen Departements des Staats .
+1	Die	d	_	ART	_	_	_	_	_	_	1940-1943	w144	Die	B-NP-insitu	B-NP	*	B-VF
+2	Liebe	Liebe	_	NN	_	_	_	_	_	_	1944-1949	w145	Liebe	I-NP	I-NP	*	I-VF
+3	der	d	_	ART	_	_	_	_	_	_	1950-1953	w146	der	I-NP	I-NP	*	I-VF
+4	Unterthanen	Untertan	_	NN	_	_	_	_	_	_	1954-1965	w147	Untertanen	I-NP	I-NP	*	I-VF
+5	gegen	gegen	_	APPR	_	_	_	_	_	_	1966-1971	w148	gegen	I-NP	I-NP	*	I-VF
+6	ihren	ihr	_	PPOSAT	_	_	_	_	_	_	1972-1977	w149	ihren	I-NP	I-NP	*	I-VF
+7	König	König	_	NN	_	_	_	_	_	_	1978-1983	w14a	König	I-NP	I-NP	*	I-VF
+8	über-<lb/>steiget	übersteigen	_	VVFIN	_	_	_	_	_	_	1984-2001	w14b	übersteiget	_	O	*	B-LK
+9	alles	alle	_	PIS	_	_	_	_	_	B-Antec-1-Head	2002-2007	w14c	alles	B-NP-insitu	B-NP	*	B-MF
+10	was	was	_	PRELS	_	_	_	_	_	_	2008-2011	w14d	was	B-RELC-ambig-1|B-NP-insitu	B-NP	*	B-NF|B-LK
+11	man	man	_	PIS	_	_	_	_	_	_	2012-2015	w14e	man	I-RELC|B-NP-insitu	B-NP	*	I-NF|B-MF
+12	sich	sich	_	PRF	_	_	_	_	_	_	2016-2020	w14f	sich	I-RELC|B-NP-insitu	B-NP	*	I-NF|I-MF
+13	davon	davon	_	PAV	_	_	_	_	_	_	2021-2026	w150	davon	I-RELC|B-PP-insitu	B-PP	*	I-NF|I-MF
+14	nur	nur	_	ADV	_	_	_	_	_	_	2027-2030	w151	nur	I-RELC|B-ADVP-insitu	B-ADVP	*	I-NF|I-MF
+15	einbilden	einbilden	_	VVINF	_	_	_	_	_	_	2031-2040	w152	einbilden	I-RELC	O	*	I-NF|B-RK
+16	mag	mögen	_	VMFIN	_	_	_	_	_	_	2041-2044	w153	mag	I-RELC	O	*	I-NF|I-RK
+17	,	,	_	$,	_	_	_	_	_	_	2045-2046	w154	,	_	O	*	I-NF
+18	man	man	_	PIS	_	_	_	_	_	_	2047-2050	w155	man	B-NP-insitu	B-NP	*	I-NF|B-MF
+19	erblickte	erblicken	_	VVFIN	_	_	_	_	_	_	2051-2060	w156	erblickte	_	O	*	I-NF|B-RK
+20	und	und	_	KON	_	_	_	_	_	_	2061-2064	w157	und	_	O	*	I-NF|B-KOORD
+21	hörte	hören	_	VVFIN	_	_	_	_	_	_	2065-2070	w158	hörte	_	O	*	I-NF|B-LK
+22	überall	überall	_	ADV	_	_	_	_	_	_	2071-2078	w159	überall	B-ADVP-insitu	B-ADVP	*	I-NF|B-MF
+23	,	,	_	$,	_	_	_	_	_	_	2079-2080	w15a	,	_	O	*	I-NF|I-MF
+24	wo	wo	_	PWAV	_	_	_	_	_	_	2081-2083	w15b	wo	_	O	*	I-NF|I-MF|B-LK
+25	man	man	_	PIS	_	_	_	_	_	_	2084-2087	w15c	man	B-NP-insitu	B-NP	*	I-NF|I-MF|B-MF
+26	nur	nur	_	ADV	_	_	_	_	_	_	2088-2091	w15d	nur	B-ADVP-insitu	B-ADVP	*	I-NF|I-MF|I-MF
+27	hinsahe	hinsehen	_	VVFIN	_	_	_	_	_	_	2092-2099	w15e	hinsah	_	O	*	I-NF|I-MF|B-RK
+28	,	,	_	$,	_	_	_	_	_	_	2100-2101	w15f	,	_	O	*	I-NF|I-MF
+29	nichts	nichts	_	PIS	_	_	_	_	_	_	2102-2108	w160	nichts	B-NP-insitu	B-NP	*	I-NF|I-MF
+30	als	als	_	KOKOM	_	_	_	_	_	_	2109-2112	w161	als	I-NP	I-NP	*	I-NF|I-MF
+31	Seuffzer	Seufzer	_	NN	_	_	_	_	_	_	2113-2121	w162	Seufzer	I-NP	I-NP	*	I-NF|I-MF
+32	,	,	_	$,	_	_	_	_	_	_	2122-2123	w163	,	I-NP	I-NP	*	I-NF|I-MF
+33	Thränen	Träne	_	NN	_	_	_	_	_	_	2124-2131	w164	Tränen	I-NP	I-NP	*	I-NF|I-MF
+34	,	,	_	$,	_	_	_	_	_	_	2132-2133	w165	,	I-NP	I-NP	*	I-NF|I-MF
+35	Weinen	Wein	_	NN	_	_	_	_	_	_	2134-2140	w166	Weinen	I-NP	I-NP	*	I-NF|I-MF
+36	und	und	_	KON	_	_	_	_	_	_	2141-2144	w167	und	I-NP	I-NP	*	I-NF|I-MF
+37	Wehklagen	Wehklagen	_	NN	_	_	_	_	_	_	2145-2154	w168	Wehklagen	I-NP	I-NP	*	I-NF|I-MF
+38	in	in	_	APPR	_	_	_	_	_	_	2155-2157	w169	in	B-PP-insitu	B-PP	*	I-NF|I-MF
+39	allen	alle	_	PIAT	_	_	_	_	_	_	2158-2163	w16a	allen	I-PP	I-PP	*	I-NF|I-MF
+40	Departements	Departement	_	NN	_	_	_	_	_	_	2164-2176	w16b	Departements	I-PP	I-PP	*	I-NF|I-MF
+41	des	d	_	ART	_	_	_	_	_	_	2177-2180	w16c	des	I-PP	I-PP	*	I-NF|I-MF
+42	Staats	Staat	_	NN	_	_	_	_	_	_	2181-2187	w16d	Staats	I-PP	I-PP	*	I-NF|I-MF
+43	.	.	_	$.	_	_	_	_	_	_	2188-2189	w16e	.	_	I-PP	*	O
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# PTBstring = (VROOT(S(NP(PIS Man))(VP(VVFIN ließ))(CPP(PP(APPR auf)(PDAT denen)(NN Cantzeln))(KON und)(PP(APPR in)(PDAT denen)(NN Clöstern)(KOMMA ,)(VP(NN Stifftungen)(PP(ADV ec.)(APPR für)(ART den)(NN König))(VVINF bitten)(PUNKT :))))))
+# TopFString = (S(VF(PIS Man))(LK(VVFIN ließ))(MF(APPR auf)(PDAT denen)(NN Cantzeln)(KON und)(APPR in)(PDAT denen)(NN Clöstern))(KOMMA ,)(NF(C(NN Stifftungen))(MF(ADV ec.)(APPR für)(ART den)(NN König))(VC(VVINF bitten)))(PUNKT :))
+# text = Man ließ auf denen Cantzeln und in denen Clöstern , Stifftungen ec. für den König bitten :
+1	Man	man	_	PIS	_	_	_	_	_	_	2191-2194	w16f	Man	B-NP-insitu	B-NP	*	B-VF
+2	ließ	lassen	_	VVFIN	_	_	_	_	_	_	2195-2199	w170	ließ	_	O	*	B-LK
+3	auf	auf	_	APPR	_	_	_	_	_	_	2200-2203	w171	auf	B-PP-insitu|B-PP-insitu	B-PP	*	B-MF
+4	denen	die	_	PDAT	_	_	_	_	_	_	2204-2209	w172	denen	I-PP|I-PP	I-PP	*	I-MF
+5	Cantzeln	Kanzel	_	NN	_	_	_	_	_	_	2210-2218	w173	Kanzeln	I-PP|I-PP	I-PP	*	I-MF
+6	und	und	_	KON	_	_	_	_	_	_	2219-2222	w174	und	I-PP	I-PP	*	I-MF
+7	in	in	_	APPR	_	_	_	_	_	_	2223-2225	w175	in	I-PP|B-PP-insitu	I-PP	*	I-MF
+8	denen	die	_	PDAT	_	_	_	_	_	_	2226-2231	w176	denen	I-PP|I-PP	I-PP	*	I-MF
+9	Clöstern	Kloster	_	NN	_	_	_	_	_	_	2232-2240	w177	Klöstern	I-PP|I-PP	I-PP	*	I-MF
+10	,	,	_	$,	_	_	_	_	_	_	2241-2242	w178	,	I-PP|I-PP	I-PP	*	O
+11	Stifftungen	Stiftung	_	NN	_	_	_	_	_	_	2243-2254	w179	Stiftungen	I-PP|I-PP|B-NP-insitu	I-PP	*	B-NF|B-LK
+12	ec.	Ec.	_	ADV	_	_	_	_	_	_	2255-2258	w17a	ec.	I-PP|I-PP|B-PP-insitu	I-PP	*	I-NF|B-MF
+13	für	für	_	APPR	_	_	_	_	_	_	2259-2262	w17b	für	I-PP|I-PP|I-PP	I-PP	*	I-NF|I-MF
+14	den	d	_	ART	_	_	_	_	_	_	2263-2266	w17c	den	I-PP|I-PP|I-PP	I-PP	*	I-NF|I-MF
+15	König	König	_	NN	_	_	_	_	_	_	2267-2272	w17d	König	I-PP|I-PP|I-PP	I-PP	*	I-NF|I-MF
+16	bitten	bitten	_	VVINF	_	_	_	_	_	_	2273-2279	w17e	bitten	I-PP|I-PP	I-PP	*	I-NF|B-RK
+17	:	:	_	$.	_	_	_	_	_	_	2280-2281	w17f	:	_	I-PP	*	O
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# PTBstring = (VROOT(CS(S(NP(PIS man))(VP(VVFIN eröffnete))(NP(ART das)(ADJA 40stündige)(NN Gebeth)(KOMMA ,)))(KON und)(S(NP(ART das)(NN Par-<lb/>lament))(VP(VVFIN befahl))(AVP(ADV sogar))(NP(ART den)(NN Sarg)(NP(ART der)(ADJA heiligen)(NE Genevieve)))(VZ(PTKZU zu)(VVINF eröffnen)(PUNKT .)))))
+# TopFString = (S(VF(PIS man))(LK(VVFIN eröffnete))(MF(ART das)(ADJA 40stündige)(NN Gebeth))(KOMMA ,)(KON und)(VF(ART das)(NN Par-<lb/>lament))(LK(VVFIN befahl))(MF(ADV sogar)(ART den)(NN Sarg)(ART der)(ADJA heiligen)(NE Genevieve))(VC(PTKZU zu)(VVINF eröffnen))(PUNKT .))
+# text = man eröffnete das 40stündige Gebeth , und das Par-<lb/>lament befahl sogar den Sarg der heiligen Genevieve zu eröffnen .
+1	man	man	_	PIS	_	_	_	_	_	_	2283-2286	w180	man	B-NP-insitu	B-NP	*	B-VF
+2	eröffnete	eröffnen	_	VVFIN	_	_	_	_	_	_	2287-2296	w181	eröffnete	_	O	*	B-LK
+3	das	d	_	ART	_	_	_	_	_	_	2297-2300	w182	das	B-NP-insitu	B-NP	*	B-MF
+4	40stündige	40stündige	_	ADJA	_	_	_	_	_	_	2301-2311	w183	40stündige	I-NP	I-NP	*	I-MF
+5	Gebeth	Gebet	_	NN	_	_	_	_	_	_	2312-2318	w184	Gebet	I-NP	I-NP	*	I-MF
+6	,	,	_	$,	_	_	_	_	_	_	2319-2320	w185	,	_	I-NP	*	O
+7	und	und	_	KON	_	_	_	_	_	_	2321-2324	w186	und	_	O	*	O
+8	das	d	_	ART	_	_	_	_	_	_	2325-2328	w187	das	B-NP-insitu	B-NP	*	B-VF
+9	Par-<lb/>lament	Parlament	_	NN	_	_	_	_	_	_	2329-2344	w188	Parlament	I-NP	I-NP	*	I-VF
+10	befahl	befehlen	_	VVFIN	_	_	_	_	_	_	2345-2351	w189	befahl	_	O	*	B-LK
+11	sogar	sogar	_	ADV	_	_	_	_	_	_	2352-2357	w18a	sogar	B-ADVP-insitu	B-ADVP	*	B-MF
+12	den	d	_	ART	_	_	_	_	_	_	2358-2361	w18b	den	B-NP-insitu	B-NP	*	I-MF
+13	Sarg	Sarg	_	NN	_	_	_	_	_	_	2362-2366	w18c	Sarg	I-NP	I-NP	*	I-MF
+14	der	d	_	ART	_	_	_	_	_	_	2367-2370	w18d	der	I-NP	I-NP	*	I-MF
+15	heiligen	heilig	_	ADJA	_	_	_	_	_	_	2371-2379	w18e	heiligen	I-NP	I-NP	*	I-MF
+16	Genevieve	Genevieve	_	NE	_	_	_	_	_	_	2380-2389	w18f	Genevieve	I-NP	I-NP	*	I-MF
+17	zu	zu	_	PTKZU	_	_	_	_	_	_	2390-2392	w190	zu	_	O	*	B-RK
+18	eröffnen	eröffnen	_	VVINF	_	_	_	_	_	_	2393-2401	w191	eröffnen	_	O	*	I-RK
+19	.	.	_	$.	_	_	_	_	_	_	2402-2403	w192	.	_	O	*	O
+
+# sent_id = 19
+# sent_id(TSV) = 19
+# PTBstring = (VROOT(CS(S(NP(ART Den)(NN 16.)(NP(ART ein)(NN viertel))(PP(APPR nach)(CARD 8.)(NN Uhr))(PP(APPR gegen)(NN Abend)))(VP(VVFIN traf))(NP(ART ein)(ADJA abermahliger)(NN Courier)(PP(APPR von)(NE Metz)))(SVP(PTKVZ ein))(KOMMA ,)(S:RC(NP(PRELS welcher))(NP(ART einen)(NN Brief))(VP(VVFIN mitbrachte))(KOMMA ,)))(S(KOUS daß)(NP(ART der)(NN Zu-<lb/>stand)(NP(NN Se.)(NN Maj.)))(VP(PRF sich)(ADV ziemlich)(VVPP verschlimmert)(KOMMA ,)(PP(APPR nebst)(PIAT allen)(ART den)(NN Umstän-<lb/>den)(KOMMA ,)(S:RC(NP(PRELS die))(VP(ADV gestern)(ADV bereits)(VVPP gemeldet))(VP(VAPP worden))(PUNKT .)))))))
+# TopFString = (S(VF(ART Den)(NN 16.)(ART ein)(NN viertel)(APPR nach)(CARD 8.)(NN Uhr)(APPR gegen)(NN Abend))(LK(VVFIN traf))(MF(ART ein)(ADJA abermahliger)(NN Courier)(APPR von)(NE Metz))(VC(PTKVZ ein))(KOMMA ,)(NF(C(PRELS welcher))(MF(ART einen)(NN Brief))(VC(VVFIN mitbrachte))(KOMMA ,)(NF(C(KOUS daß))(MF(ART der)(NN Zu-<lb/>stand)(NN Se.)(NN Maj.)(PRF sich)(ADV ziemlich))(VC(VVPP verschlimmert))(KOMMA ,)(NF(APPR nebst)(PIAT allen)(ART den)(NN Umstän-<lb/>den)(KOMMA ,)(C(PRELS die))(MF(ADV gestern)(ADV bereits))(VC(VVPP gemeldet)(VAPP worden)))))(PUNKT .))
+# text = Den 16. ein viertel nach 8. Uhr gegen Abend traf ein abermahliger Courier von Metz ein , welcher einen Brief mitbrachte , daß der Zu-<lb/>stand Se. Maj. sich ziemlich verschlimmert , nebst allen den Umstän-<lb/>den , die gestern bereits gemeldet worden .
+1	Den	d	_	ART	_	_	_	_	_	_	2405-2408	w193	Den	B-NP-insitu	B-NP	*	B-VF
+2	16.	16.	_	NN	_	_	_	_	_	_	2409-2412	w194	16.	I-NP	I-NP	*	I-VF
+3	ein	eine	_	ART	_	_	_	_	_	_	2413-2416	w195	ein	I-NP	I-NP	*	I-VF
+4	viertel	viertel	_	NN	_	_	_	_	_	_	2417-2424	w196	viertel	I-NP	I-NP	*	I-VF
+5	nach	nach	_	APPR	_	_	_	_	_	_	2425-2429	w197	nach	I-NP	I-NP	*	I-VF
+6	8.	8.	_	CARD	_	_	_	_	_	_	2430-2432	w198	8.	I-NP	I-NP	*	I-VF
+7	Uhr	Uhr	_	NN	_	_	_	_	_	_	2433-2436	w199	Uhr	I-NP	I-NP	*	I-VF
+8	gegen	gegen	_	APPR	_	_	_	_	_	_	2437-2442	w19a	gegen	I-NP	I-NP	*	I-VF
+9	Abend	Abend	_	NN	_	_	_	_	_	_	2443-2448	w19b	Abend	I-NP	I-NP	*	I-VF
+10	traf	treffen	_	VVFIN	_	_	_	_	_	_	2449-2453	w19c	traf	_	O	*	B-LK
+11	ein	eine	_	ART	_	_	_	_	_	B-Antec-1	2454-2457	w19d	ein	B-NP-insitu	B-NP	*	B-MF
+12	abermahliger	abermalig	_	ADJA	_	_	_	_	_	I-Antec	2458-2470	w19e	abermaliger	I-NP	I-NP	*	I-MF
+13	Courier	Kurier	_	NN	_	_	_	_	_	I-Antec-Head	2471-2478	w19f	Kurier	I-NP	I-NP	*	I-MF
+14	von	von	_	APPR	_	_	_	_	_	I-Antec	2479-2482	w1a0	von	I-NP	I-NP	*	I-MF
+15	Metz	Metz	_	NE	_	_	_	_	_	I-Antec	2483-2487	w1a1	Metz	I-NP	I-NP	*	I-MF
+16	ein	ein	_	PTKVZ	_	_	_	_	_	_	2488-2491	w1a2	ein	_	O	*	B-RK
+17	,	,	_	$,	_	_	_	_	_	_	2492-2493	w1a3	,	_	O	*	O
+18	welcher	welche	_	PRELS	_	_	_	_	_	_	2494-2501	w1a4	welcher	B-RELC-extrap-1|B-NP-insitu	B-NP	*	B-NF|B-LK
+19	einen	eine	_	ART	_	_	_	_	_	_	2502-2507	w1a5	einen	I-RELC|B-NP-insitu	B-NP	*	I-NF|B-MF
+20	Brief	Brief	_	NN	_	_	_	_	_	_	2508-2513	w1a6	Brief	I-RELC|I-NP	I-NP	*	I-NF|I-MF
+21	mitbrachte	mitbringen	_	VVFIN	_	_	_	_	_	_	2514-2524	w1a7	mitbrachte	I-RELC	O	*	I-NF|B-RK
+22	,	,	_	$,	_	_	_	_	_	_	2525-2526	w1a8	,	_	O	*	I-NF
+23	daß	daß	_	KOUS	_	_	_	_	_	_	2527-2530	w1a9	daß	_	O	*	I-NF|B-NF|B-LK
+24	der	d	_	ART	_	_	_	_	_	_	2531-2534	w1aa	der	B-NP-insitu	B-NP	*	I-NF|I-NF|B-MF
+25	Zu-<lb/>stand	Zustand	_	NN	_	_	_	_	_	_	2535-2548	w1ab	Zustand	I-NP	I-NP	*	I-NF|I-NF|I-MF
+26	Se.	Se.	_	NN	_	_	_	_	_	_	2549-2552	w1ac	Se.	I-NP	I-NP	*	I-NF|I-NF|I-MF
+27	Maj.	Maj.	_	NN	_	_	_	_	_	_	2553-2557	w1ad	Maj.	I-NP	I-NP	*	I-NF|I-NF|I-MF
+28	sich	sich	_	PRF	_	_	_	_	_	_	2558-2562	w1ae	sich	B-NP-insitu	B-NP	*	I-NF|I-NF|I-MF
+29	ziemlich	ziemlich	_	ADV	_	_	_	_	_	_	2563-2571	w1af	ziemlich	B-ADVP-insitu	B-ADVP	*	I-NF|I-NF|I-MF
+30	verschlimmert	verschlimmern	_	VVPP	_	_	_	_	_	_	2572-2585	w1b0	verschlimmert	_	O	*	I-NF|I-NF|B-RK
+31	,	,	_	$,	_	_	_	_	_	_	2586-2587	w1b1	,	_	O	*	I-NF|I-NF
+32	nebst	nebst	_	APPR	_	_	_	_	_	B-Antec-2	2588-2593	w1b2	nebst	B-PP-extrap	B-PP	*	I-NF|I-NF|B-NF
+33	allen	alle	_	PIAT	_	_	_	_	_	I-Antec	2594-2599	w1b3	allen	I-PP	I-PP	*	I-NF|I-NF|I-NF
+34	den	d	_	ART	_	_	_	_	_	I-Antec	2600-2603	w1b4	den	I-PP	I-PP	*	I-NF|I-NF|I-NF
+35	Umstän-<lb/>den	Umstand	_	NN	_	_	_	_	_	I-Antec-Head	2604-2619	w1b5	Umständen	I-PP	I-PP	*	I-NF|I-NF|I-NF
+36	,	,	_	$,	_	_	_	_	_	_	2620-2621	w1b6	,	I-PP	I-PP	*	I-NF|I-NF|I-NF
+37	die	die	_	PRELS	_	_	_	_	_	_	2622-2625	w1b7	die	I-PP|B-RELC-insitu-2|B-NP-insitu	I-PP	*	I-NF|I-NF|I-NF|B-LK
+38	gestern	gestern	_	ADV	_	_	_	_	_	_	2626-2633	w1b8	gestern	I-PP|I-RELC|B-ADVP-insitu	I-PP	*	I-NF|I-NF|I-NF|B-MF
+39	bereits	bereits	_	ADV	_	_	_	_	_	_	2634-2641	w1b9	bereits	I-PP|I-RELC|B-ADVP-insitu	I-PP	*	I-NF|I-NF|I-NF|I-MF
+40	gemeldet	melden	_	VVPP	_	_	_	_	_	_	2642-2650	w1ba	gemeldet	I-PP|I-RELC	I-PP	*	I-NF|I-NF|I-NF|B-RK
+41	worden	werden	_	VAPP	_	_	_	_	_	_	2651-2657	w1bb	worden	I-PP|I-RELC	I-PP	*	I-NF|I-NF|I-NF|I-RK
+42	.	.	_	$.	_	_	_	_	_	_	2658-2659	w1bc	.	_	I-PP	*	O
+
+# sent_id = 20
+# sent_id(TSV) = 20
+# PTBstring = (VROOT(S(NP(PDAT Diese)(NN Zeitung))(VP(VVFIN verursach-<lb/>te))(AVP(ADV vollends))(NP(ART eine)(ADJA allgemeine)(ADJA unbeschreibliche)(NN Bestürtzung)))(PUNKT .))
+# TopFString = (S(VF(PDAT Diese)(NN Zeitung))(LK(VVFIN verursach-<lb/>te))(MF(ADV vollends)(ART eine)(ADJA allgemeine)(ADJA unbeschreibliche)(NN Bestürtzung))(PUNKT .))
+# text = Diese Zeitung verursach-<lb/>te vollends eine allgemeine unbeschreibliche Bestürtzung .
+1	Diese	diese	_	PDAT	_	_	_	_	_	_	2661-2666	w1bd	Diese	B-NP-insitu	B-NP	*	B-VF
+2	Zeitung	Zeitung	_	NN	_	_	_	_	_	_	2667-2674	w1be	Zeitung	I-NP	I-NP	*	I-VF
+3	verursach-<lb/>te	verursachen	_	VVFIN	_	_	_	_	_	_	2675-2692	w1bf	verursachte	_	O	*	B-LK
+4	vollends	vollends	_	ADV	_	_	_	_	_	_	2693-2701	w1c0	vollends	B-ADVP-insitu	B-ADVP	*	B-MF
+5	eine	eine	_	ART	_	_	_	_	_	_	2702-2706	w1c1	eine	B-NP-insitu	B-NP	*	I-MF
+6	allgemeine	allgemein	_	ADJA	_	_	_	_	_	_	2707-2717	w1c2	allgemeine	I-NP	I-NP	*	I-MF
+7	unbeschreibliche	unbeschreiblich	_	ADJA	_	_	_	_	_	_	2718-2734	w1c3	unbeschreibliche	I-NP	I-NP	*	I-MF
+8	Bestürtzung	Bestürzung	_	NN	_	_	_	_	_	_	2735-2746	w1c4	Bestürzung	I-NP	I-NP	*	I-MF
+9	.	.	_	$.	_	_	_	_	_	_	2747-2748	w1c5	.	_	O	*	O
+
+# sent_id = 21
+# sent_id(TSV) = 21
+# PTBstring = (VROOT(S(NP(PPER Es))(VP(VVFIN be-<lb/>fanden))(NP(PRF sich))(PP(APPR auf)(CAP(CARD 8.)(ADV bis)(CARD 9000)(PUNKT .))(NN Menschen))(AVP(ADV damals))(PP(APPR an)(ART der)(NN Post)(KOMMA ,)(CS(S(NP(PRELS die))(PP(APPR mit)(ADJA gröster)(CNP(NN Ungedult)(KON und)(NN Unruhe)))(PP(APPR auf)(ART die)(NN Ankunfft)(NP(ART eines)(NN Couriers)))(VP(VVFIN war-<lb/>teten))(KOMMA ,))(KON und)(S(NP(PRELS denen))(PP(APPR bey)(PPOSAT ihrer)(NN Retour))(NP(ART die)(NN Thränen))(PP(APPR in)(NN Augen))(VP(VVFIN stunden))(PUNKT .))))))
+# TopFString = (S(VF(PPER Es))(LK(VVFIN be-<lb/>fanden))(MF(PRF sich)(APPR auf)(CARD 8.)(ADV bis)(CARD 9000)(PUNKT .)(NN Menschen)(ADV damals)(APPR an)(ART der)(NN Post))(KOMMA ,)(NF(C(PRELS die))(MF(APPR mit)(ADJA gröster)(NN Ungedult)(KON und)(NN Unruhe)(APPR auf)(ART die)(NN Ankunfft)(ART eines)(NN Couriers))(VC(VVFIN war-<lb/>teten))(KOMMA ,)(KON und)(C(PRELS denen))(MF(APPR bey)(PPOSAT ihrer)(NN Retour)(ART die)(NN Thränen)(APPR in)(NN Augen))(VC(VVFIN stunden)))(PUNKT .))
+# text = Es be-<lb/>fanden sich auf 8. bis 9000 . Menschen damals an der Post , die mit gröster Ungedult und Unruhe auf die Ankunfft eines Couriers war-<lb/>teten , und denen bey ihrer Retour die Thränen in Augen stunden .
+1	Es	es	_	PPER	_	_	_	_	_	_	2750-2752	w1c6	Es	B-NP-insitu	B-NP	*	B-VF
+2	be-<lb/>fanden	befinden	_	VVFIN	_	_	_	_	_	_	2753-2767	w1c7	befanden	_	O	*	B-LK
+3	sich	sich	_	PRF	_	_	_	_	_	_	2768-2772	w1c8	sich	B-NP-insitu	B-NP	*	B-MF
+4	auf	auf	_	APPR	_	_	_	_	_	_	2773-2776	w1c9	auf	B-PP-insitu	B-PP	*	I-MF
+5	8.	8.	_	CARD	_	_	_	_	_	_	2777-2779	w1ca	8.	I-PP	I-PP	*	I-MF
+6	bis	bis	_	ADV	_	_	_	_	_	_	2780-2783	w1cb	bis	I-PP	I-PP	*	I-MF
+7	9000	9000	_	CARD	_	_	_	_	_	_	2784-2788	w1cc	9000	I-PP	I-PP	*	I-MF
+8	.	.	_	$.	_	_	_	_	_	_	2789-2790	w1cd	.	I-PP	I-PP	*	I-MF
+9	Menschen	Mensch	_	NN	_	_	_	_	_	_	2791-2799	w1ce	Menschen	I-PP	I-PP	*	I-MF
+10	damals	damals	_	ADV	_	_	_	_	_	_	2800-2806	w1cf	damals	B-ADVP-insitu	B-ADVP	*	I-MF
+11	an	an	_	APPR	_	_	_	_	_	B-Antec-2|B-Antec-1	2807-2809	w1d0	an	B-PP-insitu	B-PP	*	I-MF
+12	der	d	_	ART	_	_	_	_	_	I-Antec|I-Antec	2810-2813	w1d1	der	I-PP	I-PP	*	I-MF
+13	Post	Post	_	NN	_	_	_	_	_	I-Antec-Head|I-Antec-Head	2814-2818	w1d2	Post	I-PP	I-PP	*	I-MF
+14	,	,	_	$,	_	_	_	_	_	I-Antec	2819-2820	w1d3	,	_	O	*	O
+15	die	die	_	PRELS	_	_	_	_	_	I-Antec	2821-2824	w1d4	die	B-RELC-ambig-1|B-NP-insitu	B-NP	*	B-NF|B-LK
+16	mit	mit	_	APPR	_	_	_	_	_	I-Antec	2825-2828	w1d5	mit	I-RELC|B-PP-insitu	B-PP	*	I-NF|B-MF
+17	gröster	groß	_	ADJA	_	_	_	_	_	I-Antec	2829-2836	w1d6	größter	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+18	Ungedult	Ungeduld	_	NN	_	_	_	_	_	I-Antec	2837-2845	w1d7	Ungeduld	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+19	und	und	_	KON	_	_	_	_	_	I-Antec	2846-2849	w1d8	und	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+20	Unruhe	Unruhe	_	NN	_	_	_	_	_	I-Antec	2850-2856	w1d9	Unruhe	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+21	auf	auf	_	APPR	_	_	_	_	_	I-Antec	2857-2860	w1da	auf	I-RELC|B-PP-insitu	B-PP	*	I-NF|I-MF
+22	die	d	_	ART	_	_	_	_	_	I-Antec	2861-2864	w1db	die	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+23	Ankunfft	Ankunft	_	NN	_	_	_	_	_	I-Antec	2865-2873	w1dc	Ankunft	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+24	eines	eine	_	ART	_	_	_	_	_	I-Antec	2874-2879	w1dd	eines	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+25	Couriers	Kurier	_	NN	_	_	_	_	_	I-Antec	2880-2888	w1de	Kuriers	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+26	war-<lb/>teten	warten	_	VVFIN	_	_	_	_	_	I-Antec	2889-2903	w1df	warteten	I-RELC	O	*	I-NF|B-RK
+27	,	,	_	$,	_	_	_	_	_	I-Antec	2904-2905	w1e0	,	_	O	*	I-NF
+28	und	und	_	KON	_	_	_	_	_	I-Antec	2906-2909	w1e1	und	_	O	*	I-NF
+29	denen	die	_	PRELS	_	_	_	_	_	_	2910-2915	w1e2	denen	B-RELC-ambig-2|B-NP-insitu	B-NP	*	I-NF|B-LK
+30	bey	bei	_	APPR	_	_	_	_	_	_	2916-2919	w1e3	bei	I-RELC|B-PP-insitu	B-PP	*	I-NF|B-MF
+31	ihrer	ihr	_	PPOSAT	_	_	_	_	_	_	2920-2925	w1e4	ihrer	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+32	Retour	retour	_	NN	_	_	_	_	_	_	2926-2932	w1e5	Retour	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+33	die	d	_	ART	_	_	_	_	_	_	2933-2936	w1e6	die	I-RELC|B-NP-insitu	B-NP	*	I-NF|I-MF
+34	Thränen	Träne	_	NN	_	_	_	_	_	_	2937-2944	w1e7	Tränen	I-RELC|I-NP	I-NP	*	I-NF|I-MF
+35	in	in	_	APPR	_	_	_	_	_	_	2945-2947	w1e8	in	I-RELC|B-PP-insitu	B-PP	*	I-NF|I-MF
+36	Augen	Auge	_	NN	_	_	_	_	_	_	2948-2953	w1e9	Augen	I-RELC|I-PP	I-PP	*	I-NF|I-MF
+37	stunden	Stunde	_	VVFIN	_	_	_	_	_	_	2954-2961	w1ea	Stunden	I-RELC	O	*	I-NF|B-RK
+38	.	.	_	$.	_	_	_	_	_	_	2962-2963	w1eb	.	_	O	*	O

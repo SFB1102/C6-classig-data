@@ -1,0 +1,476 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CharOffset DTA:ID DTA:NORM PHRASE POS
+# sent_id = 1
+# sent_id(TSV) = 1
+# PTBstring = (VROOT(CNP(NP(ADJA Vollſtändige)(NN Pomologie)(AP(KON und)(ADV zugleich)(ADJA ſyſtematiſches)(KOMMA ,))(CAP(ADJD richtig)(KON und)(ADJD ausführlich)))(NP(ADJA beſchreibendes)(NN Verzeichnis)(NP(ART der)(ADJA vornehmſten)(NN Sorten)(NP(ART des)(CNP(CNP(TRUNC Kern-)(KON und)(NN Steinobſtes)(KOMMA ,))(CNP(TRUNC Schalen-)(KON und)(NN Beerenobſtes))))))(NP(ART der)(ADJA Chriſt'ſchen)(NN Baumſchulen)(PP(APPR zu)(NE Kronberg)(KOMMA ,))(PP(APPR mit)(ADJA ausgemahlten)(NN Kupfern)))(NP(ART der)(NN Obſtſorten)(KOMMA ,)(PP(PP(ADV theils)(APPR in)(CO(TRUNC Miniatur-)(KON und)(ADV theils)))(APPR in)(NN Naturgröße)(KOMMA ,)))(PN(APPR von)(NE Johann))(PN(NE Ludwig)(NE Chriſt)(KOMMA ,))(NP(NN Past.)(AP(ADJD prim.)(PP(APPR zu)(NE Kronberg)(PP(APPR an)(ART der)(NN Höhe)(PP(APPR bey)(NE Frankf.)))(PP(APPRART a.)(NE M.)(KOMMA ,)))))))
+# text = Vollſtändige Pomologie und zugleich ſyſtematiſches , richtig und ausführlich beſchreibendes Verzeichnis der vornehmſten Sorten des Kern- und Steinobſtes , Schalen- und Beerenobſtes der Chriſt'ſchen Baumſchulen zu Kronberg , mit ausgemahlten Kupfern der Obſtſorten , theils in Miniatur- und theils in Naturgröße , von Johann Ludwig Chriſt , Past. prim. zu Kronberg an der Höhe bey Frankf. a. M. ,
+1	Vollſtändige	vollständig	_	ADJA	_	_	_	_	_	0-12	w1	Vollständige	B-NP	*
+2	Pomologie	Pomologie	_	NN	_	_	_	_	_	13-22	w2	Pomologie	I-NP	*
+3	und	und	_	KON	_	_	_	_	_	23-26	w3	und	I-NP	*
+4	zugleich	zugleich	_	ADV	_	_	_	_	_	27-35	w4	zugleich	I-NP	*
+5	ſyſtematiſches	systematisch	_	ADJA	_	_	_	_	_	36-50	w5	systematisches	I-NP	*
+6	,	,	_	$,	_	_	_	_	_	51-52	w6	,	I-NP	*
+7	richtig	richtig	_	ADJD	_	_	_	_	_	53-60	w7	richtig	I-NP	*
+8	und	und	_	KON	_	_	_	_	_	61-64	w8	und	I-NP	*
+9	ausführlich	ausführlich	_	ADJD	_	_	_	_	_	65-76	w9	ausführlich	I-NP	*
+10	beſchreibendes	beschreibend	_	ADJA	_	_	_	_	_	77-91	wa	beschreibendes	B-NP	*
+11	Verzeichnis	Verzeichnis	_	NN	_	_	_	_	_	92-103	wb	Verzeichnis	I-NP	*
+12	der	d	_	ART	_	_	_	_	_	104-107	wc	der	I-NP	*
+13	vornehmſten	vornehm	_	ADJA	_	_	_	_	_	108-119	wd	vornehmsten	I-NP	*
+14	Sorten	Sorte	_	NN	_	_	_	_	_	120-126	we	Sorten	I-NP	*
+15	des	d	_	ART	_	_	_	_	_	127-130	wf	des	I-NP	*
+16	Kern-	kern-	_	TRUNC	_	_	_	_	_	131-136	w10	Kern-	I-NP	*
+17	und	und	_	KON	_	_	_	_	_	137-140	w11	und	I-NP	*
+18	Steinobſtes	Steinobst	_	NN	_	_	_	_	_	141-152	w12	Steinobstes	I-NP	*
+19	,	,	_	$,	_	_	_	_	_	153-154	w13	,	I-NP	*
+20	Schalen-	schalen-	_	TRUNC	_	_	_	_	_	155-163	w14	Schalen-	I-NP	*
+21	und	und	_	KON	_	_	_	_	_	164-167	w15	und	I-NP	*
+22	Beerenobſtes	Beerenobst	_	NN	_	_	_	_	_	168-180	w16	Beerenobstes	I-NP	*
+23	der	d	_	ART	_	_	_	_	_	181-184	w17	der	B-NP	*
+24	Chriſt'ſchen	Christesche	_	ADJA	_	_	_	_	_	185-197	w18,w18_1	Christeschen	I-NP	*
+25	Baumſchulen	Baumschule	_	NN	_	_	_	_	_	198-209	w19	Baumschulen	I-NP	*
+26	zu	zu	_	APPR	_	_	_	_	_	210-212	w1a	zu	I-NP	*
+27	Kronberg	Kronberg	_	NE	_	_	_	_	_	213-221	w1b	Kronberg	I-NP	*
+28	,	,	_	$,	_	_	_	_	_	222-223	w1c	,	I-NP	*
+29	mit	mit	_	APPR	_	_	_	_	_	224-227	w1d	mit	I-NP	*
+30	ausgemahlten	ausgemalt	_	ADJA	_	_	_	_	_	228-240	w1e	ausgemalten	I-NP	*
+31	Kupfern	Kupfer	_	NN	_	_	_	_	_	241-248	w1f	Kupfern	I-NP	*
+32	der	d	_	ART	_	_	_	_	_	249-252	w20	der	B-NP	*
+33	Obſtſorten	Obstsorte	_	NN	_	_	_	_	_	253-263	w21	Obstsorten	I-NP	*
+34	,	,	_	$,	_	_	_	_	_	264-265	w22	,	I-NP	*
+35	theils	teils	_	ADV	_	_	_	_	_	266-272	w23	teils	I-NP	*
+36	in	in	_	APPR	_	_	_	_	_	273-275	w24	in	I-NP	*
+37	Miniatur-	miniatur-	_	TRUNC	_	_	_	_	_	276-285	w25	Miniatur-	I-NP	*
+38	und	und	_	KON	_	_	_	_	_	286-289	w26	und	I-NP	*
+39	theils	teils	_	ADV	_	_	_	_	_	290-296	w27	teils	I-NP	*
+40	in	in	_	APPR	_	_	_	_	_	297-299	w28	in	I-NP	*
+41	Naturgröße	Naturgröße	_	NN	_	_	_	_	_	300-310	w29	Naturgröße	I-NP	*
+42	,	,	_	$,	_	_	_	_	_	311-312	w2a	,	I-NP	*
+43	von	von	_	APPR	_	_	_	_	_	313-316	w2b	von	B-NP	*
+44	Johann	Johann	_	NE	_	_	_	_	_	317-323	w2c	Johann	I-NP	*
+45	Ludwig	Ludwig	_	NE	_	_	_	_	_	324-330	w2d	Ludwig	B-NP	*
+46	Chriſt	Christ	_	NE	_	_	_	_	_	331-337	w2e	Christ	I-NP	*
+47	,	,	_	$,	_	_	_	_	_	338-339	w2f	,	I-NP	*
+48	Past.	Past.	_	NN	_	_	_	_	_	340-345	w30	Past.	B-NP	*
+49	prim.	Prim.	_	ADJD	_	_	_	_	_	346-351	w31	prim.	I-NP	*
+50	zu	zu	_	APPR	_	_	_	_	_	352-354	w32	zu	I-NP	*
+51	Kronberg	Kronberg	_	NE	_	_	_	_	_	355-363	w33	Kronberg	I-NP	*
+52	an	an	_	APPR	_	_	_	_	_	364-366	w34	an	I-NP	*
+53	der	d	_	ART	_	_	_	_	_	367-370	w35	der	I-NP	*
+54	Höhe	Höhe	_	NN	_	_	_	_	_	371-375	w36	Höhe	I-NP	*
+55	bey	bei	_	APPR	_	_	_	_	_	376-379	w37	bei	I-NP	*
+56	Frankf.	Frankf.	_	NE	_	_	_	_	_	380-387	w38	Frankf.	I-NP	*
+57	a.	a.	_	APPRART	_	_	_	_	_	388-390	w39	a.	I-NP	*
+58	M.	M.	_	NE	_	_	_	_	_	391-393	w3a	M.	I-NP	*
+59	,	,	_	$,	_	_	_	_	_	394-395	w3b	,	I-NP	*
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# PTBstring = (VROOT(NP(NP(ART der)(ADJA königl.)(ADJA kurfürſtl.)(NN Land-<lb/>wirthſchaftsgeſellſch)(PUNKT .)(PP(APPR zu)(NE Zelle)(PUNKT :)))(CNP(NP(ART der)(ADJA königl.)(ADJA preuß.)(ADJA ökon.)(NN Geſellſch.)(PP(APPR zu)(NE Potsdam)(PUNKT :)))(NP(KOKOM wie)(ADV auch)(ART der)(ADJA ruſſiſch.)(ADJA kaiſ.)(ADJA Liefländ.)(ADJA ökon.)(NN Societät)(PP(APPR in)(NE Riga)(PUNKT :)))(NP(ART der)(NN Geſellſch.)(NP(ART des)(NN Ackerbaues)(KOMMA ,)))(NP(ART der)(NN Wiſſenſch.)(PP(APPR u.)(NN Künſte)))(NP(ART des)(ADJA Niederrhein)(PUNKT .)(NN Depart)(PUNKT .)(PP(APPR zu)(NE Straßburg)(PUNKT :)))(NP(ART der)(ADJA Wetterauiſchen)(NN Geſellſch.)(PP(APPR für)(CNP(NP(ART die)(ADJA geſammte)(NN Naturkunde)(PP(APPR zu)(NE Hanau)(KOMMA ,)))(KON u.)(NP(NP(ART der)(ADJA Altenburgiſchen)(ADJA pomolog.)(NN Geſellſch.))(NN Ehren-Mitgliede)(PUNKT .))))))))
+# text = der königl. kurfürſtl. Land-<lb/>wirthſchaftsgeſellſch . zu Zelle : der königl. preuß. ökon. Geſellſch. zu Potsdam : wie auch der ruſſiſch. kaiſ. Liefländ. ökon. Societät in Riga : der Geſellſch. des Ackerbaues , der Wiſſenſch. u. Künſte des Niederrhein . Depart . zu Straßburg : der Wetterauiſchen Geſellſch. für die geſammte Naturkunde zu Hanau , u. der Altenburgiſchen pomolog. Geſellſch. Ehren-Mitgliede .
+1	der	d	_	ART	_	_	_	_	_	397-400	w3c	der	B-NP	*
+2	königl.	Königl.	_	ADJA	_	_	_	_	_	401-408	w3d	königl.	I-NP	*
+3	kurfürſtl.	Kurfürstl.	_	ADJA	_	_	_	_	_	409-419	w3e	kurfürstl.	I-NP	*
+4	Land-<lb/>wirthſchaftsgeſellſch	Landwirthschaftsgesellsch	_	NN	_	_	_	_	_	420-451	w3f	Landwirthschaftsgesellsch	I-NP	*
+5	.	.	_	$.	_	_	_	_	_	452-453	w40	.	I-NP	*
+6	zu	zu	_	APPR	_	_	_	_	_	454-456	w41	zu	I-NP	*
+7	Zelle	Zelle	_	NE	_	_	_	_	_	457-462	w42	Zelle	I-NP	*
+8	:	:	_	$.	_	_	_	_	_	463-464	w43	:	I-NP	*
+9	der	d	_	ART	_	_	_	_	_	465-468	w44	der	B-NP	*
+10	königl.	Königl.	_	ADJA	_	_	_	_	_	469-476	w45	königl.	I-NP	*
+11	preuß.	Preuß.	_	ADJA	_	_	_	_	_	477-483	w46	preuß.	I-NP	*
+12	ökon.	Ökon.	_	ADJA	_	_	_	_	_	484-489	w47	ökon.	I-NP	*
+13	Geſellſch.	Gesellsch.	_	NN	_	_	_	_	_	490-500	w48	Gesellsch.	I-NP	*
+14	zu	zu	_	APPR	_	_	_	_	_	501-503	w49	zu	I-NP	*
+15	Potsdam	Potsdam	_	NE	_	_	_	_	_	504-511	w4a	Potsdam	I-NP	*
+16	:	:	_	$.	_	_	_	_	_	512-513	w4b	:	I-NP	*
+17	wie	wie	_	KOKOM	_	_	_	_	_	514-517	w4c	wie	B-NP	*
+18	auch	auch	_	ADV	_	_	_	_	_	518-522	w4d	auch	I-NP	*
+19	der	d	_	ART	_	_	_	_	_	523-526	w4e	der	I-NP	*
+20	ruſſiſch.	Russisch.	_	ADJA	_	_	_	_	_	527-536	w4f	russisch.	I-NP	*
+21	kaiſ.	Kais.	_	ADJA	_	_	_	_	_	537-542	w50	kais.	I-NP	*
+22	Liefländ.	Liefländ.	_	ADJA	_	_	_	_	_	543-552	w51	Liefländ.	I-NP	*
+23	ökon.	Ökon.	_	ADJA	_	_	_	_	_	553-558	w52	ökon.	I-NP	*
+24	Societät	Sozietät	_	NN	_	_	_	_	_	559-567	w53	Sozietät	I-NP	*
+25	in	in	_	APPR	_	_	_	_	_	568-570	w54	in	I-NP	*
+26	Riga	Riga	_	NE	_	_	_	_	_	571-575	w55	Riga	I-NP	*
+27	:	:	_	$.	_	_	_	_	_	576-577	w56	:	I-NP	*
+28	der	d	_	ART	_	_	_	_	_	578-581	w57	der	B-NP	*
+29	Geſellſch.	Gesellsch.	_	NN	_	_	_	_	_	582-592	w58	Gesellsch.	I-NP	*
+30	des	d	_	ART	_	_	_	_	_	593-596	w59	des	I-NP	*
+31	Ackerbaues	Ackerbau	_	NN	_	_	_	_	_	597-607	w5a	Ackerbaues	I-NP	*
+32	,	,	_	$,	_	_	_	_	_	608-609	w5b	,	I-NP	*
+33	der	d	_	ART	_	_	_	_	_	610-613	w5c	der	B-NP	*
+34	Wiſſenſch.	Wissensch.	_	NN	_	_	_	_	_	614-624	w5d	Wissensch.	I-NP	*
+35	u.	u.	_	APPR	_	_	_	_	_	625-627	w5e	u.	I-NP	*
+36	Künſte	Kunst	_	NN	_	_	_	_	_	628-634	w5f	Künste	I-NP	*
+37	des	d	_	ART	_	_	_	_	_	635-638	w60	des	B-NP	*
+38	Niederrhein	NiederRhein	_	ADJA	_	_	_	_	_	639-650	w61	Niederrhein	I-NP	*
+39	.	.	_	$.	_	_	_	_	_	651-652	w62	.	I-NP	*
+40	Depart	Depart	_	NN	_	_	_	_	_	653-659	w63	Depart	I-NP	*
+41	.	.	_	$.	_	_	_	_	_	660-661	w64	.	I-NP	*
+42	zu	zu	_	APPR	_	_	_	_	_	662-664	w65	zu	I-NP	*
+43	Straßburg	Straßburg	_	NE	_	_	_	_	_	665-674	w66	Straßburg	I-NP	*
+44	:	:	_	$.	_	_	_	_	_	675-676	w67	:	I-NP	*
+45	der	d	_	ART	_	_	_	_	_	677-680	w68	der	B-NP	*
+46	Wetterauiſchen	Wetterauischen	_	ADJA	_	_	_	_	_	681-695	w69	Wetterauischen	I-NP	*
+47	Geſellſch.	Gesellsch.	_	NN	_	_	_	_	_	696-706	w6a	Gesellsch.	I-NP	*
+48	für	für	_	APPR	_	_	_	_	_	707-710	w6b	für	I-NP	*
+49	die	d	_	ART	_	_	_	_	_	711-714	w6c	die	I-NP	*
+50	geſammte	gesamt	_	ADJA	_	_	_	_	_	715-723	w6d	gesamte	I-NP	*
+51	Naturkunde	Naturkunde	_	NN	_	_	_	_	_	724-734	w6e	Naturkunde	I-NP	*
+52	zu	zu	_	APPR	_	_	_	_	_	735-737	w6f	zu	I-NP	*
+53	Hanau	Hanau	_	NE	_	_	_	_	_	738-743	w70	Hanau	I-NP	*
+54	,	,	_	$,	_	_	_	_	_	744-745	w71	,	I-NP	*
+55	u.	u.	_	KON	_	_	_	_	_	746-748	w72	u.	I-NP	*
+56	der	d	_	ART	_	_	_	_	_	749-752	w73	der	I-NP	*
+57	Altenburgiſchen	Altenburgischen	_	ADJA	_	_	_	_	_	753-768	w74	Altenburgischen	I-NP	*
+58	pomolog.	Pomolog.	_	ADJA	_	_	_	_	_	769-777	w75	pomolog.	I-NP	*
+59	Geſellſch.	Gesellsch.	_	NN	_	_	_	_	_	778-788	w76	Gesellsch.	I-NP	*
+60	Ehren-Mitgliede	Ehren-Mitglied	_	NN	_	_	_	_	_	789-804	w77	Ehren-Mitgliede	I-NP	*
+61	.	.	_	$.	_	_	_	_	_	805-806	w78	.	I-NP	*
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# PTBstring = (VROOT(CNP(NP(ADJA Erſter)(NN Band)(KOMMA ,))(NP(ART das)(NN Kernobſt)(PUNKT .))))
+# text = Erſter Band , das Kernobſt .
+1	Erſter	Erster	_	ADJA	_	_	_	_	_	808-814	w79	Erster	B-NP	*
+2	Band	Band	_	NN	_	_	_	_	_	815-819	w7a	Band	I-NP	*
+3	,	,	_	$,	_	_	_	_	_	820-821	w7b	,	I-NP	*
+4	das	d	_	ART	_	_	_	_	_	822-825	w7c	das	B-NP	*
+5	Kernobſt	Kernobst	_	NN	_	_	_	_	_	826-834	w7d	Kernobst	I-NP	*
+6	.	.	_	$.	_	_	_	_	_	835-836	w7e	.	I-NP	*
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# PTBstring = (VROOT(VP(PP(APPR Mit)(CARD 26)(ADJA ausgemahlten)(NN Kupfern))(PP(APPR nach)(ART dem)(AP(PP(APPR auf)(ADJA ⅓))(ADJA verjüngten))(NN Maasſtabe)(NP(ART des)(ADJA Pariſer)(NN Fußes)(KLAMMER LBR)))(PP(APPRART zum)(NN Vergrößerungsglas))(VVPP geeignet)(PUNKT :)(KLAMMER RBR)(CO(NP(ART einer)(ADJA ausgemahlten)(NN Titel-Vignette)(KOMMA ,))(KON und)(NP(ART einem)(ADJA ſchwarzen)(NN Kupfer)(PUNKT .)))))
+# text = Mit 26 ausgemahlten Kupfern nach dem auf ⅓ verjüngten Maasſtabe des Pariſer Fußes ( zum Vergrößerungsglas geeignet : ) einer ausgemahlten Titel-Vignette , und einem ſchwarzen Kupfer .
+1	Mit	mit	_	APPR	_	_	_	_	_	838-841	w7f	Mit	B-PP	*
+2	26	26	_	CARD	_	_	_	_	_	842-844	w80	26	I-PP	*
+3	ausgemahlten	ausgemalt	_	ADJA	_	_	_	_	_	845-857	w81	ausgemalten	I-PP	*
+4	Kupfern	Kupfer	_	NN	_	_	_	_	_	858-865	w82	Kupfern	I-PP	*
+5	nach	nach	_	APPR	_	_	_	_	_	866-870	w83	nach	B-PP	*
+6	dem	d	_	ART	_	_	_	_	_	871-874	w84	dem	I-PP	*
+7	auf	auf	_	APPR	_	_	_	_	_	875-878	w85	auf	I-PP	*
+8	⅓	1/3	_	ADJA	_	_	_	_	_	879-880	w86	 1/3	I-PP	*
+9	verjüngten	verjüngt	_	ADJA	_	_	_	_	_	881-891	w87	verjüngten	I-PP	*
+10	Maasſtabe	Maßstab	_	NN	_	_	_	_	_	892-901	w88	Maßstabe	I-PP	*
+11	des	d	_	ART	_	_	_	_	_	902-905	w89	des	I-PP	*
+12	Pariſer	Pariser	_	ADJA	_	_	_	_	_	906-913	w8a,w8a_1,w8a_2	Pariser	I-PP	*
+13	Fußes	Fuß	_	NN	_	_	_	_	_	914-919	w8b	Fußes	I-PP	*
+14	(	(	_	$(	_	_	_	_	_	920-921	w8c	(	I-PP	*
+15	zum	zum	_	APPRART	_	_	_	_	_	922-925	w8d	zum	B-PP	*
+16	Vergrößerungsglas	Vergrößerungsglas	_	NN	_	_	_	_	_	926-943	w8e	Vergrößerungsglas	I-PP	*
+17	geeignet	eignen	_	VVPP	_	_	_	_	_	944-952	w8f	geeignet	O	*
+18	:	:	_	$.	_	_	_	_	_	953-954	w90	:	O	*
+19	)	)	_	$(	_	_	_	_	_	955-956	w91	)	O	*
+20	einer	eine	_	ART	_	_	_	_	_	957-962	w92	einer	B-NP	*
+21	ausgemahlten	ausgemalt	_	ADJA	_	_	_	_	_	963-975	w93	ausgemalten	I-NP	*
+22	Titel-Vignette	Titel-Vignette	_	NN	_	_	_	_	_	976-990	w94	Titel-Vignette	I-NP	*
+23	,	,	_	$,	_	_	_	_	_	991-992	w95	,	I-NP	*
+24	und	und	_	KON	_	_	_	_	_	993-996	w96	und	O	*
+25	einem	eine	_	ART	_	_	_	_	_	997-1002	w97	einem	B-NP	*
+26	ſchwarzen	schwarz	_	ADJA	_	_	_	_	_	1003-1012	w98	schwarzen	I-NP	*
+27	Kupfer	Kupfer	_	NN	_	_	_	_	_	1013-1019	w99	Kupfer	I-NP	*
+28	.	.	_	$.	_	_	_	_	_	1020-1021	w9a	.	I-NP	*
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# PTBstring = (VROOT(NP(NE Frankfurt)(PP(APPRART am)(NE Mayn)(PP(CARD 1809)))(PUNKT .)))
+# text = Frankfurt am Mayn 1809 .
+1	Frankfurt	Frankfurt	_	NE	_	_	_	_	_	1023-1032	w9b	Frankfurt	B-NP	*
+2	am	am	_	APPRART	_	_	_	_	_	1033-1035	w9c	am	I-NP	*
+3	Mayn	Main	_	NE	_	_	_	_	_	1036-1040	w9d	Main	I-NP	*
+4	1809	1809	_	CARD	_	_	_	_	_	1041-1045	w9e	1809	I-NP	*
+5	.	.	_	$.	_	_	_	_	_	1046-1047	w9f	.	I-NP	*
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# PTBstring = (VROOT(CPP(PP(APPRART Im)(NN Verlage)(PP(APPR bey)(PN(NE Philipp)(NE Heinrich)(NE Guilhauman))))(KON und)(PP(APPR bey)(ART dem)(NN Verfaſſer)(PUNKT .))))
+# text = Im Verlage bey Philipp Heinrich Guilhauman und bey dem Verfaſſer .
+1	Im	im	_	APPRART	_	_	_	_	_	1049-1051	wa0	Im	B-PP	*
+2	Verlage	Verlag	_	NN	_	_	_	_	_	1052-1059	wa1	Verlage	I-PP	*
+3	bey	bei	_	APPR	_	_	_	_	_	1060-1063	wa2	bei	I-PP	*
+4	Philipp	Philipp	_	NE	_	_	_	_	_	1064-1071	wa3	Philipp	I-PP	*
+5	Heinrich	Heinrich	_	NE	_	_	_	_	_	1072-1080	wa4	Heinrich	I-PP	*
+6	Guilhauman	Guilhauman	_	NE	_	_	_	_	_	1081-1091	wa5	Guilhauman	I-PP	*
+7	und	und	_	KON	_	_	_	_	_	1092-1095	wa6	und	I-PP	*
+8	bey	bei	_	APPR	_	_	_	_	_	1096-1099	wa7	bei	I-PP	*
+9	dem	d	_	ART	_	_	_	_	_	1100-1103	wa8	dem	I-PP	*
+10	Verfaſſer	Verfasser	_	NN	_	_	_	_	_	1104-1113	wa9	Verfasser	I-PP	*
+11	.	.	_	$.	_	_	_	_	_	1114-1115	waa	.	I-PP	*
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# PTBstring = (VROOT(S(NP(PPOSAT Ihrer)(ADJA Königlichen)(NN Majeſtät)(KOMMA ,)(NP(ART der)(NN Koͤnigin)(PN(NE Friederike)(NE Wilhelmine)(NE Caroline))(PP(APPR von)(NE Baiern))))(AVP(ADV rc.))(AVP(ADV rc.))(NP(NP(PPOSAT meiner)(ADJA allergnädigſten)(CNP(NN Königin)(KON und)(NN Frau)(KOMMA ,)))(NN Frau)(KOMMA ,))(VP(PP(APPR in)(ADJA tiefſter)(NN Ehrfurcht))(VVPP gewidmet)(PP(APPR von)(ART dem)(NN Verfaſſer)(PUNKT .)))))
+# text = Ihrer Königlichen Majeſtät , der Koͤnigin Friederike Wilhelmine Caroline von Baiern ꝛc. ꝛc. meiner allergnädigſten Königin und Frau , Frau , in tiefſter Ehrfurcht gewidmet von dem Verfaſſer .
+1	Ihrer	ihr	_	PPOSAT	_	_	_	_	_	1117-1122	wab	Ihrer	B-NP	*
+2	Königlichen	königlich	_	ADJA	_	_	_	_	_	1123-1134	wac	Königlichen	I-NP	*
+3	Majeſtät	Majestät	_	NN	_	_	_	_	_	1135-1143	wad	Majestät	I-NP	*
+4	,	,	_	$,	_	_	_	_	_	1144-1145	wae	,	I-NP	*
+5	der	d	_	ART	_	_	_	_	_	1146-1149	waf	der	I-NP	*
+6	Koͤnigin	Königin	_	NN	_	_	_	_	_	1150-1158	wb0	Königin	I-NP	*
+7	Friederike	Friederike	_	NE	_	_	_	_	_	1159-1169	wb1	Friederike	I-NP	*
+8	Wilhelmine	Wilhelmine	_	NE	_	_	_	_	_	1170-1180	wb2	Wilhelmine	I-NP	*
+9	Caroline	Caroline	_	NE	_	_	_	_	_	1181-1189	wb3	Caroline	I-NP	*
+10	von	von	_	APPR	_	_	_	_	_	1190-1193	wb4	von	I-NP	*
+11	Baiern	Bayern	_	NE	_	_	_	_	_	1194-1200	wb5	Bayern	I-NP	*
+12	ꝛc.	etc.	_	ADV	_	_	_	_	_	1201-1204	wb6	etc.	B-ADVP	*
+13	ꝛc.	etc.	_	ADV	_	_	_	_	_	1205-1208	wb7	etc.	B-ADVP	*
+14	meiner	meine	_	PPOSAT	_	_	_	_	_	1209-1215	wb8	meiner	B-NP	*
+15	allergnädigſten	allergnädig	_	ADJA	_	_	_	_	_	1216-1231	wb9	allergnädigsten	I-NP	*
+16	Königin	Königin	_	NN	_	_	_	_	_	1232-1239	wba	Königin	I-NP	*
+17	und	und	_	KON	_	_	_	_	_	1240-1243	wbb	und	I-NP	*
+18	Frau	Frau	_	NN	_	_	_	_	_	1244-1248	wbc	Frau	I-NP	*
+19	,	,	_	$,	_	_	_	_	_	1249-1250	wbd	,	I-NP	*
+20	Frau	Frau	_	NN	_	_	_	_	_	1251-1255	wbe	Frau	I-NP	*
+21	,	,	_	$,	_	_	_	_	_	1256-1257	wbf	,	I-NP	*
+22	in	in	_	APPR	_	_	_	_	_	1258-1260	wc0	in	B-PP	*
+23	tiefſter	tief	_	ADJA	_	_	_	_	_	1261-1269	wc1	tiefster	I-PP	*
+24	Ehrfurcht	Ehrfurcht	_	NN	_	_	_	_	_	1270-1279	wc2	Ehrfurcht	I-PP	*
+25	gewidmet	widmen	_	VVPP	_	_	_	_	_	1280-1288	wc3	gewidmet	O	*
+26	von	von	_	APPR	_	_	_	_	_	1289-1292	wc4	von	B-PP	*
+27	dem	d	_	ART	_	_	_	_	_	1293-1296	wc5	dem	I-PP	*
+28	Verfaſſer	Verfasser	_	NN	_	_	_	_	_	1297-1306	wc6	Verfasser	I-PP	*
+29	.	.	_	$.	_	_	_	_	_	1307-1308	wc7	.	I-PP	*
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# PTBstring = (VROOT(NP(ADJA Allergnädigſte)(NN Königin)(PUNKT !)))
+# text = Allergnädigſte Königin !
+1	Allergnädigſte	allergnädig	_	ADJA	_	_	_	_	_	1310-1324	w2648a	Allergnädigste	B-NP	*
+2	Königin	Königin	_	NN	_	_	_	_	_	1325-1332	w2648b	Königin	I-NP	*
+3	!	!	_	$.	_	_	_	_	_	1333-1334	w2648c	!	I-NP	*
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# PTBstring = (VROOT(S(NP(PPOSAT Euer)(ADJA Königliche)(NN Majeſtät))(VP(VVFIN genießen))(NP(ART das)(ADJA gött-<lb/>liche)(NN Vergnügen)(KOMMA ,)(VP(NP(ART eine)(CNP(NN Freundin)(KON und)(NN Kennerin))(NP(ART der)(ADJA ſchönen)(NN Natur)))(VZ(PTKZU zu)(VAINF ſeyn)(KOMMA ,))(CS(S(PP(APPR in)(PRELAT deren)(NN Tempel))(NP(PDS Aller-<lb/>höchſtdieſelben))(AVP(ADV ſo)(ADV gerne)(NP(ART des)(NN Glanzes)(NP(PDAT Allerhöchſt-<lb/>dero)(NN Thrones))))(VP(VVFIN vergeſſen))(KOMMA ,))(KON und)(S(NP(PPOSAT Ihr)(NN Herz))(PP(APPR an)(ART den)(NN Wundern)(NP(ART des)(CAP(ADJA allweiſen)(KON und)(ADJA gütigen))(NN Schöpfers)))(PP(APPRART im)(NN Reiche)(NP(ART der)(NN Natur)))(VP(VVFIN weiden))(PUNKT .)))))))
+# text = Euer Königliche Majeſtät genießen das gött-<lb/>liche Vergnügen , eine Freundin und Kennerin der ſchönen Natur zu ſeyn , in deren Tempel Aller-<lb/>höchſtdieſelben ſo gerne des Glanzes Allerhöchſt-<lb/>dero Thrones vergeſſen , und Ihr Herz an den Wundern des allweiſen und gütigen Schöpfers im Reiche der Natur weiden .
+1	Euer	euer	_	PPOSAT	_	_	_	_	_	1336-1340	wc8,wc8_1	Euer	B-NP	*
+2	Königliche	königlich	_	ADJA	_	_	_	_	_	1341-1351	wc9	Königliche	I-NP	*
+3	Majeſtät	Majestät	_	NN	_	_	_	_	_	1352-1360	wca	Majestät	I-NP	*
+4	genießen	genießen	_	VVFIN	_	_	_	_	_	1361-1369	wcb	genießen	O	*
+5	das	d	_	ART	_	_	_	_	_	1370-1373	wcc	das	B-NP	*
+6	gött-<lb/>liche	göttlich	_	ADJA	_	_	_	_	_	1374-1389	wcd	göttliche	I-NP	*
+7	Vergnügen	Vergnügen	_	NN	_	_	_	_	_	1390-1399	wce	Vergnügen	I-NP	*
+8	,	,	_	$,	_	_	_	_	_	1400-1401	wcf	,	I-NP	*
+9	eine	eine	_	ART	_	_	_	_	_	1402-1406	wd0	eine	I-NP	*
+10	Freundin	Freundin	_	NN	_	_	_	_	_	1407-1415	wd1	Freundin	I-NP	*
+11	und	und	_	KON	_	_	_	_	_	1416-1419	wd2	und	I-NP	*
+12	Kennerin	Kennerin	_	NN	_	_	_	_	_	1420-1428	wd3	Kennerin	I-NP	*
+13	der	d	_	ART	_	_	_	_	_	1429-1432	wd4	der	I-NP	*
+14	ſchönen	schön	_	ADJA	_	_	_	_	_	1433-1440	wd5	schönen	I-NP	*
+15	Natur	Natur	_	NN	_	_	_	_	_	1441-1446	wd6	Natur	I-NP	*
+16	zu	zu	_	PTKZU	_	_	_	_	_	1447-1449	wd7	zu	I-NP	*
+17	ſeyn	sein	_	VAINF	_	_	_	_	_	1450-1454	wd8	sein	I-NP	*
+18	,	,	_	$,	_	_	_	_	_	1455-1456	wd9	,	I-NP	*
+19	in	in	_	APPR	_	_	_	_	_	1457-1459	wda	in	I-NP	*
+20	deren	die	_	PRELAT	_	_	_	_	_	1460-1465	wdb	deren	I-NP	*
+21	Tempel	Tempel	_	NN	_	_	_	_	_	1466-1472	wdc	Tempel	I-NP	*
+22	Aller-<lb/>höchſtdieſelben	allerhöchstdieselbe	_	PDS	_	_	_	_	_	1473-1499	wdd,wdd_1,wdd_2	Allerhöchstdieselben	I-NP	*
+23	ſo	so	_	ADV	_	_	_	_	_	1500-1502	wde	so	I-NP	*
+24	gerne	gerne	_	ADV	_	_	_	_	_	1503-1508	wdf	gerne	I-NP	*
+25	des	d	_	ART	_	_	_	_	_	1509-1512	we0	des	I-NP	*
+26	Glanzes	Glanz	_	NN	_	_	_	_	_	1513-1520	we1	Glanzes	I-NP	*
+27	Allerhöchſt-<lb/>dero	allerhöchstdie	_	PDAT	_	_	_	_	_	1521-1542	we2,we2_1,we2_2	Allerhöchstderen	I-NP	*
+28	Thrones	Thron	_	NN	_	_	_	_	_	1543-1550	we3	Thrones	I-NP	*
+29	vergeſſen	vergessen	_	VVFIN	_	_	_	_	_	1551-1560	we4	vergessen	I-NP	*
+30	,	,	_	$,	_	_	_	_	_	1561-1562	we5	,	I-NP	*
+31	und	und	_	KON	_	_	_	_	_	1563-1566	we6	und	I-NP	*
+32	Ihr	ihr	_	PPOSAT	_	_	_	_	_	1567-1570	we7	Ihr	I-NP	*
+33	Herz	Herz	_	NN	_	_	_	_	_	1571-1575	we8	Herz	I-NP	*
+34	an	an	_	APPR	_	_	_	_	_	1576-1578	we9	an	I-NP	*
+35	den	d	_	ART	_	_	_	_	_	1579-1582	wea	den	I-NP	*
+36	Wundern	Wunder	_	NN	_	_	_	_	_	1583-1590	web	Wundern	I-NP	*
+37	des	d	_	ART	_	_	_	_	_	1591-1594	wec	des	I-NP	*
+38	allweiſen	allweis	_	ADJA	_	_	_	_	_	1595-1604	wed	allweisen	I-NP	*
+39	und	und	_	KON	_	_	_	_	_	1605-1608	wee	und	I-NP	*
+40	gütigen	gütig	_	ADJA	_	_	_	_	_	1609-1616	wef	gütigen	I-NP	*
+41	Schöpfers	Schöpfer	_	NN	_	_	_	_	_	1617-1626	wf0	Schöpfers	I-NP	*
+42	im	im	_	APPRART	_	_	_	_	_	1627-1629	wf1	im	I-NP	*
+43	Reiche	Reiche	_	NN	_	_	_	_	_	1630-1636	wf2	Reiche	I-NP	*
+44	der	d	_	ART	_	_	_	_	_	1637-1640	wf3	der	I-NP	*
+45	Natur	Natur	_	NN	_	_	_	_	_	1641-1646	wf4	Natur	I-NP	*
+46	weiden	weiden	_	VVFIN	_	_	_	_	_	1647-1653	wf5	weiden	I-NP	*
+47	.	.	_	$.	_	_	_	_	_	1654-1655	wf6	.	I-NP	*
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# PTBstring = (VROOT(CS(S(CNP(NP(ART Der)(NN Ruhm)(NP(PPOSAT Eurer)(ADJA Königlichen)(NN Majeſtät)(KOMMA ,)))(NP(KOKOM als)(ART einer)(CNP(NN Beſchützerin)(KON und)(NN Beförderin)))(NP(PIAT alles)(CNP(NN Schönen)(KON und)(NN Guten)(KOMMA ,))))(VP(VVFIN floß))(PP(APPR aus)(PDAT dieſer)(ADJA edlen)(NN Quelle)(KOMMA ,)))(KON und)(S(VP(VVFIN machte))(NP(PPER mich))(AP(PTKA ſo)(ADJD dreiſte)(KOMMA ,))(CVP(VP(NP(PDAT dieſes)(PPOSAT mein)(ADJA pomologiſches)(NN Kupferwerk)(NP(PPOSAT Eurer)(ADJA Königlichen)(NN Majeſtät)))(ADJD allerunthänigſt)(VZ(PTKZU zu)(VVINF widmen)))(KON und)(VP(PP(APPR durch)(NN Vor-<lb/>ſetzung)(NP(PDAT Allerhöchſtdero)(ADJA weltberühmten)(NN Namens)))(CNP(NP(PPER ihme)(ART einen)(NN Werth)(ADV mehr)(KOMMA ,)(PP(APPR bey)(ART den)(NN Freunden)(NP(ART der)(NN Na-<lb/>tur))))(KON und)(NP(ART der)(NN Gartenvergnügungen)))(VVIZU beyzulegen)(PUNKT .))))))
+# text = Der Ruhm Eurer Königlichen Majeſtät , als einer Beſchützerin und Beförderin alles Schönen und Guten , floß aus dieſer edlen Quelle , und machte mich ſo dreiſte , dieſes mein pomologiſches Kupferwerk Eurer Königlichen Majeſtät allerunthänigſt zu widmen und durch Vor-<lb/>ſetzung Allerhöchſtdero weltberühmten Namens ihme einen Werth mehr , bey den Freunden der Na-<lb/>tur und der Gartenvergnügungen beyzulegen .
+1	Der	d	_	ART	_	_	_	_	_	1657-1660	wf7	Der	B-NP	*
+2	Ruhm	Ruhm	_	NN	_	_	_	_	_	1661-1665	wf8	Ruhm	I-NP	*
+3	Eurer	euer	_	PPOSAT	_	_	_	_	_	1666-1671	wf9	Eurer	I-NP	*
+4	Königlichen	königlich	_	ADJA	_	_	_	_	_	1672-1683	wfa	Königlichen	I-NP	*
+5	Majeſtät	Majestät	_	NN	_	_	_	_	_	1684-1692	wfb	Majestät	I-NP	*
+6	,	,	_	$,	_	_	_	_	_	1693-1694	wfc	,	I-NP	*
+7	als	als	_	KOKOM	_	_	_	_	_	1695-1698	wfd	als	B-NP	*
+8	einer	eine	_	ART	_	_	_	_	_	1699-1704	wfe	einer	I-NP	*
+9	Beſchützerin	Beschützerin	_	NN	_	_	_	_	_	1705-1717	wff	Beschützerin	I-NP	*
+10	und	und	_	KON	_	_	_	_	_	1718-1721	w100	und	I-NP	*
+11	Beförderin	Beförderin	_	NN	_	_	_	_	_	1722-1732	w101	Beförderin	I-NP	*
+12	alles	alle	_	PIAT	_	_	_	_	_	1733-1738	w102	alles	B-NP	*
+13	Schönen	Schöne	_	NN	_	_	_	_	_	1739-1746	w103	Schönen	I-NP	*
+14	und	und	_	KON	_	_	_	_	_	1747-1750	w104	und	I-NP	*
+15	Guten	Gute	_	NN	_	_	_	_	_	1751-1756	w105	Guten	I-NP	*
+16	,	,	_	$,	_	_	_	_	_	1757-1758	w106	,	I-NP	*
+17	floß	fließen	_	VVFIN	_	_	_	_	_	1759-1763	w107	floß	O	*
+18	aus	aus	_	APPR	_	_	_	_	_	1764-1767	w108	aus	B-PP	*
+19	dieſer	diese	_	PDAT	_	_	_	_	_	1768-1774	w109	dieser	I-PP	*
+20	edlen	edel	_	ADJA	_	_	_	_	_	1775-1780	w10a	edlen	I-PP	*
+21	Quelle	Quelle	_	NN	_	_	_	_	_	1781-1787	w10b	Quelle	I-PP	*
+22	,	,	_	$,	_	_	_	_	_	1788-1789	w10c	,	I-PP	*
+23	und	und	_	KON	_	_	_	_	_	1790-1793	w10d	und	O	*
+24	machte	machen	_	VVFIN	_	_	_	_	_	1794-1800	w10e	machte	O	*
+25	mich	ich	_	PPER	_	_	_	_	_	1801-1805	w10f	mich	B-NP	*
+26	ſo	so	_	PTKA	_	_	_	_	_	1806-1808	w110	so	B-AP	*
+27	dreiſte	dreist	_	ADJD	_	_	_	_	_	1809-1816	w111	dreiste	I-AP	*
+28	,	,	_	$,	_	_	_	_	_	1817-1818	w112	,	I-AP	*
+29	dieſes	diese	_	PDAT	_	_	_	_	_	1819-1825	w113	dieses	B-NP	*
+30	mein	mein	_	PPOSAT	_	_	_	_	_	1826-1830	w114	mein	I-NP	*
+31	pomologiſches	pomologisch	_	ADJA	_	_	_	_	_	1831-1844	w115	pomologisches	I-NP	*
+32	Kupferwerk	Kupferwerk	_	NN	_	_	_	_	_	1845-1855	w116	Kupferwerk	I-NP	*
+33	Eurer	euer	_	PPOSAT	_	_	_	_	_	1856-1861	w117	Eurer	I-NP	*
+34	Königlichen	königlich	_	ADJA	_	_	_	_	_	1862-1873	w118	Königlichen	I-NP	*
+35	Majeſtät	Majestät	_	NN	_	_	_	_	_	1874-1882	w119	Majestät	I-NP	*
+36	allerunthänigſt	Allerunthänigst	_	ADJD	_	_	_	_	_	1883-1898	w11a	allerunthänigst	B-AP	*
+37	zu	zu	_	PTKZU	_	_	_	_	_	1899-1901	w11b	zu	O	*
+38	widmen	widmen	_	VVINF	_	_	_	_	_	1902-1908	w11c	widmen	O	*
+39	und	und	_	KON	_	_	_	_	_	1909-1912	w11d	und	O	*
+40	durch	durch	_	APPR	_	_	_	_	_	1913-1918	w11e	durch	B-PP	*
+41	Vor-<lb/>ſetzung	Vorsetzung	_	NN	_	_	_	_	_	1919-1935	w11f,w11f_1	Vorsetzung	I-PP	*
+42	Allerhöchſtdero	allerhöchstdie	_	PDAT	_	_	_	_	_	1936-1951	w120	Allerhöchstderen	I-PP	*
+43	weltberühmten	weltberühmt	_	ADJA	_	_	_	_	_	1952-1965	w121	weltberühmten	I-PP	*
+44	Namens	Name	_	NN	_	_	_	_	_	1966-1972	w122	Namens	I-PP	*
+45	ihme	er	_	PPER	_	_	_	_	_	1973-1977	w123	ihm	B-NP	*
+46	einen	eine	_	ART	_	_	_	_	_	1978-1983	w124	einen	I-NP	*
+47	Werth	Wert	_	NN	_	_	_	_	_	1984-1989	w125	Wert	I-NP	*
+48	mehr	mehr	_	ADV	_	_	_	_	_	1990-1994	w126	mehr	I-NP	*
+49	,	,	_	$,	_	_	_	_	_	1995-1996	w127	,	I-NP	*
+50	bey	bei	_	APPR	_	_	_	_	_	1997-2000	w128	bei	I-NP	*
+51	den	d	_	ART	_	_	_	_	_	2001-2004	w129	den	I-NP	*
+52	Freunden	Freund	_	NN	_	_	_	_	_	2005-2013	w12a	Freunden	I-NP	*
+53	der	d	_	ART	_	_	_	_	_	2014-2017	w12b	der	I-NP	*
+54	Na-<lb/>tur	Natur	_	NN	_	_	_	_	_	2018-2029	w12c	Natur	I-NP	*
+55	und	und	_	KON	_	_	_	_	_	2030-2033	w12d	und	I-NP	*
+56	der	d	_	ART	_	_	_	_	_	2034-2037	w12e	der	I-NP	*
+57	Gartenvergnügungen	Gartenvergnügung	_	NN	_	_	_	_	_	2038-2056	w12f	Gartenvergnügungen	I-NP	*
+58	beyzulegen	beilegen	_	VVIZU	_	_	_	_	_	2057-2067	w130	beizulegen	O	*
+59	.	.	_	$.	_	_	_	_	_	2068-2069	w131	.	O	*
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# PTBstring = (VROOT(PP(APPR Mit)(ADJA tiefſter)(NN Ehrfurcht)))
+# text = Mit tiefſter Ehrfurcht
+1	Mit	mit	_	APPR	_	_	_	_	_	2071-2074	w132	Mit	B-PP	*
+2	tiefſter	tief	_	ADJA	_	_	_	_	_	2075-2083	w133	tiefster	I-PP	*
+3	Ehrfurcht	Ehrfurcht	_	NN	_	_	_	_	_	2084-2093	w134	Ehrfurcht	I-PP	*
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# PTBstring = (VROOT(NP(PPOSAT Eurer)(ADJA Königlichen)(NN Majeſtät)))
+# text = Eurer Königlichen Majeſtät
+1	Eurer	euer	_	PPOSAT	_	_	_	_	_	2095-2100	w135	Eurer	B-NP	*
+2	Königlichen	königlich	_	ADJA	_	_	_	_	_	2101-2112	w136	Königlichen	I-NP	*
+3	Majeſtät	Majestät	_	NN	_	_	_	_	_	2113-2121	w137	Majestät	I-NP	*
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# PTBstring = (VROOT(AP(ADJD allerunterthänigſt)(NP(PN(ADJA gehorſamſter)(NE J.)(PN(NE L.)(NE Chriſt)(KOMMA ,)))(NP(NN Oberpfarrer)(PP(APPR zu)(NE Kronberg)(PUNKT .))))))
+# text = allerunterthänigſt gehorſamſter J. L. Chriſt , Oberpfarrer zu Kronberg .
+1	allerunterthänigſt	alleruntertänigst	_	ADJD	_	_	_	_	_	2123-2141	w138	alleruntertänigst	B-AP	*
+2	gehorſamſter	gehorsam	_	ADJA	_	_	_	_	_	2142-2154	w139	gehorsamster	I-AP	*
+3	J.	J.	_	NE	_	_	_	_	_	2155-2157	w13a	J.	I-AP	*
+4	L.	L.	_	NE	_	_	_	_	_	2158-2160	w13b	L.	I-AP	*
+5	Chriſt	Christ	_	NE	_	_	_	_	_	2161-2167	w13c	Christ	I-AP	*
+6	,	,	_	$,	_	_	_	_	_	2168-2169	w13d	,	I-AP	*
+7	Oberpfarrer	Oberpfarrer	_	NN	_	_	_	_	_	2170-2181	w13e	Oberpfarrer	I-AP	*
+8	zu	zu	_	APPR	_	_	_	_	_	2182-2184	w13f	zu	I-AP	*
+9	Kronberg	Kronberg	_	NE	_	_	_	_	_	2185-2193	w140	Kronberg	I-AP	*
+10	.	.	_	$.	_	_	_	_	_	2194-2195	w141	.	I-AP	*
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# PTBstring = (VROOT(CNP(NP(NN Liſte)(NP(ADJA verſchiedener)(NN Gartenfreunde)(KOMMA ,)))(NP(KOKOM als)(NN Subſcribenten)(PUNKT .))))
+# text = Liſte verſchiedener Gartenfreunde , als Subſcribenten .
+1	Liſte	Liste	_	NN	_	_	_	_	_	2197-2202	w2648d	Liste	B-NP	*
+2	verſchiedener	verschieden	_	ADJA	_	_	_	_	_	2203-2216	w2648e	verschiedener	I-NP	*
+3	Gartenfreunde	Gartenfreund	_	NN	_	_	_	_	_	2217-2230	w2648f	Gartenfreunde	I-NP	*
+4	,	,	_	$,	_	_	_	_	_	2231-2232	w26490	,	I-NP	*
+5	als	als	_	KOKOM	_	_	_	_	_	2233-2236	w26491	als	B-NP	*
+6	Subſcribenten	Subskribent	_	NN	_	_	_	_	_	2237-2250	w26492	Subskribenten	I-NP	*
+7	.	.	_	$.	_	_	_	_	_	2251-2252	w26493	.	I-NP	*
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# PTBstring = (VROOT(NP(PPOSAT Ihro)(NN Durchlaucht)(NP(ART die)(ADJA verwittibte)(NN Frau)(NP(NN Herzogin)(NE Fran-<lb/>ziska))(NE Thereſia)(PP(APPR von)(NE Würtemberg)))(PUNKT .)))
+# text = Ihro Durchlaucht die verwittibte Frau Herzogin Fran-<lb/>ziska Thereſia von Würtemberg .
+1	Ihro	ihr	_	PPOSAT	_	_	_	_	_	2254-2258	w26494,w26494_1	Ihre	B-NP	*
+2	Durchlaucht	Durchlaucht	_	NN	_	_	_	_	_	2259-2270	w26495	Durchlaucht	I-NP	*
+3	die	d	_	ART	_	_	_	_	_	2271-2274	w26496	die	I-NP	*
+4	verwittibte	verwitwet	_	ADJA	_	_	_	_	_	2275-2286	w26497	verwitwete	I-NP	*
+5	Frau	Frau	_	NN	_	_	_	_	_	2287-2291	w26498	Frau	I-NP	*
+6	Herzogin	Herzogin	_	NN	_	_	_	_	_	2292-2300	w26499	Herzogin	I-NP	*
+7	Fran-<lb/>ziska	Franziska	_	NE	_	_	_	_	_	2301-2316	w2649a,w2649a_1,w2649a_2	Franziska	I-NP	*
+8	Thereſia	Theresia	_	NE	_	_	_	_	_	2317-2325	w2649b	Theresia	I-NP	*
+9	von	von	_	APPR	_	_	_	_	_	2326-2329	w2649c	von	I-NP	*
+10	Würtemberg	Württemberg	_	NE	_	_	_	_	_	2330-2340	w2649d	Württemberg	I-NP	*
+11	.	.	_	$.	_	_	_	_	_	2341-2342	w2649e	.	I-NP	*
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# PTBstring = (VROOT(DL(NP(NN Frau)(PN(NE A.)(APPR von)(NE Münchhauſen)(KOMMA ,))(NP(NN Aebtiſſin)(NP(ART des)(NN Stifts))))(CPP(PP(APPR zu)(NE Fiſchbeck)(KOMMA ,))(PP(APPR ohnweit)(NE Hameln)(PUNKT .)))))
+# text = Frau A. von Münchhauſen , Aebtiſſin des Stifts zu Fiſchbeck , ohnweit Hameln .
+1	Frau	Frau	_	NN	_	_	_	_	_	2344-2348	w2649f	Frau	B-NP	*
+2	A.	A.	_	NE	_	_	_	_	_	2349-2351	w264a0	A.	I-NP	*
+3	von	von	_	APPR	_	_	_	_	_	2352-2355	w264a1	von	I-NP	*
+4	Münchhauſen	Münchhausen	_	NE	_	_	_	_	_	2356-2367	w264a2	Münchhausen	I-NP	*
+5	,	,	_	$,	_	_	_	_	_	2368-2369	w264a3	,	I-NP	*
+6	Aebtiſſin	Äbtissin	_	NN	_	_	_	_	_	2370-2379	w264a4	Äbtissin	I-NP	*
+7	des	d	_	ART	_	_	_	_	_	2380-2383	w264a5	des	I-NP	*
+8	Stifts	Stift	_	NN	_	_	_	_	_	2384-2390	w264a6	Stifts	I-NP	*
+9	zu	zu	_	APPR	_	_	_	_	_	2391-2393	w264a7	zu	B-PP	*
+10	Fiſchbeck	Fischbeck	_	NE	_	_	_	_	_	2394-2403	w264a8	Fischbeck	I-PP	*
+11	,	,	_	$,	_	_	_	_	_	2404-2405	w264a9	,	I-PP	*
+12	ohnweit	unweit	_	APPR	_	_	_	_	_	2406-2413	w264aa	unweit	B-PP	*
+13	Hameln	Hameln	_	NE	_	_	_	_	_	2414-2420	w264ab	Hameln	I-PP	*
+14	.	.	_	$.	_	_	_	_	_	2421-2422	w264ac	.	I-PP	*
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# PTBstring = (VROOT(CNP(NP(NN Herr)(NE Anreiter)(KOMMA ,))(NP(NN Poſtmeiſter)(PP(APPR zu)(NE Brixen)(PP(APPR in)(NE Tirol)(PUNKT .))))))
+# text = Herr Anreiter , Poſtmeiſter zu Brixen in Tirol .
+1	Herr	Herr	_	NN	_	_	_	_	_	2424-2428	w264ad	Herr	B-NP	*
+2	Anreiter	Anreiter	_	NE	_	_	_	_	_	2429-2437	w264ae	Anreiter	I-NP	*
+3	,	,	_	$,	_	_	_	_	_	2438-2439	w264af	,	I-NP	*
+4	Poſtmeiſter	Postmeister	_	NN	_	_	_	_	_	2440-2451	w264b0	Postmeister	B-NP	*
+5	zu	zu	_	APPR	_	_	_	_	_	2452-2454	w264b1	zu	I-NP	*
+6	Brixen	Brixen	_	NE	_	_	_	_	_	2455-2461	w264b2	Brixen	I-NP	*
+7	in	in	_	APPR	_	_	_	_	_	2462-2464	w264b3	in	I-NP	*
+8	Tirol	Tirol	_	NE	_	_	_	_	_	2465-2470	w264b4	Tirol	I-NP	*
+9	.	.	_	$.	_	_	_	_	_	2471-2472	w264b5	.	I-NP	*
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# PTBstring = (VROOT(S(KLAMMER —)(NP(NE Amecke)(KOMMA ,)(NP(NN Landzoll-Commiſſär)))(VP(PP(APPR in)(NE Arnsberg)))(PUNKT .)))
+# text = — Amecke , Landzoll-Commiſſär in Arnsberg .
+1	—	--	_	$(	_	_	_	_	_	2474-2475	w264b6	--	O	*
+2	Amecke	Amecke	_	NE	_	_	_	_	_	2476-2482	w264b7	Amecke	B-NP	*
+3	,	,	_	$,	_	_	_	_	_	2483-2484	w264b8	,	I-NP	*
+4	Landzoll-Commiſſär	Landzoll-Kommissär	_	NN	_	_	_	_	_	2485-2503	w264b9	Landzoll-Kommissär	I-NP	*
+5	in	in	_	APPR	_	_	_	_	_	2504-2506	w264ba	in	B-PP	*
+6	Arnsberg	Arnsberg	_	NE	_	_	_	_	_	2507-2515	w264bb	Arnsberg	I-PP	*
+7	.	.	_	$.	_	_	_	_	_	2516-2517	w264bc	.	O	*
+
+# sent_id = 19
+# sent_id(TSV) = 19
+# PTBstring = (VROOT(CPP(KLAMMER —)(PP(APPR von)(NE Bakoff)(KOMMA ,))(PP(APPR auf)(NE Heukendorf))(PP(APPR bey)(NE Altenburg))(PUNKT .)))
+# text = — von Bakoff , auf Heukendorf bey Altenburg .
+1	—	--	_	$(	_	_	_	_	_	2519-2520	w264bd	--	O	*
+2	von	von	_	APPR	_	_	_	_	_	2521-2524	w264be	von	B-PP	*
+3	Bakoff	Backoff	_	NE	_	_	_	_	_	2525-2531	w264bf	Backoff	I-PP	*
+4	,	,	_	$,	_	_	_	_	_	2532-2533	w264c0	,	I-PP	*
+5	auf	auf	_	APPR	_	_	_	_	_	2534-2537	w264c1	auf	B-PP	*
+6	Heukendorf	Heukendorf	_	NE	_	_	_	_	_	2538-2548	w264c2	Heukendorf	I-PP	*
+7	bey	bei	_	APPR	_	_	_	_	_	2549-2552	w264c3	bei	B-PP	*
+8	Altenburg	Altenburg	_	NE	_	_	_	_	_	2553-2562	w264c4	Altenburg	I-PP	*
+9	.	.	_	$.	_	_	_	_	_	2563-2564	w264c5	.	O	*

@@ -1,0 +1,661 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CharOffset DTA:ID DTA:NORM PHRASE POS
+# sent_id = 1
+# sent_id(TSV) = 1
+# PTBstring = (VROOT(CNP(NP(ADJA Allgemeine)(NN Zeitung.)(NP(NP(NN Nr.)(CARD 72.)(NE Augsburg)(KOMMA ,))(NN Montag)(KOMMA ,)))(NP(ADJA 13)(NN März)(CARD 1871)(PUNKT .))))
+# text = Allgemeine Zeitung. Nr. 72. Augsburg , Montag , 13 März 1871 .
+1	Allgemeine	allgemein	_	ADJA	_	_	_	_	_	0-10	w1	Allgemeine	B-NP	*
+2	Zeitung.	Zeitung.	_	NN	_	_	_	_	_	11-19	w2	Zeitung.	I-NP	*
+3	Nr.	Nr.	_	NN	_	_	_	_	_	20-23	w3	Nr.	I-NP	*
+4	72.	72.	_	CARD	_	_	_	_	_	24-27	w4	72.	I-NP	*
+5	Augsburg	Augsburg	_	NE	_	_	_	_	_	28-36	w5	Augsburg	I-NP	*
+6	,	,	_	$,	_	_	_	_	_	37-38	w6	,	I-NP	*
+7	Montag	Montag	_	NN	_	_	_	_	_	39-45	w7	Montag	I-NP	*
+8	,	,	_	$,	_	_	_	_	_	46-47	w8	,	I-NP	*
+9	13	13	_	ADJA	_	_	_	_	_	48-50	w9	13	B-NP	*
+10	März	März	_	NN	_	_	_	_	_	51-55	wa	März	I-NP	*
+11	1871	1871	_	CARD	_	_	_	_	_	56-60	wb	1871	I-NP	*
+12	.	.	_	$.	_	_	_	_	_	61-62	wc	.	I-NP	*
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# PTBstring = (VROOT(NP(NN Verlag)(NP(NP(ART der)(PN(NE J.)(NE G.))(PN(NE Cotta')(NE schen)))(NN Buchhandlung))(PUNKT .)))
+# text = Verlag der J. G. Cotta' schen Buchhandlung .
+1	Verlag	Verlag	_	NN	_	_	_	_	_	64-70	wd	Verlag	B-NP	*
+2	der	d	_	ART	_	_	_	_	_	71-74	we	der	I-NP	*
+3	J.	J.	_	NE	_	_	_	_	_	75-77	wf	J.	I-NP	*
+4	G.	G.	_	NE	_	_	_	_	_	78-80	w10	G.	I-NP	*
+5	Cotta'	Cotta'	_	NE	_	_	_	_	_	81-87	w11	Cotta'	I-NP	*
+6	schen	Schen	_	NE	_	_	_	_	_	88-93	w12	schen	I-NP	*
+7	Buchhandlung	Buchhandlung	_	NN	_	_	_	_	_	94-106	w13	Buchhandlung	I-NP	*
+8	.	.	_	$.	_	_	_	_	_	107-108	w14	.	I-NP	*
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# PTBstring = (VROOT(AP(PP(APPR Für)(ART die)(NN Redaction))(ADJD verantwortlich)(PUNKT :)))
+# text = Für die Redaction verantwortlich :
+1	Für	für	_	APPR	_	_	_	_	_	110-113	w15	Für	B-AP	*
+2	die	d	_	ART	_	_	_	_	_	114-117	w16	die	I-AP	*
+3	Redaction	Redaktion	_	NN	_	_	_	_	_	118-127	w17	Redaktion	I-AP	*
+4	verantwortlich	verantwortlich	_	ADJD	_	_	_	_	_	128-142	w18	verantwortlich	I-AP	*
+5	:	:	_	$.	_	_	_	_	_	143-144	w19	:	I-AP	*
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# PTBstring = (VROOT(NP(NN Dr.)(NP(NE J.)(PP(APPR v.)(NE Gosen)))(PUNKT .)))
+# text = Dr. J. v. Gosen .
+1	Dr.	Dr.	_	NN	_	_	_	_	_	146-149	w1a,w1a_1	Dr.	B-NP	*
+2	J.	J.	_	NE	_	_	_	_	_	150-152	w1b	J.	I-NP	*
+3	v.	v.	_	APPR	_	_	_	_	_	153-155	w1c	v.	I-NP	*
+4	Gosen	Gosen	_	NE	_	_	_	_	_	156-161	w1d	Gosen	I-NP	*
+5	.	.	_	$.	_	_	_	_	_	162-163	w1e	.	I-NP	*
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# PTBstring = (VROOT(S(NP(PDAT ☞)(NN Montags))(VP(VVFIN erscheint))(NP(ADV nur)(ART ein)(NN Blatt))(PUNKT .)))
+# text = ☞ Montags erscheint nur ein Blatt .
+1	☞	☞	_	XY	_	_	_	_	_	165-166	w1f	☞	B-NP	*
+2	Montags	Montag	_	ADV	_	_	_	_	_	167-174	w20	Montags	I-NP	*
+3	erscheint	erscheinen	_	VVFIN	_	_	_	_	_	175-184	w21	erscheint	O	*
+4	nur	nur	_	ADV	_	_	_	_	_	185-188	w22	nur	B-NP	*
+5	ein	eine	_	ART	_	_	_	_	_	189-192	w23	ein	I-NP	*
+6	Blatt	Blatt	_	NN	_	_	_	_	_	193-198	w24	Blatt	I-NP	*
+7	.	.	_	$.	_	_	_	_	_	199-200	w25	.	O	*
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# PTBstring = (VROOT(PP(APPRART Zur)(ADJA moralischen)(NN Rückeroberung)(NP(ART des)(NN Elsaßes))(PUNKT .)))
+# text = Zur moralischen Rückeroberung des Elsaßes .
+1	Zur	zur	_	APPRART	_	_	_	_	_	202-205	w26	Zur	B-PP	*
+2	moralischen	moralisch	_	ADJA	_	_	_	_	_	206-217	w27	moralischen	I-PP	*
+3	Rückeroberung	Rückeroberung	_	NN	_	_	_	_	_	218-231	w28	Rückeroberung	I-PP	*
+4	des	d	_	ART	_	_	_	_	_	232-235	w29	des	I-PP	*
+5	Elsaßes	Elsaßes	_	NN	_	_	_	_	_	236-243	w2a	Elsaßes	I-PP	*
+6	.	.	_	$.	_	_	_	_	_	244-245	w2b	.	I-PP	*
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# PTBstring = (VROOT(S(KLAMMER --)(NP(ART Das)(NN Französische))(VP(PP(APPRART im)(ADJA neuen)(ADJA deutschen)(NN Reich)))(PUNKT .)))
+# text = -- Das Französische im neuen deutschen Reich .
+1	--	--	_	$(	_	_	_	_	_	247-249	w2c	--	O	*
+2	Das	d	_	ART	_	_	_	_	_	250-253	w2d	Das	B-NP	*
+3	Französische	französisch	_	NN	_	_	_	_	_	254-266	w2e	Französische	I-NP	*
+4	im	im	_	APPRART	_	_	_	_	_	267-269	w2f	im	B-PP	*
+5	neuen	neu	_	ADJA	_	_	_	_	_	270-275	w30	neuen	I-PP	*
+6	deutschen	deutsch	_	ADJA	_	_	_	_	_	276-285	w31	deutschen	I-PP	*
+7	Reich	Reich	_	NN	_	_	_	_	_	286-291	w32	Reich	I-PP	*
+8	.	.	_	$.	_	_	_	_	_	292-293	w33	.	O	*
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# PTBstring = (VROOT(S(KLAMMER LBR)(NP(ADJA I.)(NN Schluß))(KLAMMER .RBR)))
+# text = ( I. Schluß .)
+1	(	(	_	$(	_	_	_	_	_	295-296	w34	(	O	*
+2	I.	i.	_	ADJA	_	_	_	_	_	297-299	w35,w35_1	I.	B-NP	*
+3	Schluß	Schluß	_	NN	_	_	_	_	_	300-306	w36	Schluß	I-NP	*
+4	.)	.)	_	$(	_	_	_	_	_	307-309	w37	.)	O	*
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# PTBstring = (VROOT(NP(ADJA Neueste)(NN Posten)(PUNKT .)))
+# text = Neueste Posten .
+1	Neueste	neu	_	ADJA	_	_	_	_	_	311-318	w38	Neueste	B-NP	*
+2	Posten	Posten	_	NN	_	_	_	_	_	319-325	w39	Posten	I-NP	*
+3	.	.	_	$.	_	_	_	_	_	326-327	w3a	.	I-NP	*
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# PTBstring = (VROOT(NP(ART Das)(NN Cultusministerium)(PUNKT .)))
+# text = Das Cultusministerium .
+1	Das	d	_	ART	_	_	_	_	_	329-332	w43	Das	B-NP	*
+2	Cultusministerium	Kultusministerium	_	NN	_	_	_	_	_	333-350	w44	Kultusministerium	I-NP	*
+3	.	.	_	$.	_	_	_	_	_	351-352	w45	.	I-NP	*
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# PTBstring = (VROOT(DL(NE Wilhelmshöhe)(PUNKT :)(NP(NN Protest)(NP(ART des)(NN Exkaisers)(PUNKT .)))))
+# text = Wilhelmshöhe : Protest des Exkaisers .
+1	Wilhelmshöhe	Wilhelmshöhe	_	NE	_	_	_	_	_	354-366	w46	Wilhelmshöhe	B-NP	*
+2	:	:	_	$.	_	_	_	_	_	367-368	w47	:	O	*
+3	Protest	Protest	_	NN	_	_	_	_	_	369-376	w48	Protest	B-NP	*
+4	des	d	_	ART	_	_	_	_	_	377-380	w49	des	I-NP	*
+5	Exkaisers	Exkaiser	_	NN	_	_	_	_	_	381-390	w4a	Exkaisers	I-NP	*
+6	.	.	_	$.	_	_	_	_	_	391-392	w4b	.	I-NP	*
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# PTBstring = (VROOT(DL(NE Bern)(PUNKT :)(NP(ART Die)(NN Rückkehr)(NP(ART der)(ADJA internirten)(NN Franzosen)(PUNKT .)))))
+# text = Bern : Die Rückkehr der internirten Franzosen .
+1	Bern	Bern	_	NE	_	_	_	_	_	394-398	w4c	Bern	B-NP	*
+2	:	:	_	$.	_	_	_	_	_	399-400	w4d	:	O	*
+3	Die	d	_	ART	_	_	_	_	_	401-404	w4e	Die	B-NP	*
+4	Rückkehr	Rückkehr	_	NN	_	_	_	_	_	405-413	w4f	Rückkehr	I-NP	*
+5	der	d	_	ART	_	_	_	_	_	414-417	w50	der	I-NP	*
+6	internirten	interniert	_	ADJA	_	_	_	_	_	418-429	w51	internierten	I-NP	*
+7	Franzosen	Franzose	_	NN	_	_	_	_	_	430-439	w52	Franzosen	I-NP	*
+8	.	.	_	$.	_	_	_	_	_	440-441	w53	.	I-NP	*
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# PTBstring = (VROOT(NP(NN Störung)(NP(ART des)(ADJA deutschen)(NN Friedensfestes)(PP(APPR in)(NE Zürich)))(PUNKT .)))
+# text = Störung des deutschen Friedensfestes in Zürich .
+1	Störung	Störung	_	NN	_	_	_	_	_	443-450	w54	Störung	B-NP	*
+2	des	d	_	ART	_	_	_	_	_	451-454	w55	des	I-NP	*
+3	deutschen	deutsch	_	ADJA	_	_	_	_	_	455-464	w56	deutschen	I-NP	*
+4	Friedensfestes	Friedensfest	_	NN	_	_	_	_	_	465-479	w57	Friedensfestes	I-NP	*
+5	in	in	_	APPR	_	_	_	_	_	480-482	w58	in	I-NP	*
+6	Zürich	Zürich	_	NE	_	_	_	_	_	483-489	w59	Zürich	I-NP	*
+7	.	.	_	$.	_	_	_	_	_	490-491	w5a	.	I-NP	*
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# PTBstring = (VROOT(NP(NN Aufhebung)(NP(ART der)(NN Vieh-<lb/>sperre))(PUNKT .)))
+# text = Aufhebung der Vieh-<lb/>sperre .
+1	Aufhebung	Aufhebung	_	NN	_	_	_	_	_	493-502	w5b	Aufhebung	B-NP	*
+2	der	d	_	ART	_	_	_	_	_	503-506	w5c	der	I-NP	*
+3	Vieh-<lb/>sperre	Viehsperre	_	NN	_	_	_	_	_	507-523	w5d	Viehsperre	I-NP	*
+4	.	.	_	$.	_	_	_	_	_	524-525	w5e	.	I-NP	*
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# PTBstring = (VROOT(NP(NN Ueberbrückung)(NP(ART des)(NE Rheins))(PUNKT .)))
+# text = Ueberbrückung des Rheins .
+1	Ueberbrückung	Überbrückung	_	NN	_	_	_	_	_	527-540	w5f	Überbrückung	B-NP	*
+2	des	d	_	ART	_	_	_	_	_	541-544	w60	des	I-NP	*
+3	Rheins	Rhein	_	NE	_	_	_	_	_	545-551	w61	Rheins	I-NP	*
+4	.	.	_	$.	_	_	_	_	_	552-553	w62	.	I-NP	*
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# PTBstring = (VROOT(S(NP(ART Die)(NN Auf-<lb/>stellung)(NP(ART der)(NN Armee))(PP(APPR während)(ART der)(ADJA nächsten)(NN Occupationsphase)))(VP(VAFIN ist))(VP(ADV derart)(VVPP ge-<lb/>ordnet)(KOMMA ,))(S(KOUS daß)(CO(PP(APPR von)(ART der)(ADJA untern)(NE Seine)(KOMMA ,))(S(PWAV wo)(NP(ART die)(ADJA erste)(NN Armee))(VP(VVFIN verbleibt))(KOMMA ,)))(NP(PRF sich))(NP(ART die)(ADJA übrigen)(NN Armeen))(AP(ADJD ununterbrochen))(VP(VVFIN aneinanderschließen))(PP(APPR bis)(NE Dijon)(APZR hin)(KOMMA ,))(S(PWAV wo)(NP(ART die)(NN Linie))(VP(PP(APPR durch)(ART die)(NN Südarmee))(VVPP geschlossen))(VP(VAFIN wird))(PUNKT .)))))
+# text = Die Auf-<lb/>stellung der Armee während der nächsten Occupationsphase ist derart ge-<lb/>ordnet , daß von der untern Seine , wo die erste Armee verbleibt , sich die übrigen Armeen ununterbrochen aneinanderschließen bis Dijon hin , wo die Linie durch die Südarmee geschlossen wird .
+1	Die	d	_	ART	_	_	_	_	_	555-558	w9c	Die	B-NP	*
+2	Auf-<lb/>stellung	Aufstellung	_	NN	_	_	_	_	_	559-576	w9d	Aufstellung	I-NP	*
+3	der	d	_	ART	_	_	_	_	_	577-580	w9e	der	I-NP	*
+4	Armee	Armee	_	NN	_	_	_	_	_	581-586	w9f	Armee	I-NP	*
+5	während	während	_	APPR	_	_	_	_	_	587-594	wa0	während	I-NP	*
+6	der	d	_	ART	_	_	_	_	_	595-598	wa1	der	I-NP	*
+7	nächsten	nächst	_	ADJA	_	_	_	_	_	599-607	wa2	nächsten	I-NP	*
+8	Occupationsphase	Okkupationsphase	_	NN	_	_	_	_	_	608-624	wa3	Okkupationsphase	I-NP	*
+9	ist	sein	_	VAFIN	_	_	_	_	_	625-628	wa4	ist	O	*
+10	derart	derart	_	ADV	_	_	_	_	_	629-635	wa5	derart	B-ADVP	*
+11	ge-<lb/>ordnet	ordnen	_	VVPP	_	_	_	_	_	636-650	wa6	geordnet	O	*
+12	,	,	_	$,	_	_	_	_	_	651-652	wa7	,	O	*
+13	daß	daß	_	KOUS	_	_	_	_	_	653-656	wa8	daß	O	*
+14	von	von	_	APPR	_	_	_	_	_	657-660	wa9	von	B-PP	*
+15	der	d	_	ART	_	_	_	_	_	661-664	waa	der	I-PP	*
+16	untern	unter	_	ADJA	_	_	_	_	_	665-671	wab	unteren	I-PP	*
+17	Seine	Seine	_	NE	_	_	_	_	_	672-677	wac	Seine	I-PP	*
+18	,	,	_	$,	_	_	_	_	_	678-679	wad	,	I-PP	*
+19	wo	wo	_	PWAV	_	_	_	_	_	680-682	wae	wo	O	*
+20	die	d	_	ART	_	_	_	_	_	683-686	waf	die	B-NP	*
+21	erste	erst	_	ADJA	_	_	_	_	_	687-692	wb0	erste	I-NP	*
+22	Armee	Armee	_	NN	_	_	_	_	_	693-698	wb1	Armee	I-NP	*
+23	verbleibt	verbleiben	_	VVFIN	_	_	_	_	_	699-708	wb2	verbleibt	O	*
+24	,	,	_	$,	_	_	_	_	_	709-710	wb3	,	O	*
+25	sich	sich	_	PRF	_	_	_	_	_	711-715	wb4	sich	B-NP	*
+26	die	d	_	ART	_	_	_	_	_	716-719	wb5	die	B-NP	*
+27	übrigen	übrig	_	ADJA	_	_	_	_	_	720-727	wb6	übrigen	I-NP	*
+28	Armeen	Armee	_	NN	_	_	_	_	_	728-734	wb7	Armeen	I-NP	*
+29	ununterbrochen	ununterbrechen	_	ADJD	_	_	_	_	_	735-749	wb8	ununterbrochen	B-AP	*
+30	aneinanderschließen	aneinanderschließen	_	VVFIN	_	_	_	_	_	750-769	wb9	aneinanderschließen	O	*
+31	bis	bis	_	APPR	_	_	_	_	_	770-773	wba	bis	B-PP	*
+32	Dijon	Dijon	_	NE	_	_	_	_	_	774-779	wbb	Dijon	I-PP	*
+33	hin	hin	_	APZR	_	_	_	_	_	780-783	wbc	hin	I-PP	*
+34	,	,	_	$,	_	_	_	_	_	784-785	wbd	,	I-PP	*
+35	wo	wo	_	PWAV	_	_	_	_	_	786-788	wbe	wo	O	*
+36	die	d	_	ART	_	_	_	_	_	789-792	wbf	die	B-NP	*
+37	Linie	Linie	_	NN	_	_	_	_	_	793-798	wc0	Linie	I-NP	*
+38	durch	durch	_	APPR	_	_	_	_	_	799-804	wc1	durch	B-PP	*
+39	die	d	_	ART	_	_	_	_	_	805-808	wc2	die	I-PP	*
+40	Südarmee	Südenarmee	_	NN	_	_	_	_	_	809-817	wc3	Südarmee	I-PP	*
+41	geschlossen	schließen	_	VVPP	_	_	_	_	_	818-829	wc4	geschlossen	O	*
+42	wird	werden	_	VAFIN	_	_	_	_	_	830-834	wc5	wird	O	*
+43	.	.	_	$.	_	_	_	_	_	835-836	wc6	.	O	*
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# PTBstring = (VROOT(S(NP(ART Das)(AP(PP(APPRART zur)(NN Südarmee))(ADJA ge-<lb/>hörige))(ADJA vierzehnte)(NN Armeecorps))(VP(VAFIN wird))(CVP(VP(ADV nächstens)(VVPP aufgelöst)(KOMMA ,))(KON und)(VP(PAV dafür)(NP(ART das)(ADJA fünfte)(NN Armeecorps)(NP(ART der)(NN Südarmee)))(VVPP beigegeben)(PUNKT .)))))
+# text = Das zur Südarmee ge-<lb/>hörige vierzehnte Armeecorps wird nächstens aufgelöst , und dafür das fünfte Armeecorps der Südarmee beigegeben .
+1	Das	die	_	ART	_	_	_	_	_	838-841	wc7	Das	B-NP	*
+2	zur	zur	_	APPRART	_	_	_	_	_	842-845	wc8	zur	I-NP	*
+3	Südarmee	Südenarmee	_	NN	_	_	_	_	_	846-854	wc9	Südarmee	I-NP	*
+4	ge-<lb/>hörige	gehörig	_	ADJA	_	_	_	_	_	855-869	wca	gehörige	I-NP	*
+5	vierzehnte	vierzehnt	_	ADJA	_	_	_	_	_	870-880	wcb	vierzehnte	I-NP	*
+6	Armeecorps	Armeecorps	_	NN	_	_	_	_	_	881-891	wcc	Armeecorps	I-NP	*
+7	wird	werden	_	VAFIN	_	_	_	_	_	892-896	wcd	wird	O	*
+8	nächstens	nächstens	_	ADV	_	_	_	_	_	897-906	wce	nächstens	B-ADVP	*
+9	aufgelöst	auflösen	_	VVPP	_	_	_	_	_	907-916	wcf	aufgelöst	O	*
+10	,	,	_	$,	_	_	_	_	_	917-918	wd0	,	O	*
+11	und	und	_	KON	_	_	_	_	_	919-922	wd1	und	O	*
+12	dafür	dafür	_	PAV	_	_	_	_	_	923-928	wd2	dafür	B-PP	*
+13	das	d	_	ART	_	_	_	_	_	929-932	wd3	das	B-NP	*
+14	fünfte	fünft	_	ADJA	_	_	_	_	_	933-939	wd4	fünfte	I-NP	*
+15	Armeecorps	Armeecorps	_	NN	_	_	_	_	_	940-950	wd5	Armeecorps	I-NP	*
+16	der	d	_	ART	_	_	_	_	_	951-954	wd6	der	I-NP	*
+17	Südarmee	Südenarmee	_	NN	_	_	_	_	_	955-963	wd7	Südarmee	I-NP	*
+18	beigegeben	beigeben	_	VVPP	_	_	_	_	_	964-974	wd8	beigegeben	O	*
+19	.	.	_	$.	_	_	_	_	_	975-976	wd9	.	O	*
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# PTBstring = (VROOT(S(NP(ART Das)(NN Centrum)(NP(ART der)(NN Auf-<lb/>stellung)))(VP(VVFIN bilden))(NP(ART die)(NN Maasarmee)(KOMMA ,)(NP(ART die)(ADJA dritte)(NN Armee)(KOMMA ,)))(S:OC(PWAV woran)(NP(PRF sich))(PP(ADV etwa)(APPRART beim)(NN Einfluß)(NP(ART der)(NE Aube)(PP(APPR in)(ART die)(NE Seine))))(NP(ART die)(ADJA zweite)(NN Armee))(VP(VVFIN anschließt))(PUNKT .))))
+# text = Das Centrum der Auf-<lb/>stellung bilden die Maasarmee , die dritte Armee , woran sich etwa beim Einfluß der Aube in die Seine die zweite Armee anschließt .
+1	Das	d	_	ART	_	_	_	_	_	978-981	wda	Das	B-NP	*
+2	Centrum	Zentrum	_	NN	_	_	_	_	_	982-989	wdb	Zentrum	I-NP	*
+3	der	d	_	ART	_	_	_	_	_	990-993	wdc	der	I-NP	*
+4	Auf-<lb/>stellung	Aufstellung	_	NN	_	_	_	_	_	994-1011	wdd	Aufstellung	I-NP	*
+5	bilden	bilden	_	VVFIN	_	_	_	_	_	1012-1018	wde	bilden	O	*
+6	die	d	_	ART	_	_	_	_	_	1019-1022	wdf	die	B-NP	*
+7	Maasarmee	Maasarmee	_	NN	_	_	_	_	_	1023-1032	we0	Maasarmee	I-NP	*
+8	,	,	_	$,	_	_	_	_	_	1033-1034	we1	,	I-NP	*
+9	die	d	_	ART	_	_	_	_	_	1035-1038	we2	die	I-NP	*
+10	dritte	dritt	_	ADJA	_	_	_	_	_	1039-1045	we3	dritte	I-NP	*
+11	Armee	Armee	_	NN	_	_	_	_	_	1046-1051	we4	Armee	I-NP	*
+12	,	,	_	$,	_	_	_	_	_	1052-1053	we5	,	I-NP	*
+13	woran	woran	_	PWAV	_	_	_	_	_	1054-1059	we6	woran	O	*
+14	sich	sich	_	PRF	_	_	_	_	_	1060-1064	we7	sich	B-NP	*
+15	etwa	etwa	_	ADV	_	_	_	_	_	1065-1069	we8	etwa	B-PP	*
+16	beim	beim	_	APPRART	_	_	_	_	_	1070-1074	we9	beim	I-PP	*
+17	Einfluß	Einfluß	_	NN	_	_	_	_	_	1075-1082	wea	Einfluß	I-PP	*
+18	der	d	_	ART	_	_	_	_	_	1083-1086	web	der	I-PP	*
+19	Aube	Aube	_	NE	_	_	_	_	_	1087-1091	wec	Aube	I-PP	*
+20	in	in	_	APPR	_	_	_	_	_	1092-1094	wed	in	I-PP	*
+21	die	d	_	ART	_	_	_	_	_	1095-1098	wee	die	I-PP	*
+22	Seine	seine	_	NE	_	_	_	_	_	1099-1104	wef	Seine	I-PP	*
+23	die	d	_	ART	_	_	_	_	_	1105-1108	wf0	die	B-NP	*
+24	zweite	zweit	_	ADJA	_	_	_	_	_	1109-1115	wf1	zweite	I-NP	*
+25	Armee	Armee	_	NN	_	_	_	_	_	1116-1121	wf2	Armee	I-NP	*
+26	anschließt	anschließen	_	VVFIN	_	_	_	_	_	1122-1132	wf3	anschließt	O	*
+27	.	.	_	$.	_	_	_	_	_	1133-1134	wf4	.	O	*
+
+# sent_id = 19
+# sent_id(TSV) = 19
+# PTBstring = (VROOT(S(NP(PPER Es))(VP(VAFIN ist))(AVP(ADV bereits))(NP(NN Befehl))(VP(VVPP ertheilt)(VP(NP(ART die)(NN Landwehren)(CPP(KON sowohl)(PP(APPR aus)(ART dem)(NN Corpsverband))(KON als)(PP(APPR aus)(ART den)(NN Garnisonen))))(ADJD unverzüglich)(PP(APPR in)(ART die)(NN Heimath))(VZ(PTKZU zu)(VVINF entlassen)(PUNKT .))))))
+# text = Es ist bereits Befehl ertheilt die Landwehren sowohl aus dem Corpsverband als aus den Garnisonen unverzüglich in die Heimath zu entlassen .
+1	Es	es	_	PPER	_	_	_	_	_	1136-1138	wf5	Es	B-NP	*
+2	ist	sein	_	VAFIN	_	_	_	_	_	1139-1142	wf6	ist	O	*
+3	bereits	bereits	_	ADV	_	_	_	_	_	1143-1150	wf7	bereits	B-ADVP	*
+4	Befehl	Befehl	_	NN	_	_	_	_	_	1151-1157	wf8	Befehl	B-NP	*
+5	ertheilt	erteilen	_	VVPP	_	_	_	_	_	1158-1166	wf9	erteilt	O	*
+6	die	d	_	ART	_	_	_	_	_	1167-1170	wfa	die	B-NP	*
+7	Landwehren	Landwehr	_	NN	_	_	_	_	_	1171-1181	wfb	Landwehren	I-NP	*
+8	sowohl	sowohl	_	KON	_	_	_	_	_	1182-1188	wfc	sowohl	O	*
+9	aus	aus	_	APPR	_	_	_	_	_	1189-1192	wfd	aus	O	*
+10	dem	d	_	ART	_	_	_	_	_	1193-1196	wfe	dem	O	*
+11	Corpsverband	Corpsverband	_	NN	_	_	_	_	_	1197-1209	wff	Corpsverband	O	*
+12	als	als	_	KON	_	_	_	_	_	1210-1213	w100	als	O	*
+13	aus	aus	_	APPR	_	_	_	_	_	1214-1217	w101	aus	O	*
+14	den	d	_	ART	_	_	_	_	_	1218-1221	w102	den	O	*
+15	Garnisonen	Garnison	_	NN	_	_	_	_	_	1222-1232	w103	Garnisonen	O	*
+16	unverzüglich	unverzüglich	_	ADJD	_	_	_	_	_	1233-1245	w104	unverzüglich	B-AP	*
+17	in	in	_	APPR	_	_	_	_	_	1246-1248	w105	in	B-PP	*
+18	die	d	_	ART	_	_	_	_	_	1249-1252	w106	die	I-PP	*
+19	Heimath	Heimat	_	NN	_	_	_	_	_	1253-1260	w107	Heimat	I-PP	*
+20	zu	zu	_	PTKZU	_	_	_	_	_	1261-1263	w108	zu	O	*
+21	entlassen	entlassen	_	VVINF	_	_	_	_	_	1264-1273	w109	entlassen	O	*
+22	.	.	_	$.	_	_	_	_	_	1274-1275	w10a	.	O	*
+
+# sent_id = 20
+# sent_id(TSV) = 20
+# PTBstring = (VROOT(CS(S(NP(ART Die)(AP(NP(ART den)(AP(PP(APPR an)(NE Deutschland))(ADJA abgetretenen))(NN Landestheilen))(ADJA angehörenden))(NN Kriegsgefangenen)(KOMMA ,)(S:RC(NP(PRELS welche))(VP(PP(APPRART im)(ADJA bisherigen)(NN Jnternirungsort))(VZ(PTKZU zu)(VVINF verbleiben)))(VP(VVFIN wün-<lb/>schen))(KOMMA ,)))(VP(VAFIN werden))(VP(ADV sofort)(PP(APPR in)(NN Freiheit))(VVPP gesetzt)(PUNKT ;)))(S(NP(PDS diejenigen)(S:RC(NP(PRELS welche))(VP(PRF sich)(PP(APPR in)(ART die)(NN Hei-<lb/>math))(VVINF begeben))(VP(VMFIN wollen))(KOMMA ,)))(VP(VMFIN sollen))(AVP(ADV so))(VP(VVPP behandelt)(VAINF werden)(PP(KOKOM wie)(APPR auf)(NN Revers)(ADJA entlassene)(NN Officiere)(PUNKT .))))))
+# text = Die den an Deutschland abgetretenen Landestheilen angehörenden Kriegsgefangenen , welche im bisherigen Jnternirungsort zu verbleiben wün-<lb/>schen , werden sofort in Freiheit gesetzt ; diejenigen welche sich in die Hei-<lb/>math begeben wollen , sollen so behandelt werden wie auf Revers entlassene Officiere .
+1	Die	d	_	ART	_	_	_	_	_	1277-1280	w10b	Die	B-NP	*
+2	den	d	_	ART	_	_	_	_	_	1281-1284	w10c	den	I-NP	*
+3	an	an	_	APPR	_	_	_	_	_	1285-1287	w10d	an	I-NP	*
+4	Deutschland	Deutschland	_	NE	_	_	_	_	_	1288-1299	w10e	Deutschland	I-NP	*
+5	abgetretenen	abgetreten	_	ADJA	_	_	_	_	_	1300-1312	w10f	abgetretenen	I-NP	*
+6	Landestheilen	Landesteil	_	NN	_	_	_	_	_	1313-1326	w110	Landesteilen	I-NP	*
+7	angehörenden	angehörend	_	ADJA	_	_	_	_	_	1327-1339	w111	angehörenden	I-NP	*
+8	Kriegsgefangenen	Kriegsgefangene	_	NN	_	_	_	_	_	1340-1356	w112	Kriegsgefangenen	I-NP	*
+9	,	,	_	$,	_	_	_	_	_	1357-1358	w113	,	I-NP	*
+10	welche	welche	_	PRELS	_	_	_	_	_	1359-1365	w114	welche	I-NP	*
+11	im	im	_	APPRART	_	_	_	_	_	1366-1368	w115	im	I-NP	*
+12	bisherigen	bisherig	_	ADJA	_	_	_	_	_	1369-1379	w116	bisherigen	I-NP	*
+13	Jnternirungsort	Internierungsort	_	NN	_	_	_	_	_	1380-1395	w117	Internierungsort	I-NP	*
+14	zu	zu	_	PTKZU	_	_	_	_	_	1396-1398	w118	zu	I-NP	*
+15	verbleiben	verbleiben	_	VVINF	_	_	_	_	_	1399-1409	w119	verbleiben	I-NP	*
+16	wün-<lb/>schen	wünschen	_	VVFIN	_	_	_	_	_	1410-1424	w11a	wünschen	I-NP	*
+17	,	,	_	$,	_	_	_	_	_	1425-1426	w11b	,	I-NP	*
+18	werden	werden	_	VAFIN	_	_	_	_	_	1427-1433	w11c	werden	O	*
+19	sofort	sofort	_	ADV	_	_	_	_	_	1434-1440	w11d	sofort	B-ADVP	*
+20	in	in	_	APPR	_	_	_	_	_	1441-1443	w11e	in	B-PP	*
+21	Freiheit	Freiheit	_	NN	_	_	_	_	_	1444-1452	w11f	Freiheit	I-PP	*
+22	gesetzt	setzen	_	VVPP	_	_	_	_	_	1453-1460	w120	gesetzt	O	*
+23	;	;	_	$.	_	_	_	_	_	1461-1462	w121	;	O	*
+24	diejenigen	diejenige	_	PDS	_	_	_	_	_	1463-1473	w122	diejenigen	B-NP	*
+25	welche	welche	_	PRELS	_	_	_	_	_	1474-1480	w123	welche	I-NP	*
+26	sich	sich	_	PRF	_	_	_	_	_	1481-1485	w124	sich	I-NP	*
+27	in	in	_	APPR	_	_	_	_	_	1486-1488	w125	in	I-NP	*
+28	die	d	_	ART	_	_	_	_	_	1489-1492	w126	die	I-NP	*
+29	Hei-<lb/>math	Heimat	_	NN	_	_	_	_	_	1493-1506	w127	Heimat	I-NP	*
+30	begeben	begeben	_	VVINF	_	_	_	_	_	1507-1514	w128	begeben	I-NP	*
+31	wollen	wollen	_	VMFIN	_	_	_	_	_	1515-1521	w129	wollen	I-NP	*
+32	,	,	_	$,	_	_	_	_	_	1522-1523	w12a	,	I-NP	*
+33	sollen	sollen	_	VMFIN	_	_	_	_	_	1524-1530	w12b	sollen	O	*
+34	so	so	_	ADV	_	_	_	_	_	1531-1533	w12c	so	B-ADVP	*
+35	behandelt	behandeln	_	VVPP	_	_	_	_	_	1534-1543	w12d	behandelt	O	*
+36	werden	werden	_	VAINF	_	_	_	_	_	1544-1550	w12e	werden	O	*
+37	wie	wie	_	KOKOM	_	_	_	_	_	1551-1554	w12f	wie	B-PP	*
+38	auf	auf	_	APPR	_	_	_	_	_	1555-1558	w130	auf	I-PP	*
+39	Revers	Revers	_	NN	_	_	_	_	_	1559-1565	w131	Revers	I-PP	*
+40	entlassene	entlaßen	_	ADJA	_	_	_	_	_	1566-1576	w132	entlassene	I-PP	*
+41	Officiere	Offizier	_	NN	_	_	_	_	_	1577-1586	w133	Offiziere	I-PP	*
+42	.	.	_	$.	_	_	_	_	_	1587-1588	w134	.	I-PP	*
+
+# sent_id = 21
+# sent_id(TSV) = 21
+# PTBstring = (VROOT(S(NP(PDS Diejenigen)(S:RC(NP(PRELS die))(VP(PP(APPR in)(ADJA französischen)(NN Kriegsdiensten))(VVINF verbleiben))(VP(VMFIN wollen))(KOMMA ,)))(VP(VAFIN werden))(VP(NP(KOKOM wie)(ADJA andere)(NN Kriegsgefangene))(ADV lediglich)(PP(APPR nach)(NN Maßgabe)(NP(ART des)(NN Friedens-<lb/>vertrags)))(VVPP behandelt)(PUNKT .))))
+# text = Diejenigen die in französischen Kriegsdiensten verbleiben wollen , werden wie andere Kriegsgefangene lediglich nach Maßgabe des Friedens-<lb/>vertrags behandelt .
+1	Diejenigen	diejenige	_	PDS	_	_	_	_	_	1590-1600	w135	Diejenigen	B-NP	*
+2	die	d	_	PRELS	_	_	_	_	_	1601-1604	w136	die	B-NP	*
+3	in	in	_	APPR	_	_	_	_	_	1605-1607	w137	in	B-PP	*
+4	französischen	französisch	_	ADJA	_	_	_	_	_	1608-1621	w138	französischen	I-PP	*
+5	Kriegsdiensten	Kriegsdienst	_	NN	_	_	_	_	_	1622-1636	w139	Kriegsdiensten	I-PP	*
+6	verbleiben	verbleiben	_	VVINF	_	_	_	_	_	1637-1647	w13a	verbleiben	O	*
+7	wollen	wollen	_	VMFIN	_	_	_	_	_	1648-1654	w13b	wollen	O	*
+8	,	,	_	$,	_	_	_	_	_	1655-1656	w13c	,	O	*
+9	werden	werden	_	VAFIN	_	_	_	_	_	1657-1663	w13d	werden	O	*
+10	wie	wie	_	KOKOM	_	_	_	_	_	1664-1667	w13e	wie	B-NP	*
+11	andere	ander	_	ADJA	_	_	_	_	_	1668-1674	w13f	andere	I-NP	*
+12	Kriegsgefangene	Kriegsgefangene	_	NN	_	_	_	_	_	1675-1690	w140	Kriegsgefangene	I-NP	*
+13	lediglich	lediglich	_	ADV	_	_	_	_	_	1691-1700	w141	lediglich	B-ADVP	*
+14	nach	nach	_	APPR	_	_	_	_	_	1701-1705	w142	nach	B-PP	*
+15	Maßgabe	Maßgabe	_	NN	_	_	_	_	_	1706-1713	w143	Maßgabe	I-PP	*
+16	des	d	_	ART	_	_	_	_	_	1714-1717	w144	des	I-PP	*
+17	Friedens-<lb/>vertrags	Friedensvertrag	_	NN	_	_	_	_	_	1718-1740	w145	Friedensvertrags	I-PP	*
+18	behandelt	behandeln	_	VVPP	_	_	_	_	_	1741-1750	w146	behandelt	O	*
+19	.	.	_	$.	_	_	_	_	_	1751-1752	w147	.	O	*
+
+# sent_id = 22
+# sent_id(TSV) = 22
+# PTBstring = (VROOT(CH(FM LBR)(FM *)(KLAMMER RBR)(FM Berlin)(KOMMA ,)(FM 11)(FM März)(PUNKT .)))
+# text = ( * ) Berlin , 11 März .
+1	(	(	_	$(	_	_	_	_	_	1754-1755	w148	(	O	*
+2	*	*	_	XY	_	_	_	_	_	1756-1757	w149	*	O	*
+3	)	)	_	$(	_	_	_	_	_	1758-1759	w14a	)	O	*
+4	Berlin	Berlin	_	NE	_	_	_	_	_	1760-1766	w14b	Berlin	B-NP	*
+5	,	,	_	$,	_	_	_	_	_	1767-1768	w14c	,	O	*
+6	11	11	_	ADJA	_	_	_	_	_	1769-1771	w14d	11	B-AP	*
+7	März	März	_	NN	_	_	_	_	_	1772-1776	w14e	März	B-NP	*
+8	.	.	_	$.	_	_	_	_	_	1777-1778	w14f	.	O	*
+
+# sent_id = 23
+# sent_id(TSV) = 23
+# PTBstring = (VROOT(S(PP(ART Dem)(NN Vernehmen)(APPO nach))(VP(VAFIN ist))(CNP(NP(ART die)(NN Demobili-<lb/>sirung)(NP(ART der)(NN Garnisonsbataillone)))(KON und)(NP(ADJA interimistischen)(NN Besatzungstruppen)(KOMMA ,))(KON sowie)(NP(ART die)(NN Desarmirung)(NP(ART der)(NN Festungen)))(KON und)(NN Küstenbefestigungen))(VP(ADV bereits)(VVPP an-<lb/>geordnet)(PUNKT .))))
+# text = Dem Vernehmen nach ist die Demobili-<lb/>sirung der Garnisonsbataillone und interimistischen Besatzungstruppen , sowie die Desarmirung der Festungen und Küstenbefestigungen bereits an-<lb/>geordnet .
+1	Dem	d	_	ART	_	_	_	_	_	1780-1783	w150	Dem	B-PP	*
+2	Vernehmen	Vernehmen	_	NN	_	_	_	_	_	1784-1793	w151	Vernehmen	I-PP	*
+3	nach	nach	_	APPO	_	_	_	_	_	1794-1798	w152	nach	I-PP	*
+4	ist	sein	_	VAFIN	_	_	_	_	_	1799-1802	w153	ist	O	*
+5	die	d	_	ART	_	_	_	_	_	1803-1806	w154	die	B-NP	*
+6	Demobili-<lb/>sirung	Demobilisierung	_	NN	_	_	_	_	_	1807-1827	w155	Demobilisierung	I-NP	*
+7	der	d	_	ART	_	_	_	_	_	1828-1831	w156	der	I-NP	*
+8	Garnisonsbataillone	Garnisonsbataillon	_	NN	_	_	_	_	_	1832-1851	w157	Garnisonsbataillone	I-NP	*
+9	und	und	_	KON	_	_	_	_	_	1852-1855	w158	und	I-NP	*
+10	interimistischen	interimistisch	_	ADJA	_	_	_	_	_	1856-1872	w159	interimistischen	I-NP	*
+11	Besatzungstruppen	Besatzungstruppe	_	NN	_	_	_	_	_	1873-1890	w15a	Besatzungstruppen	I-NP	*
+12	,	,	_	$,	_	_	_	_	_	1891-1892	w15b	,	I-NP	*
+13	sowie	sowie	_	KON	_	_	_	_	_	1893-1898	w15c	sowie	I-NP	*
+14	die	d	_	ART	_	_	_	_	_	1899-1902	w15d	die	I-NP	*
+15	Desarmirung	Desarmierung	_	NN	_	_	_	_	_	1903-1914	w15e	Desarmierung	I-NP	*
+16	der	d	_	ART	_	_	_	_	_	1915-1918	w15f	der	I-NP	*
+17	Festungen	Festung	_	NN	_	_	_	_	_	1919-1928	w160	Festungen	I-NP	*
+18	und	und	_	KON	_	_	_	_	_	1929-1932	w161	und	I-NP	*
+19	Küstenbefestigungen	Küstenbefestigung	_	NN	_	_	_	_	_	1933-1952	w162	Küstenbefestigungen	I-NP	*
+20	bereits	bereits	_	ADV	_	_	_	_	_	1953-1960	w163	bereits	B-ADVP	*
+21	an-<lb/>geordnet	anordnen	_	VVPP	_	_	_	_	_	1961-1977	w164	angeordnet	O	*
+22	.	.	_	$.	_	_	_	_	_	1978-1979	w165	.	O	*
+
+# sent_id = 24
+# sent_id(TSV) = 24
+# PTBstring = (VROOT(S(NP(PPER Es))(VP(VVFIN heißt))(PUNKT :)(S:OC(PP(APPR nach)(NN Durchführung)(NP(ART der)(NN Demobilisirung)(NP(ART der)(ADJA gesamm-<lb/>ten)(NN Armee))))(VP(VAFIN werde))(VP(VVPP beabsichtigt))(VP(NP(ART die)(ADJA ältesten)(NN Jahrgänge))(NP(ART der)(NN Landwehr))(PP(APPRART zum)(NN Landsturm))(VVIZU überzuführen)(PUNKT .)))))
+# text = Es heißt : nach Durchführung der Demobilisirung der gesamm-<lb/>ten Armee werde beabsichtigt die ältesten Jahrgänge der Landwehr zum Landsturm überzuführen .
+1	Es	es	_	PPER	_	_	_	_	_	1981-1983	w166	Es	B-NP	*
+2	heißt	heißen	_	VVFIN	_	_	_	_	_	1984-1989	w167	heißt	O	*
+3	:	:	_	$.	_	_	_	_	_	1990-1991	w168	:	O	*
+4	nach	nach	_	APPR	_	_	_	_	_	1992-1996	w169	nach	B-PP	*
+5	Durchführung	Durchführung	_	NN	_	_	_	_	_	1997-2009	w16a	Durchführung	I-PP	*
+6	der	d	_	ART	_	_	_	_	_	2010-2013	w16b	der	I-PP	*
+7	Demobilisirung	Demobilisierung	_	NN	_	_	_	_	_	2014-2028	w16c	Demobilisierung	I-PP	*
+8	der	d	_	ART	_	_	_	_	_	2029-2032	w16d	der	I-PP	*
+9	gesamm-<lb/>ten	gesamt	_	ADJA	_	_	_	_	_	2033-2048	w16e	gesamten	I-PP	*
+10	Armee	Armee	_	NN	_	_	_	_	_	2049-2054	w16f	Armee	I-PP	*
+11	werde	werden	_	VAFIN	_	_	_	_	_	2055-2060	w170	werde	O	*
+12	beabsichtigt	beabsichtigen	_	VVPP	_	_	_	_	_	2061-2073	w171	beabsichtigt	O	*
+13	die	d	_	ART	_	_	_	_	_	2074-2077	w172	die	B-NP	*
+14	ältesten	alt	_	ADJA	_	_	_	_	_	2078-2086	w173	ältesten	I-NP	*
+15	Jahrgänge	Jahrgang	_	NN	_	_	_	_	_	2087-2096	w174	Jahrgänge	I-NP	*
+16	der	d	_	ART	_	_	_	_	_	2097-2100	w175	der	B-NP	*
+17	Landwehr	Landwehr	_	NN	_	_	_	_	_	2101-2109	w176	Landwehr	I-NP	*
+18	zum	zum	_	APPRART	_	_	_	_	_	2110-2113	w177	zum	B-PP	*
+19	Landsturm	Landsturm	_	NN	_	_	_	_	_	2114-2123	w178	Landsturm	I-PP	*
+20	überzuführen	überführen	_	VVIZU	_	_	_	_	_	2124-2136	w179	überzuführen	O	*
+21	.	.	_	$.	_	_	_	_	_	2137-2138	w17a	.	O	*
+
+# sent_id = 25
+# sent_id(TSV) = 25
+# PTBstring = (VROOT(CH(FM LBR)(FM *)(KLAMMER RBR)(FM Roubaix)(KOMMA ,)(FM 11)(FM März)(PUNKT .)))
+# text = ( * ) Roubaix , 11 März .
+1	(	(	_	$(	_	_	_	_	_	2140-2141	w17b	(	O	*
+2	*	*	_	XY	_	_	_	_	_	2142-2143	w17c	*	O	*
+3	)	)	_	$(	_	_	_	_	_	2144-2145	w17d	)	O	*
+4	Roubaix	Roubaix	_	NE	_	_	_	_	_	2146-2153	w17e	Roubaix	B-NP	*
+5	,	,	_	$,	_	_	_	_	_	2154-2155	w17f	,	O	*
+6	11	11	_	ADJA	_	_	_	_	_	2156-2158	w180	11	B-AP	*
+7	März	März	_	NN	_	_	_	_	_	2159-2163	w181	März	B-NP	*
+8	.	.	_	$.	_	_	_	_	_	2164-2165	w182	.	O	*
+
+# sent_id = 26
+# sent_id(TSV) = 26
+# PTBstring = (VROOT(S(NP(ART Die)(NN Arbeitseinstellung))(VP(VAFIN hat))(VP(VVPP zugenommen)(PUNKT .))))
+# text = Die Arbeitseinstellung hat zugenommen .
+1	Die	d	_	ART	_	_	_	_	_	2167-2170	w183	Die	B-NP	*
+2	Arbeitseinstellung	Arbeitseinstellung	_	NN	_	_	_	_	_	2171-2189	w184	Arbeitseinstellung	I-NP	*
+3	hat	haben	_	VAFIN	_	_	_	_	_	2190-2193	w185	hat	O	*
+4	zugenommen	zunehmen	_	VVPP	_	_	_	_	_	2194-2204	w186	zugenommen	O	*
+5	.	.	_	$.	_	_	_	_	_	2205-2206	w187	.	O	*
+
+# sent_id = 27
+# sent_id(TSV) = 27
+# PTBstring = (VROOT(S(PP(APPRART Jm)(NN Arbeiterviertel))(VP(VVFIN finden))(NP(NN Zusammenrottungen))(SVP(PTKVZ statt))(PUNKT .)))
+# text = Jm Arbeiterviertel finden Zusammenrottungen statt .
+1	Jm	im	_	APPRART	_	_	_	_	_	2208-2210	w188	Im	B-PP	*
+2	Arbeiterviertel	Arbeiterviertel	_	NN	_	_	_	_	_	2211-2226	w189	Arbeiterviertel	I-PP	*
+3	finden	finden	_	VVFIN	_	_	_	_	_	2227-2233	w18a	finden	O	*
+4	Zusammenrottungen	Zusammenrottung	_	NN	_	_	_	_	_	2234-2251	w18b	Zusammenrottungen	B-NP	*
+5	statt	statt	_	PTKVZ	_	_	_	_	_	2252-2257	w18c	statt	O	*
+6	.	.	_	$.	_	_	_	_	_	2258-2259	w18d	.	O	*
+
+# sent_id = 28
+# sent_id(TSV) = 28
+# PTBstring = (VROOT(S(NP(ART Der)(NN Generalprocu-<lb/>rator))(VP(VAFIN ist))(VP(VVPP angekommen)(PUNKT .))))
+# text = Der Generalprocu-<lb/>rator ist angekommen .
+1	Der	d	_	ART	_	_	_	_	_	2261-2264	w18e	Der	B-NP	*
+2	Generalprocu-<lb/>rator	Generalprokurator	_	NN	_	_	_	_	_	2265-2288	w18f	Generalprokurator	I-NP	*
+3	ist	sein	_	VAFIN	_	_	_	_	_	2289-2292	w190	ist	O	*
+4	angekommen	ankommen	_	VVPP	_	_	_	_	_	2293-2303	w191	angekommen	O	*
+5	.	.	_	$.	_	_	_	_	_	2304-2305	w192	.	O	*
+
+# sent_id = 29
+# sent_id(TSV) = 29
+# PTBstring = (VROOT(S(NP(PIAT Mehrere)(NN Personen))(VP(VAFIN sind))(VP(VP(ADJD gerichtlich)(VVPP verurtheilt))(VAPP wor-<lb/>den)(PUNKT .))))
+# text = Mehrere Personen sind gerichtlich verurtheilt wor-<lb/>den .
+1	Mehrere	mehrere	_	PIAT	_	_	_	_	_	2307-2314	w193	Mehrere	B-NP	*
+2	Personen	Person	_	NN	_	_	_	_	_	2315-2323	w194	Personen	I-NP	*
+3	sind	sein	_	VAFIN	_	_	_	_	_	2324-2328	w195	sind	O	*
+4	gerichtlich	gerichtlich	_	ADJD	_	_	_	_	_	2329-2340	w196	gerichtlich	B-AP	*
+5	verurtheilt	verurteilen	_	VVPP	_	_	_	_	_	2341-2352	w197	verurteilt	O	*
+6	wor-<lb/>den	werden	_	VAPP	_	_	_	_	_	2353-2365	w198	worden	O	*
+7	.	.	_	$.	_	_	_	_	_	2366-2367	w199	.	O	*
+
+# sent_id = 30
+# sent_id(TSV) = 30
+# PTBstring = (VROOT(S(NP(PIS Man))(VP(VVFIN befürchtet))(NP(NN Unruhen))(PUNKT .)))
+# text = Man befürchtet Unruhen .
+1	Man	man	_	PIS	_	_	_	_	_	2369-2372	w19a	Man	B-NP	*
+2	befürchtet	befürchten	_	VVFIN	_	_	_	_	_	2373-2383	w19b	befürchtet	O	*
+3	Unruhen	Unruhen	_	NN	_	_	_	_	_	2384-2391	w19c	Unruhen	B-NP	*
+4	.	.	_	$.	_	_	_	_	_	2392-2393	w19d	.	O	*
+
+# sent_id = 31
+# sent_id(TSV) = 31
+# PTBstring = (VROOT(S(NP(ADJA Weitere)(NN Telegramme))(VP(VVIMP siehe))(NP(ADJA fünfte)(NN Seite)(PUNKT .))))
+# text = Weitere Telegramme siehe fünfte Seite .
+1	Weitere	weit	_	ADJA	_	_	_	_	_	2395-2402	w19e	Weitere	B-NP	*
+2	Telegramme	Telegramm	_	NN	_	_	_	_	_	2403-2413	w19f	Telegramme	I-NP	*
+3	siehe	sehen	_	VVIMP	_	_	_	_	_	2414-2419	w1a0	siehe	O	*
+4	fünfte	fünft	_	ADJA	_	_	_	_	_	2420-2426	w1a1	fünfte	B-NP	*
+5	Seite	Seite	_	NN	_	_	_	_	_	2427-2432	w1a2	Seite	I-NP	*
+6	.	.	_	$.	_	_	_	_	_	2433-2434	w1a3	.	I-NP	*
+
+# sent_id = 32
+# sent_id(TSV) = 32
+# PTBstring = (VROOT(PP(APPRART Zur)(ADJA moralischen)(NN Rückeroberung)(NP(ART des)(NE Elsaßes))(PUNKT .)))
+# text = Zur moralischen Rückeroberung des Elsaßes .
+1	Zur	zur	_	APPRART	_	_	_	_	_	2436-2439	w1a4	Zur	B-PP	*
+2	moralischen	moralisch	_	ADJA	_	_	_	_	_	2440-2451	w1a5	moralischen	I-PP	*
+3	Rückeroberung	Rückeroberung	_	NN	_	_	_	_	_	2452-2465	w1a6	Rückeroberung	I-PP	*
+4	des	d	_	ART	_	_	_	_	_	2466-2469	w1a7	des	I-PP	*
+5	Elsaßes	Elsaßes	_	NE	_	_	_	_	_	2470-2477	w1a8	Elsaßes	I-PP	*
+6	.	.	_	$.	_	_	_	_	_	2478-2479	w1a9	.	I-PP	*
+
+# sent_id = 33
+# sent_id(TSV) = 33
+# PTBstring = (VROOT(CH(FM △)(FM Straßburg)(KOMMA ,)(FM 4)(FM März)(PUNKT .)))
+# text = △ Straßburg , 4 März .
+1	△	△	_	XY	_	_	_	_	_	2481-2482	w1aa	△	O	*
+2	Straßburg	Straßburg	_	NE	_	_	_	_	_	2483-2492	w1ab	Straßburg	B-NP	*
+3	,	,	_	$,	_	_	_	_	_	2493-2494	w1ac	,	O	*
+4	4	4	_	ADJA	_	_	_	_	_	2495-2496	w1ad	4	B-AP	*
+5	März	März	_	NN	_	_	_	_	_	2497-2501	w1ae	März	B-NP	*
+6	.	.	_	$.	_	_	_	_	_	2502-2503	w1af	.	O	*
+
+# sent_id = 34
+# sent_id(TSV) = 34
+# PTBstring = (VROOT(S(PP(APPR Von)(ART der)(KLAMMER „)(ADJA moralischen)(NN Rückeroberung)(NP(ART des)(NE Elsaßes)))(VP(VAFIN ist))(AVP(ADV jetzt))(PP(APPR in)(ART der)(ADJA deutschen)(NN Presse))(AVP(ADV so)(ADV vielfach))(NP(ART die)(NN Rede)(KOMMA ,)(S(KOUS daß)(NP(PPER es))(VP(ADV vielleicht)(PP(APPR von)(NN Jnteresse))(VAINF sein))(VP(VMFIN dürfte))(PP(APPR über)(PDAT diesen)(AP(ADV sehr)(ADJA wichtigen))(NN Gegenstand))(VP(NP(ART eine)(NN Stimme)(PP(APPR aus)(ART dem)(NE Elsaß)))(ADV selbst)(VZ(PTKZU zu)(VVINF vernehmen)(PUNKT .)))))))
+# text = Von der „ moralischen Rückeroberung des Elsaßes ist jetzt in der deutschen Presse so vielfach die Rede , daß es vielleicht von Jnteresse sein dürfte über diesen sehr wichtigen Gegenstand eine Stimme aus dem Elsaß selbst zu vernehmen .
+1	Von	von	_	APPR	_	_	_	_	_	2505-2508	w1b0	Von	B-PP	*
+2	der	d	_	ART	_	_	_	_	_	2509-2512	w1b1	der	I-PP	*
+3	„	"	_	$(	_	_	_	_	_	2513-2514	w1b2	"	I-PP	*
+4	moralischen	moralisch	_	ADJA	_	_	_	_	_	2515-2526	w1b3	moralischen	I-PP	*
+5	Rückeroberung	Rückeroberung	_	NN	_	_	_	_	_	2527-2540	w1b4	Rückeroberung	I-PP	*
+6	des	d	_	ART	_	_	_	_	_	2541-2544	w1b5	des	I-PP	*
+7	Elsaßes	Elsaßes	_	NE	_	_	_	_	_	2545-2552	w1b6	Elsaßes	I-PP	*
+8	ist	sein	_	VAFIN	_	_	_	_	_	2553-2556	w1b7	ist	O	*
+9	jetzt	jetzt	_	ADV	_	_	_	_	_	2557-2562	w1b8	jetzt	B-ADVP	*
+10	in	in	_	APPR	_	_	_	_	_	2563-2565	w1b9	in	B-PP	*
+11	der	d	_	ART	_	_	_	_	_	2566-2569	w1ba	der	I-PP	*
+12	deutschen	deutsch	_	ADJA	_	_	_	_	_	2570-2579	w1bb	deutschen	I-PP	*
+13	Presse	Presse	_	NN	_	_	_	_	_	2580-2586	w1bc	Presse	I-PP	*
+14	so	so	_	ADV	_	_	_	_	_	2587-2589	w1bd	so	B-ADVP	*
+15	vielfach	vielfach	_	ADV	_	_	_	_	_	2590-2598	w1be	vielfach	I-ADVP	*
+16	die	d	_	ART	_	_	_	_	_	2599-2602	w1bf	die	B-NP	*
+17	Rede	Rede	_	NN	_	_	_	_	_	2603-2607	w1c0	Rede	I-NP	*
+18	,	,	_	$,	_	_	_	_	_	2608-2609	w1c1	,	O	*
+19	daß	daß	_	KOUS	_	_	_	_	_	2610-2613	w1c2	daß	O	*
+20	es	es	_	PPER	_	_	_	_	_	2614-2616	w1c3	es	B-NP	*
+21	vielleicht	vielleicht	_	ADV	_	_	_	_	_	2617-2627	w1c4	vielleicht	B-ADVP	*
+22	von	von	_	APPR	_	_	_	_	_	2628-2631	w1c5	von	B-PP	*
+23	Jnteresse	Interesse	_	NN	_	_	_	_	_	2632-2641	w1c6	Interesse	I-PP	*
+24	sein	sein	_	VAINF	_	_	_	_	_	2642-2646	w1c7	sein	O	*
+25	dürfte	dürfen	_	VMFIN	_	_	_	_	_	2647-2653	w1c8	dürfte	O	*
+26	über	über	_	APPR	_	_	_	_	_	2654-2658	w1c9	über	B-PP	*
+27	diesen	diese	_	PDAT	_	_	_	_	_	2659-2665	w1ca	diesen	I-PP	*
+28	sehr	sehr	_	ADV	_	_	_	_	_	2666-2670	w1cb	sehr	I-PP	*
+29	wichtigen	wichtig	_	ADJA	_	_	_	_	_	2671-2680	w1cc	wichtigen	I-PP	*
+30	Gegenstand	Gegenstand	_	NN	_	_	_	_	_	2681-2691	w1cd	Gegenstand	I-PP	*
+31	eine	eine	_	ART	_	_	_	_	_	2692-2696	w1ce	eine	B-NP	*
+32	Stimme	Stimme	_	NN	_	_	_	_	_	2697-2703	w1cf	Stimme	I-NP	*
+33	aus	aus	_	APPR	_	_	_	_	_	2704-2707	w1d0	aus	I-NP	*
+34	dem	d	_	ART	_	_	_	_	_	2708-2711	w1d1	dem	I-NP	*
+35	Elsaß	Elsaß	_	NE	_	_	_	_	_	2712-2717	w1d2	Elsaß	I-NP	*
+36	selbst	selbst	_	ADV	_	_	_	_	_	2718-2724	w1d3	selbst	B-ADVP	*
+37	zu	zu	_	PTKZU	_	_	_	_	_	2725-2727	w1d4	zu	O	*
+38	vernehmen	vernehmen	_	VVINF	_	_	_	_	_	2728-2737	w1d5	vernehmen	O	*
+39	.	.	_	$.	_	_	_	_	_	2738-2739	w1d6	.	O	*
+
+# sent_id = 35
+# sent_id(TSV) = 35
+# PTBstring = (VROOT(S(VP(VVINF Vorausschicken))(VP(VMFIN müssen))(NP(PPER wir))(PP(PAV hiebei))(S(KOUS daß)(NP(PPER wir))(PP(APPR zu)(PDAT denjenigen)(NN Elsäßern))(VP(VVFIN gehören))(S:RC(NP(PRELS die))(NP(PRF sich))(PP(APPR von)(NN Herzen))(PP(PAV darüber))(VP(VVFIN freuen))(S(KOUS daß)(NP(NE Elsaß))(AVP(ADV nun))(AVP(ADV wiederum))(PP(APPR zu)(PPOSAT seiner)(ADJA ursprünglichen)(NN Stam-<lb/>mesart))(VP(VVFIN zurückkehrt))(CO(KON und)(S(VP(NP(PPOSAT seinen)(ADJA deutschen)(NN Charakter))(ADV wieder)(VVINF gewinnen))(VP(VMFIN soll))(KOMMA ,)(S:RC(NP(PRELS welchen))(NP(PPER es))(VP(PRF sich)(AP(APPR durch)(ART eine)(AVP(ADV mehr)(S(NP(KOKOM denn)(ADJA zweihundertjährige)(ADJA französische)(NN Herr-<lb/>schaft)(PAV hindurch))(VP(ADV großentheils)(VZ(PTKZU zu)(VVINF wahren))))))(VVPP gewußt))(VP(VAFIN hat))(PUNKT .)))))))))
+# text = Vorausschicken müssen wir hiebei daß wir zu denjenigen Elsäßern gehören die sich von Herzen darüber freuen daß Elsaß nun wiederum zu seiner ursprünglichen Stam-<lb/>mesart zurückkehrt und seinen deutschen Charakter wieder gewinnen soll , welchen es sich durch eine mehr denn zweihundertjährige französische Herr-<lb/>schaft hindurch großentheils zu wahren gewußt hat .
+1	Vorausschicken	Vorausschicken	_	VVINF	_	_	_	_	_	2741-2755	w1d7	Vorausschicken	O	*
+2	müssen	müssen	_	VMFIN	_	_	_	_	_	2756-2762	w1d8	müssen	O	*
+3	wir	wir	_	PPER	_	_	_	_	_	2763-2766	w1d9	wir	B-NP	*
+4	hiebei	hierbei	_	PAV	_	_	_	_	_	2767-2773	w1da	hierbei	B-PP	*
+5	daß	daß	_	KOUS	_	_	_	_	_	2774-2777	w1db	daß	O	*
+6	wir	wir	_	PPER	_	_	_	_	_	2778-2781	w1dc	wir	B-NP	*
+7	zu	zu	_	APPR	_	_	_	_	_	2782-2784	w1dd	zu	B-PP	*
+8	denjenigen	denjenig	_	PDAT	_	_	_	_	_	2785-2795	w1de	denjenigen	I-PP	*
+9	Elsäßern	Elsässer	_	NN	_	_	_	_	_	2796-2804	w1df	Elsässern	I-PP	*
+10	gehören	gehören	_	VVFIN	_	_	_	_	_	2805-2812	w1e0	gehören	O	*
+11	die	d	_	PRELS	_	_	_	_	_	2813-2816	w1e1	die	B-NP	*
+12	sich	sich	_	PRF	_	_	_	_	_	2817-2821	w1e2	sich	B-NP	*
+13	von	von	_	APPR	_	_	_	_	_	2822-2825	w1e3	von	B-PP	*
+14	Herzen	Herz	_	NN	_	_	_	_	_	2826-2832	w1e4	Herzen	I-PP	*
+15	darüber	darüber	_	PAV	_	_	_	_	_	2833-2840	w1e5	darüber	B-PP	*
+16	freuen	freuen	_	VVFIN	_	_	_	_	_	2841-2847	w1e6	freuen	O	*
+17	daß	daß	_	KOUS	_	_	_	_	_	2848-2851	w1e7	daß	O	*
+18	Elsaß	Elsaß	_	NE	_	_	_	_	_	2852-2857	w1e8	Elsaß	B-NP	*
+19	nun	nun	_	ADV	_	_	_	_	_	2858-2861	w1e9	nun	B-ADVP	*
+20	wiederum	wiederum	_	ADV	_	_	_	_	_	2862-2870	w1ea	wiederum	B-ADVP	*
+21	zu	zu	_	APPR	_	_	_	_	_	2871-2873	w1eb	zu	B-PP	*
+22	seiner	seine	_	PPOSAT	_	_	_	_	_	2874-2880	w1ec	seiner	I-PP	*
+23	ursprünglichen	ursprünglich	_	ADJA	_	_	_	_	_	2881-2895	w1ed	ursprünglichen	I-PP	*
+24	Stam-<lb/>mesart	Stammesart	_	NN	_	_	_	_	_	2896-2912	w1ee	Stammesart	I-PP	*
+25	zurückkehrt	zurückkehren	_	VVFIN	_	_	_	_	_	2913-2924	w1ef	zurückkehrt	O	*
+26	und	und	_	KON	_	_	_	_	_	2925-2928	w1f0	und	O	*
+27	seinen	seine	_	PPOSAT	_	_	_	_	_	2929-2935	w1f1	seinen	B-NP	*
+28	deutschen	deutsch	_	ADJA	_	_	_	_	_	2936-2945	w1f2	deutschen	I-NP	*
+29	Charakter	Charakter	_	NN	_	_	_	_	_	2946-2955	w1f3	Charakter	I-NP	*
+30	wieder	wieder	_	ADV	_	_	_	_	_	2956-2962	w1f4	wieder	B-ADVP	*
+31	gewinnen	gewinnen	_	VVINF	_	_	_	_	_	2963-2971	w1f5	gewinnen	O	*
+32	soll	sollen	_	VMFIN	_	_	_	_	_	2972-2976	w1f6	soll	O	*
+33	,	,	_	$,	_	_	_	_	_	2977-2978	w1f7	,	O	*
+34	welchen	welchen	_	PRELS	_	_	_	_	_	2979-2986	w1f8	welchen	B-NP	*
+35	es	es	_	PPER	_	_	_	_	_	2987-2989	w1f9	es	B-NP	*
+36	sich	sich	_	PRF	_	_	_	_	_	2990-2994	w1fa	sich	B-NP	*
+37	durch	durch	_	APPR	_	_	_	_	_	2995-3000	w1fb	durch	B-AP	*
+38	eine	eine	_	ART	_	_	_	_	_	3001-3005	w1fc	eine	I-AP	*
+39	mehr	mehr	_	ADV	_	_	_	_	_	3006-3010	w1fd	mehr	I-AP	*
+40	denn	denn	_	KOKOM	_	_	_	_	_	3011-3015	w1fe	denn	I-AP	*
+41	zweihundertjährige	zweihundertjahrig	_	ADJA	_	_	_	_	_	3016-3034	w1ff	zweihundertjährige	I-AP	*
+42	französische	französisch	_	ADJA	_	_	_	_	_	3035-3047	w200	französische	I-AP	*
+43	Herr-<lb/>schaft	Herrschaft	_	NN	_	_	_	_	_	3048-3064	w201	Herrschaft	I-AP	*
+44	hindurch	hindurch	_	PAV	_	_	_	_	_	3065-3073	w202	hindurch	I-AP	*
+45	großentheils	großenteils	_	ADV	_	_	_	_	_	3074-3086	w203	großenteils	I-AP	*
+46	zu	zu	_	PTKZU	_	_	_	_	_	3087-3089	w204	zu	I-AP	*
+47	wahren	wahren	_	VVINF	_	_	_	_	_	3090-3096	w205	wahren	I-AP	*
+48	gewußt	wissen	_	VVPP	_	_	_	_	_	3097-3103	w206	gewußt	O	*
+49	hat	haben	_	VAFIN	_	_	_	_	_	3104-3107	w207	hat	O	*
+50	.	.	_	$.	_	_	_	_	_	3108-3109	w208	.	O	*
+
+# sent_id = 36
+# sent_id(TSV) = 36
+# PTBstring = (VROOT(S(NP(PDAT Diese)(NN Erklärung))(VP(VMFIN möge))(VP(PPER uns)(ADV zugleich)(PP(APPRART zur)(NN Entschuldigung))(VVINF dienen)(S(KOUS wenn)(NP(PPER wir))(PP(APPR in)(NN folgendem)(NP(ADV vielleicht)(PIS manches)))(VP(VAFIN werden))(VP(VP(VVINF sagen))(VMINF müssen)(S:OC(NP(PRELS was)(NN Fernstehenden))(VP(CO(ADJD auffallend)(KON oder)(AP(PTKA zu)(ADJD scharf)))(VVINF erscheinen))(VP(VMFIN möchte))(PUNKT .)))))))
+# text = Diese Erklärung möge uns zugleich zur Entschuldigung dienen wenn wir in folgendem vielleicht manches werden sagen müssen was Fernstehenden auffallend oder zu scharf erscheinen möchte .
+1	Diese	diese	_	PDAT	_	_	_	_	_	3111-3116	w209	Diese	B-NP	*
+2	Erklärung	Erklärung	_	NN	_	_	_	_	_	3117-3126	w20a	Erklärung	I-NP	*
+3	möge	mögen	_	VMFIN	_	_	_	_	_	3127-3131	w20b	möge	O	*
+4	uns	wir	_	PPER	_	_	_	_	_	3132-3135	w20c	uns	B-NP	*
+5	zugleich	zugleich	_	ADV	_	_	_	_	_	3136-3144	w20d	zugleich	B-ADVP	*
+6	zur	zur	_	APPRART	_	_	_	_	_	3145-3148	w20e	zur	B-PP	*
+7	Entschuldigung	Entschuldigung	_	NN	_	_	_	_	_	3149-3163	w20f	Entschuldigung	I-PP	*
+8	dienen	dienen	_	VVINF	_	_	_	_	_	3164-3170	w210	dienen	O	*
+9	wenn	wenn	_	KOUS	_	_	_	_	_	3171-3175	w211	wenn	O	*
+10	wir	wir	_	PPER	_	_	_	_	_	3176-3179	w212	wir	B-NP	*
+11	in	in	_	APPR	_	_	_	_	_	3180-3182	w213	in	B-PP	*
+12	folgendem	folgend	_	NN	_	_	_	_	_	3183-3192	w214	folgendem	I-PP	*
+13	vielleicht	vielleicht	_	ADV	_	_	_	_	_	3193-3203	w215	vielleicht	I-PP	*
+14	manches	manche	_	PIS	_	_	_	_	_	3204-3211	w216	manches	I-PP	*
+15	werden	werden	_	VAFIN	_	_	_	_	_	3212-3218	w217	werden	O	*
+16	sagen	sagen	_	VVINF	_	_	_	_	_	3219-3224	w218	sagen	O	*
+17	müssen	müssen	_	VMINF	_	_	_	_	_	3225-3231	w219	müssen	O	*
+18	was	was	_	PRELS	_	_	_	_	_	3232-3235	w21a	was	B-NP	*
+19	Fernstehenden	Fernstehende	_	NN	_	_	_	_	_	3236-3249	w21b	Fernstehenden	I-NP	*
+20	auffallend	auffallend	_	ADJD	_	_	_	_	_	3250-3260	w21c	auffallend	B-AP	*
+21	oder	oder	_	KON	_	_	_	_	_	3261-3265	w21d	oder	O	*
+22	zu	zu	_	PTKA	_	_	_	_	_	3266-3268	w21e	zu	B-AP	*
+23	scharf	scharf	_	ADJD	_	_	_	_	_	3269-3275	w21f	scharf	I-AP	*
+24	erscheinen	erscheinen	_	VVINF	_	_	_	_	_	3276-3286	w220	erscheinen	O	*
+25	möchte	mögen	_	VMFIN	_	_	_	_	_	3287-3293	w221	möchte	O	*
+26	.	.	_	$.	_	_	_	_	_	3294-3295	w222	.	O	*
