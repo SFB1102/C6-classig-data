@@ -1,10 +1,10 @@
 # CLASSIG Data
 
-This repository contains the gold data sets, automatically created annotations, and evaluation results from my dissertation *"Computational Methods for Investigating Syntactic Change: Automatic Identification of Extraposition in Modern and Historical German"*.
+This repository contains the gold data sets, automatically created annotations, and evaluation results from my dissertation [*"Computational Methods for Investigating Syntactic Change: Automatic Identification of Extraposition in Modern and Historical German"*](#acknowledgement).
 
 All files in this repository are provided in the [CoNLL-U Plus format](#data-format), which can be readily processed with the [CLASSIG pipeline](https://github.com/rubcompling/classig-pipeline).
 
-The repository includes all data sest that I am allowed to make publicly available. For data sets with restrictive licences (TüBa-D/Z, TüBa-D/S, Tiger), I include information on the train/dev/test splits to make my experiments and results more transparent. For access to the original data, please contact [me](mailto:ortmann@linguistics.rub.de).
+The repository includes all data sest that I am allowed to make publicly available. For data sets with restrictive licences (TüBa-D/Z, TüBa-D/S, Tiger), I include information on the train/dev/test splits to make my experiments and results more transparent. For access to the original data, please [contact us](mailto:comphist@linguistics.rub.de).
 
 Due to space constraints, the data sets and language models from the example analysis in the dissertation cannot be stored in this Git repository. Instead, all resources that can be shared publicly - including the data from this repository - are provided for download at [Zenodo](https://doi.org/10.5281/zenodo.7180973).
 
@@ -25,7 +25,8 @@ Due to space constraints, the data sets and language models from the example ana
     3.4. [Phrases](#phrases)  
     3.5. [Topological Fields](#topological-fields)  
 4. [License](#license)  
-5. [References](#references)  
+5. [Acknowledgement](#acknowledgement)  
+6. [References](#references)  
 
 
 ## Repository Structure
@@ -315,7 +316,13 @@ RIDGES Herbology | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
 
 For the remaining data sets (Gutenberg, OPUS, SdeWaC, SermonOnline), no explicit licenses are mentioned, but attribution is expected. 
 
-If you plan to use any of the provided data sets, models, or results in your work, please cite the original authors and my thesis. Also, I strongly encourage you to consult the descriptions in the thesis for more detailed background information on resource creation, training, and evaluation.
+If you plan to use any of the provided data sets, models, or results in your work, please cite the original authors and [my thesis](#acknowledgement). Also, I strongly encourage you to consult the descriptions in the thesis for more detailed background information on resource creation, training, and evaluation.
+
+## Acknowledgement
+
+If you use the material provided in this repository, please cite:
+
+- Ortmann, Katrin. 2023. Computational Methods for Investigating Syntactic Change: Automatic Identification of Extraposition in Modern and Historical German. *Bochumer Linguistische Arbeitsberichte (BLA), Vol. 25*. [PDF](https://linguistics.rub.de/forschung/arbeitsberichte/25.pdf)
 
 ## References
 
